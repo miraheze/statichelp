@@ -1,0 +1,19 @@
+baseURL = 'https://help.static.wikitide.net/'
+languageCode = 'en-us'
+title = 'Miraheze Help'
+
+[module]
+    [[module.imports]]
+        path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
+        disable = false
+
+[params.social]
+        github = "Miraheze"
+        twitter = "Miraheze"
+
+[params.docs]
+        pathName        = "help"
+        darkMode        = true
+        sidebarIcons    = true
+        titleIcon       = true
+        lastMod         = true
