@@ -1,14 +1,3 @@
-baseURL = 'https://help.static.wikitide.net/'
-languageCode = 'en-us'
-title = 'Miraheze Help'
-
-[params.social]
-        github = "Miraheze"
-        twitter = "Miraheze"
-
-[params.docs]
-        pathName        = "help"
-        darkMode        = true
-        sidebarIcons    = true
-        titleIcon       = true
-        lastMod         = true
+baseURL = "https://help.static.wikitide.net/"
+languageCode = "en-us"
+title = "Miraheze Help"
