@@ -1,11 +1,11 @@
-title = "My Docs"
-baseurl = "http://localhost/"
-canonifyURLs = false
+title = "Miraheze Offline Help"
+baseurl = "https://help.static.wikitide.net/"
+canonifyURLs = true
 disableAliases = true
 disableHugoGeneratorInject = true
 # disableKinds = ["taxonomy", "term"]
 enableEmoji = true
-enableGitInfo = false
+enableGitInfo = true
 enableRobotsTXT = true
 languageCode = "en-US"
 paginate = 10
@@ -17,7 +17,7 @@ defaultContentLanguage = "en"
 disableLanguages = ["de", "nl"]
 defaultContentLanguageInSubdir = false
 
-copyRight = "Copyright (c) 2020-2024 Thulite"
+copyRight = "WikiTide Foundation, Inc."
 
 [build.buildStats]
   enable = true
