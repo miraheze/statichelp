@@ -8,7 +8,7 @@ If you have access to a FIDO2 key, you can use it to add 2FA to your SSH login.
 
 ## Generating the key
 
-There are two options when creating FIDO2-backed keys: sk-ssh-ed25519 and sk-ssh-ecdsa. Due to [policy](/tech-docs/techappointment_and_revocation_policy#new_access), only Ed25519 keys are allowed.
+There are two options when creating FIDO2-backed keys: sk-ssh-ed25519 and sk-ssh-ecdsa. Due to [policy](/tech-docs/techappointment_and_revocation_policy#new-access), only Ed25519 keys are allowed.
 
 Generate your key via `ssh-keygen -t ed25519-sk -C "comment"`. This will create a non-discoverable key. Some additional considerations.
 

@@ -17,7 +17,7 @@ These steps must be performed in order. This list is not exhaustive, but applies
 * Most servers are accessible via SSH by default. In that case, you may find it easier to work via PuTTY or similar. To do that, dump the fingerprint of the SSH host key. For PuTTY, `ssh-keygen -E md5 -l -f /etc/ssh/ssh_host_ed25519_key.pub` seems to be appropriate.
 * When connecting, verify the fingerprint matches. If so, you can proceed with the rest of the steps.
 * Add the fingerprint to [Tech:SSH fingerprints](/tech-docs/techssh_fingerprints). Do this early, so you don't forget this.
-* Configure the server via Puppet: [Adding a new puppet agent (server) to the Puppetserver](/tech-docs/techpuppet#adding_a_new_puppet_agent_28server29_to_the_puppetserver).
+* Configure the server via Puppet: [Adding a new puppet agent (server) to the Puppetserver](/tech-docs/techpuppet#adding-a-new-puppet-agent-28server29-to-the-puppetserver).
 
 ## Decommissioning 
 
@@ -25,7 +25,7 @@ Decommissioning a server means the server will be fully removed from the Mirahez
 
 * Depool the server from the services it's in use for. If the server is a master, failover to a replica or secondary server.
 * Set downtime in Icinga for the server and all of its services, to avoid unnecessary Icinga alerts for the server.
-* Ensure [the server is removed from the Puppet CA and database](/tech-docs/techpuppet#removing_puppet_agent_28server29_on_the_puppetserver).
+* Ensure [the server is removed from the Puppet CA and database](/tech-docs/techpuppet#removing-puppet-agent-28server29-on-the-puppetserver).
 * Remove all references to the server from manifests/site.pp. If the hostname and/or IP address is defined in other code (Hiera variables, mw-config/Database.php, etc.), remove those references as well.
 * Manually remove any traces of PII or other confidential information. On most systems, `rm -rf /root /etc/ssl/private /var/log` does most of the job. If the server was used for database hosting (e.g., MariaDB) or file hosting, please remove such information as well.
 * Cancel the service via the OVH or RamNode control panel. If the server is a Proxmox VM, fully remove the server from the Proxmox inventory.
@@ -36,7 +36,7 @@ Reimaging a server means the server will be kept in use, but a new OS will be in
 
 * Depool the server from the services it's in use for. If the server is a master, failover to a replica or secondary server.
 * Set downtime in Icinga for the server and all of its services, to avoid unnecessary Icinga alerts for the server.
-* Ensure [the server is removed from the Puppet CA and database](/tech-docs/techpuppet#removing_puppet_agent_28server29_on_the_puppetserver).
+* Ensure [the server is removed from the Puppet CA and database](/tech-docs/techpuppet#removing-puppet-agent-28server29-on-the-puppetserver).
 * **If the server will not serve the same role**: remove all references to the server from manifests/site.pp. If the hostname and/or IP address is defined in other code (Hiera variables, mw-config/Database.php, etc.), remove those references as well.
 * Manually remove any traces of PII or other confidential information. On most systems, `rm -rf /root /etc/ssl/private /var/log` does most of the job. If the server was used for database hosting (e.g., MariaDB) or file hosting, please remove such information as well.
 * Reimage the server with a fresh copy of Debian.
