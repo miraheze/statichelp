@@ -33,7 +33,7 @@ An alternative (might be faster in some situations):
 ```
 (the directory at the destination **must** be created before, please specify the correct date as well)
 
-At the destination, the backup must be *prepared*, since the data is not consistent yet. You can do this using mariabackup:
+At the destination, the backup must be *prepared* , since the data is not consistent yet. You can do this using mariabackup:
 ```
 [again, raise the soft open files limit] ulimit -Sn 1000000
 mariabackup --prepare --open-files-limit=900000 --target-dir=/home/dbcopy/backup-db12-10january2020 --use-memory=2G

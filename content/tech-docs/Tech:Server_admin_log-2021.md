@@ -4952,7 +4952,7 @@ title: Tech:Server admin log/2021
 
 ## 2021-04-03 
 
-* 16:00 Reception123: MariaDB [crappygameswiki]> DELETE FROM oldimage WHERE oi_archive_name =*;
+* 16:00 Reception123: MariaDB [crappygameswiki]> DELETE FROM oldimage WHERE oi_archive_name =* ;
 * 15:10 Reception123: renamed khatikwiki to famepediawiki
 * 14:56 Reception123: sudo -u www-data php /srv/mediawiki/w/maintenance/deleteBatch.php --wiki=minecraftwiki --r " [Requested](https://meta.miraheze.org/wiki/phab:T7066)" /home/reception/minecraftdel.txt
 * 14:53 Reception123: reception@jobrunner3:~$ sudo -u www-data php /srv/mediawiki/w/maintenance/updateArticleCount.php --update --wiki trollpastawiki

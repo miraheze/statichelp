@@ -14,7 +14,7 @@ Teklif şablonu [burada](https://meta.miraheze.org/wiki//Template) ve bir alt sa
 Herkes şunları yapabilir:
 * Yeni bir proje önerebilir ([buraya](https://meta.miraheze.org/wiki//Template) bakın).
 * Bir teklif hakkında yorum yapın (ilgili teklifin tartışma sayfasını kullanın).
-* Bir teklif üzerinde çalışın (rehberlik için bir teklifteki [Katkıda Bulunma](https://meta.miraheze.org/wiki/Contributing) ve *başlangıç noktalarına* bakabilirsiniz).
+* Bir teklif üzerinde çalışın (rehberlik için bir teklifteki [Katkıda Bulunma](https://meta.miraheze.org/wiki/Contributing) ve *başlangıç noktalarına*  bakabilirsiniz).
 
 ## Current proposals 
 

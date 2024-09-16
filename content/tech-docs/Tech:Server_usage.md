@@ -427,7 +427,7 @@ Currently, servers at Miraheze are used for:
 | Bookworm |
 | |
 
-*Note*: Some information such as specs may be incorrect.
+*Note* : Some information such as specs may be incorrect.
 
 ## Decommissioned servers 
 

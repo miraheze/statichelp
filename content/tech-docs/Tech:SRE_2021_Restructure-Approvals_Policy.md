@@ -61,7 +61,7 @@ In the event of a situation not covered by this policy, the Board has to pass a 
 
 *Reminder for all: you are working with donor money. Any purchase not for the sake of improving the Miraheze services does not fall under this policy. Misuse of funds is a gross offense.*
 
-The *Technical Team*, also known as *Site Reliability Engineering*, is responsible for hosting the sites and managing the IT services used by Miraheze, has a budget allocated bi-yearly by the Board. A budget period covers Jan 1 – Jun 30 or Jul 1 – Dec 31. This approvals policy should ensure consensus on spending and transparency about Miraheze’s expenses within the Technical Team.
+The *Technical Team* , also known as *Site Reliability Engineering* , is responsible for hosting the sites and managing the IT services used by Miraheze, has a budget allocated bi-yearly by the Board. A budget period covers Jan 1 – Jun 30 or Jul 1 – Dec 31. This approvals policy should ensure consensus on spending and transparency about Miraheze’s expenses within the Technical Team.
 
 Assignment of roles:
 * Budget holder: Ferran Tufan (as appointed by the Board)

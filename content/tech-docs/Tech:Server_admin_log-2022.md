@@ -11920,7 +11920,7 @@ title: Tech:Server admin log/2022
 * 18:52 MirahezeLSBot: [universalomega@test101] finished deploy of {'world': True, 'extensionlist': True} to all - SUCCESS in 328s
 * 18:47 MirahezeLSBot: [universalomega@mwtask111] starting deploy of {'world': True, 'extensionlist': True} to all
 * 18:47 MirahezeLSBot: [universalomega@test101] starting deploy of {'world': True, 'extensionlist': True} to all
-* 18:40 Universal Omega: DELETE FROM oldimage WHERE oi_archive_name=*; on dcmultiversewiki
+* 18:40 Universal Omega: DELETE FROM oldimage WHERE oi_archive_name=* ; on dcmultiversewiki
 * 18:37 Universal Omega: sudo -u www-data rm /srv/mediawiki/cache/l10nupdate-* on mwtask111 and test101
 * 18:34 MirahezeLSBot: [universalomega@test101] finished deploy of {'world': True, 'l10n': True, 'extensionlist': True} to all - SUCCESS in 548s
 * 18:32 MirahezeLSBot: [universalomega@mwtask111] finished deploy of {'world': True, 'l10n': True, 'extensionlist': True} to all - SUCCESS in 458s
@@ -12877,7 +12877,7 @@ title: Tech:Server admin log/2022
 * 14:49 MirahezeLSBot: [reception@mwtask111] sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildall.php --wiki=aikawiki (END - exit=0)
 * 13:53 MirahezeLSBot: [reception@mwtask111] sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildall.php --wiki=aikawiki (START)
 * 13:04 MirahezeLSBot: [reception@mwtask111] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=aikawiki --report 1 --username-prefix=wikia:aika --no-updates /home/reception/aikafandomcom-20211112-history.xml (END - exit=0)
-* 12:52 Reception123: DELETE FROM oldimage WHERE oi_archive_name=*; (frozenplumwiki)
+* 12:52 Reception123: DELETE FROM oldimage WHERE oi_archive_name=* ; (frozenplumwiki)
 * 12:39 MirahezeLSBot: [reception@mwtask111] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=aikawiki --report 1 --username-prefix=wikia:aika --no-updates /home/reception/aikafandomcom-20211112-history.xml (START)
 * 11:44 paladox: mon111: upgrade icinga2
 * 11:27 paladox: mon111: upgrade icingaweb2

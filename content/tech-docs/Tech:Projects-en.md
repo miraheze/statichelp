@@ -15,7 +15,7 @@ A proposal template is available [here](https://meta.miraheze.org/wiki//Template
 Anyone may:
 * Propose a new project (see [here](https://meta.miraheze.org/wiki//Template)).
 * Comment on a proposal (use the talk page of the relevant proposal).
-* Work on a proposal (see [Contributing](https://meta.miraheze.org/wiki/Contributing) and *starting points* in a proposal for guidance).
+* Work on a proposal (see [Contributing](https://meta.miraheze.org/wiki/Contributing) and *starting points*  in a proposal for guidance).
 
 ## Current proposals 
 

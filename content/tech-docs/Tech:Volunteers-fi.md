@@ -3,7 +3,7 @@ title: Tech:Volunteers/fi
 ---
 
  `{{ {{SRE navigation|members|header=<span lang="en" dir="ltr" class="mw-content-ltr">Technology team members</span>|description=Miraheze's Technology team is composed of various members who work together to ensure the stability of the infrastructure behind Miraheze. Learn more on Miraheze Meta.|keywords=miraheze tech, miraheze system administrators, miraheze sysadmins}} }}`
-**Järjestelmän ylläpitäjät** (engl. *System administrators* tai *sysadmins*), ovat vastuussa Mirahezen takana olevan infrastruktuurin teknisestä toiminnasta ja vakaudesta. Tekniseen ryhmään voi ottaa yhtyettä lähettämällä sähköpostia osoitteeseen $tech-mail.
+**Järjestelmän ylläpitäjät** (engl. *System administrators* tai *sysadmins* ), ovat vastuussa Mirahezen takana olevan infrastruktuurin teknisestä toiminnasta ja vakaudesta. Tekniseen ryhmään voi ottaa yhtyettä lähettämällä sähköpostia osoitteeseen $tech-mail.
 
 The team includes volunteers in technical and less-technical roles, including project management and community liaising. You can contact the team at tech `{{ {{@}} }}`miraheze.org.
 

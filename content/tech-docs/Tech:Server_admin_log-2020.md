@@ -2540,7 +2540,7 @@ title: Tech:Server admin log/2020
 * 17:30 paladox: /usr/local/bin/foreachwikiindblist /srv/mediawiki/dblist/all.dblist /srv/mediawiki/w/extensions/SocialProfile/UserStats/maintenance/migrateOldUserStatsUserColumnsToActor.php - test2
 * 15:32 paladox: MariaDB [crappygameswiki]> UPDATE Comments_Vote SET Comment_Vote_actor=(SELECT actor_id FROM actor WHERE actor_name=Comment_Vote_Username);
 * 14:03 paladox: usermod -a -G ssl-cert www-data - test2
-* 02:15 paladox: MariaDB [toxicfandomsandhatedomswiki]> delete from Comments where Comment_Username =*;
+* 02:15 paladox: MariaDB [toxicfandomsandhatedomswiki]> delete from Comments where Comment_Username =* ;
 * 01:35 paladox: test2.php contains `ALTER TABLE /*$wgDBprefix*/Comments MODIFY COLUMN Comment_Date datetime NOT NULL default '1970-01-01 00:00:01';`
 * 01:35 paladox: test.php contains `ALTER TABLE /*$wgDBprefix*/Comments_Vote MODIFY COLUMN Comment_Vote_Date datetime NOT NULL default '1970-01-01 00:00:01';`
 * 01:23 paladox: /usr/local/bin/foreachwikiindblist /srv/mediawiki/dblist/all.dblist /srv/mediawiki/w/extensions/MirahezeMagic/maintenance/updateComments4.php
@@ -3592,7 +3592,7 @@ title: Tech:Server admin log/2020
 * 17:05 paladox: ALTER TABLE /*_*/searchindex MODIFY COLUMN si_title TEXT BINARY NOT NULL; - simswiki
 * 16:59 paladox: ran ./2.sh on db4 (basically finding all titles that are in User Blog Comment on wikia and setting ns id to 3007 from 0)
 * 16:54 Zppix: UPDATE cw_wikis SET wiki_settings = REPLACE(wiki_settings, '"wgServer":"https:\/\/nonsensopedia.org "', null ) WHERE wiki_dbname = 'nonsensopediawiki'; on mw1 using sql.php
-* 01:07 paladox: ALTER TABLE /*_*/searchindex MODIFY COLUMN si_title varchar(300) BINARY NOT NULL default*; - simswiki (applying
+* 01:07 paladox: ALTER TABLE /*_*/searchindex MODIFY COLUMN si_title varchar(300) BINARY NOT NULL default* ; - simswiki (applying
 * 00:49 paladox: MariaDB [simswiki]> update page set page_namespace = 3007 where page_namespace = 3008;
 * 00:42 paladox: remove hack from mw1
 * 00:39 paladox: ALTER TABLE /*_*/searchindex MODIFY COLUMN si_title TEXT BINARY NOT NULL; (applying [https://gerrit.wikimedia.org/r/#/c/mediawiki/core/+/565765/8](https://gerrit.wikimedia.org/r/#/c/mediawiki/core/+/565765/8) to simswiki)
