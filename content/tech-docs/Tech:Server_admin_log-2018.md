@@ -2581,7 +2581,7 @@ title: Tech:Server admin log/2018
 
 ## Information 
 
-All times are in **UTC+0**/ **GMT**.
+All times are in **UTC+0**/**GMT**.
 
 Archives: [2015](https://meta.miraheze.org/wiki//2015), [2016](https://meta.miraheze.org/wiki//2016), [2017](https://meta.miraheze.org/wiki//2017)
 
