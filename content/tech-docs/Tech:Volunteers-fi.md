@@ -17,7 +17,7 @@ The team includes volunteers in technical and less-technical roles, including pr
 ! Palvelimet
 ! GitHub
 ! Phabricator (ylläpitäjä)
-! RamNode <br />& <br /> Backupsy
+! RamNode <br />&<br /> Backupsy
 ! Cloudflare
 ! Verkkotunnuksen rekisteröinti
 ! Grafana (ylläpitäjä)

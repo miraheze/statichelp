@@ -17,7 +17,7 @@ The team includes volunteers in technical and less-technical roles, including pr
 ! شیل
 ! گٹ ہب
 ! پھبریکیٹر (منتظم)
-! RamNode <br />اور <br /> OVH
+! RamNode <br />اور<br /> OVH
 ! Cloudflare
 ! ڈومین رجسٹرار
 ! گرافانا (ایڈمن)

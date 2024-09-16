@@ -12,7 +12,7 @@ The team includes volunteers in technical and less-technical roles, including pr
 |-
 ! class="unsortable"| [ `{{ {{fullurl:Tech:Volunteers/List|action=edit}} }}` +/-]
 ! 名称及职位
-! [IRC](https://meta.miraheze.org/wiki/Special:MyLanguage/IRC)上 <br />Libera Chat的昵称
+! [IRC](https://meta.miraheze.org/wiki/Special:MyLanguage/IRC)上<br />Libera Chat的昵称
 ! 电子邮件地址
 ! Shell
 ! GitHub

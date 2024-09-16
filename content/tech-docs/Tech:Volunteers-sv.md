@@ -17,7 +17,7 @@ The team includes volunteers in technical and less-technical roles, including pr
 ! Skal
 ! GitHub
 ! Phabricator (admin)
-! RamNode <br />& <br /> OVH
+! RamNode <br />&<br /> OVH
 ! Cloudflare
 ! Domänförvaltare
 ! Grafana (admin)

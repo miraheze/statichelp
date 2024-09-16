@@ -25,7 +25,7 @@ The [default.vcl](https://github.com/miraheze/puppet/blob/master/modules/varnish
 
 #### varnishadm 
 
-*Root privileges are required for this tool.* <br />
+*Root privileges are required for this tool.*<br />
 varnishadm is a tool that gives you an interactive (non-interactive is possible, but personally not preferred) shell prompt for managing the Varnish process. You can ban objects from the cache, show backends, view backend health, change backend health status and more.
 
 #### varnishlog 
@@ -63,7 +63,7 @@ Using the `X-Miraheze-Debug` header, you can force the request to be passed to a
 
 ## One-off purges (bans) 
 
-*Credit: [https://wikitech.wikimedia.org/wiki/Varnish](https://wikitech.wikimedia.org/wiki/Varnish)* <br />
+*Credit: [https://wikitech.wikimedia.org/wiki/Varnish](https://wikitech.wikimedia.org/wiki/Varnish)*<br />
 Normally, MediaWiki will purge cache objects with the PURGE protocol. However, sometimes you want to purge more than object (or you want an easier way to purge objects across the fleet without using MediaWiki). This can be done using the [banning](https://www.varnish-cache.org/docs/4.0/users-guide/purging.html#bans) feature in varnishadm. Despite its scary name, banning only ensures that all cached objects matching the given criteria (e.g. req.http.Host == meta.miraheze.org) won't be used anymore.
 
 Due to performance concerns, it's recommended that this feature is only used when needed. While Miraheze's appservers can handle the current amount of traffic (warning: this is a dangerous assumption), we should aim for the highest cache hit rate as possible.

@@ -12,7 +12,7 @@ title: Tech:Volunteers/ja
 |-
 ! class="unsortable"| [ `{{ {{fullurl:Tech:Volunteers/List|action=edit}} }}` +/-]
 ! 名前と権限
-! Libera Chatのニックネーム <br /> [IRC](https://meta.miraheze.org/wiki/Special:MyLanguage/IRC)
+! Libera Chatのニックネーム<br /> [IRC](https://meta.miraheze.org/wiki/Special:MyLanguage/IRC)
 ! メールアドレス
 ! シェル
 ! GitHub

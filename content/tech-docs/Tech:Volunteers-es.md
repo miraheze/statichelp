@@ -17,7 +17,7 @@ The team includes volunteers in technical and less-technical roles, including pr
 ! Cáscara
 ! GitHub
 ! Phabricator (admin)
-! RamNode <br />& <br /> OVH
+! RamNode <br />&<br /> OVH
 ! Cloudflare
 ! Registrador de dominios
 ! Grafana (Admin)
