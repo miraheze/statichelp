@@ -38,31 +38,13 @@ This table indicates the approximate sizes of XMLs/images to be considered for f
 All suggestions below can be exceeded if approved by a MWE that is satisfied a reasonable use case exists, after asking questions. The numbers are not fixed and should not be taken literally (i.e., if there's a 1.1 XML, that won't necessarily require additional questions). If the limit is not exceeded, no additional questions need to be asked and the import can be approved.
 
 | + |
-| Active users |
-| --- |
-| Max XML size (suggestion) |
-| Max images size (suggestion) |
-| Additional comments |
-| 1 |
-| 500 MB |
-| 2.5 GB |
-| If from Wikipedia and not Templates, Gadgets, etc max 100 MB |
-| 2-5 |
-| 1 GB |
-| 5 GB |
-| |
-| 5-15 |
-| 5 GB |
-| 10 GB |
-| |
-| 15-25 |
-| 10 GB |
-| 20 GB |
-| |
-| > 25 |
-| 15 GB |
-| 30 GB |
-| |
+| Active users | Max XML size (suggestion) | Max images size (suggestion) | Additional comments |
+| --- | --- | --- | --- |
+| 1 | 500 MB | 2.5 GB | If from Wikipedia and not Templates, Gadgets, etc max 100 MB |
+| 2-5 | 1 GB | 5 GB |
+| 5-15 | 5 GB | 10 GB |
+| 15-25 | 10 GB | 20 GB |
+| > 25 | 15 GB | 30 GB |
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:SRE_Import_guideline](https://meta.miraheze.org/wiki/Tech:SRE_Import_guideline)

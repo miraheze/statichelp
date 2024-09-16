@@ -5,7 +5,7 @@ title: Tech:Translating Miraheze extensions
 
 Miraheze develops and maintains a few extensions, for example [CreateWiki](https://meta.miraheze.org/wiki/github:miraheze/CreateWiki) and [ManageWiki](https://meta.miraheze.org/wiki/github:miraheze/ManageWiki). As Miraheze has users with no or limited knowledge of English, internationalization is important for such users.
 
-Currently, Miraheze uses [translatewiki.net](https://meta.miraheze.org/wiki/translatewiki:) for CreateWiki and ManageWiki translations.
+Currently, Miraheze uses [translatewiki.net](https://meta.miraheze.org/wiki/translatewiki:) for CreateWiki and ManageWiki translations. See [the translation hub](https://meta.miraheze.org/wiki/translatewiki:Translating:Miraheze) on Translate Wiki.
 
 ## TranslateWiki process
 * Add strings on en.json.
