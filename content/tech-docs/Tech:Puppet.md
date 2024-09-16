@@ -50,6 +50,7 @@ puppet node find <node>
 Here are the steps you should follow when adding a new puppet agent (server) to the Puppetserver:
 
 <!-- TODO: Make this a script rather than a paste -->
+
 * Step 1: Run [https://issue-tracker.miraheze.org/P220](https://issue-tracker.miraheze.org/P220) (you will have to do it a few times as at the apt-install step, it forgets the commands to run after). If you cannot just copy-paste, use a URL to download the script:
 * `wget -O puppet.sh https://phorge-static.wikitide.net/file/data/wmmm75y6r7nls47h6rtf/PHID-FILE-viitpgh7mzarscwsnszy/puppet_install_script`
 * Step 2: (On the **puppetserver**) `cd /etc/puppetlabs/puppet/git && git pull`

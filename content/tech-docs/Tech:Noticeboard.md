@@ -4,6 +4,7 @@ title: Tech:Noticeboard
 
 `{{ {{/header}} }}`
 <!-- DO NOT MODIFY THIS AUTOARCHIVE VALUE UNLESS YOU KNOW WHAT YOU ARE DOING -->
+
 ```
 {{ {{Autoarchive/config
 |archive = Tech:Noticeboard/Archive %(counter)d
