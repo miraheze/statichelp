@@ -141,7 +141,7 @@ deb-src http://security.debian.org/debian-security bookworm/updates main
 deb http://ftp.uk.debian.org/debian/ bookworm-updates main
 deb-src http://ftp.uk.debian.org/debian/ bookworm-updates main
 ```
-* [Run puppet](https://meta.miraheze.org/wiki/Tech:Puppet#Adding_a_new_puppet_agent_.28server.29_to_the_Puppetserver). Do not log out before your user account is set up by puppet; otherwise you'll have a hard time getting back in.
+* [Run puppet](/tech-docs/techpuppet#adding_a_new_puppet_agent_28server29_to_the_puppetserver). Do not log out before your user account is set up by puppet; otherwise you'll have a hard time getting back in.
 ```
 # This file describes the network interfaces available on your system
 # and how to activate them. For more information, see interfaces(5).

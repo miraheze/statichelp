@@ -11,31 +11,31 @@ Push access to the repositories is limited to [system administrators](https://me
 ### puppet 
 
 Puppet is the repository that manages all services/servers.
-* **Push Access**: [Site Reliability Engineers (Infrastructure)](https://meta.miraheze.org/wiki/Tech:Organisation#Team:_Infrastructure,_Site_Reliability_Engineering)
+* **Push Access**: [Site Reliability Engineers (Infrastructure)](/tech-docs/techorganization#team-infrastructure-site-reliability-engineering)
 * **Servers**: [puppet181](/tech-docs/techpuppet181)
 
 ### mw-config 
 
 mw-config (MediaWiki configuration) is the repository that manages settings for MediaWiki.
-* **Push Access**: [Site Reliability Engineers (Infrastructure)](https://meta.miraheze.org/wiki/Tech:Organisation#Team:_Infrastructure,_Site_Reliability_Engineering), [MediaWiki Engineers](https://meta.miraheze.org/wiki/Tech:Organisation#Team:_MediaWiki,_Site_Reliability_Engineering)
+* **Push Access**: [Site Reliability Engineers (Infrastructure)](/tech-docs/techorganization#team-infrastructure-site-reliability-engineering), [MediaWiki Engineers](/tech-docs/techorganization#team-mediawiki-site-reliability-engineering)
 * **Servers**: [mw151](/tech-docs/techmw151), [mw152](/tech-docs/techmw152), [mw161](/tech-docs/techmw161), [mw162](/tech-docs/techmw162), [mw171](/tech-docs/techmw171), [mw172](/tech-docs/techmw172), [mw181](/tech-docs/techmw181), [mw182](/tech-docs/techmw182), [mwtask181](/tech-docs/techmwtask181), [test151](/tech-docs/techtest151)
 
 ### mediawiki 
 
 mediawiki is the repository that manages the MediaWiki source code, skins, and extensions.
-* **Push Access**: [Site Reliability Engineers (Infrastructure)](https://meta.miraheze.org/wiki/Tech:Organisation#Team:_Infrastructure,_Site_Reliability_Engineering), [MediaWiki Engineers](https://meta.miraheze.org/wiki/Tech:Organisation#Team:_MediaWiki,_Site_Reliability_Engineering)
+* **Push Access**: [Site Reliability Engineers (Infrastructure)](/tech-docs/techorganization#team-infrastructure-site-reliability-engineering), [MediaWiki Engineers](/tech-docs/techorganization#team-mediawiki-site-reliability-engineering)
 * **Servers**: [mw151](/tech-docs/techmw151), [mw152](/tech-docs/techmw152), [mw161](/tech-docs/techmw161), [mw162](/tech-docs/techmw162), [mw171](/tech-docs/techmw171), [mw172](/tech-docs/techmw172), [mw181](/tech-docs/techmw181), [mw182](/tech-docs/techmw182), [mwtask181](/tech-docs/techmwtask181), [test151](/tech-docs/techtest151)
 
 ### dns 
 
 [DNS](/tech-docs/techdns) (Domain Name System) is the repository that manages all DNS for Miraheze.
-* **Push Access**: [Site Reliability Engineers (Infrastructure)](https://meta.miraheze.org/wiki/Tech:Organisation#Team:_Infrastructure,_Site_Reliability_Engineering)
+* **Push Access**: [Site Reliability Engineers (Infrastructure)](/tech-docs/techorganization#team-infrastructure-site-reliability-engineering)
 * **Servers**: [ns1](/tech-docs/techns1), [ns2](/tech-docs/techns2)
 
 ### ssl 
 
 [SSL](/tech-docs/techssl_certificates) (Secure Sockets Layer) is the repository that manages all SSL certificates for Miraheze.
-* **Push Access**: [Site Reliability Engineers (Infrastructure)](https://meta.miraheze.org/wiki/Tech:Organisation#Team:_Infrastructure,_Site_Reliability_Engineering), ssl-admins
+* **Push Access**: [Site Reliability Engineers (Infrastructure)](/tech-docs/techorganization#team-infrastructure-site-reliability-engineering), ssl-admins
 * **Servers**: [puppet181](/tech-docs/techpuppet181)
 
 ## MediaWiki extensions and skins 

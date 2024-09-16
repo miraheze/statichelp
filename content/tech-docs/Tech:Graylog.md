@@ -63,7 +63,7 @@ You can also see this quick [video](https://imgur.com/a/yca7doi) on what the con
 
 If using OpenSSH, you can use `ssh -D 8089 <server>.wikitide.net`.
 
-If using a bastion server and your configuration is based on [Tech:SSH#OpenSSH](https://meta.miraheze.org/wiki/Tech:SSH#OpenSSH), you should use `ssh -D 8089 wikitidebast`. This avoids making two SSH connections to the bastion.
+If using a bastion server and your configuration is based on [Tech:SSH#OpenSSH](/tech-docs/techssh#openssh), you should use `ssh -D 8089 wikitidebast`. This avoids making two SSH connections to the bastion.
 
 ### PuTTY 
 

@@ -3,7 +3,9 @@ title: Tech:Upgrading MediaWiki/Branching Commands
 ---
 
 * Follow below to branch extensions/skins/core
-`import os
+```
+<nowiki>
+import os
 from json import loads
 
 file = open('users/me/mediawiki/.branches.json', 'r')
@@ -21,7 +23,9 @@ for branch in file.keys():
 for ext in extensions:
     branch = file['default']
     print(f'fixing {ext} for {branch}')
-    os.system(f'cd /users/me/mediawiki && git submodule set-branch --branch {branch} -- {ext} && cd {ext} && git checkout {branch} && git pull')`
+    os.system(f'cd /users/me/mediawiki && git submodule set-branch --branch {branch} -- {ext} && cd {ext} && git checkout {branch} && git pull')
+</nowiki>
+```
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Upgrading_MediaWiki/Branching_Commands](https://meta.miraheze.org/wiki/Tech:Upgrading_MediaWiki/Branching_Commands)

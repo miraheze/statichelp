@@ -48,7 +48,7 @@ Miraheze's Site Reliability Engineering team have crafted a set of Service Level
 
 | Service | Type | Objective | Dec 22 | Jan 23 | Feb 23 | Mar 23 | Apr 23 | May 23 | Jun 23 | Jul 23 | Aug 23 | Sep 23 | Oct 23 | Nov 23 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| rowspan="2" | [JobQueue](https://meta.miraheze.org/wiki/Tech:MediaWiki_appserver#Jobrunner) | Availability | 99.5% | style="background-color:#f08080;" | [95.30%](https://meta.miraheze.org/wiki/phorge:T10218) | style="background-color:#90ee90;" | 99.90% | style="background-color:#90ee90;" | 100% |
+| rowspan="2" | [JobQueue](/tech-docs/techmediawiki_appserver#jobrunner) | Availability | 99.5% | style="background-color:#f08080;" | [95.30%](https://meta.miraheze.org/wiki/phorge:T10218) | style="background-color:#90ee90;" | 99.90% | style="background-color:#90ee90;" | 100% |
 | Errors | 1.5% | style="background-color:#f08080;" | [1.8%](https://meta.miraheze.org/wiki/phorge:T10218) | style="background-color:#f08080;" | [3.37%](https://meta.miraheze.org/wiki/phorge:T10218) | style="background-color:#90ee90;" | 0.02% |
 | rowspan="3" | [MediaWiki](/tech-docs/techmediawiki_appserver) | Availability | 99% | style="background-color:#f08080;" | [96.5%](https://meta.miraheze.org/wiki/phorge:T10219) | style="background-color:#90ee90;" | 99.30% | style="background-color:#90ee90;" | 99.50% |
 | Error | 3% | style="background-color:#90ee90;" | 2.03% | style="background-color:#90ee90;" | 1.54% | style="background-color:#90ee90;" | 0.35% |

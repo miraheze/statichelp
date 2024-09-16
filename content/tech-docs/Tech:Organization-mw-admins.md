@@ -22,7 +22,7 @@ In case of any doubts regarding a command or configuration change, mw-admins sho
 * They should typically only be run on mwtask181 or mwtask171.
 * Always run them as www-data (prefix command with `sudo -u www-data`).
 * Always `!log` maintenance script runs in #miraheze-tech-ops (unless you were running puppet or were using sql.php, and did **not** execute any queries that changed the database (e.g. SELECT/DESCRIBE queries)
-   * You can optionally use the [mwscript](https://meta.miraheze.org/wiki/Tech:MediaWiki_appserver#mwscript) wrapper to automatically log these.
+   * You can optionally use the [mwscript](/tech-docs/techmediawiki_appserver#mwscript) wrapper to automatically log these.
 * If you need to run a script on all wikis, use the *foreachwikiindblist* wrapper:
 * `sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.json /srv/mediawiki/<version>/maintenance/yourscript.php --put-your-parameters --here`
 * update.php is evil. If you need to run it while you're not doing a MediaWiki upgrade, then something is really wrong.

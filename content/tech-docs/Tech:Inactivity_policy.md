@@ -43,7 +43,7 @@ If a person has been found to be inactive based on the criteria above more than 
 
 If a user resigns due to the fact that they know they will be inactive, they may be re-added more easily than if they were applying for the first time. This however, does not apply to sysadmins who are *removed* for inactivity; they must follow the same procedure as a "new" sysadmin.
 
-If a former sysadmin wishes to come back after having resigned for being inactive, they should follow the [requesting access steps](https://meta.miraheze.org/wiki/Tech:Appointment_and_revocation_policy#How_to_Request_Access) again,. However, instead of the procedure detailed in the [Tech:Appointment and revocation policy](/tech-docs/techappointment_and_revocation_policy), they may be quickly re-added with the common accord of the SRE Management Team.
+If a former sysadmin wishes to come back after having resigned for being inactive, they should follow the [requesting access steps](/tech-docs/techappointment_and_revocation_policy#how_to_request_access) again,. However, instead of the procedure detailed in the [Tech:Appointment and revocation policy](/tech-docs/techappointment_and_revocation_policy), they may be quickly re-added with the common accord of the SRE Management Team.
 
 [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
