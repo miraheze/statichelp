@@ -19,7 +19,7 @@ This is a guide for all Miraheze Site Reliability Engineers. They have access to
 
 * When deploying a change (SSL certificate, database rename, etc.), you are **required** to closely watch the change going live.
 * After committing a change to any repo (and being sure it should work), run `sudo puppet agent -tv` on the server involved. It can take a while before the change is actually deployed.
-* Watch the error logs: [#Monitoring errors](#Monitoring errors).
+* Watch the error logs: [#Monitoring errors](#monitoring-errors).
 
 *Further specifics to be filled in by SRE*
 
@@ -29,7 +29,7 @@ This is a guide for all Miraheze Site Reliability Engineers. They have access to
 
 ## Debugging 
 
-* Look at the [error logs](#Monitoring errors).
+* Look at the [error logs](#monitoring-errors).
 * Try to send the failing HTTP request with the header `X-WikiTide-Debug: 1`, it could be an error that is cached in Varnish.
 
 ## See also 

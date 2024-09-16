@@ -36,7 +36,7 @@ To use TCP, run the following:
 
 `telnet 127.0.0.1 11211`
 
-Then follow [#Commands](#Commands).
+Then follow [#Commands](#commands).
 
 You can do it via PHP by [following](https://meta.miraheze.org/wiki/github:miraheze/MirahezeMagic/blob/e4e20be/includes/MirahezeMagicHooks.php#L263) and the [docs](https://www.php.net/manual/en/class.memcached.php).
 

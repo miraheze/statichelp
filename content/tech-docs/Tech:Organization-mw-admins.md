@@ -42,13 +42,13 @@ See [Tech:Adding a new extension](/tech-docs/techadding_a_new_extension).
    * If a syntax error should occur, push a fixing-commit to the repo(s) and manually run puppet (`sudo puppet agent -t`) on mwtask181.
 * When a configuration variable is changed, you should be completely aware what it does, and how it could impact a wiki security-wise.
 * There is more stuff in LocalSettings.php than just configuration variables, like [this](https://github.com/miraheze/mw-config/blob/d9b720ba7a19fd77d7dc7c08a9e3f640cb6c9b0f/LocalSettings.php#L2905-L3028). You are allowed to edit such stuff, but if you are not familiar with its functionality, it's not recommended to touch it (or to merge pull requests that make changes to this area).
-See [#Deployment](#Deployment) for the rest.
+See [#Deployment](#deployment) for the rest.
 
 ## Deployment 
 
 * When deploying a configuration change or extension, you are **required** to closely watch the change going live.
 * After committing a change to the mediawiki or mw-config repo (and being sure it should work), run `sudo puppet agent -t` on mwtask181. It can take a while before the change is actually deployed.
-* Watch the error logs: [#Monitoring errors](#Monitoring errors).
+* Watch the error logs: [#Monitoring errors](#monitoring-errors).
 
 ## Monitoring errors 
 
@@ -56,7 +56,7 @@ Follow the instructions at [Tech:Graylog](/tech-docs/techgraylog).
 
 ## Debugging 
 
-* Look at the [error logs](#Monitoring errors).
+* Look at the [error logs](#monitoring-errors).
 * Try to send the failing HTTP request to one of the mw servers with the header `X-Miraheze-Debug: (mw1[5678][12]|test151|mwtask181).wikitide.net` (replace with the desired server), it could be an error that is cached in Varnish.
 
 [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)

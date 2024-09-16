@@ -11,7 +11,7 @@ Advisories should only be created for software we build for external parties - t
 If you need to create an advisory, follow the steps below:
 * Go to the repository that is relevant for the code you wish to create an advisory for.
 * Select the 'Security' tab and then on the side menu, select 'Security Advisories' and then press the green button 'New Draft Security Advisory'.
-* Fill out the information to the best of your knowledge currently. If unsure, leave it blank or insert 'N/K'. See an explanation of the [CVSS](#Making an Assessment Using CVSS) matrix.
+* Fill out the information to the best of your knowledge currently. If unsure, leave it blank or insert 'N/K'. See an explanation of the [CVSS](#making-an-assessment-using-cvss) matrix.
 * Once created, on the right-hand side there is an option to invite 'Collaborators' to see the advisory. This can include anyone who may require access to the advisory prior to publishing, such as 'Security' project members who are not in Site Reliability Engineering, the reporter, or any trusted volunteer developer who has or is working on a patch.
 
 **If a fix is possible:**

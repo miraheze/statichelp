@@ -38,7 +38,7 @@ In ultimate emergencies, such as compromised accounts, any member with the relev
 
 ### New Access 
 
-This applies to people, who do not have shell access yet. After you have articulated a valid reason for requesting shell access, and followed the instructions below, your request will be dealt with as [described above](#Appointment).
+This applies to people, who do not have shell access yet. After you have articulated a valid reason for requesting shell access, and followed the instructions below, your request will be dealt with as [described above](#appointment).
 * Ensure you have an account on [GitHub](https://meta.miraheze.org/wiki/github:) and [Phorge](https://meta.miraheze.org/wiki/phorge:) (which requires a Miraheze account).
 * Login into Phorge, and [fill in this form](https://meta.miraheze.org/wiki/phorge:maniphest/task/edit/form/17/) (do not forget to replace "[USERNAME]" with your username!). The form should contain the following information:
    * Miraheze Username

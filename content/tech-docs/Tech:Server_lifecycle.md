@@ -45,7 +45,7 @@ Reimaging a server means the server will be kept in use, but a new OS will be in
 
 ## Upgrade 
 
-An upgrade may be necessary in cases where horizontal scaling (having three smaller servers, instead of one big one) is not possible or needed. Upgrades must follow the [requesting](#Requesting) section above. An upgrade is considered to require a reboot, but without the need for a reimage. If a reimage is needed, please follow both these steps and the steps for [reimaging](#Reimage). The guide expects you have gotten an OK from the service experts, and that they are aware of the upgrades. If a server must be depooled before an upgrade is performed, the guide expects you know how to do that.
+An upgrade may be necessary in cases where horizontal scaling (having three smaller servers, instead of one big one) is not possible or needed. Upgrades must follow the [requesting](#requesting) section above. An upgrade is considered to require a reboot, but without the need for a reimage. If a reimage is needed, please follow both these steps and the steps for [reimaging](#reimage). The guide expects you have gotten an OK from the service experts, and that they are aware of the upgrades. If a server must be depooled before an upgrade is performed, the guide expects you know how to do that.
 
 * Depool the server from the services it's in use for. If the server is a master, failover to a replica or secondary server.
 * Set downtime in Icinga for the server and all of its services, to avoid unnecessary Icinga alerts for the server.
