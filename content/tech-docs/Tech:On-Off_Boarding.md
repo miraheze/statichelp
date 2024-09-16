@@ -41,7 +41,7 @@ This section is generic to all shell requests.
 
 ### LDAP 
 
-* An [LDAP](https://meta.miraheze.org/wiki/Tech:Ldap) account should be made for a new MediaWiki Specialist or Infrastructure Specialist.
+* An [LDAP](/tech-docs/techldap.md) account should be made for a new MediaWiki Specialist or Infrastructure Specialist.
    * On off-boarding, the LDAP account would not necessarily need to be deleted as long as the user doesn't have access to anything private or to execute anything. However, for extra security reasons, the password of the account should be changed to a random hash so that the account can no longer be accessed, but can still exist in the database.
 * Add the user to the relevant LDAP groups (which also determine the emails they receive).
 

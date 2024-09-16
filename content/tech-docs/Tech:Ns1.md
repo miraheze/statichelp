@@ -20,7 +20,7 @@ title: Tech:Ns1
 }} }}
 ```
 
-**ns1** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a server that hosts [DNS](https://meta.miraheze.org/wiki/Tech:DNS).
+**ns1** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a server that hosts [DNS](/tech-docs/techdns.md).
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Ns1](https://meta.miraheze.org/wiki/Tech:Ns1)

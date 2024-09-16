@@ -2,11 +2,11 @@
 title: Tech:Graylog
 ---
 
-**Graylog** is a [log management solution](https://www.graylog.org/) for logs stored on the servers. The web interface is available at [https://logging.wikitide.net/](https://logging.wikitide.net/). Access is restricted to [Technology team department personnel](https://meta.miraheze.org/wiki/Tech:Volunteers). Said people can use their LDAP credentials for authentication.
+**Graylog** is a [log management solution](https://www.graylog.org/) for logs stored on the servers. The web interface is available at [https://logging.wikitide.net/](https://logging.wikitide.net/). Access is restricted to [Technology team department personnel](/tech-docs/techvolunteers.md). Said people can use their LDAP credentials for authentication.
 
 ## Architecture 
 
-Graylog runs on [graylog161.wikitide.net](https://meta.miraheze.org/wiki/Tech:Graylog161) as of now. There are three daemons running there: `graylog-server` for the actual log management, `opensearch` for storing the logs and `mongod` for storing Graylog's configuration.
+Graylog runs on [graylog161.wikitide.net](/tech-docs/techgraylog161.md) as of now. There are three daemons running there: `graylog-server` for the actual log management, `opensearch` for storing the logs and `mongod` for storing Graylog's configuration.
 
 ```
                                                                                                                   
@@ -53,7 +53,7 @@ Graylog has a [search syntax](https://docs.graylog.org/en/4.0/pages/searching/qu
 
 ## Access 
 
-For security reasons, the Graylog interface is inaccessible without a [SOCKS5 proxy](https://meta.miraheze.org/wiki/w:SOCKS#SOCKS5), just like [Proxmox' interface](https://meta.miraheze.org/wiki/Tech:Proxmox). To make the process of using tunnels as easy as possible, please install SmartProxy: [Chrome](https://chrome.google.com/webstore/detail/smartproxy/jogcnplbkgkfdakgdenhlpcfhjioidoj?hl=nl) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/smartproxy/). We'll be using port 8089 (although other ports will work too) on your desktop or laptop, which will be used for a SOCKS5 proxy over SSH. If you have access to graylog161, you can use graylog161.wikitide.net. If you don't have access to graylog161, use either of the Bastion servers (bast*.wikitide.net).
+For security reasons, the Graylog interface is inaccessible without a [SOCKS5 proxy](https://meta.miraheze.org/wiki/w:SOCKS#SOCKS5), just like [Proxmox' interface](/tech-docs/techproxmox.md). To make the process of using tunnels as easy as possible, please install SmartProxy: [Chrome](https://chrome.google.com/webstore/detail/smartproxy/jogcnplbkgkfdakgdenhlpcfhjioidoj?hl=nl) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/smartproxy/). We'll be using port 8089 (although other ports will work too) on your desktop or laptop, which will be used for a SOCKS5 proxy over SSH. If you have access to graylog161, you can use graylog161.wikitide.net. If you don't have access to graylog161, use either of the Bastion servers (bast*.wikitide.net).
 
 In SmartProxy, create a proxy server: Proxy Server > Add server > Name = "WikiTide Proxy", Address = "127.0.0.1", Port = "8089", Protocol = "SOCKS5" > Save. Afterwards, create a proxy rule: Proxy Rules > Add rule > Rule type = "Search Domain and SubDomain", Domain = "logging.wikitide.net", then "Apply Proxy" to "WikiTide Proxy" > Save and then click "Save" on the bottom of the page as well.
 

@@ -12,7 +12,7 @@ The --servers argument must currently be included. You should just append every 
 
 ## Logging 
 
-All errors and warnings will log failure messages to [SAL](https://meta.miraheze.org/wiki/Tech:Server_admin_log). A deployment will abort if the commands to copy data from staging to the canary server.
+All errors and warnings will log failure messages to [SAL](/tech-docs/techserver_admin_log.md). A deployment will abort if the commands to copy data from staging to the canary server.
 
 You can add `--no-log`. This will direct output to your terminal rather than `logsalmsg`.
 

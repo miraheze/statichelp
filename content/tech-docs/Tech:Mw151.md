@@ -20,7 +20,7 @@ title: Tech:Mw151
 }} }}
 ```
 
-**mw151** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a [MediaWiki application server](https://meta.miraheze.org/wiki/Tech:MediaWiki_appserver) which serves articles and the API.
+**mw151** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a [MediaWiki application server](/tech-docs/techmediawiki_appserver.md) which serves articles and the API.
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Mw151](https://meta.miraheze.org/wiki/Tech:Mw151)

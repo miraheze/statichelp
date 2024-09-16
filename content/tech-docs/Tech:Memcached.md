@@ -2,7 +2,7 @@
 title: Tech:Memcached
 ---
 
-Memcached is used for object and session caching. Memcached is currently installed on [mem151](https://meta.miraheze.org/wiki/Tech:Mem151) and [mem161](https://meta.miraheze.org/wiki/Tech:Mem161).
+Memcached is used for object and session caching. Memcached is currently installed on [mem151](/tech-docs/techmem151.md) and [mem161](/tech-docs/techmem161.md).
 
 ## Commands 
 

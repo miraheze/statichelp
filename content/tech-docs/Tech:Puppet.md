@@ -45,7 +45,7 @@ puppet node find <node>
 
 ## Adding a new puppet agent (server) to the Puppetserver 
 
-*This section is only a part of the installation process, see [Tech:Server lifecycle](https://meta.miraheze.org/wiki/Tech:Server_lifecycle) for all steps.*
+*This section is only a part of the installation process, see [Tech:Server lifecycle](/tech-docs/techserver_lifecycle.md) for all steps.*
 
 Here are the steps you should follow when adding a new puppet agent (server) to the Puppetserver:
 
@@ -64,7 +64,7 @@ Here are the steps you should follow when adding a new puppet agent (server) to 
 
 ## Removing puppet agent (server) on the Puppetserver 
 
-*This section is only a part of the decommission and reimage processes, see [Tech:Server lifecycle](https://meta.miraheze.org/wiki/Tech:Server_lifecycle) for all steps.*
+*This section is only a part of the decommission and reimage processes, see [Tech:Server lifecycle](/tech-docs/techserver_lifecycle.md) for all steps.*
 
 Here are the steps you should follow when removing a puppet agent (server) from the Puppetserver:
 

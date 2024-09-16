@@ -4,7 +4,7 @@ title: Tech:Upgrading MediaWiki
 
 ## Pulling the new MediaWiki version
 
-* Update [hieradata/common.yaml](https://meta.miraheze.org/wiki/github:miraheze/puppet/blob/master/hieradata/common.yaml) on [Puppet](https://meta.miraheze.org/wiki/Tech:Puppet) to pull the new version ([example](https://meta.miraheze.org/wiki/github:miraheze/puppet/blob/706206b92cb428ac4223f829b45289066d4e4b05/hieradata/common.yaml#L11C1-L12C22)). Add separately to test151's hieradata ([example](https://meta.miraheze.org/wiki/github:miraheze/puppet/commit/3034cf5fb05ac1bff0dbe216ee36d24d815ca945)). It will be pulled on the next Puppet run.
+* Update [hieradata/common.yaml](https://meta.miraheze.org/wiki/github:miraheze/puppet/blob/master/hieradata/common.yaml) on [Puppet](/tech-docs/techpuppet.md) to pull the new version ([example](https://meta.miraheze.org/wiki/github:miraheze/puppet/blob/706206b92cb428ac4223f829b45289066d4e4b05/hieradata/common.yaml#L11C1-L12C22)). Add separately to test151's hieradata ([example](https://meta.miraheze.org/wiki/github:miraheze/puppet/commit/3034cf5fb05ac1bff0dbe216ee36d24d815ca945)). It will be pulled on the next Puppet run.
 * Make the new release the default version on Mirabeta at test151's hieradata ([example](https://meta.miraheze.org/wiki/github:miraheze/puppet/commit/c5b3003c42b156b320db55356d6bc656ad097640)).
 * Update `MirahezeFunctions`' `MEDIAWIKI_VERSIONS` constant and mark the new version as the "beta" version ([example](https://meta.miraheze.org/wiki/github:miraheze/mw-config/commit/498f935e7f9b679146f48ecdebd5b684f159899b)).
 * Change all wikis on Mirabeta to the new release using the [changeMediaWikiVersion.php](https://meta.miraheze.org/wiki/github:miraheze/MirahezeMagic/blob/master/maintenance/changeMediaWikiVersion.php) maintenance script from MirahezeMagic if this didn't happen automatically.
@@ -24,7 +24,7 @@ Once the new version has been officially released, it's time for prod to be upgr
 
 * Run `mwdeploy --upgrade-world --versions=<new version> --servers=all` on mwtask.
 * Use [findSQLPatches.php](https://meta.miraheze.org/wiki/github:miraheze/MirahezeMagic/blob/master/maintenance/findSQLPatches.php) and [findPossibleUpgradeScripts.php](https://meta.miraheze.org/wiki/github:miraheze/MirahezeMagic/blob/master/maintenance/findPossibleUpgradeScripts.php) to locate any possible needed SQL patches and maintenance scripts. Note them on the upgrade task.
-* The MediaWiki team should now decide on an upgrade date, where at least 2 people (and someone with root access, just in case) will be available during the upgrade and a bit of time after it. This date should be announced on [Discord](https://meta.miraheze.org/wiki/Discord), social media, [on-wiki](https://meta.miraheze.org/wiki/Tech:Noticeboard), etc...
+* The MediaWiki team should now decide on an upgrade date, where at least 2 people (and someone with root access, just in case) will be available during the upgrade and a bit of time after it. This date should be announced on [Discord](https://meta.miraheze.org/wiki/Discord), social media, [on-wiki](/tech-docs/technoticeboard.md), etc...
 * Upgrade all wikis to the new version using [changeMediaWikiVersion.php](https://meta.miraheze.org/wiki/github:miraheze/MirahezeMagic/blob/master/maintenance/changeMediaWikiVersion.php).
 * Set the new version as the default release in [hieradata/common.yaml](https://meta.miraheze.org/wiki/github:miraheze/puppet/blob/master/hieradata/common.yaml).
 * Make the new version the "stable" version on `MirahezeFunctions`' `MEDIAWIKI_VERSIONS` constant.

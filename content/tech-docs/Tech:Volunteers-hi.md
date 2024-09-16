@@ -25,7 +25,7 @@ title: Tech:Volunteers/hi
 
 ## ये भी देखें 
 
-* [Tech:Organization](https://meta.miraheze.org/wiki/Tech:Organization)
+* [Tech:Organization](/tech-docs/techorganization.md)
 * [Board of Directors](https://meta.miraheze.org/wiki/Board_of_Directors)
 
 [Category:Documentation](https://meta.miraheze.org/wiki/Category:Documentation)
