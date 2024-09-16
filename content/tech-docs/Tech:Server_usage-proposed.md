@@ -68,7 +68,7 @@ Below is a list of proposed servers:
 | London, England |
 | Bookworm |
 | |
-| [ns1](/tech-docs/techns1.md) |
+| [ns1](/tech-docs/techns1) |
 | 1 GB |
 | 1 core @ 2 GHz |
 | 10 GB U.2 NVMe |
@@ -76,7 +76,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [ns2](/tech-docs/techns2.md) (cloud17) |
+| [ns2](/tech-docs/techns2) (cloud17) |
 | 1 GB |
 | 1 core (unknown speed) |
 | 10 GB SSD |
@@ -100,7 +100,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [cloud15](/tech-docs/techcloud15.md) |
+| [cloud15](/tech-docs/techcloud15) |
 | 256 GB |
 | 40 cores @ 3.2 GHz |
 | 4 TB U.2 NVMe |
@@ -108,7 +108,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [cloud16](/tech-docs/techcloud16.md) |
+| [cloud16](/tech-docs/techcloud16) |
 | 256 GB |
 | 40 cores @ 3.2 GHz |
 | 4 TB U.2 NVMe |
@@ -116,7 +116,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [cloud17](/tech-docs/techcloud17.md) |
+| [cloud17](/tech-docs/techcloud17) |
 | 256 GB |
 | 40 cores @ 3.2 GHz |
 | 4 TB U.2 NVMe |
@@ -124,7 +124,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [cloud18](/tech-docs/techcloud18.md) |
+| [cloud18](/tech-docs/techcloud18) |
 | 256 GB |
 | 40 cores @ 3.2 GHz |
 | 4 TB U.2 NVMe |
@@ -132,7 +132,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [db151](/tech-docs/techdb151.md) |
+| [db151](/tech-docs/techdb151) |
 | 50 GB |
 | 6 cores (unknown speed) |
 | 1 TB U.2 NVMe |
@@ -140,7 +140,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [db161](/tech-docs/techdb161.md) |
+| [db161](/tech-docs/techdb161) |
 | 50 GB |
 | 6 cores (unknown speed) |
 | 1 TB U.2 NVMe |
@@ -148,7 +148,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [db171](/tech-docs/techdb171.md) |
+| [db171](/tech-docs/techdb171) |
 | 50 GB |
 | 6 cores (unknown speed) |
 | 1 TB U.2 NVMe |
@@ -156,7 +156,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [db181](/tech-docs/techdb181.md) |
+| [db181](/tech-docs/techdb181) |
 | 50 GB |
 | 6 cores (unknown speed) |
 | 1 TB U.2 NVMe |
@@ -164,7 +164,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [db182](/tech-docs/techdb182.md) |
+| [db182](/tech-docs/techdb182) |
 | 14 GB |
 | 6 cores (unknown speed) |
 | 512 GB U.2 NVMe |

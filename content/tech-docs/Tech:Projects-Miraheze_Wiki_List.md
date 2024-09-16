@@ -29,7 +29,7 @@ The extension will mostly be an additional special page (could be at the current
 
 In addition the page could:
 * display a random open and public wiki to suggest to someone to look at,
-* rank wikis by most pages, most recent edits, most active users, most page views (links into [another proposal](/tech-docs/techprojects-wiki_statistics_special_page.md)).
+* rank wikis by most pages, most recent edits, most active users, most page views (links into [another proposal](/tech-docs/techprojects-wiki_statistics_special_page)).
 
 ### API 
 

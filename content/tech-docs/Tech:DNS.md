@@ -2,7 +2,7 @@
 title: Tech:DNS
 ---
 
-Miraheze's DNS is self-hosted, on two servers: [ns1](/tech-docs/techns1.md) and [ns2](/tech-docs/techns2.md). [GDNSD](//github.com/gdnsd/gdnsd) is the software used for this task, and we chose it because GDNSD is open-source, fast, and easy.
+Miraheze's DNS is self-hosted, on two servers: [ns1](/tech-docs/techns1) and [ns2](/tech-docs/techns2). [GDNSD](//github.com/gdnsd/gdnsd) is the software used for this task, and we chose it because GDNSD is open-source, fast, and easy.
 
 ## Configuration 
 

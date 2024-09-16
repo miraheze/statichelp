@@ -25,7 +25,7 @@ The team includes volunteers in technical and less-technical roles, including pr
 
 ## Lihat juga 
 
-* [Tech:Organization](/tech-docs/techorganization.md)
+* [Tech:Organization](/tech-docs/techorganization)
 * [Board of Directors](https://meta.miraheze.org/wiki/Board_of_Directors)
 
 [Category:Documentation](https://meta.miraheze.org/wiki/Category:Documentation)

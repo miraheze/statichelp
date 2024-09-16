@@ -16,7 +16,7 @@ These steps must be performed in order. This list is not exhaustive, but applies
 * Log in via the console, KVM, or whatever it is called by the Service Provider. In most case, you have received the password via mail. Never share root passwords with other people.
 * Most servers are accessible via SSH by default. In that case, you may find it easier to work via PuTTY or similar. To do that, dump the fingerprint of the SSH host key. For PuTTY, `ssh-keygen -E md5 -l -f /etc/ssh/ssh_host_ed25519_key.pub` seems to be appropriate.
 * When connecting, verify the fingerprint matches. If so, you can proceed with the rest of the steps.
-* Add the fingerprint to [Tech:SSH fingerprints](/tech-docs/techssh_fingerprints.md). Do this early, so you don't forget this.
+* Add the fingerprint to [Tech:SSH fingerprints](/tech-docs/techssh_fingerprints). Do this early, so you don't forget this.
 * Configure the server via Puppet: [Adding a new puppet agent (server) to the Puppetserver](https://meta.miraheze.org/wiki/Tech:Puppet#Adding_a_new_puppet_agent_.28server.29_to_the_Puppetserver).
 
 ## Decommissioning 

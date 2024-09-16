@@ -51,7 +51,7 @@ Usage: ` sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cach
 
 ## Jobrunner 
 
-[mwtask181](/tech-docs/techmwtask181.md) is responsible for running jobs on MediaWiki. As mentioned above, maintenance scripts should be run on this server.
+[mwtask181](/tech-docs/techmwtask181) is responsible for running jobs on MediaWiki. As mentioned above, maintenance scripts should be run on this server.
 
 * To see how many jobs are currently waiting to be run on a wiki, you can use the **showJobs.php** maintenance script (`sudo -u www-data php /srv/mediawiki/<version>/maintenance/showJobs.php --wiki=examplewiki`
 
@@ -65,7 +65,7 @@ Metrics regarding the jobqueue and types of jobs can be viewed [via Grafana](htt
 
 ## Nginx 
 
-*See more about Nginx on the main documentation page: [Tech:Nginx](/tech-docs/technginx.md)*
+*See more about Nginx on the main documentation page: [Tech:Nginx](/tech-docs/technginx)*
 
 NGINX is a high-performance web server which Miraheze uses for all of our services that use HTTP.
 
@@ -94,12 +94,12 @@ $ curl -H 'X-Miraheze-Debug: test151.wikitide.net' 'https://allthetropes.org/wik
 
 ## MediaWiki-related Miraheze Guides 
 
-* [Add a new extension](/tech-docs/techadding_a_new_extension.md)
-* [Delete a wiki](/tech-docs/techdelete_a_wiki.md)
-* [Move a wiki to another database server](/tech-docs/techmoving_a_wiki_to_another_database_server.md)
-* [Remove a MediaWiki Extension](/tech-docs/techremoving_an_extension.md)
+* [Add a new extension](/tech-docs/techadding_a_new_extension)
+* [Delete a wiki](/tech-docs/techdelete_a_wiki)
+* [Move a wiki to another database server](/tech-docs/techmoving_a_wiki_to_another_database_server)
+* [Remove a MediaWiki Extension](/tech-docs/techremoving_an_extension)
 * [Update a MediaWiki Extension](https://meta.miraheze.org/wiki/Tech:Updating_an_extension)
-* [How-To upgrade MediaWiki](/tech-docs/techupgrading_mediawiki.md)
+* [How-To upgrade MediaWiki](/tech-docs/techupgrading_mediawiki)
 * [Deploy mediawiki script](https://meta.miraheze.org/wiki/Tech:Deploy-mediawiki)
 
 [Category:Services](https://meta.miraheze.org/wiki/Category:Services)

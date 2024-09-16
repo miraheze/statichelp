@@ -4,7 +4,7 @@ title: Tech:Varnish
 
 [Varnish](https://meta.miraheze.org/wiki/wikipedia:Varnish_(software)) is an HTTP cache proxy, which can serve almost anything (including articles) without asking the MediaWiki appservers.
 
-Miraheze is currently migrating to [Cloudflare](/tech-docs/techcloudflare.md) as a replacement for Varnish. Varnish currently only serves traffic for wikis on *.wikitide.org/*.wikitide.net wikis and for wikis that use Miraheze's DNS nameservers.
+Miraheze is currently migrating to [Cloudflare](/tech-docs/techcloudflare) as a replacement for Varnish. Varnish currently only serves traffic for wikis on *.wikitide.org/*.wikitide.net wikis and for wikis that use Miraheze's DNS nameservers.
 
 ## Basics 
 
@@ -17,7 +17,7 @@ The [default.vcl](https://github.com/miraheze/puppet/blob/master/modules/varnish
 
 ### How traffic goes through 
 
-* Client asks [authoritative DNS](/tech-docs/techdns.md) for the IP of a cache proxy. GeoDNS returns the IP of the nearest cache proxy, and the client will use that cache proxy server;
+* Client asks [authoritative DNS](/tech-docs/techdns) for the IP of a cache proxy. GeoDNS returns the IP of the nearest cache proxy, and the client will use that cache proxy server;
 * NGINX runs on port 80 (for HTTPS redirect) and 443, terminating SSL/TLS. All traffic is passed to Varnish;
 * Varnish will look if the object is (and can be) cached. If yes, traffic will be passed to stunnel (127.0.0.1:8080 for mw151, 127.0.0.1:8081 for mw152). stunnel is needed here because Varnish can't pass traffic to HTTPS backends, that's only for [users that pay](http://info.varnish-software.com/blog/flying-pigs-and-ssl-varnish-cache-plus).
 

@@ -21,7 +21,7 @@ It should be noted that it is a good idea to add any configuration variable the 
 ## See also 
 
 * [Updating an extension](https://meta.miraheze.org/wiki/Tech:Updating_an_extension)
-* [Removing an extension](/tech-docs/techremoving_an_extension.md)
+* [Removing an extension](/tech-docs/techremoving_an_extension)
 
 [Category:Guides](https://meta.miraheze.org/wiki/Category:Guides)
 [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)

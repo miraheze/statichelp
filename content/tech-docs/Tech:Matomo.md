@@ -2,9 +2,9 @@
 title: Tech:Matomo
 ---
 
-**Matomo** is a free, open-source software used for analytics, which is running on [matomo151](/tech-docs/techmatomo151.md). It can be found at [https://analytics.wikitide.net](https://analytics.wikitide.net).
+**Matomo** is a free, open-source software used for analytics, which is running on [matomo151](/tech-docs/techmatomo151). It can be found at [https://analytics.wikitide.net](https://analytics.wikitide.net).
 
-Currently, the only people who have access to Matomo are the [Technology team](/tech-docs/techvolunteers.md) members, who each have an individual account. However, we also use Matomo with an extension called MatomoAnalytics which provides the "Special:Analytics" which is publicly accessible.
+Currently, the only people who have access to Matomo are the [Technology team](/tech-docs/techvolunteers) members, who each have an individual account. However, we also use Matomo with an extension called MatomoAnalytics which provides the "Special:Analytics" which is publicly accessible.
 
 ## Disabling 2FA 
 

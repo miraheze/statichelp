@@ -6,9 +6,9 @@ Miraheze uses salt-ssh to do automated things like running puppet across all hos
 
 ## Salt SSH 
 
-Salt SSH is installed on [puppet181](/tech-docs/techpuppet181.md).
+Salt SSH is installed on [puppet181](/tech-docs/techpuppet181).
 
-To run a salt command, ssh into [puppet181](/tech-docs/techpuppet181.md) and run:
+To run a salt command, ssh into [puppet181](/tech-docs/techpuppet181) and run:
 
 salt-ssh -E '.*' cmd.run 'puppet agent -tv'
 

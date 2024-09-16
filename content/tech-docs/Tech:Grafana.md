@@ -6,7 +6,7 @@ Grafana is used to receive metric information from servers in production such as
 
 ## Central Server 
 
-All data is collected on a central server which also serves the [web interface](https://grafana.wikitide.net/). Currently, this server is [mon181](/tech-docs/techmon181.md). All servers have firewall rules opening the relevant ports that are needed, so the central server can communicate with all the clients and clients can send metric information to the central server.
+All data is collected on a central server which also serves the [web interface](https://grafana.wikitide.net/). Currently, this server is [mon181](/tech-docs/techmon181). All servers have firewall rules opening the relevant ports that are needed, so the central server can communicate with all the clients and clients can send metric information to the central server.
 
 ## Adding New Servers 
 

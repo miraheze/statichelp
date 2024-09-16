@@ -19,26 +19,26 @@ Miraheze's Site Reliability Engineering team have crafted a set of Service Level
 | Service | Type | Objective | Dec 22 | Jan 23 | Feb 23 | Mar 23 | Apr 23 | May 23 | Jun 23 | Jul 23 | Aug 23 | Sep 23 | Oct 23 | Nov 23 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Bastion](https://meta.miraheze.org/wiki/Tech:Bastion) | Availability | 99.5% | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 100% |
-| rowspan="2" | [Cache Proxy](/tech-docs/techvarnish.md) | Availability | 75%/99.5% | style="background-color:#90ee90;" | 75%/99.5% | style="background-color:#90ee90;" | 75%/99.5% | style="background-color:#90ee90;" | 75%/99.9% |
+| rowspan="2" | [Cache Proxy](/tech-docs/techvarnish) | Availability | 75%/99.5% | style="background-color:#90ee90;" | 75%/99.5% | style="background-color:#90ee90;" | 75%/99.5% | style="background-color:#90ee90;" | 75%/99.9% |
 | Error | 7.5% | style="background-color:#90ee90;" | 6.87% | style="background-color:#90ee90;" | 3.81% | style="background-color:#90ee90;" | 4.16% |
-| [Cloud](/tech-docs/techproxmox.md) | Availability | 99.5% | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 100% |
-| rowspan="3" | [DNS](/tech-docs/techdns.md) | Availability | 99.5% | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 100% |
+| [Cloud](/tech-docs/techproxmox) | Availability | 99.5% | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 100% |
+| rowspan="3" | [DNS](/tech-docs/techdns) | Availability | 99.5% | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 100% |
 | Error | 0.5% | style="background-color:#90ee90;" | 0.2% | style="background-color:#90ee90;" | 0.15% | style="background-color:#90ee90;" | 0.16% |
 | Latency | 5ms | style="background-color:#90ee90;" | 3.32ms | style="background-color:#90ee90;" | 3.23ms | style="background-color:#90ee90;" | 3.43ms |
 | [ElasticSearch](https://meta.miraheze.org/wiki/Tech:ElasticSearch) | Availability | 99.5% | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 100% |
-| rowspan="3" | [Graylog](/tech-docs/techgraylog.md) | Availability | 99.5% | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 100% |
+| rowspan="3" | [Graylog](/tech-docs/techgraylog) | Availability | 99.5% | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 100% |
 | Error | 0.5% | style="background-color:#90ee90;" | 0% | style="background-color:#90ee90;" | 0% | style="background-color:#90ee90;" | 0% |
 | Latency | 5ms | style="background-color:#90ee90;" | 0.65ms | style="background-color:#90ee90;" | 0.75ms | style="background-color:#90ee90;" | 1.01ms |
-| [LDAP](/tech-docs/techldap.md) | Availability | 99.5% | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 100% |
+| [LDAP](/tech-docs/techldap) | Availability | 99.5% | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 100% |
 | Error | 1% | style="background-color:#f08080;" | [1.71%](https://meta.miraheze.org/wiki/phorge:T10216) | style="background-color:#90ee90;" | 0.34% | style="background-color:#90ee90;" | 0.83% |
 | Latency | 30s | style="background-color:#90ee90;" | 9.61s | style="background-color:#90ee90;" | 10.80s | style="background-color:#90ee90;" | 28.08s |
-| rowspan="2" | [MariaDB](/tech-docs/techmariadb.md) | Availability | 99.5% | style="background-color:#f08080;" | [98.7%](https://meta.miraheze.org/wiki/phorge:T10217) | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 100% |
+| rowspan="2" | [MariaDB](/tech-docs/techmariadb) | Availability | 99.5% | style="background-color:#f08080;" | [98.7%](https://meta.miraheze.org/wiki/phorge:T10217) | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 100% |
 | Error | 5% | style="background-color:#f08080;" | [7.95%](https://meta.miraheze.org/wiki/phorge:T10217) | style="background-color:#90ee90;" | 0.01% | style="background-color:#90ee90;" | 0.01% |
-| rowspan="2" | [Phorge](/tech-docs/techphorge.md) | Availability | 99.5% | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 99.90% | style="background-color:#90ee90;" | 99.90% |
+| rowspan="2" | [Phorge](/tech-docs/techphorge) | Availability | 99.5% | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 99.90% | style="background-color:#90ee90;" | 99.90% |
 | Latency | 5s | style="background-color:#90ee90;" | 0.44s | style="background-color:#90ee90;" | 0.57s | style="background-color:#90ee90;" | 0.64s |
-| rowspan="2" | [Puppet](/tech-docs/techpuppet.md) | Availability | 99.5% | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 99.99% |
+| rowspan="2" | [Puppet](/tech-docs/techpuppet) | Availability | 99.5% | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 99.99% |
 | Latency | 30ms | style="background-color:#90ee90;" | 17ms | style="background-color:#90ee90;" | 18.40ms | style="background-color:#90ee90;" | 20.90ms |
-| rowspan="3" | [Swift](/tech-docs/techswift.md) | Availability | 99.5% | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 100% |
+| rowspan="3" | [Swift](/tech-docs/techswift) | Availability | 99.5% | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 100% |
 | Error | 1% | style="background-color:#90ee90;" | 0.07% | style="background-color:#f08080;" | [1.06%](https://meta.miraheze.org/wiki/phorge:T10434) | style="background-color:#90ee90;" | 0.75% |
 | Latency | 1s | style="background-color:#90ee90;" | 0.50s | style="background-color:#90ee90;" | 0.54s | style="background-color:#90ee90;" | 0.52s |
 
@@ -50,10 +50,10 @@ Miraheze's Site Reliability Engineering team have crafted a set of Service Level
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | rowspan="2" | [JobQueue](https://meta.miraheze.org/wiki/Tech:MediaWiki_appserver#Jobrunner) | Availability | 99.5% | style="background-color:#f08080;" | [95.30%](https://meta.miraheze.org/wiki/phorge:T10218) | style="background-color:#90ee90;" | 99.90% | style="background-color:#90ee90;" | 100% |
 | Errors | 1.5% | style="background-color:#f08080;" | [1.8%](https://meta.miraheze.org/wiki/phorge:T10218) | style="background-color:#f08080;" | [3.37%](https://meta.miraheze.org/wiki/phorge:T10218) | style="background-color:#90ee90;" | 0.02% |
-| rowspan="3" | [MediaWiki](/tech-docs/techmediawiki_appserver.md) | Availability | 99% | style="background-color:#f08080;" | [96.5%](https://meta.miraheze.org/wiki/phorge:T10219) | style="background-color:#90ee90;" | 99.30% | style="background-color:#90ee90;" | 99.50% |
+| rowspan="3" | [MediaWiki](/tech-docs/techmediawiki_appserver) | Availability | 99% | style="background-color:#f08080;" | [96.5%](https://meta.miraheze.org/wiki/phorge:T10219) | style="background-color:#90ee90;" | 99.30% | style="background-color:#90ee90;" | 99.50% |
 | Error | 3% | style="background-color:#90ee90;" | 2.03% | style="background-color:#90ee90;" | 1.54% | style="background-color:#90ee90;" | 0.35% |
 | Latency | 3s | style="background-color:#90ee90;" | 1.41s | style="background-color:#90ee90;" | 1.41s | style="background-color:#90ee90;" | 1.35s |
-| [Memcached](/tech-docs/techmemcached.md) | Availability | 99.5% | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 100% |
+| [Memcached](/tech-docs/techmemcached) | Availability | 99.5% | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 100% | style="background-color:#90ee90;" | 100% |
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:SLO](https://meta.miraheze.org/wiki/Tech:SLO)

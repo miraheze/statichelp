@@ -20,7 +20,7 @@ title: Tech:Mw162
 }} }}
 ```
 
-**mw162** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a [MediaWiki application server](/tech-docs/techmediawiki_appserver.md) which serves articles and the API.
+**mw162** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a [MediaWiki application server](/tech-docs/techmediawiki_appserver) which serves articles and the API.
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Mw162](https://meta.miraheze.org/wiki/Tech:Mw162)

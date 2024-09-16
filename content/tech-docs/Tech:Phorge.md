@@ -2,7 +2,7 @@
 title: Tech:Phorge
 ---
 
-Phorge is an issue tracking software running on [phorge171](/tech-docs/techphorge171.md).
+Phorge is an issue tracking software running on [phorge171](/tech-docs/techphorge171).
 
 Phorge documentation can be found [here](https://we.phorge.it/book/phorge/).
 

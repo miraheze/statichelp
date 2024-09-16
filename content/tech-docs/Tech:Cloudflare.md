@@ -2,7 +2,7 @@
 title: Tech:Cloudflare
 ---
 
-Miraheze is in the process of migrating to Cloudflare as a replacement of [Varnish](/tech-docs/techvarnish.md).
+Miraheze is in the process of migrating to Cloudflare as a replacement of [Varnish](/tech-docs/techvarnish).
 
 Currently, wikis on all Miraheze-owned domains (except for *.wikitide.net/*.wikitide.org) and custom domain wikis not using Miraheze's DNS servers (but rather [CNAME](https://meta.miraheze.org/wiki/w:CNAME)s or [ANAME](https://meta.miraheze.org/wiki/w:ANAME)s) use Cloudflare.
 

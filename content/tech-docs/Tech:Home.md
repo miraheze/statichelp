@@ -13,7 +13,7 @@ title: Tech:Home
 ### What is the Technology team?
 Who do you think runs the show behind the scenes in the server room? The Technology team (whose members may also be known as **system administrators**, and were formerly known as Site Reliability Engineers) does! We're a group of people who all work together to ensure Miraheze runs smoothly and that our users are satisfied. Just like everyone else, we're unpaid volunteers who love our users and always put them first!
 
-[<span class="mw-ui-button">Learn more about our roles</span>](/tech-docs/techorganization.md)
+[<span class="mw-ui-button">Learn more about our roles</span>](/tech-docs/techorganization)
 ### Did you know?
 
 **Numbers**
@@ -50,15 +50,15 @@ Under the hood, we use lots of software to keep Miraheze up and running. While s
 ```
 ### *In depth* with Technology
 The Technology team strives for transparency. Below are some of our policies and manuals that our members follow.
-* [Access Management Policy](/tech-docs/techappointment_and_revocation_policy.md) ([process document](/tech-docs/techon-off_boarding.md))
-* [Inactivity Policy](/tech-docs/techinactivity_policy.md)
-* [Incident Management and Response](/tech-docs/techincidents.md)
-* [Maintenance policy](/tech-docs/techmaintenance_policy.md)
-* [Organization Overview](/tech-docs/techorganization.md)
-* [Personal Development Policy](/tech-docs/techpersonal_development_policy.md)
-* [Procedures in Case of Compromise](/tech-docs/techcompromised_handling.md)
-* [Security](/tech-docs/techsecurity.md) ([GHSA](/tech-docs/techghsa.md))
-* [Conduct Policy](/tech-docs/techconduct_policy.md)
+* [Access Management Policy](/tech-docs/techappointment_and_revocation_policy) ([process document](/tech-docs/techon-off_boarding))
+* [Inactivity Policy](/tech-docs/techinactivity_policy)
+* [Incident Management and Response](/tech-docs/techincidents)
+* [Maintenance policy](/tech-docs/techmaintenance_policy)
+* [Organization Overview](/tech-docs/techorganization)
+* [Personal Development Policy](/tech-docs/techpersonal_development_policy)
+* [Procedures in Case of Compromise](/tech-docs/techcompromised_handling)
+* [Security](/tech-docs/techsecurity) ([GHSA](/tech-docs/techghsa))
+* [Conduct Policy](/tech-docs/techconduct_policy)
 [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
 ----

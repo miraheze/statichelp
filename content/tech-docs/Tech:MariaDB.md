@@ -6,7 +6,7 @@ MariaDB<sub>(*reference:* English Wikipedia article: [MariaDB](https://meta.mira
 
 ## Configuration 
 
-Database configuration is in [Puppet](/tech-docs/techpuppet.md).
+Database configuration is in [Puppet](/tech-docs/techpuppet).
 
 ## Master-replica replication 
 
