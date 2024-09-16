@@ -84,7 +84,7 @@ Below is a list of proposed servers:
 | |
 | |
 | |
-| [bast161](https://meta.miraheze.org/wiki/Tech:bast161) |
+| [bast161](/tech-docs/techbast161) |
 | 1 GB |
 | 1 core (unknown speed) |
 | 10 GB U.2 NVMe |
@@ -92,7 +92,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [bast181](https://meta.miraheze.org/wiki/Tech:bast181) |
+| [bast181](/tech-docs/techbast181) |
 | 1 GB |
 | 1 core (unknown speed) |
 | 10 GB U.2 NVMe |
@@ -172,7 +172,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [os151](https://meta.miraheze.org/wiki/Tech:os151) |
+| [os151](/tech-docs/techos151) |
 | 8 GB |
 | 2 cores (unknown speed) |
 | 250 GB U.2 NVMe |
@@ -180,7 +180,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [os161](https://meta.miraheze.org/wiki/Tech:os161) |
+| [os161](/tech-docs/techos161) |
 | 8 GB |
 | 2 cores (unknown speed) |
 | 250 GB U.2 NVMe |
@@ -188,7 +188,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [graylog161](https://meta.miraheze.org/wiki/Tech:graylog161) |
+| [graylog161](/tech-docs/techgraylog161) |
 | 6 GB |
 | 4 core (unknown speed) |
 | 20 GB U.2 NVMe |
@@ -196,7 +196,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [jobchron171](https://meta.miraheze.org/wiki/Tech:jobchron171) |
+| [jobchron171](/tech-docs/techjobchron171) |
 | 2 GB |
 | 2 core (unknown speed) |
 | 9 GB U.2 NVMe |
@@ -204,7 +204,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [ldap171](https://meta.miraheze.org/wiki/Tech:ldap171) |
+| [ldap171](/tech-docs/techldap171) |
 | 1 GB |
 | 1 core (unknown speed) |
 | 10 GB U.2 NVMe |
@@ -212,7 +212,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [matomo151](https://meta.miraheze.org/wiki/Tech:matomo151) |
+| [matomo151](/tech-docs/techmatomo151) |
 | 4 GB |
 | 4 cores (unknown speed) |
 | 20 GB U.2 NVMe |
@@ -220,7 +220,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [mem151](https://meta.miraheze.org/wiki/Tech:mem151) |
+| [mem151](/tech-docs/techmem151) |
 | 64 GB |
 | 2 core (unknown speed) |
 | 10 GB U.2 NVMe |
@@ -228,7 +228,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [mem161](https://meta.miraheze.org/wiki/Tech:mem161) |
+| [mem161](/tech-docs/techmem161) |
 | 64 GB |
 | 2 core (unknown speed) |
 | 10 GB U.2 NVMe |
@@ -236,7 +236,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [mon181](https://meta.miraheze.org/wiki/Tech:mon181) |
+| [mon181](/tech-docs/techmon181) |
 | 4 GB |
 | 4 cores (unknown speed) |
 | 20 GB U.2 NVMe |
@@ -244,7 +244,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [mw151](https://meta.miraheze.org/wiki/Tech:mw151) |
+| [mw151](/tech-docs/techmw151) |
 | 12 GB |
 | 12 cores (unknown speed) |
 | 60 GB U.2 NVMe |
@@ -252,7 +252,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [mw152](https://meta.miraheze.org/wiki/Tech:mw152) |
+| [mw152](/tech-docs/techmw152) |
 | 12 GB |
 | 12 cores (unknown speed) |
 | 60 GB U.2 NVMe |
@@ -260,7 +260,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [mw161](https://meta.miraheze.org/wiki/Tech:mw161) |
+| [mw161](/tech-docs/techmw161) |
 | 12 GB |
 | 12 cores (unknown speed) |
 | 60 GB U.2 NVMe |
@@ -268,7 +268,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [mw162](https://meta.miraheze.org/wiki/Tech:mw162) |
+| [mw162](/tech-docs/techmw162) |
 | 12 GB |
 | 12 cores (unknown speed) |
 | 60 GB U.2 NVMe |
@@ -276,7 +276,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [mw171](https://meta.miraheze.org/wiki/Tech:mw171) |
+| [mw171](/tech-docs/techmw171) |
 | 12 GB |
 | 12 cores (unknown speed) |
 | 60 GB U.2 NVMe |
@@ -284,7 +284,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [mw172](https://meta.miraheze.org/wiki/Tech:mw172) |
+| [mw172](/tech-docs/techmw172) |
 | 12 GB |
 | 12 cores (unknown speed) |
 | 60 GB U.2 NVMe |
@@ -292,7 +292,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [mw181](https://meta.miraheze.org/wiki/Tech:mw181) |
+| [mw181](/tech-docs/techmw181) |
 | 12 GB |
 | 12 cores (unknown speed) |
 | 60 GB U.2 NVMe |
@@ -300,7 +300,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [mw182](https://meta.miraheze.org/wiki/Tech:mw182) |
+| [mw182](/tech-docs/techmw182) |
 | 12 GB |
 | 12 cores (unknown speed) |
 | 60 GB U.2 NVMe |
@@ -308,7 +308,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [mwtask181](https://meta.miraheze.org/wiki/Tech:mwtask181) |
+| [mwtask181](/tech-docs/techmwtask181) |
 | 12 GB |
 | 12 cores (unknown speed) |
 | 250 GB U.2 NVMe |
@@ -316,7 +316,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [phorge171](https://meta.miraheze.org/wiki/Tech:phorge171) |
+| [phorge171](/tech-docs/techphorge171) |
 | 2 GB |
 | 1 core (unknown speed) |
 | 50 GB U.2 NVMe |
@@ -324,7 +324,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [prometheus151](https://meta.miraheze.org/wiki/Tech:prometheus151) |
+| [prometheus151](/tech-docs/techprometheus151) |
 | 2 GB |
 | 2 cores (unknown speed) |
 | 150 GB U.2 NVMe |
@@ -332,7 +332,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [puppet181](https://meta.miraheze.org/wiki/Tech:puppet181) |
+| [puppet181](/tech-docs/techpuppet181) |
 | 8 GB |
 | 6 cores (unknown speed) |
 | 35 GB U.2 NVMe |
@@ -340,7 +340,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [reports171](https://meta.miraheze.org/wiki/Tech:reports171) |
+| [reports171](/tech-docs/techreports171) |
 | 1 GB |
 | 2 cores (unknown speed) |
 | 20 GB U.2 NVMe |
@@ -348,7 +348,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [swiftac171](https://meta.miraheze.org/wiki/Tech:swiftac171) |
+| [swiftac171](/tech-docs/techswiftac171) |
 | 6 GB |
 | 6 cores (unknown speed) |
 | 100 GB U.2 NVMe |
@@ -356,7 +356,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [swiftobject151](https://meta.miraheze.org/wiki/Tech:swiftobject151) |
+| [swiftobject151](/tech-docs/techswiftobject151) |
 | 6 GB |
 | 6 cores (unknown speed) |
 | 1.5 TB U.2 NVMe |
@@ -364,7 +364,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [swiftobject161](https://meta.miraheze.org/wiki/Tech:swiftobject161) |
+| [swiftobject161](/tech-docs/techswiftobject161) |
 | 6 GB |
 | 6 cores (unknown speed) |
 | 1.5 TB U.2 NVMe |
@@ -372,7 +372,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [swiftobject171](https://meta.miraheze.org/wiki/Tech:swiftobject171) |
+| [swiftobject171](/tech-docs/techswiftobject171) |
 | 6 GB |
 | 6 cores (unknown speed) |
 | 1.5 TB U.2 NVMe |
@@ -380,7 +380,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [swiftobject181](https://meta.miraheze.org/wiki/Tech:swiftobject181) |
+| [swiftobject181](/tech-docs/techswiftobject181) |
 | 6 GB |
 | 6 cores (unknown speed) |
 | 1.5 TB U.2 NVMe |
@@ -388,7 +388,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [swiftproxy161](https://meta.miraheze.org/wiki/Tech:swiftproxy161) |
+| [swiftproxy161](/tech-docs/techswiftproxy161) |
 | 4 GB |
 | 4 cores (unknown speed) |
 | 30 GB U.2 NVMe |
@@ -396,7 +396,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [swiftproxy171](https://meta.miraheze.org/wiki/Tech:swiftproxy171) |
+| [swiftproxy171](/tech-docs/techswiftproxy171) |
 | 4 GB |
 | 4 cores (unknown speed) |
 | 30 GB U.2 NVMe |
@@ -404,7 +404,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [test151](https://meta.miraheze.org/wiki/Tech:test151) |
+| [test151](/tech-docs/techtest151) |
 | 12 GB |
 | 12 cores (unknown speed) |
 | 100 GB U.2 NVMe |

@@ -4,6 +4,7 @@ title: Tech:Server admin log
 
 ## 2024-09-16 
 
+* 13:16 Reception123: salt-ssh -E 'mw.*' cmd.run 'sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.json /srv/mediawiki/1.42/maintenance/run.php /srv/mediawiki/1.42/extensions/MirahezeMagic/maintenance/resetWikiCaches.php'  on all mw servers
 * 02:39 MirahezeLSBot: [agent@mwtask181] finished deploy of {'l10n': True, 'force': True, 'versions': '1.42'} to all - SUCCESS in 606s
 * 02:29 MirahezeLSBot: [agent@mwtask181] starting deploy of {'l10n': True, 'force': True, 'versions': '1.42'} to all
 * 02:22 MirahezeLSBot: [agent@mwtask181] finished deploy of {'versions': '1.42', 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 26s

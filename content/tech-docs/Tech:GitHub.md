@@ -12,7 +12,7 @@ Push access to the repositories is limited to [system administrators](https://me
 
 Puppet is the repository that manages all services/servers.
 * **Push Access**: [Site Reliability Engineers (Infrastructure)](https://meta.miraheze.org/wiki/Tech:Organisation#Team:_Infrastructure,_Site_Reliability_Engineering)
-* **Servers**: [puppet181](https://meta.miraheze.org/wiki/Tech:puppet181)
+* **Servers**: [puppet181](/tech-docs/techpuppet181)
 
 ### mw-config 
 

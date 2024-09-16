@@ -33,7 +33,7 @@ Unlike most extensions, Semantic MediaWiki is not installed via git, but rather 
 
 To upgrade SMW follow the following steps:
 * Bump the version in the composer.local.json in the mediawiki-repos git repository
-* Run puppet on [puppet181](https://meta.miraheze.org/wiki/Tech:puppet181)
+* Run puppet on [puppet181](/tech-docs/techpuppet181)
 * Run puppet on [mwtask181](/tech-docs/techmwtask181) and [test151](/tech-docs/techtest151)
 * Run `mwdeploy --world --versions=all --servers=all` on [mwtask181](/tech-docs/techmwtask181) and [test151](/tech-docs/techtest151)
 
