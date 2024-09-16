@@ -70,9 +70,9 @@ For a non-LE cert, both the public and private keys would have to be removed man
 
 ## See also 
 
-[Custom domains](https://meta.miraheze.org/wiki/Custom_domains)
+* [Custom domains](https://meta.miraheze.org/wiki/Custom_domains)
 
-[SSL certs](https://meta.miraheze.org/wiki/Category:Guides_for_sysadmins)
+[Category:Guides for sysadmins](https://meta.miraheze.org/wiki/Category:Guides_for_sysadmins)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:SSL_certificates](https://meta.miraheze.org/wiki/Tech:SSL_certificates)
