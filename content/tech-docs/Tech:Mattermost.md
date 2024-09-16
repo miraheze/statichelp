@@ -20,7 +20,7 @@ The end result should be made public if possible (non sensitive/confidential), h
 
 **All members of the following groups should be given access to Mattermost**:
 * [Board Directors](https://meta.miraheze.org/wiki/Special:MyLanguage/Board_of_Directors)
-* [Technology team volunteers](https://meta.miraheze.org/wiki/Special:MyLanguage/Tech:Volunteers)
+* [Technology team volunteers](/tech-docs/techvolunteers)
 * [Trust and Safety members](https://meta.miraheze.org/wiki/Special:MyLanguage/Trust_and_Safety)
 
 **Channel Information**:
