@@ -13,7 +13,7 @@ title: Tech:Noticeboard/Archives
  `{{ {{Collapse bottom}} }}`
 
 <!--</includeonly>-->
- [Category:Archives of Technology noticeboard](https://meta.miraheze.org/wiki/Category:Archives_of_Technology_noticeboard)
+[Category:Archives of Technology noticeboard](https://meta.miraheze.org/wiki/Category:Archives_of_Technology_noticeboard)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Noticeboard/Archives](https://meta.miraheze.org/wiki/Tech:Noticeboard/Archives)

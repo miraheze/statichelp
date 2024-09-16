@@ -2,8 +2,7 @@
 title: Tech:Volunteers/List
 ---
 
-<div style="width: 100%; overflow: auto;>
-<noinclude>
+
 | class="unsortable"| <span style="font-size: 90%;" class="plainlinks">[{{fullurl:Tech:SRE Volunteers/List|action=edit}} +/-]</span> |
 | --- |
 | Name & Role | Libera Chat nickname <br /> on [[Special:MyLanguage/IRC|IRC]] | E-mail | Shell | GitHub | Phorge (admin) | Service Providers | Cloudflare | Domain Registrar | Grafana (admin) |
@@ -47,7 +46,7 @@ title: Tech:Volunteers/List
 | [Universal Omega](https://meta.miraheze.org/wiki/User:Universal_Omega) |
 | *Director of Technology* |
 | CosmicAlpha | universalomega `{{ {{@}} }}`miraheze.org | Root on all servers | Owner | Yes | Yes | Yes | Yes | Yes |
-</div>
+
 [Category:Lists of users](https://meta.miraheze.org/wiki/Category:Lists_of_users)
 
 ----
