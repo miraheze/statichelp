@@ -41,10 +41,10 @@ All suggestions below can be exceeded if approved by a MWE that is satisfied a r
 | Active users | Max XML size (suggestion) | Max images size (suggestion) | Additional comments |
 | --- | --- | --- | --- |
 | 1 | 500 MB | 2.5 GB | If from Wikipedia and not Templates, Gadgets, etc max 100 MB |
-| 2-5 | 1 GB | 5 GB |
-| 5-15 | 5 GB | 10 GB |
-| 15-25 | 10 GB | 20 GB |
-| > 25 | 15 GB | 30 GB |
+| 2-5 | 1 GB | 5 GB | |
+| 5-15 | 5 GB | 10 GB | |
+| 15-25 | 10 GB | 20 GB | |
+| > 25 | 15 GB | 30 GB | |
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:SRE_Import_guideline](https://meta.miraheze.org/wiki/Tech:SRE_Import_guideline)

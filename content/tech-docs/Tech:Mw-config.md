@@ -12,23 +12,23 @@ mw-config is split up into multiple files, in sharp contrast with the all-encomp
 * **Local** means affecting one or more wikis in Miraheze, but not all of them.
 
 | + Files and their purpose |
-| File | Purpose |
-| --- | --- |
-| Database.php | Database-related configuration, for all the farm |
-| FileBackend.php | File storage-related configuration, for all the farm |
-| GlobalCache.php | Cache related-configuration, for all the farm |
-| GlobalExtensions.php | Extensions loaded on all of Miraheze's wikis. These ones cannot be disabled via ManageWiki |
-| GlobalLogging.php | Miraheze's logging configuration |
-| GlobalSettings.php | A bit of a mess. Contains all of our globally-installed hooks, handles loading some wiki-specific extensions, as well as loading dependencies of some extensions (unused?) *some* globally-applied configs, and much more |
-| GlobalSkins.php | Skins loaded in all of our wikis. These ones cannot be disabled via ManageWiki |
-| InterwikiSortOrders.php | Configuration for $wgInterwikiSortingInterwikiSortOrders, from the InterwikiSorting extension |
-| LocalSettings.php | The entry point. Loads the rest of the files, has some configs, but is mostly used for configurating variables the same way you'd do in standard MediaWiki, but through wgConf instead. |
-| LocalWiki.php | Wiki-specific settings that cannot be done through ManageWiki or LocalSettings.php's wgConf, as well as custom hook handlers for the wikis |
-| ManageWikiExtensions.php | Entries for all the extensions that can be configured through ManageWiki |
-| ManageWikiNamespaces.php | Configuration related to namespaces |
-| ManageWikiSettings.php | Configuration for all the variables that can be configured via ManageWiki |
-| SemanticMediaWiki.php | Configuration specific to the Semantic MediaWiki extension |
-| Wikibase.php | Configuration specific to the Wikibase extensions |
+| File | | Purpose |
+| --- | --- | --- |
+| Database.php | | Database-related configuration, for all the farm |
+| FileBackend.php | | File storage-related configuration, for all the farm |
+| GlobalCache.php | | Cache related-configuration, for all the farm |
+| GlobalExtensions.php | | Extensions loaded on all of Miraheze's wikis. These ones cannot be disabled via ManageWiki |
+| GlobalLogging.php | | Miraheze's logging configuration |
+| GlobalSettings.php | | A bit of a mess. Contains all of our globally-installed hooks, handles loading some wiki-specific extensions, as well as loading dependencies of some extensions (unused?) *some* globally-applied configs, and much more |
+| GlobalSkins.php | | Skins loaded in all of our wikis. These ones cannot be disabled via ManageWiki |
+| InterwikiSortOrders.php | | Configuration for $wgInterwikiSortingInterwikiSortOrders, from the InterwikiSorting extension |
+| LocalSettings.php | | The entry point. Loads the rest of the files, has some configs, but is mostly used for configurating variables the same way you'd do in standard MediaWiki, but through wgConf instead. |
+| LocalWiki.php | | Wiki-specific settings that cannot be done through ManageWiki or LocalSettings.php's wgConf, as well as custom hook handlers for the wikis |
+| ManageWikiExtensions.php | | Entries for all the extensions that can be configured through ManageWiki |
+| ManageWikiNamespaces.php | | Configuration related to namespaces |
+| ManageWikiSettings.php | | Configuration for all the variables that can be configured via ManageWiki |
+| SemanticMediaWiki.php | | Configuration specific to the Semantic MediaWiki extension |
+| Wikibase.php | | Configuration specific to the Wikibase extensions |
 
 ## How to do some typical changes
 

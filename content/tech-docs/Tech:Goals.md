@@ -21,21 +21,21 @@ Site Reliability Engineering tasks being considered for a goal are left at the d
 
 ## Review of Past Goals 
 
-| Goal Period | Number of Goals | Goals Resolved | Goals Unresolved | Completion Percentage |
-| --- | --- | --- | --- | --- |
-| July - December 2016 | 7 | 6 | 1 | 86% |
-| January - June 2017 | 6 | 2 | 4 | 33% |
-| July - December 2017 | 5 | 3 | 2 | 60% |
-| January - June 2018 | 12 | 12 | 0 | 100% |
-| July - December 2018 | 20 | 20 | 0 | 100% |
-| January - June 2019 | 8 | 8 | 0 | 100% |
-| July - December 2019 | 10 | 7 | 3 | 70% |
-| January - June 2020 | 13 | 8 | 5 | 62% |
-| July - December 2020 | 14 | 9 | 5 | 64% |
-| January - June 2021 | 8 | 3 | 5 | 38% |
-| July - December 2021 | 13 | 11 | 2 | 85% |
-| January - June 2022 | 5 | 2 | 3 | 40% |
-| July - December 2022 | 7 | 6 | 1 | 86% |
+| Goal Period | | Number of Goals |  | Goals Resolved |  | Goals Unresolved |  | Completion Percentage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| July - December 2016 | | 7 |  | 6 |  | 1 |  | 86% |
+| January - June 2017 | | 6 |  | 2 |  | 4 |  | 33% |
+| July - December 2017 | | 5 |  | 3 |  | 2 |  | 60% |
+| January - June 2018 | | 12 |  | 12 |  | 0 |  | 100% |
+| July - December 2018 | | 20 |  | 20 |  | 0 |  | 100% |
+| January - June 2019 | | 8 |  | 8 |  | 0 |  | 100% |
+| July - December 2019 | | 10 |  | 7 |  | 3 |  | 70% |
+| January - June 2020 | | 13 |  | 8 |  | 5 |  | 62% |
+| July - December 2020 | | 14 |  | 9 |  | 5 |  | 64% |
+| January - June 2021 | | 8 |  | 3 |  | 5 |  | 38% |
+| July - December 2021 | | 13 |  | 11 |  | 2 |  | 85% |
+| January - June 2022 | | 5 |  | 2 |  | 3 |  | 40% |
+| July - December 2022 | | 7 |  | 6 |  | 1 |  | 86% |
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Goals](https://meta.miraheze.org/wiki/Tech:Goals)
