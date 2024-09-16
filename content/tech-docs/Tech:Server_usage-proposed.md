@@ -68,7 +68,7 @@ Below is a list of proposed servers:
 | London, England |
 | Bookworm |
 | |
-| [ns1](Tech:Ns1.md) |
+| [ns1](https://meta.miraheze.org/wiki/Tech:Ns1) |
 | 1 GB |
 | 1 core @ 2 GHz |
 | 10 GB U.2 NVMe |
@@ -76,7 +76,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [ns2](Tech:Ns2.md) (cloud17) |
+| [ns2](https://meta.miraheze.org/wiki/Tech:Ns2) (cloud17) |
 | 1 GB |
 | 1 core (unknown speed) |
 | 10 GB SSD |
@@ -100,7 +100,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [cloud15](Tech:Cloud15.md) |
+| [cloud15](https://meta.miraheze.org/wiki/Tech:Cloud15) |
 | 256 GB |
 | 40 cores @ 3.2 GHz |
 | 4 TB U.2 NVMe |
@@ -108,7 +108,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [cloud16](Tech:Cloud16.md) |
+| [cloud16](https://meta.miraheze.org/wiki/Tech:Cloud16) |
 | 256 GB |
 | 40 cores @ 3.2 GHz |
 | 4 TB U.2 NVMe |
@@ -116,7 +116,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [cloud17](Tech:Cloud17.md) |
+| [cloud17](https://meta.miraheze.org/wiki/Tech:Cloud17) |
 | 256 GB |
 | 40 cores @ 3.2 GHz |
 | 4 TB U.2 NVMe |
@@ -124,7 +124,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [cloud18](Tech:Cloud18.md) |
+| [cloud18](https://meta.miraheze.org/wiki/Tech:Cloud18) |
 | 256 GB |
 | 40 cores @ 3.2 GHz |
 | 4 TB U.2 NVMe |
@@ -132,7 +132,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [db151](Tech:Db151.md) |
+| [db151](https://meta.miraheze.org/wiki/Tech:Db151) |
 | 50 GB |
 | 6 cores (unknown speed) |
 | 1 TB U.2 NVMe |
@@ -140,7 +140,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [db161](Tech:Db161.md) |
+| [db161](https://meta.miraheze.org/wiki/Tech:Db161) |
 | 50 GB |
 | 6 cores (unknown speed) |
 | 1 TB U.2 NVMe |
@@ -148,7 +148,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [db171](Tech:Db171.md) |
+| [db171](https://meta.miraheze.org/wiki/Tech:Db171) |
 | 50 GB |
 | 6 cores (unknown speed) |
 | 1 TB U.2 NVMe |
@@ -156,7 +156,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [db181](Tech:Db181.md) |
+| [db181](https://meta.miraheze.org/wiki/Tech:Db181) |
 | 50 GB |
 | 6 cores (unknown speed) |
 | 1 TB U.2 NVMe |
@@ -164,7 +164,7 @@ Below is a list of proposed servers:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [db182](Tech:Db182.md) |
+| [db182](https://meta.miraheze.org/wiki/Tech:Db182) |
 | 14 GB |
 | 6 cores (unknown speed) |
 | 512 GB U.2 NVMe |

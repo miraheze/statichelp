@@ -10,7 +10,7 @@ This is a guide for all Miraheze Site Reliability Engineers. They have access to
 * Don't suddenly change big parts of the infrastructure (MediaWiki, Varnish, Bacula, etc.) (e.g., way how things are done in the current style) without discussing it with the other site reliability engineers (and any sysadmins).
 * Be **VERY** careful when manipulating sensitive data (such as db* or nfs*) as it could lead to data loss.
 * Don't use the servers for non-Miraheze purposes.
-* Don't put abnormally high load(s) on the server(s) if avoidable. ([Grafana](Tech:Grafana.md) can be used for more details).
+* Don't put abnormally high load(s) on the server(s) if avoidable. ([Grafana](https://meta.miraheze.org/wiki/Tech:Grafana) can be used for more details).
 * Respect privacy. Don't publish access logs, IP addresses, content of private wikis, or other personally identifiable information. If in doubt, ask before publishing.
 * Don't publish database passwords, private keys, etc as well.
  `{{ {{note}} }}` Violation of these rules can result in warnings or revocation of access.
@@ -34,7 +34,7 @@ This is a guide for all Miraheze Site Reliability Engineers. They have access to
 
 ## See also 
 
-* [mw-admins guide](Tech:Organization-mw-admins.md)
+* [mw-admins guide](https://meta.miraheze.org/wiki/Tech:Organization/mw-admins)
 
 [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
 

@@ -19,7 +19,7 @@ title: Tech:Ns2
 }} }}
 ```
 
-**ns2** is an OVHcloud server in London running Debian Bookworm. It is a server that hosts [DNS](Tech:DNS.md).
+**ns2** is an OVHcloud server in London running Debian Bookworm. It is a server that hosts [DNS](https://meta.miraheze.org/wiki/Tech:DNS).
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Ns2](https://meta.miraheze.org/wiki/Tech:Ns2)

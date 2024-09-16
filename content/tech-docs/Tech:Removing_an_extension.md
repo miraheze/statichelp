@@ -22,7 +22,7 @@ If it is not appropriate to fully remove an extension, but the extension should 
 
 ## See also 
 
-* [Adding a new extension](Tech:Adding_a_new_extension.md)
+* [Adding a new extension](https://meta.miraheze.org/wiki/Tech:Adding_a_new_extension)
 * [Updating an extension](https://meta.miraheze.org/wiki/Tech:Updating_an_extension)
 
 [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)

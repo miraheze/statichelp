@@ -20,7 +20,7 @@ title: Tech:Mem161
 }} }}
 ```
 
-**mem161** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a server that hosts [Memcached](Tech:Memcached.md).
+**mem161** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a server that hosts [Memcached](https://meta.miraheze.org/wiki/Tech:Memcached).
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Mem161](https://meta.miraheze.org/wiki/Tech:Mem161)

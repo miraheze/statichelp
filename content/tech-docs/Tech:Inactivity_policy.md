@@ -4,7 +4,7 @@ title: Tech:Inactivity policy
 
 `{{ {{Outdated}} }}`
 
-**System administrators** are responsible for making sure that things run smoothly, and that the different issues and tasks on Phorge are completed in a timely and effective manner (see [Tech:SRE Volunteers](https://meta.miraheze.org/wiki/Tech:SRE_Volunteers) and [Tech:Organization](Tech:Organization.md) for details). While we are all volunteers here and all have real life responsibilities, activity is nevertheless important for any sysadmin, and a prolonged period of inactivity may provoke security concerns.
+**System administrators** are responsible for making sure that things run smoothly, and that the different issues and tasks on Phorge are completed in a timely and effective manner (see [Tech:SRE Volunteers](https://meta.miraheze.org/wiki/Tech:SRE_Volunteers) and [Tech:Organization](https://meta.miraheze.org/wiki/Tech:Organization) for details). While we are all volunteers here and all have real life responsibilities, activity is nevertheless important for any sysadmin, and a prolonged period of inactivity may provoke security concerns.
 The purpose of this policy is to ensure that people are aware whenever a sysadmin knows that they will be inactive, as well as to have a criteria for when someone is inactive and do not notify their absence.
 
 ## Notification 
@@ -43,7 +43,7 @@ If a person has been found to be inactive based on the criteria above more than 
 
 If a user resigns due to the fact that they know they will be inactive, they may be re-added more easily than if they were applying for the first time. This however, does not apply to sysadmins who are *removed* for inactivity; they must follow the same procedure as a "new" sysadmin.
 
-If a former sysadmin wishes to come back after having resigned for being inactive, they should follow the [requesting access steps](https://meta.miraheze.org/wiki/Tech:Appointment_and_revocation_policy#How_to_Request_Access) again,. However, instead of the procedure detailed in the [Tech:Appointment and revocation policy](Tech:Appointment_and_revocation_policy.md), they may be quickly re-added with the common accord of the SRE Management Team.
+If a former sysadmin wishes to come back after having resigned for being inactive, they should follow the [requesting access steps](https://meta.miraheze.org/wiki/Tech:Appointment_and_revocation_policy#How_to_Request_Access) again,. However, instead of the procedure detailed in the [Tech:Appointment and revocation policy](https://meta.miraheze.org/wiki/Tech:Appointment_and_revocation_policy), they may be quickly re-added with the common accord of the SRE Management Team.
 
 [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 

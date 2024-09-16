@@ -25,7 +25,7 @@ title: Tech:Volunteers/ja
 
 ## 関連項目 
 
-* [Tech:Organization](Tech:Organization.md)
+* [Tech:Organization](https://meta.miraheze.org/wiki/Tech:Organization)
 * [Board of Directors](https://meta.miraheze.org/wiki/Board_of_Directors)
 
 [Category:Documentation](https://meta.miraheze.org/wiki/Category:Documentation)

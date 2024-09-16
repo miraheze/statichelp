@@ -2,7 +2,7 @@
 title: Tech:Redis
 ---
 
-Redis is used for object caching as well as storing the job queue, which is run by MediaWiki. Redis is currently installed on [jobchron171](Tech:Jobchron171.md).
+Redis is used for object caching as well as storing the job queue, which is run by MediaWiki. Redis is currently installed on [jobchron171](https://meta.miraheze.org/wiki/Tech:Jobchron171).
 
 ## Commands 
 

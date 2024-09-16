@@ -84,7 +84,7 @@ All traffic should be viewed as compromised (as traffic may be decrypted though 
 
 ### Salt (Private Keys) 
 
-All servers should be viewed as compromised. All private keys should be regenerated. You should remove all hosts immediately (by following [Salt](Tech:Salt.md) (Section salt master).
+All servers should be viewed as compromised. All private keys should be regenerated. You should remove all hosts immediately (by following [Salt](https://meta.miraheze.org/wiki/Tech:Salt) (Section salt master).
 
 ## Notification of Users 
 

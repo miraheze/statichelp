@@ -13,7 +13,7 @@ title: Tech:Home
 ### What is the Technology team?
 Who do you think runs the show behind the scenes in the server room? The Technology team (whose members may also be known as **system administrators**, and were formerly known as Site Reliability Engineers) does! We're a group of people who all work together to ensure Miraheze runs smoothly and that our users are satisfied. Just like everyone else, we're unpaid volunteers who love our users and always put them first!
 
-[<span class="mw-ui-button">Learn more about our roles</span>](Tech:Organization.md)
+[<span class="mw-ui-button">Learn more about our roles</span>](https://meta.miraheze.org/wiki/Tech:Organization)
 ### Did you know?
 
 **Numbers**
@@ -50,15 +50,15 @@ Under the hood, we use lots of software to keep Miraheze up and running. While s
 ```
 ### *In depth* with Technology
 The Technology team strives for transparency. Below are some of our policies and manuals that our members follow.
-* [Access Management Policy](Tech:Appointment_and_revocation_policy.md) ([process document](Tech:On-Off_Boarding.md))
-* [Inactivity Policy](Tech:Inactivity_policy.md)
-* [Incident Management and Response](Tech:Incidents.md)
-* [Maintenance policy](Tech:Maintenance_policy.md)
-* [Organization Overview](Tech:Organization.md)
-* [Personal Development Policy](Tech:Personal_Development_Policy.md)
-* [Procedures in Case of Compromise](Tech:Compromised_Handling.md)
-* [Security](Tech:Security.md) ([GHSA](Tech:GHSA.md))
-* [Conduct Policy](Tech:Conduct_Policy.md)
+* [Access Management Policy](https://meta.miraheze.org/wiki/Tech:Appointment_and_revocation_policy) ([process document](https://meta.miraheze.org/wiki/Tech:On-Off_Boarding))
+* [Inactivity Policy](https://meta.miraheze.org/wiki/Tech:Inactivity_policy)
+* [Incident Management and Response](https://meta.miraheze.org/wiki/Tech:Incidents)
+* [Maintenance policy](https://meta.miraheze.org/wiki/Tech:Maintenance_policy)
+* [Organization Overview](https://meta.miraheze.org/wiki/Tech:Organization)
+* [Personal Development Policy](https://meta.miraheze.org/wiki/Tech:Personal_Development_Policy)
+* [Procedures in Case of Compromise](https://meta.miraheze.org/wiki/Tech:Compromised_Handling)
+* [Security](https://meta.miraheze.org/wiki/Tech:Security) ([GHSA](https://meta.miraheze.org/wiki/Tech:GHSA))
+* [Conduct Policy](https://meta.miraheze.org/wiki/Tech:Conduct_Policy)
 [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
 ----

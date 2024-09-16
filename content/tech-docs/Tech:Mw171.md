@@ -20,7 +20,7 @@ title: Tech:Mw171
 }} }}
 ```
 
-**mw171** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a [MediaWiki application server](Tech:MediaWiki_appserver.md) which serves articles and the API.
+**mw171** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a [MediaWiki application server](https://meta.miraheze.org/wiki/Tech:MediaWiki_appserver) which serves articles and the API.
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Mw171](https://meta.miraheze.org/wiki/Tech:Mw171)

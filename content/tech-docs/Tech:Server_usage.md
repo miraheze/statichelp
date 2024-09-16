@@ -8,20 +8,20 @@ Miraheze requires lots of **servers** in order to provide service. With over 400
 Currently, servers at Miraheze are used for:
 
 * Cache proxy: [cp26](https://meta.miraheze.org/wiki/Tech:Cp26), [cp27](https://meta.miraheze.org/wiki/Tech:Cp27), [cp36](https://meta.miraheze.org/wiki/Tech:Cp36), [cp37](https://meta.miraheze.org/wiki/Tech:Cp37), [cp41](https://meta.miraheze.org/wiki/Tech:Cp41), [cp51](https://meta.miraheze.org/wiki/Tech:Cp51)
-* Database: [db151](Tech:Db151.md), [db161](Tech:Db161.md), [db171](Tech:Db171.md), [db181](Tech:Db181.md), [db182](Tech:Db182.md)
-* DNS: [ns1](Tech:Ns1.md), [ns2](Tech:Ns2.md)
-* MediaWiki: [mw151](https://meta.miraheze.org/wiki/Tech:mw151), [mw152](https://meta.miraheze.org/wiki/Tech:mw152), [mw153](https://meta.miraheze.org/wiki/Tech:mw153), [mw154](https://meta.miraheze.org/wiki/Tech:mw154), [mw161](https://meta.miraheze.org/wiki/Tech:mw161), [mw162](https://meta.miraheze.org/wiki/Tech:mw162), [mw163](https://meta.miraheze.org/wiki/Tech:mw163), [mw164](https://meta.miraheze.org/wiki/Tech:mw164), [mw171](https://meta.miraheze.org/wiki/Tech:mw171), [mw172](https://meta.miraheze.org/wiki/Tech:mw172), [mw173](https://meta.miraheze.org/wiki/Tech:mw173), [mw174](https://meta.miraheze.org/wiki/Tech:mw174), [mw181](https://meta.miraheze.org/wiki/Tech:mw181), [mw182](https://meta.miraheze.org/wiki/Tech:mw182), [mw183](https://meta.miraheze.org/wiki/Tech:mw183), [mw184](https://meta.miraheze.org/wiki/Tech:mw184), [mwtask151](https://meta.miraheze.org/wiki/Tech:mwtask151), [mwtask161](https://meta.miraheze.org/wiki/Tech:mwtask161), [mwtask171](https://meta.miraheze.org/wiki/Tech:mwtask171), [mwtask181](https://meta.miraheze.org/wiki/Tech:mwtask181), [jobchron171](Tech:Jobchron171.md)
-* Swift: [swiftac171](Tech:Swiftac171.md), [swiftobject151](Tech:Swiftobject151.md), [swiftobject161](Tech:Swiftobject161.md), [swiftobject171](Tech:Swiftobject171.md), [swiftobject181](Tech:Swiftobject181.md), [swiftproxy161](Tech:Swiftproxy161.md), [swiftproxy171](Tech:Swiftproxy171.md)
+* Database: [db151](https://meta.miraheze.org/wiki/Tech:Db151), [db161](https://meta.miraheze.org/wiki/Tech:Db161), [db171](https://meta.miraheze.org/wiki/Tech:Db171), [db181](https://meta.miraheze.org/wiki/Tech:Db181), [db182](https://meta.miraheze.org/wiki/Tech:Db182)
+* DNS: [ns1](https://meta.miraheze.org/wiki/Tech:Ns1), [ns2](https://meta.miraheze.org/wiki/Tech:Ns2)
+* MediaWiki: [mw151](https://meta.miraheze.org/wiki/Tech:mw151), [mw152](https://meta.miraheze.org/wiki/Tech:mw152), [mw153](https://meta.miraheze.org/wiki/Tech:mw153), [mw154](https://meta.miraheze.org/wiki/Tech:mw154), [mw161](https://meta.miraheze.org/wiki/Tech:mw161), [mw162](https://meta.miraheze.org/wiki/Tech:mw162), [mw163](https://meta.miraheze.org/wiki/Tech:mw163), [mw164](https://meta.miraheze.org/wiki/Tech:mw164), [mw171](https://meta.miraheze.org/wiki/Tech:mw171), [mw172](https://meta.miraheze.org/wiki/Tech:mw172), [mw173](https://meta.miraheze.org/wiki/Tech:mw173), [mw174](https://meta.miraheze.org/wiki/Tech:mw174), [mw181](https://meta.miraheze.org/wiki/Tech:mw181), [mw182](https://meta.miraheze.org/wiki/Tech:mw182), [mw183](https://meta.miraheze.org/wiki/Tech:mw183), [mw184](https://meta.miraheze.org/wiki/Tech:mw184), [mwtask151](https://meta.miraheze.org/wiki/Tech:mwtask151), [mwtask161](https://meta.miraheze.org/wiki/Tech:mwtask161), [mwtask171](https://meta.miraheze.org/wiki/Tech:mwtask171), [mwtask181](https://meta.miraheze.org/wiki/Tech:mwtask181), [jobchron171](https://meta.miraheze.org/wiki/Tech:Jobchron171)
+* Swift: [swiftac171](https://meta.miraheze.org/wiki/Tech:Swiftac171), [swiftobject151](https://meta.miraheze.org/wiki/Tech:Swiftobject151), [swiftobject161](https://meta.miraheze.org/wiki/Tech:Swiftobject161), [swiftobject171](https://meta.miraheze.org/wiki/Tech:Swiftobject171), [swiftobject181](https://meta.miraheze.org/wiki/Tech:Swiftobject181), [swiftproxy161](https://meta.miraheze.org/wiki/Tech:Swiftproxy161), [swiftproxy171](https://meta.miraheze.org/wiki/Tech:Swiftproxy171)
 * Miscellaneous
-   * [mon181](Tech:Mon181.md): [Grafana](Tech:Grafana.md), [Icinga](Tech:Icinga.md)
-   * [phorge171](Tech:Phorge171.md): [Phorge](Tech:Phorge.md)
-   * [mem151](Tech:Mem151.md), [mem161](Tech:Mem161.md): [Memcached](Tech:Memcached.md)
-   * [graylog161](Tech:Graylog161.md): [Graylog](Tech:Graylog.md)
-   * [ldap171](Tech:Ldap171.md): [Ldap](Tech:Ldap.md)
-   * [matomo151](Tech:Matomo151.md): [Matomo](Tech:Matomo.md)
-   * [prometheus151](Tech:Prometheus151.md): Prometheus
-* [Puppet](Tech:Puppet.md): [puppet181](Tech:Puppet181.md)
-* Testing MediaWiki: [test151](Tech:Test151.md)
+   * [mon181](https://meta.miraheze.org/wiki/Tech:Mon181): [Grafana](https://meta.miraheze.org/wiki/Tech:Grafana), [Icinga](https://meta.miraheze.org/wiki/Tech:Icinga)
+   * [phorge171](https://meta.miraheze.org/wiki/Tech:Phorge171): [Phorge](https://meta.miraheze.org/wiki/Tech:Phorge)
+   * [mem151](https://meta.miraheze.org/wiki/Tech:Mem151), [mem161](https://meta.miraheze.org/wiki/Tech:Mem161): [Memcached](https://meta.miraheze.org/wiki/Tech:Memcached)
+   * [graylog161](https://meta.miraheze.org/wiki/Tech:Graylog161): [Graylog](https://meta.miraheze.org/wiki/Tech:Graylog)
+   * [ldap171](https://meta.miraheze.org/wiki/Tech:Ldap171): [Ldap](https://meta.miraheze.org/wiki/Tech:Ldap)
+   * [matomo151](https://meta.miraheze.org/wiki/Tech:Matomo151): [Matomo](https://meta.miraheze.org/wiki/Tech:Matomo)
+   * [prometheus151](https://meta.miraheze.org/wiki/Tech:Prometheus151): Prometheus
+* [Puppet](https://meta.miraheze.org/wiki/Tech:Puppet): [puppet181](https://meta.miraheze.org/wiki/Tech:Puppet181)
+* Testing MediaWiki: [test151](https://meta.miraheze.org/wiki/Tech:Test151)
 
 ## Table of servers 
 
@@ -82,7 +82,7 @@ Currently, servers at Miraheze are used for:
 | London, England |
 | Bookworm |
 | |
-| [ns1](Tech:Ns1.md) (cloud17) |
+| [ns1](https://meta.miraheze.org/wiki/Tech:Ns1) (cloud17) |
 | 1 GB |
 | 1 core @ 2 GHz |
 | 10 GB U.2 NVMe |
@@ -90,7 +90,7 @@ Currently, servers at Miraheze are used for:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [ns2](Tech:Ns2.md) |
+| [ns2](https://meta.miraheze.org/wiki/Tech:Ns2) |
 | 1 GB |
 | 1 core (unknown speed) |
 | 10 GB SSD |
@@ -114,7 +114,7 @@ Currently, servers at Miraheze are used for:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [cloud15](Tech:Cloud15.md) |
+| [cloud15](https://meta.miraheze.org/wiki/Tech:Cloud15) |
 | 256 GB |
 | 40 cores @ 3.2 GHz |
 | 4 TB U.2 NVMe |
@@ -122,7 +122,7 @@ Currently, servers at Miraheze are used for:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [cloud16](Tech:Cloud16.md) |
+| [cloud16](https://meta.miraheze.org/wiki/Tech:Cloud16) |
 | 256 GB |
 | 40 cores @ 3.2 GHz |
 | 4 TB U.2 NVMe |
@@ -130,7 +130,7 @@ Currently, servers at Miraheze are used for:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [cloud17](Tech:Cloud17.md) |
+| [cloud17](https://meta.miraheze.org/wiki/Tech:Cloud17) |
 | 256 GB |
 | 40 cores @ 3.2 GHz |
 | 4 TB U.2 NVMe |
@@ -138,7 +138,7 @@ Currently, servers at Miraheze are used for:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [cloud18](Tech:Cloud18.md) |
+| [cloud18](https://meta.miraheze.org/wiki/Tech:Cloud18) |
 | 256 GB |
 | 40 cores @ 3.2 GHz |
 | 4 TB U.2 NVMe |
@@ -146,7 +146,7 @@ Currently, servers at Miraheze are used for:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [db151](Tech:Db151.md) |
+| [db151](https://meta.miraheze.org/wiki/Tech:Db151) |
 | 50 GB |
 | 6 cores (unknown speed) |
 | 1 TB U.2 NVMe |
@@ -154,7 +154,7 @@ Currently, servers at Miraheze are used for:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [db161](Tech:Db161.md) |
+| [db161](https://meta.miraheze.org/wiki/Tech:Db161) |
 | 50 GB |
 | 6 cores (unknown speed) |
 | 1 TB U.2 NVMe |
@@ -162,7 +162,7 @@ Currently, servers at Miraheze are used for:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [db171](Tech:Db171.md) |
+| [db171](https://meta.miraheze.org/wiki/Tech:Db171) |
 | 50 GB |
 | 6 cores (unknown speed) |
 | 1 TB U.2 NVMe |
@@ -170,7 +170,7 @@ Currently, servers at Miraheze are used for:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [db181](Tech:Db181.md) |
+| [db181](https://meta.miraheze.org/wiki/Tech:Db181) |
 | 50 GB |
 | 6 cores (unknown speed) |
 | 1 TB U.2 NVMe |
@@ -178,7 +178,7 @@ Currently, servers at Miraheze are used for:
 | Salt Lake City, UT |
 | Bookworm |
 | |
-| [db182](Tech:Db182.md) |
+| [db182](https://meta.miraheze.org/wiki/Tech:Db182) |
 | 14 GB |
 | 6 cores (unknown speed) |
 | 512 GB U.2 NVMe |
