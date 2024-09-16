@@ -66,7 +66,7 @@ MariaDB databases include wiki databases and other misc. services. If a database
 
 ### MariaDB - passwords 
 
-The level of severity depends on which password is assumed to have been compromised. An evaluation of all databases that may have been compromised should be done after immediately resetting the password that was compromised and all below (if root). The process [for databases above](#mariadb---databases) applies mostly as a compromised password compromises databases.
+The level of severity depends on which password is assumed to have been compromised. An evaluation of all databases that may have been compromised should be done after immediately resetting the password that was compromised and all below (if root). The process [for databases above](#MariaDB - database(s)) applies mostly as a compromised password compromises databases.
 
 The key should be updated both in puppet and manually on the server (Puppet does not automatically change SQL passwords).
 
@@ -84,7 +84,7 @@ All traffic should be viewed as compromised (as traffic may be decrypted though 
 
 ### Salt (Private Keys) 
 
-All servers should be viewed as compromised. All private keys should be regenerated. You should remove all hosts immediately (by following [Salt](https://meta.miraheze.org/wiki/Tech:Salt) (Section salt master).
+All servers should be viewed as compromised. All private keys should be regenerated. You should remove all hosts immediately (by following [Salt](Tech:Salt.md) (Section salt master).
 
 ## Notification of Users 
 

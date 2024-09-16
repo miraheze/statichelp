@@ -2,7 +2,7 @@
 title: Tech:Projects/Template
 ---
 
-This is a template for project proposals for Miraheze goals. The structure below should be copied to a subpage of [Tech:Projects](https://meta.miraheze.org/wiki/Tech:Projects) and completed to provide helpful and informative content on the project, as well as acting as a basic design specification.
+This is a template for project proposals for Miraheze goals. The structure below should be copied to a subpage of [Tech:Projects](Tech:Projects.md) and completed to provide helpful and informative content on the project, as well as acting as a basic design specification.
 
 ## Background 
 

@@ -2,9 +2,9 @@
 title: Tech:Icinga
 ---
 
-Icinga is used to monitor the status of the infrastructure and service-level information. It is running on [mon181](https://meta.miraheze.org/wiki/Tech:Mon181). All servers are automatically set up with checks for SSH, load, users on the server and disk space. Additional services are also monitored though such as mail, MariaDB statistics, NGINX and so on.
+Icinga is used to monitor the status of the infrastructure and service-level information. It is running on [mon181](Tech:Mon181.md). All servers are automatically set up with checks for SSH, load, users on the server and disk space. Additional services are also monitored though such as mail, MariaDB statistics, NGINX and so on.
 
-Icinga access is currently only available to the [Technology team](https://meta.miraheze.org/wiki/Tech:Volunteers).
+Icinga access is currently only available to the [Technology team](Tech:Volunteers.md).
 
 ## Configuration 
 

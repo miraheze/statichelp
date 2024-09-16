@@ -20,7 +20,7 @@ title: Tech:Swiftproxy171
 }} }}
 ```
 
-**swiftproxy171** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a [Swift](https://meta.miraheze.org/wiki/Tech:Swift) proxy server.
+**swiftproxy171** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a [Swift](Tech:Swift.md) proxy server.
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Swiftproxy171](https://meta.miraheze.org/wiki/Tech:Swiftproxy171)

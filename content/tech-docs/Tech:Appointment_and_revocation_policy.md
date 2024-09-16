@@ -14,7 +14,7 @@ While not necessary, it is encouraged that all SRE take part in the discussion a
 
 ## Re-appointment after inactivity 
 
-See: [Tech:Inactivity policy](https://meta.miraheze.org/wiki/Tech:Inactivity_policy)
+See: [Tech:Inactivity policy](Tech:Inactivity_policy.md)
 
 ## Removal 
 
@@ -26,7 +26,7 @@ The Engineering Manager for the relevant team may propose that a system administ
 
 ### For Inactivity 
 
-See: [Tech:Inactivity policy](https://meta.miraheze.org/wiki/Tech:Inactivity_policy)
+See: [Tech:Inactivity policy](Tech:Inactivity_policy.md)
 
 ## Suspension 
 
@@ -38,7 +38,7 @@ In ultimate emergencies, such as compromised accounts, any member with the relev
 
 ### New Access 
 
-This applies to people, who do not have shell access yet. After you have articulated a valid reason for requesting shell access, and followed the instructions below, your request will be dealt with as [described above](#appointment).
+This applies to people, who do not have shell access yet. After you have articulated a valid reason for requesting shell access, and followed the instructions below, your request will be dealt with as [described above](#Appointment).
 * Ensure you have an account on [GitHub](https://meta.miraheze.org/wiki/github:) and [Phorge](https://meta.miraheze.org/wiki/phorge:) (which requires a Miraheze account).
 * Login into Phorge, and [fill in this form](https://meta.miraheze.org/wiki/phorge:maniphest/task/edit/form/17/) (do not forget to replace "[USERNAME]" with your username!). The form should contain the following information:
    * Miraheze Username
@@ -47,7 +47,7 @@ This applies to people, who do not have shell access yet. After you have articul
    * A freshly generated 4096 bit RSA or ed25519 keypair, protected with a secure password.
       * Obviously you should only give us the public key, keep the private key private.
       * This key should not be used for non-Miraheze servers!
-      * If using a FIDO2 key, see [Tech:FIDO2 SSH](https://meta.miraheze.org/wiki/Tech:FIDO2_SSH).
+      * If using a FIDO2 key, see [Tech:FIDO2 SSH](Tech:FIDO2_SSH.md).
    * Description of the access you need. If you require sudo rights, please do not forget to include that as well.
    * The reason you need shell access.
    * A verification that your Miraheze, GitHub and Phorge accounts are owned by you. This can be accomplished by a) pasting the public key of your keypair on your **Miraheze Meta** user page (or another page in your user namespace) and b) creating a GitHub repository with a file containing the public key (or committing your public key to an already existing repository).

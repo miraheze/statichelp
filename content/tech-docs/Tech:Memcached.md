@@ -2,7 +2,7 @@
 title: Tech:Memcached
 ---
 
-Memcached is used for object and session caching. Memcached is currently installed on [mem151](https://meta.miraheze.org/wiki/Tech:Mem151) and [mem161](https://meta.miraheze.org/wiki/Tech:Mem161).
+Memcached is used for object and session caching. Memcached is currently installed on [mem151](Tech:Mem151.md) and [mem161](Tech:Mem161.md).
 
 ## Commands 
 
@@ -36,7 +36,7 @@ To use TCP, run the following:
 
 `telnet 127.0.0.1 11211`
 
-Then follow [#Commands](#commands).
+Then follow [#Commands](#Commands).
 
 You can do it via PHP by [following](https://meta.miraheze.org/wiki/github:miraheze/MirahezeMagic/blob/e4e20be/includes/MirahezeMagicHooks.php#L263) and the [docs](https://www.php.net/manual/en/class.memcached.php).
 

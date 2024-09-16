@@ -4,7 +4,7 @@ title: Tech:GitHub
 
 [GitHub](https://meta.miraheze.org/wiki/github:) is the service we use to host our open-source repositories. They can be found [here](https://meta.miraheze.org/wiki/github:miraheze).
 
-Push access to the repositories is limited to [system administrators](https://meta.miraheze.org/wiki/Tech:SRE_Volunteers), but any user can make a pull request. [Puppet](https://meta.miraheze.org/wiki/Tech:Puppet) runs every 30 minutes (except MediaWiki extensions or skins) and can be run manually on each server by a [system administrator](https://meta.miraheze.org/wiki/Tech:SRE_Volunteers). It is recommended to read the "README.md" file for a repository before contributing to it.
+Push access to the repositories is limited to [system administrators](https://meta.miraheze.org/wiki/Tech:SRE_Volunteers), but any user can make a pull request. [Puppet](Tech:Puppet.md) runs every 30 minutes (except MediaWiki extensions or skins) and can be run manually on each server by a [system administrator](https://meta.miraheze.org/wiki/Tech:SRE_Volunteers). It is recommended to read the "README.md" file for a repository before contributing to it.
 
 ## Production repositories 
 
@@ -18,25 +18,25 @@ Puppet is the repository that manages all services/servers.
 
 mw-config (MediaWiki configuration) is the repository that manages settings for MediaWiki.
 * **Push Access**: [Site Reliability Engineers (Infrastructure)](https://meta.miraheze.org/wiki/Tech:Organisation#Team:_Infrastructure,_Site_Reliability_Engineering), [MediaWiki Engineers](https://meta.miraheze.org/wiki/Tech:Organisation#Team:_MediaWiki,_Site_Reliability_Engineering)
-* **Servers**: [mw151](https://meta.miraheze.org/wiki/Tech:Mw151), [mw152](https://meta.miraheze.org/wiki/Tech:Mw152), [mw161](https://meta.miraheze.org/wiki/Tech:Mw161), [mw162](https://meta.miraheze.org/wiki/Tech:Mw162), [mw171](https://meta.miraheze.org/wiki/Tech:Mw171), [mw172](https://meta.miraheze.org/wiki/Tech:Mw172), [mw181](https://meta.miraheze.org/wiki/Tech:Mw181), [mw182](https://meta.miraheze.org/wiki/Tech:Mw182), [mwtask181](https://meta.miraheze.org/wiki/Tech:Mwtask181), [test151](https://meta.miraheze.org/wiki/Tech:Test151)
+* **Servers**: [mw151](Tech:Mw151.md), [mw152](Tech:Mw152.md), [mw161](Tech:Mw161.md), [mw162](Tech:Mw162.md), [mw171](Tech:Mw171.md), [mw172](Tech:Mw172.md), [mw181](Tech:Mw181.md), [mw182](Tech:Mw182.md), [mwtask181](Tech:Mwtask181.md), [test151](Tech:Test151.md)
 
 ### mediawiki 
 
 mediawiki is the repository that manages the MediaWiki source code, skins, and extensions.
 * **Push Access**: [Site Reliability Engineers (Infrastructure)](https://meta.miraheze.org/wiki/Tech:Organisation#Team:_Infrastructure,_Site_Reliability_Engineering), [MediaWiki Engineers](https://meta.miraheze.org/wiki/Tech:Organisation#Team:_MediaWiki,_Site_Reliability_Engineering)
-* **Servers**: [mw151](https://meta.miraheze.org/wiki/Tech:Mw151), [mw152](https://meta.miraheze.org/wiki/Tech:Mw152), [mw161](https://meta.miraheze.org/wiki/Tech:Mw161), [mw162](https://meta.miraheze.org/wiki/Tech:Mw162), [mw171](https://meta.miraheze.org/wiki/Tech:Mw171), [mw172](https://meta.miraheze.org/wiki/Tech:Mw172), [mw181](https://meta.miraheze.org/wiki/Tech:Mw181), [mw182](https://meta.miraheze.org/wiki/Tech:Mw182), [mwtask181](https://meta.miraheze.org/wiki/Tech:Mwtask181), [test151](https://meta.miraheze.org/wiki/Tech:Test151)
+* **Servers**: [mw151](Tech:Mw151.md), [mw152](Tech:Mw152.md), [mw161](Tech:Mw161.md), [mw162](Tech:Mw162.md), [mw171](Tech:Mw171.md), [mw172](Tech:Mw172.md), [mw181](Tech:Mw181.md), [mw182](Tech:Mw182.md), [mwtask181](Tech:Mwtask181.md), [test151](Tech:Test151.md)
 
 ### dns 
 
-[DNS](https://meta.miraheze.org/wiki/Tech:DNS) (Domain Name System) is the repository that manages all DNS for Miraheze.
+[DNS](Tech:DNS.md) (Domain Name System) is the repository that manages all DNS for Miraheze.
 * **Push Access**: [Site Reliability Engineers (Infrastructure)](https://meta.miraheze.org/wiki/Tech:Organisation#Team:_Infrastructure,_Site_Reliability_Engineering)
-* **Servers**: [ns1](https://meta.miraheze.org/wiki/Tech:Ns1), [ns2](https://meta.miraheze.org/wiki/Tech:Ns2)
+* **Servers**: [ns1](Tech:Ns1.md), [ns2](Tech:Ns2.md)
 
 ### ssl 
 
-[SSL](https://meta.miraheze.org/wiki/Tech:SSL_certificates) (Secure Sockets Layer) is the repository that manages all SSL certificates for Miraheze.
+[SSL](Tech:SSL_certificates.md) (Secure Sockets Layer) is the repository that manages all SSL certificates for Miraheze.
 * **Push Access**: [Site Reliability Engineers (Infrastructure)](https://meta.miraheze.org/wiki/Tech:Organisation#Team:_Infrastructure,_Site_Reliability_Engineering), ssl-admins
-* **Servers**: [puppet181](https://meta.miraheze.org/wiki/Tech:Puppet181)
+* **Servers**: [puppet181](Tech:Puppet181.md)
 
 ## MediaWiki extensions and skins 
 
@@ -44,7 +44,7 @@ mediawiki is the repository that manages the MediaWiki source code, skins, and e
 
 [CreateWiki](https://github.com/miraheze/CreateWiki) is a MediaWiki extension to request and create wikis on Miraheze.
 * **Push Access**: Site Reliability Engineers (Infrastructure), MediaWiki Engineers, i18n<sub>(*reference:* Currently [@translatewiki](https://github.com/translatewiki) only)</sub>
-* **Servers**: MediaWiki servers<sub>(*reference:* Only if the extension is updated using [mwdeploy](https://meta.miraheze.org/wiki/Tech:Mwdeploy) or manually)</sub>
+* **Servers**: MediaWiki servers<sub>(*reference:* Only if the extension is updated using [mwdeploy](Tech:Mwdeploy.md) or manually)</sub>
 
 ### ManageWiki 
 

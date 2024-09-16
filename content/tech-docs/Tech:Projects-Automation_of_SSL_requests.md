@@ -37,7 +37,7 @@ The current system will have to be completely redesigned and the server where pr
 ## Getting Started 
 
 Anyone interested in starting this project should:
-* Get familiar with how our SSL process currently operates (see [Tech:SSL certificates](https://meta.miraheze.org/wiki/Tech:SSL_certificates)) for more details.
+* Get familiar with how our SSL process currently operates (see [Tech:SSL certificates](Tech:SSL_certificates.md)) for more details.
 * Get in touch with an [SRE](https://meta.miraheze.org/wiki/Tech:Organisation#Team:_MediaWiki,_Site_Reliability_Engineering) member to discuss how to proceed.
 
 ----

@@ -19,7 +19,7 @@ title: Tech:Cloud17
 }} }}
 ```
 
-**cloud17** is a FiberState bare metal dedicated server in Salt Lake City, Utah running Debian Bookworm. It is a [virtualization host server](https://meta.miraheze.org/wiki/Tech:Proxmox).
+**cloud17** is a FiberState bare metal dedicated server in Salt Lake City, Utah running Debian Bookworm. It is a [virtualization host server](Tech:Proxmox.md).
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Cloud17](https://meta.miraheze.org/wiki/Tech:Cloud17)

@@ -2,7 +2,7 @@
 title: Tech:Ldap
 ---
 
-Miraheze uses ldap as an authentication system for some of our infrastructure, such as [Grafana](https://meta.miraheze.org/wiki/Tech:Grafana) and Icingaweb2.
+Miraheze uses ldap as an authentication system for some of our infrastructure, such as [Grafana](Tech:Grafana.md) and Icingaweb2.
 
 You can use `ldapvi` to modify a user, add a user, or change the roles the user has. You can also use [https://ldapwiki.miraheze.org](https://ldapwiki.miraheze.org) to change your password.
 

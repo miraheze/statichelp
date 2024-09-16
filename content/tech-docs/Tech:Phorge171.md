@@ -20,7 +20,7 @@ title: Tech:Phorge171
 }} }}
 ```
 
-**phorge171** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a server that hosts [Phorge](https://meta.miraheze.org/wiki/Tech:Phorge).
+**phorge171** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a server that hosts [Phorge](Tech:Phorge.md).
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Phorge171](https://meta.miraheze.org/wiki/Tech:Phorge171)

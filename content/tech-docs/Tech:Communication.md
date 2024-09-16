@@ -12,7 +12,7 @@ This page aims to document our communication channels, and outline a general str
 * **[Hund](https://meta.miraheze.org/wiki/Tech:Hund)**. Your standard status page. Available at [status.miraheze.wiki](https://status.miraheze.wiki), and additionally has multiple types of subscriptions.
 * **[Tech:SRE noticeboard](https://meta.miraheze.org/wiki/Tech:SRE_noticeboard)**. A page hosting on-wiki announcements by SRE.
 * **Twitter, Mastodon and Facebook**. Social media.
-* **On-wiki sitenotices**. Sitenotices that are shown on either wikis meeting a specific condition ("targeted"), such as having an extension enabled, or shown everywhere ("global"). Managed at [mw-config/Sitenotice.php](https://github.com/miraheze/mw-config/blob/master/Sitenotice.php) on [GitHub](https://meta.miraheze.org/wiki/Tech:GitHub).
+* **On-wiki sitenotices**. Sitenotices that are shown on either wikis meeting a specific condition ("targeted"), such as having an extension enabled, or shown everywhere ("global"). Managed at [mw-config/Sitenotice.php](https://github.com/miraheze/mw-config/blob/master/Sitenotice.php) on [GitHub](Tech:GitHub.md).
 * Less importantly, **[Phorge](https://meta.miraheze.org/wiki/Phorge)**. While it can be argued comments and tasks there are not for the community at-large, some may use these for the latest "announcements", especially in tasks related to farm-wide issues. Just something to keep in mind.
 
 ## Strategy

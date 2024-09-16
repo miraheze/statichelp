@@ -16,7 +16,7 @@ These steps must be performed in order. This list is not exhaustive, but applies
 * Log in via the console, KVM, or whatever it is called by the Service Provider. In most case, you have received the password via mail. Never share root passwords with other people.
 * Most servers are accessible via SSH by default. In that case, you may find it easier to work via PuTTY or similar. To do that, dump the fingerprint of the SSH host key. For PuTTY, `ssh-keygen -E md5 -l -f /etc/ssh/ssh_host_ed25519_key.pub` seems to be appropriate.
 * When connecting, verify the fingerprint matches. If so, you can proceed with the rest of the steps.
-* Add the fingerprint to [Tech:SSH fingerprints](https://meta.miraheze.org/wiki/Tech:SSH_fingerprints). Do this early, so you don't forget this.
+* Add the fingerprint to [Tech:SSH fingerprints](Tech:SSH_fingerprints.md). Do this early, so you don't forget this.
 * Configure the server via Puppet: [Adding a new puppet agent (server) to the Puppetserver](https://meta.miraheze.org/wiki/Tech:Puppet#Adding_a_new_puppet_agent_.28server.29_to_the_Puppetserver).
 
 ## Decommissioning 
@@ -45,7 +45,7 @@ Reimaging a server means the server will be kept in use, but a new OS will be in
 
 ## Upgrade 
 
-An upgrade may be necessary in cases where horizontal scaling (having three smaller servers, instead of one big one) is not possible or needed. Upgrades must follow the [requesting](#requesting) section above. An upgrade is considered to require a reboot, but without the need for a reimage. If a reimage is needed, please follow both these steps and the steps for [reimaging](#reimage). The guide expects you have gotten an OK from the service experts, and that they are aware of the upgrades. If a server must be depooled before an upgrade is performed, the guide expects you know how to do that.
+An upgrade may be necessary in cases where horizontal scaling (having three smaller servers, instead of one big one) is not possible or needed. Upgrades must follow the [requesting](#Requesting) section above. An upgrade is considered to require a reboot, but without the need for a reimage. If a reimage is needed, please follow both these steps and the steps for [reimaging](#Reimage). The guide expects you have gotten an OK from the service experts, and that they are aware of the upgrades. If a server must be depooled before an upgrade is performed, the guide expects you know how to do that.
 
 * Depool the server from the services it's in use for. If the server is a master, failover to a replica or secondary server.
 * Set downtime in Icinga for the server and all of its services, to avoid unnecessary Icinga alerts for the server.

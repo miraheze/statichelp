@@ -6,11 +6,11 @@ SSH is used to administer servers remotely here on Miraheze.
 
 ## SSH fingerprints
 
-SSH fingerprints of every host are available at [Tech:SSH fingerprints](https://meta.miraheze.org/wiki/Tech:SSH_fingerprints).
+SSH fingerprints of every host are available at [Tech:SSH fingerprints](Tech:SSH_fingerprints.md).
 
 ## Architecture
 
-Connections go first through a bastion host, then to the server you want to connect to. For bastions you can choose either [bast161](https://meta.miraheze.org/wiki/Tech:Bast161) or [bast181](https://meta.miraheze.org/wiki/Tech:Bast181).
+Connections go first through a bastion host, then to the server you want to connect to. For bastions you can choose either [bast161](Tech:Bast161.md) or [bast181](Tech:Bast181.md).
 
 ## OpenSSH
 

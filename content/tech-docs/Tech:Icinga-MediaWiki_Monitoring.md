@@ -56,7 +56,7 @@ This page is used to provide monitoring guidance for MediaWiki-related services 
 
 * *Why does this check exist? What does it monitor?***This check monitors whether SSL certificates are set to expire in the next 15 days.**
 * *Is an alert a bad thing?***Usually no, WikiTideSSLBot will renew non-wildcard certs. If it is CRITICAL, however, there might be a problem with the bot, so that needs reporting.**
-* *If it's warning/critical, how do we fix it?***If it is critical (and non-wildcard) the reason for why the bot is not auto-generating should be investigated. If it cannot be figured out in time, the certs should be [manually renewed](https://meta.miraheze.org/wiki/Tech:SSL_certificates). For wildcards certs, they need to be renewed manually in any case once there is a warning.**
+* *If it's warning/critical, how do we fix it?***If it is critical (and non-wildcard) the reason for why the bot is not auto-generating should be investigated. If it cannot be figured out in time, the certs should be [manually renewed](Tech:SSL_certificates.md). For wildcards certs, they need to be renewed manually in any case once there is a warning.**
 
 ## Reverse DNS Checks 
 
