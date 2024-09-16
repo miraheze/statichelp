@@ -14,7 +14,7 @@ MediaWiki divides all web browsers into 3 categories: **Grade A** (modern browse
 Below is a table from [MediaWiki.org](https://meta.miraheze.org/wiki/mw:) which explains which browsers fall under what category. `{{ {{mw:Compatibility browser}} }}`
 ## Further reading 
 
-* [[mw:Compatibility#Browsers|Browser compatibility]] on MediaWiki.org.
+* [Browser compatibility](https://meta.miraheze.org/wiki/mw:Compatibility#Browsers) on MediaWiki.org.
 
 [Category:Miraheze help](https://meta.miraheze.org/wiki/Category:Miraheze_help)
 [Category:MediaWiki](https://meta.miraheze.org/wiki/Category:MediaWiki)

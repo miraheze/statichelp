@@ -11,7 +11,7 @@ The team includes volunteers in technical and less-technical roles, including pr
 |-
 ! class="unsortable"| [ `{{ {{fullurl:Tech:Volunteers/List|action=edit}} }}` +/-]
 ! Name & Role
-! Libera Chat nickname <br /> on [[Special:MyLanguage/IRC|IRC]]
+! Libera Chat nickname <br /> on [IRC](https://meta.miraheze.org/wiki/Special:MyLanguage/IRC)
 ! E-mail
 ! Shell
 ! GitHub
