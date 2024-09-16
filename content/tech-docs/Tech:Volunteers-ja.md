@@ -3,7 +3,7 @@ title: Tech:Volunteers/ja
 ---
 
  `{{ {{SRE navigation|members|header=技術チームメンバー|description=Miraheze's Technology team is composed of various members who work together to ensure the stability of the infrastructure behind Miraheze. Learn more on Miraheze Meta.|keywords=miraheze tech, miraheze system administrators, miraheze sysadmins}} }}`
-以前はサイト信頼性エンジニア(SRE)と呼ばれていた **技術チームメンバー**は、Mirahezeの背後にあるインフラの技術的な運用と安定性に責任を持ちます。チームメンバーはしばしば**システム管理者** (または**シスアド**) と呼ばれます。
+以前はサイト信頼性エンジニア(SRE)と呼ばれていた **技術チームメンバー**は、Mirahezeの背後にあるインフラの技術的な運用と安定性に責任を持ちます。チームメンバーはしばしば **システム管理者** (または **シスアド**) と呼ばれます。
 
 チームには、プロジェクト管理やコミュニティとの連絡など、技術的な役割とそうでない役割のボランティアがいます。チームへの連絡は tech `{{ {{@}} }}`miraheze.org までどうぞ。
 
@@ -12,7 +12,7 @@ title: Tech:Volunteers/ja
 |-
 ! class="unsortable"| [ `{{ {{fullurl:Tech:Volunteers/List|action=edit}} }}` +/-]
 ! 名前と権限
-! Libera Chatのニックネーム<br /> [IRC](https://meta.miraheze.org/wiki/Special:MyLanguage/IRC)
+! Libera Chatのニックネーム <br /> [IRC](https://meta.miraheze.org/wiki/Special:MyLanguage/IRC)
 ! メールアドレス
 ! シェル
 ! GitHub

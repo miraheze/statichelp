@@ -6,7 +6,7 @@ This page describes the stages a Miraheze server goes through. Following this gu
 
 ## Requesting 
 
-Anyone from Site Reliability Engineering managing services offered by the Technical Team, such as MediaWiki Engineers and Site Reliability Engineers, can request a server. The request should be tracked in Phorge, assigned to the Director of Site Reliability Engineering. In *emergencies* , the Deputy Director of Site Engineering Reliability may approve a request without talking to the Director of Site Reliability Engineering beforehand, but the Director of Site Reliability Engineering should be made aware afterwards.
+Anyone from Site Reliability Engineering managing services offered by the Technical Team, such as MediaWiki Engineers and Site Reliability Engineers, can request a server. The request should be tracked in Phorge, assigned to the Director of Site Reliability Engineering. In *emergencies*, the Deputy Director of Site Engineering Reliability may approve a request without talking to the Director of Site Reliability Engineering beforehand, but the Director of Site Reliability Engineering should be made aware afterwards.
 
 ## Installing 
 

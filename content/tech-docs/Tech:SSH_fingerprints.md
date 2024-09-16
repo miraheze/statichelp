@@ -10,7 +10,7 @@ If you are in doubt during the verification of a fingerprint, please contact a S
 
 This list was generated using `sudo salt-ssh '*' cmd.run '/usr/local/bin/gen_fingerprints'` on the Salt Master. Use Ctrl + F on this page to search for the right hostname.
 
-Date of update: `{{ {{REVISIONYEAR}} }}`- `{{ {{REVISIONMONTH1}} }}`- `{{ {{REVISIONDAY}} }}`<br />
+Date of update: `{{ {{REVISIONYEAR}} }}`- `{{ {{REVISIONMONTH1}} }}`- `{{ {{REVISIONDAY}} }}` <br />
 Updated by: `{{ {{REVISIONUSER}} }}`
 
 ```

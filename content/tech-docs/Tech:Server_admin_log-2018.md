@@ -14,7 +14,7 @@ title: Tech:Server admin log/2018
 ## 2018-12-30 
 
 * 20:16 paladox:  INSERT INTO mw_namespaces(`ns_dbname`, `ns_namespace_id`, `ns_namespace_name`, `ns_searchable`, `ns_subpages`, `ns_content`, `ns_protection`, `ns_aliases`, `ns_core`) VALUES ('metawiki', 0, 'Main', 0, 0, 0, *, '[]', 1); on db4
-* 20:14 paladox: INSERT INTO mw_namespaces(`ns_dbname`, `ns_namespace_id`, `ns_namespace_name`, `ns_searchable`, `ns_subpages`, `ns_content`, `ns_protection`, `ns_aliases`, `ns_core`) VALUES ('metawiki', -2, 'Media', 0, 0, 0,* , '[]', 1); on db4
+* 20:14 paladox: INSERT INTO mw_namespaces(`ns_dbname`, `ns_namespace_id`, `ns_namespace_name`, `ns_searchable`, `ns_subpages`, `ns_content`, `ns_protection`, `ns_aliases`, `ns_core`) VALUES ('metawiki', -2, 'Media', 0, 0, 0,*, '[]', 1); on db4
 * 19:56 paladox: depool mw2
 * 19:52 paladox: repool mw1
 * 19:51 paladox: /srv/mediawiki/w/cache/managewiki# rm -rf * on mw*
@@ -246,9 +246,9 @@ title: Tech:Server admin log/2018
 
 * 21:04 paladox: sudo -u www-data php /srv/mediawiki/w/maint*/rebuildLocalisationCache.php --wiki loginwiki on mw*
 * 19:58 paladox: UPDATE page SET page_title = REPLACE(page_title, 'Discussioni_test:', *), page_namespace = 2015 WHERE page_title LIKE 'Discussioni_test:%' AND page_namespace=0; on db4
-* 19:57 paladox: UPDATE page SET page_title = REPLACE(page_title, 'Discussioni_manuali:',* ), page_namespace = 2019 WHERE page_title LIKE 'Discussioni_manuali:%' AND page_namespace=0; on db4
+* 19:57 paladox: UPDATE page SET page_title = REPLACE(page_title, 'Discussioni_manuali:',*), page_namespace = 2019 WHERE page_title LIKE 'Discussioni_manuali:%' AND page_namespace=0; on db4
 * 19:51 paladox: UPDATE page SET page_title = REPLACE(page_title, 'Discussioni_NonDizionario:', *), page_namespace = 2013 WHERE page_title LIKE 'Discussioni_NonDizionario:%' AND page_namespace=0; on db4
-* 19:34 paladox: UPDATE page SET page_title = REPLACE(page_title, 'NonNotizie:',* ), page_namespace = 2006 WHERE page_title LIKE 'NonNotizie:%' AND page_namespace=0; on db4
+* 19:34 paladox: UPDATE page SET page_title = REPLACE(page_title, 'NonNotizie:',*), page_namespace = 2006 WHERE page_title LIKE 'NonNotizie:%' AND page_namespace=0; on db4
 * 18:51 paladox: php rebuildall.php --wiki=nonciclopediawiki on mw1
 * 18:35 paladox: UPDATE page set page_title = concat('Discussioni_template:', page_title), page_namespace = 2005 WHERE page_namespace = 11 NOT LIKE 'Discussioni_template:%'; on db4
 * 18:34 paladox: UPDATE page set page_title = concat('Template:', page_title), page_namespace = 2004 WHERE page_namespace = 10 NOT LIKE 'Template:%'; on db4
@@ -2581,7 +2581,7 @@ title: Tech:Server admin log/2018
 
 ## Information 
 
-All times are in **UTC+0**/**GMT**.
+All times are in **UTC+0**/ **GMT**.
 
 Archives: [2015](https://meta.miraheze.org/wiki//2015), [2016](https://meta.miraheze.org/wiki//2016), [2017](https://meta.miraheze.org/wiki//2017)
 

@@ -10,7 +10,7 @@ title: Tech:Server admin log/2015
 ## 2015-12-26 
 
 * 10:46 Southparkfan: powercycle cp2 due to "Failed to get D-Bus connection: no such file or directory" errors
-* 04:20 NDKilla: @mw1 php maintenance/rebuildrecentchanges.php --wiki tyrolmountainswiki (didn't fix [issue 234](https://github.com/miraheze/mw-config/issues/234)) -- Cheers, [NDKilla](https://meta.miraheze.org/wiki/User:NDKilla)( [Talk](https://meta.miraheze.org/wiki/User_talk:NDKilla) • [Contribs](https://meta.miraheze.org/wiki/Special:Contributions/NDKilla) ) 04:22, 26 December 2015 (UTC)
+* 04:20 NDKilla: @mw1 php maintenance/rebuildrecentchanges.php --wiki tyrolmountainswiki (didn't fix [issue 234](https://github.com/miraheze/mw-config/issues/234)) -- Cheers, [NDKilla](https://meta.miraheze.org/wiki/User:NDKilla) ( [Talk](https://meta.miraheze.org/wiki/User_talk:NDKilla) • [Contribs](https://meta.miraheze.org/wiki/Special:Contributions/NDKilla) ) 04:22, 26 December 2015 (UTC)
 
 ## 2015-12-19 
 

@@ -23,7 +23,7 @@ In case of any doubts regarding a command or configuration change, mw-admins sho
 * Always run them as www-data (prefix command with `sudo -u www-data`).
 * Always `!log` maintenance script runs in #miraheze-tech-ops (unless you were running puppet or were using sql.php, and did **not** execute any queries that changed the database (e.g. SELECT/DESCRIBE queries)
    * You can optionally use the [mwscript](https://meta.miraheze.org/wiki/Tech:MediaWiki_appserver#mwscript) wrapper to automatically log these.
-* If you need to run a script on all wikis, use the *foreachwikiindblist*  wrapper:
+* If you need to run a script on all wikis, use the *foreachwikiindblist* wrapper:
 * `sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.json /srv/mediawiki/<version>/maintenance/yourscript.php --put-your-parameters --here`
 * update.php is evil. If you need to run it while you're not doing a MediaWiki upgrade, then something is really wrong.
    * maintenance/update.php just automatically creates all required database tables on the wiki(s) it is run on. SQL files should be added to the CreateWiki config setting so that tables are automatically added to all new wikis. See [Tech:Adding a new extension](/tech-docs/techadding_a_new_extension) for enabling extensions or adding tables to existing wikis.

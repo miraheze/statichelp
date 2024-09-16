@@ -125,7 +125,7 @@ source /etc/network/interfaces.d/*
    * IP address: the failover IP (or the allocated internal IP)
    * Netmask = 255.255.255.255 (or /32)
    * Default gateway: leave empty!  [Do not enter the gateway here yet, Debian won't understand it.](http://forums.debian.net/viewtopic.php?f=17&t=143186#p705619)
-   * Example: on cloud15 (main IP 51.77.117.189), you want to give a VM the failover IP 51.195.236.255. Since this VM is on cloud15, the default gateway will be 51.77.117.**254**
+   * Example: on cloud15 (main IP 51.77.117.189), you want to give a VM the failover IP 51.195.236.255. Since this VM is on cloud15, the default gateway will be 51.77.117. **254**
 * After install: empty `/etc/network/interfaces`, insert the following in it (don’t forget to change the IPv4/IPv6 addresses) and reload the network configuration (`ifdown ens18` && `ifup ens18`).
 * In `/etc/resolv.conf`:
 ```
@@ -162,7 +162,7 @@ iface ens18 inet6 static
         address <IPv6 address>/64
         gateway <IPv6 gateway>
 ```
-Default gateway IPv4: first three octets of the cloud's main IP address + '.254'. Example: on cloud15 (main IP 51.77.117.189), you want to give a VM the failover IP 51.195.236.255. Since this VM is on cloud15, the default gateway will be 51.77.117.**254**
+Default gateway IPv4: first three octets of the cloud's main IP address + '.254'. Example: on cloud15 (main IP 51.77.117.189), you want to give a VM the failover IP 51.195.236.255. Since this VM is on cloud15, the default gateway will be 51.77.117. **254**
 
 Instructions for getting the right IPv6 addresses:
 * Each cloud server has a /64 assigned by OVH. For example, for cloud15 this is `2001:41d0:0800:1bbd::/64`.

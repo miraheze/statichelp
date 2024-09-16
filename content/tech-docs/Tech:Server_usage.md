@@ -427,7 +427,7 @@ Currently, servers at Miraheze are used for:
 | Bookworm |
 | |
 
-*Note* : Some information such as specs may be incorrect.
+*Note*: Some information such as specs may be incorrect.
 
 ## Decommissioned servers 
 
@@ -437,317 +437,317 @@ Currently, servers at Miraheze are used for:
 | date started |
 | decommissioned date |
 | former cost per month |
-| ~~[cp1](https://meta.miraheze.org/wiki/Tech:cp1)~~*decommissioned* |
+| ~~[cp1](https://meta.miraheze.org/wiki/Tech:cp1)~~ *decommissioned* |
 | |
 | |
 | 5 October 2017 |
 | N/A |
-| [<s>cp2</s>](https://meta.miraheze.org/wiki/Tech:cp2)*decommissioned* |
+| [<s>cp2</s>](https://meta.miraheze.org/wiki/Tech:cp2) *decommissioned* |
 | 256MB SVZ, 1 core @ 3.40 GHz, 25 GB SSD |
 | |
 | 14 February 2020 |
 | $8/qtr |
-| [<s>cp3</s>](https://meta.miraheze.org/wiki/Tech:Cp3)*decommissioned* |
+| [<s>cp3</s>](https://meta.miraheze.org/wiki/Tech:Cp3) *decommissioned* |
 | 1GB, 1 core @ 3.40 GHz, |
 | 13 March 2019 |
 | |
 | $10 (not paid by Miraheze) |
-| [<s>cp4</s>](https://meta.miraheze.org/wiki/Tech:cp4)*decommissioned* |
+| [<s>cp4</s>](https://meta.miraheze.org/wiki/Tech:cp4) *decommissioned* |
 | 256MB SVZ, 1 core @ 3.40 GHz, 25 GB SSD |
 | 5 October 2017 |
 | 19 March 2020 |
 | $8/qtr |
-| [<s>cp5</s>](https://meta.miraheze.org/wiki/Tech:Cp5)*decommissioned* |
+| [<s>cp5</s>](https://meta.miraheze.org/wiki/Tech:Cp5) *decommissioned* |
 | 1GB, 1 core, 25 GB SSD |
 | 1 April 2018‎ |
 | 5 April 2019‎ |
 | |
-| [<s>cp6</s>](https://meta.miraheze.org/wiki/Tech:Cp6)*decommissioned* |
+| [<s>cp6</s>](https://meta.miraheze.org/wiki/Tech:Cp6) *decommissioned* |
 | 2GB, 2 cores, 20 GB SSD |
 | 7 February 2020 |
 | 1 February 2021 |
 | |
-| [<s>cp7</s>](https://meta.miraheze.org/wiki/Tech:Cp7)*decommissioned* |
+| [<s>cp7</s>](https://meta.miraheze.org/wiki/Tech:Cp7) *decommissioned* |
 | 2GB, 2 cores, 20 GB SSD |
 | 12 February 2020 |
 | 1 February 2021 |
 | |
-| ~~[cp8](https://meta.miraheze.org/wiki/Tech:Cp8)~~*decommissioned* |
+| ~~[cp8](https://meta.miraheze.org/wiki/Tech:Cp8)~~ *decommissioned* |
 | 2GB, 2 cores, 20 GB SSD |
 | 11 February 2020 |
 | 1 February 2021 |
 | |
-| [<s>cp9</s>](https://meta.miraheze.org/wiki/Tech:Cp9)*decommissioned* |
+| [<s>cp9</s>](https://meta.miraheze.org/wiki/Tech:Cp9) *decommissioned* |
 | |
 | |
 | |
 | |
-| [<s>cp10</s>](https://meta.miraheze.org/wiki/Tech:Cp10)*decommissioned* |
+| [<s>cp10</s>](https://meta.miraheze.org/wiki/Tech:Cp10) *decommissioned* |
 | 2GB, 2 cores, 30 GB SSD |
 | 1 February 2021 |
 | |
 | |
-| [<s>cp11</s>](https://meta.miraheze.org/wiki/Tech:Cp11)*decommissioned* |
+| [<s>cp11</s>](https://meta.miraheze.org/wiki/Tech:Cp11) *decommissioned* |
 | 2GB, 2 cores, 30 GB SSD |
 | 1 February 2021 |
 | |
 | |
-| [<s>cp12</s>](https://meta.miraheze.org/wiki/Tech:Cp12)*decommissioned* |
+| [<s>cp12</s>](https://meta.miraheze.org/wiki/Tech:Cp12) *decommissioned* |
 | 2GB, 2 cores, 30 GB SSD |
 | 1 February 2021 |
 | |
 | |
-| ~~[db1](https://meta.miraheze.org/wiki/Tech:db1)~~*decommissioned* |
+| ~~[db1](https://meta.miraheze.org/wiki/Tech:db1)~~ *decommissioned* |
 | |
 | |
 | 5 October 2015 |
 | N/A |
-| ~~[db2](https://meta.miraheze.org/wiki/Tech:db2)~~*decommissioned* |
+| ~~[db2](https://meta.miraheze.org/wiki/Tech:db2)~~ *decommissioned* |
 | 8GB, 4 cores @ 2.30 GHz, 120G GB SSD |
 | |
 | |
 | N/A |
-| ~~[db3](https://meta.miraheze.org/wiki/Tech:Db3)~~*decommissioned* |
+| ~~[db3](https://meta.miraheze.org/wiki/Tech:Db3)~~ *decommissioned* |
 | 6GB, 2 cores @ 2.30 GHz, 100G GB SSD |
 | |
 | |
 | N/A |
-| [<s>db4</s>](https://meta.miraheze.org/wiki/Tech:Db4)*decommissioned* |
+| [<s>db4</s>](https://meta.miraheze.org/wiki/Tech:Db4) *decommissioned* |
 | 16GB, 4 cores @ 3.3 GHz, 400GB GB SSD |
 | |
 | 29 March 2020 |
 | $80 |
-| [<s>db5</s>](https://meta.miraheze.org/wiki/Tech:Db5)*decommissioned* |
+| [<s>db5</s>](https://meta.miraheze.org/wiki/Tech:Db5) *decommissioned* |
 | 8GB, 2 cores @ 3.3 GHz, 200GB GB SSD |
 | |
 | |
 | $40 |
-| [<s>db6</s>](https://meta.miraheze.org/wiki/Tech:Db6)*decommissioned* |
+| [<s>db6</s>](https://meta.miraheze.org/wiki/Tech:Db6) *decommissioned* |
 | |
 | |
 | |
 | |
-| [<s>db7</s>](https://meta.miraheze.org/wiki/Tech:Db7)*decommissioned* |
+| [<s>db7</s>](https://meta.miraheze.org/wiki/Tech:Db7) *decommissioned* |
 | 16GB, 4 cores, 350 GB SSD |
 | |
 | 13 January 2021 |
 | |
-| [<s>dbt1</s>](https://meta.miraheze.org/wiki/Tech:Dbt1)*decommissioned* |
+| [<s>dbt1</s>](https://meta.miraheze.org/wiki/Tech:Dbt1) *decommissioned* |
 | |
 | |
 | |
 | |
-| ~~[Elasticsearch1](https://meta.miraheze.org/wiki/Tech:Elasticsearch1)~~*decommissioned* |
+| ~~[Elasticsearch1](https://meta.miraheze.org/wiki/Tech:Elasticsearch1)~~ *decommissioned* |
 | 1GB, 4 cores @ 3.3 GHz, 75 GB SSD |
 | |
 | |
 | $10 |
-| [<s>gluster1</s>](https://meta.miraheze.org/wiki/Tech:Gluster1)*decommissioned* |
+| [<s>gluster1</s>](https://meta.miraheze.org/wiki/Tech:Gluster1) *decommissioned* |
 | 4GB, 4 cores, 708 GB SSD |
 | 9 February 2020 |
 | 1 February 2021 |
 | |
-| [<s>gluster2</s>](https://meta.miraheze.org/wiki/Tech:Gluster2)*decommissioned* |
+| [<s>gluster2</s>](https://meta.miraheze.org/wiki/Tech:Gluster2) *decommissioned* |
 | 4GB, 4 cores, 350 GB SSD |
 | 06 May 2020 |
 | 1 February 2021 |
 | |
-| [<s>graylog1</s>](https://meta.miraheze.org/wiki/Tech:Graylog1)*decommissioned* |
+| [<s>graylog1</s>](https://meta.miraheze.org/wiki/Tech:Graylog1) *decommissioned* |
 | 8GB, 2 cores, 550 GB SSD |
 | |
 | 1 February 2021 |
 | |
-| [<s>jobrunner1</s>](https://meta.miraheze.org/wiki/Tech:Jobrunner1)*decommissioned* |
+| [<s>jobrunner1</s>](https://meta.miraheze.org/wiki/Tech:Jobrunner1) *decommissioned* |
 | 2GB, 3 cores, 30 GB SSD |
 | 12 February 2020 |
 | 1 February 2021 |
 | |
-| [<s>jobrunner2</s>](https://meta.miraheze.org/wiki/Tech:Jobrunner2)*decommissioned* |
+| [<s>jobrunner2</s>](https://meta.miraheze.org/wiki/Tech:Jobrunner2) *decommissioned* |
 | 2GB, 3 cores, 30 GB SSD |
 | 26 September 2020‎ |
 | 1 February 2021 |
 | |
-| [<s>jobrunner3</s>](https://meta.miraheze.org/wiki/Tech:Jobrunner3)*decommissioned* |
+| [<s>jobrunner3</s>](https://meta.miraheze.org/wiki/Tech:Jobrunner3) *decommissioned* |
 | 3GB, 3 cores, 30 GB SSD |
 | 1 February 2021 |
 | 11 August 2021 |
 | |
-| [<s>jobrunner4</s>](https://meta.miraheze.org/wiki/Tech:Jobrunner4)*decommissioned* |
+| [<s>jobrunner4</s>](https://meta.miraheze.org/wiki/Tech:Jobrunner4) *decommissioned* |
 | 3GB, 3 cores, 30 GB SSD |
 | 1 February 2021 |
 | 11 August 2021 |
 | |
-| [<s>ldap1</s>](https://meta.miraheze.org/wiki/Tech:Ldap1)*decommissioned* |
+| [<s>ldap1</s>](https://meta.miraheze.org/wiki/Tech:Ldap1) *decommissioned* |
 | 1GB, 1 core, 25 GB SSD |
 | |
 | 1 February 2021 |
 | |
-| [<s>lizardfs1</s>](https://meta.miraheze.org/wiki/Tech:lizardfs1)*decommissioned* |
+| [<s>lizardfs1</s>](https://meta.miraheze.org/wiki/Tech:lizardfs1) *decommissioned* |
 | 512MB, 2 core @ 2.30 GHz, 150 GB HDD |
 | |
 | |
 | $5 |
-| [<s>lizardfs2</s>](https://meta.miraheze.org/wiki/Tech:_lizardfs2)*decommissioned* |
+| [<s>lizardfs2</s>](https://meta.miraheze.org/wiki/Tech:_lizardfs2) *decommissioned* |
 | 512MB, 2 core @ 2.30 GHz, 150 GB HDD |
 | |
 | |
 | $5 |
-| [<s>lizardfs3</s>](https://meta.miraheze.org/wiki/Tech:_lizardfs3)*decommissioned* |
+| [<s>lizardfs3</s>](https://meta.miraheze.org/wiki/Tech:_lizardfs3) *decommissioned* |
 | 512MB, 2 core @ 2.30 GHz, 150 GB HDD |
 | |
 | |
 | $5 |
-| [<s>lizardfs4</s>](https://meta.miraheze.org/wiki/Tech:lizardfs4)*decommissioned* |
+| [<s>lizardfs4</s>](https://meta.miraheze.org/wiki/Tech:lizardfs4) *decommissioned* |
 | 1GB, 2 core @ 2.30 GHz, 325 GB HDD |
 | |
 | |
 | $5 |
-| [<s>lizardfs5</s>](https://meta.miraheze.org/wiki/Tech:lizardfs5)*decommissioned* |
+| [<s>lizardfs5</s>](https://meta.miraheze.org/wiki/Tech:lizardfs5) *decommissioned* |
 | 1GB, 2 core @ 2.30 GHz, 325 GB HDD |
 | |
 | |
 | $5 |
-| [<s>lizardfs6</s>](https://meta.miraheze.org/wiki/Tech:lizardfs6)*decommissioned* |
+| [<s>lizardfs6</s>](https://meta.miraheze.org/wiki/Tech:lizardfs6) *decommissioned* |
 | 32GB, 8 core @ 3.5GHz, 2 TB HDD |
 | |
 | |
 | |
-| [<s>mail1</s>](https://meta.miraheze.org/wiki/Tech:Mail1)*decommissioned* |
+| [<s>mail1</s>](https://meta.miraheze.org/wiki/Tech:Mail1) *decommissioned* |
 | 1GB, 1 core, 10 GB SSD |
 | 12 February 2020 |
 | 1 February 2021 |
 | |
-| [<s>misc1</s>](https://meta.miraheze.org/wiki/Tech:Misc1)*decommissioned* |
+| [<s>misc1</s>](https://meta.miraheze.org/wiki/Tech:Misc1) *decommissioned* |
 | 1GB, 1 core @ 2.40 GHz, 40 GB SSD |
 | |
 | |
 | |
-| [<s>misc2</s>](https://meta.miraheze.org/wiki/Tech:Misc2)*decommissioned* |
+| [<s>misc2</s>](https://meta.miraheze.org/wiki/Tech:Misc2) *decommissioned* |
 | 1GB, 1 core @ 2.40 GHz, 40 GB SSD |
 | |
 | 19 March 2020 |
 | $3.15 |
-| [<s>misc3</s>](https://meta.miraheze.org/wiki/Tech:Misc3)*decommissioned* |
+| [<s>misc3</s>](https://meta.miraheze.org/wiki/Tech:Misc3) *decommissioned* |
 | 1GB, 1 core @ 3.30 GHz, 40 GB SSD |
 | |
 | 19 March 2020 |
 | $3.15 |
-| [<s>misc4</s>](https://meta.miraheze.org/wiki/Tech:Misc4)*decommissioned* |
+| [<s>misc4</s>](https://meta.miraheze.org/wiki/Tech:Misc4) *decommissioned* |
 | 2GB, 1 core @ 2.30 GHz, 60 GB SSD |
 | |
 | 19 March 2020 |
 | $7 |
-| [<s>mw1</s>](https://meta.miraheze.org/wiki/Tech:Mw1)*decommissioned* |
+| [<s>mw1</s>](https://meta.miraheze.org/wiki/Tech:Mw1) *decommissioned* |
 | 1GB, 4 cores @ 3.40 GHz, 50 GB SSD |
 | |
 | 29 March 2020 |
 | $10 |
-| [<s>mw2</s>](https://meta.miraheze.org/wiki/Tech:Mw2)*decommissioned* |
+| [<s>mw2</s>](https://meta.miraheze.org/wiki/Tech:Mw2) *decommissioned* |
 | 1GB, 4 cores @ 3.40 GHz, 50 GB SSD |
 | |
 | 29 March 2020 |
 | $10 |
-| [<s>mw3</s>](https://meta.miraheze.org/wiki/Tech:Mw3)*decommissioned* |
+| [<s>mw3</s>](https://meta.miraheze.org/wiki/Tech:Mw3) *decommissioned* |
 | 1GB, 4 cores @ 3.40 GHz, 50 GB SSD |
 | |
 | 29 March 2020 |
 | $10 |
-| [<s>mw4</s>](https://meta.miraheze.org/wiki/Tech:Mw4)*decommissioned* |
+| [<s>mw4</s>](https://meta.miraheze.org/wiki/Tech:Mw4) *decommissioned* |
 | 3GB, 4 cores, 20 GB SSD |
 | 8 February 2020 |
 | 1 February 2021 |
 | |
-| [<s>mw5</s>](https://meta.miraheze.org/wiki/Tech:Mw5)*decommissioned* |
+| [<s>mw5</s>](https://meta.miraheze.org/wiki/Tech:Mw5) *decommissioned* |
 | 3GB, 4 cores, 20 GB SSD |
 | 11 February 2020 |
 | 1 February 2021 |
 | |
-| [<s>mw6</s>](https://meta.miraheze.org/wiki/Tech:Mw6)*decommissioned* |
+| [<s>mw6</s>](https://meta.miraheze.org/wiki/Tech:Mw6) *decommissioned* |
 | 3GB, 4 cores, 20 GB SSD |
 | 11 February 2020 |
 | 1 February 2021 |
 | |
-| [<s>mw7</s>](https://meta.miraheze.org/wiki/Tech:Mw7)*decommissioned* |
+| [<s>mw7</s>](https://meta.miraheze.org/wiki/Tech:Mw7) *decommissioned* |
 | 3GB, 4 cores, 20 GB SSD |
 | 11 February 2020 |
 | 1 February 2021 |
 | |
-| [<s>nfs1</s>](https://meta.miraheze.org/wiki/Tech:nfs1)*decommissioned* |
+| [<s>nfs1</s>](https://meta.miraheze.org/wiki/Tech:nfs1) *decommissioned* |
 | 512 MB, 1 core @ 2.30 GHz, 15 GB HDD |
 | |
 | |
 | N/A |
-| [<s>ns3</s>](https://meta.miraheze.org/wiki/Tech:Ns3)*decommissioned* |
+| [<s>ns3</s>](https://meta.miraheze.org/wiki/Tech:Ns3) *decommissioned* |
 | |
 | |
 | |
 | N/A |
-| [<s>parsoid1</s>](https://meta.miraheze.org/wiki/Tech:Parsoid1)*decommissioned* |
+| [<s>parsoid1</s>](https://meta.miraheze.org/wiki/Tech:Parsoid1) *decommissioned* |
 | |
 | |
 | |
 | N/A |
-| [<s>phab1</s>](https://meta.miraheze.org/wiki/Tech:Phab1)*decommissioned* |
+| [<s>phab1</s>](https://meta.miraheze.org/wiki/Tech:Phab1) *decommissioned* |
 | 1GB, 2 cores, 25 GB SSD |
 | 12 February 2020 |
 | 1 February 2021 |
 | |
-| [<s>puppet1</s>](https://meta.miraheze.org/wiki/Tech:Puppet1)*decommissioned* |
+| [<s>puppet1</s>](https://meta.miraheze.org/wiki/Tech:Puppet1) *decommissioned* |
 | 2GB, 2 core @ 2.30 GHz, 60 GB SSD |
 | |
 | 19 March 2020 |
 | $7.00 |
-| [<s>puppet2</s>](https://meta.miraheze.org/wiki/Tech:Puppet2)*decommissioned* |
+| [<s>puppet2</s>](https://meta.miraheze.org/wiki/Tech:Puppet2) *decommissioned* |
 | 5GB, 4 cores, 23 GB SSD |
 | 8 February 2020 |
 | 1 February 2021 |
 | |
-| [<s>rdb1</s>](https://meta.miraheze.org/wiki/Tech:Rdb1)*decommissioned* |
+| [<s>rdb1</s>](https://meta.miraheze.org/wiki/Tech:Rdb1) *decommissioned* |
 | 3GB, 2 cores, 10 GB SSD |
 | 10 February 2020 |
 | 1 February 2021 |
 | |
-| [<s>rdb2</s>](https://meta.miraheze.org/wiki/Tech:Rdb2)*decommissioned* |
+| [<s>rdb2</s>](https://meta.miraheze.org/wiki/Tech:Rdb2) *decommissioned* |
 | 3GB, 2 cores, 10 GB SSD |
 | 12 February 2020 |
 | 1 February 2021 |
 | |
-| [<s>services1</s>](https://meta.miraheze.org/wiki/Tech:Services1)*decommissioned* |
+| [<s>services1</s>](https://meta.miraheze.org/wiki/Tech:Services1) *decommissioned* |
 | 3GB, 2 cores, 10 GB SSD |
 | 10 February 2020 |
 | 1 February 2021 |
 | |
-| [<s>services2</s>](https://meta.miraheze.org/wiki/Tech:Services2)*decommissioned* |
+| [<s>services2</s>](https://meta.miraheze.org/wiki/Tech:Services2) *decommissioned* |
 | 3GB, 2 cores, 10 GB SSD |
 | 12 February 2020 |
 | 1 February 2021 |
 | |
-| [<s>services3</s>](https://meta.miraheze.org/wiki/Tech:Services3)*decommissioned* |
+| [<s>services3</s>](https://meta.miraheze.org/wiki/Tech:Services3) *decommissioned* |
 | 3GB, 2 cores, 10 GB SSD |
 | 1 February 2021 |
 | 31 October 2021 |
 | |
-| [<s>services4</s>](https://meta.miraheze.org/wiki/Tech:Services4)*decommissioned* |
+| [<s>services4</s>](https://meta.miraheze.org/wiki/Tech:Services4) *decommissioned* |
 | 3GB, 2 cores, 10 GB SSD |
 | 1 February 2021 |
 | 31 October 2021 |
 | |
-| [<s>swift1</s>](https://meta.miraheze.org/wiki/Tech:swift1)*decommissioned* |
+| [<s>swift1</s>](https://meta.miraheze.org/wiki/Tech:swift1) *decommissioned* |
 | 512MB, 2 core @ 2.30 GHz, 150 GB HDD |
 | |
 | |
 | N/A |
-| [<s>swift2</s>](https://meta.miraheze.org/wiki/Tech:swift2)*decommissioned* |
+| [<s>swift2</s>](https://meta.miraheze.org/wiki/Tech:swift2) *decommissioned* |
 | 512MB, 2 core @ 2.30 GHz, 150 GB HDD |
 | |
 | |
 | N/A |
-| [<s>test1</s>](https://meta.miraheze.org/wiki/Tech:Test1)*decommissioned* |
+| [<s>test1</s>](https://meta.miraheze.org/wiki/Tech:Test1) *decommissioned* |
 | 1GB, 4 cores @ 3.40 GHz, 50 GB SSD |
 | |
 | 19 March 2020 |
 | $3.15 |
-| [<s>test2</s>](https://meta.miraheze.org/wiki/Tech:Test2)*decommissioned* |
+| [<s>test2</s>](https://meta.miraheze.org/wiki/Tech:Test2) *decommissioned* |
 | 1.5GB, 1 core, 20 GB SSD |
 | 10 February 2020 |
 | 1 February 2021 |

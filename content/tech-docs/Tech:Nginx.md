@@ -10,7 +10,7 @@ Adding a new site to NGINX is relatively easy but also depends on what you want 
 
 ### New Site 
 
-To add a new site, you add a .conf file in `/etc/nginx/sites-available/<name>.conf` and then symlink `/etc/nginx/sites-enabled/<name>.conf to``/etc/nginx/sites-available/<name>.conf`
+To add a new site, you add a .conf file in `/etc/nginx/sites-available/<name>.conf` and then symlink `/etc/nginx/sites-enabled/<name>.conf to` `/etc/nginx/sites-available/<name>.conf`
 
 With the contents:
 

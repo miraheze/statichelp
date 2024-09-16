@@ -17,7 +17,7 @@ The team includes volunteers in technical and less-technical roles, including pr
 ! শেল
 ! গিটহাব
 ! ফোর্জ (অ্যাডমিন)
-! রামনোড <br />এবং<br /> ব্যাকআপসি
+! রামনোড <br />এবং <br /> ব্যাকআপসি
 ! Cloudflare
 ! ডোমেন নিবন্ধক
 ! গ্রাফানা (অ্যাডমিন)

@@ -7677,7 +7677,7 @@ title: Tech:Server admin log
 * 01:28 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'world': True, 'versions': 'all'} to mwtask181 - SUCCESS in 60s
 * 01:27 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'world': True, 'versions': 'all'} to mwtask181
 * 01:27 MirahezeLSBot: [@test131] finished deploy of {'config': True, 'versions': [*]} to [test131] - SUCCESS in 1s
-* 01:27 MirahezeLSBot: [@test131] starting deploy of {'config': True, 'versions': [* ]} to [test131]
+* 01:27 MirahezeLSBot: [@test131] starting deploy of {'config': True, 'versions': [*]} to [test131]
 * 01:27 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'config': True} to [mw181, mw182] - SUCCESS in 5s
 * 01:26 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'config': True} to [mw181, mw182]
 * 01:19 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'config': True, 'versions': 'all'} to [mw181, mw182] - SUCCESS in 7s
@@ -7689,7 +7689,7 @@ title: Tech:Server admin log
 * 01:09 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'config': True, 'versions': ['all']} to [all]
 * 01:08 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'config': True, 'versions': 'all'} to [all]
 * 00:58 MirahezeLSBot: [@test131] finished deploy of {'config': True, 'versions': [*]} to [test131] - SUCCESS in 0s
-* 00:58 MirahezeLSBot: [@test131] starting deploy of {'config': True, 'versions': [* ]} to [test131]
+* 00:58 MirahezeLSBot: [@test131] starting deploy of {'config': True, 'versions': [*]} to [test131]
 * 00:41 MirahezeLSBot: [universalomega@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mw181.wikitide.net1
 * 00:39 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'config': True, 'versions': 'all'} to all
 * 00:39 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_pack': 'miraheze'} to all - SUCCESS in 18s
@@ -7709,7 +7709,7 @@ title: Tech:Server admin log
 * 00:28 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': 'all', 'upgrade_extensions': ['CreateWiki', 'DataDump', 'GlobalNewFiles', 'ImportDump', 'IncidentReporting', 'ManageWiki', 'MatomoAnalytics', 'MirahezeMagic', 'PDFEmbed', 'RemovePII', 'RottenLinks', 'SpriteSheet', 'WikiDiscover', 'YouTube'], 'upgrade_skins': []} to [mwtask181]
 * 00:27 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'world': True, 'versions': 'all'} to [mwtask181] - SUCCESS in 61s
 * 00:27 MirahezeLSBot: [@test131] finished deploy of {'config': True, 'versions': [*]} to [test131] - SUCCESS in 2s
-* 00:27 MirahezeLSBot: [@test131] starting deploy of {'config': True, 'versions': [* ]} to [test131]
+* 00:27 MirahezeLSBot: [@test131] starting deploy of {'config': True, 'versions': [*]} to [test131]
 * 00:26 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'world': True, 'versions': 'all'} to [mwtask181]
 * 00:22 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'config': True, 'versions': 'all'} to [mwtask181] - SUCCESS in 1s
 * 00:22 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'config': True, 'versions': 'all'} to [mwtask181]
@@ -7717,17 +7717,17 @@ title: Tech:Server admin log
 ## 2024-01-14 
 
 * 23:57 MirahezeLSBot: [@test131] finished deploy of {'config': True, 'versions': [*]} to [test131] - SUCCESS in 0s
-* 23:57 MirahezeLSBot: [@test131] starting deploy of {'config': True, 'versions': [* ]} to [test131]
+* 23:57 MirahezeLSBot: [@test131] starting deploy of {'config': True, 'versions': [*]} to [test131]
 * 23:37 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.40'], 'upgrade_extensions': ['CreateWiki']} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask181] - SUCCESS in 53s
 * 23:36 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.40'], 'upgrade_extensions': ['CreateWiki']} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask181]
 * 23:36 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.40'], 'upgrade_extensions': ['CreateWiki']} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask181] - SUCCESS in 1s
 * 23:36 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.40'], 'upgrade_extensions': ['CreateWiki']} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask181]
 * 23:26 MirahezeLSBot: [@test131] finished deploy of {'config': True, 'versions': [*]} to [test131] - SUCCESS in 0s
-* 23:26 MirahezeLSBot: [@test131] starting deploy of {'config': True, 'versions': [* ]} to [test131]
+* 23:26 MirahezeLSBot: [@test131] starting deploy of {'config': True, 'versions': [*]} to [test131]
 * 23:02 MirahezeLSBot: [@mwtask181] finished deploy of {'config': True, 'versions': [*]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask181] - SUCCESS in 40s
-* 23:02 MirahezeLSBot: [@mwtask181] starting deploy of {'config': True, 'versions': [* ]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask181]
+* 23:02 MirahezeLSBot: [@mwtask181] starting deploy of {'config': True, 'versions': [*]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask181]
 * 22:57 MirahezeLSBot: [@test131] finished deploy of {'config': True, 'versions': [*]} to [test131] - SUCCESS in 13s
-* 22:57 MirahezeLSBot: [@test131] starting deploy of {'config': True, 'versions': [* ]} to [test131]
+* 22:57 MirahezeLSBot: [@test131] starting deploy of {'config': True, 'versions': [*]} to [test131]
 * 20:32 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/1.40/maintenance/run.php /srv/mediawiki/1.40/maintenance/initSiteStats.php --wiki=lacommunautedeblablalandwiki --active --update (END - exit=0)
 * 20:32 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/1.40/maintenance/run.php /srv/mediawiki/1.40/maintenance/rebuildall.php --wiki=lacommunautedeblablalandwiki (END - exit=0)
 * 20:32 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/1.40/maintenance/run.php /srv/mediawiki/1.40/maintenance/rebuildall.php --wiki=lacommunautedeblablalandwiki (START)
@@ -7745,9 +7745,9 @@ title: Tech:Server admin log
 ## 2024-01-13 
 
 * 22:02 MirahezeLSBot: [@mwtask181] finished deploy of {'folders': '1.40/extensions/MirahezeMagic', 'versions': [*]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask181] - SUCCESS in 43s
-* 22:01 MirahezeLSBot: [@mwtask181] starting deploy of {'folders': '1.40/extensions/MirahezeMagic', 'versions': [* ]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask181]
+* 22:01 MirahezeLSBot: [@mwtask181] starting deploy of {'folders': '1.40/extensions/MirahezeMagic', 'versions': [*]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask181]
 * 21:57 MirahezeLSBot: [@test131] finished deploy of {'folders': '1.41/extensions/MirahezeMagic', 'versions': [*]} to [test131] - SUCCESS in 0s
-* 21:57 MirahezeLSBot: [@test131] starting deploy of {'folders': '1.41/extensions/MirahezeMagic', 'versions': [* ]} to [test131]
+* 21:57 MirahezeLSBot: [@test131] starting deploy of {'folders': '1.41/extensions/MirahezeMagic', 'versions': [*]} to [test131]
 * 10:19 Reception123: DELETED and DROPPED [https://phabricator.miraheze.org/P496](https://phabricator.miraheze.org/P496)
 * 07:12 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/1.40/maintenance/run.php /srv/mediawiki/1.40/maintenance/initSiteStats.php --wiki=riskuniversaliswiki --active --update (END - exit=0)
 * 07:12 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/1.40/maintenance/run.php /srv/mediawiki/1.40/maintenance/rebuildall.php --wiki=riskuniversaliswiki (END - exit=0)
@@ -7763,9 +7763,9 @@ title: Tech:Server admin log
 ## 2024-01-12 
 
 * 17:03 MirahezeLSBot: [@mwtask181] finished deploy of {'config': True, 'versions': [*]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask181] - SUCCESS in 45s
-* 17:02 MirahezeLSBot: [@mwtask181] starting deploy of {'config': True, 'versions': [* ]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask181]
+* 17:02 MirahezeLSBot: [@mwtask181] starting deploy of {'config': True, 'versions': [*]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask181]
 * 16:57 MirahezeLSBot: [@test131] finished deploy of {'config': True, 'versions': [*]} to [test131] - SUCCESS in 1s
-* 16:57 MirahezeLSBot: [@test131] starting deploy of {'config': True, 'versions': [* ]} to [test131]
+* 16:57 MirahezeLSBot: [@test131] starting deploy of {'config': True, 'versions': [*]} to [test131]
 * 05:22 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'files': '../mediawiki/1.40/extensions/SemanticMediaWiki/.smw.json', 'versions': ['1.40']} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask181] - SUCCESS in 41s
 * 05:21 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'files': '../mediawiki/1.40/extensions/SemanticMediaWiki/.smw.json', 'versions': ['1.40']} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask181]
 * 05:19 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /home/universalomega/semanticmediawiki.json /srv/mediawiki/1.40/maintenance/run.php /srv/mediawiki/1.40/extensions/SemanticMediaWiki/maintenance/setupStore.php (END - exit=0)
@@ -7779,20 +7779,20 @@ title: Tech:Server admin log
 
 * 21:45 MirahezeLSBot: [oa@puppet181] /root/ssl-certificate -d kinnikupedia.org -g -p -o
 * 21:32 MirahezeLSBot: [@mwtask181] finished deploy of {'config': True, 'versions': [*]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask181] - SUCCESS in 44s
-* 21:31 MirahezeLSBot: [@mwtask181] starting deploy of {'config': True, 'versions': [* ]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask181]
+* 21:31 MirahezeLSBot: [@mwtask181] starting deploy of {'config': True, 'versions': [*]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask181]
 * 21:26 MirahezeLSBot: [@test131] finished deploy of {'config': True, 'versions': [*]} to [test131] - SUCCESS in 1s
-* 21:26 MirahezeLSBot: [@test131] starting deploy of {'config': True, 'versions': [* ]} to [test131]
+* 21:26 MirahezeLSBot: [@test131] starting deploy of {'config': True, 'versions': [*]} to [test131]
 * 17:04 paladox: test131: install libsdl-pango-dev
 * 16:28 MirahezeLSBot: [@test131] finished deploy of {'config': True, 'versions': [*]} to [test131] - SUCCESS in 0s
-* 16:27 MirahezeLSBot: [@test131] starting deploy of {'config': True, 'versions': [* ]} to [test131]
+* 16:27 MirahezeLSBot: [@test131] starting deploy of {'config': True, 'versions': [*]} to [test131]
 * 16:26 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'versions': ['1.40']} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask181] - SUCCESS in 114s
 * 16:24 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'versions': ['1.40']} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask181]
 * 16:08 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'versions': ['1.40']} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask181] - SUCCESS in 49s
 * 16:08 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'versions': ['1.40']} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask181]
 * 12:33 MirahezeLSBot: [@mwtask181] finished deploy of {'folders': '1.40/extensions/MirahezeMagic', 'versions': [*]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask181] - SUCCESS in 39s
-* 12:33 MirahezeLSBot: [@mwtask181] starting deploy of {'folders': '1.40/extensions/MirahezeMagic', 'versions': [* ]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask181]
+* 12:33 MirahezeLSBot: [@mwtask181] starting deploy of {'folders': '1.40/extensions/MirahezeMagic', 'versions': [*]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask181]
 * 12:27 MirahezeLSBot: [@test131] finished deploy of {'folders': '1.41/extensions/MirahezeMagic', 'versions': [*]} to [test131] - SUCCESS in 0s
-* 12:27 MirahezeLSBot: [@test131] starting deploy of {'folders': '1.41/extensions/MirahezeMagic', 'versions': [* ]} to [test131]
+* 12:27 MirahezeLSBot: [@test131] starting deploy of {'folders': '1.41/extensions/MirahezeMagic', 'versions': [*]} to [test131]
 * 12:22 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/1.40/maintenance/run.php /srv/mediawiki/1.40/extensions/SemanticMediaWiki/maintenance/setupStore.php --wiki=esnarutowiki (END - exit=0)
 * 07:46 MirahezeLSBot: [salt-user@mwtask141] Renamed wellreadwiki to wellredwiki using renamewiki.py
 * 06:37 Reception123: DROPPED kiskapediawiki on db142 and db121 (cw error)
@@ -7814,33 +7814,33 @@ title: Tech:Server admin log
 * 20:20 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/1.40/maintenance/run.php /srv/mediawiki/1.40/maintenance/importDump.php --wiki=warriorclancatswiki --no-updates --username-prefix=wikia:warriorclancats /home/reception/ImportDump/warriorclancatswiki-20240110151420.xml (END - exit=0)
 * 20:13 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/1.40/maintenance/run.php /srv/mediawiki/1.40/maintenance/importDump.php --wiki=warriorclancatswiki --no-updates --username-prefix=wikia:warriorclancats /home/reception/ImportDump/warriorclancatswiki-20240110151420.xml (START)
 * 20:03 MirahezeLSBot: [@mwtask181] finished deploy of {'config': True, 'versions': [*]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask181] - SUCCESS in 41s
-* 20:02 MirahezeLSBot: [@mwtask181] starting deploy of {'config': True, 'versions': [* ]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask181]
+* 20:02 MirahezeLSBot: [@mwtask181] starting deploy of {'config': True, 'versions': [*]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask181]
 * 19:57 MirahezeLSBot: [@test131] finished deploy of {'config': True, 'versions': [*]} to [test131] - SUCCESS in 0s
-* 19:57 MirahezeLSBot: [@test131] starting deploy of {'config': True, 'versions': [* ]} to [test131]
+* 19:57 MirahezeLSBot: [@test131] starting deploy of {'config': True, 'versions': [*]} to [test131]
 * 19:41 MirahezeLSBot: [paladox@mwtask181] cancel
 * 19:40 MirahezeLSBot: [paladox@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.json /srv/mediawiki/1.40/extensions/RottenLinks/maintenance/updateExternalLinks.php
 * 19:32 MirahezeLSBot: [@mwtask181] finished deploy of {'config': True, 'versions': [*]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask141, mwtask181] - SUCCESS in 43s
-* 19:32 MirahezeLSBot: [@mwtask181] starting deploy of {'config': True, 'versions': [* ]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask141, mwtask181]
+* 19:32 MirahezeLSBot: [@mwtask181] starting deploy of {'config': True, 'versions': [*]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask141, mwtask181]
 * 19:27 MirahezeLSBot: [@test131] finished deploy of {'config': True, 'versions': [*]} to [test131] - SUCCESS in 0s
-* 19:27 MirahezeLSBot: [@test131] starting deploy of {'config': True, 'versions': [* ]} to [test131]
+* 19:27 MirahezeLSBot: [@test131] starting deploy of {'config': True, 'versions': [*]} to [test131]
 * 19:18 MirahezeLSBot: [paladox@mwtask141] finished deploy of {'config': True, 'versions': ['1.40']} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask141, mwtask181] - SUCCESS in 18s
 * 19:18 MirahezeLSBot: [paladox@mwtask141] starting deploy of {'config': True, 'versions': ['1.40']} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask141, mwtask181]
 * 19:18 MirahezeLSBot: [paladox@mwtask141] finished deploy of {'pull': 'config', 'config': True, 'versions': ['1.40']} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask141, mwtask181] - SUCCESS in 20s
 * 19:17 MirahezeLSBot: [paladox@mwtask141] starting deploy of {'pull': 'config', 'config': True, 'versions': ['1.40']} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask141, mwtask181]
 * 19:11 MirahezeLSBot: [@mwtask141] finished deploy of {'config': True, 'versions': [*]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask141, mwtask181] - SUCCESS in 25s
-* 19:10 MirahezeLSBot: [@mwtask141] starting deploy of {'config': True, 'versions': [* ]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask141, mwtask181]
+* 19:10 MirahezeLSBot: [@mwtask141] starting deploy of {'config': True, 'versions': [*]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask141, mwtask181]
 * 18:10 MirahezeLSBot: [@mwtask141] finished deploy of {'folders': '1.40/extensions/MirahezeMagic', 'versions': [*]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask141, mwtask181] - SUCCESS in 20s
-* 18:09 MirahezeLSBot: [@mwtask141] starting deploy of {'folders': '1.40/extensions/MirahezeMagic', 'versions': [* ]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask141, mwtask181]
+* 18:09 MirahezeLSBot: [@mwtask141] starting deploy of {'folders': '1.40/extensions/MirahezeMagic', 'versions': [*]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask141, mwtask181]
 * 18:09 MirahezeLSBot: [@mwtask141] finished deploy of {'config': True, 'versions': [*]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask141, mwtask181] - SUCCESS in 19s
-* 18:09 MirahezeLSBot: [@mwtask141] starting deploy of {'config': True, 'versions': [* ]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask141, mwtask181]
+* 18:09 MirahezeLSBot: [@mwtask141] starting deploy of {'config': True, 'versions': [*]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask141, mwtask181]
 * 18:04 MirahezeLSBot: [@mwtask181] finished deploy of {'folders': '1.40/extensions/MirahezeMagic', 'versions': [*]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask141, mwtask181] - SUCCESS in 39s
-* 18:03 MirahezeLSBot: [@mwtask181] starting deploy of {'folders': '1.40/extensions/MirahezeMagic', 'versions': [* ]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask141, mwtask181]
+* 18:03 MirahezeLSBot: [@mwtask181] starting deploy of {'folders': '1.40/extensions/MirahezeMagic', 'versions': [*]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask141, mwtask181]
 * 18:03 MirahezeLSBot: [@mwtask181] finished deploy of {'config': True, 'versions': [*]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask141, mwtask181] - SUCCESS in 66s
-* 18:02 MirahezeLSBot: [@mwtask181] starting deploy of {'config': True, 'versions': [* ]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask141, mwtask181]
+* 18:02 MirahezeLSBot: [@mwtask181] starting deploy of {'config': True, 'versions': [*]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask141, mwtask181]
 * 17:57 MirahezeLSBot: [@test131] finished deploy of {'folders': '1.41/extensions/MirahezeMagic', 'versions': [*]} to [test131] - SUCCESS in 0s
-* 17:57 MirahezeLSBot: [@test131] starting deploy of {'folders': '1.41/extensions/MirahezeMagic', 'versions': [* ]} to [test131]
+* 17:57 MirahezeLSBot: [@test131] starting deploy of {'folders': '1.41/extensions/MirahezeMagic', 'versions': [*]} to [test131]
 * 17:56 MirahezeLSBot: [@test131] finished deploy of {'config': True, 'versions': [*]} to [test131] - SUCCESS in 1s
-* 17:56 MirahezeLSBot: [@test131] starting deploy of {'config': True, 'versions': [* ]} to [test131]
+* 17:56 MirahezeLSBot: [@test131] starting deploy of {'config': True, 'versions': [*]} to [test131]
 * 17:41 MirahezeLSBot: [agent@mwtask141] sudo -u www-data php /srv/mediawiki/1.40/maintenance/run.php /srv/mediawiki/1.40/extensions/ManageWiki/maintenance/populateGroupPermissionsWithDefaults.php --wiki=mandaepediawiki (END - exit=0)
 * 16:57 MirahezeLSBot: [agent@mwtask141] sudo -u www-data php /srv/mediawiki/1.40/maintenance/run.php /srv/mediawiki/1.40/maintenance/refreshLinks.php --wiki=trollpastawiki (START)
 * 16:56 MirahezeLSBot: [agent@mwtask141] sudo -u www-data php /srv/mediawiki/1.40/maintenance/run.php /srv/mediawiki/1.40/maintenance/cleanupEmptyCategories.php --wiki=trollpastawiki (END - exit=0)

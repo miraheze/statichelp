@@ -15,7 +15,7 @@ Una plantilla de propuesta está disponible [aquí](https://meta.miraheze.org/wi
 Cualquiera puede:
 * Proponer un nuevo proyecto (véase [aquí](https://meta.miraheze.org/wiki//Template)).
 * Comentar en una propuesta (usa la página de discusión de la propuesat relevante).
-* Trabajar en una propuesta (véase [Contribuir](https://meta.miraheze.org/wiki/Special:MyLanguage/Contributing) y *puntos de partida*  en una propuesta para guiarse).
+* Trabajar en una propuesta (véase [Contribuir](https://meta.miraheze.org/wiki/Special:MyLanguage/Contributing) y *puntos de partida* en una propuesta para guiarse).
 
 ## Propuestas actuales 
 

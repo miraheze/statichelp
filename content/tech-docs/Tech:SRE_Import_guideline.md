@@ -10,7 +10,7 @@ This policy is an SRE policy and due to its complexity, it is not necessary to h
 
 ## Types of import 
 
-The key metric in all the cases below is how many *active users* there are on the Miraheze wiki and how many are expected to join; the rationale behind this policy is to prevent wikis with few users from occupying significant amounts of server space without *actually using the content*  they imported, so Miraheze does not end up hosting content from other wikis.
+The key metric in all the cases below is how many *active users* there are on the Miraheze wiki and how many are expected to join; the rationale behind this policy is to prevent wikis with few users from occupying significant amounts of server space without *actually using the content* they imported, so Miraheze does not end up hosting content from other wikis.
 
 ### Type I: Migrating from another platform 
 

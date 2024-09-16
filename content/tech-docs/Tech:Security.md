@@ -16,7 +16,7 @@ Since the creation of the Trust and Safety team in early 2021, the T&S team is p
 
 ### Active threat (Emergency) 
 
-There is an '**active' threat** when there is evidence that there have recently been attempts (whether successful or not) from a third party to exploit a vulnerability or to attack Miraheze otherwise (DDoS/DoS, etc.).
+There is an ' **active' threat** when there is evidence that there have recently been attempts (whether successful or not) from a third party to exploit a vulnerability or to attack Miraheze otherwise (DDoS/DoS, etc.).
 
 Due to their urgent nature, active threats may be dealt with by any SRE member without having to first consult T&S or the Engineering Manager of the relevant team (attempts to contact T&S should always be made first, but if there is no response action may be taken). Any action done by the SRE member should be *temporary* and after it is done the EM and the T&S team should be informed.
 
@@ -24,7 +24,7 @@ Due to their urgent nature, active threats may be dealt with by any SRE member w
 
 ### Passive threat 
 
-There is a '**passive' threat** when there is evidence of an existing vulnerability, but there is no evidence of any proof of concept or actual attempt (whether successful or not) to exploit that vulnerability recently. While these are still serious security issues, they are not as urgent as active threats, given the low probability that they will be exploited immediately.
+There is a ' **passive' threat** when there is evidence of an existing vulnerability, but there is no evidence of any proof of concept or actual attempt (whether successful or not) to exploit that vulnerability recently. While these are still serious security issues, they are not as urgent as active threats, given the low probability that they will be exploited immediately.
 
 Due to their less urgent nature than active threats, SRE members should only deal with them after an EM or a T&S member (or both) have been consulted (attempts to contact T&S should always be made first, if there is no response the EM should be contacted). Any action done by the SRE member should be *temporary* (unless T&S agrees to a permanent solution) and after it is done the T&S team should be informed (if done on EM approval only).
 

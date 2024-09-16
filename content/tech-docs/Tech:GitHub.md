@@ -43,8 +43,8 @@ mediawiki is the repository that manages the MediaWiki source code, skins, and e
 ### CreateWiki 
 
 [CreateWiki](https://github.com/miraheze/CreateWiki) is a MediaWiki extension to request and create wikis on Miraheze.
-* **Push Access**: Site Reliability Engineers (Infrastructure), MediaWiki Engineers, i18n<sub>(*reference:* Currently [@translatewiki](https://github.com/translatewiki) only)</sub>
-* **Servers**: MediaWiki servers<sub>(*reference:* Only if the extension is updated using [mwdeploy](/tech-docs/techmwdeploy) or manually)</sub>
+* **Push Access**: Site Reliability Engineers (Infrastructure), MediaWiki Engineers, i18n <sub>(*reference:* Currently [@translatewiki](https://github.com/translatewiki) only)</sub>
+* **Servers**: MediaWiki servers <sub>(*reference:* Only if the extension is updated using [mwdeploy](/tech-docs/techmwdeploy) or manually)</sub>
 
 ### ManageWiki 
 

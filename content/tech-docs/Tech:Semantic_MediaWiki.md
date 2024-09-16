@@ -27,7 +27,7 @@ The `setupStore.php` script should be run twice as it can fail on the first run.
 
 ## Upgrading Extension 
 
- `{{ {{Note}} }}`*These steps are not yet confirmed but are theoretically how it should work. It should first be tested on [test151](/tech-docs/techtest151) before attempted in production.*
+ `{{ {{Note}} }}` *These steps are not yet confirmed but are theoretically how it should work. It should first be tested on [test151](/tech-docs/techtest151) before attempted in production.*
 
 Unlike most extensions, Semantic MediaWiki is not installed via git, but rather via composer. Therefore the usual method of upgrading it using `mwdeploy --upgrade-extensions=SemanticMediaWiki` will not work for SMW.
 

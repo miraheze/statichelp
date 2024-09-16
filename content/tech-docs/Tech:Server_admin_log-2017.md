@@ -1545,7 +1545,7 @@ title: Tech:Server admin log/2017
 * 15:01 Reception123: srv/mediawiki/w/maintenance sudo -u www-data php rebuildLocalisationCache.php --wiki extloadwiki on mw*
 ## Information 
 
-All times are in **UTC+0**/**GMT**.
+All times are in **UTC+0**/ **GMT**.
 
 Archives: [2015](https://meta.miraheze.org/wiki//2015), [2016](https://meta.miraheze.org/wiki//2016)
 

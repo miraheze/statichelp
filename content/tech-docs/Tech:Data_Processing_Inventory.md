@@ -18,8 +18,8 @@ At the [Board meeting of October 23, 2020](https://meta.miraheze.org/wiki/Board/
 
 | Data type | Subjects | Legal basis | Retention date | Processors |
 | --- | --- | --- | --- | --- |
-| IP address | Editors, readers | Anonymous editors: consent<br />CheckUser (registered editor): legitimate interests | Anonymous editing: indefinite (attribution mandatory by licensing)<br />CheckUser (registered editor): up to 90 days | DigitalOcean, OVH, RamNode |
-| Usernames | Registered editors | Consent (account may not be required<sub>(*reference:* Communities may require registration prior to reading and editing, but Miraheze Limited commits to information access without prior registration.)</sub>) | Indefinite (until account has been renamed or deleted by user or per GDPR request<sub>(*reference:* Due to attribution requirements by licensing, user accounts will not be erased, but accounts will be renamed to apply [pseudonymisation](https://en.wikipedia.org/wiki/Pseudonymization).)</sub>) | DigitalOcean, OVH, RamNode |
+| IP address | Editors, readers | Anonymous editors: consent <br />CheckUser (registered editor): legitimate interests | Anonymous editing: indefinite (attribution mandatory by licensing) <br />CheckUser (registered editor): up to 90 days | DigitalOcean, OVH, RamNode |
+| Usernames | Registered editors | Consent (account may not be required <sub>(*reference:* Communities may require registration prior to reading and editing, but Miraheze Limited commits to information access without prior registration.)</sub>) | Indefinite (until account has been renamed or deleted by user or per GDPR request <sub>(*reference:* Due to attribution requirements by licensing, user accounts will not be erased, but accounts will be renamed to apply [pseudonymisation](https://en.wikipedia.org/wiki/Pseudonymization).)</sub>) | DigitalOcean, OVH, RamNode |
 | Password | Registered users | Legitimate interests (account security) | Indefinite (until changed or removed by user or per GDPR request) | DigitalOcean, OVH, RamNode |
 | Email address | Registered users | Consent (not required upon registration), legitimate interests (account security / password reset) | Indefinite (until removed or changed by user or per GDPR request) | DigitalOcean, OVH, RamNode |
 | Optional user information (e.g. a user page, real name) | Editors | Consent | Indefinite (until edited or removed by user or per GDPR request) | DigitalOcean, OVH, RamNode |
@@ -34,7 +34,7 @@ At the [Board meeting of October 23, 2020](https://meta.miraheze.org/wiki/Board/
 
 * Anonymous: user without an account
 * Registered: user with an account
-* Editors: anonymous or registered users, editing wiki content<sub>(*reference:* All editors are readers, but not all readers are editors.)</sub>
+* Editors: anonymous or registered users, editing wiki content <sub>(*reference:* All editors are readers, but not all readers are editors.)</sub>
 * Readers: anonymous or registered users, reading wiki content
 
 

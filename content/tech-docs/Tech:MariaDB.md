@@ -2,7 +2,7 @@
 title: Tech:MariaDB
 ---
 
-MariaDB<sub>(*reference:* English Wikipedia article: [MariaDB](https://meta.miraheze.org/wiki/w:MariaDB))</sub> is the chosen database software used in production. Currently we run 10.11.x on database servers.
+MariaDB <sub>(*reference:* English Wikipedia article: [MariaDB](https://meta.miraheze.org/wiki/w:MariaDB))</sub> is the chosen database software used in production. Currently we run 10.11.x on database servers.
 
 ## Configuration 
 
@@ -33,7 +33,7 @@ An alternative (might be faster in some situations):
 ```
 (the directory at the destination **must** be created before, please specify the correct date as well)
 
-At the destination, the backup must be *prepared* , since the data is not consistent yet. You can do this using mariabackup:
+At the destination, the backup must be *prepared*, since the data is not consistent yet. You can do this using mariabackup:
 ```
 [again, raise the soft open files limit] ulimit -Sn 1000000
 mariabackup --prepare --open-files-limit=900000 --target-dir=/home/dbcopy/backup-db12-10january2020 --use-memory=2G
@@ -75,11 +75,11 @@ To revoke grants do the following:
 * Run `SELECT User,Host FROM mysql.user;`
 * Run `SHOW GRANTS FOR <User_column>@<Host_column>;`
 * Run `REVOKE <Text_after_`GRANT`_and_before_ON> on <Table> from <User_column>@<Host_column>;`
-**Example:**`REVOKE SELECT, PROCESS, REPLICATION CLIENT on *.* from exporter@81.4.127.174;`
+**Example:** `REVOKE SELECT, PROCESS, REPLICATION CLIENT on *.* from exporter@81.4.127.174;`
 
 To drop a user:
 * Run `drop user <User_column>@<Host_column>;`
-**Example:**`drop user exporter@81.4.127.174;`
+**Example:** `drop user exporter@81.4.127.174;`
 
 ## Restoring Database from a backup 
 

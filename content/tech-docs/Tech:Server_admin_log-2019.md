@@ -1976,7 +1976,7 @@ title: Tech:Server admin log/2019
 
 * 20:08 paladox: upgrade phabricator on misc4
 * 19:51 paladox: UPDATE mw_permissions SET perm_permissions = REPLACE(perm_permissions, "read", "") WHERE perm_group = "*"; on db4 (1525 rows updated)
-* 19:36 paladox: delete from mw_permissions where perm_group = '\'*\* ; on db4
+* 19:36 paladox: delete from mw_permissions where perm_group = '\'*\*; on db4
 * 19:34 paladox: delete from mw_permissions where perm_group = '"*"'; on db4
 * 19:32 paladox: /usr/bin/nice -19 /usr/local/bin/foreachwikiindblist /srv/mediawiki/dblist/all.dblist /srv/mediawiki/w/extensions/ManageWiki/maintenance/modifyGroupPermission.php --removeperms=read \"*\" (mw1)
 * 19:32 paladox: delete from mw_permissions where perm_group = 'modifyGroupPermission.php'; on db4
@@ -2130,7 +2130,7 @@ title: Tech:Server admin log/2019
 * 13:12 paladox: ran update mw_permissions set perm_removegroupsfromself = '[]' where perm_removegroupsfromself = *
 **on db4**
 
-* 13:10 paladox: ran update mw_permissions set perm_addgroupstoself = '[]' where perm_addgroupstoself =* ; on db4
+* 13:10 paladox: ran update mw_permissions set perm_addgroupstoself = '[]' where perm_addgroupstoself =*; on db4
 
 ## 2019-05-25 
 
@@ -2258,7 +2258,7 @@ title: Tech:Server admin log/2019
 * 15:45 John:  UPDATE mw_permissions SET perm_removegroupsfromself = '[]' WHERE perm_removegroupsfromself = *
 ****
 
-* 15:45 John: UPDATE mw_permissions SET perm_addgroupstoself = '[]' WHERE perm_addgroupstoself =* ;
+* 15:45 John: UPDATE mw_permissions SET perm_addgroupstoself = '[]' WHERE perm_addgroupstoself =*;
 * 13:40 paladox: starting import for trollpastawiki - T4215
 * 13:39 paladox: compressed trollpastawiki
 
@@ -2370,7 +2370,7 @@ title: Tech:Server admin log/2019
 ## 2019-04-29 
 
 * 19:13 paladox: restarting php7.2-fpm on mw1 (due to "Resource temporarily unavailable")
-* 18:26 John: UPDATE mw_permissions SET perm_addgroupstoself = '[]' WHERE perm_addgroupstoself =* ;
+* 18:26 John: UPDATE mw_permissions SET perm_addgroupstoself = '[]' WHERE perm_addgroupstoself =*;
 * 18:26 John:  UPDATE mw_permissions SET perm_removegroupsfromself = '[]' WHERE perm_removegroupsfromself = '';
 * 18:19 John: DELETE FROM mw_permissions WHERE perm_group = "modifyGroupPermission.php";
 
