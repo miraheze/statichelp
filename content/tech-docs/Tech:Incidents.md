@@ -61,7 +61,10 @@ To file a new incident report, fill out the form at [Special:IncidentReports/cre
 
 All reports can be found at [Special:IncidentReports](https://meta.miraheze.org/wiki/Special:IncidentReports). Below are reports made before the new system implementation, and are kept for archival purposes only.
  `{{ {{Special:PrefixIndex/Tech:Incidents/|hideredirects=1}} }}`
-[Category:Tech policy](https://meta.miraheze.org/wiki/Category:Tech_policy)
+
+## Categories
+
+* [Category:Tech policy](https://meta.miraheze.org/wiki/Category:Tech_policy)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Incidents](https://meta.miraheze.org/wiki/Tech:Incidents)

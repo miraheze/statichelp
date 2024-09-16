@@ -102,7 +102,9 @@ $ curl -H 'X-Miraheze-Debug: test151.wikitide.net' 'https://allthetropes.org/wik
 * [How-To upgrade MediaWiki](/tech-docs/techupgrading_mediawiki)
 * [Deploy mediawiki script](https://meta.miraheze.org/wiki/Tech:Deploy-mediawiki)
 
-[Category:Services](https://meta.miraheze.org/wiki/Category:Services)
+## Categories
+
+* [Category:Services](https://meta.miraheze.org/wiki/Category:Services)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:MediaWiki_appserver](https://meta.miraheze.org/wiki/Tech:MediaWiki_appserver)

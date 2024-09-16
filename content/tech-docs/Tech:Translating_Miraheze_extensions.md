@@ -13,7 +13,10 @@ Currently, Miraheze uses [translatewiki.net](https://meta.miraheze.org/wiki/tran
 * Translators in Translatewiki.net translate the texts.
 * Translatewiki.net bot will push the $lang.json when the export bot is run.
 * They are then deployed to the Miraheze cluster (the submodule must be updated).
-[Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
+
+## Categories
+
+* [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions](https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions)

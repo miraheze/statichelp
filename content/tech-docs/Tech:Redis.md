@@ -25,7 +25,10 @@ KEYS can be used to list all keys matching a regex, or just all keys stored by d
 **MONITOR**
 
 MONITOR listens for requests received by redis from the point the request was issued, and outputs it all into the shell view. This can be extremely helpful in debugging issues as it directly shows what is being queried, where, how, and the output over the selective query by the client (typically MediaWiki).
-[Category:Services](https://meta.miraheze.org/wiki/Category:Services)
+
+## Categories
+
+* [Category:Services](https://meta.miraheze.org/wiki/Category:Services)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Redis](https://meta.miraheze.org/wiki/Tech:Redis)

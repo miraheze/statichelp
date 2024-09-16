@@ -14,7 +14,9 @@ Icinga is configured as standard out of the box for Debian Bullseye with little 
 
 Users can refer to either "Contacts" (those who get emails and alerts) or "Interface users" (those who can use the Icinga interface). Contacts are added through the configuration file [users.conf](https://github.com/miraheze/puppet/blob/master/modules/monitoring/files/users.conf). Interface users can be added by an admin in [https://monitoring.wikitide.net/user/list](https://monitoring.wikitide.net/user/list), then adding their username to the relevant permissions needed in [roles.ini](https://github.com/miraheze/puppet/blob/master/modules/icingaweb2/templates/roles.ini.erb).
 
-[Category:Monitoring services](https://meta.miraheze.org/wiki/Category:Monitoring_services)
+## Categories
+
+* [Category:Monitoring services](https://meta.miraheze.org/wiki/Category:Monitoring_services)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Icinga](https://meta.miraheze.org/wiki/Tech:Icinga)

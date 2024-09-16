@@ -37,8 +37,10 @@ To upgrade SMW follow the following steps:
 * Run puppet on [mwtask181](/tech-docs/techmwtask181) and [test151](/tech-docs/techtest151)
 * Run `mwdeploy --world --versions=all --servers=all` on [mwtask181](/tech-docs/techmwtask181) and [test151](/tech-docs/techtest151)
 
-[Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
-[Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
+## Categories
+
+* [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
+* [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Semantic_MediaWiki](https://meta.miraheze.org/wiki/Tech:Semantic_MediaWiki)

@@ -59,7 +59,10 @@ The Technology team strives for transparency. Below are some of our policies and
 * [Procedures in Case of Compromise](/tech-docs/techcompromised_handling)
 * [Security](/tech-docs/techsecurity) ([GHSA](/tech-docs/techghsa))
 * [Conduct Policy](/tech-docs/techconduct_policy)
-[Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
+
+## Categories
+
+* [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Home](https://meta.miraheze.org/wiki/Tech:Home)

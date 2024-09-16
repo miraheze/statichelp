@@ -8,7 +8,9 @@ Wikimedia began migrating to Parsoid as the default parser (replacing the legacy
 
 Since Late 2023, Parsoid has been enabled and cached for all Miraheze wikis in preparation for beta testing during 2024.
 
-[Category:Services](https://meta.miraheze.org/wiki/Category:Services)
+## Categories
+
+* [Category:Services](https://meta.miraheze.org/wiki/Category:Services)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Parsoid](https://meta.miraheze.org/wiki/Tech:Parsoid)

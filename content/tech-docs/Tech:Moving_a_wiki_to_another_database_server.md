@@ -21,7 +21,9 @@ Moving a wiki to another database is not complicated provided you have the requi
 * Remove read-only mode from the wiki.
 * After **you have made sure** that the wiki works on the new database server and that it has been imported correctly, you can drop the database on the initial server.
 
-[Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
+## Categories
+
+* [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Moving_a_wiki_to_another_database_server](https://meta.miraheze.org/wiki/Tech:Moving_a_wiki_to_another_database_server)

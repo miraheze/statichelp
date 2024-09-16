@@ -25,7 +25,9 @@ If it is not appropriate to fully remove an extension, but the extension should 
 * [Adding a new extension](/tech-docs/techadding_a_new_extension)
 * [Updating an extension](https://meta.miraheze.org/wiki/Tech:Updating_an_extension)
 
-[Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
+## Categories
+
+* [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Removing_an_extension](https://meta.miraheze.org/wiki/Tech:Removing_an_extension)

@@ -72,8 +72,10 @@ Here are the steps you should follow when removing a puppet agent (server) from 
 * Step 2: (On the **puppetserver**) execute `puppetserver ca clean --certname <host>`
 * Step 3: (On **mon181**) execute `puppet agent -tv`
 
-[Category:Services](https://meta.miraheze.org/wiki/Category:Services)
-[Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
+## Categories
+
+* [Category:Services](https://meta.miraheze.org/wiki/Category:Services)
+* [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Puppet](https://meta.miraheze.org/wiki/Tech:Puppet)

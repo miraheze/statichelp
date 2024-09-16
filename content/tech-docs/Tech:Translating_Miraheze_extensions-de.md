@@ -15,7 +15,9 @@ Derzeit verwenden wir [translatewiki.net](https://meta.miraheze.org/wiki/transla
 * Der Translatewiki.net-Bot wird die $lang.json pushen, wenn der Export-Bot ausgeführt wird.
 * Sie werden dann auf dem Miraheze-Cluster bereitgestellt (das Submodul muss aktualisiert werden)
 
-[Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
+## Categories
+
+* [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/de](https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/de)

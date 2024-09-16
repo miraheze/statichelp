@@ -4,6 +4,7 @@ title: Tech:Server admin log
 
 ## 2024-09-16 
 
+* 18:39 RhinosF1: added static.help.wikitide.net to cf dns
 * 16:53 MirahezeLSBot: [@test151] finished deploy of {'folders': '1.43/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s
 * 16:53 MirahezeLSBot: [@test151] starting deploy of {'folders': '1.43/extensions/MirahezeMagic'} to test151
 * 16:53 MirahezeLSBot: [@test151] finished deploy of {'folders': '1.42/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s

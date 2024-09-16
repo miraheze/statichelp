@@ -15,7 +15,9 @@ title: Tech:Translating Miraheze extensions/ar
 * يدفع بوت الموقع الملف lang.json$ عند عمل بوت التصدير
 * ثمّ تُنشَر النصوص في مجتمع Miraheze (وينبغي أن تُحدَّث الوحدات الفرعيّة)
 
-[Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
+## Categories
+
+* [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/ar](https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/ar)

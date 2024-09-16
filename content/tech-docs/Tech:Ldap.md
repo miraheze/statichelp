@@ -215,7 +215,9 @@ trustandsafety
 
 LDAP can be monitored via Grafana by accessing [this link](https://grafana.wikitide.net/d/uOLD33lMz/ldap?orgId=1).
 
-[Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
+## Categories
+
+* [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Ldap](https://meta.miraheze.org/wiki/Tech:Ldap)

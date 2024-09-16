@@ -15,7 +15,9 @@ Mirahezeは、 [CreateWiki](https://meta.miraheze.org/wiki/github:miraheze/Creat
 * Translatewiki.netのボットは、エクスポートボットが実行された時に、 $lang.json に内容をプッシュする。
 * そうなると、Mirahezeクラスターに実装される（サブモジュールもアップデートされなければならない）。
 
-[Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
+## Categories
+
+* [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/ja](https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/ja)

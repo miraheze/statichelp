@@ -59,7 +59,9 @@ Follow the instructions at [Tech:Graylog](/tech-docs/techgraylog).
 * Look at the [error logs](#monitoring-errors).
 * Try to send the failing HTTP request to one of the mw servers with the header `X-Miraheze-Debug: (mw1[5678][12]|test151|mwtask181).wikitide.net` (replace with the desired server), it could be an error that is cached in Varnish.
 
-[Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
+## Categories
+
+* [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Organization/mw-admins](https://meta.miraheze.org/wiki/Tech:Organization/mw-admins)

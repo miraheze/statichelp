@@ -12,7 +12,9 @@ To delete or move large batches of pages on a wiki, execute the following comman
 * sudo `sudo -u www-data php /srv/mediawiki/w/maintenance/deleteBatch.php --wiki=wikidbname -u "Miraheze maintenance script" -r "[[phab:T###|Requested]]" /home/yourshellusername/wikisubdomain.txt`, replacing the ***bolded italicized*** portions as applicable. **Note:** *`deleteBatch.php`* is interchangeable with *`moveBatch.php`* as applicable.
 * Logout (if you are done with your business on `mwtask181`).
 
-[Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
+## Categories
+
+* [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Deleting_and_moving_batches_of_pages_on_a_wiki](https://meta.miraheze.org/wiki/Tech:Deleting_and_moving_batches_of_pages_on_a_wiki)

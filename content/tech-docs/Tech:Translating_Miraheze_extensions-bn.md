@@ -15,7 +15,9 @@ Miraheze কয়েকটি এক্সটেনশন বিকাশ ও �
 * যখন রফতানি বট চালানো হয়, Translatewiki.net বটটি $lang.json পাঠিয়ে দিবে
 * তারপরে এগুলি Miraheze ক্লাস্টারে স্থাপন করা হয় (সাবমডিউলটি অবশ্যই আগে আপডেট করতে হবে)
 
-[Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
+## Categories
+
+* [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/bn](https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/bn)

@@ -9,7 +9,9 @@ While quite a rare occurrence, it sometimes happens that a user is left with glo
 * Select the `metawiki` database
 * Run `DELETE FROM echo_unread_wikis WHERE euw_user = '[RESULT FROM PREVIOUS QUERY]' AND euw_wiki = '[desired wiki]';`
 
-[Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
+## Categories
+
+* [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Deleting_Echo_notifications](https://meta.miraheze.org/wiki/Tech:Deleting_Echo_notifications)

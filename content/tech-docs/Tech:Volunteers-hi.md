@@ -28,9 +28,11 @@ title: Tech:Volunteers/hi
 * [Tech:Organization](/tech-docs/techorganization)
 * [Board of Directors](https://meta.miraheze.org/wiki/Board_of_Directors)
 
-[Category:Documentation](https://meta.miraheze.org/wiki/Category:Documentation)
-[Category:Global user groups](https://meta.miraheze.org/wiki/Category:Global_user_groups)
-[Category:System administrators](https://meta.miraheze.org/wiki/Category:System_administrators)
+## Categories
+
+* [Category:Documentation](https://meta.miraheze.org/wiki/Category:Documentation)
+* [Category:Global user groups](https://meta.miraheze.org/wiki/Category:Global_user_groups)
+* [Category:System administrators](https://meta.miraheze.org/wiki/Category:System_administrators)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Volunteers/hi](https://meta.miraheze.org/wiki/Tech:Volunteers/hi)

@@ -32,8 +32,10 @@ ALTER TABLE content_models AUTO_INCREMENT = 1;
 ```
 After running that make sure you exit shell.php or sql.php (if using) and rerun or it won't know of the AUTO_INCREMENT being reset and IDs will still be wrong.
 
-[Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
-[Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
+## Categories
+
+* [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
+* [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Fixing_slot_roles_and_content_models](https://meta.miraheze.org/wiki/Tech:Fixing_slot_roles_and_content_models)

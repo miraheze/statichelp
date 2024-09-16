@@ -32,7 +32,9 @@ Jeder kann:
 * [Liste der Miraheze-Wikis](https://meta.miraheze.org/wiki//Miraheze_Wiki_List) - eine Seite, auf der alle Wikis aufgelistet sind und von allen Nutzern eingesehen und kategorisiert werden können.
 * [Statistikseite für alle Wikis](https://meta.miraheze.org/wiki//Wiki_Statistics_Special_Page) - eine Seite, auf der analytische Informationen für alle Wikis angezeigt werden können, die von Miraheze gesammelt und derzeit in Matomo gespeichert werden.
 
-[Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
+## Categories
+
+* [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Projects/de](https://meta.miraheze.org/wiki/Tech:Projects/de)

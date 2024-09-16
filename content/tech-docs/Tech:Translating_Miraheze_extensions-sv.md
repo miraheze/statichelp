@@ -15,7 +15,9 @@ Vi använder för närvarande [translatewiki.net](https://meta.miraheze.org/wiki
 * Translatewiki.net-botten ger $lang.json när exportbotten har körts
 * De rullas sen ut på Miraheze-nätet (undermodulen måste vara uppdaterad)
 
-[Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
+## Categories
+
+* [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/sv](https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/sv)

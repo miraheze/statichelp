@@ -15,7 +15,9 @@ Jelenleg a [translatewiki.netet](https://meta.miraheze.org/wiki/translatewiki:) 
 * A Translatewiki.net bot a $lang.json-t küldi el, amikor az exportáló bot fut
 * Ezután kerülnek telepítésre a Miraheze klaszterbe (az almodulokat frissíteni kell)
 
-[Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
+## Categories
+
+* [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/hu](https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/hu)

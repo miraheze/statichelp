@@ -37,7 +37,9 @@ salt-ssh -E "cp.*" cmd.run "sudo varnishadm backend.list"
 * [Salt Documentation](https://docs.saltstack.com/en/latest/topics/execution/remote_execution.html)
 * [Salt Minion Targeting Documentation](https://docs.saltstack.com/en/latest/topics/targeting/globbing.html#globbing)
 
-[Category:Services](https://meta.miraheze.org/wiki/Category:Services)
+## Categories
+
+* [Category:Services](https://meta.miraheze.org/wiki/Category:Services)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Salt](https://meta.miraheze.org/wiki/Tech:Salt)

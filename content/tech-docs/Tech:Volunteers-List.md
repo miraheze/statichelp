@@ -47,7 +47,9 @@ title: Tech:Volunteers/List
 | *Director of Technology* |
 | CosmicAlpha | universalomega `{{ {{@}} }}`miraheze.org | Root on all servers | Owner | Yes | Yes | Yes | Yes | Yes |
 
-[Category:Lists of users](https://meta.miraheze.org/wiki/Category:Lists_of_users)
+## Categories
+
+* [Category:Lists of users](https://meta.miraheze.org/wiki/Category:Lists_of_users)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Volunteers/List](https://meta.miraheze.org/wiki/Tech:Volunteers/List)

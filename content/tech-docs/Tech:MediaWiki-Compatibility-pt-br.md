@@ -17,8 +17,10 @@ Abaixo está uma tabela do [MediaWiki.org](https://meta.miraheze.org/wiki/mw:) q
 
 * [Compatibilidade do navegador](https://meta.miraheze.org/wiki/mw:Compatibility#Browsers) em MediaWiki.org.
 
-[Category:Miraheze help](https://meta.miraheze.org/wiki/Category:Miraheze_help)
-[Category:MediaWiki](https://meta.miraheze.org/wiki/Category:MediaWiki)
+## Categories
+
+* [Category:Miraheze help](https://meta.miraheze.org/wiki/Category:Miraheze_help)
+* [Category:MediaWiki](https://meta.miraheze.org/wiki/Category:MediaWiki)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:MediaWiki/Compatibility/pt-br](https://meta.miraheze.org/wiki/Tech:MediaWiki/Compatibility/pt-br)

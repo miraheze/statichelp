@@ -77,7 +77,9 @@ If you need to create an advisory, follow the steps below:
 * Low – The attack has some impact on availability, but this is degradation only.
 * High – The attack has some impact on availability, but this is a critical service, or there is a total unavailability of the service.
 
-[Category:Guides for sysadmins](https://meta.miraheze.org/wiki/Category:Guides_for_sysadmins)
+## Categories
+
+* [Category:Guides for sysadmins](https://meta.miraheze.org/wiki/Category:Guides_for_sysadmins)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:GHSA](https://meta.miraheze.org/wiki/Tech:GHSA)

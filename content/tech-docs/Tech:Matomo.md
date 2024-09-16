@@ -12,7 +12,9 @@ To disable 2FA on a specific user account, ssh into matomo151 and run the follow
 
 `./console twofactorauth:disable-2fa-for-user --login=<user>`
 
-[Category:Services](https://meta.miraheze.org/wiki/Category:Services)
+## Categories
+
+* [Category:Services](https://meta.miraheze.org/wiki/Category:Services)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Matomo](https://meta.miraheze.org/wiki/Tech:Matomo)

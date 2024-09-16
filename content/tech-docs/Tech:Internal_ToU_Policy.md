@@ -19,8 +19,10 @@ The Technology team is authorized to enforce the Terms of Use and enact sanction
 * Block or lock any users involved in writing the how-to guides (as they could replicate that information on other wikis); and
 * Alert T&S of the behavior and the action taken by the Technology team.
 
-[Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
-[Category:Tech policy](https://meta.miraheze.org/wiki/Category:Tech_policy)
+## Categories
+
+* [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
+* [Category:Tech policy](https://meta.miraheze.org/wiki/Category:Tech_policy)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Internal_ToU_Policy](https://meta.miraheze.org/wiki/Tech:Internal_ToU_Policy)

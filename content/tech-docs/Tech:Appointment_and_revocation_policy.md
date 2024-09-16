@@ -59,7 +59,9 @@ If you already have a shell account and want to get extra privileges (or are req
    * Why you need extra access, and what benefit this would provide to either Miraheze or yourself (regarding productivity);
    * What access you specifically need (log viewing, service interaction, ability to deploy changes).
 
-[Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
+## Categories
+
+* [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Appointment_and_revocation_policy](https://meta.miraheze.org/wiki/Tech:Appointment_and_revocation_policy)

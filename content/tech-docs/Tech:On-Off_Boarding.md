@@ -118,8 +118,10 @@ The above applies, this section covers things which are specific to Infrastructu
 
 *This service requires 2FA and accounts are automatically suspended if it is not enabled within 24 hours of creation.* A valid wikitide.org email must exist for access on file. Please make sure to add a backup email and list the users' manager. On off boarding, this access must be suspended. You should manually check search console for delegated access. This may need Owner rights. If a linked device is stolen, devices may be banned from the devices section of the admin portal rather than suspending an account.
 
-[Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
-[Category:Tech policy](https://meta.miraheze.org/wiki/Category:Tech_policy)
+## Categories
+
+* [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
+* [Category:Tech policy](https://meta.miraheze.org/wiki/Category:Tech_policy)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:On-Off_Boarding](https://meta.miraheze.org/wiki/Tech:On-Off_Boarding)

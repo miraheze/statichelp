@@ -65,8 +65,10 @@ Security Specialists develop and implement effective security practices to be en
 * assisting with Security Reviews for MediaWiki extensions and Content Security Policy requests;
 * leading on security incidents, including post mortem follow-up and liaising with Trust and Safety to establish impact and cause.
 
-[Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
-[Category:Tech policy](https://meta.miraheze.org/wiki/Category:Tech_policy)
+## Categories
+
+* [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
+* [Category:Tech policy](https://meta.miraheze.org/wiki/Category:Tech_policy)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Organization](https://meta.miraheze.org/wiki/Tech:Organization)

@@ -93,7 +93,10 @@ Under EU law, we're required to notify all European users in the event of a brea
 * If we determine that a decent section of users have had their information compromised, run a sitenotice.  If it happened to be restricted to a few wikis, we can run it there, otherwise, do a global sitenotice.  Link to the incident report.
 * If we can identify individual users who have had their PII compromised, go ahead and email them if they ever gave us their address.  If we have a lot of emails to write (hopefully not), prepare a mass email.  Use the bcc field as to not make things worse.
 * External notification methods should be considered too, like Twitter.
-[Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
+
+## Categories
+
+* [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Compromised_Handling](https://meta.miraheze.org/wiki/Tech:Compromised_Handling)

@@ -32,8 +32,10 @@ title: Tech:Conduct Policy
 
 Failure to adhere to this conduct policy may result in disciplinary action, up to and including revocation of access and removal from the team.
 
-[Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
-[Category:Tech policy](https://meta.miraheze.org/wiki/Category:Tech_policy)
+## Categories
+
+* [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
+* [Category:Tech policy](https://meta.miraheze.org/wiki/Category:Tech_policy)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Conduct_Policy](https://meta.miraheze.org/wiki/Tech:Conduct_Policy)

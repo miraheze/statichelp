@@ -15,7 +15,9 @@ Miraheze कुछ एक्सटेंशनों को विकसित �
 * निर्यात बॉट को चलाने पर Translatewiki.net का बॉट $lang.json को पुश कर देगा।
 * फिर उन्हें Miraheze क्लस्टर पर तैनात किया जाता है (सबमॉड्यूल को अद्यत होना चाहिए)।
 
-[Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
+## Categories
+
+* [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/hi](https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/hi)

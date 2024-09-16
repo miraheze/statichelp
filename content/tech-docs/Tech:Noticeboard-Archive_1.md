@@ -178,7 +178,9 @@ We'd also like to take this opportunity to remind those in the UK that they can 
 Any users who wish to find out more information about the laws and consequences surrounding cyber crime can visit [https://www.nationalcrimeagency.gov.uk/cyber-choices](https://www.nationalcrimeagency.gov.uk/cyber-choices)
     ~ [RhinosF1](https://meta.miraheze.org/wiki/User:RhinosF1) - [(chat)](https://meta.miraheze.org/wiki/User_talk:_RhinosF1) [· acc](https://meta.miraheze.org/wiki/Special:CentralAuth/RhinosF1) [· c](https://meta.miraheze.org/wiki/Special:Contributions/RhinosF1) - ( `{{ {{User:RhinosF1/sigcol|1=RhinosF1}} }}`) 18:51, 11 October 2023 (UTC)
 
-[Category:Archives of Technology noticeboard](https://meta.miraheze.org/wiki/Category:Archives_of_Technology_noticeboard)
+## Categories
+
+* [Category:Archives of Technology noticeboard](https://meta.miraheze.org/wiki/Category:Archives_of_Technology_noticeboard)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Noticeboard/Archive_1](https://meta.miraheze.org/wiki/Tech:Noticeboard/Archive_1)

@@ -1616,7 +1616,9 @@ swiftobject181.wikitide.net:
      +------[MD5]------+ +----[SHA256]-----+ +------[MD5]------+ +----[SHA256]-----+ +------[MD5]------+ +----[SHA256]-----+
 ```
 
-[Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
+## Categories
+
+* [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:SSH_fingerprints](https://meta.miraheze.org/wiki/Tech:SSH_fingerprints)

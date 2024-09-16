@@ -33,7 +33,9 @@ Anyone may:
 * [Statistics page for all wikis](https://meta.miraheze.org/wiki//Wiki_Statistics_Special_Page) — A page where analytical information for all wikis can be displayed using information collected and stored by Miraheze currently in Matomo.
 * [Multiversion](https://meta.miraheze.org/wiki//Multiversion) — Ability to deploy multiple MediaWiki versions to one server.
 
-[Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
+## Categories
+
+* [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Projects/en](https://meta.miraheze.org/wiki/Tech:Projects/en)

@@ -12,7 +12,9 @@ All data is collected on a central server which also serves the [web interface](
 
 This is done automatically on the first puppet run as Grafana configuration is handled in the base module. The central server can be replaced by adding `role::grafana` to the server in site.pp.
 
-[Category:Monitoring services](https://meta.miraheze.org/wiki/Category:Monitoring_services)
+## Categories
+
+* [Category:Monitoring services](https://meta.miraheze.org/wiki/Category:Monitoring_services)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Grafana](https://meta.miraheze.org/wiki/Tech:Grafana)

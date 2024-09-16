@@ -99,8 +99,10 @@ To restore a database from a .idb file following these steps:
 
 * [Restoring mysql tables from ind fpm files and or mysql log bin files](https://dba.stackexchange.com/questions/71596/restoring-mysql-tables-from-ibd-frm-and-mysqllogbin-files)
 
-[Category:Services](https://meta.miraheze.org/wiki/Category:Services)
-[Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
+## Categories
+
+* [Category:Services](https://meta.miraheze.org/wiki/Category:Services)
+* [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:MariaDB](https://meta.miraheze.org/wiki/Tech:MariaDB)

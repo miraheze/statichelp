@@ -30,7 +30,9 @@ This policy lays out the process by which the [Technology team](/tech-docs/techv
 * This policy applies to all services governed by Miraheze's Privacy Policy. Two resource types are exempted from this policy and can be added by the Technology team: any resource fully controlled by the Technology team (hosted on-premise or outsourced, via contracted vendor) and any resource hosted via a domain name fully owned by Miraheze.
 In the event of a dispute or situation not covered by this policy, the Director of Technology decides.
 
-[Category:Tech policy](https://meta.miraheze.org/wiki/Category:Tech_policy)
+## Categories
+
+* [Category:Tech policy](https://meta.miraheze.org/wiki/Category:Tech_policy)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:CSP_Policy](https://meta.miraheze.org/wiki/Tech:CSP_Policy)

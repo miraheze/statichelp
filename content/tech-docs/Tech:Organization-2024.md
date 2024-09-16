@@ -77,8 +77,10 @@ Security Specialists develop and implement effective security practices to be en
 * Void: Site Reliability Engineer (Infrastructure) → Infrastructure Specialist
 * Harej: Project Manager
 
-[Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
-[Category:Tech policy](https://meta.miraheze.org/wiki/Category:Tech_policy)
+## Categories
+
+* [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
+* [Category:Tech policy](https://meta.miraheze.org/wiki/Category:Tech_policy)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Organization/2024](https://meta.miraheze.org/wiki/Tech:Organization/2024)

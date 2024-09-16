@@ -31,7 +31,9 @@ Herkes şunları yapabilir:
 * [Miraheze viki Listesi](https://meta.miraheze.org/wiki//Miraheze_Wiki_List) — Tüm vikilerin listelendiği ve tüm kullanıcıların kullanabildiği/kategorilendirilebildiği ve görüntülenebildiği bir sayfa.
 * [Tüm vikiler için istatistik sayfası](https://meta.miraheze.org/wiki//Wiki_Statistics_Special_Page) — Şu anda Matomo'da Miraheze tarafından toplanan ve saklanan bilgiler kullanılarak tüm vikiler için analitik bilgilerin görüntülenebildiği bir sayfa.
 
-[Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
+## Categories
+
+* [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Projects/tr](https://meta.miraheze.org/wiki/Tech:Projects/tr)

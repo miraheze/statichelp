@@ -73,7 +73,9 @@ It is recommended to save this config to a session. Choose a server you would li
 
 Configuring Graylog is a combination of Puppet usage and using the web interface for configuration (where configuration will eventually be stored in MongoDB on graylog161.wikitide.net). [role::graylog](https://github.com/miraheze/puppet/blob/master/modules/role/manifests/graylog.pp) is used for graylog161's configuration. [base::syslog](https://github.com/miraheze/puppet/blob/master/modules/base/manifests/syslog.pp) contains the configuration for every server logging to Graylog.
 
-[Category:Services](https://meta.miraheze.org/wiki/Category:Services)
+## Categories
+
+* [Category:Services](https://meta.miraheze.org/wiki/Category:Services)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Graylog](https://meta.miraheze.org/wiki/Tech:Graylog)

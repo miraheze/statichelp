@@ -64,7 +64,9 @@ title: Tech:Maintenance policy
 
 This policy was initially created by [Universal Omega](https://meta.miraheze.org/wiki/User:Universal_Omega) with contributions from [NotAracham](https://meta.miraheze.org/wiki/User:NotAracham), [Reception123](https://meta.miraheze.org/wiki/User:Reception123), and [Void](https://meta.miraheze.org/wiki/User:Void).
 
-[Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
+## Categories
+
+* [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Maintenance_policy](https://meta.miraheze.org/wiki/Tech:Maintenance_policy)

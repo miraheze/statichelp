@@ -116,7 +116,9 @@ PlotData   =
 }} }}
 ```
 
-[Category:Charts](https://meta.miraheze.org/wiki/Category:Charts)
+## Categories
+
+* [Category:Charts](https://meta.miraheze.org/wiki/Category:Charts)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Volunteers/Chart](https://meta.miraheze.org/wiki/Tech:Volunteers/Chart)

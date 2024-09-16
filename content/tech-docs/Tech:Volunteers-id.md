@@ -28,9 +28,11 @@ The team includes volunteers in technical and less-technical roles, including pr
 * [Tech:Organization](/tech-docs/techorganization)
 * [Board of Directors](https://meta.miraheze.org/wiki/Board_of_Directors)
 
-[Category:Documentation](https://meta.miraheze.org/wiki/Category:Documentation)
-[Category:Global user groups](https://meta.miraheze.org/wiki/Category:Global_user_groups)
-[Category:System administrators](https://meta.miraheze.org/wiki/Category:System_administrators)
+## Categories
+
+* [Category:Documentation](https://meta.miraheze.org/wiki/Category:Documentation)
+* [Category:Global user groups](https://meta.miraheze.org/wiki/Category:Global_user_groups)
+* [Category:System administrators](https://meta.miraheze.org/wiki/Category:System_administrators)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Volunteers/id](https://meta.miraheze.org/wiki/Tech:Volunteers/id)

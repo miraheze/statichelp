@@ -54,8 +54,10 @@ An upgrade may be necessary in cases where horizontal scaling (having three smal
 * Remove downtime in Icinga for the server and all of its servers, this ensures we have proper monitoring back.
 * Repool the server where necessary.
 
-[Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
-[Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
+## Categories
+
+* [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
+* [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Server_lifecycle](https://meta.miraheze.org/wiki/Tech:Server_lifecycle)

@@ -17,8 +17,10 @@ Miraheze ब्राउज़रों को तीन श्रेणिय�
 
 * MediaWiki.org पर [ब्राउज़र अनुकूलता](https://meta.miraheze.org/wiki/mw:Compatibility#Browsers)।
 
-[Category:Miraheze help](https://meta.miraheze.org/wiki/Category:Miraheze_help)
-[Category:MediaWiki](https://meta.miraheze.org/wiki/Category:MediaWiki)
+## Categories
+
+* [Category:Miraheze help](https://meta.miraheze.org/wiki/Category:Miraheze_help)
+* [Category:MediaWiki](https://meta.miraheze.org/wiki/Category:MediaWiki)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:MediaWiki/Compatibility/hi](https://meta.miraheze.org/wiki/Tech:MediaWiki/Compatibility/hi)

@@ -87,7 +87,9 @@ You can find this file at `/root/private/files/swift`. Copy it elsewhere, so you
 * [Create Rings](https://docs.openstack.org/swift/queens/install/initial-rings.html)
 * [Removing a object server](https://mindmajix.com/openstack/removing-nodes-from-a-cluster)
 
-[Category:Services](https://meta.miraheze.org/wiki/Category:Services)
+## Categories
+
+* [Category:Services](https://meta.miraheze.org/wiki/Category:Services)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Swift](https://meta.miraheze.org/wiki/Tech:Swift)

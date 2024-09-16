@@ -16,7 +16,10 @@ Upgrading Phorge is a process which is mostly automated by the software itself a
 * Run ./bin/storage upgrade and process through the prompts.
 * Start the phd daemons. (./bin/phd start)
 * Restart the php8.2-fpm service.
-[Category:Services](https://meta.miraheze.org/wiki/Category:Services)
+
+## Categories
+
+* [Category:Services](https://meta.miraheze.org/wiki/Category:Services)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Phorge](https://meta.miraheze.org/wiki/Tech:Phorge)

@@ -22,7 +22,9 @@ Code is deployed automatically through puppet. This allows code to be merged and
 
 The system should be moved to manual at some point, though there is not enough risk to justify this yet.
 
-[Category:Services](https://meta.miraheze.org/wiki/Category:Services)
+## Categories
+
+* [Category:Services](https://meta.miraheze.org/wiki/Category:Services)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:DNS](https://meta.miraheze.org/wiki/Tech:DNS)

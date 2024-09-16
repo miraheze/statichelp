@@ -83,7 +83,9 @@ You can also cat the access log (or varnish log) to see if there's a pattern (e.
 
 * [Debugging NGINX](https://docs.nginx.com/nginx/admin-guide/monitoring/debugging/)
 
-[Category:Services](https://meta.miraheze.org/wiki/Category:Services)
+## Categories
+
+* [Category:Services](https://meta.miraheze.org/wiki/Category:Services)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Nginx](https://meta.miraheze.org/wiki/Tech:Nginx)

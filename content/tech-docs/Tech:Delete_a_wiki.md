@@ -17,7 +17,9 @@ Performing the deletion if 14 days have **not** passed:
 * Run `mwscript extensions/CreateWiki/deleteWiki.php loginwiki --delete --deletewiki <wiki database>`
 * Drop the database on the relevant database server.
 
-[Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
+## Categories
+
+* [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Delete_a_wiki](https://meta.miraheze.org/wiki/Tech:Delete_a_wiki)

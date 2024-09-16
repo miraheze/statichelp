@@ -64,7 +64,9 @@ This page is used to provide monitoring guidance for MediaWiki-related services 
 * *Is an alert a bad thing?* **Yes, if not just a temporary issue that resolves itself, it is a problem.**
 * *If it's warning/critical, how do we fix it?* **The person who requested the custom domain (or other wiki bureaucrats) should be notified and asked to point their domains to us again. If there is no response and/or they fail to do so in a reasonable time (not less than a week) the custom domain and SSL certificate should be removed until the issue is resolved.**
 
-[Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
+## Categories
+
+* [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
 
 ----
 **Source**: [https://meta.miraheze.org/wiki/Tech:Icinga/MediaWiki_Monitoring](https://meta.miraheze.org/wiki/Tech:Icinga/MediaWiki_Monitoring)
