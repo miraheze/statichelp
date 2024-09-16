@@ -75,7 +75,7 @@ Every ban can be supplied with the "ban" command. **This must be done on all cac
 varnish> ban req.http.Host == allthetropes.org && req.url ~ "^/w/load.php"
 ```
 
-If you remove the `req.http.Host == allthetropes.org && `&nbsp;part, this would match ALL load.php objects, regardless of the wiki.
+If you remove the `req.http.Host == allthetropes.org && ` part, this would match ALL load.php objects, regardless of the wiki.
 
 Or, to remove ALL 301 redirects for meta.miraheze.org:
 ```

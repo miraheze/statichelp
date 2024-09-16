@@ -2,7 +2,7 @@
 title: Tech:Noticeboard/Archives
 ---
 
-`{{ {{Collapse top|Archives of [[Tech:Noticeboard|Technology noticeboard]]&nbsp;[{{Editlink|Tech:Noticeboard/Archives}}]&nbsp;&nbsp;&nbsp; }} }}`
+`{{ {{Collapse top|Archives of [[Tech:Noticeboard|Technology noticeboard]] [{{Editlink|Tech:Noticeboard/Archives}}] }} }}`
 
 * **[Archive 1](/tech-docs/technoticeboard-archive_1)** – current
 
