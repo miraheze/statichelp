@@ -14,25 +14,45 @@ The team includes volunteers in technical and less-technical roles, including pr
 {| class="wikitable center"
 |-
 ! class="unsortable"| [ `{{ {{fullurl:Tech:Volunteers/List|action=edit}} }}` +/-]
-! <!--T:3-->
+! 
+<!--T:3-->
+
 Name & Role
-! <!--T:4-->
+! 
+<!--T:4-->
+
 Libera Chat nickname <br /> on [[Special:MyLanguage/IRC|IRC]]
-! <!--T:5-->
+! 
+<!--T:5-->
+
 E-mail
-! <!--T:6-->
+! 
+<!--T:6-->
+
 Shell
-! <!--T:7-->
+! 
+<!--T:7-->
+
 GitHub
-! <!--T:8-->
+! 
+<!--T:8-->
+
 Phorge (admin)
-! <!--T:9-->
+! 
+<!--T:9-->
+
 Service Providers
-! <!--T:16-->
+! 
+<!--T:16-->
+
 Cloudflare
-! <!--T:10-->
+! 
+<!--T:10-->
+
 Domain Registrar
-! <!--T:11-->
+! 
+<!--T:11-->
+
 Grafana (Admin)
 |- `{{ {{Tech:{{BASEPAGENAME}}/List}} }}`
 
