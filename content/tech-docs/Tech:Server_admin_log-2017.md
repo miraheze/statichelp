@@ -137,7 +137,7 @@ title: Tech:Server admin log/2017
 
 ## 2017-12-03 
 
-* 16:47 revi: Deploy https://github.com/probot/autoresponder into puppet/mw-config/dns
+* 16:47 revi: Deploy [https://github.com/probot/autoresponder](https://github.com/probot/autoresponder) into puppet/mw-config/dns
 * 16:27 Reception123: made revi GH admin (per request)
 * 16:25 Reception123: added @translatewikinet to i18n repo
 * 16:25 Reception123: added CreateWiki and ManageWiki repos to already created (by revi) team i18n
@@ -451,7 +451,7 @@ title: Tech:Server admin log/2017
 * 18:14 Southparkfan: restarted jobchron + jobrunner on mw1
 * 18:09 Southparkfan: upgraded nginx to 1.12.1
 * 14:16 Southparkfan: purge binary logs before '2017-09-30 00:00:00'; on db3
-* 13:51 Southparkfan: dropped some wikis: https://phabricator.miraheze.org/T2258
+* 13:51 Southparkfan: dropped some wikis: [https://phabricator.miraheze.org/T2258](https://phabricator.miraheze.org/T2258)
 
 ## 2017-10-02 
 
@@ -595,7 +595,7 @@ title: Tech:Server admin log/2017
 * 17:45 Reception123: ran patch-moderation.sql and patch-moderation_block.sql on all wikis
 * 17:25 Reception123:  sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildLocalisationCache.php --wiki extloadwiki on mw*
 * 13:26 John: deleting volume STATIC-0003 (for some reason two backups were made within an hour of each other which blocks all backups until September)
-* 05:43 Reception123: attached unattached account listed at https://phabricator.miraheze.org/P36
+* 05:43 Reception123: attached unattached account listed at [https://phabricator.miraheze.org/P36](https://phabricator.miraheze.org/P36)
 
 ## 2017-08-22 
 
@@ -1147,7 +1147,7 @@ title: Tech:Server admin log/2017
 * 20:28 PuppyKun: rebooting cp2 "Failed to get D-Bus connection: No such file or directory"
 * 13:56 Reception123: sudo -u www-data php rebuildLocalisationCache.php --wiki extloadwiki on mw*
 * 04:45 Reception|away: reception@mw1:/srv/mediawiki/w/maintenance$ sudo -u www-data php dumpBackup.php --wiki calexitwiki --full > /home/reception/calexitwiki14042017.xml
-* 00:29 PuppyKun: ndkilla@mw1:/srv/mediawiki/w/maintenance$ sudo -u www-data php deleteBatch.php --wiki scruffywiki --r="https://phabricator.miraheze.org/T1660" /home/ndkilla/scruffydelete
+* 00:29 PuppyKun: ndkilla@mw1:/srv/mediawiki/w/maintenance$ sudo -u www-data php deleteBatch.php --wiki scruffywiki --r=" [https://phabricator.miraheze.org/T1660](https://phabricator.miraheze.org/T1660)" /home/ndkilla/scruffydelete
 
 ## 2017-04-11 
 
@@ -1550,4 +1550,4 @@ All times are in **UTC+0**/**GMT**.
 Archives: [2015](https://meta.miraheze.org/wiki//2015), [2016](https://meta.miraheze.org/wiki//2016)
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Server_admin_log/2017
+**Source**: [https://meta.miraheze.org/wiki/Tech:Server_admin_log/2017](https://meta.miraheze.org/wiki/Tech:Server_admin_log/2017)

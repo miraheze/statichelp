@@ -30,4 +30,4 @@ Below is a table from [MediaWiki.org](https://meta.miraheze.org/wiki/mw:) which 
 [Category:MediaWiki](https://meta.miraheze.org/wiki/Category:MediaWiki)
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:MediaWiki/Compatibility
+**Source**: [https://meta.miraheze.org/wiki/Tech:MediaWiki/Compatibility](https://meta.miraheze.org/wiki/Tech:MediaWiki/Compatibility)

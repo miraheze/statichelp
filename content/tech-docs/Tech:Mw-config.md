@@ -61,4 +61,4 @@ Assuming you know how to write hook handlers on regular MediaWiki LocalSettings.
 * Attach your hook via `$wgHooks`.
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Mw-config
+**Source**: [https://meta.miraheze.org/wiki/Tech:Mw-config](https://meta.miraheze.org/wiki/Tech:Mw-config)

@@ -40,4 +40,4 @@ Finally, run:
 [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Rename_a_wiki
+**Source**: [https://meta.miraheze.org/wiki/Tech:Rename_a_wiki](https://meta.miraheze.org/wiki/Tech:Rename_a_wiki)

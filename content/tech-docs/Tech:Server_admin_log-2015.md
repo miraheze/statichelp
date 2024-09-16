@@ -30,7 +30,7 @@ title: Tech:Server admin log/2015
 
 ## 2015-11-23 
 
-* 20:53 SPF|Cloud: enabled puppet on db1. This is what disabling ufw logging causes to dmesg: https://www.irccloud.com/pastebin/7BBXjkOF/
+* 20:53 SPF|Cloud: enabled puppet on db1. This is what disabling ufw logging causes to dmesg: [https://www.irccloud.com/pastebin/7BBXjkOF/](https://www.irccloud.com/pastebin/7BBXjkOF/)
 
 ## 2015-11-21 
 
@@ -180,7 +180,7 @@ title: Tech:Server admin log/2015
 * 11:11 JohnFLewis: restarted hhvm, disable extension causing segfault *NOT* OOM
 * 10:08 revi: restarted HHVM hour ago (...) 502
 * 10:00 JohnFLewis: rebooting mw1 (mem leak.)
-* 01:14 NDK|Cloud: Restarted hhvm, 502 ( `{{ {{Ping|John|Southparkfan}} }}`https://www.irccloud.com/pastebin/bGOaVBVy/ )
+* 01:14 NDK|Cloud: Restarted hhvm, 502 ( `{{ {{Ping|John|Southparkfan}} }}` [https://www.irccloud.com/pastebin/bGOaVBVy/](https://www.irccloud.com/pastebin/bGOaVBVy/) )
 
 ## 2015-09-29 
 
@@ -195,7 +195,7 @@ title: Tech:Server admin log/2015
 
 ## 2015-09-28 
 
-* 16:04 SPF|Cloud: restart HHVM for https://github.com/miraheze/puppet/commit/6d1dfa48866ecd1afbd70a4479a0f3edf28e7d6a
+* 16:04 SPF|Cloud: restart HHVM for [https://github.com/miraheze/puppet/commit/6d1dfa48866ecd1afbd70a4479a0f3edf28e7d6a](https://github.com/miraheze/puppet/commit/6d1dfa48866ecd1afbd70a4479a0f3edf28e7d6a)
 * 02:12 revi: restarted HHVM, 502
 * 01:26 revi: restarted HHVM, 502
 
@@ -271,4 +271,4 @@ title: Tech:Server admin log/2015
 * 22:17 JohnFLewis: rebooted mw1, strange memory patterns
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Server_admin_log/2015
+**Source**: [https://meta.miraheze.org/wiki/Tech:Server_admin_log/2015](https://meta.miraheze.org/wiki/Tech:Server_admin_log/2015)

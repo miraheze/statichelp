@@ -34,4 +34,4 @@ Herkes şunları yapabilir:
 [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Projects/tr
+**Source**: [https://meta.miraheze.org/wiki/Tech:Projects/tr](https://meta.miraheze.org/wiki/Tech:Projects/tr)

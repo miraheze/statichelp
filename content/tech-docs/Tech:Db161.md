@@ -23,4 +23,4 @@ title: Tech:Db161
 **db161** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a Database server running [MariaDB](https://meta.miraheze.org/wiki/Tech:MariaDB).
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Db161
+**Source**: [https://meta.miraheze.org/wiki/Tech:Db161](https://meta.miraheze.org/wiki/Tech:Db161)

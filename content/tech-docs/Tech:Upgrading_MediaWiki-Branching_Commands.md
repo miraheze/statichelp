@@ -24,4 +24,4 @@ for ext in extensions:
     os.system(f'cd /users/me/mediawiki && git submodule set-branch --branch {branch} -- {ext} && cd {ext} && git checkout {branch} && git pull')`
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Upgrading_MediaWiki/Branching_Commands
+**Source**: [https://meta.miraheze.org/wiki/Tech:Upgrading_MediaWiki/Branching_Commands](https://meta.miraheze.org/wiki/Tech:Upgrading_MediaWiki/Branching_Commands)

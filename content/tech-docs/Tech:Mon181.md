@@ -23,4 +23,4 @@ title: Tech:Mon181
 **mon181** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a server that hosts [Grafana](https://meta.miraheze.org/wiki/Tech:Grafana), [Icinga](https://meta.miraheze.org/wiki/Tech:Icinga) and [IRC](https://meta.miraheze.org/wiki/IRC) bots.
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Mon181
+**Source**: [https://meta.miraheze.org/wiki/Tech:Mon181](https://meta.miraheze.org/wiki/Tech:Mon181)

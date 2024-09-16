@@ -210,7 +210,7 @@ title: Tech:Server admin log/2018
 ## 2018-12-03 
 
 * 17:43 paladox: sudo -u www-data php /srv/mediawiki/w/maint*/rebuildLocalisationCache.php --wiki loginwiki on mw*
-* 17:27 paladox: applying grants on db4 for https://phabricator.miraheze.org/T3621
+* 17:27 paladox: applying grants on db4 for [https://phabricator.miraheze.org/T3621](https://phabricator.miraheze.org/T3621)
 
 ## 2018-12-02 
 
@@ -409,7 +409,7 @@ title: Tech:Server admin log/2018
 
 ## 2018-11-04 
 
-* 23:45 paladox: deleting jokepastawiki wiki per https://phabricator.miraheze.org/T3763
+* 23:45 paladox: deleting jokepastawiki wiki per [https://phabricator.miraheze.org/T3763](https://phabricator.miraheze.org/T3763)
 
 ## 2018-11-03 
 
@@ -528,7 +528,7 @@ title: Tech:Server admin log/2018
 
 ## 2018-10-21 
 
-* 21:48 paladox: applying 2 security fixes (https://gerrit.wikimedia.org/r/#/c/mediawiki/core/+/468846/ and https://gerrit.wikimedia.org/r/#/c/mediawiki/core/+/468849/)
+* 21:48 paladox: applying 2 security fixes ([https://gerrit.wikimedia.org/r/#/c/mediawiki/core/+/468846/](https://gerrit.wikimedia.org/r/#/c/mediawiki/core/+/468846/) and [https://gerrit.wikimedia.org/r/#/c/mediawiki/core/+/468849/](https://gerrit.wikimedia.org/r/#/c/mediawiki/core/+/468849/))
 * 16:52 paladox: PURGE BINARY LOGS BEFORE '2018-10-21 17:51:00'; on db4
 
 ## 2018-10-20 
@@ -550,7 +550,7 @@ title: Tech:Server admin log/2018
 
 ## 2018-10-17 
 
-* 17:55 paladox: branching REL1_32 in https://github.com/miraheze/mediawiki
+* 17:55 paladox: branching REL1_32 in [https://github.com/miraheze/mediawiki](https://github.com/miraheze/mediawiki)
 
 ## 2018-10-14 
 
@@ -600,7 +600,7 @@ title: Tech:Server admin log/2018
 * 23:05 paladox: started xml import for nonciclopediawiki
 * 22:35 paladox: php /srv/mediawiki/w/extensions/CreateWiki/maintenance/deleteWikis.php --wiki=loginwiki --delete paladox (deleting 1cewiki indytechfixwiki kuonsamwiki mwmwiki optimathofficialwikiwiki peopleshararamwiki sovereignwiki wesleycollegewiki)
 * 22:30 paladox: PURGE BINARY LOGS BEFORE '2018-10-06 23:30:00'; on db4
-* 22:29 paladox: php /srv/mediawiki/w/extensions/CreateWiki/maintenance/deleteWikis.php --wiki=loginwiki --delete paladox on mw1 (deleting wmaucommwiki per https://phabricator.miraheze.org/T3576)
+* 22:29 paladox: php /srv/mediawiki/w/extensions/CreateWiki/maintenance/deleteWikis.php --wiki=loginwiki --delete paladox on mw1 (deleting wmaucommwiki per [https://phabricator.miraheze.org/T3576](https://phabricator.miraheze.org/T3576))
 * 14:33 paladox: install prometheus-blackbox-exporter on ns1
 * 10:51 MacFan4000: sudo -u www-data php importDump.php --wiki tallerwiki /home/macfan/tallerwiki.xml
 
@@ -653,7 +653,7 @@ title: Tech:Server admin log/2018
 
 ## 2018-09-30 
 
-* 19:32 paladox: install some python3 packages that https://git.io/fxJTk will add to misc1
+* 19:32 paladox: install some python3 packages that [https://git.io/fxJTk](https://git.io/fxJTk) will add to misc1
 * 17:51 Reception123: restarted icingabot
 * 17:46 Reception123: restarted icingabot
 * 16:18 paladox: PURGE BINARY LOGS BEFORE '2018-09-30 17:18:00'; on db4
@@ -841,7 +841,7 @@ title: Tech:Server admin log/2018
 * 18:59 paladox: repool mw3
 * 18:40 paladox: reboot mw3
 * 18:35 paladox: depool mw3 because of high load
-* 14:21 paladox: sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=crappygameswiki --report=1 crappygames_pages_full.xml per https://phabricator.miraheze.org/T3565
+* 14:21 paladox: sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=crappygameswiki --report=1 crappygames_pages_full.xml per [https://phabricator.miraheze.org/T3565](https://phabricator.miraheze.org/T3565)
 * 14:07 paladox: sudo -u www-data php /srv/mediawiki/w/maint*/rebuildLocalisationCache.php --wiki test1wiki on test1
 * 14:05 paladox: sudo -u www-data php /srv/mediawiki/w/maint*/rebuildLocalisationCache.php --wiki test1wiki on mw*
 
@@ -849,7 +849,7 @@ title: Tech:Server admin log/2018
 
 * 22:08 John: added defaults
 * 18:16 paladox: drop database pmspacewiki
-* 18:14 paladox: renaming pmspacewiki to ourmetawiki per https://phabricator.miraheze.org/T3544
+* 18:14 paladox: renaming pmspacewiki to ourmetawiki per [https://phabricator.miraheze.org/T3544](https://phabricator.miraheze.org/T3544)
 * 17:23 paladox: sudo -u www-data php /srv/mediawiki/w/maint*/rebuildLocalisationCache.php --wiki test1wiki on test1
 * 16:34 paladox: testing things on puppet1
 * 15:30 paladox: repool cp5
@@ -860,7 +860,7 @@ title: Tech:Server admin log/2018
 
 * 17:32 paladox: apache2 removed from misc1
 * 16:38 paladox: drop database wulfmaerwiki from db4
-* 16:37 paladox: deleting wulfmaerwiki wiki per https://phabricator.miraheze.org/T3560
+* 16:37 paladox: deleting wulfmaerwiki wiki per [https://phabricator.miraheze.org/T3560](https://phabricator.miraheze.org/T3560)
 
 ## 2018-09-04 
 
@@ -901,7 +901,7 @@ title: Tech:Server admin log/2018
 * 19:34 paladox: sudo -u www-data php /srv/mediawiki/w/maint*/rebuildLocalisationCache.php --wiki test1wiki on mw* and test1
 * 16:23 paladox: restarting puppetdb on puppet1
 * 15:30 paladox: sudo -u www-data php /srv/mediawiki/w/maint*/rebuildLocalisationCache.php --wiki test1wiki on mw*
-* 13:50 John: see https://phabricator.miraheze.org/P102 for list of wikis for when reversion happens
+* 13:50 John: see [https://phabricator.miraheze.org/P102](https://phabricator.miraheze.org/P102) for list of wikis for when reversion happens
 * 13:49 John: disabled TimedMediaHandler on all wikis
 * 13:49 John: MariaDB [metawiki]> UPDATE cw_wikis SET wiki_extensions = REPLACE( wiki_extensions, ',timedmediahandler',* ) WHERE wiki_extensions LIKE '%timedmediahandler%';
 
@@ -913,7 +913,7 @@ title: Tech:Server admin log/2018
 * 20:37 Southparkfan: disable cp4 puppet
 * 20:35 Southparkfan: sudo salt -E 'cp.*' cmd.run "sudo varnishadm 'ban req.http.Host == matomo.miraheze.org'"
 * 19:24 Southparkfan: delete wrong allow rule on mw[1-3]
-* 19:09 Southparkfan: remove non strict firewall rules from mw[1-3] per https://git.io/fAcuR
+* 19:09 Southparkfan: remove non strict firewall rules from mw[1-3] per [https://git.io/fAcuR](https://git.io/fAcuR)
 * 16:53 paladox: sudo -u www-data php /srv/mediawiki/w/maint*/rebuildLocalisationCache.php --wiki test1wiki on mw* and test1
 * 15:49 paladox: sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=electowikiwiki --report=1 fix.xml on mw1 in a screen
 * 15:42 paladox: actually doin't need to backup as i have the dump
@@ -959,7 +959,7 @@ title: Tech:Server admin log/2018
 
 ## 2018-08-26 
 
-* 22:38 John: running resetGlobalUserTokens.php for https://phabricator.miraheze.org/T3520
+* 22:38 John: running resetGlobalUserTokens.php for [https://phabricator.miraheze.org/T3520](https://phabricator.miraheze.org/T3520)
 * 21:17 John: added mw_permissions to metawiki database and run populateGroupPermissions.php for test1wiki
 * 08:52 Reception123: sudo service icingabot restart
 
@@ -1314,7 +1314,7 @@ title: Tech:Server admin log/2018
 
 ## 2018-07-07 
 
-* 21:55 paladox: delete wiki ironsagawiki per request https://phabricator.miraheze.org/T3325#62858
+* 21:55 paladox: delete wiki ironsagawiki per request [https://phabricator.miraheze.org/T3325#62858](https://phabricator.miraheze.org/T3325#62858)
 * 11:56 Reception123: sudo -u www-data php /srv/mediawiki/w/maint*/mergeMessageFileList.php --output /srv/mediawiki/config/ExtensionMessageFiles.php --wiki test1wiki and and rebuild LC
 
 ## 2018-07-06 
@@ -1381,7 +1381,7 @@ title: Tech:Server admin log/2018
 ## 2018-06-26 
 
 * 01:25 paladox: rebooting cp4 to clear ram
-* 00:55 paladox: disabled https://phabricator.miraheze.org/H34
+* 00:55 paladox: disabled [https://phabricator.miraheze.org/H34](https://phabricator.miraheze.org/H34)
 
 ## 2018-06-25 
 
@@ -1561,7 +1561,7 @@ title: Tech:Server admin log/2018
 * 23:49 MacFan4000: sudo -u www-data php rebuildLocalisationCache.php --wiki test1wiki on mw* and test1
 * 22:12 paladox: sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=nonsensopediawiki --report=1 nonsensopedia_pages_full.xml on mw2 in a screen
 * 17:57 revi: restarted nonsensopedia import
-* 15:06 paladox: composer require geoip2/geoip2 on mw* and also install http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.tar.gz in /srv/
+* 15:06 paladox: composer require geoip2/geoip2 on mw* and also install [http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.tar.gz](http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.tar.gz) in /srv/
 * 12:27 revi: revi@mw2:~$ `sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=nonsensopediawiki --report=1 nonsensopedia_pages_full.xml` again
 * 12:24 revi: did `sudo -u www-data php /srv/mediawiki/w/maintenance/runJobs.php --wiki=nonsensopediawiki` on mw2
 * 12:15 revi: `sudo service jobrunner restart` on mw2 and mw3
@@ -1582,7 +1582,7 @@ title: Tech:Server admin log/2018
 
 ## 2018-05-29 
 
-* 23:22 paladox: upgrading git on all servers "salt -E ".*" cmd.run "apt-get -t stretch-backports install git -y"" per https://phabricator.miraheze.org/T3162
+* 23:22 paladox: upgrading git on all servers "salt -E ".*" cmd.run "apt-get -t stretch-backports install git -y"" per [https://phabricator.miraheze.org/T3162](https://phabricator.miraheze.org/T3162)
 * 21:53 Southparkfan: another attempt to import db4 on bacula1
 * 17:46 Southparkfan: deleted redis keys "*:translate-groups*" "*:gadgets-definition*" "*:flow*" " "*:LESS*"  "*:template*" "*:file*"  "*:textextracts*" "*:revision*" "*:page*"
 * 17:35 Southparkfan: deleted redis keys matching patterns "*:resourceloader*", "*:MessageBlobStore*"
@@ -1625,7 +1625,7 @@ title: Tech:Server admin log/2018
 * 18:14 revi: revi@mw1:~$ sudo -u www-data php /srv/mediawiki/w/maintenance/initSiteStats.php --wiki=metawiki
 * 18:13 revi: revi@mw1:~$ sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildrecentchanges.php --wiki=metawiki
 * 18:07 revi: `sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=metawiki Meta-20180526175920.xml`
-* 17:10 paladox: updating piwik to use geoip2 as geoip is now discontinued (https://matomo.org/faq/how-to/#faq_163)
+* 17:10 paladox: updating piwik to use geoip2 as geoip is now discontinued ([https://matomo.org/faq/how-to/#faq_163](https://matomo.org/faq/how-to/#faq_163))
 * 15:40 paladox: cleaning ram on misc3
 * 15:38 paladox: sudo -u www-data php /srv/mediawiki/w/maint*/rebuildLocalisationCache.php --wiki test1wiki mw3
 * 15:38 paladox: sudo -u www-data php /srv/mediawiki/w/maint*/mergeMessageFileList.php --output /srv/mediawiki/config/ExtensionMessageFiles.php --wiki test1wiki mw3
@@ -1665,7 +1665,7 @@ title: Tech:Server admin log/2018
 
 * 17:39 paladox: upgrade phabricator
 * 16:25 John: delete "app" repo (fork of all of Wikias code)
-* 16:13 paladox: manually updating prometheus-varnish-exporter on cp* following https://github.com/jonnenauha/prometheus_varnish_exporter/issues/29#issuecomment-391045216
+* 16:13 paladox: manually updating prometheus-varnish-exporter on cp* following [https://github.com/jonnenauha/prometheus_varnish_exporter/issues/29#issuecomment-391045216](https://github.com/jonnenauha/prometheus_varnish_exporter/issues/29#issuecomment-391045216)
 * 15:55 paladox: rm -rf /var/lib/ganglia*
 * 15:53 paladox: removing ganglia from misc2
 * 15:41 MacFan4000: paladox and I invited all other ops as admins
@@ -1673,7 +1673,7 @@ title: Tech:Server admin log/2018
 * 14:48 John: running estimates on bacula1 for all existing jobs to maximise disk usage as we currently backup more than we physically can
 * 14:48 John: DB3 pool on bacula1 as well
 * 14:46 John: deleting DB pool on bacula1
-* 14:31 revi: updated form 7 https://meta.miraheze.org/w/index.php?title=Tech:Phabricator/Form/Maniphest/7&diff=47923&oldid=47922
+* 14:31 revi: updated form 7 [https://meta.miraheze.org/w/index.php?title=Tech:Phabricator/Form/Maniphest/7&diff=47923&oldid=47922](https://meta.miraheze.org/w/index.php?title=Tech:Phabricator/Form/Maniphest/7&diff=47923&oldid=47922)
 * 11:35 paladox: sudo -u www-data php /srv/mediawiki/w/maint*/rebuildLocalisationCache.php --wiki test1wiki on test1
 * 02:21 paladox: running sudo -u www-data php rebuildLocalisationCache.php --wiki test1wiki and sudo -u www-data php mergeMessageFileList.php --output /srv/mediawiki/config/ExtensionMessageFiles.php --wiki test1wiki on mw*
 * 02:17 John: running manageInactiveWikis.php
@@ -1683,7 +1683,7 @@ title: Tech:Server admin log/2018
 * 23:19 paladox: sudo -u www-data php /srv/mediawiki/w/maint*/rebuildLocalisationCache.php --wiki test1wiki mw*
 * 23:19 paladox: sudo -u www-data php /srv/mediawiki/w/maint*/rebuildLocalisationCache.php --wiki test1wiki on mw1
 * 22:33 paladox: running sudo -u www-data php rebuildLocalisationCache.php --wiki test1wiki on test1
-* 22:11 paladox: removing puppet from db2 following steps at https://meta.miraheze.org/wiki/Tech:Puppet#Removing_puppet_agent_.28server.29_on_the_Puppetmaster
+* 22:11 paladox: removing puppet from db2 following steps at [https://meta.miraheze.org/wiki/Tech:Puppet#Removing_puppet_agent_.28server.29_on_the_Puppetmaster](https://meta.miraheze.org/wiki/Tech:Puppet#Removing_puppet_agent_.28server.29_on_the_Puppetmaster)
 * 15:33 paladox: migrating cp5 from 20gb to 25gb
 * 01:12 Southparkfan: reversed previous ufw change
 * 00:53 Southparkfan: allow cp4.miraheze.org:9131 (ufw) from misc2
@@ -1725,7 +1725,7 @@ title: Tech:Server admin log/2018
 * 23:29 paladox: upgrading debian on db2 to latest jessie point release
 * 23:29 John: MariaDB [metawiki]> UPDATE cw_requests SET cw_status_comment = 'empty' WHERE cw_status_comment = '';
 * 23:28 paladox: stopped mysql on db2
-* 22:57 paladox: switching wikis from db2 to db4 https://git.io/vpQyD
+* 22:57 paladox: switching wikis from db2 to db4 [https://git.io/vpQyD](https://git.io/vpQyD)
 * 21:50 paladox: restoring db backups to db4 dbBackup.sh
 * 21:11 paladox: starting db2 -> db4 migration
 * 20:47 John: trained SA with my junk inbox
@@ -1734,7 +1734,7 @@ title: Tech:Server admin log/2018
 * 15:29 paladox: delete db airwiki aistudywiki aiswiki aklassewiki aktposwiki alacritysimwiki alaexploitdbwiki alberhillwiki albionwebwiki albustestwiki alewiki alfrescowiki algopediawiki alifloktawiki alittletroutywiki allsamemonsterswiki allthingswikiwiki almanachdebauswicwiki altenpflegewiki alternatehistorywiki alternatesporthistorywiki alterwikiwiki althistoriawiki altruniversewiki altversewiki alwikiwiki amaninfowiki ambirtestwiki amcdlwiki ameciclowiki amicitiawiki amicsdesmuseucawiki amicsdesmuseuwiki amirampwiki amntwiki amxwikiwiki analogypediawiki anchorhrgwiki andreasalexanderulrichwiki animangamespnpwiki from db2 (was migrated to db4)
 * 14:56 paladox: delete db afictionalworldonawiki, africavisionwiki, afrwiki, afterworldwiki, ag7732wiki, agathachristiewiki, agathinonwiki, ageloniawiki, ageofenlightenmentwiki, ageofwushuwiki, agriwikiwiki, agropediawiki, ahabariwiki, ahdwiki, ahmsaqibwiki, aibowiki, aidorupediawiki, aidyllicwiki, aimciawiki, airportsofwings900wiki from db2 (was migrated to db4)
 * 13:58 paladox: delete db activistresourceswiki, adadevelopersacademywiki, adamwiki, adantewiki, addicteddadswiki, adiaprojectwiki, adminbookclubwiki, adminbuswiki, adnovumwiki, advantagewiki, advisingwiki, aemanualwiki, aenasanwiki, aeromwiki, aerossprimewiki, aerowikiwiki, aesbasewiki, aescapeswiki, aetheriawiki from db2 (was migrated to db4)
-* 13:46 paladox: delete db adiapediawiki on db2 and db4 (was renamed to elerawiki) https://phabricator.miraheze.org/rMWCFe41b685975cabaed803b42452dee5cfc7150d020
+* 13:46 paladox: delete db adiapediawiki on db2 and db4 (was renamed to elerawiki) [https://phabricator.miraheze.org/rMWCFe41b685975cabaed803b42452dee5cfc7150d020](https://phabricator.miraheze.org/rMWCFe41b685975cabaed803b42452dee5cfc7150d020)
 * 12:51 paladox: delete db 8stationwiki, 99pdwikiwiki, a360wiki, aapwiki, aaupaftlocal6075wiki, abainnovationwiki, abhirupghoshwiki, abitaregeawiki, absurdopediawiki, abundancewiki, abzewiki, acasrbijawiki, accademiadellebirrewiki, access7wiki, accorderiewiki, accountingwiki, acewikiwiki, achancetopursuewiki, actartletraswiki from db2 was migrated to db4 a few days ago and no issues reported
 * 12:41 paladox: delete db 690squadronwiki from db2 was migrated to db4 a few days ago and no issues reported
 * 12:41 paladox: delete db 4mindswiki from db2 was migrated to db4 a few days ago and no issues reported
@@ -1810,7 +1810,7 @@ title: Tech:Server admin log/2018
 
 ## 2018-05-07 
 
-* 21:48 paladox: delete test3wiki from db2 and also delete wiki following https://meta.miraheze.org/wiki/Tech:Delete_a_wiki
+* 21:48 paladox: delete test3wiki from db2 and also delete wiki following [https://meta.miraheze.org/wiki/Tech:Delete_a_wiki](https://meta.miraheze.org/wiki/Tech:Delete_a_wiki)
 * 21:46 paladox: deleted test2wiki from db2
 * 18:00 MacFan4000: adminbot was restarted on misc1
 * 01:48 PuppyKun: misc1: service icingabot restart
@@ -1925,7 +1925,7 @@ title: Tech:Server admin log/2018
 ## 2018-04-25 
 
 * 22:56 paladox: reboot misc1 to free up memory
-* 22:33 paladox: added some manual patches to /usr/share/php/Icinga/** for php7.2 (https://github.com/Icinga/icingaweb2/commit/5d100779ce8557095e0cfe1768780086b5865adf and https://github.com/Icinga/icingaweb2/commit/72ec132f25c868d9510e6d36a2d5c92fc8dd59d1)
+* 22:33 paladox: added some manual patches to /usr/share/php/Icinga/** for php7.2 ([https://github.com/Icinga/icingaweb2/commit/5d100779ce8557095e0cfe1768780086b5865adf](https://github.com/Icinga/icingaweb2/commit/5d100779ce8557095e0cfe1768780086b5865adf) and [https://github.com/Icinga/icingaweb2/commit/72ec132f25c868d9510e6d36a2d5c92fc8dd59d1](https://github.com/Icinga/icingaweb2/commit/72ec132f25c868d9510e6d36a2d5c92fc8dd59d1))
 * 20:24 paladox: re enabling puppet on misc1 to upgrade to icinga2
 * 20:19 paladox: disabling puppet on misc1 in preperation for icinga1 -> icinga2 migration
 * 16:31 paladox: upgraded phabricator
@@ -2279,12 +2279,12 @@ title: Tech:Server admin log/2018
 
 ## 2018-03-11 
 
-* 12:49 revi: make https://phabricator.miraheze.org/H31 stricter
+* 12:49 revi: make [https://phabricator.miraheze.org/H31](https://phabricator.miraheze.org/H31) stricter
 
 ## 2018-03-10 
 
 * 16:51 revi: phab project import was created while ago, forgot to log
-* 15:41 Reception123: created https://phabricator.miraheze.org/H32 for secure mail
+* 15:41 Reception123: created [https://phabricator.miraheze.org/H32](https://phabricator.miraheze.org/H32) for secure mail
 
 ## 2018-03-09 
 
@@ -2359,7 +2359,7 @@ title: Tech:Server admin log/2018
 
 * 19:56 Southparkfan: ALTER TABLE cw_wikis ADD COLUMN wiki_inactive_timestamp BINARY(14) AFTER wiki_inactive;
 * 19:26 Southparkfan: ALTER TABLE cw_wikis ADD COLUMN wiki_closed_timestamp BINARY(14) AFTER wiki_closed; and ALTER TABLE cw_wikis ADD COLUMN wiki_inactive smallint(6) AFTER wiki_closed_timestamp;
-* 18:55 Southparkfan: deleted the following wikis: https://phabricator.miraheze.org/P43
+* 18:55 Southparkfan: deleted the following wikis: [https://phabricator.miraheze.org/P43](https://phabricator.miraheze.org/P43)
 * 17:57 Reception123: manually restarted icinga as well (required for the changes to take effect)
 * 17:56 Reception123: manually reloaded icinga
 * 17:52 Reception123: moved /etc/icinga/config/puppet_services.cfg to a backup file then ran puppet to regenerate the list of services
@@ -2376,10 +2376,10 @@ title: Tech:Server admin log/2018
 ## 2018-02-23 
 
 * 22:39 Southparkfan: restarted ganglia-monitor on parsoid1+bacula1
-* 21:53 Southparkfan: cleaned db entries, dropped databases and removed nfs dirs for wikis: https://phabricator.miraheze.org/P42
-* 21:18 Southparkfan: cleaned db entries, dropped databases and removed nfs dirs for wikis: https://phabricator.miraheze.org/P41
-* 20:40 Southparkfan: cleaned db entries, dropped databases and removed nfs dirs for wikis: https://phabricator.miraheze.org/P40
-* 20:15 Southparkfan: cleaned db entries, dropped databases and removed nfs dirs for wikis: https://phabricator.miraheze.org/P39
+* 21:53 Southparkfan: cleaned db entries, dropped databases and removed nfs dirs for wikis: [https://phabricator.miraheze.org/P42](https://phabricator.miraheze.org/P42)
+* 21:18 Southparkfan: cleaned db entries, dropped databases and removed nfs dirs for wikis: [https://phabricator.miraheze.org/P41](https://phabricator.miraheze.org/P41)
+* 20:40 Southparkfan: cleaned db entries, dropped databases and removed nfs dirs for wikis: [https://phabricator.miraheze.org/P40](https://phabricator.miraheze.org/P40)
+* 20:15 Southparkfan: cleaned db entries, dropped databases and removed nfs dirs for wikis: [https://phabricator.miraheze.org/P39](https://phabricator.miraheze.org/P39)
 * 16:52 Reception123: reinstalling test1 (for further testing)
 * 16:05 Reception123: added grants for icinga on db4
 * 14:32 Reception123: sudo -u www-data php mergeMessageFileList.php --output /srv/mediawiki/config/ExtensionMessageFiles.php --wiki test1wiki and rebuild LC on mw*
@@ -2394,7 +2394,7 @@ title: Tech:Server admin log/2018
 ## 2018-02-20 
 
 * 20:30 Reception|away: purge binary logs before '2018-02-20 20:00:00'; on db2
-* 09:02 revi: create https://phabricator.miraheze.org/H31 to autoclose spam
+* 09:02 revi: create [https://phabricator.miraheze.org/H31](https://phabricator.miraheze.org/H31) to autoclose spam
 * 06:19 Reception|away: purge binary logs before '2018-02-20 03:00:00'; on db3
 
 ## 2018-02-19 
@@ -2427,7 +2427,7 @@ title: Tech:Server admin log/2018
 
 ## 2018-02-12 
 
-* 11:12 revi: https://phabricator.miraheze.org/H30 updated to automatically subscribe CoCC members
+* 11:12 revi: [https://phabricator.miraheze.org/H30](https://phabricator.miraheze.org/H30) updated to automatically subscribe CoCC members
 
 ## 2018-02-11 
 
@@ -2478,7 +2478,7 @@ title: Tech:Server admin log/2018
 * 21:44 PuppyKun: removeDeletedWikis for lothuialethwiki
 * 18:59 Southparkfan: cleaned puppet certificate info about db5
 * 18:48 PuppyKun: hard rebooting db5
-* 17:29 revi: update phabricator maniphest form 14 ( https://phabricator.miraheze.org/transactions/editengine/maniphest.task/view/14/ ) preamble
+* 17:29 revi: update phabricator maniphest form 14 ( [https://phabricator.miraheze.org/transactions/editengine/maniphest.task/view/14/](https://phabricator.miraheze.org/transactions/editengine/maniphest.task/view/14/) ) preamble
 * 02:12 PuppyKun: rebooted db5
 * 02:05 PuppyKun: rebooted db5
 * 02:00 PuppyKun: started hard reboot of db5.miraheze.org (unresponsive to ssh)
@@ -2586,4 +2586,4 @@ All times are in **UTC+0**/**GMT**.
 Archives: [2015](https://meta.miraheze.org/wiki//2015), [2016](https://meta.miraheze.org/wiki//2016), [2017](https://meta.miraheze.org/wiki//2017)
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Server_admin_log/2018
+**Source**: [https://meta.miraheze.org/wiki/Tech:Server_admin_log/2018](https://meta.miraheze.org/wiki/Tech:Server_admin_log/2018)

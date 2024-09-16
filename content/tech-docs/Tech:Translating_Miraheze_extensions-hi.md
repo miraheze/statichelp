@@ -18,4 +18,4 @@ Miraheze कुछ एक्सटेंशनों को विकसित �
 [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/hi
+**Source**: [https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/hi](https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/hi)

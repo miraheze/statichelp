@@ -136,4 +136,4 @@ To manually set or change your display name, follow these steps:
 This will update how your name appears to others in Mattermost.
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Mattermost
+**Source**: [https://meta.miraheze.org/wiki/Tech:Mattermost](https://meta.miraheze.org/wiki/Tech:Mattermost)

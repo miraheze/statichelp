@@ -241,7 +241,7 @@ title: Tech:Server admin log/2019
 * 14:58 paladox: rebooted db5 after networking stoped after running "sudo service networking restart"
 * 14:50 Zppix: rebuild LC on mw2
 * 14:47 Zppix: rebuild lc on mw[13]; MW2 puppet run failed, paladox is fixing, will run rebuild lc after
-* 14:38 Zppix: force puppet runs on mw[123] to deploy https://git.io/Jey8R
+* 14:38 Zppix: force puppet runs on mw[123] to deploy [https://git.io/Jey8R](https://git.io/Jey8R)
 
 ## 2019-12-05 
 
@@ -325,7 +325,7 @@ title: Tech:Server admin log/2019
 
 ## 2019-11-24 
 
-* 19:49 Zppix: rebuild LC on test1 for https://git.io/JePU9
+* 19:49 Zppix: rebuild LC on test1 for [https://git.io/JePU9](https://git.io/JePU9)
 * 19:27 paladox: rebuild lc on mw* and lizardfs6
 * 19:07 paladox: restart php7.3-fpm and nginx on mw1
 * 18:35 Zppix: rebuild LC on mw*
@@ -423,7 +423,7 @@ title: Tech:Server admin log/2019
 * 17:53 paladox: root@lizardfs6:/mnt/mediawiki-static# rm -rf p*
 * 15:02 paladox: root@lizardfs6:/mnt/mediawiki-static# rm -rf o*
 * 01:40 paladox: root@lizardfs6:/mnt/mediawiki-static# rm -rf m*
-* 01:21 paladox:  dpkg -i libjs-moment-timezone_0.5.23+dfsg1-1_all.deb (https://packages.debian.org/buster/all/libjs-moment-timezone/download) required by the prometheus upgrade 2.3 -> 2.7 in stretch-backports, apt package not avilable.
+* 01:21 paladox:  dpkg -i libjs-moment-timezone_0.5.23+dfsg1-1_all.deb ([https://packages.debian.org/buster/all/libjs-moment-timezone/download](https://packages.debian.org/buster/all/libjs-moment-timezone/download)) required by the prometheus upgrade 2.3 -> 2.7 in stretch-backports, apt package not avilable.
 
 ## 2019-11-15 
 
@@ -473,7 +473,7 @@ title: Tech:Server admin log/2019
 * 16:41 paladox: running lc on lizardfs6
 * 16:39 RhinosF1: sudo -u www-data php /srv/mediawiki/w/maintenance/mergeMessageFileList.php --output /srv/mediawiki/config/ExtensionMessageFiles.php --wiki loginwiki and  sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildLocalisationCache.php --wiki loginwiki on mw[123] and test1
 * 13:42 paladox: restart lizardfs-master on lizardfs6
-* 08:25 Reception123: DROP DATABASE from this list: https://phabricator.miraheze.org/P235\
+* 08:25 Reception123: DROP DATABASE from this list: [https://phabricator.miraheze.org/P235](https://phabricator.miraheze.org/P235)\
 * 08:09 Reception123: ran deletedwikis script on mw1
 * 08:02 Reception123: bash ./deletedbackups.sh /home/reception/temp.dblist
 * 07:51 Reception123: recreated mashedpotaytoeswiki (empty wiki; login issues)
@@ -487,7 +487,7 @@ title: Tech:Server admin log/2019
 
 ## 2019-11-08 
 
-* 22:03 paladox: delete from mw_namespaces where ns_namespace_name = 'Forum_talk' and ns_dbname = 'csydeswiki'; on db4 - https://meta.miraheze.org/w/index.php?title=Stewards%27_noticeboard&oldid=88031#Issue_with_the_redundant_Forum_talk_namespace_which_hasn.27t_been_deleted_properly
+* 22:03 paladox: delete from mw_namespaces where ns_namespace_name = 'Forum_talk' and ns_dbname = 'csydeswiki'; on db4 - [https://meta.miraheze.org/w/index.php?title=Stewards%27_noticeboard&oldid=88031#Issue_with_the_redundant_Forum_talk_namespace_which_hasn.27t_been_deleted_properly](https://meta.miraheze.org/w/index.php?title=Stewards%27_noticeboard&oldid=88031#Issue_with_the_redundant_Forum_talk_namespace_which_hasn.27t_been_deleted_properly)
 
 ## 2019-11-07 
 
@@ -727,7 +727,7 @@ title: Tech:Server admin log/2019
 ## 2019-10-18 
 
 * 18:11 RhinosF1: created blank databases for all commissioned servers using; sql.php --wiki=metawiki CREATE database [servername]wiki;
-* 18:10 John: destroyed https://phabricator.miraheze.org/P232
+* 18:10 John: destroyed [https://phabricator.miraheze.org/P232](https://phabricator.miraheze.org/P232)
 * 17:07 Zppix: deleteBatch --wiki caeruleawik ~/home/zppix/delete.txt and then populateMainPage.php --wiki caeruleawiki
 * 14:50 paladox: reboot misc4 as it oom
 
@@ -846,7 +846,7 @@ title: Tech:Server admin log/2019
 * 23:09 paladox: remove STATIC incomplete backups from bacula1
 * 22:15 RhinosF1: sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildLocalisationCache.php --wiki loginwiki
 * 22:15 RhinosF1: sudo -u www-data php /srv/mediawiki/w/maintenance/mergeMessageFileList.php --output /srv/mediawiki/config/ExtensionMessageFiles.php --wiki loginwiki
-* 22:08 RhinosF1: running https://meta.miraheze.org/wiki/Tech:Updating_an_extension on [test/mw]*
+* 22:08 RhinosF1: running [https://meta.miraheze.org/wiki/Tech:Updating_an_extension](https://meta.miraheze.org/wiki/Tech:Updating_an_extension) on [test/mw]*
 * 21:20 RhinosF1: rhinos@mw1:~$ sudo -u www-data php /srv/mediawiki/w/maintenance/cleanupEmptyCategories.php --mode=remove --force  --wiki=ildrilwiki
 * 21:18 RhinosF1: running recountCat for --mode=[files/subcats] per script output
 * 21:17 RhinosF1: rhinos@mw1:~$ sudo -u www-data php /srv/mediawiki/w/maintenance/cleanupEmptyCategories.php --mode=remove --wiki=ildrilwiki x2
@@ -1021,7 +1021,7 @@ title: Tech:Server admin log/2019
 
 * 22:28 RhinosF1: rhinos@mw1:~$ sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php /home/rhinos/infobox.xml --wiki philosiversewiki
 * 22:05 RhinosF1: rhinos@mw1:/srv/mediawiki/w/maintenance$ sudo -u www-data php sql.php --wiki=metawiki --query="update cw_requests set cw_status = 'approved' where cw_id = 9311;"
-* 21:55 paladox: disabled https://phabricator.miraheze.org/H35 and https://phabricator.miraheze.org/H25
+* 21:55 paladox: disabled [https://phabricator.miraheze.org/H35](https://phabricator.miraheze.org/H35) and [https://phabricator.miraheze.org/H25](https://phabricator.miraheze.org/H25)
 * 21:53 paladox: rebooted db5
 * 21:52 RhinosF1: rhinos@mw1:/srv/mediawiki/w/extensions/CentralAuth/maintenance$ sudo -u www-data php createLocalAccount.php --wiki=bestmusicandsongswiki Inkster
 * 21:50 RhinosF1: rhinos@mw1:/srv/mediawiki/w/extensions/CreateWiki/maintenance$ sudo -u www-data php populateMainPage.php --wiki=bestmusicandsongswiki
@@ -1044,7 +1044,7 @@ title: Tech:Server admin log/2019
 ## 2019-09-19 
 
 * 17:04 paladox: revert is working!
-* 17:01 paladox: manually reverting https://git.io/Je3BR on mw (each by each) testing new configuation change gluster side.
+* 17:01 paladox: manually reverting [https://git.io/Je3BR](https://git.io/Je3BR) on mw (each by each) testing new configuation change gluster side.
 * 16:38 paladox: gluster volume set mvolume performance.parallel-readdir "on"
 * 16:36 paladox: gluster volume set mvolume network.ping-timeout "20"
 * 16:13 paladox: restarted glusterd on glusterfs[12]
@@ -1057,8 +1057,8 @@ title: Tech:Server admin log/2019
 * 21:55 paladox: update content_models set model_id = 3 where model_id = 4;
 * 21:54 paladox: MariaDB [philosiversewiki]> update content_models set model_id = 4 where model_id = 3;
 * 21:53 paladox: MariaDB [philosiversewiki]> update content_models set model_id = 1 where model_id = 4;
-* 21:09 paladox: drop all wikis from https://phabricator.miraheze.org/P227
-* 18:12 paladox: delete philosiversewiki per request https://meta.miraheze.org/wiki/User_talk:RhinosF1
+* 21:09 paladox: drop all wikis from [https://phabricator.miraheze.org/P227](https://phabricator.miraheze.org/P227)
+* 18:12 paladox: delete philosiversewiki per request [https://meta.miraheze.org/wiki/User_talk:RhinosF1](https://meta.miraheze.org/wiki/User_talk:RhinosF1)
 * 15:38 paladox: gluster volume set mvolume network.ping-timeout "15"
 * 15:31 paladox: gluster volume set mvolume performance.parallel-readdir off - on gluster
 * 15:30 paladox: gluster volume set mvolume client.event-threads "2"
@@ -1069,7 +1069,7 @@ title: Tech:Server admin log/2019
 
 ## 2019-09-17 
 
-* 17:20 Southparkfan: run "SET GLOBAL expire_logs_days=4;" on db[45] to apply https://git.io/JeOiN without restart
+* 17:20 Southparkfan: run "SET GLOBAL expire_logs_days=4;" on db[45] to apply [https://git.io/JeOiN](https://git.io/JeOiN) without restart
 
 ## 2019-09-16 
 
@@ -1376,7 +1376,7 @@ title: Tech:Server admin log/2019
 * 16:21 Reception123: MariaDB [phabricator_file]> UPDATE file SET viewPolicy = 'admin' WHERE id = 1003845;
 * 15:57 Reception123: sudo -u www-data php /srv/mediawiki/w/maint*/rebuildLocalisationCache.php --wiki loginwiki  on mw*
 * 15:09 paladox: starting import for iceriawiki - T4648
-* 14:48 paladox: recreating iceriawiki - https://phabricator.miraheze.org/T4648
+* 14:48 paladox: recreating iceriawiki - [https://phabricator.miraheze.org/T4648](https://phabricator.miraheze.org/T4648)
 * 05:21 Reception123: deleted and dropped testdelete1wiki
 * 05:20 Reception123: restarted logbot
 
@@ -1563,7 +1563,7 @@ title: Tech:Server admin log/2019
 
 ## 2019-07-26 
 
-* 16:41 paladox: sudo -u www-data /usr/local/bin/fileLockScript.sh /tmp/matomo_file_lock "/usr/bin/nice -19 /usr/bin/php /srv/matomo/console core:archive --url=https://matomo.miraheze.org/" > /srv/matomo-archive.log - misc2
+* 16:41 paladox: sudo -u www-data /usr/local/bin/fileLockScript.sh /tmp/matomo_file_lock "/usr/bin/nice -19 /usr/bin/php /srv/matomo/console core:archive --url= [https://matomo.miraheze.org/](https://matomo.miraheze.org/)" > /srv/matomo-archive.log - misc2
 * 15:19 paladox: root@mw1:/mnt/mediawiki-static/windows95wikiwiki# cp -R /srv/mediawiki/w/extensions/SocialProfile/awards ./awards - T4578
 * 15:18 paladox: root@mw1:/mnt/mediawiki-static/windows95wikiwiki# cp -R /srv/mediawiki/w/extensions/SocialProfile/avatars ./avatars - T4578
 * 02:11 paladox: disable the salt master temporarily
@@ -1597,7 +1597,7 @@ title: Tech:Server admin log/2019
 * 21:28 paladox: upgrade puppet-agent - misc4
 * 21:28 paladox: that was for misc4
 * 21:28 paladox: restart prometheus - phd - php-fpm on misc (OOM)
-* 20:36 paladox: sudo -u www-data /usr/local/bin/fileLockScript.sh /tmp/matomo_file_lock "/usr/bin/nice -19 /usr/bin/php /srv/matomo/console core:archive --url=https://matomo.miraheze.org/" > /srv/matomo-archive.log' - misc2
+* 20:36 paladox: sudo -u www-data /usr/local/bin/fileLockScript.sh /tmp/matomo_file_lock "/usr/bin/nice -19 /usr/bin/php /srv/matomo/console core:archive --url= [https://matomo.miraheze.org/](https://matomo.miraheze.org/)" > /srv/matomo-archive.log' - misc2
 * 15:28 paladox: apt upgrade - test1
 * 14:46 paladox: reboot cp3
 * 14:45 paladox: increasing swap on cp3 to 2gb
@@ -1639,7 +1639,7 @@ title: Tech:Server admin log/2019
 ## 2019-07-19 
 
 * 22:39 paladox: apt install maven on test1
-* 22:38 paladox: forking https://github.com/wikimedia/operations-software-elasticsearch-plugins
+* 22:38 paladox: forking [https://github.com/wikimedia/operations-software-elasticsearch-plugins](https://github.com/wikimedia/operations-software-elasticsearch-plugins)
 * 20:20 paladox: provision es4
 * 19:34 Reception123: purge binary logs before '2019-07-19 17:00:00';
 * 15:40 paladox: restarting elasticsearch on es* (includes stopping and starting)
@@ -1649,7 +1649,7 @@ title: Tech:Server admin log/2019
 * 14:20 paladox: (started es on es3 a few minutes ag)
 * 14:13 paladox: stopping es on es3 to adjust swap
 * 12:59 paladox: install iotop on es1
-* 12:51 paladox: forking https://github.com/wikimedia/search-extra
+* 12:51 paladox: forking [https://github.com/wikimedia/search-extra](https://github.com/wikimedia/search-extra)
 * 05:18 Reception123: purge binary logs before '2019-07-19 03:00:00';
 
 ## 2019-07-18 
@@ -1677,7 +1677,7 @@ title: Tech:Server admin log/2019
 * 17:10 paladox: root@misc3:/srv/restbase# sudo -u restbase git pull
 * 11:21 paladox: MariaDB [piwik]> OPTIMIZE table piwik_archive_blob_2019_06;
 * 11:07 paladox: root@misc2:/var/spool/cron/crontabs# /usr/local/bin/fileLockScript.sh /tmp/matomo_file_locks "/usr/bin/nice -19 /usr/bin/php /srv/matomo/console core:purge-old-archive-data all"
-* 09:09 Reception123: reception@misc2:/srv/matomo$ sudo /usr/bin/php /srv/matomo/console core:archive --url=https://matmo.miraheze.org/matomo/ > /home/reception/matomo-archive.log
+* 09:09 Reception123: reception@misc2:/srv/matomo$ sudo /usr/bin/php /srv/matomo/console core:archive --url= [https://matmo.miraheze.org/matomo/](https://matmo.miraheze.org/matomo/) > /home/reception/matomo-archive.log
 * 05:11 Reception123: purge binary logs before '2019-07-16 03:00:00';
 
 ## 2019-07-15 
@@ -1692,7 +1692,7 @@ title: Tech:Server admin log/2019
 
 ## 2019-07-13 
 
-* 19:47 Reception123: deleted and dropped dbs listed https://phabricator.miraheze.org/P214
+* 19:47 Reception123: deleted and dropped dbs listed [https://phabricator.miraheze.org/P214](https://phabricator.miraheze.org/P214)
 * 19:41 Reception123: reception@mw1:~$ sudo -u www-data php /srv/mediawiki/w/extensions/CreateWiki/maintenance/deleteWikis.php --wiki loginwiki Reception123 --delete
 * 16:11 paladox: root@db4:/bacula/restore# rm -rf *
 * 15:57 paladox: [16:41:38] <+paladox>	!log restarted lizardfs-master on misc3 (appears to have stopped it's self)
@@ -1752,7 +1752,7 @@ title: Tech:Server admin log/2019
 
 ## 2019-07-08 
 
-* 20:44 paladox: deleted Lifelonglearner per https://meta.miraheze.org/w/index.php?title=Meta:Administrators%27_noticeboard&diff=prev&oldid=77234
+* 20:44 paladox: deleted Lifelonglearner per [https://meta.miraheze.org/w/index.php?title=Meta:Administrators%27_noticeboard&diff=prev&oldid=77234](https://meta.miraheze.org/w/index.php?title=Meta:Administrators%27_noticeboard&diff=prev&oldid=77234)
 * 08:03 Reception123: purge binary logs before '2019-07-08 05:00:00';
 
 ## 2019-07-07 
@@ -1820,7 +1820,7 @@ title: Tech:Server admin log/2019
 * 20:27 paladox: adding nginx exporter to mw1
 * 20:13 paladox: hacking puppet manifest to enable nginx exporter on test1
 * 20:04 paladox: restarting php-fpm across mw*
-* 19:34 paladox: installing https://github.com/martin-helmich/prometheus-nginxlog-exporter on test1
+* 19:34 paladox: installing [https://github.com/martin-helmich/prometheus-nginxlog-exporter](https://github.com/martin-helmich/prometheus-nginxlog-exporter) on test1
 * 12:52 paladox: removing a users PII
 * 01:08 paladox: running update.php for all wikis (on mw1 in a screen)
 * 00:50 paladox: repool mw2
@@ -2055,7 +2055,7 @@ title: Tech:Server admin log/2019
 
 ## 2019-06-04 
 
-* 23:08 paladox: installing strongswan on test1 following https://www.digitalocean.com/community/tutorials/how-to-set-up-an-ikev2-vpn-server-with-strongswan-on-ubuntu-16-04
+* 23:08 paladox: installing strongswan on test1 following [https://www.digitalocean.com/community/tutorials/how-to-set-up-an-ikev2-vpn-server-with-strongswan-on-ubuntu-16-04](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-ikev2-vpn-server-with-strongswan-on-ubuntu-16-04)
 * 18:37 paladox: running rebuildall.php for quircwiki on mw1
 
 ## 2019-06-03 
@@ -2304,7 +2304,7 @@ title: Tech:Server admin log/2019
 
 ## 2019-05-02 
 
-* 21:53 paladox: restarting lizardfs-master on misc3 after deploying https://git.io/fjZhE
+* 21:53 paladox: restarting lizardfs-master on misc3 after deploying [https://git.io/fjZhE](https://git.io/fjZhE)
 * 16:57 paladox: changing phabricator.serious-business to true in phab's ui
 
 ## 2019-05-01 
@@ -2389,7 +2389,7 @@ title: Tech:Server admin log/2019
 
 * 22:06 paladox: disable automatically archiving from the web browser in matomo. (per recommendation, switching it to a cron)
 * 21:54 paladox: running ./console core:purge-old-archive-data all on misc2
-* 16:38 paladox: running ./console core:archive --url=https://matomo.miraheze.org/ > ./test.log on misc2 (per settings recommendation)
+* 16:38 paladox: running ./console core:archive --url= [https://matomo.miraheze.org/](https://matomo.miraheze.org/) > ./test.log on misc2 (per settings recommendation)
 
 ## 2019-04-25 
 
@@ -2421,7 +2421,7 @@ title: Tech:Server admin log/2019
 ## 2019-04-20 
 
 * 21:42 paladox: running lc on mw*
-* 17:42 paladox: installing https://apt.wikimedia.org/wikimedia/pool/main/t/trafficserver/trafficserver-experimental-plugins_8.0.3-1wm1_amd64.deb on test1
+* 17:42 paladox: installing [https://apt.wikimedia.org/wikimedia/pool/main/t/trafficserver/trafficserver-experimental-plugins_8.0.3-1wm1_amd64.deb](https://apt.wikimedia.org/wikimedia/pool/main/t/trafficserver/trafficserver-experimental-plugins_8.0.3-1wm1_amd64.deb) on test1
 * 17:42 paladox: apt-get install libcjose0  libjansson4  libmemcached11 libmemcachedutil2 -t stretch-backports on test1
 
 ## 2019-04-19 
@@ -2429,7 +2429,7 @@ title: Tech:Server admin log/2019
 * 23:32 paladox: stopping nginx on test1
 * 22:54 paladox: apt-get --purge remove trafficserver on cp4 (installing trafficserver on test1 instead).
 * 22:52 paladox: noting that i also "apt-get install libc++1 libc++abi1 libhwloc5 libluajit-5.1-2 libtcl8.6 libunwind8 libnuma1 libluajit-5.1-common libhwloc5 -t stretch-backports" required by trafficserver
-* 22:49 paladox: installing trafficserver on cp4 to test (from https://apt.wikimedia.org/wikimedia/pool/main/t/trafficserver/trafficserver_8.0.3-1wm1_amd64.deb)
+* 22:49 paladox: installing trafficserver on cp4 to test (from [https://apt.wikimedia.org/wikimedia/pool/main/t/trafficserver/trafficserver_8.0.3-1wm1_amd64.deb](https://apt.wikimedia.org/wikimedia/pool/main/t/trafficserver/trafficserver_8.0.3-1wm1_amd64.deb))
 * 21:19 paladox: upgrading puppetdb to 6.3.1 on puppet1
 * 17:30 Southparkfan: remove sysbench package from cp4 (+db4, I also benchmarked db4)
 * 17:26 paladox: restarted php-fpm and nginx on misc2
@@ -3081,4 +3081,4 @@ title: Tech:Server admin log/2019
 * 15:01 paladox: depool mw1
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Server_admin_log/2019
+**Source**: [https://meta.miraheze.org/wiki/Tech:Server_admin_log/2019](https://meta.miraheze.org/wiki/Tech:Server_admin_log/2019)

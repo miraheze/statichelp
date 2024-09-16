@@ -25,4 +25,4 @@ title: Tech:Mwtask181
 **mwtask181** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a [MediaWiki application server](https://meta.miraheze.org/wiki/Tech:MediaWiki_appserver) which is responsible for heavy and intensive MediaWiki tasks (e.g. maintenance scripts, imports). It is not web accessible but is publicly exposed.
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Mwtask181
+**Source**: [https://meta.miraheze.org/wiki/Tech:Mwtask181](https://meta.miraheze.org/wiki/Tech:Mwtask181)

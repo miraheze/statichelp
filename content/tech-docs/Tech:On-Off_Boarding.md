@@ -67,7 +67,7 @@ This section is generic to all shell requests.
 
 ### Status Page 
 
-* System administrators may also be added to https://mirahezestatus.net/, which is done via hund.io.
+* System administrators may also be added to [https://mirahezestatus.net/](https://mirahezestatus.net/), which is done via hund.io.
    * Access should be revoked on off-boarding.
 
 ### Phorge 
@@ -122,4 +122,4 @@ The above applies, this section covers things which are specific to Infrastructu
 [Category:Tech policy](https://meta.miraheze.org/wiki/Category:Tech_policy)
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:On-Off_Boarding
+**Source**: [https://meta.miraheze.org/wiki/Tech:On-Off_Boarding](https://meta.miraheze.org/wiki/Tech:On-Off_Boarding)

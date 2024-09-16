@@ -438,12 +438,12 @@ title: Tech:Server admin log/2020
 * 08:38 Reception123: reception@jobrunner1:/srv/mediawiki/w/maintenance$ sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --report=1 --wiki ascotwiki /home/reception/delbackups3/ascotwiki.xml
 * 08:34 Reception123: reception@jobrunner2:/srv/mediawiki/w/maintenance$ sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --report=1 --wiki thehorriblemusicandsongswikiawiki /home/reception/horriblemusicandsongs_pages_full.xml
 * 08:31 Reception123: renamed sephsfunnieswiki to sephspacewiki
-* 00:34 paladox: curl -XPUT "http://localhost:9200/_all/_settings" -d '{ "index" : { "max_result_window" : 90000000 } }' -H 'Content-Type: application/json'
-* 00:33 paladox: root@graylog1:/home/paladox# curl -XPUT "http://localhost:9200/_all/_settings" -d '{ "index" : { "max_result_window" : 900000 } }' -H 'Content-Type: application/json'
+* 00:34 paladox: curl -XPUT " [http://localhost:9200/_all/_settings](http://localhost:9200/_all/_settings)" -d '{ "index" : { "max_result_window" : 90000000 } }' -H 'Content-Type: application/json'
+* 00:33 paladox: root@graylog1:/home/paladox# curl -XPUT " [http://localhost:9200/_all/_settings](http://localhost:9200/_all/_settings)" -d '{ "index" : { "max_result_window" : 900000 } }' -H 'Content-Type: application/json'
 
 ## 2020-12-01 
 
-* 15:50 paladox: root@graylog1:/home/paladox# curl -XPUT "http://localhost:9200/_settings" -d '{ "index" : { "max_result_window" : 90000 } }' -H 'Content-Type: application/json'
+* 15:50 paladox: root@graylog1:/home/paladox# curl -XPUT " [http://localhost:9200/_settings](http://localhost:9200/_settings)" -d '{ "index" : { "max_result_window" : 90000 } }' -H 'Content-Type: application/json'
 * 06:43 Reception123: reception@jobrunner1:/srv/mediawiki/w/maintenance$ sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --report=1 --wiki callipediawiki /home/reception/Vital4.xml
 
 ## 2020-11-30 
@@ -451,7 +451,7 @@ title: Tech:Server admin log/2020
 * 23:53 paladox: reboot jobrunner1
 * 21:32 paladox: root@jobrunner1:/srv/mediawiki/w# /usr/local/bin/foreachwikiindblist /srv/mediawiki/w/cache/databases.json /srv/mediawiki/w/maintenance/runJobs.php
 * 21:30 paladox: rm /srv/mediawiki/w/cache/starwarswiki.json on mw[4567] and jobrunner[12]
-* 21:01 Reception123: deleted and dropped https://phabricator.miraheze.org/P355
+* 21:01 Reception123: deleted and dropped [https://phabricator.miraheze.org/P355](https://phabricator.miraheze.org/P355)
 * 19:11 paladox: root@gluster2:/home/paladox# gluster volume set mvol rebal-throttle normal
 * 18:33 Reception123: deleted @Verne on Phabricator
 * 17:15 paladox: root@gluster2:/home/paladox# gluster volume set mvol rebal-throttle lazy
@@ -529,7 +529,7 @@ title: Tech:Server admin log/2020
 ## 2020-11-24 
 
 * 17:08 Reception123: changed metawiki discord webhook (for a user's personal server)
-* 16:10 paladox: root@graylog1:/home/paladox# curl -H 'Content-Type: application/json' -XPUT 'http://localhost:9200/_all/_settings' -d '{"index.codec" : "default"}'
+* 16:10 paladox: root@graylog1:/home/paladox# curl -H 'Content-Type: application/json' -XPUT ' [http://localhost:9200/_all/_settings'](http://localhost:9200/_all/_settings') -d '{"index.codec" : "default"}'
 * 16:00 John: $wr = new WikiRequest( 15358 ); $wr->decline( 'No subdomain specified', User::newFromName( 'John' ) );
 * 12:31 Reception123: reception@jobrunner2:~$ sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=dragalialostwiki --search-recursively --skip-dupes /home/reception/dragalialostgamepediawiki/images
 
@@ -909,10 +909,10 @@ title: Tech:Server admin log/2020
 
 * 23:19 Southparkfan: repopulating mariadb on db7
 * 23:09 Southparkfan: silence db7 alerts regarding mariadb for reinstall of mariadb
-* 22:52 Southparkfan: performed https://phabricator.miraheze.org/T6095 schema changes on db13 now as well; started replica process on db7 to catch up
+* 22:52 Southparkfan: performed [https://phabricator.miraheze.org/T6095](https://phabricator.miraheze.org/T6095) schema changes on db13 now as well; started replica process on db7 to catch up
 * 22:48 Southparkfan: performed schema changes on db7, now doing on db13
 * 22:21 Southparkfan: applying schema changes for rottenlinks PK on db7
-* 21:52 Southparkfan: stop db7 replication to alter tables for https://phabricator.miraheze.org/T6095
+* 21:52 Southparkfan: stop db7 replication to alter tables for [https://phabricator.miraheze.org/T6095](https://phabricator.miraheze.org/T6095)
 * 17:44 Reception123: reception@jobrunner2:~$ sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --report=1 --wiki callipediawiki /home/reception/Wikipedia-20200917231201.xml
 * 17:41 Reception123: reception@jobrunner1:/srv/mediawiki/w/maintenance$ sudo -u www-data php initSiteStats.php --wiki callipediawiki --update
 
@@ -1046,7 +1046,7 @@ title: Tech:Server admin log/2020
 ## 2020-09-25 
 
 * 05:37 Reception123: reception@jobrunner1:/srv/mediawiki/w/maintenance$ sudo -u www-data php updateCollation.php --wiki holidayswiki --force
-* 05:29 Reception123: deleted and dropped wikis listed https://phabricator.miraheze.org/P346 (db11 & db12)
+* 05:29 Reception123: deleted and dropped wikis listed [https://phabricator.miraheze.org/P346](https://phabricator.miraheze.org/P346) (db11 & db12)
 * 05:21 Reception123: $cWJ = new CreateWikiJson( 'commonswiki' ); $cWJ->resetWiki();
 * 05:20 Reception123: MariaDB [mhglobal]> delete from mw_permissions where perm_dbname = 'commonswiki' and perm_group = 'imterface-admin';
 
@@ -1157,7 +1157,7 @@ title: Tech:Server admin log/2020
 * 23:32 paladox: deleted some pages on pseudocienciawiki using deleteBatch script
 * 23:25 paladox: MariaDB [doctorwhofanfilmsdatabasewiki]> INSERT INTO slot_roles (role_id, role_name) VALUES (1, 'main');
 * 23:05 paladox: update puppet-agent on phab1
-* 22:36 paladox: apply https://github.com/miraheze/DataDump/blob/master/sql/data_dump.sql to zymonicwiki
+* 22:36 paladox: apply [https://github.com/miraheze/DataDump/blob/master/sql/data_dump.sql](https://github.com/miraheze/DataDump/blob/master/sql/data_dump.sql) to zymonicwiki
 * 22:07 paladox: root@jobrunner1:/home/paladox# /usr/local/bin/foreachwikiindblist /srv/mediawiki/w/cache/databases.json /srv/mediawiki/w/maintenance/sql.php /srv/mediawiki/w/extensions/DataDump/sql/patches/patch-dumps_size-bigint.sql
 * 18:35 paladox: root@gluster1:/home/paladox# gluster volume set mvol network.inode-lru-limit 5000
 * 17:33 Reception123: sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildLocalisationCache.php --wiki loginwiki on mw* and jbr*
@@ -1298,7 +1298,7 @@ title: Tech:Server admin log/2020
 
 ## 2020-08-21 
 
-* 13:28 Reception123: dropped all wikis listed at https://phabricator.miraheze.org/P344
+* 13:28 Reception123: dropped all wikis listed at [https://phabricator.miraheze.org/P344](https://phabricator.miraheze.org/P344)
 * 13:12 Zppix: initSiteStats (ran on jobrunner2) and rebuildRC (ran on jobrunner1) for ficreationwiki following import completion (T6067)
 * 10:11 Reception123: reception@jobrunner1:/srv/mediawiki/w/extensions/CreateWiki/maintenance$ sudo -u www-data php deleteWikis.php --wiki loginwiki --delete Reception123
 * 08:02 Reception123: MariaDB [phabricator_herald]> UPDATE herald_rule SET isDisabled = true WHERE id = '35'; (User resigned)
@@ -1588,7 +1588,7 @@ title: Tech:Server admin log/2020
 * 13:45 paladox: root@jobrunner1:/home/paladox# ./foreachwikiindblist /home/paladox/all.dblist /srv/mediawiki/w/maintenance/rebuildrecentchanges.php
 * 13:33 paladox: root@jobrunner1:/home/paladox# /usr/local/bin/foreachwikiindblist /srv/mediawiki/w/cache/databases.json /srv/mediawiki/w/maintenance/runJobs.php
 * 13:10 paladox: killed redis-server and started up (had to kill -9 it as it was just hanging on sudo service redis-server stop) - jobrunner1
-* 12:58 RhinosF1: Mediawiki & Redis logs are flooded with errors related to https://phabricator.miraheze.org/T5939, cause currently unknown.
+* 12:58 RhinosF1: Mediawiki & Redis logs are flooded with errors related to [https://phabricator.miraheze.org/T5939](https://phabricator.miraheze.org/T5939), cause currently unknown.
 * 00:48 paladox: reboot jobrunner1 - gluster mount
 * 00:44 paladox: root@gluster1:/var/log/glusterfs# gluster volume set mvol open-behind off
 * 00:33 Southparkfan: db12: set table_(definition|open)_cache to 4000
@@ -1599,7 +1599,7 @@ title: Tech:Server admin log/2020
 
 * 23:58 Southparkfan: stop bacula-fd on gluster1 so I can restart glusterfs (NOT glusterfsd)
 * 23:52 Southparkfan: saved memory dump of gluster, tried to do another one but without luck (file stays empty)
-* 23:28 Southparkfan: sent SIGUSR1 to glusterfs process on gluster1, per https://github.com/gluster/glusterfs/issues/1370#issuecomment-658744547
+* 23:28 Southparkfan: sent SIGUSR1 to glusterfs process on gluster1, per [https://github.com/gluster/glusterfs/issues/1370#issuecomment-658744547](https://github.com/gluster/glusterfs/issues/1370#issuecomment-658744547)
 * 16:46 paladox: root@jobrunner1:/srv/mediawiki/w/maintenance# sudo -u www-data php rebuildrecentchanges.php --wiki mini1wiki
 * 16:43 paladox: MariaDB [mini1wiki]> delete from logging where log_type = 'comments'; - db11
 * 16:33 paladox: drop table Comments and recreate on mini1wiki
@@ -1607,13 +1607,13 @@ title: Tech:Server admin log/2020
 * 16:28 paladox: MariaDB [mini1wiki]> delete from Comments where Comment_actor != 0; - db11
 * 16:26 paladox: MariaDB [mini1wiki]> delete from Comments where Comment_actor = 0 and Comment_Page_ID = 22; - db11
 * 16:25 paladox: MariaDB [mini1wiki]> delete from Comments where Comment_actor = 0 and Comment_Page_ID = 7; -db11
-* 16:13 paladox: drop nonsensopediawiki on - db13, not in cw_wikis & https://phabricator.miraheze.org/T5128
+* 16:13 paladox: drop nonsensopediawiki on - db13, not in cw_wikis & [https://phabricator.miraheze.org/T5128](https://phabricator.miraheze.org/T5128)
 * 16:04 paladox: root@jobrunner1:/srv/mediawiki/w/maintenance/storage# sudo -u www-data php compressOld.php --wiki ranchstorywiki --type gzip
 
 ## 2020-07-18 
 
 * 22:01 RhinosF1: run makeTestEdits.php to test RC Feed
-* 19:10 RhinosF1: blacklist https://moviepedia.miraheze.org/wiki/Once_Upon_a in search console
+* 19:10 RhinosF1: blacklist [https://moviepedia.miraheze.org/wiki/Once_Upon_a](https://moviepedia.miraheze.org/wiki/Once_Upon_a) in search console
 * 14:54 paladox: upgrade puppet-agent puppetdb puppetdb-termini puppetserver - puppet2
 * 14:51 paladox: upgrade libnss3 on services*
 * 14:51 paladox: upgrade libnss3 on puppet2
@@ -1707,7 +1707,7 @@ title: Tech:Server admin log/2020
 * 16:11 Southparkfan: fixed grants for icinga and exporter on db12
 * 14:10 Southparkfan: set wiki_dbcluster to NULL for all wikis
 * 14:07 Southparkfan: MariaDB [mhglobal]> update cw_wikis set wiki_dbcluster='c4' where wiki_dbname IN('allthetropeswiki', 'nonciclopediawiki');
-* 13:16 Southparkfan: ran 'keys WANCache:*' on rdb2 to clean up expired keys,  see https://grafana.miraheze.org/d/HZGjmu_Zz/redis?orgId=1&from=1594472416500&to=1594473328591&var-instance=rdb2.miraheze.org:9121
+* 13:16 Southparkfan: ran 'keys WANCache:*' on rdb2 to clean up expired keys,  see [https://grafana.miraheze.org/d/HZGjmu_Zz/redis?orgId=1&from=1594472416500&to=1594473328591&var-instance=rdb2.miraheze.org:9121](https://grafana.miraheze.org/d/HZGjmu_Zz/redis?orgId=1&from=1594472416500&to=1594473328591&var-instance=rdb2.miraheze.org:9121)
 * 00:55 Southparkfan: install goaccess on cp3
 
 ## 2020-07-10 
@@ -1741,7 +1741,7 @@ title: Tech:Server admin log/2020
 
 ## 2020-07-08 
 
-* 23:34 RhinosF1: add https://static.miraheze.org/sitemaps/sitemap.xml to GSC, will purge old one's in the morning
+* 23:34 RhinosF1: add [https://static.miraheze.org/sitemaps/sitemap.xml](https://static.miraheze.org/sitemaps/sitemap.xml) to GSC, will purge old one's in the morning
 * 23:08 paladox: upgrade some packages on mw* and jobrunner1
 * 22:58 paladox: rebuild lc test2
 * 22:57 paladox: rebuild lc on mw* and jobrunner1
@@ -1782,7 +1782,7 @@ title: Tech:Server admin log/2020
 * 16:11 Southparkfan: set global read_only=1; on db6
 * 13:41 paladox: MariaDB [mhglobal]> update mw_permissions set perm_permissions = '[]' where perm_dbname = 'moviepediawiki' and perm_group = 'assistant'; - db9
 * 12:44 RhinosF1: runJobs on all wikis
-* 12:08 RhinosF1: test2 has https://git.io/JJtep cherry-picked to it
+* 12:08 RhinosF1: test2 has [https://git.io/JJtep](https://git.io/JJtep) cherry-picked to it
 * 01:22 Southparkfan: install vmtouch on test2
 
 ## 2020-07-06 
@@ -1898,7 +1898,7 @@ title: Tech:Server admin log/2020
 
 * 16:17 RhinosF1: runJobs done
 * 15:16 RhinosF1: runJobs on all wikis
-* 14:39 Southparkfan: earlier today, cp6 crashed due to https://github.com/varnishcache/varnish-cache/issues/2814. no evidence was found cp6 exhausted the available threads. if this occurs again, we want to consider applying the workaround?
+* 14:39 Southparkfan: earlier today, cp6 crashed due to [https://github.com/varnishcache/varnish-cache/issues/2814](https://github.com/varnishcache/varnish-cache/issues/2814). no evidence was found cp6 exhausted the available threads. if this occurs again, we want to consider applying the workaround?
 * 11:59 paladox: restart varnish on cp6
 * 11:58 paladox: restart sunnel4 and nginx on cp6
 
@@ -2068,7 +2068,7 @@ title: Tech:Server admin log/2020
 ## 2020-06-09 
 
 * 20:24 paladox: MariaDB [mhglobal]> update mw_permissions set perm_autopromote = NULL where perm_dbname = 'toramwiki' and perm_group = 'autoconfirmed'; - db8 & T5725
-* 17:26 Zppix: UPDATE oauth_registered_consumer SET oarc_callback_url='https://iabot.toolforge.org/oauthcallback.php' WHERE oarc_callback_url='https://tools.wmflabs.org/iabot/oauthcallback.php'; using sql.php on jobrunner1
+* 17:26 Zppix: UPDATE oauth_registered_consumer SET oarc_callback_url=' [https://iabot.toolforge.org/oauthcallback.php'](https://iabot.toolforge.org/oauthcallback.php') WHERE oarc_callback_url=' [https://tools.wmflabs.org/iabot/oauthcallback.php'](https://tools.wmflabs.org/iabot/oauthcallback.php'); using sql.php on jobrunner1
 
 ## 2020-06-07 
 
@@ -2152,7 +2152,7 @@ title: Tech:Server admin log/2020
 
 * 16:33 paladox: root@jobrunner1:/srv/mediawiki/w/extensions/ManageWiki/maintenance# sudo -u www-data php toggleExtension.php --wiki=test2wiki templatedata --disable
 * 08:18 Reception123: $cWJ = new CreateWikiJson( metawiki); $cWJ->resetWiki();
-* 07:59 Reception123: MariaDB [mhglobal]> UPDATE cw_wikis SET wiki_url = "https://meta.miraheze.org" WHERE wiki_dbname = 'metawiki';
+* 07:59 Reception123: MariaDB [mhglobal]> UPDATE cw_wikis SET wiki_url = " [https://meta.miraheze.org](https://meta.miraheze.org)" WHERE wiki_dbname = 'metawiki';
 * 07:51 Reception123: MariaDB [mhglobal]> UPDATE cw_wikis SET wiki_url = 'NULL' WHERE wiki_dbname = 'metawiki';
 
 ## 2020-06-01 
@@ -2176,7 +2176,7 @@ title: Tech:Server admin log/2020
 * 14:07 Southparkfan: ran the following due to partially failed creation: $wm = new WikiManager( 'fswahlenwiki' ); $wm->notificationsTrigger( 'creation', 'fswahlenwiki', [ 'siteName' => 'Foodsharing - AG Wahlen' ], 'Heinz' );
 * 14:01 Southparkfan: manually promoted requested for fswahlenwiki to sysop/bureaucrat, created main page
 * 13:55 Southparkfan: ran MatomoAnalytics::addSite( 'fswahlenwiki' );
-* 13:43 Southparkfan: change TLS settings for db7 replication to reflect changes: https://meta.miraheze.org/wiki/Tech:MariaDB#Replicate_from_master
+* 13:43 Southparkfan: change TLS settings for db7 replication to reflect changes: [https://meta.miraheze.org/wiki/Tech:MariaDB#Replicate_from_master](https://meta.miraheze.org/wiki/Tech:MariaDB#Replicate_from_master)
 * 13:27 Southparkfan: remove stunnel package from test2 and enable puppet
 * 13:27 Southparkfan: disable puppet on db7 to apply patch there too
 
@@ -2264,13 +2264,13 @@ title: Tech:Server admin log/2020
 * 19:39 paladox: ALTER TABLE /*_*/searchindex MODIFY si_title MEDIUMTEXT NOT NULL; (crappygameswiki) - db6
 * 19:02 paladox: recreate searchindex table on crappygameswiki - db6
 * 18:58 paladox: sudo -u www-data php rebuildtextindex.php --wiki=crappygameswiki - jobrunner1
-* 12:42 Southparkfan: edited test2's nginx configuration to test a fix for https://serverfault.com/questions/240476/how-to-force-nginx-to-resolve-dns-of-a-dynamic-hostname-everytime-when-doing-p
+* 12:42 Southparkfan: edited test2's nginx configuration to test a fix for [https://serverfault.com/questions/240476/how-to-force-nginx-to-resolve-dns-of-a-dynamic-hostname-everytime-when-doing-p](https://serverfault.com/questions/240476/how-to-force-nginx-to-resolve-dns-of-a-dynamic-hostname-everytime-when-doing-p)
 
 ## 2020-05-21 
 
 * 19:15 Southparkfan: same done for phab1
 * 19:14 Southparkfan: downgraded nginx on mon1, mail1, ldap1
-* 18:58 Southparkfan: reload nginx on mediawiki server to sees if it fixes  https://serverfault.com/questions/240476/how-to-force-nginx-to-resolve-dns-of-a-dynamic-hostname-everytime-when-doing-p
+* 18:58 Southparkfan: reload nginx on mediawiki server to sees if it fixes  [https://serverfault.com/questions/240476/how-to-force-nginx-to-resolve-dns-of-a-dynamic-hostname-everytime-when-doing-p](https://serverfault.com/questions/240476/how-to-force-nginx-to-resolve-dns-of-a-dynamic-hostname-everytime-when-doing-p)
 * 18:15 Southparkfan: repooled mw4 and mw7
 * 18:12 Southparkfan: repool mw6 and depool mw4/mw7
 * 18:06 Southparkfan: repool mw5 and depool mw6
@@ -2412,7 +2412,7 @@ title: Tech:Server admin log/2020
 
 ## 2020-05-10 
 
-* 18:51 Reception123: deleted and dropped https://phabricator.miraheze.org/P312
+* 18:51 Reception123: deleted and dropped [https://phabricator.miraheze.org/P312](https://phabricator.miraheze.org/P312)
 * 18:41 Reception123: reception@jobrunner1:~$ sudo -u www-data php /srv/mediawiki/w/extensions/CreateWiki/maintenance/deleteWikis.php --wiki=loginwiki --delete Reception123
 * 18:20 Reception123: created ldap account for myself
 * 09:51 Reception123: deleted and dropped mrjaroslavikwiki, then recreated
@@ -2850,7 +2850,7 @@ title: Tech:Server admin log/2020
 * 22:22 paladox: increase jobrunner1 core by `
 * 18:35 paladox: increase jobrunner1 ram to 3gb
 * 18:34 paladox: increase puppet2 to 4 cores
-* 13:06 Reception123: deleted and dropped https://phabricator.miraheze.org/P290 (DP)
+* 13:06 Reception123: deleted and dropped [https://phabricator.miraheze.org/P290](https://phabricator.miraheze.org/P290) (DP)
 * 12:00 Reception123: reception@jobrunner1:~$ sudo -u www-data php /srv/mediawiki/w/extensions/CreateWiki/maintenance/deleteWikis.php --wiki loginwiki --delete Reception123
 * 08:44 Reception123: sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki aeschyluswiki /home/reception/Wikipedia-20200403182927.xml
 * 08:44 Reception123: sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki aeschyluswiki /home/reception/Wikipedia-20200402160456.xml
@@ -3424,11 +3424,11 @@ title: Tech:Server admin log/2020
 
 ## 2020-02-08 
 
-* 15:29 paladox|UKInEU: rename diaroleplayswiki to sparkleswiki per https://phabricator.miraheze.org/T5188
+* 15:29 paladox|UKInEU: rename diaroleplayswiki to sparkleswiki per [https://phabricator.miraheze.org/T5188](https://phabricator.miraheze.org/T5188)
 * 15:27 paladox|UKInEU: MariaDB [shiropediawiki]> delete from nl_newsletters where nl_id = 5;
 * 15:26 paladox|UKInEU: MariaDB [shiropediawiki]> delete from nl_newsletters where nl_id = 6;
-* 15:20 paladox|UKInEU: renaming idiotpediawiki to nocyclopediawiki per https://phabricator.miraheze.org/T5208
-* 15:15 paladox|UKInEU: delete & drop ewrikiawiki per https://phabricator.miraheze.org/T5213
+* 15:20 paladox|UKInEU: renaming idiotpediawiki to nocyclopediawiki per [https://phabricator.miraheze.org/T5208](https://phabricator.miraheze.org/T5208)
+* 15:15 paladox|UKInEU: delete & drop ewrikiawiki per [https://phabricator.miraheze.org/T5213](https://phabricator.miraheze.org/T5213)
 * 15:14 paladox|UKInEU: drop cdwwik, gameshowswiki, glaucuswiki, receptionflamewarswiki, stargazerwikiwiki, thechasewikiwiki, toslawwiki
 * 10:14 Reception123: PURGE BINARY LOGS BEFORE '2020-02-08 08:00';
 
@@ -3595,7 +3595,7 @@ title: Tech:Server admin log/2020
 * 01:07 paladox: ALTER TABLE /*_*/searchindex MODIFY COLUMN si_title varchar(300) BINARY NOT NULL default*; - simswiki (applying
 * 00:49 paladox: MariaDB [simswiki]> update page set page_namespace = 3007 where page_namespace = 3008;
 * 00:42 paladox: remove hack from mw1
-* 00:39 paladox: ALTER TABLE /*_*/searchindex MODIFY COLUMN si_title TEXT BINARY NOT NULL; (applying https://gerrit.wikimedia.org/r/#/c/mediawiki/core/+/565765/8 to simswiki)
+* 00:39 paladox: ALTER TABLE /*_*/searchindex MODIFY COLUMN si_title TEXT BINARY NOT NULL; (applying [https://gerrit.wikimedia.org/r/#/c/mediawiki/core/+/565765/8](https://gerrit.wikimedia.org/r/#/c/mediawiki/core/+/565765/8) to simswiki)
 * 00:11 paladox: MariaDB [simswiki]> update page set page_namespace = 3008 where page_namespace = 3007;
 
 ## 2020-01-19 
@@ -3692,11 +3692,11 @@ title: Tech:Server admin log/2020
 * 23:35 paladox: [23:30:52]  <+paladox>	!log switched TUN off on misc2
 * 23:34 paladox: apt-get upgrade on misc2
 * 22:52 paladox: upgrade nodejs on misc3
-* 22:48 paladox: resizing misc3 - https://clientarea.ramnode.com/index.php?rp=/announcements/431/More-SSD-for-Standard-KVM.html
+* 22:48 paladox: resizing misc3 - [https://clientarea.ramnode.com/index.php?rp=/announcements/431/More-SSD-for-Standard-KVM.html](https://clientarea.ramnode.com/index.php?rp=/announcements/431/More-SSD-for-Standard-KVM.html)
 * 17:04 paladox: apt-get upgrade - bacula1
 * 16:58 paladox: root@bacula1:/bacula/backup# rm DB*
 * 16:57 Reception123: sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildLocalisationCache.php --wiki loginwiki  on mw* and lizardfs6
-* 14:59 Reception123: DELETED and DROPPED dbs https://phabricator.miraheze.org/P247
+* 14:59 Reception123: DELETED and DROPPED dbs [https://phabricator.miraheze.org/P247](https://phabricator.miraheze.org/P247)
 * 14:52 Reception123: reception@mw1:~$ sudo -u www-data php /srv/mediawiki/w/extensions/CreateWiki/maintenance/deleteWikis.php --wiki loginwiki --delete Reception123
 * 11:12 Reception123: reception@mw1:/srv/mediawiki/w/extensions/CentralAuth/maintenance$ sudo -u www-data php fixStuckGlobalRename.php --wiki=receptionflamewarswiki GasMask0217 "KP619" --logwiki=metawiki
 * 10:29 Reception123: run fixStuckGlobalRename.php on all wikis for username above
@@ -3773,4 +3773,4 @@ title: Tech:Server admin log/2020
 * 00:37 paladox: restart varnish cp2,cp4
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Server_admin_log/2020
+**Source**: [https://meta.miraheze.org/wiki/Tech:Server_admin_log/2020](https://meta.miraheze.org/wiki/Tech:Server_admin_log/2020)

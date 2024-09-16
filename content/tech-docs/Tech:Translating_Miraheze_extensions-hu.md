@@ -18,4 +18,4 @@ Jelenleg a [translatewiki.netet](https://meta.miraheze.org/wiki/translatewiki:) 
 [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/hu
+**Source**: [https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/hu](https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/hu)

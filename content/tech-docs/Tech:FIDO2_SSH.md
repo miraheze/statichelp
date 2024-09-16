@@ -16,13 +16,13 @@ Generate your key via `ssh-keygen -t ed25519-sk -C "comment"`. This will create 
 * no-touch-required keys are not allowed.
 * For added security, do not use resident/discoverable keys.
 
-This will create your standard public key, and a key handle/identification. This identification is not the private key itself. It is only useful to the specific hardware key you used to create the SSH key, so don't lose it and **don't let anyone other than you use it!** However, **treat the identification as if it was the private key anyway**, so make sure to choose a good passphrase (what it is exactly depends on how your key handles these types of keys, see https://www.yubico.com/blog/yubicos-u2f-key-wrapping/ for how this works on Yubikeys).
+This will create your standard public key, and a key handle/identification. This identification is not the private key itself. It is only useful to the specific hardware key you used to create the SSH key, so don't lose it and **don't let anyone other than you use it!** However, **treat the identification as if it was the private key anyway**, so make sure to choose a good passphrase (what it is exactly depends on how your key handles these types of keys, see [https://www.yubico.com/blog/yubicos-u2f-key-wrapping/](https://www.yubico.com/blog/yubicos-u2f-key-wrapping/) for how this works on Yubikeys).
 
 ## Getting the key on Miraheze
 
 Fork [miraheze/puppet](https://github.com/miraheze/puppet) on GitHub, go to `modules/users/data/data.yaml` and look for your shell account. Replace your SSH public key with your newly generated public key. Get a hold of someone from Infrastructure if you yourself do not have write access to Puppet.
 
-If you use signed commits or OpenPGP, now would be a good time to use them for extra assurance. Example: https://github.com/miraheze/puppet/pull/3203.
+If you use signed commits or OpenPGP, now would be a good time to use them for extra assurance. Example: [https://github.com/miraheze/puppet/pull/3203](https://github.com/miraheze/puppet/pull/3203).
 
 ## Account recovery
 
@@ -39,4 +39,4 @@ Ignore this warning at your own peril: If your key stops working, it could becom
 * [Pisces's guide to get it working on Windows](https://meta.miraheze.org/wiki/User:Pisces/FIDO2_SSH_on_Windows)
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:FIDO2_SSH
+**Source**: [https://meta.miraheze.org/wiki/Tech:FIDO2_SSH](https://meta.miraheze.org/wiki/Tech:FIDO2_SSH)

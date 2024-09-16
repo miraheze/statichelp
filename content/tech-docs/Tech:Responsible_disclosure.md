@@ -24,4 +24,4 @@ Miraheze would like to thank you for following this policy. As such, Miraheze pr
 This responsible disclosure policy has been derived from the example model at [responsibledisclosure.nl](https://responsibledisclosure.nl/en/), licensed under CC BY 3.0 Unported.
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Responsible_disclosure
+**Source**: [https://meta.miraheze.org/wiki/Tech:Responsible_disclosure](https://meta.miraheze.org/wiki/Tech:Responsible_disclosure)

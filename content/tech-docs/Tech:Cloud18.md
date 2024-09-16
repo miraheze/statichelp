@@ -22,4 +22,4 @@ title: Tech:Cloud18
 **cloud18** is a FiberState bare metal dedicated server in Salt Lake City, Utah running Debian Bookworm. It is a [virtualization host server](https://meta.miraheze.org/wiki/Tech:Proxmox).
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Cloud18
+**Source**: [https://meta.miraheze.org/wiki/Tech:Cloud18](https://meta.miraheze.org/wiki/Tech:Cloud18)

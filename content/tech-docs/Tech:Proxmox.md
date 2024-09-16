@@ -87,11 +87,11 @@ source /etc/network/interfaces.d/*
 
 15. Run `passwd root` and set the password, make sure it is secure.
 
-16. Run the following "cd /var/lib/vz/template/iso ; wget https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.4.0-amd64-netinst.iso" (note that this may be removed, in which case bump version like 12.4.0 -> 12.5.0).
+16. Run the following "cd /var/lib/vz/template/iso ; wget [https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.4.0-amd64-netinst.iso](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.4.0-amd64-netinst.iso)" (note that this may be removed, in which case bump version like 12.4.0 -> 12.5.0).
 
 17. On the main cluster host, press join information and copy the information (`ssh -L 8006:127.0.0.1:8006 <user>@<main_cluster_cloud_host_>.wikitide.net`).
 
-18. Go to https://localhost:8006.
+18. Go to [https://localhost:8006](https://localhost:8006).
 
 19. Enter login details, click on "Datacenter" then "Cluster".
 
@@ -101,7 +101,7 @@ source /etc/network/interfaces.d/*
 
 22. Now go onto the other cloud virt (for instance, cloud16) (`ssh -L 8006:127.0.0.1:8006 <user>@<cloud_host_>.wikitide.net`).
 
-23. Go to https://localhost:8006.
+23. Go to [https://localhost:8006](https://localhost:8006).
 
 24. Click "Join Cluster".
 
@@ -113,7 +113,7 @@ source /etc/network/interfaces.d/*
 
 * In the OVH UI: assign a failover IPv4 address and IPv6 address for the new VM. Ensure the MAC address of the network adapter of the new VM matches the vMAC address assigned for the failover IPv4 address in OVH.
 * Run the following `ssh -L 8006:127.0.0.1:8006 <user>@<cloud_host>.wikitide.net`.
-* Go to https://localhost:8006 (and accept the invalid certificate as the connection will be secure due to SSH) and login using your account and password.
+* Go to [https://localhost:8006](https://localhost:8006) (and accept the invalid certificate as the connection will be secure due to SSH) and login using your account and password.
 * Create a VM using the UI:
    * ISO image: local, debian-XX-X.X-amd64-DVD-1.iso
    * Type: Linux, 5.x - 2.6 Kernel
@@ -178,4 +178,4 @@ iface ens19 inet static
 ```
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Proxmox
+**Source**: [https://meta.miraheze.org/wiki/Tech:Proxmox](https://meta.miraheze.org/wiki/Tech:Proxmox)

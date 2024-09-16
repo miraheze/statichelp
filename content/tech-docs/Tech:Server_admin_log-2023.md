@@ -614,8 +614,8 @@ title: Tech:Server admin log/2023
 
 ## 2023-11-30 
 
-* 22:06 paladox: install perccli_007.1910.0000.0000_all.deb (alternative to hpacucli) on cloud13 (installed from https://www.dell.com/support/home/en-ee/drivers/driversdetails?driverid=36g6n)
-* 21:59 paladox: install perccli_007.1910.0000.0000_all.deb (alternative to hpacucli) on cloud14 (installed from https://www.dell.com/support/home/en-ee/drivers/driversdetails?driverid=36g6n)
+* 22:06 paladox: install perccli_007.1910.0000.0000_all.deb (alternative to hpacucli) on cloud13 (installed from [https://www.dell.com/support/home/en-ee/drivers/driversdetails?driverid=36g6n](https://www.dell.com/support/home/en-ee/drivers/driversdetails?driverid=36g6n))
+* 21:59 paladox: install perccli_007.1910.0000.0000_all.deb (alternative to hpacucli) on cloud14 (installed from [https://www.dell.com/support/home/en-ee/drivers/driversdetails?driverid=36g6n](https://www.dell.com/support/home/en-ee/drivers/driversdetails?driverid=36g6n))
 * 21:34 MirahezeLSBot: [paladox@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/run.php /srv/mediawiki/w/maintenance/initSiteStats.php --wiki=phightingwiki --active --update (END - exit=0)
 * 21:34 MirahezeLSBot: [paladox@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/run.php /srv/mediawiki/w/maintenance/rebuildall.php --wiki=phightingwiki (END - exit=0)
 * 21:28 MirahezeLSBot: [paladox@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/run.php /srv/mediawiki/w/maintenance/rebuildall.php --wiki=phightingwiki (START)
@@ -2396,10 +2396,10 @@ title: Tech:Server admin log/2023
 
 ## 2023-09-28 
 
-* 18:08 MirahezeLSBot: [paladox@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=deathstrandingwiki /home/paladox/image --comment=From https://deathstranding.fandom.com --search-recursively (END - exit=0)
-* 17:58 MirahezeLSBot: [paladox@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=deathstrandingwiki /home/paladox/image --comment=From https://deathstranding.fandom.com --search-recursively (START)
-* 17:56 MirahezeLSBot: [paladox@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=raggedveilwiki /home/paladox/image/images --comment=From https://theraggedveil.gridlight-design.co.uk --search-recursively (END - exit=0)
-* 17:54 MirahezeLSBot: [paladox@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=raggedveilwiki /home/paladox/image/images --comment=From https://theraggedveil.gridlight-design.co.uk --search-recursively (START)
+* 18:08 MirahezeLSBot: [paladox@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=deathstrandingwiki /home/paladox/image --comment=From [https://deathstranding.fandom.com](https://deathstranding.fandom.com) --search-recursively (END - exit=0)
+* 17:58 MirahezeLSBot: [paladox@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=deathstrandingwiki /home/paladox/image --comment=From [https://deathstranding.fandom.com](https://deathstranding.fandom.com) --search-recursively (START)
+* 17:56 MirahezeLSBot: [paladox@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=raggedveilwiki /home/paladox/image/images --comment=From [https://theraggedveil.gridlight-design.co.uk](https://theraggedveil.gridlight-design.co.uk) --search-recursively (END - exit=0)
+* 17:54 MirahezeLSBot: [paladox@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=raggedveilwiki /home/paladox/image/images --comment=From [https://theraggedveil.gridlight-design.co.uk](https://theraggedveil.gridlight-design.co.uk) --search-recursively (START)
 * 17:48 MirahezeLSBot: [paladox@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/initSiteStats.php --wiki=minesweeperwiki --active --update (END - exit=0)
 * 17:48 MirahezeLSBot: [paladox@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildall.php --wiki=minesweeperwiki (END - exit=0)
 * 17:48 MirahezeLSBot: [paladox@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildall.php --wiki=minesweeperwiki (START)
@@ -3176,7 +3176,7 @@ title: Tech:Server admin log/2023
 
 ## 2023-08-05 
 
-* 19:40 MirahezeLSBot: [paladox@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php /home/paladox/sonicpediaorg-20230731-wikidump/images --wiki=sonicpediawiki --summary=Imported from https://sonicpedia.org --search-recursively
+* 19:40 MirahezeLSBot: [paladox@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php /home/paladox/sonicpediaorg-20230731-wikidump/images --wiki=sonicpediawiki --summary=Imported from [https://sonicpedia.org](https://sonicpedia.org) --search-recursively
 * 19:19 MirahezeLSBot: [paladox@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/initSiteStats.php --wiki=sonicpediawiki --active --update (END - exit=0)
 * 19:19 MirahezeLSBot: [paladox@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildall.php --wiki=sonicpediawiki (END - exit=0)
 * 19:17 MirahezeLSBot: [paladox@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildall.php --wiki=sonicpediawiki (START)
@@ -3225,9 +3225,9 @@ title: Tech:Server admin log/2023
 * 17:16 MirahezeLSBot: [paladox@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildall.php --wiki=sonicpediawiki (END - exit=0)
 * 17:15 MirahezeLSBot: [paladox@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildall.php --wiki=sonicpediawiki (START)
 * 17:15 MirahezeLSBot: [paladox@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=sonicpediawiki --no-updates /home/paladox/sonicwiki.xml (END - exit=256)
-* 17:14 MirahezeLSBot: [paladox@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php /home/paladox/uniblendwiki/done --wiki=uniblendwiki --summary=Imported from https://uniblend.fandom.com --search-recursively
+* 17:14 MirahezeLSBot: [paladox@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php /home/paladox/uniblendwiki/done --wiki=uniblendwiki --summary=Imported from [https://uniblend.fandom.com](https://uniblend.fandom.com) --search-recursively
 * 17:11 MirahezeLSBot: [paladox@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=sonicpediawiki --no-updates /home/paladox/sonicwiki.xml (START)
-* 16:36 MirahezeLSBot: [paladox@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php /home/paladox/pizzatower/images --wiki=pizzatowerwiki --summary=Imported from https://pizzatower.fandom.com --search-recursively
+* 16:36 MirahezeLSBot: [paladox@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php /home/paladox/pizzatower/images --wiki=pizzatowerwiki --summary=Imported from [https://pizzatower.fandom.com](https://pizzatower.fandom.com) --search-recursively
 * 02:48 paladox: swift delete miraheze-metawiki-local-public --prefix ImportDump/
 * 00:13 MirahezeLSBot: [paladox@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/initSiteStats.php --wiki=typicalcolors2wiki --active --update (END - exit=0)
 * 00:13 MirahezeLSBot: [paladox@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildall.php --wiki=typicalcolors2wiki (END - exit=0)
@@ -4556,7 +4556,7 @@ title: Tech:Server admin log/2023
 * 21:56 MirahezeLSBot: [agent@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildall.php --wiki=purcalwiki (START)
 * 21:56 MirahezeLSBot: [agent@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=purcalwiki --no-updates --username-prefix=w /home/agent/ImportDump/purcalwiki-20230512215104.xml (END - exit=0)
 * 21:54 MirahezeLSBot: [agent@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=purcalwiki --no-updates --username-prefix=w /home/agent/ImportDump/purcalwiki-20230512215104.xml (START)
-* 07:21 Reception123: reception@mwtask141:~$ sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php /home/reception/electronictoys --wiki=electronictoyswiki --summary="Imported from https://electronic-toys-wiki.fandom.com" --search-recursively
+* 07:21 Reception123: reception@mwtask141:~$ sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php /home/reception/electronictoys --wiki=electronictoyswiki --summary="Imported from [https://electronic-toys-wiki.fandom.com](https://electronic-toys-wiki.fandom.com)" --search-recursively
 
 ## 2023-05-11 
 
@@ -4864,7 +4864,7 @@ title: Tech:Server admin log/2023
 * 16:31 MirahezeLSBot: [agent@test131] starting deploy of {'world': True, 'l10n': True} to test131
 * 16:30 MirahezeLSBot: [agent@test131] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
 * 16:30 MirahezeLSBot: [agent@test131] starting deploy of {'world': True, 'l10n': True} to test131
-* 14:46 Reception123: reception@mwtask141:~$ sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php /home/reception/tayclayvision --wiki=tayclayvisionwiki --user=Miraheze_maintenance_script --summary="Imported from https://tayclayvision-song-contest.fandom.com/" --search-recursively
+* 14:46 Reception123: reception@mwtask141:~$ sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php /home/reception/tayclayvision --wiki=tayclayvisionwiki --user=Miraheze_maintenance_script --summary="Imported from [https://tayclayvision-song-contest.fandom.com/](https://tayclayvision-song-contest.fandom.com/)" --search-recursively
 * 14:24 MirahezeLSBot: [agent@test131] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
 * 14:19 MirahezeLSBot: [agent@test131] starting deploy of {'world': True, 'l10n': True} to test131
 * 14:16 MirahezeLSBot: [agent@mwtask141] finished deploy of {'world': True, 'l10n': True} to all - SUCCESS in 1966s
@@ -5402,7 +5402,7 @@ title: Tech:Server admin log/2023
 * 20:05 paladox: db121: MariaDB [allthetropeswiki]> truncate objectcache;
 * 20:04 paladox: db131: MariaDB [metawiki]> truncate job;
 * 20:04 paladox: db121: MariaDB [allthetropeswiki]> truncate job;
-* 18:49 Reception123: MariaDB [metawiki]> UPDATE interwiki SET iw_url = REPLACE(iw_url, 'http://', 'https://');
+* 18:49 Reception123: MariaDB [metawiki]> UPDATE interwiki SET iw_url = REPLACE(iw_url, ' [http://'](http://'), ' [https://'](https://'));
 
 ## 2023-04-07 
 
@@ -5861,7 +5861,7 @@ title: Tech:Server admin log/2023
 * 18:24 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=pixelplacewiki --no-updates --username-prefix=wikia:pixelplaceofficial /home/reception/ImportDump/pixelplacewiki-20230307181039.xml (START)
 * 18:24 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=megatenwiki --no-updates --username-prefix=wikia:megamitensei /home/reception/ImportDump/megatenwiki-20230309171111.xml (START)
 * 18:24 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=megatenwiki --no-updates --username-prefix=wikia:megamitensei /home/reception/ImportDump/megatenwiki-20230309171417.xml (START)
-* 11:37 Reception123: sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=gruntipediawiki --summary="Imported from image archive at https://archive.org/details/wiki-unhalowikiacom" --u="Miraheze maintenance script" --search-recursively /home/reception/Gruntipedia
+* 11:37 Reception123: sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=gruntipediawiki --summary="Imported from image archive at [https://archive.org/details/wiki-unhalowikiacom](https://archive.org/details/wiki-unhalowikiacom)" --u="Miraheze maintenance script" --search-recursively /home/reception/Gruntipedia
 * 06:27 MirahezeLSBot: [@test131] finished deploy of {'config': True} to all - SUCCESS in 0s
 * 06:27 MirahezeLSBot: [@test131] starting deploy of {'config': True} to all
 * 06:08 Universal Omega: drop parsercache database from db121
@@ -5891,7 +5891,7 @@ title: Tech:Server admin log/2023
 * 11:02 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildall.php --wiki=superwiki (END - exit=0)
 * 11:00 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildall.php --wiki=superwiki (START)
 * 11:00 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=superwiki --no-updates --username-prefix=mh:super /home/reception/ImportDump/superwiki-20230307105829.xml (END - exit=0)
-* 10:59 Reception123: reception@mwtask141:~$ sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=superwiki --summary="Imported from https://super.miraheze.org" --search-recursively /home/reception/miraheze-superwiki
+* 10:59 Reception123: reception@mwtask141:~$ sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=superwiki --summary="Imported from [https://super.miraheze.org](https://super.miraheze.org)" --search-recursively /home/reception/miraheze-superwiki
 * 10:59 Reception123: DELETED and DROPPED superwiki (reset req T10530)
 * 10:59 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=superwiki --no-updates --username-prefix=mh:super /home/reception/ImportDump/superwiki-20230307105829.xml (START)
 * 10:57 MirahezeLSBot: [@test131] finished deploy of {'config': True} to all - SUCCESS in 0s
@@ -5902,7 +5902,7 @@ title: Tech:Server admin log/2023
 * 10:37 MirahezeLSBot: [reception@mwtask141] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
 * 10:37 MirahezeLSBot: [reception@mwtask141] starting deploy of {'pull': 'config', 'config': True, 'world': True, 'l10n': True} to all
 * 10:27 MirahezeLSBot: [reception@test131] finished deploy of {'world': True, 'l10n': True} to all - SUCCESS in 1034s
-* 10:25 Reception123: sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=mmxcwiki --summary="Imported from https://mmxcorrupted.fandom.com" --search-recursively /home/reception/mmxcwiki
+* 10:25 Reception123: sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=mmxcwiki --summary="Imported from [https://mmxcorrupted.fandom.com](https://mmxcorrupted.fandom.com)" --search-recursively /home/reception/mmxcwiki
 * 10:22 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/initSiteStats.php --wiki=doomversetecawiki --active --update (END - exit=0)
 * 10:22 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildall.php --wiki=doomversetecawiki (END - exit=0)
 * 10:20 Reception123: ./bin/remove destroy F2041829 (phab)
@@ -6511,8 +6511,8 @@ title: Tech:Server admin log/2023
 * 15:40 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=akudamadrivewiki --no-updates --username-prefix=wikia:akudamadrive /home/reception/ImportDump/akudamadrivewiki-20230216152255.xml (END - exit=0)
 * 15:31 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=akudamadrivewiki --no-updates --username-prefix=wikia:akudamadrive /home/reception/ImportDump/akudamadrivewiki-20230216152255.xml (START)
 * 14:35 Reception123: RENAMED nightwindrowiki to nightwindwiki
-* 07:28 Reception123: DELETED and DROPPED https://phabricator.miraheze.org/P489
-* 06:25 Reception123: DELETED AND DROPPED (yesterday, around 21:00 UTC) https://phabricator.miraheze.org/P488
+* 07:28 Reception123: DELETED and DROPPED [https://phabricator.miraheze.org/P489](https://phabricator.miraheze.org/P489)
+* 06:25 Reception123: DELETED AND DROPPED (yesterday, around 21:00 UTC) [https://phabricator.miraheze.org/P488](https://phabricator.miraheze.org/P488)
 * 01:50 MirahezeLSBot: [universalomega@puppet141] Remove passwords::recaptcha::secretkey from private puppet
 * 01:35 MirahezeLSBot: [universalomega@mwtask141] finished deploy of {'world': True} to all - SUCCESS in 368s
 * 01:29 MirahezeLSBot: [universalomega@mwtask141] starting deploy of {'world': True} to all
@@ -6586,10 +6586,10 @@ title: Tech:Server admin log/2023
 * 16:39 MirahezeLSBot: [reception@mwtask141] starting deploy of {'pull': 'config', 'config': True} to all
 * 16:39 MirahezeLSBot: [reception@mwtask141] finished deploy of {'pull': 'config'} to all - SUCCESS in 1s
 * 16:39 MirahezeLSBot: [reception@mwtask141] starting deploy of {'pull': 'config'} to all
-* 12:18 Reception123: DELETED and DROPPED https://phabricator.miraheze.org/P487
+* 12:18 Reception123: DELETED and DROPPED [https://phabricator.miraheze.org/P487](https://phabricator.miraheze.org/P487)
 * 12:14 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/initSiteStats.php --wiki=ysmwikiwiki --active --update (END - exit=0)
 * 12:13 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildall.php --wiki=ysmwikiwiki (END - exit=35072)
-* 11:44 Reception123: reception@mwtask141:~$ sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=openfortresswiki --summary="Imported from https://open-fortress.fandom.com" --search-recursively /home/reception/OFimages
+* 11:44 Reception123: reception@mwtask141:~$ sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=openfortresswiki --summary="Imported from [https://open-fortress.fandom.com](https://open-fortress.fandom.com)" --search-recursively /home/reception/OFimages
 * 09:56 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/initSiteStats.php --wiki=ysmwikiwiki --active --update (END - exit=0)
 * 09:56 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/initSiteStats.php --wiki=ysmwikiwiki --active --update (END - exit=0)
 * 09:54 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildall.php --wiki=ysmwikiwiki (END - exit=256)
@@ -6634,10 +6634,10 @@ title: Tech:Server admin log/2023
 * 20:12 MirahezeLSBot: [universalomega@test131] starting deploy of {'world': True, 'l10n': True} to all
 * 20:12 MirahezeLSBot: [universalomega@mwtask141] starting deploy of {'world': True, 'l10n': True} to all
 * 17:36 MirahezeLSBot: [universalomega@mem131] reboot
-* 15:52 paladox: apply https://github.com/miraheze/SpriteSheet/tree/master/install/sql to ucroniaswiki
+* 15:52 paladox: apply [https://github.com/miraheze/SpriteSheet/tree/master/install/sql](https://github.com/miraheze/SpriteSheet/tree/master/install/sql) to ucroniaswiki
 * 15:44 MirahezeLSBot: [reception@mwtask141] finished deploy of {'world': True, 'l10n': True} to all - SUCCESS in 1673s
 * 15:16 MirahezeLSBot: [reception@mwtask141] starting deploy of {'world': True, 'l10n': True} to all
-* 14:28 Reception123: DELETED AND DROPPED https://phabricator.miraheze.org/P486
+* 14:28 Reception123: DELETED AND DROPPED [https://phabricator.miraheze.org/P486](https://phabricator.miraheze.org/P486)
 * 11:44 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/initSiteStats.php --wiki=fivenightsatfreddysbwwiki --active --update (END - exit=0)
 * 11:44 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildall.php --wiki=fivenightsatfreddysbwwiki (END - exit=0)
 * 11:41 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildall.php --wiki=fivenightsatfreddysbwwiki (START)
@@ -6695,7 +6695,7 @@ title: Tech:Server admin log/2023
 * 18:43 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildall.php --wiki=degrabebswiki (START)
 * 18:43 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=degrabebswiki --no-updates --username-prefix=wikia:degrabebs /home/reception/ImportDump/degrabebswiki-20230213163611.xml (END - exit=0)
 * 18:41 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=degrabebswiki --no-updates --username-prefix=wikia:degrabebs /home/reception/ImportDump/degrabebswiki-20230213163611.xml (START)
-* 14:50 Reception123: reception@mwtask141:~/devopedia/Devopedia$ sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=devopediawiki --summary="Imported from https://devo.fandom.com/it/wiki/Home" --user="Miraheze maintenance script" --search-recursively /home/reception/devopedia --
+* 14:50 Reception123: reception@mwtask141:~/devopedia/Devopedia$ sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=devopediawiki --summary="Imported from [https://devo.fandom.com/it/wiki/Home](https://devo.fandom.com/it/wiki/Home)" --user="Miraheze maintenance script" --search-recursively /home/reception/devopedia --
 * 14:50 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/extensions/CentralAuth/maintenance/createLocalAccount.php --wiki=devopediawiki Miraheze_maintenance_script (END - exit=0)
 * 14:40 paladox: mwtask141: apt-get dist-upgrade & reboot
 * 14:32 paladox: test131: apt-get dist-upgrade & reboot
@@ -6712,12 +6712,12 @@ title: Tech:Server admin log/2023
 * 14:10 MirahezeLSBot: [@mwtask141] starting deploy of {'config': True} to all
 * 13:57 MirahezeLSBot: [@test131] finished deploy of {'config': True} to all - SUCCESS in 0s
 * 13:57 MirahezeLSBot: [@test131] starting deploy of {'config': True} to all
-* 13:56 Reception123: reception@mwtask141:~$ sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=avrtcwiki --summary="Imported from https://androbot.miraheze.org" --search-recursively /home/reception/androbotwiki_images
+* 13:56 Reception123: reception@mwtask141:~$ sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=avrtcwiki --summary="Imported from [https://androbot.miraheze.org](https://androbot.miraheze.org)" --search-recursively /home/reception/androbotwiki_images
 * 13:42 Reception123: bash /home/reception/delbackups.sh /home/reception/delwikis.txt /srv/mediawiki/w/maintenance/dumpBackup.php (delbackups)
 * 12:57 Reception123: RENAMED raspwikiwiki to rpiwiki.
 * 08:10 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/initSiteStats.php --wiki=yoshiwiki --active --update (END - exit=0)
 * 08:10 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildall.php --wiki=yoshiwiki (END - exit=0)
-* 07:56 Reception123: sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=yoshiwiki --summary="Imported from https://yoshi.fandom.com" --user="Miraheze maintenance script" --search-recursively /home/reception/yossywiki
+* 07:56 Reception123: sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=yoshiwiki --summary="Imported from [https://yoshi.fandom.com](https://yoshi.fandom.com)" --user="Miraheze maintenance script" --search-recursively /home/reception/yossywiki
 * 07:47 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildall.php --wiki=yoshiwiki (START)
 * 07:47 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=yoshiwiki --no-updates --username-prefix=wikia:yoshi /home/reception/yossywiki/yoshifandomcom-20230212-history.xml (END - exit=0)
 * 07:08 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/initSiteStats.php --wiki=yoshiwiki --active --update (END - exit=0)
@@ -6801,7 +6801,7 @@ title: Tech:Server admin log/2023
 * 15:14 MirahezeLSBot: [paladox@test131] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
 * 15:11 MirahezeLSBot: [paladox@test131] starting deploy of {'world': True, 'l10n': True} to all
 * 15:11 MirahezeLSBot: [paladox@test131] starting deploy of {'world': True, 'l10n': True} to all
-* 15:03 paladox: apply https://github.com/wikimedia/mediawiki-extensions-AbuseFilter/blob/REL1_39/db_patches/mysql/patch-split-afl_filter.sql to zymonicwiki
+* 15:03 paladox: apply [https://github.com/wikimedia/mediawiki-extensions-AbuseFilter/blob/REL1_39/db_patches/mysql/patch-split-afl_filter.sql](https://github.com/wikimedia/mediawiki-extensions-AbuseFilter/blob/REL1_39/db_patches/mysql/patch-split-afl_filter.sql) to zymonicwiki
 * 14:44 paladox: betawiki: resetGlobalUserTokens.php
 * 14:40 MirahezeLSBot: [paladox@test131] finished deploy of {'config': True} to all - SUCCESS in 0s
 * 14:40 MirahezeLSBot: [paladox@test131] starting deploy of {'config': True} to all
@@ -7366,7 +7366,7 @@ title: Tech:Server admin log/2023
 * 12:40 MirahezeLSBot: [@mwtask141] finished deploy of {'config': True} to all - SUCCESS in 7s
 * 12:40 MirahezeLSBot: [@mwtask141] starting deploy of {'config': True} to all
 * 11:39 Reception123: UPDATE content SET content_model = 7 WHERE content_model = 6; (hkrailwiki)
-* 10:55 Reception123: sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=hkrailwiki --summary="Imported from https://hkrail.miraheze.org" --user="Miraheze maintenance script" --search-recursively /home/reception/hkrailwiki_images
+* 10:55 Reception123: sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=hkrailwiki --summary="Imported from [https://hkrail.miraheze.org](https://hkrail.miraheze.org)" --user="Miraheze maintenance script" --search-recursively /home/reception/hkrailwiki_images
 * 09:34 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/initSiteStats.php --wiki=dgck81lnnwiki --active --update (END - exit=0)
 * 09:34 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildall.php --wiki=dgck81lnnwiki (END - exit=0)
 * 09:33 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildall.php --wiki=dgck81lnnwiki (START)
@@ -7402,7 +7402,7 @@ title: Tech:Server admin log/2023
 * 03:10 MirahezeLSBot: [@mwtask141] starting deploy of {'config': True} to all
 * 03:02 MirahezeLSBot: [universalomega@mwtask141] Renamed pokemon2wiki to pokemonwiki
 * 03:00 MirahezeLSBot: [universalomega@mwtask141] sudo -u www-data php /srv/mediawiki/w/extensions/CreateWiki/maintenance/setContainersAccess.php --wiki=pokemonwiki (END - exit=0)
-* 01:22 MirahezeLSBot: [universalomega@mwtask141] Run https://phabricator.miraheze.org/T10412#209891 to delete all Swift containers that do not correspond to any wiki (191 containers deleted)
+* 01:22 MirahezeLSBot: [universalomega@mwtask141] Run [https://phabricator.miraheze.org/T10412#209891](https://phabricator.miraheze.org/T10412#209891) to delete all Swift containers that do not correspond to any wiki (191 containers deleted)
 * 01:11 MirahezeLSBot: [universalomega@mwtask141] 3644 non-existing wikis removed from Matomo with the cleanupMatomos.php script that has now finished
 
 ## 2023-02-04 
@@ -7555,13 +7555,13 @@ title: Tech:Server admin log/2023
 * 23:03 MirahezeLSBot: [universalomega@db121] DROP TABLE revision_actor_temp on testcreatebetawiki2wiki
 * 23:03 MirahezeLSBot: [universalomega@db121] DROP TABLE revision_actor_temp on testcreatebetawiki2wiki
 * 13:31 Reception123: CREATE DATABASE fictionandfictionalsettingswikiwiki and restore SQL (issue with localuser table still existing)
-* 09:10 Reception123: DELETED mw_permissions entries (without cw_wikis entries) https://phabricator.miraheze.org/P484
+* 09:10 Reception123: DELETED mw_permissions entries (without cw_wikis entries) [https://phabricator.miraheze.org/P484](https://phabricator.miraheze.org/P484)
 * 09:08 Reception123: DELETE FROM mw_permissions WHERE perm_dbname NOT LIKE '%wiki%' AND perm_dbname != 'default'; (non-wiki dbnames found in dbname column)
 * 09:06 Reception123: DELETE FROM mw_namespaces WHERE ns_dbname NOT LIKE '%wiki%' AND ns_dbname != 'default'; (non-wiki dbnames found in dbname column)
-* 08:57 Reception123: DELETED mw_namespaces entries (without cw_wikis entries) https://phabricator.miraheze.org/P483
-* 08:49 Reception123: DELETED gnf_files entries (without cw_wikis entries) https://phabricator.miraheze.org/P482
-* 08:38 Reception123: DELETED mw_settings entries https://phabricator.miraheze.org/P481
-* 08:01 Reception123: DROPPED wikis in this list https://phabricator.miraheze.org/P480
+* 08:57 Reception123: DELETED mw_namespaces entries (without cw_wikis entries) [https://phabricator.miraheze.org/P483](https://phabricator.miraheze.org/P483)
+* 08:49 Reception123: DELETED gnf_files entries (without cw_wikis entries) [https://phabricator.miraheze.org/P482](https://phabricator.miraheze.org/P482)
+* 08:38 Reception123: DELETED mw_settings entries [https://phabricator.miraheze.org/P481](https://phabricator.miraheze.org/P481)
+* 08:01 Reception123: DROPPED wikis in this list [https://phabricator.miraheze.org/P480](https://phabricator.miraheze.org/P480)
 * 07:54 Reception123: use dumpwikis.sh (bash script) to mysqldump wikis with no corresponding cw_wikis entry (T10412)
 * 07:54 Reception123: INSERT INTO slot_roles (role_id, role_name) VALUES (1, 'main'); (hkrailwiki)
 * 07:48 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/initSiteStats.php --wiki=nextworldwiki --active --update (END - exit=0)
@@ -7593,7 +7593,7 @@ title: Tech:Server admin log/2023
 
 * 23:55 paladox: upgrade grafana on mon141
 * 23:39 MirahezeLSBot: [void@mwtask141] Starting refreshLinks.php for criticalrolewiki
-* 23:30 paladox: apply https://github.com/wikimedia/mediawiki/blob/REL1_39/maintenance/archives/patch-linktarget.sql to survivorthesimswiki
+* 23:30 paladox: apply [https://github.com/wikimedia/mediawiki/blob/REL1_39/maintenance/archives/patch-linktarget.sql](https://github.com/wikimedia/mediawiki/blob/REL1_39/maintenance/archives/patch-linktarget.sql) to survivorthesimswiki
 * 22:38 MirahezeLSBot: [paladox@mwtask141] finished deploy of {'world': True, 'l10n': True} to all - SUCCESS in 387s
 * 22:37 MirahezeLSBot: [paladox@test131] finished deploy of {'world': True, 'l10n': True} to all - SUCCESS in 342s
 * 22:31 MirahezeLSBot: [paladox@mwtask141] starting deploy of {'world': True, 'l10n': True} to all
@@ -7997,7 +7997,7 @@ title: Tech:Server admin log/2023
 * 15:14 MirahezeLSBot: [paladox@test131] finished deploy of {'world': True, 'l10n': True} to all - SUCCESS in 371s
 * 15:07 MirahezeLSBot: [paladox@test131] starting deploy of {'world': True, 'l10n': True} to all
 * 15:07 MirahezeLSBot: [paladox@mwtask141] starting deploy of {'world': True, 'l10n': True} to all
-* 15:02 paladox: apply https://github.com/wikimedia/mediawiki-extensions-GlobalUsage/blob/REL1_39/sql/mysql/tables-generated.sql to gpcommonswiki
+* 15:02 paladox: apply [https://github.com/wikimedia/mediawiki-extensions-GlobalUsage/blob/REL1_39/sql/mysql/tables-generated.sql](https://github.com/wikimedia/mediawiki-extensions-GlobalUsage/blob/REL1_39/sql/mysql/tables-generated.sql) to gpcommonswiki
 * 15:00 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/assignEdits.php --wiki=rosettacodewiki --from Bart --to Bartj (END - exit=256)
 * 14:45 paladox: fix swift container for pixandbitwiki
 * 14:01 MirahezeLSBot: [void@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/sql.php --wiki=xedwiki /home/void/reset_templatelinks.sql (END - exit=0)
@@ -8026,9 +8026,9 @@ title: Tech:Server admin log/2023
 * 10:17 Reception123: re-maped content_models on hkrailwiki (set wikitext id to 1, javascript ID to 3
 * 10:07 MirahezeLSBot: [void@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/sql.php --wiki=atbwwiki /home/void/reset_templatelinks.sql (END - exit=0)
 * 09:56 MirahezeLSBot: [void@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/sql.php --wiki=teamballswiki /home/void/reset_templatelinks.sql (END - exit=0)
-* 09:50 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=reddonychandailywiki --summary=Imported from https://reddonychandaily.fandom.com --search-recursively /home/reception/ReddonychanDailyImages (END - exit=0)
+* 09:50 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=reddonychandailywiki --summary=Imported from [https://reddonychandaily.fandom.com](https://reddonychandaily.fandom.com) --search-recursively /home/reception/ReddonychanDailyImages (END - exit=0)
 * 09:49 MirahezeLSBot: [void@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/sql.php --wiki=dreadfulbookswiki /home/void/reset_templatelinks.sql (END - exit=0)
-* 09:49 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=reddonychandailywiki --summary=Imported from https://reddonychandaily.fandom.com --search-recursively /home/reception/ReddonychanDailyImages (START)
+* 09:49 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=reddonychandailywiki --summary=Imported from [https://reddonychandaily.fandom.com](https://reddonychandaily.fandom.com) --search-recursively /home/reception/ReddonychanDailyImages (START)
 * 09:44 MirahezeLSBot: [void@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/sql.php --wiki=dpl3wiki /home/void/reset_templatelinks.sql (END - exit=0)
 * 09:34 MirahezeLSBot: [void@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/sql.php --wiki=meingartenwiki /home/void/reset_templatelinks.sql (END - exit=0)
 * 09:16 MirahezeLSBot: [void@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/sql.php --wiki=rswiki /home/void/reset_templatelinks.sql (END - exit=0)
@@ -8198,7 +8198,7 @@ title: Tech:Server admin log/2023
 * 16:00 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildall.php --wiki=hkrailwiki (END - exit=256)
 * 16:00 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildall.php --wiki=hkrailwiki (START)
 * 15:59 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=hkrailwiki --no-updates --username-prefix=mh:hkrail /home/reception/ImportDump/hkrailwiki-20230130152323.xml (END - exit=0)
-* 15:34 Reception123: reception@mwtask141:~$ sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=hkrailwiki --summary="Imported from https://hkrail.miraheze.org" --user="Miraheze maintenance script" --search-recursively /home/reception/hkrailwiki_images
+* 15:34 Reception123: reception@mwtask141:~$ sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=hkrailwiki --summary="Imported from [https://hkrail.miraheze.org](https://hkrail.miraheze.org)" --user="Miraheze maintenance script" --search-recursively /home/reception/hkrailwiki_images
 * 15:34 Reception123: DELETED and DROPPED hkrailwiki (reset per T10384) (~15 mins ago)
 * 15:23 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=hkrailwiki --no-updates --username-prefix=mh:hkrail /home/reception/ImportDump/hkrailwiki-20230130152323.xml (START)
 * 07:39 MirahezeLSBot: [@mwtask141] finished deploy of {'config': True} to all - SUCCESS in 7s
@@ -8328,7 +8328,7 @@ title: Tech:Server admin log/2023
 * 03:27 MirahezeLSBot: [@test131] starting deploy of {'config': True} to all
 * 03:07 paladox: root@mwtask141:/home/paladox# sudo -u www-data php /srv/mediawiki/w/extensions/CentralAuth/maintenance/importMissingLocalNames.php --wiki loginwiki
 * 03:05 paladox: rebuild templatelinks and searchindex table on zhdelwiki
-* 03:02 paladox: apply https://github.com/wikimedia/mediawiki-extensions-AbuseFilter/blob/4e7e2f6c6459628798e5d14474322a0926769b8e/db_patches/mysql/patch-split-afl_filter.sql to famepediawiki
+* 03:02 paladox: apply [https://github.com/wikimedia/mediawiki-extensions-AbuseFilter/blob/4e7e2f6c6459628798e5d14474322a0926769b8e/db_patches/mysql/patch-split-afl_filter.sql](https://github.com/wikimedia/mediawiki-extensions-AbuseFilter/blob/4e7e2f6c6459628798e5d14474322a0926769b8e/db_patches/mysql/patch-split-afl_filter.sql) to famepediawiki
 * 02:57 MirahezeLSBot: [@test131] finished deploy of {'config': True} to all - SUCCESS in 0s
 * 02:56 MirahezeLSBot: [@test131] starting deploy of {'config': True} to all
 * 02:27 MirahezeLSBot: [@test131] finished deploy of {'config': True} to all - SUCCESS in 0s
@@ -8928,7 +8928,7 @@ title: Tech:Server admin log/2023
 * 14:57 MirahezeLSBot: [@test131] starting deploy of {'config': True} to all
 * 14:27 MirahezeLSBot: [@test131] finished deploy of {'config': True} to all - SUCCESS in 0s
 * 14:27 MirahezeLSBot: [@test131] starting deploy of {'config': True} to all
-* 14:07 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=ttafwikiwiki --summary=Imported from https://talkingfriends.fandom.com --user=Miraheze maintenance script --search-recursively --memory-limit=max /home/reception/talkingfriendfandom/talkingfriendsfandomcom-20220626-wikidump/images (END - exit=0)
+* 14:07 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=ttafwikiwiki --summary=Imported from [https://talkingfriends.fandom.com](https://talkingfriends.fandom.com) --user=Miraheze maintenance script --search-recursively --memory-limit=max /home/reception/talkingfriendfandom/talkingfriendsfandomcom-20220626-wikidump/images (END - exit=0)
 * 13:57 MirahezeLSBot: [@test131] finished deploy of {'config': True} to all - SUCCESS in 0s
 * 13:57 MirahezeLSBot: [@test131] starting deploy of {'config': True} to all
 * 13:27 MirahezeLSBot: [@test131] finished deploy of {'config': True} to all - SUCCESS in 0s
@@ -8951,15 +8951,15 @@ title: Tech:Server admin log/2023
 * 11:26 MirahezeLSBot: [reception@mwtask141] starting deploy of {'world': True, 'l10n': True} to all
 * 10:57 MirahezeLSBot: [@test131] finished deploy of {'config': True} to all - SUCCESS in 0s
 * 10:57 MirahezeLSBot: [@test131] starting deploy of {'config': True} to all
-* 10:48 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=ttafwikiwiki --summary=Imported from https://talkingfriends.fandom.com --user=Miraheze maintenance script --search-recursively --memory-limit=max /home/reception/talkingfriendfandom/talkingfriendsfandomcom-20220626-wikidump/images (START)
+* 10:48 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=ttafwikiwiki --summary=Imported from [https://talkingfriends.fandom.com](https://talkingfriends.fandom.com) --user=Miraheze maintenance script --search-recursively --memory-limit=max /home/reception/talkingfriendfandom/talkingfriendsfandomcom-20220626-wikidump/images (START)
 * 10:27 MirahezeLSBot: [@test131] finished deploy of {'config': True} to all - SUCCESS in 0s
 * 10:27 MirahezeLSBot: [@test131] starting deploy of {'config': True} to all
 * 10:04 MirahezeLSBot: [void@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/refreshLinks.php --wiki=metawiki (END - exit=0)
-* 10:03 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=ttafwikiwiki --summary=Imported from https://talkingfriends.fandom.com --user=Miraheze maintenance script --search-recursively --memory-limit=max /home/reception/talkingfriendfandom/talkingfriendsfandomcom-20220626-wikidump/images (END - exit=256)
+* 10:03 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=ttafwikiwiki --summary=Imported from [https://talkingfriends.fandom.com](https://talkingfriends.fandom.com) --user=Miraheze maintenance script --search-recursively --memory-limit=max /home/reception/talkingfriendfandom/talkingfriendsfandomcom-20220626-wikidump/images (END - exit=256)
 * 09:57 MirahezeLSBot: [@test131] finished deploy of {'config': True} to all - SUCCESS in 0s
 * 09:57 MirahezeLSBot: [@test131] starting deploy of {'config': True} to all
-* 09:53 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=ttafwikiwiki --summary=Imported from https://talkingfriends.fandom.com --user=Miraheze maintenance script --search-recursively --memory-limit=max /home/reception/talkingfriendfandom/talkingfriendsfandomcom-20220626-wikidump/images (START)
-* 09:45 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=ttafwikiwiki --summary=Imported from https://talkingfriends.fandom.com --user=Miraheze maintenance script --search-recursively --memory-limit=max /home/reception/talkingfriendfandom/talkingfriendsfandomcom-20220626-wikidump/images (END - exit=0)
+* 09:53 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=ttafwikiwiki --summary=Imported from [https://talkingfriends.fandom.com](https://talkingfriends.fandom.com) --user=Miraheze maintenance script --search-recursively --memory-limit=max /home/reception/talkingfriendfandom/talkingfriendsfandomcom-20220626-wikidump/images (START)
+* 09:45 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=ttafwikiwiki --summary=Imported from [https://talkingfriends.fandom.com](https://talkingfriends.fandom.com) --user=Miraheze maintenance script --search-recursively --memory-limit=max /home/reception/talkingfriendfandom/talkingfriendsfandomcom-20220626-wikidump/images (END - exit=0)
 * 09:27 MirahezeLSBot: [@test131] finished deploy of {'config': True} to all - SUCCESS in 0s
 * 09:26 MirahezeLSBot: [@test131] starting deploy of {'config': True} to all
 * 09:26 Reception123: DELETED and DROPPED wawaforthewinwiki (reset request T10340)
@@ -8975,11 +8975,11 @@ title: Tech:Server admin log/2023
 * 09:04 Universal Omega: db101: MariaDB [dcmultiversewiki]> ALTER TABLE tl2 ADD PRIMARY KEY (tl_from, tl_target_id);
 * 09:04 Universal Omega: db101: MariaDB [dcmultiversewiki]> INSERT INTO tl2 SELECT * FROM templatelinks GROUP BY tl_from;
 * 09:04 Universal Omega: db101: MariaDB [dcmultiversewiki]> CREATE TABLE tl2 LIKE templatelinks;
-* 08:59 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=ttafwikiwiki --summary=Imported from https://talkingfriends.fandom.com --user=Miraheze maintenance script --search-recursively --memory-limit=max /home/reception/talkingfriendfandom/talkingfriendsfandomcom-20220626-wikidump/images (START)
+* 08:59 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=ttafwikiwiki --summary=Imported from [https://talkingfriends.fandom.com](https://talkingfriends.fandom.com) --user=Miraheze maintenance script --search-recursively --memory-limit=max /home/reception/talkingfriendfandom/talkingfriendsfandomcom-20220626-wikidump/images (START)
 * 08:57 MirahezeLSBot: [@test131] finished deploy of {'config': True} to all - SUCCESS in 0s
 * 08:57 MirahezeLSBot: [@test131] starting deploy of {'config': True} to all
-* 08:56 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=ttafwikiwiki --summary=Imported from https://talkingfriends.fandom.com --user=Miraheze maintenance script --search-recursively /home/reception/talkingfriendfandom/talkingfriendsfandomcom-20220626-wikidump/images (END - exit=256)
-* 08:52 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=ttafwikiwiki --summary=Imported from https://talkingfriends.fandom.com --user=Miraheze maintenance script --search-recursively /home/reception/talkingfriendfandom/talkingfriendsfandomcom-20220626-wikidump/images (START)
+* 08:56 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=ttafwikiwiki --summary=Imported from [https://talkingfriends.fandom.com](https://talkingfriends.fandom.com) --user=Miraheze maintenance script --search-recursively /home/reception/talkingfriendfandom/talkingfriendsfandomcom-20220626-wikidump/images (END - exit=256)
+* 08:52 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=ttafwikiwiki --summary=Imported from [https://talkingfriends.fandom.com](https://talkingfriends.fandom.com) --user=Miraheze maintenance script --search-recursively /home/reception/talkingfriendfandom/talkingfriendsfandomcom-20220626-wikidump/images (START)
 * 08:27 MirahezeLSBot: [@test131] finished deploy of {'config': True} to all - SUCCESS in 0s
 * 08:27 MirahezeLSBot: [@test131] starting deploy of {'config': True} to all
 * 07:57 MirahezeLSBot: [@test131] finished deploy of {'config': True} to all - SUCCESS in 0s
@@ -10019,7 +10019,7 @@ title: Tech:Server admin log/2023
 * 02:00 MirahezeLSBot: [void@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/deleteBatch.php --wiki=webkinzguidewiki /home/void/delete.txt -r Corrupted page (END - exit=256)
 * 02:00 MirahezeLSBot: [void@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/deleteBatch.php --wiki=webkinzguidewiki /home/void/delete.txt -r Corrupted page (START)
 * 02:00 MirahezeLSBot: [void@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildImages.php --wiki=webkinzguidewiki --missing (END - exit=65280)
-* 01:54 paladox: apply https://github.com/wikimedia/mediawiki-extensions-AbuseFilter/blob/REL1_38/db_patches/mysql/patch-split-afl_filter.sql to altcyclopediawiki
+* 01:54 paladox: apply [https://github.com/wikimedia/mediawiki-extensions-AbuseFilter/blob/REL1_38/db_patches/mysql/patch-split-afl_filter.sql](https://github.com/wikimedia/mediawiki-extensions-AbuseFilter/blob/REL1_38/db_patches/mysql/patch-split-afl_filter.sql) to altcyclopediawiki
 * 01:54 MirahezeLSBot: [void@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildImages.php --wiki=webkinzguidewiki --missing (START)
 * 01:54 MirahezeLSBot: [void@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/deleteBatch.php --wiki=webkinzguidewiki /home/void/delete.txt -r Corrupted page (END - exit=256)
 * 01:54 MirahezeLSBot: [void@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/deleteBatch.php --wiki=webkinzguidewiki /home/void/delete.txt -r Corrupted page (START)
@@ -10097,4 +10097,4 @@ title: Tech:Server admin log/2023
 * 00:08 Universal Omega: test
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Server_admin_log/2023
+**Source**: [https://meta.miraheze.org/wiki/Tech:Server_admin_log/2023](https://meta.miraheze.org/wiki/Tech:Server_admin_log/2023)

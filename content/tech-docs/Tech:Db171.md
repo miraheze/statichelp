@@ -23,4 +23,4 @@ title: Tech:Db171
 **db171** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a Database server running [MariaDB](https://meta.miraheze.org/wiki/Tech:MariaDB).
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Db171
+**Source**: [https://meta.miraheze.org/wiki/Tech:Db171](https://meta.miraheze.org/wiki/Tech:Db171)

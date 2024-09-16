@@ -21,4 +21,4 @@ Miraheze ब्राउज़रों को तीन श्रेणिय�
 [Category:MediaWiki](https://meta.miraheze.org/wiki/Category:MediaWiki)
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:MediaWiki/Compatibility/hi
+**Source**: [https://meta.miraheze.org/wiki/Tech:MediaWiki/Compatibility/hi](https://meta.miraheze.org/wiki/Tech:MediaWiki/Compatibility/hi)

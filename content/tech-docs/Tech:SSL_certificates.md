@@ -75,4 +75,4 @@ For a non-LE cert, both the public and private keys would have to be removed man
 [SSL certs](https://meta.miraheze.org/wiki/Category:Guides_for_sysadmins)
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:SSL_certificates
+**Source**: [https://meta.miraheze.org/wiki/Tech:SSL_certificates](https://meta.miraheze.org/wiki/Tech:SSL_certificates)

@@ -38,4 +38,4 @@ Site Reliability Engineering tasks being considered for a goal are left at the d
 | July - December 2022 | 7 | 6 | 1 | 86% |
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Goals
+**Source**: [https://meta.miraheze.org/wiki/Tech:Goals](https://meta.miraheze.org/wiki/Tech:Goals)

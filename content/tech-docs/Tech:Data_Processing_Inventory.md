@@ -10,9 +10,9 @@ At the [Board meeting of October 23, 2020](https://meta.miraheze.org/wiki/Board/
 
 | Processor | Website | Jurisdiction | Data processing agreement | Purpose | Data |
 | --- | --- | --- | --- | --- | --- |
-| DigitalOcean, LLC | https://www.digitalocean.com/ | United States | https://www.digitalocean.com/legal/data-processing-agreement/ | Hosting infrastructure | Usernames, real names, email addresses, IP addresses, (private) wiki content, passwords, optional user information, other usage information |
-| OVH | https://www.ovh.co.uk/ | France | https://www.ovh.co.uk/support/termsofservice/Data%20Processing%20Agreement_UK.pdf | Hosting infrastructure | Usernames, real names, email addresses, IP addresses, (private) wiki content, passwords, optional user information, other usage information |
-| RamNode LLC | https://ramnode.com/ | United States | https://www.ramnode.com/gdpr-dpa.pdf | Hosting infrastructure | Usernames, real names, email addresses, IP addresses, (private) wiki content, passwords, optional user information, other usage information |
+| DigitalOcean, LLC | [https://www.digitalocean.com/](https://www.digitalocean.com/) | United States | [https://www.digitalocean.com/legal/data-processing-agreement/](https://www.digitalocean.com/legal/data-processing-agreement/) | Hosting infrastructure | Usernames, real names, email addresses, IP addresses, (private) wiki content, passwords, optional user information, other usage information |
+| OVH | [https://www.ovh.co.uk/](https://www.ovh.co.uk/) | France | [https://www.ovh.co.uk/support/termsofservice/Data%20Processing%20Agreement_UK.pdf](https://www.ovh.co.uk/support/termsofservice/Data%20Processing%20Agreement_UK.pdf) | Hosting infrastructure | Usernames, real names, email addresses, IP addresses, (private) wiki content, passwords, optional user information, other usage information |
+| RamNode LLC | [https://ramnode.com/](https://ramnode.com/) | United States | [https://www.ramnode.com/gdpr-dpa.pdf](https://www.ramnode.com/gdpr-dpa.pdf) | Hosting infrastructure | Usernames, real names, email addresses, IP addresses, (private) wiki content, passwords, optional user information, other usage information |
 
 ## Data processing 
 
@@ -39,4 +39,4 @@ At the [Board meeting of October 23, 2020](https://meta.miraheze.org/wiki/Board/
 
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Data_Processing_Inventory
+**Source**: [https://meta.miraheze.org/wiki/Tech:Data_Processing_Inventory](https://meta.miraheze.org/wiki/Tech:Data_Processing_Inventory)

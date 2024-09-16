@@ -14,7 +14,7 @@ Our GDNSD configuration can be found at [GitHub](//github.com/miraheze/dns), and
 
 ### zones 
 
-DNS records (for one domain name) are stored in a zone (e.g. https://raw.githubusercontent.com/miraheze/dns/master/zones/wikitide.net).
+DNS records (for one domain name) are stored in a zone (e.g. [https://raw.githubusercontent.com/miraheze/dns/master/zones/wikitide.net](https://raw.githubusercontent.com/miraheze/dns/master/zones/wikitide.net)).
 
 ## Deployment 
 
@@ -25,4 +25,4 @@ The system should be moved to manual at some point, though there is not enough r
 [Category:Services](https://meta.miraheze.org/wiki/Category:Services)
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:DNS
+**Source**: [https://meta.miraheze.org/wiki/Tech:DNS](https://meta.miraheze.org/wiki/Tech:DNS)

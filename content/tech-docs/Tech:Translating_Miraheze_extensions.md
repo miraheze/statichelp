@@ -31,4 +31,4 @@ They are then deployed to the Miraheze cluster (the submodule must be updated).
 [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions
+**Source**: [https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions](https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions)

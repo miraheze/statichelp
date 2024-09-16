@@ -23,4 +23,4 @@ The Technology team is authorized to enforce the Terms of Use and enact sanction
 [Category:Tech policy](https://meta.miraheze.org/wiki/Category:Tech_policy)
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Internal_ToU_Policy
+**Source**: [https://meta.miraheze.org/wiki/Tech:Internal_ToU_Policy](https://meta.miraheze.org/wiki/Tech:Internal_ToU_Policy)

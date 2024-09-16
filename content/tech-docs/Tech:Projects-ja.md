@@ -36,4 +36,4 @@ Anyone may:
 [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Projects/ja
+**Source**: [https://meta.miraheze.org/wiki/Tech:Projects/ja](https://meta.miraheze.org/wiki/Tech:Projects/ja)

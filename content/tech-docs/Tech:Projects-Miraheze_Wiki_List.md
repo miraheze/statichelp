@@ -55,4 +55,4 @@ Anyone interested in this project should:
 * discuss a possible timeline/integration plan with a [mw-admin](https://meta.miraheze.org/wiki/Tech:Organisation#Team:_MediaWiki,_Site_Reliability_Engineering) or [operations](https://meta.miraheze.org/wiki/Tech:Organisation#Team:_Infrastructure,_Site_Reliability_Engineering) member.
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Projects/Miraheze_Wiki_List
+**Source**: [https://meta.miraheze.org/wiki/Tech:Projects/Miraheze_Wiki_List](https://meta.miraheze.org/wiki/Tech:Projects/Miraheze_Wiki_List)

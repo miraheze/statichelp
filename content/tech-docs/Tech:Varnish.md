@@ -63,7 +63,7 @@ Using the `X-Miraheze-Debug` header, you can force the request to be passed to a
 
 ## One-off purges (bans) 
 
-*Credit: https://wikitech.wikimedia.org/wiki/Varnish*<br />
+*Credit: [https://wikitech.wikimedia.org/wiki/Varnish](https://wikitech.wikimedia.org/wiki/Varnish)*<br />
 Normally, MediaWiki will purge cache objects with the PURGE protocol. However, sometimes you want to purge more than object (or you want an easier way to purge objects across the fleet without using MediaWiki). This can be done using the [banning](https://www.varnish-cache.org/docs/4.0/users-guide/purging.html#bans) feature in varnishadm. Despite its scary name, banning only ensures that all cached objects matching the given criteria (e.g. req.http.Host == meta.miraheze.org) won't be used anymore.
 
 Due to performance concerns, it's recommended that this feature is only used when needed. While Miraheze's appservers can handle the current amount of traffic (warning: this is a dangerous assumption), we should aim for the highest cache hit rate as possible.
@@ -84,7 +84,7 @@ varnish> ban obj.status == 301 && req.http.Host == meta.miraheze.org
 
 ## Backend health checks 
 
-Varnish uses a Miraheze-configured backend health check (called probes). For Miraheze, it checks (for each appserver) each 5 seconds if https://meta.miraheze.org/wiki/Miraheze loads under 4 seconds. If an appserver fails to serve that page under 4 seconds (or the response does not have HTTP status code 200) for at least 2 out of 5 times, it will be marked as sick, and it will be depooled automatically until it looks healthy again.
+Varnish uses a Miraheze-configured backend health check (called probes). For Miraheze, it checks (for each appserver) each 5 seconds if [https://meta.miraheze.org/wiki/Miraheze](https://meta.miraheze.org/wiki/Miraheze) loads under 4 seconds. If an appserver fails to serve that page under 4 seconds (or the response does not have HTTP status code 200) for at least 2 out of 5 times, it will be marked as sick, and it will be depooled automatically until it looks healthy again.
 
 Using the `debug.health` and `backend.list` commands in varnishadm, you can view the current health of all appservers.
 
@@ -111,4 +111,4 @@ This allows Varnish probes to manage the backend health state again.
 * [Varnish 5.0 documentation](https://www.varnish-cache.org/docs/5.0/)
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Varnish
+**Source**: [https://meta.miraheze.org/wiki/Tech:Varnish](https://meta.miraheze.org/wiki/Tech:Varnish)

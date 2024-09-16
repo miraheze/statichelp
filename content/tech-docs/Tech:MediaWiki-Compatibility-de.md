@@ -21,4 +21,4 @@ Unten findest du eine Tabelle von [MediaWiki.org](https://meta.miraheze.org/wiki
 [Category:MediaWiki](https://meta.miraheze.org/wiki/Category:MediaWiki)
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:MediaWiki/Compatibility/de
+**Source**: [https://meta.miraheze.org/wiki/Tech:MediaWiki/Compatibility/de](https://meta.miraheze.org/wiki/Tech:MediaWiki/Compatibility/de)

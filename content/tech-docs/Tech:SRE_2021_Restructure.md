@@ -45,4 +45,4 @@ The MediaWiki Engineering Manager leads the MediaWiki team and ensures:
 The Engineering Manager is appointed by the Director of Site Reliability Engineering and is responsible for ensuring cross-team collaboration and proactive engagement with other teams and departments.
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:SRE_2021_Restructure
+**Source**: [https://meta.miraheze.org/wiki/Tech:SRE_2021_Restructure](https://meta.miraheze.org/wiki/Tech:SRE_2021_Restructure)

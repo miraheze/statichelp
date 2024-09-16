@@ -15,4 +15,4 @@ This is done automatically on the first puppet run as Grafana configuration is h
 [Category:Monitoring services](https://meta.miraheze.org/wiki/Category:Monitoring_services)
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Grafana
+**Source**: [https://meta.miraheze.org/wiki/Tech:Grafana](https://meta.miraheze.org/wiki/Tech:Grafana)

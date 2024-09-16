@@ -58,4 +58,4 @@ An upgrade may be necessary in cases where horizontal scaling (having three smal
 [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Server_lifecycle
+**Source**: [https://meta.miraheze.org/wiki/Tech:Server_lifecycle](https://meta.miraheze.org/wiki/Tech:Server_lifecycle)

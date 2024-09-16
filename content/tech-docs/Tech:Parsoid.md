@@ -11,4 +11,4 @@ Since Late 2023, Parsoid has been enabled and cached for all Miraheze wikis in p
 [Category:Services](https://meta.miraheze.org/wiki/Category:Services)
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Parsoid
+**Source**: [https://meta.miraheze.org/wiki/Tech:Parsoid](https://meta.miraheze.org/wiki/Tech:Parsoid)

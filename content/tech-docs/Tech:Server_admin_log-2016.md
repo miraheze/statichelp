@@ -109,7 +109,7 @@ title: Tech:Server admin log/2016
 
 ## 2016-12-01 
 
-* 03:01 labster: steward edit to https://wikicanada.miraheze.org/wiki/Main_Page per IRC request
+* 03:01 labster: steward edit to [https://wikicanada.miraheze.org/wiki/Main_Page](https://wikicanada.miraheze.org/wiki/Main_Page) per IRC request
 
 ## 2016-11-30 
 
@@ -933,7 +933,7 @@ title: Tech:Server admin log/2016
 
 ## 2016-07-06 
 
-* 15:53 PuppyKun: puppet run on mw* after https://git.io/vKLXL
+* 15:53 PuppyKun: puppet run on mw* after [https://git.io/vKLXL](https://git.io/vKLXL)
 * 12:28 PuppyKun: update cw_wikis set wiki_closed=0 where wiki_dbname="atplwiki";
 
 ## 2016-07-05 
@@ -1019,7 +1019,7 @@ title: Tech:Server admin log/2016
 
 ## 2016-06-14 
 
-* 02:33 PuppyKun: varnish purge https://downhillderelicts.miraheze.org on cp*
+* 02:33 PuppyKun: varnish purge [https://downhillderelicts.miraheze.org](https://downhillderelicts.miraheze.org) on cp*
 * 02:32 PuppyKun: varnish> purge wiki.downhillderelicts.com on cp*
 
 ## 2016-06-13 
@@ -1030,7 +1030,7 @@ title: Tech:Server admin log/2016
 
 ## 2016-06-11 
 
-* 07:57 Southparkfan: ran FlowUpdateWorkflowPageId.php for All The Tropes (https://phabricator.wikimedia.org/T137594)
+* 07:57 Southparkfan: ran FlowUpdateWorkflowPageId.php for All The Tropes ([https://phabricator.wikimedia.org/T137594](https://phabricator.wikimedia.org/T137594))
 
 ## 2016-06-10 
 
@@ -1051,7 +1051,7 @@ title: Tech:Server admin log/2016
 * 22:49 SPF|Cloud: and another one
 * 22:49 SPF|Cloud: another test
 * 22:48 SPF|Cloud: test
-* 21:10 Southparkfan: MariaDB [allthetropeswiki]> update page set page_content_model = 'flow-board' where  page_namespace = 3 and page_title not like '%/%' and page_content_model = 'wikitext'; to fix https://phabricator.miraheze.org/T340
+* 21:10 Southparkfan: MariaDB [allthetropeswiki]> update page set page_content_model = 'flow-board' where  page_namespace = 3 and page_title not like '%/%' and page_content_model = 'wikitext'; to fix [https://phabricator.miraheze.org/T340](https://phabricator.miraheze.org/T340)
 
 ## 2016-05-23 
 
@@ -1061,7 +1061,7 @@ title: Tech:Server admin log/2016
 
 ## 2016-04-22 
 
-* 22:24 Southparkfan: MariaDB [allthetropeswiki]> truncate ipblocks; to fix https://phabricator.miraheze.org/T229
+* 22:24 Southparkfan: MariaDB [allthetropeswiki]> truncate ipblocks; to fix [https://phabricator.miraheze.org/T229](https://phabricator.miraheze.org/T229)
 
 ## 2016-04-20 
 
@@ -1133,7 +1133,7 @@ title: Tech:Server admin log/2016
 
 ## 2016-01-20 
 
-* 16:29 SPF|Cloud: ran checkLocalNames.php and checkLocalUser.php on spiralwiki with --delete option. (https://github.com/miraheze/mw-config/issues/264)
+* 16:29 SPF|Cloud: ran checkLocalNames.php and checkLocalUser.php on spiralwiki with --delete option. ([https://github.com/miraheze/mw-config/issues/264](https://github.com/miraheze/mw-config/issues/264))
 
 ## 2016-01-18 
 
@@ -1160,4 +1160,4 @@ title: Tech:Server admin log/2016
 * 15:09 SPF|Cloud: ran removeDeletedWikis.php to delete poserdazfreebiestestwiki + removed it from cw_wikis
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Server_admin_log/2016
+**Source**: [https://meta.miraheze.org/wiki/Tech:Server_admin_log/2016](https://meta.miraheze.org/wiki/Tech:Server_admin_log/2016)

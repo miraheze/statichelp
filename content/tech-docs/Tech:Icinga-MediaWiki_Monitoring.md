@@ -67,4 +67,4 @@ This page is used to provide monitoring guidance for MediaWiki-related services 
 [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Icinga/MediaWiki_Monitoring
+**Source**: [https://meta.miraheze.org/wiki/Tech:Icinga/MediaWiki_Monitoring](https://meta.miraheze.org/wiki/Tech:Icinga/MediaWiki_Monitoring)

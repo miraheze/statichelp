@@ -103,4 +103,4 @@ If the budget has been exceeded (due to regular requests or emergencies), the bu
 In the event a situation is not covered by this policy, a decision has to be approved by the Board. Any change made to this policy must go through the resolution process of the Board.
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:SRE_2021_Restructure/Approvals_Policy
+**Source**: [https://meta.miraheze.org/wiki/Tech:SRE_2021_Restructure/Approvals_Policy](https://meta.miraheze.org/wiki/Tech:SRE_2021_Restructure/Approvals_Policy)

@@ -137,7 +137,7 @@ Due to a severe security vulnerability with [Cargo](https://meta.miraheze.org/wi
 
 While there is absolutely no indication that the security vulnerabilities discovered in Cargo were exploited on Miraheze, out of a great abundance of caution, all user sessions have been reset. This means all users were logged out and must log back in again. As a general internet safety reminder, please do not reuse passwords between services and make sure to regularly change your password to a strong, unique one. [<span style="color: skyblue; font-weight: bold;">Agent</span> <span style="color: lime; font-weight: bold;">Isai</span>](https://meta.miraheze.org/wiki/User:Agent_Isai)[<span style="color: orange; font-weight: bold;">Talk to me!</span>](https://meta.miraheze.org/wiki/User_talk:Agent_Isai) 03:52, 5 April 2023 (UTC)
 
-We plan on isolating Cargo to its own database going forward. Wikis that opt-in to Cargo will have their own database for Cargo data separate from the wiki database. Void has done a lot of work on this (https://github.com/miraheze/mw-config/pull/5182, https://github.com/miraheze/MirahezeMagic/pull/413, https://github.com/miraheze/puppet/commit/241009f1d77c4935621aae016ae0757bac246b83), though there are still some details left to flesh out. This will be useful if similar vulnerabilities are ever discovered again on Cargo. Unfortunately, we still do not have an ETA on when Cargo will be re-enabled. [OrangeStar](https://meta.miraheze.org/wiki/User:OrangeStar) ([talk](https://meta.miraheze.org/wiki/User_talk:OrangeStar)) 11:06, 14 April 2023 (UTC)
+We plan on isolating Cargo to its own database going forward. Wikis that opt-in to Cargo will have their own database for Cargo data separate from the wiki database. Void has done a lot of work on this ([https://github.com/miraheze/mw-config/pull/5182](https://github.com/miraheze/mw-config/pull/5182), [https://github.com/miraheze/MirahezeMagic/pull/413](https://github.com/miraheze/MirahezeMagic/pull/413), [https://github.com/miraheze/puppet/commit/241009f1d77c4935621aae016ae0757bac246b83](https://github.com/miraheze/puppet/commit/241009f1d77c4935621aae016ae0757bac246b83)), though there are still some details left to flesh out. This will be useful if similar vulnerabilities are ever discovered again on Cargo. Unfortunately, we still do not have an ETA on when Cargo will be re-enabled. [OrangeStar](https://meta.miraheze.org/wiki/User:OrangeStar) ([talk](https://meta.miraheze.org/wiki/User_talk:OrangeStar)) 11:06, 14 April 2023 (UTC)
 
    Cargo has been re-enabled following some steps to make it more secure in our setup. If you experience any problems with cargo, please open a bug report on [Phabricator](https://meta.miraheze.org/wiki/Phabricator). If you become aware of any security concern regarding the extension (or any of our other extensions for that matter) please email security `{{ {{at}} }}`miraheze.org with as many details as possible, or file a security task on Phabricator **using [this form](https://phabricator.miraheze.org/maniphest/task/edit/form/2/)**. -- [<span style="color:#123524">Void</span>](https://meta.miraheze.org/wiki/User:Void)[<span style="color:#353839">''Whispers''</span>](https://meta.miraheze.org/wiki/User_talk:Void) 23:16, 16 April 2023 (UTC)
 
@@ -153,7 +153,7 @@ Due to a disk issue on cloud11 (where Swift servers are located), files are curr
 
 Graph has been disabled on all wikis due to a very severe security bug which caused it to be disabled on all Wikimedia wikis earlier today. Please see [Wikimedia Phabricator task T334940](https://meta.miraheze.org/wiki/w:phab:T334940) for more information. We hope that this issue is fixed soon. [<span style="color: skyblue; font-weight: bold;">Agent</span> <span style="color: lime; font-weight: bold;">Isai</span>](https://meta.miraheze.org/wiki/User:Agent_Isai)[<span style="color: orange; font-weight: bold;">Talk to me!</span>](https://meta.miraheze.org/wiki/User_talk:Agent_Isai) 01:13, 19 April 2023 (UTC)
 
-    Local issue is https://phabricator.miraheze.org/T10756. In the meantime you can take the code between the <graph> tags and paste it into https://vega.github.io/vega-editor/?mode=vega to generate PNG or SVG replacements. [Psephomancy](https://meta.miraheze.org/wiki/User:Psephomancy) ([talk](https://meta.miraheze.org/wiki/User_talk:Psephomancy)) 20:35, 11 November 2023 (UTC)
+    Local issue is [https://phabricator.miraheze.org/T10756](https://phabricator.miraheze.org/T10756). In the meantime you can take the code between the <graph> tags and paste it into [https://vega.github.io/vega-editor/?mode=vega](https://vega.github.io/vega-editor/?mode=vega) to generate PNG or SVG replacements. [Psephomancy](https://meta.miraheze.org/wiki/User:Psephomancy) ([talk](https://meta.miraheze.org/wiki/User_talk:Psephomancy)) 20:35, 11 November 2023 (UTC)
 
 ## Swift outage 
 
@@ -173,12 +173,12 @@ We'd like to thank Nottinghamshire Police for their support and those within the
 
 Miraheze will not tolerate abuse of its services and those who are involved face having their access terminated or limited as well as prosecution where enough evidence exists.
 
-We'd also like to take this opportunity to remind those in the UK that they can and should report cyber crime and fraud via https://actionfraud.police.uk
+We'd also like to take this opportunity to remind those in the UK that they can and should report cyber crime and fraud via [https://actionfraud.police.uk](https://actionfraud.police.uk)
 
-Any users who wish to find out more information about the laws and consequences surrounding cyber crime can visit https://www.nationalcrimeagency.gov.uk/cyber-choices
+Any users who wish to find out more information about the laws and consequences surrounding cyber crime can visit [https://www.nationalcrimeagency.gov.uk/cyber-choices](https://www.nationalcrimeagency.gov.uk/cyber-choices)
     ~ [RhinosF1](https://meta.miraheze.org/wiki/User:RhinosF1) - [(chat)](https://meta.miraheze.org/wiki/User_talk:_RhinosF1)[· acc](https://meta.miraheze.org/wiki/Special:CentralAuth/RhinosF1) [· c](https://meta.miraheze.org/wiki/Special:Contributions/RhinosF1) - ( `{{ {{User:RhinosF1/sigcol|1=RhinosF1}} }}`) 18:51, 11 October 2023 (UTC)
 
 [Category:Archives of Technology noticeboard](https://meta.miraheze.org/wiki/Category:Archives_of_Technology_noticeboard)
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Noticeboard/Archive_1
+**Source**: [https://meta.miraheze.org/wiki/Tech:Noticeboard/Archive_1](https://meta.miraheze.org/wiki/Tech:Noticeboard/Archive_1)

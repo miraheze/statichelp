@@ -414,4 +414,4 @@ Below is a list of proposed servers:
 | |
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Server_usage/proposed
+**Source**: [https://meta.miraheze.org/wiki/Tech:Server_usage/proposed](https://meta.miraheze.org/wiki/Tech:Server_usage/proposed)

@@ -88,7 +88,7 @@ title: Tech:Server admin log
 * 20:49 MirahezeLSBot: [void@puppet181] Upgraded packages git, and git-man on db151
 * 20:48 MirahezeLSBot: [void@puppet181] Upgraded packages git, and git-man on cp36
 * 20:48 MirahezeLSBot: [void@puppet181] Upgraded packages git, and git-man on bots171
-* 20:13 Reception123: DELETED and DROPPED - https://issue-tracker.miraheze.org/P514https://issue-tracker.miraheze.org/P515https://issue-tracker.miraheze.org/P516https://issue-tracker.miraheze.org/P517https://issue-tracker.miraheze.org/P518
+* 20:13 Reception123: DELETED and DROPPED - [https://issue-tracker.miraheze.org/P514](https://issue-tracker.miraheze.org/P514) [https://issue-tracker.miraheze.org/P515](https://issue-tracker.miraheze.org/P515) [https://issue-tracker.miraheze.org/P516](https://issue-tracker.miraheze.org/P516) [https://issue-tracker.miraheze.org/P517](https://issue-tracker.miraheze.org/P517) [https://issue-tracker.miraheze.org/P518](https://issue-tracker.miraheze.org/P518)
 * 19:03 MirahezeLSBot: [agent@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.json /srv/mediawiki/1.42/maintenance/run.php /srv/mediawiki/1.42/extensions/CreateWiki/maintenance/setContainersAccess.php (START)
 * 19:03 MirahezeLSBot: [agent@mwtask181] sudo -u www-data php /srv/mediawiki/1.42/maintenance/run.php /srv/mediawiki/1.42/extensions/CreateWiki/maintenance/setContainersAccess.php --wiki=deltacablewiki (END - exit=0)
 * 19:03 MirahezeLSBot: [agent@mwtask181] sudo -u www-data php /srv/mediawiki/1.42/maintenance/run.php /srv/mediawiki/1.42/extensions/CreateWiki/maintenance/setContainerAccess.php --wiki=deltacablewiki (END - exit=256)
@@ -1923,7 +1923,7 @@ title: Tech:Server admin log
 
 ## 2024-06-26 
 
-* 21:07 RhinosF1: switch on cloudflare polyfill mitigations - https://blog.cloudflare.com/automatically-replacing-polyfill-io-links-with-cloudflares-mirror-for-a-safer-internet
+* 21:07 RhinosF1: switch on cloudflare polyfill mitigations - [https://blog.cloudflare.com/automatically-replacing-polyfill-io-links-with-cloudflares-mirror-for-a-safer-internet](https://blog.cloudflare.com/automatically-replacing-polyfill-io-links-with-cloudflares-mirror-for-a-safer-internet)
 * 19:10 MirahezeLSBot: [alex@puppet181] Upgraded packages libvpx7 on test151
 * 19:09 MirahezeLSBot: [alex@puppet181] Upgraded packages libvpx7 on mw182
 * 19:08 MirahezeLSBot: [alex@puppet181] Upgraded packages libvpx7 on mw181
@@ -2340,8 +2340,8 @@ title: Tech:Server admin log
 * 17:04 MirahezeLSBot: [salt-user@mwtask181] Renamed thebatmanwiki to batmanwiki using renamewiki.py
 * 16:48 MirahezeLSBot: [salt-user@mwtask181] Renamed hublotwiki to justleafywiki using renamewiki.py
 * 16:45 MirahezeLSBot: [salt-user@mwtask181] Renamed ieytdwiki to zoraxipediawiki using renamewiki.py
-* 16:42 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=neavetvwiki --summary=Imported from https://neavetv.fandom.com --search-recursively /home/reception/neavetv (END - exit=0)
-* 16:41 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=neavetvwiki --summary=Imported from https://neavetv.fandom.com --search-recursively /home/reception/neavetv (START)
+* 16:42 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=neavetvwiki --summary=Imported from [https://neavetv.fandom.com](https://neavetv.fandom.com) --search-recursively /home/reception/neavetv (END - exit=0)
+* 16:41 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=neavetvwiki --summary=Imported from [https://neavetv.fandom.com](https://neavetv.fandom.com) --search-recursively /home/reception/neavetv (START)
 * 16:35 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/moveBatch.php --wiki=themanaworldwiki -r=Requested at T12165 /home/reception/tmw-wiki-rename-dev-to-development (END - exit=256)
 
 ## 2024-05-31 
@@ -3087,8 +3087,8 @@ title: Tech:Server admin log
 * 17:14 MirahezeLSBot: [alex@test151] starting deploy of {'folders': '1.42/extensions/CreateWiki'} to test151
 * 17:13 MirahezeLSBot: [alex@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
 * 17:13 MirahezeLSBot: [alex@test151] starting deploy of {'versions': '1.42', 'upgrade_extensions': 'CreateWiki'} to test151
-* 14:01 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=starfetchersfancontentwiki --summary=Imported from https://star-fetchers-fan-content.fandom.com --search-recursively /home/reception/starfetchersfancontent (END - exit=0)
-* 13:58 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=starfetchersfancontentwiki --summary=Imported from https://star-fetchers-fan-content.fandom.com --search-recursively /home/reception/starfetchersfancontent (START)
+* 14:01 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=starfetchersfancontentwiki --summary=Imported from [https://star-fetchers-fan-content.fandom.com](https://star-fetchers-fan-content.fandom.com) --search-recursively /home/reception/starfetchersfancontent (END - exit=0)
+* 13:58 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=starfetchersfancontentwiki --summary=Imported from [https://star-fetchers-fan-content.fandom.com](https://star-fetchers-fan-content.fandom.com) --search-recursively /home/reception/starfetchersfancontent (START)
 * 13:54 MirahezeLSBot: [salt-user@mwtask181] Renamed retrorumblewiki to characterclashwiki using renamewiki.py
 * 13:42 MirahezeLSBot: [salt-user@mwtask181] Renamed newworldorderwiki to spectrummonochromawiki using renamewiki.py
 * 13:38 MirahezeLSBot: [salt-user@mwtask181] Renamed ogadiscord101wiki to spacestation101wiki using renamewiki.py
@@ -3240,8 +3240,8 @@ title: Tech:Server admin log
 * 21:56 RhinosF1: deploy 2 extra rules - 1 path block & 1 UA challenge
 * 21:40 RhinosF1: move 2 ASNs down to a challenge
 * 21:27 RhinosF1: expliclty block a UA in user agent rules
-* 20:03 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=stopxwiki --search-recursively /home/reception/stopx --summary=Imported from https://stopx.fandom.com/ (END - exit=0)
-* 19:59 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=stopxwiki --search-recursively /home/reception/stopx --summary=Imported from https://stopx.fandom.com/ (START)
+* 20:03 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=stopxwiki --search-recursively /home/reception/stopx --summary=Imported from [https://stopx.fandom.com/](https://stopx.fandom.com/) (END - exit=0)
+* 19:59 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=stopxwiki --search-recursively /home/reception/stopx --summary=Imported from [https://stopx.fandom.com/](https://stopx.fandom.com/) (START)
 * 17:17 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/extensions/CentralAuth/maintenance/fixStuckGlobalRename.php --wiki=zhgyaanipediawiki --logwiki=metawiki Dmehus Doug (END - exit=0)
 * 17:11 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/extensions/CentralAuth/maintenance/fixStuckGlobalRename.php --wiki=yfwikipediawiki --logwiki=metawiki Dmehus Doug (END - exit=0)
 * 17:10 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/extensions/CentralAuth/maintenance/fixStuckGlobalRename.php --wiki=yf2kwiki --logwiki=metawiki Dmehus Doug (END - exit=0)
@@ -3917,7 +3917,7 @@ title: Tech:Server admin log
 * 01:51 MirahezeLSBot: [agent@mwtask171] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importDump.php --wiki=redemptionwiki redemptionwiki_xml_436fc1578dd1297d0380.xml --no-updates (END - exit=0)
 * 01:51 MirahezeLSBot: [agent@mwtask171] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importDump.php --wiki=redemptionwiki redemptionwiki_xml_436fc1578dd1297d0380.xml --no-updates (START)
 * 01:49 MirahezeLSBot: [agent@mwtask171] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/extensions/MirahezeMagic/maintenance/restoreManageWikiBackup.php --wiki=redemptionwiki --filename redemptionwiki_managewiki_backup_1a322d3f3341a96c57ca.json (END - exit=256)
-* 01:30 MirahezeLSBot: [agent@mwtask171] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/extensions/MirahezeMagic/maintenance/restoreManageWikiBackup.php --wiki=redemptionwiki --filename https://static.wikitide.net/redemptionwiki/dumps/redemptionwiki_managewiki_backup_1a322d3f3341a96c57ca.json (END - exit=256)
+* 01:30 MirahezeLSBot: [agent@mwtask171] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/extensions/MirahezeMagic/maintenance/restoreManageWikiBackup.php --wiki=redemptionwiki --filename [https://static.wikitide.net/redemptionwiki/dumps/redemptionwiki_managewiki_backup_1a322d3f3341a96c57ca.json](https://static.wikitide.net/redemptionwiki/dumps/redemptionwiki_managewiki_backup_1a322d3f3341a96c57ca.json) (END - exit=256)
 * 01:17 MirahezeLSBot: [agent@mwtask171] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/rebuildall.php --wiki=dharmapearlswiki (END - exit=0)
 * 01:17 MirahezeLSBot: [agent@mwtask171] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/rebuildall.php --wiki=dharmapearlswiki (START)
 * 01:17 MirahezeLSBot: [agent@mwtask171] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importDump.php --wiki=dharmapearlswiki dharmapearlswiki_xml_15f51d19236d5ee90959.xml --no-updates (END - exit=0)
@@ -4173,7 +4173,7 @@ title: Tech:Server admin log
 * 18:31 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/rebuildall.php --wiki=irondiceofwarwiki (START)
 * 18:30 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importDump.php --wiki=irondiceofwarwiki --no-updates --username-prefix=wikia:iron-dice-of-war-rpg /home/reception/irondiceofwarwiki-20240330181424.xml (END - exit=0)
 * 18:28 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importDump.php --wiki=irondiceofwarwiki --no-updates --username-prefix=wikia:iron-dice-of-war-rpg /home/reception/irondiceofwarwiki-20240330181424.xml (START)
-* 17:47 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=shinwikievangelionfrwiki /home/reception/shinwiki --search-recursively --summary=Imported from https://evangelion.fandom.com/fr (START)
+* 17:47 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=shinwikievangelionfrwiki /home/reception/shinwiki --search-recursively --summary=Imported from [https://evangelion.fandom.com/fr](https://evangelion.fandom.com/fr) (START)
 * 16:39 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.json /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/runJobs.php (END - exit=0)
 * 15:19 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.json /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/runJobs.php (START)
 * 05:56 MirahezeLSBot: [agent@mwtask171] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=4tourneywiki . --search-recursively --summary Importing from WikiTide version (END - exit=0)
@@ -4564,8 +4564,8 @@ title: Tech:Server admin log
 * 12:24 MirahezeLSBot: [@test151] starting deploy of {'folders': '1.42/extensions/MirahezeMagic'} to test151
 * 12:24 MirahezeLSBot: [@test151] finished deploy of {'folders': '1.41/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s
 * 12:23 MirahezeLSBot: [@test151] starting deploy of {'folders': '1.41/extensions/MirahezeMagic'} to test151
-* 07:37 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=clovercraftwiki --search-recursively /home/reception/clovercraft --summary=Imported from https://clovercraft.fandom.com (END - exit=0)
-* 07:01 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=clovercraftwiki --search-recursively /home/reception/clovercraft --summary=Imported from https://clovercraft.fandom.com (START)
+* 07:37 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=clovercraftwiki --search-recursively /home/reception/clovercraft --summary=Imported from [https://clovercraft.fandom.com](https://clovercraft.fandom.com) (END - exit=0)
+* 07:01 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=clovercraftwiki --search-recursively /home/reception/clovercraft --summary=Imported from [https://clovercraft.fandom.com](https://clovercraft.fandom.com) (START)
 
 ## 2024-03-24 
 
@@ -4648,22 +4648,22 @@ title: Tech:Server admin log
 * 11:36 MirahezeLSBot: [alex@mwtask181] finished deploy of {'files': '../mediawiki/1.41/extensions/SemanticMediaWiki/.smw.json'} to all - SUCCESS in 9s
 * 11:36 MirahezeLSBot: [alex@mwtask181] starting deploy of {'files': '../mediawiki/1.41/extensions/SemanticMediaWiki/.smw.json'} to all
 * 11:35 MirahezeLSBot: [alex@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/extensions/SemanticMediaWiki/maintenance/setupStore.php --wiki=lemmingmediawikiwiki (END - exit=0)
-* 09:13 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=bugfableswiki --search-recursively /home/reception/bugfables --summary=Imported from https://bugfables.fandom.com (END - exit=0)
+* 09:13 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=bugfableswiki --search-recursively /home/reception/bugfables --summary=Imported from [https://bugfables.fandom.com](https://bugfables.fandom.com) (END - exit=0)
 * 08:38 MirahezeLSBot: [salt-user@mwtask181] Renamed orthworldwiki to laculturewiki using renamewiki.py
 * 08:37 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/runJobs.php --wiki=gengbaikewiki (END - exit=0)
 * 08:36 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/runJobs.php --wiki=gengbaikewiki (START)
 * 08:36 Reception123: sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/extensions/CirrusSearch/maintenance/UpdateSearchIndexConfig.php --wiki=gengbaikewiki
 * 08:32 MirahezeLSBot: [salt-user@mwtask181] Renamed impostorswiki to malorittozwiki using renamewiki.py
-* 08:26 Reception123: sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=themanaworldwiki /home/reception/themanaworld --search-recursively --summary=Imported from https://wiki.themanaworld.org/index.php/
+* 08:26 Reception123: sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=themanaworldwiki /home/reception/themanaworld --search-recursively --summary=Imported from [https://wiki.themanaworld.org/index.php/](https://wiki.themanaworld.org/index.php/)
 * 07:07 MirahezeLSBot: [@mwtask171] finished deploy of {'config': True} to all - SUCCESS in 8s
 * 07:06 MirahezeLSBot: [@mwtask171] starting deploy of {'config': True} to all
 * 07:02 MirahezeLSBot: [@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 9s
 * 07:01 MirahezeLSBot: [@mwtask181] starting deploy of {'config': True} to all
 * 06:53 MirahezeLSBot: [@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
 * 06:53 MirahezeLSBot: [@test151] starting deploy of {'config': True} to test151
-* 06:48 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=bugfableswiki --search-recursively /home/reception/bugfables --summary=Imported from https://bugfables.fandom.com (START)
-* 06:48 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=bugfableswiki --search-recursively /home/reception/bugfables --summary=Imported from https://bugfables.fandom.com (END - exit=2)
-* 06:38 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=bugfableswiki --search-recursively /home/reception/bugfables --summary=Imported from https://bugfables.fandom.com (START)
+* 06:48 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=bugfableswiki --search-recursively /home/reception/bugfables --summary=Imported from [https://bugfables.fandom.com](https://bugfables.fandom.com) (START)
+* 06:48 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=bugfableswiki --search-recursively /home/reception/bugfables --summary=Imported from [https://bugfables.fandom.com](https://bugfables.fandom.com) (END - exit=2)
+* 06:38 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=bugfableswiki --search-recursively /home/reception/bugfables --summary=Imported from [https://bugfables.fandom.com](https://bugfables.fandom.com) (START)
 * 06:29 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/runJobs.php --wiki=321nailswiki (END - exit=0)
 * 06:29 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/runJobs.php --wiki=321nailswiki (START)
 * 06:18 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/runJobs.php --wiki=321nailswiki (END - exit=65280)
@@ -4774,10 +4774,10 @@ title: Tech:Server admin log
 * 17:29 @bluemoon0332: mhglobal: INSERT INTO localnames (ln_wiki, ln_name) VALUES ('kylariswiki', 'Thrace');
 * 14:57 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/refreshLinks.php --wiki=sublimelibrarywiki (END - exit=0)
 * 14:57 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/refreshLinks.php --wiki=sublimelibrarywiki (START)
-* 12:35 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=themanaworldwiki /home/reception/themanaworld --search-recursively --summary=Imported from https://wiki.themanaworld.org/index.php/ (END - exit=2)
-* 12:35 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=themanaworldwiki /home/reception/themanaworld --search-recursively --summary=Imported from https://wiki.themanaworld.org/index.php/ (START)
-* 12:35 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=themanaworldwiki /home/reception/themanaworld --search-recursively --summary=Imported from https://wiki.themanaworld.org/index.php/ (END - exit=2)
-* 12:35 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=themanaworldwiki /home/reception/themanaworld --search-recursively --summary=Imported from https://wiki.themanaworld.org/index.php/ (START)
+* 12:35 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=themanaworldwiki /home/reception/themanaworld --search-recursively --summary=Imported from [https://wiki.themanaworld.org/index.php/](https://wiki.themanaworld.org/index.php/) (END - exit=2)
+* 12:35 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=themanaworldwiki /home/reception/themanaworld --search-recursively --summary=Imported from [https://wiki.themanaworld.org/index.php/](https://wiki.themanaworld.org/index.php/) (START)
+* 12:35 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=themanaworldwiki /home/reception/themanaworld --search-recursively --summary=Imported from [https://wiki.themanaworld.org/index.php/](https://wiki.themanaworld.org/index.php/) (END - exit=2)
+* 12:35 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=themanaworldwiki /home/reception/themanaworld --search-recursively --summary=Imported from [https://wiki.themanaworld.org/index.php/](https://wiki.themanaworld.org/index.php/) (START)
 * 12:33 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importDump.php --wiki=themanaworldwiki --username-prefix=themanaworld /home/reception/themanaworld.xml --report 1 (START)
 * 12:33 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importDump.php --wiki=themanaworldwiki --username-prefix=themanaworld /home/reception/themanaworld.xml (END - exit=2)
 * 12:32 MirahezeLSBot: [@mwtask181] finished deploy of {'folders': '1.41/extensions/MirahezeMagic'} to all - SUCCESS in 9s
@@ -5963,8 +5963,8 @@ title: Tech:Server admin log
 * 19:11 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
 * 18:58 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
 * 18:58 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
-* 15:17 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=twowwiki --summary=Imported from https://ten-words-of-wisdom.fandom.com --search-recursively /home/reception/twow (END - exit=0)
-* 15:09 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=twowwiki --summary=Imported from https://ten-words-of-wisdom.fandom.com --search-recursively /home/reception/twow (START)
+* 15:17 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=twowwiki --summary=Imported from [https://ten-words-of-wisdom.fandom.com](https://ten-words-of-wisdom.fandom.com) --search-recursively /home/reception/twow (END - exit=0)
+* 15:09 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/importImages.php --wiki=twowwiki --summary=Imported from [https://ten-words-of-wisdom.fandom.com](https://ten-words-of-wisdom.fandom.com) --search-recursively /home/reception/twow (START)
 * 10:18 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/initSiteStats.php --wiki=twowwiki --active --update (END - exit=0)
 * 10:18 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/rebuildall.php --wiki=twowwiki (END - exit=0)
 * 10:17 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.41/maintenance/run.php /srv/mediawiki/1.41/maintenance/rebuildall.php --wiki=twowwiki (START)
@@ -6710,7 +6710,7 @@ title: Tech:Server admin log
 * 18:44 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'world': True, 'l10n': True, 'versions': ['1.40', '1.41']} to all
 * 18:43 MirahezeLSBot: [paladox@test151] starting deploy of {'config': True, 'world': True, 'l10n': True, 'force': True, 'versions': ['1.40', '1.41', '1.42']} to test151
 * 18:43 MirahezeLSBot: [paladox@test151] finished deploy of {'config': True, 'world': True, 'l10n': True, 'force': True, 'versions': ['1.40', '1.41', '1.42']} to test151 - SUCCESS in 861s
-* 18:37 Universal Omega: UPDATE oauth_registered_consumer SET oarc_name = 'Miraheze Issue Tracker', oarc_description = 'Miraheze Issue Tracker Production', oarc_callback_url = 'https://issue-tracker.miraheze.org/auth/login/mediawiki:mediawiki.meta/' WHERE oarc_consumer_key = '...';
+* 18:37 Universal Omega: UPDATE oauth_registered_consumer SET oarc_name = 'Miraheze Issue Tracker', oarc_description = 'Miraheze Issue Tracker Production', oarc_callback_url = ' [https://issue-tracker.miraheze.org/auth/login/mediawiki:mediawiki.meta/'](https://issue-tracker.miraheze.org/auth/login/mediawiki:mediawiki.meta/') WHERE oarc_consumer_key = '...';
 * 18:29 MirahezeLSBot: [paladox@test151] starting deploy of {'config': True, 'world': True, 'l10n': True, 'force': True, 'versions': ['1.40', '1.41', '1.42']} to test151
 * 18:29 MirahezeLSBot: [paladox@test151] DEPLOY ABORTED: Canary check failed for meta.mirabeta.org@localhost
 * 18:29 MirahezeLSBot: [paladox@test151] starting deploy of {'config': True, 'world': True, 'l10n': True, 'versions': ['1.40', '1.41', '1.42']} to test151
@@ -7519,7 +7519,7 @@ title: Tech:Server admin log
 * 23:28 MirahezeLSBot: [universalomega@test151] finished deploy of {'versions': ['1.40', '1.41', '1.42'], 'upgrade_extensions': 'CreateWiki'} to test151 - SUCCESS in 8s
 * 23:28 MirahezeLSBot: [universalomega@test151] starting deploy of {'versions': ['1.40', '1.41', '1.42'], 'upgrade_extensions': 'CreateWiki'} to test151
 * 21:33 MirahezeLSBot: [agent@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.json /srv/mediawiki/1.40/maintenance/run.php /srv/mediawiki/1.40/extensions/CreateWiki/maintenance/setContainersAccess.php (START)
-* 20:15 Universal Omega: apply https://raw.githubusercontent.com/wikimedia/mediawiki-extensions-OATHAuth/320d0c5d17d1fb902059ced24ccb6dc16bb33864/sql/mysql/tables-generated.sql on mhglobal
+* 20:15 Universal Omega: apply [https://raw.githubusercontent.com/wikimedia/mediawiki-extensions-OATHAuth/320d0c5d17d1fb902059ced24ccb6dc16bb33864/sql/mysql/tables-generated.sql](https://raw.githubusercontent.com/wikimedia/mediawiki-extensions-OATHAuth/320d0c5d17d1fb902059ced24ccb6dc16bb33864/sql/mysql/tables-generated.sql) on mhglobal
 * 20:09 MirahezeLSBot: [universalomega@test151] finished deploy of {'versions': ['1.40', '1.41', '1.42'], 'upgrade_extensions': 'ImportDump'} to test151 - SUCCESS in 7s
 * 20:09 MirahezeLSBot: [universalomega@test151] starting deploy of {'versions': ['1.40', '1.41', '1.42'], 'upgrade_extensions': 'ImportDump'} to test151
 * 20:08 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.40', '1.41'], 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 104s
@@ -7580,7 +7580,7 @@ title: Tech:Server admin log
 * 07:34 MirahezeLSBot: [reception@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
 * 07:34 MirahezeLSBot: [reception@mwtask141] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
 * 07:34 MirahezeLSBot: [reception@mwtask141] starting deploy of {'pull': 'config', 'config': True, 'versions': ['1.40']} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask141, mwtask181]
-* 07:12 Reception123: DELETED AND DROPPED https://phabricator.miraheze.org/P497
+* 07:12 Reception123: DELETED AND DROPPED [https://phabricator.miraheze.org/P497](https://phabricator.miraheze.org/P497)
 * 06:38 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/1.40/maintenance/run.php /srv/mediawiki/1.40/maintenance/initSiteStats.php --wiki=321nailswiki --active --update (END - exit=0)
 * 06:38 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/1.40/maintenance/run.php /srv/mediawiki/1.40/maintenance/rebuildall.php --wiki=321nailswiki (END - exit=0)
 * 06:38 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/1.40/maintenance/run.php /srv/mediawiki/1.40/maintenance/rebuildall.php --wiki=321nailswiki (START)
@@ -7748,7 +7748,7 @@ title: Tech:Server admin log
 * 22:01 MirahezeLSBot: [@mwtask181] starting deploy of {'folders': '1.40/extensions/MirahezeMagic', 'versions': [*]} to [mw131, mw132, mw133, mw134, mw141, mw142, mw143, mw181, mw182, mwtask181]
 * 21:57 MirahezeLSBot: [@test131] finished deploy of {'folders': '1.41/extensions/MirahezeMagic', 'versions': [*]} to [test131] - SUCCESS in 0s
 * 21:57 MirahezeLSBot: [@test131] starting deploy of {'folders': '1.41/extensions/MirahezeMagic', 'versions': [*]} to [test131]
-* 10:19 Reception123: DELETED and DROPPED https://phabricator.miraheze.org/P496
+* 10:19 Reception123: DELETED and DROPPED [https://phabricator.miraheze.org/P496](https://phabricator.miraheze.org/P496)
 * 07:12 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/1.40/maintenance/run.php /srv/mediawiki/1.40/maintenance/initSiteStats.php --wiki=riskuniversaliswiki --active --update (END - exit=0)
 * 07:12 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/1.40/maintenance/run.php /srv/mediawiki/1.40/maintenance/rebuildall.php --wiki=riskuniversaliswiki (END - exit=0)
 * 07:06 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/1.40/maintenance/run.php /srv/mediawiki/1.40/maintenance/rebuildall.php --wiki=riskuniversaliswiki (START)
@@ -7874,7 +7874,7 @@ title: Tech:Server admin log
 * 13:15 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'world': True, 'versions': ['1.40']} to [mwtask181]
 * 11:01 MirahezeLSBot: [salt-user@mwtask141] Renamed thatgaypigeonwiki to pigeonwiki using renamewiki.py
 * 10:54 Reception123: RENAMED  orbitronwiki luckbychancewiki
-* 08:43 Reception123: DELETED AND DROPPED https://phabricator.miraheze.org/P495
+* 08:43 Reception123: DELETED AND DROPPED [https://phabricator.miraheze.org/P495](https://phabricator.miraheze.org/P495)
 * 06:41 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/1.40/maintenance/run.php /srv/mediawiki/1.40/maintenance/initSiteStats.php --wiki=4chanintwiki --active --update (END - exit=0)
 * 06:41 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/1.40/maintenance/run.php /srv/mediawiki/1.40/maintenance/rebuildall.php --wiki=4chanintwiki (END - exit=0)
 * 06:39 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/1.40/maintenance/run.php /srv/mediawiki/1.40/maintenance/rebuildall.php --wiki=4chanintwiki (START)
@@ -7960,7 +7960,7 @@ title: Tech:Server admin log
 * 19:55 Universal Omega: [cloud13] sudo qm reboot 136
 * 14:49 MirahezeLSBot: [@mwtask141] finished deploy of {'config': True} to all - SUCCESS in 66s
 * 14:48 MirahezeLSBot: [@mwtask141] starting deploy of {'config': True} to all
-* 14:37 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/run.php /srv/mediawiki/w/maintenance/importImages.php --wiki=shaperaversewiki /home/reception/shaperaverse --summary=Imported from https://shaperaverse.fandom.com --search-recursively (START)
+* 14:37 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/run.php /srv/mediawiki/w/maintenance/importImages.php --wiki=shaperaversewiki /home/reception/shaperaverse --summary=Imported from [https://shaperaverse.fandom.com](https://shaperaverse.fandom.com) --search-recursively (START)
 * 01:39 MirahezeLSBot: [@mwtask141] finished deploy of {'config': True} to all - SUCCESS in 13s
 * 01:39 MirahezeLSBot: [@mwtask141] starting deploy of {'config': True} to all
 * 01:26 MirahezeLSBot: [@test131] finished deploy of {'config': True} to all - SUCCESS in 0s
@@ -8173,4 +8173,4 @@ title: Tech:Server admin log
 * 00:55 MirahezeLSBot: [agent@mwtask141] starting deploy of {'world': True} to all
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Server_admin_log
+**Source**: [https://meta.miraheze.org/wiki/Tech:Server_admin_log](https://meta.miraheze.org/wiki/Tech:Server_admin_log)

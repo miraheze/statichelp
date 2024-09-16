@@ -27,4 +27,4 @@ It should be noted that it is a good idea to add any configuration variable the 
 [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Adding_a_new_extension
+**Source**: [https://meta.miraheze.org/wiki/Tech:Adding_a_new_extension](https://meta.miraheze.org/wiki/Tech:Adding_a_new_extension)

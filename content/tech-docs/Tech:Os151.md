@@ -23,4 +23,4 @@ title: Tech:Os151
 **os151** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a server that hosts OpenSearch.
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Os151
+**Source**: [https://meta.miraheze.org/wiki/Tech:Os151](https://meta.miraheze.org/wiki/Tech:Os151)

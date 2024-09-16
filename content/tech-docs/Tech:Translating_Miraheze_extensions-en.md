@@ -18,4 +18,4 @@ Currently, Miraheze uses [translatewiki.net](https://meta.miraheze.org/wiki/tran
 [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/en
+**Source**: [https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/en](https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/en)

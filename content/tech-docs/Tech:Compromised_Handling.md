@@ -96,4 +96,4 @@ Under EU law, we're required to notify all European users in the event of a brea
 [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Compromised_Handling
+**Source**: [https://meta.miraheze.org/wiki/Tech:Compromised_Handling](https://meta.miraheze.org/wiki/Tech:Compromised_Handling)

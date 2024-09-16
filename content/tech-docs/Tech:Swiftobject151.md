@@ -23,4 +23,4 @@ title: Tech:Swiftobject151
 **swiftobject151** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a [Swift](https://meta.miraheze.org/wiki/Tech:Swift) object storage server.
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Swiftobject151
+**Source**: [https://meta.miraheze.org/wiki/Tech:Swiftobject151](https://meta.miraheze.org/wiki/Tech:Swiftobject151)

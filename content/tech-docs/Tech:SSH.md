@@ -56,4 +56,4 @@ Host *.wikitide.net
    * With the exception that for "Local proxy command", you must use the full path to plink. For example, '"C:\\Program Files\\PuTTY\\plink.exe" %user@%proxyhost -nc %host:%port -pw %pass'.
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:SSH
+**Source**: [https://meta.miraheze.org/wiki/Tech:SSH](https://meta.miraheze.org/wiki/Tech:SSH)

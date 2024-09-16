@@ -28,4 +28,4 @@ If it is not appropriate to fully remove an extension, but the extension should 
 [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Removing_an_extension
+**Source**: [https://meta.miraheze.org/wiki/Tech:Removing_an_extension](https://meta.miraheze.org/wiki/Tech:Removing_an_extension)

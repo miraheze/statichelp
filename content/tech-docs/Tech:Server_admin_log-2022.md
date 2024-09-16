@@ -53,7 +53,7 @@ title: Tech:Server admin log/2022
 * 17:56 MirahezeLSBot: [universalomega@mwtask141] starting deploy of {'world': True} to all
 * 17:40 MirahezeLSBot: [universalomega@mwtask141] Running: sudo -u www-data php /srv/mediawiki/w/maintenance/createAndPromote.php BristolSHC --bureaucrat --sysop --force --wiki bristolstudenthousingcoopwiki
 * 17:40 MirahezeLSBot: [universalomega@mwtask141] Running: sudo -u www-data php /srv/mediawiki/w/extensions/CreateWiki/maintenance/populateMainPage.php --wiki bristolstudenthousingcoopwiki
-* 17:28 paladox: apply https://github.com/wikimedia/mediawiki-extensions-AbuseFilter/blob/REL1_38/db_patches/mysql/patch-split-afl_filter.sql to astrobiologywiki
+* 17:28 paladox: apply [https://github.com/wikimedia/mediawiki-extensions-AbuseFilter/blob/REL1_38/db_patches/mysql/patch-split-afl_filter.sql](https://github.com/wikimedia/mediawiki-extensions-AbuseFilter/blob/REL1_38/db_patches/mysql/patch-split-afl_filter.sql) to astrobiologywiki
 * 17:26 MirahezeLSBot: [paladox@test131] finished deploy of {'world': True, 'l10n': True} to all - SUCCESS in 298s
 * 17:21 MirahezeLSBot: [paladox@test131] starting deploy of {'world': True, 'l10n': True} to all
 * 17:20 MirahezeLSBot: [paladox@mwtask141] starting deploy of {'world': True, 'l10n': True} to all
@@ -67,7 +67,7 @@ title: Tech:Server admin log/2022
 * 15:18 MirahezeLSBot: [paladox@mwtask141] starting deploy of {'config': True} to all
 * 15:18 MirahezeLSBot: [paladox@mwtask141] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 7s
 * 15:18 MirahezeLSBot: [paladox@mwtask141] starting deploy of {'pull': 'config', 'config': True} to all
-* 14:50 paladox: apply https://github.com/wikimedia/mediawiki-extensions-AbuseFilter/blob/REL1_38/db_patches/mysql/patch-split-afl_filter.sql to higyaanipediawiki
+* 14:50 paladox: apply [https://github.com/wikimedia/mediawiki-extensions-AbuseFilter/blob/REL1_38/db_patches/mysql/patch-split-afl_filter.sql](https://github.com/wikimedia/mediawiki-extensions-AbuseFilter/blob/REL1_38/db_patches/mysql/patch-split-afl_filter.sql) to higyaanipediawiki
 * 09:40 MirahezeLSBot: [universalomega@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildImages.php --wiki=hangoverswiki --missing (END - exit=65280)
 * 09:29 MirahezeLSBot: [universalomega@mwtask141] sudo -u www-data php /srv/mediawiki/w/extensions/MirahezeMagic/maintenance/assignImportedEdits.php --wiki=comprehensibleinputwiki (END - exit=0)
 * 09:15 MirahezeLSBot: [universalomega@mwtask141] Running: sudo -u www-data php /srv/mediawiki/w/maintenance/createAndPromote.php Michato --bureaucrat --sysop --force --wiki thelemarnewworldwiki
@@ -3971,13 +3971,13 @@ title: Tech:Server admin log/2022
 * 15:51 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildall.php --wiki=kilroywiki (START)
 * 15:51 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=kilroywiki --no-updates --username-prefix=mh:kilroy /home/reception/ImportDump/kilroywiki-20221205220327.xml (END - exit=0)
 * 15:51 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=kilroywiki --no-updates --username-prefix=mh:kilroy /home/reception/ImportDump/kilroywiki-20221205220327.xml (START)
-* 08:40 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=hangoverswiki --summary=Imported from http://34.239.177.44 --search-recursively /home/reception/hangoverswiki --user Miraheze_maintenance_script (END - exit=0)
+* 08:40 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=hangoverswiki --summary=Imported from [http://34.239.177.44](http://34.239.177.44) --search-recursively /home/reception/hangoverswiki --user Miraheze_maintenance_script (END - exit=0)
 * 08:05 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/initSiteStats.php --wiki=fictiontopiawiki --active --update (END - exit=0)
 * 08:05 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildall.php --wiki=fictiontopiawiki (END - exit=0)
 * 07:34 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildall.php --wiki=fictiontopiawiki (START)
 * 07:34 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=fictiontopiawiki --no-updates --username-prefix=ficreationwiki /home/reception/ficreationwiki_xml_d3f3e37ea661d156c84e.xml (END - exit=0)
 * 06:33 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=fictiontopiawiki --no-updates --username-prefix=ficreationwiki /home/reception/ficreationwiki_xml_d3f3e37ea661d156c84e.xml (START)
-* 06:31 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=hangoverswiki --summary=Imported from http://34.239.177.44 --search-recursively /home/reception/hangoverswiki --user Miraheze_maintenance_script (START)
+* 06:31 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=hangoverswiki --summary=Imported from [http://34.239.177.44](http://34.239.177.44) --search-recursively /home/reception/hangoverswiki --user Miraheze_maintenance_script (START)
 * 06:01 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/initSiteStats.php --wiki=hangoverswiki --active --update (END - exit=0)
 * 06:01 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildall.php --wiki=hangoverswiki (END - exit=0)
 * 05:59 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildall.php --wiki=hangoverswiki (START)
@@ -6837,7 +6837,7 @@ title: Tech:Server admin log/2022
 * 02:05 Universal Omega: restart nutcracker on mw131 and mw132
 * 02:04 Universal Omega: make local hacks to MirahezeFunctions.php to allow databases.json to be regenerated on mw121
 * 02:04 Universal Omega: rm -rf /tmp/*_*.gif on mw121
-* 02:04 Universal Omega: run composer install in /srv/mediawiki/w and everything in https://github.com/miraheze/puppet/blob/master/modules/mediawiki/manifests/extensionsetup.pp on test131
+* 02:04 Universal Omega: run composer install in /srv/mediawiki/w and everything in [https://github.com/miraheze/puppet/blob/master/modules/mediawiki/manifests/extensionsetup.pp](https://github.com/miraheze/puppet/blob/master/modules/mediawiki/manifests/extensionsetup.pp) on test131
 * 02:04 Universal Omega: sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildLocalisationCache.php --wiki=loginwiki on test131
 * 02:00 Universal Omega: test
 
@@ -6863,7 +6863,7 @@ title: Tech:Server admin log/2022
 
 ## 2022-11-16 
 
-* 22:03 Universal Omega: manually apply https://github.com/miraheze/MirahezeMagic/pull/377 and rebuildLocalisationCache.php --lang=en on mw12* and mw13*
+* 22:03 Universal Omega: manually apply [https://github.com/miraheze/MirahezeMagic/pull/377](https://github.com/miraheze/MirahezeMagic/pull/377) and rebuildLocalisationCache.php --lang=en on mw12* and mw13*
 * 20:13 Reception123: manually removed c3 from CW database clusters by hacking LocalSettings.php on mw12* mw13*
 * 20:07 Universal Omega: create an account for void on cloud14 iDRAC
 * 15:27 paladox: gracefully shutting down cloud14
@@ -7599,7 +7599,7 @@ title: Tech:Server admin log/2022
 
 * 21:33 paladox: restart mysql on db121
 * 10:44 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/deleteBatch.php --wiki=monstergirlencyclopediawiki --r=Requested at [[phab:T9754
-* 06:53 Reception123: DELETED AND DROPPED https://phabricator.miraheze.org/P472 (PART II)
+* 06:53 Reception123: DELETED AND DROPPED [https://phabricator.miraheze.org/P472](https://phabricator.miraheze.org/P472) (PART II)
 * 05:01 MirahezeLSBot: [reception@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/deleteBatch.php --wiki=monstergirlencyclopediawiki --r=Requested at [[phab:T9754
 * 04:51 Universal Omega: starting cloud11 up again
 
@@ -7610,7 +7610,7 @@ title: Tech:Server admin log/2022
 * 21:33 MirahezeLSBot: [universalomega@test131] starting deploy of {'world': True} to all
 * 21:32 MirahezeLSBot: [universalomega@mwtask141] starting deploy of {'world': True} to all
 * 20:47 Universal Omega: shutdown cloud11 again, am going to rebuild the array configuration (and also have to re-install OS once again)
-* 20:39 Reception123: DELETED AND DROPPED https://phabricator.miraheze.org/P471 (PART I)
+* 20:39 Reception123: DELETED AND DROPPED [https://phabricator.miraheze.org/P471](https://phabricator.miraheze.org/P471) (PART I)
 * 17:43 Universal Omega: shutdown cloud11 to try recovery for disk
 * 17:42 MirahezeLSBot: [paladox@test131] finished deploy of {'pull': 'world', 'world': True} to test131 - SUCCESS in 216s
 * 17:41 Universal Omega: shutdown all VMs on cloud11
@@ -8737,7 +8737,7 @@ title: Tech:Server admin log/2022
 
 ## 2022-09-10 
 
-* 23:41 Universal Omega: sudo -u www-data git clone https://github.com/miraheze/mediawiki /srv/mediawiki-staging/w --branch=REL1_39 --recurse-submodules on test131
+* 23:41 Universal Omega: sudo -u www-data git clone [https://github.com/miraheze/mediawiki](https://github.com/miraheze/mediawiki) /srv/mediawiki-staging/w --branch=REL1_39 --recurse-submodules on test131
 * 23:37 Universal Omega: rm -rf  /srv/mediawiki-staging/w on test131
 * 09:40 MirahezeLSBot: [@mwtask141] finished deploy of {'config': True} to all - SUCCESS in 9s
 * 09:40 MirahezeLSBot: [@mwtask141] starting deploy of {'config': True} to all
@@ -8801,7 +8801,7 @@ title: Tech:Server admin log/2022
 ## 2022-09-07 
 
 * 23:45 paladox: install nsic6 and traceroute on bast101
-* 23:43 Universal Omega: locally applied https://github.com/braedon/prometheus-es-exporter/pull/59 on es131
+* 23:43 Universal Omega: locally applied [https://github.com/braedon/prometheus-es-exporter/pull/59](https://github.com/braedon/prometheus-es-exporter/pull/59) on es131
 * 16:39 MirahezeLSBot: [@mwtask141] finished deploy of {'config': True} to all - SUCCESS in 9s
 * 16:39 MirahezeLSBot: [@mwtask141] starting deploy of {'config': True} to all
 * 16:27 MirahezeLSBot: [@test131] finished deploy of {'config': True} to all - SUCCESS in 0s
@@ -9152,7 +9152,7 @@ title: Tech:Server admin log/2022
 * 06:25 Reception123: manually delete all localuser/localnames entries for deleted wikis below
 * 05:35 Reception123: DELETE FROM localuser WHERE lu_wiki = 'horrendousanimatorswiki';
 * 05:35 Reception123: > DELETE FROM localnames WHERE ln_wiki = 'horrendousanimatorswiki';
-* 05:17 Reception123: DELETED and DROPPED https://phabricator.miraheze.org/P468
+* 05:17 Reception123: DELETED and DROPPED [https://phabricator.miraheze.org/P468](https://phabricator.miraheze.org/P468)
 * 05:08 paladox: install ndisc6 on cp20
 * 00:40 Universal Omega: MariaDB [mhglobal]> DELETE FROM localnames WHERE ln_wiki = 'windowswiki';
 * 00:40 Universal Omega: MariaDB [mhglobal]> DELETE FROM localnames WHERE ln_wiki = 'wikipanelwiki';
@@ -9391,7 +9391,7 @@ title: Tech:Server admin log/2022
 * 16:39 MirahezeLSBot: [@mwtask141] starting deploy of {'config': True} to all
 * 16:27 MirahezeLSBot: [@test131] finished deploy of {'config': True} to all - SUCCESS in 0s
 * 16:27 MirahezeLSBot: [@test131] starting deploy of {'config': True} to all
-* 16:25 paladox: increase prometheus131 ram by 1g - https://phabricator.miraheze.org/T9599
+* 16:25 paladox: increase prometheus131 ram by 1g - [https://phabricator.miraheze.org/T9599](https://phabricator.miraheze.org/T9599)
 * 05:27 MirahezeLSBot: [@test131] finished deploy of {'config': True} to all - SUCCESS in 0s
 * 05:26 MirahezeLSBot: [@test131] starting deploy of {'config': True} to all
 * 05:04 MirahezeLSBot: [@mwtask141] finished deploy of {'config': True} to all - SUCCESS in 41s
@@ -9645,7 +9645,7 @@ title: Tech:Server admin log/2022
 * 06:06 MirahezeLSBot: [paladox@mwtask141] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mw122.miraheze.org
 * 00:26 MirahezeLSBot: [@test131] finished deploy of {'config': True} to all - SUCCESS in 0s
 * 00:26 MirahezeLSBot: [@test131] starting deploy of {'config': True} to all
-* 00:23 paladox: deploy https://github.com/miraheze/puppet/pull/2764 to gluster* as a experiment
+* 00:23 paladox: deploy [https://github.com/miraheze/puppet/pull/2764](https://github.com/miraheze/puppet/pull/2764) to gluster* as a experiment
 * 00:12 MirahezeLSBot: [paladox@mwtask141] finished deploy of {'pull': 'config', 'config': True, 'force': True} to all - SUCCESS in 8s
 * 00:11 MirahezeLSBot: [paladox@mwtask141] starting deploy of {'pull': 'config', 'config': True, 'force': True} to all
 * 00:11 MirahezeLSBot: [@mwtask141] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mw121.miraheze.org
@@ -10033,7 +10033,7 @@ title: Tech:Server admin log/2022
 ## 2022-07-25 
 
 * 22:14 paladox: reverted
-* 21:38 paladox: apply https://github.com/miraheze/puppet/pull/2703 on puppetserver
+* 21:38 paladox: apply [https://github.com/miraheze/puppet/pull/2703](https://github.com/miraheze/puppet/pull/2703) on puppetserver
 * 19:58 MirahezeLSBot: [reception@test101] finished deploy of {'world': True, 'l10n': True} to all - SUCCESS in 1381s
 * 06:26 MirahezeLSBot: [@test101] finished deploy of {'config': True} to all - SUCCESS in 1s
 * 06:26 MirahezeLSBot: [@test101] starting deploy of {'config': True} to all
@@ -10482,7 +10482,7 @@ title: Tech:Server admin log/2022
 * 20:54 MirahezeLSBot: [universalomega@test101] finished deploy of {'pull': 'config', 'branch': 'Universal-Omega-patch-4', 'config': True} to all - SUCCESS in 2s
 * 20:54 MirahezeLSBot: [universalomega@test101] starting deploy of {'pull': 'config', 'branch': 'Universal-Omega-patch-4', 'config': True} to all
 * 13:58 paladox: reboot matomo101
-* 13:58 paladox: increase matomo101 ram by 1gb - https://phabricator.miraheze.org/T9430
+* 13:58 paladox: increase matomo101 ram by 1gb - [https://phabricator.miraheze.org/T9430](https://phabricator.miraheze.org/T9430)
 * 13:22 MirahezeLSBot: [reception@mwtask111] sudo -u www-data php /srv/mediawiki/w/maintenance/runJobs.php --wiki=ysmwikiwiki --memory-limit=160000000 (END - exit=0)
 * 12:53 MirahezeLSBot: [reception@mwtask111] sudo -u www-data php /srv/mediawiki/w/maintenance/runJobs.php --wiki=ysmwikiwiki (END - exit=65280)
 * 08:58 MirahezeLSBot: [@test101] finished deploy of {'config': True} to all - SUCCESS in 1s
@@ -10998,9 +10998,9 @@ title: Tech:Server admin log/2022
 * 18:27 MirahezeLSBot: [universalomega@mwtask111] starting deploy of {'pull': 'config', 'config': True} to all
 * 18:07 MirahezeLSBot: [@test101] finished deploy of {'config': True} to all - SUCCESS in 12s
 * 18:07 MirahezeLSBot: [@test101] starting deploy of {'config': True} to all
-* 17:47 Reception123: DELETED and DROPPED https://phabricator.miraheze.org/P466 (dbs that had no entries in cw_wikis)
+* 17:47 Reception123: DELETED and DROPPED [https://phabricator.miraheze.org/P466](https://phabricator.miraheze.org/P466) (dbs that had no entries in cw_wikis)
 * 12:40 paladox: matomo101: ./console core:delete-logs-data --dates=2015-01-01,2020-06-14
-* 12:30 Reception123: DELETED and DROPPED https://phabricator.miraheze.org/P465
+* 12:30 Reception123: DELETED and DROPPED [https://phabricator.miraheze.org/P465](https://phabricator.miraheze.org/P465)
 * 12:29 paladox: starting mysql on db112
 * 12:21 paladox: stop mysql on db112 to clean bin logs manually as due to full disk the purge command is stalled.
 * 12:19 paladox: db112: MariaDB [(none)]> PURGE BINARY LOGS BEFORE '2022-06-16 00:00:00';
@@ -11010,7 +11010,7 @@ title: Tech:Server admin log/2022
 
 ## 2022-06-14 
 
-* 20:05 Reception123: DELETED and DROPPED https://phabricator.miraheze.org/P464 (PART 1)
+* 20:05 Reception123: DELETED and DROPPED [https://phabricator.miraheze.org/P464](https://phabricator.miraheze.org/P464) (PART 1)
 * 19:49 paladox: restart db121 mariadb (it OOM'd)
 * 17:53 MirahezeLSBot: [@mwtask111] finished deploy of {'config': True} to all - SUCCESS in 17s
 * 17:53 MirahezeLSBot: [@mwtask111] starting deploy of {'config': True} to all
@@ -11822,7 +11822,7 @@ title: Tech:Server admin log/2022
 * 12:46 MirahezeLSBot: [reception@mwtask111] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.json /srv/mediawiki/w/maintenance/runJobs.php --type=htmlCacheUpdate (END - exit=0)
 * 11:31 MirahezeLSBot: [reception@mwtask111] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.json /srv/mediawiki/w/maintenance/runJobs.php --type=htmlCacheUpdate (START)
 * 11:23 MirahezeLSBot: [reception@mwtask111] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=webkinzguidewiki --report 1 --username-prefix=webkinzpictureguide --no-updates /home/reception/webkinzguide/webkinzpictureguideshoutwikicom_w-20220524-wikidump/webkinzpictureguideshoutwikicom_w-20220524-history.xml (END - exit=2)
-* 11:19 Reception123: reception@mwtask111:~$ sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=webkinzguidewiki --search-recursively /home/reception/webkinzguide --user=Miraheze_maintenance_script --sleep --comment="Imported from http://webkinzpictureguide.shoutwiki.com"
+* 11:19 Reception123: reception@mwtask111:~$ sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=webkinzguidewiki --search-recursively /home/reception/webkinzguide --user=Miraheze_maintenance_script --sleep --comment="Imported from [http://webkinzpictureguide.shoutwiki.com](http://webkinzpictureguide.shoutwiki.com)"
 * 11:16 MirahezeLSBot: [reception@mwtask111] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=webkinzguidewiki --report 1 --username-prefix=webkinzpictureguide --no-updates /home/reception/webkinzguide/webkinzpictureguideshoutwikicom_w-20220524-wikidump/webkinzpictureguideshoutwikicom_w-20220524-history.xml (START)
 * 11:16 MirahezeLSBot: [reception@mwtask111] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=webkinzguidewiki --report 1 --username-prefix=webkinzpictureguide --no-updates /home/reception/webkinzpictureguideshoutwikicom_w-20220524-history.xml (END - exit=256)
 * 11:16 MirahezeLSBot: [reception@mwtask111] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=webkinzguidewiki --report 1 --username-prefix=webkinzpictureguide --no-updates /home/reception/webkinzpictureguideshoutwikicom_w-20220524-history.xml (START)
@@ -12123,7 +12123,7 @@ title: Tech:Server admin log/2022
 * 19:25 MirahezeLSBot: [@mwtask111] starting deploy of {'config': True} to all
 * 19:20 MirahezeLSBot: [universalomega@test101] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 34s
 * 19:20 MirahezeLSBot: [universalomega@test101] starting deploy of {'pull': 'config', 'config': True} to all
-* 19:11 Universal Omega: sudo -u www-data http_proxy=http://bast.miraheze.org:8080 composer install --no-dev on test101
+* 19:11 Universal Omega: sudo -u www-data http_proxy= [http://bast.miraheze.org:8080](http://bast.miraheze.org:8080) composer install --no-dev on test101
 * 19:10 MirahezeLSBot: [universalomega@test101] starting deploy of {'world': True, 'l10n': True} to all
 * 19:09 MirahezeLSBot: [universalomega@test101] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
 * 19:04 MirahezeLSBot: [universalomega@test101] starting deploy of {'world': True, 'l10n': True} to all
@@ -12462,7 +12462,7 @@ title: Tech:Server admin log/2022
 * 17:19 MirahezeLSBot: [@test101] finished deploy of {'config': True} to all - SUCCESS in 0s
 * 17:19 MirahezeLSBot: [@test101] starting deploy of {'config': True} to all
 * 17:05 MirahezeLSBot: [reception@mwtask111] starting deploy of {'config': True, 'l10n': True} to all
-* 17:03 Reception123: DELETED and DROPPED https://phabricator.miraheze.org/P461
+* 17:03 Reception123: DELETED and DROPPED [https://phabricator.miraheze.org/P461](https://phabricator.miraheze.org/P461)
 * 16:51 MirahezeLSBot: [reception@mwtask111] starting deploy of {'world': True, 'l10n': True} to all
 * 13:04 Reception123: reception@mwtask111:~$ sudo -u www-data php /srv/mediawiki/w/extensions/CreateWiki/maintenance/deleteWikis.php --wiki=loginwiki --delete Reception123
 * 08:52 MirahezeLSBot: [@mwtask111] finished deploy of {'config': True} to all - SUCCESS in 7s
@@ -12844,7 +12844,7 @@ title: Tech:Server admin log/2022
 * 22:31 MirahezeLSBot: [universalomega@test101] finished deploy of {'config': True} to all - SUCCESS in 0s
 * 22:31 MirahezeLSBot: [universalomega@test101] starting deploy of {'config': True} to all
 * 21:27 paladox: cp* varnishadm param.set default_ttl 3600
-* 21:06 paladox: apply https://github.com/miraheze/puppet/pull/2507 temporarily to cp* to monitor
+* 21:06 paladox: apply [https://github.com/miraheze/puppet/pull/2507](https://github.com/miraheze/puppet/pull/2507) temporarily to cp* to monitor
 * 15:52 MirahezeLSBot: [@mwtask111] finished deploy of {'config': True} to all - SUCCESS in 15s
 * 15:52 MirahezeLSBot: [@mwtask111] starting deploy of {'config': True} to all
 * 15:23 paladox: stop prometheus and prometheus-blackbox-exporter on mon111
@@ -14384,7 +14384,7 @@ title: Tech:Server admin log/2022
 * 12:12 MirahezeLSBot: [@test101] finished deploy of {'config': True} to skip - SUCCESS in 0s
 * 12:12 MirahezeLSBot: [@test101] starting deploy of {'config': True} to skip
 * 11:50 RhinosF1: same in production
-* 11:47 RhinosF1: https://gerrit.wikimedia.org/r/c/mediawiki/extensions/CentralAuth/+/743661/5/db_patches/patch-gu_hidden_normalize.sql in beta
+* 11:47 RhinosF1: [https://gerrit.wikimedia.org/r/c/mediawiki/extensions/CentralAuth/+/743661/5/db_patches/patch-gu_hidden_normalize.sql](https://gerrit.wikimedia.org/r/c/mediawiki/extensions/CentralAuth/+/743661/5/db_patches/patch-gu_hidden_normalize.sql) in beta
 * 01:51 MirahezeLSBot: [macfan@mwtask111] finished deploy of {'world': True} to all - SUCCESS in 362s
 * 01:45 MirahezeLSBot: [macfan@mwtask111] starting deploy of {'world': True} to all
 * 01:02 MirahezeLSBot: [macfan@mwtask111] finished deploy of {'world': True} to skip - SUCCESS in 388s
@@ -14707,9 +14707,9 @@ title: Tech:Server admin log/2022
 * 14:43 MirahezeLSBot: [rhinos@test101] starting deploy of {'world': True} to all
 * 13:40 Reception123: (spektrowiki)
 * 13:40 Reception123: > INSERT INTO content_models (model_id, model_name) VALUES (1, 'wikitext'); INSERT INTO content_models (model_id, model_name) VALUES (2, 'css'); INSERT INTO content_models (model_id, model_name) VALUES (3, 'javascript'); INSERT INTO content_models (model_id, model_name) VALUES (4, 'Scribunto'); INSERT INTO content_models (model_id, model_name) VALUES (5, 'json');
-* 12:17 MirahezeLSBot: [rhinos@test101] DEPLOY ABORTED: Canary check failed for beta.betaheze.org@https://localhost
-* 12:14 MirahezeLSBot: [rhinos@test101] DEPLOY ABORTED: Canary check failed for beta.betaheze.org@https://localhost
-* 12:14 MirahezeLSBot: [rhinos@test101] DEPLOY ABORTED: Canary check failed for beta.betaheze.org@https://localhost
+* 12:17 MirahezeLSBot: [rhinos@test101] DEPLOY ABORTED: Canary check failed for beta.betaheze.org@ [https://localhost](https://localhost)
+* 12:14 MirahezeLSBot: [rhinos@test101] DEPLOY ABORTED: Canary check failed for beta.betaheze.org@ [https://localhost](https://localhost)
+* 12:14 MirahezeLSBot: [rhinos@test101] DEPLOY ABORTED: Canary check failed for beta.betaheze.org@ [https://localhost](https://localhost)
 * 09:53 MirahezeLSBot: [@mwtask111] finished deploy of {'config': True} to all - SUCCESS in 9s
 * 09:52 MirahezeLSBot: [@mwtask111] starting deploy of {'config': True} to all
 * 09:48 MirahezeLSBot: [@test101] DEPLOY ABORTED: Canary check failed for localhost
@@ -14804,17 +14804,17 @@ title: Tech:Server admin log/2022
 * 23:00 MirahezeLSBot: [@test101] starting deploy of {'l10nupdate': True} to skip
 * 15:14 MirahezeLSBot: [rhinos@test101] starting deploy of {'pull': 'world,config', 'config': True, 'world': True, 'landing': True, 'l10n': True, 'extensionlist': True} to skip
 * 15:13 MirahezeLSBot: [rhinos@test101] starting deploy of {'pull': 'world,config', 'config': True, 'world': True, 'landing': True, 'l10n': True, 'extensionlist': True} to skip
-* 15:12 MirahezeLSBot: [rhinos@test101] DEPLOY ABORTED: Canary check failed for beta.betaheze.org@https://localhost
+* 15:12 MirahezeLSBot: [rhinos@test101] DEPLOY ABORTED: Canary check failed for beta.betaheze.org@ [https://localhost](https://localhost)
 * 15:07 MirahezeLSBot: [rhinos@test101] starting deploy of {'pull': 'world,config', 'config': True, 'world': True, 'landing': True, 'l10n': True, 'extensionlist': True} to skip
-* 14:48 MirahezeLSBot: [rhinos@test101] DEPLOY ABORTED: Canary check failed for beta.betaheze.org@https://localhost
-* 14:44 MirahezeLSBot: [rhinos@test101] DEPLOY ABORTED: Canary check failed for beta.betaheze.org@https://localhost
-* 14:43 MirahezeLSBot: [rhinos@test101] DEPLOY ABORTED: Canary check failed for beta.betaheze.org@https://localhost
-* 13:24 MirahezeLSBot: [rhinos@test101] DEPLOY ABORTED: Canary check failed for https://localhost@https://meta.miraheze.org
-* 13:23 MirahezeLSBot: [rhinos@test101] DEPLOY ABORTED: Canary check failed for https://localhost@https://meta.miraheze.org
-* 13:20 MirahezeLSBot: [rhinos@test101] DEPLOY ABORTED: Canary check failed for https://localhost@https://meta.miraheze.org
-* 13:18 MirahezeLSBot: [rhinos@test101] DEPLOY ABORTED: Canary check failed for https://localhost@https://meta.miraheze.org
-* 09:18 MirahezeLSBot: [rhinos@test101] DEPLOY ABORTED: Canary check failed for https://localhost@https://meta.miraheze.org
-* 09:15 MirahezeLSBot: [rhinos@test101] DEPLOY ABORTED: Canary check failed for https://localhost@https://meta.miraheze.org
+* 14:48 MirahezeLSBot: [rhinos@test101] DEPLOY ABORTED: Canary check failed for beta.betaheze.org@ [https://localhost](https://localhost)
+* 14:44 MirahezeLSBot: [rhinos@test101] DEPLOY ABORTED: Canary check failed for beta.betaheze.org@ [https://localhost](https://localhost)
+* 14:43 MirahezeLSBot: [rhinos@test101] DEPLOY ABORTED: Canary check failed for beta.betaheze.org@ [https://localhost](https://localhost)
+* 13:24 MirahezeLSBot: [rhinos@test101] DEPLOY ABORTED: Canary check failed for [https://localhost@https://meta.miraheze.org](https://localhost@https://meta.miraheze.org)
+* 13:23 MirahezeLSBot: [rhinos@test101] DEPLOY ABORTED: Canary check failed for [https://localhost@https://meta.miraheze.org](https://localhost@https://meta.miraheze.org)
+* 13:20 MirahezeLSBot: [rhinos@test101] DEPLOY ABORTED: Canary check failed for [https://localhost@https://meta.miraheze.org](https://localhost@https://meta.miraheze.org)
+* 13:18 MirahezeLSBot: [rhinos@test101] DEPLOY ABORTED: Canary check failed for [https://localhost@https://meta.miraheze.org](https://localhost@https://meta.miraheze.org)
+* 09:18 MirahezeLSBot: [rhinos@test101] DEPLOY ABORTED: Canary check failed for [https://localhost@https://meta.miraheze.org](https://localhost@https://meta.miraheze.org)
+* 09:15 MirahezeLSBot: [rhinos@test101] DEPLOY ABORTED: Canary check failed for [https://localhost@https://meta.miraheze.org](https://localhost@https://meta.miraheze.org)
 * 06:38 Reception123: restarted pokefanon import
 
 ## 2022-01-28 
@@ -14985,7 +14985,7 @@ title: Tech:Server admin log/2022
 * 03:05 Universal Omega: sudo -u www-data php /srv/mediawiki/w/maintenance/sql.php --wiki=betawiki --wikidb=testglobal /srv/mediawiki/w/extensions/ManageWiki/sql/mw_namespaces.sql
 * 02:56 MirahezeLSBot: [universalomega@test101] finished deploy of {'pull': 'config', 'config': True, 'force': True} to skip - SUCCESS in 1s
 * 02:56 MirahezeLSBot: [universalomega@test101] starting deploy of {'pull': 'config', 'config': True, 'force': True} to skip
-* 02:55 Universal Omega: INSERT INTO cw_wikis (wiki_dbname, wiki_sitename, wiki_language, wiki_private, wiki_creation, wiki_url, wiki_closed, wiki_closed_timestamp, wiki_deleted, wiki_deleted_timestamp, wiki_locked, wiki_inactive, wiki_inactive_timestamp, wiki_inactive_exempt, wiki_inactive_exempt_reason, wiki_settings, wiki_dbcluster, wiki_category, wiki_extensions, wiki_experimental) VALUES ('betawiki', 'Betaheze', 'en', 0, 20211219102330, 'https://beta.betaheze.org', 0, NULL, 0, NULL, 0, 0, NULL, 1, NULL, NULL, 'c4', 'software', NULL, 1); on testglobal
+* 02:55 Universal Omega: INSERT INTO cw_wikis (wiki_dbname, wiki_sitename, wiki_language, wiki_private, wiki_creation, wiki_url, wiki_closed, wiki_closed_timestamp, wiki_deleted, wiki_deleted_timestamp, wiki_locked, wiki_inactive, wiki_inactive_timestamp, wiki_inactive_exempt, wiki_inactive_exempt_reason, wiki_settings, wiki_dbcluster, wiki_category, wiki_extensions, wiki_experimental) VALUES ('betawiki', 'Betaheze', 'en', 0, 20211219102330, ' [https://beta.betaheze.org'](https://beta.betaheze.org'), 0, NULL, 0, NULL, 0, 0, NULL, 1, NULL, NULL, 'c4', 'software', NULL, 1); on testglobal
 * 02:54 Universal Omega: sudo -u www-data php /srv/mediawiki/w/maintenance/sql.php --wiki=betawiki --wikidb=testglobal /srv/mediawiki/w/extensions/CreateWiki/sql/cw_comments.sql
 * 02:54 Universal Omega: sudo -u www-data php /srv/mediawiki/w/maintenance/sql.php --wiki=betawiki --wikidb=testglobal /srv/mediawiki/w/extensions/CreateWiki/sql/cw_requests.sql
 * 02:54 Universal Omega: sudo -u www-data php /srv/mediawiki/w/maintenance/sql.php --wiki=betawiki --wikidb=testglobal /srv/mediawiki/w/extensions/CreateWiki/sql/cw_wikis.sql
@@ -16509,4 +16509,4 @@ title: Tech:Server admin log/2022
 * 03:12 Universal Omega: sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildall.php --wiki=sunrinwiki
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Server_admin_log/2022
+**Source**: [https://meta.miraheze.org/wiki/Tech:Server_admin_log/2022](https://meta.miraheze.org/wiki/Tech:Server_admin_log/2022)

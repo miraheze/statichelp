@@ -43,4 +43,4 @@ Anyone interested in starting this project should:
 * Get in touch with an [operations](https://meta.miraheze.org/wiki/Tech:Organisation#Team:_MediaWiki,_Site_Reliability_Engineering) member to discuss next steps for integrating with the current Piwik install.
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Projects/Wiki_Statistics_Special_Page
+**Source**: [https://meta.miraheze.org/wiki/Tech:Projects/Wiki_Statistics_Special_Page](https://meta.miraheze.org/wiki/Tech:Projects/Wiki_Statistics_Special_Page)

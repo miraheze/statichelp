@@ -90,4 +90,4 @@ You can find this file at `/root/private/files/swift`. Copy it elsewhere, so you
 [Category:Services](https://meta.miraheze.org/wiki/Category:Services)
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Swift
+**Source**: [https://meta.miraheze.org/wiki/Tech:Swift](https://meta.miraheze.org/wiki/Tech:Swift)

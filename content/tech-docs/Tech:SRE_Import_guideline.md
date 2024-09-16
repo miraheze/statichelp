@@ -65,4 +65,4 @@ All suggestions below can be exceeded if approved by a MWE that is satisfied a r
 | |
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:SRE_Import_guideline
+**Source**: [https://meta.miraheze.org/wiki/Tech:SRE_Import_guideline](https://meta.miraheze.org/wiki/Tech:SRE_Import_guideline)

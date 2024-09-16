@@ -20,4 +20,4 @@ Performing the deletion if 14 days have **not** passed:
 [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Delete_a_wiki
+**Source**: [https://meta.miraheze.org/wiki/Tech:Delete_a_wiki](https://meta.miraheze.org/wiki/Tech:Delete_a_wiki)

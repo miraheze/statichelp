@@ -291,7 +291,7 @@ title: Tech:Server admin log/2021
 * 20:43 MirahezeLSBot: [reception@mw11] finished deploy of {'config': True, 'l10n': True, 'extensionlist': True, 'ignoretime': True} to mw8 - SUCCESS in 167s
 * 20:40 MirahezeLSBot: [reception@mw11] starting deploy of {'config': True, 'l10n': True, 'extensionlist': True, 'ignoretime': True} to mw8
 * 19:58 paladox: restart php-fpm on mw*
-* 16:32 RhinosF1: restart php to apply https://git.io/JDjfw
+* 16:32 RhinosF1: restart php to apply [https://git.io/JDjfw](https://git.io/JDjfw)
 * 14:59 RhinosF1: everywhere now done including mw8
 * 14:49 RhinosF1: rolling restart php7.3-fpm everywhere but mw8
 * 14:13 RhinosF1: hard stop/start php7.4-fpm on mw8
@@ -873,7 +873,7 @@ title: Tech:Server admin log/2021
 * 21:05 MirahezeLSBot: [universalomega@test3] starting deploy of {'world': True} to skip
 * 15:58 paladox: reboot mw11
 * 13:34 Reception123: !log MariaDB [phabricator_herald]> UPDATE herald_rule SET isDisabled = '1' WHERE id = '5'; (not in use)
-* 13:14 Reception123: DELETED and DROPPED https://phabricator.miraheze.org/P449
+* 13:14 Reception123: DELETED and DROPPED [https://phabricator.miraheze.org/P449](https://phabricator.miraheze.org/P449)
 * 11:43 Reception123: reception@mw11:~$ sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildall.php --wiki=devilmanwiki
 * 11:38 Reception123:  running delbackups ( bash ./delbackups.sh /home/reception/delwikis.txt /srv/mediawiki/w/maintenance/dumpBackup.php)
 * 08:43 Reception123: rm -rf /mnt/mediawiki-static/metawiki/thumb (per T8346)
@@ -1158,7 +1158,7 @@ title: Tech:Server admin log/2021
 * 23:09 Universal Omega: mw9: sudo service php7.3-fpm restart
 * 23:00 MirahezeLSBot: [@mw11] starting deploy of {'l10nupdate': True} to all
 * 23:00 MirahezeLSBot: [@test3] starting deploy of {'l10nupdate': True} to skip
-* 22:50 JohnLewis: deletes wikis https://phabricator.miraheze.org/P448
+* 22:50 JohnLewis: deletes wikis [https://phabricator.miraheze.org/P448](https://phabricator.miraheze.org/P448)
 * 19:42 MirahezeLSBot: [@mw11] finished deploy of {'config': True} to all - SUCCESS in 11s
 * 19:42 MirahezeLSBot: [@mw11] starting deploy of {'config': True} to all
 * 19:24 MirahezeLSBot: [@test3] finished deploy of {'config': True} to skip - SUCCESS in 0s
@@ -1276,9 +1276,9 @@ title: Tech:Server admin log/2021
 
 * 23:39 RhinosF1: previous deploy has finished, now sleeping
 * 23:37 MirahezeLSBot: [rhinos@test3] starting deploy of {'config': True, 'force': True} to skip
-* 23:33 MirahezeLSBot: [rhinos@test3] DEPLOY ABORTED: Canary check failed for localhost@https://localhost
+* 23:33 MirahezeLSBot: [rhinos@test3] DEPLOY ABORTED: Canary check failed for localhost@ [https://localhost](https://localhost)
 * 23:31 MirahezeLSBot: [@test3] finished deploy of {'l10nupdate': True} to skip - SUCCESS in 1880s
-* 23:30 MirahezeLSBot: [rhinos@test3] DEPLOY ABORTED: Canary check failed for localhost@https://localhost
+* 23:30 MirahezeLSBot: [rhinos@test3] DEPLOY ABORTED: Canary check failed for localhost@ [https://localhost](https://localhost)
 * 23:30 MirahezeLSBot: [rhinos@test3] starting deploy of {'config': True} to skip
 * 23:26 MirahezeLSBot: [rhinos@test3] starting deploy of {'config': True} to skip
 * 23:24 MirahezeLSBot: [@mw11] finished deploy of {'l10nupdate': True} to all - FAIL: [35072, 0, 0, 0, 0, 0, 0, 0, 0] in 1432s
@@ -1545,7 +1545,7 @@ title: Tech:Server admin log/2021
 * 23:00 MirahezeLSBot: [@test3] starting deploy of {'l10nupdate': True} to skip
 * 23:00 MirahezeLSBot: [@mw11] starting deploy of {'l10nupdate': True} to all
 * 22:33 MirahezeLSBot: [universalomega@mwtask1] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=mightythornberrywiki /home/universalomega/mightythornberry_pages_full.xml --username-prefix=wikia:mightythornberry --report=1 (END - exit=256)
-* 22:31 Universal Omega: mwtask1: wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1DMecCgcnhvgAJnhrFgCMPHRoqzwisSVy' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1DMecCgcnhvgAJnhrFgCMPHRoqzwisSVy" -O mightythornberry_pages_full.xml && rm -rf /tmp/cookies.txt
+* 22:31 Universal Omega: mwtask1: wget --load-cookies /tmp/cookies.txt " [https://docs.google.com/uc?export=download&confirm=$(wget](https://docs.google.com/uc?export=download&confirm=$(wget) --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate ' [https://docs.google.com/uc?export=download&id=1DMecCgcnhvgAJnhrFgCMPHRoqzwisSVy'](https://docs.google.com/uc?export=download&id=1DMecCgcnhvgAJnhrFgCMPHRoqzwisSVy') -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1DMecCgcnhvgAJnhrFgCMPHRoqzwisSVy" -O mightythornberry_pages_full.xml && rm -rf /tmp/cookies.txt
 * 21:57 MirahezeLSBot: [universalomega@mw11] finished deploy of {'l10n': True} to all - SUCCESS in 1110s
 * 21:54 MirahezeLSBot: [universalomega@mwtask1] sudo -u www-data php /srv/mediawiki/w/extensions/MatomoAnalytics/maintenance/addMissingMatomos.php --wiki=loginwiki (END - exit=0)
 * 21:53 Universal Omega: MatomoAnalyticsHooks::wikiDeletion( null, 'reviwikiwiki' ); using eval.php
@@ -1601,7 +1601,7 @@ title: Tech:Server admin log/2021
 * 22:12 MirahezeLSBot: [@mw11] starting deploy of {'config': True} to all
 * 21:49 MirahezeLSBot: [@test3] finished deploy of {'config': True} to skip - SUCCESS in 0s
 * 21:49 MirahezeLSBot: [@test3] starting deploy of {'config': True} to skip
-* 21:25 Universal Omega: [eval.php on test3] \MediaWiki\MediaWikiServices::getInstance()->get( 'CreateWiki.NotificationsManager' )->sendNotification( ['type' => 'wiki-creation', 'extra' => [ 'wiki-url' => 'https://test3.miraheze.org', 'sitename' => 'test' ], 'subject' => wfMessage( 'createwiki-email-subject', 'test' )->inContentLanguage()->text(),'body' => wfMessage( 'createwiki-email-body' )->inContentLanguage()->parse()], [ 'Universal Omega' ] );
+* 21:25 Universal Omega: [eval.php on test3] \MediaWiki\MediaWikiServices::getInstance()->get( 'CreateWiki.NotificationsManager' )->sendNotification( ['type' => 'wiki-creation', 'extra' => [ 'wiki-url' => ' [https://test3.miraheze.org'](https://test3.miraheze.org'), 'sitename' => 'test' ], 'subject' => wfMessage( 'createwiki-email-subject', 'test' )->inContentLanguage()->text(),'body' => wfMessage( 'createwiki-email-body' )->inContentLanguage()->parse()], [ 'Universal Omega' ] );
 * 18:24 MirahezeLSBot: [@test3] finished deploy of {'config': True} to skip - SUCCESS in 0s
 * 18:24 MirahezeLSBot: [@test3] starting deploy of {'config': True} to skip
 * 17:05 MirahezeLSBot: [universalomega@mw11] finished deploy of {'world': True, 'l10n': True} to all - SUCCESS in 1125s
@@ -1974,7 +1974,7 @@ title: Tech:Server admin log/2021
 * 23:44 paladox: reboot mw12
 * 19:47 Universal Omega: universalomega@mwtask1:/srv/mediawiki/mwdumper$ sudo -u www-data mvn compile; _JAVA_OPTIONS=-Djdk.net.URLClassPath.disableClassPathURLCheck=true sudo -u www-data mvn package
 * 19:41 Universal Omega: universalomega@mwtask1:/srv/mediawiki/mwdumper$ sudo -u www-data mvn package
-* 19:37 Universal Omega: universalomega@mwtask1:~$ cd /srv/mediawiki && sudo -u www-data git clone https://gerrit.wikimedia.org/r/mediawiki/tools/mwdumper
+* 19:37 Universal Omega: universalomega@mwtask1:~$ cd /srv/mediawiki && sudo -u www-data git clone [https://gerrit.wikimedia.org/r/mediawiki/tools/mwdumper](https://gerrit.wikimedia.org/r/mediawiki/tools/mwdumper)
 * 13:56 MirahezeLSBot: [rhinos@mwtask1] sudo -u www-data php /srv/mediawiki/w/maintenance/deleteBatch.php --wiki=metawiki lazy.txt -u=RhinosF1 -r=Requested - speedy delete -i=1 (END - exit=256)
 * 13:56 MirahezeLSBot: [rhinos@mwtask1] sudo -u www-data php /srv/mediawiki/w/maintenance/deleteBatch.php --wiki=metawiki lazy.txt -u=RhinosF1 -r=Requested - speedy delete -i=1 (END - exit=256)
 * 09:03 MirahezeLSBot: [@test3] finished deploy of {'config': True} to skip - SUCCESS in 0s
@@ -2372,7 +2372,7 @@ title: Tech:Server admin log/2021
 * 15:13 RhinosF1: rhinos@test3:/srv/mediawiki-staging/w/maintenance/archives$ sudo -u www-data php /srv/mediawiki/w/maintenance/sql.php --wiki=test3wiki patch-objectcache-modtoken.sql
 * 14:55 RhinosF1: checkout 1.37 to diff/grep sql changes
 * 14:42 RhinosF1: adjust w/.git/config on test3 to pull REL1_37
-* 14:00 JohnLewis: continue testing on db12 for https://phabricator.miraheze.org/T5877
+* 14:00 JohnLewis: continue testing on db12 for [https://phabricator.miraheze.org/T5877](https://phabricator.miraheze.org/T5877)
 * 04:58 Reception123: created LDAP account for agent
 
 ## 2021-10-11 
@@ -2794,7 +2794,7 @@ title: Tech:Server admin log/2021
 
 ## 2021-09-20 
 
-* 16:03 paladox: increase gluster3 and 4 disk space by 200gb per https://phabricator.miraheze.org/T8055#162446
+* 16:03 paladox: increase gluster3 and 4 disk space by 200gb per [https://phabricator.miraheze.org/T8055#162446](https://phabricator.miraheze.org/T8055#162446)
 * 06:08 Reception123: edited Phab profile to remove advertising/spam link
 
 ## 2021-09-19 
@@ -2981,7 +2981,7 @@ title: Tech:Server admin log/2021
 * 22:03 MirahezeLSBot: [@test3] starting deploy of {'config': True} to skip
 * 19:59 MirahezeLSBot: [paladox@test3] finished deploy of {'config': True, 'world': True, 'gitinfo': True} to skip - SUCCESS in 145s
 * 19:57 MirahezeLSBot: [paladox@test3] starting deploy of {'config': True, 'world': True, 'gitinfo': True} to skip
-* 19:17 paladox: deploy https://github.com/miraheze/puppet/pull/1953 to cache proxies (as a test, hack on puppet3)
+* 19:17 paladox: deploy [https://github.com/miraheze/puppet/pull/1953](https://github.com/miraheze/puppet/pull/1953) to cache proxies (as a test, hack on puppet3)
 * 17:38 MirahezeLSBot: [reception@mwtask1] sudo -u www-data php /srv/mediawiki/w/extensions/MirahezeMagic/maintenance/generateMirahezeSitemap.php --wiki=402611wiki (END - exit=0)
 * 16:00 RhinosF1: killed above shell script with -9 hammer as it was completely unresponsive to even Ctrl+C
 * 15:53 MirahezeLSBot: [rhinos@test3] sudo -u www-data php /srv/mediawiki/w/maintenance/undelete.php --wiki=firestar464mapswiki --user='RhinosF1 (Miraheze)' --reason='tech request' 'Template:Taliban insurgency detailed map' (END - exit=2)
@@ -3035,12 +3035,12 @@ title: Tech:Server admin log/2021
 * 06:33 MirahezeLSBot: [reception@test3] finished deploy of {'config': True} to skip - SUCCESS in 0s
 * 06:33 MirahezeLSBot: [reception@test3] starting deploy of {'config': True} to skip
 * 05:57 paladox: root@test3:/mnt/mediawiki-static# chown -R www-data:www-data csulbteacherswiki
-* 05:51 paladox: revert https://github.com/miraheze/puppet/pull/1953 on cache proxies
+* 05:51 paladox: revert [https://github.com/miraheze/puppet/pull/1953](https://github.com/miraheze/puppet/pull/1953) on cache proxies
 * 05:32 paladox: restart mysql on db13, crashed with [Warning] Could not increase number of max_open_files to more than 65535 (request: 200540)
 * 05:21 paladox: root@test3:/mnt/mediawiki-static# chown -R www-data:www-data greekanimalswiki
 * 05:04 paladox: root@test3:/mnt/mediawiki-static# chown -R www-data:www-data nfslocationswiki
 * 05:04 paladox: root@test3:/mnt/mediawiki-static# chown -R www-data:www-data gencomwikiwiki
-* 04:59 paladox: testing https://github.com/miraheze/puppet/pull/1953 this on cache proxies
+* 04:59 paladox: testing [https://github.com/miraheze/puppet/pull/1953](https://github.com/miraheze/puppet/pull/1953) this on cache proxies
 * 04:51 paladox: root@test3:/mnt/mediawiki-static# chown -R www-data:www-data exaterialwiki
 * 04:51 paladox: root@test3:/mnt/mediawiki-static# chown -R www-data:www-data diamondtvwiki
 * 04:51 paladox: root@test3:/mnt/mediawiki-static# chown -R www-data:www-data wikipoesywiki
@@ -3239,7 +3239,7 @@ title: Tech:Server admin log/2021
 * 16:30 MirahezeLSBot: [reception@test3] sudo -u www-data php /srv/mediawiki/w/maintenance/updateCollation.php --wiki=test3wiki --force (END - exit=0)
 * 16:26 MirahezeLSBot: [reception@test3] finished deploy of {'world': True} to skip - SUCCESS in 79s
 * 16:24 MirahezeLSBot: [reception@test3] starting deploy of {'world': True} to skip
-* 10:30 Reception123: rm -rf /w and sudo -u www-data git clone https://github.com/miraheze/mediawiki --recursive on test3
+* 10:30 Reception123: rm -rf /w and sudo -u www-data git clone [https://github.com/miraheze/mediawiki](https://github.com/miraheze/mediawiki) --recursive on test3
 * 08:48 MirahezeLSBot: [@test3] finished deploy of {'world': True} to skip - FAIL: [2] in 36s
 * 08:48 MirahezeLSBot: [@test3] starting deploy of {'world': True} to skip
 * 08:45 MirahezeLSBot: [@test3] finished deploy of {'config': True, 'world': True, 'l10n': True, 'gitinfo': True} to skip - FAIL: [0, 256, 0, 0, 0] in 259s
@@ -3259,7 +3259,7 @@ title: Tech:Server admin log/2021
 * 17:08 MirahezeLSBot: [reception@mwtask1] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=osaindexwiki /home/reception/osaimages --search-recursively (END - exit=0)
 * 13:34 MirahezeLSBot: [@test3] finished deploy of {'config': True} to skip - SUCCESS in 0s
 * 13:34 MirahezeLSBot: [@test3] starting deploy of {'config': True} to skip
-* 11:25 Reception123: DROPPED https://phabricator.miraheze.org/P442 (wiki databases that didn't have corresponding cw_wiki entries)
+* 11:25 Reception123: DROPPED [https://phabricator.miraheze.org/P442](https://phabricator.miraheze.org/P442) (wiki databases that didn't have corresponding cw_wiki entries)
 
 ## 2021-08-24 
 
@@ -3437,11 +3437,11 @@ title: Tech:Server admin log/2021
 * 22:40 MirahezeLSBot: [universalomega@mwtask1] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=rainworldwiki /home/universalomega/rainworld_gamepedia_pages_full.xml --username-prefix=wikia:rainworld --report=1 (END - exit=256)
 * 08:53 MirahezeLSBot: [universalomega@mwtask1] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=companhiaballwiki /home/universalomega/ptbrcompanhiaball_pages_full.xml --username-prefix=wikia:ptbrcompanhiaball --report=1 (END - exit=0)
 * 08:16 MirahezeLSBot: [universalomega@mwtask1] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=companhiaballwiki /home/universalomega/ptbrcompanhiaball_pages_full.xml --username-prefix=wikia:ptbrcompanhiaball --report=1 (END - exit=256)
-* 08:01 Universal_Omega: cd /srv/mediawiki/w/extensions/CreateWiki && sudo -u www-data git pull https://github.com/miraheze/CreateWiki master && sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildLocalisationCache.php --wiki=loginwiki --lang=en && sudo -u www-data php /srv/mediawiki/w/extensions/MirahezeMagic/maintenance/rebuildVersionCache.php --wiki=loginwiki --save-gitinfo
+* 08:01 Universal_Omega: cd /srv/mediawiki/w/extensions/CreateWiki && sudo -u www-data git pull [https://github.com/miraheze/CreateWiki](https://github.com/miraheze/CreateWiki) master && sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildLocalisationCache.php --wiki=loginwiki --lang=en && sudo -u www-data php /srv/mediawiki/w/extensions/MirahezeMagic/maintenance/rebuildVersionCache.php --wiki=loginwiki --save-gitinfo
 * 07:37 MirahezeLSBot: [universalomega@mwtask1] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=companhiaballwiki /home/universalomega/ptbrcompanhiaball_pages_full.xml --username-prefix=wikia:ptbrcompanhiaball --report=1 (END - exit=256)
-* 07:35 Universal_Omega: cd /srv/mediawiki/w/extensions/CreateWiki && sudo -u www-data git pull https://github.com/miraheze/CreateWiki master && sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildLocalisationCache.php --wiki=loginwiki && sudo -u www-data php /srv/mediawiki/w/extensions/MirahezeMagic/maintenance/rebuildVersionCache.php --wiki=loginwiki --save-gitinfo
+* 07:35 Universal_Omega: cd /srv/mediawiki/w/extensions/CreateWiki && sudo -u www-data git pull [https://github.com/miraheze/CreateWiki](https://github.com/miraheze/CreateWiki) master && sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildLocalisationCache.php --wiki=loginwiki && sudo -u www-data php /srv/mediawiki/w/extensions/MirahezeMagic/maintenance/rebuildVersionCache.php --wiki=loginwiki --save-gitinfo
 * 06:53 Universal_Omega: screen -ls | grep Detached | cut -d. -f1 | awk '{print $1}' | xargs kill
-* 06:50 Universal_Omega: cd /srv/mediawiki/w && sudo -u www-data wget -O composer.phar https://getcomposer.org/composer-1.phar | php && sudo -u www-data php composer.phar update --no-dev on mw8 and mw9
+* 06:50 Universal_Omega: cd /srv/mediawiki/w && sudo -u www-data wget -O composer.phar [https://getcomposer.org/composer-1.phar](https://getcomposer.org/composer-1.phar) | php && sudo -u www-data php composer.phar update --no-dev on mw8 and mw9
 * 06:40 Universal_Omega: sudo -u www-data rm -rfv /srv/mediawiki/w/extensions/MagicNumberedHeadings! on mw* / mwtask1
 * 06:35 MirahezeLSBot: [universalomega@mwtask1] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=companhiaballwiki /home/universalomega/ptbrcompanhiaball_pages_full.xml --username-prefix=wikia:ptbrcompanhiaball --report=1 (END - exit=2)
 * 06:33 MirahezeLSBot: [universalomega@mwtask1] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=companhiaballwiki /home/universalomega/ptbrcompanhiaball_pages_full.xml --username-prefix=wikia:ptbrcompanhiaball --report=1 (END - exit=256)
@@ -3466,7 +3466,7 @@ title: Tech:Server admin log/2021
 
 ## 2021-08-12 
 
-* 19:39 Reception123: DELETED and DROPPED https://phabricator.miraheze.org/P441
+* 19:39 Reception123: DELETED and DROPPED [https://phabricator.miraheze.org/P441](https://phabricator.miraheze.org/P441)
 * 15:02 Reception123: running delbackups ( bash ./delbackups.sh /home/reception/delwikis.txt /srv/mediawiki/w/maintenance/dumpBackup.php)
 * 13:35 MirahezeLSBot: [reception@mwtask1] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=polcompballwiki /home/reception/polcompballs_pages_full.xml --username-prefix=wikia:polcompball --report 1
 * 13:13 MirahezeLSBot: [reception@mwtask1] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=countryhumanswiki /home/reception/countryhumans_pages_full.xml --username-prefix=wikia:countryhumans --report 1
@@ -3475,13 +3475,13 @@ title: Tech:Server admin log/2021
 * 10:47 Reception123: INSERT INTO content_models (model_id, model_name) VALUES ( 4, 'Scribunto'); on succovwiki
 * 10:33 MirahezeLSBot: [reception@mwtask1] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=succovwiki /home/reception/succovwiki_xml_0021ebaeeee48c3c639e.xml --username-prefix=succov --report 1
 * 10:30 Reception123: DELETED and DROPPED succovwiki
-* 09:34 MirahezeLSBot: [reception@mwtask1] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=chimaiwiki /home/reception/chimaiwiki --search-recursively --summary=Attribution: https://www.chimai.com
+* 09:34 MirahezeLSBot: [reception@mwtask1] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=chimaiwiki /home/reception/chimaiwiki --search-recursively --summary=Attribution: [https://www.chimai.com](https://www.chimai.com)
 * 07:16 paladox: upgrade icingaweb2 on mon2
 * 07:03 MirahezeLSBot: [@test3] finished deploy of {'config': True} to skip - SUCCESS in 0s
 * 07:03 MirahezeLSBot: [@test3] starting deploy of {'config': True} to skip
 * 06:33 MirahezeLSBot: [@test3] finished deploy of {'config': True} to skip - SUCCESS in 0s
 * 06:33 MirahezeLSBot: [@test3] starting deploy of {'config': True} to skip
-* 06:04 Universal_Omega: [mw13]: cd /srv/mediawiki/w && sudo -u www-data wget -O composer.phar https://getcomposer.org/composer-1.phar | php && sudo -u www-data php composer.phar update --no-dev
+* 06:04 Universal_Omega: [mw13]: cd /srv/mediawiki/w && sudo -u www-data wget -O composer.phar [https://getcomposer.org/composer-1.phar](https://getcomposer.org/composer-1.phar) | php && sudo -u www-data php composer.phar update --no-dev
 * 06:03 MirahezeLSBot: [@test3] finished deploy of {'config': True} to skip - SUCCESS in 0s
 * 06:03 MirahezeLSBot: [@test3] starting deploy of {'config': True} to skip
 * 05:40 paladox: restart varnish on cp12
@@ -3490,8 +3490,8 @@ title: Tech:Server admin log/2021
 * 04:33 MirahezeLSBot: [@test3] starting deploy of {'config': True} to skip
 * 04:32 paladox: shutdown mw12
 * 04:30 paladox: stop nginx on mw12 to help relieve preasure
-* 04:09 paladox: [mwtask1]: cd /srv/mediawiki/w && sudo -u www-data wget -O composer.phar https://getcomposer.org/composer-1.phar | php && sudo -u www-data php composer.phar update --no-dev
-* 04:04 Universal_Omega: [mw12]: cd /srv/mediawiki/w && sudo -u www-data wget -O composer.phar https://getcomposer.org/composer-1.phar | php && sudo -u www-data php composer.phar update --no-dev
+* 04:09 paladox: [mwtask1]: cd /srv/mediawiki/w && sudo -u www-data wget -O composer.phar [https://getcomposer.org/composer-1.phar](https://getcomposer.org/composer-1.phar) | php && sudo -u www-data php composer.phar update --no-dev
+* 04:04 Universal_Omega: [mw12]: cd /srv/mediawiki/w && sudo -u www-data wget -O composer.phar [https://getcomposer.org/composer-1.phar](https://getcomposer.org/composer-1.phar) | php && sudo -u www-data php composer.phar update --no-dev
 
 ## 2021-08-11 
 
@@ -3647,7 +3647,7 @@ title: Tech:Server admin log/2021
 * 13:28 MirahezeLSBot: [rhinos@test3] finished deploy of {'files': 'gar'} to skip - FAIL: [256]
 * 13:28 MirahezeLSBot: [rhinos@test3] starting deploy of {'files': 'gar'} to skip
 * 13:03 MirahezeLSBot: [rhinos@test3] sudo -u www-data php /srv/mediawiki/w/extensions/MirahezeMagic/maintenance/rebuildVersionCache.php --wiki=test3wiki --save-gitinfo (END - exit=0)
-* 13:02 RhinosF1: cherry pick https://github.com/miraheze/MirahezeMagic/pull/275/files
+* 13:02 RhinosF1: cherry pick [https://github.com/miraheze/MirahezeMagic/pull/275/files](https://github.com/miraheze/MirahezeMagic/pull/275/files)
 * 13:02 MirahezeLSBot: [rhinos@test3] sudo -u www-data php /srv/mediawiki/w/extensions/MirahezeMagic/maintenance/rebuildVersionCache.php --wiki=test3wiki (END - exit=0)
 * 13:02 MirahezeLSBot: [rhinos@test3] sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildVersionCache.php --wiki=test3wiki (END - exit=256)
 * 13:01 MirahezeLSBot: [rhinos@test3] finished deploy of {'folders': 'w/extensions/MirahezeMagic'} to skip
@@ -3809,7 +3809,7 @@ title: Tech:Server admin log/2021
 * 21:58 RhinosF1: cycle php-fpm on mw8
 * 21:57 RhinosF1: disable puppet on mw* to avoid patch rolling forward
 * 21:57 MirahezeLSBot: [rhinos@mw8] Disabling puppet for incident
-* 21:39 MirahezeLSBot: [rhinos@jobrunner4] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=smutstonewiki /home/rhinos/smutfiles --comment-ext=desc --summary=Attribution: https://v2smutstone.fandom.com --overwrite (END - exit=0)
+* 21:39 MirahezeLSBot: [rhinos@jobrunner4] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=smutstonewiki /home/rhinos/smutfiles --comment-ext=desc --summary=Attribution: [https://v2smutstone.fandom.com](https://v2smutstone.fandom.com) --overwrite (END - exit=0)
 * 21:39 RhinosF1: mw8 again, should I just make this loop
 * 21:36 RhinosF1: try mw8 again, still 100% worker usage
 * 21:35 RhinosF1: mw8
@@ -3818,7 +3818,7 @@ title: Tech:Server admin log/2021
 * 21:30 RhinosF1: hard stop/start php-fpm on mw11 as workers 100%
 * 21:21 RhinosF1: correction: import not dump
 * 21:20 RhinosF1: restart dump
-* 21:18 MirahezeLSBot: [rhinos@jobrunner4] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=smutstonewiki /home/rhinos/smutfiles --comment-ext=desc --summary=Attribution: https://v2smutstone.fandom.com (END - exit=2)
+* 21:18 MirahezeLSBot: [rhinos@jobrunner4] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=smutstonewiki /home/rhinos/smutfiles --comment-ext=desc --summary=Attribution: [https://v2smutstone.fandom.com](https://v2smutstone.fandom.com) (END - exit=2)
 * 09:28 Reception123: renamed lgbtqiawiki to lgbtqawiki
 * 09:26 Reception123: renamed antridotowiki to anthridotewiki
 * 09:05 Reception123: MariaDB [umbranetwiki]> DROP TABLE cargo__Missions;
@@ -3827,7 +3827,7 @@ title: Tech:Server admin log/2021
 
 ## 2021-07-24 
 
-* 21:38 MirahezeLSBot: [rhinos@jobrunner4] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=smutstonewiki /home/rhinos/smutfiles --comment=Attribution: https://v2smutstone.fandom.com (END - exit=0)
+* 21:38 MirahezeLSBot: [rhinos@jobrunner4] sudo -u www-data php /srv/mediawiki/w/maintenance/importImages.php --wiki=smutstonewiki /home/rhinos/smutfiles --comment=Attribution: [https://v2smutstone.fandom.com](https://v2smutstone.fandom.com) (END - exit=0)
 * 21:29 RhinosF1: running XML+Image imports in a screen on jbr4, expect MirahezeLSBot to note when done
 * 21:04 MirahezeLSBot: [rhinos@jobrunner4] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki=smutstonewiki /home/user/rhinos/v2smutstonefandomcom-20210720-history.xml --username-prefix wikia:v2smutstone (END - exit=256)
 
@@ -3900,7 +3900,7 @@ title: Tech:Server admin log/2021
 ## 2021-07-12 
 
 * 05:19 MirahezeLSBot: [reception@jobrunner3] sudo -u www-data php /srv/mediawiki/w/maintenance/importDump.php --wiki hypixelwiki /home/reception/hypixelserver_pages_full.xml --username-prefix=wikia:hypixel
-* 04:07 Void: void@test3:/srv/mediawiki/w$ sudo -u www-data wget -O composer.phar https://getcomposer.org/composer-1.phar | php && sudo -u www-data php composer.phar install --no-dev
+* 04:07 Void: void@test3:/srv/mediawiki/w$ sudo -u www-data wget -O composer.phar [https://getcomposer.org/composer-1.phar](https://getcomposer.org/composer-1.phar) | php && sudo -u www-data php composer.phar install --no-dev
 * 03:26 Void: git fetch --depth 10 on mw* and jobrunner*
 * 02:38 Void: regenerated /srv/mediawiki/w on test3 (out of sync with git and too tired to find a better fix)
 
@@ -4026,11 +4026,11 @@ title: Tech:Server admin log/2021
 ## 2021-06-27 
 
 * 16:05 Reception123: GDPR deletion
-* 13:29 Reception123: DELETED and DROPPED https://phabricator.miraheze.org/P437
+* 13:29 Reception123: DELETED and DROPPED [https://phabricator.miraheze.org/P437](https://phabricator.miraheze.org/P437)
 
 ## 2021-06-26 
 
-* 19:50 RhinosF1: published https://github.com/miraheze/GlobalNewFiles/security/advisories/GHSA-cwv5-c938-5h5h & requested CVE
+* 19:50 RhinosF1: published [https://github.com/miraheze/GlobalNewFiles/security/advisories/GHSA-cwv5-c938-5h5h](https://github.com/miraheze/GlobalNewFiles/security/advisories/GHSA-cwv5-c938-5h5h) & requested CVE
 * 10:53 MirahezeLSBot: [reception@jobrunner3] sudo -u www-data php /srv/mediawiki/w/maintenance/refreshLinks.php --wiki nonciclopediawiki
 * 10:33 Reception123: running delbackups ( bash ./delbackups.sh /home/reception/delwikis.txt /srv/mediawiki/w/maintenance/dumpBackup.php)
 * 01:32 Void: updated mirahezebots github secret
@@ -4162,7 +4162,7 @@ title: Tech:Server admin log/2021
 * 22:11 MacFan4000: 15:52 <+Reception|away> !log repool mw10; depool mw11; repeat
 * 22:10 MacFan4000: 15:37 <+Reception|away> !log repool mw9; depool mw10; repeat above
 * 22:10 MacFan4000: 15:24 <+Reception|away> !log repool mw8; depool mw9; same as above for mw8
-* 22:09 MacFan4000: 15:11 <+Reception|away> !log rm -rf /srv/mediawiki/w and sudo -u www-data git clone https://github.com/miraheze/mediawiki --recursive w on mw8
+* 22:09 MacFan4000: 15:11 <+Reception|away> !log rm -rf /srv/mediawiki/w and sudo -u www-data git clone [https://github.com/miraheze/mediawiki](https://github.com/miraheze/mediawiki) --recursive w on mw8
 * 22:09 MacFan4000: 15:05 <+Reception|away> !log depool mw8; re-enable puppet on mw8 and run
 * 22:07 MacFan4000: 15:03 <+Reception|away> !log disable puppet on mw*
 * 22:02 Universal Omega: [universalomega@jobrunner3] sudo -u www-data php /srv/mediawiki/w/maintenance/sql.php /srv/mediawiki/w/extensions/CentralNotice/patches/patch-notice-type-log.sql --wiki=metawiki
@@ -4377,13 +4377,13 @@ title: Tech:Server admin log/2021
 
 ## 2021-05-25 
 
-* 15:39 paladox: metawiki: https://github.com/wikimedia/mediawiki-extensions-DiscussionTools/blob/REL1_36/sql/mysql/discussiontools_subscription.sql - T7117
+* 15:39 paladox: metawiki: [https://github.com/wikimedia/mediawiki-extensions-DiscussionTools/blob/REL1_36/sql/mysql/discussiontools_subscription.sql](https://github.com/wikimedia/mediawiki-extensions-DiscussionTools/blob/REL1_36/sql/mysql/discussiontools_subscription.sql) - T7117
 * 15:25 paladox: metawiki: ALTER TABLE /*$wgDBprefix*/cn_notices ADD COLUMN not_type varchar(255) DEFAULT NULL; - T7117
 * 15:24 paladox: metawiki: ALTER TABLE /*_*/cn_notice_log ADD COLUMN `notlog_begin_type` varchar(255) DEFAULT NULL, ADD COLUMN `notlog_end_type` varchar(255) DEFAULT NULL; - T7117
 
 ## 2021-05-24 
 
-* 21:55 RhinosF1: test3 schema changes with sql files done! \o/ See https://phabricator.miraheze.org/T7357 for remaining ones
+* 21:55 RhinosF1: test3 schema changes with sql files done! \o/ See [https://phabricator.miraheze.org/T7357](https://phabricator.miraheze.org/T7357) for remaining ones
 * 21:55 RhinosF1: sudo -u www-data php /srv/mediawiki/w/maintenance/sql.php --wiki=test3wiki /srv/mediawiki/w/maintenance/archives/patch-user_table-updates.sql
 * 21:55 RhinosF1: sudo -u www-data php /srv/mediawiki/w/maintenance/sql.php --wiki=test3wiki /srv/mediawiki/w/maintenance/archives/patch-archive-ar_title-varbinary.sql
 * 21:55 RhinosF1: sudo -u www-data php /srv/mediawiki/w/maintenance/sql.php --wiki=test3wiki /srv/mediawiki/w/maintenance/archives/patch-recentchanges-rc_new_name_timestamp.sql
@@ -4553,7 +4553,7 @@ title: Tech:Server admin log/2021
 ## 2021-05-12 
 
 * 21:20 paladox: delete F1438957 object from phabricator
-* 07:48 Reception123: DELETED and DROPPED https://phabricator.miraheze.org/P422
+* 07:48 Reception123: DELETED and DROPPED [https://phabricator.miraheze.org/P422](https://phabricator.miraheze.org/P422)
 * 07:15 Reception123: added universalomega to MediaWiki streams on graylog
 * 07:15 RhinosF1: use default branch rename to switch removePII back to master from main
 * 06:51 Reception123: restore universalomega LDAP access; add to relevant groups; reactivate mail
@@ -4697,7 +4697,7 @@ title: Tech:Server admin log/2021
 * 11:46 Reception123: sudo umount /mnt/mediawiki-static on mw8/9
 * 10:45 Southparkfan: install security patch for php-pear on test3
 * 10:27 Southparkfan: not sure when bacula2 resize will be finished, downtimed in icinga for the next four hours
-* 10:10 Southparkfan: resize bacula2 (https://phabricator.miraheze.org/T7038)
+* 10:10 Southparkfan: resize bacula2 ([https://phabricator.miraheze.org/T7038](https://phabricator.miraheze.org/T7038))
 * 10:09 Southparkfan: install security patches for php-pear
 * 09:18 Reception123: sudo puppet agent -tv && sudo -u www-data php /srv/mediawiki/w/maintenance/mergeMessageFileList.php --output /srv/mediawiki/config/ExtensionMessageFiles.php --wiki loginwiki && sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildLocalisationCache.php --wiki loginwiki on mw*/jbr*
 * 09:17 Reception123: cd /srv/mediawiki/w/extensions && sudo -u www-data git pull ; sudo -u www-data git submodule sync ; sudo -u www-data git submodule update && sudo puppet agent --enable && sudo puppet agent -t on mw*/jbr* (individually)
@@ -4749,7 +4749,7 @@ title: Tech:Server admin log/2021
 
 ## 2021-04-24 
 
-* 14:36 Southparkfan: https://phabricator.miraheze.org/T5877#140588: run test backup on db11 with six threads
+* 14:36 Southparkfan: [https://phabricator.miraheze.org/T5877#140588](https://phabricator.miraheze.org/T5877#140588): run test backup on db11 with six threads
 * 10:07 Reception123: cd /srv/mediawiki/w/skins && sudo -u www-data git revert 6ca05c7 on mw*
 * 09:11 Reception123: cd /srv/mediawiki/w/extensions && sudo -u www-data git pull ; sudo -u www-data git submodule sync ; sudo -u www-data git submodule update && sudo puppet agent --enable && sudo puppet agent -t on jbr*
 * 08:48 Reception123: cd /srv/mediawiki/w/extensions && sudo -u www-data git pull ; sudo -u www-data git submodule sync ; sudo -u www-data git submodule update && sudo puppet agent --enable && sudo puppet agent -t on mw*
@@ -4912,7 +4912,7 @@ title: Tech:Server admin log/2021
 
 * 21:16 paladox: jobrunner3: sudo -u www-data php createLocalAccount.php --wiki uspoliticalsimulationwiki Electricboogaloo
 * 20:10 John: run jobs on all wikis on jobrunner3, experimentation run to empty queue through a forced run
-* 18:53 paladox: switch over jobrunner[34] to use our fork https://github.com/miraheze/jobrunner-service
+* 18:53 paladox: switch over jobrunner[34] to use our fork [https://github.com/miraheze/jobrunner-service](https://github.com/miraheze/jobrunner-service)
 * 15:40 John: fork wikimedia/mediawiki-services-jobrunner repo
 * 08:43 RhinosF1: mergemessagelistfiles and rebuild i18n on test3 then jbr* then mw* (END)
 * 08:10 RhinosF1: mergemessagelistfiles and rebuild i18n on test3 then jbr* then mw* (START)
@@ -4948,7 +4948,7 @@ title: Tech:Server admin log/2021
 ## 2021-04-04 
 
 * 22:35 Southparkfan: delete from metawiki.echo_unread_wikis where euw_user=96304 and euw_wiki='staffwiki';
-* 21:13 Southparkfan: install sshfs on db11 (https://phabricator.miraheze.org/T5877)
+* 21:13 Southparkfan: install sshfs on db11 ([https://phabricator.miraheze.org/T5877](https://phabricator.miraheze.org/T5877))
 
 ## 2021-04-03 
 
@@ -4979,7 +4979,7 @@ title: Tech:Server admin log/2021
 
 * 23:03 Southparkfan: T7073: install prometheus-es-exporter_0.11.1-1_all.deb on graylog
 * 22:56 Southparkfan: install binutils on graylog2
-* 17:43 Southparkfan: rebuilding LC on jobrunner[34] in a screen for https://phabricator.miraheze.org/T7070
+* 17:43 Southparkfan: rebuilding LC on jobrunner[34] in a screen for [https://phabricator.miraheze.org/T7070](https://phabricator.miraheze.org/T7070)
 * 17:40 Southparkfan: restart jobchron, jobrunner (jobrunners) and mongod (graylog2)
 * 17:38 Southparkfan: restart phd for security updates
 * 17:37 Southparkfan: restart php-fpm on mon2, mail2, phab2, test3, jobrunner4 for security update
@@ -4988,7 +4988,7 @@ title: Tech:Server admin log/2021
 * 16:52 Southparkfan: start replica mariadb@c2 dbbackup1
 * 16:40 Southparkfan: reboot dbbackup1
 * 16:38 Southparkfan: restarted adminlogbot
-* 16:37 Southparkfan: installing security patches per https://linuxsecurity.com/advisories/debian/debian-dsa-4881-1-curl-security-update-06-30-31
+* 16:37 Southparkfan: installing security patches per [https://linuxsecurity.com/advisories/debian/debian-dsa-4881-1-curl-security-update-06-30-31](https://linuxsecurity.com/advisories/debian/debian-dsa-4881-1-curl-security-update-06-30-31)
 
 ## 2021-03-30 
 
@@ -4999,7 +4999,7 @@ title: Tech:Server admin log/2021
 * 22:15 Southparkfan: start c2 replication
 * 21:41 paladox: upgrade dbbackup1 to debian 10.9 and install security updates
 * 21:36 paladox: upgrade dbbackup2 to debian 10.9 and install security updates
-* 19:27 RhinosF1: create https://github.com/miraheze/MWExt-SkinUpdateTracker for T7052
+* 19:27 RhinosF1: create [https://github.com/miraheze/MWExt-SkinUpdateTracker](https://github.com/miraheze/MWExt-SkinUpdateTracker) for T7052
 * 09:16 RhinosF1: > UPDATE recentchanges SET rc_bot = 0 where rc_actor = 2 and rc_bot = 1; via rhinos@jobrunner3:~$ sudo -u www-data php /srv/mediawiki/w/maintenance/sql.php --wiki=abysmalhardwarewiki for T7031
 
 ## 2021-03-27 
@@ -5017,7 +5017,7 @@ title: Tech:Server admin log/2021
 ## 2021-03-25 
 
 * 22:58 Southparkfan: remove downtime from bacula2, upgrade issues (ticket opened with RamNode)
-* 22:47 Southparkfan: downtime bacula2 for the coming five hours, upgrade in progress: https://phabricator.miraheze.org/T7038
+* 22:47 Southparkfan: downtime bacula2 for the coming five hours, upgrade in progress: [https://phabricator.miraheze.org/T7038](https://phabricator.miraheze.org/T7038)
 * 19:51 paladox: reboot bacula2
 * 19:50 paladox: restart ircrcbot, ircecho and logbot on mon2
 * 19:48 paladox: also restarted syslog-ng on db*
@@ -5044,7 +5044,7 @@ title: Tech:Server admin log/2021
 ## 2021-03-24 
 
 * 20:41 Reception123: finished running deleted script
-* 18:47 Reception123: DELETED and DROPPED https://phabricator.miraheze.org/P399 (draft 1, further deletions to follow after error is fixed which will be updated on the paste)
+* 18:47 Reception123: DELETED and DROPPED [https://phabricator.miraheze.org/P399](https://phabricator.miraheze.org/P399) (draft 1, further deletions to follow after error is fixed which will be updated on the paste)
 * 18:40 paladox: 18:37:21: restarted memcached on mem2
 * 18:38 paladox: restarted memcached on mem2
 * 17:20 Reception123: running sudo -u www-data git reset --hard origin/REL1_35 && sudo -u www-data git pull ; sudo -u www-data git submodule update on mw*/jbr*
@@ -5084,7 +5084,7 @@ title: Tech:Server admin log/2021
 
 ## 2021-03-18 
 
-* 22:58 Southparkfan: start backup on dbbackup2 (command: https://phabricator.miraheze.org/T5877#132335) for c3, to test impact on load
+* 22:58 Southparkfan: start backup on dbbackup2 (command: [https://phabricator.miraheze.org/T5877#132335](https://phabricator.miraheze.org/T5877#132335)) for c3, to test impact on load
 * 13:41 Reception123: sudo -u www-data php /srv/mediawiki/w/maintenance/initSiteStats.php --update --wiki minecraftwiki
 * 13:39 Southparkfan: dbbackup1: stop replication for c4 to test impact on load, current stats: c2 lagged by 43 hours, c4 lagged by 67.5 hours,
 * 01:17 paladox: add civwikiwiki to matomo
@@ -5097,7 +5097,7 @@ title: Tech:Server admin log/2021
 * 17:12 Universal_Omega: RebuildLocalisationCache and mergeMessageFileList on Jbr* and mw*
 * 16:35 Southparkfan: db11: MariaDB [(none)]> purge binary logs to 'mysql-bin.000973';
 * 07:12 Reception123: renamed outlawsrefugewiki to outlawshavenwiki
-* 00:18 Southparkfan: downtimed load alerts for dbbackup[12] till March 31, per https://phabricator.miraheze.org/T6984
+* 00:18 Southparkfan: downtimed load alerts for dbbackup[12] till March 31, per [https://phabricator.miraheze.org/T6984](https://phabricator.miraheze.org/T6984)
 
 ## 2021-03-16 
 
@@ -5211,7 +5211,7 @@ title: Tech:Server admin log/2021
 
 * 23:28 paladox: dropped mail: prefix from all users in ldap
 * 16:24 paladox: gluster: gluster volume set static performance.write-behind off
-* 00:22 Southparkfan: varnish ban every url that starts with "https://static.miraheze.org/terribletvshows"
+* 00:22 Southparkfan: varnish ban every url that starts with " [https://static.miraheze.org/terribletvshows](https://static.miraheze.org/terribletvshows)"
 
 ## 2021-02-28 
 
@@ -5223,7 +5223,7 @@ title: Tech:Server admin log/2021
 * 16:25 paladox: jobrunner3: sudo -u www-data php modifyMatomo.php --wiki loginwiki
 * 16:05 paladox: rebuild lc on mw* and jobrunner*
 * 14:47 paladox: rebuild lc on mw* and jobrunner*
-* 09:36 Reception123: deleted and dropped wikis https://phabricator.miraheze.org/P388
+* 09:36 Reception123: deleted and dropped wikis [https://phabricator.miraheze.org/P388](https://phabricator.miraheze.org/P388)
 * 08:36 Reception123: reception@jobrunner3:~$ sudo -u www-data php /srv/mediawiki/w/extensions/CreateWiki/maintenance/deleteWikis.php --wiki=loginwiki --delete Reception123
 * 08:13 Reception123: running delbackups
 * 06:34 Reception123: renamed sbtestwiki to samskritavyakaranamwiki
@@ -5321,7 +5321,7 @@ title: Tech:Server admin log/2021
 * 23:31 Universal_Omega: ALTER TABLE /*_*/poll_user_vote ADD COLUMN pv_actor bigint unsigned NOT NULL AFTER pv_pc_id; on crappygameswiki
 * 23:31 Universal_Omega: CREATE INDEX /*i*/poll_actor ON /*_*/poll_question (poll_actor); on crappygameswiki
 * 23:29 Universal_Omega: ALTER TABLE /*_*/poll_question ADD COLUMN poll_actor bigint unsigned NOT NULL AFTER poll_page_id; on crappygameswiki
-* 19:27 paladox: graylog2: curl -XPUT -H 'Content-Type: application/json' -d '{ "index" : { "max_result_window" : 9000000 } }' http://127.0.0.1:9200/_settings
+* 19:27 paladox: graylog2: curl -XPUT -H 'Content-Type: application/json' -d '{ "index" : { "max_result_window" : 9000000 } }' [http://127.0.0.1:9200/_settings](http://127.0.0.1:9200/_settings)
 * 18:45 paladox: restart dovecot
 * 16:49 paladox: rebuild lc on test3
 * 16:46 paladox: rebuild lc on mw* and jobrunner*
@@ -5648,7 +5648,7 @@ title: Tech:Server admin log/2021
 * 21:30 Southparkfan: dbbackup1: add hard and soft 'nofile' limits in /etc/security/limits.conf
 * 21:17 Southparkfan: set ulimit -Sn 1000000 on dbbackup1
 * 20:46 Southparkfan: dbbackup1: temporarily stop c3 replication to reduce load
-* 20:35 Southparkfan: there was an issue with c3 replication on dbbackup1, fixed with https://dba.stackexchange.com/a/191558
+* 20:35 Southparkfan: there was an issue with c3 replication on dbbackup1, fixed with [https://dba.stackexchange.com/a/191558](https://dba.stackexchange.com/a/191558)
 * 20:15 Southparkfan: dump db11 to dbbackup1
 * 20:12 Southparkfan: db11: increase soft open files limit to 1 million
 * 16:10 paladox: reboot and upgrade kernel on cp3
@@ -5802,4 +5802,4 @@ title: Tech:Server admin log/2021
 * 00:10 Universal_Omega: UPDATE mw_settings SET s_settings = JSON_REPLACE(s_settings, '$.wmgDefaultRobotPolicy', JSON_REMOVE(s_settings, '$.wmgDefaultRobotPolicy');
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Server_admin_log/2021
+**Source**: [https://meta.miraheze.org/wiki/Tech:Server_admin_log/2021](https://meta.miraheze.org/wiki/Tech:Server_admin_log/2021)

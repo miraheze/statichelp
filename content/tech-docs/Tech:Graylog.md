@@ -2,7 +2,7 @@
 title: Tech:Graylog
 ---
 
-**Graylog** is a [log management solution](https://www.graylog.org/) for logs stored on the servers. The web interface is available at https://logging.wikitide.net/. Access is restricted to [Technology team department personnel](https://meta.miraheze.org/wiki/Tech:Volunteers). Said people can use their LDAP credentials for authentication.
+**Graylog** is a [log management solution](https://www.graylog.org/) for logs stored on the servers. The web interface is available at [https://logging.wikitide.net/](https://logging.wikitide.net/). Access is restricted to [Technology team department personnel](https://meta.miraheze.org/wiki/Tech:Volunteers). Said people can use their LDAP credentials for authentication.
 
 ## Architecture 
 
@@ -45,7 +45,7 @@ Streams are Graylog's categories of data. By default, the `All messages` stream 
 
 ## Querying the data 
 
-Graylog has a [search syntax](https://docs.graylog.org/en/4.0/pages/searching/query_language.html) that's close to Lucene's syntax. For MediaWiki and NGINX, custom fields have been defined: go to https://logging.wikitide.net/search and click on 'Fields' on your left. Using these fields, you can query the data. For example:
+Graylog has a [search syntax](https://docs.graylog.org/en/4.0/pages/searching/query_language.html) that's close to Lucene's syntax. For MediaWiki and NGINX, custom fields have been defined: go to [https://logging.wikitide.net/search](https://logging.wikitide.net/search) and click on 'Fields' on your left. Using these fields, you can query the data. For example:
 
 * View NGINX logs for your IP address: `nginx_remote_addr:"1.2.3.4"`
 * View all SSH logs: `application_name:"sshd"`
@@ -76,4 +76,4 @@ Configuring Graylog is a combination of Puppet usage and using the web interface
 [Category:Services](https://meta.miraheze.org/wiki/Category:Services)
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Graylog
+**Source**: [https://meta.miraheze.org/wiki/Tech:Graylog](https://meta.miraheze.org/wiki/Tech:Graylog)

@@ -33,4 +33,4 @@ Due to their less urgent nature than active threats, SRE members should only dea
 If in doubt about whether a threat is active or passive and no EM or T&S member is around, use your judgment and consult members of the team who are around. Remember that T&S and SRE must collaborate on security issues.
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Security
+**Source**: [https://meta.miraheze.org/wiki/Tech:Security](https://meta.miraheze.org/wiki/Tech:Security)

@@ -39,4 +39,4 @@ This is a guide for all Miraheze Site Reliability Engineers. They have access to
 [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Organization/Site_Reliability_Engineering
+**Source**: [https://meta.miraheze.org/wiki/Tech:Organization/Site_Reliability_Engineering](https://meta.miraheze.org/wiki/Tech:Organization/Site_Reliability_Engineering)

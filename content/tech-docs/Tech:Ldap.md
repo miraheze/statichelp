@@ -4,7 +4,7 @@ title: Tech:Ldap
 
 Miraheze uses ldap as an authentication system for some of our infrastructure, such as [Grafana](https://meta.miraheze.org/wiki/Tech:Grafana) and Icingaweb2.
 
-You can use `ldapvi` to modify a user, add a user, or change the roles the user has. You can also use https://ldapwiki.miraheze.org to change your password.
+You can use `ldapvi` to modify a user, add a user, or change the roles the user has. You can also use [https://ldapwiki.miraheze.org](https://ldapwiki.miraheze.org) to change your password.
 
 You can find the ldap password in /etc/ldapvi.conf. All these steps have to be done using ldap171.wikitide.net.
 
@@ -218,4 +218,4 @@ LDAP can be monitored via Grafana by accessing [this link](https://grafana.wikit
 [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Ldap
+**Source**: [https://meta.miraheze.org/wiki/Tech:Ldap](https://meta.miraheze.org/wiki/Tech:Ldap)

@@ -86,4 +86,4 @@ You can also cat the access log (or varnish log) to see if there's a pattern (e.
 [Category:Services](https://meta.miraheze.org/wiki/Category:Services)
 
 ----
-**Source**: https://meta.miraheze.org/wiki/Tech:Nginx
+**Source**: [https://meta.miraheze.org/wiki/Tech:Nginx](https://meta.miraheze.org/wiki/Tech:Nginx)
