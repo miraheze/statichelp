@@ -3,29 +3,19 @@ title: Tech:Projects
 ---
 
  `{{ {{SRE navigation|projects|header=SRE Projects|description=<translate><!--T:9--> Miraheze's system administrators are always planning out things. Learn more about our current projects on Miraheze Meta.</translate>|keywords=sre projects, miraheze sre projects}} }}`
-<!--T:10-->
-
 Miraheze continually strives to provide a strong, community centred service; along with that comes community scrutiny and community involvement over projects that are planned to take up considerable resources in terms of development, reviewing efforts, deployment, or long-standing maintenance.
-
-<!--T:2-->
 
 Below is a list of large projects that SRE has in mind, the idea of this page is to:
 * Have a centralised place for active community discussion over merits, design specs, etc.
 * Store all information about a project in a central place, not in [Phorge](https://meta.miraheze.org/wiki/Phorge).
 * Be planned and thoroughly thought through before being formally proposed as a project eligible for a goal.
 
-<!--T:3-->
-
 A proposal template is available [here](https://meta.miraheze.org/wiki//Template) and should be put in a subpage.
-
-<!--T:4-->
 
 Anyone may:
 * Propose a new project (see [here](https://meta.miraheze.org/wiki//Template)).
 * Comment on a proposal (use the talk page of the relevant proposal).
 * Work on a proposal (see [Contributing](https://meta.miraheze.org/wiki/Contributing) and *starting points* in a proposal for guidance).
-
-<!--T:11-->
 
 ## Current proposals 
 
@@ -33,13 +23,9 @@ Anyone may:
 * [CreateWiki AI improvement](https://meta.miraheze.org/wiki//CreateWiki_AI_improvement) — Improve the current AI system for CreateWiki to allow for different factors to be taken into account when assessing how 'good' a request is (~175 hours).
 * [Proper CI for Miraheze extensions](https://meta.miraheze.org/wiki//Proper_CI_for_Miraheze_extensions) — Implement proper continuous integration for extensions maintained by Miraheze (~175 hours).
 
-<!--T:6-->
-
 ## In progress 
 
 * None yet.
-
-<!--T:7-->
 
 ## Completed 
 

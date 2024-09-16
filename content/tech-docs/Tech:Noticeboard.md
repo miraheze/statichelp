@@ -16,8 +16,6 @@ title: Tech:Noticeboard
 }} }}
 ```
 
-__FORCETOC__
-
 ## Migration to new servers 
 
 Thanks to the support of our generous donors thus far through the [Fundraiser](https://meta.miraheze.org/wiki/Fundraiser) (we're currently at `{{ {{#expr:({{raw::Fundraiser 2024/amount}}/20000)*100round0}} }}`% of our goal), Miraheze has been to move to better servers. You may have noticed faster load times. This is because of our new servers! We thank our generous donors for their help in achieving this goal!
