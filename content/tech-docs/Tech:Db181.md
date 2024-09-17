@@ -23,4 +23,4 @@ title: Tech:Db181
 **db181** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a Database server running [MariaDB](/tech-docs/techmariadb).
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Db181](https://meta.miraheze.org/wiki/Tech:Db181)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Db181)**

@@ -56,4 +56,4 @@ Miraheze's Site Reliability Engineering team have crafted a set of Service Level
 | [Memcached](/tech-docs/techmemcached) | Availability | 99.5% | 100% | 100% | 100% | |  |  |  |  |  |  |  |
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:SLO](https://meta.miraheze.org/wiki/Tech:SLO)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:SLO)**

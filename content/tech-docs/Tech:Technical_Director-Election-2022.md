@@ -33,4 +33,4 @@ Note: If you think you fit this category and have been missed please feel free t
 Starting with 21 July 00:00 UTC eligible users are invited to vote by emailing sre-management@miraheze.org with the subject [TECH DIRECTOR]. The text should *only* include either "Agent Isai", "Universal Omega" or "Abstention" depending on your choice. The email must be sent from the same email address that is registered to your Miraheze account. Any vote which does not follow these rules or is from an uneligible user will be disregarded.
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Technical_Director/Election/2022](https://meta.miraheze.org/wiki/Tech:Technical_Director/Election/2022)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Technical_Director/Election/2022)**

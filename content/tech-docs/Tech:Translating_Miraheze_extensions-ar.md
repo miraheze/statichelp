@@ -20,4 +20,4 @@ title: Tech:Translating Miraheze extensions/ar
 * [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/ar](https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/ar)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/ar)**

@@ -23,4 +23,4 @@ title: Tech:Prometheus151
 **prometheus151** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a server that hosts Prometheus.
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Prometheus151](https://meta.miraheze.org/wiki/Tech:Prometheus151)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Prometheus151)**

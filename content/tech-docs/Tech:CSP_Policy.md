@@ -35,4 +35,4 @@ In the event of a dispute or situation not covered by this policy, the Director 
 * [Category:Tech policy](https://meta.miraheze.org/wiki/Category:Tech_policy)
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:CSP_Policy](https://meta.miraheze.org/wiki/Tech:CSP_Policy)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:CSP_Policy)**

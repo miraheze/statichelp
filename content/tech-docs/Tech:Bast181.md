@@ -23,4 +23,4 @@ title: Tech:Bast181
 **bast181** is a FiberState server in Salt Lake City, Utah running Debian Bookworm.
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Bast181](https://meta.miraheze.org/wiki/Tech:Bast181)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Bast181)**

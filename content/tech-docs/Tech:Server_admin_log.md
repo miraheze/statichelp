@@ -8183,4 +8183,4 @@ title: Tech:Server admin log
 * 00:55 MirahezeLSBot: [agent@mwtask141] starting deploy of {'world': True} to all
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Server_admin_log](https://meta.miraheze.org/wiki/Tech:Server_admin_log)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Server_admin_log)**

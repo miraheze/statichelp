@@ -10097,4 +10097,4 @@ title: Tech:Server admin log/2023
 * 00:08 Universal Omega: test
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Server_admin_log/2023](https://meta.miraheze.org/wiki/Tech:Server_admin_log/2023)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Server_admin_log/2023)**

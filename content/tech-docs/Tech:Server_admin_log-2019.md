@@ -3081,4 +3081,4 @@ title: Tech:Server admin log/2019
 * 15:01 paladox: depool mw1
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Server_admin_log/2019](https://meta.miraheze.org/wiki/Tech:Server_admin_log/2019)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Server_admin_log/2019)**

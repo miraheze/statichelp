@@ -27,4 +27,4 @@ This is a page designed to be a working ground for analysing the infrastructure 
 | [test1](https://meta.miraheze.org/wiki/Tech:test1) | Testing | mediawiki, salt-minion | CPU: 1x2.40GHz | 40G | 1GB | $3.50 |
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:2018_Infrastructure_Assessment](https://meta.miraheze.org/wiki/Tech:2018_Infrastructure_Assessment)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:2018_Infrastructure_Assessment)**

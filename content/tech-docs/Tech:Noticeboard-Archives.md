@@ -13,4 +13,4 @@ title: Tech:Noticeboard/Archives
 * [Category:Archives of Technology noticeboard](https://meta.miraheze.org/wiki/Category:Archives_of_Technology_noticeboard)
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Noticeboard/Archives](https://meta.miraheze.org/wiki/Tech:Noticeboard/Archives)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Noticeboard/Archives)**

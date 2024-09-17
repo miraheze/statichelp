@@ -23,4 +23,4 @@ title: Tech:Graylog161
 **graylog161** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a server used for running [Graylog](/tech-docs/techgraylog).
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Graylog161](https://meta.miraheze.org/wiki/Tech:Graylog161)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Graylog161)**

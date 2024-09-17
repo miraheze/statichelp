@@ -37,4 +37,4 @@ Jeder kann:
 * [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Projects/de](https://meta.miraheze.org/wiki/Tech:Projects/de)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Projects/de)**

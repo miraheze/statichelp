@@ -22,4 +22,4 @@ Upgrading Phorge is a process which is mostly automated by the software itself a
 * [Category:Services](https://meta.miraheze.org/wiki/Category:Services)
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Phorge](https://meta.miraheze.org/wiki/Tech:Phorge)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Phorge)**

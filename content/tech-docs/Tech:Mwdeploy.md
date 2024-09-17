@@ -59,4 +59,4 @@ If the server is being decommissioned:
 * Wipe `/srv/mediawiki-staging/`
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Mwdeploy](https://meta.miraheze.org/wiki/Tech:Mwdeploy)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Mwdeploy)**

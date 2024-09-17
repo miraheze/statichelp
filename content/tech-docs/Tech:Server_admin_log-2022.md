@@ -16509,4 +16509,4 @@ title: Tech:Server admin log/2022
 * 03:12 Universal Omega: sudo -u www-data php /srv/mediawiki/w/maintenance/rebuildall.php --wiki=sunrinwiki
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Server_admin_log/2022](https://meta.miraheze.org/wiki/Tech:Server_admin_log/2022)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Server_admin_log/2022)**

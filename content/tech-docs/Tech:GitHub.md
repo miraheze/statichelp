@@ -101,4 +101,4 @@ mediawiki is the repository that manages the MediaWiki source code, skins, and e
 * [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:GitHub](https://meta.miraheze.org/wiki/Tech:GitHub)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:GitHub)**

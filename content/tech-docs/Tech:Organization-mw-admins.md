@@ -64,4 +64,4 @@ Follow the instructions at [Tech:Graylog](/tech-docs/techgraylog).
 * [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Organization/mw-admins](https://meta.miraheze.org/wiki/Tech:Organization/mw-admins)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Organization/mw-admins)**

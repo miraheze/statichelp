@@ -39,4 +39,4 @@ At the [Board meeting of October 23, 2020](https://meta.miraheze.org/wiki/Board/
 
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Data_Processing_Inventory](https://meta.miraheze.org/wiki/Tech:Data_Processing_Inventory)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Data_Processing_Inventory)**

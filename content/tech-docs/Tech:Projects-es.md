@@ -38,4 +38,4 @@ Cualquiera puede:
 * [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Projects/es](https://meta.miraheze.org/wiki/Tech:Projects/es)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Projects/es)**

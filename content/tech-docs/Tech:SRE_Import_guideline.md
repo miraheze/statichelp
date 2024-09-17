@@ -47,4 +47,4 @@ All suggestions below can be exceeded if approved by a MWE that is satisfied a r
 | > 25 | 15 GB | 30 GB | |
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:SRE_Import_guideline](https://meta.miraheze.org/wiki/Tech:SRE_Import_guideline)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:SRE_Import_guideline)**

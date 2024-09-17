@@ -38,4 +38,4 @@ Kdokoliv může:
 * [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Projects/cs](https://meta.miraheze.org/wiki/Tech:Projects/cs)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Projects/cs)**

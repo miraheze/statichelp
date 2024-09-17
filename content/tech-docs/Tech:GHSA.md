@@ -82,4 +82,4 @@ If you need to create an advisory, follow the steps below:
 * [Category:Guides for sysadmins](https://meta.miraheze.org/wiki/Category:Guides_for_sysadmins)
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:GHSA](https://meta.miraheze.org/wiki/Tech:GHSA)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:GHSA)**

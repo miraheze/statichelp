@@ -23,4 +23,4 @@ title: Tech:Swiftobject181
 **swiftobject181** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a [Swift](/tech-docs/techswift) object storage server.
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Swiftobject181](https://meta.miraheze.org/wiki/Tech:Swiftobject181)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Swiftobject181)**

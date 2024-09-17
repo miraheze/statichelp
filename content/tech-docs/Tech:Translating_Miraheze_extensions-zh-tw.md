@@ -20,4 +20,4 @@ Miraheze develops and maintains a few extensions, for example [CreateWiki](https
 * [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/zh-tw](https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/zh-tw)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/zh-tw)**

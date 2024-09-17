@@ -64,4 +64,4 @@ Below is a list of proposed servers:
 | [test151](/tech-docs/techtest151) | 12 GB | 12 cores (unknown speed) | 100 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Server_usage/proposed](https://meta.miraheze.org/wiki/Tech:Server_usage/proposed)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Server_usage/proposed)**

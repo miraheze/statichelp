@@ -38,4 +38,4 @@ After running that make sure you exit shell.php or sql.php (if using) and rerun 
 * [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Fixing_slot_roles_and_content_models](https://meta.miraheze.org/wiki/Tech:Fixing_slot_roles_and_content_models)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Fixing_slot_roles_and_content_models)**

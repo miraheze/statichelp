@@ -19,4 +19,4 @@ The Technology team's noticeboard features periodic announcements from the Techn
 * [Category:Headers](https://meta.miraheze.org/wiki/Category:Headers)
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Noticeboard/header](https://meta.miraheze.org/wiki/Tech:Noticeboard/header)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Noticeboard/header)**

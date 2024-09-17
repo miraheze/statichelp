@@ -22,4 +22,4 @@ Keep in mind that this check is done over HTTPS and that Cloudflare is verifying
 * Click save at the bottom of the page and you're done.
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Cloudflare](https://meta.miraheze.org/wiki/Tech:Cloudflare)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Cloudflare)**

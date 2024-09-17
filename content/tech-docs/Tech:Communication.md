@@ -34,4 +34,4 @@ Not all channels are made the same. Some, like on-wiki sitenotices, are very int
 For example, while sitenotices are intrusive, you ensure that everyone on a Miraheze wiki at that time knows what's going on. Therefore, these are better reserved for farm-wide issues in the case of global sitenotices, or for extensions disabled due to security issues, in the case of targeted sitenotices.
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Communication](https://meta.miraheze.org/wiki/Tech:Communication)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Communication)**

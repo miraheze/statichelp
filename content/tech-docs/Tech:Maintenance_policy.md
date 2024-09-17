@@ -69,4 +69,4 @@ This policy was initially created by [Universal Omega](https://meta.miraheze.org
 * [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Maintenance_policy](https://meta.miraheze.org/wiki/Tech:Maintenance_policy)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Maintenance_policy)**

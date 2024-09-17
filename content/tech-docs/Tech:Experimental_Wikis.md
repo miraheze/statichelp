@@ -17,4 +17,4 @@ The following features are enabled on experimental wikis:
 * [JQuery Migrate](https://github.com/jquery/jquery-migrate) (now disabled)
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Experimental_Wikis](https://meta.miraheze.org/wiki/Tech:Experimental_Wikis)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Experimental_Wikis)**

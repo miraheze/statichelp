@@ -19,4 +19,4 @@ Users can refer to either "Contacts" (those who get emails and alerts) or "Inter
 * [Category:Monitoring services](https://meta.miraheze.org/wiki/Category:Monitoring_services)
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Icinga](https://meta.miraheze.org/wiki/Tech:Icinga)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Icinga)**

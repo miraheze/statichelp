@@ -33,4 +33,4 @@ Anyone interested in starting this project should:
 * get in touch with an [SRE](https://meta.miraheze.org/wiki/Tech:Organisation#Team:_MediaWiki,_Site_Reliability_Engineering) member to discuss how to proceed.
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Projects/CreateWiki_AI_improvement](https://meta.miraheze.org/wiki/Tech:Projects/CreateWiki_AI_improvement)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Projects/CreateWiki_AI_improvement)**

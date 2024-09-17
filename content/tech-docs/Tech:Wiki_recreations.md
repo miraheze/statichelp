@@ -29,4 +29,4 @@ It may be due to one of two reasons:
 This is likely due to a bug. Please file a request at [Stewards' noticeboard#Administrator/Bureaucrat access](https://meta.miraheze.org/wiki/Stewards'_noticeboard#Administrator/Bureaucrat_access) asking that you be repromoted. At this moment, we are only processing requests from the original wiki requester.
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Wiki_recreations](https://meta.miraheze.org/wiki/Tech:Wiki_recreations)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Wiki_recreations)**

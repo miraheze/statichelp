@@ -35,4 +35,4 @@ title: Tech:Volunteers/hi
 * [Category:System administrators](https://meta.miraheze.org/wiki/Category:System_administrators)
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Volunteers/hi](https://meta.miraheze.org/wiki/Tech:Volunteers/hi)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Volunteers/hi)**

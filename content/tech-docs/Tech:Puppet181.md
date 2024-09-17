@@ -23,4 +23,4 @@ title: Tech:Puppet181
 **puppet181** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a server that hosts the [puppetserver](/tech-docs/techpuppet) for all of Miraheze's servers. It also currently hosts [Salt](/tech-docs/techsalt).
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Puppet181](https://meta.miraheze.org/wiki/Tech:Puppet181)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Puppet181)**

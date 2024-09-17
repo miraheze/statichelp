@@ -469,4 +469,4 @@ MariaDB [mhglobal]> SELECT wiki_category, COUNT(*) as COUNT FROM cw_wikis GROUP 
 ```
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Miscellaneous_Wiki_Stats](https://meta.miraheze.org/wiki/Tech:Miscellaneous_Wiki_Stats)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Miscellaneous_Wiki_Stats)**

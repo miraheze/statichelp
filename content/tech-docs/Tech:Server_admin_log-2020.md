@@ -3773,4 +3773,4 @@ title: Tech:Server admin log/2020
 * 00:37 paladox: restart varnish cp2,cp4
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Server_admin_log/2020](https://meta.miraheze.org/wiki/Tech:Server_admin_log/2020)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Server_admin_log/2020)**

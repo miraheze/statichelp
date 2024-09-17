@@ -22,4 +22,4 @@ title: Tech:Cloud15
 **cloud15** is a FiberState bare metal dedicated server in Salt Lake City, Utah running Debian Bookworm. It is a [virtualization host server](/tech-docs/techproxmox).
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Cloud15](https://meta.miraheze.org/wiki/Tech:Cloud15)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Cloud15)**

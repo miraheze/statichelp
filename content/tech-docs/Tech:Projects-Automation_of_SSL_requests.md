@@ -41,4 +41,4 @@ Anyone interested in starting this project should:
 * Get in touch with an [SRE](https://meta.miraheze.org/wiki/Tech:Organisation#Team:_MediaWiki,_Site_Reliability_Engineering) member to discuss how to proceed.
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Projects/Automation_of_SSL_requests](https://meta.miraheze.org/wiki/Tech:Projects/Automation_of_SSL_requests)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Projects/Automation_of_SSL_requests)**

@@ -71,4 +71,4 @@ Under 'Progress Against Objectives', there are 6 boxes. One is set as an SRE-wid
 * Building an ecosystem around software with a focus on continuous integration, performance, and security.
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Personal_Development_Policy](https://meta.miraheze.org/wiki/Tech:Personal_Development_Policy)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Personal_Development_Policy)**

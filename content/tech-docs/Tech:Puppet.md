@@ -78,4 +78,4 @@ Here are the steps you should follow when removing a puppet agent (server) from 
 * [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Puppet](https://meta.miraheze.org/wiki/Tech:Puppet)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Puppet)**

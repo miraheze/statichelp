@@ -43,4 +43,4 @@ To upgrade SMW follow the following steps:
 * [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Semantic_MediaWiki](https://meta.miraheze.org/wiki/Tech:Semantic_MediaWiki)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Semantic_MediaWiki)**

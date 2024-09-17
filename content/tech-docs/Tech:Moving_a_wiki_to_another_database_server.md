@@ -26,4 +26,4 @@ Moving a wiki to another database is not complicated provided you have the requi
 * [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Moving_a_wiki_to_another_database_server](https://meta.miraheze.org/wiki/Tech:Moving_a_wiki_to_another_database_server)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Moving_a_wiki_to_another_database_server)**

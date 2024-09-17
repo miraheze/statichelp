@@ -23,4 +23,4 @@ title: Tech:Matomo151
 **matomo151** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a server that hosts [Matomo](/tech-docs/techmatomo).
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Matomo151](https://meta.miraheze.org/wiki/Tech:Matomo151)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Matomo151)**

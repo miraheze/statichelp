@@ -32,4 +32,4 @@ This is as a good as direct comparsion but is expected to show the reasonable eq
 | [lizardfs6](https://meta.miraheze.org/wiki/Tech:lizardfs6) | gluster1 | cloud2 | Paladox | `{{ {{done}} }}` |
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Cloud_Server_Comparison](https://meta.miraheze.org/wiki/Tech:Cloud_Server_Comparison)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Cloud_Server_Comparison)**

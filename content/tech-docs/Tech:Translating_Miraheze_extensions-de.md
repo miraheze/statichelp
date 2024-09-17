@@ -20,4 +20,4 @@ Derzeit verwenden wir [translatewiki.net](https://meta.miraheze.org/wiki/transla
 * [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/de](https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/de)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/de)**

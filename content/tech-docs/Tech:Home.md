@@ -65,4 +65,4 @@ The Technology team strives for transparency. Below are some of our policies and
 * [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Home](https://meta.miraheze.org/wiki/Tech:Home)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Home)**

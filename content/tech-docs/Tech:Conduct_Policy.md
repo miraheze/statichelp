@@ -38,4 +38,4 @@ Failure to adhere to this conduct policy may result in disciplinary action, up t
 * [Category:Tech policy](https://meta.miraheze.org/wiki/Category:Tech_policy)
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Conduct_Policy](https://meta.miraheze.org/wiki/Tech:Conduct_Policy)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Conduct_Policy)**

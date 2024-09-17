@@ -31,4 +31,4 @@ Once the new version has been officially released, it's time for prod to be upgr
 * Run maintenance scripts and apply SQL patches as needed.
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Upgrading_MediaWiki](https://meta.miraheze.org/wiki/Tech:Upgrading_MediaWiki)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Upgrading_MediaWiki)**

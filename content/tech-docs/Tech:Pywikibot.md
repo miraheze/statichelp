@@ -31,4 +31,4 @@ The following directories are used for pywikibot:
 * /var/log/pwb/: Where the contents of STDOUT on scripts run in a cron are logged to. For example, the logs of the archivebot run automatically on Meta are on `/var/log/pwb/archivebot-cron.log`
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Pywikibot](https://meta.miraheze.org/wiki/Tech:Pywikibot)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Pywikibot)**

@@ -107,4 +107,4 @@ $ curl -H 'X-Miraheze-Debug: test151.wikitide.net' 'https://allthetropes.org/wik
 * [Category:Services](https://meta.miraheze.org/wiki/Category:Services)
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:MediaWiki_appserver](https://meta.miraheze.org/wiki/Tech:MediaWiki_appserver)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:MediaWiki_appserver)**

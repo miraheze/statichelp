@@ -20,4 +20,4 @@ Mirahezeは、 [CreateWiki](https://meta.miraheze.org/wiki/github:miraheze/Creat
 * [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/ja](https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/ja)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/ja)**

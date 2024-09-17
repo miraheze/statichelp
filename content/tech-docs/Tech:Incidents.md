@@ -67,4 +67,4 @@ All reports can be found at [Special:IncidentReports](https://meta.miraheze.org/
 * [Category:Tech policy](https://meta.miraheze.org/wiki/Category:Tech_policy)
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Incidents](https://meta.miraheze.org/wiki/Tech:Incidents)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Incidents)**

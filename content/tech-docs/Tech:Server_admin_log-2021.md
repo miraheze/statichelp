@@ -5802,4 +5802,4 @@ title: Tech:Server admin log/2021
 * 00:10 Universal_Omega: UPDATE mw_settings SET s_settings = JSON_REPLACE(s_settings, '$.wmgDefaultRobotPolicy', JSON_REMOVE(s_settings, '$.wmgDefaultRobotPolicy');
 
 ----
-**Source**: [https://meta.miraheze.org/wiki/Tech:Server_admin_log/2021](https://meta.miraheze.org/wiki/Tech:Server_admin_log/2021)
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Server_admin_log/2021)**
