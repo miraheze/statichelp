@@ -10,6 +10,7 @@ title: Tech:Volunteers/List
 | [Harej](https://meta.miraheze.org/wiki/User:Harej)<br /> *Project Manager* | None | harej `{{ {{@}} }}`miraheze.org | No | No | No | Yes | No | Yes | No |
 | [MacFan4000](https://meta.miraheze.org/wiki/User:MacFan4000)<br /> *MediaWiki Specialist* | MacFan4000 | macfan `{{ {{@}} }}`miraheze.org | MediaWiki servers, puppet181 | MediaWiki Specialists; ssl-admins | No | No | Yes | No | No |
 | [Original Authority](https://meta.miraheze.org/wiki/User:Original_Authority)<br /> *MediaWiki Specialist* | None | oa `{{ {{@}} }}`miraheze.org | MediaWiki servers, puppet181 | MediaWiki Specialists; ssl-admins | No | No | Yes | No | No |
+| [Paladox](https://meta.miraheze.org/wiki/User:Paladox)<br /> *Infrastructure Specialist* | paladox | paladox `{{ {{@}} }}`miraheze.org | Root on all servers | Owner | Yes | Yes | Yes | No | Yes |
 | [Reception123](https://meta.miraheze.org/wiki/User:Reception123)<br /> *Deputy Director of Technology* | Reception123 | reception `{{ {{@}} }}`miraheze.org | Root on all servers | Owner | Yes | Yes | Yes | No | Yes |
 | [RhinosF1](https://meta.miraheze.org/wiki/User:RhinosF1)<br /> *Software Engineer* | RhinosF1 | rhinosf1 `{{ {{@}} }}`miraheze.org | No | Software Engineers | No | No | Yes | No | No |
 | [TheresNoTime](https://meta.miraheze.org/wiki/User:TheresNoTime)<br /> *MediaWiki Specialist* | TheresNoTime | theresnotime `{{ {{@}} }}`miraheze.org | MediaWiki servers | MediaWiki Specialists | No | No | No | No | No |

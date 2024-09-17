@@ -23,6 +23,10 @@ The team includes volunteers in technical and less-technical roles, including pr
 ! Grafana (Yönetici)
 |- `{{ {{Tech:{{BASEPAGENAME}}/List}} }}`
 
+### Geçmiş/Şimdiki SGM gönüllülerinin listesi
+
+ `{{ {{:Tech:Volunteers/Chart}} }}`
+
 ## Ayrıca bakınız 
 
 * [Tech:Organization](/tech-docs/techorganization)

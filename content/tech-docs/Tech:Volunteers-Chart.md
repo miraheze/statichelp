@@ -41,7 +41,7 @@ PlotData   =
     color:previous from:30/03/2023 till:09/05/2023 text:"[[User:OrangeStar|OrangeStar]]"
     color:current from:06/01/2024 till:end text:"[[User:Original Authority|Original Authority]]"
     color:previous from:03/01/2024 till:20/02/2024 text:"[[User:Owen|Owen]]"
-    color:previous from:10/04/2018 till:13/06/2021 text:"[[User:Paladox|Paladox]]"
+    color:current from:10/04/2018 till:13/06/2021 text:"[[User:Paladox|Paladox]]"
     color:current from:03/08/2016 till:15/06/2023 text:"[[User:Reception123|Reception123]]"
     color:previous from:21/09/2015 till:05/07/2016 text:"[[User:Revi|Revi]]"
     color:previous from:10/09/2019 till:14/12/2019 text:"[[User:RhinosF1|RhinosF1]]"
@@ -92,7 +92,7 @@ PlotData   =
     barset:skip
     barset:skip
     barset:skip
-    color:previous from:09/08/2021 till:16/06/2023 text:"[[User:Paladox|Paladox]]"
+    color:current from:09/08/2021 till:16/06/2023 text:"[[User:Paladox|Paladox]]"
   barset:break
     barset:skip
     barset:skip
@@ -106,13 +106,27 @@ PlotData   =
     barset:skip
     barset:skip
     barset:skip
-    color:previous from:26/06/2023 till:20/02/2024 text:"[[User:Paladox|Paladox]]"
+    color:current from:26/06/2023 till:20/02/2024 text:"[[User:Paladox|Paladox]]"
     color:current from:02/01/2024 till:end text:"[[User:Reception123|Reception123]]"
     barset:skip
     barset:skip
     barset:skip
     barset:skip
     color:current from:02/01/2024 till:end text:"[[User:Universal Omega|Universal Omega]]"
+  barset:break
+    barset:skip
+    barset:skip
+    barset:skip
+    barset:skip
+    barset:skip
+    barset:skip
+    barset:skip
+    barset:skip
+    barset:skip
+    barset:skip
+    barset:skip
+    barset:skip
+    color:current from:17/09/2024 till:end text:"[[User:Paladox|Paladox]]"
 }} }}
 ```
 

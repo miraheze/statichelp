@@ -23,6 +23,10 @@ title: Tech:Volunteers/ja
 ! Grafana (管理者)
 |- `{{ {{Tech:{{BASEPAGENAME}}/List}} }}`
 
+### チャート
+
+ `{{ {{:Tech:Volunteers/Chart}} }}`
+
 ## 関連項目 
 
 * [Tech:Organization](/tech-docs/techorganization)

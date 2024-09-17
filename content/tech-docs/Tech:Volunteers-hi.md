@@ -23,6 +23,10 @@ title: Tech:Volunteers/hi
 ! Grafana (प्रबंधक)
 |- `{{ {{Tech:{{BASEPAGENAME}}/List}} }}`
 
+### चार्ट 
+
+ `{{ {{:Tech:Volunteers/Chart}} }}`
+
 ## ये भी देखें 
 
 * [Tech:Organization](/tech-docs/techorganization)

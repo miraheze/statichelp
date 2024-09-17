@@ -4,7 +4,7 @@ title: Tech:Varnish
 
 [Varnish](https://meta.miraheze.org/wiki/wikipedia:Varnish_(software)) is an HTTP cache proxy, which can serve almost anything (including articles) without asking the MediaWiki appservers.
 
-Miraheze is currently migrating to [Cloudflare](/tech-docs/techcloudflare) as a replacement for Varnish. Varnish currently only serves traffic for wikis on *.wikitide.org/*.wikitide.net wikis and for wikis that use Miraheze's DNS nameservers.
+Miraheze is currently migrating to [Cloudflare](/tech-docs/techcloudflare) as a replacement for Varnish. Varnish currently only serves traffic for domains on *.wikitide.org/*.wikitide.net and for custom domains that use Miraheze's DNS nameservers.
 
 ## Basics 
 
@@ -57,9 +57,13 @@ cp26 is the cache proxy who served the request, HIT indicates the request was se
 
 ***Note: due to [a bug in Varnish](https://www.varnish-cache.org/trac/ticket/1492), obj.hits won't be reset after a ban was applied.***
 
-### X-Miraheze-Debug 
+### X-WikiTide-Debug 
 
-Using the `X-Miraheze-Debug` header, you can force the request to be passed to a certain backend. For example, requests with the header `X-Miraheze-Debug: test151.wikitide.net` will always be passed (regardless of whether it could be served from the cache or not) to test151.
+Using the `X-WikiTide-Debug` header, you can force the request to be passed to a certain backend. For example, requests with the header `X-WikiTide-Debug: test151.wikitide.net` will always be passed (regardless of whether it could be served from the cache or not) to test151.
+
+`X-WikiTide-Debug` also requires an access key sent via `X-WikiTide-Debug-Access-Key`, unless the request is made from a server from our own internal infrastructure (from one of our own IP ranges). If you don't have this access key, please ask another member of the [Technology team](/tech-docs/techvolunteers).
+
+You can also use the [WikiTideDebug](https://github.com/miraheze/WikiTideDebug) Chrome extension to proxy servers directly from your browser.
 
 ## One-off purges (bans) 
 

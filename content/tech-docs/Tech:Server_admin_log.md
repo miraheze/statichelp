@@ -2,6 +2,30 @@
 title: Tech:Server admin log
 ---
 
+## 2024-09-17 
+
+* 18:02 MirahezeLSBot: [@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 28s
+* 18:01 MirahezeLSBot: [@mwtask181] starting deploy of {'config': True} to all
+* 17:53 MirahezeLSBot: [@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 17:53 MirahezeLSBot: [@test151] starting deploy of {'config': True} to test151
+* 17:37 MirahezeLSBot: [@mwtask171] finished deploy of {'config': True} to all - SUCCESS in 25s
+* 17:37 MirahezeLSBot: [@mwtask171] starting deploy of {'config': True} to all
+* 16:53 MirahezeLSBot: [@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 16:53 MirahezeLSBot: [@test151] starting deploy of {'config': True} to test151
+* 16:37 MirahezeLSBot: [@mwtask171] finished deploy of {'config': True} to all - SUCCESS in 28s
+* 16:37 MirahezeLSBot: [@mwtask171] starting deploy of {'config': True} to all
+* 16:33 MirahezeLSBot: [@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 27s
+* 16:32 MirahezeLSBot: [@mwtask181] starting deploy of {'config': True} to all
+* 15:57 Reception123: salt-ssh -E 'mw.*' cmd.run 'sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.json /srv/mediawiki/1.42/maintenance/run.php /srv/mediawiki/1.42/extensions/MirahezeMagic/maintenance/resetWikiCaches.php' (again)
+* 15:45 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.42/maintenance/run.php /srv/mediawiki/1.42/maintenance/deleteBatch.php --wiki=metawiki /home/reception/forcedelmeta.txt --r=issue with deletion (END - exit=0)
+* 15:45 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.42/maintenance/run.php /srv/mediawiki/1.42/maintenance/deleteBatch.php --wiki=metawiki /home/reception/forcedelmeta.txt --r=issue with deletion (START)
+* 10:59 MirahezeLSBot: [reception@mwtask181] finished deploy of {'l10n': True, 'lang': 'en', 'versions': '1.42', 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 47s
+* 10:59 MirahezeLSBot: [reception@mwtask181] starting deploy of {'l10n': True, 'lang': 'en', 'versions': '1.42', 'upgrade_extensions': 'CreateWiki'} to all
+* 10:58 MirahezeLSBot: [reception@mwtask181] finished deploy of {'l10n': True, 'lang': 'en', 'versions': '1.42', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 25s
+* 10:58 MirahezeLSBot: [reception@mwtask181] starting deploy of {'l10n': True, 'lang': 'en', 'versions': '1.42', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 10:58 MirahezeLSBot: [reception@mwtask181] finished deploy of {'l10n': True, 'lang': 'en', 'versions': '1.42', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 33s
+* 10:57 MirahezeLSBot: [reception@mwtask181] starting deploy of {'l10n': True, 'lang': 'en', 'versions': '1.42', 'upgrade_extensions': 'MirahezeMagic'} to all
+
 ## 2024-09-16 
 
 * 18:39 RhinosF1: added static.help.wikitide.net to cf dns

@@ -15,6 +15,7 @@ This section is generic to all shell requests.
 ### Google Workspace 
 
 * Add a Google Workspace account for the user.
+   * *This service requires 2FA and accounts are automatically suspended if it is not enabled within 24 hours of creation.* A valid wikitide.org email must exist for access on file. Please make sure to add a backup email and list the users' manager. On off boarding, this access must be suspended. You should manually check search console for delegated access. This may need Owner rights. If a linked device is stolen, devices may be banned from the devices section of the admin portal rather than suspending an account.
 
 ### IRC 
 
@@ -34,9 +35,14 @@ This section is generic to all shell requests.
    * #miraheze-feed-login (+AORefiorstv)
 * On off-boarding, +V should be taken away. Ops access can stay in non-confidential channels if the user is trustworthy.
 
+### Discord 
+
+* The user should be added to the appropriate roles on [Discord](https://meta.miraheze.org/wiki/Discord).
+   * These roles must be removed on off-boarding.
+
 ### GitHub 
 
-* The user should be added to the relevant team in the GitHub account (usually mw-admins) which then provides sufficient access to push commits to the repositories they need to fulfil their role.
+* The user should be added to the relevant team in the GitHub account (I.E. MediaWiki Specialists) which then provides sufficient access to push commits to the repositories they need to fulfil their role.
    * Access must be revoked on off-boarding, no exceptions.
 
 ### LDAP 
@@ -50,12 +56,12 @@ This section is generic to all shell requests.
 * New MediaWiki Specialists or Infrastructure Specialists being on-boarded should be given adminship to Grafana.
    * Access must be revoked on off-boarding, no exceptions.
 
-## Graylog 
+### Graylog 
 
 * New MediaWiki Specialists or Infrastructure Specialists must receive access to Graylog. MediaWiki Specialists: grant Reader role only, you should share access to the MediaWiki related streams in Graylog. Infrastructure Specialist: grant Admin role.
    * Access must be revoked on off-boarding, no exceptions.
 
-## Matomo 
+### Matomo 
 
 * The user may be provided access to [Matomo](https://analytics.wikitide.net/index.php?module=UsersManager), our analytics platform. There are separate groups for MediaWiki Specialists or Infrastructure Specialists.
    * On off-boarding, this should be revoked by default, although there may be legitimate reasons to keep access.
@@ -77,19 +83,24 @@ This section is generic to all shell requests.
 * If the user wishes, and is eligible under the [access policy](https://meta.miraheze.org/wiki/Phorge#Access_Policy), grant Phorge administrator.
    * Must be revoked on off-boarding.
 
+### Mattermost 
+
+* The user should be invited to Mattermost and added to the channels as mentioned on [Tech:Mattermost](/tech-docs/techmattermost).
+   * On off-boarding the user account should be disabled, unless they are (and are remaining) a member of the [Board of Directors](https://meta.miraheze.org/wiki/Board_of_Directors) or [Trust and Safety](https://meta.miraheze.org/wiki/Trust_and_Safety).
+
 ## Wikis 
 
-* For MediaWiki Specialists, the global system administrator group may be useful - it is, however, not a strict requirement.
+* For MediaWiki Specialists, the global Technology team group may be useful - it is, however, not a strict requirement.
    * On off-boarding, any access to global groups or technical wikis must be revoked if it was for being a volunteer with shell or privileged access.
 * Access to staffwiki can be granted to users holding shell access.
-   * On off-boarding, this group must be revoked (both on-wiki and in LocalSettings.php), unless the user is also a Board member. In said case, please do not remove those groups.
+   * On off-boarding, this group must be revoked (both on-wiki and in LocalSettings.php), unless the user is also a member of the Board of Directors. In said case, please do not remove from staffwiki.
 
 ## Social Media 
 
 ### Twitter 
 
 * If a new system administrator wishes, they may request access to the @miraheze and @MirahezeStatus Twitter accounts.
-   * Access to the Twitter accounts should be revoked on off-boarding, unless the user intends to keep managing social media and is trustworthy enough. Use your judgement. `{{ {{note|TweetDeck situation:}} }}` As of writing, TweetDeck seems not to be available to volunteers in all regions due to new Twitter policies. The account for the Twitter password must only be shared with Technology team members who demonstrate a clear need for such access.
+   * Access to the Twitter accounts should be revoked on off-boarding, unless the user intends to keep managing social media and is trustworthy enough. Use your judgement. `{{ {{note|TweetDeck situation:}} }}` As of writing, TweetDeck seems not to be available to volunteers in all regions due to new Twitter policies. The account for the Twitter password must only be shared with Technology team members or members of the Board of Directors who demonstrate a clear need for such access.
 
 ### Facebook 
 
@@ -105,6 +116,11 @@ The above applies, this section covers things which are specific to Infrastructu
 * Basic access to the account for ticketing purposes and the 'operations back door' should be granted. This should be so any operations member can fulfil their duties on their own.
    * Access must be revoked on off-boarding, no exceptions.
 
+### Proxmox 
+
+* Infrastructure Specialists with Operations-level access should be given access to [Proxmox](/tech-docs/techproxmox) and ensure that they can properly login.
+   * Access must be revoked on off-boarding, no exceptions.
+
 ### iDRAC 
 
 * Infrastructure Specialists with Operations-level access should be given access to iDRAC on all the cloud servers and ensure that they can properly login.
@@ -113,10 +129,6 @@ The above applies, this section covers things which are specific to Infrastructu
 ### Private Git 
 
 * Infrastructure Specialists should be talked through how private git works and how to access and commit things to it. This is granted through root on puppet181 and no specific access is necessary besides puppet181 root.
-
-## Google Services 
-
-*This service requires 2FA and accounts are automatically suspended if it is not enabled within 24 hours of creation.* A valid wikitide.org email must exist for access on file. Please make sure to add a backup email and list the users' manager. On off boarding, this access must be suspended. You should manually check search console for delegated access. This may need Owner rights. If a linked device is stolen, devices may be banned from the devices section of the admin portal rather than suspending an account.
 
 ## Categories
 

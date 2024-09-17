@@ -23,6 +23,10 @@ The team includes volunteers in technical and less-technical roles, including pr
 ! Grafana (Admin)
 |- `{{ {{Tech:{{BASEPAGENAME}}/List}} }}`
 
+### Gráfico
+
+ `{{ {{:Tech:Volunteers/Chart}} }}`
+
 ## Véase también 
 
 * [Tech:Organization](/tech-docs/techorganization)

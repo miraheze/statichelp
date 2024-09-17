@@ -23,6 +23,10 @@ The team includes volunteers in technical and less-technical roles, including pr
 ! Grafana (Admin)
 |- `{{ {{Tech:{{BASEPAGENAME}}/List}} }}`
 
+### Bagan 
+
+ `{{ {{:Tech:Volunteers/Chart}} }}`
+
 ## Lihat juga 
 
 * [Tech:Organization](/tech-docs/techorganization)
