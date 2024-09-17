@@ -4,7 +4,7 @@ title: Tech:GitHub
 
 [GitHub](https://meta.miraheze.org/wiki/github:) is the service we use to host our open-source repositories. They can be found [here](https://meta.miraheze.org/wiki/github:miraheze).
 
-Push access to the repositories is limited to [system administrators](https://meta.miraheze.org/wiki/Tech:SRE_Volunteers), but any user can make a pull request. [Puppet](/tech-docs/techpuppet) runs every 30 minutes (except MediaWiki extensions or skins) and can be run manually on each server by a [system administrator](https://meta.miraheze.org/wiki/Tech:SRE_Volunteers). It is recommended to read the "README.md" file for a repository before contributing to it.
+Push access to the repositories is limited to [system administrators](/tech-docs/techvolunteers), but any user can make a pull request. [Puppet](/tech-docs/techpuppet) runs every 30 minutes (except MediaWiki extensions or skins) and can be run manually on each server by a [system administrator](/tech-docs/techvolunteers). It is recommended to read the "README.md" file for a repository before contributing to it.
 
 ## Production repositories 
 

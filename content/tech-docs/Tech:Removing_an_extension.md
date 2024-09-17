@@ -2,7 +2,7 @@
 title: Tech:Removing an extension
 ---
 
-If a decision has been made to remove an extension from Miraheze for whatever reason (i.e., it's unmaintained, it isn't compatible with the current version of MediaWiki, etc.) the following procedure should be followed when removing an extension. Any user can create a pull request to remove an extension, but it has to be merged and deployed by a [system administrator](https://meta.miraheze.org/wiki/Tech:SRE_Volunteers).
+If a decision has been made to remove an extension from Miraheze for whatever reason (i.e., it's unmaintained, it isn't compatible with the current version of MediaWiki, etc.) the following procedure should be followed when removing an extension. Any user can create a pull request to remove an extension, but it has to be merged and deployed by a [system administrator](/tech-docs/techvolunteers).
 
 The steps below must be done in this order:
 

@@ -23,7 +23,7 @@ There are no external requirements and no blockers requiring additional help.
 ## Getting Started 
 
 Anyone interested in starting this project should:
-* Get in touch with an [SRE](https://meta.miraheze.org/wiki/Tech:Organisation#Team:_MediaWiki,_Site_Reliability_Engineering) member to discuss how to proceed.
+* Get in touch with a [Technology team member](/tech-docs/techvolunteers) to discuss how to proceed.
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Projects/Proper_CI_for_Miraheze_extensions)**

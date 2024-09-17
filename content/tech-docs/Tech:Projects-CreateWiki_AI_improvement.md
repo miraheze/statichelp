@@ -30,7 +30,7 @@ There are no external requirements and no blockers requiring additional help.
 
 Anyone interested in starting this project should:
 * get familiar with how the current CreateWiki AI works (see [the CreateWiki repo](https://github.com/miraheze/CreateWiki) for more details.
-* get in touch with an [SRE](https://meta.miraheze.org/wiki/Tech:Organisation#Team:_MediaWiki,_Site_Reliability_Engineering) member to discuss how to proceed.
+* get in touch with a [Technology team member](/tech-docs/techvolunteers) to discuss how to proceed.
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Projects/CreateWiki_AI_improvement)**

@@ -4,7 +4,7 @@ title: Tech:Inactivity policy
 
 `{{ {{Outdated}} }}`
 
-**System administrators** are responsible for making sure that things run smoothly, and that the different issues and tasks on Phorge are completed in a timely and effective manner (see [Tech:SRE Volunteers](https://meta.miraheze.org/wiki/Tech:SRE_Volunteers) and [Tech:Organization](/tech-docs/techorganization) for details). While we are all volunteers here and all have real life responsibilities, activity is nevertheless important for any sysadmin, and a prolonged period of inactivity may provoke security concerns.
+**System administrators** are responsible for making sure that things run smoothly, and that the different issues and tasks on Phorge are completed in a timely and effective manner (see [Tech:Volunteers](/tech-docs/techvolunteers) and [Tech:Organization](/tech-docs/techorganization) for details). While we are all volunteers here and all have real life responsibilities, activity is nevertheless important for any sysadmin, and a prolonged period of inactivity may provoke security concerns.
 The purpose of this policy is to ensure that people are aware whenever a sysadmin knows that they will be inactive, as well as to have a criteria for when someone is inactive and do not notify their absence.
 
 ## Notification 

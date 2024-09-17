@@ -29,7 +29,7 @@ If you add something to private git which is not covered above, please ensure yo
 
 ## Who to notify if something is compromised? 
 
-In general, an email to sre `{{ {{@}} }}`miraheze.org should always be sent if any data (or suspicion of data) is compromised. Specific services will have specific additional people to contact or people who should be notified to assess the situation (the person who is most knowledgeable about the component - see list of [Site Reliability Engineering](https://meta.miraheze.org/wiki/Tech:SRE_Volunteers) team members).
+In general, an email to tech `{{ {{@}} }}`miraheze.org should always be sent if any data (or suspicion of data) is compromised. Specific services will have specific additional people to contact or people who should be notified to assess the situation (the person who is most knowledgeable about the component - see list of [Technology team members](/tech-docs/techvolunteers)).
 
 We operate as an open project, therefore any security incident (no matter how small) will result in a community notification through an incident report. An incident report should always be submitted for security incidents as they're far more damaging in the long run than a 10-minute service outage, and is our way of showing progress and work towards providing a more secure platform. Reports should be drafted and approved by an Engineering Manager first as the consequences of a poor or unsatisfactorily complete report can be unpredictable.
 
@@ -44,7 +44,7 @@ Once someone is aware that a server has been compromised, their ability to handl
 * Ensure no one can gain access to the system after the issue has been discovered. Be it stopping the ssh server, shutting it down (or a reboot to close connections), blocking all ports etc. just ensure no one can get into the system.
 * Begin to get a handle on how access may have been gained - through software? an SSH account? Compromised SSH key? If it can be tied to a certain and definitive SSH account - remove said account from all servers and check the rest for safety.
 * Evaluate how the hole can be closed, if a key was compromised - ensure it is gone and force a regeneration, if a service/software allowed access - was it a security issue upstream? Were we running old software? Could it be how we're using it? Thoroughly investigate this question and follow solutions up.
-* Discuss findings with others or send findings to sre `{{ {{@}} }}`miraheze.org to get more eyes on it.
+* Discuss findings with others or send findings to tech `{{ {{@}} }}`miraheze.org to get more eyes on it.
 
 The above is a basic plan to follow. Certain situations require more in-depth investigations, they can take minutes to hours to days to even weeks.
 

@@ -8,7 +8,7 @@ This is a project proposal for adding a statistics page on all Miraheze wikis wh
 
 Currently, Miraheze provides no analytical information to users about how many times a wiki is viewed, how many unique visitors there are to the wiki or what pages are considered popular based on viewing statistics. However, Miraheze does track (to a degree, inline with the [Privacy Policy](https://meta.miraheze.org/wiki/Privacy_Policy) and respecting DNT headers) which pages are read by users, how long for, which wiki, how they got there, and browsing/OS information. This is all collected by using [Piwik](https://meta.miraheze.org/wiki/Tech:Piwik) ([link](https://piwik.miraheze.org)) which is restricted to system administrators only.
 
-It has been a [common theme among the community](https://meta.miraheze.org/wiki/phabricator:T680) that there needs to be some form of analytical information available on wikis and there is a shared opinion among system administrators that the information should be derived from Piwik.
+It has been a [common theme among the community](https://meta.miraheze.org/wiki/phorge:T680) that there needs to be some form of analytical information available on wikis and there is a shared opinion among system administrators that the information should be derived from Piwik.
 
 ## Plan 
 
@@ -40,7 +40,7 @@ As Piwik is currently a restricted service, access, and testing requires someone
 
 Anyone interested in starting this project should:
 * Get familiar with how Piwik works and how its API can be used to collect views per page / views across a whole site.
-* Get in touch with an [operations](https://meta.miraheze.org/wiki/Tech:Organisation#Team:_MediaWiki,_Site_Reliability_Engineering) member to discuss next steps for integrating with the current Piwik install.
+* Get in touch with an [operations](/tech-docs/techorganization#infrastructure-specialist) member to discuss next steps for integrating with the current Piwik install.
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Projects/Wiki_Statistics_Special_Page)**

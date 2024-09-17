@@ -2,7 +2,7 @@
 title: Tech:Organization/Site Reliability Engineering
 ---
 
-This is a guide for all Miraheze Site Reliability Engineers. They have access to Miraheze servers and to Miraheze GitHub repositories (see [Tech:SRE Volunteers](https://meta.miraheze.org/wiki/Tech:SRE_Volunteers)), and they are responsible for maintaining all Miraheze servers and making sure they function smoothly.
+This is a guide for all Miraheze Site Reliability Engineers. They have access to Miraheze servers and to Miraheze GitHub repositories (see [Tech:Volunteers](/tech-docs/techvolunteers)), and they are responsible for maintaining all Miraheze servers and making sure they function smoothly.
 
 ## Rules 
 

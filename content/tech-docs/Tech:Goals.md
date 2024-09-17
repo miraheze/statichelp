@@ -4,20 +4,16 @@ title: Tech:Goals
 
 Goal Periods at Miraheze are biannual periods of time when certain tasks (called Goals) are given extra focus and resources to be resolved.
 
-Goals are split into two categories:
-* MediaWiki
-* Site Reliability Engineering
-
 Tasks must meet one of the following criteria to be considered as a goal:
 * A long-term project that can realistically be finished before the end of goal period,
 * A development project that will have a positive impact on Miraheze communities,
-* An objective for Site Reliability Engineering (infrastructure, introducing a new service, major work etc.).
+* An objective for the Technology team (infrastructure, introducing a new service, major work etc.).
 
 MediaWiki tasks being considered for a goal must have:
 * Someone willing and committed to work on the task; or
 * Have such a massive positive impact or overwhelming support by the wider community, that the completion of the task in said goal period will bring improvements to that service.
 
-Site Reliability Engineering tasks being considered for a goal are left at the discretion of [the SRE team](https://meta.miraheze.org/wiki/Tech:Organisation#Team:_Infrastructure,_Site_Reliability_Engineering).
+Tasks being considered for a goal are left at the discretion of [the Technology team](/tech-docs/techorganization#infrastructure-specialist).
 
 ## Review of Past Goals 
 
