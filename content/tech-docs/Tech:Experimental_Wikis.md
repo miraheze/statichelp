@@ -6,7 +6,7 @@ Experimental wikis are active wikis with experienced contributors that have agre
 
 To have the flag enabled in ManageWiki (by a Steward), the following criteria must be met:
 * The wiki must be active and used regularly.
-*  The wiki must be public.
+* The wiki must be public.
 * Users on the wiki should be technically competent and polite.
 * The wiki should have a variety of extensions installed (especially Cargo/Social Profile/FlaggedRev/DPL/Complex ones).
 * The wiki should use gadgets or user scripts.
