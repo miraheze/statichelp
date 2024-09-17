@@ -11,9 +11,7 @@ If you're on this page just to learn things, that's good. If you're on this page
 We store a fair amount of private things, not so much user-facing all the time but service-level things like passwords, certificate keys, actual servers, and so on. Here is a list of things we store which if compromised, should be dealt with as a serious incident:
 
 * Servers
-* Bacula (passwords)
 * Grafana (passwords)
-* GlusterFS (SSL Certificates)
 * Icinga2 (It contains passwords to connect to the db)
 * Icingaweb2 (Includes user passwords in the db and contains passwords to connect to the db)
 * IRC (mirahezebots password)
@@ -23,6 +21,7 @@ We store a fair amount of private things, not so much user-facing all the time b
 * PuppetDB (passwords for postgresql)
 * Redis (password)
 * Salt master (private keys)
+* Swift (passwords)
 * SSL (private keys)
 
 If you add something to private git which is not covered above, please ensure you update this page with the necessary information. If you don't and a security incident occurs relating to what you've added, you will be liable for the outcome even if you were not the cause of the incident in the first place.
@@ -31,7 +30,7 @@ If you add something to private git which is not covered above, please ensure yo
 
 In general, an email to tech `{{ {{@}} }}`miraheze.org should always be sent if any data (or suspicion of data) is compromised. Specific services will have specific additional people to contact or people who should be notified to assess the situation (the person who is most knowledgeable about the component - see list of [Technology team members](/tech-docs/techvolunteers)).
 
-We operate as an open project, therefore any security incident (no matter how small) will result in a community notification through an incident report. An incident report should always be submitted for security incidents as they're far more damaging in the long run than a 10-minute service outage, and is our way of showing progress and work towards providing a more secure platform. Reports should be drafted and approved by an Engineering Manager first as the consequences of a poor or unsatisfactorily complete report can be unpredictable.
+We operate as an open project, therefore any security incident (no matter how small) will result in a community notification through an incident report. An incident report should always be submitted for security incidents as they're far more damaging in the long run than a 10-minute service outage, and is our way of showing progress and work towards providing a more secure platform. Reports should be drafted and approved by the Director of Technology first as the consequences of a poor or unsatisfactorily complete report can be unpredictable.
 
 ## Handling Compromises 
 
@@ -39,7 +38,7 @@ We operate as an open project, therefore any security incident (no matter how sm
 
 The servers should be the most secure parts of the Miraheze operation. Firewalls exist to keep port access limited, failed SSH attempts eventually result in port bans for specific IPs, secure ciphers are used, and the root user cannot be logged into. Security updates are also run regularly - this prospect should be very unlikely but things happen.
 
-Once someone is aware that a server has been compromised, their ability to handle the situation will be limited by their access. Site Reliability Engineering should be notified immediately. In extreme cases, if the user discovering the possible compromise has root access on the server but is not a Site Reliability Engineer, they may be able to handle parts of the plan below; however, if they're unsure, crowd control is the best method by means of either shutting the server down, disallowing port 22, or shutting down SSH - Site Reliability Engineering have back doors in, others do not.
+Once someone is aware that a server has been compromised, their ability to handle the situation will be limited by their access. The [Technology team](/tech-docs/techvolunteers) should be notified immediately.
 
 * Ensure no one can gain access to the system after the issue has been discovered. Be it stopping the ssh server, shutting it down (or a reboot to close connections), blocking all ports etc. just ensure no one can get into the system.
 * Begin to get a handle on how access may have been gained - through software? an SSH account? Compromised SSH key? If it can be tied to a certain and definitive SSH account - remove said account from all servers and check the rest for safety.
@@ -47,10 +46,6 @@ Once someone is aware that a server has been compromised, their ability to handl
 * Discuss findings with others or send findings to tech `{{ {{@}} }}`miraheze.org to get more eyes on it.
 
 The above is a basic plan to follow. Certain situations require more in-depth investigations, they can take minutes to hours to days to even weeks.
-
-### Bacula 
-
-Bacula passwords are used for authenticating communication between Bacula clients and directors. If the password becomes compromised, it is a possibility that a user can run their own backups using Bacula and thusly compromise data. The password should be reset in private git and puppet can then be run to update the passwords globally on the cluster. You should try to conclude how the password was compromised as it may make the solution ineffective here.
 
 ### Grafana 
 
@@ -97,6 +92,7 @@ Under EU law, we're required to notify all European users in the event of a brea
 ## Categories
 
 * [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
+* [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Compromised_Handling)**

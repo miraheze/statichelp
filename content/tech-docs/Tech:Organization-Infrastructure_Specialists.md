@@ -37,7 +37,7 @@ Follow the instructions at [Tech:Graylog](/tech-docs/techgraylog) for most error
 
 ## See also 
 
-* [MediaWiki Specialists guide](https://meta.miraheze.org/wiki/Tech:Organization/MediaWiki_Specialists)
+* [MediaWiki Specialists guide](/tech-docs/techorganization-mediawiki_specialists)
 
 ## Categories
 

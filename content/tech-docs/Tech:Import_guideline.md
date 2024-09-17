@@ -1,12 +1,12 @@
 ---
-title: Tech:SRE Import guideline
+title: Tech:Import guideline
 ---
 
 Imports are a vital process as they allow users to migrate their wikis from other platforms to Miraheze, to easily use content from other wikis without having to copy/paste, and they provide easier copyright attribution.
 
 While imports are very important to Miraheze, the import process must not be abused. Excessive requests for imports (especially those simply copying articles from Wikipedia or a single user trying to 'fork' wikis, are to be scrutinized before being authorized).
 
-This policy is an SRE policy and due to its complexity, it is not necessary to have regular users read it before making a request. Instead, it is to be used by SRE members when determining whether an import will be approved.
+This policy is a [Technology team](/tech-docs/techvolunteers) policy and due to its complexity, it is not necessary to have regular users read it before making a request. Instead, it is to be used by Technology team members when determining whether an import will be approved either those via [Special:RequestImport](https://meta.miraheze.org/wiki/Special:RequestImport) or manually.
 
 ## Types of import 
 
@@ -37,7 +37,6 @@ This table indicates the approximate sizes of XMLs/images to be considered for f
 
 All suggestions below can be exceeded if approved by a MWE that is satisfied a reasonable use case exists, after asking questions. The numbers are not fixed and should not be taken literally (i.e., if there's a 1.1 XML, that won't necessarily require additional questions). If the limit is not exceeded, no additional questions need to be asked and the import can be approved.
 
-| + |
 | Active users | Max XML size (suggestion) | Max images size (suggestion) | Additional comments |
 | --- | --- | --- | --- |
 | 1 | 500 MB | 2.5 GB | If from Wikipedia and not Templates, Gadgets, etc max 100 MB |
@@ -46,5 +45,10 @@ All suggestions below can be exceeded if approved by a MWE that is satisfied a r
 | 15-25 | 10 GB | 20 GB | |
 | > 25 | 15 GB | 30 GB | |
 
+## Categories
+
+* [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
+* [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
+
 ----
-**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:SRE_Import_guideline)**
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Import_guideline)**

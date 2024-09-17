@@ -4,7 +4,7 @@ title: Tech:Moving a wiki to another database server
 
 This page provides guidance if you need to move a wiki to another database server (typically relates to disk space issues/imbalances).
 
-Moving a wiki to another database is not complicated provided you have the required rights (SRE, root on the db servers).
+Moving a wiki to another database is not complicated provided you have the required rights (Infrastructure Specialists or database-admins).
 
 * Put the wiki you are moving into read-only mode (add a read-only notice if you'd like, especially if it is a large wiki, and it will take time).
    * Example: [https://github.com/miraheze/mw-config/commit/497e5608d95ba148b81133d5c34ce72a046d9c43](https://github.com/miraheze/mw-config/commit/497e5608d95ba148b81133d5c34ce72a046d9c43)
@@ -23,6 +23,7 @@ Moving a wiki to another database is not complicated provided you have the requi
 
 ## Categories
 
+* [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 * [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
 
 ----

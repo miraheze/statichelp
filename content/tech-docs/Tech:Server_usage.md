@@ -2,7 +2,8 @@
 title: Tech:Server usage
 ---
 
-`{{ {{SRE navigation|servers|header=Servers|description=Miraheze has lots of servers in order to support its massive user base. Learn more about them here on Miraheze Meta.|keywords=miraheze servers}} }}`
+ `{{ {{Tech navigation|servers|header=Servers|description=Miraheze has lots of servers in order to support its massive user base. Learn more about them here on Miraheze Meta.|keywords=miraheze servers}} }}`
+
 Miraheze requires lots of **servers** in order to provide service. With over 400,000 unique visits and millions of page views per day, we require quite a bit of processing power.
 
 Currently, servers at Miraheze are used for:

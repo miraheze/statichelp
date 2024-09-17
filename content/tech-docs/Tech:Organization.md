@@ -48,13 +48,13 @@ Project Managers triage incoming support requests from the community, within the
 
 ### MediaWiki Specialist 
 
-   *See also: [Tech:Organization/MediaWiki Specialists](https://meta.miraheze.org/wiki/Tech:Organization/MediaWiki_Specialists)*
+   *See also: [Tech:Organization/MediaWiki Specialists](/tech-docs/techorganization-mediawiki_specialists)*
 
 MediaWiki Specialists are responsible for maintaining the MediaWiki core platform and extensions, including in-house extensions. They operate the latest stable version of MediaWiki, manage configuration and feature requests from the community, and work with upstream and third-party MediaWiki developers.
 
 ### Infrastructure Specialist 
 
-   *See also: [Tech:Organization/Infrastructure Specialists](https://meta.miraheze.org/wiki/Tech:Organization/Infrastructure_Specialists)*
+   *See also: [Tech:Organization/Infrastructure Specialists](/tech-docs/techorganization-infrastructure_specialists)*
 
 Infrastructure Specialists ensure Miraheze's services and servers are fast, reliable and secure. Infrastructure Specialists are responsible for providing the critical services that support our deployment of MediaWiki, including virtual and physical servers, relational databases, media storage, automation tooling, configuration management systems, networking, continuous integration and continuous delivery, cache stores, and observability platforms.
 

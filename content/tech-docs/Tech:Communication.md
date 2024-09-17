@@ -10,7 +10,7 @@ This page aims to document our communication channels, and outline a general str
 
 * **[Discord](https://meta.miraheze.org/wiki/Discord)**. Over on Discord there's special channels for communicating important announcements. such as `#announcements`, which is also mirrored on other Discord servers.
 * **[Hund](https://meta.miraheze.org/wiki/Tech:Hund)**. Your standard status page. Available at [status.miraheze.wiki](https://status.miraheze.wiki), and additionally has multiple types of subscriptions.
-* **[Tech:SRE noticeboard](https://meta.miraheze.org/wiki/Tech:SRE_noticeboard)**. A page hosting on-wiki announcements by SRE.
+* **[Tech:Noticeboard](/tech-docs/technoticeboard)**. A page hosting on-wiki announcements by the [Technology team](/tech-docs/techvolunteers).
 * **Twitter, Mastodon and Facebook**. Social media.
 * **On-wiki sitenotices**. Sitenotices that are shown on either wikis meeting a specific condition ("targeted"), such as having an extension enabled, or shown everywhere ("global"). Managed at [mw-config/Sitenotice.php](https://github.com/miraheze/mw-config/blob/master/Sitenotice.php) on [GitHub](/tech-docs/techgithub).
 * Less importantly, **[Phorge](https://meta.miraheze.org/wiki/Phorge)**. While it can be argued comments and tasks there are not for the community at-large, some may use these for the latest "announcements", especially in tasks related to farm-wide issues. Just something to keep in mind.
@@ -23,11 +23,11 @@ We should aim to:
 * Keep the messaging in all the channels in-sync, and;
 * Offer updates as the situation evolves.
 
-This is a deceptively-complex issue, therefore, this should ideally be the responsibility of a Community Engagement Specialist, who participates in the (sometimes private) conversations regarding issues (such as security issues which are not discussed in the open), and both understands the technical jargon used in SRE and is able to translate it for the community at wide to understand.
+This is a deceptively-complex issue, therefore, this should ideally be the responsibility of a [Community Liaison](/tech-docs/techorganization#community-liaison), who participates in the (sometimes private) conversations regarding issues (such as security issues which are not discussed in the open), and both understands the technical jargon used in the Technology team and is able to translate it for the community at wide to understand.
 
-Ideally, communication should happen once everyone relevant on SRE has discussed the issue, to ensure everyone has a consistent messaging.
+Ideally, communication should happen once everyone relevant on the Technology team has discussed the issue, to ensure everyone has a consistent messaging.
 
-### Appropriate channels
+### Appropriate channels 
 
 Not all channels are made the same. Some, like on-wiki sitenotices, are very intrusive. You should keep it appropriate.
 

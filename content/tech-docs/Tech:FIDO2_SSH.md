@@ -28,7 +28,7 @@ If you use signed commits or OpenPGP, now would be a good time to use them for e
 
 If your key is broken, you will be locked out from login in. To prevent this, you can create multiple SSH keys using various **different** FIDO2 keys. Just repeat the above process with different keys, and assign their public keys to your shell account. That way, if your main key stops working, you'll not be locked out completely.
 
-Ignore this warning at your own peril: If your key stops working, it could become impossible for SRE to verify that any requests to change your keys on Puppet comes from you. Better to have multiple keys from the get-go.
+Ignore this warning at your own peril: If your key stops working, it could become impossible for the [Technology team](/tech-docs/techvolunteers) to verify that any requests to change your keys on Puppet comes from you. Better to have multiple keys from the get-go.
 
 ## See also
 

@@ -18,13 +18,13 @@ If you need to create an advisory, follow the steps below:
 * Click the create private fork button. This must be done by a member of that repository.
 * Start creating your patch privately.
 * Ask someone to review the patch.
-* Ask a member of the SRE Management Team to review the advisory prior to publication. This is to ensure all lines of enquiry, and steps taken to prevent and minimise technical risk, have been taken. It is recommended to also inform [Trust and Safety](https://meta.miraheze.org/wiki/Trust_and_Safety) of the advisory prior to publication as well.
+* Ask the Director of Technology to review the advisory prior to publication. This is to ensure all lines of enquiry, and steps taken to prevent and minimise technical risk, have been taken. It is recommended to also inform [Trust and Safety](https://meta.miraheze.org/wiki/Trust_and_Safety) of the advisory prior to publication as well.
 * Click 'Request CVE'.
 * Publish it, you may for some repositories want to inform Wikimedia Security to add to the next supplementary announcement.
 * Check the information on Mitre/NVD is correct and communicate with them.
 
 **If a fix is not possible:**
-* Ask a member of the SRE Management Team to review the advisory prior to publication. This is to ensure all lines of enquiry and steps taken to prevent and minimise technical risk have been taken. It is recommended to also inform [Trust and Safety](https://meta.miraheze.org/wiki/Trust_and_Safety) of the advisory prior to publication as well.
+* Ask the Director of Technology to review the advisory prior to publication. This is to ensure all lines of enquiry and steps taken to prevent and minimise technical risk have been taken. It is recommended to also inform [Trust and Safety](https://meta.miraheze.org/wiki/Trust_and_Safety) of the advisory prior to publication as well.
 * Click 'Request CVE'.
 * Publish it, you may for some repositories want to inform Wikimedia Security to add to the next supplementary announcement.
 * Check the information on Mitre/NVD is correct and communicate with them.
@@ -79,7 +79,7 @@ If you need to create an advisory, follow the steps below:
 
 ## Categories
 
-* [Category:Guides for sysadmins](https://meta.miraheze.org/wiki/Category:Guides_for_sysadmins)
+* [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:GHSA)**
