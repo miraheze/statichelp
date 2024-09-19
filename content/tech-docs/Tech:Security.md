@@ -30,5 +30,7 @@ Due to their less urgent nature than active threats, Technology team members sho
 
 If in doubt about whether a threat is active or passive and the Director of Technology or any T&S member is around, use your judgment and consult members of the team who are around. Remember that T&S and the Technology team must collaborate on security issues.
 
+
+
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Security)**

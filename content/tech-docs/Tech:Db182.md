@@ -22,5 +22,7 @@ title: Tech:Db182
 
 **db182** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a Database server running [MariaDB](/tech-docs/techmariadb). It currently only hosts non-MediaWiki databases.
 
+
+
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Db182)**

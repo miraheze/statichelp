@@ -32,5 +32,7 @@ title: Tech:GHSA/Written Security Disclosure Template
 
 Any further questions that a user wishes to keep private can be sent to sre `{{ {{@}} }}`miraheze.org and we will respond in due course.
 
+
+
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:GHSA/Written_Security_Disclosure_Template)**

@@ -10096,5 +10096,7 @@ title: Tech:Server admin log/2023
 * 00:08 MirahezeLSBot: [void@mwtask141] sudo -u www-data php /srv/mediawiki/w/maintenance/deleteBatch.php --wiki=webkinzguidewiki /home/void/delete.txt -r Corrupted page (START)
 * 00:08 Universal Omega: test
 
+
+
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Server_admin_log/2023)**

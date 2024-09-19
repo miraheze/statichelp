@@ -40,5 +40,7 @@ Anyone interested in starting this project should:
 * Get familiar with how our SSL process currently operates (see [Tech:SSL certificates](/tech-docs/techssl_certificates)) for more details.
 * Get in touch with a [Technology team member](/tech-docs/techvolunteers) to discuss how to proceed.
 
+
+
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Projects/Automation_of_SSL_requests)**

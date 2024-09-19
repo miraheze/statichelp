@@ -3772,5 +3772,7 @@ title: Tech:Server admin log/2020
 * 04:36 paladox: root@mw1:/srv/mediawiki/w# /usr/local/bin/foreachwikiindblist /srv/mediawiki/dblist/all.dblist /srv/mediawiki/w/maintenance/sql.php /srv/mediawiki/w/extensions/QuizGame/sql/patches/patch-add-default-choice_answer_count.sql
 * 00:37 paladox: restart varnish cp2,cp4
 
+
+
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Server_admin_log/2020)**

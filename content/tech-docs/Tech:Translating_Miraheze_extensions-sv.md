@@ -19,5 +19,7 @@ Vi använder för närvarande [translatewiki.net](https://meta.miraheze.org/wiki
 
 * [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
+
+
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Translating_Miraheze_extensions/sv)**

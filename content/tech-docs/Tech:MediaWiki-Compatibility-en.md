@@ -22,5 +22,7 @@ Below is a table from [MediaWiki.org](https://meta.miraheze.org/wiki/mw:) which 
 * [Category:Miraheze help](https://meta.miraheze.org/wiki/Category:Miraheze_help)
 * [Category:MediaWiki](https://meta.miraheze.org/wiki/Category:MediaWiki)
 
+
+
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:MediaWiki/Compatibility/en)**

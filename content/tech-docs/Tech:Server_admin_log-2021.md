@@ -5801,5 +5801,7 @@ title: Tech:Server admin log/2021
 * 01:36 paladox: drop piwik on db13 after moving it to db12
 * 00:10 Universal_Omega: UPDATE mw_settings SET s_settings = JSON_REPLACE(s_settings, '$.wmgDefaultRobotPolicy', JSON_REMOVE(s_settings, '$.wmgDefaultRobotPolicy');
 
+
+
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Server_admin_log/2021)**

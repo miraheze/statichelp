@@ -30,5 +30,7 @@ The following directories are used for pywikibot:
 * /var/local/pwb/: The directory pointed to by the PYWIKIBOT_DIR environment variable ([github:miraheze/puppet/blob/master/modules/irc/manifests/pywikibot.pp#L5](https://meta.miraheze.org/wiki/github:miraheze/puppet/blob/master/modules/irc/manifests/pywikibot.pp#L5)). This is set automatically by the `/usr/local/bin/pywikibot` wrapper script.
 * /var/log/pwb/: Where the contents of STDOUT on scripts run in a cron are logged to. For example, the logs of the archivebot run automatically on Meta are on `/var/log/pwb/archivebot-cron.log`
 
+
+
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Pywikibot)**

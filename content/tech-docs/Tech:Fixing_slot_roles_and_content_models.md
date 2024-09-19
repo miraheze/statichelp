@@ -37,5 +37,7 @@ After running that make sure you exit shell.php or sql.php (if using) and rerun 
 * [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 * [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
 
+
+
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Fixing_slot_roles_and_content_models)**

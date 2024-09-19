@@ -2,7 +2,7 @@
 title: Tech:MariaDB
 ---
 
-MariaDB <sub>(*reference:* English Wikipedia article: [MariaDB](https://meta.miraheze.org/wiki/w:MariaDB))</sub> is the chosen database software used in production. Currently we run 10.11.x on database servers.
+MariaDB [^1] is the chosen database software used in production. Currently we run 10.11.x on database servers.
 
 ## Configuration 
 
@@ -103,6 +103,9 @@ To restore a database from a .idb file following these steps:
 
 * [Category:Services](https://meta.miraheze.org/wiki/Category:Services)
 * [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
+
+[^1]: English Wikipedia article: [MariaDB](https://meta.miraheze.org/wiki/w:MariaDB)
+
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:MariaDB)**

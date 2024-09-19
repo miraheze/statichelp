@@ -48,5 +48,7 @@ If there is a puppet failure, debug the failure and attempt to make a fix if pos
 
 If you are the service owner and can restart the SSH service – please do so, this should resolve the alert. If you cannot, or are not the service owner, contact Infrastructure who will resolve the alert.
 
+
+
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Icinga/Base_Monitoring)**

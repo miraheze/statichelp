@@ -47,74 +47,79 @@ Some repositories may be given access to Technology team members without shell a
 ### CreateWiki 
 
 [CreateWiki](https://github.com/miraheze/CreateWiki) is a MediaWiki extension to request and create wikis on Miraheze.
-* **Push Access**: [Infrastructure Specialists](/tech-docs/techorganization#infrastructure-specialist), [MediaWiki Specialists](/tech-docs/techorganization#mediawiki-specialist), [Software Engineers](/tech-docs/techorganization#software-engineer), i18n <sub>(*reference:* Currently [@translatewiki](https://github.com/translatewiki) only)</sub>
-* **Servers**: MediaWiki servers <sub>(*reference:* Only if the extension is updated using [mwdeploy](/tech-docs/techmwdeploy).)</sub>
+* **Push Access**: [Infrastructure Specialists](/tech-docs/techorganization#infrastructure-specialist), [MediaWiki Specialists](/tech-docs/techorganization#mediawiki-specialist), [Software Engineers](/tech-docs/techorganization#software-engineer), i18n [^1]
+* **Servers**: MediaWiki servers [^2]
 
 ### GlobalNewFiles 
 
 [GlobalNewFiles](https://github.com/miraheze/GlobalNewFiles) is a MediaWiki extension that provides a [special page](https://meta.miraheze.org/wiki/Special:GlobalNewFiles) to display all newly uploaded files globally.
-* **Push Access**: [Infrastructure Specialists](/tech-docs/techorganization#infrastructure-specialist), [MediaWiki Specialists](/tech-docs/techorganization#mediawiki-specialist), [Software Engineers](/tech-docs/techorganization#software-engineer), i18n
-* **Servers**: MediaWiki servers
+* **Push Access**: [Infrastructure Specialists](/tech-docs/techorganization#infrastructure-specialist), [MediaWiki Specialists](/tech-docs/techorganization#mediawiki-specialist), [Software Engineers](/tech-docs/techorganization#software-engineer), i18n [^1]
+* **Servers**: MediaWiki servers [^2]
 
 ### ImportDump 
 
 [ImportDump](https://github.com/miraheze/ImportDump) is a MediaWiki extension designed to automate user import requests.
-* **Push Access**: [Infrastructure Specialists](/tech-docs/techorganization#infrastructure-specialist), [MediaWiki Specialists](/tech-docs/techorganization#mediawiki-specialist), [Software Engineers](/tech-docs/techorganization#software-engineer), i18n
-* **Servers**: MediaWiki servers
+* **Push Access**: [Infrastructure Specialists](/tech-docs/techorganization#infrastructure-specialist), [MediaWiki Specialists](/tech-docs/techorganization#mediawiki-specialist), [Software Engineers](/tech-docs/techorganization#software-engineer), i18n [^1]
+* **Servers**: MediaWiki servers [^2]
 
 ### IncidentReporting 
 
 [IncidentReporting](https://github.com/miraheze/IncidentReporting) is a MediaWiki extension that provides MediaWiki-based incident reporting forms.
-* **Push Access**: [Infrastructure Specialists](/tech-docs/techorganization#infrastructure-specialist), [MediaWiki Specialists](/tech-docs/techorganization#mediawiki-specialist), [Software Engineers](/tech-docs/techorganization#software-engineer), i18n
-* **Servers**: MediaWiki servers
+* **Push Access**: [Infrastructure Specialists](/tech-docs/techorganization#infrastructure-specialist), [MediaWiki Specialists](/tech-docs/techorganization#mediawiki-specialist), [Software Engineers](/tech-docs/techorganization#software-engineer), i18n [^1]
+* **Servers**: MediaWiki servers [^2]
 
 ### ManageWiki 
 
 [ManageWiki](https://github.com/miraheze/ManageWiki) is a MediaWiki extension to manage the state of the wikis on Miraheze.
-* **Push Access**: [Infrastructure Specialists](/tech-docs/techorganization#infrastructure-specialist), [MediaWiki Specialists](/tech-docs/techorganization#mediawiki-specialist), [Software Engineers](/tech-docs/techorganization#software-engineer), i18n
-* **Servers**: MediaWiki servers
+* **Push Access**: [Infrastructure Specialists](/tech-docs/techorganization#infrastructure-specialist), [MediaWiki Specialists](/tech-docs/techorganization#mediawiki-specialist), [Software Engineers](/tech-docs/techorganization#software-engineer), i18n [^1]
+* **Servers**: MediaWiki servers [^2]
 
 ### MatomoAnalytics 
 
 [MatomoAnalytics](https://github.com/miraheze/MatomoAnalytics) is a MediaWiki extension for integration with Matomo for analytics.
-* **Push Access**: [Infrastructure Specialists](/tech-docs/techorganization#infrastructure-specialist), [MediaWiki Specialists](/tech-docs/techorganization#mediawiki-specialist), [Software Engineers](/tech-docs/techorganization#software-engineer), i18n
-* **Servers**: MediaWiki servers
+* **Push Access**: [Infrastructure Specialists](/tech-docs/techorganization#infrastructure-specialist), [MediaWiki Specialists](/tech-docs/techorganization#mediawiki-specialist), [Software Engineers](/tech-docs/techorganization#software-engineer), i18n [^1]
+* **Servers**: MediaWiki servers [^2]
 
 ### MirahezeMagic 
 
 [MirahezeMagic](https://github.com/miraheze/MirahezeMagic) is a MediaWiki extension for Miraheze-specific i18n and hooks.
-* **Push Access**: [Infrastructure Specialists](/tech-docs/techorganization#infrastructure-specialist), [MediaWiki Specialists](/tech-docs/techorganization#mediawiki-specialist), i18n
-* **Servers**: MediaWiki servers <sub>(*reference:* Extension is automatically updated by [mwdeploy](/tech-docs/techmwdeploy) whenever Puppet runs.)</sub>
+* **Push Access**: [Infrastructure Specialists](/tech-docs/techorganization#infrastructure-specialist), [MediaWiki Specialists](/tech-docs/techorganization#mediawiki-specialist), i18n [^1]
+* **Servers**: MediaWiki servers [^3]
 
 ### RemovePII 
 
 [RemovePII](https://github.com/miraheze/RemovePII) is a MediaWiki extension used by [trust and safety](https://meta.miraheze.org/wiki/Trust_and_Safety) to remove all personal identifiable information from a user.
-* **Push Access**: [Infrastructure Specialists](/tech-docs/techorganization#infrastructure-specialist), [MediaWiki Specialists](/tech-docs/techorganization#mediawiki-specialist), [Software Engineers](/tech-docs/techorganization#software-engineer), i18n
-* **Servers**: MediaWiki servers
+* **Push Access**: [Infrastructure Specialists](/tech-docs/techorganization#infrastructure-specialist), [MediaWiki Specialists](/tech-docs/techorganization#mediawiki-specialist), [Software Engineers](/tech-docs/techorganization#software-engineer), i18n [^1]
+* **Servers**: MediaWiki servers [^2]
 
 ### RequestSSL 
 
 [RequestSSL](https://github.com/miraheze/RequestSSL) is a MediaWiki extension designed to facilitate user SSL requests for custom domains.
-* **Push Access**: [Infrastructure Specialists](/tech-docs/techorganization#infrastructure-specialist), [MediaWiki Specialists](/tech-docs/techorganization#mediawiki-specialist), [Software Engineers](/tech-docs/techorganization#software-engineer), i18n
-* **Servers**: MediaWiki servers
+* **Push Access**: [Infrastructure Specialists](/tech-docs/techorganization#infrastructure-specialist), [MediaWiki Specialists](/tech-docs/techorganization#mediawiki-specialist), [Software Engineers](/tech-docs/techorganization#software-engineer), i18n [^1]
+* **Servers**: MediaWiki servers [^2]
 
 ### RottenLinks 
 
 [RottenLinks](https://github.com/miraheze/RottenLinks) is a MediaWiki extension for Rotten link detection.
-* **Push Access**: [Infrastructure Specialists](/tech-docs/techorganization#infrastructure-specialist), [MediaWiki Specialists](/tech-docs/techorganization#mediawiki-specialist), [Software Engineers](/tech-docs/techorganization#software-engineer), i18n
-* **Servers**: MediaWiki servers
+* **Push Access**: [Infrastructure Specialists](/tech-docs/techorganization#infrastructure-specialist), [MediaWiki Specialists](/tech-docs/techorganization#mediawiki-specialist), [Software Engineers](/tech-docs/techorganization#software-engineer), i18n [^1]
+* **Servers**: MediaWiki servers [^2]
 
 ### WikiDiscover 
 
 [WikiDiscover](https://github.com/miraheze/WikiDiscover) is a MediaWiki extension to create an [on-wiki list](https://meta.miraheze.org/wiki/Special:WikiDiscover) of Miraheze wikis.
-* **Push Access**: [Infrastructure Specialists](/tech-docs/techorganization#infrastructure-specialist), [MediaWiki Specialists](/tech-docs/techorganization#mediawiki-specialist), [Software Engineers](/tech-docs/techorganization#software-engineer), i18n
-* **Servers**: MediaWiki servers
+* **Push Access**: [Infrastructure Specialists](/tech-docs/techorganization#infrastructure-specialist), [MediaWiki Specialists](/tech-docs/techorganization#mediawiki-specialist), [Software Engineers](/tech-docs/techorganization#software-engineer), i18n [^1]
+* **Servers**: MediaWiki servers [^2]
 
 ## References 
 
 ## Categories
 
 * [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
+
+[^1]: Currently [@translatewiki](https://github.com/translatewiki) only
+[^2]: Only if the extension is updated using [mwdeploy](/tech-docs/techmwdeploy).
+[^3]: Extension is automatically updated by [mwdeploy](/tech-docs/techmwdeploy) whenever Puppet runs.
+
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:GitHub)**

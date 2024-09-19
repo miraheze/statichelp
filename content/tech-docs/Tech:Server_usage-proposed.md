@@ -63,5 +63,7 @@ Below is a list of proposed servers:
 | [swiftproxy171](/tech-docs/techswiftproxy171) | 4 GB | 4 cores (unknown speed) | 30 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [test151](/tech-docs/techtest151) | 12 GB | 12 cores (unknown speed) | 100 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 
+
+
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Server_usage/proposed)**

@@ -49,5 +49,7 @@ If a former sysadmin wishes to come back after having resigned for being inactiv
 
 * [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
+
+
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Inactivity_policy)**

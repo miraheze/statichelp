@@ -21,5 +21,7 @@ title: Tech:Cloud16
 
 **cloud16** is a FiberState bare metal dedicated server in Salt Lake City, Utah running Debian Bookworm. It is a [virtualization host server](/tech-docs/techproxmox).
 
+
+
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Cloud16)**

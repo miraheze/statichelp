@@ -22,5 +22,7 @@ title: Tech:Db151
 
 **db151** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a Database server running [MariaDB](/tech-docs/techmariadb).
 
+
+
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Db151)**

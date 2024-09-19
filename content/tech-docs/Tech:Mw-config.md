@@ -60,5 +60,7 @@ Assuming you know how to write hook handlers on regular MediaWiki LocalSettings.
 * Write a case statement for your wiki's database name (you can see this on ManageWiki if you don't know it).
 * Attach your hook via `$wgHooks`.
 
+
+
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Mw-config)**

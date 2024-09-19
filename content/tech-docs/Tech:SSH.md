@@ -55,5 +55,7 @@ Host *.wikitide.net
 * This configuration will also apply (in the most part) to some SCP clients, such as WinSCP.
    * With the exception that for "Local proxy command", you must use the full path to plink. For example, '"C:\\Program Files\\PuTTY\\plink.exe" %user@%proxyhost -nc %host:%port -pw %pass'.
 
+
+
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:SSH)**
