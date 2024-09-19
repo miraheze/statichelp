@@ -120,6 +120,5 @@ Some repositories may be given access to Technology team members without shell a
 [^2]: Only if the extension is updated using [mwdeploy](/tech-docs/techmwdeploy).
 [^3]: Extension is automatically updated by [mwdeploy](/tech-docs/techmwdeploy) whenever Puppet runs.
 
-
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:GitHub)**

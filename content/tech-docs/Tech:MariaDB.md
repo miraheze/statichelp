@@ -106,6 +106,5 @@ To restore a database from a .idb file following these steps:
 
 [^1]: English Wikipedia article: [MariaDB](https://meta.miraheze.org/wiki/w:MariaDB)
 
-
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:MariaDB)**
