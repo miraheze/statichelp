@@ -135,7 +135,5 @@ The above applies, this section covers things which are specific to Infrastructu
 * [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 * [Category:Tech policy](https://meta.miraheze.org/wiki/Category:Tech_policy)
 
-
-
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:On-Off_Boarding)**

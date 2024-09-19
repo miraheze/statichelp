@@ -18,7 +18,5 @@ The Technology team's noticeboard features periodic announcements from the Techn
 * [Category:Noticeboards](https://meta.miraheze.org/wiki/Category:Noticeboards)
 * [Category:Headers](https://meta.miraheze.org/wiki/Category:Headers)
 
-
-
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Noticeboard/header)**

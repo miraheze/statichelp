@@ -26,7 +26,5 @@ This is a page designed to be a working ground for analysing the infrastructure 
 | [lizardfs2](https://meta.miraheze.org/wiki/Tech:lizardfs2) | Static | lizardfs, salt-minion, bacula-client | 2x2.30GHz | 150G | 512MB | $4.85 |
 | [test1](https://meta.miraheze.org/wiki/Tech:test1) | Testing | mediawiki, salt-minion | CPU: 1x2.40GHz | 40G | 1GB | $3.50 |
 
-
-
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:2018_Infrastructure_Assessment)**

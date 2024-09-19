@@ -91,7 +91,5 @@ You can find this file at `/root/private/files/swift`. Copy it elsewhere, so you
 
 * [Category:Services](https://meta.miraheze.org/wiki/Category:Services)
 
-
-
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Swift)**

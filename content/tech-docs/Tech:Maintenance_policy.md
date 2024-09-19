@@ -68,7 +68,5 @@ This policy was initially created by [Universal Omega](https://meta.miraheze.org
 
 * [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 
-
-
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Maintenance_policy)**

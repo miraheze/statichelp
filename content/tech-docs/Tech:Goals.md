@@ -33,7 +33,5 @@ Tasks being considered for a goal are left at the discretion of [the Technology 
 | January - June 2022 | 5 | 2 | 3 | 40% |
 | July - December 2022 | 7 | 6 | 1 | 86% |
 
-
-
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Goals)**

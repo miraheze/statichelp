@@ -74,7 +74,5 @@ Security Specialists develop and implement effective security practices to be en
 * [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)
 * [Category:Tech policy](https://meta.miraheze.org/wiki/Category:Tech_policy)
 
-
-
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Organization)**

@@ -55,7 +55,5 @@ Miraheze's Site Reliability Engineering team have crafted a set of Service Level
 | Latency | 3s | 1.41s | 1.41s | 1.35s | |  |  |  |  |  |  |  |
 | [Memcached](/tech-docs/techmemcached) | Availability | 99.5% | 100% | 100% | 100% | |  |  |  |  |  |  |  |
 
-
-
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:SLO)**

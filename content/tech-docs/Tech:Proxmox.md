@@ -177,7 +177,5 @@ iface ens19 inet static
         netmask 255.0.0.0
 ```
 
-
-
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Proxmox)**

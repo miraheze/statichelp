@@ -22,7 +22,5 @@ title: Tech:Bast161
 
 **bast161** is a FiberState server in Salt Lake City, Utah running Debian Bookworm.
 
-
-
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Bast161)**

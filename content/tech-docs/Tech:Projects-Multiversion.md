@@ -42,7 +42,5 @@ Anyone interested in starting this project should:
 * get familiar with how we currently do MediaWiki updates
 * get in touch with a [Technology team member](/tech-docs/techvolunteers) to discuss how to proceed
 
-
-
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Projects/Multiversion)**

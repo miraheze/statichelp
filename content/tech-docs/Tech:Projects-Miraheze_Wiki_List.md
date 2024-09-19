@@ -54,7 +54,5 @@ Anyone interested in this project should:
 * register their interest at the [phorge ticket](https://meta.miraheze.org/wiki/phorge:T218),
 * discuss a possible timeline/integration plan with a [mw-admin](/tech-docs/techorganization#mediawiki-specialist) or [operations](/tech-docs/techorganization#infrastructure-specialist) member.
 
-
-
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Projects/Miraheze_Wiki_List)**

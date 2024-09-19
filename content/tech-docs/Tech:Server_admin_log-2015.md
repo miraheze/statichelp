@@ -270,7 +270,5 @@ title: Tech:Server admin log/2015
 
 * 22:17 JohnFLewis: rebooted mw1, strange memory patterns
 
-
-
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Server_admin_log/2015)**

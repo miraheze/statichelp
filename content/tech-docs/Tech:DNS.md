@@ -26,7 +26,5 @@ The system should be moved to manual at some point, though there is not enough r
 
 * [Category:Services](https://meta.miraheze.org/wiki/Category:Services)
 
-
-
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:DNS)**

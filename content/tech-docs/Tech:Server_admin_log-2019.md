@@ -3080,7 +3080,5 @@ title: Tech:Server admin log/2019
 * 15:05 paladox: run UPDATE globaluser SET gu_email = 'xxx' WHERE gu_name = 'Revenant Lord'; (where xxx is a email)
 * 15:01 paladox: depool mw1
 
-
-
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Server_admin_log/2019)**

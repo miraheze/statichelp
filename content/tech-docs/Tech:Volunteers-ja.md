@@ -38,7 +38,5 @@ title: Tech:Volunteers/ja
 * [Category:Global user groups](https://meta.miraheze.org/wiki/Category:Global_user_groups)
 * [Category:System administrators](https://meta.miraheze.org/wiki/Category:System_administrators)
 
-
-
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Volunteers/ja)**

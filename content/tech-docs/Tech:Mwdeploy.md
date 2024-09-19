@@ -58,7 +58,5 @@ If the server is being decommissioned:
 * Follow the normal server lifecycle procedure
 * Wipe `/srv/mediawiki-staging/`
 
-
-
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Mwdeploy)**

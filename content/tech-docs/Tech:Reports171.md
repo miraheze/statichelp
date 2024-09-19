@@ -22,7 +22,5 @@ title: Tech:Reports171
 
 **reports171** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a server that hosts TSPortal.
 
-
-
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Reports171)**

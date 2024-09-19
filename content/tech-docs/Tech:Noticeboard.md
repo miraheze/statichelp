@@ -82,7 +82,5 @@ Now, disabling `wgCompressRevisions` doesn't retroactively decompress existing r
 
 [Stewards](https://meta.miraheze.org/wiki/Stewards) and [Wiki Mechanics](https://meta.miraheze.org/wiki/Wiki_Mechanics), this extension can be enabled on request at [SR/RC](https://meta.miraheze.org/wiki/SR/RC) for wikis created **after** May 11. If a wiki created prior to this date requests this extension, a member of the [Technology Team](/tech-docs/techvolunteers) has to manually verify that *all* of the pages' current revisions are not from before this date before being enabled. [Alex (Miraheze)](https://meta.miraheze.org/wiki/User:Alex_(Miraheze)) ([talk](https://meta.miraheze.org/wiki/User_talk:Alex_(Miraheze))) 18:34, 21 August 2024 (UTC)
 
-
-
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Noticeboard)**

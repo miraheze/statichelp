@@ -22,7 +22,5 @@ title: Tech:Ldap171
 
 **ldap171** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a server that hosts [Ldap](/tech-docs/techldap).
 
-
-
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Ldap171)**

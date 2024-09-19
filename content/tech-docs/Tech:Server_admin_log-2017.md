@@ -1549,7 +1549,5 @@ All times are in **UTC+0**/**GMT**.
 
 Archives: [2015](https://meta.miraheze.org/wiki//2015), [2016](https://meta.miraheze.org/wiki//2016)
 
-
-
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Server_admin_log/2017)**

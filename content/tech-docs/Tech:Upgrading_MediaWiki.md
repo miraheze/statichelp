@@ -30,7 +30,5 @@ Once the new version has been officially released, it's time for prod to be upgr
 * Make the new version the "stable" version on `MirahezeFunctions`' `MEDIAWIKI_VERSIONS` constant.
 * Run maintenance scripts and apply SQL patches as needed.
 
-
-
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Upgrading_MediaWiki)**

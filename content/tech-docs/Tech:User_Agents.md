@@ -13,7 +13,5 @@ Please note that additional restrictions may also apply. You should not make req
 * Your user agent must not mimic a browser UA
 * You must include contact details (either a User name (clearly marked) or email)
 
-
-
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:User_Agents)**

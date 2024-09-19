@@ -16,7 +16,5 @@ To delete or move large batches of pages on a wiki, execute the following comman
 
 * [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
 
-
-
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Deleting_and_moving_batches_of_pages_on_a_wiki)**

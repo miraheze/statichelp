@@ -48,7 +48,5 @@ You can do it via PHP by [following](https://meta.miraheze.org/wiki/github:mirah
 
 * [Category:Services](https://meta.miraheze.org/wiki/Category:Services)
 
-
-
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Memcached)**

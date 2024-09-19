@@ -38,7 +38,5 @@ Ignore this warning at your own peril: If your key stops working, it could becom
    * Miraheze: WebAuthn is available as one of the two possible second factors.
 * [Pisces's guide to get it working on Windows](https://meta.miraheze.org/wiki/User:Pisces/FIDO2_SSH_on_Windows)
 
-
-
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:FIDO2_SSH)**

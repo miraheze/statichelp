@@ -21,7 +21,5 @@ Keep in mind that this check is done over HTTPS and that Cloudflare is verifying
 * Go to the end of the endpoints section, and click "Add Endpoint". Input the server name, public IPv6 address and a weight of 1, **unless** you have a reason to give it a separate weight value.
 * Click save at the bottom of the page and you're done.
 
-
-
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Cloudflare)**

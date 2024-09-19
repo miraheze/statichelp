@@ -22,7 +22,5 @@ title: Tech:Mwtask171
 
 **mwtask171** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a secondary [MediaWiki application server](/tech-docs/techmediawiki_appserver) which is responsible for heavy and intensive MediaWiki tasks (e.g. maintenance scripts, imports). It is not web accessible but is publicly exposed.
 
-
-
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Mwtask171)**

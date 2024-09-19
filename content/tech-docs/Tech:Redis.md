@@ -30,7 +30,5 @@ MONITOR listens for requests received by redis from the point the request was is
 
 * [Category:Services](https://meta.miraheze.org/wiki/Category:Services)
 
-
-
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Redis)**

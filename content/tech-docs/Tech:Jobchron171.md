@@ -22,7 +22,5 @@ title: Tech:Jobchron171
 
 **jobchron171** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a server which hosts [Redis](/tech-docs/techredis) and the JobChron service.
 
-
-
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Jobchron171)**

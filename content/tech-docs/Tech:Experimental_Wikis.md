@@ -18,7 +18,5 @@ The following features are enabled on experimental wikis:
 * [Parser Media Structure changes](https://www.mediawiki.org/wiki/Parsing/Media_structure)
 * [JQuery Migrate](https://github.com/jquery/jquery-migrate) (now disabled)
 
-
-
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Experimental_Wikis)**

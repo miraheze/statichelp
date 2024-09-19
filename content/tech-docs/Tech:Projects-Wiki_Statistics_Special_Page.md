@@ -42,7 +42,5 @@ Anyone interested in starting this project should:
 * Get familiar with how Piwik works and how its API can be used to collect views per page / views across a whole site.
 * Get in touch with an [operations](/tech-docs/techorganization#infrastructure-specialist) member to discuss next steps for integrating with the current Piwik install.
 
-
-
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Projects/Wiki_Statistics_Special_Page)**
