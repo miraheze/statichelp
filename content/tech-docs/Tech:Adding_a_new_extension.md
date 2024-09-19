@@ -12,6 +12,7 @@ All of this stuff needs to be done before the steps above:
 The above steps are for the `mediawiki-repos` repository. The following are for the `mw-config` repository.
 * ManageWikiExtensions.php gets a setting added as well. (Make sure to check if it requires another extension or if it should be restricted)
 * If the extension has database tables, make sure to add them to the ManageWikiExtensions.php config!
+* If an extension has settings that are likely to be used or are required to be set, add it to ManageWikiSettings.php
 * It is not required, but preferable that you also load it on test151 in order to make sure that everything works as intended
 * Setup any other extension globals here.
 * Then run the following script on mwtask181 and/or test151: `mwdeploy --world --config --l10n --extension-list --servers=all`

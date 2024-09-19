@@ -8,11 +8,12 @@ Miraheze requires lots of **servers** in order to provide service. With over 400
 
 Currently, servers at Miraheze are used for:
 
-* Cache proxy: [cp26](https://meta.miraheze.org/wiki/Tech:Cp26), [cp27](https://meta.miraheze.org/wiki/Tech:Cp27), [cp36](https://meta.miraheze.org/wiki/Tech:Cp36), [cp37](https://meta.miraheze.org/wiki/Tech:Cp37), [cp41](https://meta.miraheze.org/wiki/Tech:Cp41), [cp51](https://meta.miraheze.org/wiki/Tech:Cp51)
-* Database: [db151](/tech-docs/techdb151), [db161](/tech-docs/techdb161), [db171](/tech-docs/techdb171), [db181](/tech-docs/techdb181), [db182](/tech-docs/techdb182)
-* DNS: [ns1](/tech-docs/techns1), [ns2](/tech-docs/techns2)
-* MediaWiki: [mw151](/tech-docs/techmw151), [mw152](/tech-docs/techmw152), [mw153](https://meta.miraheze.org/wiki/Tech:Mw153), [mw154](https://meta.miraheze.org/wiki/Tech:Mw154), [mw161](/tech-docs/techmw161), [mw162](/tech-docs/techmw162), [mw163](https://meta.miraheze.org/wiki/Tech:Mw163), [mw164](https://meta.miraheze.org/wiki/Tech:Mw164), [mw171](/tech-docs/techmw171), [mw172](/tech-docs/techmw172), [mw173](https://meta.miraheze.org/wiki/Tech:Mw173), [mw174](https://meta.miraheze.org/wiki/Tech:Mw174), [mw181](/tech-docs/techmw181), [mw182](/tech-docs/techmw182), [mw183](https://meta.miraheze.org/wiki/Tech:Mw183), [mw184](https://meta.miraheze.org/wiki/Tech:Mw184), [mwtask151](https://meta.miraheze.org/wiki/Tech:Mwtask151), [mwtask161](https://meta.miraheze.org/wiki/Tech:Mwtask161), [mwtask171](/tech-docs/techmwtask171), [mwtask181](/tech-docs/techmwtask181), [jobchron171](/tech-docs/techjobchron171)
-* Swift: [swiftac171](/tech-docs/techswiftac171), [swiftobject151](/tech-docs/techswiftobject151), [swiftobject161](/tech-docs/techswiftobject161), [swiftobject171](/tech-docs/techswiftobject171), [swiftobject181](/tech-docs/techswiftobject181), [swiftproxy161](/tech-docs/techswiftproxy161), [swiftproxy171](/tech-docs/techswiftproxy171)
+* [Cache proxy](/tech-docs/techvarnish): [cp36](https://meta.miraheze.org/wiki/Tech:Cp36), [cp37](https://meta.miraheze.org/wiki/Tech:Cp37)
+* [Database](/tech-docs/techmariadb): [db151](/tech-docs/techdb151), [db161](/tech-docs/techdb161), [db171](/tech-docs/techdb171), [db181](/tech-docs/techdb181), [db182](/tech-docs/techdb182)
+* [DNS](/tech-docs/techdns): [ns1](/tech-docs/techns1), [ns2](/tech-docs/techns2)
+* [Mattermost](/tech-docs/techmattermost): [mattermost1](https://meta.miraheze.org/wiki/Tech:Mattermost1)
+* [MediaWiki](/tech-docs/techmediawiki_appserver): [mw151](/tech-docs/techmw151), [mw152](/tech-docs/techmw152), [mw153](https://meta.miraheze.org/wiki/Tech:Mw153), [mw154](https://meta.miraheze.org/wiki/Tech:Mw154), [mw161](/tech-docs/techmw161), [mw162](/tech-docs/techmw162), [mw163](https://meta.miraheze.org/wiki/Tech:Mw163), [mw164](https://meta.miraheze.org/wiki/Tech:Mw164), [mw171](/tech-docs/techmw171), [mw172](/tech-docs/techmw172), [mw173](https://meta.miraheze.org/wiki/Tech:Mw173), [mw174](https://meta.miraheze.org/wiki/Tech:Mw174), [mw181](/tech-docs/techmw181), [mw182](/tech-docs/techmw182), [mw183](https://meta.miraheze.org/wiki/Tech:Mw183), [mw184](https://meta.miraheze.org/wiki/Tech:Mw184), [mwtask151](https://meta.miraheze.org/wiki/Tech:Mwtask151), [mwtask161](https://meta.miraheze.org/wiki/Tech:Mwtask161), [mwtask171](/tech-docs/techmwtask171), [mwtask181](/tech-docs/techmwtask181), [jobchron171](/tech-docs/techjobchron171)
+* [Swift](/tech-docs/techswift): [swiftac171](/tech-docs/techswiftac171), [swiftobject151](/tech-docs/techswiftobject151), [swiftobject161](/tech-docs/techswiftobject161), [swiftobject171](/tech-docs/techswiftobject171), [swiftobject181](/tech-docs/techswiftobject181), [swiftproxy161](/tech-docs/techswiftproxy161), [swiftproxy171](/tech-docs/techswiftproxy171)
 * Miscellaneous
    * [mon181](/tech-docs/techmon181): [Grafana](/tech-docs/techgrafana), [Icinga](/tech-docs/techicinga)
    * [phorge171](/tech-docs/techphorge171): [Phorge](/tech-docs/techphorge)
@@ -28,12 +29,8 @@ Currently, servers at Miraheze are used for:
 
 | server name | Memory (RAM) | CPU | Storage | Host | Location | Debian version | Kernel version |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [cp26](https://meta.miraheze.org/wiki/Tech:cp26) | 6 GB | 4 core @ 2.65 GHz | 100 GB SSD | Contabo | Nuremburg, Germany | Bookworm | |
-| [cp27](https://meta.miraheze.org/wiki/Tech:Cp27) | 6 GB | 4 core @ 2.65 GHz | 100 GB SSD | Contabo | Nuremburg, Germany | Bookworm | |
 | [cp36](https://meta.miraheze.org/wiki/Tech:Cp36) (cloud16) | 4 GB | 4 core @ 2.65 GHz | 100 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [cp37](https://meta.miraheze.org/wiki/Tech:Cp37) (cloud17) | 4 GB | 4 core @ 2.65 GHz | 100 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [cp41](https://meta.miraheze.org/wiki/Tech:cp41) | 6 GB | 4 core @ 2.65 GHz | 100 GB SSD | Contabo | Hong Kong | Bookworm | |
-| [cp51](https://meta.miraheze.org/wiki/Tech:Cp51) | 6 GB | 4 core @ 2.65 GHz | 100 GB SSD | Contabo | London, England | Bookworm | |
 | [ns1](/tech-docs/techns1) (cloud17) | 1 GB | 1 core @ 2 GHz | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [ns2](/tech-docs/techns2) | 1 GB | 1 core (unknown speed) | 10 GB SSD | OVH | London, England | Bookworm | |
 | [bast161](/tech-docs/techbast161) | 1 GB | 1 core (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
@@ -96,6 +93,10 @@ Currently, servers at Miraheze are used for:
 | [<s>cp10</s>](https://meta.miraheze.org/wiki/Tech:Cp10) *decommissioned* | 2GB, 2 cores, 30 GB SSD | 1 February 2021 | |  |
 | [<s>cp11</s>](https://meta.miraheze.org/wiki/Tech:Cp11) *decommissioned* | 2GB, 2 cores, 30 GB SSD | 1 February 2021 | |  |
 | [<s>cp12</s>](https://meta.miraheze.org/wiki/Tech:Cp12) *decommissioned* | 2GB, 2 cores, 30 GB SSD | 1 February 2021 | |  |
+| ~~[cp26](https://meta.miraheze.org/wiki/Tech:cp26)~~ *decommissioned* | 6 GB, 4 core @ 2.65 GHz, 100 GB SSD | 24 January 2024 | 2 September 2024 | $5.50 |
+| ~~[cp27](https://meta.miraheze.org/wiki/Tech:Cp27)~~ *decommissioned* | 6 GB, 4 core @ 2.65 GHz, 100 GB SSD | 28 January 2024 | 2 September 2024 | $5.50 |
+| ~~[cp41](https://meta.miraheze.org/wiki/Tech:cp41)~~ *decommissioned* | 6 GB, 4 core @ 2.65 GHz, 100 GB SSD | 24 January 2024 | 2 September 2024 | $7.75 |
+| ~~[cp51](https://meta.miraheze.org/wiki/Tech:Cp51)~~ *decommissioned* | 6 GB, 4 core @ 2.65 GHz, 100 GB SSD | 24 January 2024 | 2 September 2024 | $7.40 |
 | ~~[db1](https://meta.miraheze.org/wiki/Tech:db1)~~ *decommissioned* | |  | 5 October 2015 | N/A |
 | ~~[db2](https://meta.miraheze.org/wiki/Tech:db2)~~ *decommissioned* | 8GB, 4 cores @ 2.30 GHz, 120G GB SSD | |  | N/A |
 | ~~[db3](https://meta.miraheze.org/wiki/Tech:Db3)~~ *decommissioned* | 6GB, 2 cores @ 2.30 GHz, 100G GB SSD | |  | N/A |

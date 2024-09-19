@@ -2,6 +2,69 @@
 title: Tech:Server admin log
 ---
 
+## 2024-09-19 
+
+* 19:25 MirahezeLSBot: [reception@mwtask181] finished deploy of {'files': '../mediawiki/1.42/extensions/SemanticMediaWiki/.smw.json'} to all - SUCCESS in 28s
+* 19:25 MirahezeLSBot: [reception@mwtask181] starting deploy of {'files': '../mediawiki/1.42/extensions/SemanticMediaWiki/.smw.json'} to all
+* 19:24 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.42/maintenance/run.php /srv/mediawiki/1.42/extensions/SemanticMediaWiki/maintenance/setupStore.php --wiki=cruuwiki (END - exit=0)
+* 19:24 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.42/maintenance/run.php /srv/mediawiki/1.42/extensions/SemanticMediaWiki/maintenance/setupStore.php --wiki=cruuwiki (END - exit=0)
+* 12:38 MirahezeLSBot: [@mwtask171] finished deploy of {'folders': '1.42/extensions/MirahezeMagic'} to all - SUCCESS in 21s
+* 12:37 MirahezeLSBot: [@mwtask171] starting deploy of {'folders': '1.42/extensions/MirahezeMagic'} to all
+* 12:33 MirahezeLSBot: [@mwtask181] finished deploy of {'folders': '1.42/extensions/MirahezeMagic'} to all - SUCCESS in 22s
+* 12:33 MirahezeLSBot: [@mwtask181] starting deploy of {'folders': '1.42/extensions/MirahezeMagic'} to all
+* 12:23 MirahezeLSBot: [@test151] finished deploy of {'folders': '1.43/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s
+* 12:23 MirahezeLSBot: [@test151] starting deploy of {'folders': '1.43/extensions/MirahezeMagic'} to test151
+* 12:23 MirahezeLSBot: [@test151] finished deploy of {'folders': '1.42/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s
+* 12:23 MirahezeLSBot: [@test151] starting deploy of {'folders': '1.42/extensions/MirahezeMagic'} to test151
+* 11:29 Universal Omega: ALTER TABLE cw_requests AUTO_INCREMENT = 49375;
+* 11:29 Universal Omega: MariaDB [metawiki]> UPDATE cw_requests SET cw_id = 49374 WHERE cw_id = 0;
+* 11:16 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.42', 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 28s
+* 11:15 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.42', 'upgrade_extensions': 'CreateWiki'} to all
+* 05:44 MirahezeLSBot: [agent@mwtask181] finished deploy of {'l10n': True, 'force': True, 'versions': '1.42'} to all - SUCCESS in 630s
+* 05:34 MirahezeLSBot: [agent@mwtask181] starting deploy of {'l10n': True, 'force': True, 'versions': '1.42'} to all
+* 05:34 MirahezeLSBot: [agent@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.42', 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 28s
+* 05:33 MirahezeLSBot: [agent@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.42', 'upgrade_extensions': 'CreateWiki'} to all
+* 05:33 MirahezeLSBot: [agent@mwtask181] finished deploy of {'versions': '1.42', 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 1s
+* 05:33 MirahezeLSBot: [agent@mwtask181] starting deploy of {'versions': '1.42', 'upgrade_extensions': 'CreateWiki'} to all
+* 05:33 MirahezeLSBot: [agent@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 05:33 MirahezeLSBot: [agent@mwtask181] starting deploy of {'l10n': True, 'versions': '1.42', 'upgrade_extensions': 'CreateWiki'} to all
+* 02:07 MirahezeLSBot: [@mwtask171] finished deploy of {'config': True} to all - SUCCESS in 21s
+* 02:06 MirahezeLSBot: [@mwtask171] starting deploy of {'config': True} to all
+* 01:41 MirahezeLSBot: [@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 23s
+* 01:40 MirahezeLSBot: [@mwtask181] starting deploy of {'config': True} to all
+* 01:37 MirahezeLSBot: [@mwtask171] finished deploy of {'config': True} to all - SUCCESS in 25s
+* 01:37 MirahezeLSBot: [@mwtask171] starting deploy of {'config': True} to all
+
+## 2024-09-18 
+
+* 17:18 MirahezeLSBot: [macfan@test151] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/resetAuthenticationThrottle.php --wiki=metawikibeta --user=MacFan4000 --login (END - exit=256)
+* 17:18 MirahezeLSBot: [macfan@test151] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/resetAuthenticationThrottle.php --wiki=metawikibeta --user=MacFan4000 (END - exit=256)
+* 16:44 MirahezeLSBot: [macfan@test151] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/invalidateUserSessions.php --wiki=loginwikibeta --user=MacFan4000 (END - exit=0)
+* 16:42 MirahezeLSBot: [macfan@test151] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/invalidateUserSessions.php --wiki=metawikibeta --user=MacFan4000 (END - exit=0)
+* 13:04 @paladox: increase swiftac171 ram to 8gb
+* 12:19 MirahezeLSBot: [universalomega@mwtask151] sudo -u www-data php /srv/mediawiki/1.42/maintenance/run.php /srv/mediawiki/1.42/maintenance/initSiteStats.php --wiki=newgroundswiki --active --update (END - exit=0)
+* 12:19 MirahezeLSBot: [universalomega@mwtask151] sudo -u www-data php /srv/mediawiki/1.42/maintenance/run.php /srv/mediawiki/1.42/maintenance/rebuildall.php --wiki=newgroundswiki (END - exit=0)
+* 12:14 MirahezeLSBot: [universalomega@mwtask151] sudo -u www-data php /srv/mediawiki/1.42/maintenance/run.php /srv/mediawiki/1.42/maintenance/rebuildall.php --wiki=newgroundswiki (START)
+* 12:14 MirahezeLSBot: [universalomega@mwtask151] sudo -u www-data php /srv/mediawiki/1.42/maintenance/run.php /srv/mediawiki/1.42/maintenance/importDump.php --wiki=newgroundswiki --no-updates --username-prefix=wikia:newgrounds /home/universalomega/newgroundswiki-20240918101502.xml (END - exit=0)
+* 11:43 MirahezeLSBot: [universalomega@mwtask151] sudo -u www-data php /srv/mediawiki/1.42/maintenance/run.php /srv/mediawiki/1.42/maintenance/importDump.php --wiki=newgroundswiki --no-updates --username-prefix=wikia:newgrounds /home/universalomega/newgroundswiki-20240918101502.xml (START)
+* 09:08 MirahezeLSBot: [@mwtask171] finished deploy of {'config': True} to all - SUCCESS in 23s
+* 09:07 MirahezeLSBot: [@mwtask171] starting deploy of {'config': True} to all
+* 09:02 MirahezeLSBot: [@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 25s
+* 09:02 MirahezeLSBot: [@mwtask181] starting deploy of {'config': True} to all
+* 08:57 MirahezeLSBot: [universalomega@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/beta.json /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/extensions/MirahezeMagic/maintenance/changeMediaWikiVersion.php --mwversion 1.43 (END - exit=0)
+* 08:57 MirahezeLSBot: [universalomega@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/beta.json /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/extensions/MirahezeMagic/maintenance/changeMediaWikiVersion.php --mwversion 1.43 (START)
+* 08:53 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 08:53 MirahezeLSBot: [universalomega@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 02:48 MirahezeLSBot: [agent@mwtask181] finished deploy of {'versions': '1.42', 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 27s
+* 02:47 MirahezeLSBot: [agent@mwtask181] starting deploy of {'versions': '1.42', 'upgrade_extensions': 'CreateWiki'} to all
+* 02:38 Universal Omega: Add Waki285 and Tali64 to the CVT email group
+* 01:37 MirahezeLSBot: [@mwtask171] finished deploy of {'config': True} to all - SUCCESS in 24s
+* 01:37 MirahezeLSBot: [@mwtask171] starting deploy of {'config': True} to all
+* 01:32 MirahezeLSBot: [@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 25s
+* 01:31 MirahezeLSBot: [@mwtask181] starting deploy of {'config': True} to all
+* 01:23 MirahezeLSBot: [@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 01:23 MirahezeLSBot: [@test151] starting deploy of {'config': True} to test151
+
 ## 2024-09-17 
 
 * 18:02 MirahezeLSBot: [@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 28s

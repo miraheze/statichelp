@@ -9,7 +9,7 @@ This page aims to document our communication channels, and outline a general str
 ## Communication channels
 
 * **[Discord](https://meta.miraheze.org/wiki/Discord)**. Over on Discord there's special channels for communicating important announcements. such as `#announcements`, which is also mirrored on other Discord servers.
-* **[Hund](https://meta.miraheze.org/wiki/Tech:Hund)**. Your standard status page. Available at [status.miraheze.wiki](https://status.miraheze.wiki), and additionally has multiple types of subscriptions.
+* **[Hund](https://meta.miraheze.org/wiki/Tech:Hund)**. Your standard status page. Available at [mirahezestatus.net](https://mirahezestatus.net), and additionally has multiple types of subscriptions.
 * **[Tech:Noticeboard](/tech-docs/technoticeboard)**. A page hosting on-wiki announcements by the [Technology team](/tech-docs/techvolunteers).
 * **Twitter, Mastodon and Facebook**. Social media.
 * **On-wiki sitenotices**. Sitenotices that are shown on either wikis meeting a specific condition ("targeted"), such as having an extension enabled, or shown everywhere ("global"). Managed at [mw-config/Sitenotice.php](https://github.com/miraheze/mw-config/blob/master/Sitenotice.php) on [GitHub](/tech-docs/techgithub).

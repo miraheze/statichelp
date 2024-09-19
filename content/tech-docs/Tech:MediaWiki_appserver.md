@@ -2,7 +2,7 @@
 title: Tech:MediaWiki appserver
 ---
 
-**MediaWiki application servers** (MediaWiki appserver) is a name given to the stack of software which runs Miraheze wikis. It is made up of several components.
+**MediaWiki application servers** (MediaWiki appserver) is a name given to the stack of software that runs Miraheze wikis. It is made up of several components.
 
 ## Maintenance scripts 
 
@@ -27,9 +27,9 @@ A full list of maintenance scripts can be found [here](https://meta.miraheze.org
    * If the imported username is different from the Miraheze username, specify `--to=miraheze_username`
    * If only `--to` is specified, all users with the import prefix would be assigned to the given user.
    * If neither `--to` nor `--from` is given, all users with the given prefix would be assigned to the same username on Miraheze, stripped of the prefix, if the username exists.
-   * You should always verify what will be run first, by using `--no-run`, and verifying the output first.
+   * You should always verify what will be run first by using `--no-run` and verifying the output first.
 
-* **sql.php** – Self explanatory, to run SQL commands.
+* **sql.php** – Self explanatory; to run SQL commands.
 
 * **shell.php** – Evaluation of MediaWiki objects and functions.
 
@@ -51,7 +51,7 @@ Usage: ` sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cach
 
 ## Jobrunner 
 
-[mwtask181](/tech-docs/techmwtask181) is responsible for running jobs on MediaWiki. As mentioned above, maintenance scripts should be run on this server.
+The mwtask servers are responsible for running jobs on MediaWiki. As mentioned above, maintenance scripts should be run on this server.
 
 * To see how many jobs are currently waiting to be run on a wiki, you can use the **showJobs.php** maintenance script (`sudo -u www-data php /srv/mediawiki/<version>/maintenance/showJobs.php --wiki=examplewiki`
 
@@ -61,13 +61,13 @@ Usage: ` sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cach
 
 Jobrunner is a service, so if it is necessary, it may be restarted with `sudo service jobrunner restart`
 
-Metrics regarding the jobqueue and types of jobs can be viewed [via Grafana](https://grafana.wikitide.net/d/3L3WYylMz/mediawiki-job-queue).
+Metrics regarding the job queue and types of jobs can be viewed [via Grafana](https://grafana.wikitide.net/d/3L3WYylMz/mediawiki-job-queue).
 
 ## Nginx 
 
 *See more about Nginx on the main documentation page: [Tech:Nginx](/tech-docs/technginx)*
 
-NGINX is a high-performance web server which Miraheze uses for all of our services that use HTTP.
+NGINX is a high-performance web server that Miraheze uses for all of our services that use HTTP.
 
 ## Firejail 
 
@@ -81,16 +81,64 @@ ManageWiki uses a caching backend for its settings, extensions, permissions, and
 
 ## Composer 
 
-Composer is a dependency manager for PHP libraries. MediaWiki itself as well as quite a few extensions make use of Composer. More information about Composer can be found on the [MediaWiki.org documentation page](https://meta.miraheze.org/wiki/mediawikiwiki:Composer). On Miraheze, the Composer dependency is managed with Puppet, and any extensions that use Composer must be added [to the Puppet file](https://github.com/miraheze/puppet/blob/master/modules/mediawiki/manifests/extensionsetup.pp) in order for it to be installed properly.
+Composer is a dependency manager for PHP libraries. MediaWiki itself, as well as quite a few extensions, make use of Composer. More information about Composer can be found on the [MediaWiki.org documentation page](https://meta.miraheze.org/wiki/mediawikiwiki:Composer). On Miraheze, the Composer dependency is managed with [mediawiki-repos](https://github.com/miraheze/mediawiki-repos), and any extensions that use Composer must be added with `composer: true` there in order for it to be installed properly. Please see the README in mediawiki-repos for further instructions.
 
 ## Profiling 
 
-If you want to find out what parts of the code take such a long time to execute, you can [profile](https://www.mediawiki.org/wiki/Manual:Profiling) your web requests. This can be done by appending `?forceprofile=1` to the URL and setting the `X-Miraheze-Debug: test151.wikitide.net` header.
+   ***Note**: If you don't know the X-WikiTide-Debug access key, please ask another member of the [Technology team](/tech-docs/techvolunteers).*
 
-Example:
+If you want to identify which parts of the code are taking a long time to execute, follow these steps:
+
+**Profile the Web Request**
+
+   ***Note**: Currently, `?forceprofile=1` is only available on [test151](/tech-docs/techtest151), ironically due to its own performance.*
+
+Append `?forceprofile=1` to the URL of your MediaWiki page. This will trigger [profiling](https://www.mediawiki.org/wiki/Manual:Profiling) for that specific request.
+
+**Set the X-WikiTide-Debug Headers**
+
+Include the header `X-WikiTide-Debug: test151.wikitide.net`, replacing with the appropriate server.
+
+If you are not on an internal server (i.e., from one of our own IP ranges), you must provide an access key via the `X-WikiTide-Debug-Access-Key` header. Save the key in a text file (e.g., access_key.txt) and reference it in your shell command using cat.
+
+**Check Logs and Results**
+
+After running the profiling request, examine the profiling output for bottlenecks. This data will indicate which parts of the code consume the most time.
+
+---
+
+**Examples **
+
+**On an internal server (no access key required)**
+
 ```
-$ curl -H 'X-Miraheze-Debug: test151.wikitide.net' 'https://allthetropes.org/wiki/Main_Page?forceprofile=1' | grep '1 - main()' -A 450 | less
+curl -H "X-WikiTide-Debug: test151.wikitide.net" \
+     "https://example.com/wiki/Main_Page?forceprofile=1" | grep '1 - main()' -A 450 | less
 ```
+
+**On an external server (access key required)**
+
+```
+curl -H "X-WikiTide-Debug: test151.wikitide.net" \
+     -H "X-WikiTide-Debug-Access-Key: $(cat access_key.txt)" \
+     "https://example.com/wiki/Main_Page?forceprofile=1" | grep '1 - main()' -A 450 | less
+```
+
+---
+
+*You can also use Chrome extensions for easier profiling and debugging:*
+
+**[MediaWikiDebugJS](https://github.com/miraheze/MediaWikiDebugJS) Extension**
+
+This extension helps you debug MediaWiki performance by showing response times and the backend MediaWiki or cache proxy servers to which your request connects.
+
+Install the extension, then simply navigate to a page to start analyzing the performance in your browser.
+
+**[WikiTideDebug](https://github.com/miraheze/WikiTideDebug) Extension**
+
+This extension allows you to send HTTP requests directly to specific MediaWiki servers and check for errors cached in systems like [Varnish](/tech-docs/techvarnish) or [Cloudflare](/tech-docs/techcloudflare).
+
+After installation, you can modify requests in the browser by specifying which backend server to hit (e.g., test151.wikitide.net) and inject the required `X-WikiTide-Debug` and `X-WikiTide-Debug-Access-Key` headers.
 
 ## MediaWiki-related Miraheze Guides 
 
@@ -100,7 +148,7 @@ $ curl -H 'X-Miraheze-Debug: test151.wikitide.net' 'https://allthetropes.org/wik
 * [Remove a MediaWiki Extension](/tech-docs/techremoving_an_extension)
 * [Update a MediaWiki Extension](https://meta.miraheze.org/wiki/Tech:Updating_an_extension)
 * [How-To upgrade MediaWiki](/tech-docs/techupgrading_mediawiki)
-* [Deploy mediawiki script](https://meta.miraheze.org/wiki/Tech:Deploy-mediawiki)
+* [Mwdeploy script](/tech-docs/techmwdeploy)
 
 ## Categories
 
