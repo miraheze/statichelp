@@ -10,7 +10,7 @@ The steps below must be done in this order:
 
 * Generate a list of all wikis using the extension with `/srv/mediawiki/<VERSION>/extensions/MirahezeMagic/maintenance/generateExtensionDatabaseList.php --wiki=loginwiki --extension=extension --directory=/srv/mediawiki`. This will create a JSON list in `/srv/mediawiki` called `<EXTENSION>.json`
 * Run `sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/<EXTENSION>.json /srv/mediawiki/<VERSION>/extensions/ManageWiki/maintenance/toggleExtension.php --disable extension`
-* Remove any settings configured using `sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.json /srv/mediawiki/<VERSION>/extensions/ManageWiki/maintenance/populateWikiSettings.php --wgsetting=wgSettingName --sourcelist=false --remove`
+* Remove any settings configured using `sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/<VERSION>/extensions/ManageWiki/maintenance/populateWikiSettings.php --wgsetting=wgSettingName --sourcelist=false --remove`
 * Remove any existing configuration from ManageWikiExtensions.php, LocalSettings.php, and GlobalSettings.php. (Note: If the extension has extra settings in ManageWikiSettings.php, make sure to remove that too)
 * Remove the extension from the mediawiki-repos on GitHub after the settings above have been successfully removed.
 

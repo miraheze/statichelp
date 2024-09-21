@@ -37,7 +37,7 @@ A full list of maintenance scripts can be found [here](https://meta.miraheze.org
 
 **Foreachwikiindblist** allows for a maintenance script to be run on all Miraheze wikis.
 
-Usage: ` sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.json /srv/mediawiki/<version>/maintenance/example.php`
+Usage: ` sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/<version>/maintenance/example.php`
 
 ### mwscript 
 
@@ -77,7 +77,7 @@ To significantly reduce these potential security risks, we use [Firejail](https:
 
 ## ManageWiki Cache 
 
-ManageWiki uses a caching backend for its settings, extensions, permissions, and namespaces. This caching system provides that each wiki has a JSON file located in `/srv/mediawiki/cache` with this information. In case that there is an issue with the ManageWiki cache for a specific wiki, the following can be used with `shell.php`: `$cw = new Miraheze\CreateWiki\CreateWikiJson( '<dbname>' ); $cw->resetWiki();`
+ManageWiki uses a caching backend for its settings, extensions, permissions, and namespaces. This caching system provides that each wiki has a PHP file located in `/srv/mediawiki/cache` with this information. In case that there is an issue with the ManageWiki cache for a specific wiki, the following can be used with `shell.php`: `$cw = new Miraheze\CreateWiki\CreateWikiPhp( '<dbname>' ); $cw->resetWiki();`
 
 ## Composer 
 

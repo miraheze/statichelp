@@ -2,6 +2,49 @@
 title: Tech:Server admin log
 ---
 
+## 2024-09-21 
+
+* 05:37 MirahezeLSBot: [@mwtask171] finished deploy of {'config': True} to all - SUCCESS in 21s
+* 05:36 MirahezeLSBot: [@mwtask171] starting deploy of {'config': True} to all
+* 05:34 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.42/maintenance/run.php /srv/mediawiki/1.42/maintenance/initSiteStats.php (END - exit=2)
+* 05:34 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.42/maintenance/run.php /srv/mediawiki/1.42/maintenance/initSiteStats.php (START)
+* 05:16 Universal Omega: sudo rm /srv/mediawiki/cache/�.json on mw�, and mwtask*
+* 05:07 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'force': True} to all - SUCCESS in 26s
+* 05:06 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'force': True} to all
+* 05:02 MirahezeLSBot: [salt-user@mw152] sudo -u www-data php /srv/mediawiki/1.42/maintenance/run.php /srv/mediawiki/1.42/extensions/CreateWiki/maintenance/generateMissingCache.php --wiki=metawiki (END - exit=0)
+* 05:01 MirahezeLSBot: [salt-user@mw152] sudo -u www-data php /srv/mediawiki/1.42/maintenance/run.php /srv/mediawiki/1.42/extensions/MirahezeMagic/maintenance/resetWikiCaches.php --wiki=metawiki (END - exit=0)
+* 05:01 MirahezeLSBot: [agent@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'force': True} to mw152 - SUCCESS in 1s
+* 05:01 MirahezeLSBot: [agent@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'force': True} to mw152
+* 04:54 MirahezeLSBot: [@test151] finished deploy of {'folders': '1.43/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s
+* 04:54 MirahezeLSBot: [@test151] starting deploy of {'folders': '1.43/extensions/MirahezeMagic'} to test151
+* 04:54 MirahezeLSBot: [@test151] finished deploy of {'folders': '1.42/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s
+* 04:54 MirahezeLSBot: [@test151] starting deploy of {'folders': '1.42/extensions/MirahezeMagic'} to test151
+* 04:49 MirahezeLSBot: [salt-user@mw153] sudo -u www-data php /srv/mediawiki/1.42/maintenance/run.php /srv/mediawiki/1.42/extensions/CreateWiki/maintenance/generateMissingCache.php --wiki=metawiki (END - exit=65280)
+* 04:49 MirahezeLSBot: [salt-user@mw153] sudo -u www-data php /srv/mediawiki/1.42/maintenance/run.php /srv/mediawiki/1.42/extensions/MirahezeMagic/maintenance/resetWikiCaches.php --wiki=metawiki (END - exit=65280)
+* 04:49 MirahezeLSBot: [agent@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'force': True} to mw153 - SUCCESS in 1s
+* 04:49 MirahezeLSBot: [agent@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'force': True} to mw153
+* 04:46 MirahezeLSBot: [salt-user@mw153] Deleted JSON CreateWiki cache
+* 04:45 MirahezeLSBot: [salt-user@mw153] sudo -u www-data php /srv/mediawiki/1.42/maintenance/run.php /srv/mediawiki/1.42/extensions/CreateWiki/maintenance/generateMissingCache.php --wiki=metawiki (END - exit=0)
+* 04:45 MirahezeLSBot: [salt-user@mw153] sudo -u www-data php /srv/mediawiki/1.42/maintenance/run.php /srv/mediawiki/1.42/extensions/MirahezeMagic/maintenance/resetWikiCaches.php --wiki=metawiki (END - exit=0)
+* 04:44 MirahezeLSBot: [universalomega@mwtask181] sudo rm /srv/mediawiki/cache/*.json
+* 04:44 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'force': True} to mwtask181 - SUCCESS in 0s
+* 04:44 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'force': True} to mwtask181
+* 04:44 MirahezeLSBot: [universalomega@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@localhost
+* 04:44 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to mwtask181
+* 04:44 MirahezeLSBot: [agent@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'force': True} to mw153 - SUCCESS in 1s
+* 04:43 MirahezeLSBot: [agent@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'force': True} to mw153
+* 04:38 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'errorpages', 'errorpages': True} to all - SUCCESS in 23s
+* 04:38 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'errorpages', 'errorpages': True} to all
+* 04:37 MirahezeLSBot: [@mwtask171] finished deploy of {'folders': '1.42/extensions/MirahezeMagic'} to all - SUCCESS in 20s
+* 04:37 MirahezeLSBot: [@mwtask171] starting deploy of {'folders': '1.42/extensions/MirahezeMagic'} to all
+* 04:37 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.42', 'upgrade_extensions': ['CreateWiki', 'ManageWiki', 'MirahezeMagic']} to all - SUCCESS in 73s
+* 04:36 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.42', 'upgrade_extensions': ['CreateWiki', 'ManageWiki', 'MirahezeMagic']} to all
+
+## 2024-09-20 
+
+* 18:07 @paladox: set phorge171 ram back to 1gb. Fixed the issue.
+* 12:45 @paladox: increase phroge171 ram to 2gb
+
 ## 2024-09-19 
 
 * 19:25 MirahezeLSBot: [reception@mwtask181] finished deploy of {'files': '../mediawiki/1.42/extensions/SemanticMediaWiki/.smw.json'} to all - SUCCESS in 28s
