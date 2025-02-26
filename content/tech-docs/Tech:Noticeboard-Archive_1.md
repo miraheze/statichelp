@@ -3,6 +3,11 @@ title: Tech:Noticeboard/Archive 1
 ---
 
 `{{ {{Archive}} }}` 
+
+## Categories
+
+* [Category:Archives of Technology noticeboard](https://meta.miraheze.org/wiki/Category:Archives_of_Technology_noticeboard)
+
 ## Cloud14 issues 
 
 We are very pleased to inform users that **we have been able to restore almost all wikis affected by the November crash of db141**. Most wikis affected by the initial crash should be online once again. A very small subset of wikis (initially 19 wikis, now only 2) were affected by varying levels of database corruption and additional intervention by our system administrators is required. You may view the original list [here](https://meta.miraheze.org/wiki/phab:P475). We are working to get these back up and running again and will contact their wiki's bureaucrats were possible to inform them if any additional steps are required from their part.
@@ -178,9 +183,45 @@ We'd also like to take this opportunity to remind those in the UK that they can 
 Any users who wish to find out more information about the laws and consequences surrounding cyber crime can visit [https://www.nationalcrimeagency.gov.uk/cyber-choices](https://www.nationalcrimeagency.gov.uk/cyber-choices)
     ~ [RhinosF1](https://meta.miraheze.org/wiki/User:RhinosF1) - [(chat)](https://meta.miraheze.org/wiki/User_talk:_RhinosF1) [· acc](https://meta.miraheze.org/wiki/Special:CentralAuth/RhinosF1) [· c](https://meta.miraheze.org/wiki/Special:Contributions/RhinosF1) - ( `{{ {{User:RhinosF1/sigcol|1=RhinosF1}} }}`) 18:51, 11 October 2023 (UTC)
 
-## Categories
+## Migration to new servers 
 
-* [Category:Archives of Technology noticeboard](https://meta.miraheze.org/wiki/Category:Archives_of_Technology_noticeboard)
+Thanks to the support of our generous donors thus far through the [Fundraiser](https://meta.miraheze.org/wiki/Fundraiser) (we're currently at `{{ {{#expr:({{raw::Fundraiser 2024/amount}}/20000)*100round0}} }}`% of our goal), Miraheze has been to move to better servers. You may have noticed faster load times. This is because of our new servers! We thank our generous donors for their help in achieving this goal!
+
+Image migration to our new servers are still ongoing though. During this period, you may notice images go missing for brief periods of time. This is a normal hiccup of file migration and we apologize for the inconvenience. Below is an FAQ with some commonly asked questions which we hope will help you understand what is going on. If you have any questions, please feel free to ask on the [Community portal](https://meta.miraheze.org/wiki/Community_portal), [Discord](https://meta.miraheze.org/wiki/Discord), or [IRC](https://meta.miraheze.org/wiki/IRC). [<span style="color: skyblue; font-weight: bold;">Agent</span> <span style="color: lime; font-weight: bold;">Isai</span>](https://meta.miraheze.org/wiki/User:Agent_Isai) [<span style="color: orange; font-weight: bold;">Talk to me!</span>](https://meta.miraheze.org/wiki/User_talk:Agent_Isai) 20:24, 27 January 2024 (UTC)
+
+### FAQ 
+
+#### What is happening? 
+
+Miraheze has moved most of its services to bigger, better servers that are be able to handle more traffic with less load time and errors.
+
+We have finished database migration but image migration is still in progress.
+
+#### Why? 
+
+Our old servers were *very* underequipped to handle our growing demands. In addition, they were very slow and are "on their last leg" due to RAID disk failure.
+
+#### How long will the migration take? 
+
+Databases have been migrated.
+
+Swift (images) might take around a week or less to migrate.
+
+#### What is the migration schedule? 
+
+Most core services have already been migrated or set up (such as MediaWiki and Phorge). The last remaining thing is Swift (files).
+
+Currently, images are being copied to our new servers. This may take around a week but likely less.
+
+#### What can I expect during the migration? 
+
+Database migration is complete. You should not notice any on-wiki hiccups.
+
+For images, they may appear missing at random times while Swift copies over files and recalculates their hash. Rest assured, nothing is lost.
+
+#### When will we begin to see speed improvements? 
+
+You can see them already! Wikis load *much* faster than before!
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Noticeboard/Archive_1)**

@@ -2,7 +2,9 @@
 title: Tech:Projects/es
 ---
 
- `{{ {{SRE navigation|projects|header=SRE Projects|description=Los administradores de sistemas de Miraheze siempre están planeando cosas. Aprende más sobre nuestros proyectos actuales en Miraheze Meta.|keywords=sre projects, miraheze sre projects}} }}`
+
+ `{{ {{Tech navigation|projects|header=Technology Team Projects|description=<span class="mw-translate-fuzzy">Los administradores de sistemas de Miraheze siempre están planeando cosas. Aprende más sobre nuestros proyectos actuales en Miraheze Meta.</span>|keywords=tech projects, miraheze tech projects}} }}`
+
 Miraheze siempre se esfuerza para proveer un servicio fuerte y centrado en la comunidad. Junto con eso viene el escrutinio y la intervención de la comunidad en los proyectos que planean tomar recursos considerables en términos de desarrollo, esfuerzos de visualización, despliegue o mantenimiento de larga data.
 
 Abajo hay una lista de proyectos grandes que la SRE tiene en mente. La idea de esta página es:

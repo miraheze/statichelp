@@ -2,7 +2,9 @@
 title: Tech:Volunteers/ja
 ---
 
- `{{ {{SRE navigation|members|header=技術チームメンバー|description=Miraheze's Technology team is composed of various members who work together to ensure the stability of the infrastructure behind Miraheze. Learn more on Miraheze Meta.|keywords=miraheze tech, miraheze system administrators, miraheze sysadmins}} }}`
+
+ `{{ {{Tech navigation|members|header=技術チームメンバー|description=Miraheze's Technology team is composed of various members who work together to ensure the stability of the infrastructure behind Miraheze. Learn more on Miraheze Meta.|keywords=miraheze tech, miraheze system administrators, miraheze sysadmins}} }}`
+
 以前はサイト信頼性エンジニア(SRE)と呼ばれていた **技術チームメンバー**は、Mirahezeの背後にあるインフラの技術的な運用と安定性に責任を持ちます。チームメンバーはしばしば **システム管理者** (または **シスアド**) と呼ばれます。
 
 チームには、プロジェクト管理やコミュニティとの連絡など、技術的な役割とそうでない役割のボランティアがいます。チームへの連絡は tech `{{ {{@}} }}`miraheze.org までどうぞ。
@@ -36,7 +38,7 @@ title: Tech:Volunteers/ja
 
 * [Category:Documentation](https://meta.miraheze.org/wiki/Category:Documentation)
 * [Category:Global user groups](https://meta.miraheze.org/wiki/Category:Global_user_groups)
-* [Category:System administrators](https://meta.miraheze.org/wiki/Category:System_administrators)
+* [Category:Technology team members](https://meta.miraheze.org/wiki/Category:Technology_team_members)
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Volunteers/ja)**

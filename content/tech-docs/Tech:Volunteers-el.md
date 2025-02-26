@@ -2,7 +2,9 @@
 title: Tech:Volunteers/el
 ---
 
- `{{ {{SRE navigation|members|header=<span class="mw-translate-fuzzy">Διαχειριστές συστήματος</span>|description=Miraheze's Technology team is composed of various members who work together to ensure the stability of the infrastructure behind Miraheze. Learn more on Miraheze Meta.|keywords=miraheze tech, miraheze system administrators, miraheze sysadmins}} }}`
+
+ `{{ {{Tech navigation|members|header=<span class="mw-translate-fuzzy">Διαχειριστές συστήματος</span>|description=Miraheze's Technology team is composed of various members who work together to ensure the stability of the infrastructure behind Miraheze. Learn more on Miraheze Meta.|keywords=miraheze tech, miraheze system administrators, miraheze sysadmins}} }}`
+
 **Technology team members**, formerly known as Site Reliability Engineering, are responsible for the technical operation and stability of the infrastructure behind Miraheze. Team members are often referred to as **system administrators** (or **sysadmins**).
 
 The team includes volunteers in technical and less-technical roles, including project management and community liaising. You can contact the team at tech `{{ {{@}} }}`miraheze.org.
@@ -33,7 +35,7 @@ The team includes volunteers in technical and less-technical roles, including pr
 
 * [Category:Documentation](https://meta.miraheze.org/wiki/Category:Documentation)
 * [Category:Global user groups](https://meta.miraheze.org/wiki/Category:Global_user_groups)
-* [Category:System administrators](https://meta.miraheze.org/wiki/Category:System_administrators)
+* [Category:Technology team members](https://meta.miraheze.org/wiki/Category:Technology_team_members)
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Volunteers/el)**

@@ -2,7 +2,9 @@
 title: Tech:Volunteers/tr
 ---
 
- `{{ {{SRE navigation|members|header=<span class="mw-translate-fuzzy">Site Güvenilirlik Mühendisliği üyeleri</span>|description=Miraheze's Technology team is composed of various members who work together to ensure the stability of the infrastructure behind Miraheze. Learn more on Miraheze Meta.|keywords=miraheze tech, miraheze system administrators, miraheze sysadmins}} }}`
+
+ `{{ {{Tech navigation|members|header=<span class="mw-translate-fuzzy">Site Güvenilirlik Mühendisliği üyeleri</span>|description=Miraheze's Technology team is composed of various members who work together to ensure the stability of the infrastructure behind Miraheze. Learn more on Miraheze Meta.|keywords=miraheze tech, miraheze system administrators, miraheze sysadmins}} }}`
+
 **Site Güvenilirlik Mühendisliği üyeleri** (teknik ekip üyeleri genellikle **sistem yöneticileri** (veya **sistem yöneticileri'** olarak anılır)), sitenin teknik işleyişinden ve kararlılığından, Miraheze'nin arkasındaki altyapı'dan sorumludur. Teknik Ekip olarak da bilinir, ayrıca teknik olmayan rollerde bir veya daha fazla ekip üyesinden oluşur ve $tech-mail e-postası gönderilerek iletişime geçilebilir.
 
 The team includes volunteers in technical and less-technical roles, including project management and community liaising. You can contact the team at tech `{{ {{@}} }}`miraheze.org.
@@ -36,7 +38,7 @@ The team includes volunteers in technical and less-technical roles, including pr
 
 * [Category:Documentation](https://meta.miraheze.org/wiki/Category:Documentation)
 * [Category:Global user groups](https://meta.miraheze.org/wiki/Category:Global_user_groups)
-* [Category:System administrators](https://meta.miraheze.org/wiki/Category:System_administrators)
+* [Category:Technology team members](https://meta.miraheze.org/wiki/Category:Technology_team_members)
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Volunteers/tr)**

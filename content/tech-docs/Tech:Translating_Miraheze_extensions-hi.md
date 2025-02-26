@@ -5,7 +5,7 @@ title: Tech:Translating Miraheze extensions/hi
 
 Miraheze कुछ एक्सटेंशनों को विकसित कर और अनुरक्षित करता है, जैसे [CreateWiki](https://meta.miraheze.org/wiki/github:miraheze/CreateWiki) और [ManageWiki](https://meta.miraheze.org/wiki/github:miraheze/ManageWiki)। क्योंकि Miraheze पर अंग्रेज़ी थोड़ी-सी ही या फिर बिलकुल न जानने वाले सदस्य भी हैं, अंतर्राष्ट्रीयकरण ऐसे सदस्यों के लिए आवश्यक है।
 
-वर्तमान में CreateWiki और ManageWiki के अनुवादों के लिए Miraheze [translatewiki.net](https://meta.miraheze.org/wiki/translatewiki:) का इस्तेमाल करता है।
+वर्तमान में CreateWiki और ManageWiki के अनुवादों के लिए Miraheze [translatewiki.net](https://meta.miraheze.org/wiki/translatewiki:) का इस्तेमाल करता है। Translate Wiki पर [अनुवाद हब](https://meta.miraheze.org/wiki/translatewiki:Translating:Miraheze) देखें।
 
 ## TranslateWiki की कार्यविधि 
 

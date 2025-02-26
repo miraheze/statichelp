@@ -2,7 +2,9 @@
 title: Tech:Volunteers/es
 ---
 
- `{{ {{SRE navigation|members|header=<span class="mw-translate-fuzzy">Miembros del equipo de Ingeniería de Confiabilidad del Sitio</span>|description=Miraheze's Technology team is composed of various members who work together to ensure the stability of the infrastructure behind Miraheze. Learn more on Miraheze Meta.|keywords=miraheze tech, miraheze system administrators, miraheze sysadmins}} }}`
+
+ `{{ {{Tech navigation|members|header=<span class="mw-translate-fuzzy">Miembros del equipo de Ingeniería de Confiabilidad del Sitio</span>|description=Miraheze's Technology team is composed of various members who work together to ensure the stability of the infrastructure behind Miraheze. Learn more on Miraheze Meta.|keywords=miraheze tech, miraheze system administrators, miraheze sysadmins}} }}`
+
 Los **Administradores del sistema**, también llamados “sysadmins”, son responsables de la operación técnica y la estabilidad de la infraestructura detrás de Miraheze. También conocido como el equipo técnico, también consiste en uno o más miembros en roles que no son técnico, y pueden ser contactado por un correo electrónico a $tech-mail.
 
 The team includes volunteers in technical and less-technical roles, including project management and community liaising. You can contact the team at tech `{{ {{@}} }}`miraheze.org.
@@ -36,7 +38,7 @@ The team includes volunteers in technical and less-technical roles, including pr
 
 * [Category:Documentation](https://meta.miraheze.org/wiki/Category:Documentation)
 * [Category:Global user groups](https://meta.miraheze.org/wiki/Category:Global_user_groups)
-* [Category:System administrators](https://meta.miraheze.org/wiki/Category:System_administrators)
+* [Category:Technology team members](https://meta.miraheze.org/wiki/Category:Technology_team_members)
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Volunteers/es)**

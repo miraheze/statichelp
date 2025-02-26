@@ -2,7 +2,7 @@
 title: Tech:Icinga/MediaWiki Monitoring
 ---
 
-This page is used to provide monitoring guidance for MediaWiki-related services if an alert goes off.
+This page is used to provide monitoring guidance for MediaWiki-related services if an alert goes off. `{{ {{Outdated}} }}`
 
 ## JobChron Service 
 

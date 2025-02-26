@@ -2,20 +2,12 @@
 title: Tech:Rename a wiki
 ---
 
-One should be careful renaming a wiki (database/domain) as it involves many steps and basically anything going wrong can make it impossible for users to login across the entire farm, or worse.
+One should be careful renaming a wiki (database/domain) as it involves many steps and basically anything going wrong can make it impossible for users to login across the entire farm, or worse. Please pay attention to what the scripts output when doing a rename to make sure everything is working properly.
 
-Following directions found [here](http://stackoverflow.com/questions/67093/how-do-i-quickly-rename-a-mysql-database-change-schema-name), I will update to clarify a little.
-
-**Note:** The wiki should probably be made read-only before doing any of this, remember to make it readable after.
-* One should create a complete SQL dump of the wiki to be renamed.
-   * There are probably multiple ways of doing this, but I used `sudo -i mysqldump nameofwikidb > nameofwikidb.sql` in my home directory, replacing "nameofwikidb" to be the name of the database, including the final "wiki". Note that this (if run in your home directory) creates the SQL dump in your home directory.
-* Create an empty database for the new wiki.
-   * `sudo -i mysql -e "CREATE DATABASE nameofnewwikidb;"` replacing "nameofnewwikidb" with the target subdomain + wiki.
-* Import the SQL dump into the new database.
-   * `sudo -i mysql -D nameofnewwikidb -e "SOURCE /path/to/dump.sql;"` replacing the wiki name, path, and file name as appropriate, **but including the `;` at the end of the command**.
-* After the new wiki is created, run:
-   * `sudo -u www-data php /srv/mediawiki/w/extensions/CreateWiki/maintenance/renameWiki.php --wiki=loginwiki --rename nameofwikidb nameofnewwikidb <user_running_script>`
-* Finally, **AFTER YOU ARE VERY CERTAIN ALL OF THE ABOVE WAS DONE CORRECTLY,** you may drop the old database.
+* Start by running `mwscript extensions/MirahezeMagic/renameDatabase.php loginwiki --old=<old_wiki_db> --new=<new_wiki_db>`
+* After the script is finished, run:
+   * `mwscript extensions/CreateWiki/renameWiki.php loginwiki --no-log --rename <old_wiki_db> <new_wiki_db> <user_running_script>`
+* Finally, **AFTER YOU ARE VERY CERTAIN ALL OF THE ABOVE WAS DONE CORRECTLY,** you may drop the old database. **This is not a requirement to do.**
    * `sudo -i mysql -e "DROP DATABASE nameofwikidb;"`
 
 ### Swift 
@@ -31,11 +23,11 @@ If only empty directories or everything looks fine there (files returned by that
 * `sudo -u www-data rm -rf /tmp/miraheze-<old_wiki_db>-<zone>`
 
 Finally, run:
-* `sudo -u www-data php /srv/mediawiki/w/extensions/CreateWiki/maintenance/setContainersAccess.php --wiki=<new_wiki_db>`
+* `mwscript extensions/CreateWiki/setContainersAccess.php <new_wiki_db>`
 
 ### After rename 
 
-* If there is any configuration on LocalSettings.php change the DB name there as well.
+* If there is any configuration on LocalSettings.php change the database name there as well.
 
 ## Categories
 

@@ -2,7 +2,7 @@
 title: Tech:MediaWiki appserver
 ---
 
-**MediaWiki application servers** (MediaWiki appserver) is a name given to the stack of software that runs Miraheze wikis. It is made up of several components.
+`{{ {{MediaWiki navigation|tech|header=MediaWiki application servers|description=The MediaWiki appserver is a name given to the stack of software that runs Miraheze wikis. It is made up of several components.|keywords=miraheze appserver}} }}`
 
 ## Maintenance scripts 
 

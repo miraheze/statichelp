@@ -2,7 +2,7 @@
 title: Tech:MediaWiki/Compatibility
 ---
 
- `{{ {{MediaWiki navigation|compatibility|header=MediaWiki compatibility|description=Miraheze supports a variety of browsers which meet the latest web standards. Their support is fully dependent on upstream support by MediaWiki. Learn more on Miraheze Meta.|keywords=miraheze mediawiki compatibility}} }}` `{{ {{Shortcut|Old}} }}`
+`{{ {{MediaWiki navigation|compatibility|header=MediaWiki compatibility|description=Miraheze supports a variety of browsers which meet the latest web standards. Their support is fully dependent on upstream support by MediaWiki. Learn more on Miraheze Meta.|keywords=miraheze mediawiki compatibility}} }}` `{{ {{Shortcut|Old}} }}`
 Miraheze supports all browsers which are supported by the version of MediaWiki which Miraheze runs (currently, MediaWiki `{{ {{CURRENTVERSION}} }}`).
 
 MediaWiki divides all web browsers into 3 categories: **Grade A** (modern browsers, full support), **Grade C** (basic support), and **Grade X** (unknown):
@@ -12,6 +12,7 @@ MediaWiki divides all web browsers into 3 categories: **Grade A** (modern browse
 * **Grade X** browsers are all those browsers that are either no longer supported or have a user base that is too small to focus on. Grade X browsers are treated like Grade A browsers, meaning that MediaWiki does not fall back and disable features like it does for Grade C browsers. This is done deliberately to allow users of modern web browsers without a big user base to experience MediaWiki to the fullest.
 
 Below is a table from [MediaWiki.org](https://meta.miraheze.org/wiki/mw:) which explains which browsers fall under what category. `{{ {{mw:Compatibility browser}} }}`
+
 ## Further reading 
 
 * [Browser compatibility](https://meta.miraheze.org/wiki/mw:Compatibility#Browsers) on MediaWiki.org.

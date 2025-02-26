@@ -2,7 +2,9 @@
 title: Tech:Projects/tr
 ---
 
- `{{ {{SRE navigation|projects|header=SRE Projects|description=Miraheze'nin sistem yöneticileri her zaman bir şeyler planlıyor. Miraheze Meta'daki mevcut projelerimiz hakkında burdan bilgi edinebilirsiniz.|keywords=sre projects, miraheze sre projects}} }}`
+
+ `{{ {{Tech navigation|projects|header=Technology Team Projects|description=<span class="mw-translate-fuzzy">Miraheze'nin sistem yöneticileri her zaman bir şeyler planlıyor. Miraheze Meta'daki mevcut projelerimiz hakkında burdan bilgi edinebilirsiniz.</span>|keywords=tech projects, miraheze tech projects}} }}`
+
 Miraheze sürekli olarak güçlü, toplum merkezli bir hizmet sunmak için çabalamaktadır; Bununla birlikte, geliştirme, gözden geçirme çabaları, dağıtım veya uzun süreli bakım açısından önemli miktarda kaynak tüketmesi planlanan projeler üzerinde topluluk incelemesi ve topluluk katılımı gelir.
 
 Aşağıda, SRE'nin aklındaki büyük projelerin bir listesi bulunmaktadır, bu sayfanın amacı şudur: * Esaslar, tasarım özellikleri vb. üzerinde aktif topluluk tartışması için merkezi bir yere sahip olmak;
@@ -18,7 +20,7 @@ Herkes şunları yapabilir:
 
 ## Current proposals 
 
-* [Automation of SSL requests](https://meta.miraheze.org/wiki//Automation_of_SSL_requests) — Implement a system where on request, users are able to generate a Lets Encrypt certificate which is then deployed to GitHub and to MediaWiki via $wgServer (after being approved by an SRE member) (~175 hours).
+* [Automation of SSL requests](https://meta.miraheze.org/wiki//Automation_of_SSL_requests) — Implement a system where on request, users are able to generate a Lets Encrypt certificate which is then deployed to GitHub and to MediaWiki via $wgServer (after being approved by a Technology team member) (~175 hours).
 * [CreateWiki AI improvement](https://meta.miraheze.org/wiki//CreateWiki_AI_improvement) — Improve the current AI system for CreateWiki to allow for different factors to be taken into account when assessing how 'good' a request is (~175 hours).
 * [Proper CI for Miraheze extensions](https://meta.miraheze.org/wiki//Proper_CI_for_Miraheze_extensions) — Implement proper continuous integration for extensions maintained by Miraheze (~175 hours).
 

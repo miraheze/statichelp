@@ -15,14 +15,29 @@ Please note that the number of requests is nowhere near the actual number of wik
 Other statistics can be found on [this page](https://meta.miraheze.org/wiki/User:Reception123/temp_stats) temporarily.
 
 ---
+
+## Wiki request status per month 
+
+| + |
+| Month | Approved | Declined | Total requests | % approved |
+| --- | --- | --- | --- | --- |
+| February 2025 (**PARTIAL!)** | 640 | 182 | 872 | 73% |
+| January 2025 | 837 | 290 | 1127 | 74% |
+| December 2024 | 918 | 234 | 1152 | 79% |
+| November 2024 | 768 | 251 | 1019 | 75% |
+| October 2024 | 857 | 301 | 1158 | 74% |
+| September 2024 | 664 | 432 | 1096 | 60% |
+
+## Raw wiki creation data 
+
 First, let's see how many wiki requests there were at the time I collected the data.
-**Date collected: 27 April 2024** (Reception123)
+**Date collected: 18 February 2025** (Reception123)
 ```
 MariaDB [metawiki]> SELECT COUNT(*) FROM cw_requests;
 +----------+
 | COUNT(*) |
 +----------+
-|    43747 |
+|    55287 |
 +----------+
 ```
 
@@ -109,29 +124,32 @@ MariaDB [metawiki]> select actor_name, count(*) as count from logging join actor
 | actor_name                                    | count |
 +-----------------------------------------------+-------+
 | Tali64Â³                                      |  6014 |
+| Reception123                                  |  3616 |
+| Jph2                                          |  2959 |
 | DarkMatterMan4500                             |  2577 |
-| Reception123                                  |  2374 |
-| MirahezeGDPR                                  |  2034 |
-| Jph2                                          |  1994 |
+| Agent Isai                                    |  2046 |
 | Doug                                          |  1887 |
+| Subwayfares                                   |  1747 |
 | Void                                          |  1737 |
+| NotAracham                                    |  1494 |
 | é–‹æ‹“è€…                                     |  1411 |
-| NotAracham                                    |  1255 |
-| Redmin                                        |  1035 |
+| Rodejong                                      |  1388 |
+| Redmin                                        |  1144 |
+| Waki285                                       |  1074 |
 | Chrs                                          |   847 |
+| CreateWiki AI                                 |   753 |
 | MirahezeGDPR                                  |   726 |
-| Zppix                                         |   620 |
-| Raidarr                                       |   567 |
+| Zppix                                         |   621 |
+| Raidarr                                       |   593 |
 | Examknow                                      |   517 |
 | AlvaroMolina                                  |   478 |
-| BrandonWM                                     |   448 |
+| BrandonWM                                     |   466 |
 | Amanda Catherine                              |   447 |
 | RhinosF1                                      |   444 |
 | MirahezeGDPR                                  |   440 |
 | MacFan4000                                    |   424 |
 | MrJaroslavik                                  |   392 |
 | TriX                                          |   389 |
-| Rodejong                                      |   360 |
 | Hispano76                                     |   354 |
 | SA 13 Bro                                     |   234 |
 | John                                          |   230 |
@@ -143,52 +161,86 @@ MariaDB [metawiki]> select actor_name, count(*) as count from logging join actor
 | GOTILON                                       |   109 |
 | Guy vandegrift                                |   104 |
 | Revi                                          |   103 |
-| Startus                                       |    97 |
+| Ratekreel                                     |    97 |
 | HeartsDo                                      |    94 |
 | HispanoBOT                                    |    93 |
 | NDKilla                                       |    84 |
 | Bonnedav                                      |    76 |
 | Cmg                                           |    75 |
+| Pisces                                        |    63 |
 | Sau226                                        |    63 |
-| Pisces                                        |    57 |
 | Centrist16                                    |    52 |
 | Megacane                                      |    51 |
+| Zeus                                          |    47 |
 | Cy                                            |    44 |
 | Bongo Cat                                     |    44 |
-| Zeus                                          |    39 |
+| 1108-Kiju                                     |    38 |
 | Sario528                                      |    34 |
-| Waki285                                       |    32 |
 | Lawrence-Prairies                             |    27 |
 | CircleyDoesExtracter                          |    26 |
 | LegoMaster                                    |    26 |
 | GDPRAccount                                   |    25 |
 | SleepyMode                                    |    24 |
+| Universal Omega                               |    23 |
 | Gustave London                                |    22 |
 | OrangeStar                                    |    21 |
 | Furricane                                     |    20 |
+| PixDeVl                                       |    20 |
 | Fungster                                      |    17 |
 | Samuel                                        |    17 |
 | ã‚·ãƒ¥ãƒ´ã‚¡ãƒ«ãƒ„                            |    16 |
-| 1108-Kiju                                     |    16 |
 | Corey                                         |    14 |
 | Pkbwcgs                                       |    14 |
 | XOF                                           |    12 |
-| CoolieCoolster                                |    11 |
-| Universal Omega                               |    11 |
-| Sammy                                         |    11 |
 | Wolf                                          |    11 |
+| CoolieCoolster                                |    11 |
+| Sammy                                         |    11 |
 | OlegCinema                                    |    10 |
-| PixDeVl                                       |     8 |
 | Eduaddad                                      |     7 |
 | TheresNoTime                                  |     6 |
 | ãã‚‰ãŸã“                                  |     5 |
+| Alex (Miraheze)                               |     5 |
 | Avengium                                      |     4 |
+| CreateWiki Extension                          |     3 |
 | Integer                                       |     3 |
 | Labster                                       |     1 |
-| Alex (Miraheze)                               |     1 |
 | Example4                                      |     1 |
 +-----------------------------------------------+-------+
-79 rows in set (0.283 sec)
+82 rows in set (0.758 sec)
+```
+
+#### For wikis created between 2024-2026
+
+Proposed alternate script:
+```
+select actor_name, count(*) as count from logging join actor on actor_id = log_actor where log_type = 'farmer' and log_action = 'createwiki' and LEFT(log_timestamp,4) BETWEEN '2024' AND '2026' group by log_actor order by count desc;
+
++----------------------+-------+
+| actor_name           | count |
++----------------------+-------+
+| Subwayfares          |  1747 |
+| Jph2                 |  1630 |
+| Rodejong             |  1388 |
+| Reception123         |  1298 |
+| Waki285              |  1042 |
+| CreateWiki AI        |   753 |
+| Tali64Â³             |   619 |
+| BrandonWM            |   466 |
+| NotAracham           |   425 |
+| Redmin               |   232 |
+| Raidarr              |    95 |
+| Agent Isai           |    77 |
+| Pisces               |    63 |
+| Zeus                 |    47 |
+| 1108-Kiju            |    38 |
+| Universal Omega      |    23 |
+| OrangeStar           |    21 |
+| PixDeVl              |    20 |
+| Zppix                |     6 |
+| Alex (Miraheze)      |     5 |
+| CreateWiki Extension |     3 |
++----------------------+-------+
+21 rows in set (0.117 sec)
 ```
 
 #### For wikis created between 2022-2024
@@ -205,39 +257,42 @@ select actor_name, count(*) as count from logging join actor on actor_id = log_a
 | actor_name                                    | count |
 +-----------------------------------------------+-------+
 | Tali64Â³                                      |  6014 |
-| Jph2                                          |  1994 |
-| NotAracham                                    |  1255 |
+| Jph2                                          |  2834 |
+| NotAracham                                    |  1459 |
+| Reception123                                  |  1455 |
 | DarkMatterMan4500                             |  1255 |
-| MirahezeGDPR                                  |  1239 |
+| Agent Isai                                    |  1251 |
+| Rodejong                                      |  1251 |
+| Subwayfares                                   |  1222 |
+| Waki285                                       |  1041 |
 | Chrs                                          |   631 |
-| Redmin                                        |   501 |
-| Raidarr                                       |   482 |
+| Redmin                                        |   594 |
+| Raidarr                                       |   489 |
+| BrandonWM                                     |   465 |
 | MirahezeGDPR                                  |   450 |
-| BrandonWM                                     |   448 |
-| Rodejong                                      |   360 |
 | MirahezeGDPR                                  |   292 |
-| Zppix                                         |   261 |
-| Reception123                                  |   247 |
+| Zppix                                         |   262 |
 | Void                                          |   135 |
 | Doug                                          |    73 |
 | Hispano76                                     |    66 |
-| Pisces                                        |    57 |
+| Pisces                                        |    63 |
+| Zeus                                          |    47 |
 | Bongo Cat                                     |    44 |
-| Startus                                       |    43 |
-| Zeus                                          |    39 |
+| Ratekreel                                     |    43 |
+| 1108-Kiju                                     |    38 |
+| Universal Omega                               |    22 |
 | OrangeStar                                    |    21 |
+| PixDeVl                                       |    20 |
 | Msnhinet8                                     |    20 |
-| 1108-Kiju                                     |    16 |
-| Universal Omega                               |    11 |
-| PixDeVl                                       |     8 |
 | Sario528                                      |     6 |
+| Alex (Miraheze)                               |     5 |
 | RhinosF1                                      |     5 |
+| CreateWiki Extension                          |     3 |
 | Avengium                                      |     2 |
 | ã‚·ãƒ¥ãƒ´ã‚¡ãƒ«ãƒ„                            |     2 |
-| Alex (Miraheze)                               |     1 |
 | John                                          |     1 |
 +-----------------------------------------------+-------+
-32 rows in set (0.101 sec)
+35 rows in set (0.122 sec)
 ```
 
 #### For wikis created between 2019-2021
@@ -301,35 +356,71 @@ MariaDB [metawiki]> select actor_name, count(*) as count from logging join actor
 
 #### For wikis declined between 2022-2024
 
+NOTE: **Prior to 2 April 2024, decline was generally used instead of 'needs more details'**
 ```
-MariaDB [metawiki]> select actor_name, count(*) as count from logging join actor on actor_id = log_actor where log_type = 'farmer' and log_action = 'requestdecline' and (log_timestamp like '2022%' or log_timestamp like '2023%') group by log_actor order by count desc;
+MariaDB [metawiki]> select actor_name, count(*) as count from logging join actor on actor_id = log_actor where log_type = 'farmer' and log_action = 'requestdecline' and LEFT(log_timestamp,4) BETWEEN '2022' AND '2024' group by log_actor order by count desc;
+
 +-----------------------------------------------+-------+
 | actor_name                                    | count |
 +-----------------------------------------------+-------+
-| Tali64Â³                                      |  1910 |
-| MirahezeGDPR                                  |  1543 |
+| Jph2                                          |  4776 |
+| Tali64Â³                                      |  2091 |
+| Agent Isai                                    |  1597 |
+| Rodejong                                      |  1164 |
 | DarkMatterMan4500                             |   866 |
-| Jph2                                          |   803 |
-| NotAracham                                    |   583 |
+| NotAracham                                    |   790 |
+| Redmin                                        |   419 |
+| Waki285                                       |   351 |
+| BrandonWM                                     |   317 |
 | Chrs                                          |   290 |
-| Redmin                                        |   205 |
-| Zppix                                         |   154 |
-| Raidarr                                       |   115 |
-| Reception123                                  |    75 |
-| Startus                                       |    69 |
+| Reception123                                  |   221 |
+| Zppix                                         |   163 |
+| Raidarr                                       |   138 |
+| Zeus                                          |   114 |
+| Ratekreel                                     |    69 |
 | Doug                                          |    62 |
 | MirahezeGDPR                                  |    57 |
 | MirahezeGDPR                                  |    50 |
+| Subwayfares                                   |    44 |
+| Pisces                                        |    38 |
 | Void                                          |    35 |
+| 1108-Kiju                                     |    35 |
 | Bongo Cat                                     |    16 |
+| PixDeVl                                       |    14 |
 | Hispano76                                     |     7 |
+| OrangeStar                                    |     6 |
 | RhinosF1                                      |     4 |
 | Msnhinet8                                     |     2 |
 | HeartsDo                                      |     2 |
 | Amanda Catherine                              |     1 |
 | Avengium                                      |     1 |
 +-----------------------------------------------+-------+
-22 rows in set (0.061 sec)
+31 rows in set (2.430 sec)
+```
+
+#### For wikis where more details were requested between 2022-2024
+
+NOTE: **Only applies starting 2 April 2024. Overlaps with later approvals/declines!**
+```
+MariaDB [metawiki]> select actor_name, count(*) as count from logging join actor on actor_id = log_actor where log_type = 'farmer' and log_action = 'requestmoredetails' and LEFT(log_timestamp,4) BETWEEN '2022' AND '2024' group by log_actor order by count desc;
++--------------+-------+
+| actor_name   | count |
++--------------+-------+
+| Rodejong     |  2095 |
+| Waki285      |  1511 |
+| Jph2         |  1155 |
+| Reception123 |   324 |
+| Redmin       |    80 |
+| NotAracham   |    57 |
+| BrandonWM    |    34 |
+| Zeus         |    11 |
+| PixDeVl      |    11 |
+| Agent Isai   |     9 |
+| 1108-Kiju    |     9 |
+| Pisces       |     8 |
+| Raidarr      |     5 |
+| Zppix        |     3 |
++--------------+-------+
 ```
 
 #### Wikis by languages
@@ -339,93 +430,96 @@ MariaDB [mhglobal]> SELECT wiki_language, COUNT(*) as COUNT FROM cw_wikis GROUP 
 +---------------+-------+
 | wiki_language | COUNT |
 +---------------+-------+
-| en            |  8778 |
-| ru            |   280 |
-| ja            |   260 |
-| fr            |   254 |
-| es            |   222 |
-| pl            |   147 |
-| de            |   147 |
-| pt-br         |   139 |
-| it            |   119 |
-| zh            |    98 |
-| ko            |    90 |
-| zh-cn         |    75 |
-| en-gb         |    74 |
-| zh-hans       |    46 |
-| nl            |    42 |
-| es-419        |    33 |
-| zh-tw         |    33 |
-| tr            |    30 |
-| uk            |    27 |
-| cs            |    27 |
-| pt            |    26 |
-| he            |    23 |
-| zh-hant       |    21 |
-| bn            |    20 |
-| fi            |    18 |
-| id            |    17 |
+| en            | 11385 |
+| ru            |   327 |
+| ja            |   322 |
+| fr            |   285 |
+| es            |   266 |
+| de            |   198 |
+| pt-br         |   178 |
+| pl            |   151 |
+| it            |   106 |
+| zh            |   106 |
+| en-gb         |    97 |
+| zh-cn         |    89 |
+| ko            |    83 |
+| zh-hans       |    67 |
+| nl            |    48 |
+| es-419        |    39 |
+| he            |    39 |
+| tr            |    34 |
+| cs            |    34 |
+| uk            |    32 |
+| pt            |    28 |
+| zh-tw         |    28 |
+| vi            |    26 |
+| id            |    26 |
+| fi            |    20 |
+| zh-hant       |    17 |
 | hu            |    17 |
-| vi            |    15 |
-| sv            |    15 |
-| ar            |    11 |
+| sv            |    17 |
+| bn            |    12 |
+| ro            |    11 |
 | es-formal     |    11 |
-| th            |    10 |
-| ro            |    10 |
-| no            |     8 |
-| en-ca         |     8 |
+| no            |    11 |
+| ca            |    10 |
+| th            |     9 |
+| en-ca         |     9 |
+| ar            |     9 |
+| de-at         |     8 |
 | de-formal     |     8 |
-| ca            |     8 |
-| sk            |     7 |
-| el            |     5 |
-| zh-hk         |     4 |
-| bg            |     4 |
+| el            |     6 |
+| sk            |     6 |
+| ms            |     6 |
+| da            |     5 |
+| de-ch         |     5 |
 | nb            |     4 |
-| de-at         |     4 |
+| lt            |     4 |
+| ka            |     3 |
+| fa            |     3 |
 | gl            |     3 |
-| da            |     3 |
-| de-ch         |     3 |
-| hy            |     2 |
+| zh-hk         |     3 |
 | eo            |     2 |
-| et            |     2 |
-| fur           |     2 |
-| als           |     2 |
+| sr            |     2 |
 | tl            |     2 |
+| bg            |     2 |
+| fur           |     2 |
+| hr            |     2 |
+| rsk           |     2 |
 | frc           |     2 |
-| lt            |     2 |
-| kk            |     2 |
-| sr-el         |     2 |
-| ms            |     2 |
-| fa            |     2 |
+| lzh           |     2 |
+| hu-formal     |     2 |
+| et            |     2 |
+| grc           |     2 |
+| zgh           |     1 |
+| dtp           |     1 |
+| isv           |     1 |
+| la            |     1 |
+| arz           |     1 |
+| ia            |     1 |
+| azb           |     1 |
 | zh-mo         |     1 |
 | cy            |     1 |
-| sl            |     1 |
-| hr            |     1 |
-| ryu           |     1 |
-| zh-min-nan    |     1 |
-| az            |     1 |
-| rsk           |     1 |
-| zh-my         |     1 |
-| bar           |     1 |
-| mk            |     1 |
+| krl           |     1 |
 | sq            |     1 |
-| my            |     1 |
+| ab            |     1 |
+| br            |     1 |
+| cpx-hans      |     1 |
+| gu            |     1 |
+| lv            |     1 |
+| kw            |     1 |
+| ryu           |     1 |
 | hi            |     1 |
 | qbg           |     1 |
-| arz           |     1 |
-| br            |     1 |
-| zh-classical  |     1 |
-| ab            |     1 |
-| tok           |     1 |
 | lfn           |     1 |
-| isv           |     1 |
-| hu-formal     |     1 |
-| ka            |     1 |
-| ike-cans      |     1 |
-| kk-kz         |     1 |
-| simple        |     1 |
+| gan-hans      |     1 |
+| bar           |     1 |
+| sl            |     1 |
+| zh-classical  |     1 |
+| nn            |     1 |
+| szl           |     1 |
 +---------------+-------+
-85 rows in set (0.017 sec)
+88 rows in set (0.021 sec)
 ```
 
 #### Wikis by categories
@@ -435,37 +529,37 @@ MariaDB [mhglobal]> SELECT wiki_category, COUNT(*) as COUNT FROM cw_wikis GROUP 
 +-----------------+-------+
 | wiki_category   | COUNT |
 +-----------------+-------+
-| gaming          |  2587 |
-| fantasy         |  1522 |
-| uncategorised   |  1218 |
-| fandom          |  1078 |
-| private         |   772 |
-| literature      |   733 |
-| entertainment   |   616 |
-| community       |   566 |
-| education       |   386 |
-| software        |   338 |
-| music           |   294 |
-| history         |   259 |
-| politics        |   257 |
-| humour          |   196 |
-| science         |   156 |
-| sport           |   143 |
-| langling        |   139 |
-| songcontest     |   123 |
-| geography       |   104 |
-| leisure         |    85 |
-| military        |    71 |
-| religion        |    70 |
-| artarc          |    69 |
-| electronics     |    62 |
-| media           |    59 |
-| medical         |    40 |
-| businessfinance |    34 |
-| podcast         |    34 |
-| automotive      |    30 |
+| gaming          |  3438 |
+| fantasy         |  1720 |
+| uncategorised   |  1516 |
+| fandom          |  1229 |
+| private         |   838 |
+| literature      |   835 |
+| entertainment   |   701 |
+| community       |   649 |
+| education       |   403 |
+| software        |   369 |
+| history         |   362 |
+| politics        |   303 |
+| music           |   279 |
+| science         |   195 |
+| humour          |   182 |
+| langling        |   172 |
+| sport           |   168 |
+| songcontest     |   151 |
+| geography       |   108 |
+| leisure         |   104 |
+| religion        |    91 |
+| military        |    86 |
+| artarc          |    68 |
+| electronics     |    65 |
+| media           |    61 |
+| medical         |    53 |
+| businessfinance |    40 |
+| podcast         |    39 |
+| automotive      |    37 |
 +-----------------+-------+
-29 rows in set (0.025 sec)
+29 rows in set (0.029 sec)
 ```
 
 ----

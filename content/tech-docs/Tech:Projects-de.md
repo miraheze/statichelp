@@ -2,7 +2,9 @@
 title: Tech:Projects/de
 ---
 
- `{{ {{SRE navigation|projects|header=SRE Projects|description=Die Systemadministratoren von Miraheze planen ständig neue Dinge. Erfahre mehr über unsere aktuellen Projekte auf Miraheze Meta.|keywords=sre projects, miraheze sre projects}} }}`
+
+ `{{ {{Tech navigation|projects|header=Technology Team Projects|description=<span class="mw-translate-fuzzy">Die Systemadministratoren von Miraheze planen ständig neue Dinge. Erfahre mehr über unsere aktuellen Projekte auf Miraheze Meta.</span>|keywords=tech projects, miraheze tech projects}} }}`
+
 Miraheze ist stets bestrebt, einen starken, gemeinschaftsorientierten Service zu bieten - und damit einher geht die Kontrolle und Beteiligung der Gemeinschaft an Projekten, die erhebliche Ressourcen für die Entwicklung, Überprüfung, Einführung oder langfristige Wartung beanspruchen werden.
 
 Nachfolgend findest du eine Liste der großen Projekte, die SRE im Auge hat:
@@ -19,7 +21,7 @@ Jeder kann:
 
 ## Current proposals 
 
-* [Automation of SSL requests](https://meta.miraheze.org/wiki//Automation_of_SSL_requests) — Implement a system where on request, users are able to generate a Lets Encrypt certificate which is then deployed to GitHub and to MediaWiki via $wgServer (after being approved by an SRE member) (~175 hours).
+* [Automation of SSL requests](https://meta.miraheze.org/wiki//Automation_of_SSL_requests) — Implement a system where on request, users are able to generate a Lets Encrypt certificate which is then deployed to GitHub and to MediaWiki via $wgServer (after being approved by a Technology team member) (~175 hours).
 * [CreateWiki AI improvement](https://meta.miraheze.org/wiki//CreateWiki_AI_improvement) — Improve the current AI system for CreateWiki to allow for different factors to be taken into account when assessing how 'good' a request is (~175 hours).
 * [Proper CI for Miraheze extensions](https://meta.miraheze.org/wiki//Proper_CI_for_Miraheze_extensions) — Implement proper continuous integration for extensions maintained by Miraheze (~175 hours).
 

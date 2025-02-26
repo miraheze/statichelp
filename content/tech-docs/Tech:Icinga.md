@@ -4,7 +4,7 @@ title: Tech:Icinga
 
 Icinga is used to monitor the status of the infrastructure and service-level information. It is running on [mon181](/tech-docs/techmon181). All servers are automatically set up with checks for SSH, load, users on the server and disk space. Additional services are also monitored though such as mail, MariaDB statistics, NGINX and so on.
 
-Icinga access is currently only available to the [Technology team](/tech-docs/techvolunteers).
+Icinga access is currently only available to the [Technology team](/tech-docs/techvolunteers) and can be accessed [here](https://monitoring.wikitide.net).
 
 ## Configuration 
 

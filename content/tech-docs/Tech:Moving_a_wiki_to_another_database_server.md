@@ -17,7 +17,7 @@ Moving a wiki to another database is not complicated provided you have the requi
 * `mysql -e 'create database nameofwiki;'`
 * Import the database.
 * ` mysql nameofwiki < nameofwiki.sql`
-* Change `wiki_dbcluster` in `metawiki.cw_wikis`.
+* Change `wiki_dbcluster` in `mhglobal.cw_wikis`.
 * Remove read-only mode from the wiki.
 * After **you have made sure** that the wiki works on the new database server and that it has been imported correctly, you can drop the database on the initial server.
 

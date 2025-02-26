@@ -2,8 +2,7 @@
 title: Tech:Projects
 ---
 
-
- `{{ {{Tech navigation|projects|header=Technology Team Projects|description=<translate><!--T:9--> Miraheze's Technology team are always planning out things. Learn more about our current projects on Miraheze Meta.</translate>|keywords=tech projects, miraheze tech projects}} }}`
+ `{{ {{Tech navigation|projects|header=Technology Team Projects|description=Miraheze's Technology team are always planning out things. Learn more about our current projects on Miraheze Meta.|keywords=tech projects, miraheze tech projects}} }}`
 
 Miraheze continually strives to provide a strong, community centred service; along with that comes community scrutiny and community involvement over projects that are planned to take up considerable resources in terms of development, reviewing efforts, deployment, or long-standing maintenance.
 

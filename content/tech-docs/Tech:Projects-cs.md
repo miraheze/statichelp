@@ -2,10 +2,12 @@
 title: Tech:Projects/cs
 ---
 
- `{{ {{SRE navigation|projects|header=SRE Projects|description=<span lang="en" dir="ltr" class="mw-content-ltr">Miraheze's system administrators are always planning out things. Learn more about our current projects on Miraheze Meta.</span>|keywords=sre projects, miraheze sre projects}} }}`
+
+ `{{ {{Tech navigation|projects|header=Technology Team Projects|description=<span lang="en" dir="ltr" class="mw-content-ltr">Miraheze's Technology team are always planning out things. Learn more about our current projects on Miraheze Meta.</span>|keywords=tech projects, miraheze tech projects}} }}`
+
 Miraheze se neustále snaží poskytovat spolehlivé, komunitně zaměřené služby; s tím se také pojí kontrolování komunity a její zapojení do projektů, které mají podle plánu vyžadovat značné zdroje z hlediska vývoje, revizí, nasazení nebo dlouhodobé údržby.
 
-Below is a list of large projects that SRE has in mind, the idea of this page is to:
+Below is a list of large projects that the [Technology team](/tech-docs/techvolunteers) has in mind, the idea of this page is to:
 * Have a centralised place for active community discussion over merits, design specs, etc.
 * Store all information about a project in a central place, not in [Phorge](https://meta.miraheze.org/wiki/Phorge).
 * Be planned and thoroughly thought through before being formally proposed as a project eligible for a goal.
@@ -19,7 +21,7 @@ Kdokoliv může:
 
 ## Current proposals 
 
-* [Automation of SSL requests](https://meta.miraheze.org/wiki//Automation_of_SSL_requests) — Implement a system where on request, users are able to generate a Lets Encrypt certificate which is then deployed to GitHub and to MediaWiki via $wgServer (after being approved by an SRE member) (~175 hours).
+* [Automation of SSL requests](https://meta.miraheze.org/wiki//Automation_of_SSL_requests) — Implement a system where on request, users are able to generate a Lets Encrypt certificate which is then deployed to GitHub and to MediaWiki via $wgServer (after being approved by a Technology team member) (~175 hours).
 * [CreateWiki AI improvement](https://meta.miraheze.org/wiki//CreateWiki_AI_improvement) — Improve the current AI system for CreateWiki to allow for different factors to be taken into account when assessing how 'good' a request is (~175 hours).
 * [Proper CI for Miraheze extensions](https://meta.miraheze.org/wiki//Proper_CI_for_Miraheze_extensions) — Implement proper continuous integration for extensions maintained by Miraheze (~175 hours).
 

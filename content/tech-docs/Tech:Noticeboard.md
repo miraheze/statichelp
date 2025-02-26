@@ -16,53 +16,13 @@ title: Tech:Noticeboard
 }} }}
 ```
 
-## Migration to new servers 
-
-Thanks to the support of our generous donors thus far through the [Fundraiser](https://meta.miraheze.org/wiki/Fundraiser) (we're currently at `{{ {{#expr:({{raw::Fundraiser 2024/amount}}/20000)*100round0}} }}`% of our goal), Miraheze has been to move to better servers. You may have noticed faster load times. This is because of our new servers! We thank our generous donors for their help in achieving this goal!
-
-Image migration to our new servers are still ongoing though. During this period, you may notice images go missing for brief periods of time. This is a normal hiccup of file migration and we apologize for the inconvenience. Below is an FAQ with some commonly asked questions which we hope will help you understand what is going on. If you have any questions, please feel free to ask on the [Community portal](https://meta.miraheze.org/wiki/Community_portal), [Discord](https://meta.miraheze.org/wiki/Discord), or [IRC](https://meta.miraheze.org/wiki/IRC). [<span style="color: skyblue; font-weight: bold;">Agent</span> <span style="color: lime; font-weight: bold;">Isai</span>](https://meta.miraheze.org/wiki/User:Agent_Isai) [<span style="color: orange; font-weight: bold;">Talk to me!</span>](https://meta.miraheze.org/wiki/User_talk:Agent_Isai) 20:24, 27 January 2024 (UTC)
-
-### FAQ 
-
-#### What is happening? 
-
-Miraheze has moved most of its services to bigger, better servers that are be able to handle more traffic with less load time and errors.
-
-We have finished database migration but image migration is still in progress.
-
-#### Why? 
-
-Our old servers were *very* underequipped to handle our growing demands. In addition, they were very slow and are "on their last leg" due to RAID disk failure.
-
-#### How long will the migration take? 
-
-Databases have been migrated.
-
-Swift (images) might take around a week or less to migrate.
-
-#### What is the migration schedule? 
-
-Most core services have already been migrated or set up (such as MediaWiki and Phorge). The last remaining thing is Swift (files).
-
-Currently, images are being copied to our new servers. This may take around a week but likely less.
-
-#### What can I expect during the migration? 
-
-Database migration is complete. You should not notice any on-wiki hiccups.
-
-For images, they may appear missing at random times while Swift copies over files and recalculates their hash. Rest assured, nothing is lost.
-
-#### When will we begin to see speed improvements? 
-
-You can see them already! Wikis load *much* faster than before!
-
-## MediaWiki 1.42 upgrade
+## MediaWiki 1.42 upgrade 
 
 Miraheze will be upgrading to 1.42 this Wednesday, July 17.
 
 We will let everyone know ~ 30 minutes before we start the upgrade via [Discord](https://meta.miraheze.org/wiki/Discord), [IRC](https://meta.miraheze.org/wiki/IRC) (on the #miraheze channel) and [Mastodon](https://mastodon.social/@miraheze). [Alex (Miraheze)](https://meta.miraheze.org/wiki/User:Alex_(Miraheze)) ([talk](https://meta.miraheze.org/wiki/User_talk:Alex_(Miraheze))) 09:42, 15 July 2024 (UTC)
 
-## GlobalBlocking affecting account autocreation
+## GlobalBlocking affecting account autocreation 
 
 On MediaWiki 1.42, the GlobalBlocking extension, used by Miraheze [Stewards](https://meta.miraheze.org/wiki/Stewards) and [Global Administrators](https://meta.miraheze.org/wiki/Global_Administrators) to block IP addresses on all wikis, is now capable to stopping account autocreation if your IP is affected by a global block.
 
@@ -81,6 +41,18 @@ Since May 11, Miraheze has [disabled](https://meta.miraheze.org/wiki/github:mira
 Now, disabling `wgCompressRevisions` doesn't retroactively decompress existing revisions, what it does is that it no longer compresses new revisions. Revisions of pages made before this setting was turned off are still compressed. ReplaceText doesn't work properly when the current revision of a page is a compressed revision. Therefore, wikis made on or before May 11 will very likely have issues with this extension still. Therefore, this extension is currently restricted and to enable it you must request it at [Steward requests/Restricted changes](https://meta.miraheze.org/wiki/Steward_requests/Restricted_changes)
 
 [Stewards](https://meta.miraheze.org/wiki/Stewards) and [Wiki Mechanics](https://meta.miraheze.org/wiki/Wiki_Mechanics), this extension can be enabled on request at [SR/RC](https://meta.miraheze.org/wiki/SR/RC) for wikis created **after** May 11. If a wiki created prior to this date requests this extension, a member of the [Technology Team](/tech-docs/techvolunteers) has to manually verify that *all* of the pages' current revisions are not from before this date before being enabled. [Alex (Miraheze)](https://meta.miraheze.org/wiki/User:Alex_(Miraheze)) ([talk](https://meta.miraheze.org/wiki/User_talk:Alex_(Miraheze))) 18:34, 21 August 2024 (UTC)
+
+## MediaWiki 1.43 upgrade 
+
+Miraheze will be upgrading all wikis to MediaWiki 1.43 on Monday, January 27th at 18:00 UTC. This is expected to take approximately one hour and end at 19:00 UTC. During this window there may be intermittent downtime, but edits will be possible. Thank you for your understanding! [MacFan4000](https://meta.miraheze.org/wiki/User:MacFan4000) ([Talk](https://meta.miraheze.org/wiki/User_talk:MacFan4000) [Contribs](https://meta.miraheze.org/wiki/Special:Contributions/MacFan4000)) 22:01, 24 January 2025 (UTC)
+
+## Server maintenance 
+
+On February 22nd, 2025 from 18:45 until 23:30 UTC we will be performing maintenance on our servers. During this time we expect intermittent outages of all services. We will post updates as needed, and we thank you for your understanding. [MacFan4000](https://meta.miraheze.org/wiki/User:MacFan4000) ([Talk](https://meta.miraheze.org/wiki/User_talk:MacFan4000) [Contribs](https://meta.miraheze.org/wiki/Special:Contributions/MacFan4000)) 02:15, 12 February 2025 (UTC)
+
+      This planned maintenance has been postponed due to late arriving parts. We will post again when a new date is known. [MacFan4000](https://meta.miraheze.org/wiki/User:MacFan4000) ([Talk](https://meta.miraheze.org/wiki/User_talk:MacFan4000) [Contribs](https://meta.miraheze.org/wiki/Special:Contributions/MacFan4000)) 20:42, 21 February 2025 (UTC)
+
+         The maintenance will now take place on Wednesday February 26th from 18:45 until 23:30 UTC. Once again we expect intermittent outages of all services. [MacFan4000](https://meta.miraheze.org/wiki/User:MacFan4000) ([Talk](https://meta.miraheze.org/wiki/User_talk:MacFan4000) [Contribs](https://meta.miraheze.org/wiki/Special:Contributions/MacFan4000)) 17:58, 22 February 2025 (UTC)
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Noticeboard)**

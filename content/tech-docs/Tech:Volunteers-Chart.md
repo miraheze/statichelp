@@ -29,9 +29,10 @@ PlotData   =
   width:15 textcolor:text
   barset:S
     shift:(5,-5) anchor:from fontsize:m
+    color:current from:24/02/2025 till:end text:"[[User:BlankEclair|BlankEclair]]"
     color:current from:12/10/2021 till:24/04/2024 text:"[[User:Agent Isai|Agent Isai]]"
     color:previous from:22/07/2016 till:27/10/2016 text:"[[User:Corey|Corey]]"
-    color:current from:26/04/2024 till:end text:"[[User:Evalprime|Evalprime]]"
+    color:previous from:26/04/2024 till:19/01/2025 text:"[[User:Evalprime|Evalprime]]"
     color:previous from:17/12/2016 till:26/04/2018 text:"[[User:ImBoPhil|ImBoPhil]]"
     color:previous from:22/07/2015 till:16/12/2015 text:"[[User:John|John]]"
     color:previous from:04/04/2016 till:26/04/2018 text:"[[User:Labster|Labster]]"
@@ -51,6 +52,7 @@ PlotData   =
     color:current from:14/06/2021 till:end text:"[[User:Void|Void]]"
     color:previous from:15/10/2019 till:15/02/2021 text:"[[User:Zppix|Zppix]]"
   barset:break
+    barset:skip
     color:current from:07/09/2024 till:end text:"[[User:Agent Isai|Agent Isai]]"
     barset:skip
     barset:skip
@@ -72,14 +74,22 @@ PlotData   =
     barset:skip
     barset:skip
     barset:skip
+    barset:skip
     color:previous from:30/03/2018 till:03/05/2021 text:"[[User:John|John]]"
+    barset:skip
+    barset:skip
+    barset:skip
+    barset:skip
+    color:previous from:11/10/2024 till:18/12/2024 text:"[[User:OrangeStar|OrangeStar]]"
   barset:break
+    barset:skip
     barset:skip
     barset:skip
     barset:skip
     barset:skip
     color:previous from:09/08/2021 till:17/03/2023 text:"[[User:John|John]]"
   barset:break
+    barset:skip
     barset:skip
     barset:skip
     barset:skip
@@ -106,6 +116,7 @@ PlotData   =
     barset:skip
     barset:skip
     barset:skip
+    barset:skip
     color:current from:26/06/2023 till:20/02/2024 text:"[[User:Paladox|Paladox]]"
     color:current from:02/01/2024 till:end text:"[[User:Reception123|Reception123]]"
     barset:skip
@@ -114,6 +125,7 @@ PlotData   =
     barset:skip
     color:current from:02/01/2024 till:end text:"[[User:Universal Omega|Universal Omega]]"
   barset:break
+    barset:skip
     barset:skip
     barset:skip
     barset:skip

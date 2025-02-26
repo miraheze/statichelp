@@ -2,6 +2,7 @@
 title: Tech:Projects/Wiki Statistics Special Page
 ---
 
+`{{ {{Outdated}} }}`
 This is a project proposal for adding a statistics page on all Miraheze wikis which allow users to view restricted analytical information for the wiki.
 
 ## Background 

@@ -2,7 +2,9 @@
 title: Tech:Volunteers/fr
 ---
 
- `{{ {{SRE navigation|members|header=<span class="mw-translate-fuzzy">Membres de l'ingénierie fiabilité du site</span>|description=Miraheze's Technology team is composed of various members who work together to ensure the stability of the infrastructure behind Miraheze. Learn more on Miraheze Meta.|keywords=miraheze tech, miraheze system administrators, miraheze sysadmins}} }}`
+
+ `{{ {{Tech navigation|members|header=<span class="mw-translate-fuzzy">Membres de l'ingénierie fiabilité du site</span>|description=Miraheze's Technology team is composed of various members who work together to ensure the stability of the infrastructure behind Miraheze. Learn more on Miraheze Meta.|keywords=miraheze tech, miraheze system administrators, miraheze sysadmins}} }}`
+
 Les **membres de l'ingénierie fiabilité du site** (que les membres de l'équipe technique les appelaient **administrateurs système** (ou **sysadmins**)) sont responsable des opérations techniques et de la stabilité de l'infrastructure qui régie Miraheze. Connue aussi sous le nom d'équipe technique, elle est aussi constituée d'un ou de plusieurs membres dans des fonctions non techniques, et peuvent être contactés par courriel à l'adresse $tech-mail.
 
 The team includes volunteers in technical and less-technical roles, including project management and community liaising. You can contact the team at tech `{{ {{@}} }}`miraheze.org.
@@ -36,7 +38,7 @@ The team includes volunteers in technical and less-technical roles, including pr
 
 * [Category:Documentation](https://meta.miraheze.org/wiki/Category:Documentation)
 * [Category:Global user groups](https://meta.miraheze.org/wiki/Category:Global_user_groups)
-* [Category:System administrators](https://meta.miraheze.org/wiki/Category:System_administrators)
+* [Category:Technology team members](https://meta.miraheze.org/wiki/Category:Technology_team_members)
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Volunteers/fr)**

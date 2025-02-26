@@ -2,12 +2,12 @@
 title: Tech:Volunteers
 ---
 
-
- `{{ {{Tech navigation|members|header=<translate><!--T:14--> Technology team members</translate>|description=Miraheze's Technology team is composed of various members who work together to ensure the stability of the infrastructure behind Miraheze. Learn more on Miraheze Meta.|keywords=miraheze tech, miraheze system administrators, miraheze sysadmins}} }}`
+ `{{ {{Tech navigation|members|header=Technology team members|description=Miraheze's Technology team is composed of various members who work together to ensure the stability of the infrastructure behind Miraheze. Learn more on Miraheze Meta.|keywords=miraheze tech, miraheze system administrators, miraheze sysadmins}} }}`
 
 **Technology team members**, formerly known as Site Reliability Engineering, are responsible for the technical operation and stability of the infrastructure behind Miraheze. Team members are often referred to as **system administrators** (or **sysadmins**).
 
 The team includes volunteers in technical and less-technical roles, including project management and community liaising. You can contact the team at tech `{{ {{@}} }}`miraheze.org.
+
 <div style="width: 100%; overflow: auto;>
 {| class="wikitable center"
 |-
@@ -24,9 +24,12 @@ The team includes volunteers in technical and less-technical roles, including pr
 ! Grafana (Admin)
 |- `{{ {{Tech:{{BASEPAGENAME}}/List}} }}`
 
-### Chart `{{ {{:Tech:Volunteers/Chart}} }}`
+### Chart
 
-## See also
+ `{{ {{:Tech:Volunteers/Chart}} }}`
+
+## See also 
+
 * [Tech:Organization](/tech-docs/techorganization)
 * [Board of Directors](https://meta.miraheze.org/wiki/Board_of_Directors)
 
