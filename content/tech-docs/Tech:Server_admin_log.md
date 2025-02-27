@@ -2,8 +2,67 @@
 title: Tech:Server admin log
 ---
 
+## 2025-02-27 
+
+* 18:38 RhinosF1: shift fischwiki to cp38
+* 18:02 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'config': True, 'world': True, 'landing': True, 'errorpages': True, 'l10n': True, 'force': True, 'versions': '1.43'} to [mw191, mw192, mw193] - SUCCESS in 17s
+* 18:01 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'config': True, 'world': True, 'landing': True, 'errorpages': True, 'l10n': True, 'force': True, 'versions': '1.43'} to [mw191, mw192, mw193]
+* 16:42 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'force': True, 'files': 'cache/databases.php'} to [mw191, mw192, mw193] - SUCCESS in 6s
+* 16:42 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'force': True, 'files': 'cache/databases.php'} to [mw191, mw192, mw193]
+* 16:39 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'force': True, 'files': '/srv/mediawiki/cache/databases.php'} to [mw191, mw192, mw193] - FAIL: [768]
+* 16:39 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'force': True, 'files': '/srv/mediawiki/cache/databases.php'} to [mw191, mw192, mw193]
+* 16:36 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'config': True, 'world': True, 'landing': True, 'errorpages': True, 'l10n': True, 'force': True, 'versions': '1.43'} to [mw191, mw192, mw193] - SUCCESS in 16s
+* 16:35 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'config': True, 'world': True, 'landing': True, 'errorpages': True, 'l10n': True, 'force': True, 'versions': '1.43'} to [mw191, mw192, mw193]
+* 16:35 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'config': True, 'world': True, 'errorpages': True, 'l10n': True, 'force': True, 'versions': '1.43'} to [mw191, mw192, mw193] - SUCCESS in 81s
+* 16:34 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'config': True, 'world': True, 'errorpages': True, 'l10n': True, 'force': True, 'versions': '1.43'} to [mw191, mw192, mw193]
+* 14:55 RhinosF1: increase cp38 traffic from 25% to 50% (fully pooled)
+* 14:30 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.43', 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 200s
+* 14:27 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.43', 'upgrade_extensions': 'CreateWiki'} to all
+* 14:25 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': ['1.43', '1.44'], 'upgrade_extensions': 'CreateWiki'} to test151 - SUCCESS in 565s
+* 14:23 MirahezeLSBot: [paladox@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mw151.wikitide.net
+* 14:18 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.43', 'upgrade_extensions': 'CreateWiki'} to all
+* 14:16 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.43', '1.44'], 'upgrade_extensions': 'CreateWiki'} to test151
+* 14:14 RhinosF1: ramp cp38 up to 25% of traffic
+* 14:13 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 18s
+* 14:13 MirahezeLSBot: [paladox@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 14:13 MirahezeLSBot: [paladox@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 14:13 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 14:07 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 18s
+* 14:06 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 14:02 RhinosF1: pool cp38 to 10% of traffic
+* 13:33 RhinosF1: add cp38 to cf and disable it
+* 13:31 RhinosF1: delete cp36 from cf
+* 12:09 RhinosF1: double cache times for new cf caches
+* 01:04 MirahezeLSBot: [void@cloud15] clear ipmi sel (resolved inlet temperature alerts)
+* 00:27 MirahezeLSBot: [void@cloud20.wikitide.net] clear ipmi sel (contained some resolved inlet temperature alerts)
+
 ## 2025-02-26 
 
+* 23:00 Universal Omega: add cloud19 and cloud20 to proxmox cluster
+* 22:37 Universal Omega: add cloud19 and cloud20 to puppet
+* 22:28 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 20s
+* 22:28 MirahezeLSBot: [paladox@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 22:28 MirahezeLSBot: [paladox@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 22:28 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 22:21 Universal Omega: set hostname, setup networking, and apt upgrade and reboot on cloud19 and cloud20
+* 18:27 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=trollpastawiki (END - exit=0)
+* 18:12 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=spongebobfanonwiki (END - exit=2)
+* 18:12 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=spongebobfanonwiki (START)
+* 18:12 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=spongebobfanonwiki dump.xml --no-updates (END - exit=2)
+* 17:10 Universal Omega: reboot mattermost1
+* 15:28 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=trollpastawiki (START)
+* 15:25 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': ['1.43', '1.44'], 'upgrade_extensions': ['CreateWiki', 'SimpleBlogPage']} to test151 - SUCCESS in 377s
+* 15:23 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.43', 'upgrade_extensions': ['CreateWiki', 'SimpleBlogPage']} to all - SUCCESS in 487s
+* 15:19 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.43', '1.44'], 'upgrade_extensions': ['CreateWiki', 'SimpleBlogPage']} to test151
+* 15:16 MirahezeLSBot: [paladox@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 15:15 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.43', '1.44'], 'upgrade_extensions': 'CreateWiki'} to test151
+* 15:15 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.43', 'upgrade_extensions': ['CreateWiki', 'SimpleBlogPage']} to all
+* 13:40 MirahezeLSBot: [paladox@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 13:40 MirahezeLSBot: [paladox@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 13:40 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.43', 'upgrade_extensions': ['CreateWiki', 'SimpleBlogPage']} to all
+* 13:35 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.43', '1.44'], 'upgrade_extensions': 'CreateWiki'} to test151
+* 13:35 MirahezeLSBot: [paladox@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 13:35 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.43', 'upgrade_extensions': 'CreateWiki'} to all
 * 02:26 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=spongebobfanonwiki dump.xml --no-updates (START)
 
 ## 2025-02-25 

@@ -50,6 +50,7 @@ Graylog has a [search syntax](https://docs.graylog.org/en/4.0/pages/searching/qu
 * View NGINX logs for your IP address: `nginx_remote_addr:"1.2.3.4"`
 * View all SSH logs: `application_name:"sshd"`
 * View all MediaWiki errors and warnings: `application_name:"mediawiki" AND (mediawiki_level:"ERROR" OR mediawiki_level:"WARNING")`
+* View logs relating to a specific MediaWiki request: `mediawiki_reqId:"642df1294318d7551fab367e"`
 
 ## Access 
 
