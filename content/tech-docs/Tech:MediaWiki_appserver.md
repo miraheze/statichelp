@@ -20,8 +20,8 @@ A full list of maintenance scripts can be found [here](https://meta.miraheze.org
 * **deleteBatch.php** – To delete a large number of pages based on a text file.
    * ` sudo -u www-data php /srv/mediawiki/<version>/maintenance/deleteBatch.php --wiki=examplewiki --r "[[phab:Txxx|Requested]]" /home/<user>/deletebatch.txt`
 
-* **assignImportedEdits.php** – To reassign contributions for imported users to their Miraheze username.
-   * ` sudo -u www-data php /srv/mediawiki/<version>/extensions/MirahezeMagic/maintenance/assignImportedEdits.php --wiki=examplewiki --import-prefix="prefix" --from=import_username`
+* **AssignImportedEdits** – To reassign contributions for imported users to their Miraheze username.
+   * ` mwscript MirahezeMagic:AssignImportedEdits examplewiki --import-prefix="prefix" --from=import_username`
    * Prefix is without the suffixed `>`.
    * `--from` is the imported username without the prefix.
    * If the imported username is different from the Miraheze username, specify `--to=miraheze_username`
@@ -77,7 +77,7 @@ To significantly reduce these potential security risks, we use [Firejail](https:
 
 ## ManageWiki Cache 
 
-ManageWiki uses a caching backend for its settings, extensions, permissions, and namespaces. This caching system provides that each wiki has a PHP file located in `/srv/mediawiki/cache` with this information. In case that there is an issue with the ManageWiki cache for a specific wiki, the following can be used with `shell.php`: `$cw = new Miraheze\CreateWiki\CreateWikiPhp( '<dbname>' ); $cw->resetWiki();`
+ManageWiki uses a caching backend for its settings, extensions, permissions, and namespaces. This caching system provides that each wiki has a PHP file located in `/srv/mediawiki/cache` with this information. In case that there is an issue with the ManageWiki cache for a specific wiki, the following can be used with `shell.php`: `MediaWiki\MediaWikiServices::getInstance()->get( 'CreateWikiDataFactory')->newInstance( '<dbname>' )->resetWikiData( isNewChanges: true );`
 
 ## Composer 
 

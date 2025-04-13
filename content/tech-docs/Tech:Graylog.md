@@ -37,7 +37,7 @@ Graylog runs on [graylog161.wikitide.net](/tech-docs/techgraylog161) as of now. 
                                                                                                  +-------------------+                       
 ```
 
-In the example above, test151 runs syslog-ng, which is responsible for receiving the logs locally and sending them to graylog-server. By setting `base::syslog::syslog_daemon` to 'syslog_ng' in puppet, [base::syslog](https://github.com/miraheze/puppet/blob/master/modules/base/manifests/syslog.pp) will install syslog-ng and configure it to listen on `127.0.0.1:10514` (for anything on the server sending its logs to that destination, such as MediaWiki and NGINX) and ['system'](https://www.syslog-ng.com/technical-documents/doc/syslog-ng-open-source-edition/3.22/administration-guide/26) for services such as ssh and kernel logs.
+In the example above, test151 runs syslog-ng, which is responsible for receiving the logs locally and sending them to graylog-server. By setting `base::syslog::syslog_daemon` to 'syslog_ng' in puppet, [base::syslog](https://github.com/miraheze/puppet/blob/main/modules/base/manifests/syslog.pp) will install syslog-ng and configure it to listen on `127.0.0.1:10514` (for anything on the server sending its logs to that destination, such as MediaWiki and NGINX) and ['system'](https://www.syslog-ng.com/technical-documents/doc/syslog-ng-open-source-edition/3.22/administration-guide/26) for services such as ssh and kernel logs.
 
 ## Streams 
 
@@ -72,7 +72,7 @@ It is recommended to save this config to a session. Choose a server you would li
 
 ## Administration 
 
-Configuring Graylog is a combination of Puppet usage and using the web interface for configuration (where configuration will eventually be stored in MongoDB on graylog161.wikitide.net). [role::graylog](https://github.com/miraheze/puppet/blob/master/modules/role/manifests/graylog.pp) is used for graylog161's configuration. [base::syslog](https://github.com/miraheze/puppet/blob/master/modules/base/manifests/syslog.pp) contains the configuration for every server logging to Graylog.
+Configuring Graylog is a combination of Puppet usage and using the web interface for configuration (where configuration will eventually be stored in MongoDB on graylog161.wikitide.net). [role::graylog](https://github.com/miraheze/puppet/blob/main/modules/role/manifests/graylog.pp) is used for graylog161's configuration. [base::syslog](https://github.com/miraheze/puppet/blob/main/modules/base/manifests/syslog.pp) contains the configuration for every server logging to Graylog.
 
 ## Categories
 

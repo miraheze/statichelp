@@ -4,10 +4,9 @@ title: Tech:Rename a wiki
 
 One should be careful renaming a wiki (database/domain) as it involves many steps and basically anything going wrong can make it impossible for users to login across the entire farm, or worse. Please pay attention to what the scripts output when doing a rename to make sure everything is working properly.
 
-* Start by running `mwscript extensions/MirahezeMagic/renameDatabase.php loginwiki --old=<old_wiki_db> --new=<new_wiki_db>`
-* After the script is finished, run:
-   * `mwscript extensions/CreateWiki/renameWiki.php loginwiki --no-log --rename <old_wiki_db> <new_wiki_db> <user_running_script>`
-* Finally, **AFTER YOU ARE VERY CERTAIN ALL OF THE ABOVE WAS DONE CORRECTLY,** you may drop the old database. **This is not a requirement to do.**
+* Start by running `mwscript MirahezeMagic:RenameDatabase loginwiki --rename --old=<old_wiki_db> --new=<new_wiki_db> --user=<user_running_script>`
+   * Run without `--rename` to run in dry run mode.
+* **AFTER YOU ARE VERY CERTAIN THE ABOVE WAS DONE CORRECTLY,** you may drop the old database. **This is not a requirement to do.**
    * `sudo -i mysql -e "DROP DATABASE nameofwikidb;"`
 
 ### Swift 
@@ -23,7 +22,7 @@ If only empty directories or everything looks fine there (files returned by that
 * `sudo -u www-data rm -rf /tmp/miraheze-<old_wiki_db>-<zone>`
 
 Finally, run:
-* `mwscript extensions/CreateWiki/setContainersAccess.php <new_wiki_db>`
+* `mwscript CreateWiki:SetContainersAccess <new_wiki_db>`
 
 ### After rename 
 

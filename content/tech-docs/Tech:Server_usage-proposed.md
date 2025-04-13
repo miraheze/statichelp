@@ -35,7 +35,7 @@ Below is a list of proposed servers:
 | [os151](/tech-docs/techos151) | 8 GB | 2 cores (unknown speed) | 250 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [os161](/tech-docs/techos161) | 8 GB | 2 cores (unknown speed) | 250 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [graylog161](/tech-docs/techgraylog161) | 6 GB | 4 core (unknown speed) | 20 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [jobchron171](/tech-docs/techjobchron171) | 2 GB | 2 core (unknown speed) | 9 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [jobchron171](https://meta.miraheze.org/wiki/Tech:jobchron171) | 2 GB | 2 core (unknown speed) | 9 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [ldap171](/tech-docs/techldap171) | 1 GB | 1 core (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [matomo151](/tech-docs/techmatomo151) | 4 GB | 4 cores (unknown speed) | 20 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [mem151](/tech-docs/techmem151) | 64 GB | 2 core (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |

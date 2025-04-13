@@ -45,9 +45,9 @@ PlotData   =
     color:current from:10/04/2018 till:13/06/2021 text:"[[User:Paladox|Paladox]]"
     color:current from:03/08/2016 till:15/06/2023 text:"[[User:Reception123|Reception123]]"
     color:previous from:21/09/2015 till:05/07/2016 text:"[[User:Revi|Revi]]"
-    color:previous from:10/09/2019 till:14/12/2019 text:"[[User:RhinosF1|RhinosF1]]"
+    color:current from:10/09/2019 till:14/12/2019 text:"[[User:RhinosF1|RhinosF1]]"
     color:previous from:22/07/2015 till:30/10/2021 text:"[[User:Southparkfan|Southparkfan]]"
-    color:current from:28/08/2024 till:end text:"[[User:TheresNoTime|TheresNoTime]]"
+    color:previous from:28/08/2024 till:08/03/2025 text:"[[User:TheresNoTime|TheresNoTime]]"
     color:current from:15/11/2020 till:17/03/2023 text:"[[User:Universal Omega|Universal Omega]]"
     color:current from:14/06/2021 till:end text:"[[User:Void|Void]]"
     color:previous from:15/10/2019 till:15/02/2021 text:"[[User:Zppix|Zppix]]"
@@ -68,7 +68,7 @@ PlotData   =
     barset:skip
     barset:skip
     color:previous from:22/11/2016 till:26/07/2018 text:"[[User:Revi|Revi]]"
-    color:previous from:22/06/2020 till:01/07/2022 text:"[[User:RhinosF1|RhinosF1]]"
+    color:current from:22/06/2020 till:01/07/2022 text:"[[User:RhinosF1|RhinosF1]]"
   barset:break
     barset:skip
     barset:skip
@@ -81,6 +81,12 @@ PlotData   =
     barset:skip
     barset:skip
     color:previous from:11/10/2024 till:18/12/2024 text:"[[User:OrangeStar|OrangeStar]]"
+    barset:skip
+    barset:skip
+    barset:skip
+    barset:skip
+    barset:skip
+    color:current from:12/03/2025 till:end text:"[[User:RhinosF1|RhinosF1]]"
   barset:break
     barset:skip
     barset:skip

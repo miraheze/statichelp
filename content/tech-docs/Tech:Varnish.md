@@ -13,7 +13,7 @@ Unlike webservers like Apache and NGINX, Varnish *only* caches stuff visited by 
 
 ### Configuration 
 
-The [default.vcl](https://github.com/miraheze/puppet/blob/master/modules/varnish/templates/default.vcl) file configures a lot of the stuff, but [/etc/default/varnish](https://github.com/miraheze/puppet/blob/master/modules/varnish/files/varnish/varnish.default) is also critical here. Some things can be done via CLI tools.
+The [default.vcl](https://github.com/miraheze/puppet/blob/main/modules/varnish/templates/default.vcl) file configures a lot of the stuff, but [/etc/default/varnish](https://github.com/miraheze/puppet/blob/main/modules/varnish/files/varnish/varnish.default) is also critical here. Some things can be done via CLI tools.
 
 ### How traffic goes through 
 

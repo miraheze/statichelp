@@ -6,6 +6,8 @@ title: Tech:Home
  `{{ {{Tech navigation|main|header=Technology team|description=Welcome to the hub for all of Miraheze's Technology team, the people behind Miraheze's servers! Learn more about us and what we do on Miraheze Meta.|keywords=miraheze tech, miraheze sysadmins, miraheze system administrators}} }}`
 
 ### Inside Technology:
+* March 2025: Miraheze is deprecating its authoritative DNS nameservers
+* January 2025: Miraheze upgraded to MediaWiki 1.43!
 * July 2024: Miraheze upgraded to MediaWiki 1.42!
 * April 2024: Miraheze began using CloudFlare to ward off DDoS attacks!
 * February 2024: Miraheze upgraded to MediaWiki 1.41!
@@ -20,7 +22,7 @@ Who do you think runs the show behind the scenes in the server room? The Technol
 
 * `{{ {{NUMBEROFTOTALWIKIS}} }}` total wiki databases
 * $5,000 budget per year
-* 12,000+ [commits](https://meta.miraheze.org/wiki/github:miraheze/mw-config/commits/master) in our MediaWiki configuration repository
+* 12,000+ [commits](https://meta.miraheze.org/wiki/github:miraheze/mw-config/commits/main) in our MediaWiki configuration repository
 * 4 dedicated servers and 50+ virtual machines, all managed by [Puppet](https://meta.miraheze.org/wiki/github:miraheze/puppet)
 * 4TB+ of available database storage
 * `{{ {{NUMBERINGROUP:techteam}} }}` backend technical infrastructure volunteers

@@ -16,12 +16,6 @@ title: Tech:Noticeboard
 }} }}
 ```
 
-## MediaWiki 1.42 upgrade 
-
-Miraheze will be upgrading to 1.42 this Wednesday, July 17.
-
-We will let everyone know ~ 30 minutes before we start the upgrade via [Discord](https://meta.miraheze.org/wiki/Discord), [IRC](https://meta.miraheze.org/wiki/IRC) (on the #miraheze channel) and [Mastodon](https://mastodon.social/@miraheze). [Alex (Miraheze)](https://meta.miraheze.org/wiki/User:Alex_(Miraheze)) ([talk](https://meta.miraheze.org/wiki/User_talk:Alex_(Miraheze))) 09:42, 15 July 2024 (UTC)
-
 ## GlobalBlocking affecting account autocreation 
 
 On MediaWiki 1.42, the GlobalBlocking extension, used by Miraheze [Stewards](https://meta.miraheze.org/wiki/Stewards) and [Global Administrators](https://meta.miraheze.org/wiki/Global_Administrators) to block IP addresses on all wikis, is now capable to stopping account autocreation if your IP is affected by a global block.
@@ -53,6 +47,12 @@ On February 22nd, 2025 from 18:45 until 23:30 UTC we will be performing maintena
       This planned maintenance has been postponed due to late arriving parts. We will post again when a new date is known. [MacFan4000](https://meta.miraheze.org/wiki/User:MacFan4000) ([Talk](https://meta.miraheze.org/wiki/User_talk:MacFan4000) [Contribs](https://meta.miraheze.org/wiki/Special:Contributions/MacFan4000)) 20:42, 21 February 2025 (UTC)
 
          The maintenance will now take place on Wednesday February 26th from 18:45 until 23:30 UTC. Once again we expect intermittent outages of all services. [MacFan4000](https://meta.miraheze.org/wiki/User:MacFan4000) ([Talk](https://meta.miraheze.org/wiki/User_talk:MacFan4000) [Contribs](https://meta.miraheze.org/wiki/Special:Contributions/MacFan4000)) 17:58, 22 February 2025 (UTC)
+
+## Server maintenance (again) 
+
+We will be performing maintenance on our servers again on March 1st, 2025 from 18:45 until 20:45 UTC for hardware upgrades. We expect intermittent outages, so we highly recommend that you save your edits before then. We thank you for your understanding and appreciate your patience. [MacFan4000](https://meta.miraheze.org/wiki/User:MacFan4000) ([Talk](https://meta.miraheze.org/wiki/User_talk:MacFan4000) [Contribs](https://meta.miraheze.org/wiki/Special:Contributions/MacFan4000)) 14:28, 28 February 2025 (UTC)
+
+   The maintenance has been postponed to Wednesday March 5th from 18:45 until 20:45 UTC. [MacFan4000](https://meta.miraheze.org/wiki/User:MacFan4000) ([Talk](https://meta.miraheze.org/wiki/User_talk:MacFan4000) [Contribs](https://meta.miraheze.org/wiki/Special:Contributions/MacFan4000)) 17:53, 1 March 2025 (UTC)
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Noticeboard)**

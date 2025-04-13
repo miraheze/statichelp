@@ -31,6 +31,7 @@ uid: <uid>
 givenName: <firstName>
 sn: <surname>
 cn: <cn>
+mail: <user>@wikitide.org
 userPassword: <pass>
 ```
 

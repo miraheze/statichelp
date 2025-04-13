@@ -68,7 +68,7 @@ This section is generic to all shell requests.
 
 ### Monitoring 
 
-* If the user wants monitoring alerts via email, [add them to icinga](https://meta.miraheze.org/wiki/github:miraheze/puppet/blob/master/modules/monitoring/files/users.conf) and then add them to a monitoring group.
+* If the user wants monitoring alerts via email, [add them to icinga](https://meta.miraheze.org/wiki/github:miraheze/puppet/blob/main/modules/monitoring/files/users.conf) and then add them to a monitoring group.
    * On off-boarding, remove both contact and the addition to group definitions for the user.
 
 ### Status Page 

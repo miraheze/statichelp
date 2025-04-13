@@ -10,11 +10,11 @@ Our GDNSD configuration can be found at [GitHub](//github.com/miraheze/dns), and
 
 ### config 
 
-[config](https://github.com/miraheze/dns/blob/master/config) is the file that contains GDNSD configuration. There is a stanza in it that can be used to load balance the main traffic to multiple servers (e.g. servers running HAProxy). More information about the available options in this file can be found [here](https://github.com/gdnsd/gdnsd/wiki/GdnsdConfig).
+[config](https://github.com/miraheze/dns/blob/main/config) is the file that contains GDNSD configuration. There is a stanza in it that can be used to load balance the main traffic to multiple servers (e.g. servers running HAProxy). More information about the available options in this file can be found [here](https://github.com/gdnsd/gdnsd/wiki/GdnsdConfig).
 
 ### zones 
 
-DNS records (for one domain name) are stored in a zone (e.g. [https://raw.githubusercontent.com/miraheze/dns/master/zones/wikitide.net](https://raw.githubusercontent.com/miraheze/dns/master/zones/wikitide.net)).
+DNS records (for one domain name) are stored in a zone (e.g. [https://raw.githubusercontent.com/miraheze/dns/main/zones/wikitide.net](https://raw.githubusercontent.com/miraheze/dns/main/zones/wikitide.net)).
 
 ## Deployment 
 

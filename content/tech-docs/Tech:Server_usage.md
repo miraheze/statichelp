@@ -8,16 +8,16 @@ Miraheze requires lots of **servers** in order to provide service. With over 400
 
 Currently, servers at Miraheze are used for:
 
-* [Cache proxy](/tech-docs/techvarnish): [cp36](https://meta.miraheze.org/wiki/Tech:Cp36), [cp37](https://meta.miraheze.org/wiki/Tech:Cp37)
+* [Cache proxy](/tech-docs/techvarnish): cp36, cp37, cp38
 * [Database](/tech-docs/techmariadb): [db151](/tech-docs/techdb151), [db161](/tech-docs/techdb161), [db171](/tech-docs/techdb171), [db172](/tech-docs/techdb172), [db181](/tech-docs/techdb181), [db182](/tech-docs/techdb182)
 * [DNS](/tech-docs/techdns): [ns1](/tech-docs/techns1), [ns2](/tech-docs/techns2)
-* [Mattermost](/tech-docs/techmattermost): [mattermost1](https://meta.miraheze.org/wiki/Tech:Mattermost1)
-* [MediaWiki](/tech-docs/techmediawiki_appserver): [mw151](/tech-docs/techmw151), [mw152](/tech-docs/techmw152), [mw153](https://meta.miraheze.org/wiki/Tech:Mw153), [mw154](https://meta.miraheze.org/wiki/Tech:Mw154), [mw161](/tech-docs/techmw161), [mw162](/tech-docs/techmw162), [mw163](https://meta.miraheze.org/wiki/Tech:Mw163), [mw164](https://meta.miraheze.org/wiki/Tech:Mw164), [mw171](/tech-docs/techmw171), [mw172](/tech-docs/techmw172), [mw173](https://meta.miraheze.org/wiki/Tech:Mw173), [mw174](https://meta.miraheze.org/wiki/Tech:Mw174), [mw181](/tech-docs/techmw181), [mw182](/tech-docs/techmw182), [mw183](https://meta.miraheze.org/wiki/Tech:Mw183), [mw184](https://meta.miraheze.org/wiki/Tech:Mw184), [mwtask151](https://meta.miraheze.org/wiki/Tech:Mwtask151), [mwtask161](https://meta.miraheze.org/wiki/Tech:Mwtask161), [mwtask171](/tech-docs/techmwtask171), [mwtask181](/tech-docs/techmwtask181), [jobchron171](/tech-docs/techjobchron171)
-* [Swift](/tech-docs/techswift): [swiftac171](/tech-docs/techswiftac171), [swiftobject151](/tech-docs/techswiftobject151), [swiftobject161](/tech-docs/techswiftobject161), [swiftobject171](/tech-docs/techswiftobject171), [swiftobject181](/tech-docs/techswiftobject181), [swiftproxy161](/tech-docs/techswiftproxy161), [swiftproxy171](/tech-docs/techswiftproxy171)
+* [Mattermost](/tech-docs/techmattermost): mattermost1
+* [MediaWiki](/tech-docs/techmediawiki_appserver): [mw151](/tech-docs/techmw151), [mw152](/tech-docs/techmw152), mw153, [mw161](/tech-docs/techmw161), [mw162](/tech-docs/techmw162), mw163, [mw171](/tech-docs/techmw171), [mw172](/tech-docs/techmw172), mw173, [mw181](/tech-docs/techmw181), [mw182](/tech-docs/techmw182), mw183, mw191, mw192, mw193, mw201, mw202, mw203, mwtask151, mwtask161, [mwtask171](/tech-docs/techmwtask171), [mwtask181](/tech-docs/techmwtask181)
+* [Swift](/tech-docs/techswift): [swiftac171](/tech-docs/techswiftac171), [swiftobject151](/tech-docs/techswiftobject151), [swiftobject161](/tech-docs/techswiftobject161), [swiftobject171](/tech-docs/techswiftobject171), [swiftobject181](/tech-docs/techswiftobject181), swiftobject191, swiftobject201, [swiftproxy161](/tech-docs/techswiftproxy161), [swiftproxy171](/tech-docs/techswiftproxy171)
 * Miscellaneous
    * [mon181](/tech-docs/techmon181): [Grafana](/tech-docs/techgrafana), [Icinga](/tech-docs/techicinga)
    * [phorge171](/tech-docs/techphorge171): [Phorge](/tech-docs/techphorge)
-   * [mem151](/tech-docs/techmem151), [mem161](/tech-docs/techmem161): [Memcached](/tech-docs/techmemcached)
+   * [mem151](/tech-docs/techmem151), [mem161](/tech-docs/techmem161), mem201: [Memcached](/tech-docs/techmemcached)
    * [graylog161](/tech-docs/techgraylog161): [Graylog](/tech-docs/techgraylog)
    * [ldap171](/tech-docs/techldap171): [Ldap](/tech-docs/techldap)
    * [matomo151](/tech-docs/techmatomo151): [Matomo](/tech-docs/techmatomo)
@@ -29,68 +29,75 @@ Currently, servers at Miraheze are used for:
 
 | server name | Memory (RAM) | CPU | Storage | Host | Location | Debian version | Kernel version |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [cp36](https://meta.miraheze.org/wiki/Tech:Cp36) (cloud16) | 6 GB | 4 cores @ 2.65 GHz | 100 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [cp37](https://meta.miraheze.org/wiki/Tech:Cp37) (cloud17) | 6 GB | 4 cores @ 2.65 GHz | 100 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [ns1](/tech-docs/techns1) (cloud17) | 1 GB | 1 core @ 2 GHz | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [ns2](/tech-docs/techns2) | 2 GB | 1 core (unknown speed) | 20 GB SSD | OVH | London, England | Bookworm | |
 | [bast161](/tech-docs/techbast161) | 1 GB | 1 core (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [bast181](/tech-docs/techbast181) | 1 GB | 1 core (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [bots171](https://meta.miraheze.org/wiki/Tech:bots171) | 4 GB | 2 cores (unknown speed) | 20 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [changeprop151](https://meta.miraheze.org/wiki/Tech:changeprop151) | 12 GB | 8 cores (unknown speed) | 20 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [cloud15](/tech-docs/techcloud15) | 270 GB | 80 cores @ 3.2 GHz | 4 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [cloud16](/tech-docs/techcloud16) | 270 GB | 80 cores @ 3.2 GHz | 4 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [cloud17](/tech-docs/techcloud17) | 270 GB | 80 cores @ 3.2 GHz | 4 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [cloud18](/tech-docs/techcloud18) | 270 GB | 80 cores @ 3.2 GHz | 4 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [db151](/tech-docs/techdb151) | 63 GB | 6 cores (unknown speed) | 1 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [db161](/tech-docs/techdb161) | 63 GB | 6 cores (unknown speed) | 1 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [db171](/tech-docs/techdb171) | 63 GB | 6 cores (unknown speed) | 1 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| bots171 | 4 GB | 2 cores (unknown speed) | 20 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| changeprop201 (cloud19) | 10 GB | 8 cores (unknown speed) | 20 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [cloud15](/tech-docs/techcloud15) | 500 GB | 80 cores @ 3.2 GHz | 8 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [cloud16](/tech-docs/techcloud16) | 500 GB | 80 cores @ 3.2 GHz | 8 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [cloud17](/tech-docs/techcloud17) | 500 GB | 80 cores @ 3.2 GHz | 8 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [cloud18](/tech-docs/techcloud18) | 500 GB | 80 cores @ 3.2 GHz | 8 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| cloud19 | 500 GB | 80 cores @ 3.2 GHz | 8 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| cloud20 | 500 GB | 80 cores @ 3.2 GHz | 8 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| cp36 (cloud16) | 10 GB | 6 cores @ 2.65 GHz | 100 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| cp37 (cloud17) | 32 GB | 8 cores @ 2.65 GHz | 500 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| cp38 (cloud19) | 32 GB | 8 cores @ 2.65 GHz | 500 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [db151](/tech-docs/techdb151) | 138 GB | 6 cores (unknown speed) | 1 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [db161](/tech-docs/techdb161) | 138 GB | 6 cores (unknown speed) | 1 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [db171](/tech-docs/techdb171) | 138 GB | 6 cores (unknown speed) | 1 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [db172](/tech-docs/techdb172) | 6 GB | 4 cores (unknown speed) | 32 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [db181](/tech-docs/techdb181) | 63 GB | 6 cores (unknown speed) | 1 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [db181](/tech-docs/techdb181) | 138 GB | 6 cores (unknown speed) | 1 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [db182](/tech-docs/techdb182) | 14 GB | 6 cores (unknown speed) | 512 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [os151](/tech-docs/techos151) | 8 GB | 2 cores (unknown speed) | 250 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [os161](/tech-docs/techos161) | 8 GB | 2 cores (unknown speed) | 250 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [os162](https://meta.miraheze.org/wiki/Tech:os162) | 6 GB | 4 cores (unknown speed) | 500 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [eventgate181](https://meta.miraheze.org/wiki/Tech:eventgate181) | 6 GB | 4 cores (unknown speed) | 20 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [graphite151](https://meta.miraheze.org/wiki/Tech:graphite151) | 4 GB | 4 cores (unknown speed) | 30 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| eventgate181 | 6 GB | 4 cores (unknown speed) | 20 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [graylog161](/tech-docs/techgraylog161) | 6 GB | 4 cores (unknown speed) | 20 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [jobchron171](/tech-docs/techjobchron171) | 2 GB | 2 cores (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| kafka181 | 20 GB | 8 cores (unknown speed) | 30 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [ldap171](/tech-docs/techldap171) | 1 GB | 1 core (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [matomo151](/tech-docs/techmatomo151) | 4 GB | 4 cores (unknown speed) | 20 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [mattermost1](https://meta.miraheze.org/wiki/Tech:mattermost1) | 2 GB | 2 cores (unknown speed) | 40 GB SSD | OVH | Hillsboro, Oregon | Bookworm | |
-| [mem151](/tech-docs/techmem151) | 64 GB | 2 cores (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [mem161](/tech-docs/techmem161) | 64 GB | 2 cores (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| mattermost1 | 2 GB | 2 cores (unknown speed) | 40 GB SSD | OVH | Hillsboro, Oregon | Bookworm | |
+| [mem151](/tech-docs/techmem151) | 70 GB | 4 cores (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [mem161](/tech-docs/techmem161) | 70 GB | 4 cores (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| mem201 | 70 GB | 4 cores (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [mon181](/tech-docs/techmon181) | 4 GB | 4 cores (unknown speed) | 20 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [mw151](/tech-docs/techmw151) | 12 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [mw152](/tech-docs/techmw152) | 12 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [mw153](https://meta.miraheze.org/wiki/Tech:Mw153) | 12 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [mw154](https://meta.miraheze.org/wiki/Tech:Mw154) | 12 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [mw161](/tech-docs/techmw161) | 12 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [mw162](/tech-docs/techmw162) | 12 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [mw163](https://meta.miraheze.org/wiki/Tech:Mw163) | 12 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [mw164](https://meta.miraheze.org/wiki/Tech:Mw164) | 12 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [mw171](/tech-docs/techmw171) | 12 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [mw172](/tech-docs/techmw172) | 12 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [mw173](https://meta.miraheze.org/wiki/Tech:Mw173) | 12 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [mw174](https://meta.miraheze.org/wiki/Tech:Mw174) | 12 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [mw181](/tech-docs/techmw181) | 12 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [mw182](/tech-docs/techmw182) | 12 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [mw183](https://meta.miraheze.org/wiki/Tech:Mw183) | 12 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [mw184](https://meta.miraheze.org/wiki/Tech:Mw184) | 12 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [mwtask151](https://meta.miraheze.org/wiki/Tech:Mwtask151) | 16 GB | 12 cores (unknown speed) | 260 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [mwtask161](https://meta.miraheze.org/wiki/Tech:Mwtask161) | 16 GB | 12 cores (unknown speed) | 260 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [mw151](/tech-docs/techmw151) | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [mw152](/tech-docs/techmw152) | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| mw153 | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [mw161](/tech-docs/techmw161) | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [mw162](/tech-docs/techmw162) | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| mw163 | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [mw171](/tech-docs/techmw171) | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [mw172](/tech-docs/techmw172) | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| mw173 | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [mw181](/tech-docs/techmw181) | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [mw182](/tech-docs/techmw182) | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| mw183 | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| mw191 | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| mw192 | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| mw193 | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| mw201 | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| mw202 | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| mw203 | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| mwtask151 | 16 GB | 12 cores (unknown speed) | 260 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| mwtask161 | 16 GB | 12 cores (unknown speed) | 260 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [mwtask171](/tech-docs/techmwtask171) | 16 GB | 12 cores (unknown speed) | 300 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [mwtask181](/tech-docs/techmwtask181) | 16 GB | 12 cores (unknown speed) | 250 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [phorge171](/tech-docs/techphorge171) | 2 GB | 4 core (unknown speed) | 50 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [prometheus151](/tech-docs/techprometheus151) | 8 GB | 6 cores (unknown speed) | 150 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [ns1](/tech-docs/techns1) (cloud17) | 1 GB | 1 core @ 2 GHz | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [ns2](/tech-docs/techns2) | 2 GB | 1 core (unknown speed) | 20 GB SSD | OVH | London, England | Bookworm | |
+| [os151](/tech-docs/techos151) | 8 GB | 2 cores (unknown speed) | 500 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [os161](/tech-docs/techos161) | 8 GB | 2 cores (unknown speed) | 500 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| os162 | 6 GB | 4 cores (unknown speed) | 500 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [phorge171](/tech-docs/techphorge171) | 2 GB | 4 core (unknown speed) | 80 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [prometheus151](/tech-docs/techprometheus151) | 8 GB | 4 cores (unknown speed) | 150 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [puppet181](/tech-docs/techpuppet181) | 8 GB | 6 cores (unknown speed) | 35 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [rdb151](https://meta.miraheze.org/wiki/Tech:rdb151) | 4 GB | 2 cores (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| rdb151 | 4 GB | 2 cores (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [reports171](/tech-docs/techreports171) | 1 GB | 2 cores (unknown speed) | 20 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [swiftac171](/tech-docs/techswiftac171) | 8 GB | 6 cores (unknown speed) | 100 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [swiftobject151](/tech-docs/techswiftobject151) | 6 GB | 6 cores (unknown speed) | 1.5 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [swiftobject161](/tech-docs/techswiftobject161) | 6 GB | 6 cores (unknown speed) | 1.5 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [swiftobject171](/tech-docs/techswiftobject171) | 6 GB | 6 cores (unknown speed) | 1.5 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [swiftobject181](/tech-docs/techswiftobject181) | 6 GB | 6 cores (unknown speed) | 1.5 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [swiftproxy161](/tech-docs/techswiftproxy161) | 4 GB | 4 cores (unknown speed) | 30 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| swiftobject191 | 6 GB | 6 cores (unknown speed) | 1.5 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| swiftobject201 | 6 GB | 6 cores (unknown speed) | 1.5 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [swiftproxy161](/tech-docs/techswiftproxy161) | 4 GB | 8 cores (unknown speed) | 30 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [swiftproxy171](/tech-docs/techswiftproxy171) | 4 GB | 4 cores (unknown speed) | 30 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [test151](/tech-docs/techtest151) | 12 GB | 12 cores (unknown speed) | 100 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 
@@ -112,10 +119,10 @@ Currently, servers at Miraheze are used for:
 | [<s>cp10</s>](https://meta.miraheze.org/wiki/Tech:Cp10) *decommissioned* | 2GB, 2 cores, 30 GB SSD | 1 February 2021 | |  |
 | [<s>cp11</s>](https://meta.miraheze.org/wiki/Tech:Cp11) *decommissioned* | 2GB, 2 cores, 30 GB SSD | 1 February 2021 | |  |
 | [<s>cp12</s>](https://meta.miraheze.org/wiki/Tech:Cp12) *decommissioned* | 2GB, 2 cores, 30 GB SSD | 1 February 2021 | |  |
-| ~~[cp26](https://meta.miraheze.org/wiki/Tech:cp26)~~ *decommissioned* | 6 GB, 4 core @ 2.65 GHz, 100 GB SSD | 24 January 2024 | 2 September 2024 | $5.50 |
-| ~~[cp27](https://meta.miraheze.org/wiki/Tech:Cp27)~~ *decommissioned* | 6 GB, 4 core @ 2.65 GHz, 100 GB SSD | 28 January 2024 | 2 September 2024 | $5.50 |
-| ~~[cp41](https://meta.miraheze.org/wiki/Tech:cp41)~~ *decommissioned* | 6 GB, 4 core @ 2.65 GHz, 100 GB SSD | 24 January 2024 | 2 September 2024 | $7.75 |
-| ~~[cp51](https://meta.miraheze.org/wiki/Tech:Cp51)~~ *decommissioned* | 6 GB, 4 core @ 2.65 GHz, 100 GB SSD | 24 January 2024 | 2 September 2024 | $7.40 |
+| ~~cp26~~ *decommissioned* | 6 GB, 4 core @ 2.65 GHz, 100 GB SSD | 24 January 2024 | 2 September 2024 | $5.50 |
+| ~~cp27~~ *decommissioned* | 6 GB, 4 core @ 2.65 GHz, 100 GB SSD | 28 January 2024 | 2 September 2024 | $5.50 |
+| ~~cp41~~ *decommissioned* | 6 GB, 4 core @ 2.65 GHz, 100 GB SSD | 24 January 2024 | 2 September 2024 | $7.75 |
+| ~~cp51~~ *decommissioned* | 6 GB, 4 core @ 2.65 GHz, 100 GB SSD | 24 January 2024 | 2 September 2024 | $7.40 |
 | ~~[db1](https://meta.miraheze.org/wiki/Tech:db1)~~ *decommissioned* | |  | 5 October 2015 | N/A |
 | ~~[db2](https://meta.miraheze.org/wiki/Tech:db2)~~ *decommissioned* | 8GB, 4 cores @ 2.30 GHz, 120G GB SSD | |  | N/A |
 | ~~[db3](https://meta.miraheze.org/wiki/Tech:Db3)~~ *decommissioned* | 6GB, 2 cores @ 2.30 GHz, 100G GB SSD | |  | N/A |
@@ -138,7 +145,7 @@ Currently, servers at Miraheze are used for:
 | [<s>lizardfs3</s>](https://meta.miraheze.org/wiki/Tech:_lizardfs3) *decommissioned* | 512MB, 2 core @ 2.30 GHz, 150 GB HDD | |  | $5 |
 | [<s>lizardfs4</s>](https://meta.miraheze.org/wiki/Tech:lizardfs4) *decommissioned* | 1GB, 2 core @ 2.30 GHz, 325 GB HDD | |  | $5 |
 | [<s>lizardfs5</s>](https://meta.miraheze.org/wiki/Tech:lizardfs5) *decommissioned* | 1GB, 2 core @ 2.30 GHz, 325 GB HDD | |  | $5 |
-| [<s>lizardfs6</s>](https://meta.miraheze.org/wiki/Tech:lizardfs6) *decommissioned* | 32GB, 8 core @ 3.5GHz, 2 TB HDD | |  |  |
+| ~~lizardfs6~~ *decommissioned* | 32GB, 8 core @ 3.5GHz, 2 TB HDD | |  |  |
 | [<s>mail1</s>](https://meta.miraheze.org/wiki/Tech:Mail1) *decommissioned* | 1GB, 1 core, 10 GB SSD | 12 February 2020 | 1 February 2021 | |
 | [<s>misc1</s>](https://meta.miraheze.org/wiki/Tech:Misc1) *decommissioned* | 1GB, 1 core @ 2.40 GHz, 40 GB SSD | |  |  |
 | [<s>misc2</s>](https://meta.miraheze.org/wiki/Tech:Misc2) *decommissioned* | 1GB, 1 core @ 2.40 GHz, 40 GB SSD | | 19 March 2020 | $3.15 |
@@ -256,6 +263,13 @@ Currently, servers at Miraheze are used for:
 | [swiftproxy111](https://meta.miraheze.org/wiki/Tech:swiftproxy111) | 4 GB, 4 cores (unknown speed), 30 GB SSD | |  |  |
 | [swiftproxy131](https://meta.miraheze.org/wiki/Tech:swiftproxy131) | 4 GB, 4 cores (unknown speed), 30 GB SSD | |  |  |
 | [test131](https://meta.miraheze.org/wiki/Tech:test131) | 2 GB, 2 cores (unknown speed), 30 GB SSD | |  |  |
+| changeprop151 | 12 GB, 8 cores (unknown speed), 20 GB U.2 NVMe | |  |  |
+| graphite151 | 4 GB, 4 cores (unknown speed), 30 GB U.2 NVMe | |  |  |
+| [jobchron171](https://meta.miraheze.org/wiki/Tech:jobchron171) | 2 GB, 2 cores (unknown speed), 10 GB U.2 NVMe | |  |  |
+| mw154 | 12 GB, 12 cores (unknown speed), 60 GB U.2 NVMe | |  |  |
+| mw164 | 12 GB, 12 cores (unknown speed), 60 GB U.2 NVMe | |  |  |
+| mw174 | 12 GB, 12 cores (unknown speed), 60 GB U.2 NVMe | |  |  |
+| mw184 | 12 GB, 12 cores (unknown speed), 60 GB U.2 NVMe | |  |  |
 
 ## Categories
 

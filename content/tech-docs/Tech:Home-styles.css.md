@@ -48,9 +48,61 @@ background: #F6F6F6;
 grid-area: depth;
 }
 
+html.skin-theme-clientpref-night .card-news {
+border-top-color: #FFFFEA;
+background: #67540F;
+}
+
+html.skin-theme-clientpref-night .card-tech {
+border-top-color: #F7F6FF;
+background: #180F67;
+}
+
+html.skin-theme-clientpref-night .card-dyk {
+border-top-color: #FFF2F6;
+background: #67440F;
+}
+
+html.skin-theme-clientpref-night .card-services {
+border-top-color: #F8FFF5;
+background: #2C670F;
+}
+
+html.skin-theme-clientpref-night .card-depth {
+border-top-color: #F6F6F6;
+background: #6F6F6F;
+}
+
 .card h3 {
 text-align: center;
 font-size: 1.5em;
+}
+
+@media (prefers-color-scheme: dark) {
+html.skin-theme-clientpref-os .card-news {
+border-top-color: #FFFFEA;
+background: #67540F;
+}
+
+html.skin-theme-clientpref-os .card-tech {
+border-top-color: #F7F6FF;
+background: #180F67;
+}
+
+html.skin-theme-clientpref-os .card-dyk {
+border-top-color: #FFF2F6;
+background: #67440F;
+}
+
+html.skin-theme-clientpref-os .card-services {
+border-top-color: #F8FFF5;
+background: #2C670F;
+}
+
+html.skin-theme-clientpref-os .card-depth {
+border-top-color: #F6F6F6;
+background: #6F6F6F;
+}
 }
 
 @media only screen and (max-width: 900px) {

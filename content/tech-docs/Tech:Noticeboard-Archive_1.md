@@ -222,6 +222,11 @@ For images, they may appear missing at random times while Swift copies over file
 #### When will we begin to see speed improvements? 
 
 You can see them already! Wikis load *much* faster than before!
+## MediaWiki 1.42 upgrade 
+
+Miraheze will be upgrading to 1.42 this Wednesday, July 17.
+
+We will let everyone know ~ 30 minutes before we start the upgrade via [Discord](https://meta.miraheze.org/wiki/Discord), [IRC](https://meta.miraheze.org/wiki/IRC) (on the #miraheze channel) and [Mastodon](https://mastodon.social/@miraheze). [Alex (Miraheze)](https://meta.miraheze.org/wiki/User:Alex_(Miraheze)) ([talk](https://meta.miraheze.org/wiki/User_talk:Alex_(Miraheze))) 09:42, 15 July 2024 (UTC)
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Noticeboard/Archive_1)**
