@@ -1,6 +1,6 @@
 name = "Doks"
 license = "MIT"
-licenselink = "https://github.com/thuliteio/doks/blob/master/LICENSE"
+licenselink = "https://github.com/thuliteio/doks/blob/main/LICENSE"
 description = "Build beautiful, high-performance documentation websites with Doks."
 
 homepage = "https://github.com/thuliteio/doks"
