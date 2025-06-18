@@ -2,6 +2,1729 @@
 title: Tech:Server admin log
 ---
 
+## 2025-06-17 
+
+* 02:53 Universal Omega: remove pywikibot crontab on bots171 (all crons on bots171 are migrated to systemd timers)
+* 01:31 MirahezeLSBot: [somerandomdeveloper@mwtask171] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/deleteBatch.php --wiki=battlenationswiki --i=1 --u=Miraheze_Operations --r=' [Requested](https://meta.miraheze.org/wiki/phab:T13542)' /home/somerandomdeveloper/deletebatch.txt (END - exit=0)
+* 00:38 Universal Omega: remove root crontab on mon181 (all crons on mon181 are migrated to systemd timers)
+* 00:28 Universal Omega: remove root crontab on phorge171 (all crons on phorge171 are migrated to systemd timers)
+* 00:27 Universal Omega: remove root crontab on db� (all crons on db� are migrated to systemd timers)
+* 00:26 Universal Omega: remove root crontab on test151 (all crons on test151 are migrated to systemd timers)
+
+## 2025-06-16 
+
+* 23:48 Universal Omega: remove root crontab on ns� (all crons on ns� are migrated to systemd timers)
+* 23:42 Universal Omega: remove root crontab on graylog161 (all crons on graylog161 are migrated to systemd timers)
+* 23:28 Universal Omega: remove root crontab on cp� (all crons on cp� are migrated to systemd timers)
+* 23:23 Universal Omega: remove root crontab on ldap171 (all crons on ldap171 are migrated to systemd timers)
+* 22:45 Universal Omega: remove www-data crontab on reports171 (all crons on reports171 are migrated to systemd timers)
+* 22:44 Universal Omega: remove /etc/cron.d/devicecheck on swiftobject*
+* 19:47 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 33s
+* 19:46 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:45 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 19:45 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 18:54 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=fashiondreamerwiki --new=fashiondreamerwikiwiki --user=Reception123 (END - exit=0)
+* 18:50 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=pokenexuswiki --new=pokemoneclipsewiki --user=Reception123 (END - exit=0)
+* 18:42 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=taiwanrailwihiwiki --new=taiwanrailwikiwiki --user=Reception123 (END - exit=0)
+* 18:39 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=jtohxlprojectwiki --new=etohxlwiki --user=Reception123 (END - exit=0)
+* 18:37 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=csgamedevtycoonwiki --new=gdtwikiwiki --user=Reception123 (END - exit=0)
+* 18:33 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=princesscacashwiki --new=soloniuniwiki --user=Reception123 (END - exit=0)
+* 12:30 MirahezeLSBot: [somerandomdeveloper@mwtask171] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/deleteBatch.php --wiki=battlenationswiki --i=1 --u=Miraheze_Operations --r=' [Requested](https://meta.miraheze.org/wiki/phab:T13542)' /home/somerandomdeveloper/deletebatch.txt (START)
+* 12:24 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php createAndPromote --wiki=battlenationswiki Miraheze_Operations --force --bot (END - exit=0)
+* 12:22 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CentralAuth:createLocalAccount --wiki=battlenationswiki Miraheze_Operations (END - exit=0)
+* 12:21 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CentralAuth:createLocalAccount --wiki=randomstuffwikibeta SomeRandomDeveloperAlt (END - exit=0)
+* 12:19 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/createAndPromote.php --wiki=randomstuffwikibeta SomeRandomDeveloperAlt --bot (END - exit=256)
+* 12:18 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/createAndPromote.php --wiki=morerandomstuffwikibeta RhinosF1 --bot (END - exit=256)
+* 12:16 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/createAndPromote.php --wiki=morerandomstuffwikibeta Miraheze_Operations --bot (END - exit=256)
+* 12:08 @paladox: reboot matomo151
+* 11:50 @paladox: reboot mw192
+
+## 2025-06-15 
+
+* 21:33 Universal Omega: remove root crontab on swiftac171 (all crons on swiftac171 are migrated to systemd timers)
+* 21:18 Universal Omega: remove root crontab on puppet181 (all crons on puppet181 are migrated to systemd timers)
+* 19:42 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'force': True, 'force_upgrade': True, 'versions': '1.43', 'upgrade_extensions': 'StructuredNavigation'} to all - SUCCESS in 24s
+* 19:41 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'force': True, 'force_upgrade': True, 'versions': '1.43', 'upgrade_extensions': 'StructuredNavigation'} to all
+* 19:41 MirahezeLSBot: [somerandomdeveloper@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mw153
+* 19:40 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.43', 'upgrade_extensions': 'StructuredNavigation'} to all
+* 19:26 MirahezeLSBot: [somerandomdeveloper@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mw152
+* 19:26 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.43', 'upgrade_extensions': 'StructuredNavigation'} to all
+* 19:12 Universal Omega: remove /etc/cron.d/puppet on all other servers
+* 18:58 Universal Omega: remove /etc/cron.d/puppet on mwtask151
+* 18:55 Universal Omega: remove /etc/cron.d/puppet on test151
+* 14:32 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 14:32 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 14:22 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 14:22 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 08:11 BlankEclair: Authorisation to remove MFA for Tokinohiroba was granted by T&S: [https://groups.google.com/a/wikitide.org/g/tech/c/HYq539fQfhA](https://groups.google.com/a/wikitide.org/g/tech/c/HYq539fQfhA)
+* 08:10 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/extensions/OATHAuth/maintenance/disableOATHAuthForUser.php --wiki=loginwiki Tokinohiroba (END - exit=0)
+* 08:08 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php OATHAuth:DisableOATHAuthForUser --wiki=loginwiki Tokinohiroba (END - exit=256)
+* 08:08 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php OATHAuth:disableOATHAuthForUser --wiki=loginwiki Tokinohiroba (END - exit=65280)
+
+## 2025-06-14 
+
+* 14:03 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/namespaceDupes.php --wiki=jjtwiki --source-pseudo-namespace=Jayden J. Tomlinson Wiki --dest-namespace=4 (END - exit=0)
+* 14:00 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/namespaceDupes.php --wiki=jjtwiki (END - exit=0)
+
+## 2025-06-13 
+
+* 15:06 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/deleteBatch.php --wiki=ecopediawiki --r ' [Requested](https://meta.miraheze.org/wiki/phab:T13701)' /home/somerandomdeveloper/BatchDeletionT13701.txt (END - exit=256)
+* 15:06 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/deleteBatch.php --wiki=ecopediawiki --r ' [Requested](https://meta.miraheze.org/wiki/phab:T13701)' /home/somerandomdeveloper/BatchDeletionT13701.txt (START)
+* 15:05 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/deleteBatch.php --wiki=ecopediawiki --r [Requested](https://meta.miraheze.org/wiki/phab:T13701) /home/somerandomdeveloper/BatchDeletionT13701.txt (END - exit=2)
+* 15:05 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/deleteBatch.php --wiki=ecopediawiki --r [Requested](https://meta.miraheze.org/wiki/phab:T13701) /home/somerandomdeveloper/BatchDeletionT13701.txt (START)
+* 12:51 MirahezeLSBot: [somerandomdeveloper@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mw151
+* 12:51 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.43/extensions/StructuredNavigation'} to all
+* 12:37 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'StructuredNavigation'} to all - SUCCESS in 1s
+* 12:37 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'StructuredNavigation'} to all
+* 11:06 MirahezeLSBot: [somerandomdeveloper@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@localhost
+* 11:06 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'StructuredNavigation'} to all
+* 11:02 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'StructuredNavigation'} to test151 - SUCCESS in 2s
+* 11:02 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'StructuredNavigation'} to test151
+* 10:30 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_skins': 'Metrolook'} to all - SUCCESS in 22s
+* 10:30 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_skins': 'Metrolook'} to all
+* 09:50 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/updateCollation.php --wiki=rapanuidictionaryprojectwiki (END - exit=0)
+* 09:47 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/updateCollation.php --wiki=historikawiki (END - exit=0)
+* 05:58 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_skins': 'Citizen'} to all - SUCCESS in 24s
+* 05:57 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_skins': 'Citizen'} to all
+
+## 2025-06-12 
+
+* 22:54 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 22:54 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 15:37 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_skins': 'Citizen'} to test151 - SUCCESS in 1s
+* 15:37 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_skins': 'Citizen'} to test151
+* 14:07 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php deleteBatch --wiki=smpearthpublicwiki pt.txt --r='Delete Fandom pages per request ([T13840](https://meta.miraheze.org/wiki/phorge:T13840))' (END - exit=0)
+* 14:00 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_skins': 'Citizen'} to test151 - SUCCESS in 2s
+* 14:00 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_skins': 'Citizen'} to test151
+* 13:56 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php deleteBatch --wiki=smpearthpublicwiki pt.txt --r='Delete Fandom pages per request ([T13840](https://meta.miraheze.org/wiki/phorge:T13840))' (START)
+* 13:15 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'world': True, 'l10n': True, 'extension_list': True, 'versions': '1.43'} to test151 - SUCCESS in 365s
+* 13:09 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'world': True, 'l10n': True, 'extension_list': True, 'versions': '1.43'} to test151
+* 13:06 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 13:06 MirahezeLSBot: [rhinos@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 13:04 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 13:04 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+
+## 2025-06-11 
+
+* 01:38 MirahezeLSBot: [blankeclair@mwtask181] Finished import for luntikfanonwiki (XML: None; Images: LuntikFanonWikiImagesImport) (END - exit=0)
+* 01:38 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=luntikfanonwiki --update (END - exit=0)
+* 01:38 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=luntikfanonwiki --update (START)
+* 01:38 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=luntikfanonwiki '--comment=Importing images from [https://luntikfanon.fandom.com/ru/](https://luntikfanon.fandom.com/ru/) ([T13824](https://meta.miraheze.org/wiki/phorge:T13824))' -- LuntikFanonWikiImagesImport (END - exit=0)
+* 01:21 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=luntikfanonwiki '--comment=Importing images from [https://luntikfanon.fandom.com/ru/](https://luntikfanon.fandom.com/ru/) ([T13824](https://meta.miraheze.org/wiki/phorge:T13824))' -- LuntikFanonWikiImagesImport (START)
+* 01:21 MirahezeLSBot: [blankeclair@mwtask181] Starting import for luntikfanonwiki (XML: None; Images: LuntikFanonWikiImagesImport) (START)
+
+## 2025-06-10 
+
+* 16:19 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': ['1.43', '1.44'], 'upgrade_extensions': 'GoogleDocs4MW'} to test151 - SUCCESS in 608s
+* 16:10 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.43', 'upgrade_extensions': 'GoogleDocs4MW'} to all - SUCCESS in 108s
+* 16:09 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.43', '1.44'], 'upgrade_extensions': 'GoogleDocs4MW'} to test151
+* 16:09 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.43', 'upgrade_extensions': 'GoogleDocs4MW'} to all
+
+## 2025-06-09 
+
+* 23:57 BlankEclair: UPDATE mhglobal.mw_permissions SET perm_permissions = '[...]' WHERE perm_dbname = 'depressingdeathswiki' AND perm_group = 'owner';
+* 23:32 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 21s
+* 23:32 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 23:25 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=meccatronicawiki (END - exit=0)
+* 23:24 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=meccatronicawiki --startOver (END - exit=0)
+* 22:28 Universal Omega: mon181: restart ircecho as a test
+* 15:33 MirahezeLSBot: [oa@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 15:33 MirahezeLSBot: [oa@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 13:34 RhinosF1: recover 2 accounts by resetting the email following approval from T&S
+* 01:10 Universal Omega: reboot cp36
+
+## 2025-06-08 
+
+* 23:21 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 21s
+* 23:21 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 23:16 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 23:16 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 20:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask181: libapache2-mod-security2
+* 19:33 MirahezeLSBot: [universalomega@bots171] Restarted RC bots, logserverbot, and logbot
+* 06:28 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': '1.43'} to all - SUCCESS in 495s
+* 06:20 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'l10n': True, 'versions': '1.43'} to all
+* 05:36 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 05:35 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 05:35 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'extension_list': True, 'versions': '1.43'} to all - SUCCESS in 22s
+* 05:34 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'extension_list': True, 'versions': '1.43'} to all
+* 05:34 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.43', 'upgrade_extensions': 'Details'} to all - SUCCESS in 23s
+* 05:34 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.43', 'upgrade_extensions': 'Details'} to all
+* 03:38 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': '1.43'} to all - SUCCESS in 499s
+* 03:30 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'l10n': True, 'versions': '1.43'} to all
+* 03:29 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'DiscordNotifications'} to all - SUCCESS in 24s
+* 03:29 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'DiscordNotifications'} to all
+
+## 2025-06-07 
+
+* 14:16 MirahezeLSBot: [paladox@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/extensions/CreateWiki/maintenance/SetContainersAccess.php --wiki claymaticwiki
+
+## 2025-06-06 
+
+* 06:47 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.43', 'upgrade_extensions': 'Math'} to all - SUCCESS in 25s
+* 06:46 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.43', 'upgrade_extensions': 'Math'} to all
+* 06:30 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importImages.php --wiki=animebattlearenawiki --summary=Imported from [https://animebattlearena.fandom.com](https://animebattlearena.fandom.com) --search-recursively /home/reception/animebattlearena (END - exit=0)
+* 05:52 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importImages.php --wiki=animebattlearenawiki --summary=Imported from [https://animebattlearena.fandom.com](https://animebattlearena.fandom.com) --search-recursively /home/reception/animebattlearena (START)
+* 04:02 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.43', 'upgrade_skins': 'Cosmos'} to all - SUCCESS in 22s
+* 04:01 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.43', 'upgrade_skins': 'Cosmos'} to all
+* 03:59 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.43', 'upgrade_extensions': 'QuickInstantCommons'} to all - SUCCESS in 21s
+* 03:58 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.43', 'upgrade_extensions': 'QuickInstantCommons'} to all
+* 02:51 MirahezeLSBot: [universalomega@swiftproxy171] Set hostname to swiftproxy171
+* 02:49 MirahezeLSBot: [universalomega@cloud18] Set hostname to cloud18
+* 02:48 MirahezeLSBot: [universalomega@cloud17] Set hostname to cloud17
+* 02:47 MirahezeLSBot: [universalomega@cloud16] Set hostname to cloud16
+* 02:46 MirahezeLSBot: [universalomega@db172] Set hostname to db172
+* 02:46 MirahezeLSBot: [universalomega@db172] Set hostname to db172.wikitide.net
+* 02:38 MirahezeLSBot: [universalomega@mattermost1] Set hostname to mattermost1
+
+## 2025-06-05 
+
+* 19:23 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: libfile-find-rule-perl
+* 19:23 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: libfile-find-rule-perl
+* 19:22 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: libfile-find-rule-perl
+* 19:22 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: libfile-find-rule-perl
+* 19:22 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: libfile-find-rule-perl
+* 19:22 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: libfile-find-rule-perl
+* 19:22 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: libfile-find-rule-perl
+* 19:03 MirahezeLSBot: [universalomega@ns2] test
+* 19:03 MirahezeLSBot: [universalomega@mattermost1.wikitide.net] test
+* 17:30 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importImages.php --wiki=powerwashsimulatorwiki images --search-recursively (END - exit=0)
+* 17:26 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importImages.php --wiki=powerwashsimulatorwiki images --search-recursively (START)
+* 17:11 MirahezeLSBot: [universalomega@ns2] test
+* 17:11 MirahezeLSBot: [universalomega@mattermost1.wikitide.net] test
+* 17:10 MirahezeLSBot: [universalomega@cloud18.wikitide.net] test
+* 17:10 MirahezeLSBot: [universalomega@cloud20] test
+* 17:10 MirahezeLSBot: [universalomega@cloud19] test
+* 17:10 MirahezeLSBot: [universalomega@cloud15] test
+* 17:09 MirahezeLSBot: [universalomega@cloud16.wikitide.net] test
+* 17:09 MirahezeLSBot: [universalomega@cloud17.wikitide.net] test
+* 16:57 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/initSiteStats.php --wiki=smpearthpublicwiki --update (END - exit=0)
+* 16:57 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=smpearthpublicwiki (END - exit=0)
+* 16:47 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=smpearthpublicwiki (START)
+* 16:47 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=smpearthpublicwiki dump.xml --no-updates (END - exit=0)
+* 16:46 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=smpearthpublicwiki dump.xml --no-updates (START)
+* 13:25 MirahezeLSBot: [macfan@mwtask181] runRefreshLinksChunked: [1/1] Done \o/
+* 09:14 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 09:13 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 05:41 RhinosF1: disable alerts on sslhost for 3 hours
+* 04:09 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 04:09 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 02:43 MirahezeLSBot: [universalomega@swiftobject171] test
+* 02:43 MirahezeLSBot: [universalomega@swiftobject201] test
+* 02:43 MirahezeLSBot: [universalomega@swiftobject151] test
+* 02:43 MirahezeLSBot: [universalomega@swiftproxy171.wikitide.net] test
+* 02:43 MirahezeLSBot: [universalomega@swiftobject191] test
+* 02:43 MirahezeLSBot: [universalomega@swiftobject161] test
+* 02:43 MirahezeLSBot: [universalomega@swiftac171] test
+* 02:43 MirahezeLSBot: [universalomega@swiftobject181] test
+* 02:43 MirahezeLSBot: [universalomega@swiftproxy161] test
+* 02:43 MirahezeLSBot: [universalomega@test151] test
+* 02:43 MirahezeLSBot: [universalomega@ns1] test
+* 02:43 MirahezeLSBot: [universalomega@os191] test
+* 02:43 MirahezeLSBot: [universalomega@rdb151] test
+* 02:43 MirahezeLSBot: [universalomega@puppet181] test
+* 02:42 MirahezeLSBot: [universalomega@reports171] test
+* 02:42 MirahezeLSBot: [universalomega@mwtask181] test
+* 02:42 MirahezeLSBot: [universalomega@os151] test
+* 02:42 MirahezeLSBot: [universalomega@phorge171] test
+* 02:42 MirahezeLSBot: [universalomega@os162] test
+* 02:42 MirahezeLSBot: [universalomega@mwtask171] test
+* 02:42 MirahezeLSBot: [universalomega@os161] test
+* 02:42 MirahezeLSBot: [universalomega@prometheus151] test
+* 02:42 MirahezeLSBot: [universalomega@os201] test
+* 02:42 MirahezeLSBot: [universalomega@mwtask161] test
+* 02:42 MirahezeLSBot: [universalomega@mwtask151] test
+* 02:42 MirahezeLSBot: [universalomega@mw173] test
+* 02:42 MirahezeLSBot: [universalomega@mw193] test
+* 02:42 MirahezeLSBot: [universalomega@mw182] test
+* 02:42 MirahezeLSBot: [universalomega@mw183] test
+* 02:42 MirahezeLSBot: [universalomega@mw202] test
+* 02:42 MirahezeLSBot: [universalomega@mw172] test
+* 02:42 MirahezeLSBot: [universalomega@mw203] test
+* 02:42 MirahezeLSBot: [universalomega@mw181] test
+* 02:42 MirahezeLSBot: [universalomega@mw191] test
+* 02:42 MirahezeLSBot: [universalomega@mw201] test
+* 02:42 MirahezeLSBot: [universalomega@mw163] test
+* 02:42 MirahezeLSBot: [universalomega@mw192] test
+* 02:41 MirahezeLSBot: [universalomega@mw171] test
+* 02:41 MirahezeLSBot: [universalomega@mw162] test
+* 02:41 MirahezeLSBot: [universalomega@mw161] test
+* 02:41 MirahezeLSBot: [universalomega@mw153] test
+* 02:41 MirahezeLSBot: [universalomega@mon181] test
+* 02:41 MirahezeLSBot: [universalomega@mem191] test
+* 02:41 MirahezeLSBot: [universalomega@mw151] test
+* 02:41 MirahezeLSBot: [universalomega@mw152] test
+* 02:41 MirahezeLSBot: [universalomega@mem201] test
+* 02:41 MirahezeLSBot: [universalomega@mem151] test
+* 02:41 MirahezeLSBot: [universalomega@mem161] test
+* 02:41 MirahezeLSBot: [universalomega@bast181] test
+* 02:41 MirahezeLSBot: [universalomega@graylog161] test
+* 02:41 MirahezeLSBot: [universalomega@ldap171] test
+* 02:41 MirahezeLSBot: [universalomega@db181] test
+* 02:41 MirahezeLSBot: [universalomega@kafka181] test
+* 02:41 MirahezeLSBot: [universalomega@db182] test
+* 02:41 MirahezeLSBot: [universalomega@bast161] test
+* 02:41 MirahezeLSBot: [universalomega@cp38] test
+* 02:41 MirahezeLSBot: [universalomega@db151] test
+* 02:41 MirahezeLSBot: [universalomega@cp37] test
+* 02:41 MirahezeLSBot: [universalomega@eventgate181] test
+* 02:41 MirahezeLSBot: [universalomega@db171] test
+* 02:40 MirahezeLSBot: [universalomega@changeprop201] test
+* 02:40 MirahezeLSBot: [universalomega@db172.wikitide.net] test
+* 02:40 MirahezeLSBot: [universalomega@matomo151] test
+* 02:40 MirahezeLSBot: [universalomega@db161] test
+* 02:40 MirahezeLSBot: [universalomega@cp36] test
+* 02:40 MirahezeLSBot: [universalomega@bots171] test
+* 02:35 MirahezeLSBot: [universalomega@bots171] test
+* 02:34 MirahezeLSBot: [universalomega@puppet181] test
+* 02:32 MirahezeLSBot: [universalomega@puppet181] test
+
+## 2025-06-04 
+
+* 21:39 MirahezeLSBot: [void@cloud19] set hostname to cloud19 (was cloud19.wikitide.net)
+* 21:38 MirahezeLSBot: [void@cloud20] set hostname to cloud20 (was cloud20.wikitide.net)
+* 20:35 MirahezeLSBot: [void@cloud20.wikitide.net] clear ipmi sel
+* 20:34 MirahezeLSBot: [void@cloud15] clear ipmi sel
+* 00:40 MirahezeLSBot: [blankeclair@mwtask181] Finished import for openkorebrasilwikiwiki (XML: None; Images: openkorebrasilwikiwiki/) (END - exit=0)
+* 00:40 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=openkorebrasilwikiwiki --update (END - exit=0)
+* 00:40 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=openkorebrasilwikiwiki --update (START)
+* 00:40 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=openkorebrasilwikiwiki '--comment=Importing images ([T13796](https://meta.miraheze.org/wiki/phorge:T13796))' --search-recursively -- openkorebrasilwikiwiki/ (END - exit=0)
+* 00:40 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=openkorebrasilwikiwiki '--comment=Importing images ([T13796](https://meta.miraheze.org/wiki/phorge:T13796))' --search-recursively -- openkorebrasilwikiwiki/ (START)
+* 00:40 MirahezeLSBot: [blankeclair@mwtask181] Starting import for openkorebrasilwikiwiki (XML: None; Images: openkorebrasilwikiwiki/) (START)
+
+## 2025-06-03 
+
+* 21:57 @abaddriverlol: ran ALTER TABLE echo_event ADD event_variant VARBINARY(64) DEFAULT NULL; on morerandomstuffwikibeta
+* 20:02 MirahezeLSBot: [macfan@mwtask181] runRefreshLinksChunked: [0/1] Handling vocaloidlyricswiki (start id: 138300)
+* 19:57 MirahezeLSBot: [macfan@mwtask181] runRefreshLinksChunked: [1/1] Done \o/
+* 19:56 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php refreshLinks --wiki=vocaloidlyricswiki 214700 (END - exit=2)
+* 19:44 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php refreshLinks --wiki=vocaloidlyricswiki 214700 (START)
+* 19:40 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php refreshLinks --wiki=vocaloidlyricswiki 214700 (END - exit=2)
+* 19:40 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php refreshLinks --wiki=vocaloidlyricswiki 214700 (START)
+* 19:39 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php refreshLinks --wiki=vocaloidlyricswiki 138300 (END - exit=2)
+* 02:39 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_skins': 'Cosmos'} to all - SUCCESS in 23s
+* 02:38 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_skins': 'Cosmos'} to all
+
+## 2025-06-02 
+
+* 19:49 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'ThemeToggle'} to test151 - SUCCESS in 2s
+* 19:49 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'ThemeToggle'} to test151
+* 19:44 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MsUpload'} to test151 - SUCCESS in 1s
+* 19:44 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MsUpload'} to test151
+* 19:20 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_skins': 'Metrolook'} to test151 - SUCCESS in 1s
+* 19:20 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_skins': 'Metrolook'} to test151
+* 18:57 Universal Omega: added reader to somerandomdeveloper for Graylog
+* 18:35 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force': True, 'versions': '1.43', 'upgrade_extensions': ['CreateWiki', 'ManageWiki']} to all - SUCCESS in 47s
+* 18:34 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force': True, 'versions': '1.43', 'upgrade_extensions': ['CreateWiki', 'ManageWiki']} to all
+* 17:46 Universal Omega: created ldap account for somerandomdeveloper
+* 17:41 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 17:41 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 16:45 RhinosF1: added rainbows to Phorge via UI for pride month cause why not
+* 15:46 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 15:46 MirahezeLSBot: [rhinos@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
+## 2025-06-01 
+
+* 19:11 MirahezeLSBot: [www-data@mwtask181] Began automatic backing up
+* 00:00 MirahezeLSBot: [www-data@test151] Began automatic backing up
+
+## 2025-05-31 
+
+* 19:27 @paladox: restart nginx/php-fpm on mw*
+* 19:27 @paladox: restart varnish on cp*
+* 16:56 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php refreshLinks --wiki=vocaloidlyricswiki 138300 (START)
+* 14:30 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/initSiteStats.php --wiki=vocaloidlyricswiki --update (END - exit=0)
+* 11:12 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old snagowiki --new snagowikiwiki --user=BlankEclair_(Miraheze) (END - exit=512)
+* 09:41 RhinosF1: deploy slightly aggressive captcha
+* 09:29 Reception123: re-run smpearth import with additional images
+
+## 2025-05-30 
+
+* 02:39 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 02:38 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 02:37 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 02:37 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 02:31 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 30s
+* 02:31 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
+## 2025-05-29 
+
+* 23:14 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': ['CreateWiki', 'ManageWiki']} to all - SUCCESS in 51s
+* 23:13 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': ['CreateWiki', 'ManageWiki']} to all
+* 22:22 MirahezeLSBot: [root@puppet181] Upgraded packages on swiftproxy171: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 22:22 MirahezeLSBot: [root@puppet181] Upgraded packages on swiftac171: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 22:21 MirahezeLSBot: [root@puppet181] Upgraded packages on swiftobject161: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 22:20 MirahezeLSBot: [root@puppet181] Upgraded packages on swiftobject181: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 22:19 MirahezeLSBot: [root@puppet181] Upgraded packages on swiftobject171: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 22:18 MirahezeLSBot: [root@puppet181] Upgraded packages on swiftobject151: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 22:18 MirahezeLSBot: [root@puppet181] Upgraded packages on swiftobject191: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 22:17 MirahezeLSBot: [root@puppet181] Upgraded packages on swiftobject201: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 22:16 MirahezeLSBot: [root@puppet181] Upgraded packages on swiftproxy161: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 22:16 MirahezeLSBot: [root@puppet181] Upgraded packages on ns2: systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 22:15 MirahezeLSBot: [root@puppet181] Upgraded packages on test151: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 22:14 MirahezeLSBot: [root@puppet181] Upgraded packages on puppet181: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 22:14 MirahezeLSBot: [root@puppet181] Upgraded packages on os191: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 22:13 MirahezeLSBot: [root@puppet181] Upgraded packages on reports171: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 22:12 MirahezeLSBot: [root@puppet181] Upgraded packages on phorge171: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 22:11 MirahezeLSBot: [root@puppet181] Upgraded packages on os162: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 22:11 MirahezeLSBot: [root@puppet181] Upgraded packages on rdb151: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 22:10 MirahezeLSBot: [root@puppet181] Upgraded packages on os201: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 22:09 MirahezeLSBot: [root@puppet181] Upgraded packages on prometheus151: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 22:08 MirahezeLSBot: [root@puppet181] Upgraded packages on ns1: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 22:08 MirahezeLSBot: [root@puppet181] Upgraded packages on os161: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 22:07 MirahezeLSBot: [root@puppet181] Upgraded packages on mwtask171: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 22:06 MirahezeLSBot: [root@puppet181] Upgraded packages on os151: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 22:05 MirahezeLSBot: [root@puppet181] Upgraded packages on mwtask181: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 22:05 MirahezeLSBot: [root@puppet181] Upgraded packages on mw183: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 22:04 MirahezeLSBot: [root@puppet181] Upgraded packages on mwtask161: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 22:03 MirahezeLSBot: [root@puppet181] Upgraded packages on mw202: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 22:02 MirahezeLSBot: [root@puppet181] Upgraded packages on mw201: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 22:02 MirahezeLSBot: [root@puppet181] Upgraded packages on mw182: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 22:01 MirahezeLSBot: [root@puppet181] Upgraded packages on mw193: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 22:00 MirahezeLSBot: [root@puppet181] Upgraded packages on mw171: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 22:00 MirahezeLSBot: [root@puppet181] Upgraded packages on mwtask151: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 21:59 MirahezeLSBot: [root@puppet181] Upgraded packages on mw191: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 21:58 MirahezeLSBot: [root@puppet181] Upgraded packages on mw181: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 21:57 MirahezeLSBot: [root@puppet181] Upgraded packages on mw203: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 21:57 MirahezeLSBot: [root@puppet181] Upgraded packages on mw163: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 21:56 MirahezeLSBot: [root@puppet181] Upgraded packages on mw172: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 21:55 MirahezeLSBot: [root@puppet181] Upgraded packages on mw192: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 21:55 MirahezeLSBot: [root@puppet181] Upgraded packages on mw162: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 21:54 MirahezeLSBot: [root@puppet181] Upgraded packages on mw173: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 21:53 MirahezeLSBot: [root@puppet181] Upgraded packages on mw161: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 21:53 MirahezeLSBot: [root@puppet181] Upgraded packages on mw153: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 21:52 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=avaswiki (END - exit=0)
+* 21:51 MirahezeLSBot: [root@puppet181] Upgraded packages on mem191: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 21:50 MirahezeLSBot: [root@puppet181] Upgraded packages on mon181: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 21:49 MirahezeLSBot: [root@puppet181] Upgraded packages on mem201: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 21:49 MirahezeLSBot: [root@puppet181] Upgraded packages on mem161: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 21:48 MirahezeLSBot: [root@puppet181] Upgraded packages on mem151: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 21:47 MirahezeLSBot: [root@puppet181] Upgraded packages on ldap171: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 21:47 MirahezeLSBot: [root@puppet181] Upgraded packages on bast181: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 21:46 MirahezeLSBot: [root@puppet181] Upgraded packages on kafka181: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 21:45 MirahezeLSBot: [root@puppet181] Upgraded packages on bast161: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 21:44 MirahezeLSBot: [root@puppet181] Upgraded packages on cloud18: libnss-systemd, systemd-boot, systemd-boot-efi, libpam-systemd, systemd, libsystemd-shared, libsystemd0, systemd-sysv, udev, and libudev1
+* 21:43 MirahezeLSBot: [root@puppet181] Upgraded packages on cp37: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 21:43 MirahezeLSBot: [root@puppet181] Upgraded packages on cloud17: libnss-systemd, systemd-boot, systemd-boot-efi, libpam-systemd, systemd, libsystemd-shared, libsystemd0, systemd-sysv, udev, and libudev1
+* 21:42 MirahezeLSBot: [root@puppet181] Upgraded packages on db171: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 21:41 MirahezeLSBot: [root@puppet181] Upgraded packages on db151: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 21:41 MirahezeLSBot: [root@puppet181] Upgraded packages on db182: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 21:40 MirahezeLSBot: [root@puppet181] Upgraded packages on graylog161: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 21:39 MirahezeLSBot: [root@puppet181] Upgraded packages on db172: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 21:39 MirahezeLSBot: [root@puppet181] Upgraded packages on cloud15: libnss-systemd, systemd-boot, systemd-boot-efi, libpam-systemd, systemd, libsystemd-shared, libsystemd0, systemd-sysv, udev, and libudev1
+* 21:38 MirahezeLSBot: [root@puppet181] Upgraded packages on cloud16: libnss-systemd, systemd-boot, systemd-boot-efi, libpam-systemd, systemd, libsystemd-shared, libsystemd0, systemd-sysv, udev, and libudev1
+* 21:37 MirahezeLSBot: [root@puppet181] Upgraded packages on eventgate181: systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 21:36 MirahezeLSBot: [root@puppet181] Upgraded packages on matomo151: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 21:36 MirahezeLSBot: [root@puppet181] Upgraded packages on cp38: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 21:35 MirahezeLSBot: [root@puppet181] Upgraded packages on cp36: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 21:34 MirahezeLSBot: [root@puppet181] Upgraded packages on bots171: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 21:34 MirahezeLSBot: [root@puppet181] Upgraded packages on db181: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 21:33 MirahezeLSBot: [root@puppet181] Upgraded packages on db161: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 21:32 MirahezeLSBot: [root@puppet181] Upgraded packages on cloud19: libnss-systemd, systemd-boot, systemd-boot-efi, libpam-systemd, systemd, libsystemd-shared, libsystemd0, systemd-sysv, udev, and libudev1
+* 21:31 MirahezeLSBot: [root@puppet181] Upgraded packages on cloud20: libnss-systemd, systemd-boot, systemd-boot-efi, libpam-systemd, systemd, libsystemd-shared, libsystemd0, systemd-sysv, udev, and libudev1
+* 21:31 MirahezeLSBot: [root@puppet181] Upgraded packages on mattermost1: systemd-resolved, libpam-systemd, systemd, libsystemd-shared, libsystemd0, systemd-sysv, udev, libudev1, and libnss-myhostname
+* 21:30 MirahezeLSBot: [root@puppet181] Upgraded packages on changeprop201: libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, and libudev1
+* 21:00 MirahezeLSBot: [root@puppet181] Upgraded packages on bast161: libavif15
+* 20:59 MirahezeLSBot: [root@puppet181] Upgraded packages on cloud15: libavif15
+* 20:59 MirahezeLSBot: [root@puppet181] Upgraded packages on db172: libavif15
+* 20:59 MirahezeLSBot: [root@puppet181] Upgraded packages on db151: libavif15
+* 20:58 MirahezeLSBot: [root@puppet181] Upgraded packages on bots171: libavif15
+* 20:01 MirahezeLSBot: [root@puppet181] Upgraded packages on swiftproxy171: libavif15
+* 20:00 MirahezeLSBot: [root@puppet181] Upgraded packages on swiftobject151: libavif15
+* 20:00 MirahezeLSBot: [root@puppet181] Upgraded packages on swiftobject161: libavif15
+* 20:00 MirahezeLSBot: [root@puppet181] Upgraded packages on ns2: libavif15
+* 20:00 MirahezeLSBot: [root@puppet181] Upgraded packages on swiftobject201: libavif15
+* 19:59 MirahezeLSBot: [root@puppet181] Upgraded packages on swiftobject181: libavif15
+* 19:59 MirahezeLSBot: [root@puppet181] Upgraded packages on swiftproxy161: libavif15
+* 19:59 MirahezeLSBot: [root@puppet181] Upgraded packages on swiftobject171: libavif15
+* 19:59 MirahezeLSBot: [root@puppet181] Upgraded packages on swiftobject191: libavif15
+* 19:58 MirahezeLSBot: [root@puppet181] Upgraded packages on test151: libavif15
+* 19:58 MirahezeLSBot: [root@puppet181] Upgraded packages on swiftac171: libavif15
+* 19:58 MirahezeLSBot: [root@puppet181] Upgraded packages on os201: libavif15
+* 19:58 MirahezeLSBot: [root@puppet181] Upgraded packages on puppet181: libavif15
+* 19:57 MirahezeLSBot: [root@puppet181] Upgraded packages on os191: libavif15
+* 19:57 MirahezeLSBot: [root@puppet181] Upgraded packages on reports171: libavif15
+* 19:57 MirahezeLSBot: [root@puppet181] Upgraded packages on phorge171: libavif15
+* 19:57 MirahezeLSBot: [root@puppet181] Upgraded packages on rdb151: libavif15
+* 19:57 MirahezeLSBot: [root@puppet181] Upgraded packages on os162: libavif15
+* 19:56 MirahezeLSBot: [root@puppet181] Upgraded packages on os151: libavif15
+* 19:56 MirahezeLSBot: [root@puppet181] Upgraded packages on os161: libavif15
+* 19:56 MirahezeLSBot: [root@puppet181] Upgraded packages on ns1: libavif15
+* 19:56 MirahezeLSBot: [root@puppet181] Upgraded packages on prometheus151: libavif15
+* 19:55 MirahezeLSBot: [root@puppet181] Upgraded packages on mwtask171: libavif15
+* 19:55 MirahezeLSBot: [root@puppet181] Upgraded packages on mwtask181: libavif15
+* 19:55 MirahezeLSBot: [root@puppet181] Upgraded packages on mw183: libavif15
+* 19:55 MirahezeLSBot: [root@puppet181] Upgraded packages on mwtask161: libavif15
+* 19:54 MirahezeLSBot: [root@puppet181] Upgraded packages on mw182: libavif15
+* 19:54 MirahezeLSBot: [root@puppet181] Upgraded packages on mwtask151: libavif15
+* 19:54 MirahezeLSBot: [root@puppet181] Upgraded packages on mw203: libavif15
+* 19:54 MirahezeLSBot: [root@puppet181] Upgraded packages on mw202: libavif15
+* 19:53 MirahezeLSBot: [root@puppet181] Upgraded packages on mw181: libavif15
+* 19:53 MirahezeLSBot: [root@puppet181] Upgraded packages on mw192: libavif15
+* 19:53 MirahezeLSBot: [root@puppet181] Upgraded packages on mw163: libavif15
+* 19:53 MirahezeLSBot: [root@puppet181] Upgraded packages on mw193: libavif15
+* 19:53 MirahezeLSBot: [root@puppet181] Upgraded packages on mw191: libavif15
+* 19:52 MirahezeLSBot: [root@puppet181] Upgraded packages on mw172: libavif15
+* 19:52 MirahezeLSBot: [root@puppet181] Upgraded packages on mw201: libavif15
+* 19:52 MirahezeLSBot: [root@puppet181] Upgraded packages on mw173: libavif15
+* 19:52 MirahezeLSBot: [root@puppet181] Upgraded packages on mw162: libavif15
+* 19:51 MirahezeLSBot: [root@puppet181] Upgraded packages on mw171: libavif15
+* 19:51 MirahezeLSBot: [root@puppet181] Upgraded packages on mw161: libavif15
+* 19:51 MirahezeLSBot: [root@puppet181] Upgraded packages on mw153: libavif15
+* 19:51 MirahezeLSBot: [root@puppet181] Upgraded packages on mw152: libavif15
+* 19:50 MirahezeLSBot: [root@puppet181] Upgraded packages on mw151: libavif15
+* 19:50 MirahezeLSBot: [root@puppet181] Upgraded packages on mon181: libavif15
+* 19:50 MirahezeLSBot: [root@puppet181] Upgraded packages on mem191: libavif15
+* 19:50 MirahezeLSBot: [root@puppet181] Upgraded packages on mem201: libavif15
+* 19:50 MirahezeLSBot: [root@puppet181] Upgraded packages on mem161: libavif15
+* 19:49 MirahezeLSBot: [root@puppet181] Upgraded packages on mem151: libavif15
+* 19:49 MirahezeLSBot: [root@puppet181] Upgraded packages on ldap171: libavif15
+* 19:49 MirahezeLSBot: [root@puppet181] Upgraded packages on cloud18: libavif15
+* 19:49 MirahezeLSBot: [root@puppet181] Upgraded packages on db182: libavif15
+* 19:49 MirahezeLSBot: [root@puppet181] Upgraded packages on kafka181: libavif15
+* 19:48 MirahezeLSBot: [root@puppet181] Upgraded packages on cp38: libavif15
+* 19:48 MirahezeLSBot: [root@puppet181] Upgraded packages on cloud17: libavif15
+* 19:48 MirahezeLSBot: [root@puppet181] Upgraded packages on cloud20: libavif15
+* 19:48 MirahezeLSBot: [root@puppet181] Upgraded packages on db171: libavif15
+* 19:48 MirahezeLSBot: [root@puppet181] Upgraded packages on cloud16: libavif15
+* 19:47 MirahezeLSBot: [root@puppet181] Upgraded packages on cp37: libavif15
+* 19:47 MirahezeLSBot: [root@puppet181] Upgraded packages on graylog161: libavif15
+* 19:47 MirahezeLSBot: [root@puppet181] Upgraded packages on mattermost1: libavif15
+* 19:47 MirahezeLSBot: [root@puppet181] Upgraded packages on db181: libavif15
+* 19:47 MirahezeLSBot: [root@puppet181] Upgraded packages on matomo151: libavif15
+* 19:46 MirahezeLSBot: [root@puppet181] Upgraded packages on bast181: libavif15
+* 19:46 MirahezeLSBot: [root@puppet181] Upgraded packages on cp36: libavif15
+* 19:46 MirahezeLSBot: [root@puppet181] Upgraded packages on eventgate181: libavif15
+* 19:46 MirahezeLSBot: [root@puppet181] Upgraded packages on db161: libavif15
+* 19:46 MirahezeLSBot: [root@puppet181] Upgraded packages on cloud19: libavif15
+* 19:45 MirahezeLSBot: [root@puppet181] Upgraded packages on changeprop201: libavif15
+* 19:45 MirahezeLSBot: [paladox@puppet181] sudo upgrade-packages -y
+* 15:18 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 15:18 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 13:26 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=metawiki --dbname=anomalyzonewikiwiki (END - exit=0)
+* 13:25 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=metawiki --dbname=archivesofhavnorwiki (END - exit=0)
+* 13:20 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=--wiki=metawiki --dbname=exmormonwiki (END - exit=2)
+* 13:20 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=--wiki=metawiki --dbname=evilgeniuswiki (END - exit=0)
+* 13:20 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=--wiki=metawiki --dbname=ekumenwiki (END - exit=0)
+* 13:20 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=--wiki=metawiki --dbname=echoeswiki (END - exit=0)
+* 13:20 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=--wiki=metawiki --dbname=decimatedrivewiki (END - exit=0)
+* 13:20 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=--wiki=metawiki --dbname=clinithequewiki (END - exit=0)
+* 13:20 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=--wiki=metawiki --dbname=boneswordwiki (END - exit=0)
+* 13:20 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=--wiki=metawiki --dbname=blackmagicwiki (END - exit=0)
+* 13:19 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=--wiki=metawiki --dbname=binrayarchiveswiki (END - exit=0)
+* 13:19 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=--wiki=metawiki --dbname=tfoswiki (END - exit=0)
+* 13:19 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=--wiki=metawiki --dbname=balloonfightwiki (END - exit=0)
+* 13:19 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=--wiki=metawiki --dbname=baligawiki (END - exit=0)
+* 13:19 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=--wiki=metawiki --dbname=baharnawiki (END - exit=0)
+* 13:19 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=--wiki=metawiki --dbname=anomalyzonewikiwiki (END - exit=0)
+* 13:19 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=--wiki=metawiki --dbname=archivesofhavnorwiki (END - exit=0)
+* 09:02 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importImages.php --wiki=smpearthpublicwiki --summary=Imported from [https://smpe-public.fandom.com](https://smpe-public.fandom.com) --search-recursively /home/reception/smpearth (END - exit=0)
+* 08:57 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importImages.php --wiki=smpearthpublicwiki --summary=Imported from [https://smpe-public.fandom.com](https://smpe-public.fandom.com) --search-recursively /home/reception/smpearth (START)
+* 03:51 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: net-tools
+* 03:51 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: net-tools
+* 03:51 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: net-tools
+* 03:50 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: net-tools
+* 03:50 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: net-tools
+* 03:50 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: net-tools
+* 03:49 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: net-tools
+* 03:49 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: net-tools
+* 03:49 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: net-tools
+* 03:49 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: net-tools
+* 03:48 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libvpx7 and net-tools
+* 03:48 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: net-tools
+* 03:48 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: net-tools
+* 03:48 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: net-tools
+* 03:47 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: net-tools
+* 03:47 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb151: net-tools
+* 03:47 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: net-tools
+* 03:47 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: net-tools
+* 03:47 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: net-tools
+* 03:46 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: net-tools
+* 03:46 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: net-tools
+* 03:46 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: net-tools
+* 03:46 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: libvpx7 and net-tools
+* 03:45 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: libvpx7 and net-tools
+* 03:45 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: libvpx7 and net-tools
+* 03:45 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: libvpx7 and net-tools
+* 03:45 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: libvpx7 and net-tools
+* 03:44 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: libvpx7 and net-tools
+* 03:44 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: libvpx7 and net-tools
+* 03:44 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: libvpx7 and net-tools
+* 03:44 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: libvpx7 and net-tools
+* 03:43 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: libvpx7 and net-tools
+* 03:43 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libvpx7 and net-tools
+* 03:43 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: libvpx7 and net-tools
+* 03:42 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: libvpx7 and net-tools
+* 03:42 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: libvpx7 and net-tools
+* 03:42 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: libvpx7 and net-tools
+* 03:42 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: libvpx7 and net-tools
+* 03:42 MirahezeLSBot: [void@cloud20.wikitide.net] clear ipmi SEL (inlet temperature)
+* 03:41 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: libvpx7 and net-tools
+* 03:41 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: libvpx7 and net-tools
+* 03:41 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: libvpx7 and net-tools
+* 03:41 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: libvpx7 and net-tools
+* 03:40 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: libvpx7 and net-tools
+* 03:40 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: libvpx7 and net-tools
+* 03:40 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: net-tools
+* 03:40 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: net-tools
+* 03:39 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: net-tools
+* 03:39 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: net-tools
+* 03:39 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: net-tools
+* 03:39 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: net-tools
+* 03:39 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: net-tools
+* 03:38 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: net-tools
+* 03:38 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: net-tools
+* 03:38 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: net-tools
+* 03:38 MirahezeLSBot: [void@puppet181] Upgraded packages on cp38: net-tools
+* 03:37 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: net-tools
+* 03:37 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: net-tools
+* 03:37 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: net-tools
+* 03:37 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate181: net-tools
+* 03:36 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: net-tools
+* 03:36 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: net-tools
+* 03:36 MirahezeLSBot: [void@puppet181] Upgraded packages on cp37: net-tools
+* 03:36 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka181: net-tools
+* 03:36 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: net-tools
+* 03:35 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: net-tools
+* 03:35 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: net-tools
+* 03:35 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: net-tools
+* 03:35 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop201: net-tools
+* 03:34 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: net-tools
+* 03:34 MirahezeLSBot: [void@puppet181] Upgraded packages on cp36: net-tools
+* 03:34 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: net-tools
+* 03:34 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: net-tools
+* 03:34 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: net-tools
+* 03:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost1: net-tools
+
+## 2025-05-28 
+
+* 21:17 @paladox: increase rdb151 ram to 20gib
+* 19:46 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 41s
+* 19:45 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+* 15:52 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 15:52 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 15:33 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=vocaloidlyricswiki (START)
+* 15:33 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=vocaloidlyricswiki dump.xml --no-updates (END - exit=0)
+* 15:33 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=vocaloidlyricswiki dump.xml --no-updates (START)
+* 06:54 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 25s
+* 06:54 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+* 06:44 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force': True, 'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 26s
+* 06:44 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force': True, 'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+
+## 2025-05-27 
+
+* 23:44 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force': True, 'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 37s
+* 23:44 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force': True, 'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+* 21:45 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 27s
+* 21:45 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+* 17:06 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': '1.43'} to all - SUCCESS in 213s
+* 17:02 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'l10n': True, 'versions': '1.43'} to all
+* 17:02 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 33s
+* 17:01 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+* 01:27 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'DiscordNotifications'} to all - SUCCESS in 27s
+* 01:27 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'DiscordNotifications'} to all
+
+## 2025-05-26 
+
+* 20:17 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.43', 'upgrade_extensions': ['ApprovedRevs', 'MsUpload']} to all - SUCCESS in 157s
+* 20:15 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.43', 'upgrade_extensions': ['ApprovedRevs', 'MsUpload']} to all
+* 15:55 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CreateWiki:SetContainersAccess --wiki=deepworldwikiwiki (END - exit=0)
+* 15:52 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=deepworldwiki --new=deepworldwikiwiki --user=MacFan4000 (END - exit=0)
+
+## 2025-05-25 
+
+* 18:30 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 18:30 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 18:19 Universal Omega: added agent and raidarr to board group for email
+* 14:55 MirahezeLSBot: [paladox@mon181] systemctl disable prometheus-cloudflare-exporter
+* 08:20 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/deleteBatch.php --wiki=animebattlearenawiki --r=Fandom-era deletions T13738 /home/reception/animebattlearenadel.txt (END - exit=0)
+* 08:18 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/deleteBatch.php --wiki=animebattlearenawiki --r=Fandom-era deletions T13738 /home/reception/animebattlearenadel.txt (START)
+* 08:18 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/deleteBatch.php --wiki=animebattlearenawiki --reason=Fandom-era deletions T13738 /home/reception/animebattlearenadel.txt (END - exit=256)
+* 08:18 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/deleteBatch.php --wiki=animebattlearenawiki --reason=Fandom-era deletions T13738 /home/reception/animebattlearenadel.txt (START)
+* 08:10 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 25s
+* 08:09 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'CreateWiki'} to all
+* 07:57 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importImages.php --wiki=vgmarchiveswiki --summary=Imported from [https://vgmarchives.fandom.com](https://vgmarchives.fandom.com) --search-recursively /home/reception/vgmarchives (END - exit=0)
+* 07:57 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importImages.php --wiki=vgmarchiveswiki --summary=Imported from [https://vgmarchives.fandom.com](https://vgmarchives.fandom.com) --search-recursively /home/reception/vgmarchives (START)
+* 07:56 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importImages.php --wiki=animebattlearenawiki --summary=Imported from [https://animebattlearenaaba.fandom.com](https://animebattlearenaaba.fandom.com) --search-recursively /home/reception/animebattlearena (END - exit=0)
+* 07:53 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importImages.php --wiki=animebattlearenawiki --summary=Imported from [https://animebattlearenaaba.fandom.com](https://animebattlearenaaba.fandom.com) --search-recursively /home/reception/animebattlearena (START)
+* 07:00 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 24s
+* 06:59 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+* 06:48 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 06:48 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
+## 2025-05-24 
+
+* 21:16 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/namespaceDupes.php --wiki=creepypastawiki --fix (END - exit=0)
+* 21:08 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/namespaceDupes.php --wiki=creepypastawiki --source-pseudo-namespace=Creepypasta_Wiki --dest-namespace=4 --fix (END - exit=0)
+* 21:08 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/namespaceDupes.php --wiki=creepypastawiki --source-pseudo-namespace=Creepypasta_Wiki --dest-namespace=4 (END - exit=0)
+* 21:07 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/namespaceDupes.php --wiki=creepypastawiki --source-pseudo-namespace=Creepypasta Wiki --dest-namespace=4 (END - exit=0)
+* 21:06 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/namespaceDupes.php --wiki=creepypastawiki --source-pseudo-namespace=Creepypasta Wiki --dest-namespace=4 (END - exit=0)
+* 21:06 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/namespaceDupes.php --wiki=creepypastawiki --source-pseduo-namespace=Creepypasta Wiki --dest-namespace=4 (END - exit=256)
+* 20:59 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/cleanupTitles.php --wiki=creepypastawiki (END - exit=0)
+* 20:50 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/cleanupTitles.php --wiki=creepypastawiki (END - exit=0)
+* 18:43 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:PopulateWikibaseSitesTable --wiki=sanarsivwiki (END - exit=0)
+* 15:20 MirahezeLSBot: [paladox@mon181] upgrade grafana
+* 14:51 MirahezeLSBot: [aeywoo@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 14:50 MirahezeLSBot: [aeywoo@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 14:39 MirahezeLSBot: [aeywoo@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 14:39 MirahezeLSBot: [aeywoo@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 13:53 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftproxy171: linux-libc-dev
+* 13:53 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject201: linux-libc-dev
+* 13:52 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftproxy161: linux-libc-dev
+* 13:52 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on test151: linux-libc-dev
+* 13:52 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject161: linux-libc-dev
+* 13:52 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject181: linux-libc-dev
+* 13:51 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject171: linux-libc-dev
+* 13:51 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject191: linux-libc-dev
+* 13:51 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject151: linux-libc-dev
+* 13:51 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftac171: linux-libc-dev
+* 13:50 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on ns2: linux-libc-dev
+* 13:50 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on os161: linux-libc-dev
+* 13:50 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on os201: linux-libc-dev
+* 13:50 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on puppet181: linux-libc-dev
+* 13:50 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on os191: linux-libc-dev
+* 13:49 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on phorge171: linux-libc-dev
+* 13:49 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on reports171: linux-libc-dev
+* 13:49 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on os162: linux-libc-dev
+* 13:49 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on os151: linux-libc-dev
+* 13:48 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on prometheus151: linux-libc-dev
+* 13:48 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on rdb151: linux-libc-dev
+* 13:48 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mwtask181: linux-libc-dev
+* 13:48 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mwtask171: linux-libc-dev
+* 13:47 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on ns1: linux-libc-dev
+* 13:47 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mwtask161: linux-libc-dev
+* 13:47 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mwtask151: linux-libc-dev
+* 13:47 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw182: linux-libc-dev
+* 13:46 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw181: linux-libc-dev
+* 13:46 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw183: linux-libc-dev
+* 13:46 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw202: linux-libc-dev
+* 13:46 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw203: linux-libc-dev
+* 13:45 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw201: linux-libc-dev
+* 13:45 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw171: linux-libc-dev
+* 13:45 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw163: linux-libc-dev
+* 13:45 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw192: linux-libc-dev
+* 13:44 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw193: linux-libc-dev
+* 13:44 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw191: linux-libc-dev
+* 13:44 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw173: linux-libc-dev
+* 13:44 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw161: linux-libc-dev
+* 13:43 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw172: linux-libc-dev
+* 13:43 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw162: linux-libc-dev
+* 13:43 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw152: linux-libc-dev
+* 13:43 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw153: linux-libc-dev
+* 13:42 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw151: linux-libc-dev
+* 13:42 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mon181: linux-libc-dev
+* 13:42 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mem191: linux-libc-dev
+* 13:42 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mem161: linux-libc-dev
+* 13:42 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mem201: linux-libc-dev
+* 13:41 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mem151: linux-libc-dev
+* 13:41 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on bast181: linux-libc-dev
+* 13:41 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on ldap171: linux-libc-dev
+* 13:41 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mattermost1: linux-libc-dev
+* 13:40 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db182: linux-libc-dev
+* 13:40 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cp38: linux-libc-dev
+* 13:40 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db181: linux-libc-dev
+* 13:40 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on graylog161: linux-libc-dev
+* 13:40 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud18: linux-libc-dev
+* 13:39 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db161: linux-libc-dev
+* 13:39 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cp37: linux-libc-dev
+* 13:39 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on bast161: linux-libc-dev
+* 13:39 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud16: linux-libc-dev
+* 13:39 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud15: linux-libc-dev
+* 13:38 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud19: linux-libc-dev
+* 13:38 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cp36: linux-libc-dev
+* 13:38 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on kafka181: linux-libc-dev
+* 13:38 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db171: linux-libc-dev
+* 13:37 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud20: linux-libc-dev
+* 13:37 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on matomo151: linux-libc-dev
+* 13:37 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud17: linux-libc-dev
+* 13:37 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db151: linux-libc-dev
+* 13:37 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on eventgate181: linux-libc-dev
+* 13:36 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db172: linux-libc-dev
+* 13:36 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on bots171: linux-libc-dev
+* 13:36 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on changeprop201: linux-libc-dev
+* 11:20 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'l10n': True, 'versions': '1.43', 'upgrade_extensions': 'MsCatSelect'} to all - SUCCESS in 473s
+* 11:12 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'l10n': True, 'versions': '1.43', 'upgrade_extensions': 'MsCatSelect'} to all
+
+## 2025-05-23 
+
+* 19:40 MirahezeLSBot: [root@puppet181] Upgraded packages on swiftobject201: intel-microcode
+* 19:39 MirahezeLSBot: [root@puppet181] Upgraded packages on swiftobject181: intel-microcode
+* 19:38 MirahezeLSBot: [root@puppet181] Upgraded packages on swiftobject191: intel-microcode
+* 19:37 MirahezeLSBot: [root@puppet181] Upgraded packages on swiftproxy171: intel-microcode
+* 19:36 MirahezeLSBot: [root@puppet181] Upgraded packages on os191: intel-microcode
+* 19:36 MirahezeLSBot: [root@puppet181] Upgraded packages on os201: intel-microcode
+* 19:35 MirahezeLSBot: [root@puppet181] Upgraded packages on os162: intel-microcode
+* 19:34 MirahezeLSBot: [root@puppet181] Upgraded packages on os151: intel-microcode
+* 19:33 MirahezeLSBot: [root@puppet181] Upgraded packages on mwtask181: intel-microcode
+* 19:33 MirahezeLSBot: [root@puppet181] Upgraded packages on mwtask171: intel-microcode
+* 19:32 MirahezeLSBot: [root@puppet181] Upgraded packages on mw183: intel-microcode
+* 19:31 MirahezeLSBot: [root@puppet181] Upgraded packages on mw202: intel-microcode
+* 19:31 MirahezeLSBot: [root@puppet181] Upgraded packages on mw193: intel-microcode
+* 19:30 MirahezeLSBot: [root@puppet181] Upgraded packages on mw203: intel-microcode
+* 19:29 MirahezeLSBot: [root@puppet181] Upgraded packages on mw182: intel-microcode
+* 19:29 MirahezeLSBot: [root@puppet181] Upgraded packages on mw181: intel-microcode
+* 19:28 MirahezeLSBot: [root@puppet181] Upgraded packages on mwtask161: intel-microcode
+* 19:28 MirahezeLSBot: [root@puppet181] Upgraded packages on mwtask151: intel-microcode
+* 19:27 MirahezeLSBot: [root@puppet181] Upgraded packages on mw201: intel-microcode
+* 19:26 MirahezeLSBot: [root@puppet181] Upgraded packages on mw173: intel-microcode
+* 19:26 MirahezeLSBot: [root@puppet181] Upgraded packages on mw191: intel-microcode
+* 19:25 MirahezeLSBot: [root@puppet181] Upgraded packages on mw192: intel-microcode
+* 19:24 MirahezeLSBot: [root@puppet181] Upgraded packages on mw163: intel-microcode
+* 19:24 MirahezeLSBot: [root@puppet181] Upgraded packages on mw153: intel-microcode
+* 19:23 MirahezeLSBot: [root@puppet181] Upgraded packages on mon181: intel-microcode
+* 19:22 MirahezeLSBot: [root@puppet181] Upgraded packages on mem191: intel-microcode
+* 19:21 MirahezeLSBot: [root@puppet181] Upgraded packages on mem201: intel-microcode
+* 19:21 MirahezeLSBot: [root@puppet181] Upgraded packages on bast181: intel-microcode
+* 19:20 MirahezeLSBot: [root@puppet181] Upgraded packages on db181: intel-microcode
+* 19:19 MirahezeLSBot: [root@puppet181] Upgraded packages on db182: intel-microcode
+* 19:18 MirahezeLSBot: [root@puppet181] Upgraded packages on changeprop201: intel-microcode
+* 19:17 MirahezeLSBot: [root@puppet181] Upgraded packages on matomo151: intel-microcode
+* 19:16 MirahezeLSBot: [root@puppet181] Upgraded packages on cp38: intel-microcode
+* 19:16 MirahezeLSBot: [root@puppet181] Upgraded packages on cp37: intel-microcode
+* 19:15 MirahezeLSBot: [root@puppet181] Upgraded packages on db151: intel-microcode
+* 19:12 MirahezeLSBot: [paladox@puppet181] sudo upgrade-packages -y
+* 11:30 MirahezeLSBot: [aeywoo@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 11:30 MirahezeLSBot: [aeywoo@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 10:47 MirahezeLSBot: [aeywoo@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:PopulateWikiSettings --setting wgMobileUrlTemplate --remove (END - exit=0)
+* 10:47 MirahezeLSBot: [aeywoo@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:PopulateWikiSettings --setting wgMobileUrlTemplate --remove (START)
+* 01:18 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 01:18 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
+## 2025-05-22 
+
+* 23:45 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 23s
+* 23:45 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 23:32 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 23:31 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 21:30 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 21:30 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 21:17 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 25s
+* 21:17 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 21:11 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=lightningwizardswiki (END - exit=0)
+* 21:11 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=arvandornationswiki (END - exit=0)
+* 21:11 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=terraformingwiki (END - exit=0)
+* 21:11 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=genericowiki (END - exit=0)
+* 21:11 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=holostarswiki (END - exit=0)
+* 21:10 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=hastursnotebookwiki (END - exit=0)
+* 21:10 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=thestarsarerightwiki (END - exit=0)
+* 21:10 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=threedomwiki (END - exit=0)
+* 20:53 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 23s
+* 20:53 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 20:49 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 20:48 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:53 @paladox: upgrade phorge on phorge171
+* 19:48 MirahezeLSBot: [rhinos@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'TitleIcon'} to test151 - SUCCESS in 1s
+* 19:48 MirahezeLSBot: [rhinos@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'TitleIcon'} to test151
+* 19:41 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'TitleIcon'} to all - SUCCESS in 1s
+* 19:41 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'TitleIcon'} to all
+* 19:25 MirahezeLSBot: [rhinos@test151] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'TitleIcon'} to test151 - SUCCESS in 1s
+* 19:25 MirahezeLSBot: [rhinos@test151] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'TitleIcon'} to test151
+* 19:24 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'TitleIcon'} to all - SUCCESS in 23s
+* 19:24 MirahezeLSBot: [rhinos@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'TitleIcon'} to all
+* 18:33 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 18:32 MirahezeLSBot: [rhinos@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 17:19 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 17:19 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 17:13 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CreateWiki:SetContainersAccess --wiki=themainframewiki (END - exit=0)
+* 17:12 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=appendixwiki --new=themainframewiki --user=MacFan4000 (END - exit=0)
+* 17:09 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CreateWiki:SetContainersAccess --wiki=brothernationwiki (END - exit=0)
+* 17:08 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=bjbrotherswiki --new=brothernationwiki --user=MacFan4000 (END - exit=0)
+* 16:48 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=spacewiki --requester=Anpang (END - exit=0)
+* 08:15 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /tmp/wikibaserepository.php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:ResetWikiCaches (END - exit=0)
+* 08:08 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /tmp/wikibaserepository.php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:ResetWikiCaches (START)
+* 08:07 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /tmp/wikibaseclient.php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:ResetWikiCaches (END - exit=0)
+* 07:58 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /tmp/wikibaseclient.php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:ResetWikiCaches (START)
+* 07:58 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /tmp/wikibaseclient.php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:ResetWikiCache (END - exit=2)
+* 07:58 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /tmp/wikibaseclient.php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:ResetWikiCache (START)
+* 07:54 RhinosF1: UPDATE mw_namespaces SET ns_content_model = 'wikibase-property' WHERE ns_namespace_id = 862;
+* 07:52 RhinosF1: UPDATE mw_namespaces SET ns_content_model = 'wikibase-item' WHERE ns_namespace_id = 860;
+* 07:51 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 07:51 MirahezeLSBot: [rhinos@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 07:33 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 07:33 MirahezeLSBot: [rhinos@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 01:38 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'WikiDiscover'} to all - SUCCESS in 26s
+* 01:37 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'WikiDiscover'} to all
+* 01:07 MirahezeLSBot: [blankeclair@mwtask181] runRefreshLinksChunked: [1/1] Done \o/
+
+## 2025-05-21 
+
+* 21:33 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 26s
+* 21:33 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+* 21:02 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/initSiteStats.php --wiki=zootycoonwiki --update (END - exit=0)
+* 21:02 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=zootycoonwiki (END - exit=0)
+* 20:13 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=zootycoonwiki (START)
+* 20:12 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=zootycoonwiki dump.xml --no-updates (END - exit=0)
+* 18:32 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 18:32 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 18:12 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=zootycoonwiki dump.xml --no-updates (START)
+* 17:07 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 17:07 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 17:02 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 17:02 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 17:01 MirahezeLSBot: [macfan@test151] finished deploy of {'pull': 'config', 'config': True, 'force': True} to test151 - SUCCESS in 2s
+* 17:01 MirahezeLSBot: [macfan@test151] starting deploy of {'pull': 'config', 'config': True, 'force': True} to test151
+* 17:00 MirahezeLSBot: [macfan@test151] finished deploy of {'pull': 'config', 'config': True, 'force': True} to test151 - SUCCESS in 5s
+* 17:00 MirahezeLSBot: [macfan@test151] starting deploy of {'pull': 'config', 'config': True, 'force': True} to test151
+* 16:44 MirahezeLSBot: [macfan@test151] finished deploy of {'pull': 'config', 'config': True, 'force': True} to test151 - SUCCESS in 0s
+* 16:44 MirahezeLSBot: [macfan@test151] starting deploy of {'pull': 'config', 'config': True, 'force': True} to test151
+* 16:43 MirahezeLSBot: [macfan@test151] DEPLOY ABORTED: Canary check failed for meta.mirabeta.org@localhost
+* 16:43 MirahezeLSBot: [macfan@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 16:42 MirahezeLSBot: [macfan@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 16:42 MirahezeLSBot: [macfan@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 16:32 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'force': True} to all - SUCCESS in 21s
+* 16:32 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'force': True} to all
+* 16:32 MirahezeLSBot: [macfan@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mw151.wikitide.net
+* 16:32 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 16:32 MirahezeLSBot: [macfan@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mwtask151.wikitide.net
+* 16:30 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 16:22 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/initSiteStats.php --wiki=animebattlearenawiki --update (END - exit=0)
+* 16:22 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=animebattlearenawiki (END - exit=0)
+* 15:59 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=animebattlearenawiki (START)
+* 15:59 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=animebattlearenawiki dump.xml --no-updates (END - exit=0)
+* 15:44 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=animebattlearenawiki dump.xml --no-updates (START)
+* 13:38 Reception123: MariaDB [(none)]> DROP DATABASE bigwebsitewiki;
+
+## 2025-05-20 
+
+* 21:11 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 27s
+* 21:11 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+* 07:34 MirahezeLSBot: [aeywoo@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 07:34 MirahezeLSBot: [aeywoo@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 07:25 MirahezeLSBot: [aeywoo@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 07:25 MirahezeLSBot: [aeywoo@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 07:07 MirahezeLSBot: [aeywoo@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 07:07 MirahezeLSBot: [aeywoo@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 06:48 MirahezeLSBot: [aeywoo@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 06:48 MirahezeLSBot: [aeywoo@test151] starting deploy of {'config': True} to test151
+* 06:44 MirahezeLSBot: [aeywoo@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 06:44 MirahezeLSBot: [aeywoo@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+
+## 2025-05-19 
+
+* 23:45 MirahezeLSBot: [blankeclair@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 23:43 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'l10n': True, 'versions': '1.43', 'upgrade_extensions': 'MsCatSelect'} to all
+* 23:43 MirahezeLSBot: [blankeclair@mwtask181] runRefreshLinksChunked: [0/1] Handling vocaloidlyricswiki (start id: 199800)
+* 19:24 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'force_upgrade': True, 'versions': '1.43', 'upgrade_extensions': 'ApprovedRevs'} to all - SUCCESS in 111s
+* 19:22 MirahezeLSBot: [paladox@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 19:22 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'force_upgrade': True, 'versions': '1.43', 'upgrade_extensions': 'ApprovedRevs'} to all
+* 19:22 MirahezeLSBot: [paladox@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 19:22 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.43', '1.44'], 'upgrade_extensions': 'ApprovedRevs'} to test151
+* 19:21 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.43', 'upgrade_extensions': 'ApprovedRevs'} to all
+* 18:29 MirahezeLSBot: [paladox@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 18:27 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php refreshLinks --wiki=vocaloidlyricswiki 138200 (END - exit=35072)
+* 18:27 MirahezeLSBot: [paladox@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 18:21 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.43', '1.44'], 'upgrade_extensions': 'ApprovedRevs'} to test151
+* 18:21 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.43', 'upgrade_extensions': 'ApprovedRevs'} to all
+* 13:26 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 13:25 MirahezeLSBot: [rhinos@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 10:41 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'WikiCategoryTagCloud'} to all - SUCCESS in 26s
+* 10:40 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'WikiCategoryTagCloud'} to all
+
+## 2025-05-18 
+
+* 23:28 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force': True, 'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 39s
+* 23:27 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force': True, 'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+* 23:22 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 33s
+* 23:22 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 20:03 MirahezeLSBot: [root@puppet181] Upgraded packages on ns2: net-tools
+* 20:03 MirahezeLSBot: [root@puppet181] Upgraded packages on swiftobject171: net-tools
+* 20:03 MirahezeLSBot: [root@puppet181] Upgraded packages on swiftobject181: net-tools
+* 20:02 MirahezeLSBot: [root@puppet181] Upgraded packages on swiftobject191: net-tools
+* 20:02 MirahezeLSBot: [root@puppet181] Upgraded packages on swiftobject161: net-tools
+* 20:02 MirahezeLSBot: [root@puppet181] Upgraded packages on swiftobject201: net-tools
+* 20:02 MirahezeLSBot: [root@puppet181] Upgraded packages on swiftac171: net-tools
+* 20:01 MirahezeLSBot: [root@puppet181] Upgraded packages on swiftproxy171: net-tools
+* 20:01 MirahezeLSBot: [root@puppet181] Upgraded packages on swiftobject151: net-tools
+* 20:01 MirahezeLSBot: [root@puppet181] Upgraded packages on swiftproxy161: net-tools
+* 20:00 MirahezeLSBot: [root@puppet181] Upgraded packages on test151: net-tools
+* 20:00 MirahezeLSBot: [root@puppet181] Upgraded packages on mwtask181: net-tools
+* 20:00 MirahezeLSBot: [root@puppet181] Upgraded packages on os191: net-tools
+* 20:00 MirahezeLSBot: [root@puppet181] Upgraded packages on puppet181: net-tools
+* 19:59 MirahezeLSBot: [root@puppet181] Upgraded packages on os151: net-tools
+* 19:59 MirahezeLSBot: [root@puppet181] Upgraded packages on rdb151: net-tools
+* 19:59 MirahezeLSBot: [root@puppet181] Upgraded packages on os162: net-tools
+* 19:59 MirahezeLSBot: [root@puppet181] Upgraded packages on ns1: net-tools
+* 19:58 MirahezeLSBot: [root@puppet181] Upgraded packages on reports171: net-tools
+* 19:58 MirahezeLSBot: [root@puppet181] Upgraded packages on os161: net-tools
+* 19:58 MirahezeLSBot: [root@puppet181] Upgraded packages on prometheus151: net-tools
+* 19:58 MirahezeLSBot: [root@puppet181] Upgraded packages on phorge171: net-tools
+* 19:57 MirahezeLSBot: [root@puppet181] Upgraded packages on mwtask171: net-tools
+* 19:57 MirahezeLSBot: [root@puppet181] Upgraded packages on mwtask161: net-tools
+* 19:57 MirahezeLSBot: [root@puppet181] Upgraded packages on mwtask151: net-tools
+* 19:57 MirahezeLSBot: [root@puppet181] Upgraded packages on mw182: net-tools
+* 19:56 MirahezeLSBot: [root@puppet181] Upgraded packages on mw203: net-tools
+* 19:56 MirahezeLSBot: [root@puppet181] Upgraded packages on mw183: net-tools
+* 19:56 MirahezeLSBot: [root@puppet181] Upgraded packages on mw181: net-tools
+* 19:56 MirahezeLSBot: [root@puppet181] Upgraded packages on mon181: net-tools
+* 19:55 MirahezeLSBot: [root@puppet181] Upgraded packages on mw202: net-tools
+* 19:55 MirahezeLSBot: [root@puppet181] Upgraded packages on mw201: net-tools
+* 19:55 MirahezeLSBot: [root@puppet181] Upgraded packages on mw191: net-tools
+* 19:55 MirahezeLSBot: [root@puppet181] Upgraded packages on mw173: net-tools
+* 19:54 MirahezeLSBot: [root@puppet181] Upgraded packages on mw193: net-tools
+* 19:54 MirahezeLSBot: [root@puppet181] Upgraded packages on mw172: net-tools
+* 19:54 MirahezeLSBot: [root@puppet181] Upgraded packages on mw192: net-tools
+* 19:54 MirahezeLSBot: [root@puppet181] Upgraded packages on mw171: net-tools
+* 19:53 MirahezeLSBot: [root@puppet181] Upgraded packages on mw163: net-tools
+* 19:53 MirahezeLSBot: [root@puppet181] Upgraded packages on mw153: net-tools
+* 19:53 MirahezeLSBot: [root@puppet181] Upgraded packages on mw151: net-tools
+* 19:52 MirahezeLSBot: [root@puppet181] Upgraded packages on mw161: net-tools
+* 19:52 MirahezeLSBot: [root@puppet181] Upgraded packages on mw162: net-tools
+* 19:52 MirahezeLSBot: [root@puppet181] Upgraded packages on mw152: net-tools
+* 19:52 MirahezeLSBot: [root@puppet181] Upgraded packages on mem191: net-tools
+* 19:51 MirahezeLSBot: [root@puppet181] Upgraded packages on mem201: net-tools
+* 19:51 MirahezeLSBot: [root@puppet181] Upgraded packages on mem161: net-tools
+* 19:51 MirahezeLSBot: [root@puppet181] Upgraded packages on mem151: net-tools
+* 19:51 MirahezeLSBot: [root@puppet181] Upgraded packages on bast181: net-tools
+* 19:50 MirahezeLSBot: [root@puppet181] Upgraded packages on bots171: net-tools
+* 19:50 MirahezeLSBot: [root@puppet181] Upgraded packages on kafka181: net-tools
+* 19:50 MirahezeLSBot: [root@puppet181] Upgraded packages on ldap171: net-tools
+* 19:50 MirahezeLSBot: [root@puppet181] Upgraded packages on bast161: net-tools
+* 19:50 MirahezeLSBot: [root@puppet181] Upgraded packages on db181: net-tools
+* 19:49 MirahezeLSBot: [root@puppet181] Upgraded packages on graylog161: net-tools
+* 19:49 MirahezeLSBot: [root@puppet181] Upgraded packages on db182: net-tools
+* 19:49 MirahezeLSBot: [root@puppet181] Upgraded packages on cloud18: net-tools
+* 19:49 MirahezeLSBot: [root@puppet181] Upgraded packages on db161: net-tools
+* 19:48 MirahezeLSBot: [root@puppet181] Upgraded packages on cloud17: net-tools
+* 19:48 MirahezeLSBot: [root@puppet181] Upgraded packages on cloud16: net-tools
+* 19:48 MirahezeLSBot: [root@puppet181] Upgraded packages on db151: net-tools
+* 19:48 MirahezeLSBot: [root@puppet181] Upgraded packages on cp37: net-tools
+* 19:47 MirahezeLSBot: [root@puppet181] Upgraded packages on eventgate181: net-tools
+* 19:47 MirahezeLSBot: [root@puppet181] Upgraded packages on matomo151: net-tools
+* 19:47 MirahezeLSBot: [root@puppet181] Upgraded packages on db171: net-tools
+* 19:47 MirahezeLSBot: [root@puppet181] Upgraded packages on db172: net-tools
+* 19:47 MirahezeLSBot: [root@puppet181] Upgraded packages on cp36: net-tools
+* 19:46 MirahezeLSBot: [root@puppet181] Upgraded packages on cloud19: net-tools
+* 19:46 MirahezeLSBot: [root@puppet181] Upgraded packages on mattermost1: net-tools
+* 19:46 MirahezeLSBot: [root@puppet181] Upgraded packages on cloud15: net-tools
+* 19:46 MirahezeLSBot: [root@puppet181] Upgraded packages on cp38: net-tools
+* 19:45 @paladox: running sudo upgrade-packages -y on puppet181
+* 19:45 @paladox: upgrade net-tools on cloud20
+* 19:45 MirahezeLSBot: [root@puppet181] Upgraded packages on changeprop201: net-tools
+* 05:24 BlankEclair: MediaWiki\Extension\CentralAuth\User\CentralAuthUser::getInstance( User::newFromName( 'Kesera' ) )->attach( 'vocaloidlyricswiki', 'admin' );
+* 05:11 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CentralAuth:attachAccount --wiki=vocaloidlyricswiki --userlist vocaloidlyricswiki_Kesera.txt (END - exit=0)
+* 05:10 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CentralAuth:attachAccount --wiki=vocaloidlyricswiki --userlist vocaloidlyricswiki_Keresa.txt (END - exit=0)
+* 05:03 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CentralAuth:createLocalAccount --wiki=vocaloidlyricswiki Kesera (END - exit=0)
+* 05:03 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CentralAuth:CreateLocalAccount --wiki=vocaloidlyricswiki Kesera (END - exit=256)
+* 04:51 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 35s
+* 04:51 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 02:21 MirahezeLSBot: [blankeclair@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 02:09 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'l10n': True, 'versions': '1.43', 'upgrade_extensions': 'MsCatSelect'} to all
+* 00:40 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force': True, 'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 25s
+* 00:40 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force': True, 'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+
+## 2025-05-17 
+
+* 10:24 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'l10n': True, 'folders': '1.43/skins/Citizen', 'versions': '1.43', 'upgrade_skins': 'Citizen'} to all - SUCCESS in 610s
+* 10:14 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'l10n': True, 'folders': '1.43/skins/Citizen', 'versions': '1.43', 'upgrade_skins': 'Citizen'} to all
+* 06:21 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php rebuildtextindex --wiki=vocaloidlyricswiki (END - exit=0)
+* 05:54 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php refreshLinks --wiki=vocaloidlyricswiki 138200 (START)
+* 05:53 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php rebuildtextindex --wiki=vocaloidlyricswiki (START)
+* 05:53 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php rebuildall --wiki=vocaloidlyricswiki 138200 (END - exit=2)
+* 05:35 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php rebuildall --wiki=vocaloidlyricswiki 138200 (START)
+* 05:33 MirahezeLSBot: [blankeclair@mwtask181] Finished import for vocaloidlyricswiki (XML: VLW_XML_DUMP_Song_Pages-5.xml; Images: None) (END - exit=-9)
+* 05:33 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php rebuildall --wiki=vocaloidlyricswiki (END - exit=-9)
+* 05:13 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CreateWiki:SetContainersAccess --wiki=spacewiki (END - exit=0)
+* 05:09 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CreateWiki:SetContainersAccess --wiki=spacewiki (END - exit=0)
+
+## 2025-05-16 
+
+* 20:58 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force': True, 'force_upgrade': True, 'versions': '1.43', 'upgrade_extensions': ['CreateWiki', 'ManageWiki']} to all - SUCCESS in 44s
+* 20:58 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force': True, 'force_upgrade': True, 'versions': '1.43', 'upgrade_extensions': ['CreateWiki', 'ManageWiki']} to all
+* 20:57 MirahezeLSBot: [universalomega@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mwtask161.wikitide.net
+* 20:56 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': ['CreateWiki', 'ManageWiki']} to all
+* 17:44 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 17:43 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 17:41 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 24s
+* 17:41 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+* 17:39 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'WikiDiscover'} to all - SUCCESS in 24s
+* 17:38 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'WikiDiscover'} to all
+* 17:25 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 24s
+* 17:24 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'CreateWiki'} to all
+* 17:19 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 17:19 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 08:25 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=tkuwiki --update (END - exit=0)
+* 08:23 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 08:22 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 08:04 Universal Omega: pkill -TERM -g 2948755 on mwtask181
+* 07:15 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/purgeList.php --wiki=mysiktwiki --all-namespaces (END - exit=0)
+* 07:15 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/purgeList.php --wiki=mysiktwiki --all-namespaces (START)
+* 07:15 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/purgeList.php --wiki=mysiktwiki --purge --all-namespaces (END - exit=256)
+* 07:15 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/purgeList.php --wiki=mysiktwiki --purge --all-namespaces (START)
+
+## 2025-05-15 
+
+* 21:28 MirahezeLSBot: [paladox@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 21:14 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.43', 'upgrade_extensions': 'CentralAuth'} to all
+* 19:10 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/initSiteStats.php --wiki=tkuwiki --update (END - exit=0)
+* 19:08 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/extensions/CirrusSearch/maintenance/forceSearchIndex.php --wiki=wgtropeswiki (END - exit=256)
+* 19:07 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/extensions/CirrusSearch/maintenance/updateSearchIndexConfig.php --wiki=wgtropeswiki --startOver (END - exit=256)
+* 19:07 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/updateSearchIndexConfig.php --wiki=wgtropeswiki --startOver (END - exit=256)
+* 19:06 Reception123: curl -X DELETE [https://opensearch-mw.wikitide.net/wgtropeswiki_{content,general}](https://opensearch-mw.wikitide.net/wgtropeswiki_{content,general})
+* 19:04 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=rainworldwiki --import-prefix=wikia:rainworld --from=Peperos (END - exit=0)
+* 18:19 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/initSiteStats.php --wiki=mysiktwiki --update (END - exit=0)
+* 18:19 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=mysiktwiki (END - exit=0)
+* 18:12 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 27s
+* 18:11 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'ImportDump'} to all
+* 18:10 MirahezeLSBot: [macfan@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'ImportDump'} to test151 - SUCCESS in 1s
+* 18:10 MirahezeLSBot: [macfan@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'ImportDump'} to test151
+* 17:56 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=mysiktwiki (START)
+* 17:56 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=mysiktwiki dump.xml --no-updates (END - exit=0)
+* 17:33 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=mysiktwiki dump.xml --no-updates (START)
+* 17:03 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=spacewiki --requester=Anpang (END - exit=0)
+* 16:26 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': '1.43'} to all - SUCCESS in 489s
+* 16:18 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'l10n': True, 'versions': '1.43'} to all
+* 16:18 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': ['CreateWiki', 'ManageWiki', 'MirahezeMagic', 'RemovePII', 'WikiDiscover']} to all - SUCCESS in 113s
+* 16:16 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': ['CreateWiki', 'ManageWiki', 'MirahezeMagic', 'RemovePII', 'WikiDiscover']} to all
+* 00:24 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=spacewiki --requester=Anpang (END - exit=0)
+
+## 2025-05-14 
+
+* 21:36 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 21s
+* 21:35 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 21:35 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 21:35 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 21:25 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php rebuildall --wiki=vocaloidlyricswiki (START)
+* 21:25 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importDump --wiki=vocaloidlyricswiki --no-updates --username-prefix=fandom:vocaloidlyrics -- VLW_XML_DUMP_Song_Pages-5.xml (END - exit=0)
+* 21:13 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=spacewiki --requester=Anpang (END - exit=0)
+* 21:11 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahzeMagic:ResetWiki --wiki=loginwiki --dbname=spacewiki --requester=Anpang (END - exit=256)
+* 20:14 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/initSiteStats.php --wiki=tavernofspearwiki --update (END - exit=0)
+* 20:14 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=tavernofspearwiki (END - exit=0)
+* 20:12 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=tavernofspearwiki (START)
+* 20:12 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=tavernofspearwiki dump.xml --no-updates (END - exit=256)
+* 20:10 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=tavernofspearwiki dump.xml --no-updates (START)
+* 19:47 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importDump --wiki=vocaloidlyricswiki --no-updates --username-prefix=fandom:vocaloidlyrics -- VLW_XML_DUMP_Song_Pages-5.xml (START)
+* 19:47 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importDump --wiki=vocaloidlyricswiki --no-updates --username-prefix=fandom:vocaloidlyrics -- VLW_XML_DUMP_Song_Pages-4.xml (END - exit=0)
+* 18:58 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/initSiteStats.php --wiki=galaxypediawiki --update (END - exit=0)
+* 18:58 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=galaxypediawiki (END - exit=0)
+* 18:44 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=galaxypediawiki (START)
+* 18:44 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=galaxypediawiki dump.xml --no-updates (END - exit=0)
+* 17:56 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=galaxypediawiki dump.xml --no-updates (START)
+* 17:38 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importDump --wiki=vocaloidlyricswiki --no-updates --username-prefix=fandom:vocaloidlyrics -- VLW_XML_DUMP_Song_Pages-4.xml (START)
+* 17:38 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importDump --wiki=vocaloidlyricswiki --no-updates --username-prefix=fandom:vocaloidlyrics -- VLW_XML_DUMP_Song_Pages-3.xml (END - exit=0)
+* 16:43 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/initSiteStats.php --wiki=galaxypediawiki --update (END - exit=0)
+* 16:43 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=galaxypediawiki (END - exit=0)
+* 16:26 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=galaxypediawiki (START)
+* 16:26 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=galaxypediawiki dump.xml --no-updates (END - exit=256)
+* 16:17 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 16:16 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 16:16 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 16:16 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 15:38 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=galaxypediawiki dump.xml --no-updates (START)
+* 15:29 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/initSiteStats.php --wiki=vocaloidlyricswiki --update (END - exit=0)
+* 15:29 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=vocaloidlyricswiki (END - exit=2)
+* 14:23 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importDump --wiki=vocaloidlyricswiki --no-updates --username-prefix=fandom:vocaloidlyrics -- VLW_XML_DUMP_Song_Pages-3.xml (START)
+* 14:23 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importDump --wiki=vocaloidlyricswiki --no-updates --username-prefix=fandom:vocaloidlyrics -- VLW_XML_DUMP_Song_Pages-2.xml (END - exit=0)
+* 10:52 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 10:51 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 10:35 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importDump --wiki=vocaloidlyricswiki --no-updates --username-prefix=fandom:vocaloidlyrics -- VLW_XML_DUMP_Song_Pages-2.xml (START)
+* 10:34 MirahezeLSBot: [blankeclair@mwtask181] Finished import for vocaloidlyricswiki (XML: VLW_XML_DUMP_Song_Pages-5.xml; Images: None) (END - exit=-2)
+* 10:34 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importDump --wiki=vocaloidlyricswiki --no-updates --username-prefix=fandom:vocaloidlyrics -- VLW_XML_DUMP_Song_Pages-5.xml (END - exit=-2)
+* 10:34 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importDump --wiki=vocaloidlyricswiki --no-updates --username-prefix=fandom:vocaloidlyrics -- VLW_XML_DUMP_Song_Pages-5.xml (START)
+* 10:34 MirahezeLSBot: [blankeclair@mwtask181] Starting import for vocaloidlyricswiki (XML: VLW_XML_DUMP_Song_Pages-5.xml; Images: None) (START)
+* 10:34 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importDump --wiki=vocaloidlyricswiki --no-updates --username-prefix=fandom:vocaloidlyrics -- VLW_XML_DUMP_Song_Pages-{2..4}.xml (END - exit=256)
+* 10:34 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importDump --wiki=vocaloidlyricswiki --no-updates --username-prefix=fandom:vocaloidlyrics -- VLW_XML_DUMP_Song_Pages-{2..4}.xml (START)
+* 10:32 MirahezeLSBot: [blankeclair@mwtask181] Finished import for vocaloidlyricswiki (XML: VLW_XML_DUMP_Song_Pages-1.xml; Images: None) (END - exit=-2)
+* 10:32 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php rebuildall --wiki=vocaloidlyricswiki (END - exit=-2)
+* 10:32 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php rebuildall --wiki=vocaloidlyricswiki (START)
+* 10:32 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importDump --wiki=vocaloidlyricswiki --no-updates --username-prefix=fandom:vocaloidlyrics -- VLW_XML_DUMP_Song_Pages-1.xml (END - exit=0)
+* 09:02 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 44s
+* 09:01 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 09:00 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 09:00 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 08:59 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 08:58 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 06:30 RhinosF1: bounce logbot
+
+## 2025-05-13 
+
+* 02:54 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=vocaloidlyricswiki dump.xml --no-updates (START)
+* 02:52 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/initSiteStats.php --wiki=vocaloidlyricswiki --update (END - exit=0)
+* 02:52 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=vocaloidlyricswiki (END - exit=2)
+
+## 2025-05-12 
+
+* 19:48 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'RequestSSL'} to all - SUCCESS in 23s
+* 19:47 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'RequestSSL'} to all
+* 19:47 MirahezeLSBot: [macfan@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'RequestSSL'} to test151 - SUCCESS in 1s
+* 19:47 MirahezeLSBot: [macfan@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'RequestSSL'} to test151
+* 18:58 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'RequestSSL'} to all - SUCCESS in 32s
+* 18:58 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'RequestSSL'} to all
+* 18:41 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'RequestSSL'} to all - SUCCESS in 27s
+* 18:40 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'RequestSSL'} to all
+* 18:37 MirahezeLSBot: [macfan@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'RequestSSL'} to test151 - SUCCESS in 1s
+* 18:37 MirahezeLSBot: [macfan@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'RequestSSL'} to test151
+* 18:21 @paladox: increase ram on rdb151 to 10gib
+* 17:56 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=vocaloidlyricswiki (START)
+* 17:56 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=vocaloidlyricswiki dump.xml --no-updates (END - exit=0)
+* 17:13 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=vocaloidlyricswiki dump.xml --no-updates (START)
+
+## 2025-05-11 
+
+* 23:37 @paladox: mon181: upgrade grafana to version 12
+* 07:57 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=googlewiki (END - exit=0)
+* 07:56 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=googlewiki --startOver (END - exit=0)
+* 07:53 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=thelonsdalebattalionwiki (END - exit=0)
+* 07:52 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=thelonsdalebattalionwiki --startOver (END - exit=0)
+* 07:51 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=theenglishlakeswiki (END - exit=0)
+* 07:50 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=theenglishlakeswiki --startOver (END - exit=0)
+* 07:49 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=mythcommunitywiki (END - exit=0)
+* 07:45 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=mythcommunitywiki --startOver (END - exit=0)
+* 07:45 BlankEclair: [blankeclair@mwtask181:~]$ curl -X DELETE [https://opensearch-mw.wikitide.net/mythcommunitywiki_general](https://opensearch-mw.wikitide.net/mythcommunitywiki_general)
+* 07:44 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=mythcommunitywiki --startOver (END - exit=256)
+* 07:43 BlankEclair: curl -v -X DELETE [https://opensearch-mw.wikitide.net/mythcommunitywiki_content](https://opensearch-mw.wikitide.net/mythcommunitywiki_content)
+* 07:11 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=mythcommunitywiki --startOver (END - exit=256)
+* 07:07 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=mythcommunitywiki --startOver (END - exit=256)
+* 07:06 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CirrusSearch:updateSearchIndexConfig --wiki=mythcommunitywiki --startOver (END - exit=256)
+* 05:57 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/extensions/CirrusSearch/maintenance/UpdateSearchIndexConfig.php --wiki=thelonsdalebattalionwiki --reindexAndRemoveOk --indexIdentifier now (END - exit=256)
+* 05:56 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/extensions/CirrusSearch/maintenance/updateSearchIndexConfig.php --wiki=thelonsdalebattalionwiki --reindexAndRemoveOk --indexIdentifier now (END - exit=256)
+* 05:49 Reception123: sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/extensions/ManageWiki/maintenance/ToggleExtension.php --wiki mythcommunitywiki --ext cirrussearch
+* 05:49 Reception123: sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/extensions/ManageWiki/maintenance/ToggleExtension.php --wiki mythcommunitywiki --ext cirrussearch --disable
+* 05:46 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildtextindex.php --wiki=theenglishlakeswiki (END - exit=0)
+* 05:46 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildtextindex.php --wiki=theenglishlakeswiki (START)
+* 05:44 MirahezeLSBot: [reception@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /tmp/cirrussearch.php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/extensions/ManageWiki/maintenance/ToggleExtension.php thelonsdalebattalionwiki --disable (END - exit=2)
+* 05:44 MirahezeLSBot: [reception@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /tmp/cirrussearch.php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/extensions/ManageWiki/maintenance/ToggleExtension.php thelonsdalebattalionwiki --disable (START)
+* 05:44 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/extensions/ManageWiki/maintenance/ToggleExtension.php --wiki=thelonsdalebattalionwiki cirrussearch --disable (END - exit=256)
+* 05:43 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/extensions/ManageWiki/maintenance/toggleExtension.php --wiki=thelonsdalebattalionwiki cirrussearch --disable (END - exit=256)
+* 05:43 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/extensions/ManageWiki/maintenance/toggleExtension.php --wiki=thelonsdalebattalionwikiwiki cirrussearch --disable (END - exit=256)
+* 03:30 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 03:30 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 03:21 MirahezeLSBot: [macfan@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 03:21 MirahezeLSBot: [macfan@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 02:36 MirahezeLSBot: [blankeclair@mwtask181] Finished import for universalunionwiki (XML: universalunion.fandom.com-20250506-history.xml; Images: images/) (END - exit=0)
+* 02:36 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=universalunionwiki --update (END - exit=0)
+* 02:36 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=universalunionwiki --update (START)
+* 02:36 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initEditCount --wiki=universalunionwiki (END - exit=0)
+* 02:36 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initEditCount --wiki=universalunionwiki (START)
+* 02:36 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php rebuildall --wiki=universalunionwiki (END - exit=0)
+* 02:33 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php rebuildall --wiki=universalunionwiki (START)
+* 02:33 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=universalunionwiki '--comment=Importing images from [https://universalunion.fandom.com](https://universalunion.fandom.com) ([T13646](https://meta.miraheze.org/wiki/phorge:T13646))' -- images/ (END - exit=0)
+* 02:31 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 02:30 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 02:30 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=universalunionwiki '--comment=Importing images from [https://universalunion.fandom.com](https://universalunion.fandom.com) ([T13646](https://meta.miraheze.org/wiki/phorge:T13646))' -- images/ (START)
+* 02:30 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importDump --wiki=universalunionwiki --no-updates --username-prefix=fandom:universalunion -- universalunion.fandom.com-20250506-history.xml (END - exit=0)
+* 02:09 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importDump --wiki=universalunionwiki --no-updates --username-prefix=fandom:universalunion -- universalunion.fandom.com-20250506-history.xml (START)
+* 02:09 MirahezeLSBot: [blankeclair@mwtask181] Starting import for universalunionwiki (XML: universalunion.fandom.com-20250506-history.xml; Images: images/) (START)
+
+## 2025-05-10 
+
+* 13:23 RhinosF1: drop oldest 2 graylog indexes
+* 12:44 RhinosF1: bounce logbot
+
+## 2025-05-06 
+
+* 21:38 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 21:37 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:33 MirahezeLSBot: [rhinos@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 19:33 MirahezeLSBot: [rhinos@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 19:33 MirahezeLSBot: [rhinos@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 19:33 MirahezeLSBot: [rhinos@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 19:33 MirahezeLSBot: [rhinos@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 19:33 MirahezeLSBot: [rhinos@test151] starting deploy of {'config': True} to test151
+* 19:28 MirahezeLSBot: [rhinos@test151] finished deploy of {'world': True, 'l10n': True, 'force': True, 'versions': '1.44', 'ignore_time': True} to test151 - SUCCESS in 326s
+* 19:22 MirahezeLSBot: [rhinos@test151] starting deploy of {'world': True, 'l10n': True, 'force': True, 'versions': '1.44', 'ignore_time': True} to test151
+* 19:18 MirahezeLSBot: [rhinos@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 19:17 MirahezeLSBot: [rhinos@test151] starting deploy of {'world': True, 'l10n': True, 'force': True, 'versions': '1.44', 'ignore_time': True} to test151
+* 19:17 MirahezeLSBot: [rhinos@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:ToggleExtension --wiki=metawikibeta --ext=GrowthExperiments --all-wikis --confirm (END - exit=0)
+* 19:17 MirahezeLSBot: [rhinos@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:ToggleExtension --wiki=metawikibeta --ext=GrowthExperiments --all-wikis (END - exit=512)
+* 19:14 MirahezeLSBot: [rhinos@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 19:13 MirahezeLSBot: [rhinos@test151] starting deploy of {'world': True, 'l10n': True, 'force': True, 'versions': '1.44', 'ignore_time': True} to test151
+* 19:11 RhinosF1: branch femiwiki-deploy
+
+## 2025-05-05 
+
+* 09:22 RhinosF1: rebooted db181 after the upgrades
+* 09:20 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 09:20 MirahezeLSBot: [rhinos@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 09:14 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db181: base-files, libc6-dbg, libc-devtools, libc6-dev, libc-dev-bin, libc6, libc-bin, libnss-systemd, systemd-sysv, libpam-systemd, systemd, libsystemd-shared, libsystemd0, udev, libudev1, tzdata, vim, vim-tiny, vim-runtime, vim-common, intel-microcode, libc-l10n, locales, wget, curl, libcurl4, dns-root-
+* 08:57 RhinosF1: restart MySQL on db181
+* 08:55 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 08:55 MirahezeLSBot: [rhinos@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 05:43 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 21s
+* 05:43 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 05:40 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 05:39 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 04:39 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/initSiteStats.php --wiki=kfffwiki --update (END - exit=0)
+* 04:39 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=kfffwiki (END - exit=2)
+* 04:39 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=kfffwiki (START)
+* 04:39 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=kfffwiki dump.xml --no-updates (END - exit=65280)
+* 04:38 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=kfffwiki dump.xml --no-updates (START)
+* 04:32 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/initSiteStats.php --wiki=kfffwiki --update (END - exit=0)
+* 04:32 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=kfffwiki (END - exit=0)
+* 04:32 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=kfffwiki (START)
+* 04:32 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=kfffwiki dump.xml --no-updates (END - exit=65280)
+* 04:30 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=kfffwiki dump.xml --no-updates (START)
+* 04:09 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 04:08 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 03:43 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 21s
+* 03:43 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 03:36 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:ResetWikiCaches --wiki=kfffwiki (END - exit=0)
+* 03:34 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 03:33 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 03:11 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:ResetWikiCaches --wiki=kfffwiki (END - exit=0)
+* 03:10 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagoc:ResetWikiCaches --wiki=kfffwiki (END - exit=256)
+* 02:58 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 02:57 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
+## 2025-05-04 
+
+* 20:23 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force': True, 'versions': '1.43', 'upgrade_extensions': ['CreateWiki', 'ManageWiki']} to all - SUCCESS in 50s
+* 20:23 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force': True, 'versions': '1.43', 'upgrade_extensions': ['CreateWiki', 'ManageWiki']} to all
+* 16:42 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 22s
+* 16:42 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+* 16:33 RhinosF1: added CosmicAlpha to PyPi as owner & infrastructure
+* 16:21 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 22s
+* 16:20 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 16:20 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 46s
+* 16:19 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+* 13:08 RhinosF1: attempting to bounce relaybot on bots171
+* 04:32 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_skins': 'Metrolook'} to all - SUCCESS in 0s
+* 04:32 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_skins': 'Metrolook'} to all
+* 02:58 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 22s
+* 02:58 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+* 02:39 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 23s
+* 02:39 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+
+## 2025-05-03 
+
+* 23:20 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 21s
+* 23:19 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 23:18 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force': True, 'versions': '1.43', 'upgrade_extensions': ['CreateWiki', 'ManageWiki']} to all - SUCCESS in 43s
+* 23:17 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force': True, 'versions': '1.43', 'upgrade_extensions': ['CreateWiki', 'ManageWiki']} to all
+* 23:17 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 23:16 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:35 RhinosF1: transferred Miraheze-PyUtils to Miraheze PyPi org
+* 18:22 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force': True, 'versions': '1.43', 'upgrade_extensions': ['DataDump', 'ManageWiki']} to all
+* 07:46 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 07:45 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 06:33 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libvips42 and libvips-tools
+* 06:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: libvips42 and libvips-tools
+* 06:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: libvips42 and libvips-tools
+* 06:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: libvips42 and libvips-tools
+* 06:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libvips42 and libvips-tools
+* 06:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: libvips42 and libvips-tools
+* 06:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: libvips42 and libvips-tools
+* 06:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: libvips42 and libvips-tools
+* 06:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: libvips42 and libvips-tools
+* 06:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: libvips42 and libvips-tools
+* 06:30 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: libvips42 and libvips-tools
+* 06:30 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: libvips42 and libvips-tools
+* 06:30 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: libvips42 and libvips-tools
+* 06:30 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: libvips42 and libvips-tools
+* 06:29 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: libvips42 and libvips-tools
+* 06:29 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: libvips42 and libvips-tools
+* 06:29 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: libvips42 and libvips-tools
+* 06:29 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: libvips42 and libvips-tools
+* 06:29 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: libvips42 and libvips-tools
+* 06:28 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: libvips42 and libvips-tools
+* 06:28 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: libvips42 and libvips-tools
+* 06:28 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: libvips42 and libvips-tools
+* 06:28 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: libvips42 and libvips-tools
+* 05:44 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=ultimaterandomnightrobloxwiki --new=urnwiki --user=Reception123 (END - exit=0)
+* 05:40 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=csgamedevstudiowii --new=gamedevstudiowiki --user=Reception123 (END - exit=256)
+* 05:39 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=pldiwiki --new=pltdiwiki --user=Reception123 (END - exit=0)
+* 02:29 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force': True, 'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 22s
+* 02:29 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force': True, 'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+* 02:29 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 02:28 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 00:22 MirahezeLSBot: [void@puppet181] restart puppetserver after jre update
+* 00:06 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: openjdk-17-jdk, openjdk-17-jdk-headless, openjdk-17-jre, and openjdk-17-jre-headless
+* 00:06 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: openjdk-17-jdk, openjdk-17-jdk-headless, openjdk-17-jre, and openjdk-17-jre-headless
+* 00:05 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: openjdk-17-jdk, openjdk-17-jdk-headless, openjdk-17-jre, and openjdk-17-jre-headless
+* 00:05 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: openjdk-17-jdk, openjdk-17-jdk-headless, openjdk-17-jre, and openjdk-17-jre-headless
+* 00:01 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka181: openjdk-17-jre and openjdk-17-jre-headless
+* 00:00 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: openjdk-17-jdk, openjdk-17-jdk-headless, openjdk-17-jre, and openjdk-17-jre-headless
+
+## 2025-05-02 
+
+* 16:06 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 16:06 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 01:23 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 23s
+* 01:23 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+
+## 2025-05-01 
+
+* 22:05 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'force': True, 'force_upgrade': True, 'versions': '1.43', 'upgrade_extensions': ['CreateWiki', 'ManageWiki', 'MirahezeMagic', 'WikiDiscover']} to all - SUCCESS in 105s
+* 22:03 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'force': True, 'force_upgrade': True, 'versions': '1.43', 'upgrade_extensions': ['CreateWiki', 'ManageWiki', 'MirahezeMagic', 'WikiDiscover']} to all
+* 22:03 MirahezeLSBot: [universalomega@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@localhost
+* 22:03 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'force_upgrade': True, 'versions': '1.43', 'upgrade_extensions': ['CreateWiki', 'ManageWiki', 'MirahezeMagic', 'WikiDiscover']} to all
+* 20:28 MirahezeLSBot: [void@cloud20.wikitide.net] clear ipmi sel
+* 20:27 MirahezeLSBot: [void@cloud16.wikitide.net] clear ipmi sel
+* 02:16 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': '1.43'} to all - SUCCESS in 470s
+* 02:09 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'l10n': True, 'versions': '1.43'} to all
+* 02:08 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 24s
+* 02:08 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+* 00:00 MirahezeLSBot: [www-data@mwtask181] Began automatic backing up
+* 00:00 MirahezeLSBot: [www-data@test151] Began automatic backing up
+
+## 2025-04-30 
+
+* 14:05 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.43'} to all - SUCCESS in 480s
+* 13:57 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.43'} to all
+* 13:57 MirahezeLSBot: [paladox@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 13:56 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.43'} to all
+* 13:52 MirahezeLSBot: [paladox@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 13:52 MirahezeLSBot: [paladox@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 13:47 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 21s
+* 13:47 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 13:44 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 13:44 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 13:43 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 13:42 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 08:09 MirahezeLSBot: [aeywoo@test151] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'PageSchemas'} to test151 - SUCCESS in 1s
+* 08:09 MirahezeLSBot: [aeywoo@test151] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'PageSchemas'} to test151
+* 06:54 MirahezeLSBot: [aeywoo@test151] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_skins': 'Citizen'} to test151 - SUCCESS in 2s
+* 06:54 MirahezeLSBot: [aeywoo@test151] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_skins': 'Citizen'} to test151
+* 03:23 MirahezeLSBot: [aeywoo@test151] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'PageSchemas'} to test151 - SUCCESS in 1s
+* 03:23 MirahezeLSBot: [aeywoo@test151] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'PageSchemas'} to test151
+
+## 2025-04-29 
+
+* 18:28 MacFan4000: updating actor IDs for restored pages on testwiki to be the actual users
+* 17:20 MirahezeLSBot: [macfan@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/initSiteStats.php --wiki=tempwikibeta --update (END - exit=0)
+* 17:20 MirahezeLSBot: [macfan@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=tempwikibeta (END - exit=0)
+* 17:05 MirahezeLSBot: [macfan@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=tempwikibeta (START)
+* 17:05 MirahezeLSBot: [macfan@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=tempwikibeta miraheze-wiki-testwiki-20250416/testwiki-20250416.xml --no-updates (END - exit=0)
+* 16:16 MirahezeLSBot: [macfan@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=tempwikibeta miraheze-wiki-testwiki-20250416/testwiki-20250416.xml --no-updates (START)
+* 13:43 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 13:43 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 07:45 MirahezeLSBot: [aeywoo@test151] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'EmbedVideo'} to test151 - SUCCESS in 1s
+* 07:45 MirahezeLSBot: [aeywoo@test151] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'EmbedVideo'} to test151
+* 07:28 Universal Omega: added aeywoo to reader on graylog
+* 06:11 Universal Omega: created ldap account for aeywoo
+* 01:51 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': '1.43'} to all - SUCCESS in 449s
+* 01:43 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'l10n': True, 'versions': '1.43'} to all
+* 01:42 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 26s
+* 01:42 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+
+## 2025-04-28 
+
+* 21:59 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': '1.43'} to all - SUCCESS in 472s
+* 21:52 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'l10n': True, 'versions': '1.43'} to all
+* 21:51 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 26s
+* 21:51 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+* 20:15 MirahezeLSBot: [rhinos@test151] finished deploy of {'l10n': True, 'versions': '1.44', 'upgrade_skins': 'Citizen'} to test151 - SUCCESS in 277s
+* 20:11 MirahezeLSBot: [rhinos@test151] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_skins': 'Citizen'} to test151
+* 18:53 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': '1.43'} to all - SUCCESS in 263s
+* 18:49 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'l10n': True, 'versions': '1.43'} to all
+* 18:48 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 18:48 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 18:48 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 28s
+* 18:47 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+* 08:27 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': '1.43'} to all - SUCCESS in 446s
+* 08:20 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'l10n': True, 'versions': '1.43'} to all
+* 08:19 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 25s
+* 08:19 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+* 03:46 MirahezeLSBot: [macfan@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist /tmp/javascriptslideshow.php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:ToggleExtension testwikibeta --disable (END - exit=256)
+* 03:46 MirahezeLSBot: [macfan@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist /tmp/javascriptslideshow.php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:ToggleExtension testwikibeta --disable (START)
+* 03:44 MirahezeLSBot: [macfan@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php extensions/ManageWiki:ToggleExtension --wiki=testwikibeta javascriptslideshow --disable (END - exit=256)
+* 03:43 MirahezeLSBot: [macfan@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php extensions/ManageWiki:toggleExtension --wiki=testwikibeta javascriptslideshow --disable (END - exit=256)
+* 03:43 MirahezeLSBot: [macfan@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/extensions/ManageWiki/maintenance/toggleExtension.php --wiki=testwikibeta javascriptslideshow --disable (END - exit=256)
+
+## 2025-04-27 
+
+* 22:19 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': '1.43'} to all - SUCCESS in 468s
+* 22:12 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'l10n': True, 'versions': '1.43'} to all
+* 22:11 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 23s
+* 22:11 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+* 19:29 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject181: linux-libc-dev
+* 19:29 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftproxy171: linux-libc-dev
+* 19:29 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject171: linux-libc-dev
+* 19:28 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject191: linux-libc-dev
+* 19:28 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject201: linux-libc-dev
+* 19:28 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject161: linux-libc-dev
+* 19:28 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftac171: linux-libc-dev
+* 19:27 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on ns2: linux-libc-dev
+* 19:27 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject151: linux-libc-dev
+* 19:27 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftproxy161: linux-libc-dev
+* 19:27 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on test151: linux-libc-dev
+* 19:26 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on os151: linux-libc-dev
+* 19:26 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on os161: linux-libc-dev
+* 19:26 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on reports171: linux-libc-dev
+* 19:26 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on puppet181: linux-libc-dev
+* 19:26 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on os162: linux-libc-dev
+* 19:25 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on rdb151: linux-libc-dev
+* 19:25 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on phorge171: linux-libc-dev
+* 19:25 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on prometheus151: linux-libc-dev
+* 19:25 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mwtask181: linux-libc-dev
+* 19:25 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on ns1: linux-libc-dev
+* 19:24 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mwtask171: linux-libc-dev
+* 19:24 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw182: linux-libc-dev
+* 19:24 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw193: linux-libc-dev
+* 19:24 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mwtask151: linux-libc-dev
+* 19:24 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw202: linux-libc-dev
+* 19:23 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw192: linux-libc-dev
+* 19:23 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mwtask161: linux-libc-dev
+* 19:23 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw183: linux-libc-dev
+* 19:23 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw203: linux-libc-dev
+* 19:22 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw191: linux-libc-dev
+* 19:22 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw201: linux-libc-dev
+* 19:22 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw163: linux-libc-dev
+* 19:22 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw181: linux-libc-dev
+* 19:22 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw173: linux-libc-dev
+* 19:21 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw171: linux-libc-dev
+* 19:21 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw161: linux-libc-dev
+* 19:21 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw172: linux-libc-dev
+* 19:21 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw162: linux-libc-dev
+* 19:21 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw153: linux-libc-dev
+* 19:20 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mon181: linux-libc-dev
+* 19:20 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw151: linux-libc-dev
+* 19:20 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw152: linux-libc-dev
+* 19:20 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mem201: linux-libc-dev
+* 19:19 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mem161: linux-libc-dev
+* 19:19 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mem151: linux-libc-dev
+* 19:19 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on bast161: linux-libc-dev
+* 19:19 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on kafka181: linux-libc-dev
+* 19:19 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on ldap171: linux-libc-dev
+* 19:18 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on bast181: linux-libc-dev
+* 19:18 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db182: linux-libc-dev
+* 19:18 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on eventgate181: linux-libc-dev
+* 19:18 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud18: linux-libc-dev
+* 19:18 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on graylog161: linux-libc-dev
+* 19:17 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud19: linux-libc-dev
+* 19:17 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud16: linux-libc-dev
+* 19:17 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cp38: linux-libc-dev
+* 19:17 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db181: linux-libc-dev
+* 19:16 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db172: linux-libc-dev
+* 19:16 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db151: linux-libc-dev
+* 19:16 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db171: linux-libc-dev
+* 19:16 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cp36: linux-libc-dev
+* 19:16 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud20: linux-libc-dev
+* 19:16 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cp37: linux-libc-dev
+* 19:15 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on matomo151: linux-libc-dev
+* 19:15 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on changeprop201: linux-libc-dev
+* 19:15 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db161: linux-libc-dev
+* 19:15 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud15: linux-libc-dev
+* 19:15 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on bots171: linux-libc-dev
+* 19:14 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mattermost1: linux-libc-dev
+* 01:13 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 01:13 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 01:06 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 22s
+* 01:06 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+* 00:33 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 00:33 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
+## 2025-04-26 
+
+* 23:20 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 23:19 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 23:19 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': '1.43'} to all - SUCCESS in 481s
+* 23:11 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'l10n': True, 'versions': '1.43'} to all
+* 23:11 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 24s
+* 23:10 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+* 19:42 RhinosF1: bounce MirahezeRC2 as it was offline
+* 13:29 MirahezeLSBot: [rhinos@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist /tmp/WikiSEO.php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:ToggleExtension metawikibeta --disable --all-wikis (END - exit=256)
+* 13:29 MirahezeLSBot: [rhinos@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist /tmp/WikiSEO.php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:ToggleExtension metawikibeta --disable --all-wikis (START)
+* 13:27 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'world': True, 'versions': '1.43'} to all - SUCCESS in 126s
+* 13:26 MirahezeLSBot: [rhinos@test151] finished deploy of {'world': True, 'versions': '1.43'} to test151 - SUCCESS in 21s
+* 13:26 MirahezeLSBot: [rhinos@test151] starting deploy of {'world': True, 'versions': '1.43'} to test151
+* 13:25 MirahezeLSBot: [rhinos@test151] finished deploy of {'world': True, 'versions': '1.44'} to test151 - SUCCESS in 14s
+* 13:25 MirahezeLSBot: [rhinos@mwtask181] starting deploy of {'world': True, 'versions': '1.43'} to all
+* 13:25 MirahezeLSBot: [rhinos@test151] starting deploy of {'world': True, 'versions': '1.44'} to test151
+* 13:20 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'world': True, 'versions': '1.43'} to all - SUCCESS in 173s
+* 13:20 MirahezeLSBot: [rhinos@test151] finished deploy of {'world': True, 'versions': '1.44'} to test151 - SUCCESS in 28s
+* 13:19 MirahezeLSBot: [rhinos@test151] starting deploy of {'world': True, 'versions': '1.44'} to test151
+* 13:17 MirahezeLSBot: [rhinos@mwtask181] starting deploy of {'world': True, 'versions': '1.43'} to all
+* 02:56 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 02:55 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 02:55 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': ['CreateWiki', 'ManageWiki']} to all - SUCCESS in 48s
+* 02:54 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': ['CreateWiki', 'ManageWiki']} to all
+
+## 2025-04-25 
+
+* 08:44 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:FixProjectNS (END - exit=0)
+* 04:42 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:FixProjectNS (START)
+* 03:27 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=mechatwiki /home/reception/mechat_pages_full.xml --username-prefix=wikia:mechat (END - exit=35072)
+* 01:45 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:FixProjectNS (START)
+* 00:22 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 00:21 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
+## 2025-04-24 
+
+* 23:42 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 23:41 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 23:41 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 27s
+* 23:41 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+* 15:50 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=mechatwiki /home/reception/mechat_pages_full.xml --username-prefix=wikia:mechat (START)
+* 15:49 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=mechatwiki /home/reception/mechat_pages_full.xml --username-prefix=wikia:mechat (END - exit=256)
+* 15:49 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=mechatwiki /home/reception/mechat_pages_full.xml --username-prefix=wikia:mechat (START)
+* 05:55 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': '1.43'} to all - SUCCESS in 485s
+* 05:46 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'l10n': True, 'versions': '1.43'} to all
+* 05:45 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 25s
+* 05:45 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+
+## 2025-04-23 
+
+* 22:45 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 23s
+* 22:45 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+* 20:57 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 38s
+* 20:57 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 17:37 RhinosF1: bots171: bounced ircrcbot-MirahezeRC
+* 17:20 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:CheckWikiDatabases --wiki=metawiki --delete (END - exit=0)
+* 07:57 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:CheckWikiDatabases --wiki=metawiki --delete (END - exit=0)
+* 07:55 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'CreateWiki'} to all
+* 07:55 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': ['CreateWiki', 'ManageWiki', 'MirahezeMagic']} to all - SUCCESS in 70s
+* 07:54 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': ['CreateWiki', 'ManageWiki', 'MirahezeMagic']} to all
+* 07:45 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 25s
+* 07:44 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'CreateWiki'} to all
+* 07:39 Universal Omega: metawiki: UPDATE cw_requests SET cw_status = 'inreview' WHERE cw_status = 'approved' AND cw_id > 58319;
+* 07:39 Universal Omega: sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:CheckWikiDatabases --wiki=metawiki --delete
+* 06:59 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 25s
+* 06:58 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+* 05:04 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/updateArticleCount.php --wiki=tmnfwiki (END - exit=0)
+
+## 2025-04-22 
+
+* 23:54 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': '1.43'} to all - SUCCESS in 479s
+* 23:46 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'l10n': True, 'versions': '1.43'} to all
+* 23:46 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 25s
+* 23:46 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+* 20:53 Universal Omega: adjust coderabbitai settings, disabling poem and auto PR comments, and some other changes
+
+## 2025-04-21 
+
+* 22:06 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': '1.43'} to all - SUCCESS in 453s
+* 21:58 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'l10n': True, 'versions': '1.43'} to all
+* 21:58 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 25s
+* 21:57 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+
+## 2025-04-20 
+
+* 20:29 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 22s
+* 20:28 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+* 20:09 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 20:08 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:42 MacFan4000: (metawiki) UPDATE requestssl_requests SET request_status="declined" WHERE request_id=463; (manually closeing as wiki seems to be deleted)
+* 19:27 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 23s
+* 19:26 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+* 19:20 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 19:20 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:09 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': '1.43'} to all - SUCCESS in 435s
+* 19:01 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'l10n': True, 'versions': '1.43'} to all
+* 19:01 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 24s
+* 19:01 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+* 18:59 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': ['CreateWiki', 'MirahezeMagic']} to all - SUCCESS in 25s
+* 18:58 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': ['CreateWiki', 'MirahezeMagic']} to all
+* 18:44 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 18:43 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 18:42 Universal Omega: ALTER TABLE cw_wikis DROP COLUMN wiki_version, DROP COLUMN wiki_primary_domain; on mhglobal and testglobal
+
+## 2025-04-19 
+
+* 09:12 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=animalcrossingwikiwiki --new=acwiki --user=Reception123 (END - exit=0)
+* 09:10 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=swordartonlinezhwiki --new=saozhwiki --user=Reception123 (END - exit=0)
+* 09:08 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=telecrayonwiki --new=wikicafewiki --user=Reception123 (END - exit=0)
+* 09:06 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=telecrayonwiki--new=wikicafewiki --user=Reception123 (END - exit=256)
+* 09:06 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=comicstormwiki --new=comicsmaytearwiki --user=Reception123 (END - exit=0)
+
+## 2025-04-18 
+
+* 21:43 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:43 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:43 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:42 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:42 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:42 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:42 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:41 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:41 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:41 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:40 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libperl5.36, perl, perl-base, perl-modules-5.36, libgraphicsmagick-q16-3, libgraphicsmagick++-q16-12, and linux-libc-dev
+* 21:40 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:40 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb151: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:40 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:39 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:39 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:39 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: libperl5.36, perl, perl-base, perl-modules-5.36, libgraphicsmagick-q16-3, libgraphicsmagick++-q16-12, and linux-libc-dev
+* 21:38 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:38 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:38 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:38 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:37 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: libperl5.36, perl, perl-base, perl-modules-5.36, libgraphicsmagick-q16-3, libgraphicsmagick++-q16-12, and linux-libc-dev
+* 21:37 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: libperl5.36, perl, perl-base, perl-modules-5.36, libgraphicsmagick-q16-3, libgraphicsmagick++-q16-12, and linux-libc-dev
+* 21:37 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: libperl5.36, perl, perl-base, perl-modules-5.36, libgraphicsmagick-q16-3, libgraphicsmagick++-q16-12, and linux-libc-dev
+* 21:37 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: libperl5.36, perl, perl-base, perl-modules-5.36, libgraphicsmagick-q16-3, libgraphicsmagick++-q16-12, and linux-libc-dev
+* 21:36 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: libperl5.36, perl, perl-base, perl-modules-5.36, libgraphicsmagick-q16-3, libgraphicsmagick++-q16-12, and linux-libc-dev
+* 21:36 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: libperl5.36, perl, perl-base, perl-modules-5.36, libgraphicsmagick-q16-3, libgraphicsmagick++-q16-12, and linux-libc-dev
+* 21:36 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: libperl5.36, perl, perl-base, perl-modules-5.36, libgraphicsmagick-q16-3, libgraphicsmagick++-q16-12, and linux-libc-dev
+* 21:35 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: libperl5.36, perl, perl-base, perl-modules-5.36, libgraphicsmagick-q16-3, libgraphicsmagick++-q16-12, and linux-libc-dev
+* 21:35 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: libperl5.36, perl, perl-base, perl-modules-5.36, libgraphicsmagick-q16-3, libgraphicsmagick++-q16-12, and linux-libc-dev
+* 21:35 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: libperl5.36, perl, perl-base, perl-modules-5.36, libgraphicsmagick-q16-3, libgraphicsmagick++-q16-12, and linux-libc-dev
+* 21:35 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: libperl5.36, perl, perl-base, perl-modules-5.36, libgraphicsmagick-q16-3, libgraphicsmagick++-q16-12, and linux-libc-dev
+* 21:34 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: libperl5.36, perl, perl-base, perl-modules-5.36, libgraphicsmagick-q16-3, libgraphicsmagick++-q16-12, and linux-libc-dev
+* 21:34 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: libperl5.36, perl, perl-base, perl-modules-5.36, libgraphicsmagick-q16-3, libgraphicsmagick++-q16-12, and linux-libc-dev
+* 21:34 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libperl5.36, perl, perl-base, perl-modules-5.36, libgraphicsmagick-q16-3, libgraphicsmagick++-q16-12, and linux-libc-dev
+* 21:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: libperl5.36, perl, perl-base, perl-modules-5.36, libgraphicsmagick-q16-3, libgraphicsmagick++-q16-12, and linux-libc-dev
+* 21:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: libperl5.36, perl, perl-base, perl-modules-5.36, libgraphicsmagick-q16-3, libgraphicsmagick++-q16-12, and linux-libc-dev
+* 21:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: libperl5.36, perl, perl-base, perl-modules-5.36, libgraphicsmagick-q16-3, libgraphicsmagick++-q16-12, and linux-libc-dev
+* 21:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: libperl5.36, perl, perl-base, perl-modules-5.36, libgraphicsmagick-q16-3, libgraphicsmagick++-q16-12, and linux-libc-dev
+* 21:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: libperl5.36, perl, perl-base, perl-modules-5.36, libgraphicsmagick-q16-3, libgraphicsmagick++-q16-12, and linux-libc-dev
+* 21:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: libperl5.36, perl, perl-base, perl-modules-5.36, libgraphicsmagick-q16-3, libgraphicsmagick++-q16-12, and linux-libc-dev
+* 21:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: libperl5.36, perl, perl-base, perl-modules-5.36, libgraphicsmagick-q16-3, libgraphicsmagick++-q16-12, and linux-libc-dev
+* 21:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:31 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:30 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:30 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:30 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate181: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:30 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:29 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:29 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:29 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:28 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka181: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:28 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:28 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:28 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:27 MirahezeLSBot: [void@puppet181] Upgraded packages on cp36: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:27 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:27 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:27 MirahezeLSBot: [void@puppet181] Upgraded packages on cp37: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:27 MirahezeLSBot: [void@puppet181] Upgraded packages on cp38: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:26 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop201: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:26 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:26 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:26 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost1: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:25 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:25 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:25 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:25 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: libperl5.36, perl, perl-base, perl-modules-5.36, and linux-libc-dev
+* 21:04 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'DiscordNotifications'} to all - SUCCESS in 22s
+* 21:04 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'DiscordNotifications'} to all
+* 20:46 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 23s
+* 20:45 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'CreateWiki'} to all
+* 20:44 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 21s
+* 20:44 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 20:42 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 20:41 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 20:19 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 23s
+* 20:19 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 19:41 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 19:41 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:41 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 23s
+* 19:40 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 19:17 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'WikiDiscover'} to all - SUCCESS in 25s
+* 19:16 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'WikiDiscover'} to all
+* 19:07 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 19:07 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:06 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': ['CreateWiki', 'MirahezeMagic']} to all - SUCCESS in 47s
+* 19:05 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': ['CreateWiki', 'MirahezeMagic']} to all
+
+## 2025-04-16 
+
+* 23:29 BlankEclair: paneidoversewiki: sudo MediaWiki\MediaWikiServices::getInstance()->getRevisionStore()->getSlotRowsForBatch( [ 1 ] )
+* 23:25 BlankEclair: paneidoversewiki: INSERT INTO slot_roles (role_id, role_name) VALUES (1, 'main')
+* 09:04 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:ResetWikiCaches --wiki=metawiki (END - exit=0)
+
+## 2025-04-15 
+
+* 23:36 MirahezeLSBot: [oa@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 33s
+* 23:36 MirahezeLSBot: [oa@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
+## 2025-04-14 
+
+* 12:00 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 12:00 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
 ## 2025-04-13 
 
 * 16:11 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=blocwikiwiki /home/reception/MicroWiki-20250404131512.xml --username-prefix=micronations (END - exit=0)

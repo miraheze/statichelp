@@ -21,11 +21,13 @@ Other statistics can be found on [this page](https://meta.miraheze.org/wiki/User
 | + |
 | Month | Approved | Declined | Total requests | % approved |
 | --- | --- | --- | --- | --- |
-| March 2025 | 1013 | 392 | 1458 | 72% |
-| February 2025 | 959 | 308 | 1299 | 76% |
-| January 2025 | 837 | 290 | 1127 | 74% |
-| December 2024 | 918 | 234 | 1152 | 79% |
-| November 2024 | 768 | 251 | 1019 | 75% |
+| May 2025 | 1245 | 313 | 1622 | 80% |
+| April 2025 | 1129 | 353 | 1482 | 76% |
+| March 2025 | 1061 | 452 | 1513 | 70% |
+| February 2025 | 965 | 334 | 1299 | 73% |
+| January 2025 | 871 | 299 | 1170 | 74% |
+| December 2024 | 950 | 245 | 1195 | 79% |
+| November 2024 | 809 | 256 | 1065 | 75% |
 | October 2024 | 857 | 301 | 1158 | 74% |
 | September 2024 | 664 | 432 | 1096 | 60% |
 NOTE: The number of approved and declined requests don't match up to the total due to the fact that not all requests made in the relevant month are handled within the same month (i.e. requests made on the 30th and 31st might be handled next month).

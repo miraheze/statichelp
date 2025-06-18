@@ -32,6 +32,11 @@ ALTER TABLE content_models AUTO_INCREMENT = 1;
 ```
 After running that make sure you exit shell.php or sql.php (if using) and rerun or it won't know of the AUTO_INCREMENT being reset and IDs will still be wrong.
 
+If a `RevisionAccessException` still occurs after fixing the slot_roles and content_models tables, running the following will clear ✨ magical caches ✨:
+```php
+sudo MediaWiki\MediaWikiServices::getInstance()->getRevisionStore()->getSlotRowsForBatch( [ 1 ] );
+```
+
 ## Categories
 
 * [Category:Tech](https://meta.miraheze.org/wiki/Category:Tech)

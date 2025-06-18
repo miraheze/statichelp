@@ -26,6 +26,7 @@ Domain setup can be completed by anybody with access to the Cloudflare account (
 * Minimum TLS version: 1.3
 * Certificate type: Leave this on the default (Provided by Cloudflare)
 * Certificate validation method: HTTP Validation
+* Custom origin server: Leave this on the default (Default origin server)
 
 5. Once again, click "Add Custom Hostname"
 

@@ -11,14 +11,14 @@ Maintenance scripts are used for a variety of different things: imports, mainten
 A full list of maintenance scripts can be found [here](https://meta.miraheze.org/wiki/mediawikiwiki:Manual:Maintenance_scripts#List_of_maintenance_scripts). Below are the maintenance scripts that are most frequently used on Miraheze. Other frequently used maintenance scripts can be found in the specific guides below.
 
 * **importDump.php** – Allows sysadmins to import XML dumps that are too large for Special:Import on-wiki.
-   * `sudo -u www-data php /srv/mediawiki/<version>/maintenance/importDump.php --wiki=examplewiki /home/<user>/dump.xml`
-   * `--username-prefix "interwiki"` should be used for interwiki imports for proper attribution.
+   * `mwscript importDump examplewiki "'/home/<user>/dump.xml'"`
+   * `--username-prefix "'interwiki'"` should be used for interwiki imports for proper attribution.
 
 * **initSiteStats.php** – If Special:Statistics isn't updating properly, it's useful to run this.
-   * `sudo -u www-data php /srv/mediawiki/<version>/maintenance/initSiteStats.php --update --wiki examplewiki`
+   * `mwscript initSiteStats.php examplewiki --update`
 
 * **deleteBatch.php** – To delete a large number of pages based on a text file.
-   * ` sudo -u www-data php /srv/mediawiki/<version>/maintenance/deleteBatch.php --wiki=examplewiki --r "[[phab:Txxx|Requested]]" /home/<user>/deletebatch.txt`
+   * `mwscript deleteBatch.php examplewiki --r "'[[phab:Txxx|Requested]]'" /home/<user>/deletebatch.txt`
 
 * **AssignImportedEdits** – To reassign contributions for imported users to their Miraheze username.
    * ` mwscript MirahezeMagic:AssignImportedEdits examplewiki --import-prefix="prefix" --from=import_username`
@@ -29,9 +29,9 @@ A full list of maintenance scripts can be found [here](https://meta.miraheze.org
    * If neither `--to` nor `--from` is given, all users with the given prefix would be assigned to the same username on Miraheze, stripped of the prefix, if the username exists.
    * You should always verify what will be run first by using `--no-run` and verifying the output first.
 
-* **sql.php** – Self explanatory; to run SQL commands.
+* **sql.php** - self explanatory, can be accessed using the shortcut `sql examplewiki`.
 
-* **shell.php** – Evaluation of MediaWiki objects and functions.
+* **shell.php** – Evaluation of MediaWiki objects and functions, can be accessed using the shortcut `shell examplewiki`.
 
 ### foreachwikiindblist 
 
@@ -43,14 +43,14 @@ Usage: ` sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cach
 
 **mwscript** allows for faster running of maintenance scripts and automatic logging. You must type 'Y' and press enter to execute.
 
-* In 1.40 and above, specify `--use-runner` or `--140`
-* Usage: `mwscript initSiteStats.php examplewiki --update` to run `sudo -u www-data php /srv/mediawiki/<version>/maintenance/initSiteStats.php --wiki=examplewiki --update`
+* Usage: `mwscript initSiteStats examplewiki --update` to run `sudo -u www-data php /srv/mediawiki/<version>/maintenance/initSiteStats.php --wiki=examplewiki --update`
 * Usage: `mwscript extensions/example/script.php examplewiki --extra=blah` to run `sudo -u www-data php /srv/mediawiki/<version>/extensions/example/maintenance/script.php --wiki=examplewiki --extra=blah`
 * Usage: `mwscript extensions/example/script.php examplewiki --extra=blah "'/path/to/file'"` to run `sudo -u www-data php /srv/mediawiki/<version>/extensions/example/maintenance/script.php --wiki=examplewiki --extra=blah '/path/to/file'`
- `{{ {{note|Important:}} }}` Note the order of `"'` in the above usage example.
+ `{{ {{note|Important:}} }}` Note the order of `"'` in the above usage example and use of both.
 
 ## Jobrunner 
 
+ `{{ {{outdated}} }}`
 The mwtask servers are responsible for running jobs on MediaWiki. As mentioned above, maintenance scripts should be run on this server.
 
 * To see how many jobs are currently waiting to be run on a wiki, you can use the **showJobs.php** maintenance script (`sudo -u www-data php /srv/mediawiki/<version>/maintenance/showJobs.php --wiki=examplewiki`
@@ -97,7 +97,7 @@ Append `?forceprofile=1` to the URL of your MediaWiki page. This will trigger [p
 
 **Set the X-WikiTide-Debug Headers**
 
-Include the header `X-WikiTide-Debug: test151.wikitide.net`, replacing with the appropriate server.
+Include the header `X-WikiTide-Debug: test151`, replacing with the appropriate server.
 
 If you are not on an internal server (i.e., from one of our own IP ranges), you must provide an access key via the `X-WikiTide-Debug-Access-Key` header. Save the key in a text file (e.g., access_key.txt) and reference it in your shell command using cat.
 
@@ -112,14 +112,14 @@ After running the profiling request, examine the profiling output for bottleneck
 **On an internal server (no access key required)**
 
 ```
-curl -H "X-WikiTide-Debug: test151.wikitide.net" \
+curl -H "X-WikiTide-Debug: test151" \
      "https://example.com/wiki/Main_Page?forceprofile=1" | grep '1 - main()' -A 450 | less
 ```
 
 **On an external server (access key required)**
 
 ```
-curl -H "X-WikiTide-Debug: test151.wikitide.net" \
+curl -H "X-WikiTide-Debug: test151" \
      -H "X-WikiTide-Debug-Access-Key: $(cat access_key.txt)" \
      "https://example.com/wiki/Main_Page?forceprofile=1" | grep '1 - main()' -A 450 | less
 ```
@@ -138,7 +138,7 @@ Install the extension, then simply navigate to a page to start analyzing the per
 
 This extension allows you to send HTTP requests directly to specific MediaWiki servers and check for errors cached in systems like [Varnish](/tech-docs/techvarnish) or [Cloudflare](/tech-docs/techcloudflare).
 
-After installation, you can modify requests in the browser by specifying which backend server to hit (e.g., test151.wikitide.net) and inject the required `X-WikiTide-Debug` and `X-WikiTide-Debug-Access-Key` headers.
+After installation, you can modify requests in the browser by specifying which backend server to hit (e.g., test151) and inject the required `X-WikiTide-Debug` and `X-WikiTide-Debug-Access-Key` headers.
 
 ## MediaWiki-related Miraheze Guides 
 

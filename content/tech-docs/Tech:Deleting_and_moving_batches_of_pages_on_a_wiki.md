@@ -4,13 +4,25 @@ title: Tech:Deleting and moving batches of pages on a wiki
 
 `{{ {{shortcut|[[Tech:DELETEBATCH]]|[[Tech:MOVEBATCH]]}} }}`
 
-To delete or move large batches of pages on a wiki, execute the following commands for the `deleteBatch.php` and `moveBatch.php` [MediaWiki](https://meta.miraheze.org/wiki/MediaWiki) maintenance scripts in the following sequence:
+To delete or move large batches of pages on a wiki, use the following steps with the `deleteBatch.php` or `moveBatch.php` MediaWiki maintenance scripts:
 
-* Login to `mwtask181` (active maintenance server).
-* Upload a text file, named as *subdomain.txt*, ideally, to your shell folder, which contains the list of pages for deletion or moving (include the namespace, where applicable!), replacing the *italicized* portions as applicable.
-* Run `sudo -u www-data php /srv/mediawiki/w/maintenance/deleteBatch.php --wiki=wikidbname -u "Miraheze maintenance script" -r "[[phab:T###|Requested]]" /home/yourshellusername/wikisubdomain.txt`, replacing the ***bolded and italicized*** portions as applicable. **Note:** *`deleteBatch.php`* is interchangeable with *`moveBatch.php`* as applicable.
-* sudo `sudo -u www-data php /srv/mediawiki/w/maintenance/deleteBatch.php --wiki=wikidbname -u "Miraheze maintenance script" -r "[[phab:T###|Requested]]" /home/yourshellusername/wikisubdomain.txt`, replacing the ***bolded italicized*** portions as applicable. **Note:** *`deleteBatch.php`* is interchangeable with *`moveBatch.php`* as applicable.
-* Logout (if you are done with your business on `mwtask181`).
+* **Login** to [mwtask181](/tech-docs/techmwtask181) (the active maintenance server).
+* **Upload a text file** (e.g. `subdomain.txt`) to your shell account. This file should list the pages to be deleted or moved — **including namespaces**, if applicable.
+* **Run the appropriate maintenance script** using `mwscript`. Replace the placeholders with actual values:
+
+```bash
+mwscript deleteBatch wikidbname --u="Miraheze maintenance script" --r="[[phorge:T###|Requested]]" /home/yourshellusername/subdomain.txt
+```
+
+Or, if moving pages instead of deleting:
+
+```bash
+mwscript moveBatch wikidbname --u="Miraheze maintenance script" --r="[[phorge:T###|Requested]]" /home/yourshellusername/subdomain.txt
+```
+
+*Note:* Use `moveBatch.php` or `deleteBatch.php` as appropriate. You may need to use additional arguments then what is mentioned here.
+
+* **Logout** once your task is complete on [mwtask181](/tech-docs/techmwtask181).
 
 ## Categories
 

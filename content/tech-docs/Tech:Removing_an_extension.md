@@ -2,25 +2,59 @@
 title: Tech:Removing an extension
 ---
 
-`{{ {{Outdated}} }}`
+If a decision has been made to remove an extension from Miraheze—for example, because it is unmaintained, incompatible with the current MediaWiki version, or any other valid reason—the following procedure should be followed. Any user may submit a pull request to remove an extension, but only a [Technology team member](/tech-docs/techvolunteers) with appropriate access can merge and deploy the change.
 
-If a decision has been made to remove an extension from Miraheze for whatever reason (i.e., it's unmaintained, it isn't compatible with the current version of MediaWiki, etc.) the following procedure should be followed when removing an extension. Any user can create a pull request to remove an extension, but it has to be merged and deployed by a [Technology team member](/tech-docs/techvolunteers) with access.
+*The steps below must be followed in order:*
 
-The steps below must be done in this order:
+* First, make sure the extension is temporarily restricted so that no new installs can occur during the removal process. To do this, follow the instructions at the [Globally Disabling Extensions](#globally-disabling-extensions) section.
+* Run:
+* 
+```bash
+mwscript ManageWiki:ToggleExtension loginwiki --name=<extension> --disable --all-wikis --execute
+```
+* Remove any associated settings using:
+* 
+```bash
+mwscript ManageWiki:PopulateWikiSettings all --setting=<setting> --remove
+```
+* Delete any related configuration from the following files:
+* - `ManageWikiExtensions.php`
+* - `LocalWiki.php`
+* - `LocalSettings.php`
+* - `GlobalSettings.php`
+* *Note: If the extension also has entries in `ManageWikiSettings.php` or `ManageWikiNamespaces.php`, remove those as well.*
+* Once configuration has been cleaned up, remove the extension from the `mediawiki-repos` GitHub repository.
 
-* Generate a list of all wikis using the extension with `mwscript MirahezeMagic:GenerateExtensionDatabaseList loginwiki --extension=extension --directory=/srv/mediawiki`. This will create a JSON list in `/srv/mediawiki` called `<EXTENSION>.json`
-* Run `sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/<EXTENSION>.php /srv/mediawiki/<VERSION>/maintenance/run.php ManageWiki:ToggleExtension --disable extension`
-* Remove any settings configured using `mwscript all ManageWiki:PopulateWikiSettings --wgsetting=wgSettingName --sourcelist=false --remove`
-* Remove any existing configuration from ManageWikiExtensions.php, LocalSettings.php, and GlobalSettings.php. (Note: If the extension has extra settings in ManageWikiSettings.php, make sure to remove that too)
-* Remove the extension from the mediawiki-repos on GitHub after the settings above have been successfully removed.
+*On `mwtask181` and `test151`, also perform the following:*
 
-On mwtask181 and test151:
-* run `sudo -u www-data rm -rf /srv/mediawiki-staging/w/{submodule_path}`
-* run `mwdeploy --world --config --l10n --extension-list --servers=all`
+* Run:
+* 
+```bash
+sudo -u www-data rm -rf /srv/mediawiki-staging/*/{repo_path}
+```
+* Deploy updates with:
+* 
+```bash
+mwdeploy --world --config --pull=config --l10n --extension-list --servers=all --versions=all
+```
 
-## Globally disabling extensions 
+## Globally Disabling Extensions 
 
-If it is not appropriate to fully remove an extension, but the extension should not be active on any wikis (e.g., in the event of a security vulnerability with a particular extension), it can be globally disabled without disrupting any related configuration that users have set in ManageWiki by adding the extension to the `$disabledExtensions` array found at the bottom of LocalSettings.php.
+If a full removal is not appropriate (e.g., in cases of temporary security concerns), an extension can be *globally disabled* without deleting user configuration by adding it to the 
+```php
+$wi::$disabledExtensions
+```
+ array at the end of `LocalSettings.php`.
+
+This should follow the format:
+
+      
+```php
+'key from ManageWikiExtensions' => 'reason',
+```
+
+* The *reason* may be plain text or a wikitext link to a Phorge task (e.g., `[[phorge:T12345]]`).
+* This disables the extension in `Special:ManageWiki/extensions`, requires the `managewiki-restricted` permission to modify it, and prevents the extension from being loaded.
 
 ## See also 
 

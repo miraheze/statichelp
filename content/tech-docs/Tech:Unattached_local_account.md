@@ -33,6 +33,17 @@ Now enter the database for the wiki where there's a suspected unattached local a
 
 ## Fixing it
 
+### Less hackily 
+
+Execute the following line of code (works on the wiki with the unattached account, though it may work elsewhere as well):
+```php
+MediaWiki\Extension\CentralAuth\User\CentralAuthUser::getInstance( User::newFromName( 'Username' ) )->attach( 'databasenamewiki', 'admin' );
+```
+
+(`admin` here means that the account was attached by an admin, see [CentralAuthUser#attach()](https://gerrit.wikimedia.org/r/plugins/gitiles/mediawiki/extensions/CentralAuth/+/2500cb0a91eb7cf0ec70de8adbeda7832105c812/includes/User/CentralAuthUser.php#2269) for details)
+
+### Hackily 
+
 * Insert the wiki-username pair on the localnames table in mhglobal, with a query like `INSERT INTO localnames(ln_wiki, ln_name) VALUES ("metawiki", "Example");`, with the correct database name and username. At this point, if you go to that user's Special:CentralAuth page, you will see CentralAuth recognizes there's an unattached local account.
 * Run the `attachAccount.php` maintenance script from CentralAuth on an mwtask server. You'll have to create a text file with just the username of that user in a single line. Run it like `mwscript extensions/CentralAuth/attachAccount.php earferanawiki --userlist=/home/alex/InternetArchiveBot.txt`. You should see the following output:
 

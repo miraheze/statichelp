@@ -46,6 +46,7 @@ PlotData   =
     color:current from:03/08/2016 till:15/06/2023 text:"[[User:Reception123|Reception123]]"
     color:previous from:21/09/2015 till:05/07/2016 text:"[[User:Revi|Revi]]"
     color:current from:10/09/2019 till:14/12/2019 text:"[[User:RhinosF1|RhinosF1]]"
+    color:current from:12/06/2025 till:end text:"[[User:SomeRandomDeveloper|SomeRandomDeveloper]]"
     color:previous from:22/07/2015 till:30/10/2021 text:"[[User:Southparkfan|Southparkfan]]"
     color:previous from:28/08/2024 till:08/03/2025 text:"[[User:TheresNoTime|TheresNoTime]]"
     color:current from:15/11/2020 till:17/03/2023 text:"[[User:Universal Omega|Universal Omega]]"
@@ -125,6 +126,7 @@ PlotData   =
     barset:skip
     color:current from:26/06/2023 till:20/02/2024 text:"[[User:Paladox|Paladox]]"
     color:current from:02/01/2024 till:end text:"[[User:Reception123|Reception123]]"
+    barset:skip
     barset:skip
     barset:skip
     barset:skip
