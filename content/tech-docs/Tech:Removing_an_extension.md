@@ -18,10 +18,10 @@ mwscript ManageWiki:ToggleExtension loginwiki --name=<extension> --disable --all
 mwscript ManageWiki:PopulateWikiSettings all --setting=<setting> --remove
 ```
 * Delete any related configuration from the following files:
-* - `ManageWikiExtensions.php`
-* - `LocalWiki.php`
-* - `LocalSettings.php`
-* - `GlobalSettings.php`
+  * `ManageWikiExtensions.php`
+  * `LocalWiki.php`
+  * `LocalSettings.php`
+  * `GlobalSettings.php`
 * *Note: If the extension also has entries in `ManageWikiSettings.php` or `ManageWikiNamespaces.php`, remove those as well.*
 * Once configuration has been cleaned up, remove the extension from the `mediawiki-repos` GitHub repository.
 
