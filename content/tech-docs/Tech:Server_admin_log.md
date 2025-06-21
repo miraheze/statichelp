@@ -2,6 +2,21 @@
 title: Tech:Server admin log
 ---
 
+## 2025-06-20 
+
+* 21:31 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.43', 'upgrade_extensions': 'ThemeToggle'} to all - SUCCESS in 23s
+* 21:31 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.43', 'upgrade_extensions': 'ThemeToggle'} to all
+* 21:30 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ThemeToggle'} to all - SUCCESS in 1s
+* 21:30 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'ThemeToggle'} to all
+* 20:21 RhinosF1: also attempted to fix the stalled alert by preventing /0 on grafana (take 2)
+* 20:21 RhinosF1: deleted a few GUP related kafka topics because it was stuck on spam, it did something eventually good - cursed jobqueue
+* 19:53 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 24s
+* 19:52 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'CreateWiki'} to all
+* 18:29 @abaddriverlol: fixed corrupted JSON on gfiwiki (T13872#277964) and kelevarwiki (T13874#277967)
+* 18:18 @abaddriverlol: fixed corrupted JSON on nynthidbwiki, see T13865#277956 for the command
+* 08:32 BlankEclair: repool c3
+* 08:32 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 21s
+
 ## 2025-06-19 
 
 * 11:57 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ThemeToggle'} to all - SUCCESS in 54s
