@@ -7,7 +7,7 @@ One should be careful renaming a wiki (database/domain) as it involves many step
 * Start by running `mwscript MirahezeMagic:RenameDatabase loginwiki --rename --old=<old_wiki_db> --new=<new_wiki_db> --user=<user_running_script>`
    * Run without `--rename` to run in dry run mode.
 * **AFTER YOU ARE VERY CERTAIN THE ABOVE WAS DONE CORRECTLY,** you may drop the old database. **This is not a requirement to do.**
-   * `sudo -i mysql -e "DROP DATABASE nameofwikidb;"`
+   * `sudo -i mariadb -e "DROP DATABASE nameofwikidb;"`
 
 ### Swift 
 

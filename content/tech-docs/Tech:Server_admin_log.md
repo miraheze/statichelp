@@ -2,6 +2,16 @@
 title: Tech:Server admin log
 ---
 
+## 2025-06-21 
+
+* 22:12 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 28s
+* 22:11 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'CreateWiki'} to all
+* 21:54 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:PopulateWikibaseSitesTable --wiki=sanarsivwiki (END - exit=0)
+* 21:53 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:PoppulateWikibaseSitesTable --wiki=sanarsivwiki (END - exit=256)
+* 19:59 Universal Omega: applied /usr/share/icingaweb2/schema/mysql-upgrades/2.12.0.sql from mon181 on db182
+* 19:59 Universal Omega: applied /usr/share/icingaweb2/schema/mysql-upgrades/2.11.0.sql from mon181 on db182
+* 00:57 Universal Omega: mariadb-upgrade on db172
+
 ## 2025-06-20 
 
 * 21:31 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.43', 'upgrade_extensions': 'ThemeToggle'} to all - SUCCESS in 23s
