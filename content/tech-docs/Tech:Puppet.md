@@ -56,7 +56,7 @@ Here are the steps you should follow when adding a new puppet agent (server) to 
 * Step 2: (On the **puppetserver**) `cd /etc/puppetlabs/puppet/git && git pull`
 * Step 3: (On the **agent**) execute `puppet agent -tv --server puppet181.wikitide.net --waitforcert 60 `
 * Step 4: (On the **puppetserver**) Check `puppetserver ca list`, and make sure that the fingerprints match
-* Step 5: (On the **puppetserver**) After you have made sure that the fingerprints match, execute:
+* Step 5: (On the **puppetserver**) <ins>After you have made sure that the fingerprints match</ins>, execute:
 * `puppetserver ca sign --certname [servername].wikitide.net`
 * Step 6: (On the **agent**) execute `puppet agent -tv --server puppet181.wikitide.net`
     `{{ {{note}} }}` The agent will automatically detect the signed certificate and proceed from there.

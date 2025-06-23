@@ -98,13 +98,13 @@ TL;DR: We recovered the data from the broken, original db141 disks but the new d
 
 The cloud server (cloud14) which hosts one of our database, db141, experienced a disk issue. As a result, a small number of wikis hosted on db141 are unavailable. We have reinstalled the affected server on new disks and are working to recover the data from the affected disks. Earliest ETA of these wikis being back online is early next week. We deeply apologise for the inconvenience but rest assured we're working diligently to have this issue fixed ASAP.
 
-**~~LATEST UPDATE~~ Outdated, see above.**
+**<ins>~~LATEST UPDATE~~</ins> Outdated, see above.**
 
 * 4AM (UTC), Tuesday, Nov. 29 - The affected disks have been shipped to Owen as of November 24th. We are still in the process of determining how to recover the data and if it is even feasible by our means. The previous update has been amended to reflect the fact that **we have not yet involved a professional data recovery service** as it may be prohibitively expensive to do so.
 
 * 2AM (UTC), Monday, Nov. 21 - We have reinstalled cloud14 and have began re-provisioning servers affected by the disk issue. Mail and IRC bots are now functional. We are working on re-provisioning servers for MediaWiki which should improve loading speeds. We are in the process of sending the disks containing db141 to Owen to review the physical disks and determine how to proceed with professional data recovery and the earliest ETA we can provide for when wikis may be back online is early next week.
 
-**FAQ**
+**<ins>FAQ</ins>**
 
 **What happened?**
 

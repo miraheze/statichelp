@@ -96,7 +96,7 @@ Using the `debug.health` and `backend.list` commands in varnishadm, you can view
 
 Sometimes, you want to override the health checks, for example, because you want to depool an appserver.
 
-Using the `backend.set_health` command, you can manage the health status of an appserver. For example, to depool mw151 (again, '''please ensure that you run this command on ALL cache proxies):
+Using the `backend.set_health` command, you can manage the health status of an appserver. For example, to depool mw151 (again, '''please ensure that you run this command on <ins>ALL</ins> cache proxies):
 ```
 varnish> backend.set_health mw151 sick
 ```

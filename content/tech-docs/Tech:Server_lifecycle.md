@@ -13,9 +13,9 @@ Anyone from Site Reliability Engineering managing services offered by the Techni
 These steps must be performed in order. This list is not exhaustive, but applies to all servers. Certain servers, such as Proxmox hosts, may need an adjusted procedure from your side: [Tech:Proxmox#VPS](/tech-docs/techproxmox#vps)
 * Add an entry for the server to the wikitide.net DNS zone. If possible, also setup reverse DNS for the IPs.
 * Change the hostname of the server. This must be in the format <server name>.wikitide.net. If you cannot do this via the Service Provider, run the command `hostnamectl set-hostname <server name>.wikitide.net` via the console.
-* Log in via the console, KVM, or whatever it is called by the Service Provider. In most case, you have received the password via mail. Never share root passwords with other people.
+* Log in via the console, KVM, or whatever it is called by the Service Provider. In most case, you have received the password via mail. <ins>Never share root passwords with other people.</ins>
 * Most servers are accessible via SSH by default. In that case, you may find it easier to work via PuTTY or similar. To do that, dump the fingerprint of the SSH host key. For PuTTY, `ssh-keygen -E md5 -l -f /etc/ssh/ssh_host_ed25519_key.pub` seems to be appropriate.
-* When connecting, verify the fingerprint matches. If so, you can proceed with the rest of the steps.
+* When connecting, <ins>verify</ins> the fingerprint matches. If so, you can proceed with the rest of the steps.
 * Add the fingerprint to [Tech:SSH fingerprints](/tech-docs/techssh_fingerprints). Do this early, so you don't forget this.
 * Configure the server via Puppet: [Adding a new puppet agent (server) to the Puppetserver](/tech-docs/techpuppet#adding-a-new-puppet-agent-server-to-the-puppetserver).
 
@@ -40,7 +40,7 @@ Reimaging a server means the server will be kept in use, but a new OS will be in
 * **If the server will not serve the same role**: remove all references to the server from manifests/site.pp. If the hostname and/or IP address is defined in other code (Hiera variables, mw-config/Database.php, etc.), remove those references as well.
 * Manually remove any traces of PII or other confidential information. On most systems, `rm -rf /root /etc/ssl/private /var/log` does most of the job. If the server was used for database hosting (e.g., MariaDB) or file hosting, please remove such information as well.
 * Reimage the server with a fresh copy of Debian.
-* **If the server will not serve the same role**: readd the server to manifests/site.pp and other files, with a new fresh hostname.
+* **If the server will not serve the same role**: readd the server to manifests/site.pp and other files, with a <ins>new</ins> fresh hostname.
 * Repool the server where necessary.
 
 ## Upgrade 

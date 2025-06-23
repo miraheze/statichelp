@@ -45,7 +45,7 @@ This applies to people, who do not have shell access yet. After you have articul
    * GitHub Username
    * Preferred shell username
    * A freshly generated 4096 bit RSA or ed25519 keypair, protected with a secure password.
-      * Obviously you should only give us the public key, keep the private key private.
+      * Obviously you should only give us the public key, keep the private key <ins>private</ins>.
       * This key should not be used for non-Miraheze servers!
       * If using a FIDO2 key, see [Tech:FIDO2 SSH](/tech-docs/techfido2_ssh).
    * Description of the access you need. If you require sudo rights, please do not forget to include that as well.

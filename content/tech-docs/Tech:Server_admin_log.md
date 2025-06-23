@@ -2,6 +2,105 @@
 title: Tech:Server admin log
 ---
 
+## 2025-06-22 
+
+* 21:00 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 21:00 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 20:51 Universal Omega: MariaDB [mhglobal]> ALTER TABLE mw_settings MODIFY COLUMN s_settings JSON NULL, MODIFY COLUMN s_extensions JSON NULL;
+* 20:50 Universal Omega: MariaDB [mhglobal]> ALTER TABLE mw_permissions MODIFY COLUMN perm_permissions JSON NOT NULL, MODIFY COLUMN perm_addgroups JSON NOT NULL, MODIFY COLUMN perm_removegroups JSON NOT NULL, MODIFY COLUMN perm_addgroupstoself JSON NOT NULL, MODIFY COLUMN perm_removegroupsfromself JSON NOT NULL, MODIFY COLUMN perm_autopromote JSON;
+* 20:49 Universal Omega: MariaDB [mhglobal]> ALTER TABLE mw_namespaces MODIFY COLUMN ns_aliases JSON NOT NULL, MODIFY COLUMN ns_additional JSON NOT NULL;
+* 20:48 Universal Omega: MariaDB [mhglobal]> UPDATE mw_namespaces SET ns_additional = '[]' WHERE ns_additional IS NULL;
+* 20:34 @abaddriverlol: fix corrupted mw_permissions JSON on 23 wikis (all remaining ones) using SQL (commands: [https://issue-tracker.miraheze.org/P551](https://issue-tracker.miraheze.org/P551))
+* 18:57 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cp171: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:56 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on bast161: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:56 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db172: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:56 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on matomo151: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:55 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on eventgate181: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:50 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject201: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:50 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject181: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:50 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftproxy171: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:50 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on ns2: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:49 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject191: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:49 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftproxy161: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:49 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject161: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:49 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject171: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:48 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject151: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:48 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftac171: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:48 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on test151: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-dev, libgdk-pixbuf-2.0-0, libgdk-pixbuf2.0-bin, and gir1.2-gdkpixbuf-2.0
+* 18:48 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on puppet181: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:47 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on os191: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:47 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on os201: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:47 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on reports171: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:47 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on os162: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:46 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on prometheus151: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:46 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on ns1: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:46 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on rdb151: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:46 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on phorge171: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:45 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mwtask181: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-dev, libgdk-pixbuf-2.0-0, libgdk-pixbuf2.0-bin, and gir1.2-gdkpixbuf-2.0
+* 18:45 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on os161: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:45 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on os151: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:45 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mwtask171: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-dev, libgdk-pixbuf-2.0-0, libgdk-pixbuf2.0-bin, and gir1.2-gdkpixbuf-2.0
+* 18:45 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mwtask161: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-dev, libgdk-pixbuf-2.0-0, libgdk-pixbuf2.0-bin, and gir1.2-gdkpixbuf-2.0
+* 18:44 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw202: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-dev, libgdk-pixbuf-2.0-0, libgdk-pixbuf2.0-bin, and gir1.2-gdkpixbuf-2.0
+* 18:44 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw203: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-dev, libgdk-pixbuf-2.0-0, libgdk-pixbuf2.0-bin, and gir1.2-gdkpixbuf-2.0
+* 18:44 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw183: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-dev, libgdk-pixbuf-2.0-0, libgdk-pixbuf2.0-bin, and gir1.2-gdkpixbuf-2.0
+* 18:43 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw201: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-dev, libgdk-pixbuf-2.0-0, libgdk-pixbuf2.0-bin, and gir1.2-gdkpixbuf-2.0
+* 18:43 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw193: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-dev, libgdk-pixbuf-2.0-0, libgdk-pixbuf2.0-bin, and gir1.2-gdkpixbuf-2.0
+* 18:43 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw192: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-dev, libgdk-pixbuf-2.0-0, libgdk-pixbuf2.0-bin, and gir1.2-gdkpixbuf-2.0
+* 18:43 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw191: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-dev, libgdk-pixbuf-2.0-0, libgdk-pixbuf2.0-bin, and gir1.2-gdkpixbuf-2.0
+* 18:42 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mwtask151: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-dev, libgdk-pixbuf-2.0-0, libgdk-pixbuf2.0-bin, and gir1.2-gdkpixbuf-2.0
+* 18:42 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw182: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-dev, libgdk-pixbuf-2.0-0, libgdk-pixbuf2.0-bin, and gir1.2-gdkpixbuf-2.0
+* 18:42 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw161: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-dev, libgdk-pixbuf-2.0-0, libgdk-pixbuf2.0-bin, and gir1.2-gdkpixbuf-2.0
+* 18:42 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw181: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-dev, libgdk-pixbuf-2.0-0, libgdk-pixbuf2.0-bin, and gir1.2-gdkpixbuf-2.0
+* 18:41 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw171: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-dev, libgdk-pixbuf-2.0-0, libgdk-pixbuf2.0-bin, and gir1.2-gdkpixbuf-2.0
+* 18:41 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw153: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-dev, libgdk-pixbuf-2.0-0, libgdk-pixbuf2.0-bin, and gir1.2-gdkpixbuf-2.0
+* 18:41 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw163: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-dev, libgdk-pixbuf-2.0-0, libgdk-pixbuf2.0-bin, and gir1.2-gdkpixbuf-2.0
+* 18:41 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw173: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-dev, libgdk-pixbuf-2.0-0, libgdk-pixbuf2.0-bin, and gir1.2-gdkpixbuf-2.0
+* 18:40 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw162: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-dev, libgdk-pixbuf-2.0-0, libgdk-pixbuf2.0-bin, and gir1.2-gdkpixbuf-2.0
+* 18:40 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw172: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-dev, libgdk-pixbuf-2.0-0, libgdk-pixbuf2.0-bin, and gir1.2-gdkpixbuf-2.0
+* 18:40 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw152: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-dev, libgdk-pixbuf-2.0-0, libgdk-pixbuf2.0-bin, and gir1.2-gdkpixbuf-2.0
+* 18:40 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mon181: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:39 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw151: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-dev, libgdk-pixbuf-2.0-0, libgdk-pixbuf2.0-bin, and gir1.2-gdkpixbuf-2.0
+* 18:39 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mem201: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:39 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mem191: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:39 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mem151: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:39 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mem161: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:38 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mattermost1: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:38 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on ldap171: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:38 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cp201: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:38 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud20: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:37 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on bast181: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:37 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on kafka181: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:37 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db182: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:37 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud19: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:37 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db171: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:36 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on graylog161: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:36 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db181: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:36 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud16: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:36 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud15: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:35 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db161: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:35 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cp161: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:35 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud18: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:35 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on changeprop201: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:34 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on bots171: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:34 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cp191: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:34 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db151: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 18:34 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud17: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin
+* 03:16 BlankEclair: UPDATE mhglobal.mw_permissions SET perm_permissions = '["noratelimit","managewiki-core","managewiki-extensions","managewiki-settings","managewiki-namespaces","managewiki-permissions","override-antispoof","delete","review","protect","importupload"]' WHERE perm_dbname = 'forgeofdestinywiki' AND perm_group = 'bureaucrat';
+* 01:10 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/initSiteStats.php --wiki=thecelestialcavernswiki --update (END - exit=0)
+* 01:10 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=thecelestialcavernswiki (END - exit=0)
+* 00:59 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=thecelestialcavernswiki (START)
+* 00:59 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=thecelestialcavernswiki dump.xml --no-updates (END - exit=0)
+* 00:32 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=thecelestialcavernswiki dump.xml --no-updates (START)
+* 00:30 @abaddriverlol: fix corrupted JSON on worldscollidewikiwiki (T13873#278116)
+* 00:27 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 00:26 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 00:25 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/initSiteStats.php --wiki=thecelestialcavernswiki --update (END - exit=0)
+* 00:25 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=thecelestialcavernswiki (END - exit=0)
+* 00:19 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=thecelestialcavernswiki (START)
+* 00:18 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=thecelestialcavernswiki dump.xml --no-updates (END - exit=0)
+* 00:05 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=thecelestialcavernswiki dump.xml --no-updates (START)
+
 ## 2025-06-21 
 
 * 22:12 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 28s

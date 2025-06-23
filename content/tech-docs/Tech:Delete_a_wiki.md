@@ -9,11 +9,11 @@ A wiki must be marked as deleted through the ManageWiki interface before it can 
 
 Wikis are put on a timer - meaning they can only be deleted after a certain number of days (the current [Dormancy Policy](https://meta.miraheze.org/wiki/Dormancy_Policy) states that this is 14 days). Therefore, there are two methods to delete a wiki.
 
-Performing the deletion if 14 days have passed:
+<ins>Performing the deletion if 14 days have passed:</ins>
 * Run `mwscript CreateWiki:DeleteWikis loginwiki <username>`
 * You will then receive SQL DROP DATABASE syntax that you can use to run on the relevant database server.
 
-Performing the deletion if 14 days have **not** passed:
+<ins>Performing the deletion if 14 days have **not** passed:</ins>
 * Run `mwscript CreateWiki:DeleteWiki loginwiki --delete --deletewiki <wiki database>`
 * Drop the database on the relevant database server.
 

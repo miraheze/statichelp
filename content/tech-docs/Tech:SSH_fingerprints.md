@@ -2,7 +2,7 @@
 title: Tech:SSH fingerprints
 ---
 
-Before connecting to a server over SSH, it is very important to verify the identity of that server. Don't ignore the warning, otherwise you could end up sending your private key to an attacker.
+Before connecting to a server over SSH, it is very important to verify the identity of that server. <ins>Don't</ins> ignore the warning, otherwise you could end up sending your private key to an attacker.
 
 If you are in doubt during the verification of a fingerprint, please contact an Infrastructure Specialist.
 
