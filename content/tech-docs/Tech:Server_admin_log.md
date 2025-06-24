@@ -2,6 +2,17 @@
 title: Tech:Server admin log
 ---
 
+## 2025-06-23 
+
+* 18:30 @paladox: shutdown all vms on cloud15
+* 18:30 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 18:30 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 19s
+* 18:30 MirahezeLSBot: [rhinos@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 18:30 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 18:21 MirahezeLSBot: [rhinos@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 18:21 MirahezeLSBot: [rhinos@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 01:42 Universal Omega: MariaDB [mhglobal]> UPDATE mw_permissions SET perm_permissions = JSON_REMOVE( perm_permissions,     JSON_UNQUOTE(JSON_SEARCH(perm_permissions, 'one', 'writeapi')) ) WHERE JSON_SEARCH(perm_permissions, 'one', 'writeapi') IS NOT NULL;
+
 ## 2025-06-22 
 
 * 21:00 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
