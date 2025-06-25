@@ -2,6 +2,43 @@
 title: Tech:Server admin log
 ---
 
+## 2025-06-25 
+
+* 20:20 MirahezeLSBot: [paladox@puppet181] Upgraded packages on db171: libxml2
+* 20:20 MirahezeLSBot: [paladox@puppet181] Upgraded packages on cloud20: libxml2
+* 20:20 MirahezeLSBot: [paladox@puppet181] Upgraded packages on cp191: libxml2
+* 20:20 MirahezeLSBot: [paladox@puppet181] Upgraded packages on db172: libxml2
+* 20:20 MirahezeLSBot: [paladox@puppet181] Upgraded packages on bots171: libxml2
+* 20:19 MirahezeLSBot: [paladox@puppet181] Upgraded packages on cloud19: libxml2
+* 20:19 MirahezeLSBot: [paladox@puppet181] Upgraded packages on matomo151: libxml2
+* 20:19 MirahezeLSBot: [paladox@puppet181] Upgraded packages on cp161: libxml2
+* 20:19 MirahezeLSBot: [paladox@puppet181] Upgraded packages on db151: libxml2
+* 20:19 MirahezeLSBot: [paladox@puppet181] Upgraded packages on cloud15: libxml2
+* 20:14 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_skins': 'Refreshed'} to all - SUCCESS in 23s
+* 20:14 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_skins': 'Refreshed'} to all
+* 20:12 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_skins': 'Refreshed'} to test151 - SUCCESS in 1s
+* 20:12 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_skins': 'Refreshed'} to test151
+* 17:44 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=mctdrwiki (END - exit=0)
+* 17:44 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=jilljimmywiki (END - exit=0)
+* 17:44 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=arceniawiki (END - exit=0)
+* 17:44 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=baldisbasicswiki (END - exit=0)
+* 17:31 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 17:31 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 16:29 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 22s
+* 16:28 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'config': True} to all
+* 16:28 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 16:27 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 15:32 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 15:32 MirahezeLSBot: [rhinos@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 15:32 MirahezeLSBot: [rhinos@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 15:31 MirahezeLSBot: [rhinos@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 15:05 @paladox: set Fan Speed Offset to high on all cloud servers
+* 14:41 @paladox: experimenting with setting Fan Speed Offset to medium on cloud15 and cloud16 and cloud18 and cloud19
+* 14:40 @paladox: experimenting with setting Fan Speed Offset to medium on cloud20 and 17.
+* 14:21 @paladox: cleared the IPMI Sensors log on cloud20
+* 14:16 @paladox: change Fan Speed Offset in idrac to low for all servers
+* 04:13 Void: restarted logbot service
+
 ## 2025-06-23 
 
 * 18:30 @paladox: shutdown all vms on cloud15
