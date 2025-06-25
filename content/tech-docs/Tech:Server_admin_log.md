@@ -4,6 +4,13 @@ title: Tech:Server admin log
 
 ## 2025-06-25 
 
+* 20:22 MirahezeLSBot: [paladox@puppet181] Upgraded packages on eventgate181: libxml2
+* 20:21 MirahezeLSBot: [paladox@puppet181] Upgraded packages on db181: libxml2
+* 20:21 MirahezeLSBot: [paladox@puppet181] Upgraded packages on cloud16: libxml2
+* 20:21 MirahezeLSBot: [paladox@puppet181] Upgraded packages on db161: libxml2
+* 20:21 MirahezeLSBot: [paladox@puppet181] Upgraded packages on changeprop201: libxml2
+* 20:21 MirahezeLSBot: [paladox@puppet181] Upgraded packages on cloud18: libxml2
+* 20:20 MirahezeLSBot: [paladox@puppet181] Upgraded packages on cp171: libxml2
 * 20:20 MirahezeLSBot: [paladox@puppet181] Upgraded packages on db171: libxml2
 * 20:20 MirahezeLSBot: [paladox@puppet181] Upgraded packages on cloud20: libxml2
 * 20:20 MirahezeLSBot: [paladox@puppet181] Upgraded packages on cp191: libxml2
