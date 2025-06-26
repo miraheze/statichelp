@@ -4,6 +4,29 @@ title: Tech:Server admin log
 
 ## 2025-06-25 
 
+* 23:11 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 23:10 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 23:09 MirahezeLSBot: [blankeclair@mwtask181] true Testing...
+* 23:08 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=damnationwiki (END - exit=0)
+* 23:07 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=damnationwiki --startOver (END - exit=0)
+* 23:07 BlankEclair: curl -X DELETE [https://opensearch-mw.wikitide.net/damnationwiki_{content,general}](https://opensearch-mw.wikitide.net/damnationwiki_{content,general})
+* 21:13 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=utgwiki --import-prefix=wikia:utg --from=Corncavz --to=Concavz (END - exit=0)
+* 21:13 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=utgwiki --import-prefix=wikia:utg --from=Corncavz --to=Concavz --no-run (END - exit=0)
+* 21:12 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=utgwiki --import-prefix=wikia:utg --from=Chammysss --to=Chamber (END - exit=0)
+* 21:12 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=utgwiki --import-prefix=wikia:utg --from=Chammysss --to=Chamber --no-run (END - exit=0)
+* 21:11 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=utgwiki --import-prefix=wikia:utg --from=Chipsareamazin --to=Chiip (END - exit=0)
+* 21:11 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=utgwiki --import-prefix=wikia:utg --from=Chipsareamazin --to=Chiip --no-run (END - exit=0)
+* 21:09 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=utgwiki --import-prefix=wikia:utg --from=ItWontLetMeMakeAName --to=Rag (END - exit=0)
+* 21:09 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=utgwiki --import-prefix=wikia:utg --from=ItWontLetMeMakeAName --to=Rag --no-run (END - exit=0)
+* 21:00 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=vocaloidlyricswiki --import-prefix=wikia:vocaloidlyrics --from=Trashtrash39 --to=Doodletrash01 (END - exit=0)
+* 21:00 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=vocaloidlyricswiki --import-prefix=wikia:vocaloidlyrics --from=Trashtrash39 --to=Doodletrash01 --no-run (END - exit=0)
+* 21:00 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=vocaloidlyricswiki --import-prefix=fandom:vocaloidlyrics --from=Trashtrash39 --to=Doodletrash01 (END - exit=0)
+* 20:59 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=vocaloidlyricswiki --import-prefix=fandom:vocaloidlyrics --from=Trashtrash39 --to=Doodletrash01 --no-run (END - exit=0)
+* 20:48 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'MassEditRegex'} to all - SUCCESS in 22s
+* 20:47 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'MassEditRegex'} to all
+* 20:47 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MassEditRegex'} to test151 - SUCCESS in 1s
+* 20:47 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MassEditRegex'} to test151
+* 20:39 Universal Omega: renamed master to main in private git on puppet181
 * 20:34 MirahezeLSBot: [paladox@puppet181] Upgraded packages on swiftobject181: libxml2
 * 20:34 MirahezeLSBot: [paladox@puppet181] Upgraded packages on ns2: libxml2
 * 20:33 MirahezeLSBot: [paladox@puppet181] Upgraded packages on swiftobject201: libxml2
