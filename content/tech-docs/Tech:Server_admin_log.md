@@ -2,6 +2,104 @@
 title: Tech:Server admin log
 ---
 
+## 2025-06-26 
+
+* 22:27 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 22:26 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 21:52 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject181: libicu72
+* 21:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ns2: libicu72
+* 21:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject201: libicu72
+* 21:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject191: libicu72
+* 21:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject161: libicu72
+* 21:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy161: libicu72
+* 21:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject171: libicu72
+* 21:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftac171: libicu72
+* 21:49 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy171: libicu72
+* 21:49 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject151: libicu72
+* 21:49 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on test151: libicu-dev, icu-devtools, and libicu72
+* 21:49 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on rdb151: libicu72
+* 21:49 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os191: libicu72
+* 21:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on puppet181: libicu72
+* 21:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os201: libicu72
+* 21:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ns1: libicu72
+* 21:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os162: libicu72
+* 21:47 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on reports171: libicu72
+* 21:47 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on prometheus151: libicu72
+* 21:47 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on phorge171: libicu72
+* 21:47 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os161: libicu72
+* 21:47 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os151: libicu72
+* 21:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask181: libicu72
+* 21:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask171: libicu72
+* 21:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask161: libicu72
+* 21:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw183: libicu72
+* 21:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw181: libicu72
+* 21:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask151: libicu72
+* 21:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem201: libicu72
+* 21:42 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bast181: libicu72
+* 21:41 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on matomo151: libicu72
+* 21:38 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw193: libicu72
+* 21:37 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw182: libicu72
+* 21:37 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw162: libicu72
+* 21:37 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw161: libicu72
+* 21:37 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw173: libicu72
+* 21:36 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw163: libicu72
+* 21:36 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw172: libicu72
+* 21:36 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw192: libicu72
+* 21:36 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw191: libicu72
+* 21:35 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw171: libicu72
+* 21:35 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mattermost1: libicu72
+* 21:35 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw202: libicu72
+* 21:35 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw203: libicu72
+* 21:35 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw201: libicu72
+* 21:34 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw153: libicu72
+* 21:34 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw151: libicu72
+* 21:34 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw152: libicu72
+* 21:34 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mon181: libicu72
+* 21:33 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem191: libicu72
+* 21:33 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem151: libicu72
+* 21:33 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ldap171: libicu72
+* 21:33 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem161: libicu72
+* 21:33 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db182: libicu72
+* 21:32 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud18: libicu72
+* 21:32 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud20: libicu72
+* 21:32 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bast161: libicu72
+* 21:31 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp201: libicu72
+* 21:31 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db181: libicu72
+* 21:31 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud15: libicu72
+* 21:31 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp191: libicu72
+* 21:31 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on kafka181: libicu72
+* 21:30 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud16: libicu72
+* 21:30 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on graylog161: libicu72
+* 21:30 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud19: libicu72
+* 21:30 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db151: libicu72
+* 21:30 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db161: libicu72
+* 21:29 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp171: libicu72
+* 21:29 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on changeprop201: libicu72
+* 21:29 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud17: libicu72
+* 21:29 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db171: libicu72
+* 21:29 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on eventgate181: libicu72
+* 21:28 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db172: libicu72
+* 21:28 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bots171: libicu72
+* 21:28 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp161: libicu72
+* 20:15 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 21s
+* 20:14 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 20:13 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 21s
+* 20:13 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 20:00 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 20:00 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:55 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'force': True} to all - SUCCESS in 21s
+* 19:54 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'force': True} to all
+* 19:54 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'force': True} to all - SUCCESS in 45s
+* 19:53 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'force': True} to all
+* 19:53 MirahezeLSBot: [paladox@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mw152
+* 19:53 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:53 MirahezeLSBot: [paladox@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mw201
+* 19:52 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:47 @paladox: upgrade  proxmox-kernel-6.8 on cloud20
+* 19:00 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 19:00 @paladox: shutting down all vms on cloud15 and cloud20. Shutting down both the cloud servers as well.
+* 19:00 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
 ## 2025-06-25 
 
 * 23:11 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
