@@ -23,7 +23,7 @@ Host wikitidebast
         ServerAliveInterval 60
         User <shell username here>
 
-Host *.wikitide.net
+Host *.wtnet
         IdentityFile <path to private key here>
         User <shell username here>
         ProxyJump wikitidebast

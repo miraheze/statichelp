@@ -2,21 +2,24 @@
 title: Tech:Graylog
 ---
 
-**Graylog** is a [log management solution](https://www.graylog.org/) for logs stored on the servers. The web interface is available at [https://logging.wikitide.net/](https://logging.wikitide.net/). Access is restricted to [Technology team department personnel](/tech-docs/techvolunteers). Said people can use their LDAP credentials for authentication.
+**Graylog** is a [centralized log management solution](https://www.graylog.org/) used to collect and analyze logs across WikiTide servers. The web interface is available at [https://logging.wikitide.net/](https://logging.wikitide.net/). Access is restricted to [Technology team members](/tech-docs/techvolunteers), who can authenticate using their LDAP credentials.
 
 ## Architecture 
 
-Graylog runs on [graylog161.wikitide.net](/tech-docs/techgraylog161) as of now. There are three daemons running there: `graylog-server` for the actual log management, `opensearch` for storing the logs and `mongod` for storing Graylog's configuration.
+Graylog currently runs on [graylog161.fsslc.wtnet](/tech-docs/techgraylog161). It includes the following services:
+
+* **graylog-server** – the main log collection and processing service
+* **opensearch** – handles indexing and searching of log messages
+* **mongod** – stores Graylog's configuration data
 
 ```
-                                                                                                                  
                      +----------------------------------+                                        +------------------------------------------+
-                     | test151.wikitide.net             |                                        | graylog161.wikitide.net                  |
+                     | test151.fsslc.wtnet             |                                        | graylog161.fsslc.wtnet                  |
                      | +------------+                   |                                        |                                          |
                      | |            |                   |                                        | +---------------+      +---------------+ |
 +----------------+   | | MediaWiki  |-\                 |                                        | |               |      |               | |
 |                |   | |            |  ---\             |                                    ------|graylog-server -------- opensearch    | |
-| Miraheze User  |   | +------------+      --\          |             12210/tcp   ----------/    | |               |\     |               | |
+| WikiTide User  |   | +------------+      --\          |             12210/tcp   ----------/    | |               |\     |               | |
 |                |   |                   +------------+ |              ----------/               | +-------|-------+ \    +---------------+ |
 +----------\-----+   | +-------------+   |            | |   ----------/                          |         |          |                     |
             ------\  | |             |   | syslog-ng  -----/          TLS encrypted              |          \         \                     |
@@ -37,42 +40,113 @@ Graylog runs on [graylog161.wikitide.net](/tech-docs/techgraylog161) as of now. 
                                                                                                  +-------------------+                       
 ```
 
-In the example above, test151 runs syslog-ng, which is responsible for receiving the logs locally and sending them to graylog-server. By setting `base::syslog::syslog_daemon` to 'syslog_ng' in puppet, [base::syslog](https://github.com/miraheze/puppet/blob/main/modules/base/manifests/syslog.pp) will install syslog-ng and configure it to listen on `127.0.0.1:10514` (for anything on the server sending its logs to that destination, such as MediaWiki and NGINX) and ['system'](https://www.syslog-ng.com/technical-documents/doc/syslog-ng-open-source-edition/3.22/administration-guide/26) for services such as ssh and kernel logs.
+In the above architecture, **syslog-ng** on **test151** receives logs locally and forwards them to **graylog-server**.
+To enable this, set `base::syslog::syslog_daemon` to `syslog_ng` in Puppet. The [base::syslog](https://github.com/miraheze/puppet/blob/main/modules/base/manifests/syslog.pp) class will:
+
+* Install **syslog-ng**
+* Configure it to listen on **127.0.0.1:10514** for local logs
+* Use the **system** source for kernel and system logs
 
 ## Streams 
 
-Streams are Graylog's categories of data. By default, the `All messages` stream is the stream for every message sent to Graylog. Streams are useful to limit access for certain members. For example, MediaWiki Administrators can only access the streams for MediaWiki and NGINX logs.
+Streams in Graylog define how log messages are routed and who can access them.
+All messages go to the **All messages** stream by default.
+Custom streams restrict access based on roles. For example, MediaWiki Specialists only see MediaWiki and NGINX streams.
 
-## Querying the data 
+## Querying the Data 
 
-Graylog has a [search syntax](https://docs.graylog.org/en/4.0/pages/searching/query_language.html) that's close to Lucene's syntax. For MediaWiki and NGINX, custom fields have been defined: go to [https://logging.wikitide.net/search](https://logging.wikitide.net/search) and click on 'Fields' on your left. Using these fields, you can query the data. For example:
+Graylog uses a [Lucene-like syntax](https://docs.graylog.org/en/4.0/pages/searching/query_language.html) for queries.
+To view available fields, go to [Graylog Search](https://logging.wikitide.net/search) and click the **Fields** sidebar tab.
 
-* View NGINX logs for your IP address: `nginx_remote_addr:"1.2.3.4"`
-* View all SSH logs: `application_name:"sshd"`
-* View all MediaWiki errors and warnings: `application_name:"mediawiki" AND (mediawiki_level:"ERROR" OR mediawiki_level:"WARNING")`
-* View logs relating to a specific MediaWiki request: `mediawiki_reqId:"642df1294318d7551fab367e"`
+Examples:
+
+* View NGINX logs for your IP:
+* `nginx_remote_addr:"1.2.3.4"`
+* View all SSH logs:
+* `application_name:"sshd"`
+* View all MediaWiki errors and warnings:
+* `application_name:"mediawiki" AND (mediawiki_level:"ERROR" OR mediawiki_level:"WARNING")`
+* View logs for a specific MediaWiki request:
+* `mediawiki_reqId:"642df1294318d7551fab367e"`
 
 ## Access 
 
-For security reasons, the Graylog interface is inaccessible without a [SOCKS5 proxy](https://meta.miraheze.org/wiki/w:SOCKS#SOCKS5), just like [Proxmox' interface](/tech-docs/techproxmox). To make the process of using tunnels as easy as possible, please install SmartProxy: [Chrome](https://chrome.google.com/webstore/detail/smartproxy/jogcnplbkgkfdakgdenhlpcfhjioidoj?hl=nl) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/smartproxy/). We'll be using port 8089 (although other ports will work too) on your desktop or laptop, which will be used for a SOCKS5 proxy over SSH. If you have access to graylog161, you can use graylog161.wikitide.net. If you don't have access to graylog161, use either of the Bastion servers (bast*.wikitide.net).
+The Graylog interface is not directly accessible without a [SOCKS5 proxy](https://meta.miraheze.org/wiki/w:SOCKS#SOCKS5), similar to [Proxmox](/tech-docs/techproxmox).
+Port **8089** is used locally for proxying. You may tunnel through any of:
 
-In SmartProxy, create a proxy server: Proxy Server > Add server > Name = "WikiTide Proxy", Address = "127.0.0.1", Port = "8089", Protocol = "SOCKS5" > Save. Afterwards, create a proxy rule: Proxy Rules > Add rule > Rule type = "Search Domain and SubDomain", Domain = "logging.wikitide.net", then "Apply Proxy" to "WikiTide Proxy" > Save and then click "Save" on the bottom of the page as well.
+* `graylog161.fsslc.wtnet` (if you have direct access)
+* `test151.fsslc.wtnet` – MediaWiki test host
+* A MediaWiki or MediaWiki task host like `mw151.fsslc.wtnet`
+* A bastion host like `bast161.wikitide.net`
 
-You can also see this quick [video](https://imgur.com/a/yca7doi) on what the configuration looks like for SmartProxy
+### SmartProxy Setup 
+
+Install SmartProxy:
+
+* [Chrome](https://chrome.google.com/webstore/detail/smartproxy/jogcnplbkgkfdakgdenhlpcfhjioidoj)
+* [Firefox](https://addons.mozilla.org/en-US/firefox/addon/smartproxy/)
+
+Then configure:
+
+* *Go to* **Proxy Server > Add server**
+* **Name:** *WikiTide Proxy*
+* **Address:** *127.0.0.1*
+* **Port:** *8089*
+* **Protocol:** *SOCKS5*
+* **Save**
+
+Next:
+
+* *Go to* **Proxy Rules > Add rule**
+* **Rule type:** *Search Domain and SubDomain*
+* **Domain:** *logging.wikitide.net*
+* **Apply Proxy:** *WikiTide Proxy*
+* **Save** and click **Save** again at the bottom (make sure you click it in **both** places)
+
+See this [video](https://imgur.com/a/yca7doi) for a quick walkthrough.
 
 ### OpenSSH 
 
-If using OpenSSH, you can use `ssh -D 8089 <server>.wikitide.net`.
+If you're using OpenSSH, you can create a dynamic SOCKS5 proxy with:
 
-If using a bastion server and your configuration is based on [Tech:SSH#OpenSSH](/tech-docs/techssh#openssh), you should use `ssh -D 8089 wikitidebast`. This avoids making two SSH connections to the bastion.
+```shell
+ssh -D 8089 <server>.<dcname>.wtnet
+```
+
+Replace **<server>** with the server hostname (e.g., **test151**)
+and **<dcname>** with the datacenter identifier (e.g., **fsslc**).
+
+If using a bastion setup as described on [Tech:SSH#OpenSSH](/tech-docs/techssh#openssh), you can simply run:
+
+```shell
+ssh -D 8089 wikitidebast
+```
+
+This avoids making two SSH hops.
 
 ### PuTTY 
 
-It is recommended to save this config to a session. Choose a server you would like to connect to. Go to Connection > SSH > Tunnels, enter `8089` in `Source port` and select the radio buttons `Dynamic` and `Auto`. If you are planning to use Graylog for an extended period of time, without using PuTTY for executing commands on servers (idle state), you may hit a timeout: see [this](https://askubuntu.com/questions/254750/how-to-make-putty-ssh-connection-never-to-timeout-when-user-is-idle) for a fix.
+To configure PuTTY:
+
+* Select a server to connect to
+* Navigate to **Connection > SSH > Tunnels**
+* Enter **8089** in the **Source port** field
+* Choose the **Dynamic** and **Auto** radio buttons
+* **Save** the session
+
+If you plan to leave PuTTY open while idle, the session may time out.
+To avoid this, see:
+[How to prevent PuTTY timeout when idle](https://askubuntu.com/questions/254750/how-to-make-putty-ssh-connection-never-to-timeout-when-user-is-idle)
 
 ## Administration 
 
-Configuring Graylog is a combination of Puppet usage and using the web interface for configuration (where configuration will eventually be stored in MongoDB on graylog161.wikitide.net). [role::graylog](https://github.com/miraheze/puppet/blob/main/modules/role/manifests/graylog.pp) is used for graylog161's configuration. [base::syslog](https://github.com/miraheze/puppet/blob/main/modules/base/manifests/syslog.pp) contains the configuration for every server logging to Graylog.
+Graylog configuration is a mix of Puppet and web interface setup.
+MongoDB on `graylog161.fsslc.wtnet` stores persistent configuration.
+
+Relevant Puppet classes:
+
+* [role::graylog](https://github.com/miraheze/puppet/blob/main/modules/role/manifests/graylog.pp) – configures the Graylog server
+* [base::syslog](https://github.com/miraheze/puppet/blob/main/modules/base/manifests/syslog.pp) – configures syslog-ng forwarding on all clients
 
 ## Categories
 

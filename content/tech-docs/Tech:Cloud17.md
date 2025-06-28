@@ -4,14 +4,19 @@ title: Tech:Cloud17
 
 ```
 {{ {{Server
-| name = cloud17
 | location = FiberState Salt Lake City
 | host = cloud17.wikitide.net
 | usage = Cloud
 | status = running
-| memory = 256GB
-| cpu = 40 cores @ 3.8 GHz
-| ssd = 4TB NVMe
+| memory = 512GB
+| cpu model = Intel Dual Xeon GOLD 6148
+| cpu cores = 40
+| cpu threads = 80
+| cpu frequency = 2.4
+| cpu turbo frequency = 3.7
+| numa = yes
+| nvme = 8TB
+| nvme type = U.2
 | os = Debian 12
 | type = bare metal
 | kernel = 

@@ -4,14 +4,15 @@ title: Tech:Test151
 
 ```
 {{ {{Server
-| name = test151
 | location = FiberState Salt Lake City
-| host = test151.wikitide.net
+| host = test151.fsslc.wtnet
 | usage = MediaWiki (testing)
 | status = running
 | memory = 12GB
 | cpu = 12 cores
-| ssd = 100GB U.2 NVMe
+| numa = yes
+| nvme = 100GB
+| nvme type = U.2
 | os = Debian 12
 | type = KVM
 | kernel =

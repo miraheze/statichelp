@@ -2,6 +2,16 @@
 title: Tech:Server admin log
 ---
 
+## 2025-06-27 
+
+* 23:15 @paladox: db182: UPDATE matomo_site SET timezone = 'UTC'; (updates all timezones to UTC, matches main dashboard Miraheze)
+* 10:43 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'TabberNeue'} to test151 - SUCCESS in 1s
+* 10:42 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'TabberNeue'} to test151
+* 02:20 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 20s
+* 02:19 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 02:19 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 24s
+* 02:19 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+
 ## 2025-06-26 
 
 * 22:27 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
