@@ -2,6 +2,21 @@
 title: Tech:Server admin log
 ---
 
+## 2025-06-28 
+
+* 22:44 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 24s
+* 22:43 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+* 21:52 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=bandoriwiki (START)
+* 21:52 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=bandoriwiki dump.xml --no-updates (END - exit=0)
+* 16:49 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=bandoriwiki dump.xml --no-updates (START)
+* 14:30 @paladox: increase db182 ram to 24gb
+* 12:03 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'RobloxAPI'} to all - SUCCESS in 22s
+* 12:02 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'RobloxAPI'} to all
+* 12:01 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'RobloxAPI'} to test151 - SUCCESS in 2s
+* 12:01 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'RobloxAPI'} to test151
+* 11:52 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 11:52 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
 ## 2025-06-27 
 
 * 23:15 @paladox: db182: UPDATE matomo_site SET timezone = 'UTC'; (updates all timezones to UTC, matches main dashboard Miraheze)

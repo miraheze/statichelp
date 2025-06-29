@@ -6,12 +6,14 @@ title: Tech:Db182
 {{ {{Server
 | name = db182
 | location = FiberState Salt Lake City
-| host = db182.wikitide.net
+| host = db182.fsslc.wtnet
 | usage = Database (non-MediaWiki)
 | status = running
-| memory = 14GB
+| memory = 24GB
 | cpu = 6 cores
-| ssd = 512GB U.2 NVMe
+| numa = yes
+| nvme = 512GB
+| nvme type = U.2
 | os = Debian 12
 | type = KVM
 | kernel =
