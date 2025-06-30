@@ -2,6 +2,54 @@
 title: Tech:Server admin log
 ---
 
+## 2025-06-29 
+
+* 18:11 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 24s
+* 18:10 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'CreateWiki'} to all
+* 15:02 @paladox: drop custom\_var* on matomo_log_link_visit_action
+* 14:23 @paladox: drop custom_var_* on matomo_log_visit
+* 14:18 MirahezeLSBot: [paladox@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 14:18 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': '1.44'} to test151
+* 14:16 MirahezeLSBot: [paladox@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 14:16 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': '1.44'} to test151
+* 14:14 MirahezeLSBot: [paladox@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 14:14 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': '1.44'} to test151
+* 14:14 MirahezeLSBot: [paladox@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 14:14 MirahezeLSBot: [paladox@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 14:13 MirahezeLSBot: [paladox@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 14:13 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': '1.44'} to test151
+* 14:08 MirahezeLSBot: [paladox@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 14:08 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': '1.44'} to test151
+* 14:08 MirahezeLSBot: [paladox@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 14:08 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': '1.44'} to test151
+* 14:06 MirahezeLSBot: [paladox@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 14:06 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': '1.44'} to test151
+* 14:06 MirahezeLSBot: [paladox@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 14:06 MirahezeLSBot: [paladox@test151] starting deploy of {'config': True} to test151
+* 14:06 MirahezeLSBot: [paladox@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 14:06 MirahezeLSBot: [paladox@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 14:06 MirahezeLSBot: [paladox@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 14:06 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': '1.44'} to test151
+* 14:05 MirahezeLSBot: [paladox@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 14:05 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': '1.44'} to test151
+* 14:05 MirahezeLSBot: [paladox@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 14:05 MirahezeLSBot: [paladox@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 13:35 MirahezeLSBot: [paladox@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 13:35 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': '1.44'} to test151
+* 13:34 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MatomoAnalytics'} to test151 - SUCCESS in 599s
+* 13:32 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.43', 'upgrade_extensions': 'MatomoAnalytics'} to all - SUCCESS in 515s
+* 13:31 MirahezeLSBot: [paladox@test151] finished deploy of {'world': True, 'versions': '1.44'} to test151 - SUCCESS in 27s
+* 13:31 MirahezeLSBot: [paladox@test151] starting deploy of {'world': True, 'versions': '1.44'} to test151
+* 13:24 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.43', 'upgrade_extensions': 'MatomoAnalytics'} to all
+* 13:24 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MatomoAnalytics'} to test151
+* 13:23 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 13:23 MirahezeLSBot: [paladox@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 13:23 MirahezeLSBot: [paladox@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 13:23 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 11:38 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=universalunionwiki (END - exit=0)
+* 11:38 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=universalunionwiki --startOver (END - exit=0)
+* 11:35 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=universalunionwiki --startOver (END - exit=256)
+
 ## 2025-06-28 
 
 * 22:44 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 24s
