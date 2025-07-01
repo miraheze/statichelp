@@ -2,6 +2,33 @@
 title: Tech:Server admin log
 ---
 
+## 2025-07-01 
+
+* 00:00 MirahezeLSBot: [www-data@mwtask181] Began automatic backing up
+* 00:00 MirahezeLSBot: [www-data@test151] Began automatic backing up
+
+## 2025-06-30 
+
+* 23:53 BlankEclair: addendum: meant to be DROP DATABASE skyewikibeta
+* 23:47 @asko1: DROP TABLE skyewikibeta
+* 19:13 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CreateWiki:SetContainersAccess --wiki=lamapolawiki (END - exit=0)
+* 02:17 Universal Omega: added skye to the reader role in graylog
+* 02:13 MirahezeLSBot: [blankeclair@mwtask181] Finished import for peacefulvanillaclubwiki (XML: peaceful-vanilla-club.fandom.com-20250629-history.xml; Images: images) (END - exit=0)
+* 02:13 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=peacefulvanillaclubwiki --update (END - exit=0)
+* 02:12 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=peacefulvanillaclubwiki --update (START)
+* 02:12 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initEditCount --wiki=peacefulvanillaclubwiki (END - exit=0)
+* 02:12 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initEditCount --wiki=peacefulvanillaclubwiki (START)
+* 02:12 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php rebuildall --wiki=peacefulvanillaclubwiki (END - exit=0)
+* 02:08 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php rebuildall --wiki=peacefulvanillaclubwiki (START)
+* 02:08 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=peacefulvanillaclubwiki '--comment=Importing images from [https://peaceful-vanilla-club.fandom.com](https://peaceful-vanilla-club.fandom.com) ([T13919](https://meta.miraheze.org/wiki/phorge:T13919))' -- images (END - exit=0)
+* 02:01 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=peacefulvanillaclubwiki '--comment=Importing images from [https://peaceful-vanilla-club.fandom.com](https://peaceful-vanilla-club.fandom.com) ([T13919](https://meta.miraheze.org/wiki/phorge:T13919))' -- images (START)
+* 02:01 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importDump --wiki=peacefulvanillaclubwiki --no-updates --username-prefix=fandom:peaceful-vanilla-club -- peaceful-vanilla-club.fandom.com-20250629-history.xml (END - exit=0)
+* 01:41 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importDump --wiki=peacefulvanillaclubwiki --no-updates --username-prefix=fandom:peaceful-vanilla-club -- peaceful-vanilla-club.fandom.com-20250629-history.xml (START)
+* 01:41 MirahezeLSBot: [blankeclair@mwtask181] Starting import for peacefulvanillaclubwiki (XML: peaceful-vanilla-club.fandom.com-20250629-history.xml; Images: images) (START)
+* 01:38 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'l10n': True, 'versions': '1.43', 'upgrade_extensions': 'TabberNeue'} to all - SUCCESS in 508s
+* 01:29 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'l10n': True, 'versions': '1.43', 'upgrade_extensions': 'TabberNeue'} to all
+* 00:41 Universal Omega: added ldap account for skye
+
 ## 2025-06-29 
 
 * 18:11 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 24s
