@@ -4,6 +4,108 @@ title: Tech:Server admin log
 
 ## 2025-07-01 
 
+* 12:10 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 22s
+* 12:10 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 12:07 @paladox: reset (proxmox command) db161
+* 12:02 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 25s
+* 12:01 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 12:01 MirahezeLSBot: [paladox@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@localhost
+* 12:01 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'config': True} to all
+* 09:45 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=vocaloidlyricswiki --import-prefix=fandom:vocaloidlyrics --from=KunKunAguero --to=Osuka (END - exit=0)
+* 09:45 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=vocaloidlyricswiki --import-prefix=fandom:vocaloidlyrics --from=KunKunAguero --to=Osuka --no-run (END - exit=0)
+* 09:44 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=vocaloidlyricswiki --import-prefix=wikia:vocaloidlyrics --from=KunKunAguero --to=Osuka (END - exit=0)
+* 09:44 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=vocaloidlyricswiki --import-prefix=wikia:vocaloidlyrics --from=KunKunAguero --to=Osuka --no-run (END - exit=0)
+* 09:34 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_skins': 'Vector'} to all - SUCCESS in 26s
+* 09:34 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_skins': 'Vector'} to all
+* 09:33 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_skins': 'Vector'} to test151 - SUCCESS in 2s
+* 09:33 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_skins': 'Vector'} to test151
+* 09:27 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 09:27 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 09:27 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 09:27 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 03:26 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: sudo
+* 03:26 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: sudo
+* 03:26 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: sudo
+* 03:25 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: sudo
+* 03:25 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: sudo
+* 03:25 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: sudo
+* 03:25 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: sudo
+* 03:24 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: sudo
+* 03:24 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: sudo
+* 03:24 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: sudo
+* 03:24 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: sudo
+* 03:23 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: sudo
+* 03:23 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: sudo
+* 03:23 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: sudo
+* 03:23 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: sudo
+* 03:22 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: sudo
+* 03:22 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: sudo
+* 03:22 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: sudo
+* 03:22 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: sudo
+* 03:21 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: sudo
+* 03:21 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: sudo
+* 03:21 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: sudo
+* 03:21 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb151: sudo
+* 03:20 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: sudo
+* 03:20 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: sudo
+* 03:20 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: sudo
+* 03:20 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: sudo
+* 03:19 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: sudo
+* 03:19 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: sudo
+* 03:19 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: sudo
+* 03:19 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: sudo
+* 03:18 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: sudo
+* 03:18 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: sudo
+* 03:18 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: sudo
+* 03:17 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: sudo
+* 03:17 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: sudo
+* 03:17 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: sudo
+* 03:17 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: sudo
+* 03:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: sudo
+* 03:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: sudo
+* 03:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: sudo
+* 03:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: sudo
+* 03:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: sudo
+* 03:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: sudo
+* 03:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost1: sudo
+* 03:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: sudo
+* 03:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: sudo
+* 03:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: sudo
+* 03:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: sudo
+* 03:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: sudo
+* 03:13 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: sudo
+* 03:13 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: sudo
+* 03:13 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: sudo
+* 03:13 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: sudo
+* 03:13 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: sudo
+* 03:12 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate181: sudo
+* 03:12 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: sudo
+* 03:12 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: sudo
+* 03:12 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: sudo
+* 03:11 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: sudo
+* 03:11 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: sudo
+* 03:11 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: sudo
+* 03:11 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: sudo
+* 03:10 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: sudo
+* 03:10 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka181: sudo
+* 03:10 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: sudo
+* 03:10 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: sudo
+* 03:09 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: sudo
+* 03:09 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: sudo
+* 03:09 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: sudo
+* 03:09 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: sudo
+* 03:09 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: sudo
+* 03:08 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop201: sudo
+* 03:08 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: sudo
+* 03:08 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: sudo
+* 02:39 MirahezeLSBot: [skye@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 02:39 MirahezeLSBot: [skye@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 02:32 MirahezeLSBot: [skye@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 02:32 MirahezeLSBot: [skye@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 00:16 MirahezeLSBot: [blankeclair@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php sql --wiki=skyewikibeta /srv/mediawiki/1.43/extensions/Echo/sql/mysql/tables-generated.sql (END - exit=0)
+* 00:16 BlankEclair: skyewikibeta: DROP TABLE echo_event; DROP TABLE echo_notification; DROP TABLE echo_email_batch; DROP TABLE echo_target_page; DROP TABLE echo_push_provider; DROP TABLE echo_push_subscription; DROP TABLE echo_push_topic;
+* 00:11 Skye: manually recreated skyewikibeta database
+* 00:07 BlankEclair: CREATE DATABASE skyewikibeta
 * 00:00 MirahezeLSBot: [www-data@mwtask181] Began automatic backing up
 * 00:00 MirahezeLSBot: [www-data@test151] Began automatic backing up
 
