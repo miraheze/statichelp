@@ -2,6 +2,50 @@
 title: Tech:Server admin log
 ---
 
+## 2025-07-02 
+
+* 20:57 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 23s
+* 20:57 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all
+* 20:57 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'ManageWiki'} to test151 - SUCCESS in 2s
+* 20:57 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'ManageWiki'} to test151
+* 20:15 MirahezeLSBot: [skye@test151] finished deploy of {'folders': '1.44/extensions/ManageWiki'} to test151 - SUCCESS in 0s
+* 20:15 MirahezeLSBot: [skye@test151] starting deploy of {'folders': '1.44/extensions/ManageWiki'} to test151
+* 20:13 MirahezeLSBot: [skye@test151] finished deploy of {'versions': '1.44', 'upgrade_skins': 'Citizen'} to test151 - SUCCESS in 1s
+* 20:13 MirahezeLSBot: [skye@test151] starting deploy of {'versions': '1.44', 'upgrade_skins': 'Citizen'} to test151
+* 20:11 MirahezeLSBot: [skye@test151] finished deploy of {'versions': '1.43', 'upgrade_skins': 'Citizen'} to test151 - SUCCESS in 1s
+* 20:11 MirahezeLSBot: [skye@test151] starting deploy of {'versions': '1.43', 'upgrade_skins': 'Citizen'} to test151
+* 19:51 MirahezeLSBot: [skye@test151] finished deploy of {'folders': '1.43/extensions/ManageWiki'} to test151 - SUCCESS in 0s
+* 19:51 MirahezeLSBot: [skye@test151] starting deploy of {'folders': '1.43/extensions/ManageWiki'} to test151
+* 19:32 MirahezeLSBot: [skye@test151] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to test151 - SUCCESS in 0s
+* 19:32 MirahezeLSBot: [skye@test151] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to test151
+* 19:28 MirahezeLSBot: [skye@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'ManageWiki'} to test151 - SUCCESS in 1s
+* 19:28 MirahezeLSBot: [skye@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'ManageWiki'} to test151
+* 19:16 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/initSiteStats.php --wiki=ayeshaeroticawiki --update (END - exit=0)
+* 19:16 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=ayeshaeroticawiki (END - exit=0)
+* 19:10 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=ayeshaeroticawiki (START)
+* 19:10 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=ayeshaeroticawiki dump.xml --no-updates (END - exit=0)
+* 18:52 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=ayeshaeroticawiki dump.xml --no-updates (START)
+* 18:30 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/initSiteStats.php --wiki=azuremineswikiwiki --update (END - exit=0)
+* 18:30 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=azuremineswikiwiki (END - exit=0)
+* 18:02 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=azuremineswikiwiki (START)
+* 18:02 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=azuremineswikiwiki dump.xml --no-updates (END - exit=0)
+* 15:54 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=azuremineswikiwiki dump.xml --no-updates (START)
+* 14:42 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CentralAuth:createLocalAccount --wiki=digwiki Pikachuthefirst (END - exit=0)
+* 14:41 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CentralAuth:createLocalAccount --wiki=digwiki --username=Pikachuthefirst (END - exit=256)
+* 14:37 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 14:37 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 14:35 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 14:35 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 14:10 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=balatromodswiki (END - exit=0)
+* 14:07 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=balatromodswiki --startOver (END - exit=0)
+* 14:06 @abaddriverlol: curl -X DELETE [https://opensearch-mw.wikitide.net/balatromodswiki_{content,general}](https://opensearch-mw.wikitide.net/balatromodswiki_{content,general})
+* 14:03 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 14:03 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 05:37 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importImages.php --wiki=azuremineswikiwiki --summary=Imported from [https://azuremines.fandom.com](https://azuremines.fandom.com) --search-recursively /home/reception/azuremineswiki (END - exit=0)
+* 04:57 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importImages.php --wiki=azuremineswikiwiki --summary=Imported from [https://azuremines.fandom.com](https://azuremines.fandom.com) --search-recursively /home/reception/azuremineswiki (START)
+* 03:41 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/initSiteStats.php --wiki=bandoriwiki --update (END - exit=0)
+* 03:41 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=bandoriwiki (END - exit=0)
+
 ## 2025-07-01 
 
 * 12:10 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 22s
