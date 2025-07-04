@@ -2,6 +2,44 @@
 title: Tech:Server admin log
 ---
 
+## 2025-07-03 
+
+* 19:08 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 19:08 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 17:16 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/initSiteStats.php --wiki=kirbyfrwiki --update (END - exit=0)
+* 17:16 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=kirbyfrwiki (END - exit=0)
+* 17:01 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 17:00 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 16:55 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=kirbyfrwiki (START)
+* 16:55 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=kirbyfrwiki dump.xml --no-updates (END - exit=0)
+* 16:45 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 16:44 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 16:38 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 16:38 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 15:18 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=kirbyfrwiki dump.xml --no-updates (START)
+* 14:56 @paladox: upgrade phorge on phorg171
+* 01:34 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/initSiteStats.php --wiki=normwiki --update (END - exit=0)
+* 01:34 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=normwiki (END - exit=2)
+* 01:34 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=normwiki (START)
+* 01:34 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=normwiki dump.xml --no-updates (END - exit=256)
+* 01:33 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=normwiki dump.xml --no-updates (START)
+* 01:09 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/initSiteStats.php --wiki=normwiki --update (END - exit=0)
+* 01:09 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=normwiki (END - exit=0)
+* 01:09 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=normwiki (START)
+* 01:09 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=normwiki dump.xml --no-updates (END - exit=256)
+* 01:09 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=normwiki dump.xml --no-updates (START)
+* 01:00 MirahezeLSBot: [macfan@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 00:59 MirahezeLSBot: [macfan@test151] starting deploy of {'pull': 'world', 'world': True, 'l10n': True, 'versions': '1.44'} to test151
+* 00:59 MirahezeLSBot: [macfan@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:ToggleExtension --wiki=testwikibeta --name=growthexpiriments (END - exit=0)
+* 00:58 MirahezeLSBot: [macfan@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 00:58 MirahezeLSBot: [macfan@test151] starting deploy of {'pull': 'world', 'world': True, 'l10n': True, 'versions': '1.44'} to test151
+* 00:57 MirahezeLSBot: [macfan@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:ToggleExtension --wiki=metawikibeta --name=growthexpiriments (END - exit=0)
+* 00:57 MirahezeLSBot: [macfan@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:ToggleExtension --wiki=metawikibeta growthexpiriments (END - exit=256)
+* 00:43 MirahezeLSBot: [macfan@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 00:40 MirahezeLSBot: [macfan@test151] starting deploy of {'pull': 'world', 'world': True, 'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'all', 'upgrade_skins': 'all'} to test151
+* 00:37 MirahezeLSBot: [macfan@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 00:33 MirahezeLSBot: [macfan@test151] starting deploy of {'pull': 'world', 'world': True, 'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'all'} to test151
+
 ## 2025-07-02 
 
 * 20:57 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 23s
