@@ -2,6 +2,33 @@
 title: Tech:Server admin log
 ---
 
+## 2025-07-04 
+
+* 22:35 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'l10n': True, 'versions': '1.43'} to all - SUCCESS in 454s
+* 22:27 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'l10n': True, 'versions': '1.43'} to all
+* 22:21 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.43/skins/Citizen'} to all - SUCCESS in 23s
+* 22:20 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.43/skins/Citizen'} to all
+* 22:19 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.44/skins/Citizen'} to test151 - SUCCESS in 0s
+* 22:19 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.44/skins/Citizen'} to test151
+* 22:11 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.43/skins/Citizen'} to test151 - SUCCESS in 0s
+* 22:11 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.43/skins/Citizen'} to test151
+* 19:58 MirahezeLSBot: [skye@test151] finished deploy of {'folders': '1.44/extensions/BreadCrumbs2'} to test151 - SUCCESS in 0s
+* 19:57 MirahezeLSBot: [skye@test151] starting deploy of {'folders': '1.44/extensions/BreadCrumbs2'} to test151
+* 14:11 MirahezeLSBot: [skye@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 14:11 MirahezeLSBot: [skye@test151] starting deploy of {'l10n': True, 'versions': '1.44'} to test151
+* 14:10 Skye: sudo -u www-data rmdir /srv/mediawiki/1.44/extensions/Interwiki (empty)
+* 13:43 MirahezeLSBot: [skye@test151] finished deploy of {'folders': '1.44/extensions/DiscordNotifications'} to test151 - SUCCESS in 0s
+* 13:43 MirahezeLSBot: [skye@test151] starting deploy of {'folders': '1.44/extensions/DiscordNotifications'} to test151
+* 13:32 MirahezeLSBot: [skye@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 13:32 MirahezeLSBot: [skye@test151] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'DiscordNotifications'} to test151
+* 10:21 MirahezeLSBot: [skye@test151] finished deploy of {'folders': '1.44/extensions/CommentStreams'} to test151 - SUCCESS in 0s
+* 10:21 MirahezeLSBot: [skye@test151] starting deploy of {'folders': '1.44/extensions/CommentStreams'} to test151
+* 10:17 MirahezeLSBot: [skye@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'CommentStreams'} to test151 - SUCCESS in 1s
+* 10:17 MirahezeLSBot: [skye@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'CommentStreams'} to test151
+* 09:48 MirahezeLSBot: [skye@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'CommentStreams'} to test151 - SUCCESS in 29s
+* 09:47 MirahezeLSBot: [skye@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'CommentStreams'} to test151
+* 06:33 BlankEclair: [blankeclair@mwtask171:~]$ mwscript protect cgwiki --unprotect --reason '"Unprotecting since (editcgprotected) no longer exists ([commit fcfb6fa](https://meta.miraheze.org/wiki/github:miraheze/mw-config/commit/fcfb6fa4e533fe831a0960115558faa4c0bb3183))"' CG:Ekip
+
 ## 2025-07-03 
 
 * 19:08 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
