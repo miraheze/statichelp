@@ -2,6 +2,41 @@
 title: Tech:Server admin log
 ---
 
+## 2025-07-05 
+
+* 22:42 MirahezeLSBot: [skye@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'Report'} to test151 - SUCCESS in 1s
+* 22:42 MirahezeLSBot: [skye@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'Report'} to test151
+* 21:56 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'TemplateSandbox'} to test151 - SUCCESS in 1s
+* 21:56 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'TemplateSandbox'} to test151
+* 21:43 MirahezeLSBot: [skye@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'MultiBoilerplate'} to test151 - SUCCESS in 0s
+* 21:43 MirahezeLSBot: [skye@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'MultiBoilerplate'} to test151
+* 20:23 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/initSiteStats.php --wiki=needforspeedwiki --update (END - exit=0)
+* 20:23 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=needforspeedwiki (END - exit=0)
+* 19:32 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=needforspeedwiki (START)
+* 19:32 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=needforspeedwiki dump.xml --no-updates (END - exit=0)
+* 19:21 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=needforspeedwiki dump.xml --no-updates (START)
+* 19:14 MirahezeLSBot: [macfan@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.44/maintenance/run.php GlobalUsage:refreshGlobalimagelinks --pages=existing,nonexisting (END - exit=0)
+* 19:14 MirahezeLSBot: [macfan@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.44/maintenance/run.php GlobalUsage:refreshGlobalimagelinks --pages=existing,nonexisting (START)
+* 19:13 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/initSiteStats.php --wiki=needforspeedwiki --update (END - exit=0)
+* 19:13 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=needforspeedwiki (END - exit=0)
+* 19:08 MirahezeLSBot: [macfan@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 19:08 MirahezeLSBot: [macfan@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 18:49 MirahezeLSBot: [macfan@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.44/maintenance/run.php GlobalUsage:refreshGlobalimagelinks (END - exit=256)
+* 18:49 MirahezeLSBot: [macfan@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.44/maintenance/run.php GlobalUsage:refreshGlobalimagelinks (START)
+* 18:40 MirahezeLSBot: [macfan@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 18:40 MirahezeLSBot: [macfan@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 18:29 MirahezeLSBot: [macfan@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php sql --wiki=commonswikibeta /srv/mediawiki/1.44/extensions/GlobalUsage/sql/mysql/tables-generated.sql (END - exit=0)
+* 18:27 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=needforspeedwiki (START)
+* 18:27 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=needforspeedwiki dump.xml --no-updates (END - exit=0)
+* 18:21 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=needforspeedwiki dump.xml --no-updates (START)
+* 15:12 MirahezeLSBot: [skye@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/createAndPromote.php --wiki=testwikibeta Skye --bureaucrat --force (END - exit=0)
+* 15:09 MirahezeLSBot: [skye@test151] finished deploy of {'folders': '1.44/extensions/Report'} to test151 - SUCCESS in 0s
+* 15:09 MirahezeLSBot: [skye@test151] starting deploy of {'folders': '1.44/extensions/Report'} to test151
+* 13:54 MirahezeLSBot: [skye@test151] finished deploy of {'folders': '1.44/extensions/ContributionScores'} to test151 - SUCCESS in 0s
+* 13:54 MirahezeLSBot: [skye@test151] starting deploy of {'folders': '1.44/extensions/ContributionScores'} to test151
+* 00:01 MirahezeLSBot: [skye@test151] finished deploy of {'folders': '1.44/extensions/MultiBoilerplate'} to test151 - SUCCESS in 0s
+* 00:01 MirahezeLSBot: [skye@test151] starting deploy of {'folders': '1.44/extensions/MultiBoilerplate'} to test151
+
 ## 2025-07-04 
 
 * 22:35 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'l10n': True, 'versions': '1.43'} to all - SUCCESS in 454s
