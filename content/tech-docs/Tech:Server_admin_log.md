@@ -2,6 +2,16 @@
 title: Tech:Server admin log
 ---
 
+## 2025-07-10 
+
+* 04:04 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=icarlywiki (END - exit=0)
+* 04:03 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=icarlywiki --startOver (END - exit=0)
+* 04:03 BlankEclair: curl -X DELETE [https://opensearch-mw.wikitide.net/icarlywiki_{content,general}](https://opensearch-mw.wikitide.net/icarlywiki_{content,general})
+* 00:08 MirahezeLSBot: [www-data@mwtask181] Began automatic backing up
+* 00:08 MirahezeLSBot: [macfan@mwtask181] Began automatic backing up
+* 00:05 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'CreatePageUw'} to test151 - SUCCESS in 1s
+* 00:05 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'CreatePageUw'} to test151
+
 ## 2025-07-09 
 
 * 23:39 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.43/extensions/DiscordNotifications,1.44/extensions/DiscordNotifications'} to test151 - SUCCESS in 0s
