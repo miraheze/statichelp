@@ -2,6 +2,13 @@
 title: Tech:Server admin log
 ---
 
+## 2025-07-13 
+
+* 17:13 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'SnapProjectEmbed'} to test151 - SUCCESS in 1s
+* 17:13 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'SnapProjectEmbed'} to test151
+* 10:26 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php moveBatch --wiki=jbcstudioswiki renamed_files_fixed.txt (END - exit=0)
+* 10:23 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php moveBatch --wiki=jbcstudioswiki renamed_files.txt (END - exit=0)
+
 ## 2025-07-11 
 
 * 18:42 MirahezeLSBot: [skye@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'NukeDPL'} to test151 - SUCCESS in 1s
