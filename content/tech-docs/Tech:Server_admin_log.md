@@ -2,6 +2,38 @@
 title: Tech:Server admin log
 ---
 
+## 2025-07-14 
+
+* 23:56 BlankEclair: MediaWiki\Extension\CentralAuth\User\CentralAuthUser::getInstance( User::newFromName( 'IulianArian' ) )->attach( 'smpearthpublicwiki', 'admin' );
+* 23:53 MirahezeLSBot: [blankeclair@mwtask181] Finished import for mongrelswiki (XML: None; Images: images_and_images_mismatch/) (END - exit=0)
+* 23:53 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=mongrelswiki --update (END - exit=0)
+* 23:53 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=mongrelswiki --update (START)
+* 23:53 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=mongrelswiki --sleep=0 '--comment=Importing images from mongrels.fandom.com ([T13985](https://meta.miraheze.org/wiki/phorge:T13985))' -- images_and_images_mismatch/ (END - exit=0)
+* 23:52 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=mongrelswiki --sleep=0 '--comment=Importing images from mongrels.fandom.com ([T13985](https://meta.miraheze.org/wiki/phorge:T13985))' -- images_and_images_mismatch/ (START)
+* 23:52 MirahezeLSBot: [blankeclair@mwtask181] Starting import for mongrelswiki (XML: None; Images: images_and_images_mismatch/) (START)
+* 23:49 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 23:48 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 18:13 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'ArticleRatings'} to test151 - SUCCESS in 1s
+* 18:12 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'ArticleRatings'} to test151
+* 16:10 MirahezeLSBot: [skye@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 16:10 MirahezeLSBot: [skye@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'DynamicPageList3'} to test151
+* 10:11 MirahezeLSBot: [blankeclair@mwtask181] Finished import for skibiditoiletwikiwiki (XML: None; Images: images_mismatch/) (END - exit=0)
+* 10:11 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=skibiditoiletwikiwiki --update (END - exit=0)
+* 10:11 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=skibiditoiletwikiwiki --update (START)
+* 10:11 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=skibiditoiletwikiwiki --sleep=1 '--comment=Importing images from [https://skibidi-toilet.fandom.com](https://skibidi-toilet.fandom.com) ([T13960](https://meta.miraheze.org/wiki/phorge:T13960))' -- images_mismatch/ (END - exit=0)
+* 06:56 MirahezeLSBot: [blankeclair@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:PopulateNamespaces --wiki=exttestwikibeta --force (END - exit=0)
+* 06:55 MirahezeLSBot: [blankeclair@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:PopulateNamespaces --wiki=exttestwikibeta (END - exit=256)
+* 06:53 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=skibiditoiletwikiwiki --sleep=1 '--comment=Importing images from [https://skibidi-toilet.fandom.com](https://skibidi-toilet.fandom.com) ([T13960](https://meta.miraheze.org/wiki/phorge:T13960))' -- images_mismatch/ (START)
+* 06:52 MirahezeLSBot: [blankeclair@mwtask181] Starting import for skibiditoiletwikiwiki (XML: None; Images: images_mismatch/) (START)
+* 06:35 MirahezeLSBot: [blankeclair@mwtask181] Finished import for skibiditoiletwikiwiki (XML: skibiditoiletwiki.xml; Images: images/) (END - exit=-2)
+* 06:35 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php rebuildall --wiki=skibiditoiletwikiwiki (END - exit=-2)
+* 06:20 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php rebuildall --wiki=skibiditoiletwikiwiki (START)
+* 06:20 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=skibiditoiletwikiwiki '--comment=Importing images from [https://skibidi-toilet.fandom.com](https://skibidi-toilet.fandom.com) ([T13960](https://meta.miraheze.org/wiki/phorge:T13960))' -- images/ (END - exit=0)
+* 04:51 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=skibiditoiletwikiwiki '--comment=Importing images from [https://skibidi-toilet.fandom.com](https://skibidi-toilet.fandom.com) ([T13960](https://meta.miraheze.org/wiki/phorge:T13960))' -- images/ (START)
+* 04:51 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importDump --wiki=skibiditoiletwikiwiki --no-updates --username-prefix=fandom:skibidi-toilet -- skibiditoiletwiki.xml (END - exit=0)
+* 00:39 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importDump --wiki=skibiditoiletwikiwiki --no-updates --username-prefix=fandom:skibidi-toilet -- skibiditoiletwiki.xml (START)
+* 00:39 MirahezeLSBot: [blankeclair@mwtask181] Starting import for skibiditoiletwikiwiki (XML: skibiditoiletwiki.xml; Images: images/) (START)
+
 ## 2025-07-13 
 
 * 17:13 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'SnapProjectEmbed'} to test151 - SUCCESS in 1s

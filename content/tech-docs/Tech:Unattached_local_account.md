@@ -35,7 +35,7 @@ Now enter the database for the wiki where there's a suspected unattached local a
 
 ### Less hackily 
 
-Execute the following line of code (works on the wiki with the unattached account, though it may work elsewhere as well):
+Execute the following line of code (works on the wiki with the unattached account, though it works elsewhere as well):
 ```php
 MediaWiki\Extension\CentralAuth\User\CentralAuthUser::getInstance( User::newFromName( 'Username' ) )->attach( 'databasenamewiki', 'admin' );
 ```
