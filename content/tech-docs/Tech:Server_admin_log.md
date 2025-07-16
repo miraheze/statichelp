@@ -2,6 +2,64 @@
 title: Tech:Server admin log
 ---
 
+## 2025-07-15 
+
+* 20:56 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CreateWiki:SetContainersAccess --wiki=issomtwiki (END - exit=0)
+* 19:31 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'Screenplay'} to test151 - SUCCESS in 1s
+* 19:31 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'Screenplay'} to test151
+* 18:21 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'LastModified'} to all - SUCCESS in 44s
+* 18:20 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'LastModified'} to test151 - SUCCESS in 1s
+* 18:20 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'LastModified'} to test151
+* 18:20 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'LastModified'} to all
+* 18:05 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'LastModified'} to all - SUCCESS in 44s
+* 18:04 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'LastModified'} to all
+* 16:40 @paladox: upgrade phorge on phorge171
+* 13:39 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'TabberNeue'} to all - SUCCESS in 33s
+* 13:38 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'TabberNeue'} to all
+* 13:37 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'TabberNeue'} to test151 - SUCCESS in 2s
+* 13:37 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'TabberNeue'} to test151
+* 13:19 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:ToggleExtension --wiki=exttestwikibeta --name=languageselector --disable (END - exit=0)
+* 12:27 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:ResetWikiCaches (END - exit=0)
+* 07:36 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=accishiwiki --new=vehiclesofbrickrigswiki --user=Reception123 (END - exit=256)
+* 07:33 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=skibiditoiletwikiwiki --new=skibiditoiletwiki --user=Reception123 (END - exit=256)
+* 07:32 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=forkedaltversewiki --new=allohistoricaversaliswiki --user=Reception123 (END - exit=256)
+* 06:57 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'DynamicPageList3'} to all - SUCCESS in 25s
+* 06:56 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'DynamicPageList3'} to all
+* 06:38 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:ResetWikiCaches (START)
+* 06:37 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 06:37 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:ResetWikiCaches (END - exit=2)
+* 06:37 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 06:31 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'DynamicPageList3'} to all - SUCCESS in 26s
+* 06:31 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'DynamicPageList3'} to all
+* 06:10 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': ['CreateWiki', 'ManageWiki']} to all - SUCCESS in 50s
+* 06:09 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': ['CreateWiki', 'ManageWiki']} to all
+* 06:06 BlankEclair: test151: sudo -u www-data rsync -vaP /srv/mediawiki{-staging,}/1.44/extensions/OATHAuth/vendor/
+* 06:04 MirahezeLSBot: [blankeclair@test151] finished deploy of {'folders': '1.44/extensions/OATHAuth/vendor'} to test151 - SUCCESS in 0s
+* 06:04 MirahezeLSBot: [blankeclair@test151] starting deploy of {'folders': '1.44/extensions/OATHAuth/vendor'} to test151
+* 06:04 MirahezeLSBot: [blankeclair@test151] starting deploy of {'folders': 'extensions/OATHAuth/vendor'} to test151
+* 05:55 MirahezeLSBot: [blankeclair@test151] finished deploy of {'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'OATHAuth'} to test151 - SUCCESS in 1s
+* 05:55 MirahezeLSBot: [blankeclair@test151] starting deploy of {'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'OATHAuth'} to test151
+* 05:54 BlankEclair: [blankeclair@test151:/srv/mediawiki-staging/1.44/extensions/OATHAuth]$ sudo -u www-data all_proxy= [http://bastion.fsslc.wtnet:8080](http://bastion.fsslc.wtnet:8080) composer update --no-dev
+* 05:52 BlankEclair: [blankeclair@test151:/srv/mediawiki-staging/1.44/extensions/OATHAuth]$ sudo -u www-data composer update --no-dev
+* 05:42 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:ResetWikiCaches (START)
+* 05:41 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44'} to all - SUCCESS in 454s
+* 05:39 MirahezeLSBot: [skye@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/createAndPromote.php --wiki=metawikibeta Skye --custom-groups=checkuser --force (END - exit=0)
+* 05:33 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44'} to all
+* 05:25 MirahezeLSBot: [universalomega@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 05:25 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44'} to all
+* 05:22 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'world': True, 'versions': '1.44'} to all - SUCCESS in 355s
+* 05:16 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'world': True, 'versions': '1.44'} to all
+* 04:42 Universal Omega: UPDATE mw_permissions SET perm_permissions = JSON_REMOVE(perm_permissions, JSON_UNQUOTE(JSON_SEARCH(perm_permissions, 'one', 'checkuser-temporary-account'))) WHERE JSON_SEARCH(perm_permissions, 'one', 'checkuser-temporary-account') IS NOT NULL;
+* 04:42 Universal Omega: UPDATE mw_permissions SET perm_permissions = JSON_REMOVE(perm_permissions, JSON_UNQUOTE(JSON_SEARCH(perm_permissions, 'one', 'checkuser-temporary-account-auto-reveal'))) WHERE JSON_SEARCH(perm_permissions, 'one', 'checkuser-temporary-account-auto-reveal') IS NOT NULL;
+* 04:42 Universal Omega: UPDATE mw_permissions SET perm_permissions = JSON_REMOVE(perm_permissions, JSON_UNQUOTE(JSON_SEARCH(perm_permissions, 'one', 'checkuser-temporary-account-log'))) WHERE JSON_SEARCH(perm_permissions, 'one', 'checkuser-temporary-account-log') IS NOT NULL;
+* 04:42 Universal Omega: UPDATE mw_permissions SET perm_permissions = JSON_REMOVE(perm_permissions, JSON_UNQUOTE(JSON_SEARCH(perm_permissions, 'one', 'checkuser-temporary-account-no-preference'))) WHERE JSON_SEARCH(perm_permissions, 'one', 'checkuser-temporary-account-no-preference') IS NOT NULL;
+* 01:25 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=cgwiki (END - exit=0)
+* 01:25 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=cgwiki --startOver (END - exit=0)
+* 01:24 BlankEclair: curl -X DELETE [https://opensearch-mw.wikitide.net/cgwiki_content](https://opensearch-mw.wikitide.net/cgwiki_content) [https://opensearch-mw.wikitide.net/cgwiki_general](https://opensearch-mw.wikitide.net/cgwiki_general)
+* 01:24 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=cgwiki --reindexAndRemoveOk --indexIdentifier now (END - exit=256)
+* 01:23 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=lhmnwiki (END - exit=0)
+* 01:23 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=lhmnwiki --reindexAndRemoveOk --indexIdentifier now (END - exit=0)
+
 ## 2025-07-14 
 
 * 23:56 BlankEclair: MediaWiki\Extension\CentralAuth\User\CentralAuthUser::getInstance( User::newFromName( 'IulianArian' ) )->attach( 'smpearthpublicwiki', 'admin' );
