@@ -2,6 +2,99 @@
 title: Tech:Server admin log
 ---
 
+## 2025-07-16 
+
+* 19:22 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: libgnutls30
+* 19:22 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: libgnutls30
+* 19:21 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: libgnutls30
+* 19:21 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: libgnutls30
+* 19:21 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: libgnutls30
+* 19:21 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: libgnutls30
+* 19:20 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: libgnutls30
+* 19:20 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: libgnutls30
+* 19:20 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: libgnutls30
+* 19:20 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: libgnutls30
+* 19:20 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libgnutls30
+* 19:19 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: libgnutls30
+* 19:19 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: libgnutls30
+* 19:19 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: libgnutls30
+* 19:19 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: libgnutls30
+* 19:18 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: libgnutls30
+* 19:18 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: libgnutls30
+* 19:18 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: libgnutls30
+* 19:18 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: libgnutls30
+* 19:18 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: libgnutls30
+* 19:17 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb151: libgnutls30
+* 19:17 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: libgnutls30
+* 19:17 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: libgnutls30
+* 19:17 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: libgnutls30
+* 19:17 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: libgnutls30
+* 19:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: libgnutls30
+* 19:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: libgnutls30
+* 19:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: libgnutls30
+* 19:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: libgnutls30
+* 19:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: libgnutls30
+* 19:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: libgnutls30
+* 19:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: libgnutls30
+* 19:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libgnutls30
+* 19:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: libgnutls30
+* 19:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: libgnutls30
+* 19:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: libgnutls30
+* 19:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: libgnutls30
+* 19:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: libgnutls30
+* 19:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: libgnutls30
+* 19:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: libgnutls30
+* 19:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: libgnutls30
+* 19:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost1: libgnutls30
+* 19:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: libgnutls30
+* 19:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: libgnutls30
+* 19:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: libgnutls30
+* 19:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: libgnutls30
+* 19:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: libgnutls30
+* 19:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: libgnutls30
+* 19:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: libgnutls30
+* 19:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: libgnutls30
+* 19:11 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: libgnutls30
+* 19:11 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: libgnutls30
+* 19:11 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: libgnutls30
+* 19:10 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: libgnutls30
+* 19:10 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: libgnutls30
+* 19:10 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: libgnutls30
+* 19:10 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: libgnutls30
+* 19:10 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: libgnutls30
+* 19:09 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: libgnutls30
+* 19:09 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: libgnutls30
+* 19:09 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: libgnutlsxx30, libgnutls-dane0, libgnutls30, and gnutls-bin
+* 19:09 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: libgnutls30
+* 19:09 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: libgnutls30
+* 19:08 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka181: libgnutls30
+* 19:08 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: libgnutlsxx30, libgnutls-dane0, libgnutls30, and gnutls-bin
+* 19:08 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: libgnutls30
+* 19:08 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: libgnutlsxx30, libgnutls-dane0, libgnutls30, and gnutls-bin
+* 19:08 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: libgnutls30
+* 19:07 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: libgnutlsxx30, libgnutls-dane0, libgnutls30, and gnutls-bin
+* 19:07 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: libgnutlsxx30, libgnutls-dane0, libgnutls30, and gnutls-bin
+* 19:07 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: libgnutlsxx30, libgnutls-dane0, libgnutls30, and gnutls-bin
+* 19:07 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate181: libgnutls30
+* 19:06 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop201: libgnutls30
+* 19:06 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: libgnutls30
+* 19:06 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: libgnutls30
+* 16:30 MirahezeLSBot: [skye@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 16:30 MirahezeLSBot: [skye@test151] starting deploy of {'config': True} to test151
+* 16:24 MirahezeLSBot: [skye@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 16:24 MirahezeLSBot: [skye@test151] starting deploy of {'config': True} to test151
+* 15:01 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'ProtectionIndicator'} to test151 - SUCCESS in 1s
+* 15:01 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'ProtectionIndicator'} to test151
+* 12:19 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'TimezoneConverter'} to test151 - SUCCESS in 1s
+* 12:19 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'TimezoneConverter'} to test151
+* 11:42 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'LinkCards'} to test151 - SUCCESS in 1s
+* 11:42 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'LinkCards'} to test151
+* 00:15 BlankEclair: wikigeniuswiki: MediaWiki\MediaWikiServices::getInstance()->getMainWANObjectCache()->delete( 'wikigeniuswiki:page-content-model:2187' )
+* 00:08 BlankEclair: wikigeniuswiki: COMMIT;
+* 00:08 BlankEclair: wikigeniuswiki: UPDATE page SET page_content_model = 'wikitext' WHERE page_id = 811;
+* 00:06 BlankEclair: wikigeniuswiki: UPDATE content SET content_model = 1 WHERE content_id = 2055;
+* 00:06 BlankEclair: wikigeniuswiki: START TRANSACTION
+
 ## 2025-07-15 
 
 * 20:56 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CreateWiki:SetContainersAccess --wiki=issomtwiki (END - exit=0)
