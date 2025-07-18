@@ -2,6 +2,21 @@
 title: Tech:Server admin log
 ---
 
+## 2025-07-17 
+
+* 16:38 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CentralAuth:createLocalAccount --wiki=s23wiki DrOwl (END - exit=0)
+* 16:37 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CentralAuth:createLocalAccount --wiki=s23wiki --username=DrOwl (END - exit=256)
+* 15:55 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': ['AuthorProtect', 'SoftRedirector']} to test151 - SUCCESS in 1s
+* 15:55 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': ['AuthorProtect', 'SoftRedirector']} to test151
+* 12:27 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'LanguageSelector'} to test151 - SUCCESS in 1s
+* 12:27 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'LanguageSelector'} to test151
+* 07:09 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:ToggleExtension --wiki=exttestwikibeta --name=ratepage --disable (END - exit=0)
+* 02:39 Universal Omega: restart nginx on swiftproxy171
+* 02:33 Universal Omega: restart nginx on mattermost1
+* 02:24 Universal Omega: restart nginx on swiftproxy161
+* 02:02 Void: restart swift-proxy.service on swiftproxy*
+* 00:03 MirahezeLSBot: [void@puppet181] renewed wikitide.net wildcard cert
+
 ## 2025-07-16 
 
 * 19:22 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: libgnutls30

@@ -36,6 +36,10 @@ Domain setup can be completed by anybody with access to the Cloudflare account (
 
 8. Once the SSL change is deployed, the domain will show the Wiki not Found page. At this point, you can set the domain in ManageWiki, and you are done.
 
+## Legacy Domains 
+
+To renew one of the domains using a legacy certificate (currently only needed for wikitide.net and wikitide.org) an sre or ssl-admin will need to run the ssl-certificate shell script on puppet as follows: `/root/ssl-certificate -d <domain> -s *.<domain> -r -w -p -o`. For debugging purposes, public keys are handled in `/srv/ssl/ssl` and private keys are kept it `/home/ssl-admins/ssl-keys`. For more information about using this tool, refer to an [older version](https://meta.miraheze.org/wiki/Special:PermanentLink/425935) of this page. **Note:** Previous versions of this page list the wrong options for renewing a wildcard certificate (the option `-s *.<domain>` *must* be included, or the new certificate will be missing the wildcard).
+
 ## Categories
 
 * [Category:Guides for sysadmins](https://meta.miraheze.org/wiki/Category:Guides_for_sysadmins)
