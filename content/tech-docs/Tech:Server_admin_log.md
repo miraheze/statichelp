@@ -2,6 +2,30 @@
 title: Tech:Server admin log
 ---
 
+## 2025-07-19 
+
+* 19:20 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwiki --delete --deletewiki armoredcorewiki (END - exit=0)
+* 09:47 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'Commentbox'} to test151 - SUCCESS in 1s
+* 09:46 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'Commentbox'} to test151
+* 06:19 MirahezeLSBot: [blankeclair@mwtask181] Finished import for dappervolkwiki (XML: None; Images: images/) (END - exit=0)
+* 06:19 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=dappervolkwiki --update (END - exit=0)
+* 06:19 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=dappervolkwiki --update (START)
+* 06:19 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=dappervolkwiki --sleep=1 '--comment=Importing images from [https://dappervolk.fandom.com](https://dappervolk.fandom.com) ([T14001](https://meta.miraheze.org/wiki/phorge:T14001))' -- images/ (END - exit=0)
+* 05:25 MirahezeLSBot: [blankeclair@mwtask181] Finished import for danmachiwiki (XML: None; Images: DanMachiWikiES) (END - exit=0)
+* 05:25 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=danmachiwiki --update (END - exit=0)
+* 05:25 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=danmachiwiki --update (START)
+* 05:24 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=danmachiwiki --sleep=1 '--comment=Importing images from [https://danmachi.fandom.com/es](https://danmachi.fandom.com/es) (([phorge:T14003|T14003]])' -- DanMachiWikiES (END - exit=0)
+* 03:08 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=danmachiwiki --sleep=1 '--comment=Importing images from [https://danmachi.fandom.com/es](https://danmachi.fandom.com/es) (([phorge:T14003|T14003]])' -- DanMachiWikiES (START)
+* 03:08 MirahezeLSBot: [blankeclair@mwtask181] Starting import for danmachiwiki (XML: None; Images: DanMachiWikiES) (START)
+* 02:23 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=dappervolkwiki --sleep=1 '--comment=Importing images from [https://dappervolk.fandom.com](https://dappervolk.fandom.com) ([T14001](https://meta.miraheze.org/wiki/phorge:T14001))' -- images/ (START)
+* 02:23 MirahezeLSBot: [blankeclair@mwtask181] Starting import for dappervolkwiki (XML: None; Images: images/) (START)
+* 02:22 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php deleteBatch --wiki=jbcstudioswiki source_files.txt --r 'Remove redirects caused by file moves (aaaa sorrrry, [T13982](https://meta.miraheze.org/wiki/phorge:T13982))' (END - exit=0)
+* 02:14 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php deleteBatch --wiki=jbcstudioswiki source_files.txt --r 'Remove redirects caused by file moves (aaaa sorrrry, [T13982](https://meta.miraheze.org/wiki/phorge:T13982))' (START)
+* 01:41 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php moveBatch --wiki=jbcstudioswiki renamed_files_3.txt -r 'Mass-move files per request ([phorge:T13982](https://meta.miraheze.org/wiki/phorge:T13982))' (END - exit=0)
+* 01:28 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php deleteBatch --wiki=jbcstudioswiki destination_pages.txt --r 'Deleting file description pages to make way for move ([T13982](https://meta.miraheze.org/wiki/phorge:T13982))' (END - exit=0)
+* 01:20 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php deleteBatch --wiki=jbcstudioswiki destination_pages.txt --r 'Deleting file description pages to make way for move ([T13982](https://meta.miraheze.org/wiki/phorge:T13982))' (START)
+* 01:05 BlankEclair: MediaWiki\Extension\CentralAuth\User\CentralAuthUser::getInstance( User::newFromName( 'JaneBuzJane' ) )->attach( 'dappervolkwiki', 'admin' );
+
 ## 2025-07-17 
 
 * 16:38 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CentralAuth:createLocalAccount --wiki=s23wiki DrOwl (END - exit=0)
