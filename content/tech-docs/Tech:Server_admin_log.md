@@ -2,6 +2,43 @@
 title: Tech:Server admin log
 ---
 
+## 2025-07-20 
+
+* 19:33 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'HideSection'} to test151 - SUCCESS in 0s
+* 19:33 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'HideSection'} to test151
+* 10:04 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 10:04 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 09:25 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=forkedaltversewiki --new=allohistoricaversaliswiki --user=Reception123 (END - exit=0)
+* 09:24 Reception123: MariaDB [(none)]> DROP DATABASE allohistoricaversaliswiki; (part of previously failed rename)
+* 09:23 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=forkedaltversewiki --new=allohistoricaversaliswiki --user=Reception123 (END - exit=256)
+* 09:21 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=telefoniaipredessebastiansaavedrawiki --new=voipsaavedrawiki --user=Reception123 (END - exit=0)
+* 09:18 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=telefoniaipredsessebastiansaavedrawiki --new=voipsaavedrawiki --user=Reception123 (END - exit=256)
+* 09:17 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=synergycancerprojectwiki --new=synergycancerprotocolwiki --user=Reception123 (END - exit=0)
+* 09:14 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=accishiwiki --new=vehiclesofbrickrigswiki --user=Reception123 (END - exit=0)
+* 09:13 RhinosF1: sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php reassignEdits --wiki=deadmau5wiki Wmyttmlimvty "It's moon"
+* 09:12 Reception123: DROP DATABASE vehiclesofbrickrigswiki; (previously failed rename)
+* 09:09 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=accishiwiki --new=vehiclesofbrickrigswiki --user=Reception123 (END - exit=256)
+* 08:45 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=1819rpwiki --new=paxamericana1wiki --user='BlankEclair_(Miraheze)' (END - exit=0)
+* 08:43 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'MatomoAnalytics'} to all - SUCCESS in 26s
+* 08:42 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'MatomoAnalytics'} to all
+* 08:35 MirahezeLSBot: [blankeclair@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwikibeta --rename --old=clairewikibeta --new=claire2wikibeta --user=BlankEclair (END - exit=256)
+* 08:35 BlankEclair: loginwikibeta: DROP DATABASE claire2wikibeta;
+* 08:34 BlankEclair: [blankeclair@test151:/srv/mediawiki/1.44/extensions/MatomoAnalytics]$ sudo -u www-data rsync -vaP /srv/mediawiki{-staging,}/1.44/extensions/MatomoAnalytics/includes/
+* 08:33 MirahezeLSBot: [blankeclair@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwikibeta --rename --old=clairewikibeta --new=claire2wikibeta --user=BlankEclair (END - exit=256)
+* 08:33 MirahezeLSBot: [blankeclair@test151] finished deploy of {'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'MatomoAnalytics'} to test151 - SUCCESS in 0s
+* 08:33 MirahezeLSBot: [blankeclair@test151] starting deploy of {'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'MatomoAnalytics'} to test151
+* 08:32 BlankEclair: test151: git -C /srv/mediawiki-staging/1.44/extensions/MatomoAnalytics checkout FETCH_HEAD
+* 08:32 BlankEclair: test151: git -C /srv/mediawiki-staging/1.44/extensions/MatomoAnalytics fetch origin fix-rename
+* 08:28 BlankEclair: loginwikibeta: DROP DATABASE claire2wikibeta
+* 08:27 MirahezeLSBot: [blankeclair@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwikibeta --rename --old=clairewikibeta --new=claire2wikibeta --user=BlankEclair (END - exit=256)
+* 08:26 MirahezeLSBot: [blankeclair@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=clairewikibeta --new=claire2wikibeta --user=BlankEclair (END - exit=0)
+* 08:11 BlankEclair: addendum: i meant DROP DATABASE, oops
+* 08:11 BlankEclair: loginwiki/c3/db171: DROP TABLE paxamericana1wiki; -- Verified that `SELECT TABLE_NAME FROM information_schema.TABLES WHERE TABLE_SCHEMA = 'paxamericana1wiki';` has 0 rows
+* 08:08 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --old=1819rpwiki --new=paxamericana1wiki --user='BlankEclair_(Miraheze)' (END - exit=256)
+* 08:06 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=1819rpwiki --new=paxamericana1wiki --user='BlankEclair_(Miraheze)' (END - exit=256)
+* 04:37 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 49s
+* 04:36 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MirahezeMagic'} to all
+
 ## 2025-07-19 
 
 * 19:20 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwiki --delete --deletewiki armoredcorewiki (END - exit=0)
