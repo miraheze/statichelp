@@ -2,6 +2,40 @@
 title: Tech:Server admin log
 ---
 
+## 2025-07-21 
+
+* 23:57 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'SimpleBatchUpload'} to test151 - SUCCESS in 1s
+* 23:57 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'SimpleBatchUpload'} to test151
+* 23:41 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'DataMaps'} to test151 - SUCCESS in 1s
+* 23:41 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'DataMaps'} to test151
+* 19:26 MirahezeLSBot: [skye@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 19:26 MirahezeLSBot: [skye@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 16:23 MirahezeLSBot: [paladox@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/extensions/MirahezeMagic/maintenance/ResetWikiCaches.php --wiki armoredcorewiki
+* 14:35 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/initSiteStats.php --wiki=danmachiwiki --update (END - exit=0)
+* 14:35 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=danmachiwiki (END - exit=0)
+* 14:15 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=danmachiwiki (START)
+* 14:15 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=danmachiwiki dump.xml --no-updates (END - exit=0)
+* 13:13 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=danmachiwiki dump.xml --no-updates (START)
+* 13:13 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 29s
+* 13:13 MirahezeLSBot: [rhinos@mwtask181] starting deploy of {'config': True} to all
+* 13:13 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'l10n': True, 'versions': '1.43'} to all - SUCCESS in 494s
+* 13:06 MirahezeLSBot: [rhinos@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 13:06 MirahezeLSBot: [rhinos@test151] starting deploy of {'config': True} to test151
+* 13:04 MirahezeLSBot: [rhinos@mwtask181] starting deploy of {'l10n': True, 'versions': '1.43'} to all
+* 13:04 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_pack': 'mleb'} to all - SUCCESS in 113s
+* 13:02 MirahezeLSBot: [rhinos@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_pack': 'mleb'} to all
+* 08:11 RhinosF1: destorying a lot of spam on phorge
+* 08:09 RhinosF1: destory W342 (spam)
+* 04:04 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/initSiteStats.php --wiki=dappervolkwiki --update (END - exit=0)
+* 04:04 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=dappervolkwiki (END - exit=0)
+* 03:20 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=dappervolkwiki (START)
+* 03:20 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=dappervolkwiki dump.xml --no-updates (END - exit=0)
+* 01:53 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=dappervolkwiki dump.xml --no-updates (START)
+* 00:36 MirahezeLSBot: [void@db181] [wikigeniuswiki]> UPDATE page SET page_content_model="wikitext" WHERE page_content_model LIKE "wikibase%"; UPDATE content SET content_model=1 WHERE content_model=6; UPDATE content SET content_model=1 WHERE content_model=8; -- Deleted content models
+* 00:06 MirahezeLSBot: [void@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php namespaceDupes --wiki=wikigeniuswiki --add-suffix='_(old)' --fix (END - exit=0)
+* 00:05 MirahezeLSBot: [void@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php namespaceDupes --wiki=wikigeniuswiki --add-suffix='_(old)' (END - exit=0)
+* 00:05 MirahezeLSBot: [void@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php namespaceDupes --wiki=wikigeniuswiki --add-suffix=_(old) (END - exit=512)
+
 ## 2025-07-20 
 
 * 19:33 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'HideSection'} to test151 - SUCCESS in 0s
