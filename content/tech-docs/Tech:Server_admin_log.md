@@ -2,6 +2,55 @@
 title: Tech:Server admin log
 ---
 
+## 2025-07-22 
+
+* 23:46 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'Network'} to all - SUCCESS in 26s
+* 23:45 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'Network'} to all
+* 23:45 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'Network'} to test151 - SUCCESS in 1s
+* 23:45 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'Network'} to test151
+* 23:35 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/deleteBatch.php --wiki=gdlcomicswiki --r ' [Requested](https://meta.miraheze.org/wiki/phab:T13499)' /home/somerandomdeveloper/GDLComicsBatchDeletion.txt (END - exit=0)
+* 23:35 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/deleteBatch.php --wiki=gdlcomicswiki --r ' [Requested](https://meta.miraheze.org/wiki/phab:T13499)' /home/somerandomdeveloper/GDLComicsBatchDeletion.txt (START)
+* 23:00 MirahezeLSBot: [skye@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/updateSpecialPages.php --wiki=exttestwikibeta --only=OrphanedTalkPages --override (END - exit=0)
+* 22:59 MirahezeLSBot: [skye@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/updateSpecialPages.php --wiki=exttestwikibeta --only=OrphanedTalkPages --force (END - exit=256)
+* 22:55 Universal Omega: backup first then run update.php for randomwikistuffwiki
+* 22:55 MirahezeLSBot: [skye@test151] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/updateSpecialPages.php --wiki=skyewikibeta --only=OrphanedTalkPages (END - exit=0)
+* 22:53 MirahezeLSBot: [skye@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/updateSpecialPages.php --wiki=exttestwikibeta --only=OrphanedTalkPages (END - exit=0)
+* 22:52 Universal Omega: backup first then run update.php for jwmeetingwiki
+* 22:46 MirahezeLSBot: [skye@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/updateSpecialPages.php --wiki=exttestwikibeta --only OrphanedTalkPages (END - exit=0)
+* 22:43 Universal Omega: backup first then run update.php for 100bangaiwiki
+* 22:38 MirahezeLSBot: [skye@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/updateSpecialPages.php --wiki=exttestwikibeta (END - exit=256)
+* 22:35 Universal Omega: backup first then run update.php for cgwiki
+* 22:22 MirahezeLSBot: [skye@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/populateInterwiki.php --wiki=metawikibeta --source [https://meta.miraheze.org/w/api.php](https://meta.miraheze.org/w/api.php) (END - exit=0)
+* 22:21 MirahezeLSBot: [skye@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/PopulateInterwiki.php --wiki=metawikibeta --source [https://meta.miraheze.org/w/api.php](https://meta.miraheze.org/w/api.php) (END - exit=256)
+* 22:20 MirahezeLSBot: [skye@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/PopulateInterwiki.php --wiki=metawikibeta --source [https://meta.miraheze.org/w/api.php](https://meta.miraheze.org/w/api.php) (END - exit=256)
+* 22:17 Universal Omega: backup first then run update.php for lhmnwiki
+* 21:38 Universal Omega: disabled pwa on lhmnwiki temporarily (will be reenabled when fixed on 1.44)
+* 21:01 Universal Omega: backup first then run update.php for pokemoneclipsewiki
+* 20:05 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'DarkMode'} to all - SUCCESS in 2s
+* 20:05 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'DarkMode'} to all
+* 18:50 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.44/extensions/Preloader'} to all - SUCCESS in 26s
+* 18:50 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.44/extensions/Preloader'} to all
+* 18:50 @abaddriverlol: ran "sudo -u www-data rm /srv/mediawiki-staging/1.43/extensions/Preloader/ -rf" and "sudo -u www-data rm /srv/mediawiki-staging/1.44/extensions/Preloader/ -rf" and ran puppet afterwards on mwtask181 (again after my commit to mediawiki-repos was pulled this time)
+* 18:47 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.44/extensions/Preloader'} to test151 - SUCCESS in 0s
+* 18:47 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.44/extensions/Preloader'} to test151
+* 18:47 @abaddriverlol: ran "sudo -u www-data rm /srv/mediawiki-staging/1.43/extensions/Preloader/ -rf" and "sudo -u www-data rm /srv/mediawiki-staging/1.44/extensions/Preloader/ -rf" and ran puppet afterwards on test151 (again after my commit to mediawiki-repos was pulled this time)
+* 18:22 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.44/extensions/Preloader'} to test151 - SUCCESS in 0s
+* 18:22 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.44/extensions/Preloader'} to test151
+* 18:21 @abaddriverlol: ran "sudo -u www-data rm /srv/mediawiki-staging/1.43/extensions/Preloader/ -rf" and "sudo -u www-data rm /srv/mediawiki-staging/1.44/extensions/Preloader/ -rf" and ran puppet afterwards on mwtask181
+* 18:18 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'Preloader'} to test151 - SUCCESS in 0s
+* 18:18 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'Preloader'} to test151
+* 18:18 @abaddriverlol: ran "sudo -u www-data rm /srv/mediawiki-staging/1.43/extensions/Preloader/ -rf" and "sudo -u www-data rm /srv/mediawiki-staging/1.44/extensions/Preloader/ -rf" and ran puppet afterwards on test151
+* 18:07 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': ['NamespacePreload', 'OpenGraphMeta']} to all - SUCCESS in 3s
+* 18:07 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': ['NamespacePreload', 'OpenGraphMeta']} to all
+* 17:44 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': ['CategoryTests', 'ContributionScores', 'CreatedPagesList', 'MultiBoilerplate', 'NukeDPL', 'Report']} to all - SUCCESS in 5s
+* 17:44 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': ['CategoryTests', 'ContributionScores', 'CreatedPagesList', 'MultiBoilerplate', 'NukeDPL', 'Report']} to all
+* 17:38 @abaddriverlol: 'Screenplay', 'SimpleBatchUpload', 'SnapProjectEmbed', 'SoftRedirector', 'SubpageFun', 'TimezoneConverter', 'mw-snapblocks']} to all - SUCCESS in 259s
+* 17:37 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': ['AJAXPoll', 'ArticleRatings', 'AuthorProtect', 'BreadCrumbs2', 'Commentbox', 'CountDownClock', 'CreatePageUw', 'DataMaps', 'HideSection', 'LanguageSelector', 'LastModified', 'LinkCards', 'ProtectionIndicator', 'RandomImage', 'RandomImageByCategory',
+* 17:33 RhinosF1: <MirahezeLSBot> 'Screenplay', 'SimpleBatchUpload', 'SnapProjectEmbed', 'SoftRedirector', 'SubpageFun', 'TimezoneConverter', 'mw-snapblocks']} to all
+* 17:33 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': ['AJAXPoll', 'ArticleRatings', 'AuthorProtect', 'BreadCrumbs2', 'Commentbox', 'CountDownClock', 'CreatePageUw', 'DataMaps', 'HideSection', 'LanguageSelector', 'LastModified', 'LinkCards', 'ProtectionIndicator', 'RandomImage', 'RandomImageByCategory',
+* 16:43 Reception123: DELETED and DROPPED andrianwiki (reset)
+* 16:42 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwiki --delete --deletewiki andrianwiki (END - exit=0)
+
 ## 2025-07-21 
 
 * 23:57 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'SimpleBatchUpload'} to test151 - SUCCESS in 1s
