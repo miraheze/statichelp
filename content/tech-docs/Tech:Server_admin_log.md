@@ -2,6 +2,46 @@
 title: Tech:Server admin log
 ---
 
+## 2025-07-23 
+
+* 20:41 MirahezeLSBot: [skye@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 20:41 MirahezeLSBot: [skye@test151] starting deploy of {'config': True} to test151
+* 20:25 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'DiscordNotifications'} to all - SUCCESS in 44s
+* 20:24 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'DiscordNotifications'} to all
+* 20:24 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'DiscordNotifications'} to test151 - SUCCESS in 1s
+* 20:23 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'DiscordNotifications'} to test151
+* 20:19 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'RatePage'} to all - SUCCESS in 24s
+* 20:19 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'RatePage'} to all
+* 20:18 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'RatePage'} to test151 - SUCCESS in 1s
+* 20:18 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'RatePage'} to test151
+* 20:05 Universal Omega: sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php Flow:FlowPopulateLinksTables --wiki=testwiki
+* 20:03 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'FontAwesome'} to all - SUCCESS in 25s
+* 20:03 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'FontAwesome'} to all
+* 20:02 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'FontAwesome'} to test151 - SUCCESS in 1s
+* 20:02 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'FontAwesome'} to test151
+* 20:02 Universal Omega: testwiki: DELETE FROM flow_tree_revision WHERE tree_rev_id = UNHEX('05ce74d286e3de20cfb9d3');
+* 20:02 Universal Omega: testwiki: DELETE FROM flow_tree_revision WHERE tree_rev_id = UNHEX('05ce74119843de20cfb9d3');
+* 20:02 Universal Omega: testwiki: DELETE FROM flow_tree_revision WHERE tree_rev_id = UNHEX('05ce73fd54c0c43178d6ce');
+* 20:02 Universal Omega: testwiki: DELETE FROM flow_revision WHERE rev_type_id = UNHEX('05ce73fd54c0c43178d6ce');
+* 19:07 Universal Omega: backup first then run update.php for ldapwikiwiki
+* 19:07 Universal Omega: backup first then run update.php for testwiki
+* 17:45 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php cleanupTitles --wiki=testwiki (END - exit=0)
+* 17:45 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php cleanupTitles --wiki=testwiki --dry-run (END - exit=0)
+* 16:44 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 16:43 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 01:21 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_skins': 'Cosmos'} to all - SUCCESS in 60s
+* 01:20 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_skins': 'Cosmos'} to all
+* 01:19 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_skins': 'Cosmos'} to test151 - SUCCESS in 1s
+* 01:19 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_skins': 'Cosmos'} to test151
+* 00:21 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 00:21 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 00:20 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'extension_list': True, 'force': True, 'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'DynamicPageList4'} to all - SUCCESS in 50s
+* 00:19 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'extension_list': True, 'force': True, 'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'DynamicPageList4'} to all
+* 00:16 MirahezeLSBot: [universalomega@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 00:16 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'extension_list': True, 'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'DynamicPageList4'} to all
+* 00:16 MirahezeLSBot: [universalomega@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 00:16 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'extension_list': True, 'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'DynamicPageList4'} to all
+
 ## 2025-07-22 
 
 * 23:46 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'Network'} to all - SUCCESS in 26s
