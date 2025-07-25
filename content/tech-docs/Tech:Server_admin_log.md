@@ -2,6 +2,22 @@
 title: Tech:Server admin log
 ---
 
+## 2025-07-24 
+
+* 23:02 Original Authority: disable 2FA for myself as switched device from broken
+* 23:00 MirahezeLSBot: [oa@mwtask181] sudo -u www-data php run.php OATHAuth:disableOATHAuthForUser Original Authority --wiki=loginwiki
+* 19:31 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'HighlightLinksInCategory'} to all - SUCCESS in 25s
+* 19:30 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'HighlightLinksInCategory'} to all
+* 19:30 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'HighlightLinksInCategory'} to test151 - SUCCESS in 1s
+* 19:30 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'HighlightLinksInCategory'} to test151
+* 18:32 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 18:32 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 03:11 Universal Omega: backup first then run update.php for saonotewiki
+* 03:10 Universal Omega: backup first then run update.php for discordalterhiswiki
+* 03:02 Universal Omega: backup first then run update.php for everythingupgradetreewiki
+* 02:59 Universal Omega: backup first then run update.php for thechurchofthestatuewiki
+* 02:55 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php ManageWiki:ToggleExtension --wiki=thechurchofthestatuewiki --name=pwa --disable (END - exit=0)
+
 ## 2025-07-23 
 
 * 20:41 MirahezeLSBot: [skye@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
