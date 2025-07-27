@@ -2,6 +2,35 @@
 title: Tech:Server admin log
 ---
 
+## 2025-07-26 
+
+* 20:19 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'Newsletter'} to test151 - SUCCESS in 1s
+* 20:19 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'Newsletter'} to test151
+* 11:53 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'UnusedRedirects'} to all - SUCCESS in 45s
+* 11:52 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'UnusedRedirects'} to all
+* 11:51 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php updateSpecialPages --wiki=exttestwikibeta --only=UnusedRedirects (END - exit=0)
+* 11:48 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'UnusedRedirects'} to test151 - SUCCESS in 1s
+* 11:48 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'UnusedRedirects'} to test151
+* 08:23 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:ResetWikiCaches (END - exit=0)
+* 03:00 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawiki --setting=wgUserBoard --remove --all-wikis --execute (END - exit=0)
+* 02:56 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 02:56 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 02:17 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:ResetWikiCaches (START)
+* 02:14 Universal Omega: UPDATE mw_permissions SET perm_permissions = JSON_REMOVE( perm_permissions, JSON_UNQUOTE(JSON_SEARCH(perm_permissions, 'one', 'blockemail')) ) WHERE JSON_SEARCH(perm_permissions, 'one', 'blockemail') IS NOT NULL; — Query OK, 21057 row(s) affected
+* 02:12 Universal Omega: UPDATE mw_permissions SET perm_permissions = JSON_REMOVE( perm_permissions, JSON_UNQUOTE(JSON_SEARCH(perm_permissions, 'one', 'sendemail')) ) WHERE JSON_SEARCH(perm_permissions, 'one', 'sendemail') IS NOT NULL; — Query OK, 20897 row(s) affected
+* 02:09 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 02:08 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 02:06 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawiki --setting=wgChatMeCommand --remove --all-wikis --execute (END - exit=0)
+* 02:02 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawiki --setting=wgChatLinkUsernames --remove --all-wikis --execute (END - exit=0)
+* 01:59 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawiki --setting=wgChatLinkUsernames --remove --all-wikis (END - exit=512)
+* 01:58 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 52s
+* 01:57 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'ManageWiki'} to all
+* 01:47 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php ManageWiki:ToggleExtension --wiki=metawiki --name=mediawikichat --disable --all-wikis --execute (END - exit=0)
+* 01:45 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php ManageWiki:ToggleExtension --wiki=metawiki --name=mediawikichat --disable --all-wikis (END - exit=512)
+* 01:44 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 01:44 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 01:35 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php ManageWiki:ToggleExtension --wiki=lhmnwiki --name=commentstreams --disable (END - exit=0)
+
 ## 2025-07-25 
 
 * 23:42 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'DarkMode'} to all - SUCCESS in 28s
