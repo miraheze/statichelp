@@ -50,7 +50,7 @@ Usage: ` sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cach
 
 ## Jobrunner 
 
- `{{ {{outdated}} }}`
+ `{{ {{outdated||section}} }}`
 The mwtask servers are responsible for running jobs on MediaWiki. As mentioned above, maintenance scripts should be run on this server.
 
 * To see how many jobs are currently waiting to be run on a wiki, you can use the **showJobs.php** maintenance script (`sudo -u www-data php /srv/mediawiki/<version>/maintenance/showJobs.php --wiki=examplewiki`

@@ -2,6 +2,38 @@
 title: Tech:Server admin log
 ---
 
+## 2025-07-27 
+
+* 23:53 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=wmwiki (END - exit=0)
+* 23:52 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=wmwiki --startOver (END - exit=0)
+* 23:52 @abaddriverlol: curl -X DELETE [https://opensearch-mw.wikitide.net/wmwiki_{content,general}](https://opensearch-mw.wikitide.net/wmwiki_{content,general})
+* 22:05 MirahezeLSBot: [skye@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 22:05 MirahezeLSBot: [skye@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 22:04 MirahezeLSBot: [skye@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 22:04 MirahezeLSBot: [skye@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 22:02 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 22:02 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 22:02 MirahezeLSBot: [somerandomdeveloper@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 22:02 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 21:55 MirahezeLSBot: [skye@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 21:55 MirahezeLSBot: [skye@test151] starting deploy of {'config': True} to test151
+* 19:58 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'UnusedRedirects'} to all - SUCCESS in 24s
+* 19:57 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'UnusedRedirects'} to all
+* 19:57 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'UnusedRedirects'} to test151 - SUCCESS in 1s
+* 19:57 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'UnusedRedirects'} to test151
+* 15:56 MirahezeLSBot: [skye@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 15:56 MirahezeLSBot: [skye@test151] starting deploy of {'config': True} to test151
+* 03:41 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawiki --setting=wmgContactPageRecipientUser --remove --all-wikis --execute (END - exit=0)
+* 03:39 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawiki --setting=wmgMirahezeContactPageFooter --remove --all-wikis --execute (END - exit=0)
+* 03:35 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php ManageWiki:ToggleExtension --wiki=metawiki --name=contactpage --disable --all-wikis --execute (END - exit=0)
+* 03:34 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 03:34 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 03:18 Universal Omega: restart nginx on os151 and os162
+* 02:34 MirahezeLSBot: [blankeclair@mwtask181] curl -X DELETE [https://opensearch-mw.wikitide.net/inextandkaylaandrachelversewiki_content](https://opensearch-mw.wikitide.net/inextandkaylaandrachelversewiki_content) [https://opensearch-mw.wikitide.net/inextandkaylaandrachelversewiki_general](https://opensearch-mw.wikitide.net/inextandkaylaandrachelversewiki_general) -vk
+* 02:34 MirahezeLSBot: [blankeclair@mwtask181] curl -X DELETE [https://opensearch-mw.wikitide.net/inextandkaylaandrachelversewiki_content](https://opensearch-mw.wikitide.net/inextandkaylaandrachelversewiki_content) [https://opensearch-mw.wikitide.net/inextandkaylaandrachelversewiki_general](https://opensearch-mw.wikitide.net/inextandkaylaandrachelversewiki_general)
+* 02:28 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'RemoveRedlinks'} to all - SUCCESS in 23s
+* 02:28 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'RemoveRedlinks'} to all
+
 ## 2025-07-26 
 
 * 20:19 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'Newsletter'} to test151 - SUCCESS in 1s
