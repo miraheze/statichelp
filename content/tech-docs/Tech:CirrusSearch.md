@@ -27,7 +27,9 @@ $ mwscript CirrusSearch:UpdateSearchIndexConfig testwiki --startOver
 $ mwscript CirrusSearch:ForceSearchIndex testwiki
 ```
 
-This problem was once recorded to have happened ever since CirrusSearch was enabled on the wiki ([T13277#266442](https://meta.miraheze.org/wiki/phorge:T13277#266442)).
+This problem was twice recorded to have happened ever since CirrusSearch was enabled on the wiki:
+* [T13277#266442](https://meta.miraheze.org/wiki/phorge:T13277#266442)
+* [https://wm-bot.wmcloud.org/logs/%23miraheze/20250728.txt#:~:text=%5B23:46:01%5D,now%20fixed](https://wm-bot.wmcloud.org/logs/%23miraheze/20250728.txt#:~:text=%5B23:46:01%5D,now%20fixed)
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:CirrusSearch)**

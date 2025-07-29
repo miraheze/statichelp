@@ -2,6 +2,81 @@
 title: Tech:Server admin log
 ---
 
+## 2025-07-28 
+
+* 23:53 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=babelreduxwiki (END - exit=0)
+* 23:53 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=babelreduxwiki --startOver (END - exit=0)
+* 23:53 MirahezeLSBot: [blankeclair@mwtask181] curl -X DELETE [https://opensearch-mw.wikitide.net/babelreduxwiki_content](https://opensearch-mw.wikitide.net/babelreduxwiki_content) [https://opensearch-mw.wikitide.net/babelreduxwiki_general](https://opensearch-mw.wikitide.net/babelreduxwiki_general)
+* 23:44 MirahezeLSBot: [void@mon181] restart php8.2-fpm.service
+* 23:44 MirahezeLSBot: [void@mon181] Upgraded packages php8.2-xml php8.2-soap php8.2-readline php8.2-pgsql php8.2-opcache php8.2-mysql php8.2-mbstring php8.2-ldap php8.2-gmp php8.2-gd php8.2-cli php8.2-fpm php8.2-curl php8.2-intl php8.2-common php8.2
+* 23:43 MirahezeLSBot: [void@matomo151] restart php8.2-fpm.service
+* 23:43 MirahezeLSBot: [void@matomo151] Upgraded packages php8.2-xml php8.2-readline php8.2-opcache php8.2-mysql php8.2-mbstring php8.2-ldap php8.2-intl php8.2-gmp php8.2-gd php8.2-fpm php8.2-curl php8.2-cli php8.2-common
+* 23:43 MirahezeLSBot: [void@reports171] restart php8.2-fpm.service
+* 23:43 MirahezeLSBot: [void@reports171] Upgraded packages php8.2-xml php8.2-readline php8.2-opcache php8.2-mysql php8.2-mbstring php8.2-ldap php8.2-intl php8.2-gmp php8.2-gd php8.2-fpm php8.2-curl php8.2-cli php8.2-common
+* 23:42 MirahezeLSBot: [void@phorge171] restart php8.2-fpm.service
+* 23:42 MirahezeLSBot: [void@phorge171] Upgraded packages php8.2-zip php8.2-xml php8.2-readline php8.2-opcache php8.2-mysql php8.2-mbstring php8.2-ldap php8.2-intl php8.2-gmp php8.2-gd php8.2-fpm php8.2-curl php8.2-cli php8.2-common
+* 23:42 MirahezeLSBot: [void@mwtask161] restart php8.2-fpm.service
+* 23:42 MirahezeLSBot: [void@mwtask161] Upgraded packages php8.2-zip php8.2-xml php8.2-readline php8.2-opcache php8.2-mysql php8.2-mbstring php8.2-ldap php8.2-intl php8.2-gmp php8.2-gd php8.2-cli php8.2-fpm php8.2-dba php8.2-curl php8.2-bz2 php8.2-bcmath php8.2-common
+* 23:40 MirahezeLSBot: [void@mw203] restart php8.2-fpm.service
+* 23:40 MirahezeLSBot: [void@mw203] Upgraded packages php8.2-zip php8.2-xml php8.2-readline php8.2-opcache php8.2-mysql php8.2-mbstring php8.2-ldap php8.2-intl php8.2-gmp php8.2-gd php8.2-cli php8.2-fpm php8.2-dba php8.2-curl php8.2-bz2 php8.2-bcmath php8.2-common
+* 23:40 Void: same for mwtask171 and mwtask181 (didn't log somehow because my terminal closed?)
+* 23:40 MirahezeLSBot: [void@mw202] restart php8.2-fpm.service
+* 23:40 MirahezeLSBot: [void@mw202] Upgraded packages php8.2-zip php8.2-xml php8.2-readline php8.2-opcache php8.2-mysql php8.2-mbstring php8.2-ldap php8.2-intl php8.2-gmp php8.2-gd php8.2-cli php8.2-fpm php8.2-dba php8.2-curl php8.2-bz2 php8.2-bcmath php8.2-common
+* 23:39 MirahezeLSBot: [void@mw201] restart php8.2-fpm.service
+* 23:39 MirahezeLSBot: [void@mw201] Upgraded packages php8.2-zip php8.2-xml php8.2-readline php8.2-opcache php8.2-mysql php8.2-mbstring php8.2-ldap php8.2-intl php8.2-gmp php8.2-gd php8.2-cli php8.2-fpm php8.2-dba php8.2-curl php8.2-bz2 php8.2-bcmath php8.2-common
+* 23:35 MirahezeLSBot: [void@mwtask151] restart php8.2-fpm.service
+* 23:35 MirahezeLSBot: [void@mwtask151] Upgraded packages php8.2-zip php8.2-xml php8.2-readline php8.2-opcache php8.2-mysql php8.2-mbstring php8.2-ldap php8.2-intl php8.2-gmp php8.2-gd php8.2-cli php8.2-fpm php8.2-dba php8.2-curl php8.2-bz2 php8.2-bcmath php8.2-common
+* 23:35 MirahezeLSBot: [void@mw193] restart php8.2-fpm.service
+* 23:35 MirahezeLSBot: [void@mw193] Upgraded packages php8.2-zip php8.2-xml php8.2-readline php8.2-opcache php8.2-mysql php8.2-mbstring php8.2-ldap php8.2-intl php8.2-gmp php8.2-gd php8.2-cli php8.2-fpm php8.2-dba php8.2-curl php8.2-bz2 php8.2-bcmath php8.2-common
+* 23:35 MirahezeLSBot: [void@mw192] restart php8.2-fpm.service
+* 23:34 MirahezeLSBot: [void@mw192] Upgraded packages php8.2-zip php8.2-xml php8.2-readline php8.2-opcache php8.2-mysql php8.2-mbstring php8.2-ldap php8.2-intl php8.2-gmp php8.2-gd php8.2-cli php8.2-fpm php8.2-dba php8.2-curl php8.2-bz2 php8.2-bcmath php8.2-common
+* 23:34 MirahezeLSBot: [void@mw191] restart php8.2-fpm.service
+* 23:34 MirahezeLSBot: [void@mw191] Upgraded packages php8.2-zip php8.2-xml php8.2-readline php8.2-opcache php8.2-mysql php8.2-mbstring php8.2-ldap php8.2-intl php8.2-gmp php8.2-gd php8.2-cli php8.2-fpm php8.2-dba php8.2-curl php8.2-bz2 php8.2-bcmath php8.2-common
+* 23:33 MirahezeLSBot: [void@mw183] restart php8.2-fpm.service
+* 23:33 MirahezeLSBot: [void@mw183] Upgraded packages php8.2-zip php8.2-xml php8.2-readline php8.2-opcache php8.2-mysql php8.2-mbstring php8.2-ldap php8.2-intl php8.2-gmp php8.2-gd php8.2-cli php8.2-fpm php8.2-dba php8.2-curl php8.2-bz2 php8.2-bcmath php8.2-common
+* 23:33 MirahezeLSBot: [void@mw182] restart php8.2-fpm.service
+* 23:32 MirahezeLSBot: [void@mw182] Upgraded packages php8.2-zip php8.2-xml php8.2-readline php8.2-opcache php8.2-mysql php8.2-mbstring php8.2-ldap php8.2-intl php8.2-gmp php8.2-gd php8.2-cli php8.2-fpm php8.2-dba php8.2-curl php8.2-bz2 php8.2-bcmath php8.2-common
+* 23:32 MirahezeLSBot: [void@mw181] restart php8.2-fpm.service
+* 23:32 MirahezeLSBot: [void@mw181] Upgraded packages php8.2-zip php8.2-xml php8.2-readline php8.2-opcache php8.2-mysql php8.2-mbstring php8.2-ldap php8.2-intl php8.2-gmp php8.2-gd php8.2-cli php8.2-fpm php8.2-dba php8.2-curl php8.2-bz2 php8.2-bcmath php8.2-common
+* 23:32 MirahezeLSBot: [void@mw173] restart php8.2-fpm.service
+* 23:32 MirahezeLSBot: [void@mw173] Upgraded packages php8.2-zip php8.2-xml php8.2-readline php8.2-opcache php8.2-mysql php8.2-mbstring php8.2-ldap php8.2-intl php8.2-gmp php8.2-gd php8.2-cli php8.2-fpm php8.2-dba php8.2-curl php8.2-bz2 php8.2-bcmath php8.2-common
+* 23:31 MirahezeLSBot: [void@mw172] restart php8.2-fpm.service
+* 23:31 MirahezeLSBot: [void@mw172] Upgraded packages php8.2-zip php8.2-xml php8.2-readline php8.2-opcache php8.2-mysql php8.2-mbstring php8.2-ldap php8.2-intl php8.2-gmp php8.2-gd php8.2-cli php8.2-fpm php8.2-dba php8.2-curl php8.2-bz2 php8.2-bcmath php8.2-common
+* 23:30 MirahezeLSBot: [void@mw171] restart php8.2-fpm.service
+* 23:30 MirahezeLSBot: [void@mw171] Upgraded packages php8.2-zip php8.2-xml php8.2-readline php8.2-opcache php8.2-mysql php8.2-mbstring php8.2-ldap php8.2-intl php8.2-gmp php8.2-gd php8.2-cli php8.2-fpm php8.2-dba php8.2-curl php8.2-bz2 php8.2-bcmath php8.2-common
+* 23:30 MirahezeLSBot: [void@mw163] restart php8.2-fpm.service
+* 23:30 MirahezeLSBot: [void@mw163] Upgraded packages php8.2-zip php8.2-xml php8.2-readline php8.2-opcache php8.2-mysql php8.2-mbstring php8.2-ldap php8.2-intl php8.2-gmp php8.2-gd php8.2-cli php8.2-fpm php8.2-dba php8.2-curl php8.2-bz2 php8.2-bcmath php8.2-common
+* 23:28 MirahezeLSBot: [void@mw162] restart php8.2-fpm.service
+* 23:28 MirahezeLSBot: [void@mw162] Upgraded packages php8.2-zip php8.2-xml php8.2-readline php8.2-opcache php8.2-mysql php8.2-mbstring php8.2-ldap php8.2-intl php8.2-gmp php8.2-gd php8.2-cli php8.2-fpm php8.2-dba php8.2-curl php8.2-bz2 php8.2-bcmath php8.2-common
+* 23:27 MirahezeLSBot: [void@mw161] restart php8.2-fpm.service
+* 23:27 MirahezeLSBot: [void@mw161] Upgraded packages php8.2-zip php8.2-xml php8.2-readline php8.2-opcache php8.2-mysql php8.2-mbstring php8.2-ldap php8.2-intl php8.2-gmp php8.2-gd php8.2-cli php8.2-fpm php8.2-dba php8.2-curl php8.2-bz2 php8.2-bcmath php8.2-common
+* 23:26 MirahezeLSBot: [void@mw153] restart php8.2-fpm.service
+* 23:26 MirahezeLSBot: [void@mw153] Upgraded packages php8.2-zip php8.2-xml php8.2-readline php8.2-opcache php8.2-mysql php8.2-mbstring php8.2-ldap php8.2-intl php8.2-gmp php8.2-gd php8.2-cli php8.2-fpm php8.2-dba php8.2-curl php8.2-bz2 php8.2-bcmath php8.2-common
+* 23:25 MirahezeLSBot: [void@mw152] restart php8.2-fpm.service
+* 23:25 MirahezeLSBot: [void@mw152] Upgraded packages php8.2-zip php8.2-xml php8.2-readline php8.2-opcache php8.2-mysql php8.2-mbstring php8.2-ldap php8.2-intl php8.2-gmp php8.2-gd php8.2-cli php8.2-fpm php8.2-dba php8.2-curl php8.2-bz2 php8.2-bcmath php8.2-common
+* 23:22 MirahezeLSBot: [void@mw151] restart php8.2-fpm.service
+* 23:22 MirahezeLSBot: [void@mw151] Upgraded packages php8.2-zip php8.2-xml php8.2-readline php8.2-opcache php8.2-mysql php8.2-mbstring php8.2-ldap php8.2-intl php8.2-gmp php8.2-gd php8.2-cli php8.2-fpm php8.2-dba php8.2-curl php8.2-bz2 php8.2-bcmath php8.2-common
+* 23:11 MirahezeLSBot: [void@test151] restart php8.2-fpm.service
+* 23:11 MirahezeLSBot: [void@test151] Upgraded packages php8.2-zip php8.2-xml php8.2-readline php8.2-opcache php8.2-mysql php8.2-mbstring php8.2-ldap php8.2-intl php8.2-gmp php8.2-gd php8.2-cli php8.2-fpm php8.2-dev php8.2-dba php8.2-curl php8.2-bz2 php8.2-bcmath php8.2-common
+* 22:56 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 22:55 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 22:18 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=supercubecavernwiki dump.xml --no-updates (START)
+* 22:12 MirahezeLSBot: [paladox@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildImages.php --wiki aceistanwiki
+* 21:22 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'PWA'} to all - SUCCESS in 22s
+* 21:22 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'PWA'} to all
+* 21:22 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'PWA'} to test151 - SUCCESS in 1s
+* 21:21 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'PWA'} to test151
+* 21:20 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'EditSubpages'} to all - SUCCESS in 22s
+* 21:19 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'EditSubpages'} to all
+* 21:19 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'EditSubpages'} to test151 - SUCCESS in 1s
+* 21:19 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'EditSubpages'} to test151
+* 21:18 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'DPLForum'} to all - SUCCESS in 24s
+* 21:18 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'DPLForum'} to all
+* 21:17 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'DPLForum'} to test151 - SUCCESS in 1s
+* 21:17 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'DPLForum'} to test151
+* 10:25 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 10:25 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
 ## 2025-07-27 
 
 * 23:53 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=wmwiki (END - exit=0)
