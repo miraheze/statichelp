@@ -2,6 +2,36 @@
 title: Tech:Server admin log
 ---
 
+## 2025-07-29 
+
+* 18:57 MirahezeLSBot: [rhinos@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:ToggleExtension --wiki=metawikibeta --name=Citizen --disable (END - exit=256)
+* 18:56 MirahezeLSBot: [rhinos@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:ToggleExtension --wiki=metawikibeta --name=nonsenseext --disable (END - exit=0)
+* 18:56 MirahezeLSBot: [rhinos@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:ToggleExtension --wiki=metawikibeta --name=nonsenseext (END - exit=0)
+* 18:55 MirahezeLSBot: [rhinos@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'ManageWiki'} to test151 - SUCCESS in 1s
+* 18:55 MirahezeLSBot: [rhinos@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'ManageWiki'} to test151
+* 18:55 MirahezeLSBot: [rhinos@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'MirahezeMagic'} to test151 - SUCCESS in 1s
+* 18:55 MirahezeLSBot: [rhinos@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'MirahezeMagic'} to test151
+* 17:07 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=danmachienwiki /home/reception/dungeonnideaiomotomeru_pages_full.xml --username-prefix=wikia:danmachi (END - exit=256)
+* 17:07 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=danmachienwiki /home/reception/dungeonnideaiomotomeru_pages_full.xml --username-prefix=wikia:danmachi (START)
+* 16:47 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importImages.php --wiki=supercubecavernwiki /home/reception/supercubecavern --search-recursively --summary=Importing images from [https://supercubecavern.fandom.com/](https://supercubecavern.fandom.com/) (END - exit=0)
+* 16:37 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=tallpediawiki --new=tallestandlongevitywiki --user=Reception123 (END - exit=0)
+* 16:35 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=ecopediawiki --new=leontlibrarywiki --user=Reception123 (END - exit=0)
+* 16:28 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importImages.php --wiki=supercubecavernwiki /home/reception/supercubecavern --search-recursively --summary=Importing images from [https://supercubecavern.fandom.com/](https://supercubecavern.fandom.com/) (START)
+* 16:27 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importImages.php --wiki=supercubecavernwiki /home/reception/supercubecavern --search-recursively --summary=Importing images from [https://supercubecavern.fandom.com/](https://supercubecavern.fandom.com/) (END - exit=256)
+* 16:27 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importImages.php --wiki=supercubecavernwiki /home/reception/supercubecavern --search-recursively --summary=Importing images from [https://supercubecavern.fandom.com/](https://supercubecavern.fandom.com/) (START)
+* 14:51 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php ManageWiki:ToggleExtension --wiki=stackdwiki --disable --name=citizen (END - exit=0)
+* 14:49 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php ManageWiki:ToggleExtension --wiki=stackdwiki --disable --name=Citizen (END - exit=0)
+* 14:49 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php ManageWiki:ToggleExtension --wiki=stackdwiki --disable --name=Citizen (END - exit=0)
+* 14:49 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php ManageWiki:ToggleExtension --wiki=stackdwiki --disable Citizen (END - exit=256)
+* 13:28 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 13:27 MirahezeLSBot: [rhinos@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 13:20 MirahezeLSBot: [skye@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 13:20 MirahezeLSBot: [skye@test151] starting deploy of {'config': True} to test151
+* 00:36 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/initSiteStats.php --wiki=supercubecavernwiki --update (END - exit=0)
+* 00:36 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=supercubecavernwiki (END - exit=0)
+* 00:09 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=supercubecavernwiki (START)
+* 00:09 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=supercubecavernwiki dump.xml --no-updates (END - exit=0)
+
 ## 2025-07-28 
 
 * 23:53 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=babelreduxwiki (END - exit=0)
