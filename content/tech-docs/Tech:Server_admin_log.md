@@ -2,6 +2,56 @@
 title: Tech:Server admin log
 ---
 
+## 2025-07-30 
+
+* 22:13 MirahezeLSBot: [void@db151] restart db-backups service
+* 22:06 MirahezeLSBot: [void@db181] restart db-backups service (frozen for some reason)
+* 16:23 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_skins': 'Citizen'} to all - SUCCESS in 56s
+* 16:22 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_skins': 'Citizen'} to all
+* 13:34 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_skins': 'Citizen'} to test151 - SUCCESS in 2s
+* 13:34 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_skins': 'Citizen'} to test151
+* 13:09 MirahezeLSBot: [blankeclair@mwtask181] Finished import for riowiki (XML: rio.fandom.com-20250716-history.xml; Images: all_images/) (END - exit=0)
+* 13:09 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=riowiki --update (END - exit=0)
+* 13:09 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=riowiki --update (START)
+* 13:09 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initEditCount --wiki=riowiki (END - exit=0)
+* 13:09 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initEditCount --wiki=riowiki (START)
+* 13:09 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php rebuildall --wiki=riowiki (END - exit=0)
+* 12:10 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php rebuildall --wiki=riowiki (START)
+* 12:10 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=riowiki --sleep=1 '--comment=Importing images from [https://rio.fandom.com](https://rio.fandom.com) ([T14029](https://meta.miraheze.org/wiki/phorge:T14029))' -- all_images/ (END - exit=0)
+* 08:07 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=riowiki --sleep=1 '--comment=Importing images from [https://rio.fandom.com](https://rio.fandom.com) ([T14029](https://meta.miraheze.org/wiki/phorge:T14029))' -- all_images/ (START)
+* 08:07 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importDump --wiki=riowiki --no-updates --username-prefix=fandom:rio -- rio.fandom.com-20250716-history.xml (END - exit=0)
+* 04:17 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/initSiteStats.php --wiki=xyywiki --update (END - exit=0)
+* 04:17 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=xyywiki (END - exit=0)
+* 03:55 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=xyywiki (START)
+* 03:55 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=xyywiki dump.xml --no-updates (END - exit=0)
+* 03:19 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=xyywiki dump.xml --no-updates (START)
+* 02:58 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/initSiteStats.php --wiki=xyywiki --update (END - exit=0)
+* 02:58 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=xyywiki (END - exit=0)
+* 02:51 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=xyywiki (START)
+* 02:51 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=xyywiki dump.xml --no-updates (END - exit=0)
+* 02:45 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=xyywiki dump.xml --no-updates (START)
+* 02:32 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=orcaslicerwiki (END - exit=0)
+* 02:32 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=ventistudiowiki (END - exit=0)
+* 02:25 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/initSiteStats.php --wiki=xyywiki --update (END - exit=0)
+* 02:25 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=xyywiki (END - exit=0)
+* 02:23 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=michinomiconwiki (END - exit=0)
+* 02:23 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=frostforgenationswiki (END - exit=0)
+* 02:23 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=townsmpwiki (END - exit=0)
+* 02:21 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=xyywiki (START)
+* 02:21 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=xyywiki dump.xml --no-updates (END - exit=0)
+* 02:17 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=xyywiki dump.xml --no-updates (START)
+* 02:08 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/initSiteStats.php --wiki=xyywiki --update (END - exit=0)
+* 02:08 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=xyywiki (END - exit=0)
+* 02:00 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=xyywiki (START)
+* 02:00 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=xyywiki dump.xml --no-updates (END - exit=0)
+* 01:49 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importDump --wiki=riowiki --no-updates --username-prefix=fandom:rio -- rio.fandom.com-20250716-history.xml (START)
+* 01:49 MirahezeLSBot: [blankeclair@mwtask181] Starting import for riowiki (XML: rio.fandom.com-20250716-history.xml; Images: all_images/) (START)
+* 01:48 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=xyywiki dump.xml --no-updates (START)
+* 01:48 MirahezeLSBot: [blankeclair@mwtask181] Finished import for riowiki (XML: rio.fandom.com-20250716-history.xml; Images: all_images/) (END - exit=1)
+* 01:48 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importDump --wiki=riowiki --no-updates --username-prefix=fandom:rio -- rio.fandom.com-20250716-history.xml (END - exit=1)
+* 01:48 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importDump --wiki=riowiki --no-updates --username-prefix=fandom:rio -- rio.fandom.com-20250716-history.xml (START)
+* 01:48 MirahezeLSBot: [blankeclair@mwtask181] Starting import for riowiki (XML: rio.fandom.com-20250716-history.xml; Images: all_images/) (START)
+
 ## 2025-07-29 
 
 * 18:57 MirahezeLSBot: [rhinos@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:ToggleExtension --wiki=metawikibeta --name=Citizen --disable (END - exit=256)
