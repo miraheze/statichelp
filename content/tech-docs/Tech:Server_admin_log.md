@@ -2,6 +2,34 @@
 title: Tech:Server admin log
 ---
 
+## 2025-08-01 
+
+* 00:00 MirahezeLSBot: [www-data@mwtask181] Began automatic backing up
+* 00:00 MirahezeLSBot: [www-data@test151] Began automatic backing up
+
+## 2025-07-31 
+
+* 22:52 MirahezeLSBot: [void@rdb151] Upgrade and restart redis-server and redis-tools
+* 22:52 MirahezeLSBot: [void@matomo151] Upgrade and restart redis-server and redis-tools
+* 22:51 MirahezeLSBot: [void@changeprop201] Upgrade and restart redis-server and redis-tools
+* 22:49 MirahezeLSBot: [void@test151] Upgrade and restart redis-server and redis-tools
+* 22:11 Universal Omega: added skye to ldap groups
+* 22:06 Universal Omega: added both skye and somerandomdeveloper to cf-admins email group
+* 22:04 Universal Omega: added skye to tech email groups
+* 22:01 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'AutoCreateCategoryPages'} to all - SUCCESS in 26s
+* 22:00 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'AutoCreateCategoryPages'} to all
+* 22:00 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'AutoCreateCategoryPages'} to test151 - SUCCESS in 1s
+* 22:00 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'AutoCreateCategoryPages'} to test151
+* 22:00 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 21:59 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 20:41 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_skins': 'Citizen'} to all - SUCCESS in 28s
+* 20:40 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_skins': 'Citizen'} to all
+* 20:39 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_skins': 'Citizen'} to test151 - SUCCESS in 1s
+* 20:39 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_skins': 'Citizen'} to test151
+* 12:55 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_skins': 'Citizen'} to test151 - SUCCESS in 1s
+* 12:55 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_skins': 'Citizen'} to test151
+* 11:53 @abaddriverlol: MediaWiki\Extension\CentralAuth\User\CentralAuthUser::getInstance( User::newFromName( 'Nakong' ) )->attach( 'alerawiki', 'admin' );
+
 ## 2025-07-30 
 
 * 22:13 MirahezeLSBot: [void@db151] restart db-backups service
