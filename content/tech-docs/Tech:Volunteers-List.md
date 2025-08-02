@@ -13,7 +13,8 @@ title: Tech:Volunteers/List
 | [Paladox](https://meta.miraheze.org/wiki/User:Paladox)<br /> *Infrastructure Specialist* | paladox | paladox `{{ {{@}} }}`miraheze.org | Root on all servers | Owner | Yes | Yes | Yes | No | Yes |
 | [Reception123](https://meta.miraheze.org/wiki/User:Reception123)<br /> *Deputy Director of Technology* | Reception123 | reception `{{ {{@}} }}`miraheze.org | Root on all servers | Owner | Yes | Yes | Yes | No | Yes |
 | [RhinosF1](https://meta.miraheze.org/wiki/User:RhinosF1)<br /> *Infrastructure Specialist* | RhinosF1 | rhinosf1 `{{ {{@}} }}`miraheze.org | Root on all servers | Owner | Yes | Yes | Yes | No | Yes |
-| [SomeRandomDeveloper](https://meta.miraheze.org/wiki/User:SomeRandomDeveloper)<br /> *MediaWiki Specialist* | None | somerandomdeveloper@miraheze.org | MediaWiki servers | MediaWiki Specialists | No | No | No | No | No |
+| [Skye](https://meta.miraheze.org/wiki/User:Skye)<br /> *MediaWiki Specialist* | Skye | skye@miraheze.org | MediaWiki servers | MediaWiki Specialists | No | No | Yes | No | No |
+| [SomeRandomDeveloper](https://meta.miraheze.org/wiki/User:SomeRandomDeveloper)<br /> *MediaWiki Specialist* | None | somerandomdeveloper@miraheze.org | MediaWiki servers | MediaWiki Specialists | No | No | Yes | No | No |
 | [Void](https://meta.miraheze.org/wiki/User:Void)<br /> *Infrastructure Specialist* | Voidwalker | void `{{ {{@}} }}`miraheze.org | Root on all servers | Owner | Yes | Yes | Yes | Yes | Yes |
 | [Universal Omega](https://meta.miraheze.org/wiki/User:Universal_Omega)<br /> *Director of Technology* | CosmicAlpha | universalomega `{{ {{@}} }}`miraheze.org | Root on all servers | Owner | Yes | Yes | Yes | Yes | Yes |
 

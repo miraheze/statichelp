@@ -4,6 +4,23 @@ title: Tech:Server admin log
 
 ## 2025-08-01 
 
+* 21:49 MirahezeLSBot: [universalomega@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:ResetWikiCaches (END - exit=0)
+* 21:49 MirahezeLSBot: [universalomega@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:ResetWikiCaches (START)
+* 21:47 MirahezeLSBot: [universalomega@test151] finished deploy of {'extension_list': True, 'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'DynamicPageList4'} to test151 - SUCCESS in 1s
+* 21:47 MirahezeLSBot: [universalomega@test151] starting deploy of {'extension_list': True, 'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'DynamicPageList4'} to test151
+* 21:40 Universal Omega: backup first then run update.php for arsenalrobloxwikiwiki
+* 20:23 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'EmbedSpotify'} to all - SUCCESS in 25s
+* 20:22 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'EmbedSpotify'} to all
+* 20:22 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'EmbedSpotify'} to test151 - SUCCESS in 0s
+* 20:22 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'EmbedSpotify'} to test151
+* 20:21 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'EmbedSpotify'} to test151 - SUCCESS in 0s
+* 20:21 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'EmbedSpotify'} to test151
+* 20:18 @abaddriverlol: ran "sudo -u www-data rm -rf /srv/mediawiki-staging/{1.43,1.44}/{extensions/AutoCreatePage,extensions/EmbedSpotify,extensions/JavascriptSlideshow,extensions/MachineTranslation,skins/Monaco}" on mwtask181 and ran puppet afterwards
+* 20:16 @abaddriverlol: ran "sudo -u www-data rm -rf /srv/mediawiki-staging/{1.43,1.44}/{extensions/AutoCreatePage,extensions/EmbedSpotify,extensions/JavascriptSlideshow,extensions/MachineTranslation,skins/Monaco}" on test151 and ran puppet afterwards
+* 19:32 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 19:31 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 18:36 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'DataDump'} to all - SUCCESS in 62s
+* 18:35 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'DataDump'} to all
 * 00:00 MirahezeLSBot: [www-data@mwtask181] Began automatic backing up
 * 00:00 MirahezeLSBot: [www-data@test151] Began automatic backing up
 
