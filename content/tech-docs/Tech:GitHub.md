@@ -39,7 +39,7 @@ Some repositories may be given access to Technology team members without shell a
 ### ssl 
 
 [ssl](https://github.com/miraheze/ssl) is the repository that manages all [SSL certificates](https://meta.miraheze.org/wiki/Tech:SSL_certificates) (Secure Sockets Layer) for Miraheze.
-* **Push Access**: [Infrastructure Specialists](/tech-docs/techorganization#infrastructure-specialist), ssl-admins
+* **Push Access**: [Infrastructure Specialists](/tech-docs/techorganization#infrastructure-specialist), [MediaWiki Specialists](/tech-docs/techorganization#mediawiki-specialist), ssl-admins
 * **Servers**: [puppet181](/tech-docs/techpuppet181)
 
 ## MediaWiki extensions and skins 
