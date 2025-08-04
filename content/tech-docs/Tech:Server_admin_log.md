@@ -2,6 +2,62 @@
 title: Tech:Server admin log
 ---
 
+## 2025-08-03 
+
+* 23:46 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/deleteBatch.php --wiki=tnorequiemwiki /home/skye/duplicates.txt --r 'Delete duplicates ([T14086](https://meta.miraheze.org/wiki/phorge:T14086))' (END - exit=0)
+* 23:42 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/deleteBatch.php --wiki=tnorequiemwiki /home/skye/duplicates.txt --r 'Delete duplicates ([T14086](https://meta.miraheze.org/wiki/phorge:T14086))' (START)
+* 23:38 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/deleteBatch.php --wiki=tnorequiemwiki /home/skye/duplicates.txt --r 'Delete duplicates ([T14086](https://meta.miraheze.org/wiki/phorge:T14086))' (END - exit=0)
+* 23:38 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/deleteBatch.php --wiki=tnorequiemwiki /home/skye/duplicates.txt --r 'Delete duplicates ([T14086](https://meta.miraheze.org/wiki/phorge:T14086))' (START)
+* 23:37 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/DeleteBatch.php --wiki=tnorequiemwiki /home/skye/duplicates.txt --r 'Delete duplicates ([T14086](https://meta.miraheze.org/wiki/phorge:T14086))' (END - exit=256)
+* 23:36 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/DeleteBatch.php --wiki=tnorequiemwiki /home/skye/duplicates.txt --r 'Delete duplicates ([T14086](https://meta.miraheze.org/wiki/phorge:T14086))' (START)
+* 23:34 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/DeleteBatch.php --wiki=tnorequiemwiki /home/skye/duplicates.txt --r Delete duplicates ([T14086](https://meta.miraheze.org/wiki/phorge:T14086)) (END - exit=512)
+* 23:34 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/DeleteBatch.php --wiki=tnorequiemwiki /home/skye/duplicates.txt --r Delete duplicates ([T14086](https://meta.miraheze.org/wiki/phorge:T14086)) (START)
+* 23:32 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/DeleteBatch.php --wiki=--wiki=tnorequiemwiki /home/skye/duplicates.txt --r Delete duplicates ([T14086](https://meta.miraheze.org/wiki/phorge:T14086)) (END - exit=512)
+* 23:32 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/DeleteBatch.php --wiki=--wiki=tnorequiemwiki /home/skye/duplicates.txt --r Delete duplicates ([T14086](https://meta.miraheze.org/wiki/phorge:T14086)) (START)
+* 23:31 Universal Omega: mariadb-upgrade --force on db182
+* 22:38 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.43/extensions/Tilesheets,1.44/extensions/Tilesheets'} to all - SUCCESS in 47s
+* 22:37 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.43/extensions/Tilesheets,1.44/extensions/Tilesheets'} to all
+* 22:34 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.43/extensions/Tilesheets,1.44/extensions/Tilesheets'} to test151 - SUCCESS in 0s
+* 22:34 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.43/extensions/Tilesheets,1.44/extensions/Tilesheets'} to test151
+* 22:26 Universal Omega: sudo -u www-data php artisan migrate on reports171
+* 19:55 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CreateWiki:SetContainersAccess --wiki=tintinpediawiki (END - exit=0)
+* 19:27 Universal Omega: reboot mon181
+* 19:27 Universal Omega: upgraded grafana, icinga/icingacli/icingaweb2, and all other packages on mon181
+* 19:24 Universal Omega: upgraded mariadb-client on mon181 to 11.8
+* 19:17 Universal Omega: reboot db182
+* 19:16 Universal Omega: upgrade kernel and all packages on db182
+* 19:16 Universal Omega: upgrade db182 to mariadb 11.8
+* 19:01 Universal Omega: MariaDB [mhglobal]> ALTER TABLE cw_wikis MODIFY COLUMN wiki_extra JSON NULL;
+* 18:59 Universal Omega: MariaDB [metawiki]> ALTER TABLE cw_requests MODIFY COLUMN cw_extra JSON NULL;
+* 16:22 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'folders': '../../srv/mediawiki/cache/1.44/l10n'} to all - SUCCESS in 196s
+* 16:18 MirahezeLSBot: [rhinos@mwtask181] starting deploy of {'folders': '../../srv/mediawiki/cache/1.44/l10n'} to all
+* 16:18 MirahezeLSBot: [rhinos@mwtask181] starting deploy of {'folders': '../.../srv/mediawiki/cache/1.44/l10n'} to all
+* 16:17 MirahezeLSBot: [rhinos@mwtask181] starting deploy of {'folders': '/srv/mediawiki/cache/1.44/l10n'} to all
+* 14:25 MirahezeLSBot: [skye@mwtask181] finished deploy of {'extension_list': True, 'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'DynamicPageList4'} to all - SUCCESS in 47s
+* 14:25 MirahezeLSBot: [skye@mwtask181] starting deploy of {'extension_list': True, 'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'DynamicPageList4'} to all
+* 14:16 MirahezeLSBot: [skye@mwtask181] finished deploy of {'world': True, 'l10n': True, 'versions': '1.44'} to all - SUCCESS in 598s
+* 14:06 MirahezeLSBot: [skye@mwtask181] starting deploy of {'world': True, 'l10n': True, 'versions': '1.44'} to all
+* 13:08 MirahezeLSBot: [skye@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44'} to all - SUCCESS in 88s
+* 13:06 MirahezeLSBot: [skye@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44'} to all
+* 07:51 MirahezeLSBot: [agent@mwtask181] finished deploy of {'l10n': True, 'versions': '1.43'} to all - SUCCESS in 475s
+* 07:43 MirahezeLSBot: [agent@mwtask181] starting deploy of {'l10n': True, 'versions': '1.43'} to all
+* 07:43 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'DataDump'} to all - SUCCESS in 24s
+* 07:43 MirahezeLSBot: [agent@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44'} to all - SUCCESS in 497s
+* 07:42 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'DataDump'} to all
+* 07:34 MirahezeLSBot: [agent@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44'} to all
+* 07:34 MirahezeLSBot: [agent@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'RequestSSL'} to all - SUCCESS in 24s
+* 07:34 MirahezeLSBot: [agent@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'RequestSSL'} to all
+* 07:34 MirahezeLSBot: [agent@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 07:33 MirahezeLSBot: [agent@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44'} to all
+* 07:28 MirahezeLSBot: [agent@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 24s
+* 07:27 MirahezeLSBot: [agent@mwtask181] starting deploy of {'config': True} to all
+* 07:15 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'l10n': True, 'versions': '1.43', 'upgrade_extensions': 'TemplateStylesExtender'} to all - SUCCESS in 505s
+* 07:06 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'l10n': True, 'versions': '1.43', 'upgrade_extensions': 'TemplateStylesExtender'} to all
+* 07:06 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 07:06 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 05:46 MirahezeLSBot: [agent@mwtask181] finished deploy of {'config': True} to mw181 - SUCCESS in 1s
+* 05:46 MirahezeLSBot: [agent@mwtask181] starting deploy of {'config': True} to mw181
+
 ## 2025-08-01 
 
 * 21:49 MirahezeLSBot: [universalomega@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:ResetWikiCaches (END - exit=0)
