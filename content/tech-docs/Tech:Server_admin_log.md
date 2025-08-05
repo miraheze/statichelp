@@ -2,6 +2,60 @@
 title: Tech:Server admin log
 ---
 
+## 2025-08-04 
+
+* 23:58 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=aimfrontierswiki --new=untitledcqbgamewiki --user=Skye (END - exit=0)
+* 23:47 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CreateWiki:SetContainersAccess --wiki=skibiditoiletwiki (END - exit=0)
+* 23:42 @pskyechology: sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=skibiditoiletwikiwiki --new=skibiditoiletwiki --user=Skye (END - exit=0)
+* 23:15 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:ResetWikiCaches --wiki=skibiditoiletwiki (END - exit=0)
+* 23:09 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:ResetWikiCaches --wiki=armoredcorewiki (END - exit=0)
+* 23:03 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:CheckSwiftContainers --wiki=metawiki --delete (END - exit=0)
+* 22:57 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CreateWiki:SetContainersAccess --wiki=towerdefensestrategywiki (END - exit=0)
+* 22:56 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:CheckSwiftContainers --wiki=metawiki --delete (END - exit=2)
+* 22:54 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:CheckSwiftContainers --wiki=metawiki --estimate (END - exit=0)
+* 22:51 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:CheckSwiftContainers --wiki=metawiki (END - exit=0)
+* 22:48 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:CheckWikiDatabases --wiki=metawiki --delete (END - exit=0)
+* 22:44 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:CheckWikiDatabases --wiki=metawiki (END - exit=0)
+* 22:41 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwiki --delete --deletewiki skibiditoiletwiki (END - exit=0)
+* 21:57 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=towerdefencestrategywiki --new=towerdefensestrategywiki --user=Skye (END - exit=0)
+* 21:57 Universal Omega: replaced puppet-agent package with openvox-agent on all servers
+* 21:43 Universal Omega: upgraded kernel and all packages on puppet181 and rebooted
+* 21:33 Universal Omega: upgrade puppetserver, puppet-agent, puppetdb, and puppetdb-termini to openvox packages on puppet181
+* 20:40 Universal Omega: copied all of /etc/puppetlabs on puppet181 to my home directory as a backup during puppet to openvox upgrade
+* 20:08 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=retrodinerwiki --requester=L1mm3 (END - exit=0)
+* 20:01 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=despairacademywiki --requester=C4yd3nnn (END - exit=0)
+* 19:53 Universal Omega: db181: sudo systemctl disable --now db-backups.timer && sudo rm -f /etc/systemd/system/db-backups.{timer,service} /lib/systemd/system/db-backups.{timer,service} /usr/lib/systemd/system/db-backups.{timer,service} && sudo systemctl daemon-reload
+* 19:52 Universal Omega: db171: sudo systemctl disable --now mhglobal-db-backups-weekly.timer && sudo rm -f /etc/systemd/system/mhglobal-db-backups-weekly.{timer,service} /lib/systemd/system/mhglobal-db-backups-weekly.{timer,service} /usr/lib/systemd/system/mhglobal-db-backups-weekly.{timer,service} && sudo systemctl daemon-reload
+* 19:50 Universal Omega: db171: sudo systemctl disable --now db-backups.timer && sudo rm -f /etc/systemd/system/db-backups.{timer,service} /lib/systemd/system/db-backups.{timer,service} /usr/lib/systemd/system/db-backups.{timer,service} && sudo systemctl daemon-reload
+* 19:48 Universal Omega: db161: sudo systemctl disable --now db-backups.timer && sudo rm -f /etc/systemd/system/db-backups.{timer,service} /lib/systemd/system/db-backups.{timer,service} /usr/lib/systemd/system/db-backups.{timer,service} && sudo systemctl daemon-reload
+* 19:47 Universal Omega: db151: sudo systemctl disable --now db-backups.timer && sudo rm -f /etc/systemd/system/db-backups.{timer,service} /lib/systemd/system/db-backups.{timer,service} /usr/lib/systemd/system/db-backups.{timer,service} && sudo systemctl daemon-reload
+* 19:44 Universal Omega: db182: sudo systemctl disable --now icingaweb2-db-backups-fortnightly.timer && sudo rm -f /etc/systemd/system/icingaweb2-db-backups-fortnightly.{timer,service} /lib/systemd/system/icingaweb2-db-backups-fortnightly.{timer,service} /usr/lib/systemd/system/icingaweb2-db-backups-fortnightly.{timer,service} && sudo systemctl daemon-reload
+* 19:42 Universal Omega: db182: sudo systemctl disable --now icinga-db-backups-fortnightly.timer && sudo rm -f /etc/systemd/system/icinga-db-backups-fortnightly.{timer,service} /lib/systemd/system/icinga-db-backups-fortnightly.{timer,service} /usr/lib/systemd/system/icinga-db-backups-fortnightly.{timer,service} && sudo systemctl daemon-reload
+* 19:41 Universal Omega: db182: sudo systemctl disable --now reports-db-backups-weekly.timer && sudo rm -f /etc/systemd/system/reports-db-backups-weekly.{timer,service} /lib/systemd/system/reports-db-backups-weekly.{timer,service} /usr/lib/systemd/system/reports-db-backups-weekly.{timer,service} && sudo systemctl daemon-reload
+* 19:25 Universal Omega: db172: sudo systemctl disable --now db-backups.timer && sudo rm -f /etc/systemd/system/db-backups.{timer,service} /lib/systemd/system/db-backups.{timer,service} /usr/lib/systemd/system/db-backups.{timer,service} && sudo systemctl daemon-reload
+* 19:20 Universal Omega: puppet181: sudo systemctl disable --now backups-sslkeys.timer && sudo rm -f /etc/systemd/system/backups-sslkeys.{timer,service} /lib/systemd/system/backups-sslkeys.{timer,service} /usr/lib/systemd/system/backups-sslkeys.{timer,service} && sudo systemctl daemon-reload
+* 19:19 Universal Omega: puppet181: sudo systemctl disable --now backups-private.timer && sudo rm -f /etc/systemd/system/backups-private.{timer,service} /lib/systemd/system/backups-private.{timer,service} /usr/lib/systemd/system/backups-private.{timer,service} && sudo systemctl daemon-reload
+* 19:13 Universal Omega: swiftac171: sudo systemctl disable --now backups-swift-account-container.timer && sudo rm -f /etc/systemd/system/backups-swift-account-container.timer /lib/systemd/system/backups-swift-account-container.timer /usr/lib/systemd/system/backups-swift-account-container.timer
+* 18:23 Universal Omega: remove local hack from matomo after applying [https://github.com/miraheze/puppet/pull/4464](https://github.com/miraheze/puppet/pull/4464) and restart php8.2-fpm
+* 11:59 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': ['OreDict', 'Tilesheets']} to all - SUCCESS in 49s
+* 11:58 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': ['OreDict', 'Tilesheets']} to all
+* 11:58 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': ['OreDict', 'Tilesheets']} to test151 - SUCCESS in 1s
+* 11:58 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': ['OreDict', 'Tilesheets']} to test151
+* 11:47 @abaddriverlol: ran "sudo -u www-data rm -rf /srv/mediawiki-staging/{1.43,1.44}/skins/Lakeus" on mwtask181 and ran puppet afterwards
+* 11:45 @abaddriverlol: ran "sudo -u www-data rm -rf /srv/mediawiki-staging/{1.43,1.44}/skins/Lakeus" on test151 and ran puppet afterwards
+* 05:32 Universal Omega: upgraded kernel and all packages and rebooted phorge171
+* 05:30 Universal Omega: upgraded arcanist and phorge on phorge171
+* 02:06 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/initSiteStats.php --wiki=totallyhenchwomenwiki --update (END - exit=0)
+* 02:05 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=totallyhenchwomenwiki (END - exit=0)
+* 02:03 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=totallyhenchwomenwiki (START)
+* 02:03 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=totallyhenchwomenwiki dump.xml --no-updates (END - exit=0)
+* 01:56 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=totallyhenchwomenwiki dump.xml --no-updates (START)
+* 01:31 Universal Omega: added hack ([https://issue-tracker.miraheze.org/T14092#282388](https://issue-tracker.miraheze.org/T14092#282388)) to Matomo and restarted php8.2-fpm (about an hour ago)
+* 01:29 Universal Omega: upgraded kernal and all packages on matomo151 and reboot (a couple hours ago)
+* 01:28 Universal Omega: regenerated & readded cloudflare tokens that got purged from private puppet  then run puppet on mw* with salt-ssh
+* 00:57 MirahezeLSBot: [skye@test151] finished deploy of {'l10n': True, 'versions': '1.44'} to test151 - SUCCESS in 297s
+* 00:52 MirahezeLSBot: [skye@test151] starting deploy of {'l10n': True, 'versions': '1.44'} to test151
+
 ## 2025-08-03 
 
 * 23:46 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/deleteBatch.php --wiki=tnorequiemwiki /home/skye/duplicates.txt --r 'Delete duplicates ([T14086](https://meta.miraheze.org/wiki/phorge:T14086))' (END - exit=0)
