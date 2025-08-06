@@ -13,6 +13,7 @@ A full list of maintenance scripts can be found [here](https://meta.miraheze.org
 * **importDump.php** – Allows sysadmins to import XML dumps that are too large for Special:Import on-wiki.
    * `mwscript importDump examplewiki "'/home/<user>/dump.xml'"`
    * `--username-prefix "'interwiki'"` should be used for interwiki imports for proper attribution.
+   * Usually ran with `--no-updates`, after which you will have to run `mwscript rebuildall examplewiki`.
 
 * **initSiteStats.php** – If Special:Statistics isn't updating properly, it's useful to run this.
    * `mwscript initSiteStats.php examplewiki --update`

@@ -2,6 +2,29 @@
 title: Tech:Server admin log
 ---
 
+## 2025-08-05 
+
+* 23:46 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/cleanupTitles.php --wiki=twistingruinwiki (END - exit=0)
+* 23:45 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/cleanupTitles.php --wiki=twistingruinwiki --dry-run (END - exit=0)
+* 23:07 Universal Omega: started clone backup on swiftobject191
+* 23:03 Universal Omega: shutdown swiftobject191 begin the same as logged before for swiftobject201
+* 22:56 MirahezeLSBot: [universalomega@swiftobject201] uninstall grup-pc-bin and upgrade kernal and all packages and reboot
+* 22:37 MirahezeLSBot: [universalomega@swiftobject201] sudo resize2fs /dev/sdb1
+* 22:37 MirahezeLSBot: [universalomega@swiftobject201] sudo growpart /dev/sdb 1
+* 22:28 Universal Omega: swiftobject:201: to much to really explain, created new 512MB MB for EFI, installed grub-efi-amd64, reinstalled and resetup grub and boot order and other stuff.
+* 19:08 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importDump --wiki=newnovawiki --username-prefix='fandom:earthmc' --no-updates './earthmc917_pages_full.xml' (END - exit=0)
+* 18:57 Universal Omega: swiftobject201: increase disk storage from 1.5TB to 3TB, memory from 6GiB to 12GiB; changing BIOS from SeaBIOS to OVMF (UEFI), add a new EFI disk, and enable/add TPM State. Then reboot
+* 18:39 Universal Omega: clone finished
+* 18:08 Universal Omega: started backup via cloning swiftobject201 VM
+* 18:06 MirahezeLSBot: [agent@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 18:05 MirahezeLSBot: [agent@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 16:35 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importDump --wiki=newnovawiki --username-prefix='fandom:earthmc' --no-updates './earthmc917_pages_full.xml' (START)
+* 16:33 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importDump --wiki=newnovawiki --username-prefix --no-updates 'fandom:earthmc' './earthmc917_pages_full.xml' (END - exit=256)
+* 16:33 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importDump --wiki=newnovawiki --username-prefix --no-updates 'fandom:earthmc' './earthmc917_pages_full.xml' (START)
+* 15:29 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=tadukooversewiki ./images --comment='Importing images from [https://tadukooverse.fandom.com/](https://tadukooverse.fandom.com/) ([T14078](https://meta.miraheze.org/wiki/phorge:T14078))' (END - exit=0)
+* 15:29 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=tadukooversewiki ./images --comment='Importing images from [https://tadukooverse.fandom.com/](https://tadukooverse.fandom.com/) ([T14078](https://meta.miraheze.org/wiki/phorge:T14078))' (START)
+* 01:08 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CreateWiki:SetContainersAccess --wiki=untitledcqbgamewiki (END - exit=0)
+
 ## 2025-08-04 
 
 * 23:58 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=aimfrontierswiki --new=untitledcqbgamewiki --user=Skye (END - exit=0)
