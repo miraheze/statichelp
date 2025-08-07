@@ -51,13 +51,16 @@ Here are the steps you should follow when adding a new puppet agent (server) to 
 
 <!-- TODO: Make this a script rather than a paste -->
 
-* Step 1: Run [https://issue-tracker.miraheze.org/P220](https://issue-tracker.miraheze.org/P220) (you will have to do it a few times as at the apt-install step, it forgets the commands to run after). If you cannot just copy-paste, use a URL to download the script:
-* `wget -O puppet.sh https://phorge-static.wikitide.net/file/data/wmmm75y6r7nls47h6rtf/PHID-FILE-viitpgh7mzarscwsnszy/puppet_install_script`
+* Step 1: Run [https://issue-tracker.miraheze.org/P220](https://issue-tracker.miraheze.org/P220) (you will have to do it a few times as at the apt install step, it forgets the commands to run after). If you cannot just copy-paste, use a URL to download the script:
+   * `apt -o "Acquire::http::Proxy=http://10.0.16.127:8080" install -y wget`
+   * `export https_proxy="http://10.0.16.127:8080"`
+   * `wget -O openvox.sh https://phorge-static.wikitide.net/file/data/rja55vptdqcpvnwxjbvi/PHID-FILE-2ipk7be2cwz5khq7z6kw/openvox_install_script`
 * Step 2: (On the **puppetserver**) `cd /etc/puppetlabs/puppet/git && git pull`
 * Step 3: (On the **agent**) execute `puppet agent -tv --server puppet181.wikitide.net --waitforcert 60 `
+* **NOTE**: You may need to add `10.0.18.100 puppet181.wikitide.net puppet181` to `/etc/hosts` for the first run. This should be removed afterwards.
 * Step 4: (On the **puppetserver**) Check `puppetserver ca list`, and make sure that the fingerprints match
 * Step 5: (On the **puppetserver**) <ins>After you have made sure that the fingerprints match</ins>, execute:
-* `puppetserver ca sign --certname [servername].wikitide.net`
+* `puppetserver ca sign --certname [servername].[dcname].wtnet`
 * Step 6: (On the **agent**) execute `puppet agent -tv --server puppet181.wikitide.net`
     `{{ {{note}} }}` The agent will automatically detect the signed certificate and proceed from there.
 * Step 7: (On the **agent**) verify that `puppet agent -tv` works without `--server puppet181.wikitide.net`.

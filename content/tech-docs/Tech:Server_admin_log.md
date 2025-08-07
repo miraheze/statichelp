@@ -2,6 +2,67 @@
 title: Tech:Server admin log
 ---
 
+## 2025-08-06 
+
+* 20:39 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=bugfablespluswiki --requester=Benji-Menji (END - exit=0)
+* 15:43 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=newnovawiki --update (END - exit=0)
+* 15:43 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=newnovawiki (END - exit=0)
+* 15:41 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php rebuildall --wiki=newnovawiki (END - exit=0)
+* 13:16 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php rebuildall --wiki=newnovawiki (START)
+* 13:16 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php rebuildall --wiki=newnovawiki (END - exit=2)
+* 07:56 MirahezeLSBot: [agent@mwtask181] finished deploy of {'l10n': True, 'versions': ['1.43', '1.44']} to all - SUCCESS in 903s
+* 07:47 Universal Omega: destory and recreate the unused os202 VM (preparing to use) using OVMF BIOS
+* 07:41 MirahezeLSBot: [agent@mwtask181] starting deploy of {'l10n': True, 'versions': ['1.43', '1.44']} to all
+* 07:41 MirahezeLSBot: [agent@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 45s
+* 07:40 MirahezeLSBot: [agent@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MirahezeMagic'} to all
+* 07:20 MirahezeLSBot: [agent@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'RequestSSL'} to all - SUCCESS in 45s
+* 07:20 MirahezeLSBot: [agent@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'RequestSSL'} to all
+* 07:18 MirahezeLSBot: [agent@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 48s
+* 07:18 MirahezeLSBot: [agent@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MirahezeMagic'} to all
+* 07:17 MirahezeLSBot: [agent@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 07:09 MirahezeLSBot: [agent@mwtask181] starting deploy of {'l10n': True, 'versions': ['1.43', '1.44']} to all
+* 07:09 MirahezeLSBot: [agent@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 07:08 MirahezeLSBot: [agent@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 07:08 MirahezeLSBot: [agent@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'RequestSSL'} to all - SUCCESS in 48s
+* 07:07 MirahezeLSBot: [agent@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'RequestSSL'} to all
+* 07:00 MirahezeLSBot: [agent@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 07:00 MirahezeLSBot: [agent@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 06:56 MirahezeLSBot: [agent@test151] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'RequestSSL'} to test151 - SUCCESS in 1s
+* 06:56 MirahezeLSBot: [agent@test151] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'RequestSSL'} to test151
+* 06:47 MirahezeLSBot: [agent@test151] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'RequestSSL'} to test151 - SUCCESS in 1s
+* 06:47 MirahezeLSBot: [agent@test151] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'RequestSSL'} to test151
+* 03:33 MirahezeLSBot: [macfan@test151] finished deploy of {'pull': 'errorpages', 'errorpages': True} to test151 - SUCCESS in 0s
+* 03:33 MirahezeLSBot: [macfan@test151] starting deploy of {'pull': 'errorpages', 'errorpages': True} to test151
+* 02:46 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 02:45 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 02:43 Universal Omega: finished operations on all swiftobject servers
+* 02:42 MirahezeLSBot: [universalomega@swiftobject151] sudo resize2fs /dev/sda1
+* 02:42 MirahezeLSBot: [universalomega@swiftobject151] sudo growpart /dev/sda 1
+* 02:37 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=newnovawiki --update (END - exit=0)
+* 02:36 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initEditCount --wiki=newnovawiki (END - exit=0)
+* 02:29 Universal Omega: starting on swiftobject151
+* 02:25 MirahezeLSBot: [universalomega@swiftobject161] sudo resize2fs /dev/sda1
+* 02:25 MirahezeLSBot: [universalomega@swiftobject161] sudo growpart /dev/sda 1
+* 02:14 Universal Omega: starting on swiftobject161
+* 02:09 MirahezeLSBot: [universalomega@swiftobject171] sudo resize2fs /dev/sdb1
+* 02:09 MirahezeLSBot: [universalomega@swiftobject171] sudo growpart /dev/sdb 1
+* 02:07 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php rebuildall --wiki=newnovawiki (START)
+* 01:55 Universal Omega: doing same on swiftobject171
+* 01:50 MirahezeLSBot: [universalomega@swiftobject181] sudo resize2fs /dev/sda1
+* 01:50 MirahezeLSBot: [universalomega@swiftobject181] sudo growpart /dev/sda 1
+* 01:34 Universal Omega: do same to swiftobject181 as others
+* 01:34 Universal Omega: shutdown swiftobject181
+* 01:33 MirahezeLSBot: [universalomega@swiftobject181] sudo apt install dosfstools grub-efi-amd64 gdisk cloud-guest-utils
+* 01:32 Universal Omega: installed dosfstools and grub-efi-amd64 on all swiftobject servers (or will)
+* 01:26 Universal Omega: reboot swiftobject191
+* 01:25 MirahezeLSBot: [universalomega@swiftobject191] sudo resize2fs /dev/sda1
+* 01:25 MirahezeLSBot: [universalomega@swiftobject191] sudo growpart /dev/sda 1
+* 01:24 MirahezeLSBot: [universalomega@swiftobject191] install cloud-guest-utils
+* 01:22 MirahezeLSBot: [universalomega@swiftobject191] uninstall grup-pc-bin and upgrade kernel and all packages and reboot
+* 01:02 Universal Omega: install gdisk on swiftobject191
+* 01:00 Universal Omega: boot swiftobject191 into rescue mode
+* 00:34 Universal Omega: backup finished (finally)
+
 ## 2025-08-05 
 
 * 23:46 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/cleanupTitles.php --wiki=twistingruinwiki (END - exit=0)
@@ -559,7 +620,7 @@ title: Tech:Server admin log
 * 09:18 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=telefoniaipredsessebastiansaavedrawiki --new=voipsaavedrawiki --user=Reception123 (END - exit=256)
 * 09:17 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=synergycancerprojectwiki --new=synergycancerprotocolwiki --user=Reception123 (END - exit=0)
 * 09:14 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=accishiwiki --new=vehiclesofbrickrigswiki --user=Reception123 (END - exit=0)
-* 09:13 RhinosF1: sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php reassignEdits --wiki=deadmau5wiki Wmyttmlimvty "It's moon"
+* 09:13 RhinosF1: sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php reassignEdits --wiki=deadmau5wiki GDPR-Blanked User "It's moon"
 * 09:12 Reception123: DROP DATABASE vehiclesofbrickrigswiki; (previously failed rename)
 * 09:09 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=accishiwiki --new=vehiclesofbrickrigswiki --user=Reception123 (END - exit=256)
 * 08:45 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=1819rpwiki --new=paxamericana1wiki --user='BlankEclair_(Miraheze)' (END - exit=0)
