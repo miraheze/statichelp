@@ -2,6 +2,21 @@
 title: Tech:Server admin log
 ---
 
+## 2025-08-07 
+
+* 23:16 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importDump --wiki=left4deadwiki ./left4dead_pages_full.xml --username-prefix=fandom:left4dead --no-updates (START)
+* 22:57 @abaddriverlol: fixed slot roles and content models on despairacademywiki using SQL by following [https://meta.miraheze.org/wiki/Tech:Fixing_slot_roles_and_content_models](https://meta.miraheze.org/wiki/Tech:Fixing_slot_roles_and_content_models); full SQL in [https://issue-tracker.miraheze.org/T14107#282734](https://issue-tracker.miraheze.org/T14107#282734)
+* 22:29 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=doomspiredefensewiki ./images --comment='Importing images from doomspire-defense.fandom.com ([T14105](https://meta.miraheze.org/wiki/phorge:T14105))' --sleep=1 (END - exit=0)
+* 21:46 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=doomspiredefensewiki ./images --comment='Importing images from doomspire-defense.fandom.com ([T14105](https://meta.miraheze.org/wiki/phorge:T14105))' --sleep=1 (START)
+* 21:44 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=doomspiredefensewiki ./images --comment='Importing images from doomspire-defense.fandom.com ([T14105](https://meta.miraheze.org/wiki/phorge:T14105))' --sleep=1 (END - exit=256)
+* 21:44 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=doomspiredefensewiki ./images --comment='Importing images from doomspire-defense.fandom.com ([T14105](https://meta.miraheze.org/wiki/phorge:T14105))' --sleep=1 (START)
+* 19:27 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CreateWiki:SetContainersAccess --wiki=despairacademywiki (END - exit=0)
+* 19:25 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:SetContainersAccess --wiki=despairacademywiki (END - exit=256)
+* 19:15 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 19:15 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:14 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 19:13 MirahezeLSBot: [universalomega@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+
 ## 2025-08-06 
 
 * 20:39 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=bugfablespluswiki --requester=Benji-Menji (END - exit=0)
