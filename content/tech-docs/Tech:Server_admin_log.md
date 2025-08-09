@@ -2,6 +2,47 @@
 title: Tech:Server admin log
 ---
 
+## 2025-08-08 
+
+* 22:42 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:ResetWikiCaches --wiki=metawiki (END - exit=0)
+* 22:40 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': ['MirahezeMagic', 'RequestSSL']} to all - SUCCESS in 101s
+* 22:38 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': ['MirahezeMagic', 'RequestSSL']} to all
+* 22:21 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'ArticleFeedbackv5'} to all - SUCCESS in 30s
+* 22:20 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'ArticleFeedbackv5'} to all
+* 22:19 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'ArticleFeedbackv5'} to test151 - SUCCESS in 0s
+* 22:19 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'ArticleFeedbackv5'} to test151
+* 22:19 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'ArticleFeedbackv5'} to test151 - SUCCESS in 0s
+* 22:19 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'ArticleFeedbackv5'} to test151
+* 22:17 @abaddriverlol: ran "sudo -u www-data rm -rf /srv/mediawiki-staging/{1.43,1.44}/extensions/ArticleFeedbackv5 && sudo puppet agent -tv" on test151 and mwtask181
+* 22:00 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:ToggleExtension --wiki=exttestwikibeta --name=articlefeedbackv5 --disable (END - exit=0)
+* 21:57 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 21:57 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 21:56 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 21:56 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 21:43 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'Cargo'} to test151 - SUCCESS in 1s
+* 21:43 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'Cargo'} to test151
+* 20:15 @abaddriverlol: ran "DROP TABLE wbt_term_in_lang, wbt_property_terms, wbt_item_terms, wbt_text_in_lang, wbt_text;" on wikibasewikibeta
+* 19:51 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php refreshLinks --wiki=royalwiki (END - exit=256)
+* 19:51 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php refreshLinks --wiki=royalwiki (START)
+* 19:44 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CreateWiki:SetContainersAccess --wiki=vocapediawiki (END - exit=0)
+* 19:43 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=indievocalsynthwikiwiki --new=vocapediawiki --user=Skye (END - exit=0)
+* 19:36 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CreateWiki:SetContainersAccess --wiki=valariawiki (END - exit=0)
+* 19:36 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=alderlandwiki --new=valariawiki --user=Skye (END - exit=0)
+* 10:13 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php purgeParserCache --wiki=left4deadwiki --age=300 (END - exit=0)
+* 08:49 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=left4deadwiki --update (END - exit=0)
+* 08:49 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initEditCount --wiki=left4deadwiki (END - exit=0)
+* 08:33 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 08:33 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 06:24 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=left4deadwiki ./l4dfiles/ --search-recursively --sleep=1 --comment='Importing images from left4dead.fandom.com ([T14106](https://meta.miraheze.org/wiki/phorge:T14106))' (END - exit=0)
+* 05:27 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php rebuildall --wiki=left4deadwiki (END - exit=0)
+* 04:26 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=left4deadwiki ./l4dfiles/ --search-recursively --sleep=1 --comment='Importing images from left4dead.fandom.com ([T14106](https://meta.miraheze.org/wiki/phorge:T14106))' (START)
+* 04:21 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=left4deadwiki ./l4dfiles --search-recursively --sleep=1 --comment='Importing images from left4dead.fandom.com ([T14106](https://meta.miraheze.org/wiki/phorge:T14106))' (END - exit=256)
+* 04:21 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=left4deadwiki ./l4dfiles --search-recursively --sleep=1 --comment='Importing images from left4dead.fandom.com ([T14106](https://meta.miraheze.org/wiki/phorge:T14106))' (START)
+* 04:18 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=left4deadwiki ./images --search-recursively --sleep=1 --comment='Importing images from left4dead.fandom.com ([T14106](https://meta.miraheze.org/wiki/phorge:T14106))' (END - exit=256)
+* 04:18 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=left4deadwiki ./images --search-recursively --sleep=1 --comment='Importing images from left4dead.fandom.com ([T14106](https://meta.miraheze.org/wiki/phorge:T14106))' (START)
+* 04:12 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php rebuildall --wiki=left4deadwiki (START)
+* 02:59 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importDump --wiki=left4deadwiki ./left4dead_pages_full.xml --username-prefix=fandom:left4dead --no-updates (END - exit=0)
+
 ## 2025-08-07 
 
 * 23:16 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importDump --wiki=left4deadwiki ./left4dead_pages_full.xml --username-prefix=fandom:left4dead --no-updates (START)
