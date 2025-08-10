@@ -2,6 +2,47 @@
 title: Tech:Server admin log
 ---
 
+## 2025-08-09 
+
+* 17:10 Universal Omega: RENAME TABLE requestssl_requests TO customdomain_requests, requestssl_request_comments TO customdomain_request_comments; on metawiki
+* 17:09 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'RequestSSL'} to all - SUCCESS in 49s
+* 17:08 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'RequestSSL'} to all
+* 17:08 Universal Omega: RENAME TABLE requestssl_requests TO customdomain_requests, requestssl_request_comments TO customdomain_request_comments; on metawikibeta
+* 16:28 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CreateWiki:SetContainersAccess --wiki=baslamowiki (END - exit=0)
+* 16:26 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=basramowiki --new=baslamowiki --user=Skye (END - exit=0)
+* 14:27 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importDump --wiki=danmachienwiki --no-updates --username-prefix=wikia:danmachi -- dungeonnideaiomotomeru_pages_full.xml (START)
+* 14:27 MirahezeLSBot: [skye@mwtask181] Starting import for danmachienwiki (XML: dungeonnideaiomotomeru_pages_full.xml; Images: None) (START)
+* 12:29 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 12:28 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 10:24 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:ToggleExtension --wiki=exttestwikibeta --name=dynamicsidebar --disable (END - exit=0)
+* 10:12 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'EmbedVideo'} to all - SUCCESS in 25s
+* 10:12 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'EmbedVideo'} to all
+* 10:09 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'EmbedVideo'} to test151 - SUCCESS in 0s
+* 10:09 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'EmbedVideo'} to test151
+* 10:09 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'EmbedVideo'} to test151 - SUCCESS in 0s
+* 10:09 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'EmbedVideo'} to test151
+* 10:07 MirahezeLSBot: [somerandomdeveloper@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 10:07 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'EmbedVideo'} to test151
+* 09:40 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'AutoCreatePage'} to all - SUCCESS in 24s
+* 09:40 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'AutoCreatePage'} to all
+* 09:40 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'AutoCreatePage'} to test151 - SUCCESS in 1s
+* 09:39 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'AutoCreatePage'} to test151
+* 06:20 Universal Omega: restart logbot
+* 03:00 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=mockupediawiki (START)
+* 03:00 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=mockupediawiki dump.xml --no-updates (END - exit=0)
+* 02:12 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=mockupediawiki dump.xml --no-updates (START)
+* 01:56 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'RequestSSL'} to all - SUCCESS in 50s
+* 01:55 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'RequestSSL'} to all
+* 01:54 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'RequestSSL'} to all - SUCCESS in 44s
+* 01:53 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'RequestSSL'} to all
+* 01:25 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:ResetWikiCaches --wiki=metawiki (END - exit=0)
+* 01:21 Universal Omega: ALTER TABLE requestssl_requests DROP COLUMN request_private; on metawiki
+* 01:20 Universal Omega: ALTER TABLE requestssl_requests DROP COLUMN request_private; on metawikibeta
+* 01:18 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 01:17 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 01:02 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'RequestSSL'} to all - SUCCESS in 51s
+* 01:01 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'RequestSSL'} to all
+
 ## 2025-08-08 
 
 * 22:42 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:ResetWikiCaches --wiki=metawiki (END - exit=0)
