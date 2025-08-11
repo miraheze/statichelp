@@ -92,9 +92,9 @@ Some repositories may be given access to Technology team members without shell a
 * **Push Access**: [Infrastructure Specialists](/tech-docs/techorganization#infrastructure-specialist), [MediaWiki Specialists](/tech-docs/techorganization#mediawiki-specialist), [Software Engineers](/tech-docs/techorganization#software-engineer), i18n [^1]
 * **Servers**: MediaWiki servers [^2]
 
-### RequestSSL 
+### RequestCustomDomain 
 
-[RequestSSL](https://github.com/miraheze/RequestSSL) is a MediaWiki extension designed to facilitate user SSL requests for custom domains.
+[RequestCustomDomain](https://github.com/miraheze/RequestCustomDomain) is a MediaWiki extension designed to facilitate user custom domain requests.
 * **Push Access**: [Infrastructure Specialists](/tech-docs/techorganization#infrastructure-specialist), [MediaWiki Specialists](/tech-docs/techorganization#mediawiki-specialist), [Software Engineers](/tech-docs/techorganization#software-engineer), i18n [^1]
 * **Servers**: MediaWiki servers [^2]
 
