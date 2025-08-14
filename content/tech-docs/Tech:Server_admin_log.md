@@ -2,6 +2,65 @@
 title: Tech:Server admin log
 ---
 
+## 2025-08-13 
+
+* 22:26 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php rebuildall --wiki=mlaatrabbotwiki (START)
+* 22:26 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importDump --wiki=mlaatrabbotwiki --no-updates --username-prefix=wikia:mlaatrabbot -- ./mlaatrabbot_dump.xml (END - exit=0)
+* 22:18 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initEditCount --wiki=left4deadwiki (END - exit=0)
+* 22:18 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=left4deadwiki --import-prefix=fandom:left4dead --from=Randompeeponinternet --to=DucDuyGaming (END - exit=0)
+* 22:15 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=left4deadwiki --import-prefix=fandom:left4dead --from=TheRealL4D2Ellis (END - exit=0)
+* 22:01 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importDump --wiki=mlaatrabbotwiki --no-updates --username-prefix=wikia:mlaatrabbot -- ./mlaatrabbot_dump.xml (START)
+* 22:01 MirahezeLSBot: [skye@mwtask181] Starting import for mlaatrabbotwiki (XML: ./mlaatrabbot_dump.xml; Images: None) (START)
+* 20:45 MirahezeLSBot: [paladox@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 20:45 MirahezeLSBot: [paladox@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 20:33 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 51s
+* 20:32 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'ManageWiki'} to all
+* 20:22 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CreateWiki:SetContainersAccess --wiki=ecbtwiki (END - exit=0)
+* 20:21 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=theofficialecbtwikiwiki --new=ecbtwiki --user=Skye (END - exit=0)
+* 20:14 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 20:13 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 18:42 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 18:41 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 18:41 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 55s
+* 18:40 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'CreateWiki'} to all
+* 18:21 @paladox: set network queue to 2 on graylog
+* 18:21 @paladox: set network queue to 4 on matomo
+* 18:20 @paladox: set network queue to 2 on kafka
+* 18:19 @paladox: set network queue to 2 on eventgate
+* 18:16 @paladox: set network queue to 2 on puppet
+* 17:32 @paladox: increase puppet181 ram to 16gb
+* 17:29 MirahezeLSBot: [skye@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 17:28 MirahezeLSBot: [skye@test151] starting deploy of {'config': True} to test151
+* 17:06 @paladox: change network queue for rdb to 2
+* 17:01 @paladox: set network queue to 4 on mem, rdb, db, mw, swift, mon, prometheus and cp
+* 16:22 @paladox: set cpuunits to 3072 for cp
+* 16:20 @paladox: set cpuunits to 2048 for cp
+* 16:19 @paladox: set cpuunits to 4096 for mw
+* 16:15 @paladox: set cpunits to 4096 for db and mem/rdb
+* 09:29 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.43/maintenance/run.php ManageWiki:ResetWikiCaches (END - exit=0)
+* 08:49 Universal Omega: salt-user was me
+* 08:49 MirahezeLSBot: [salt-user@mwtask181] finished deploy of {'extension_list': True, 'versions': ['1.43', '1.44']} to all - SUCCESS in 42s
+* 08:48 MirahezeLSBot: [salt-user@mwtask181] finished deploy of {'extension_list': True, 'versions': ['1.43', '1.44']} to all - SUCCESS in 43s
+* 08:48 MirahezeLSBot: [salt-user@mwtask181] starting deploy of {'extension_list': True, 'versions': ['1.43', '1.44']} to all
+* 08:48 MirahezeLSBot: [salt-user@mwtask181] starting deploy of {'extension_list': True, 'versions': ['1.43', '1.44']} to all
+* 08:48 MirahezeLSBot: [salt-user@mwtask171] finished deploy of {'extension_list': True, 'versions': []} to all - SUCCESS in 0s
+* 08:48 MirahezeLSBot: [salt-user@mwtask171] starting deploy of {'extension_list': True, 'versions': []} to all
+* 08:17 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=mariaworldwiki (END - exit=0)
+* 04:38 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=metawiki --all-wikis (END - exit=0)
+* 00:54 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 00:48 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force': True, 'force_upgrade': True, 'versions': ['1.43', '1.44'], 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 48s
+* 00:48 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force': True, 'force_upgrade': True, 'versions': ['1.43', '1.44'], 'upgrade_extensions': 'CreateWiki'} to all
+* 00:47 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force': True, 'versions': ['1.43', '1.44'], 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 3s
+* 00:47 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force': True, 'versions': ['1.43', '1.44'], 'upgrade_extensions': 'CreateWiki'} to all
+* 00:46 MirahezeLSBot: [universalomega@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mw151
+* 00:46 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'CreateWiki'} to all
+* 00:45 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 48s
+* 00:45 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MirahezeMagic'} to all
+* 00:43 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 50s
+* 00:42 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MirahezeMagic'} to all
+* 00:40 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force': True, 'versions': ['1.43', '1.44'], 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 53s
+* 00:39 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force': True, 'versions': ['1.43', '1.44'], 'upgrade_extensions': 'ManageWiki'} to all
+
 ## 2025-08-12 
 
 * 23:16 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
