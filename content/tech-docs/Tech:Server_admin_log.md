@@ -2,6 +2,46 @@
 title: Tech:Server admin log
 ---
 
+## 2025-08-14 
+
+* 22:07 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 22:07 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 22:01 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': ['CreateWiki', 'ManageWiki']} to all - SUCCESS in 94s
+* 21:59 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': ['CreateWiki', 'ManageWiki']} to all
+* 21:59 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 21:59 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 21:25 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php deleteBatch --wiki=soulframewiki ./soulframemain (END - exit=0)
+* 21:23 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php deleteBatch --wiki=soulframewiki ./soulframemain (START)
+* 21:20 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php deleteBatch --wiki=soulframewiki listfile=./soulframemain (END - exit=256)
+* 21:20 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php deleteBatch --wiki=soulframewiki listfile=./soulframemain (START)
+* 20:52 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'extension_list': True, 'versions': ['1.43', '1.44']} to all - SUCCESS in 50s
+* 20:51 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'extension_list': True, 'versions': ['1.43', '1.44']} to all
+* 20:51 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 50s
+* 20:50 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'ManageWiki'} to all
+* 20:31 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'errorpages', 'errorpages': True} to all - SUCCESS in 23s
+* 20:30 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'errorpages', 'errorpages': True} to all
+* 20:30 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force': True, 'versions': ['1.43', '1.44'], 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 62s
+* 20:29 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force': True, 'versions': ['1.43', '1.44'], 'upgrade_extensions': 'CreateWiki'} to all
+* 17:04 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 17:03 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 16:47 MirahezeLSBot: [skye@mwtask181] Finished import for mlaatrabbotwiki (XML: None; Images: ./mlaatrabbotfiles) (END - exit=0)
+* 16:47 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=mlaatrabbotwiki --update (END - exit=0)
+* 16:47 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=mlaatrabbotwiki --update (START)
+* 16:47 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=mlaatrabbotwiki --sleep=0 '--comment=Importing images from [https://mlaatrabbot.fandom.com](https://mlaatrabbot.fandom.com) ([T14130](https://meta.miraheze.org/wiki/phorge:T14130))' -- ./mlaatrabbotfiles (END - exit=0)
+* 16:46 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=mlaatrabbotwiki --sleep=0 '--comment=Importing images from [https://mlaatrabbot.fandom.com](https://mlaatrabbot.fandom.com) ([T14130](https://meta.miraheze.org/wiki/phorge:T14130))' -- ./mlaatrabbotfiles (START)
+* 16:46 MirahezeLSBot: [skye@mwtask181] Starting import for mlaatrabbotwiki (XML: None; Images: ./mlaatrabbotfiles) (START)
+* 13:56 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CreateWiki:SetContainersAccess --wiki=bloxianitieswiki (END - exit=0)
+* 13:54 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=paxbloxiawiki --new=bloxianitieswiki --user=Skye (END - exit=0)
+* 12:24 @pskyechology: [skye@mwtask181]: sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=left4deadwiki --import-prefix=fandom:left4dead --from="Breakin'Benny" --to=BreakingBenny
+* 02:56 MirahezeLSBot: [skye@mwtask181] Finished import for mlaatrabbotwiki (XML: ./mlaatrabbot_dump.xml; Images: None) (END - exit=0)
+* 02:56 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=mlaatrabbotwiki --update (END - exit=0)
+* 02:56 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=mlaatrabbotwiki --update (START)
+* 02:56 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initEditCount --wiki=mlaatrabbotwiki (END - exit=0)
+* 02:56 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initEditCount --wiki=mlaatrabbotwiki (START)
+* 02:56 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php rebuildall --wiki=mlaatrabbotwiki (END - exit=0)
+* 02:07 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 53s
+* 02:06 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'ManageWiki'} to all
+
 ## 2025-08-13 
 
 * 22:26 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php rebuildall --wiki=mlaatrabbotwiki (START)
