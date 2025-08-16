@@ -2,6 +2,11 @@
 title: Tech:Server admin log
 ---
 
+## 2025-08-15 
+
+* 15:17 @pskyechology: MediaWiki\Extension\CentralAuth\User\CentralAuthUser::getInstance( User::newFromName( 'PrabhasXD' ) )->attach( 'parkourrebornwiki', 'admin' );
+* 13:57 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php purgeParserCache --wiki=tintinpediawiki --age=86400 (END - exit=0)
+
 ## 2025-08-14 
 
 * 22:07 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
