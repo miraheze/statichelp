@@ -13,7 +13,7 @@ Currently, servers at Miraheze are used for:
 * [DNS](/tech-docs/techdns): [ns1](/tech-docs/techns1), [ns2](/tech-docs/techns2)
 * [Mattermost](/tech-docs/techmattermost): mattermost1
 * [MediaWiki](/tech-docs/techmediawiki_appserver): [mw151](/tech-docs/techmw151), [mw152](/tech-docs/techmw152), mw153, [mw161](/tech-docs/techmw161), [mw162](/tech-docs/techmw162), mw163, [mw171](/tech-docs/techmw171), [mw172](/tech-docs/techmw172), mw173, [mw181](/tech-docs/techmw181), [mw182](/tech-docs/techmw182), mw183, mw191, mw192, mw193, mw201, mw202, mw203, mwtask151, mwtask161, [mwtask171](/tech-docs/techmwtask171), [mwtask181](/tech-docs/techmwtask181)
-* [Swift](/tech-docs/techswift): [swiftac171](/tech-docs/techswiftac171), [swiftobject151](/tech-docs/techswiftobject151), [swiftobject161](/tech-docs/techswiftobject161), [swiftobject171](/tech-docs/techswiftobject171), [swiftobject181](/tech-docs/techswiftobject181), swiftobject191, swiftobject201, [swiftproxy161](/tech-docs/techswiftproxy161), [swiftproxy171](/tech-docs/techswiftproxy171)
+* [Swift](/tech-docs/techswift): [swiftac171](/tech-docs/techswiftac171), [swiftobject151](/tech-docs/techswiftobject151), [swiftobject161](/tech-docs/techswiftobject161), [swiftobject171](/tech-docs/techswiftobject171), [swiftobject181](/tech-docs/techswiftobject181), [swiftobject191](https://meta.miraheze.org/wiki/Tech:swiftobject191), [swiftobject201](https://meta.miraheze.org/wiki/Tech:swiftobject201), [swiftproxy161](/tech-docs/techswiftproxy161), [swiftproxy171](/tech-docs/techswiftproxy171)
 * Miscellaneous
    * [mon181](/tech-docs/techmon181): [Grafana](/tech-docs/techgrafana), [Icinga](/tech-docs/techicinga)
    * [phorge171](/tech-docs/techphorge171): [Phorge](/tech-docs/techphorge)
@@ -91,12 +91,12 @@ Currently, servers at Miraheze are used for:
 | rdb151 | 4 GB | 2 cores (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [reports171](/tech-docs/techreports171) | 1 GB | 2 cores (unknown speed) | 20 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [swiftac171](/tech-docs/techswiftac171) | 8 GB | 6 cores (unknown speed) | 100 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [swiftobject151](/tech-docs/techswiftobject151) | 6 GB | 6 cores (unknown speed) | 1.5 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [swiftobject161](/tech-docs/techswiftobject161) | 6 GB | 6 cores (unknown speed) | 1.5 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [swiftobject171](/tech-docs/techswiftobject171) | 6 GB | 6 cores (unknown speed) | 1.5 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [swiftobject181](/tech-docs/techswiftobject181) | 6 GB | 6 cores (unknown speed) | 1.5 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| swiftobject191 | 6 GB | 6 cores (unknown speed) | 1.5 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| swiftobject201 | 6 GB | 6 cores (unknown speed) | 1.5 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [swiftobject151](/tech-docs/techswiftobject151) | 12 GB | 6 cores (unknown speed) | 3 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [swiftobject161](/tech-docs/techswiftobject161) | 12 GB | 6 cores (unknown speed) | 3 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [swiftobject171](/tech-docs/techswiftobject171) | 12 GB | 6 cores (unknown speed) | 3 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [swiftobject181](/tech-docs/techswiftobject181) | 12 GB | 6 cores (unknown speed) | 3 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [swiftobject191](https://meta.miraheze.org/wiki/Tech:swiftobject191) | 12 GB | 6 cores (unknown speed) | 3 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [swiftobject201](https://meta.miraheze.org/wiki/Tech:swiftobject201) | 12 GB | 6 cores (unknown speed) | 3 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [swiftproxy161](/tech-docs/techswiftproxy161) | 4 GB | 8 cores (unknown speed) | 30 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [swiftproxy171](/tech-docs/techswiftproxy171) | 4 GB | 4 cores (unknown speed) | 30 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [test151](/tech-docs/techtest151) | 12 GB | 12 cores (unknown speed) | 100 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |

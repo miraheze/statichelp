@@ -19,13 +19,13 @@ You can add `--no-log`, which will direct output to your terminal rather than `l
 For skins, use `--upgrade-skins` instead of `--upgrade-extensions`.
 
 To upgrade an extension on all MediaWiki versions:
-* `mwdeploy --upgrade-extension=ExtensionName --servers=all --versions=all`
+* `mwdeploy --upgrade-extensions=ExtensionName --servers=all --versions=all`
 
 To upgrade an extension on a specific MediaWiki version:
-* `mwdeploy --upgrade-extension=ExtensionName --servers=all --versions=1.44`
+* `mwdeploy --upgrade-extensions=ExtensionName --servers=all --versions=1.44`
 
 Multiple extensions can also be upgraded at the same time by separating the names with commas:
-* `mwdeploy --upgrade-extension=Extension1,Extension2,Extension3 --servers=all --versions=all`
+* `mwdeploy --upgrade-extensions=Extension1,Extension2,Extension3 --servers=all --versions=all`
 
 ## Deploying config changes 
 

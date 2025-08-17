@@ -9,9 +9,9 @@ title: Tech:Swiftobject181
 | host = swiftobject181.wikitide.net
 | usage = Swift
 | status = running
-| memory = 6GB
+| memory = 12GB
 | cpu = 6 cores
-| ssd = 1.5TB U.2 NVMe
+| ssd = 3TB U.2 NVMe
 | os = Debian 12
 | type = KVM
 | kernel =

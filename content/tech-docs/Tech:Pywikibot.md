@@ -10,8 +10,6 @@ Its crontab and family config can be viewed and edited via the [pywikibot-config
 
 It runs the [stable branch](https://meta.miraheze.org/wiki/github:wikimedia/pywikibot/tree/stable), with the latest commits automatically pulled in on every puppet run.
 
-Config
-
 ## Usage
 
 To run scripts, instead of invoking pwb.py directly, you have to use the wrapper script [pywikibot](https://meta.miraheze.org/wiki/github:miraheze/puppet/blob/main/modules/irc/templates/pywikibot/pywikibot.sh) as the pywikibot user (`sudo -u pywikibot pywikibot <script> <parameters>`). This script itself doesn't interpret any of the parameters, all parameters to it are passed as-is to pwb.py

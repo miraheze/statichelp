@@ -2,6 +2,33 @@
 title: Tech:Server admin log
 ---
 
+## 2025-08-16 
+
+* 16:27 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CreateWiki:SetContainersAccess --wiki=osterholtwiki (END - exit=0)
+* 16:26 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=englandpoliticalsimwiki --new=osterholtwiki --user=Skye (END - exit=0)
+* 16:14 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'versions': ['1.43', '1.44'], 'upgrade_extensions': 'DiscordNotifications'} to all - SUCCESS in 74s
+* 16:13 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'versions': ['1.43', '1.44'], 'upgrade_extensions': 'DiscordNotifications'} to all
+* 16:05 MirahezeLSBot: [skye@test151] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'DiscordNotifications'} to test151 - SUCCESS in 1s
+* 16:05 MirahezeLSBot: [skye@test151] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'DiscordNotifications'} to test151
+* 14:37 MirahezeLSBot: [skye@test151] finished deploy of {'pull': 'config', 'config': True, 'versions': ['1.43', '1.44'], 'upgrade_extensions': 'DiscordNotifications'} to test151 - SUCCESS in 3s
+* 14:37 MirahezeLSBot: [skye@test151] starting deploy of {'pull': 'config', 'config': True, 'versions': ['1.43', '1.44'], 'upgrade_extensions': 'DiscordNotifications'} to test151
+* 14:33 MirahezeLSBot: [skye@test151] DEPLOY ABORTED: Canary check failed for meta.mirabeta.org@localhost
+* 14:33 MirahezeLSBot: [skye@test151] starting deploy of {'config': True, 'versions': ['1.43', '1.44'], 'upgrade_extensions': 'DiscordNotifications'} to test151
+* 14:24 MirahezeLSBot: [skye@test151] DEPLOY ABORTED: Canary check failed for meta.mirabeta.org@localhost
+* 14:24 MirahezeLSBot: [skye@test151] starting deploy of {'config': True, 'versions': ['1.43', '1.44'], 'upgrade_extensions': 'DiscordNotifications'} to test151
+* 13:11 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=aarnwiki /home/reception/aarn/dumpBackup.xml --username-prefix=aarn (END - exit=0)
+* 12:52 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importImages.php --wiki=aarnwiki /home/reception/aarn/w/images --search-recursively --summary=Imported from [https://aarn.nfshost.com](https://aarn.nfshost.com) (END - exit=0)
+* 12:51 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importImages.php --wiki=aarnwiki /home/reception/aarn/w/images --search-recursively --summary=Imported from [https://aarn.nfshost.com](https://aarn.nfshost.com) (START)
+* 12:48 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=aarnwiki /home/reception/aarn/dumpBackup.xml --username-prefix=aarn (START)
+* 01:35 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': ['1.43', '1.44']} to all - SUCCESS in 1001s
+* 01:18 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'l10n': True, 'versions': ['1.43', '1.44']} to all
+* 01:18 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'RequestCustomDomain'} to all - SUCCESS in 50s
+* 01:17 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'RequestCustomDomain'} to all
+* 01:17 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 50s
+* 01:16 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MirahezeMagic'} to all
+* 01:15 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': ['CreateWiki', 'ManageWiki']} to all - SUCCESS in 55s
+* 01:14 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': ['CreateWiki', 'ManageWiki']} to all
+
 ## 2025-08-15 
 
 * 15:17 @pskyechology: MediaWiki\Extension\CentralAuth\User\CentralAuthUser::getInstance( User::newFromName( 'PrabhasXD' ) )->attach( 'parkourrebornwiki', 'admin' );
