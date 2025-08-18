@@ -2,6 +2,53 @@
 title: Tech:Server admin log
 ---
 
+## 2025-08-17 
+
+* 20:41 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CreateWiki:SetContainersAccess --wiki=tourbillonwiki (END - exit=0)
+* 20:38 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=tourbillionwiki --new=tourbillonwiki --user=Skye (END - exit=0)
+* 18:32 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 31s
+* 18:31 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 18:30 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 18:30 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 18:29 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 18:29 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 18:24 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 18:24 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 11:57 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 11:57 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 11:55 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 11:55 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 11:41 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 11:40 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 11:40 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 11:40 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 11:36 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 11:36 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 11:26 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 11:26 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 11:22 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 11:22 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 11:13 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:PopulateNamespaces --wiki=randomstuffwikibeta --force (END - exit=0)
+* 11:13 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php ManageWiki:PopulateNamespaces --wiki=morerandomstuffwikibeta --force (END - exit=0)
+* 11:13 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php ManageWiki:PopulateNamespaces --wiki=morerandomstuffwikibeta (END - exit=256)
+* 11:11 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:PopulateNamespaces --wiki=morerandomstuffwikibeta (END - exit=65280)
+* 10:59 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 22s
+* 10:59 BlankEclair: unmaint c2
+* 10:59 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 10:46 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 23s
+* 10:45 BlankEclair: put c2 (db161) back into maintenance where it belongs
+* 10:45 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 10:17 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 22s
+* 10:16 RhinosF1: kill mysql because it was being dumb and I don't have time to debug why
+* 10:16 BlankEclair: put c2 (db161) out of maintenane
+* 10:16 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 09:52 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 25s
+* 09:52 BlankEclair: put c2 (db161) into maintenance
+* 09:52 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 09:52 MirahezeLSBot: [blankeclair@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@localhost
+* 09:52 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'config': True} to all
+* 08:14 BlankEclair: MediaWiki\Extension\CentralAuth\User\CentralAuthUser::getInstance( User::newFromName( 'Janwexel' ) )->attach( 'osterholtwiki', 'admin' );
+
 ## 2025-08-16 
 
 * 16:27 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CreateWiki:SetContainersAccess --wiki=osterholtwiki (END - exit=0)
