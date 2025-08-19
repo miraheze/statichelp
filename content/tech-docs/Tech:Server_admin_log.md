@@ -2,6 +2,44 @@
 title: Tech:Server admin log
 ---
 
+## 2025-08-18 
+
+* 23:58 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 23:58 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 23:57 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 23:57 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 23:34 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 23:34 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 23:31 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CreateWiki:SetContainersAccess --wiki=fashiondreamerwikiwiki (END - exit=0)
+* 21:04 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'EditSimilar'} to all - SUCCESS in 36s
+* 21:04 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'EditSimilar'} to all
+* 21:03 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.43', 'upgrade_extensions': 'EditSimilar'} to test151 - SUCCESS in 1s
+* 21:03 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.43', 'upgrade_extensions': 'EditSimilar'} to test151
+* 19:53 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': ['1.43', '1.44']} to all - SUCCESS in 831s
+* 19:39 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'l10n': True, 'versions': ['1.43', '1.44']} to all
+* 19:30 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 52s
+* 19:29 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MirahezeMagic'} to all
+* 19:27 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 19:27 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:26 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force_upgrade': True, 'versions': ['1.43', '1.44'], 'upgrade_extensions': ['CreateWiki', 'ManageWiki']} to all - SUCCESS in 107s
+* 19:25 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force_upgrade': True, 'versions': ['1.43', '1.44'], 'upgrade_extensions': ['CreateWiki', 'ManageWiki']} to all
+* 19:24 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': ['CreateWiki', 'ManageWiki']} to all - SUCCESS in 2s
+* 19:24 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': ['CreateWiki', 'ManageWiki']} to all
+* 19:24 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': ['CreateWiki', 'ManageWiki']} to all - SUCCESS in 108s
+* 19:22 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': ['CreateWiki', 'ManageWiki']} to all
+* 19:22 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'RequestCustomDomain'} to all - SUCCESS in 59s
+* 19:21 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'RequestCustomDomain'} to all
+* 19:17 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'RequestCustomDomain'} to all - SUCCESS in 67s
+* 19:16 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'RequestCustomDomain'} to all
+* 10:59 MirahezeLSBot: [blankeclair@mwtask181] Finished import for soulframewiki (XML: None; Images: images) (END - exit=0)
+* 10:59 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=soulframewiki --update (END - exit=0)
+* 10:59 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=soulframewiki --update (START)
+* 10:59 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=soulframewiki --sleep=0 '--comment=Importing images from [https://wiki.avakot.org](https://wiki.avakot.org) / [https://s3.7thseraph.org/wiki.avakot.org/soulframe.icons/release/](https://s3.7thseraph.org/wiki.avakot.org/soulframe.icons/release/) ([T14148](https://meta.miraheze.org/wiki/phorge:T14148))' -- images (END - exit=0)
+* 10:55 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=soulframewiki --sleep=0 '--comment=Importing images from [https://wiki.avakot.org](https://wiki.avakot.org) / [https://s3.7thseraph.org/wiki.avakot.org/soulframe.icons/release/](https://s3.7thseraph.org/wiki.avakot.org/soulframe.icons/release/) ([T14148](https://meta.miraheze.org/wiki/phorge:T14148))' -- images (START)
+* 10:55 MirahezeLSBot: [blankeclair@mwtask181] Starting import for soulframewiki (XML: None; Images: images) (START)
+* 08:18 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'world': True, 'versions': ['1.43', '1.44']} to test151 - SUCCESS in 48s
+* 08:17 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'world': True, 'versions': ['1.43', '1.44']} to test151
+
 ## 2025-08-17 
 
 * 20:41 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CreateWiki:SetContainersAccess --wiki=tourbillonwiki (END - exit=0)
