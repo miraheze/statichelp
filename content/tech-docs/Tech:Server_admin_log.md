@@ -2,6 +2,65 @@
 title: Tech:Server admin log
 ---
 
+## 2025-08-20 
+
+* 20:09 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php purgeParserCache --wiki=everythingupgradetreewiki --age=600 (END - exit=0)
+* 19:40 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php purgeParserCache --wiki=everythingupgradetreewiki (END - exit=256)
+* 17:09 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CreateWiki:SetContainersAccess --wiki=amnhacvietnamwiki (END - exit=0)
+* 17:06 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=doanvietnamwiki --new=amnhacvietnamwiki --user=Skye (END - exit=0)
+* 15:51 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': ['ImportDump', 'MirahezeMagic']} to all - SUCCESS in 98s
+* 15:49 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': ['ImportDump', 'MirahezeMagic']} to all
+* 11:08 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=infinitymythoswiki --new=endlessdreamwiki --user=Reception123 (END - exit=0)
+* 11:04 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=infinitemythoswiki --new=endlessdreamwiki --user=Reception123 (END - exit=256)
+* 01:32 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libxslt1.1
+* 01:31 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: libxslt1.1
+* 01:31 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: libxslt1.1
+* 01:31 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: libxslt1.1
+* 01:31 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: libxslt1.1
+* 01:30 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: libxslt1.1
+* 01:30 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: libxslt1.1
+* 01:30 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: libxslt1.1
+* 01:30 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: libxslt1.1
+* 01:30 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: libxslt1.1
+* 01:29 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: libxslt1.1
+* 01:29 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: libxslt1.1
+* 01:28 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: libxslt1.1
+* 01:28 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: libxslt1.1
+* 01:27 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: libxslt1.1
+* 01:27 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: libxslt1.1
+* 01:27 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: libxslt1.1
+* 01:27 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libxslt1.1
+* 01:27 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: libxslt1.1
+* 01:26 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: libxslt1.1
+* 01:26 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: libxslt1.1
+* 01:26 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: libxslt1.1
+* 01:26 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: libxslt1.1
+* 01:25 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: libxslt1.1
+* 01:25 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: libxslt1.1
+* 01:25 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: libxslt1.1
+* 01:25 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: libxslt1.1
+* 01:24 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: libxslt1.1
+* 01:24 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: libxslt1.1
+* 01:24 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: libxslt1.1
+* 01:24 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: libxslt1.1
+* 01:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: libxslt1.1
+* 01:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: libxslt1.1
+* 01:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: libxslt1.1
+* 01:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: libxslt1.1
+* 01:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: libxslt1.1
+* 01:22 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost1: libxslt1.1
+* 01:21 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: libxslt1.1 and xsltproc
+* 01:21 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: libxslt1.1 and xsltproc
+* 01:20 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: libxslt1.1 and xsltproc
+* 01:20 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: libxslt1.1
+* 01:20 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: libxslt1.1
+* 01:19 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: libxslt1.1
+* 01:19 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: libxslt1.1 and xsltproc
+* 01:19 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: libxslt1.1 and xsltproc
+* 01:19 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: libxslt1.1
+* 01:18 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: libxslt1.1 and xsltproc
+* 01:18 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: libxslt1.1
+
 ## 2025-08-19 
 
 * 15:57 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'l10n': True, 'versions': ['1.43', '1.44'], 'upgrade_extensions': 'RobloxAPI'} to all - SUCCESS in 1047s
