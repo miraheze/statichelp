@@ -2,6 +2,19 @@
 title: Tech:Server admin log
 ---
 
+## 2025-08-21 
+
+* 23:39 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: squid-common and squid
+* 23:38 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: squid-common and squid
+* 18:54 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php updateSpecialPages --wiki=projectstardustwikiwiki --only=WantedPages (END - exit=0)
+* 18:12 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': ['MirahezeMagic', 'RequestCustomDomain']} to all - SUCCESS in 96s
+* 18:11 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': ['MirahezeMagic', 'RequestCustomDomain']} to all
+* 18:07 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 18:06 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 17:03 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 17:03 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 06:23 Reception123: disabled 2FA for a user (approved by DTS and DTech)
+
 ## 2025-08-20 
 
 * 20:09 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php purgeParserCache --wiki=everythingupgradetreewiki --age=600 (END - exit=0)
