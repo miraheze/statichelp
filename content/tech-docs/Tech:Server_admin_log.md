@@ -2,6 +2,93 @@
 title: Tech:Server admin log
 ---
 
+## 2025-08-22 
+
+* 20:55 MirahezeLSBot: [void@swiftac171] update qemu-guest-agent
+* 20:52 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: qemu-guest-agent
+* 20:51 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: qemu-guest-agent
+* 20:51 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: qemu-guest-agent
+* 20:51 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: qemu-guest-agent
+* 20:51 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: qemu-guest-agent
+* 20:36 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: qemu-guest-agent and qemu-utils
+* 20:36 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: qemu-guest-agent
+* 20:36 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: qemu-guest-agent
+* 20:35 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: qemu-guest-agent
+* 20:35 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: qemu-guest-agent
+* 20:35 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: qemu-guest-agent
+* 20:34 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: qemu-guest-agent
+* 20:33 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: qemu-guest-agent
+* 20:33 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: qemu-guest-agent
+* 20:33 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: qemu-guest-agent
+* 20:32 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: qemu-guest-agent
+* 20:32 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: qemu-guest-agent
+* 20:32 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: qemu-guest-agent
+* 20:32 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: qemu-guest-agent
+* 20:31 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: qemu-guest-agent
+* 20:31 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: qemu-guest-agent
+* 20:31 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: qemu-guest-agent
+* 20:30 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb151: qemu-guest-agent
+* 20:30 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: qemu-guest-agent
+* 20:30 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: qemu-guest-agent
+* 20:30 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: qemu-guest-agent
+* 20:29 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: qemu-guest-agent
+* 20:29 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: qemu-guest-agent
+* 20:29 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: qemu-guest-agent
+* 20:27 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: qemu-guest-agent
+* 20:27 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: qemu-guest-agent
+* 20:27 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: qemu-guest-agent
+* 20:26 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: qemu-guest-agent
+* 20:25 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: qemu-guest-agent
+* 20:25 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: qemu-guest-agent
+* 20:25 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: qemu-guest-agent
+* 20:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: qemu-guest-agent
+* 20:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: qemu-guest-agent
+* 20:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: qemu-guest-agent
+* 20:22 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: qemu-guest-agent
+* 20:22 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: qemu-guest-agent
+* 20:21 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: qemu-guest-agent
+* 20:21 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: qemu-guest-agent
+* 20:21 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: qemu-guest-agent
+* 20:20 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: qemu-guest-agent
+* 20:20 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: qemu-guest-agent
+* 20:20 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: qemu-guest-agent
+* 20:20 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: qemu-guest-agent
+* 20:19 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: qemu-guest-agent
+* 20:19 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: qemu-guest-agent
+* 20:19 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: qemu-guest-agent
+* 20:18 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: qemu-guest-agent
+* 20:18 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost1: qemu-guest-agent and qemu-utils
+* 20:18 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: qemu-guest-agent
+* 20:17 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: qemu-guest-agent
+* 20:17 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: qemu-guest-agent
+* 20:17 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: qemu-guest-agent
+* 20:17 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: qemu-guest-agent
+* 20:16 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: qemu-guest-agent
+* 20:16 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: qemu-guest-agent
+* 20:16 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: qemu-guest-agent
+* 20:15 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: qemu-guest-agent
+* 20:15 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: qemu-guest-agent
+* 20:14 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: qemu-guest-agent
+* 20:14 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: qemu-guest-agent
+* 20:14 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate181: qemu-guest-agent
+* 20:13 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: qemu-guest-agent
+* 20:13 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: qemu-guest-agent
+* 20:13 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: qemu-guest-agent
+* 20:13 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: qemu-guest-agent
+* 20:12 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: qemu-guest-agent
+* 20:12 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: qemu-guest-agent
+* 20:12 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka181: qemu-guest-agent
+* 20:12 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop201: qemu-guest-agent
+* 20:11 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: qemu-guest-agent
+* 20:11 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: qemu-guest-agent
+* 20:11 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: qemu-guest-agent
+* 20:11 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: qemu-guest-agent
+* 20:10 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: qemu-guest-agent
+* 10:22 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 10:22 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 08:08 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'QuickInstantCommons'} to all - SUCCESS in 47s
+* 08:07 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'QuickInstantCommons'} to all
+
 ## 2025-08-21 
 
 * 23:39 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: squid-common and squid
