@@ -2,6 +2,17 @@
 title: Tech:Server admin log
 ---
 
+## 2025-08-23 
+
+* 23:06 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 22:55 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/extensions/Wikibase/repo/maintenance/rebuildPropertyInfo.php --wiki=evolutionismwiki --rebuild-all --force
+* 20:38 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': ['CreateWiki', 'ImportDump', 'ManageWiki', 'RequestCustomDomain', 'WikiDiscover']} to all
+* 20:35 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 20:35 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 14:47 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CreateWiki:SetContainersAccess --wiki=manngagotokuwiki (END - exit=0)
+* 14:37 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initEditCount --wiki=detectivebeebowiki (END - exit=0)
+* 14:37 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initEditStats --wiki=detectivebeebowiki (END - exit=256)
+
 ## 2025-08-22 
 
 * 20:55 MirahezeLSBot: [void@swiftac171] update qemu-guest-agent
