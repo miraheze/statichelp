@@ -2,6 +2,17 @@
 title: Tech:Server admin log
 ---
 
+## 2025-08-24 
+
+* 20:19 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CreateWiki:SetContainersAccess --wiki=mcacgnwiki (END - exit=0)
+* 13:41 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CreateWiki:SetContainersAccess --wiki=adrenwiki (END - exit=0)
+* 13:40 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=adrenalinerblxwiki --new=adrenwiki --user=Skye (END - exit=0)
+* 11:32 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 11:32 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 11:31 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 11:31 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 11:22 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+
 ## 2025-08-23 
 
 * 23:06 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
