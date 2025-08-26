@@ -2,6 +2,37 @@
 title: Tech:Server admin log
 ---
 
+## 2025-08-25 
+
+* 22:49 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=reviwiki (END - exit=0)
+* 21:38 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:38 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:37 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:37 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:37 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:36 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:36 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:36 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:35 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:35 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:35 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:34 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:34 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:34 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 19:22 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/initSiteStats.php --wiki=scribblepediawiki --update (END - exit=0)
+* 17:52 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=scribblepediawiki (START)
+* 17:29 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=scribblepediawiki dump.xml --no-updates (START)
+* 06:56 Universal Omega: reboot db181
+
 ## 2025-08-24 
 
 * 20:19 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php CreateWiki:SetContainersAccess --wiki=mcacgnwiki (END - exit=0)
