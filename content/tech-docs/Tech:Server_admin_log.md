@@ -2,6 +2,19 @@
 title: Tech:Server admin log
 ---
 
+## 2025-08-27 
+
+* 23:31 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: libunbound8
+* 23:31 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: libunbound8
+* 23:31 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: libunbound8
+* 23:31 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: libunbound8
+* 23:31 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: libunbound8
+* 17:50 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importImages.php --wiki=drjwiki /home/reception/drj --search-recursively --summary= [https://democratic-sim.fandom.com](https://democratic-sim.fandom.com) (END - exit=0)
+* 17:49 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importImages.php --wiki=drjwiki /home/reception/drj --search-recursively --summary= [https://democratic-sim.fandom.com](https://democratic-sim.fandom.com) (START)
+* 17:48 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importImages.php --wiki=tetragonfortresswiki /home/reception/tetragonfortress --search-recursively --summary=Imported from [https://tetragonfortress.fandom.com](https://tetragonfortress.fandom.com) (START)
+* 17:46 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importImages.php --wiki=ddnetwiki /home/reception/ddnet --search-recursively --summary=Imported from [https://wiki.ddnet.org](https://wiki.ddnet.org) (START)
+* 17:41 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=ddnetwiki /home/reception/ddnet.xml --username-prefix='ddnet' --report 1 (START)
+
 ## 2025-08-26 
 
 * 23:25 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
