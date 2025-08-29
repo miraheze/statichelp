@@ -2,6 +2,13 @@
 title: Tech:Server admin log
 ---
 
+## 2025-08-28 
+
+* 20:27 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:GenerateMirahezeSitemap --wiki=soulframewiki (END - exit=0)
+* 12:40 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MassEditRegex'} to all - SUCCESS in 56s
+* 12:39 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MassEditRegex'} to all
+* 12:39 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MassEditRegex'} to test151 - SUCCESS in 2s
+
 ## 2025-08-27 
 
 * 23:31 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: libunbound8
