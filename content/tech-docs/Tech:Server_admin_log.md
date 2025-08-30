@@ -2,6 +2,107 @@
 title: Tech:Server admin log
 ---
 
+## 2025-08-29 
+
+* 21:24 @pskyechology: sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php ResetUserEmail --wiki=loginwiki EngyneMac (user's email)
+* 20:51 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: libxml2, nodejs, libnode108, and nodejs-doc
+* 20:49 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: libxml2, nodejs, libnode108, and nodejs-doc
+* 20:49 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: libxml2, nodejs, libnode108, and nodejs-doc
+* 20:48 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: libxml2
+* 20:48 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb151: libxml2
+* 20:48 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: libxml2, nodejs, libnode108, and nodejs-doc
+* 20:47 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libxml2, nodejs, libnode108, and nodejs-doc
+* 20:47 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: libxml2
+* 20:47 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: libxml2
+* 20:47 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: libxml2
+* 20:47 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: libxml2
+* 20:46 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: libxml2
+* 20:46 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: libxml2, nodejs, libnode108, and nodejs-doc
+* 20:37 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: libxml2
+* 20:37 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: libxml2
+* 20:36 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: libxml2
+* 20:36 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libxml2-dev, libxml2, nodejs, libnode108, and nodejs-doc
+* 20:35 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: libxml2
+* 20:35 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: libxml2
+* 20:35 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: libxml2
+* 20:35 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: libxml2
+* 20:34 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: libxml2
+* 20:34 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: libxml2
+* 20:33 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: libxml2
+* 20:33 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: libxml2
+* 20:33 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: libxml2
+* 20:32 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: libxml2
+* 20:32 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: libxml2
+* 20:32 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: libxml2
+* 20:32 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: libxml2
+* 20:31 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: libxml2
+* 20:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: libxml2, nodejs, libnode108, and nodejs-doc
+* 20:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: libxml2, nodejs, libnode108, and nodejs-doc
+* 20:30 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: libxml2
+* 20:30 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libxml2, nodejs, libnode108, and nodejs-doc
+* 20:28 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: libxml2, nodejs, libnode108, and nodejs-doc
+* 20:28 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: libxml2, nodejs, libnode108, and nodejs-doc
+* 20:27 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb151: libxml2
+* 20:26 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: libxml2, nodejs, libnode108, and nodejs-doc
+* 20:26 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: libxml2
+* 20:26 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: libxml2, nodejs, libnode108, and nodejs-doc
+* 20:25 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: libxml2, nodejs, libnode108, and nodejs-doc
+* 20:25 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: libxml2, nodejs, libnode108, and nodejs-doc
+* 20:25 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: libxml2
+* 20:24 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: libxml2, nodejs, libnode108, and nodejs-doc
+* 20:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: libxml2, nodejs, libnode108, and nodejs-doc
+* 20:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: libxml2, nodejs, libnode108, and nodejs-doc
+* 20:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: libxml2, nodejs, libnode108, and nodejs-doc
+* 20:21 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: libxml2, nodejs, libnode108, and nodejs-doc
+* 20:21 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: libxml2, nodejs, libnode108, and nodejs-doc
+* 20:20 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: libxml2
+* 20:20 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: libxml2, nodejs, libnode108, and nodejs-doc
+* 20:20 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: libxml2, nodejs, libnode108, and nodejs-doc
+* 20:19 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: libxml2, nodejs, libnode108, and nodejs-doc
+* 20:18 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: libxml2, nodejs, libnode108, and nodejs-doc
+* 20:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: libxml2
+* 20:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: libxml2, nodejs, libnode108, and nodejs-doc
+* 20:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: libxml2
+* 20:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost1: libxml2
+* 20:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: libxml2, nodejs, libnode108, and nodejs-doc
+* 20:15 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka181: libxml2
+* 20:14 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: libxml2
+* 20:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: libxml2
+* 20:13 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: libxml2
+* 20:13 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: libxml2
+* 20:12 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate181: nodejs, libnode-dev, libnode108, libxml2, and nodejs-doc
+* 20:12 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: libxml2
+* 20:11 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: libxml2
+* 20:11 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop201: nodejs, libnode108, libxml2, and nodejs-doc
+* 20:11 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: libxml2
+* 20:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: libxml2
+* 20:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: libxml2
+* 20:10 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: libxml2
+* 20:10 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: libxml2
+* 20:09 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: libxml2
+* 20:09 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: libxml2
+* 20:09 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: libxml2
+* 20:09 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: libxml2
+* 20:09 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: libxml2
+* 20:08 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: libxml2
+* 20:08 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: libxml2
+* 20:08 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: libxml2
+* 20:08 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: libxml2
+* 20:08 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: libxml2
+* 20:08 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: libxml2
+* 20:08 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: libxml2
+* 20:08 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: libxml2
+* 14:19 Reception123: reception@mwtask181:/srv/mediawiki/1.43/extensions/CentralAuth/maintenance$ sudo -u www-data php attachAccount.php --wiki metawiki --userlist /home/reception/attachuser.txt
+* 14:19 Reception123: reception@mwtask181:/srv/mediawiki/1.43/extensions/CentralAuth/maintenance$ sudo -u www-data php migrateAccount.php --wiki metawiki --username="リムーブグリッチボール" --auto
+* 06:57 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=falcomwiki /home/reception/falcom/kiseki_pages_full.xml --username-prefix=wikia:kiseki (START)
+* 06:55 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importImages.php --wiki=falcomwiki /home/reception/falcom --search-recursively --summary=Imported from [https://isu.fandom.com/](https://isu.fandom.com/), [https://gagharv.fandom.com/](https://gagharv.fandom.com/) and [https://tokyoxanadu.fandom.com/](https://tokyoxanadu.fandom.com/) (END - exit=0)
+* 06:07 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=falcomwiki /home/reception/falcom/kiseki_pages_full.xml --username-prefix=wikia:kiseki (START)
+* 06:07 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=falcomwiki /home/reception/falcom/20250824-kiseki_pages_full.xml --username-prefix=wikia:kiseki (END - exit=256)
+* 06:07 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=falcomwiki /home/reception/falcom/20250824-kiseki_pages_full.xml --username-prefix=wikia:kiseki (START)
+* 06:06 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importImages.php --wiki=falcomwiki /home/reception/falcom --search-recursively --summary=Imported from [https://isu.fandom.com/](https://isu.fandom.com/), [https://gagharv.fandom.com/](https://gagharv.fandom.com/) and [https://tokyoxanadu.fandom.com/](https://tokyoxanadu.fandom.com/) (START)
+* 06:05 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importImages.php --wiki=falcomwiki /home/reception/falcom --search-recursively --summary=Imported from [https://isu.fandom.com/](https://isu.fandom.com/), [https://gagharv.fandom.com/](https://gagharv.fandom.com/) and [https://tokyoxanadu.fandom.com/](https://tokyoxanadu.fandom.com/) (END - exit=256)
+* 06:05 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importImages.php --wiki=falcomwiki /home/reception/falcom --search-recursively --summary=Imported from [https://isu.fandom.com/](https://isu.fandom.com/), [https://gagharv.fandom.com/](https://gagharv.fandom.com/) and [https://tokyoxanadu.fandom.com/](https://tokyoxanadu.fandom.com/) (START)
+
 ## 2025-08-28 
 
 * 20:27 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:GenerateMirahezeSitemap --wiki=soulframewiki (END - exit=0)
