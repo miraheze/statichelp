@@ -4,6 +4,9 @@ title: Tech:Server admin log
 
 ## 2025-09-01 
 
+* 17:21 MirahezeLSBot: [universalomega@test151] purge mediawiki_job_backup-all-wikis-ia
+* 17:21 MirahezeLSBot: [universalomega@test151] reboot
+* 01:55 MirahezeLSBot: [void@test151] reboot after server got locked up from starting 63 backup scripts for some reason
 * 00:00 MirahezeLSBot: [www-data@test151] Began automatic backing up
 * 00:00 MirahezeLSBot: [www-data@mwtask181] Began automatic backing up
 
