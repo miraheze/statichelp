@@ -2,6 +2,41 @@
 title: Tech:Server admin log
 ---
 
+## 2025-09-03 
+
+* 21:53 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=skibiditoiletwiki --import-prefix=fandom:skibidi-toilet --from='Piano1Forte2 Bot' (END - exit=0)
+* 21:52 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=skibiditoiletwiki --import-prefix=fandom:skibidi-toilet --from='Piano1Forte2 Bot' --no-run (END - exit=0)
+* 21:50 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=skibiditoiletwiki --import-prefix=fandom:skibidi-toilet --from='Piano1Forte2_Bot' --no-run (END - exit=256)
+* 21:49 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=skibiditoiletwiki --import-prefix=fandom:skibidi-toilet --from=Piano1Forte2_Bot --no-run (END - exit=256)
+* 21:45 @abaddriverlol: sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/edit.php --wiki=rosettacodewiki -s 'Fix [SMW issue](https://meta.miraheze.org/wiki/phab:T14209)' -u 'SomeRandomDeveloper_(Miraheze)' Category:Português_Puro < /home/somerandomdeveloper/T14209.txt
+* 21:11 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/moveBatch.php --wiki=glitchcitywiki --r ' [Requested](https://meta.miraheze.org/wiki/phab:T14222)' /home/somerandomdeveloper/movenamespace.txt (END - exit=0)
+* 12:52 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 12:52 MirahezeLSBot: [paladox@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 12:52 MirahezeLSBot: [paladox@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 12:52 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 12:52 MirahezeLSBot: [paladox@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 12:52 MirahezeLSBot: [paladox@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 12:52 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 12:51 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 12:34 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 12:34 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 05:35 MirahezeLSBot: [blankeclair@mwtask181] Finished import for lbcwiki (XML: None; Images: images/) (END - exit=0)
+* 05:35 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=lbcwiki --update (END - exit=0)
+* 05:35 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=lbcwiki --update (START)
+* 05:35 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=lbcwiki --sleep=1 '--comment=Importing images from [http://wiki.lbc.radawriting.com/](http://wiki.lbc.radawriting.com/) ([T14215](https://meta.miraheze.org/wiki/phorge:T14215))' --search-recursively -- images/ (END - exit=0)
+* 05:04 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=lbcwiki --sleep=1 '--comment=Importing images from [http://wiki.lbc.radawriting.com/](http://wiki.lbc.radawriting.com/) ([T14215](https://meta.miraheze.org/wiki/phorge:T14215))' --search-recursively -- images/ (START)
+* 05:04 MirahezeLSBot: [blankeclair@mwtask181] Starting import for lbcwiki (XML: None; Images: images/) (START)
+* 01:03 MirahezeLSBot: [blankeclair@mwtask181] Finished import for lbcwiki (XML: None; Images: images/) (END - exit=0)
+* 01:03 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=lbcwiki --update (END - exit=0)
+* 01:03 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=lbcwiki --update (START)
+* 01:03 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=lbcwiki --sleep=1 '--comment=Importing images from [http://wiki.lbc.radawriting.com/](http://wiki.lbc.radawriting.com/) ([T14215](https://meta.miraheze.org/wiki/phorge:T14215))' --search-recursively -- images/ (END - exit=0)
+* 00:58 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=lbcwiki --sleep=1 '--comment=Importing images from [http://wiki.lbc.radawriting.com/](http://wiki.lbc.radawriting.com/) ([T14215](https://meta.miraheze.org/wiki/phorge:T14215))' --search-recursively -- images/ (START)
+* 00:58 MirahezeLSBot: [blankeclair@mwtask181] Starting import for lbcwiki (XML: None; Images: images/) (START)
+* 00:05 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 00:05 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 00:03 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 00:03 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+
 ## 2025-09-02 
 
 * 23:59 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
