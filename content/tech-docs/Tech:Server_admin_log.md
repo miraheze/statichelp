@@ -2,6 +2,22 @@
 title: Tech:Server admin log
 ---
 
+## 2025-09-04 
+
+* 19:48 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.43/maintenance/run.php sql /srv/mediawiki/1.43/extensions/MediaModeration/schema/mysql/tables-generated.sql (START)
+* 19:46 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force_upgrade': True, 'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MediaModeration'} to all - SUCCESS in 49s
+* 19:46 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force_upgrade': True, 'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MediaModeration'} to all
+* 19:40 Universal Omega: create sql table for MediaModeration on all beta wikis
+* 19:05 MirahezeLSBot: [universalomega@test151] finished deploy of {'force_upgrade': True, 'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MediaModeration'} to test151 - SUCCESS in 1s
+* 19:05 MirahezeLSBot: [universalomega@test151] starting deploy of {'force_upgrade': True, 'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MediaModeration'} to test151
+* 18:55 Universal Omega: Add API key for MediaModeration to private puppet
+* 13:37 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 33s
+* 13:36 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 13:36 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 13:36 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 13:33 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 13:33 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+
 ## 2025-09-03 
 
 * 21:53 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=skibiditoiletwiki --import-prefix=fandom:skibidi-toilet --from='Piano1Forte2 Bot' (END - exit=0)
