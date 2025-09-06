@@ -2,6 +2,28 @@
 title: Tech:Server admin log
 ---
 
+## 2025-09-05 
+
+* 19:34 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 19:34 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 18:45 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.43/maintenance/run.php MediaModeration:importExistingFilesToScanTable (START)
+* 14:59 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php cleanupTitles --wiki=exttestwikibeta --dry-run (END - exit=0)
+* 14:32 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 14:31 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 14:31 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 14:31 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 14:28 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 14:28 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 12:16 MirahezeLSBot: [blankeclair@mwtask181] Finished import for scribblepediawiki (XML: None; Images: all_images) (END - exit=0)
+* 12:16 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=scribblepediawiki --update (END - exit=0)
+* 12:16 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=scribblepediawiki --update (START)
+* 12:16 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=scribblepediawiki --sleep=1 '--comment=Importing images from [https://scribblenauts.fandom.com](https://scribblenauts.fandom.com) ([T14227](https://meta.miraheze.org/wiki/phorge:T14227))' -- all_images (END - exit=0)
+* 06:31 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=scribblepediawiki --sleep=1 '--comment=Importing images from [https://scribblenauts.fandom.com](https://scribblenauts.fandom.com) ([T14227](https://meta.miraheze.org/wiki/phorge:T14227))' -- all_images (START)
+* 06:31 MirahezeLSBot: [blankeclair@mwtask181] Starting import for scribblepediawiki (XML: None; Images: all_images) (START)
+* 02:49 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 40s
+* 02:48 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 01:51 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.43/maintenance/run.php sql /srv/mediawiki/1.43/extensions/MediaModeration/schema/mysql/tables-generated.sql (END - exit=0)
+
 ## 2025-09-04 
 
 * 19:48 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.43/maintenance/run.php sql /srv/mediawiki/1.43/extensions/MediaModeration/schema/mysql/tables-generated.sql (START)
