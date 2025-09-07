@@ -2,6 +2,31 @@
 title: Tech:Server admin log
 ---
 
+## 2025-09-06 
+
+* 20:56 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_skins': 'Cosmos'} to all - SUCCESS in 26s
+* 20:56 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_skins': 'Cosmos'} to all
+* 20:52 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php updateSpecialPages --wiki=falcomwiki (END - exit=0)
+* 20:40 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 20:40 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:53 MirahezeLSBot: [skye@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 19:53 MirahezeLSBot: [skye@test151] starting deploy of {'config': True} to test151
+* 19:49 MirahezeLSBot: [skye@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 19:49 MirahezeLSBot: [skye@test151] starting deploy of {'config': True} to test151
+* 14:13 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 14:12 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 06:52 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/initSiteStats.php --wiki=falcomwiki --update (END - exit=0)
+* 06:52 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=falcomwiki (END - exit=0)
+* 02:54 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/rebuildall.php --wiki=falcomwiki (START)
+* 02:54 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=falcomwiki dump.xml --no-updates (END - exit=0)
+* 02:43 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php /srv/mediawiki/1.43/maintenance/importDump.php --wiki=falcomwiki dump.xml --no-updates (START)
+* 01:58 MirahezeLSBot: [blankeclair@mwtask181] Finished import for botsandmusketswiki (XML: None; Images: images) (END - exit=0)
+* 01:58 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=botsandmusketswiki --update (END - exit=0)
+* 01:58 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php initSiteStats --wiki=botsandmusketswiki --update (START)
+* 01:58 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=botsandmusketswiki --sleep=0 '--comment=Importing images from [https://bots-muskets.fandom.com](https://bots-muskets.fandom.com) ([phorge:T14228T14228](https://meta.miraheze.org/wiki/phorge:T14228T14228))' -- images (END - exit=0)
+* 01:57 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php importImages --wiki=botsandmusketswiki --sleep=0 '--comment=Importing images from [https://bots-muskets.fandom.com](https://bots-muskets.fandom.com) ([phorge:T14228T14228](https://meta.miraheze.org/wiki/phorge:T14228T14228))' -- images (START)
+* 01:57 MirahezeLSBot: [blankeclair@mwtask181] Starting import for botsandmusketswiki (XML: None; Images: images) (START)
+
 ## 2025-09-05 
 
 * 19:34 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
