@@ -2,6 +2,69 @@
 title: Tech:Server admin log
 ---
 
+## 2025-09-07 
+
+* 23:46 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 43s
+* 23:45 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MirahezeMagic'} to all
+* 23:37 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 23:36 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 22:18 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 22:18 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 22:17 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:ToggleExtension --wiki=metawiki --name=growthexperiments --all-wikis --disable --execute (END - exit=0)
+* 22:03 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 22:02 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 21:58 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 21:58 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 21:11 Universal Omega: backing up mhglobal, metawiki, and loginwiki
+* 21:10 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:Populate143MediaWikiVersion --wiki=metawiki (END - exit=0)
+* 20:50 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php updateSpecialPages --wiki=falcomwiki (END - exit=0)
+* 20:26 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 20:25 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:37 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:Populate143MediaWikiVersion --wiki=metawiki --dry-run (END - exit=2)
+* 19:31 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 46s
+* 19:30 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MirahezeMagic'} to all
+* 19:26 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:Populate143MediaWikiVersion --wiki=metawiki --dry-run (END - exit=2)
+* 19:24 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 47s
+* 19:24 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MirahezeMagic'} to all
+* 19:20 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php MirahezeMagic:Populate143MediaWikiVersion --wiki=metawiki --dry-run (END - exit=2)
+* 19:18 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 48s
+* 19:17 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MirahezeMagic'} to all
+* 19:08 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 19:08 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:00 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 19:00 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 18:48 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 31s
+* 18:47 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 18:42 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 34s
+* 18:41 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 18:29 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'world': True, 'force': True, 'versions': '1.44', 'ignore_time': True} to all - SUCCESS in 503s
+* 18:21 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'world': True, 'force': True, 'versions': '1.44', 'ignore_time': True} to all
+* 18:20 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'world': True, 'versions': '1.44'} to all - SUCCESS in 586s
+* 18:11 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'world': True, 'versions': '1.44'} to all
+* 18:10 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'world': True, 'versions': '1.44'} to mw151 - SUCCESS in 28s
+* 18:09 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'world': True, 'versions': '1.44'} to mw151
+* 18:00 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 17:59 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 17:55 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 17:55 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 17:54 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 17:54 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 17:52 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 17:52 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 17:34 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'world': True, 'versions': '1.44'} to mwtask181 - SUCCESS in 53s
+* 17:33 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'world': True, 'versions': '1.44'} to mwtask181
+* 17:16 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.44/extensions/SemanticScribunto,1.44/extensions/SemanticDrilldown'} to all - SUCCESS in 49s
+* 17:16 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.44/extensions/SemanticScribunto,1.44/extensions/SemanticDrilldown'} to all
+* 17:13 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.44/extensions/SemanticScribunto,1.44/extensions/SemanticDrilldown'} to test151 - SUCCESS in 0s
+* 17:13 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.44/extensions/SemanticScribunto,1.44/extensions/SemanticDrilldown'} to test151
+* 10:39 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.43/maintenance/run.php MediaModeration:importExistingFilesToScanTable (END - exit=0)
+* 01:47 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 01:47 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 01:47 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php ManageWiki:ToggleExtension --wiki=metawiki --name=youtube --all-wikis --disable --execute (END - exit=0)
+* 01:40 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.43/maintenance/run.php ManageWiki:ToggleExtension --wiki=metawiki --name=youtube --all-wikis --disable (END - exit=512)
+* 01:38 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /tmp/youtube.php /srv/mediawiki/1.43/maintenance/run.php ManageWiki:ToggleExtension --name=embedvideo (END - exit=0)
+* 00:51 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /tmp/youtube.php /srv/mediawiki/1.43/maintenance/run.php ManageWiki:ToggleExtension --name=embedvideo (START)
+
 ## 2025-09-06 
 
 * 20:56 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_skins': 'Cosmos'} to all - SUCCESS in 26s
