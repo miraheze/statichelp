@@ -2,6 +2,42 @@
 title: Tech:Server admin log
 ---
 
+## 2025-09-08 
+
+* 23:30 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 22s
+* 23:29 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 23:28 @paladox: improve performance for cf -> cp (switch from smart tiered cache to generic cache tired and switch on regional tired).
+* 14:58 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=adrenwiki (END - exit=0)
+* 14:57 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=adrenwiki --startOver (END - exit=0)
+* 14:56 @abaddriverlol: curl -X DELETE [https://opensearch-mw.wikitide.net/adrenwiki_{content,general}](https://opensearch-mw.wikitide.net/adrenwiki_{content,general})
+* 08:25 MirahezeLSBot: [blankeclair@mwtask171] Finished import for spidermineswiki (XML: None; Images: images) (END - exit=0)
+* 08:25 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=spidermineswiki --update (END - exit=0)
+* 08:25 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=spidermineswiki --update (START)
+* 08:25 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=spidermineswiki --sleep=0 '--comment=Importing images from [https://infestedroblox.fandom.com](https://infestedroblox.fandom.com) ([T14240](https://meta.miraheze.org/wiki/phorge:T14240))' -- images (END - exit=0)
+* 08:25 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=spidermineswiki --sleep=0 '--comment=Importing images from [https://infestedroblox.fandom.com](https://infestedroblox.fandom.com) ([T14240](https://meta.miraheze.org/wiki/phorge:T14240))' -- images (START)
+* 08:25 MirahezeLSBot: [blankeclair@mwtask171] Starting import for spidermineswiki (XML: None; Images: images) (START)
+* 07:30 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:ChangeMediaWikiVersion --wiki=metawiki --inactive --mwversion=1.44 (END - exit=0)
+* 07:22 MirahezeLSBot: [universalomega@mwtask181] Kill my old screen sessions, some going all the way back to May
+* 04:16 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/initSiteStats.php --wiki=fnaffangamewiki --update (END - exit=0)
+* 04:16 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=fnaffangamewiki (END - exit=0)
+* 03:33 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:ChangeMediaWikiVersion --wiki=metawiki --closed --mwversion=1.44 (END - exit=0)
+* 03:15 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=fnaffangamewiki (START)
+* 03:14 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=fnaffangamewiki dump.xml --no-updates (END - exit=0)
+* 02:56 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'extension_list': True, 'versions': ['1.43', '1.44']} to all - SUCCESS in 51s
+* 02:56 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'extension_list': True, 'versions': ['1.43', '1.44']} to all
+* 02:36 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:ChangeMediaWikiVersion --wiki=metawiki --closed --inactive --mwversion=1.44 (END - exit=2)
+* 02:31 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 44s
+* 02:31 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MirahezeMagic'} to all
+* 02:16 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/closed.php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:ChangeMediaWikiVersion --mwversion=1.44 (END - exit=2)
+* 02:16 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/closed.php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:ChangeMediaWikiVersion --mwversion=1.44 (START)
+* 02:13 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 02:13 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 01:52 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=fnaffangamewiki dump.xml --no-updates (START)
+* 01:47 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'TitleKey'} to all - SUCCESS in 23s
+* 01:46 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'TitleKey'} to all
+* 01:01 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'TitleKey'} to all - SUCCESS in 22s
+* 01:01 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'TitleKey'} to all
+
 ## 2025-09-07 
 
 * 23:46 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.43', '1.44'], 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 43s
