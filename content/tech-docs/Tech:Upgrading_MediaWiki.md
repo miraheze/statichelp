@@ -2,6 +2,7 @@
 title: Tech:Upgrading MediaWiki
 ---
 
+`{{ {{Outdated}} }}`
 ## Pulling the new MediaWiki version
 
 * Update [hieradata/common.yaml](https://meta.miraheze.org/wiki/github:miraheze/puppet/blob/main/hieradata/common.yaml) on [Puppet](/tech-docs/techpuppet) to pull the new version ([example](https://meta.miraheze.org/wiki/github:miraheze/puppet/blob/706206b92cb428ac4223f829b45289066d4e4b05/hieradata/common.yaml#L11C1-L12C22)). Add separately to test151's hieradata ([example](https://meta.miraheze.org/wiki/github:miraheze/puppet/commit/3034cf5fb05ac1bff0dbe216ee36d24d815ca945)). It will be pulled on the next Puppet run.
