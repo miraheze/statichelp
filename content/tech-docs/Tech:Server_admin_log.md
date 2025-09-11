@@ -2,6 +2,51 @@
 title: Tech:Server admin log
 ---
 
+## 2025-09-10 
+
+* 23:48 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'DynamicPageList4'} to all - SUCCESS in 25s
+* 23:48 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'DynamicPageList4'} to all
+* 23:23 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'DynamicPageList4'} to all - SUCCESS in 25s
+* 23:23 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'DynamicPageList4'} to all
+* 22:16 MirahezeLSBot: [universalomega@mwtask181] Ran refreshLinks on shiromachiyawiki
+* 22:04 MirahezeLSBot: [universalomega@mwtask181] Removed invalid values for wmgFormatterUrlProperty and wmgCanonicalUriProperty from royalwiki and ran refreshLinks
+* 21:14 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 21:14 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 18:11 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'folders': '1.44/extensions/Math'} to all - SUCCESS in 45s
+* 18:10 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'folders': '1.44/extensions/Math'} to all
+* 18:09 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 18:09 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 17:40 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_skins': 'MinervaNeue'} to all - SUCCESS in 23s
+* 17:40 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_skins': 'MinervaNeue'} to all
+* 17:37 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_skins': 'MinervaNeue'} to test151 - SUCCESS in 1s
+* 17:37 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_skins': 'MinervaNeue'} to test151
+* 17:28 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True, 'folders': '1.44/extensions/Math'} to test151 - SUCCESS in 0s
+* 17:27 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True, 'folders': '1.44/extensions/Math'} to test151
+* 12:35 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 12:34 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 12:34 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 12:34 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 12:29 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 12:28 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 12:14 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 12:13 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 11:30 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 11:30 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 11:03 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 28s
+* 11:03 BlankEclair: put c1 out of maintenance
+* 11:03 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'config': True} to all
+* 10:55 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 31s
+* 10:55 BlankEclair: put c1 into maintenance
+* 10:54 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'config': True} to all
+* 04:43 Universal Omega: destroyed a user on phorge
+* 03:09 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'GlobalNewFiles'} to all - SUCCESS in 25s
+* 03:09 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'GlobalNewFiles'} to all
+* 01:38 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:CheckWikiDatabases --wiki=metawiki --tables --delete
+* 00:31 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 24s
+* 00:30 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'CreateWiki'} to all
+* 00:09 MirahezeLSBot: [macfan@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/sql.php /srv/mediawiki-staging/1.45/sql/mysql/patch-categorylinks-target_id.sql (END - exit=256)
+* 00:09 MirahezeLSBot: [macfan@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/sql.php /srv/mediawiki-staging/1.45/sql/mysql/patch-categorylinks-target_id.sql (START)
+
 ## 2025-09-09 
 
 * 23:47 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 25s

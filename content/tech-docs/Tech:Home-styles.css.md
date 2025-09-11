@@ -44,7 +44,7 @@ grid-area: services;
 
 .card-depth {
 border-top-color: #6F6F6F;
-background: #F6F6F6;
+background: var(--background-color-neutral, #F6F6F6);
 grid-area: depth;
 }
 
@@ -70,7 +70,6 @@ background: #2C670F;
 
 html.skin-theme-clientpref-night .card-depth {
 border-top-color: #F6F6F6;
-background: #6F6F6F;
 }
 
 .card h3 {
@@ -101,7 +100,6 @@ background: #2C670F;
 
 html.skin-theme-clientpref-os .card-depth {
 border-top-color: #F6F6F6;
-background: #6F6F6F;
 }
 }
 
