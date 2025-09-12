@@ -2,6 +2,70 @@
 title: Tech:Server admin log
 ---
 
+## 2025-09-12 
+
+* 00:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: libcups2
+* 00:00 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: libcups2
+* 00:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost1: libcups2 and libjson-xs-perl
+
+## 2025-09-11 
+
+* 23:59 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: libcups2
+* 23:59 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: libcups2 and libjson-xs-perl
+* 23:59 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka181: libcups2
+* 23:59 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: libcups2
+* 23:58 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: libcups2
+* 23:58 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: libcups2
+* 23:58 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate181: libcups2
+* 23:58 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: libcups2
+* 23:58 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: libcups2
+* 23:57 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: libcups2 and libjson-xs-perl
+* 23:57 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: libcups2
+* 23:57 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: libcups2
+* 23:57 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: libcups2
+* 23:56 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: libcups2 and libjson-xs-perl
+* 23:56 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: libcups2 and libjson-xs-perl
+* 23:56 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: libcups2
+* 23:56 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: libcups2 and libjson-xs-perl
+* 23:56 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: libcups2
+* 23:55 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: libcups2
+* 23:55 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: libcups2
+* 23:55 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: libcups2
+* 23:55 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop201: libcups2
+* 23:55 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: libcups2
+* 23:54 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: libcups2 and libjson-xs-perl
+* 17:51 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/initSiteStats.php --wiki=midnighthorrorswiki --update (END - exit=0)
+* 17:51 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=midnighthorrorswiki (END - exit=0)
+* 16:44 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=midnighthorrorswiki (START)
+* 16:44 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=midnighthorrorswiki dump.xml --no-updates (END - exit=0)
+* 16:43 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=midnighthorrorswiki dump.xml --no-updates (START)
+* 02:14 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 02:14 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 02:11 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'DynamicPageList4'} to all - SUCCESS in 25s
+* 02:11 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'DynamicPageList4'} to all
+* 00:57 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 00:56 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 00:56 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 00:56 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 00:51 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force': True, 'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 25s
+* 00:51 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force': True, 'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 00:51 MirahezeLSBot: [universalomega@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mw151
+* 00:51 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 00:51 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 0s
+* 00:51 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 00:50 MirahezeLSBot: [universalomega@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@localhost
+* 00:50 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 00:50 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 00:50 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 00:48 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 00:48 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 00:45 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'RobloxAPI'} to all - SUCCESS in 454s
+* 00:41 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'l10n': True, 'versions': '1.44'} to test151 - SUCCESS in 292s
+* 00:37 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'RobloxAPI'} to all
+* 00:36 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'l10n': True, 'versions': '1.44'} to test151
+* 00:36 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'RobloxAPI'} to test151 - SUCCESS in 1s
+* 00:36 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'RobloxAPI'} to test151
+
 ## 2025-09-10 
 
 * 23:48 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'DynamicPageList4'} to all - SUCCESS in 25s
