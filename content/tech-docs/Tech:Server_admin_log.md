@@ -4,6 +4,112 @@ title: Tech:Server admin log
 
 ## 2025-09-12 
 
+* 23:30 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:ToggleExtension --wiki=metawiki --name=dynamicpagelist3 --disable --all-wikis --execute (END - exit=0)
+* 23:27 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 23:27 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 23:26 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /tmp/dynamicpagelist3.php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:ToggleExtension --name=dynamicpagelist4 (END - exit=0)
+* 23:07 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /tmp/dynamicpagelist3.php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:ToggleExtension --name=dynamicpagelist4 (START)
+* 23:06 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 23:06 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 23:04 MirahezeLSBot: [universalomega@test151] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:ToggleExtension --wiki=metawikibeta --name=dynamicpagelist3 --disable --all-wikis --execute (END - exit=0)
+* 23:02 MirahezeLSBot: [universalomega@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist /tmp/dynamicpagelist3.php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:ToggleExtension --name=dynamicpagelist4 (END - exit=0)
+* 23:02 MirahezeLSBot: [universalomega@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist /tmp/dynamicpagelist3.php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:ToggleExtension --name=dynamicpagelist4 (START)
+* 21:27 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'RightFunctions'} to test151 - SUCCESS in 0s
+* 21:27 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'RightFunctions'} to test151
+* 21:24 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'RightFunctions'} to all - SUCCESS in 24s
+* 21:24 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'RightFunctions'} to all
+* 21:23 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'RightFunctions'} to test151 - SUCCESS in 1s
+* 21:23 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'RightFunctions'} to test151
+* 19:39 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=aircyclopediawiki (END - exit=0)
+* 19:38 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=aeropediawiki --new=aircyclopediawiki --user=Skye (END - exit=0)
+* 17:57 MirahezeLSBot: [skye@mwtask181] Finished import for utaitewiki (XML: ./utaite.xml; Images: None) (END - exit=1)
+* 17:57 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importDump --wiki=utaitewiki --no-updates --username-prefix=fandom:utaite -- ./utaite.xml (END - exit=1)
+* 17:57 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importDump --wiki=utaitewiki --no-updates --username-prefix=fandom:utaite -- ./utaite.xml (START)
+* 17:57 MirahezeLSBot: [skye@mwtask181] Starting import for utaitewiki (XML: ./utaite.xml; Images: None) (START)
+* 17:49 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=simdreamwebwiki (END - exit=0)
+* 17:48 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=furthestcontinentwiki --new=simdreamwebwiki --user=Skye (END - exit=0)
+* 17:42 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=beesproductionswiki (END - exit=0)
+* 17:38 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=twanpcwiki --new=beesproductionswiki --user=Skye (END - exit=0)
+* 16:35 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 16:35 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 00:53 MirahezeLSBot: [salt-user@mwtask181] Upgraded packages imagemagick imagemagick-6-common imagemagick-6.q16 libcups2 libimage-magick-perl libimage-magick-q16-perl libmagick++-6.q16-8 libmagickcore-6.q16-6 libmagickcore-6.q16-6-extra libmagickwand-6.q16-6 libperl5.36 perl perl-base perl-modules-5.36
+* 00:53 MirahezeLSBot: [salt-user@mw181] Upgraded packages imagemagick imagemagick-6-common imagemagick-6.q16 libcups2 libimage-magick-perl libimage-magick-q16-perl libmagick++-6.q16-8 libmagickcore-6.q16-6 libmagickcore-6.q16-6-extra libmagickwand-6.q16-6 libperl5.36 perl perl-base perl-modules-5.36
+* 00:53 MirahezeLSBot: [salt-user@mw201] Upgraded packages imagemagick imagemagick-6-common imagemagick-6.q16 libcups2 libimage-magick-perl libimage-magick-q16-perl libmagick++-6.q16-8 libmagickcore-6.q16-6 libmagickcore-6.q16-6-extra libmagickwand-6.q16-6 libperl5.36 perl perl-base perl-modules-5.36
+* 00:53 MirahezeLSBot: [salt-user@mw182] Upgraded packages imagemagick imagemagick-6-common imagemagick-6.q16 libcups2 libimage-magick-perl libimage-magick-q16-perl libmagick++-6.q16-8 libmagickcore-6.q16-6 libmagickcore-6.q16-6-extra libmagickwand-6.q16-6 libperl5.36 perl perl-base perl-modules-5.36
+* 00:52 MirahezeLSBot: [salt-user@mw183] Upgraded packages imagemagick imagemagick-6-common imagemagick-6.q16 libcups2 libimage-magick-perl libimage-magick-q16-perl libmagick++-6.q16-8 libmagickcore-6.q16-6 libmagickcore-6.q16-6-extra libmagickwand-6.q16-6 libperl5.36 perl perl-base perl-modules-5.36
+* 00:52 MirahezeLSBot: [salt-user@mw203] Upgraded packages imagemagick imagemagick-6-common imagemagick-6.q16 libcups2 libimage-magick-perl libimage-magick-q16-perl libmagick++-6.q16-8 libmagickcore-6.q16-6 libmagickcore-6.q16-6-extra libmagickwand-6.q16-6 libperl5.36 perl perl-base perl-modules-5.36
+* 00:52 MirahezeLSBot: [salt-user@mwtask161] Upgraded packages imagemagick imagemagick-6-common imagemagick-6.q16 libcups2 libimage-magick-perl libimage-magick-q16-perl libmagick++-6.q16-8 libmagickcore-6.q16-6 libmagickcore-6.q16-6-extra libmagickwand-6.q16-6 libperl5.36 perl perl-base perl-modules-5.36
+* 00:52 MirahezeLSBot: [salt-user@mw171] Upgraded packages imagemagick imagemagick-6-common imagemagick-6.q16 libcups2 libimage-magick-perl libimage-magick-q16-perl libmagick++-6.q16-8 libmagickcore-6.q16-6 libmagickcore-6.q16-6-extra libmagickwand-6.q16-6 libperl5.36 perl perl-base perl-modules-5.36
+* 00:52 MirahezeLSBot: [salt-user@mw152] Upgraded packages imagemagick imagemagick-6-common imagemagick-6.q16 libcups2 libimage-magick-perl libimage-magick-q16-perl libmagick++-6.q16-8 libmagickcore-6.q16-6 libmagickcore-6.q16-6-extra libmagickwand-6.q16-6 libperl5.36 perl perl-base perl-modules-5.36
+* 00:52 MirahezeLSBot: [salt-user@mwtask171] Upgraded packages imagemagick imagemagick-6-common imagemagick-6.q16 libcups2 libimage-magick-perl libimage-magick-q16-perl libmagick++-6.q16-8 libmagickcore-6.q16-6 libmagickcore-6.q16-6-extra libmagickwand-6.q16-6 libperl5.36 perl perl-base perl-modules-5.36
+* 00:52 MirahezeLSBot: [salt-user@mw192] Upgraded packages imagemagick imagemagick-6-common imagemagick-6.q16 libcups2 libimage-magick-perl libimage-magick-q16-perl libmagick++-6.q16-8 libmagickcore-6.q16-6 libmagickcore-6.q16-6-extra libmagickwand-6.q16-6 libperl5.36 perl perl-base perl-modules-5.36
+* 00:52 MirahezeLSBot: [salt-user@mw202] Upgraded packages imagemagick imagemagick-6-common imagemagick-6.q16 libcups2 libimage-magick-perl libimage-magick-q16-perl libmagick++-6.q16-8 libmagickcore-6.q16-6 libmagickcore-6.q16-6-extra libmagickwand-6.q16-6 libperl5.36 perl perl-base perl-modules-5.36
+* 00:52 MirahezeLSBot: [salt-user@mw193] Upgraded packages imagemagick imagemagick-6-common imagemagick-6.q16 libcups2 libimage-magick-perl libimage-magick-q16-perl libmagick++-6.q16-8 libmagickcore-6.q16-6 libmagickcore-6.q16-6-extra libmagickwand-6.q16-6 libperl5.36 perl perl-base perl-modules-5.36
+* 00:52 MirahezeLSBot: [salt-user@mw151] Upgraded packages imagemagick imagemagick-6-common imagemagick-6.q16 libcups2 libimage-magick-perl libimage-magick-q16-perl libmagick++-6.q16-8 libmagickcore-6.q16-6 libmagickcore-6.q16-6-extra libmagickwand-6.q16-6 libperl5.36 perl perl-base perl-modules-5.36
+* 00:52 MirahezeLSBot: [salt-user@mw163] Upgraded packages imagemagick imagemagick-6-common imagemagick-6.q16 libcups2 libimage-magick-perl libimage-magick-q16-perl libmagick++-6.q16-8 libmagickcore-6.q16-6 libmagickcore-6.q16-6-extra libmagickwand-6.q16-6 libperl5.36 perl perl-base perl-modules-5.36
+* 00:52 MirahezeLSBot: [salt-user@mw161] Upgraded packages imagemagick imagemagick-6-common imagemagick-6.q16 libcups2 libimage-magick-perl libimage-magick-q16-perl libmagick++-6.q16-8 libmagickcore-6.q16-6 libmagickcore-6.q16-6-extra libmagickwand-6.q16-6 libperl5.36 perl perl-base perl-modules-5.36
+* 00:52 MirahezeLSBot: [salt-user@mw172] Upgraded packages imagemagick imagemagick-6-common imagemagick-6.q16 libcups2 libimage-magick-perl libimage-magick-q16-perl libmagick++-6.q16-8 libmagickcore-6.q16-6 libmagickcore-6.q16-6-extra libmagickwand-6.q16-6 libperl5.36 perl perl-base perl-modules-5.36
+* 00:52 MirahezeLSBot: [salt-user@mw162] Upgraded packages imagemagick imagemagick-6-common imagemagick-6.q16 libcups2 libimage-magick-perl libimage-magick-q16-perl libmagick++-6.q16-8 libmagickcore-6.q16-6 libmagickcore-6.q16-6-extra libmagickwand-6.q16-6 libperl5.36 perl perl-base perl-modules-5.36
+* 00:52 MirahezeLSBot: [salt-user@mwtask151] Upgraded packages imagemagick imagemagick-6-common imagemagick-6.q16 libcups2 libimage-magick-perl libimage-magick-q16-perl libmagick++-6.q16-8 libmagickcore-6.q16-6 libmagickcore-6.q16-6-extra libmagickwand-6.q16-6 libperl5.36 perl perl-base perl-modules-5.36
+* 00:52 MirahezeLSBot: [salt-user@mw173] Upgraded packages imagemagick imagemagick-6-common imagemagick-6.q16 libcups2 libimage-magick-perl libimage-magick-q16-perl libmagick++-6.q16-8 libmagickcore-6.q16-6 libmagickcore-6.q16-6-extra libmagickwand-6.q16-6 libperl5.36 perl perl-base perl-modules-5.36
+* 00:52 MirahezeLSBot: [salt-user@mw191] Upgraded packages imagemagick imagemagick-6-common imagemagick-6.q16 libcups2 libimage-magick-perl libimage-magick-q16-perl libmagick++-6.q16-8 libmagickcore-6.q16-6 libmagickcore-6.q16-6-extra libmagickwand-6.q16-6 libperl5.36 perl perl-base perl-modules-5.36
+* 00:51 MirahezeLSBot: [salt-user@mw153] Upgraded packages imagemagick imagemagick-6-common imagemagick-6.q16 libcups2 libimage-magick-perl libimage-magick-q16-perl libmagick++-6.q16-8 libmagickcore-6.q16-6 libmagickcore-6.q16-6-extra libmagickwand-6.q16-6 libperl5.36 perl perl-base perl-modules-5.36
+* 00:51 MirahezeLSBot: [salt-user@test151] Upgraded packages imagemagick imagemagick-6-common imagemagick-6.q16 libcups2 libimage-magick-perl libimage-magick-q16-perl libmagick++-6.q16-8 libmagickcore-6.q16-6 libmagickcore-6.q16-6-extra libmagickwand-6.q16-6 libperl5.36 perl perl-base perl-modules-5.36
+* 00:48 MirahezeLSBot: [salt-user@cloud20] Upgraded packages libcups2 libjson-xs-perl libperl5.36 perl perl-base perl-modules-5.36
+* 00:45 MirahezeLSBot: [salt-user@cloud18] Upgraded packages libcups2 libjson-xs-perl libperl5.36 perl perl-base perl-modules-5.36
+* 00:45 MirahezeLSBot: [salt-user@cloud17] Upgraded packages libcups2 libjson-xs-perl libperl5.36 perl perl-base perl-modules-5.36
+* 00:45 MirahezeLSBot: [salt-user@puppet181] Upgraded packages libcups2 libjson-xs-perl libperl5.36 perl perl-base perl-modules-5.36
+* 00:45 MirahezeLSBot: [salt-user@cloud15] Upgraded packages libcups2 libjson-xs-perl libperl5.36 perl perl-base perl-modules-5.36
+* 00:45 MirahezeLSBot: [salt-user@mattermost1] Upgraded packages libcups2 libjson-xs-perl libperl5.36 perl perl-base perl-modules-5.36
+* 00:12 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: libcups2
+* 00:11 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: libcups2
+* 00:11 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: libcups2
+* 00:11 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libcups2, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 00:11 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: libcups2
+* 00:11 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: libcups2
+* 00:10 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: libcups2
+* 00:10 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: libcups2
+* 00:10 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: libcups2
+* 00:09 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: libcups2
+* 00:09 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: libcups2
+* 00:09 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: libcups2
+* 00:09 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: libcups2
+* 00:08 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: libcups2
+* 00:08 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: libcups2 and libjson-xs-perl
+* 00:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libcups2, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 00:08 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: libcups2
+* 00:07 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: libcups2
+* 00:07 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: libcups2
+* 00:07 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb151: libcups2
+* 00:07 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: libcups2
+* 00:07 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: libcups2
+* 00:06 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: libcups2
+* 00:06 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: libcups2
+* 00:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libcups2, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 00:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libcups2, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 00:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libcups2, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 00:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libcups2, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 00:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libcups2, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 00:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libcups2, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 00:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libcups2, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 00:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libcups2, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 00:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libcups2, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 00:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libcups2, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 00:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libcups2, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 00:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libcups2, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 00:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libcups2, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 00:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libcups2, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 00:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libcups2, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 00:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libcups2, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 00:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libcups2, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 00:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libcups2, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 00:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libcups2, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 00:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libcups2, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 00:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libcups2, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 00:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: libcups2
+* 00:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: libcups2
+* 00:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: libcups2
+* 00:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: libcups2
 * 00:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: libcups2
 * 00:00 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: libcups2
 * 00:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost1: libcups2 and libjson-xs-perl

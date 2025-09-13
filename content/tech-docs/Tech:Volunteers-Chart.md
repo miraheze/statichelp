@@ -48,9 +48,9 @@ BarData     =
     Bar:OrangeStar
     Bar:Owen
     Bar:Original_Authority
-    Bar:BlankEclair
     Bar:Evalprime
     Bar:TheresNoTime
+    Bar:BlankEclair
     Bar:SomeRandomDeveloper
     Bar:Skye
 
