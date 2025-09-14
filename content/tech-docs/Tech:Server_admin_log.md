@@ -2,6 +2,75 @@
 title: Tech:Server admin log
 ---
 
+## 2025-09-14 
+
+* 01:18 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 29s
+* 01:18 BlankEclair: unmaint c2
+* 01:18 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 01:00 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 50s
+* 00:59 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 00:59 MirahezeLSBot: [blankeclair@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@localhost
+* 00:59 BlankEclair: put c2 into maintenance
+* 00:59 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'config': True} to all
+
+## 2025-09-13 
+
+* 21:53 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'SearchDigest'} to test151 - SUCCESS in 0s
+* 21:53 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'SearchDigest'} to test151
+* 21:26 MirahezeLSBot: [skye@test151] finished deploy of {'pull': 'config', 'config': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': ['ManageWiki', 'SearchDigest']} to test151 - SUCCESS in 8s
+* 21:26 MirahezeLSBot: [skye@test151] starting deploy of {'pull': 'config', 'config': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': ['ManageWiki', 'SearchDigest']} to test151
+* 21:22 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 21:21 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 21:18 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 32s
+* 21:17 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 21:07 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 21:06 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 21:05 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 21:05 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 21:02 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'versions': '1.44', 'upgrade_extensions': ['ManageWiki', 'SearchDigest']} to all - SUCCESS in 32s
+* 21:02 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'versions': '1.44', 'upgrade_extensions': ['ManageWiki', 'SearchDigest']} to all
+* 20:48 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 33s
+* 20:48 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'ManageWiki'} to all
+* 20:40 MirahezeLSBot: [skye@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 20:40 MirahezeLSBot: [skye@test151] starting deploy of {'config': True} to test151
+* 20:33 MirahezeLSBot: [skye@test151] finished deploy of {'folders': '1.45/extensions/ManageWiki'} to test151 - SUCCESS in 0s
+* 20:33 MirahezeLSBot: [skye@test151] starting deploy of {'folders': '1.45/extensions/ManageWiki'} to test151
+* 20:18 MirahezeLSBot: [skye@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 20:18 MirahezeLSBot: [skye@test151] starting deploy of {'config': True} to test151
+* 19:51 MirahezeLSBot: [skye@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 19:51 MirahezeLSBot: [skye@test151] starting deploy of {'config': True} to test151
+* 19:39 MirahezeLSBot: [skye@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 19:38 MirahezeLSBot: [skye@test151] starting deploy of {'config': True} to test151
+* 19:24 MirahezeLSBot: [skye@test151] finished deploy of {'config': True, 'folders': '1.45/extensions/ManageWiki'} to test151 - SUCCESS in 0s
+* 19:24 MirahezeLSBot: [skye@test151] starting deploy of {'config': True, 'folders': '1.45/extensions/ManageWiki'} to test151
+* 17:21 RhinosF1: silence job queue grafana alerts
+* 17:19 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 32s
+* 17:18 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 16:56 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php rebuildall --wiki=utaitewiki (START)
+* 16:56 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importDump --wiki=utaitewiki --no-updates --username-prefix=fandom:utaite -- ./utaite4.xml (END - exit=0)
+* 16:56 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importDump --wiki=utaitewiki --no-updates --username-prefix=fandom:utaite -- ./utaite4.xml (START)
+* 16:56 MirahezeLSBot: [skye@mwtask171] Starting import for utaitewiki (XML: ./utaite4.xml; Images: None) (START)
+* 16:53 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importDump --wiki=utaitewiki --no-updates --username-prefix=fandom:utaite -- ./utaite3.xml (END - exit=0)
+* 16:47 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importDump --wiki=utaitewiki --no-updates --username-prefix=fandom:utaite -- ./utaite3.xml (START)
+* 16:44 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importDump --wiki=utaitewiki --no-updates --username-prefix=fandom:utaite -- ./utaite1.xml (END - exit=0)
+* 16:39 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'EmbedVideo'} to test151 - SUCCESS in 553s
+* 16:35 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'EmbedVideo'} to all - SUCCESS in 508s
+* 16:33 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importDump --wiki=utaitewiki --no-updates --username-prefix=fandom:utaite -- ./utaite1.xml (START)
+* 16:30 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'EmbedVideo'} to test151
+* 16:27 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'EmbedVideo'} to all
+* 16:24 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importDump --wiki=utaitewiki --no-updates --username-prefix=fandom:utaite -- ./utaite2.xml (END - exit=0)
+* 16:20 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importDump --wiki=utaitewiki --no-updates --username-prefix=fandom:utaite -- ./utaite1.xml (END - exit=256)
+* 16:17 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importDump --wiki=utaitewiki --no-updates --username-prefix=fandom:utaite -- ./utaite2.xml (START)
+* 15:53 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importDump --wiki=utaitewiki --no-updates --username-prefix=fandom:utaite -- ./utaite1.xml (START)
+* 15:52 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importDump --wiki=--wiki=utaitewiki --no-updates --username-prefix=fandom:utaite -- ./utaite1.xml (END - exit=0)
+* 15:52 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importDump --wiki=--wiki=utaitewiki --no-updates --username-prefix=fandom:utaite -- ./utaite1.xml (START)
+* 15:22 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'EmbedVideo'} to test151 - SUCCESS in 2s
+* 15:22 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'EmbedVideo'} to test151
+* 02:08 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 02:08 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 00:08 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'CookieConsent'} to test151 - SUCCESS in 1s
+* 00:08 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'CookieConsent'} to test151
+
 ## 2025-09-12 
 
 * 23:30 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:ToggleExtension --wiki=metawiki --name=dynamicpagelist3 --disable --all-wikis --execute (END - exit=0)

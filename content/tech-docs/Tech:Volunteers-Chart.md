@@ -2,7 +2,7 @@
 title: Tech:Volunteers/Chart
 ---
 
-`{{ {{Chart|Technology team volunteers}} }}`
+`{{ {{Chart|Technology Team Volunteers}} }}`
 ```
 {{ {{#tag:timeline|
 ImageSize   = width:1000 height:auto barincrement:24
