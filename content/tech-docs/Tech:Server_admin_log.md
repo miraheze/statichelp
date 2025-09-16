@@ -2,6 +2,27 @@
 title: Tech:Server admin log
 ---
 
+## 2025-09-15 
+
+* 21:01 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'landing', 'landing': True} to all - SUCCESS in 26s
+* 21:01 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'landing', 'landing': True} to all
+* 20:31 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'landing', 'landing': True} to all - SUCCESS in 24s
+* 20:31 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'landing', 'landing': True} to all
+* 20:23 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'landing', 'landing': True} to all - SUCCESS in 29s
+* 20:23 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'landing', 'landing': True} to all
+* 14:20 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/extensions/Cargo/maintenance/cargoRecreateData --wiki=unilordwiki (END - exit=0)
+* 14:19 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/extensions/Cargo/cargoRecreateData --wiki=unilordwiki (END - exit=256)
+* 14:18 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php extensions/Cargo/cargoRecreateData --wiki=unilordwiki (END - exit=256)
+* 14:15 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php cargoRecreateData --wiki=unilordwiki (END - exit=256)
+* 14:15 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php cargoRecreateData --wiki=unilordwiki (START)
+* 13:38 RhinosF1: raise high queue backlog to 500K for more than 60 minutes (was 100K for more than 30 minutes) to reduce false positives
+* 08:28 Universal Omega: hard-reboot mw171
+* 04:14 MirahezeLSBot: [agent@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=metawiki (END - exit=0)
+* 04:12 MirahezeLSBot: [agent@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 04:12 MirahezeLSBot: [agent@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 03:54 MirahezeLSBot: [agent@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 03:54 MirahezeLSBot: [agent@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
 ## 2025-09-14 
 
 * 23:34 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
