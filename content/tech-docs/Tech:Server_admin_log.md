@@ -2,6 +2,22 @@
 title: Tech:Server admin log
 ---
 
+## 2025-09-20 
+
+* 21:37 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'landing', 'landing': True} to all - SUCCESS in 32s
+* 21:37 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'landing', 'landing': True} to all
+* 20:09 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 20:08 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 17:46 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 41s
+* 17:45 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'CreateWiki'} to all
+* 13:06 @paladox: reboot changeprop201 and eventgate181
+* 13:03 @paladox: run dist-upgrade on changeprop201 and eventgate181
+* 12:58 @paladox: reboot kafka181
+* 12:56 @paladox: run dist-upgrade on kafka181
+* 12:49 @paladox: reboot mon181
+* 12:48 @paladox: run dist-upgrade on mon181
+* 12:48 @paladox: upgrade grafana on mon181
+
 ## 2025-09-18 
 
 * 00:18 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'landing', 'landing': True} to all - SUCCESS in 24s
