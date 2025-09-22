@@ -2,6 +2,57 @@
 title: Tech:Server admin log
 ---
 
+## 2025-09-21 
+
+* 20:55 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php purgeParserCache --wiki=thechurchofthestatuewiki --age=300 (END - exit=0)
+* 20:44 MirahezeLSBot: [skye@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 20:44 MirahezeLSBot: [skye@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 20:24 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=sempuwiki (END - exit=0)
+* 20:16 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=senpuuwiki --new=sempuwiki --user=Skye (END - exit=0)
+* 20:11 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=pwnedgewiki (END - exit=0)
+* 20:09 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=lastdayofrobloxiawiki --new=pwnedgewiki --user=Skye (END - exit=0)
+* 20:05 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=trotywikiwiki (END - exit=0)
+* 20:04 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=trotyenergyresearchfaciliywiki --new=trotywikiwiki --user=Skye (END - exit=0)
+* 20:00 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=armeniacawiki (END - exit=0)
+* 19:59 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=armeniapastpresentwiki --new=armeniacawiki --user=Skye (END - exit=0)
+* 19:48 MirahezeLSBot: [skye@mwtask171] Finished import for thechurchofthestatuewiki (XML: None; Images: ./thechurchofthestatuewiki) (END - exit=0)
+* 19:48 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=thechurchofthestatuewiki --update (END - exit=0)
+* 19:48 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=thechurchofthestatuewiki --update (START)
+* 19:48 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=thechurchofthestatuewiki --sleep=0 '--comment=Reupload pre-reset images' --search-recursively -- ./thechurchofthestatuewiki (END - exit=0)
+* 19:47 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=thechurchofthestatuewiki --sleep=0 '--comment=Reupload pre-reset images' --search-recursively -- ./thechurchofthestatuewiki (START)
+* 19:47 MirahezeLSBot: [skye@mwtask171] Starting import for thechurchofthestatuewiki (XML: None; Images: ./thechurchofthestatuewiki) (START)
+* 19:42 @paladox: hacked SetContainersAccess.php script to clean thechurchofthestatuewiki and then re-ran it to create contains.
+* 18:38 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=thechurchofthestatuewiki (END - exit=0)
+* 18:36 MirahezeLSBot: [skye@mwtask171] Finished import for thechurchofthestatuewiki (XML: None; Images: ./thechurchofthestatuewiki) (END - exit=1)
+* 18:36 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=thechurchofthestatuewiki --sleep=0 '--comment=Reupload pre-reset images' --search-recursively -- ./thechurchofthestatuewiki (END - exit=1)
+* 18:36 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=thechurchofthestatuewiki --sleep=0 '--comment=Reupload pre-reset images' --search-recursively -- ./thechurchofthestatuewiki (START)
+* 18:36 MirahezeLSBot: [skye@mwtask171] Starting import for thechurchofthestatuewiki (XML: None; Images: ./thechurchofthestatuewiki) (START)
+* 18:25 MirahezeLSBot: [skye@mwtask171] Finished import for thechurchofthestatuewiki (XML: None; Images: ./thechurchofthestatuewiki) (END - exit=1)
+* 18:25 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=thechurchofthestatuewiki --sleep=0 '--comment=Reupload pre-reset images' --search-recursively -- ./thechurchofthestatuewiki (END - exit=1)
+* 18:25 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=thechurchofthestatuewiki --sleep=0 '--comment=Reupload pre-reset images' --search-recursively -- ./thechurchofthestatuewiki (START)
+* 18:24 MirahezeLSBot: [skye@mwtask171] Starting import for thechurchofthestatuewiki (XML: None; Images: ./thechurchofthestatuewiki) (START)
+* 18:24 MirahezeLSBot: [skye@mwtask171] Finished import for thechurchofthestatuewiki (XML: None; Images: ./thechurchofthestatuewiki) (END - exit=1)
+* 18:24 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=thechurchofthestatuewiki --sleep=0 '--comment=Reupload pre-reset images' --search-recursively -- ./thechurchofthestatuewiki (END - exit=1)
+* 18:24 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=thechurchofthestatuewiki --sleep=0 '--comment=Reupload pre-reset images' --search-recursively -- ./thechurchofthestatuewiki (START)
+* 18:24 MirahezeLSBot: [skye@mwtask171] Starting import for thechurchofthestatuewiki (XML: None; Images: ./thechurchofthestatuewiki) (START)
+* 18:02 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'force': True} to all - SUCCESS in 21s
+* 18:01 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'force': True} to all
+* 17:59 MirahezeLSBot: [skye@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mw193
+* 17:59 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 16:59 @paladox: revert
+* 16:31 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 21s
+* 16:31 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 15:42 @paladox: setting php-fpm childs @ 3 � 12 (mw cores) on mw� to experiment
+* 15:33 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 15:25 MirahezeLSBot: [rhinos@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 15:24 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'pull': 'config'} to mwtask181 - SUCCESS in 1s
+* 15:24 MirahezeLSBot: [rhinos@mwtask181] starting deploy of {'pull': 'config'} to mwtask181
+* 15:22 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 22s
+* 15:22 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 15:22 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 109s
+* 15:22 MirahezeLSBot: [rhinos@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 15:22 MirahezeLSBot: [rhinos@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
 ## 2025-09-20 
 
 * 21:37 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'landing', 'landing': True} to all - SUCCESS in 32s
