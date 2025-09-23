@@ -2,6 +2,60 @@
 title: Tech:Server admin log
 ---
 
+## 2025-09-22 
+
+* 18:47 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 18:47 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 18:21 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/initSiteStats.php --wiki=rubaldisbasicswiki --update (END - exit=0)
+* 18:21 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=rubaldisbasicswiki (END - exit=0)
+* 17:59 MirahezeLSBot: [agent@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 17:59 MirahezeLSBot: [agent@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 17:58 @paladox: depooling and repooling mw� one by one and increasing their ram to 20gb (also doing the same with mwtask�)
+* 17:29 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=rubaldisbasicswiki (START)
+* 17:29 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=rubaldisbasicswiki dump.xml --no-updates (END - exit=0)
+* 17:04 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importDump --wiki=loonathewikiwiki --no-updates --username-prefix=fandom:loonatheworld -- ./loona.xml (START)
+* 17:04 MirahezeLSBot: [skye@mwtask171] Starting import for loonathewikiwiki (XML: ./loona.xml; Images: None) (START)
+* 16:53 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=rubaldisbasicswiki dump.xml --no-updates (START)
+* 15:00 MirahezeLSBot: [agent@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 14:59 MirahezeLSBot: [agent@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 14:41 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/initSiteStats.php --wiki=skiesofarcadiawiki --update (END - exit=0)
+* 14:41 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=skiesofarcadiawiki (END - exit=0)
+* 14:38 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=skiesofarcadiawiki (START)
+* 14:38 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=skiesofarcadiawiki dump.xml --no-updates (END - exit=0)
+* 14:38 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=skiesofarcadiawiki dump.xml --no-updates (START)
+* 13:22 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php cleanupTitles --wiki=mtrwikiwiki (END - exit=0)
+* 13:21 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php cleanupTitles --wiki=mtrwikiwiki --dry-run (END - exit=0)
+* 12:29 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 12:29 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 12:21 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 12:21 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 12:17 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 12:17 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 12:06 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'DarkMode'} to all - SUCCESS in 26s
+* 12:06 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'DarkMode'} to all
+* 12:05 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'DarkMode'} to test151 - SUCCESS in 1s
+* 12:05 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'DarkMode'} to test151
+* 12:01 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=superstarracerswiki (END - exit=0)
+* 12:01 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=superstarracerswiki --startOver (END - exit=0)
+* 11:38 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_skins': 'Citizen'} to all - SUCCESS in 27s
+* 11:37 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_skins': 'Citizen'} to all
+* 11:23 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_skins': 'Citizen'} to test151 - SUCCESS in 2s
+* 11:23 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_skins': 'Citizen'} to test151
+* 11:20 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.44/extensions/SemanticScribunto'} to all - SUCCESS in 24s
+* 11:20 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.44/extensions/SemanticScribunto'} to all
+* 11:18 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'SemanticScribunto'} to test151 - SUCCESS in 1s
+* 11:18 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'SemanticScribunto'} to test151
+* 01:32 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/initSiteStats.php --wiki=skiesofarcadiawiki --update (END - exit=0)
+* 01:32 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=skiesofarcadiawiki (END - exit=256)
+* 01:30 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=skiesofarcadiawiki (START)
+* 01:30 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=skiesofarcadiawiki dump.xml --no-updates (END - exit=256)
+* 01:27 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=skiesofarcadiawiki dump.xml --no-updates (START)
+* 01:25 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/initSiteStats.php --wiki=haplessdatabasewiki --update (END - exit=0)
+* 01:25 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=haplessdatabasewiki (END - exit=0)
+* 01:25 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=haplessdatabasewiki (START)
+* 01:25 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=haplessdatabasewiki dump.xml --no-updates (END - exit=0)
+* 01:25 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=haplessdatabasewiki dump.xml --no-updates (START)
+
 ## 2025-09-21 
 
 * 20:55 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php purgeParserCache --wiki=thechurchofthestatuewiki --age=300 (END - exit=0)
