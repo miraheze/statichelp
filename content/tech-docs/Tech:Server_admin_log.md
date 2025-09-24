@@ -2,6 +2,22 @@
 title: Tech:Server admin log
 ---
 
+## 2025-09-23 
+
+* 23:02 @paladox: puppet181 upgrade openvox-server openvoxdb openvoxdb-termini openvox-agent
+* 22:57 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/initSiteStats.php --wiki=qualesterrawiki --update (END - exit=0)
+* 22:57 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=qualesterrawiki (END - exit=0)
+* 22:56 @paladox: dist-upgrade & reboot mon181
+* 22:56 @paladox: upgrade grafana on mon181
+* 22:17 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=qualesterrawiki (START)
+* 22:17 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=qualesterrawiki dump.xml --no-updates (END - exit=0)
+* 22:17 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=qualesterrawiki dump.xml --no-updates (START)
+* 14:18 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php rebuildall --wiki=loonathewikiwiki (START)
+* 14:18 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importDump --wiki=loonathewikiwiki --no-updates --username-prefix=fandom:loonatheworld -- ./loona.xml (END - exit=0)
+* 13:47 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importDump --wiki=loonathewikiwiki --no-updates --username-prefix=fandom:loonatheworld -- ./loona.xml (START)
+* 13:47 MirahezeLSBot: [skye@mwtask171] Starting import for loonathewikiwiki (XML: ./loona.xml; Images: None) (START)
+* 11:57 @paladox: hacking puppet to experiment with different apcu/opcache values for mw*
+
 ## 2025-09-22 
 
 * 18:47 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
