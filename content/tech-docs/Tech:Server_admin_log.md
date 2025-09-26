@@ -2,6 +2,74 @@
 title: Tech:Server admin log
 ---
 
+## 2025-09-25 
+
+* 12:28 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php purgeParserCache --wiki=monkeisleswiki --age=36000 (END - exit=0)
+* 12:12 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'CommentStreams'} to test151 - SUCCESS in 1s
+* 12:12 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'CommentStreams'} to test151
+* 11:11 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 343s
+* 07:16 MirahezeLSBot: [agent@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 07:16 MirahezeLSBot: [agent@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 07:15 MirahezeLSBot: [agent@mwtask181] starting deploy of {'config': True} to all
+* 03:41 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libxslt1.1
+* 03:41 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: libxslt1.1
+* 03:41 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: libxslt1.1
+* 03:40 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: libxslt1.1
+* 03:40 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: libxslt1.1
+* 03:40 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: libxslt1.1
+* 03:40 MirahezeLSBot: [agent@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 27s
+* 03:40 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: libxslt1.1
+* 03:39 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: libxslt1.1
+* 03:39 MirahezeLSBot: [agent@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'CreateWiki'} to all
+* 03:39 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: libxslt1.1
+* 03:39 MirahezeLSBot: [agent@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 21s
+* 03:39 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: libxslt1.1
+* 03:39 MirahezeLSBot: [agent@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 03:38 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: libxslt1.1
+* 03:38 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: libxslt1.1
+* 03:38 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: libxslt1.1
+* 03:37 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: libxslt1.1
+* 03:36 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: libxslt1.1
+* 03:36 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: libxslt1.1
+* 03:36 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libxslt1.1
+* 03:36 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: libxslt1.1
+* 03:35 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: libxslt1.1
+* 03:35 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: libxslt1.1
+* 03:35 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: libxslt1.1
+* 03:35 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: libxslt1.1
+* 03:34 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: libxslt1.1
+* 03:34 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: libxslt1.1
+* 03:34 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: libxslt1.1
+* 03:34 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: libxslt1.1
+* 03:34 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: libxslt1.1
+* 03:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: libxslt1.1
+* 03:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: libxslt1.1
+* 03:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: libxslt1.1
+* 03:33 MirahezeLSBot: [blankeclair@mwtask181] Finished import for rubaldisbasicswiki (XML: None; Images: all_images/) (END - exit=0)
+* 03:33 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=rubaldisbasicswiki --update (END - exit=0)
+* 03:33 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=rubaldisbasicswiki --update (START)
+* 03:33 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=rubaldisbasicswiki --sleep=1 '--comment=Importing images from [https://baldis-basics-in-education-and-learning.fandom.com/ru](https://baldis-basics-in-education-and-learning.fandom.com/ru) ([T14313](https://meta.miraheze.org/wiki/phorge:T14313))' -- all_images/ (END - exit=0)
+* 03:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: libxslt1.1
+* 03:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: libxslt1.1
+* 03:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: libxslt1.1
+* 03:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: libxslt1.1
+* 03:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: libxslt1.1
+* 03:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: libxslt1.1
+* 03:31 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: libxslt1.1
+* 03:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost1: libxslt1.1
+* 03:30 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: libxslt1.1 and xsltproc
+* 03:29 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: libxslt1.1
+* 03:29 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: libxslt1.1 and xsltproc
+* 03:29 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: libxslt1.1 and xsltproc
+* 03:29 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: libxslt1.1
+* 03:28 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: libxslt1.1
+* 03:28 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: libxslt1.1 and xsltproc
+* 03:27 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: libxslt1.1 and xsltproc
+* 03:27 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: libxslt1.1 and xsltproc
+* 03:27 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: libxslt1.1
+* 01:31 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=rubaldisbasicswiki --sleep=1 '--comment=Importing images from [https://baldis-basics-in-education-and-learning.fandom.com/ru](https://baldis-basics-in-education-and-learning.fandom.com/ru) ([T14313](https://meta.miraheze.org/wiki/phorge:T14313))' -- all_images/ (START)
+* 01:31 MirahezeLSBot: [blankeclair@mwtask181] Starting import for rubaldisbasicswiki (XML: None; Images: all_images/) (START)
+
 ## 2025-09-24 
 
 * 19:27 @paladox: hack puppet config to apply a haproxy experiment

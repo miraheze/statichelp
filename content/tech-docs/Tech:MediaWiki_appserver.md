@@ -82,7 +82,7 @@ ManageWiki uses a caching backend for its settings, extensions, permissions, and
 
 ## Composer 
 
-Composer is a dependency manager for PHP libraries. MediaWiki itself, as well as quite a few extensions, make use of Composer. More information about Composer can be found on the [MediaWiki.org documentation page](https://meta.miraheze.org/wiki/mediawikiwiki:Composer). On Miraheze, the Composer dependency is managed with [mediawiki-repos](https://github.com/miraheze/mediawiki-repos), and any extensions that use Composer must be added with `composer: true` there in order for it to be installed properly. Please see the README in mediawiki-repos for further instructions.
+[Composer](https://getcomposer.org/) is a dependency manager for PHP libraries. MediaWiki itself, as well as quite a few extensions, make use of Composer. More information about Composer can be found on the [MediaWiki.org documentation page](https://meta.miraheze.org/wiki/mediawikiwiki:Composer). On Miraheze, the Composer dependency is managed with [mediawiki-repos](https://github.com/miraheze/mediawiki-repos), and any extensions that use Composer must be added with `composer: true` there in order for it to be installed properly. Please see the README in mediawiki-repos for further instructions.
 
 ## Profiling 
 
