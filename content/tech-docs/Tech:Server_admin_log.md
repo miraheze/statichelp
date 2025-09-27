@@ -2,6 +2,45 @@
 title: Tech:Server admin log
 ---
 
+## 2025-09-26 
+
+* 23:42 @paladox: increase mw* ram to 25gb
+* 23:41 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 56s
+* 23:36 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 22:53 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 22s
+* 18:52 @paladox: made rhinosf1 a superuser in matomo
+* 16:38 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'Cargo'} to test151 - SUCCESS in 106s
+* 16:37 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'Cargo'} to all - SUCCESS in 97s
+* 16:36 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'Cargo'} to test151
+* 16:36 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'Cargo'} to all
+* 16:10 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'folders': '1.44/extensions/Cargo'} to all - SUCCESS in 20s
+* 16:09 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'folders': '1.44/extensions/Cargo'} to all
+* 16:05 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'folders': '1.44/extensions/Cargo'} to all - SUCCESS in 20s
+* 16:05 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'folders': '1.44/extensions/Cargo'} to all
+* 16:04 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'folders': '1.44/extensions/Cargo'} to all - SUCCESS in 21s
+* 16:03 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'folders': '1.44/extensions/Cargo'} to all
+* 16:03 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'folders': '1.44/extensions/Cargo'} to all
+* 16:00 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'folders': '1.44/extensions/Cargo'} to all - SUCCESS in 21s
+* 15:59 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'folders': '1.44/extensions/Cargo'} to all
+* 15:59 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'folders': '1.44/extensions/Cargo'} to all - SUCCESS in 20s
+* 15:58 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'folders': '1.44/extensions/Cargo'} to all
+* 15:58 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'folders': '1.44/extensions/Cargo'} to all - SUCCESS in 20s
+* 15:58 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'folders': '1.44/extensions/Cargo'} to all
+* 15:57 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'folders': '1.44/extensions/Cargo'} to all - SUCCESS in 20s
+* 15:56 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'folders': '1.44/extensions/Cargo'} to all
+* 15:55 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'folders': '1.44/extensions/Cargo'} to all - SUCCESS in 20s
+* 15:55 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'folders': '1.44/extensions/Cargo'} to all
+* 15:54 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'folders': '1.44/extensions/Cargo'} to all - SUCCESS in 22s
+* 15:53 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'folders': '1.44/extensions/Cargo'} to all
+* 13:10 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'Cargo'} to test151 - SUCCESS in 105s
+* 13:08 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'Cargo'} to test151
+* 12:59 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'HAWelcome'} to test151 - SUCCESS in 630s
+* 12:54 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'Cargo'} to all - SUCCESS in 98s
+* 12:52 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'Cargo'} to all
+* 12:50 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'HAWelcome'} to all - SUCCESS in 131s
+* 12:49 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'HAWelcome'} to test151
+* 12:48 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'HAWelcome'} to all
+
 ## 2025-09-25 
 
 * 12:28 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php purgeParserCache --wiki=monkeisleswiki --age=36000 (END - exit=0)
