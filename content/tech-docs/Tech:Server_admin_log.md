@@ -2,6 +2,45 @@
 title: Tech:Server admin log
 ---
 
+## 2025-09-27 
+
+* 23:59 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'force_upgrade': True, 'versions': '1.44', 'upgrade_skins': 'Femiwiki'} to all
+* 23:56 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'force_upgrade': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'EmbedVideo', 'upgrade_skins': 'Femiwiki'} to test151
+* 23:55 MirahezeLSBot: [paladox@test151] finished deploy of {'force_upgrade': True, 'versions': ['1.44', '1.45'], 'upgrade_skins': 'Femiwiki'} to test151 - SUCCESS in 1s
+* 23:55 MirahezeLSBot: [paladox@test151] starting deploy of {'force_upgrade': True, 'versions': ['1.44', '1.45'], 'upgrade_skins': 'Femiwiki'} to test151
+* 23:48 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'force_upgrade': True, 'versions': ['1.44', '1.45'], 'upgrade_skins': 'Femiwiki'} to test151 - SUCCESS in 564s
+* 23:44 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'force_upgrade': True, 'versions': '1.44', 'upgrade_skins': 'Femiwiki'} to all - SUCCESS in 414s
+* 23:39 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'force_upgrade': True, 'versions': ['1.44', '1.45'], 'upgrade_skins': 'Femiwiki'} to test151
+* 23:37 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'force_upgrade': True, 'versions': '1.44', 'upgrade_skins': 'Femiwiki'} to all
+* 23:28 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'EmbedVideo'} to all - SUCCESS in 435s
+* 23:25 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': ['Comments', 'PollNY', 'QuizGame']} to test151 - SUCCESS in 449s
+* 23:21 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'EmbedVideo'} to all
+* 23:20 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'Comments'} to all - SUCCESS in 133s
+* 23:18 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'Comments'} to all
+* 23:18 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': ['Comments', 'PollNY', 'QuizGame']} to test151
+* 23:18 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': ['PollNY', 'QuizGame']} to all - SUCCESS in 243s
+* 23:18 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'SocialProfile'} to test151 - SUCCESS in 367s
+* 23:14 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': ['PollNY', 'QuizGame']} to all
+* 23:13 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'SocialProfile'} to all - SUCCESS in 113s
+* 23:12 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'SocialProfile'} to test151
+* 23:11 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'SocialProfile'} to all
+* 23:08 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'PageForms'} to test151 - SUCCESS in 115s
+* 23:06 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'PageForms'} to test151
+* 23:04 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'PageForms'} to all - SUCCESS in 102s
+* 23:02 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'RatePage'} to test151 - SUCCESS in 155s
+* 23:02 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'PageForms'} to all
+* 23:02 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'RatePage'} to all - SUCCESS in 131s
+* 23:00 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'RatePage'} to test151
+* 22:59 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'RatePage'} to all
+* 21:40 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.44/extensions/Maps'} to all - SUCCESS in 21s
+* 21:40 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.44/extensions/Maps'} to all
+* 21:39 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.45/extensions/Maps'} to test151 - SUCCESS in 0s
+* 21:39 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.45/extensions/Maps'} to test151
+* 21:38 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.44/extensions/Maps,1.45/extensions/Maps'} to test151 - SUCCESS in 0s
+* 21:38 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.44/extensions/Maps,1.45/extensions/Maps'} to test151
+* 21:37 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.44/extensions/Maps'} to test151 - SUCCESS in 0s
+* 21:37 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.44/extensions/Maps'} to test151
+
 ## 2025-09-26 
 
 * 23:42 @paladox: increase mw* ram to 25gb
