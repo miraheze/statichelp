@@ -2,6 +2,83 @@
 title: Tech:Server admin log
 ---
 
+## 2025-09-28 
+
+* 20:07 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 20s
+* 20:07 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:52 MirahezeLSBot: [skye@mwtask171] Finished import for monkeisleswiki (XML: ./monkeisles.xml; Images: None) (END - exit=0)
+* 19:52 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=monkeisleswiki --update (END - exit=0)
+* 19:52 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=monkeisleswiki --update (START)
+* 19:52 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initEditCount --wiki=monkeisleswiki (END - exit=0)
+* 19:52 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initEditCount --wiki=monkeisleswiki (START)
+* 19:52 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php rebuildall --wiki=monkeisleswiki (END - exit=0)
+* 19:48 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php rebuildall --wiki=monkeisleswiki (START)
+* 19:48 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importDump --wiki=monkeisleswiki --no-updates --username-prefix=fandom:newbluecoco90 -- ./monkeisles.xml (END - exit=0)
+* 19:48 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importDump --wiki=monkeisleswiki --no-updates --username-prefix=fandom:newbluecoco90 -- ./monkeisles.xml (START)
+* 19:48 MirahezeLSBot: [skye@mwtask171] Starting import for monkeisleswiki (XML: ./monkeisles.xml; Images: None) (START)
+* 19:47 MirahezeLSBot: [skye@mwtask171] Finished import for monkeisles (XML: ./monkeisles.xml; Images: None) (END - exit=0)
+* 19:47 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=monkeisles --update (END - exit=0)
+* 19:47 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=monkeisles --update (START)
+* 19:47 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initEditCount --wiki=monkeisles (END - exit=0)
+* 19:47 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initEditCount --wiki=monkeisles (START)
+* 19:47 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php rebuildall --wiki=monkeisles (END - exit=0)
+* 19:47 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php rebuildall --wiki=monkeisles (START)
+* 19:47 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importDump --wiki=monkeisles --no-updates --username-prefix=fandom:newbluecoco90 -- ./monkeisles.xml (END - exit=0)
+* 19:47 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importDump --wiki=monkeisles --no-updates --username-prefix=fandom:newbluecoco90 -- ./monkeisles.xml (START)
+* 19:47 MirahezeLSBot: [skye@mwtask171] Starting import for monkeisles (XML: ./monkeisles.xml; Images: None) (START)
+* 19:32 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=monkeisleswiki --requester=Warybar (END - exit=0)
+* 19:12 RhinosF1: stopped spamming the mediawiki team with Grafana alert emails
+* 19:08 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=planecrazywiki (END - exit=0)
+* 19:07 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=planecrazywikiwiki --new=planecrazywiki --user=Skye (END - exit=0)
+* 19:03 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=serbywiki (END - exit=0)
+* 19:02 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=serbjawiki --new=serbywiki --user=Skye (END - exit=0)
+* 17:55 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'PageImages'} to all - SUCCESS in 1s
+* 17:55 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'PageImages'} to all
+* 17:55 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'PageImages'} to test151 - SUCCESS in 1s
+* 17:55 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'PageImages'} to test151
+* 14:00 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MintyDocs'} to test151 - SUCCESS in 108s
+* 14:00 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'MintyDocs'} to all - SUCCESS in 87s
+* 13:59 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'MintyDocs'} to all
+* 13:58 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MintyDocs'} to test151
+* 13:41 @paladox: increase matomo151 disk by 10gb
+* 13:15 @paladox: increase mw* ram to 30gb
+* 13:13 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'Maps'} to all - SUCCESS in 71s
+* 13:11 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'Maps'} to all
+* 13:11 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'LinkCards'} to all - SUCCESS in 90s
+* 13:10 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'LinkCards'} to all
+* 13:10 MirahezeLSBot: [paladox@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mwtask151
+* 13:08 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'LinkCards'} to all
+* 13:08 @paladox: increase mwtask* ram to 30gb
+* 13:07 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'LinkCards'} to all
+* 13:05 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'LinkCards'} to all - SUCCESS in 97s
+* 13:04 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'Maps'} to test151 - SUCCESS in 106s
+* 13:04 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'LinkCards'} to all
+* 13:03 MirahezeLSBot: [paladox@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 13:02 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'Maps'} to test151
+* 13:02 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'LinkCards'} to all
+* 13:02 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'LinkCards'} to test151 - SUCCESS in 107s
+* 13:02 MirahezeLSBot: [paladox@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 13:00 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'LinkCards'} to test151
+* 13:00 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'LinkCards'} to all
+* 12:37 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'InterwikiDispatcher'} to all - SUCCESS in 405s
+* 12:30 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'InterwikiDispatcher'} to all
+* 12:29 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'InterwikiDispatcher'} to test151 - SUCCESS in 135s
+* 12:26 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'InterwikiDispatcher'} to test151
+* 00:29 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'Maps'} to test151 - SUCCESS in 2s
+* 00:29 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'Maps'} to test151
+* 00:29 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.44/extensions/Maps'} to all - SUCCESS in 21s
+* 00:28 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.44/extensions/Maps'} to all
+* 00:12 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'force_upgrade': True, 'versions': ['1.44', '1.45'], 'upgrade_skins': 'chameleon'} to test151 - SUCCESS in 114s
+* 00:12 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'force_upgrade': True, 'versions': '1.44', 'upgrade_skins': 'chameleon'} to all - SUCCESS in 101s
+* 00:10 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'force_upgrade': True, 'versions': '1.44', 'upgrade_skins': 'chameleon'} to all
+* 00:10 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'force_upgrade': True, 'versions': ['1.44', '1.45'], 'upgrade_skins': 'chameleon'} to test151
+* 00:07 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 21s
+* 00:07 MirahezeLSBot: [paladox@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 00:07 MirahezeLSBot: [paladox@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 00:07 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 00:06 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'force_upgrade': True, 'versions': '1.44', 'upgrade_skins': 'Femiwiki'} to all - SUCCESS in 420s
+* 00:05 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'force_upgrade': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'EmbedVideo', 'upgrade_skins': 'Femiwiki'} to test151 - SUCCESS in 548s
+
 ## 2025-09-27 
 
 * 23:59 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'force_upgrade': True, 'versions': '1.44', 'upgrade_skins': 'Femiwiki'} to all
