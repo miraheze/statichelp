@@ -2,6 +2,36 @@
 title: Tech:Server admin log
 ---
 
+## 2025-09-29 
+
+* 23:33 @abaddriverlol: ran "sudo -u www-data php /srv/mediawiki/1.44/extensions/SocialProfile/UserStats/maintenance/updateUserStats.php --wiki=voxlpediawiki"
+* 23:31 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php UserStats:updateUserStats --wiki=voxlpediawiki (END - exit=256)
+* 21:29 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 21:28 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 21:28 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 21:28 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 16:15 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 16:15 MirahezeLSBot: [paladox@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 16:15 MirahezeLSBot: [paladox@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 16:15 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 15:36 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 15:36 MirahezeLSBot: [paladox@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 15:36 MirahezeLSBot: [paladox@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 15:36 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 13:29 @paladox: test
+* 13:03 @abaddriverlol: ran UPDATE echo_event SET event_extra = '[...]' WHERE event_id = 328941; on metawiki (full query in the task: T14304)
+* 13:00 BlankEclair: :3
+* 10:56 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 10:55 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 10:40 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 10:39 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 01:15 MirahezeLSBot: [blankeclair@mwtask181] Finished import for cokestudioswiki (XML: None; Images: MyCoke Wiki Archive/) (END - exit=0)
+* 01:15 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=cokestudioswiki --update (END - exit=0)
+* 01:15 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=cokestudioswiki --update (START)
+* 01:15 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=cokestudioswiki --sleep=1 '--comment=Importing images from [https://mycoke.fandom.com](https://mycoke.fandom.com) ([T14308](https://meta.miraheze.org/wiki/phorge:T14308))' --search-recursively -- 'MyCoke Wiki Archive/' (END - exit=0)
+* 00:32 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=cokestudioswiki --sleep=1 '--comment=Importing images from [https://mycoke.fandom.com](https://mycoke.fandom.com) ([T14308](https://meta.miraheze.org/wiki/phorge:T14308))' --search-recursively -- 'MyCoke Wiki Archive/' (START)
+* 00:32 MirahezeLSBot: [blankeclair@mwtask181] Starting import for cokestudioswiki (XML: None; Images: MyCoke Wiki Archive/) (START)
+
 ## 2025-09-28 
 
 * 20:07 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 20s
