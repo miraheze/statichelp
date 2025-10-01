@@ -2,6 +2,24 @@
 title: Tech:Server admin log
 ---
 
+## 2025-10-01 
+
+* 00:00 MirahezeLSBot: [www-data@mwtask181] Began automatic backing up
+
+## 2025-09-30 
+
+* 18:44 @paladox: restart nginx on swiftproxy� and ldap�
+* 17:01 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 17:01 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 17:01 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 17:00 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 16:50 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 16:50 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 16:42 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_skins': 'Citizen'} to all - SUCCESS in 24s
+* 16:42 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_skins': 'Citizen'} to all
+* 10:50 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_skins': 'Citizen'} to test151 - SUCCESS in 2s
+* 10:50 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_skins': 'Citizen'} to test151
+
 ## 2025-09-29 
 
 * 23:33 @abaddriverlol: ran "sudo -u www-data php /srv/mediawiki/1.44/extensions/SocialProfile/UserStats/maintenance/updateUserStats.php --wiki=voxlpediawiki"
