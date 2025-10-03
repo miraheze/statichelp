@@ -2,6 +2,46 @@
 title: Tech:Server admin log
 ---
 
+## 2025-10-02 
+
+* 22:56 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:ReplaceTextEligible --wiki=baubleswiki (END - exit=0)
+* 22:55 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/MirahezeMagic:ReplaceTextEligible.php --wiki=baubleswiki (END - exit=256)
+* 21:39 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_skins': 'Vector'} to all - SUCCESS in 22s
+* 21:38 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_skins': 'Vector'} to all
+* 21:38 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_skins': 'Vector'} to test151 - SUCCESS in 2s
+* 21:38 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_skins': 'Vector'} to test151
+* 18:19 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'folders': '1.44/extensions/WebAuthn'} to all - SUCCESS in 31s
+* 18:19 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'folders': '1.44/extensions/WebAuthn'} to all
+* 18:18 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'folders': '1.44/extensions/WebAuthn/vendor'} to all - SUCCESS in 21s
+* 18:18 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'folders': '1.44/extensions/WebAuthn/vendor'} to all
+* 18:18 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'folders': '1.44/extensions/WebAuthn'} to all - SUCCESS in 21s
+* 18:18 MirahezeLSBot: [paladox@test151] finished deploy of {'folders': '1.45/extensions/WebAuthn'} to test151 - SUCCESS in 0s
+* 18:17 MirahezeLSBot: [paladox@test151] starting deploy of {'folders': '1.45/extensions/WebAuthn'} to test151
+* 18:17 MirahezeLSBot: [paladox@test151] finished deploy of {'folders': '1.44/extensions/WebAuthn'} to test151 - SUCCESS in 0s
+* 18:17 MirahezeLSBot: [paladox@test151] starting deploy of {'folders': '1.44/extensions/WebAuthn'} to test151
+* 18:17 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'folders': '1.44/extensions/WebAuthn'} to all
+* 18:15 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'WebAuthn'} to all - SUCCESS in 23s
+* 18:15 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'WebAuthn'} to all
+* 18:10 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': ['AdvancedSearch', 'CentralAuth', 'CirrusSearch', 'ConfirmEdit', 'DiscussionTools', 'OATHAuth', 'PageTriage', 'ParserFunctions', 'UploadWizard', 'WebAuthn']} to all - SUCCESS in 662s
+* 18:06 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': ['AdvancedSearch', 'CentralAuth', 'CirrusSearch', 'ConfirmEdit', 'DiscussionTools', 'OATHAuth', 'PageTriage', 'ParserFunctions', 'UploadWizard']} to test151 - SUCCESS in 405s
+* 18:03 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 18:02 MirahezeLSBot: [rhinos@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 17:59 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': ['AdvancedSearch', 'CentralAuth', 'CirrusSearch', 'ConfirmEdit', 'DiscussionTools', 'OATHAuth', 'PageTriage', 'ParserFunctions', 'UploadWizard']} to test151
+* 17:59 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': ['AdvancedSearch', 'CentralAuth', 'CirrusSearch', 'ConfirmEdit', 'DiscussionTools', 'OATHAuth', 'PageTriage', 'ParserFunctions', 'UploadWizard', 'WebAuthn']} to all
+* 17:57 MirahezeLSBot: [paladox@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 17:57 MirahezeLSBot: [paladox@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 17:52 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': ['AdvancedSearch', 'CentralAuth', 'CirrusSearch', 'ConfirmEdit', 'DiscussionTools', 'OATHAuth', 'PageTriage', 'ParserFunctions', 'UploadWizard']} to all
+* 17:52 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': ['AdvancedSearch', 'CentralAuth', 'CirrusSearch', 'ConfirmEdit', 'DiscussionTools', 'OATHAuth', 'PageTriage', 'ParserFunctions', 'UploadWizard']} to test151
+* 17:51 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': ['PageForms', 'WebAuthn']} to all - SUCCESS in 473s
+* 17:50 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': ['PageForms', 'WebAuthn']} to test151 - SUCCESS in 428s
+* 17:43 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': ['PageForms', 'WebAuthn']} to test151
+* 17:43 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': ['PageForms', 'WebAuthn']} to all
+* 17:19 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 490s
+* 17:17 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'CreateWiki'} to test151 - SUCCESS in 387s
+* 17:11 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'CreateWiki'} to test151
+* 17:10 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'CreateWiki'} to all
+* 13:28 @paladox: increase db182 disk by 50gb
+
 ## 2025-10-01 
 
 * 21:08 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: libssl3 and openssl
