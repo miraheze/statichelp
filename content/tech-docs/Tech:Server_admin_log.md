@@ -2,6 +2,40 @@
 title: Tech:Server admin log
 ---
 
+## 2025-10-03 
+
+* 23:56 MirahezeLSBot: [skye@mwtask171] Finished import for aotuwiki (XML: None; Images: ./images) (END - exit=1)
+* 23:56 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=aotuwiki --sleep=1 '--comment=Importing images from [https://aotu-world.fandom.com/](https://aotu-world.fandom.com/) ([T14366](https://meta.miraheze.org/wiki/phorge:T14366))' -- ./images (END - exit=1)
+* 23:09 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=aotuwiki --sleep=1 '--comment=Importing images from [https://aotu-world.fandom.com/](https://aotu-world.fandom.com/) ([T14366](https://meta.miraheze.org/wiki/phorge:T14366))' -- ./images (START)
+* 23:09 MirahezeLSBot: [skye@mwtask171] Starting import for aotuwiki (XML: None; Images: ./images) (START)
+* 22:53 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: haproxy
+* 22:53 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: haproxy
+* 22:53 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop201: haproxy
+* 22:52 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: haproxy
+* 22:25 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'upgrade_vendor': True, 'world': True, 'l10n': True, 'versions': '1.44'} to test151 - SUCCESS in 335s
+* 22:19 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'upgrade_vendor': True, 'world': True, 'l10n': True, 'versions': '1.44'} to test151
+* 22:19 MirahezeLSBot: [somerandomdeveloper@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 22:14 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'upgrade_world': True, 'upgrade_vendor': True, 'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'all', 'upgrade_skins': 'all'} to test151
+* 17:30 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php rebuildall --wiki=leontlibrarywiki (END - exit=0)
+* 17:22 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php namespaceDupes --wiki=leontlibrarywiki --fix (END - exit=0)
+* 17:21 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php namespaceDupes --wiki=leontlibrarywiki (END - exit=0)
+* 17:19 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php rebuildall --wiki=leontlibrarywiki (START)
+* 17:16 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php rebuildtextindex --wiki=leontlibrarywiki (END - exit=0)
+* 17:16 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php rebuildtextindex --wiki=leontlibrarywiki (START)
+* 17:08 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php namespaceDupes --wiki=leontlibrarywiki --fix (END - exit=0)
+* 17:07 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=trifflewiki (END - exit=0)
+* 17:07 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php namespaceDupes --wiki=leontlibrarywiki (END - exit=0)
+* 17:05 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=malorittozwiki --new=trifflewiki --user=Skye (END - exit=0)
+* 16:57 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=malorittozwiki --new=trifflewiki --user=Skye (END - exit=2)
+* 14:28 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'CommentStreams'} to all - SUCCESS in 22s
+* 14:28 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'CommentStreams'} to all
+* 14:28 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'CommentStreams'} to test151 - SUCCESS in 2s
+* 14:28 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'CommentStreams'} to test151
+* 13:35 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 22s
+* 13:35 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'CreateWiki'} to all
+* 13:35 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'CreateWiki'} to test151 - SUCCESS in 2s
+* 13:35 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'CreateWiki'} to test151
+
 ## 2025-10-02 
 
 * 22:56 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:ReplaceTextEligible --wiki=baubleswiki (END - exit=0)
