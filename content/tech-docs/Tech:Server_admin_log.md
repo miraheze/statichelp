@@ -2,6 +2,23 @@
 title: Tech:Server admin log
 ---
 
+## 2025-10-04 
+
+* 23:10 @abaddriverlol: ran "UPDATE page SET page_latest = 127 WHERE page_id = 64;" on toimunwiki
+* 23:05 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php attachLatest --wiki=toimunwiki (END - exit=0)
+* 14:30 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'upgrade_vendor': True, 'world': True, 'versions': '1.45'} to test151 - SUCCESS in 30s
+* 14:29 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'upgrade_vendor': True, 'world': True, 'versions': '1.45'} to test151
+* 14:29 MirahezeLSBot: [somerandomdeveloper@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 14:29 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'upgrade_vendor': True, 'world': True, 'versions': '1.45'} to test151
+* 14:10 MirahezeLSBot: [somerandomdeveloper@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 14:10 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'world': True, 'versions': '1.45'} to test151
+* 10:46 @paladox: hacking puppet config to experiment with cahnges to opcache.max_wasted_percentage on mw*
+* 10:35 @paladox: phorge171: fix permissions on /srv/phorge/repos
+* 01:59 MirahezeLSBot: [skye@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 01:59 MirahezeLSBot: [skye@test151] starting deploy of {'config': True} to test151
+* 01:13 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 01:13 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
 ## 2025-10-03 
 
 * 23:56 MirahezeLSBot: [skye@mwtask171] Finished import for aotuwiki (XML: None; Images: ./images) (END - exit=1)
