@@ -2,6 +2,19 @@
 title: Tech:Server admin log
 ---
 
+## 2025-10-05 
+
+* 23:12 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 23:12 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 23:11 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 23:11 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 17:01 @abaddriverlol: recreated cs_watchlist table and ran `cs_votes_comment_id_patch.sql` on skibiditoiletwiki
+* 16:52 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php sql --wiki=skibiditoiletwiki /srv/mediawiki/1.44/extensions/CommentStreams/sql/mysql/cs_watchlist_comment_id_patch.sql (END - exit=256)
+* 12:54 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/deleteBatch.php --wiki=incubatorwiki --r ' [Requested](https://meta.miraheze.org/wiki/phab:T13722)' /home/somerandomdeveloper/T13722-deletion-2.txt (END - exit=0)
+* 12:54 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/deleteBatch.php --wiki=incubatorwiki --r ' [Requested](https://meta.miraheze.org/wiki/phab:T13722)' /home/somerandomdeveloper/T13722-deletion-2.txt (START)
+* 12:52 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/deleteBatch.php --wiki=incubatorwiki --r ' [Requested](https://meta.miraheze.org/wiki/phab:T13722)' /home/somerandomdeveloper/T13722-deletion.txt (END - exit=0)
+* 12:52 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/deleteBatch.php --wiki=incubatorwiki --r ' [Requested](https://meta.miraheze.org/wiki/phab:T13722)' /home/somerandomdeveloper/T13722-deletion.txt (START)
+
 ## 2025-10-04 
 
 * 23:10 @abaddriverlol: ran "UPDATE page SET page_latest = 127 WHERE page_id = 64;" on toimunwiki
