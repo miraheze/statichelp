@@ -2,6 +2,12 @@
 title: Tech:Server admin log
 ---
 
+## 2025-10-08 
+
+* 15:51 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=utaitewiki (START)
+* 15:51 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=utaitewiki dump.xml --no-updates (END - exit=0)
+* 15:47 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=utaitewiki dump.xml --no-updates (START)
+
 ## 2025-10-05 
 
 * 23:12 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
