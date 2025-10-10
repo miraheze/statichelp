@@ -2,6 +2,21 @@
 title: Tech:Server admin log
 ---
 
+## 2025-10-09 
+
+* 21:39 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'world': True, 'l10n': True, 'extension_list': True, 'versions': '1.44'} to all - SUCCESS in 613s
+* 21:29 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'world': True, 'l10n': True, 'extension_list': True, 'versions': '1.44'} to all
+* 20:08 MirahezeLSBot: [skye@test151] finished deploy of {'config': True, 'world': True, 'l10n': True, 'extension_list': True, 'versions': ['1.44', '1.45']} to test151 - SUCCESS in 143s
+* 20:06 MirahezeLSBot: [skye@test151] starting deploy of {'config': True, 'world': True, 'l10n': True, 'extension_list': True, 'versions': ['1.44', '1.45']} to test151
+* 19:30 MirahezeLSBot: [skye@test151] finished deploy of {'config': True, 'world': True, 'l10n': True, 'extension_list': True, 'versions': ['1.44', '1.45']} to test151 - SUCCESS in 692s
+* 19:18 MirahezeLSBot: [skye@test151] starting deploy of {'config': True, 'world': True, 'l10n': True, 'extension_list': True, 'versions': ['1.44', '1.45']} to test151
+* 19:15 MirahezeLSBot: [skye@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 19:14 MirahezeLSBot: [skye@test151] starting deploy of {'config': True} to test151
+* 13:51 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=falcomwiki (END - exit=0)
+* 13:49 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/initSiteStats.php --wiki=utaitewiki --update (END - exit=0)
+* 13:49 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=utaitewiki (END - exit=0)
+* 13:18 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=falcomwiki --startOver (END - exit=0)
+
 ## 2025-10-08 
 
 * 15:51 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=utaitewiki (START)
