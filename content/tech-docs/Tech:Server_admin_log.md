@@ -2,6 +2,23 @@
 title: Tech:Server admin log
 ---
 
+## 2025-10-10 
+
+* 23:57 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 22s
+* 23:57 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'config': True} to all
+* 23:24 @paladox: increase prometheus151 ram to 10gb
+* 23:10 @paladox: rebooted prometheus151 as things seemed to be bad? high load, grafana not working with it etc and icinga errors about it
+* 22:30 BlankEclair: c4: DROP DATABASE fallennwiki;
+* 22:29 BlankEclair: c1: DROP DATABASE fallennwiki;
+* 18:28 MirahezeLSBot: [void@matomo151] update and restart redis
+* 18:26 MirahezeLSBot: [void@test151] update and restart redis
+* 18:26 MirahezeLSBot: [void@rdb151] update and restart redis
+* 18:25 MirahezeLSBot: [void@changeprop201] update and restart redis
+* 07:48 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 07:48 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 07:46 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 07:46 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+
 ## 2025-10-09 
 
 * 21:39 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'world': True, 'l10n': True, 'extension_list': True, 'versions': '1.44'} to all - SUCCESS in 613s
