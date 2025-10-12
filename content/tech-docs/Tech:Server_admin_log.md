@@ -2,6 +2,91 @@
 title: Tech:Server admin log
 ---
 
+## 2025-10-11 
+
+* 23:14 @paladox: reduce swiftproxy161 cpus to 4 to match swiftproxy171
+* 22:25 @paladox: correction prometheus151
+* 22:24 @paladox: increase prometheus161 disk by 46gib
+* 21:28 @paladox: increase prometheus151 ram to 12gb
+* 20:15 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: libtiff6
+* 20:14 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: libtiff6
+* 20:14 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: libtiff6
+* 20:14 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: libtiff6
+* 20:14 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libtiff-dev, libtiffxx6, libtiff6, ghostscript, libgs10, libgs10-common, and libgs-common
+* 20:13 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: libtiff6
+* 20:13 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: libtiff6
+* 20:13 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: libtiff6
+* 20:12 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: libtiff6
+* 20:12 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: libtiff6
+* 20:12 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: libtiff6
+* 20:12 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: libtiff6
+* 20:11 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: libtiff6
+* 20:11 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: libtiff6
+* 20:11 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: libtiff6
+* 20:11 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: libtiff6
+* 20:10 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb151: libtiff6
+* 20:10 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: libtiff6
+* 20:10 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: libtiff6
+* 20:10 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: libtiff6
+* 20:09 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: libtiff6
+* 20:09 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: libtiff6
+* 20:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: libtiff-dev, libtiffxx6, libtiff6, ghostscript, libgs10, libgs10-common, and libgs-common
+* 20:09 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: libtiff6
+* 20:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: libtiff-dev, libtiffxx6, libtiff6, ghostscript, libgs10, libgs10-common, and libgs-common
+* 20:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: libtiff-dev, libtiffxx6, libtiff6, ghostscript, libgs10, libgs10-common, and libgs-common
+* 20:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: libtiff-dev, libtiffxx6, libtiff6, ghostscript, libgs10, libgs10-common, and libgs-common
+* 20:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libtiff-dev, libtiffxx6, libtiff6, ghostscript, libgs10, libgs10-common, and libgs-common
+* 20:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: libtiff-dev, libtiffxx6, libtiff6, ghostscript, libgs10, libgs10-common, and libgs-common
+* 20:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: libtiff-dev, libtiffxx6, libtiff6, ghostscript, libgs10, libgs10-common, and libgs-common
+* 20:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: libtiff-dev, libtiffxx6, libtiff6, ghostscript, libgs10, libgs10-common, and libgs-common
+* 20:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: libtiff-dev, libtiffxx6, libtiff6, ghostscript, libgs10, libgs10-common, and libgs-common
+* 20:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: libtiff-dev, libtiffxx6, libtiff6, ghostscript, libgs10, libgs10-common, and libgs-common
+* 20:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: libtiff-dev, libtiffxx6, libtiff6, ghostscript, libgs10, libgs10-common, and libgs-common
+* 20:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: libtiff-dev, libtiffxx6, libtiff6, ghostscript, libgs10, libgs10-common, and libgs-common
+* 20:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: libtiff-dev, libtiffxx6, libtiff6, ghostscript, libgs10, libgs10-common, and libgs-common
+* 20:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: libtiff-dev, libtiffxx6, libtiff6, ghostscript, libgs10, libgs10-common, and libgs-common
+* 20:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: libtiff-dev, libtiffxx6, libtiff6, ghostscript, libgs10, libgs10-common, and libgs-common
+* 20:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: libtiff-dev, libtiffxx6, libtiff6, ghostscript, libgs10, libgs10-common, and libgs-common
+* 20:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: libtiff-dev, libtiffxx6, libtiff6, ghostscript, libgs10, libgs10-common, and libgs-common
+* 20:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: libtiff-dev, libtiffxx6, libtiff6, ghostscript, libgs10, libgs10-common, and libgs-common
+* 20:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: libtiff-dev, libtiffxx6, libtiff6, ghostscript, libgs10, libgs10-common, and libgs-common
+* 20:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: libtiff-dev, libtiffxx6, libtiff6, ghostscript, libgs10, libgs10-common, and libgs-common
+* 20:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: libtiff6
+* 20:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: libtiff-dev, libtiffxx6, libtiff6, ghostscript, libgs10, libgs10-common, and libgs-common
+* 20:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: libtiff-dev, libtiffxx6, libtiff6, ghostscript, libgs10, libgs10-common, and libgs-common
+* 20:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: libtiff6
+* 20:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: libtiff6
+* 20:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: libtiff6
+* 20:01 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: libtiff6
+* 20:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost1: libtiff6
+* 20:00 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: libtiff6
+* 20:00 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: libtiff6
+* 20:00 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka181: libtiff6
+* 20:00 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: libtiff6
+* 20:00 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: libtiff6
+* 19:59 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: libtiff6
+* 19:59 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: libtiff6
+* 19:59 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate181: libtiff6
+* 19:59 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: libtiff6
+* 19:58 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: libtiff6
+* 19:58 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: libtiff6
+* 19:58 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: libtiff6
+* 19:58 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: libtiff6
+* 19:57 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: libtiff6
+* 19:57 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: libtiff6
+* 19:57 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: libtiff6
+* 19:57 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: libtiff6
+* 19:56 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: libtiff6
+* 19:56 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: libtiff6
+* 19:56 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: libtiff6
+* 19:56 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: libtiff6
+* 19:56 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: libtiff6
+* 19:55 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: libtiff6
+* 19:55 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop201: libtiff6
+* 19:55 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: libtiff6
+* 00:06 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 22s
+* 00:06 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'config': True} to all
+
 ## 2025-10-10 
 
 * 23:57 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 22s
