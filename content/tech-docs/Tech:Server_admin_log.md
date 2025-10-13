@@ -2,6 +2,17 @@
 title: Tech:Server admin log
 ---
 
+## 2025-10-12 
+
+* 11:28 @paladox: restart ntpd service on cloud19
+* 02:26 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:CheckWikiDatabases --wiki=metawiki --delete (END - exit=0)
+* 02:25 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 02:24 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 02:08 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 24s
+* 02:07 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'CreateWiki'} to all
+* 02:07 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:CheckWikiDatabases --wiki=metawiki --tables --delete (END - exit=0)
+* 02:04 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:CheckWikiDatabases --wiki=metawiki --delete (END - exit=0)
+
 ## 2025-10-11 
 
 * 23:14 @paladox: reduce swiftproxy161 cpus to 4 to match swiftproxy171
