@@ -2,6 +2,16 @@
 title: Tech:Server admin log
 ---
 
+## 2025-10-13 
+
+* 11:43 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=lbcwiki --import-prefix=ibcwikiold (END - exit=0)
+* 11:42 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=lbcwiki --no-run --import-prefix=ibcwikiold (END - exit=0)
+* 11:41 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:assignImportedEdits --wiki=lbcwiki --no-run --import-prefix=ibcwikiold (END - exit=256)
+* 11:16 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'ImgTag'} to all - SUCCESS in 21s
+* 11:15 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'ImgTag'} to all
+* 11:15 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'ImgTag'} to test151 - SUCCESS in 1s
+* 11:15 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'ImgTag'} to test151
+
 ## 2025-10-12 
 
 * 11:28 @paladox: restart ntpd service on cloud19
