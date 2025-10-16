@@ -2,6 +2,28 @@
 title: Tech:Server admin log
 ---
 
+## 2025-10-15 
+
+* 22:19 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'VisualEditor'} to test151 - SUCCESS in 3s
+* 22:18 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'VisualEditor'} to test151
+* 16:04 @paladox: increase db182 disk by 94gib
+* 15:32 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawiki --setting=wgCommentStreamsEnableTalk --remove --all-wikis --execute (END - exit=0)
+* 14:28 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawikibeta --setting=wgCommentStreamsEnableTalk --remove --all-wikis --execute (END - exit=0)
+* 14:28 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawikibeta --setting=wgCommentStreamsEnableTalk --remove --all-wikis (END - exit=512)
+* 14:28 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 14:27 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 14:27 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 14:27 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 14:27 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 9s
+* 14:26 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 14:12 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/deleteBatch.php --wiki=regailiawiki --r ' [Requested](https://meta.miraheze.org/wiki/phab:T14395)' /home/somerandomdeveloper/extraFoundTemplates2.txt (END - exit=0)
+* 14:11 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/deleteBatch.php --wiki=regailiawiki --r ' [Requested](https://meta.miraheze.org/wiki/phab:T14395)' /home/somerandomdeveloper/extraFoundTemplates2.txt (START)
+* 14:11 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/deleteBatch.php --wiki=regailiawiki --r ' [Requested](https://meta.miraheze.org/wiki/phab:T14395)' '/home/somerandomdeveloper/extra\ found\ templates\ 2.txt' (END - exit=256)
+* 14:11 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/deleteBatch.php --wiki=regailiawiki --r ' [Requested](https://meta.miraheze.org/wiki/phab:T14395)' '/home/somerandomdeveloper/extra\ found\ templates\ 2.txt' (START)
+* 14:11 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/deleteBatch.php --wiki=regailiawiki --r ' [Requested](https://meta.miraheze.org/wiki/phab:T14395)' /home/somerandomdeveloper/extra found templates 2.txt (END - exit=256)
+* 14:11 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/deleteBatch.php --wiki=regailiawiki --r ' [Requested](https://meta.miraheze.org/wiki/phab:T14395)' /home/somerandomdeveloper/extra found templates 2.txt (START)
+* 03:49 MirahezeLSBot: [void@puppet181] reload nginx on mattermost, graylog, mon, and os servers
+
 ## 2025-10-14 
 
 * 22:22 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
