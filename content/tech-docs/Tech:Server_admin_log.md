@@ -2,6 +2,22 @@
 title: Tech:Server admin log
 ---
 
+## 2025-10-16 
+
+* 14:42 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'Cargo'} to all - SUCCESS in 23s
+* 14:41 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'Cargo'} to all
+* 14:41 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'Cargo'} to test151 - SUCCESS in 2s
+* 14:41 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'Cargo'} to test151
+* 14:14 @paladox: increase bast* ram to 2gb
+* 12:49 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to test151 - SUCCESS in 565s
+* 12:48 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 443s
+* 12:41 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 12:39 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to test151
+* 12:22 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'l10n': True, 'versions': '1.44'} to test151 - SUCCESS in 312s
+* 12:16 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'l10n': True, 'versions': '1.44'} to test151
+* 12:16 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'l10n': True, 'folders': '1.44/extensions/MirahezeMagic', 'versions': '1.45'} to test151 - SUCCESS in 324s
+* 12:11 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'l10n': True, 'folders': '1.44/extensions/MirahezeMagic', 'versions': '1.45'} to test151
+
 ## 2025-10-15 
 
 * 22:19 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'VisualEditor'} to test151 - SUCCESS in 3s
