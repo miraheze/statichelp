@@ -2,6 +2,29 @@
 title: Tech:Server admin log
 ---
 
+## 2025-10-18 
+
+* 22:40 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=brojogonwiki (END - exit=0)
+* 22:39 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=brojogontsqwiki --new=brojogonwiki --user=Skye (END - exit=0)
+* 22:33 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=nilsoulwiki (END - exit=0)
+* 22:27 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=kakwewwiki --new=nilsoulwiki --user=Skye (END - exit=0)
+* 22:21 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=wingliscwiki --requester=Fewdark (END - exit=0)
+* 22:18 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=imagipediawiki (END - exit=0)
+* 22:18 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=upstormwiki --new=imagipediawiki --user=Skye (END - exit=0)
+* 21:37 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 21:36 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 20:50 @pskyechology: Clarification for the above/below reset: steward action as requested by Raidarr in #tech-stewards.
+* 20:45 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=starwarswiki --requester=Darkrai18 (END - exit=0)
+* 19:27 RhinosF1: puppet is now restored everywhere; incident over
+* 19:20 RhinosF1: sudo puppet node deactivate mattermost1.miraheze.org
+* 19:01 RhinosF1: puppet node clean mattermost1.miraheze.org
+* 18:45 RhinosF1: disabled puppet globally due to incident
+* 18:26 RhinosF1: puppetserver ca --sign mattermost1.miraheze.org
+* 17:35 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 17:35 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 17:20 MirahezeLSBot: [skye@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 17:20 MirahezeLSBot: [skye@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+
 ## 2025-10-17 
 
 * 19:26 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_skins': 'Citizen'} to all - SUCCESS in 25s

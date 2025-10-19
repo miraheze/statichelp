@@ -15,6 +15,7 @@ title: Tech:Noticeboard
 |archiveheader = {{Archive}} |minthreadstoarchive = 1
 }} }}
 ```
+ `{{ {{Navigation Miraheze}} }}`
 
 ## GlobalBlocking affecting account autocreation 
 
