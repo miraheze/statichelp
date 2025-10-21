@@ -2,6 +2,15 @@
 title: Tech:Server admin log
 ---
 
+## 2025-10-20 
+
+* 16:36 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=planecrazywiki --active --update (END - exit=0)
+* 16:36 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php rebuildall --wiki=planecrazywiki (END - exit=2)
+* 16:35 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php rebuildall --wiki=planecrazywiki (START)
+* 16:35 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importDump --wiki=planecrazywiki --no-updates --username-prefix=wikia:plane-crazy /home/macfan/planecrazywiki-20251020143900.xml (END - exit=256)
+* 16:35 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importDump --wiki=planecrazywiki --no-updates --username-prefix=wikia:plane-crazy /home/macfan/planecrazywiki-20251020143900.xml (START)
+* 15:54 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=toyislandswiki --username-prefix=wikia:toy-islands /home/reception/toyislands_pages_full.xml --report 1 (START)
+
 ## 2025-10-19 
 
 * 15:35 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 21s
