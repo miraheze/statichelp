@@ -2,6 +2,18 @@
 title: Tech:Server admin log
 ---
 
+## 2025-10-21 
+
+* 16:27 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 23s
+* 16:27 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'config': True} to all
+* 16:04 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 23s
+* 16:03 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'config': True} to all
+* 16:00 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 23s
+* 16:00 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'config': True} to all
+* 15:47 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=wackipediawiki (START)
+* 15:47 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=wackipediawiki dump.xml --no-updates (END - exit=0)
+* 15:47 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=wackipediawiki dump.xml --no-updates (START)
+
 ## 2025-10-20 
 
 * 16:36 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=planecrazywiki --active --update (END - exit=0)
