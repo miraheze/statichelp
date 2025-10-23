@@ -2,6 +2,69 @@
 title: Tech:Server admin log
 ---
 
+## 2025-10-22 
+
+* 23:54 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: intel-microcode
+* 23:53 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: intel-microcode
+* 23:52 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: intel-microcode
+* 23:51 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: intel-microcode
+* 23:50 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: intel-microcode
+* 23:49 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: intel-microcode
+* 23:47 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: intel-microcode
+* 23:47 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: intel-microcode
+* 23:46 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: intel-microcode
+* 23:45 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: intel-microcode
+* 23:44 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: intel-microcode
+* 23:44 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: intel-microcode
+* 23:43 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: intel-microcode
+* 23:42 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: intel-microcode
+* 23:41 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: intel-microcode
+* 23:40 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: intel-microcode
+* 23:40 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: intel-microcode
+* 23:39 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: intel-microcode
+* 23:38 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: intel-microcode
+* 23:37 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: intel-microcode
+* 23:36 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: intel-microcode
+* 23:35 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: intel-microcode
+* 23:35 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: intel-microcode
+* 23:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: intel-microcode
+* 23:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: intel-microcode
+* 23:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: intel-microcode
+* 23:30 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: intel-microcode
+* 23:30 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: intel-microcode
+* 23:28 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: intel-microcode
+* 23:27 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: intel-microcode
+* 23:27 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: intel-microcode
+* 23:26 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: intel-microcode
+* 23:25 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: intel-microcode
+* 23:25 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: intel-microcode
+* 23:25 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 23:24 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: intel-microcode
+* 23:24 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 23:23 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 23:21 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop201: intel-microcode
+* 23:16 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'WebAuthn'} to test151 - SUCCESS in 1s
+* 23:16 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'WebAuthn'} to test151
+* 22:49 @abaddriverlol: upgraded prod from 1.44.0 to 1.44.2 (security fixes were already applied before, see T14364); done manually using git and --world to preserve local patches
+* 22:47 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44'} to all - SUCCESS in 494s
+* 22:39 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44'} to all
+* 22:39 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'world': True, 'versions': '1.44'} to all - SUCCESS in 192s
+* 22:36 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'world': True, 'versions': '1.44'} to all
+* 22:34 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'world': True, 'versions': '1.44'} to mwtask181 - SUCCESS in 34s
+* 22:33 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'world': True, 'versions': '1.44'} to mwtask181
+* 22:25 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'world': True, 'versions': '1.44'} to mwtask171 - SUCCESS in 7s
+* 22:25 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'world': True, 'versions': '1.44'} to mwtask171
+* 15:42 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=wackipediawiki (START)
+* 15:42 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=wackipediawiki dump.xml --no-updates (END - exit=0)
+* 15:41 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=wackipediawiki dump.xml --no-updates (START)
+* 14:37 @paladox: test
+* 12:44 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'LanguageSelector'} to all - SUCCESS in 22s
+* 12:43 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'LanguageSelector'} to all
+* 12:41 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'LanguageSelector'} to test151 - SUCCESS in 1s
+* 12:41 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'LanguageSelector'} to test151
+* 11:05 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/initSiteStats.php --wiki=wackipediawiki --update (END - exit=0)
+* 11:05 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=wackipediawiki (END - exit=0)
+
 ## 2025-10-21 
 
 * 16:27 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 23s
