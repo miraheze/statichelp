@@ -2,6 +2,100 @@
 title: Tech:Server admin log
 ---
 
+## 2025-10-23 
+
+* 22:07 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'CSS'} to all - SUCCESS in 24s
+* 22:06 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'CSS'} to all
+* 22:06 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'force_upgrade': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'CSS'} to test151 - SUCCESS in 1s
+* 22:06 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'force_upgrade': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'CSS'} to test151
+* 22:00 MirahezeLSBot: [somerandomdeveloper@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 22:00 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'CSS'} to test151
+* 21:14 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 21:14 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 21:14 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 21:14 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 21:10 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 21:10 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 20:22 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:22 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:22 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:21 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: bind9-host, bind9-dnsutils, bind9-libs, and dnsutils
+* 20:21 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:21 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:20 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:20 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:20 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:20 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:19 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:19 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:19 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb151: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:19 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:18 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:18 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: bind9-host, bind9-dnsutils, bind9-libs, and dnsutils
+* 20:18 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:17 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:17 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:17 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: bind9-host, bind9-dnsutils, bind9-libs, and python3-internetarchive
+* 20:17 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:16 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:16 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: bind9-host, bind9-dnsutils, bind9-libs, and python3-internetarchive
+* 20:15 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: bind9-host, bind9-dnsutils, bind9-libs, and python3-internetarchive
+* 20:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: bind9-host, bind9-dnsutils, bind9-libs, and python3-internetarchive
+* 20:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:08 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:07 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:07 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost1: bind9-host, bind9-dnsutils, bind9-libs, and dnsutils
+* 20:07 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:06 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:06 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:06 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:06 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:05 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:05 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:05 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:05 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:04 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: bind9-host, bind9-dnsutils, bind9-libs, and dnsutils
+* 20:04 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka181: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:04 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:04 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate181: bind9-host, bind9-dnsutils, bind9-libs, and dnsutils
+* 20:03 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:03 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:03 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:03 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:02 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:02 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:02 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:02 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:01 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: bind9-host, bind9-dnsutils, and bind9-libs
+* 20:01 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop201: bind9-host, bind9-dnsutils, and bind9-libs
+* 09:46 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/initSiteStats.php --wiki=wackipediawiki --update (END - exit=0)
+* 09:46 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=wackipediawiki (END - exit=0)
+
 ## 2025-10-22 
 
 * 23:54 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: intel-microcode
