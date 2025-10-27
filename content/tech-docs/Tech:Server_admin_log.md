@@ -2,6 +2,18 @@
 title: Tech:Server admin log
 ---
 
+## 2025-10-26 
+
+* 23:32 @paladox: upgrade phorge on phorge171
+* 22:33 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_skins': 'Monaco'} to all - SUCCESS in 25s
+* 22:33 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_skins': 'Monaco'} to all
+* 22:33 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_skins': 'Monaco'} to test151 - SUCCESS in 1s
+* 22:33 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_skins': 'Monaco'} to test151
+* 15:13 @paladox: db*: set global innodb_io_capacity = 1000;
+* 14:34 @paladox: on db* SET GLOBAL tx_isolation='REPEATABLE-READ'; (on db182/172 it's SET GLOBAL transaction_isolation='REPEATABLE-READ';)
+* 01:04 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=piggywiki (END - exit=0)
+* 00:52 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=piggyrobloxwikiwiki --new=piggywiki --user=Skye (END - exit=0)
+
 ## 2025-10-25 
 
 * 22:48 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 43s
