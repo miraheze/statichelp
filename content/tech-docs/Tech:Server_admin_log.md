@@ -2,6 +2,14 @@
 title: Tech:Server admin log
 ---
 
+## 2025-10-28 
+
+* 22:11 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/initSiteStats.php --wiki=gracerbxwiki --update (END - exit=0)
+* 22:11 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=gracerbxwiki (END - exit=0)
+* 21:51 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=gracerbxwiki (START)
+* 21:51 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=gracerbxwiki dump.xml --no-updates (END - exit=0)
+* 21:40 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=gracerbxwiki dump.xml --no-updates (START)
+
 ## 2025-10-26 
 
 * 23:32 @paladox: upgrade phorge on phorge171
