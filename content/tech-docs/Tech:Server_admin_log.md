@@ -2,6 +2,10 @@
 title: Tech:Server admin log
 ---
 
+## 2025-10-29 
+
+* 14:19 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:ToggleExtension --wiki=criticalrolewiki --name=simpleblogpage --disable (END - exit=0)
+
 ## 2025-10-28 
 
 * 22:11 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/initSiteStats.php --wiki=gracerbxwiki --update (END - exit=0)
