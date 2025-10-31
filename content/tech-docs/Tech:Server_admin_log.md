@@ -2,6 +2,50 @@
 title: Tech:Server admin log
 ---
 
+## 2025-10-30 
+
+* 20:25 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: openjdk-17-jdk, openjdk-17-jdk-headless, openjdk-17-jre, and openjdk-17-jre-headless
+* 20:25 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: openjdk-17-jdk, openjdk-17-jdk-headless, openjdk-17-jre, and openjdk-17-jre-headless
+* 20:24 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: openjdk-17-jdk, openjdk-17-jdk-headless, openjdk-17-jre, and openjdk-17-jre-headless
+* 20:24 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: openjdk-17-jdk, openjdk-17-jdk-headless, openjdk-17-jre, and openjdk-17-jre-headless
+* 20:23 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: openjdk-17-jdk, openjdk-17-jdk-headless, openjdk-17-jre, and openjdk-17-jre-headless
+* 20:23 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: openjdk-17-jdk, openjdk-17-jdk-headless, openjdk-17-jre, and openjdk-17-jre-headless
+* 20:15 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: openjdk-17-jdk, openjdk-17-jdk-headless, openjdk-17-jre, and openjdk-17-jre-headless
+* 20:12 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: squid-common and squid
+* 20:12 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: squid-common and squid
+* 20:03 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: xserver-common, xserver-xorg-core, strongswan-libcharon, strongswan-starter, libcharon-extauth-plugins, libcharon-extra-plugins, strongswan-pki, libstrongswan-standard-plugins, strongswan-charon, libstrongswan, strongswan, and xvfb
+* 20:02 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: xserver-common and xserver-xorg-core
+* 19:50 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: xserver-common, xserver-xorg-core, and xvfb
+* 19:49 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: xserver-common, xserver-xorg-core, and xvfb
+* 19:49 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: xserver-common, xserver-xorg-core, and xvfb
+* 19:49 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: xserver-common, xserver-xorg-core, and xvfb
+* 19:48 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: xserver-common, xserver-xorg-core, and xvfb
+* 19:48 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: xserver-common, xserver-xorg-core, and xvfb
+* 19:48 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: xserver-common, xserver-xorg-core, and xvfb
+* 19:47 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: xserver-common, xserver-xorg-core, and xvfb
+* 19:47 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: xserver-common, xserver-xorg-core, and xvfb
+* 19:47 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: xserver-common, xserver-xorg-core, and xvfb
+* 19:47 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: xserver-common, xserver-xorg-core, and xvfb
+* 19:46 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: xserver-common, xserver-xorg-core, and xvfb
+* 19:46 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: xserver-common, xserver-xorg-core, and xvfb
+* 19:46 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: xserver-common, xserver-xorg-core, and xvfb
+* 19:45 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: xserver-common, xserver-xorg-core, and xvfb
+* 19:45 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: xserver-common, xserver-xorg-core, and xvfb
+* 19:45 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: xserver-common, xserver-xorg-core, and xvfb
+* 19:45 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: xserver-common, xserver-xorg-core, and xvfb
+* 19:44 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: xserver-common, xserver-xorg-core, and xvfb
+* 19:44 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: xserver-common, xserver-xorg-core, and xvfb
+* 19:44 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: xserver-common, xserver-xorg-core, and xvfb
+* 19:43 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: xserver-common, xserver-xorg-core, and xvfb
+* 15:19 MirahezeLSBot: [skye@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'OATHAuth'} to all - SUCCESS in 26s
+* 15:19 MirahezeLSBot: [skye@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'OATHAuth'} to all
+* 15:09 MirahezeLSBot: [skye@test151] finished deploy of {'force': True, 'folders': '1.45/extensions/WebAuthn'} to test151 - SUCCESS in 0s
+* 15:09 MirahezeLSBot: [skye@test151] starting deploy of {'force': True, 'folders': '1.45/extensions/WebAuthn'} to test151
+* 15:06 MirahezeLSBot: [skye@test151] DEPLOY ABORTED: Canary check failed for meta.mirabeta.org@localhost
+* 15:06 MirahezeLSBot: [skye@test151] starting deploy of {'folders': '1.44/extensions/WebAuthn'} to test151
+* 15:02 MirahezeLSBot: [skye@test151] finished deploy of {'force_upgrade': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': ['OATHAuth', 'WebAuthn']} to test151 - SUCCESS in 3s
+* 15:02 MirahezeLSBot: [skye@test151] starting deploy of {'force_upgrade': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': ['OATHAuth', 'WebAuthn']} to test151
+
 ## 2025-10-29 
 
 * 14:19 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:ToggleExtension --wiki=criticalrolewiki --name=simpleblogpage --disable (END - exit=0)
