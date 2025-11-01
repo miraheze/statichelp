@@ -2,6 +2,27 @@
 title: Tech:Server admin log
 ---
 
+## 2025-11-01 
+
+* 00:00 MirahezeLSBot: [www-data@mwtask181] Began automatic backing up
+
+## 2025-10-31 
+
+* 23:26 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'CSS'} to all - SUCCESS in 37s
+* 23:25 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'CSS'} to all
+* 23:25 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'CSS'} to test151 - SUCCESS in 1s
+* 23:25 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'CSS'} to test151
+* 23:19 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'world': True, 'versions': '1.44'} to test151 - SUCCESS in 25s
+* 23:19 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'world': True, 'versions': '1.44'} to test151
+* 23:18 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'TimedMediaHandler'} to test151 - SUCCESS in 2s
+* 23:18 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'TimedMediaHandler'} to test151
+* 22:18 @abaddriverlol: removed local patch for Mermaid 1.44 compatibility (T14250)
+* 22:17 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.44/extensions/Mermaid'} to all - SUCCESS in 24s
+* 22:17 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.44/extensions/Mermaid'} to all
+* 22:15 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.44/extensions/Mermaid,1.45/extensions/Mermaid'} to test151 - SUCCESS in 0s
+* 22:14 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.44/extensions/Mermaid,1.45/extensions/Mermaid'} to test151
+* 09:10 RhinosF1: kill MariaDB on db161 so hopefully it stops being stuck, no time to debug
+
 ## 2025-10-30 
 
 * 20:25 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: openjdk-17-jdk, openjdk-17-jdk-headless, openjdk-17-jre, and openjdk-17-jre-headless
