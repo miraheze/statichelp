@@ -11,7 +11,7 @@ This policy outlines the restrictions and guidelines for deployments on the Mira
 
 The festive period each year will include two key phases:
 
-* **Major Deployment Restriction (MDR):** This phase begins on the last working day of November and runs until the start of the Restricted Deployment Window. During this time, major deployments are prohibited.
+* **Major Deployment Restriction (MDR):** This phase begins on the last working day of November and runs until the start of the Restricted Deployment Window. During this time, major deployments are prohibited. You should ensure you have sufficient coverage and support for your change. There may be limited backup if an incident occurs.
 * **Restricted Deployment Window (RDW):** This phase starts on the Friday closest to Christmas Day, but at least 5 working days before Christmas, and ends after the New Year. During this period, deployments are highly restricted.
 
 The specific dates for each year are provided in the appendix.
@@ -33,10 +33,6 @@ During the RDW phase, only specific types of deployments are allowed:
 
 For any tech team policies that require a notice or discussion period, the days within the RDW will not be counted as part of the notice or discussion period.
 
-## 6. Review and Trial Period 
-
-This policy will be trialed for the 2024/2025 festive period, and the effectiveness will be reviewed.
-
 ## 7. Contact Information 
 
 For any queries regarding this policy, please contact the tech team.
@@ -50,9 +46,9 @@ For any queries regarding this policy, please contact the tech team.
 * **RDW Start:** Friday, 13th December 2024 (closest Friday, at least 5 working days before Christmas)
 * **Freeze End:** Monday, 6th January 2025
 
-* **2025:**
-* **MDR Start:** Friday, 28th November 2025
-* **RDW Start:** Friday, 12th December 2025
+* **2025: (Confirmed)**
+* **MDR Start:** Friday, 5th December 2025
+* **RDW Start:** Friday, 19th December 2025
 * **Freeze End:** Monday, 5th January 2026
 
 * **2026:**

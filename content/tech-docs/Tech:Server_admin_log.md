@@ -2,6 +2,11 @@
 title: Tech:Server admin log
 ---
 
+## 2025-11-02 
+
+* 21:42 @abaddriverlol: archive MachineTranslation since it was moved to gerrit
+* 21:42 RhinosF1: archive JavaScriptSlideshow as now on Gerrit
+
 ## 2025-11-01 
 
 * 00:14 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
