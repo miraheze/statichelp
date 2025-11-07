@@ -29,7 +29,7 @@
 #  url = "/tutorial/lorem/"
 
 [[main]]
-  name = "Technology Documenation"
+  name = "Technology Documentation"
   url = "/tech-docs/"
   weight = 10
 
