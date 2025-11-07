@@ -2,6 +2,28 @@
 title: Tech:Server admin log
 ---
 
+## 2025-11-06 
+
+* 21:01 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php Cargo:cargoRecreateData --wiki=100bangaiwiki --table Characters --replacement (END - exit=256)
+* 18:01 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php Cargo:cargoRecreateData --wiki=bluearchivewiki --table unique_gear --replacement (END - exit=0)
+* 17:21 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=modernnationswiki --requester=Dutchy (END - exit=0)
+* 16:56 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=outscwiki (END - exit=0)
+* 16:55 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=aurorafestwiki --new=outscwiki --user=Skye (END - exit=0)
+* 15:56 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_skins': 'Monaco'} to all - SUCCESS in 25s
+* 15:56 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_skins': 'Monaco'} to all
+* 15:56 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_skins': 'Monaco'} to test151 - SUCCESS in 1s
+* 15:56 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_skins': 'Monaco'} to test151
+* 14:32 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 14:31 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 14:31 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 14:31 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 14:18 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 14:18 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 14:06 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 14:06 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 14:06 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 14:06 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+
 ## 2025-11-03 
 
 * 20:42 MirahezeLSBot: [macfan@test151] finished deploy of {'world': True, 'l10n': True, 'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'all', 'upgrade_skins': 'all'} to test151 - SUCCESS in 549s
