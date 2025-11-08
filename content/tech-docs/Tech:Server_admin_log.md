@@ -2,6 +2,81 @@
 title: Tech:Server admin log
 ---
 
+## 2025-11-07 
+
+* 22:38 @abaddriverlol: DROP DATABASE noveterre200htwiki; (again after it was accidentally recreated)
+* 22:37 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwiki --delete --deletewiki noveterre200htwiki (END - exit=0)
+* 21:49 @abaddriverlol: dropped novyazimawiki, kaijucowiki and noveterre200htwiki (T14433)
+* 21:33 @abaddriverlol: DROP DATABASE riseofempireswiki; (T14488)
+* 21:16 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 21:15 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 20:57 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 20:56 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 20:56 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 20:56 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 20:51 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 30s
+* 20:50 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 20:50 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 20:50 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 20:07 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 20:07 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 20:02 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 20:01 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:55 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 59s
+* 19:55 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:45 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 62s
+* 19:44 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:44 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 19:44 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 19:39 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 19:39 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 18:40 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 18:40 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 14:27 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 14:26 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 14:26 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 14:26 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 14:21 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 14:21 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 14:05 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'CommentStreams'} to test151 - SUCCESS in 625s
+* 14:03 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'CommentStreams'} to all - SUCCESS in 545s
+* 14:01 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=snxyzmetawiki --requester=Pisces (END - exit=0)
+* 13:59 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=snxyzmetawiki (END - exit=0)
+* 13:54 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'CommentStreams'} to all
+* 13:54 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'CommentStreams'} to test151
+* 13:52 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 13:51 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 13:51 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 13:51 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 13:51 MirahezeLSBot: [somerandomdeveloper@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 13:51 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 13:45 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=snxyzincubatorwiki --new=snxyzmetawiki --user=Skye (END - exit=0)
+* 13:42 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=helldevwiki (END - exit=0)
+* 13:41 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=glumforgewiki --new=helldevwiki --user=Skye (END - exit=0)
+* 13:40 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 13:39 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 13:33 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'CommentStreams'} to all - SUCCESS in 510s
+* 13:25 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'CommentStreams'} to all
+* 13:22 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'CommentStreams'} to test151 - SUCCESS in 628s
+* 13:12 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'CommentStreams'} to test151
+* 13:11 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'CommentStreams'} to test151 - SUCCESS in 2s
+* 13:11 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'CommentStreams'} to test151
+* 11:43 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 22s
+* 11:43 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'config': True} to all
+* 11:43 BlankEclair: put c4/db181 out of maintenance mode, again
+* 11:08 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 24s
+* 11:08 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'config': True} to all
+* 11:08 BlankEclair: put c4/db181 into maintenance mode, again
+* 10:10 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 22s
+* 10:09 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'config': True} to all
+* 10:09 BlankEclair: put c4/db181 out of maintenance mode
+* 10:07 RhinosF1: hit db181 with a slightly larger hammer (kill -9) as it was stuck restarting MySQL for unknown reasons ...
+* 09:55 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 26s
+* 09:55 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'config': True} to all
+* 09:55 BlankEclair: put c4/db181 into maintenance mode
+* 00:15 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php Cargo:cargoRecreateData --wiki=100bangaiwiki --table Episodes --replacement (END - exit=256)
+* 00:14 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php Cargo:cargoRecreateData --wiki=100bangaiwiki --table Episode --replacement (END - exit=0)
+
 ## 2025-11-06 
 
 * 21:01 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php Cargo:cargoRecreateData --wiki=100bangaiwiki --table Characters --replacement (END - exit=256)
