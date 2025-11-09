@@ -2,6 +2,11 @@
 title: Tech:Server admin log
 ---
 
+## 2025-11-08 
+
+* 21:04 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:GenerateMirahezeSitemap --wiki=iliadwiki (END - exit=0)
+* 17:49 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=snxyzmetawiki (END - exit=0)
+
 ## 2025-11-07 
 
 * 22:38 @abaddriverlol: DROP DATABASE noveterre200htwiki; (again after it was accidentally recreated)
