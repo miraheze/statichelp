@@ -2,6 +2,45 @@
 title: Tech:Server admin log
 ---
 
+## 2025-11-10 
+
+* 21:51 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'CommentStreams'} to all - SUCCESS in 25s
+* 21:50 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'CommentStreams'} to all
+* 21:50 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'CommentStreams'} to test151 - SUCCESS in 1s
+* 21:50 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'CommentStreams'} to test151
+* 18:34 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/initSiteStats.php --wiki=spacewiki --update (END - exit=0)
+* 18:34 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=spacewiki (END - exit=0)
+* 18:07 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=spacewiki (START)
+* 18:07 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=spacewiki dump.xml --no-updates (END - exit=0)
+* 18:06 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=spacewiki dump.xml --no-updates (START)
+* 16:06 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_skins': 'Cosmos'} to test151 - SUCCESS in 112s
+* 16:05 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44', 'upgrade_skins': 'Cosmos'} to all - SUCCESS in 79s
+* 16:04 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_skins': 'Cosmos'} to test151
+* 16:04 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_skins': 'Cosmos'} to all
+* 15:51 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_skins': 'Cosmos'} to test151 - SUCCESS in 125s
+* 15:50 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44', 'upgrade_skins': 'Cosmos'} to all - SUCCESS in 121s
+* 15:49 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_skins': 'Cosmos'} to all
+* 15:48 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_skins': 'Cosmos'} to test151
+* 15:45 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'Video'} to test151 - SUCCESS in 204s
+* 15:44 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'Video'} to all - SUCCESS in 125s
+* 15:42 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'Video'} to test151
+* 15:42 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'Video'} to all
+* 12:01 @paladox: restarted nginx + php-fpm on mw*
+* 05:39 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=eliminationwiki (END - exit=0)
+* 05:38 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=eliminationwiki --startOver (END - exit=0)
+* 05:38 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=eliminationwiki --startOver (END - exit=2)
+
+## 2025-11-09 
+
+* 17:57 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=seildirectorywiki (END - exit=0)
+* 17:56 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=seilsarchiveswiki --new=seildirectorywiki --user=Skye (END - exit=0)
+* 12:50 @abaddriverlol: (and upgraded the extension)
+* 12:49 @abaddriverlol: remove local patch for [phab:T13808](https://meta.miraheze.org/wiki/phab:T13808)
+* 12:49 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.44/extensions/Math'} to all - SUCCESS in 23s
+* 12:48 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.44/extensions/Math'} to all
+* 12:47 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.44/extensions/Math,1.45/extensions/Math'} to test151 - SUCCESS in 0s
+* 12:47 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.44/extensions/Math,1.45/extensions/Math'} to test151
+
 ## 2025-11-08 
 
 * 21:04 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:GenerateMirahezeSitemap --wiki=iliadwiki (END - exit=0)

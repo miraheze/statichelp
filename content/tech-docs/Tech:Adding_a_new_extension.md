@@ -19,6 +19,8 @@ The above steps are for the `mediawiki-repos` repository. The following are for 
 
 It should be noted that it is a good idea to add any configuration variable the extension adds to [ManageWiki](https://meta.miraheze.org/wiki/ManageWiki) to save the effort of doing that at a later date and be user-friendly.
 
+If the extension you installed is not indexed by [Codesearch](https://codesearch.wmcloud.org/) yet (e.g. because it's hosted on GitHub), consider adding it to [https://github.com/MWStake/nonwmf-extensions](https://github.com/MWStake/nonwmf-extensions) so it's easier for us to find and fix compatibility issues ahead of time.
+
 ## See also 
 
 * [Updating an extension](https://meta.miraheze.org/wiki/Tech:Updating_an_extension)
