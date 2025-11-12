@@ -2,6 +2,34 @@
 title: Tech:Server admin log
 ---
 
+## 2025-11-11 
+
+* 23:20 @abaddriverlol: deployed CreateWiki commit 650e7000e08a04d9c06201b101545969b369e655 on prod
+* 23:19 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.44/extensions/CreateWiki'} to all - SUCCESS in 22s
+* 23:19 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.44/extensions/CreateWiki'} to all
+* 23:07 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.45/extensions/CreateWiki'} to test151 - SUCCESS in 0s
+* 23:07 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.45/extensions/CreateWiki'} to test151
+* 22:57 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.45/extensions/CreateWiki'} to test151 - SUCCESS in 0s
+* 22:57 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.45/extensions/CreateWiki'} to test151
+* 22:50 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.45/extensions/CreateWiki'} to test151 - SUCCESS in 0s
+* 22:50 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.45/extensions/CreateWiki'} to test151
+* 22:29 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.45/extensions/CreateWiki'} to test151 - SUCCESS in 0s
+* 22:29 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.45/extensions/CreateWiki'} to test151
+* 22:16 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.45/extensions/CreateWiki'} to test151 - SUCCESS in 0s
+* 22:16 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.45/extensions/CreateWiki'} to test151
+* 22:03 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.45/extensions/CreateWiki'} to test151 - SUCCESS in 0s
+* 22:03 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.45/extensions/CreateWiki'} to test151
+* 21:56 @paladox: restarted nginx & opensearch on os151
+* 21:29 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.45/extensions/CreateWiki'} to test151 - SUCCESS in 0s
+* 21:29 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.45/extensions/CreateWiki'} to test151
+* 21:26 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.45/extensions/CreateWiki'} to test151 - SUCCESS in 0s
+* 21:26 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.45/extensions/CreateWiki'} to test151
+* 21:00 @abaddriverlol: ran "sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:ManageInactiveWikis --wiki=metawiki > ~/manageInactiveWikisOutput.txt" (I didn't use mwscript so I can dump the output to a file)
+* 16:39 @paladox: upgrade phorge on phorge171
+* 12:54 @paladox: restart cp191 - varnish restart was hanging
+* 12:26 @paladox: restart nginx/swift-proxy on swiftproxy161
+* 12:09 RhinosF1: reboot cp171/201
+
 ## 2025-11-10 
 
 * 21:51 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'CommentStreams'} to all - SUCCESS in 25s
