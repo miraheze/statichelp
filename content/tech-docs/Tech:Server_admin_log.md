@@ -2,6 +2,122 @@
 title: Tech:Server admin log
 ---
 
+## 2025-11-12 
+
+* 21:05 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: linux-libc-dev
+* 21:04 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: linux-libc-dev
+* 21:04 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=mashuptourneyswiki (END - exit=0)
+* 21:04 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: linux-libc-dev
+* 21:04 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: linux-libc-dev
+* 21:04 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: linux-libc-dev
+* 21:03 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: linux-libc-dev
+* 21:03 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: linux-libc-dev
+* 21:03 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: linux-libc-dev
+* 21:02 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: linux-libc-dev
+* 21:02 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: linux-libc-dev
+* 21:02 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: linux-libc-dev
+* 21:01 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: linux-libc-dev
+* 21:01 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: linux-libc-dev
+* 21:01 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: linux-libc-dev
+* 21:01 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: linux-libc-dev
+* 21:00 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: linux-libc-dev
+* 21:00 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: linux-libc-dev
+* 21:00 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: linux-libc-dev
+* 21:00 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb151: linux-libc-dev
+* 20:59 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: linux-libc-dev
+* 20:59 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: linux-libc-dev
+* 20:59 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: linux-libc-dev
+* 20:59 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: linux-libc-dev
+* 20:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: linux-libc-dev
+* 20:58 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: linux-libc-dev
+* 20:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: linux-libc-dev
+* 20:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: linux-libc-dev
+* 20:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: linux-libc-dev
+* 20:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: linux-libc-dev
+* 20:56 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: linux-libc-dev
+* 20:56 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: linux-libc-dev
+* 20:56 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: linux-libc-dev
+* 20:56 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: linux-libc-dev
+* 20:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: linux-libc-dev
+* 20:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: linux-libc-dev
+* 20:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: linux-libc-dev
+* 20:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: linux-libc-dev
+* 20:54 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: linux-libc-dev
+* 20:54 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: linux-libc-dev
+* 20:54 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: linux-libc-dev
+* 20:53 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: linux-libc-dev
+* 20:53 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: linux-libc-dev
+* 20:53 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: linux-libc-dev
+* 20:53 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: linux-libc-dev
+* 20:52 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: linux-libc-dev
+* 20:52 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: linux-libc-dev
+* 20:52 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost1: linux-libc-dev
+* 20:52 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: linux-libc-dev
+* 20:51 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: linux-libc-dev
+* 20:51 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: linux-libc-dev
+* 20:51 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: linux-libc-dev
+* 20:51 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: linux-libc-dev
+* 20:50 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: linux-libc-dev
+* 20:50 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: linux-libc-dev
+* 20:50 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: linux-libc-dev
+* 20:50 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: linux-libc-dev
+* 20:49 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: linux-libc-dev
+* 20:49 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: linux-libc-dev
+* 20:49 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka181: linux-libc-dev
+* 20:49 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: linux-libc-dev
+* 20:48 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: linux-libc-dev
+* 20:48 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: linux-libc-dev
+* 20:48 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: linux-libc-dev
+* 20:48 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: linux-libc-dev
+* 20:47 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: linux-libc-dev
+* 20:47 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: linux-compiler-gcc-12-x86, linux-kbuild-6.1, and linux-libc-dev
+* 20:47 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate181: linux-libc-dev
+* 20:46 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: linux-libc-dev
+* 20:46 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: linux-libc-dev
+* 20:46 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: linux-libc-dev
+* 20:46 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: linux-libc-dev
+* 20:45 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: linux-libc-dev
+* 20:45 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: linux-libc-dev
+* 20:45 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: linux-libc-dev
+* 20:45 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop201: linux-libc-dev
+* 20:45 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: linux-libc-dev
+* 20:44 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: linux-libc-dev
+* 19:28 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 19:27 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:27 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 19:27 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 19:27 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'DataDump'} to test151 - SUCCESS in 1s
+* 19:27 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'DataDump'} to test151
+* 19:26 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'DataDump'} to all - SUCCESS in 23s
+* 19:26 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'DataDump'} to all
+* 18:19 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.44/extensions/DataDump'} to all - SUCCESS in 50s
+* 18:18 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.44/extensions/DataDump'} to all
+* 18:01 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.44/extensions/DataDump'} to all - SUCCESS in 29s
+* 18:01 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.44/extensions/DataDump'} to all
+* 15:46 @paladox: upgrade grafana on mon181
+* 12:44 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.44/extensions/CreateWiki'} to all - SUCCESS in 20s
+* 12:43 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.44/extensions/CreateWiki'} to all
+* 12:40 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.45/extensions/CreateWiki'} to test151 - SUCCESS in 0s
+* 12:40 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.45/extensions/CreateWiki'} to test151
+* 11:53 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.44/extensions/CreateWiki'} to all - SUCCESS in 21s
+* 11:53 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.44/extensions/CreateWiki'} to all
+* 11:45 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.45/extensions/CreateWiki'} to test151 - SUCCESS in 0s
+* 11:45 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.45/extensions/CreateWiki'} to test151
+* 11:29 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.45/extensions/CreateWiki'} to test151 - SUCCESS in 0s
+* 11:29 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.45/extensions/CreateWiki'} to test151
+* 11:13 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': ['CreateWiki', 'ManageWiki']} to test151 - SUCCESS in 2s
+* 11:13 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': ['CreateWiki', 'ManageWiki']} to test151
+* 11:12 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.44/extensions/ManageWiki,1.44/extensions/CreateWiki'} to all - SUCCESS in 40s
+* 11:11 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.44/extensions/ManageWiki,1.44/extensions/CreateWiki'} to all
+* 01:48 BlankEclair: run sql of [Tech:Fixing slot roles and content models](/tech-docs/techfixing_slot_roles_and_content_models) on wingliscwiki
+* 00:27 @abaddriverlol: deploy ManageWiki commit 59ac14ca912d5cda8e14f5a14bce11ebaddc6b23 to prod
+* 00:27 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.44/extensions/ManageWiki'} to all - SUCCESS in 21s
+* 00:27 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.44/extensions/ManageWiki'} to all
+* 00:25 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 00:25 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 00:25 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 00:25 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+
 ## 2025-11-11 
 
 * 23:20 @abaddriverlol: deployed CreateWiki commit 650e7000e08a04d9c06201b101545969b369e655 on prod
