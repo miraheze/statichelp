@@ -2,6 +2,53 @@
 title: Tech:Server admin log
 ---
 
+## 2025-11-14 
+
+* 21:47 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php cleanupTitles --wiki=rainworldmoddingwiki (END - exit=0)
+* 21:43 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=unofficialharonashiwiki --new=haronashiwiki '--user=BlankEclair (Miraheze)' (END - exit=0)
+* 20:09 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php cleanupImages --wiki=rainworldmoddingwiki (END - exit=0)
+* 20:09 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php cleanupTitles --wiki=rainworldmoddingwiki (END - exit=0)
+* 17:49 @abaddriverlol: *drop createwikidblisttest[1-9]wikibeta on beta
+* 17:49 @abaddriverlol: drop createwikkidblisttest[1-9]wikibeta on beta
+* 17:48 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwikibeta --delete --deletewiki createwikidblisttest1wikibeta (END - exit=0)
+* 17:48 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwikibeta --delete --deletewiki createwikidblisttest2wikibeta (END - exit=0)
+* 17:47 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwikibeta --delete --deletewiki createwikidblisttest3wikibeta (END - exit=0)
+* 17:47 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwikibeta --delete --deletewiki createwikidblisttest4wikibeta (END - exit=0)
+* 17:46 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwikibeta --delete --deletewiki createwikidblisttest5wikibeta (END - exit=0)
+* 17:46 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwikibeta --delete --deletewiki createwikidblisttest6wikibeta (END - exit=0)
+* 17:46 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwikibeta --delete --deletewiki createwikidblisttest7wikibeta (END - exit=0)
+* 17:45 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwikibeta --delete --deletewiki createwikidblisttest8wikibeta (END - exit=0)
+* 17:44 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwikibeta --delete --deletewiki createwikidblisttest9wikibeta (END - exit=0)
+* 17:42 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 17:42 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 15:25 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 15:25 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 15:25 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 15:25 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 15:15 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 15:15 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 14:30 MirahezeLSBot: [paladox@db161] PURGE BINARY LOGS BEFORE 2025-11-14 10:46:26
+* 14:18 @paladox: set global key_buffer_size = 134217728; on db*
+* 14:05 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=wixosswiki --import-prefix=imported --from=Wixoss-bot (END - exit=0)
+* 14:05 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=wixosswiki --import-prefix=imported --from=Wixoss-bot --no-run (END - exit=0)
+* 13:54 MirahezeLSBot: [paladox@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php purgeRecentChanges.php --wiki avidwiki
+* 13:39 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True, 'folders': '1.45/extensions/CreateWiki'} to test151 - SUCCESS in 0s
+* 13:39 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True, 'folders': '1.45/extensions/CreateWiki'} to test151
+* 13:38 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawiki --setting=wgRCLinkLimits --remove --all-wikis --execute (END - exit=0)
+* 12:17 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:PopulateWikiSettings --setting=wgRCLinkLimits --remove (END - exit=0)
+* 12:17 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:PopulateWikiSettings --setting=wgRCLinkLimits --remove (START)
+* 12:17 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 12:17 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 12:16 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 12:16 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 01:03 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/initSiteStats.php --wiki=wixosswiki --update (END - exit=0)
+* 01:03 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=wixosswiki (END - exit=0)
+* 00:48 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 36s
+* 00:47 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 00:39 @paladox: emergency restart to pick up config change on db161
+* 00:39 @paladox: ignore, was already apply, me searching for it and it was under a different name (used - as opposed to _)
+* 00:35 @paladox: db161: MariaDB [parsercache]> SET GLOBAL max_heap_table_size = 67108864;
+
 ## 2025-11-13 
 
 * 23:36 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: swift-object, swift, and python3-swift
