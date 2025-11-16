@@ -2,6 +2,11 @@
 title: Tech:Server admin log
 ---
 
+## 2025-11-15 
+
+* 22:03 BlankEclair: run [Tech:Fixing slot roles and content models](/tech-docs/techfixing_slot_roles_and_content_models) on snxyzmetawiki
+* 12:38 @paladox: db*: set global innodb_lock_wait_timeout = 50;
+
 ## 2025-11-14 
 
 * 21:47 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php cleanupTitles --wiki=rainworldmoddingwiki (END - exit=0)
