@@ -2,6 +2,42 @@
 title: Tech:Server admin log
 ---
 
+## 2025-11-17 
+
+* 00:00 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'errorpages': True} to mw183
+* 00:00 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'errorpages': True} to mwtask181 - SUCCESS in 0s
+* 00:00 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'errorpages': True} to mwtask181
+* 00:00 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'errorpages': True} to mwtask181 - SUCCESS in 0s
+* 00:00 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'errorpages': True} to mwtask181
+
+## 2025-11-16 
+
+* 23:30 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'errorpages': True} to mw183 - SUCCESS in 1s
+* 23:30 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'errorpages': True} to mw183
+* 23:29 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'errorpages': True} to [mwtask181, mw183] - SUCCESS in 0s
+* 23:29 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'errorpages': True} to [mwtask181, mw183]
+* 19:25 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 19:25 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 19:01 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 19:01 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 18:59 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 18:59 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 15:57 RhinosF1: empower SRD on Phorge
+* 15:56 RhinosF1: update SRD's team on GitHub (he was already owner by @paladox)
+* 09:27 MirahezeLSBot: [blankeclair@mwtask181] Finished import for robloxrivalswiki (XML: None; Images: all_images/) (END - exit=0)
+* 09:27 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=robloxrivalswiki --update (END - exit=0)
+* 09:27 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=robloxrivalswiki --update (START)
+* 09:27 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=robloxrivalswiki --sleep=1 '--comment=Importing images from [https://robloxrivals.fandom.com](https://robloxrivals.fandom.com) ([T14534](https://meta.miraheze.org/wiki/phorge:T14534))' -- all_images/ (END - exit=0)
+* 09:07 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=cpzerowiki (END - exit=0)
+* 09:05 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=cpzerowiki --startOver (END - exit=0)
+* 09:04 BlankEclair: [blankeclair@mwtask181:~]$ curl -X DELETE [https://opensearch-mw.wikitide.net/cpzerowiki_{content,general}](https://opensearch-mw.wikitide.net/cpzerowiki_{content,general})
+* 08:59 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=robloxrivalswiki --sleep=1 '--comment=Importing images from [https://robloxrivals.fandom.com](https://robloxrivals.fandom.com) ([T14534](https://meta.miraheze.org/wiki/phorge:T14534))' -- all_images/ (START)
+* 08:59 MirahezeLSBot: [blankeclair@mwtask181] Starting import for robloxrivalswiki (XML: None; Images: all_images/) (START)
+* 06:04 BlankEclair: Logging via /usr/local/bin/logsalmsg "sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=buildislandslarpwiki --new=durraniswiki "--user=BlankEclair (Miraheze)" (END - exit=0)"
+* 05:59 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=hivesocietywiki (END - exit=0)
+* 05:58 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=hivesocietywiki --startOver (END - exit=0)
+* 05:58 BlankEclair: [blankeclair@mwtask181:~]$ curl -X DELETE [https://opensearch-mw.wikitide.net/hivesocietywiki_{content,general}](https://opensearch-mw.wikitide.net/hivesocietywiki_{content,general})
+
 ## 2025-11-15 
 
 * 22:03 BlankEclair: run [Tech:Fixing slot roles and content models](/tech-docs/techfixing_slot_roles_and_content_models) on snxyzmetawiki
