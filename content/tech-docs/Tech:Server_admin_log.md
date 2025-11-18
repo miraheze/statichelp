@@ -4,6 +4,48 @@ title: Tech:Server admin log
 
 ## 2025-11-17 
 
+* 23:04 MirahezeLSBot: [void@cp201] rm /var/log/haproxy.log.1
+* 17:07 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 21s
+* 17:06 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 17:03 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 22s
+* 17:02 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 16:34 @paladox: db*: SET GLOBAL use_stat_tables = 'preferably';
+* 16:25 @paladox: db*: set global max_connect_errors = 1000000000;
+* 15:46 @paladox: db*: set global thread_cache_size = 300;
+* 13:04 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 13:03 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 13:03 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 13:03 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 12:59 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 12:59 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 11:44 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config,errorpages', 'config': True, 'errorpages': True} to all - SUCCESS in 44s
+* 11:43 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config,errorpages', 'config': True, 'errorpages': True} to all
+* 11:43 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config,errorpages', 'config': True, 'errorpages': True} to test151 - SUCCESS in 1s
+* 11:43 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config,errorpages', 'config': True, 'errorpages': True} to test151
+* 01:03 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'config': True, 'errorpages': True} to mw183 - SUCCESS in 2s
+* 01:03 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'config': True, 'errorpages': True} to mw183
+* 01:03 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'config': True, 'errorpages': True} to mwtask181 - SUCCESS in 0s
+* 01:03 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'config': True, 'errorpages': True} to mwtask181
+* 01:01 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'config': True, 'errorpages': True} to mw183 - SUCCESS in 2s
+* 01:01 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'config': True, 'errorpages': True} to mw183
+* 01:00 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'config': True, 'errorpages': True} to mwtask181 - SUCCESS in 0s
+* 01:00 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'config': True, 'errorpages': True} to mwtask181
+* 00:58 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'config': True} to mw183 - SUCCESS in 1s
+* 00:58 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'config': True} to mw183
+* 00:58 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'config': True} to mwtask181 - SUCCESS in 0s
+* 00:58 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'config': True} to mwtask181
+* 00:55 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'config': True} to mw183 - SUCCESS in 1s
+* 00:54 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'config': True} to mw183
+* 00:54 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'config': True} to mwtask181 - SUCCESS in 0s
+* 00:54 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'config': True} to mwtask181
+* 00:52 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwikibeta --delete --deletewiki t14400test1wikibeta (END - exit=0)
+* 00:50 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 00:50 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 00:27 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'errorpages': True} to mw183 - SUCCESS in 1s
+* 00:27 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'errorpages': True} to mw183
+* 00:27 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'errorpages': True} to mwtask181 - SUCCESS in 0s
+* 00:27 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'errorpages': True} to mwtask181
+* 00:00 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'errorpages': True} to mw183 - SUCCESS in 1s
 * 00:00 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'errorpages': True} to mw183
 * 00:00 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'errorpages': True} to mwtask181 - SUCCESS in 0s
 * 00:00 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'errorpages': True} to mwtask181
