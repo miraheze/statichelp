@@ -2,6 +2,19 @@
 title: Tech:Server admin log
 ---
 
+## 2025-11-18 
+
+* 23:57 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'errorpages', 'errorpages': True} to all - SUCCESS in 22s
+* 23:56 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'errorpages', 'errorpages': True} to all
+* 23:54 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'errorpages': True} to mwtask181 - SUCCESS in 0s
+* 23:54 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'errorpages': True} to mwtask181
+* 22:28 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'errorpages', 'errorpages': True} to all - SUCCESS in 22s
+* 22:28 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'errorpages', 'errorpages': True} to all
+* 22:28 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'errorpages', 'errorpages': True} to test151 - SUCCESS in 0s
+* 22:28 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'errorpages', 'errorpages': True} to test151
+* 15:55 @paladox: upgrade phorge on phorge171
+* 13:59 @paladox: dist-upgrade on mattermost1
+
 ## 2025-11-17 
 
 * 23:04 MirahezeLSBot: [void@cp201] rm /var/log/haproxy.log.1
