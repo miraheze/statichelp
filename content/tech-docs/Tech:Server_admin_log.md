@@ -2,6 +2,45 @@
 title: Tech:Server admin log
 ---
 
+## 2025-11-19 
+
+* 22:50 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 22:50 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 22:45 MirahezeLSBot: [blankeclair@mwtask181] Finished import for wastedtimewiki (XML: None; Images: POINT OF NO RETURN/) (END - exit=0)
+* 22:45 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=wastedtimewiki --update (END - exit=0)
+* 22:45 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=wastedtimewiki --update (START)
+* 22:45 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=wastedtimewiki --sleep=1 '--comment=Importing images from [https://point-of-no-return-roblox.fandom.com](https://point-of-no-return-roblox.fandom.com) ([T14539](https://meta.miraheze.org/wiki/phorge:T14539))' --search-recursively -- 'POINT OF NO RETURN/' (END - exit=0)
+* 22:34 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 22:34 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 22:24 MirahezeLSBot: [macfan@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 22:24 MirahezeLSBot: [macfan@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'WikibaseLexeme'} to test151
+* 22:22 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=wastedtimewiki --sleep=1 '--comment=Importing images from [https://point-of-no-return-roblox.fandom.com](https://point-of-no-return-roblox.fandom.com) ([T14539](https://meta.miraheze.org/wiki/phorge:T14539))' --search-recursively -- 'POINT OF NO RETURN/' (START)
+* 22:22 MirahezeLSBot: [blankeclair@mwtask181] Starting import for wastedtimewiki (XML: None; Images: POINT OF NO RETURN/) (START)
+* 22:19 MirahezeLSBot: [macfan@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 22:19 MirahezeLSBot: [macfan@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': ['ProofreadPage', 'WikibaseLexeme']} to test151
+* 22:14 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php rebuildtextindex --wiki=incubatorwiki (END - exit=0)
+* 22:13 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php rebuildtextindex --wiki=incubatorwiki (START)
+* 22:12 MirahezeLSBot: [macfan@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 22:12 MirahezeLSBot: [macfan@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': ['ProofreadPage', 'WikibaseLexeme']} to test151
+* 22:08 MirahezeLSBot: [macfan@test151] finished deploy of {'pull': 'world', 'world': True, 'versions': '1.45'} to test151 - SUCCESS in 154s
+* 22:05 MirahezeLSBot: [macfan@test151] starting deploy of {'pull': 'world', 'world': True, 'versions': '1.45'} to test151
+* 22:04 MirahezeLSBot: [macfan@test151] finished deploy of {'world': True, 'l10n': True, 'versions': '1.45'} to test151 - SUCCESS in 329s
+* 21:58 MirahezeLSBot: [macfan@test151] starting deploy of {'world': True, 'l10n': True, 'versions': '1.45'} to test151
+* 21:57 MirahezeLSBot: [macfan@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 21:54 MirahezeLSBot: [macfan@test151] starting deploy of {'world': True, 'l10n': True, 'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'all', 'upgrade_skins': 'all'} to test151
+* 18:21 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 18:20 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 18:20 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 18:20 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 18:11 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 18:11 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 03:37 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=gracerobloxwiki --new=gracewiki '--user=BlankEclair (Miraheze)' (END - exit=0)
+* 03:34 BlankEclair: db171/c3: DROP DATABASE gracewiki;
+* 03:34 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwiki --delete --deletewiki gracewiki (END - exit=0)
+* 03:10 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=arsenalrobloxwikiwiki --new=arsenalwiki '--user=BlankEclair (Miraheze)' (END - exit=0)
+* 02:51 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=official3pswiki --new=3pswiki '--user=BlankEclair (Miraheze)' (END - exit=0)
+* 02:38 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=robloxpointofnoreturnwiki --new=wastedtimewiki '--user=BlankEclair (Miraheze)' (END - exit=0)
+
 ## 2025-11-18 
 
 * 23:57 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'errorpages', 'errorpages': True} to all - SUCCESS in 22s
