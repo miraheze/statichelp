@@ -2,6 +2,21 @@
 title: Tech:Server admin log
 ---
 
+## 2025-11-23 
+
+* 19:10 RhinosF1: drop database kraftwerkwiki [db181/c4]
+* 19:09 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwiki --delete --deletewiki kraftwerkwiki (END - exit=0)
+* 16:20 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/initSiteStats.php --wiki=findthemarkerswiki --update (END - exit=0)
+* 16:20 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=findthemarkerswiki (END - exit=0)
+* 15:59 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=findthemarkerswiki (START)
+* 15:59 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=findthemarkerswiki dump.xml --no-updates (END - exit=0)
+* 15:37 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=findthemarkerswiki dump.xml --no-updates (START)
+* 04:37 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/initSiteStats.php --wiki=realtimefandubwiki --update (END - exit=0)
+* 04:37 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=realtimefandubwiki (END - exit=0)
+* 04:18 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=realtimefandubwiki (START)
+* 04:18 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=realtimefandubwiki dump.xml --no-updates (END - exit=0)
+* 04:04 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=realtimefandubwiki dump.xml --no-updates (START)
+
 ## 2025-11-20 
 
 * 13:24 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'world': True, 'l10n': True, 'versions': '1.44'} to all - SUCCESS in 624s
