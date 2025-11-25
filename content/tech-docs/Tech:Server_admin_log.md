@@ -2,6 +2,12 @@
 title: Tech:Server admin log
 ---
 
+## 2025-11-24 
+
+* 02:43 BlankEclair: run [Tech:Fixing slot roles and content models](/tech-docs/techfixing_slot_roles_and_content_models) on modernnationswiki
+* 02:38 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=baldiboyandcowiki --new=hieroglyphstudioswiki --user='BlankEclair_(Miraheze)' (END - exit=0)
+* 02:34 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/extensions/SemanticMediaWiki/maintenance/setupStore.php --wiki=harnwikiwiki (END - exit=0)
+
 ## 2025-11-23 
 
 * 19:10 RhinosF1: drop database kraftwerkwiki [db181/c4]
