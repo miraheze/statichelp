@@ -2,6 +2,40 @@
 title: Tech:Server admin log
 ---
 
+## 2025-11-28 
+
+* 14:58 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'l10n': True, 'versions': '1.44'} to test151 - SUCCESS in 314s
+* 14:57 @abaddriverlol: removed local patch for T14594 and manually upgraded Monaco
+* 14:56 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'l10n': True, 'folders': '1.44/skins/Monaco', 'versions': '1.44'} to all - SUCCESS in 479s
+* 14:53 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'l10n': True, 'versions': '1.44'} to test151
+* 14:52 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'l10n': True, 'folders': '1.44/skins/Monaco,1.45/skins/Monaco', 'versions': '1.45'} to test151 - SUCCESS in 318s
+* 14:48 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'l10n': True, 'folders': '1.44/skins/Monaco', 'versions': '1.44'} to all
+* 14:47 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'l10n': True, 'folders': '1.44/skins/Monaco,1.45/skins/Monaco', 'versions': '1.45'} to test151
+* 10:29 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 21s
+* 10:29 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 09:25 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=itemasylumwiki --skipParse (END - exit=0)
+* 09:21 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=itemasylumwiki --skipLinks --indexOnSkip (END - exit=0)
+* 09:05 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 09:04 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 09:04 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=itemasylumwiki (END - exit=0)
+* 09:03 BlankEclair: [blankeclair@mwtask181:~]$ curl -X DELETE [https://opensearch-mw.wikitide.net/{jbcstudios,itemasylum}wiki_{content,general}](https://opensearch-mw.wikitide.net/{jbcstudios,itemasylum}wiki_{content,general})
+* 09:03 BlankEclair: [blankeclair@mwtask181:~]$ curl -X DELETE [https://opensearch-mw.wikitide.net/{jbcstudios,itemasylum}_{content,general}](https://opensearch-mw.wikitide.net/{jbcstudios,itemasylum}_{content,general})
+* 09:02 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=itemasylumwiki (END - exit=256)
+* 08:56 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'ContactPage'} to all - SUCCESS in 23s
+* 08:56 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'ContactPage'} to all
+* 07:52 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=jbcstudioswiki --new=itemasylumwiki '--user=BlankEclair (Miraheze)' (END - exit=0)
+* 07:28 BlankEclair: c3: DROP DATABASE robloxitemasylumwiki;
+* 07:27 BlankEclair: c1: DROP DATABASE itemasylumwiki;
+* 07:26 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwiki --delete --deletewiki robloxitemasylumwiki (END - exit=0)
+* 07:25 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwiki --delete --deletewiki itemasylumwiki (END - exit=0)
+* 01:21 MirahezeLSBot: [blankeclair@mwtask181] Finished import for findthemarkerswiki (XML: None; Images: all_images/) (END - exit=0)
+* 01:21 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=findthemarkerswiki --update (END - exit=0)
+* 01:21 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=findthemarkerswiki --update (START)
+* 01:21 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=findthemarkerswiki --sleep=1 '--comment=Importing images from [https://find-the-markers-roblox.fandom.com](https://find-the-markers-roblox.fandom.com) ([T14590](https://meta.miraheze.org/wiki/phorge:T14590))' -- all_images/ (END - exit=0)
+* 00:11 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=findthemarkerswiki --sleep=1 '--comment=Importing images from [https://find-the-markers-roblox.fandom.com](https://find-the-markers-roblox.fandom.com) ([T14590](https://meta.miraheze.org/wiki/phorge:T14590))' -- all_images/ (START)
+* 00:11 MirahezeLSBot: [blankeclair@mwtask181] Starting import for findthemarkerswiki (XML: None; Images: all_images/) (START)
+* 00:07 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=gamedevstudiowiki --new=gdswikiwiki '--user=BlankEclair (Miraheze)' (END - exit=0)
+
 ## 2025-11-27 
 
 * 00:48 @abaddriverlol: depooled c3 and restarted (reset) db171 vm at :42; then repooled db171 at :48

@@ -47,9 +47,9 @@ For any queries regarding this policy, please contact the tech team.
 * **Freeze End:** Monday, 6th January 2025
 
 * **2025: (Confirmed)**
-* **MDR Start:** Friday, 5th December 2025
-* **RDW Start:** Friday, 19th December 2025
-* **Freeze End:** Monday, 5th January 2026
+* **MDR Start:** 23:59 Friday, 5th December 2025 UTC
+* **RDW Start:** 23:59 Friday, 19th December 2025 UTC
+* **Freeze End:** 08:01 Monday, 5th January 2026 UTC
 
 * **2026:**
 * **MDR Start:** Monday, 30th November 2026

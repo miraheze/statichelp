@@ -27,6 +27,7 @@ Finally, run:
 ### After rename 
 
 * If there is any configuration on LocalSettings.php change the database name there as well.
+* If the wiki has CirrusSearch installed, make sure to [index it](https://gerrit.wikimedia.org/r/plugins/gitiles/mediawiki/extensions/CirrusSearch/+/45ff6b7ff237bbaaaffd6cf2fcd544aed7bc31a5/README#23)
 
 ## Categories
 
