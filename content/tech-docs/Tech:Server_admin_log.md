@@ -2,6 +2,14 @@
 title: Tech:Server admin log
 ---
 
+## 2025-11-29 
+
+* 03:51 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/initSiteStats.php --wiki=unofficialrgdwiki --update (END - exit=0)
+* 03:51 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=unofficialrgdwiki (END - exit=0)
+* 03:40 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=unofficialrgdwiki (START)
+* 03:39 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=unofficialrgdwiki dump.xml --no-updates (END - exit=0)
+* 03:22 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=unofficialrgdwiki dump.xml --no-updates (START)
+
 ## 2025-11-28 
 
 * 14:58 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'l10n': True, 'versions': '1.44'} to test151 - SUCCESS in 314s
