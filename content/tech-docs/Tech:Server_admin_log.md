@@ -2,6 +2,14 @@
 title: Tech:Server admin log
 ---
 
+## 2025-12-01 
+
+* 00:00 MirahezeLSBot: [www-data@mwtask181] Began automatic backing up
+
+## 2025-11-30 
+
+* 06:36 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=valariawiki --new=lewthumbriawiki --user='BlankEclair_(Miraheze)' (END - exit=0)
+
 ## 2025-11-29 
 
 * 03:51 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/initSiteStats.php --wiki=unofficialrgdwiki --update (END - exit=0)

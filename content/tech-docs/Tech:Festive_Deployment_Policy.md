@@ -91,5 +91,9 @@ For any queries regarding this policy, please contact the tech team.
 * **RDW Start:** Friday, 9th December 2033
 * **Freeze End:** Monday, 8th January 2034
 
+## Categories
+
+* [Category:Tech policy](https://meta.miraheze.org/wiki/Category:Tech_policy)
+
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Festive_Deployment_Policy)**
