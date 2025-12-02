@@ -4,6 +4,14 @@ title: Tech:Server admin log
 
 ## 2025-12-01 
 
+* 23:04 @abaddriverlol: stopped ia backup script on mwtask181 due to low disk space
+* 22:48 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 22:47 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 22:47 @abaddriverlol: ran "sudo -u www-data rm /tmp/1d6chanwiki-images-20251201.tar.gz" on mwtask181 to free up disk space
+* 22:01 MirahezeLSBot: [somerandomdeveloper@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 22:01 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 22:01 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 22:01 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
 * 00:00 MirahezeLSBot: [www-data@mwtask181] Began automatic backing up
 
 ## 2025-11-30 
