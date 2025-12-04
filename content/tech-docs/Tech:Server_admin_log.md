@@ -2,6 +2,15 @@
 title: Tech:Server admin log
 ---
 
+## 2025-12-03 
+
+* 21:47 @abaddriverlol: "SET GLOBAL slow_query_log=0;" on db171
+* 20:55 @abaddriverlol: "SET GLOBAL slow_query_log=1; SET GLOBAL slow_query_log_file = "/var/log/mysql/mysql-slow.log";" on db171
+* 18:19 MirahezeLSBot: [www-data@mwtask181] Began automatic backing up
+* 17:51 MirahezeLSBot: [www-data@mwtask181] Began automatic backing up
+* 17:40 MirahezeLSBot: [www-data@mwtask181] Began automatic backing up
+* 17:33 MirahezeLSBot: [www-data@mwtask181] Began automatic backing up
+
 ## 2025-12-01 
 
 * 23:04 @abaddriverlol: stopped ia backup script on mwtask181 due to low disk space
