@@ -2,6 +2,19 @@
 title: Tech:Server admin log
 ---
 
+## 2025-12-04 
+
+* 19:34 @abaddriverlol: repool c2
+* 19:34 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 22s
+* 19:33 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 19:29 @abaddriverlol: force-restart (reset) db161 via proxmox
+* 19:24 @abaddriverlol: depool c2
+* 19:23 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 82s
+* 18:45 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'CommentStreams'} to all - SUCCESS in 24s
+* 18:45 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'CommentStreams'} to all
+* 18:45 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'CommentStreams'} to test151 - SUCCESS in 2s
+* 18:45 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'CommentStreams'} to test151
+
 ## 2025-12-03 
 
 * 21:47 @abaddriverlol: "SET GLOBAL slow_query_log=0;" on db171
