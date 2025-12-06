@@ -2,6 +2,29 @@
 title: Tech:Server admin log
 ---
 
+## 2025-12-05 
+
+* 22:29 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 22:28 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 22:28 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 22:28 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 19:23 @paladox: drop parsercache db on db161
+* 15:28 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=superblox64wiki (END - exit=0)
+* 15:27 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=superblox64wiki --startOver (END - exit=0)
+* 13:30 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php SemanticMediaWiki:setupStore --wiki=emiliabearwiki (END - exit=0)
+* 09:40 @pskyechology: test
+* 04:21 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 150s
+* 04:10 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 23s
+* 04:09 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'config': True} to all
+* 04:09 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 36s
+* 04:08 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'config': True} to all
+* 03:38 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=wingliscwiki --new=angelnischwiki --user='BlankEclair_(Miraheze)' (END - exit=0)
+* 03:35 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=venturepunkwiki --new=clusterpunkwiki --user='BlankEclair_(Miraheze)' (END - exit=0)
+* 03:08 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 03:08 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 00:07 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php createAndPromote --wiki=killgoesewiki KILLGOESE --force --bureaucrat --interface-admin --sysop (END - exit=0)
+* 00:05 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:PopulateMainPage --wiki=killgoesewiki (END - exit=0)
+
 ## 2025-12-04 
 
 * 19:34 @abaddriverlol: repool c2
