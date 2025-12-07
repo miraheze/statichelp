@@ -2,6 +2,22 @@
 title: Tech:Server admin log
 ---
 
+## 2025-12-07 
+
+* 00:00 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
+## 2025-12-06 
+
+* 22:32 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 22:32 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 22:23 MirahezeLSBot: [blankeclair@mwtask181] Finished import for historyhelperwiki (XML: None; Images: images) (END - exit=0)
+* 22:23 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=historyhelperwiki --update (END - exit=0)
+* 22:22 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=historyhelperwiki --update (START)
+* 22:22 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=historyhelperwiki --sleep=0 '--comment=Importing images from [https://wiki.historyhelper.com.au](https://wiki.historyhelper.com.au) ([T14604](https://meta.miraheze.org/wiki/phorge:T14604))' --search-recursively -- images (END - exit=0)
+* 22:22 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=historyhelperwiki --sleep=0 '--comment=Importing images from [https://wiki.historyhelper.com.au](https://wiki.historyhelper.com.au) ([T14604](https://meta.miraheze.org/wiki/phorge:T14604))' --search-recursively -- images (START)
+* 22:22 MirahezeLSBot: [blankeclair@mwtask181] Starting import for historyhelperwiki (XML: None; Images: images) (START)
+* 21:05 @paladox: increase kafka181 disk by 17gib (47gib = 50gb)
+
 ## 2025-12-05 
 
 * 22:29 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
