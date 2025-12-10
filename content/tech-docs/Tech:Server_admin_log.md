@@ -2,6 +2,37 @@
 title: Tech:Server admin log
 ---
 
+## 2025-12-09 
+
+* 19:51 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 19:51 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:51 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 19:51 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 14:31 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'Cargo'} to all - SUCCESS in 24s
+* 14:31 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'Cargo'} to all
+* 14:30 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'Cargo'} to test151 - SUCCESS in 2s
+* 14:30 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'Cargo'} to test151
+* 09:55 MirahezeLSBot: [blankeclair@mwtask181] Finished import for hardcorewiki (XML: None; Images: images) (END - exit=0)
+* 09:54 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=hardcorewiki --update (END - exit=0)
+* 09:54 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=hardcorewiki --update (START)
+* 09:54 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=hardcorewiki --sleep=1 '--comment=Importing images from [https://full-hardcore.fandom.com](https://full-hardcore.fandom.com) ([T14626](https://meta.miraheze.org/wiki/phorge:T14626))' -- images (END - exit=0)
+* 09:01 MirahezeLSBot: [blankeclair@mwtask181] Finished import for radiopedianlwiki (XML: radiopedia.xml; Images: None) (END - exit=0)
+* 09:01 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=radiopedianlwiki --update (END - exit=0)
+* 09:01 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=radiopedianlwiki --update (START)
+* 09:01 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initEditCount --wiki=radiopedianlwiki (END - exit=0)
+* 09:01 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initEditCount --wiki=radiopedianlwiki (START)
+* 09:01 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php rebuildall --wiki=radiopedianlwiki (END - exit=0)
+* 07:49 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php rebuildall --wiki=radiopedianlwiki (START)
+* 07:49 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importDump --wiki=radiopedianlwiki --no-updates --username-prefix=radiopedia -- radiopedia.xml (END - exit=0)
+* 07:17 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importDump --wiki=radiopedianlwiki --no-updates --username-prefix=radiopedia -- radiopedia.xml (START)
+* 07:17 MirahezeLSBot: [blankeclair@mwtask181] Starting import for radiopedianlwiki (XML: radiopedia.xml; Images: None) (START)
+* 04:39 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=hardcorewiki --sleep=1 '--comment=Importing images from [https://full-hardcore.fandom.com](https://full-hardcore.fandom.com) ([T14626](https://meta.miraheze.org/wiki/phorge:T14626))' -- images (START)
+* 04:39 MirahezeLSBot: [blankeclair@mwtask181] Starting import for hardcorewiki (XML: None; Images: images) (START)
+* 04:36 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=prosoudouwiki --new=abysswikiwiki --user='BlankEclair_(Miraheze)' (END - exit=0)
+* 04:26 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=atterawiki --new=politywiki --user='BlankEclair_(Miraheze)' (END - exit=0)
+* 04:18 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 04:17 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
 ## 2025-12-08 
 
 * 23:35 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
