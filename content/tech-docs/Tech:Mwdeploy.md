@@ -71,11 +71,11 @@ To sync a folder, or multiple folders:
 
 If you see 'DEPLOY ABORTED' in SAL, this means that one of the servers in the list failed checks to ensure mediawiki was not down. This is a fairly basic check, so it probably means the server is completely fataling.
 
-If you need to bypass the check, use `--force`. The check will still happen, but failures will be shown in your terminal output instead and will be ignored.
-
-The ABORTED message will show which server failed, hopefully it will be 'localhost' which means the server you are deploying from.
+The ABORTED message will show which server failed. If it shows 'localhost', that means the error occured on the server you're deploying from. If the affected server is not fully down, you can SSH into it and run `sudo journalctl -e` to see what exactly is causing the error.
 
 If icinga alerts do not show the failed server as depooled, you should probably get someone to consider it or very quickly rollback. You may want to deploy to only the broken server first before deploying the rollback everywhere.
+
+In some cases, for example if you're depooling a crashed database cluster during an outage, you may need to bypass the check. To do this, use `--force`. The check will still happen, but failures will be shown in your terminal output instead and will be ignored.
 
 ## Failover a canary server 
 

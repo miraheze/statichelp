@@ -12,7 +12,7 @@ title: Tech:Bast161
 | memory = 1GB
 | cpu = 1 core
 | ssd = 10GB U.2 NVMe
-| os = Debian 12
+| os = Debian 13
 | type = KVM
 | kernel =
 | cloud = cloud16
@@ -20,7 +20,7 @@ title: Tech:Bast161
 }} }}
 ```
 
-**bast161** is a FiberState server in Salt Lake City, Utah running Debian Bookworm.
+**bast161** is a FiberState server in Salt Lake City, Utah running Debian Trixie.
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Bast161)**

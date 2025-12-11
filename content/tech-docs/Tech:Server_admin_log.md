@@ -2,6 +2,123 @@
 title: Tech:Server admin log
 ---
 
+## 2025-12-10 
+
+* 21:20 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: libpng16-16
+* 21:20 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: libpng16-16
+* 21:20 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: libpng16-16
+* 21:20 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libpng-dev, libpng-tools, and libpng16-16
+* 21:19 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: libpng16-16
+* 21:19 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: libpng16-16
+* 21:19 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: libpng16-16
+* 21:18 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: libpng16-16
+* 21:18 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: libpng16-16
+* 21:18 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: libpng16-16
+* 21:18 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: libpng16-16
+* 21:17 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: libpng16-16
+* 21:17 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: libpng16-16
+* 21:17 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: libpng16-16
+* 21:17 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: libpng16-16
+* 21:16 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: libpng16-16
+* 21:16 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb151: libpng16-16
+* 21:16 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: libpng16-16
+* 21:16 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: libpng16-16
+* 21:16 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: libpng16-16
+* 21:15 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: libpng16-16
+* 21:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: libpng-tools, libpng-dev, and libpng16-16
+* 21:15 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: libpng16-16
+* 21:15 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: libpng16-16
+* 21:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: libpng-dev, libpng-tools, and libpng16-16
+* 21:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: libpng-dev, libpng-tools, and libpng16-16
+* 21:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libpng-dev, libpng-tools, and libpng16-16
+* 21:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: libpng-dev, libpng-tools, and libpng16-16
+* 21:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: libpng-dev, libpng-tools, and libpng16-16
+* 21:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: libpng-dev, libpng-tools, and libpng16-16
+* 21:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: libpng-dev, libpng-tools, and libpng16-16
+* 21:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: libpng-dev, libpng-tools, and libpng16-16
+* 21:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: libpng-dev, libpng-tools, and libpng16-16
+* 21:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: libpng-dev, libpng-tools, and libpng16-16
+* 21:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: libpng-dev, libpng-tools, and libpng16-16
+* 21:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: libpng-dev, libpng-tools, and libpng16-16
+* 21:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: libpng-dev, libpng-tools, and libpng16-16
+* 21:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: libpng-dev, libpng-tools, and libpng16-16
+* 21:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: libpng-dev, libpng-tools, and libpng16-16
+* 21:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: libpng-dev, libpng-tools, and libpng16-16
+* 21:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: libpng-dev, libpng-tools, and libpng16-16
+* 21:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: libpng-dev, libpng-tools, and libpng16-16
+* 21:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: libpng-dev, libpng-tools, and libpng16-16
+* 21:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: libpng-dev, libpng-tools, and libpng16-16
+* 21:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: libpng16-16
+* 21:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: libpng-dev, libpng-tools, and libpng16-16
+* 21:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: libpng16-16
+* 21:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: libpng16-16
+* 21:07 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: libpng16-16
+* 21:07 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: libpng16-16
+* 21:07 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: libpng16-16
+* 21:07 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=anticipatorydesignwiki --requester=Archiblog (END - exit=0)
+* 21:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: libpng16-16
+* 21:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: libpng16-16
+* 21:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost1: libpng16-16
+* 21:06 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: libpng16-16
+* 21:06 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: libpng16-16
+* 21:05 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: libpng16-16
+* 21:05 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: libpng16-16
+* 21:05 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: libpng16-16
+* 21:05 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: libpng16-16
+* 21:05 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: libpng16-16
+* 21:04 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate181: libpng16-16
+* 21:04 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: libpng16-16
+* 21:04 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: libpng16-16
+* 21:04 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka181: libpng16-16
+* 21:03 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: libpng16-16
+* 21:03 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: libpng16-16
+* 21:03 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: libpng16-16
+* 21:03 MirahezeLSBot: [void@puppet181] Upgraded packages on db192: libpng16-16t64 and pdns-recursor
+* 21:02 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: libpng16-16
+* 21:02 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=alentiniszerwiki (END - exit=0)
+* 21:02 MirahezeLSBot: [void@puppet181] Upgraded packages on db201: libpng16-16t64 and pdns-recursor
+* 21:02 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: libpng16-16
+* 21:02 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: libpng16-16
+* 21:01 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop201: libpng16-16
+* 21:01 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: libpng16-16
+* 21:01 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=conquerorsofthecraftwiki --new=alentiniszerwiki --user=Skye (END - exit=0)
+* 21:01 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: libpng16-16
+* 21:01 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: libpng16-16
+* 21:01 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: libpng16-16t64 and pdns-recursor
+* 21:00 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: libpng16-16t64 and pdns-recursor
+* 20:57 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=factionalworldwiki (END - exit=0)
+* 20:56 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=athvdanwiki --new=factionalworldwiki --user=Skye (END - exit=0)
+* 20:52 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=abysswiki (END - exit=0)
+* 20:52 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php SemanticMediaWiki:rebuildData --wiki=gwikiwiki -v (END - exit=0)
+* 20:51 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=abysswikiwiki --new=abysswiki --user=Skye (END - exit=0)
+* 20:50 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 20:50 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 20:50 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 20:50 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 20:39 Skye: c4: DROP DATABASE abysswiki;
+* 20:33 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwiki --delete --deletewiki abysswiki (END - exit=0)
+* 20:27 @abaddriverlol: deployed local patch for T14432
+* 20:27 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.44/extensions/RemoveRedlinks'} to all - SUCCESS in 23s
+* 20:26 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.44/extensions/RemoveRedlinks'} to all
+* 20:25 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.44/extensions/RemoveRedlinks,1.45/extensions/RemoveRedlinks'} to test151 - SUCCESS in 0s
+* 20:25 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.44/extensions/RemoveRedlinks,1.45/extensions/RemoveRedlinks'} to test151
+* 18:23 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=projectremixwiki (END - exit=0)
+* 18:08 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 18:08 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 17:57 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=projectremixrobloxwiki --new=projectremixwiki --user=Skye (END - exit=0)
+* 17:44 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=projectremixwikiwiki --new=projectremixwiki --user=Skye (END - exit=256)
+* 17:41 Skye: c1: DROP DATABASE projectremixwiki;
+* 17:36 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwiki --delete --deletewiki projectremixwiki (END - exit=0)
+* 13:19 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php SemanticMediaWiki:rebuildData --wiki=gwikiwiki -v (END - exit=0)
+* 13:17 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php SemanticMediaWiki:rebuildData --wiki=morerandomstuffwikibeta -v (END - exit=0)
+* 13:16 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php SemanticMediaWiki:rebuildData --wiki=morerandomstuffwikibeta -v (END - exit=65280)
+* 11:31 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 21s
+* 11:30 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'config': True} to all
+* 11:30 BlankEclair: put c4/db181 out of maint mode
+* 11:25 @abaddriverlol: reboot db181
+* 11:20 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 68s
+* 09:46 BlankEclair: Miraheze\MatomoAnalytics\MatomoAnalytics::addSite( 'itemasylumwiki' )
+
 ## 2025-12-09 
 
 * 19:51 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
