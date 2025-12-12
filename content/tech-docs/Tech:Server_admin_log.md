@@ -2,6 +2,26 @@
 title: Tech:Server admin log
 ---
 
+## 2025-12-11 
+
+* 23:25 @abaddriverlol: deployed local DPL4 patch ([https://github.com/Universal-Omega/DynamicPageList3/pull/501](https://github.com/Universal-Omega/DynamicPageList3/pull/501))
+* 23:23 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.44/extensions/DynamicPageList4'} to all - SUCCESS in 23s
+* 23:23 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.44/extensions/DynamicPageList4'} to all
+* 23:22 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.44/extensions/DynamicPageList4,1.45/extensions/DynamicPageList4'} to test151 - SUCCESS in 0s
+* 23:22 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.44/extensions/DynamicPageList4,1.45/extensions/DynamicPageList4'} to test151
+* 16:36 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'CommentStreams'} to all - SUCCESS in 23s
+* 16:36 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'CommentStreams'} to all
+* 16:35 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'CommentStreams'} to test151 - SUCCESS in 1s
+* 16:35 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'CommentStreams'} to test151
+* 15:22 @abaddriverlol: remove local patches for T14634 and upgrade the extension
+* 15:20 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.44/extensions/Scribunto'} to all - SUCCESS in 23s
+* 15:20 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.44/extensions/Scribunto'} to all
+* 15:19 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.44/extensions/Scribunto,1.45/extensions/Scribunto'} to test151 - SUCCESS in 0s
+* 15:19 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.44/extensions/Scribunto,1.45/extensions/Scribunto'} to test151
+* 14:33 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=catchfirewiki (END - exit=0)
+* 14:22 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=speckledfirewiki --new=catchfirewiki --user=Skye (END - exit=0)
+* 03:23 MirahezeLSBot: [paladox@bots171] service ircrcbot-MirahezeRC restart
+
 ## 2025-12-10 
 
 * 21:20 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: libpng16-16
