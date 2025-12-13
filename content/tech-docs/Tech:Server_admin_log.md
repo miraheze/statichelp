@@ -2,6 +2,45 @@
 title: Tech:Server admin log
 ---
 
+## 2025-12-12 
+
+* 23:02 @pskyechology: Move tables in projectremixrobloxwikicargo to projectremixwikicargo via RENAME TABLE
+* 21:59 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:59 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:56 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:56 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:56 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:54 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:54 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:54 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:53 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:53 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:53 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:52 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 21:52 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: libswscale6, libavdevice59, libavformat59, libavfilter8, libavcodec59, libavutil57, libpostproc56, libswresample4, and ffmpeg
+* 15:27 SomeRandomDeveloper: test
+* 15:22 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.44/extensions/RemoveRedlinks'} to all - SUCCESS in 23s
+* 15:22 @abaddriverlol: removed local patch for T14432
+* 15:22 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.44/extensions/RemoveRedlinks'} to all
+* 15:22 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.44/extensions/RemoveRedlinks,1.45/extensions/RemoveRedlinks'} to test151 - SUCCESS in 0s
+* 15:22 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.44/extensions/RemoveRedlinks,1.45/extensions/RemoveRedlinks'} to test151
+* 11:19 MirahezeLSBot: [blankeclair@mwtask181] Finished import for historyhelperwiki (XML: None; Images: archive/) (END - exit=0)
+* 11:19 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=historyhelperwiki --update (END - exit=0)
+* 11:19 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=historyhelperwiki --update (START)
+* 11:19 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=historyhelperwiki --sleep=0 '--comment=Importing images from [https://wiki.historyhelper.com.au](https://wiki.historyhelper.com.au) ([T14604](https://meta.miraheze.org/wiki/phorge:T14604))' --search-recursively -- archive/ (END - exit=0)
+* 11:19 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=historyhelperwiki --sleep=0 '--comment=Importing images from [https://wiki.historyhelper.com.au](https://wiki.historyhelper.com.au) ([T14604](https://meta.miraheze.org/wiki/phorge:T14604))' --search-recursively -- archive/ (START)
+* 11:18 MirahezeLSBot: [blankeclair@mwtask181] Starting import for historyhelperwiki (XML: None; Images: archive/) (START)
+
 ## 2025-12-11 
 
 * 23:25 @abaddriverlol: deployed local DPL4 patch ([https://github.com/Universal-Omega/DynamicPageList3/pull/501](https://github.com/Universal-Omega/DynamicPageList3/pull/501))
