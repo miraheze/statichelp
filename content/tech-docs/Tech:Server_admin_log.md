@@ -2,6 +2,19 @@
 title: Tech:Server admin log
 ---
 
+## 2025-12-13 
+
+* 16:49 RhinosF1: global run of puppet & nginx reload is complete
+* 16:44 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 16:43 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 16:42 RhinosF1: globally run puppet and refresh nginx
+* 08:34 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 08:34 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 04:48 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=sherlockholmeswiki --new=crimefictionwiki --user='BlankEclair_(Miraheze)' (END - exit=0)
+* 04:38 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php updateCollation --wiki=extoniawiki --previous-collation uppercase (END - exit=0)
+* 04:38 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 04:38 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
 ## 2025-12-12 
 
 * 23:02 @pskyechology: Move tables in projectremixrobloxwikicargo to projectremixwikicargo via RENAME TABLE
