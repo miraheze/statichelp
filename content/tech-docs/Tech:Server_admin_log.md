@@ -2,6 +2,52 @@
 title: Tech:Server admin log
 ---
 
+## 2025-12-14 
+
+* 22:24 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=thecelestialcavernswiki --new=celestialcavernswiki '--user=BlankEclair (Miraheze)' (END - exit=0)
+* 22:21 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:NotifyWikiUsers --wiki=randomwikistuffwiki --message 'This is a test notification.' --header 'Test Notification' --link ' [https://example.com'](https://example.com') --group bureaucrat (END - exit=0)
+* 22:09 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=crimefictionwiki --new=sherlockholmeswiki '--user=BlankEclair (Miraheze)' (END - exit=0)
+* 22:08 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 470s
+* 22:07 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to test151 - SUCCESS in 404s
+* 22:04 BlankEclair: c3: DROP DATABASE sherlockholmeswiki;
+* 22:01 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=crimefictionwiki --new=sherlockholmeswiki '--user=BlankEclair (Miraheze)' (END - exit=256)
+* 22:00 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 22:00 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to test151
+* 22:00 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to test151 - SUCCESS in 1s
+* 22:00 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to test151
+* 21:59 MirahezeLSBot: [somerandomdeveloper@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 21:59 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to test151
+* 20:41 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data rm /srv/mediawiki-staging/1.44/extensions/Interwiki -rf
+* 20:40 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'world': True, 'l10n': True, 'extension_list': True, 'versions': '1.44'} to all - SUCCESS in 717s
+* 20:39 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'world': True, 'l10n': True, 'extension_list': True, 'versions': ['1.44', '1.45']} to test151 - SUCCESS in 657s
+* 20:32 @paladox: apply linter: patch-linter-add-namespace.sql, patch-linter-fix-params-null-definition.sql and patch-linter-template-tag-fields.sql to japolandballwiki
+* 20:28 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'world': True, 'l10n': True, 'extension_list': True, 'versions': ['1.44', '1.45']} to test151
+* 20:28 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'world': True, 'l10n': True, 'extension_list': True, 'versions': '1.44'} to all
+* 20:27 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data rm -rf /srv/mediawiki-staging/1.44/extensions/SemanticDrilldown/
+* 20:27 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data rm -rf /srv/mediawiki-staging/1.44/extensions/SemanticDrilldown /srv/mediawiki-staging/1.45/extensions/SemanticDrilldown
+* 20:22 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 20:22 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 20:21 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 20:21 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 20:17 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:ToggleExtension --wiki=loginwiki --name=semanticdrilldown --disable --all-wikis --execute (END - exit=0)
+* 20:11 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ToggleExtension --wiki=loginwikibeta --name=semanticdrilldown --disable --all-wikis --execute (END - exit=0)
+* 20:10 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ToggleExtension --wiki=loginwikibeta --name=SemanticDrilldown --disable --all-wikis --execute (END - exit=0)
+* 19:56 @paladox: db201: rm /srv/mariadb/mysql-bin.000318.idx
+* 19:56 @paladox: db201: rm /srv/mariadb/mysql-bin.000318
+* 19:52 @paladox: restart mariadb on db201
+* 19:29 Agent: cleared binlogs 0 to 316 on db201 to clear up 350GBs of space
+* 16:48 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'upgrade_vendor': True, 'world': True, 'l10n': True, 'force': True, 'versions': '1.45'} to test151 - SUCCESS in 345s
+* 16:42 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'upgrade_vendor': True, 'world': True, 'l10n': True, 'force': True, 'versions': '1.45'} to test151
+* 16:42 MirahezeLSBot: [somerandomdeveloper@test151] DEPLOY ABORTED: Canary check failed for meta.mirabeta.org@localhost
+* 16:41 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'upgrade_vendor': True, 'world': True, 'l10n': True, 'versions': '1.45'} to test151
+* 16:41 MirahezeLSBot: [somerandomdeveloper@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 16:40 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'upgrade_vendor': True, 'world': True, 'l10n': True, 'versions': '1.45'} to test151
+* 16:29 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'upgrade_vendor': True, 'world': True, 'l10n': True, 'versions': '1.44'} to test151 - SUCCESS in 366s
+* 16:23 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'upgrade_vendor': True, 'world': True, 'l10n': True, 'versions': '1.44'} to test151
+* 15:52 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:NotifyWikiUsers --wiki=randomstuffwikibeta --permission managewiki-extensions --header 'Test Tech Notification' --link ' [https://issue-tracker.miraheze.org/'](https://issue-tracker.miraheze.org/') --message 'This is a test notification.' (END - exit=0)
+* 15:50 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s
+* 15:50 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151
+
 ## 2025-12-13 
 
 * 16:49 RhinosF1: global run of puppet & nginx reload is complete

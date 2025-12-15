@@ -15,7 +15,7 @@ mwscript ManageWiki:ToggleExtension loginwiki --name=<extension> --disable --all
 * Remove any associated settings using:
 * 
 ```bash
-mwscript ManageWiki:PopulateWikiSettings all --setting=<setting> --remove
+mwscript ManageWiki:PopulateWikiSettings loginwiki --setting=<setting> --remove --all-wikis --execute
 ```
 * Delete any related configuration from the following files:
   * `ManageWikiExtensions.php`
@@ -59,7 +59,6 @@ This should follow the format:
 ## See also 
 
 * [Adding a new extension](/tech-docs/techadding_a_new_extension)
-* [Updating an extension](https://meta.miraheze.org/wiki/Tech:Updating_an_extension)
 
 ## Categories
 
