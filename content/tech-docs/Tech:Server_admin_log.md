@@ -2,6 +2,30 @@
 title: Tech:Server admin log
 ---
 
+## 2025-12-15 
+
+* 22:10 SomeRandomDeveloper: also upgraded beta to 1.44.3 / 1.45.1 earlier
+* 22:10 SomeRandomDeveloper: upgraded prod to 1.44.3
+* 22:10 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'upgrade_vendor': True, 'world': True, 'l10n': True, 'versions': '1.44'} to all - SUCCESS in 700s
+* 21:58 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'upgrade_vendor': True, 'world': True, 'l10n': True, 'versions': '1.44'} to all
+* 21:48 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'upgrade_vendor': True, 'world': True, 'l10n': True, 'versions': ['1.44', '1.45']} to test151 - SUCCESS in 667s
+* 21:37 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'upgrade_vendor': True, 'world': True, 'l10n': True, 'versions': ['1.44', '1.45']} to test151
+* 21:31 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_skins': 'Citizen'} to test151 - SUCCESS in 2s
+* 21:31 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_skins': 'Citizen'} to test151
+* 13:45 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'TemplateStylesExtender'} to test151 - SUCCESS in 0s
+* 13:45 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'TemplateStylesExtender'} to test151
+* 13:31 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'MobileFrontend', 'upgrade_skins': 'Citizen'} to test151 - SUCCESS in 2s
+* 13:31 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'MobileFrontend', 'upgrade_skins': 'Citizen'} to test151
+* 13:13 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.44/extensions/DynamicPageList4'} to all - SUCCESS in 22s
+* 13:13 SomeRandomDeveloper: removed local DPL4 patch and upgraded the extension on beta and prod
+* 13:13 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.44/extensions/DynamicPageList4'} to all
+* 13:12 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.44/extensions/DynamicPageList4,1.45/extensions/DynamicPageList4'} to test151 - SUCCESS in 0s
+* 13:12 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.44/extensions/DynamicPageList4,1.45/extensions/DynamicPageList4'} to test151
+* 02:22 MirahezeLSBot: [agent@mattermost1] disable mattermost 2fa for Universal Omega
+* 02:17 MirahezeLSBot: [agent@phorge171] disable phorge 2fa for Universal Omega
+* 02:04 MirahezeLSBot: [agent@mwtask181] disabled 2FA for Universal Omega at request of DSRE + DT
+* 02:01 MirahezeLSBot: [agent@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php OATHAuth:disableOATHAuthForUser --wiki=metawiki --user Universal Omega (END - exit=65280)
+
 ## 2025-12-14 
 
 * 22:24 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=thecelestialcavernswiki --new=celestialcavernswiki '--user=BlankEclair (Miraheze)' (END - exit=0)
