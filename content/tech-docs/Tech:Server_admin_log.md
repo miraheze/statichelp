@@ -2,6 +2,17 @@
 title: Tech:Server admin log
 ---
 
+## 2025-12-16 
+
+* 21:24 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=zssnwiki (END - exit=0)
+* 21:23 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=zasernticawiki --new=zssnwiki --user=Skye (END - exit=0)
+* 12:09 RhinosF1: blocked a user on GitHub for spam
+* 05:54 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/initSiteStats.php --wiki=oppressivegameswikiwiki --update (END - exit=0)
+* 05:54 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=oppressivegameswikiwiki (END - exit=0)
+* 05:43 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=oppressivegameswikiwiki (START)
+* 05:43 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=oppressivegameswikiwiki dump.xml --no-updates (END - exit=0)
+* 05:30 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=oppressivegameswikiwiki dump.xml --no-updates (START)
+
 ## 2025-12-15 
 
 * 22:10 SomeRandomDeveloper: also upgraded beta to 1.44.3 / 1.45.1 earlier
