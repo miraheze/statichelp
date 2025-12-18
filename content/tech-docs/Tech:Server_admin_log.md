@@ -2,6 +2,17 @@
 title: Tech:Server admin log
 ---
 
+## 2025-12-17 
+
+* 21:33 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /home/somerandomdeveloper/standarddialogs.php /srv/mediawiki/1.44/maintenance/run.php /home/somerandomdeveloper/FixMwsTitleIndex.php
+* 21:29 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:GenerateExtensionDatabaseList --wiki=metawiki --extension=standarddialogs --directory=/tmp
+* 21:28 SomeRandomDeveloper: (script at T14669#293836)
+* 21:28 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /home/somerandomdeveloper/commentstreams.php /srv/mediawiki/1.44/maintenance/run.php /home/somerandomdeveloper/FixMwsTitleIndex.php
+* 21:12 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:GenerateExtensionDatabaseList --wiki=metawiki --extension=commentstreams --directory=/tmp
+* 20:22 SomeRandomDeveloper: ran /srv/mediawiki/1.44/vendor/mwstake/mediawiki-component-commonwebapis/sql/mysql/mws_title_index_leafpage_patch.sql on worldoftruaileiduthocwiki
+* 00:45 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=damnatiomemoriaewiki (END - exit=0)
+* 00:44 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=hellscapewiki --new=damnatiomemoriaewiki --user=Skye (END - exit=0)
+
 ## 2025-12-16 
 
 * 21:24 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=zssnwiki (END - exit=0)
