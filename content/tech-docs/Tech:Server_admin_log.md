@@ -2,6 +2,14 @@
 title: Tech:Server admin log
 ---
 
+## 2025-12-18 
+
+* 21:15 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php SemanticMediaWiki:setupStore --wiki=digitalhumanitieswiki (END - exit=0)
+* 21:00 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'RobloxAPI'} to all - SUCCESS in 502s
+* 20:51 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'RobloxAPI'} to all
+* 20:49 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'RobloxAPI'} to test151 - SUCCESS in 563s
+* 20:40 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'RobloxAPI'} to test151
+
 ## 2025-12-17 
 
 * 21:33 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /home/somerandomdeveloper/standarddialogs.php /srv/mediawiki/1.44/maintenance/run.php /home/somerandomdeveloper/FixMwsTitleIndex.php
