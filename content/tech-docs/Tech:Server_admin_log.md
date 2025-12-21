@@ -2,6 +2,10 @@
 title: Tech:Server admin log
 ---
 
+## 2025-12-20 
+
+* 17:45 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php SemanticMediaWiki:setupStore --wiki=aylonworldwiki (END - exit=0)
+
 ## 2025-12-19 
 
 * 22:32 RhinosF1: update matomo for [https://issue-tracker.miraheze.org/T14678](https://issue-tracker.miraheze.org/T14678)
