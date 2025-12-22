@@ -38,7 +38,7 @@ A full list of maintenance scripts can be found [here](https://meta.miraheze.org
 
 **Foreachwikiindblist** allows for a maintenance script to be run on all Miraheze wikis.
 
-Usage: ` sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/<version>/maintenance/example.php`
+Usage: ` sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/<version>/maintenance/run.php /srv/mediawiki/<version>/maintenance/example.php`
 
 ### mwscript 
 

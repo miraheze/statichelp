@@ -2,6 +2,20 @@
 title: Tech:Server admin log
 ---
 
+## 2025-12-21 
+
+* 22:10 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'Flow'} to all - SUCCESS in 30s
+* 22:10 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'Flow'} to all
+* 22:10 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'Flow'} to test151 - SUCCESS in 1s
+* 22:10 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'Flow'} to test151
+* 21:09 @paladox: mwtask181: sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/extensions/MatomoAnalytics/maintenance/ModifyMatomo.php
+* 15:49 @paladox: restart slapd on ldap171
+* 14:50 @paladox: erase matomo on db182
+* 12:52 @paladox: mwtask181: sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/extensions/MatomoAnalytics/maintenance/ModifyMatomo.php --remove
+* 12:51 @paladox: cancel
+* 12:50 @paladox: mwtask181: sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/extensions/MatomoAnalytics/maintenance/CleanupMatomos.php
+* 12:31 @paladox: [root@matomo151:/srv/matomo]# ./console core:purge-old-archive-data
+
 ## 2025-12-20 
 
 * 17:45 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php SemanticMediaWiki:setupStore --wiki=aylonworldwiki (END - exit=0)
