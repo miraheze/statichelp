@@ -2,6 +2,14 @@
 title: Tech:Server admin log
 ---
 
+## 2025-12-22 
+
+* 20:59 SomeRandomDeveloper: restart relaybot on bots171
+* 20:59 @pskyechology: test
+* 15:37 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=kreativeschaoswiki (END - exit=0)
+* 15:34 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=kreativeschaoswiki --startOver (END - exit=0)
+* 02:53 @pskyechology: Fixed slot_roles and content_models tables for anticipatorydesignwiki, per [https://meta.miraheze.org/wiki/Tech:Fixing_slot_roles_and_content_models](https://meta.miraheze.org/wiki/Tech:Fixing_slot_roles_and_content_models)
+
 ## 2025-12-21 
 
 * 22:10 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'Flow'} to all - SUCCESS in 30s
