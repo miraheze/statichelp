@@ -2,6 +2,11 @@
 title: Tech:Server admin log
 ---
 
+## 2025-12-24 
+
+* 03:08 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=clubsuicidewiki --requester=Wotaku (END - exit=0)
+* 03:02 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=tokimekilifewiki --requester=MinaMor (END - exit=0)
+
 ## 2025-12-22 
 
 * 20:59 SomeRandomDeveloper: restart relaybot on bots171
