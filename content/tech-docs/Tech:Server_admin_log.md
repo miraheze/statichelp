@@ -2,6 +2,11 @@
 title: Tech:Server admin log
 ---
 
+## 2025-12-25 
+
+* 22:22 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php createAndPromote --wiki=ifawartburgwiki 'IFA Wartburg Fan' --sysop --bureaucrat --force --reason 'Requested via email, rights not assigned on creation (RhinosF1)' (END - exit=0)
+* 22:22 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php createAndPromote --wiki=ifawartburgwiki 'IFA Wartburg Fan' --sysop --bureaucrat --dorce --reason 'Requested via email, rights not assigned on creation (RhinosF1)' (END - exit=256)
+
 ## 2025-12-24 
 
 * 03:08 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=clubsuicidewiki --requester=Wotaku (END - exit=0)
