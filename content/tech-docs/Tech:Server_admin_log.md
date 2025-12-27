@@ -2,6 +2,10 @@
 title: Tech:Server admin log
 ---
 
+## 2025-12-26 
+
+* 04:18 MirahezeLSBot: [void@db171] reset db171
+
 ## 2025-12-25 
 
 * 22:22 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php createAndPromote --wiki=ifawartburgwiki 'IFA Wartburg Fan' --sysop --bureaucrat --force --reason 'Requested via email, rights not assigned on creation (RhinosF1)' (END - exit=0)
