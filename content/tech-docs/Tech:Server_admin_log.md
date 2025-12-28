@@ -2,6 +2,19 @@
 title: Tech:Server admin log
 ---
 
+## 2025-12-27 
+
+* 22:00 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.45', 'upgrade_skins': 'Lakeus'} to test151 - SUCCESS in 1s
+* 22:00 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.45', 'upgrade_skins': 'Lakeus'} to test151
+* 18:49 SomeRandomDeveloper: deployed patch for T14723 on beta and prod
+* 17:57 RhinosF1: mongo update was for [https://issue-tracker.miraheze.org/T14722](https://issue-tracker.miraheze.org/T14722)
+* 17:42 @paladox: upgrade mongodb to 7.0.28 on graylog161
+* 13:50 RhinosF1: purged varnish cache on [https://balkanborderrp.miraheze.org/wiki/](https://balkanborderrp.miraheze.org/wiki/) cp171
+* 00:39 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'Commentbox'} to test151 - SUCCESS in 1s
+* 00:39 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'Commentbox'} to test151
+* 00:11 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'Commentbox'} to test151 - SUCCESS in 1s
+* 00:11 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'Commentbox'} to test151
+
 ## 2025-12-26 
 
 * 04:18 MirahezeLSBot: [void@db171] reset db171
