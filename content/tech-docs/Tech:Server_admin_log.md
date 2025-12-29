@@ -2,6 +2,29 @@
 title: Tech:Server admin log
 ---
 
+## 2025-12-28 
+
+* 23:33 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=untitledroomswiki --requester=Umera1983 (END - exit=0)
+* 23:21 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=aquamediawiki (END - exit=0)
+* 23:20 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=cosmicmediawiki --new=aquamediawiki --user=Skye (END - exit=0)
+* 23:07 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=tennistomewiki (END - exit=0)
+* 23:07 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=totaltenniswiki --new=tennistomewiki --user=Skye (END - exit=0)
+* 21:53 SomeRandomDeveloper: second maintenance script for T14723 finished running
+* 21:48 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=motorsportsymulacjawiki (END - exit=0)
+* 21:46 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=formula2sezon2026wiki --new=motorsportsymulacjawiki --user=Skye (END - exit=0)
+* 21:32 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=atepediwiki (END - exit=0)
+* 21:25 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=sozlukwiki --new=atepediwiki --user=Skye (END - exit=0)
+* 21:19 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=kipediawiki (END - exit=0)
+* 21:17 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=aylonworldwiki --new=kipediawiki --user=Skye (END - exit=0)
+* 21:13 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=ptrcwiki (END - exit=0)
+* 21:12 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=rcpdwiki --new=ptrcwiki --user=Skye (END - exit=0)
+* 13:44 SomeRandomDeveloper: first script completed; started second maintenance script run for T14723
+* 13:39 SomeRandomDeveloper: deployed updated patch for T14723
+* 00:11 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.45/maintenance/run.php MatomoAnalytics:ModifyMatomo (END - exit=0)
+* 00:11 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.45/maintenance/run.php MatomoAnalytics:ModifyMatomo (START)
+* 00:10 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.45/maintenance/run.php MatomoAnalytics:ModifyMatomo --remove (END - exit=0)
+* 00:10 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.45/maintenance/run.php MatomoAnalytics:ModifyMatomo --remove (START)
+
 ## 2025-12-27 
 
 * 22:00 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.45', 'upgrade_skins': 'Lakeus'} to test151 - SUCCESS in 1s
