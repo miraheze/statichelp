@@ -2,6 +2,13 @@
 title: Tech:Server admin log
 ---
 
+## 2025-12-29 
+
+* 23:21 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=arcaneodysseywikiwiki (START)
+* 23:21 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=arcaneodysseywikiwiki dump.xml --no-updates (END - exit=0)
+* 22:53 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=arcaneodysseywikiwiki dump.xml --no-updates (START)
+* 17:49 @paladox: restart squid on bast161 (seems memory has been building up to a potential oom)
+
 ## 2025-12-28 
 
 * 23:33 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=untitledroomswiki --requester=Umera1983 (END - exit=0)
