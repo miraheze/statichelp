@@ -2,6 +2,16 @@
 title: Tech:Server admin log
 ---
 
+## 2025-12-30 
+
+* 23:59 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwiki --delete --deletewiki etohwiki (END - exit=0)
+* 13:09 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'PageForms'} to all - SUCCESS in 30s
+* 13:09 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'PageForms'} to all
+* 13:08 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'PageForms'} to test151 - SUCCESS in 2s
+* 13:08 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'PageForms'} to test151
+* 00:26 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/initSiteStats.php --wiki=arcaneodysseywikiwiki --update (END - exit=0)
+* 00:25 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=arcaneodysseywikiwiki (END - exit=0)
+
 ## 2025-12-29 
 
 * 23:21 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=arcaneodysseywikiwiki (START)
