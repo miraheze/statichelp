@@ -2,6 +2,16 @@
 title: Tech:Server admin log
 ---
 
+## 2026-01-01 
+
+* 00:00 MirahezeLSBot: [www-data@mwtask181] Began automatic backing up
+
+## 2025-12-31 
+
+* 00:51 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=etohwiki (END - exit=0)
+* 00:48 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=jtohwiki --new=etohwiki --user=Skye (END - exit=0)
+* 00:08 Skye: c1: DROP DATABASE etohwiki;
+
 ## 2025-12-30 
 
 * 23:59 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwiki --delete --deletewiki etohwiki (END - exit=0)
