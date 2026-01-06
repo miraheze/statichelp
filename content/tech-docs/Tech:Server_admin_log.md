@@ -2,6 +2,152 @@
 title: Tech:Server admin log
 ---
 
+## 2026-01-05 
+
+* 23:54 SomeRandomDeveloper: test
+* 23:49 SomeRandomDev: test
+* 23:12 SomeRandomDeveloper: (the SQL file combines all four userboard patches)
+* 23:12 SomeRandomDeveloper: started "sudo -u www-data ~/foreachwikiindblist-parallel /srv/mediawiki/cache/databases.php php /srv/mediawiki/1.44/maintenance/run.php sql /home/somerandomdeveloper/userprofile-patches.sql" on prod
+* 23:10 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'SocialProfile'} to all - SUCCESS in 33s
+* 23:09 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'SocialProfile'} to all
+* 23:08 SomeRandomDeveloper: ran all four SQL patches from < [https://github.com/wikimedia/mediawiki-extensions-SocialProfile/commit/b48bca41319e0b601580c62d4ce603b04f6f7e57](https://github.com/wikimedia/mediawiki-extensions-SocialProfile/commit/b48bca41319e0b601580c62d4ce603b04f6f7e57)> on all beta wikis
+* 23:06 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'SocialProfile'} to test151 - SUCCESS in 21s
+* 23:05 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'SocialProfile'} to test151
+* 22:56 SomeRandomDeveloper: ran "sudo -u www-data ~/foreachwikiindblist-parallel /srv/mediawiki/cache/databases.php php /srv/mediawiki/1.45/maintenance/run.php sql /srv/mediawiki/1.44/extensions/Comments/sql/patches/drop-Comment_Vote_IP.sql" on test151
+* 22:56 SomeRandomDeveloper: ran "sudo -u www-data ~/foreachwikiindblist-parallel /srv/mediawiki/cache/databases.php php /srv/mediawiki/1.45/maintenance/run.php sql /srv/mediawiki/1.44/extensions/Comments/sql/patches/drop-Comment_IP.sql" on test151
+* 22:54 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.44/extensions/Comments,1.45/extensions/Comments'} to test151 - SUCCESS in 0s
+* 22:54 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.44/extensions/Comments,1.45/extensions/Comments'} to test151
+* 22:12 @paladox: upgraded salt on puppet181
+* 21:41 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on cloud15: libsodium23
+* 21:37 MirahezeLSBot: [somerandomdeveloper@db201] manually upgraded libsodium23 due to T14767
+* 21:35 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on swiftobject201: libsodium23
+* 21:35 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on swiftobject181: libsodium23
+* 21:35 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on swiftproxy171: libsodium23
+* 21:34 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on swiftobject151: libsodium23
+* 21:34 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on swiftobject191: libsodium23
+* 21:33 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on swiftobject161: libsodium23
+* 21:33 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on swiftproxy161: libsodium23
+* 21:33 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on swiftobject171: libsodium23
+* 21:32 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on swiftac171: libsodium23
+* 21:32 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on test151: libsodium23
+* 21:32 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on puppet181: libsodium23
+* 21:32 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on reports171: libsodium23
+* 21:31 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on rdb151: libsodium23
+* 21:31 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on ns2: libsodium23
+* 21:30 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on os202: libsodium23
+* 21:30 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on os201: libsodium23
+* 21:30 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on phorge171: libsodium23
+* 21:29 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on prometheus151: libsodium23
+* 21:29 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on os191: libsodium23
+* 21:29 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on os162: libsodium23
+* 21:28 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mwtask181: libsodium23
+* 21:28 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on os161: libsodium23
+* 21:28 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on os151: libsodium23
+* 21:28 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on ns1: libsodium23
+* 21:27 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mwtask171: libsodium23
+* 21:27 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mwtask161: libsodium23
+* 21:27 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw203: libsodium23
+* 21:26 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mwtask151: libsodium23
+* 21:26 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw202: libsodium23
+* 21:26 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw201: libsodium23
+* 21:26 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw183: libsodium23
+* 21:25 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw192: libsodium23
+* 21:25 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw173: libsodium23
+* 21:25 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw182: libsodium23
+* 21:24 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw161: libsodium23
+* 21:24 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw162: libsodium23
+* 21:24 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw181: libsodium23
+* 21:23 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw171: libsodium23
+* 21:23 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw191: libsodium23
+* 21:23 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw163: libsodium23
+* 21:22 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw172: libsodium23
+* 21:22 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw151: libsodium23
+* 21:22 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw193: libsodium23
+* 21:21 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw153: libsodium23
+* 21:21 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw152: libsodium23
+* 21:21 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mem191: libsodium23
+* 21:20 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mon181: libsodium23
+* 21:20 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mem201: libsodium23
+* 21:20 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mem161: libsodium23
+* 21:19 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mem151: libsodium23
+* 21:19 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on ldap171: libsodium23
+* 21:19 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on matomo151: libsodium23
+* 21:19 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on llm191: libsodium23
+* 21:18 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mattermost1: libsodium23
+* 21:18 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on db181: libsodium23
+* 21:18 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on cp201: libsodium23
+* 21:18 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on db182: libsodium23
+* 21:17 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on bots171: libsodium23
+* 21:17 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on graylog161: libsodium23
+* 21:17 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on cp171: libsodium23
+* 21:16 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on eventgate181: libsodium23
+* 21:16 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on db161: libsodium23
+* 21:16 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on cloud20: libsodium23
+* 21:16 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on kafka181: libsodium23
+* 21:15 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on db172: libsodium23
+* 21:15 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on db171: libsodium23
+* 21:15 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on cloud19: libsodium23
+* 21:14 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on cp191: libsodium23
+* 21:14 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on db151: libsodium23
+* 21:14 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on cloud17: libsodium23
+* 21:14 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on cloud18: libsodium23
+* 21:13 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on cp161: libsodium23
+* 21:13 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on changeprop201: libsodium23
+* 21:13 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on bast161: libsodium23
+* 21:12 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on db192: libsodium23
+* 21:12 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on bast181: libsodium23
+* 21:12 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on cloud16: libsodium23
+* 21:03 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_skins': 'Citizen'} to all - SUCCESS in 34s
+* 21:03 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_skins': 'Citizen'} to all
+* 21:02 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_skins': 'Citizen'} to test151 - SUCCESS in 2s
+* 21:02 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_skins': 'Citizen'} to test151
+* 20:59 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 37s
+* 20:58 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 20:58 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 20:58 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 20:50 SomeRandomDeveloper: salt-ssh -E 'mw.*' cmd.run 'sudo -u www-data rm -rf /srv/mediawiki/1.44/extensions/QuickSurveys/'
+* 20:48 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data rm -rf /srv/mediawiki/1.44/extensions/QuickSurveys/ /srv/mediawiki/1.45/extensions/QuickSurveys/
+* 20:48 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data rm -rf /srv/mediawiki-staging/1.44/extensions/QuickSurveys/ /srv/mediawiki-staging/1.45/extensions/QuickSurveys/
+* 20:47 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data rm -rf /srv/mediawiki/1.44/extensions/QuickSurveys/
+* 20:46 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data rm -rf /srv/mediawiki-staging/1.44/extensions/QuickSurveys/
+* 20:41 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'PageSchemas'} to all - SUCCESS in 29s
+* 20:40 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'PageSchemas'} to all
+* 20:39 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 30s
+* 20:39 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 20:39 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 20:39 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 13:58 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'force_upgrade': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'LdapAuthentication', 'upgrade_skins': 'Femiwiki'} to test151 - SUCCESS in 671s
+* 13:47 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'force_upgrade': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'LdapAuthentication', 'upgrade_skins': 'Femiwiki'} to test151
+* 12:53 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'force_upgrade': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to test151 - SUCCESS in 425s
+* 12:46 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'force_upgrade': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to test151
+* 12:39 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'force_upgrade': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to test151
+* 12:35 MirahezeLSBot: [paladox@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 12:35 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to test151
+* 12:34 MirahezeLSBot: [paladox@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 12:34 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'force_upgrade': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to test151
+* 12:32 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 193s
+* 12:29 MirahezeLSBot: [paladox@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 12:29 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to test151
+* 12:29 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 12:28 @paladox: salt-ssh -E "mw.*" cmd.run "rm -r /srv/mediawiki/1.44/extensions/Interwiki"
+* 12:26 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': ['Cargo', 'PageForms']} to test151 - SUCCESS in 186s
+* 12:26 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': ['Cargo', 'PageForms']} to all - SUCCESS in 192s
+* 12:23 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': ['Cargo', 'PageForms']} to test151
+* 12:23 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'RatePage'} to test151 - SUCCESS in 627s
+* 12:23 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': ['Cargo', 'PageForms']} to all
+* 12:21 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'RatePage'} to all - SUCCESS in 517s
+* 12:13 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'RatePage'} to test151
+* 12:12 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'RatePage'} to all
+* 09:10 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php purgeParserCache --wiki=pilgrammedwiki --age=360 (END - exit=0)
+* 05:26 MirahezeLSBot: [skye@mwtask171] Finished import for pilgrammedwiki (XML: None; Images: .) (END - exit=0)
+* 05:26 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=pilgrammedwiki --update (END - exit=0)
+* 05:26 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=pilgrammedwiki --update (START)
+* 05:26 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=pilgrammedwiki --sleep=1 '--comment=Importing images from [fandom:pilgrammed-rblx](https://meta.miraheze.org/wiki/fandom:pilgrammed-rblx) ([T14753](https://meta.miraheze.org/wiki/phorge:T14753))' --search-recursively -- . (END - exit=0)
+* 03:15 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=pilgrammedwiki --sleep=1 '--comment=Importing images from [fandom:pilgrammed-rblx](https://meta.miraheze.org/wiki/fandom:pilgrammed-rblx) ([T14753](https://meta.miraheze.org/wiki/phorge:T14753))' --search-recursively -- . (START)
+* 03:15 MirahezeLSBot: [skye@mwtask171] Starting import for pilgrammedwiki (XML: None; Images: .) (START)
+* 01:27 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'DynamicPageList4'} to all - SUCCESS in 30s
+* 01:26 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'DynamicPageList4'} to all
+
 ## 2026-01-04 
 
 * 20:49 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True, 'ignore_time': True} to test151 - SUCCESS in 0s
