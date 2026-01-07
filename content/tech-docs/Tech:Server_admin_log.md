@@ -2,6 +2,35 @@
 title: Tech:Server admin log
 ---
 
+## 2026-01-06 
+
+* 21:56 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 21:55 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 21:55 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45']} to test151 - SUCCESS in 660s
+* 21:47 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 30s
+* 21:46 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 21:46 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 21:46 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 21:44 SomeRandomDeveloper: deployed local patch for T14757 on beta and prod
+* 21:44 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45']} to test151
+* 20:30 SomeRandomDeveloper: (using a combined version of the two patches from [https://gerrit.wikimedia.org/r/c/mediawiki/extensions/Comments/+/1221613](https://gerrit.wikimedia.org/r/c/mediawiki/extensions/Comments/+/1221613))
+* 20:30 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.44/maintenance/run.php sql /home/somerandomdeveloper/comments-patches.sql (START)
+* 20:28 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.44/extensions/Comments'} to all - SUCCESS in 29s
+* 20:28 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.44/extensions/Comments'} to all
+* 18:23 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=metawiki --old=dpl3wiki --new=dpl4wiki --user=Universal_Omega --rename (END - exit=0)
+* 18:16 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 31s
+* 18:16 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 15:51 @paladox: restarted mariadb and took it out of recovery mode
+* 15:50 @paladox: started in recovery mode in  mariadb and dropped repository_commit_corrupt table in phabricator_repository
+* 15:47 @paladox: restart db182
+* 02:37 Universal Omega: bring phorge back online, but some tasks will still give exceptions if they have an attached commit to them.
+* 02:27 Universal Omega: RENAME TABLE repository_commit TO repository_commit_corrupt; (will restore from backup) and place db182 into InnoDB recovery mode for a moment (out of recovery mode now)
+* 01:37 Universal Omega: kill phorge and restart db182 from host
+* 00:30 @paladox: restart mariadb on db182
+* 00:24 @paladox: reboot phorge171
+* 00:13 @paladox: upgrade phorge on phorge171
+* 00:03 SomeRandomDeveloper: ran "./bin/policy unlock E1 --edit SomeRandomDeveloper" for T13002
+
 ## 2026-01-05 
 
 * 23:54 SomeRandomDeveloper: test
