@@ -2,6 +2,24 @@
 title: Tech:Server admin log
 ---
 
+## 2026-01-07 
+
+* 22:41 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.44/extensions/ProofreadPage'} to all - SUCCESS in 31s
+* 22:40 SomeRandomDeveloper: removed local patches for T14482
+* 22:40 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.44/extensions/ProofreadPage'} to all
+* 22:39 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.44/extensions/ProofreadPage,1.45/extensions/ProofreadPage'} to test151 - SUCCESS in 0s
+* 22:39 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.44/extensions/ProofreadPage,1.45/extensions/ProofreadPage'} to test151
+* 22:36 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/deleted.php /srv/mediawiki/1.44/maintenance/run.php sql /home/somerandomdeveloper/comments-patches.sql (START)
+* 21:42 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=talodwiki (START)
+* 21:42 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=talodwiki dump.xml --no-updates (END - exit=0)
+* 21:41 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=talodwiki dump.xml --no-updates (START)
+* 21:10 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/initSiteStats.php --wiki=talodwiki --update (END - exit=0)
+* 21:10 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=talodwiki (END - exit=2)
+* 21:10 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=talodwiki (START)
+* 21:10 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=talodwiki dump.xml --no-updates (END - exit=256)
+* 21:10 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=talodwiki dump.xml --no-updates (START)
+* 03:30 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.44/maintenance/run.php sql /home/somerandomdeveloper/comments-patches.sql (END - exit=256)
+
 ## 2026-01-06 
 
 * 21:56 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
