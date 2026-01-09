@@ -2,6 +2,30 @@
 title: Tech:Server admin log
 ---
 
+## 2026-01-09 
+
+* 00:00 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 00:00 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+
+## 2026-01-08 
+
+* 23:31 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'Wikibase'} to all - SUCCESS in 43s
+* 23:31 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'Wikibase'} to all
+* 23:31 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'Wikibase'} to test151 - SUCCESS in 9s
+* 23:31 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'Wikibase'} to test151
+* 21:54 MirahezeLSBot: [macfan@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/extensions/OATHAuth/maintenance/disableOATHAuthForUser.php --wiki=metawikibeta MacFan4000 (END - exit=0)
+* 17:33 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=craighcraftwiki --requester=ZethalMC (END - exit=0)
+* 16:10 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php SemanticMediaWiki:setupStore --wiki=wixosswiki (END - exit=0)
+* 02:16 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/deleted.php /srv/mediawiki/1.44/maintenance/run.php sql /home/somerandomdeveloper/userprofile-patches.sql (END - exit=256)
+* 01:46 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=winterworldwiki (END - exit=0)
+* 01:44 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=winterwarswiki --new=winterworldwiki --user=Skye (END - exit=0)
+* 01:40 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=findthetetoswiki (END - exit=0)
+* 01:38 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=tetowiki --new=findthetetoswiki --user=Skye (END - exit=0)
+* 00:29 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/deleted.php /srv/mediawiki/1.44/maintenance/run.php sql /home/somerandomdeveloper/userprofile-patches.sql (START)
+* 00:28 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/deleted.php /srv/mediawiki/1.44/maintenance/run.php sql /home/somerandomdeveloper/comments-patches.sql (END - exit=256)
+* 00:24 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/initSiteStats.php --wiki=talodwiki --update (END - exit=0)
+* 00:24 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=talodwiki (END - exit=0)
+
 ## 2026-01-07 
 
 * 22:41 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.44/extensions/ProofreadPage'} to all - SUCCESS in 31s
