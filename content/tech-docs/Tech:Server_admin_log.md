@@ -4,6 +4,32 @@ title: Tech:Server admin log
 
 ## 2026-01-09 
 
+* 23:41 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'RemovePII'} to all - SUCCESS in 29s
+* 23:40 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'RemovePII'} to all
+* 23:40 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'RemovePII'} to test151 - SUCCESS in 1s
+* 23:40 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'RemovePII'} to test151
+* 23:29 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45']} to test151 - SUCCESS in 651s
+* 23:28 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44'} to all - SUCCESS in 552s
+* 23:19 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44'} to all
+* 23:18 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'UploadWizard'} to all - SUCCESS in 29s
+* 23:18 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45']} to test151
+* 23:18 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'UploadWizard'} to all
+* 23:18 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'UploadWizard'} to test151 - SUCCESS in 2s
+* 23:18 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'UploadWizard'} to test151
+* 23:08 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 23:08 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 22:46 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 30s
+* 22:45 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 20:32 Reception123: (on mwtask181)
+* 20:32 Reception123: run delbackups (bash ./delbackups.sh /home/reception/delwikis09012026.txt /srv/mediawiki/w/maintenance/dumpBackup.ph)
+* 19:33 MirahezeLSBot: [reception@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=attenboroughwiki --new=encyclopediakemowiki --user=Reception123 (END - exit=0)
+* 19:16 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 19:15 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 15:47 @paladox: reinstall ns2 with debian trixie
+* 00:06 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:PopulateNamespaces --wiki=morerandomstuffwikibeta --force (END - exit=0)
+* 00:05 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:PopulateNamespaces --wiki=morerandomstuffwikibeta (END - exit=256)
+* 00:03 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:PopulateNamespacesWithDefaults --wiki=morerandomstuffwikibeta --overwrite (END - exit=0)
+* 00:03 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:PopulateNamespacesWithDefaults --wiki=morerandomstuffwikibeta (END - exit=0)
 * 00:00 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
 * 00:00 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
 
