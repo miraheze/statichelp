@@ -2,6 +2,28 @@
 title: Tech:Server admin log
 ---
 
+## 2026-01-11 
+
+* 00:00 MirahezeLSBot: [universalomega@bots171] test
+
+## 2026-01-10 
+
+* 23:57 Universal Omega: upgraded bots171 to Debian Trixie
+* 23:57 Universal Omega: test
+* 21:56 Universal Omega: upgraded mon181 to Debian Trixie
+* 21:08 Universal Omega: stop ircecho on mon181 for trixie upgrade to prevent immediately spamming everything.
+* 20:46 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:DeleteWikis --wiki=loginwiki --delete Reception123 (END - exit=2)
+* 20:39 Universal Omega: upgraded db182 to Debian Trixie
+* 20:10 Universal Omega: downtimed db182 in icinga for trixie upgrade
+* 19:47 Universal Omega: upgraded matomo151 to Debian Trixie
+* 18:28 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php rebuildtextindex --wiki=dappervolkwiki (END - exit=0)
+* 18:27 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php rebuildtextindex --wiki=dappervolkwiki (START)
+* 17:15 Reception123: started deletewikis.php
+* 16:14 @paladox: delete old ns1 vm replaced by newer one
+* 16:05 @paladox: restart  pdns-recursor everywhere
+* 15:11 @paladox: reinstall ns1 with trixie (as a new vm to do a different bios setup)
+* 11:14 Reception123: re-run delbackups after fixing issue
+
 ## 2026-01-09 
 
 * 23:41 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'RemovePII'} to all - SUCCESS in 29s
