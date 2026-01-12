@@ -4,6 +4,40 @@ title: Tech:Server admin log
 
 ## 2026-01-11 
 
+* 23:30 Universal Omega: upgraded os202 to Debian Trixie
+* 23:20 Universal Omega: upgraded os162 to Debian Trixie
+* 23:00 Universal Omega: upgraded os201 to Debian Trixie
+* 23:00 Universal Omega: upgraded os191 to Debian Trixie
+* 22:20 Universal Omega: upgraded os161 to Debian Trixie
+* 22:07 Universal Omega: upgraded ldap171 to Debian Trixie
+* 21:47 Universal Omega: upgraded llm191 to Debian Trixie
+* 21:16 Reception123: DELETED and DROPPED [https://issue-tracker.miraheze.org/P577](https://issue-tracker.miraheze.org/P577) & [https://issue-tracker.miraheze.org/P578](https://issue-tracker.miraheze.org/P578)
+* 21:08 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'RemovePII'} to all - SUCCESS in 29s
+* 21:08 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'RemovePII'} to all
+* 21:08 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'RemovePII'} to test151 - SUCCESS in 1s
+* 21:08 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'RemovePII'} to test151
+* 19:11 @paladox: reboot puppet181
+* 18:59 @paladox: upgrade puppet181 to trixie
+* 18:50 Universal Omega: upgraded os151 to Debian Trixie
+* 17:30 Universal Omega: upgraded prometheus151 to Debian Trixie
+* 17:29 Reception123: DELETED swift containers [https://issue-tracker.miraheze.org/P576](https://issue-tracker.miraheze.org/P576)
+* 17:21 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:CheckSwiftContainers --wiki=loginwiki (END - exit=0)
+* 15:21 MirahezeLSBot: [paladox@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/extensions/MatomoAnalytics/maintenance/DeleteCache.php
+* 14:56 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:DeleteWikis --wiki=loginwiki --delete Reception123 (END - exit=2)
+* 13:58 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 13:57 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 13:57 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 30s
+* 13:56 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 13:56 MirahezeLSBot: [paladox@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 13:56 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 13:30 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 13:29 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 13:10 MirahezeLSBot: [skye@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 29s
+* 13:10 MirahezeLSBot: [skye@mwtask181] starting deploy of {'config': True} to all
+* 11:21 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/extensions/CheckWikiDatabases.php --wiki=loginwiki (END - exit=256)
+* 11:21 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/MirahezeMagic:CheckWikiDatabases.php --wiki=loginwiki (END - exit=256)
+* 01:13 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php OATHAuth:disableOATHAuthForUser --wiki=metawikibeta SomeRandomDeveloper (END - exit=65280)
+* 00:50 Universal Omega: upgraded db172 to Debian Trixie
 * 00:00 MirahezeLSBot: [universalomega@bots171] test
 
 ## 2026-01-10 
