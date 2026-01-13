@@ -2,6 +2,129 @@
 title: Tech:Server admin log
 ---
 
+## 2026-01-12 
+
+* 23:45 MirahezeLSBot: [skye@mwtask171] Finished import for crazyfrogwiki (XML: None; Images: ./images) (END - exit=0)
+* 23:45 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=crazyfrogwiki --update (END - exit=0)
+* 23:45 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=crazyfrogwiki --update (START)
+* 23:45 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=crazyfrogwiki --sleep=1 '--comment=Importing files from [https://annoyingthing.net/](https://annoyingthing.net/) ([T14789](https://meta.miraheze.org/wiki/phorge:T14789))' --search-recursively -- ./images (END - exit=0)
+* 23:01 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=crazyfrogwiki --sleep=1 '--comment=Importing files from [https://annoyingthing.net/](https://annoyingthing.net/) ([T14789](https://meta.miraheze.org/wiki/phorge:T14789))' --search-recursively -- ./images (START)
+* 23:01 MirahezeLSBot: [skye@mwtask171] Starting import for crazyfrogwiki (XML: None; Images: ./images) (START)
+* 23:00 MirahezeLSBot: [skye@mwtask171] Finished import for crazyfrogwiki (XML: None; Images: ./images) (END - exit=1)
+* 23:00 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=crazyfrogwiki --sleep=1 '--comment=Importing files from [https://annoyingthing.net/](https://annoyingthing.net/) ([T14789](https://meta.miraheze.org/wiki/phorge:T14789))' --search-recursively -- ./images (END - exit=1)
+* 23:00 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=crazyfrogwiki --sleep=1 '--comment=Importing files from [https://annoyingthing.net/](https://annoyingthing.net/) ([T14789](https://meta.miraheze.org/wiki/phorge:T14789))' --search-recursively -- ./images (START)
+* 23:00 MirahezeLSBot: [skye@mwtask171] Starting import for crazyfrogwiki (XML: None; Images: ./images) (START)
+* 22:59 MirahezeLSBot: [skye@mwtask171] Finished import for crazyfrogwiki (XML: crazyfrogwiki.xml; Images: ./images) (END - exit=1)
+* 22:59 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=crazyfrogwiki --sleep=1 '--comment=Importing files from [https://annoyingthing.net/](https://annoyingthing.net/) ([T14789](https://meta.miraheze.org/wiki/phorge:T14789))' --search-recursively -- ./images (END - exit=1)
+* 22:59 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=crazyfrogwiki --sleep=1 '--comment=Importing files from [https://annoyingthing.net/](https://annoyingthing.net/) ([T14789](https://meta.miraheze.org/wiki/phorge:T14789))' --search-recursively -- ./images (START)
+* 22:59 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importDump --wiki=crazyfrogwiki --no-updates --username-prefix=crazyfrog -- crazyfrogwiki.xml (END - exit=0)
+* 22:54 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importDump --wiki=crazyfrogwiki --no-updates --username-prefix=crazyfrog -- crazyfrogwiki.xml (START)
+* 22:54 MirahezeLSBot: [skye@mwtask171] Starting import for crazyfrogwiki (XML: crazyfrogwiki.xml; Images: ./images) (START)
+* 21:44 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'l10n': True, 'folders': '1.44/extensions/SocialProfile', 'versions': '1.44'} to all - SUCCESS in 477s
+* 21:36 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'l10n': True, 'folders': '1.44/extensions/SocialProfile', 'versions': '1.44'} to all
+* 21:36 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45']} to test151
+* 21:36 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.44/extensions/SocialProfile,1.45/extensions/SocialProfile'} to test151 - SUCCESS in 0s
+* 21:36 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.44/extensions/SocialProfile,1.45/extensions/SocialProfile'} to test151
+* 21:14 Reception123: DELETED and DROPPED [https://issue-tracker.miraheze.org/P579](https://issue-tracker.miraheze.org/P579)
+* 21:14 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject201: libsnmp-base, snmp, and libsnmp40
+* 21:14 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy171: libsnmp-base, snmp, and libsnmp40
+* 21:13 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy161: libsnmp-base, snmp, and libsnmp40
+* 21:13 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on test151: libsnmp-base, snmp, and libsnmp40
+* 21:13 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject191: libsnmp-base, snmp, and libsnmp40
+* 21:12 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject181: libsnmp-base, snmp, and libsnmp40
+* 21:12 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject171: libsnmp-base, snmp, and libsnmp40
+* 21:12 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject161: libsnmp-base, snmp, and libsnmp40
+* 21:12 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftac171: libsnmp-base, snmp, and libsnmp40
+* 21:11 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject151: libsnmp-base, snmp, and libsnmp40
+* 21:11 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ns2: libsnmp-base, snmp, and libsnmp40t64
+* 21:11 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os191: libsnmp-base, snmp, and libsnmp40t64
+* 21:10 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os202: libsnmp-base, snmp, and libsnmp40t64
+* 21:10 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os161: libsnmp-base, snmp, and libsnmp40t64
+* 21:10 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on puppet181: libsnmp-base, snmp, and libsnmp40t64
+* 21:10 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os201: libsnmp-base, snmp, and libsnmp40t64
+* 21:09 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os162: libsnmp-base, snmp, and libsnmp40t64
+* 21:09 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on rdb151: libsnmp-base, snmp, and libsnmp40
+* 21:09 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on prometheus151: libsnmp-base, snmp, and libsnmp40t64
+* 21:08 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os151: libsnmp-base, snmp, and libsnmp40t64
+* 21:08 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on phorge171: libsnmp-base, snmp, and libsnmp40t64
+* 21:08 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask181: libapache2-mod-security2, libsnmp-base, snmp, and libsnmp40
+* 21:08 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask171: libsnmp-base, snmp, and libsnmp40
+* 21:07 MirahezeLSBot: [skye@mwtask181] finished deploy of {'folders': '1.44/extensions/QuickInstantCommons'} to all - SUCCESS in 30s
+* 21:07 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask161: libsnmp-base, snmp, and libsnmp40
+* 21:07 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask151: libsnmp-base, snmp, and libsnmp40
+* 21:07 MirahezeLSBot: [skye@mwtask181] starting deploy of {'folders': '1.44/extensions/QuickInstantCommons'} to all
+* 21:07 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw202: libsnmp-base, snmp, and libsnmp40
+* 21:06 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw203: libsnmp-base, snmp, and libsnmp40
+* 21:06 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ns1: libsnmp-base, snmp, and libsnmp40t64
+* 21:06 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw182: libsnmp-base, snmp, and libsnmp40
+* 21:05 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw183: libsnmp-base, snmp, and libsnmp40
+* 21:05 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw193: libsnmp-base, snmp, and libsnmp40
+* 21:05 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw181: libsnmp-base, snmp, and libsnmp40
+* 21:05 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw201: libsnmp-base, snmp, and libsnmp40
+* 21:04 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw191: libsnmp-base, snmp, and libsnmp40
+* 21:04 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw192: libsnmp-base, snmp, and libsnmp40
+* 21:04 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw162: libsnmp-base, snmp, and libsnmp40
+* 21:03 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw171: libsnmp-base, snmp, and libsnmp40
+* 21:03 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw173: libsnmp-base, snmp, and libsnmp40
+* 21:03 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw172: libsnmp-base, snmp, and libsnmp40
+* 21:02 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw161: libsnmp-base, snmp, and libsnmp40
+* 21:02 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw151: libsnmp-base, snmp, and libsnmp40
+* 21:02 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw153: libsnmp-base, snmp, and libsnmp40
+* 21:01 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw163: libsnmp-base, snmp, and libsnmp40
+* 21:01 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw152: libsnmp-base, snmp, and libsnmp40
+* 21:01 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mon181: libsnmp-base, snmp, and libsnmp40t64
+* 21:01 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem191: libsnmp-base, snmp, and libsnmp40t64
+* 21:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on llm191: libsnmp-base, snmp, and libsnmp40t64
+* 21:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem201: libsnmp-base, snmp, and libsnmp40t64
+* 21:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem161: libsnmp-base, snmp, and libsnmp40t64
+* 21:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem151: libsnmp-base, snmp, and libsnmp40t64
+* 20:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on matomo151: libsnmp-base, snmp, and libsnmp40t64
+* 20:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ldap171: libsnmp-base, snmp, and libsnmp40t64
+* 20:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mattermost1: libsnmp-base, snmp, and libsnmp40
+* 20:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db201: libsnmp-base, snmp, and libsnmp40t64
+* 20:58 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp201: libsnmp-base, snmp, and libsnmp40t64
+* 20:58 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on kafka181: libsnmp-base, snmp, and libsnmp40
+* 20:58 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db181: libsnmp-base, snmp, and libsnmp40
+* 20:58 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on graylog161: libsnmp-base, snmp, and libsnmp40t64
+* 20:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db161: libsnmp-base, snmp, and libsnmp40
+* 20:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db192: libsnmp-base, snmp, and libsnmp40t64
+* 20:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp171: libsnmp-base, snmp, and libsnmp40t64
+* 20:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud20: libsnmp-base, snmp, and libsnmp40
+* 20:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on eventgate181: libsnmp-base, snmp, and libsnmp40
+* 20:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db182: libsnmp-base, snmp, and libsnmp40t64
+* 20:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud18: libsnmp-base, snmp, and libsnmp40
+* 20:55 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db171: libsnmp-base, snmp, and libsnmp40
+* 20:55 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud16: libsnmp-base, snmp, and libsnmp40
+* 20:55 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db151: libsnmp-base, snmp, and libsnmp40
+* 20:55 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp191: libsnmp-base, snmp, and libsnmp40t64
+* 20:54 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud19: libsnmp-base, snmp, and libsnmp40
+* 20:54 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud17: libsnmp-base, snmp, and libsnmp40
+* 20:53 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud15: libsnmp-base, snmp, and libsnmp40
+* 20:53 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db172: libsnmp-base, snmp, and libsnmp40t64
+* 20:52 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on changeprop201: libsnmp-base, snmp, and libsnmp40
+* 20:52 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp161: libsnmp-base, snmp, and libsnmp40t64
+* 20:52 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bast161: libsnmp-base, snmp, and libsnmp40t64
+* 20:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bast181: libsnmp-base, snmp, and libsnmp40t64
+* 20:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bots171: libsnmp-base, snmp, and libsnmp40t64
+* 20:47 Universal Omega: upgraded reports171 to Debian Trixie
+* 20:46 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'landing', 'landing': True} to all - SUCCESS in 33s
+* 20:46 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'landing', 'landing': True} to all
+* 19:03 MirahezeLSBot: [reception@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/sql.php --wiki=metawikibeta (END - exit=2)
+* 18:15 MirahezeLSBot: [macfan@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/extensions/OATHAuth/maintenance/disableOATHAuthForUser.php --wiki=metawikibeta MacFan4000 (END - exit=0)
+* 16:46 MirahezeLSBot: [reception@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/sql.php --wiki=metawikibeta /srv/mediawiki/1.45/extensions/RestrictedWorkflows/sql/mysql/tables-generated.sql (END - exit=0)
+* 16:18 @paladox: upgrade phorge
+* 16:12 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/extensions/MirahezeMagic/maintenance/CheckWikiDatabases.php --wiki=loginwiki (END - exit=0)
+* 16:11 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/MirahezeMagic:CheckWikiDatabases.php --wiki=loginwiki (END - exit=256)
+* 16:05 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:DeleteWikis --wiki=loginwiki --delete Reception123 (END - exit=256)
+* 16:05 @paladox: upgrade phorge171 to trixie
+* 15:56 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=rexreincarnatedwiki --requester=87453S (END - exit=0)
+* 15:54 @paladox: upgrading graylog to 7.0.3
+* 14:52 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=rexreincarnatedwiki --requester=87453S (END - exit=0)
+* 13:56 @paladox: upgrade graylog161 to trixie
+* 12:48 @paladox: rebooted cp161 due to network issues?
+* 06:47 Universal Omega: depool cp171
+* 05:01 Agent: upgraded mem151, mem161, mem191 and mem201 to Trixie
+
 ## 2026-01-11 
 
 * 23:30 Universal Omega: upgraded os202 to Debian Trixie
