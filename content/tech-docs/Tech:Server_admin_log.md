@@ -2,6 +2,29 @@
 title: Tech:Server admin log
 ---
 
+## 2026-01-13 
+
+* 23:59 MirahezeLSBot: [universalomega@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'DynamicPageList4'} to test151 - SUCCESS in 1s
+* 23:59 MirahezeLSBot: [universalomega@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'DynamicPageList4'} to test151
+* 22:59 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'RemovePII'} to all - SUCCESS in 29s
+* 22:59 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'RemovePII'} to all
+* 22:59 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'RemovePII'} to test151 - SUCCESS in 1s
+* 22:59 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'RemovePII'} to test151
+* 22:28 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php updateCollation --wiki=omniversumwiki (END - exit=0)
+* 22:27 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 30s
+* 22:26 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 22:25 MirahezeLSBot: [somerandomdeveloper@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 22:25 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 21:06 Reception123: DELETED and DROPPED [https://issue-tracker.miraheze.org/P580](https://issue-tracker.miraheze.org/P580)
+* 19:25 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:DeleteWikis --wiki=loginwiki --delete Reception123 (END - exit=2)
+* 16:55 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:DeleteWikis --wiki=loginwiki --delete Reception123 (END - exit=2)
+* 16:28 @paladox: stopping eventgate181 and deleting
+* 16:24 @paladox: switch over from eventgate181 to eventgate182
+* 16:22 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 30s
+* 16:22 MirahezeLSBot: [paladox@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 3s
+* 16:22 MirahezeLSBot: [paladox@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 16:21 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
 ## 2026-01-12 
 
 * 23:45 MirahezeLSBot: [skye@mwtask171] Finished import for crazyfrogwiki (XML: None; Images: ./images) (END - exit=0)
