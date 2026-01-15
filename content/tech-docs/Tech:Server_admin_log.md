@@ -2,6 +2,57 @@
 title: Tech:Server admin log
 ---
 
+## 2026-01-14 
+
+* 21:25 MirahezeLSBot: [paladox@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/extensions/CirrusSearch/maintenance/ForceSearchIndex.php --wiki ruanimalroyalewiki
+* 21:24 MirahezeLSBot: [paladox@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/extensions/CirrusSearch/maintenance/UpdateSearchIndexConfig.php --startOver --wiki ruanimalroyalewiki
+* 21:23 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=ruanimalroyalewiki (END - exit=0)
+* 21:21 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=ruanimalroyalewiki --startOver (END - exit=0)
+* 21:14 MirahezeLSBot: [macfan@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'CheckUser'} to test151 - SUCCESS in 1s
+* 21:14 MirahezeLSBot: [macfan@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'CheckUser'} to test151
+* 17:59 @paladox: delete kafka181
+* 17:22 @paladox: shutdown kafka181
+* 17:17 @paladox: switch kafka181 to kafka182
+* 16:25 MirahezeLSBot: [skye@mwtask181] finished deploy of {'folders': '1.44/extensions/QuickInstantCommons'} to all - SUCCESS in 30s
+* 16:24 MirahezeLSBot: [skye@mwtask181] starting deploy of {'folders': '1.44/extensions/QuickInstantCommons'} to all
+* 16:12 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'EventBus'} to all - SUCCESS in 97s
+* 16:10 MirahezeLSBot: [paladox@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 16:10 MirahezeLSBot: [paladox@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 16:10 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'EventBus'} to all
+* 16:03 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'EventBus'} to all - SUCCESS in 286s
+* 15:58 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'EventBus'} to all
+* 15:45 @paladox: delete rdb151
+* 15:14 @paladox: shutting down rdb151
+* 15:07 @paladox: switched from rdb151 to rdb191
+* 15:06 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 15:06 MirahezeLSBot: [paladox@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 15:06 MirahezeLSBot: [paladox@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 2s
+* 15:06 MirahezeLSBot: [paladox@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 15:06 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 14:23 @paladox: delete changeprop201
+* 13:54 @paladox: switching from changeprop201 to 202 by shutting 201 down
+* 08:26 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'folders': '1.44/extensions/DynamicPageList4'} to all - SUCCESS in 28s
+* 08:26 Universal Omega: checkout 4.0.0 tag for DPL4 and revert to it for now.
+* 08:25 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'folders': '1.44/extensions/DynamicPageList4'} to all
+* 08:24 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'DynamicPageList4'} to all - SUCCESS in 30s
+* 08:23 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'DynamicPageList4'} to all
+* 08:22 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'DynamicPageList4'} to all - SUCCESS in 31s
+* 08:22 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'DynamicPageList4'} to all
+* 04:48 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 04:47 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 03:01 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'DynamicPageList4'} to all - SUCCESS in 29s
+* 03:00 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'DynamicPageList4'} to all
+* 00:45 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /tmp/dynamicpagelist4.php /srv/mediawiki/1.44/maintenance/run.php DynamicPageList4:DropView (END - exit=0)
+* 00:27 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /tmp/dynamicpagelist4.php /srv/mediawiki/1.44/maintenance/run.php DynamicPageList4:DropView (START)
+* 00:27 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /tmp/DynamicPageList4.php /srv/mediawiki/1.44/maintenance/run.php DynamicPageList4:DropView (END - exit=256)
+* 00:27 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /tmp/DynamicPageList4.php /srv/mediawiki/1.44/maintenance/run.php DynamicPageList4:DropView (START)
+* 00:25 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'DynamicPageList4'} to all - SUCCESS in 28s
+* 00:25 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'DynamicPageList4'} to all
+* 00:24 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 28s
+* 00:24 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 00:23 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 30s
+* 00:23 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
 ## 2026-01-13 
 
 * 23:59 MirahezeLSBot: [universalomega@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'DynamicPageList4'} to test151 - SUCCESS in 1s
