@@ -2,6 +2,16 @@
 title: Tech:Server admin log
 ---
 
+## 2026-01-15 
+
+* 20:00 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 30s
+* 20:00 @paladox: upgrading swift* to trixie (stopping services)
+* 20:00 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 12:40 Reception123: DELETED and DROPPED [https://issue-tracker.miraheze.org/P581](https://issue-tracker.miraheze.org/P581)
+* 12:39 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/extensions/MirahezeMagic/maintenance/CheckWikiDatabases.php --wiki=loginwiki --delete (END - exit=2)
+* 00:45 MirahezeLSBot: [paladox@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 00:45 MirahezeLSBot: [paladox@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+
 ## 2026-01-14 
 
 * 21:25 MirahezeLSBot: [paladox@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/extensions/CirrusSearch/maintenance/ForceSearchIndex.php --wiki ruanimalroyalewiki
