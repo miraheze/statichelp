@@ -2,7 +2,7 @@
 title: Tech:Mattermost
 ---
 
-The [WikiTide Foundation](https://meta.miraheze.org/wiki/Special:MyLanguage/WikiTide_Foundation) uses a self-hosted Mattermost instance on [mattermost1](https://meta.miraheze.org/wiki/Tech:mattermost1) for all internal (NDA-bound or confidential/sensitive) conversations. This is a guide for how to use Mattermost.
+The [WikiTide Foundation](https://meta.miraheze.org/wiki/Special:MyLanguage/WikiTide_Foundation) uses a self-hosted Mattermost instance on [mattermost2](https://meta.miraheze.org/wiki/Tech:mattermost2) for all internal (NDA-bound or confidential/sensitive) conversations. This is a guide for how to use Mattermost.
 
 ## Mattermost Access and Usage 
 

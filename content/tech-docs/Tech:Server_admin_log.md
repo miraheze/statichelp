@@ -2,6 +2,53 @@
 title: Tech:Server admin log
 ---
 
+## 2026-01-16 
+
+* 22:49 MirahezeLSBot: [skye@mwtask171] Finished import for rexreincarnatedwiki (XML: ./rex3_pages_full.xml; Images: ./images) (END - exit=1)
+* 22:49 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php rebuildall --wiki=rexreincarnatedwiki (END - exit=1)
+* 22:49 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php rebuildall --wiki=rexreincarnatedwiki (START)
+* 22:49 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=rexreincarnatedwiki --sleep=1 '--comment=Importing files from [fandom:rex-reincarnated](https://meta.miraheze.org/wiki/fandom:rex-reincarnated) ([T14810](https://meta.miraheze.org/wiki/phorge:T14810))' --search-recursively -- ./images (END - exit=0)
+* 22:42 Universal Omega: added reader role to petramagna on graylog
+* 22:21 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=shintowiki (START)
+* 22:21 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=shintowiki dump.xml --no-updates (END - exit=256)
+* 21:51 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=shintowiki dump.xml --no-updates (START)
+* 21:49 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/initSiteStats.php --wiki=shintowiki --update (END - exit=2)
+* 21:49 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=shintowiki (END - exit=0)
+* 21:49 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=shintowiki (START)
+* 21:49 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=shintowiki dump.xml --no-updates (END - exit=256)
+* 21:49 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=shintowiki dump.xml --no-updates (START)
+* 21:49 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'DiscordNotifications'} to all - SUCCESS in 28s
+* 21:48 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'DiscordNotifications'} to all
+* 21:48 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'DiscordNotifications'} to test151 - SUCCESS in 1s
+* 21:48 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'DiscordNotifications'} to test151
+* 21:46 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/deleted.php /srv/mediawiki/1.44/maintenance/run.php migrateLinksTable --table=categorylinks --force (END - exit=0)
+* 21:30 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/deleted.php /srv/mediawiki/1.44/maintenance/run.php migrateLinksTable --table=categorylinks --force (START)
+* 21:24 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'DynamicPageList4'} to all - SUCCESS in 28s
+* 21:24 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'DynamicPageList4'} to all
+* 21:12 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'DynamicPageList4'} to all - SUCCESS in 28s
+* 21:12 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'DynamicPageList4'} to all
+* 20:48 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 20:47 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 20:47 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 20:46 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:59 Universal Omega: remove mattermost1 from puppet
+* 19:58 Universal Omega: shutdown mattermost1
+* 19:28 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=rexreincarnatedwiki --sleep=1 '--comment=Importing files from [fandom:rex-reincarnated](https://meta.miraheze.org/wiki/fandom:rex-reincarnated) ([T14810](https://meta.miraheze.org/wiki/phorge:T14810))' --search-recursively -- ./images (START)
+* 19:28 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importDump --wiki=rexreincarnatedwiki --no-updates --username-prefix=fandom:rex-reincarnated -- ./rex3_pages_full.xml (END - exit=0)
+* 18:50 MirahezeLSBot: [universalomega@mattermost1] Stop mattermost for transfer to mattermost2
+* 18:45 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importDump --wiki=rexreincarnatedwiki --no-updates --username-prefix=fandom:rex-reincarnated -- ./rex3_pages_full.xml (START)
+* 18:45 MirahezeLSBot: [skye@mwtask171] Starting import for rexreincarnatedwiki (XML: ./rex3_pages_full.xml; Images: ./images) (START)
+* 18:25 Universal Omega: created ldap account for petramagna
+* 18:21 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 30s
+* 18:21 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 14:02 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.44/maintenance/run.php migrateLinksTable --table=categorylinks --force (END - exit=0)
+* 13:59 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 13:59 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 02:51 Universal Omega: added mattermost2 to puppet.
+* 00:52 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.44/maintenance/run.php migrateLinksTable --table=categorylinks --force (START)
+* 00:14 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 00:14 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
 ## 2026-01-15 
 
 * 20:00 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 30s
