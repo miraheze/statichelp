@@ -2,6 +2,122 @@
 title: Tech:Server admin log
 ---
 
+## 2026-01-17 
+
+* 23:48 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 23:47 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 23:31 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 32s
+* 23:30 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 23:27 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'DynamicPageList4'} to all - SUCCESS in 31s
+* 23:27 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'DynamicPageList4'} to all
+* 19:27 MirahezeLSBot: [macfan@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/extensions/OATHAuth/maintenance/UpdateSecretsToEncryptedFormat.php --wiki=metawikibeta (END - exit=256)
+* 19:26 MirahezeLSBot: [macfan@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/extensions/OATHAuth/maintenance/UpdateForMultipleDevicesSupport.php --wiki=metawikibeta (END - exit=256)
+* 19:25 MirahezeLSBot: [macfan@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/extensions/OATHAuth/maintenance/MoveRecoveryCodesFromTOTP.php --wiki=metawikibeta (END - exit=0)
+* 18:48 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=shintowiki (START)
+* 18:48 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=shintowiki dump.xml --no-updates (END - exit=2)
+* 18:48 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=shintowiki dump.xml --no-updates (START)
+* 12:28 @paladox: increase db182 ram by 5gb
+* 12:12 RhinosF1: bounce php-fpm on mwtask161
+* 12:03 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw193: python3-urllib3
+* 12:02 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw191: python3-urllib3
+* 12:01 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw171: python3-urllib3
+* 12:00 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw153: python3-urllib3
+* 11:59 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on kafka182: python3-urllib3
+* 11:59 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db201: python3-urllib3
+* 11:59 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mem151: python3-urllib3
+* 11:58 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud18: python3-urllib3
+* 11:58 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud17: python3-urllib3
+* 11:58 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cp171: python3-urllib3
+* 11:57 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud16: python3-urllib3
+* 11:57 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud15: python3-urllib3
+* 11:57 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud19: python3-urllib3
+* 11:56 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db171: python3-urllib3
+* 11:56 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cp191: python3-urllib3
+* 11:56 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db182: python3-urllib3
+* 11:55 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db161: python3-urllib3
+* 11:55 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db172: python3-urllib3
+* 11:55 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on bots171: python3-urllib3
+* 11:55 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on bast161: python3-urllib3
+* 11:53 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on test151: python3-urllib3
+* 11:53 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftproxy161: python3-urllib3
+* 11:52 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject201: python3-urllib3
+* 11:52 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftproxy171: python3-urllib3
+* 11:52 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject181: python3-urllib3
+* 11:52 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject191: python3-urllib3
+* 11:51 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject171: python3-urllib3
+* 11:51 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftac171: python3-urllib3
+* 11:51 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject161: python3-urllib3
+* 11:51 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject151: python3-urllib3
+* 11:50 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on ns2: python3-urllib3
+* 11:50 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on rdb191: python3-urllib3
+* 11:50 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on os201: python3-urllib3
+* 11:50 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on os202: python3-urllib3
+* 11:49 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on puppet181: python3-urllib3
+* 11:49 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on reports171: python3-urllib3
+* 11:49 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on os191: python3-urllib3
+* 11:49 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on prometheus151: python3-urllib3
+* 11:49 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mwtask181: python3-urllib3
+* 11:48 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on phorge171: python3-urllib3
+* 11:48 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on os162: python3-urllib3
+* 11:48 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on os161: python3-urllib3
+* 11:48 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on os151: python3-urllib3
+* 11:47 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mwtask151: python3-urllib3
+* 11:47 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mwtask171: python3-urllib3
+* 11:47 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mwtask161: python3-urllib3
+* 11:47 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw203: python3-urllib3
+* 11:46 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw202: python3-urllib3
+* 11:46 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on ns1: python3-urllib3
+* 11:46 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw182: python3-urllib3
+* 11:46 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw201: python3-urllib3
+* 11:45 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw181: python3-urllib3
+* 11:45 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw192: python3-urllib3
+* 11:45 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw183: python3-urllib3
+* 11:44 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw173: python3-urllib3
+* 11:44 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw163: python3-urllib3
+* 11:44 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw162: python3-urllib3
+* 11:43 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw152: python3-urllib3
+* 11:43 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw161: python3-urllib3
+* 11:43 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw151: python3-urllib3
+* 11:43 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw172: python3-urllib3
+* 11:42 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mon181: python3-urllib3
+* 11:42 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mem191: python3-urllib3
+* 11:42 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mem201: python3-urllib3
+* 11:42 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mem161: python3-urllib3
+* 11:41 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on llm191: python3-urllib3
+* 11:41 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on matomo151: python3-urllib3
+* 11:41 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mattermost2: python3-urllib3
+* 11:41 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on ldap171: python3-urllib3
+* 11:41 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cp201: python3-urllib3
+* 11:40 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db181: python3-urllib3
+* 11:40 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on eventgate182: python3-urllib3
+* 11:40 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud20: python3-urllib3
+* 11:40 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db192: python3-urllib3
+* 11:39 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db151: python3-urllib3
+* 11:39 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on graylog161: python3-urllib3
+* 11:38 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on changeprop202: python3-urllib3
+* 11:38 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on bast181: python3-urllib3
+* 11:37 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cp161: python3-urllib3
+* 10:03 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 24s
+* 10:03 SomeRandomDeveloper: repool c2
+* 10:03 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 10:01 SomeRandomDeveloper: reboot db161 via proxmox due to high load
+* 09:58 SomeRandomDeveloper: depooled c2
+* 09:57 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 59s
+* 09:56 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 09:56 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'config': True} to all
+* 09:46 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/initSiteStats.php --wiki=shintowiki --update (END - exit=256)
+* 09:45 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=shintowiki (END - exit=256)
+* 03:00 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/extensions/GlobalUsage/maintenance/refreshGlobalimagelinks.php --wiki=exttestwikibeta --pages=existing,nonexisting (END - exit=0)
+* 01:45 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'branch': 'sul3-support', 'config': True} to test151 - SUCCESS in 6s
+* 01:45 MirahezeLSBot: [universalomega@test151] starting deploy of {'pull': 'config', 'branch': 'sul3-support', 'config': True} to test151
+* 01:21 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'GlobalUsage'} to test151 - SUCCESS in 1s
+* 01:21 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'GlobalUsage'} to test151
+* 01:04 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php updateSpecialPages --wiki=exttestwikibeta --only=UnusedRedirects (END - exit=0)
+* 00:13 MirahezeLSBot: [universalomega@test151] finished deploy of {'force_upgrade': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'LdapAuthentication'} to test151 - SUCCESS in 1s
+* 00:13 MirahezeLSBot: [universalomega@test151] starting deploy of {'force_upgrade': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'LdapAuthentication'} to test151
+* 00:10 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'LdapAuthentication'} to all - SUCCESS in 29s
+* 00:09 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'LdapAuthentication'} to all
+
 ## 2026-01-16 
 
 * 22:49 MirahezeLSBot: [skye@mwtask171] Finished import for rexreincarnatedwiki (XML: ./rex3_pages_full.xml; Images: ./images) (END - exit=1)
