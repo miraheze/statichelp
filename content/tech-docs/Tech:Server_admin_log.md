@@ -2,6 +2,47 @@
 title: Tech:Server admin log
 ---
 
+## 2026-01-18 
+
+* 23:53 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=opensurgewiki --sleep=1 '--comment=Importing files from [https://wiki.opensurge2d.org](https://wiki.opensurge2d.org) ([T14820](https://meta.miraheze.org/wiki/phorge:T14820))' -- opensurge-wiki-images (START)
+* 23:52 MirahezeLSBot: [skye@mwtask171] Starting import for opensurgewiki (XML: None; Images: opensurge-wiki-images) (START)
+* 22:56 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=usswiki --requester=Orbitron (END - exit=0)
+* 22:22 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php rebuildall --wiki=rexreincarnatedwiki (END - exit=0)
+* 21:43 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php rebuildall --wiki=rexreincarnatedwiki (START)
+* 21:32 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'NewSignupPage'} to test151 - SUCCESS in 1s
+* 21:32 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'NewSignupPage'} to test151
+* 21:23 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': '1.45', 'upgrade_skins': 'erudite'} to test151 - SUCCESS in 1s
+* 21:23 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': '1.45', 'upgrade_skins': 'erudite'} to test151
+* 21:21 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php rebuildall --wiki=rexreincarnatedwiki (END - exit=256)
+* 21:20 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php rebuildall --wiki=rexreincarnatedwiki (START)
+* 20:50 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=rexreincarnatedwiki (END - exit=0)
+* 12:20 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 12:20 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 11:57 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 11:56 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 10:33 MirahezeLSBot: [petramagna@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45']} to test151 - SUCCESS in 108s
+* 10:31 MirahezeLSBot: [petramagna@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45']} to test151
+* 10:13 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 10:13 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 10:02 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 10:02 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 09:54 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'RenderBlocking'} to test151 - SUCCESS in 1s
+* 09:54 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'RenderBlocking'} to test151
+* 09:48 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True, 'l10n': True, 'extension_list': True, 'force': True, 'versions': ['1.44', '1.45']} to test151 - SUCCESS in 112s
+* 09:46 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True, 'l10n': True, 'extension_list': True, 'force': True, 'versions': ['1.44', '1.45']} to test151
+* 09:40 MirahezeLSBot: [petramagna@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 09:31 RhinosF1: deleted and dropped kakuwikiwiki (after dumping to my homedir) on db171
+* 09:29 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True, 'world': True, 'l10n': True, 'extension_list': True, 'versions': ['1.44', '1.45']} to test151
+* 09:29 MirahezeLSBot: [petramagna@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 09:29 MirahezeLSBot: [petramagna@test151] starting deploy of {'pull': 'config', 'config': True, 'world': True, 'l10n': True, 'extension_list': True, 'versions': ['1.44', '1.45']} to test151
+* 09:29 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwiki --delete --deletewiki kakuwikiwiki (END - exit=0)
+* 09:25 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 09:25 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 08:55 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.45/extensions/NewSignupPage'} to test151 - SUCCESS in 0s
+* 08:55 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.45/extensions/NewSignupPage'} to test151
+* 00:08 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 00:08 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
 ## 2026-01-17 
 
 * 23:48 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
