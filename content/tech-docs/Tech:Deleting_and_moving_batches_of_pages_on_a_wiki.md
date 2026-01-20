@@ -2,7 +2,7 @@
 title: Tech:Deleting and moving batches of pages on a wiki
 ---
 
-`{{ {{shortcut|[[Tech:DELETEBATCH]]|[[Tech:MOVEBATCH]]}} }}`
+`{{ {{shortcut|Tech:DELETEBATCH|Tech:MOVEBATCH}} }}`
 
 To delete or move large batches of pages on a wiki, use the following steps with the `deleteBatch.php` or `moveBatch.php` MediaWiki maintenance scripts:
 

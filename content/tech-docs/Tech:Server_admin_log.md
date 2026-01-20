@@ -2,6 +2,49 @@
 title: Tech:Server admin log
 ---
 
+## 2026-01-19 
+
+* 23:52 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'TreeAndMenu'} to test151 - SUCCESS in 1s
+* 23:52 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'TreeAndMenu'} to test151
+* 20:50 MirahezeLSBot: [skye@test151] finished deploy of {'folders': '1.45/extensions/QuickInstantCommons'} to test151 - SUCCESS in 0s
+* 20:50 MirahezeLSBot: [skye@test151] starting deploy of {'folders': '1.45/extensions/QuickInstantCommons'} to test151
+* 20:50 MirahezeLSBot: [skye@test151] starting deploy of {'folders': '1.45/extension/QuickInstantCommons'} to test151
+* 19:32 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=nsaswiki (END - exit=0)
+* 19:28 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=sancswiki --new=nsaswiki --user=Skye (END - exit=0)
+* 19:21 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 19:20 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:19 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 19:19 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 18:43 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=nintendocinematicuniversewiki (END - exit=0)
+* 18:24 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=nintendocinematicserieswiki --new=nintendocinematicuniversewiki --user=Skye (END - exit=0)
+* 17:12 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'Cargo'} to all - SUCCESS in 125s
+* 17:12 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'Cargo'} to test151 - SUCCESS in 111s
+* 17:10 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'Cargo'} to test151
+* 17:10 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'Cargo'} to all
+* 15:50 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'QuickInstantCommons'} to all - SUCCESS in 459s
+* 15:45 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'QuickInstantCommons'} to test151 - SUCCESS in 111s
+* 15:43 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'QuickInstantCommons'} to test151
+* 15:43 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'force_upgrade': True, 'versions': '1.44', 'upgrade_extensions': 'QuickInstantCommons'} to all
+* 15:40 MirahezeLSBot: [paladox@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 15:40 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'QuickInstantCommons'} to all
+* 15:40 MirahezeLSBot: [paladox@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 15:40 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'QuickInstantCommons'} to all
+* 13:24 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=omniversumwiki (END - exit=0)
+* 13:23 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=omniversumwiki --startOver (END - exit=0)
+* 12:30 @paladox: db182: MariaDB [matomo]> OPTIMIZE TABLE matomo_log_link_visit_action;
+* 12:27 @paladox: increase db182 ram by another 5gb
+* 07:16 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'RenderBlocking'} to test151 - SUCCESS in 1s
+* 07:16 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'RenderBlocking'} to test151
+* 06:24 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'RenderBlocking'} to test151 - SUCCESS in 1s
+* 06:24 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'RenderBlocking'} to test151
+* 03:26 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=usswiki --requester=Orbitron (END - exit=0)
+* 00:59 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=wlktwritingswiki (END - exit=0)
+* 00:56 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=thewindermerechronicleswiki --new=wlktwritingswiki --user=Skye (END - exit=0)
+* 00:44 MirahezeLSBot: [skye@mwtask171] Finished import for opensurgewiki (XML: None; Images: opensurge-wiki-images) (END - exit=0)
+* 00:44 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=opensurgewiki --update (END - exit=0)
+* 00:44 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=opensurgewiki --update (START)
+* 00:44 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=opensurgewiki --sleep=1 '--comment=Importing files from [https://wiki.opensurge2d.org](https://wiki.opensurge2d.org) ([T14820](https://meta.miraheze.org/wiki/phorge:T14820))' -- opensurge-wiki-images (END - exit=0)
+
 ## 2026-01-18 
 
 * 23:53 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=opensurgewiki --sleep=1 '--comment=Importing files from [https://wiki.opensurge2d.org](https://wiki.opensurge2d.org) ([T14820](https://meta.miraheze.org/wiki/phorge:T14820))' -- opensurge-wiki-images (START)

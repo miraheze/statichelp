@@ -20,7 +20,7 @@ title: Tech:Mwtask181
 }} }}
 ```
 
- `{{ {{shortcut|[[Tech:Mwtask]]}} }}`
+ `{{ {{shortcut|Tech:Mwtask}} }}`
 
 **mwtask181** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a [MediaWiki application server](/tech-docs/techmediawiki_appserver) which is responsible for heavy and intensive MediaWiki tasks (e.g. maintenance scripts, imports). It is not web accessible but is publicly exposed.
 
