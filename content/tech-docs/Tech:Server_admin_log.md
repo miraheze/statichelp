@@ -2,6 +2,60 @@
 title: Tech:Server admin log
 ---
 
+## 2026-01-20 
+
+* 23:29 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 23:29 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 23:23 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config,errorpages', 'config': True, 'errorpages': True} to all - SUCCESS in 55s
+* 23:22 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config,errorpages', 'config': True, 'errorpages': True} to all
+* 21:50 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'force': True, 'ignore_time': True} to all - SUCCESS in 29s
+* 21:50 MirahezeLSBot: [rhinos@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'force': True, 'ignore_time': True} to all
+* 21:50 Universal Omega: upgraded db151, db161, db171, and db181 to Debian Trixie and MariaDB 11.8
+* 21:47 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'pull': 'errorpages', 'config': True, 'errorpages': True, 'force': True} to all - SUCCESS in 56s
+* 21:46 MirahezeLSBot: [rhinos@mwtask181] starting deploy of {'pull': 'errorpages', 'config': True, 'errorpages': True, 'force': True} to all
+* 21:11 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 28s
+* 21:11 MirahezeLSBot: [rhinos@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 20:38 MirahezeLSBot: [petramagna@test151] finished deploy of {'files': '1.45/includes/export/XmlDumpWriter.php'} to test151 - SUCCESS in 0s
+* 20:38 MirahezeLSBot: [petramagna@test151] starting deploy of {'files': '1.45/includes/export/XmlDumpWriter.php'} to test151
+* 20:38 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 27s
+* 20:38 MirahezeLSBot: [rhinos@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 20:12 MirahezeLSBot: [petramagna@test151] finished deploy of {'files': '1.45/includes/export/XmlDumpWriter.php'} to test151 - SUCCESS in 0s
+* 20:12 MirahezeLSBot: [petramagna@test151] starting deploy of {'files': '1.45/includes/export/XmlDumpWriter.php'} to test151
+* 20:05 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 28s
+* 20:04 MirahezeLSBot: [rhinos@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 19:57 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 28s
+* 19:56 MirahezeLSBot: [rhinos@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 19:42 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'pull': 'errorpages', 'errorpages': True, 'force': True} to all - SUCCESS in 28s
+* 19:42 MirahezeLSBot: [rhinos@mwtask181] starting deploy of {'pull': 'errorpages', 'errorpages': True, 'force': True} to all
+* 18:58 MirahezeLSBot: [universalomega@puppet181] Disable puppet on db*
+* 18:50 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 30s
+* 18:50 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 16:05 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/initSiteStats.php --wiki=shinmaimaouwiki --update (END - exit=0)
+* 16:05 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=shinmaimaouwiki (END - exit=0)
+* 15:54 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=shinmaimaouwiki (START)
+* 15:54 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=shinmaimaouwiki dump.xml --no-updates (END - exit=0)
+* 15:47 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/importDump.php --wiki=shinmaimaouwiki dump.xml --no-updates (START)
+* 15:06 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/initSiteStats.php --wiki=shintowiki --update (END - exit=2)
+* 15:06 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/maintenance/rebuildall.php --wiki=shintowiki (END - exit=2)
+* 12:00 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'DataDump'} to test151 - SUCCESS in 190s
+* 11:57 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'DataDump'} to test151
+* 11:41 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php updateSpecialPages --wiki=exttestwikibeta --only=OrphanedTalkPages (END - exit=0)
+* 03:13 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ToggleExtension --wiki=exttestwikibeta --name=notitle --disable (END - exit=0)
+* 03:13 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ToggleExtension --wiki=exttestwikibeta --name=NoTitle --disable (END - exit=256)
+* 03:09 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 03:09 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 03:08 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/extensions/ManageWiki/maintenance/ToggleExtension.php --wiki=metawikibeta --name=modern --disable --all-wikis --execute (END - exit=0)
+* 03:07 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/extensions/ManageWiki/maintenance/ToggleExtension.php --wiki=metawikibeta --name=cologneblue --disable --all-wikis --execute (END - exit=0)
+* 02:39 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 02:39 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 02:31 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/extensions/ManageWiki/maintenance/ToggleExtension.php --wiki=metawikibeta --name=cologneblue --all-wikis --execute (END - exit=0)
+* 02:30 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/extensions/ManageWiki/maintenance/ToggleExtension.php --wiki=metawikibeta --name=modern --all-wikis --execute (END - exit=0)
+* 02:27 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/extensions/ManageWiki/maintenance/ToggleExtension.php --wiki=metawikibeta --name=modern --all-wikis (END - exit=512)
+* 02:17 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 02:17 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 00:25 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'BreadCrumbs2'} to test151 - SUCCESS in 1s
+* 00:25 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'BreadCrumbs2'} to test151
+
 ## 2026-01-19 
 
 * 23:52 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'TreeAndMenu'} to test151 - SUCCESS in 1s
