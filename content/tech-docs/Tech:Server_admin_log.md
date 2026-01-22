@@ -2,6 +2,28 @@
 title: Tech:Server admin log
 ---
 
+## 2026-01-21 
+
+* 09:40 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.45/extensions/TemplateStylesExtender'} to test151 - SUCCESS in 0s
+* 09:40 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.45/extensions/TemplateStylesExtender'} to test151
+* 09:39 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'TemplateStylesExtender'} to test151 - SUCCESS in 0s
+* 09:39 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'TemplateStylesExtender'} to test151
+* 08:53 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.45/extensions/MediaSpoiler'} to test151 - SUCCESS in 0s
+* 08:53 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.45/extensions/MediaSpoiler'} to test151
+* 08:02 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 08:02 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 08:01 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.45/extensions/NewSignupPage'} to test151 - SUCCESS in 0s
+* 08:01 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.45/extensions/NewSignupPage'} to test151
+* 04:18 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=usswiki (END - exit=0)
+* 03:56 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.45/extensions/MediaSpoiler'} to test151 - SUCCESS in 0s
+* 03:56 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.45/extensions/MediaSpoiler'} to test151
+* 03:55 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'MediaSpoiler'} to test151 - SUCCESS in 0s
+* 03:55 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'MediaSpoiler'} to test151
+* 01:26 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'MediaSpoiler'} to test151 - SUCCESS in 1s
+* 01:26 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'MediaSpoiler'} to test151
+* 01:22 MirahezeLSBot: [petramagna@test151] finished deploy of {'upgrade_vendor': True, 'versions': '1.45'} to test151 - SUCCESS in 19s
+* 01:21 MirahezeLSBot: [petramagna@test151] starting deploy of {'upgrade_vendor': True, 'versions': '1.45'} to test151
+
 ## 2026-01-20 
 
 * 23:29 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
