@@ -11,6 +11,7 @@ title: Tech:Volunteers/List
 | [MacFan4000](https://meta.miraheze.org/wiki/User:MacFan4000)<br /> *MediaWiki Specialist* | MacFan4000 | macfan `{{ {{@}} }}`miraheze.org | MediaWiki servers, puppet181, ns1 and ns2 | MediaWiki Specialists; ssl-admins; dns-admins | No | No | Yes | No | No |
 | [Original Authority](https://meta.miraheze.org/wiki/User:Original_Authority)<br /> *MediaWiki Specialist* | None | oa `{{ {{@}} }}`miraheze.org | MediaWiki servers, puppet181 | MediaWiki Specialists; ssl-admins | No | No | Yes | No | No |
 | [Paladox](https://meta.miraheze.org/wiki/User:Paladox)<br /> *Infrastructure Specialist* | paladox | paladox `{{ {{@}} }}`miraheze.org | Root on all servers | Owner | Yes | Yes | Yes | No | Yes |
+| [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna)<br /> *MediaWiki Specialist* | None | petramagna `{{ {{@}} }}`miraheze.org | MediaWiki servers | MediaWiki Specialists | No | No | Yes | No | No |
 | [Reception123](https://meta.miraheze.org/wiki/User:Reception123)<br /> *Deputy Director of Technology* | Reception123 | reception `{{ {{@}} }}`miraheze.org | Root on all servers | Owner | Yes | Yes | Yes | No | Yes |
 | [RhinosF1](https://meta.miraheze.org/wiki/User:RhinosF1)<br /> *Infrastructure Specialist* | RhinosF1 | rhinosf1 `{{ {{@}} }}`miraheze.org | Root on all servers | Owner | Yes | Yes | Yes | No | Yes |
 | [Skye](https://meta.miraheze.org/wiki/User:Skye)<br /> *MediaWiki Specialist* | Skye | skye@miraheze.org | MediaWiki servers | MediaWiki Specialists | No | No | Yes | No | No |
