@@ -2,6 +2,23 @@
 title: Tech:Server admin log
 ---
 
+## 2026-01-25 
+
+* 19:07 MirahezeLSBot: [petramagna@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php shell --wiki=kraftwerkwiki (END - exit=0)
+* 18:17 @posix_memalign: fix RevisionAccessException on kraftwerkwiki with shell.php according to Tech:Fixing_slot_roles_and_content_models
+* 17:49 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'RottenLinks'} to test151 - SUCCESS in 1s
+* 17:49 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'RottenLinks'} to test151
+* 02:42 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.44/extensions/TimedMediaHandler'} to test151 - SUCCESS in 0s
+* 02:42 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.44/extensions/TimedMediaHandler'} to test151
+* 01:26 MirahezeLSBot: [petramagna@test151] finished deploy of {'upgrade_vendor': True, 'versions': '1.44'} to test151 - SUCCESS in 16s
+* 01:26 MirahezeLSBot: [petramagna@test151] starting deploy of {'upgrade_vendor': True, 'versions': '1.44'} to test151
+* 01:25 MirahezeLSBot: [petramagna@test151] finished deploy of {'upgrade_vendor': True, 'versions': '1.45'} to test151 - SUCCESS in 20s
+* 01:25 MirahezeLSBot: [petramagna@test151] starting deploy of {'upgrade_vendor': True, 'versions': '1.45'} to test151
+* 01:23 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.44/extensions/TimedMediaHandler'} to test151 - SUCCESS in 0s
+* 01:23 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.44/extensions/TimedMediaHandler'} to test151
+* 01:18 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'TimedMediaHandler'} to test151 - SUCCESS in 1s
+* 01:18 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'TimedMediaHandler'} to test151
+
 ## 2026-01-24 
 
 * 23:20 MirahezeLSBot: [petramagna@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=dappervolkwiki (END - exit=0)
