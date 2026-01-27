@@ -66,18 +66,12 @@ Examples:
 * `application_name:"sshd"`
 * View all MediaWiki errors and warnings:
 * `application_name:"mediawiki" AND (mediawiki_level:"ERROR" OR mediawiki_level:"WARNING")`
-* View logs for a specific MediaWiki request:
+* View logs for a specific MediaWiki request (e.g. when retrieving the backtrace of a production error):
 * `mediawiki_reqId:"642df1294318d7551fab367e"`
 
 ## Access 
 
-The Graylog interface is not directly accessible without a [SOCKS5 proxy](https://meta.miraheze.org/wiki/w:SOCKS#SOCKS5), similar to [Proxmox](/tech-docs/techproxmox).
-Port **8089** is used locally for proxying. You may tunnel through any of:
-
-* `graylog161.fsslc.wtnet` (if you have direct access)
-* `test151.fsslc.wtnet` – MediaWiki test host
-* A MediaWiki or MediaWiki task host like `mw151.fsslc.wtnet`
-* A bastion host like `bast161.wikitide.net`
+The Graylog interface is not directly accessible without a [SOCKS5 proxy](https://meta.miraheze.org/wiki/w:SOCKS#SOCKS5), similar to [Proxmox](/tech-docs/techproxmox). To access Graylog, follow the setup instructions for SmartProxy on your browser, and then configure either OpenSSH or PuTTY to serve as the proxy.
 
 ### SmartProxy Setup 
 

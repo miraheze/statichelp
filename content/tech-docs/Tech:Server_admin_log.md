@@ -2,6 +2,13 @@
 title: Tech:Server admin log
 ---
 
+## 2026-01-26 
+
+* 15:48 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 15:48 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 12:22 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:ToggleExtension --wiki=telepediawiki --name=simpleblogpage --disable (END - exit=0)
+* 12:19 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:ToggleExtension --wiki=telepediawiki --name=simpleblogpage --disable (END - exit=256)
+
 ## 2026-01-25 
 
 * 19:07 MirahezeLSBot: [petramagna@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php shell --wiki=kraftwerkwiki (END - exit=0)

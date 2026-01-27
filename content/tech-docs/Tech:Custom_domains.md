@@ -2,6 +2,7 @@
 title: Tech:Custom domains
 ---
 
+`{{ {{Outdated}} }}`
 Domain setup can be completed by anybody with access to the Cloudflare account (ops and ssl-admins). Initially the domain will show a Cloudflare error page if it hasn't been setup yet.
 
 ```
