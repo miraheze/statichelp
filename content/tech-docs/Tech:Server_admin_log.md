@@ -2,6 +2,126 @@
 title: Tech:Server admin log
 ---
 
+## 2026-01-27 
+
+* 23:08 SomeRandomDeveloper: manually set mw� backends to healthy on cp�
+* 22:14 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os202: openssl-provider-legacy, libssl3t64, and openssl
+* 22:13 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy161: openssl-provider-legacy, libssl3t64, and openssl
+* 22:13 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on rdb191: openssl-provider-legacy, libssl3t64, and openssl
+* 22:13 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject201: openssl-provider-legacy, libssl3t64, and openssl
+* 22:13 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on test151: libssl-dev, libssl3, and openssl
+* 22:12 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject181: openssl-provider-legacy, libssl3t64, and openssl
+* 22:12 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject191: openssl-provider-legacy, libssl3t64, and openssl
+* 22:12 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy171: openssl-provider-legacy, libssl3t64, and openssl
+* 22:11 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject171: openssl-provider-legacy, libssl3t64, and openssl
+* 22:11 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject161: openssl-provider-legacy, libssl3t64, and openssl
+* 22:11 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftac171: openssl-provider-legacy, libssl3t64, and openssl
+* 22:11 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject151: openssl-provider-legacy, libssl3t64, and openssl
+* 22:10 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ns2: openssl-provider-legacy, libssl3t64, and openssl
+* 22:10 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask181: libssl3 and openssl
+* 22:10 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os201: openssl-provider-legacy, libssl3t64, and openssl
+* 22:09 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on reports171: openssl-provider-legacy, libssl3t64, and openssl
+* 22:09 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on phorge171: openssl-provider-legacy, libssl3t64, and openssl
+* 22:09 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os162: openssl-provider-legacy, libssl3t64, and openssl
+* 22:09 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os191: openssl-provider-legacy, libssl3t64, and openssl
+* 22:08 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os161: openssl-provider-legacy, libssl3t64, and openssl
+* 22:08 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on prometheus151: openssl-provider-legacy, libssl3t64, and openssl
+* 22:08 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on puppet181: openssl-provider-legacy, libssl3t64, and openssl
+* 22:08 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask161: libssl3 and openssl
+* 22:07 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw203: libssl3 and openssl
+* 22:07 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask171: libssl3 and openssl
+* 22:07 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os151: openssl-provider-legacy, libssl3t64, and openssl
+* 22:07 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ns1: openssl-provider-legacy, libssl3t64, and openssl
+* 22:06 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask151: libssl3 and openssl
+* 22:06 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw201: libssl3 and openssl
+* 22:06 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw202: libssl3 and openssl
+* 22:05 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw193: libssl3 and openssl
+* 22:05 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw192: libssl3 and openssl
+* 22:05 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw191: libssl3 and openssl
+* 22:05 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw183: libssl3 and openssl
+* 22:04 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw182: libssl3 and openssl
+* 22:04 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw181: libssl3 and openssl
+* 22:04 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw173: libssl3 and openssl
+* 22:03 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw162: libssl3 and openssl
+* 22:03 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw172: libssl3 and openssl
+* 22:03 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ldap171: openssl-provider-legacy, libssl3t64, and openssl
+* 22:02 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw161: libssl3 and openssl
+* 22:02 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw171: libssl3 and openssl
+* 22:02 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw153: libssl3 and openssl
+* 22:02 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw151: libssl3 and openssl
+* 22:01 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw163: libssl3 and openssl
+* 22:01 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw152: libssl3 and openssl
+* 22:01 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db192: openssl-provider-legacy, libssl3t64, and openssl
+* 22:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mon181: openssl-provider-legacy, libssl3t64, and openssl
+* 22:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem191: openssl-provider-legacy, libssl3t64, and openssl
+* 22:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem201: openssl-provider-legacy, libssl3t64, and openssl
+* 22:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on kafka182: openssl-provider-legacy, libssl3t64, and openssl
+* 21:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db201: openssl-provider-legacy, libssl3t64, and openssl
+* 21:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem151: openssl-provider-legacy, libssl3t64, and openssl
+* 21:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on changeprop202: openssl-provider-legacy, libssl-dev, libssl3t64, and openssl
+* 21:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on llm191: openssl-provider-legacy, libssl3t64, and openssl
+* 21:58 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem161: openssl-provider-legacy, libssl3t64, and openssl
+* 21:58 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on matomo151: openssl-provider-legacy, libssl3t64, and openssl
+* 21:58 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mattermost2: openssl-provider-legacy, libssl3t64, and openssl
+* 21:58 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on graylog161: openssl-provider-legacy, libssl3t64, and openssl
+* 21:58 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp201: openssl-provider-legacy, libssl3t64, and openssl
+* 21:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud18: libssl3 and openssl
+* 21:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp191: openssl-provider-legacy, libssl3t64, and openssl
+* 21:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud20: libssl3 and openssl
+* 21:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud19: libssl3 and openssl
+* 21:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on eventgate182: openssl-provider-legacy, libssl-dev, libssl3t64, and openssl
+* 21:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp171: openssl-provider-legacy, libssl3t64, and openssl
+* 21:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud16: libssl3 and openssl
+* 21:55 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db181: openssl-provider-legacy, libssl3t64, and openssl
+* 21:55 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud17: libssl3 and openssl
+* 21:55 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud15: libssl3 and openssl
+* 21:55 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db182: openssl-provider-legacy, libssl3t64, and openssl
+* 21:54 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db171: openssl-provider-legacy, libssl3t64, and openssl
+* 21:54 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db151: openssl-provider-legacy, libssl3t64, and openssl
+* 21:54 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp161: openssl-provider-legacy, libssl3t64, and openssl
+* 21:54 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bots171: openssl-provider-legacy, libssl3t64, and openssl
+* 21:54 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db161: openssl-provider-legacy, libssl3t64, and openssl
+* 21:53 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bast181: openssl-provider-legacy, libssl3t64, and openssl
+* 21:53 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db172: openssl-provider-legacy, libssl3t64, and openssl
+* 21:53 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bast161: openssl-provider-legacy, libssl3t64, and openssl
+* 19:31 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/extensions/CentralAuth/maintenance/createLocalAccount.php --wiki=commonswiki MossArtist (END - exit=0)
+* 19:31 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/extensions/CentralAuth/maintenance/createLocalAccount.php --wiki=commonswiki --username=MossArtist (END - exit=256)
+* 19:27 RhinosF1: wiped auth tokens for MossArtist
+* 09:29 Universal Omega: reboot puppet181
+* 08:07 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os202: openjdk-21-jdk, openjdk-21-jdk-headless, openjdk-21-jre, and openjdk-21-jre-headless
+* 08:05 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os162: openjdk-21-jdk, openjdk-21-jdk-headless, openjdk-21-jre, and openjdk-21-jre-headless
+* 08:05 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os191: openjdk-21-jdk, openjdk-21-jdk-headless, openjdk-21-jre, and openjdk-21-jre-headless
+* 08:05 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os201: openjdk-21-jdk, openjdk-21-jdk-headless, openjdk-21-jre, and openjdk-21-jre-headless
+* 08:04 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on puppet181: openjdk-21-jdk, openjdk-21-jdk-headless, openjdk-21-jre, and openjdk-21-jre-headless
+* 08:04 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os151: openjdk-21-jdk, openjdk-21-jdk-headless, openjdk-21-jre, and openjdk-21-jre-headless
+* 08:03 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os161: openjdk-21-jdk, openjdk-21-jdk-headless, openjdk-21-jre, and openjdk-21-jre-headless
+* 07:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on kafka182: openjdk-21-jre and openjdk-21-jre-headless
+* 07:58 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on graylog161: openjdk-21-jdk, openjdk-21-jdk-headless, openjdk-21-jre, and openjdk-21-jre-headless
+* 02:04 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on test151: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 01:54 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on test151: connect
+* 01:53 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw183: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 01:52 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask181: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 01:52 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw193: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 01:52 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw203: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 01:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw181: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 01:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw201: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 01:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw202: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 01:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw182: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 01:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw192: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 01:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw151: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 01:49 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask171: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 01:49 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw191: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 01:49 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask161: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 01:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask151: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 01:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw161: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 01:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw163: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 01:47 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw173: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 01:47 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw153: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 01:47 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw172: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 01:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw162: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 01:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw171: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+* 01:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw152: libimage-magick-q16-perl, libimage-magick-perl, imagemagick-6-common, libmagickcore-6.q16-6, libmagickwand-6.q16-6, imagemagick-6.q16, imagemagick, libmagick++-6.q16-8, and libmagickcore-6.q16-6-extra
+
 ## 2026-01-26 
 
 * 15:48 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
