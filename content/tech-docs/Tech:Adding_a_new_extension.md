@@ -15,7 +15,7 @@ The above steps are for the `mediawiki-repos` repository. The following are for 
 * If an extension has settings that are likely to be used or are required to be set, add it to ManageWikiSettings.php
 * It is not required, but preferable that you also load it on test151 in order to make sure that everything works as intended
 * Setup any other extension globals here.
-* Then run the following script on mwtask181 and/or test151: `mwdeploy --world --config --pull=config --l10n --extension-list --servers=all --versions=all`
+* Then run the following script on mwtask181 and/or test151: `mwdeploy --upgrade-extensions=ExtensionName --force-upgrade --config --pull=config --l10n --extension-list --servers=all --versions=all`
 
 It should be noted that it is a good idea to add any configuration variable the extension adds to [ManageWiki](https://meta.miraheze.org/wiki/ManageWiki) to save the effort of doing that at a later date and be user-friendly.
 

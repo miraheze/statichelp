@@ -2,6 +2,28 @@
 title: Tech:Server admin log
 ---
 
+## 2026-01-28 
+
+* 23:58 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 23:58 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 11:43 MirahezeLSBot: [petramagna@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/extensions/TitleKey/maintenance/rebuildTitleKeys.php --wiki=fromsoftwikiwiki (END - exit=0)
+* 11:43 MirahezeLSBot: [petramagna@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/extensions/TitleKey/maintenance/rebuildTitleKeys.php --wiki=fromsoftwiki (END - exit=65280)
+* 11:28 BlankEclair: meow~
+* 10:51 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=iberaldicawiki (END - exit=0)
+* 10:50 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=heraldiberiawiki --new=iberaldicawiki --user=Skye (END - exit=0)
+* 10:47 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=tmewiki (END - exit=0)
+* 10:32 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=mosquitianwiki --new=tmewiki --user=Skye (END - exit=0)
+* 10:29 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=aleth019wiki (END - exit=0)
+* 10:28 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=projecthishuuwiki --new=aleth019wiki --user=Skye (END - exit=0)
+* 10:21 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=facelessfoxwiki (END - exit=0)
+* 10:20 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=ffxivuawiki --new=facelessfoxwiki --user=Skye (END - exit=0)
+* 10:16 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=atsudoriwiki (END - exit=0)
+* 10:12 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=avemujiarchivewiki --new=atsudoriwiki --user=Skye (END - exit=0)
+* 06:30 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'l10n': True, 'extension_list': True, 'versions': '1.44', 'upgrade_extensions': 'RenderBlocking'} to all - SUCCESS in 565s
+* 06:21 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'l10n': True, 'extension_list': True, 'versions': '1.44', 'upgrade_extensions': 'RenderBlocking'} to all
+* 06:15 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True, 'l10n': True, 'extension_list': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'RenderBlocking'} to test151 - SUCCESS in 372s
+* 06:09 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True, 'l10n': True, 'extension_list': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'RenderBlocking'} to test151
+
 ## 2026-01-27 
 
 * 23:08 SomeRandomDeveloper: manually set mw� backends to healthy on cp�
