@@ -36,7 +36,9 @@ A lot of the changes done to this repo are just the same thing but for different
 
 ### Extended confirmed protection or other custom protection levels
 
-Example PR: [T11506: Setup extendedconfirmed protection for mypediawiki](https://meta.miraheze.org/wiki/github:miraheze/mw-config/pull/5437)
+Example PRs:
+* [T11506: Setup extendedconfirmed protection for mypediawiki](https://meta.miraheze.org/wiki/github:miraheze/mw-config/pull/5437)
+* [T14862: Add extended confirmed protection level for mcsosirswiki](https://meta.miraheze.org/wiki/github:miraheze/mw-config/pull/6255) (only creates custom level, doesn't assign rights)
 
 TODO
 
