@@ -6,13 +6,13 @@ title: Tech:Mem161
 {{ {{Server
 | name = mem161
 | location = FiberState Salt Lake City
-| host = mem161.wikitide.net
+| host = mem161.fsslc.wtnet
 | usage = Memcached
 | status = running
-| memory = 36GB
-| cpu = 2 cores
+| memory = 70GB
+| cpu = 4 cores
 | ssd = 10GB U.2 NVMe
-| os = Debian 12
+| os = Debian 13
 | type = KVM
 | kernel =
 | cloud = cloud16
@@ -20,7 +20,7 @@ title: Tech:Mem161
 }} }}
 ```
 
-**mem161** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a server that hosts [Memcached](/tech-docs/techmemcached).
+**mem161** is a FiberState server in Salt Lake City, Utah running Debian Trixie. It is a server that hosts [Memcached](/tech-docs/techmemcached).
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Mem161)**

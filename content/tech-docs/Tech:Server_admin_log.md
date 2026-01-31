@@ -2,6 +2,37 @@
 title: Tech:Server admin log
 ---
 
+## 2026-01-30 
+
+* 22:33 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 30s
+* 22:32 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 22:28 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:SendBulkEmails --wiki=metawiki --subject=WebAuthn on your account --body=/home/macfan/message.txt --to=/home/macfan/users.txt --from=Miraheze_Operations --reply-to=BeeBot (END - exit=0)
+* 22:21 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:SendBulkEmails --wiki=metawiki --subject=WebAuthn on your account --body=/home/macfan/message.txt --to=/home/macfan/users.txt --from=MacFan4000 --reply-to=BeeBot (END - exit=2)
+* 22:20 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:SendBulkEmails --wiki=metawiki --subject=WebAuthn on your account --body=/home/macfan/message.txt --to=/home/macfan/users.txt --from=MacFan4000 --reply-to=BeeBot --dry-run (END - exit=2)
+* 22:20 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:SendBulkEmails --wiki=metawiki --subject=WebAuthn on your account --body=/home/macfan/message.txt --to=/home/macfan=users.txt --from=MacFan4000 --reply-to=BeeBot --dry-run (END - exit=256)
+* 21:50 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True, 'ignore_time': True} to test151 - SUCCESS in 0s
+* 21:50 MirahezeLSBot: [universalomega@test151] starting deploy of {'pull': 'config', 'config': True, 'ignore_time': True} to test151
+* 21:50 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 21:50 MirahezeLSBot: [universalomega@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 21:39 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 30s
+* 21:38 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:06 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 30s
+* 19:06 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 18:47 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 18:47 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 18:01 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'force': True} to all - SUCCESS in 23s
+* 18:01 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'force': True} to all
+* 17:39 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php purgeParserCache --wiki=payloadrobloxwiki --age=1 (END - exit=0)
+* 17:31 RhinosF1: disable OATHAuth meant for WebAuthn only (thanks to @pskyechology for reminding me I logged half a sentence)
+* 16:46 RhinosF1: disable OATHAuth
+* 16:35 @pskyechology: Cloudflare: Moved an ASN challenge to custom rules to allow for a static exemption
+* 15:50 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=payloadrobloxwiki --requester=Yalaicon (END - exit=0)
+* 15:47 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:SetContainersAccess --wiki=TF2Roguelikewiki (END - exit=0)
+* 15:46 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=tftworoguelikewiki --new=tf2roguelikewiki --user=Skye (END - exit=0)
+* 04:35 Universal Omega: fixed hostname on mattermost2
+* 04:21 Universal Omega: fixed some networking issues on ns2
+* 03:39 Universal Omega: fixed some networking issues on ns1
+
 ## 2026-01-29 
 
 * 23:14 MirahezeLSBot: [void@bots171] Update package python3-pyasn1

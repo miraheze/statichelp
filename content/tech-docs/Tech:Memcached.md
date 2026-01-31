@@ -2,7 +2,7 @@
 title: Tech:Memcached
 ---
 
-Memcached is used for object and session caching. Memcached is currently installed on [mem151](/tech-docs/techmem151) and [mem161](/tech-docs/techmem161).
+Memcached is used for object and session caching. Memcached is currently installed on [mem151](/tech-docs/techmem151), [mem161](/tech-docs/techmem161), [mem191](/tech-docs/techmem191) and [mem201](/tech-docs/techmem201).
 
 ## Commands 
 
@@ -42,7 +42,7 @@ You can do it via PHP by [following](https://meta.miraheze.org/wiki/github:mirah
 
 ## See Also 
 
-* [Memcached commands cheat sheet](https://lzone.de/cheat-sheet/memcached)
+* [Memcached commands cheat sheet](https://lzone.de/#/Cheat%20Sheets/LZone%20Cheat%20Sheets/DevOps%20Services/memcached)
 
 ## Categories
 

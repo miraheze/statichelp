@@ -8,7 +8,7 @@ Miraheze requires lots of **servers** in order to provide service. With over 400
 
 Currently, servers at Miraheze are used for:
 
-* [Cache proxy](/tech-docs/techvarnish): cp36, cp37, cp38
+* [Cache proxy](/tech-docs/techvarnish): [cp161](https://meta.miraheze.org/wiki/Tech:Cp161), [cp171](https://meta.miraheze.org/wiki/Tech:Cp171), [cp191](https://meta.miraheze.org/wiki/Tech:Cp191), [cp201](https://meta.miraheze.org/wiki/Tech:Cp201),
 * [Database](/tech-docs/techmariadb): [db151](/tech-docs/techdb151), [db161](/tech-docs/techdb161), [db171](/tech-docs/techdb171), [db172](/tech-docs/techdb172), [db181](/tech-docs/techdb181), [db182](/tech-docs/techdb182)
 * [DNS](/tech-docs/techdns): [ns1](/tech-docs/techns1), [ns2](/tech-docs/techns2)
 * [Mattermost](/tech-docs/techmattermost): mattermost1
@@ -17,7 +17,7 @@ Currently, servers at Miraheze are used for:
 * Miscellaneous
    * [mon181](/tech-docs/techmon181): [Grafana](/tech-docs/techgrafana), [Icinga](/tech-docs/techicinga)
    * [phorge171](/tech-docs/techphorge171): [Phorge](/tech-docs/techphorge)
-   * [mem151](/tech-docs/techmem151), [mem161](/tech-docs/techmem161), mem201: [Memcached](/tech-docs/techmemcached)
+   * [mem151](/tech-docs/techmem151), [mem161](/tech-docs/techmem161), [mem191](/tech-docs/techmem191), [mem201](/tech-docs/techmem201): [Memcached](/tech-docs/techmemcached)
    * [graylog161](/tech-docs/techgraylog161): [Graylog](/tech-docs/techgraylog)
    * [ldap171](/tech-docs/techldap171): [Ldap](/tech-docs/techldap)
    * [matomo151](/tech-docs/techmatomo151): [Matomo](/tech-docs/techmatomo)
@@ -39,9 +39,6 @@ Currently, servers at Miraheze are used for:
 | [cloud18](/tech-docs/techcloud18) | 500 GB | 80 cores @ 3.2 GHz | 8 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | cloud19 | 500 GB | 80 cores @ 3.2 GHz | 8 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | cloud20 | 500 GB | 80 cores @ 3.2 GHz | 8 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| cp36 (cloud16) | 10 GB | 6 cores @ 2.65 GHz | 100 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| cp37 (cloud17) | 32 GB | 8 cores @ 2.65 GHz | 500 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| cp38 (cloud19) | 32 GB | 8 cores @ 2.65 GHz | 500 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [db151](/tech-docs/techdb151) | 138 GB | 6 cores (unknown speed) | 1 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [db161](/tech-docs/techdb161) | 138 GB | 6 cores (unknown speed) | 1 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [db171](/tech-docs/techdb171) | 138 GB | 6 cores (unknown speed) | 1 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
@@ -121,6 +118,9 @@ Currently, servers at Miraheze are used for:
 | [<s>cp12</s>](https://meta.miraheze.org/wiki/Tech:Cp12) *decommissioned* | 2GB, 2 cores, 30 GB SSD | 1 February 2021 | |  |
 | ~~cp26~~ *decommissioned* | 6 GB, 4 core @ 2.65 GHz, 100 GB SSD | 24 January 2024 | 2 September 2024 | $5.50 |
 | ~~cp27~~ *decommissioned* | 6 GB, 4 core @ 2.65 GHz, 100 GB SSD | 28 January 2024 | 2 September 2024 | $5.50 |
+| ~~cp36 (cloud16)~~ *decommissioned* | 10 GB, 6 cores @ 2.65 GHz, 100 GB U.2 NVMe | | 10 June 2025 |  |
+| ~~cp37 (cloud17)~~ *decommissioned* | 32 GB, 8 cores @ 2.65 GHz, 500 GB U.2 NVMe | | 10 June 2025 |  |
+| ~~cp38 (cloud19)~~ *decommissioned* | 32 GB, 8 cores @ 2.65 GHz, 500 GB U.2 NVMe | | 10 June 2025 |  |
 | ~~cp41~~ *decommissioned* | 6 GB, 4 core @ 2.65 GHz, 100 GB SSD | 24 January 2024 | 2 September 2024 | $7.75 |
 | ~~cp51~~ *decommissioned* | 6 GB, 4 core @ 2.65 GHz, 100 GB SSD | 24 January 2024 | 2 September 2024 | $7.40 |
 | ~~[db1](https://meta.miraheze.org/wiki/Tech:db1)~~ *decommissioned* | |  | 5 October 2015 | N/A |
