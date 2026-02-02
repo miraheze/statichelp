@@ -4,6 +4,60 @@ title: Tech:Server admin log
 
 ## 2026-02-01 
 
+* 21:22 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initEditCount --wiki=fischwiki (END - exit=0)
+* 21:22 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initEditStats --wiki=fischwiki (END - exit=256)
+* 21:21 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php reassignEdits --wiki=fischwiki Javodee WikiJavo (END - exit=0)
+* 20:52 @paladox: apply network config to phorge171 and reboot
+* 20:32 @paladox: apply network config to kafka182 and reboot
+* 20:31 @paladox: apply network config to eventgate182 and changeprop202 and reboot
+* 20:27 @paladox: apply network config to mon181 and reboot
+* 20:25 @paladox: apply network config to graylog161 and reboot
+* 20:24 @paladox: apply network config to mwtask151 and reboot
+* 20:21 @paladox: apply network config to mwtask161 and reboot
+* 20:20 @paladox: apply network config to mwtask171 and reboot
+* 20:19 @paladox: apply network config to mwtask181 and reboot
+* 20:16 @paladox: repool cp201
+* 20:16 @paladox: reboot cp201 applying network config
+* 20:14 @paladox: depool cp201
+* 20:13 @paladox: repool cp191
+* 20:09 @paladox: reboot cp191 applying network config
+* 20:07 @paladox: depool cp191
+* 20:06 @paladox: reboot cp161 applying network config
+* 20:04 @paladox: repool cp171
+* 20:03 @paladox: reboot cp171 to apply network config
+* 20:02 @paladox: depool cp171 in cf
+* 20:00 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 20:00 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:43 @paladox: increase bast161 cores to 2
+* 19:42 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 19:41 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:23 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php cleanupTitles --wiki=relicsofhyrulewiki (END - exit=0)
+* 18:55 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 18:54 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 18:51 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'Math'} to test151 - SUCCESS in 366s
+* 18:47 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'Math'} to all - SUCCESS in 139s
+* 18:45 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'Math'} to test151
+* 18:45 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'Math'} to all
+* 18:09 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to test151 - SUCCESS in 402s
+* 18:07 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 285s
+* 18:02 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to test151
+* 18:02 MirahezeLSBot: [paladox@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 18:02 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 18:02 MirahezeLSBot: [paladox@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 17:58 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 17:58 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to test151
+* 17:44 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'EmbedVideo'} to test151 - SUCCESS in 321s
+* 17:41 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'EmbedVideo'} to all - SUCCESS in 104s
+* 17:39 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'EmbedVideo'} to test151
+* 17:39 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'EmbedVideo'} to all
+* 17:02 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'FlexDiagrams'} to test151 - SUCCESS in 572s
+* 17:01 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'FlexDiagrams'} to all - SUCCESS in 483s
+* 16:53 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'FlexDiagrams'} to test151
+* 16:53 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44', 'upgrade_extensions': 'FlexDiagrams'} to all
+* 11:27 RhinosF1: ran the shell.php commands for [https://meta.miraheze.org/wiki/Tech:Fixing_slot_roles_and_content_models](https://meta.miraheze.org/wiki/Tech:Fixing_slot_roles_and_content_models) on payloadrobloxwiki
+* 01:02 @paladox: db: set global innodb_snapshot_isolation = OFF;
+* 00:23 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 30s
+* 00:22 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
 * 00:00 MirahezeLSBot: [www-data@mwtask181] Began automatic backing up
 
 ## 2026-01-31 

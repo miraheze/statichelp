@@ -9,8 +9,8 @@ title: Tech:Bast161
 | host = bast161.wikitide.net
 | usage = Bastion
 | status = running
-| memory = 1GB
-| cpu = 1 core
+| memory = 2GB
+| cpu = 2 cores
 | ssd = 10GB U.2 NVMe
 | os = Debian 13
 | type = KVM

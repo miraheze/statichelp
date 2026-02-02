@@ -36,11 +36,15 @@ A lot of the changes done to this repo are just the same thing but for different
 
 ### Extended confirmed protection or other custom protection levels
 
-Example PRs:
-* [T11506: Setup extendedconfirmed protection for mypediawiki](https://meta.miraheze.org/wiki/github:miraheze/mw-config/pull/5437)
-* [T14862: Add extended confirmed protection level for mcsosirswiki](https://meta.miraheze.org/wiki/github:miraheze/mw-config/pull/6255) (only creates custom level, doesn't assign rights)
+Permissions are set in LocalSettings.php.
 
-TODO
+* Create the restriction level by adding it to `$wgRestrictionLevels`.
+* Add the user right for editing the restriction level to `$wgAvailableRights`.
+* (Optional) Also add some default assignments to `$wgManageWikiPermissionsAdditionalRights`. Since Bureaucrats can assign the rights using ManageWiki this is not essential.
+
+Example PRs:
+* [T14862: Add extended confirmed protection level for mcsosirswiki](https://meta.miraheze.org/wiki/github:miraheze/mw-config/pull/6255) (no default assignment)
+* [T11506: Setup extendedconfirmed protection for mypediawiki](https://meta.miraheze.org/wiki/github:miraheze/mw-config/pull/5437) (assigns right to both "extendedconfirmed" and "sysop" groups by default)
 
 ### Removing ManageWiki extensions or configurations
 
