@@ -2,6 +2,37 @@
 title: Tech:Server admin log
 ---
 
+## 2026-02-04 
+
+* 22:57 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'MultimediaViewer'} to all - SUCCESS in 28s
+* 22:57 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'MultimediaViewer'} to all
+* 22:57 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MultimediaViewer'} to test151 - SUCCESS in 1s
+* 22:57 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MultimediaViewer'} to test151
+* 22:15 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 30s
+* 22:14 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 21:09 MirahezeLSBot: [paladox@test151] finished deploy of {'pull': 'landing', 'landing': True} to test151 - SUCCESS in 1s
+* 21:09 MirahezeLSBot: [paladox@test151] starting deploy of {'pull': 'landing', 'landing': True} to test151
+* 21:09 MirahezeLSBot: [paladox@test151] finished deploy of {'landing': True} to test151 - SUCCESS in 0s
+* 21:09 MirahezeLSBot: [paladox@test151] starting deploy of {'landing': True} to test151
+* 19:27 @paladox: reboot ns1 to apply network config (no downtime and will be relatively quick)
+* 19:05 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 19:05 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 18:14 MacFan4000: (metawiki) DELETE FROM echo_unread_wikis WHERE euw_user=6758;
+* 18:07 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 18:06 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 17:54 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=moddingmagicwiki --new=moddingmagicsmpwiki --user=Reception123 (END - exit=0)
+* 17:53 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=anomalyofficeswiki --new=obscureenginewiki --user=Reception123 (END - exit=0)
+* 17:31 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 17:30 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 16:23 @paladox: depool mw* (one by one), modify network config and reboot
+* 14:36 MirahezeLSBot: [skye@mwtask181] hello from the matrix <@879296162228731954>
+* 14:35 MirahezeLSBot: [skye@mwtask181]
+* 13:36 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 13:35 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 13:34 MirahezeLSBot: [paladox@test151] finished deploy of {'force_upgrade': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'QuickInstantCommons'} to test151 - SUCCESS in 1s
+* 13:34 MirahezeLSBot: [paladox@test151] starting deploy of {'force_upgrade': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'QuickInstantCommons'} to test151
+* 03:43 MirahezeLSBot: [petramagna@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php /srv/mediawiki/1.44/extensions/TitleKey/maintenance/rebuildTitleKeys.php --wiki=strinovawiki (END - exit=0)
+
 ## 2026-02-03 
 
 * 16:58 MirahezeLSBot: [paladox@test151] finished deploy of {'force_upgrade': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'QuickInstantCommons'} to test151 - SUCCESS in 1s
