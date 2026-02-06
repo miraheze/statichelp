@@ -2,6 +2,24 @@
 title: Tech:Server admin log
 ---
 
+## 2026-02-05 
+
+* 19:22 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 19:21 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:14 MirahezeLSBot: [skye@test151] finished deploy of {'folders': 'config'} to test151 - SUCCESS in 0s
+* 19:14 MirahezeLSBot: [skye@test151] starting deploy of {'folders': 'config'} to test151
+* 18:37 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 18:37 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 12:18 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'files': '1.45/extensions/QuickInstantCommons/src/MultiHttpClient.php'} to test151 - SUCCESS in 0s
+* 12:18 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'files': '1.45/extensions/QuickInstantCommons/src/MultiHttpClient.php'} to test151
+* 10:01 MirahezeLSBot: [petramagna@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=bubblebattleswiki (END - exit=0)
+* 10:01 MirahezeLSBot: [petramagna@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=bubblebattleswiki --startOver (END - exit=0)
+* 03:46 MirahezeLSBot: [petramagna@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:ReplaceTextEligible --wiki=evolutionismwiki (END - exit=0)
+* 02:47 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 02:47 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 00:37 MirahezeLSBot: [paladox@test151] finished deploy of {'force_upgrade': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'QuickInstantCommons'} to test151 - SUCCESS in 1s
+* 00:37 MirahezeLSBot: [paladox@test151] starting deploy of {'force_upgrade': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'QuickInstantCommons'} to test151
+
 ## 2026-02-04 
 
 * 22:57 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'MultimediaViewer'} to all - SUCCESS in 28s

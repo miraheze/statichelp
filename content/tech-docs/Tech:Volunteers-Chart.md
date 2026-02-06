@@ -53,6 +53,7 @@ BarData     =
     Bar:BlankEclair
     Bar:SomeRandomDeveloper
     Bar:Skye
+    Bar:PetraMagna
 
 PlotData    =
     width:16 textcolor:black fontsize:m shift:(5,-5) anchor:from
@@ -96,6 +97,7 @@ PlotData    =
     bar:TheresNoTime         color:previous  from:28/08/2024  till:08/03/2025  text:"TheresNoTime"
     bar:SomeRandomDeveloper  color:current   from:12/06/2025  till:end         text:"SomeRandomDeveloper"
     bar:Skye                 color:current   from:31/07/2025  till:end         text:"Skye"
+    bar:PetraMagna           color:current   from:24/01/2026  till:end         text:"PetraMagna"
 }} }}
 ```
 
