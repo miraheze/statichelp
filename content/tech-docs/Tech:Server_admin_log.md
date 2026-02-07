@@ -2,6 +2,42 @@
 title: Tech:Server admin log
 ---
 
+## 2026-02-06 
+
+* 23:56 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 23:56 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 23:52 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 23:52 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 23:34 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True, 'l10n': True, 'extension_list': True, 'versions': '1.45'} to test151 - SUCCESS in 55s
+* 23:33 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True, 'l10n': True, 'extension_list': True, 'versions': '1.45'} to test151
+* 22:37 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True, 'l10n': True, 'extension_list': True, 'versions': '1.45'} to test151 - SUCCESS in 338s
+* 22:31 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True, 'l10n': True, 'extension_list': True, 'versions': '1.45'} to test151
+* 22:31 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 22:31 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 22:30 MirahezeLSBot: [petramagna@test151] finished deploy of {'force_upgrade': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'Chart'} to test151 - SUCCESS in 1s
+* 22:30 MirahezeLSBot: [petramagna@test151] starting deploy of {'force_upgrade': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'Chart'} to test151
+* 21:42 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.45/extensions/ManageWiki'} to test151 - SUCCESS in 0s
+* 21:42 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.45/extensions/ManageWiki'} to test151
+* 20:41 MirahezeLSBot: [skye@mwtask171] Finished import for gloomwoodwiki (XML: None; Images: .) (END - exit=0)
+* 20:41 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=gloomwoodwiki --update (END - exit=0)
+* 20:41 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=gloomwoodwiki --update (START)
+* 20:41 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=gloomwoodwiki --sleep=1 '--comment=Importing images from [https://gloomwood.fandom.com](https://gloomwood.fandom.com) ([T14833](https://meta.miraheze.org/wiki/phorge:T14833))' --search-recursively -- . (END - exit=0)
+* 20:30 RhinosF1: manually confirmed email for an account (see cvt@)
+* 20:24 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=gloomwoodwiki --sleep=1 '--comment=Importing images from [https://gloomwood.fandom.com](https://gloomwood.fandom.com) ([T14833](https://meta.miraheze.org/wiki/phorge:T14833))' --search-recursively -- . (START)
+* 20:24 MirahezeLSBot: [skye@mwtask171] Starting import for gloomwoodwiki (XML: None; Images: .) (START)
+* 20:24 MirahezeLSBot: [skye@mwtask171] Finished import for gloomwoodwiki (XML: None; Images: .) (END - exit=1)
+* 20:24 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=gloomwoodwiki --sleep=1 '--comment=Importing images from [https://gloomwood.fandom.com](https://gloomwood.fandom.com) ([T14833](https://meta.miraheze.org/wiki/phorge:T14833))' -- . (END - exit=1)
+* 20:24 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=gloomwoodwiki --sleep=1 '--comment=Importing images from [https://gloomwood.fandom.com](https://gloomwood.fandom.com) ([T14833](https://meta.miraheze.org/wiki/phorge:T14833))' -- . (START)
+* 20:24 MirahezeLSBot: [skye@mwtask171] Starting import for gloomwoodwiki (XML: None; Images: .) (START)
+* 20:22 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': '1.44'} to all - SUCCESS in 436s
+* 20:15 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'l10n': True, 'versions': '1.44'} to all
+* 20:07 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 20:07 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 20:06 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.44', 'upgrade_extensions': 'DynamicPageList4'} to all - SUCCESS in 30s
+* 20:05 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.44', 'upgrade_extensions': 'DynamicPageList4'} to all
+* 19:56 RhinosF1: [rhinos@puppet181:~]$ sudo salt-ssh -E "cp.*" cmd.run "varnishadm ban req.http.Host == lorewell.miraheze.org"
+* 19:55 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php purgeParserCache --wiki=lorewellwiki --age=600 (END - exit=2)
+
 ## 2026-02-05 
 
 * 19:22 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
