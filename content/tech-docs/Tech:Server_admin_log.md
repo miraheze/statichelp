@@ -2,6 +2,46 @@
 title: Tech:Server admin log
 ---
 
+## 2026-02-07 
+
+* 23:46 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 54s
+* 23:45 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to all
+* 23:29 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 23:28 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 23:08 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 23:07 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 23:06 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'files': '1.44/includes/filerepo/ForeignAPIRepo.php,1.45/includes/filerepo/ForeignAPIRepo.php'} to all - SUCCESS in 52s
+* 23:05 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'files': '1.44/includes/filerepo/ForeignAPIRepo.php,1.45/includes/filerepo/ForeignAPIRepo.php'} to all
+* 23:02 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 54s
+* 23:01 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to all
+* 21:54 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 21:53 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 21:40 Universal Omega: Upgraded dpl4wiki to MediaWiki 1.45
+* 21:18 Universal Omega: Upgraded strinovawiki, cosmoswiki, and mwcosmoswiki to MediaWiki 1.45
+* 17:26 MirahezeLSBot: [paladox@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'CookieConsent'} to test151 - SUCCESS in 1s
+* 17:26 MirahezeLSBot: [paladox@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'CookieConsent'} to test151
+* 09:47 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 09:47 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 01:53 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 01:53 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 01:51 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 01:51 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 00:25 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': '1.45', 'ignore_time': True} to all - SUCCESS in 480s
+* 00:17 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'l10n': True, 'versions': '1.45', 'ignore_time': True} to all
+* 00:17 MirahezeLSBot: [universalomega@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 00:17 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'l10n': True, 'versions': '1.45', 'ignore_time': True} to all
+* 00:16 MirahezeLSBot: [universalomega@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 00:16 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'l10n': True, 'versions': '1.45', 'ignore_time': True} to all
+* 00:15 MirahezeLSBot: [universalomega@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 00:12 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'upgrade_world': True, 'versions': '1.45', 'upgrade_extensions': 'all', 'upgrade_skins': 'all'} to all
+* 00:12 @posix_memalign: Disable a few removed extensions on Mirabeta as they are generating excessive warnings on Graylog
+* 00:11 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'world': True, 'versions': '1.45'} to all - SUCCESS in 366s
+* 00:09 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ToggleExtension --wiki=metawikibeta --all-wikis --name=youtube --disable --execute (END - exit=0)
+* 00:09 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ToggleExtension --wiki=metawikibeta --all-wikis --name=youtube --disable (END - exit=512)
+* 00:05 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'world': True, 'versions': '1.45'} to all
+* 00:03 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'world': True, 'versions': '1.45'} to mwtask181 - SUCCESS in 58s
+* 00:02 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'world': True, 'versions': '1.45'} to mwtask181
+
 ## 2026-02-06 
 
 * 23:56 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
