@@ -2,6 +2,75 @@
 title: Tech:Server admin log
 ---
 
+## 2026-02-08 
+
+* 23:38 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 23:37 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 23:04 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 23:04 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 23:04 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 23:04 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 22:58 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 57s
+* 22:57 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'ManageWiki'} to all
+* 20:34 @paladox: upgrade phorge on phorge171
+* 20:06 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 58s
+* 20:05 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'ManageWiki'} to all
+* 19:53 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:ResetWikiCaches (START)
+* 19:02 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 56s
+* 19:01 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'ManageWiki'} to all
+* 18:46 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': ['LdapAuthentication', 'ManageWiki']} to all - SUCCESS in 110s
+* 18:44 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': ['LdapAuthentication', 'ManageWiki']} to all
+* 15:42 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 84s
+* 15:40 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to all
+* 15:40 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 56s
+* 15:39 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to all
+* 14:42 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 83s
+* 14:40 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 14:36 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 14:35 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 14:25 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 14:25 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 12:16 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 57s
+* 12:15 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to all
+* 04:26 Universal Omega: Upgraded devwiki to MediaWiki 1.45
+* 04:03 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 04:03 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 03:28 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': ['DynamicPageList4', 'ManageWiki', 'MatomoAnalytics']} to all - SUCCESS in 170s
+* 03:25 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': ['DynamicPageList4', 'ManageWiki', 'MatomoAnalytics']} to all
+* 03:13 MirahezeLSBot: [skye@mwtask171] Finished import for highseasunitywiki (XML: ./highseas_pages_full.xml; Images: ./WikiImages) (END - exit=0)
+* 03:13 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=highseasunitywiki --update (END - exit=0)
+* 03:13 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initSiteStats --wiki=highseasunitywiki --update (START)
+* 03:13 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initEditCount --wiki=highseasunitywiki (END - exit=0)
+* 03:13 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php initEditCount --wiki=highseasunitywiki (START)
+* 03:13 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php rebuildall --wiki=highseasunitywiki (END - exit=0)
+* 02:52 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php rebuildall --wiki=highseasunitywiki (START)
+* 02:52 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=highseasunitywiki --sleep=1 '--comment=Importing images from [https://highseas.fandom.com/](https://highseas.fandom.com/) ([T14907](https://meta.miraheze.org/wiki/phorge:T14907))' --search-recursively -- ./WikiImages (END - exit=0)
+* 02:40 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 02:40 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 02:29 Universal Omega: Upgraded testwiki to MediaWiki 1.45
+* 02:27 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importImages --wiki=highseasunitywiki --sleep=1 '--comment=Importing images from [https://highseas.fandom.com/](https://highseas.fandom.com/) ([T14907](https://meta.miraheze.org/wiki/phorge:T14907))' --search-recursively -- ./WikiImages (START)
+* 02:27 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importDump --wiki=highseasunitywiki --no-updates --username-prefix=fandom:highseas -- ./highseas_pages_full.xml (END - exit=0)
+* 02:16 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 02:16 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 02:10 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php importDump --wiki=highseasunitywiki --no-updates --username-prefix=fandom:highseas -- ./highseas_pages_full.xml (START)
+* 02:10 MirahezeLSBot: [skye@mwtask171] Starting import for highseasunitywiki (XML: ./highseas_pages_full.xml; Images: ./WikiImages) (START)
+* 01:50 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 01:50 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 01:39 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 54s
+* 01:38 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to all
+* 01:30 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 56s
+* 01:29 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to all
+* 01:21 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 55s
+* 01:20 MirahezeLSBot: [universalomega@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to test151 - SUCCESS in 1s
+* 01:20 MirahezeLSBot: [universalomega@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to test151
+* 01:20 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to all
+* 01:07 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True, 'ignore_time': True} to test151 - SUCCESS in 0s
+* 01:07 MirahezeLSBot: [universalomega@test151] starting deploy of {'pull': 'config', 'config': True, 'ignore_time': True} to test151
+* 01:05 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 01:05 MirahezeLSBot: [universalomega@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 01:05 MirahezeLSBot: [universalomega@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to test151 - SUCCESS in 1s
+* 01:05 MirahezeLSBot: [universalomega@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to test151
+
 ## 2026-02-07 
 
 * 23:46 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 54s
