@@ -2,6 +2,122 @@
 title: Tech:Server admin log
 ---
 
+## 2026-02-09 
+
+* 23:48 SomeRandomDeveloper: Deploy patches for T14297 and T14201 to 1.45 on prod
+* 19:39 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw182: linux-libc-dev
+* 19:39 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw152: linux-libc-dev
+* 19:37 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask181: linux-libc-dev
+* 19:37 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask171: linux-libc-dev
+* 19:36 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask161: linux-libc-dev
+* 19:36 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw183: linux-libc-dev
+* 19:36 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw202: linux-libc-dev
+* 19:36 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw191: linux-libc-dev
+* 19:35 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw201: linux-libc-dev
+* 19:35 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw192: linux-libc-dev
+* 19:35 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw163: linux-libc-dev
+* 19:35 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw151: linux-libc-dev
+* 19:34 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw161: linux-libc-dev
+* 19:34 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw203: linux-libc-dev
+* 19:34 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw181: linux-libc-dev
+* 19:34 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask151: linux-libc-dev
+* 19:33 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw193: linux-libc-dev
+* 19:33 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud19: linux-libc-dev
+* 19:33 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw173: linux-libc-dev
+* 19:32 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw153: linux-libc-dev
+* 19:32 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw172: linux-libc-dev
+* 19:32 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw162: linux-libc-dev
+* 19:32 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw171: linux-libc-dev
+* 19:31 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud17: linux-libc-dev
+* 19:31 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud20: linux-libc-dev
+* 19:31 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud18: linux-libc-dev
+* 19:31 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud15: linux-libc-dev
+* 19:30 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud16: linux-libc-dev
+* 19:11 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject201: linux-libc-dev
+* 19:10 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy171: linux-libc-dev
+* 19:10 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy161: linux-libc-dev
+* 19:10 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject181: linux-libc-dev
+* 19:10 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject191: linux-libc-dev
+* 19:10 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject171: linux-libc-dev
+* 19:09 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject161: linux-libc-dev
+* 19:09 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject151: linux-libc-dev
+* 19:09 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ns2: linux-libc-dev
+* 19:09 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftac171: linux-libc-dev
+* 19:08 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os202: linux-libc-dev
+* 19:08 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os201: linux-libc-dev
+* 19:08 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on rdb191: linux-libc-dev
+* 19:08 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on puppet181: linux-libc-dev
+* 19:07 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os191: linux-libc-dev
+* 19:07 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on reports171: linux-libc-dev
+* 19:07 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os162: linux-libc-dev
+* 19:07 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on prometheus151: linux-libc-dev
+* 19:06 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on phorge171: linux-libc-dev
+* 19:06 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os151: linux-libc-dev
+* 19:06 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os161: linux-libc-dev
+* 19:05 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ns1: linux-libc-dev
+* 19:02 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem191: linux-libc-dev
+* 19:02 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mon181: linux-libc-dev
+* 19:02 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem201: linux-libc-dev
+* 19:02 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on llm191: linux-libc-dev
+* 19:01 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem161: linux-libc-dev
+* 19:01 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem151: linux-libc-dev
+* 19:01 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on matomo151: linux-libc-dev
+* 19:01 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mattermost2: linux-libc-dev
+* 19:01 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ldap171: linux-libc-dev
+* 19:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on graylog161: linux-libc-dev
+* 19:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db192: linux-libc-dev
+* 18:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on kafka182: linux-libc-dev
+* 18:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on eventgate182: linux-libc-dev
+* 18:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp201: linux-libc-dev
+* 18:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db201: linux-libc-dev
+* 18:58 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db181: linux-libc-dev
+* 18:58 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db182: linux-libc-dev
+* 18:58 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp171: linux-libc-dev
+* 18:58 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db171: linux-libc-dev
+* 18:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db151: linux-libc-dev
+* 18:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp191: linux-libc-dev
+* 18:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp161: linux-libc-dev
+* 18:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db161: linux-libc-dev
+* 18:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db172: linux-libc-dev
+* 18:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bast181: linux-libc-dev
+* 18:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on changeprop202: linux-libc-dev
+* 18:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bots171: linux-libc-dev
+* 18:54 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bast161: linux-libc-dev
+* 18:13 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'TemplateStylesExtender'} to all - SUCCESS in 29s
+* 18:13 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'TemplateStylesExtender'} to all
+* 18:11 MirahezeLSBot: [universalomega@test151] finished deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'TemplateStylesExtender'} to test151 - SUCCESS in 0s
+* 18:11 MirahezeLSBot: [universalomega@test151] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'TemplateStylesExtender'} to test151
+* 18:10 MirahezeLSBot: [universalomega@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 18:10 MirahezeLSBot: [universalomega@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'TemplateStylesExtender'} to test151
+* 16:29 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'ImageRating'} to all - SUCCESS in 1082s
+* 16:21 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'ImageRating'} to test151 - SUCCESS in 628s
+* 16:11 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'ImageRating'} to test151
+* 16:11 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': ['1.44', '1.45'], 'upgrade_extensions': 'ImageRating'} to all
+* 15:18 @paladox: upgrade phorge on phorge171
+* 13:19 MirahezeLSBot: [paladox@test151] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to test151 - SUCCESS in 1s
+* 13:19 MirahezeLSBot: [paladox@test151] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to test151
+* 13:04 @paladox: upgrade openvox on puppet181
+* 11:31 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mon181: libwireshark-data, libwsutil16, libwiretap15, libwireshark18, tshark, and wireshark-common
+* 11:30 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db182: libwireshark-data, libwsutil16, libwiretap15, libwireshark18, tshark, and wireshark-common
+* 10:03 RhinosF1: deleted and dropped wardencasserolewiki (db171)
+* 10:02 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwiki --delete --deletewiki wardencasserolewiki (END - exit=0)
+* 08:00 Universal Omega: reboot mw172 from proxmox (was totally dead)
+* 02:06 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php updateSpecialPages --wiki=exttestwikibeta --only=OrphanedTalkPages (END - exit=0)
+* 00:27 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 00:27 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 00:25 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 57s
+* 00:24 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'CreateWiki'} to all
+* 00:24 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=metawiki --all-wikis (END - exit=0)
+* 00:21 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 00:21 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 00:13 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 1s
+* 00:13 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'ManageWiki'} to all
+* 00:12 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/1.44/maintenance/run.php ManageWiki:ResetWikiCaches (END - exit=2)
+* 00:04 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 00:04 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 00:04 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 56s
+* 00:03 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.44', '1.45'], 'upgrade_extensions': 'MirahezeMagic'} to all
+
 ## 2026-02-08 
 
 * 23:38 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s

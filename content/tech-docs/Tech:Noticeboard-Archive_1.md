@@ -227,6 +227,17 @@ You can see them already! Wikis load *much* faster than before!
 Miraheze will be upgrading to 1.42 this Wednesday, July 17.
 
 We will let everyone know ~ 30 minutes before we start the upgrade via [Discord](https://meta.miraheze.org/wiki/Discord), [IRC](https://meta.miraheze.org/wiki/IRC) (on the #miraheze channel) and [Mastodon](https://mastodon.social/@miraheze). [Alex (Miraheze)](https://meta.miraheze.org/wiki/User:Alex_(Miraheze)) ([talk](https://meta.miraheze.org/wiki/User_talk:Alex_(Miraheze))) 09:42, 15 July 2024 (UTC)
+## GlobalBlocking affecting account autocreation 
+
+On MediaWiki 1.42, the GlobalBlocking extension, used by Miraheze [Stewards](https://meta.miraheze.org/wiki/Stewards) and [Global Administrators](https://meta.miraheze.org/wiki/Global_Administrators) to block IP addresses on all wikis, is now capable to stopping account autocreation if your IP is affected by a global block.
+
+"Account autocreation" is a process your account goes through if you don't have a local account in a wiki but are logged in to Miraheze. An account is created for you automatically in this case by the CentralAuth extension in said wiki.
+
+Previously, global blocks issues by Stewards and Global Administrators did not interfere with your ability to go through this process, however, in 1.42 this is no longer the case. Much like how you can't use Special:CreateAccount if your IP is under the effects of a block that prevents account creation, account autocreation is now stopped by global blocks.
+
+Users that browse using VPNs and similar proxy services, which are a common target of global blocks, will be affected by this. You'll be unable to login to wikis you haven't logged in to before (wikis that don't show up on your [Special:CentralAuth](https://meta.miraheze.org/wiki/Special:CentralAuth) page).
+
+If you're affected by this, you may be able to contact Stewards and Global Administrators for help. You can reach them on Meta via [Steward requests/Miscellaneous](https://meta.miraheze.org/wiki/Steward_requests/Miscellaneous) or via email at cvt `{{ {{@}} }}`miraheze.org. [Alex (Miraheze)](https://meta.miraheze.org/wiki/User:Alex_(Miraheze)) ([talk](https://meta.miraheze.org/wiki/User_talk:Alex_(Miraheze))) 15:43, 17 July 2024 (UTC)
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Noticeboard/Archive_1)**
