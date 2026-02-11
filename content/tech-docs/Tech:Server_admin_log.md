@@ -2,6 +2,43 @@
 title: Tech:Server admin log
 ---
 
+## 2026-02-10 
+
+* 23:13 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php sql --wiki=metawiki /srv/mediawiki/1.45/extensions/GlobalBlocking/sql/mysql/patch-globalblocks-modify-gb_id-unsigned.sql --wikidb=mhglobal (END - exit=0)
+* 20:58 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'DataMaps'} to all - SUCCESS in 30s
+* 20:58 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'DataMaps'} to all
+* 20:36 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on test151: linux-libc-dev
+* 18:21 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 18:21 MirahezeLSBot: [universalomega@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 18:01 MirahezeLSBot: [reception@mwtask181] finished deploy of {'landing': True} to all - SUCCESS in 28s
+* 18:01 MirahezeLSBot: [reception@mwtask181] starting deploy of {'landing': True} to all
+* 17:25 MirahezeLSBot: [reception@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 31s
+* 17:24 MirahezeLSBot: [reception@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 10:05 @posix_memalign: disable Extension:Flow on wikis with no pages in Topic NS and no pages with content model flow-board
+* 03:30 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 03:29 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 03:09 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawiki --setting=wgDataMapsEnableFandomPortingTools --remove --all-wikis --execute (END - exit=0)
+* 03:05 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 03:05 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 02:51 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 30s
+* 02:50 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 02:43 Universal Omega: Upgraded ldapwikiwiki to MediaWiki 1.45
+* 02:33 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CentralAuth:FixRenamedUserGlobalEditCount --wiki=metawiki --fix (END - exit=0)
+* 02:31 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CentralAuth:FixRenamedUserGlobalEditCount --wiki=metawiki (END - exit=2)
+* 02:30 Universal Omega: Upgraded metawiki to MediaWiki 1.45
+* 02:18 Universal Omega: reboot mw182 from proxmox (was totally unresponsive)
+* 01:46 Universal Omega: Upgraded loginwiki to MediaWiki 1.45
+* 01:42 Universal Omega: Upgraded commonswiki to MediaWiki 1.45
+* 01:40 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 01:39 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 00:46 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 00:45 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 00:44 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 00:44 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 00:43 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php MirahezeMagic:Populate144MediaWikiVersion --wiki=metawiki (END - exit=0)
+* 00:01 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 00:01 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
 ## 2026-02-09 
 
 * 23:48 SomeRandomDeveloper: Deploy patches for T14297 and T14201 to 1.45 on prod

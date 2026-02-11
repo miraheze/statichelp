@@ -29,6 +29,7 @@ Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna
    Please use Option Two. PRGW still stands mainly as an archive, and deleting the extension's messages ruin the archival effort. I liked the Flow extension, but I understand the reasonings behind this. [jrStudios](https://meta.miraheze.org/wiki/User:JrStudios) ([talk](https://meta.miraheze.org/wiki/User_talk:JrStudios)) 14:44, 9 February 2026 (UTC)
    I concur. Flow is definitely in need of being put out to pasture. If preserving full edit histories is going to be that difficult, I'd prefer we pick the simplest solution to fixing this problem. [GethN7](https://meta.miraheze.org/wiki/User:GethN7) ([talk](https://meta.miraheze.org/wiki/User_talk:GethN7)) 15:58, 9 February 2026 (UTC)
    Likewise, option two is preferable, but getting rid of Flow is the more important goal. If that means losing the histories, we at All The Tropes will cope.  --[Looney Toons](https://meta.miraheze.org/wiki/User:Looney_Toons) ([talk](https://meta.miraheze.org/wiki/User_talk:Looney_Toons)) 18:46, 9 February 2026 (UTC)
+   2 is the objectively better service choice although we'd live if only 1 turns out to be practical. --**[raidarr](https://meta.miraheze.org/wiki/User:Raidarr)** **(** [💬](https://meta.miraheze.org/wiki/User_talk:Raidarr) **)** 14:11, 10 February 2026 (UTC)
 
 ## Extension:ImageRating
 
@@ -97,6 +98,7 @@ Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna
       I will investigate this further, as we should be able to make it compatible with ManageWiki, since there is interest in the extension, I believe it is worth it to maintain and figure out a way to make it work. For now, we can consider ProtectSite will not be removed with 1.45 and we will try and figure it out more. [Universal Omega](https://meta.miraheze.org/wiki/User:Universal_Omega) ([talk](https://meta.miraheze.org/wiki/User_talk:Universal_Omega)) 05:15, 9 February 2026 (UTC)
          That sounds good! Thank you @ [Universal Omega](https://meta.miraheze.org/wiki/User:Universal_Omega) and @ [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) for the investigation. I do also like the idea of some intuitive shortcuts on the permissions page as well, and if ProtectSite ends up being incompatible with ManageWiki (either now or in the future), I think that would be a good solution. - [JaneBuzJane](https://meta.miraheze.org/wiki/User:JaneBuzJane) ([talk](https://meta.miraheze.org/wiki/User_talk:JaneBuzJane)) 17:49, 9 February 2026 (UTC)
          Yes, I too would appreciate this approach. Thank you for considering and investigating. [<span style="background:linear-gradient(90deg,#283cbd,#9030b0);-webkit-background-clip:text!important;-webkit-text-fill-color:transparent;">Soukupmi</span>](https://meta.miraheze.org/wiki/User:Soukupmi) ([talk](https://meta.miraheze.org/wiki/User_talk:Soukupmi)) ([✔](https://meta.miraheze.org/wiki/Special:Contributions/Soukupmi)) 19:42, 9 February 2026 (UTC)
+   I think this would be nice to make completely obsolete by having permissions presets in managewiki. For example action buttons that pull editing from users and/or * and restore them, and that sort of thing. Though I've just casually suggested a whole new thing to set up and maintain so don't mind me. --**[raidarr](https://meta.miraheze.org/wiki/User:Raidarr)** **(** [💬](https://meta.miraheze.org/wiki/User_talk:Raidarr) **)** 14:14, 10 February 2026 (UTC)
 
 ## Extension:QuizGame
 
@@ -131,6 +133,9 @@ Per [phorge:T14866](https://meta.miraheze.org/wiki/phorge:T14866), the extension
 Please respond here. [TheWWRNerdGuy](https://meta.miraheze.org/wiki/User:TheWWRNerdGuy) ([talk](https://meta.miraheze.org/wiki/User_talk:TheWWRNerdGuy)) 11:15, 8 February 2026 (UTC)
 
    I'm a bit conflicted about this one as the extension can be useful once fixed, but perhaps the best way forward is replacing with a Gadget if we can't get upstream to patch it. There were lots of delays with CommentStreams and it might happen again with NumberHeadings. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 08:23, 9 February 2026 (UTC)
+      I think its probably simpler to just ditch and make a gadget unless anyone is especially committed to it in extension form. --**[raidarr](https://meta.miraheze.org/wiki/User:Raidarr)** **(** [💬](https://meta.miraheze.org/wiki/User_talk:Raidarr) **)** 14:12, 10 February 2026 (UTC)
+   Example CSS implementation: [mh:battlecats:Special:Permalink/370239](https://meta.miraheze.org/wiki/mh:battlecats:Special:Permalink/370239)
+   For usage on [https://battlecats.miraheze.org/wiki/User:TheWWRNerdGuy/sandbox2?oldid=370201](https://battlecats.miraheze.org/wiki/User:TheWWRNerdGuy/sandbox2?oldid=370201) [TheWWRNerdGuy](https://meta.miraheze.org/wiki/User:TheWWRNerdGuy) ([talk](https://meta.miraheze.org/wiki/User_talk:TheWWRNerdGuy)) 15:01, 10 February 2026 (UTC)
 
 ## Extension:OrphanedTalkPages
 
