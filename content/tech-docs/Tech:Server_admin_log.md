@@ -2,6 +2,32 @@
 title: Tech:Server admin log
 ---
 
+## 2026-02-11 
+
+* 19:58 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php purgeParserCache --wiki=comprehensibleinputwiki --age=3600 (END - exit=0)
+* 19:13 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php purgeParserCache --wiki=comprehensibleinputwikiwiki --age=3600 (END - exit=65280)
+* 18:25 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 18:25 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 18:25 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 18:25 MirahezeLSBot: [universalomega@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 18:21 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 18:21 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 18:21 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 18:20 MirahezeLSBot: [universalomega@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 08:40 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 08:40 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 01:20 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 01:20 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 01:20 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawiki --setting=wgRandomGameDisplay --remove --all-wikis --execute (END - exit=0)
+* 00:50 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ToggleExtension --wiki=metawiki --name=imagerating --all-wikis --disable --execute (END - exit=0)
+* 00:50 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ToggleExtension --wiki=metawiki --name=randomgameunit --all-wikis --disable --execute (END - exit=0)
+* 00:50 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ToggleExtension --wiki=metawiki --name=quizgame --all-wikis --disable --execute (END - exit=0)
+* 00:49 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 00:48 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 00:26 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ToggleExtension --wiki=metawiki --name=numberheadings --disable --all-wikis --execute (END - exit=0)
+* 00:25 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 00:25 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
 ## 2026-02-10 
 
 * 23:13 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php sql --wiki=metawiki /srv/mediawiki/1.45/extensions/GlobalBlocking/sql/mysql/patch-globalblocks-modify-gb_id-unsigned.sql --wikidb=mhglobal (END - exit=0)
