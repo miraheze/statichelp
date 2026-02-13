@@ -30,6 +30,8 @@ Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna
    I concur. Flow is definitely in need of being put out to pasture. If preserving full edit histories is going to be that difficult, I'd prefer we pick the simplest solution to fixing this problem. [GethN7](https://meta.miraheze.org/wiki/User:GethN7) ([talk](https://meta.miraheze.org/wiki/User_talk:GethN7)) 15:58, 9 February 2026 (UTC)
    Likewise, option two is preferable, but getting rid of Flow is the more important goal. If that means losing the histories, we at All The Tropes will cope.  --[Looney Toons](https://meta.miraheze.org/wiki/User:Looney_Toons) ([talk](https://meta.miraheze.org/wiki/User_talk:Looney_Toons)) 18:46, 9 February 2026 (UTC)
    2 is the objectively better service choice although we'd live if only 1 turns out to be practical. --**[raidarr](https://meta.miraheze.org/wiki/User:Raidarr)** **(** [💬](https://meta.miraheze.org/wiki/User_talk:Raidarr) **)** 14:11, 10 February 2026 (UTC)
+   I was hoping it be possible for posts from Flow to be moved into [mw:Extension:WikiForum](https://meta.miraheze.org/wiki/mw:Extension:WikiForum), but the timeline for this means I would quickly work to both get WikiForum to pass security review, as well as write the converter. This third option preserves the more web-forum aspects of Flow, while losing some aspects of normal wikipages (like content history, WikiForum only makes log entries on edits).  Since my wikifolk above seem fine with the conversion to content pages, I'm curious if anyone else even wants a conversion to forums -- archives on wikipages may be good enough for most people. [Labster](https://meta.miraheze.org/wiki/User:Labster) ([talk](https://meta.miraheze.org/wiki/User_talk:Labster)) 09:28, 12 February 2026 (UTC)
+      Unfortunately this would likely not be feasible unless it can be accomplished fairly quickly. Our timeline for the removal of flow is within a week, so that we can move forward with 1.45 upgrade which Flow needs to be removed first. [Universal Omega](https://meta.miraheze.org/wiki/User:Universal_Omega) ([talk](https://meta.miraheze.org/wiki/User_talk:Universal_Omega)) 09:43, 12 February 2026 (UTC)
 
 ## Extension:ImageRating
 
@@ -49,6 +51,7 @@ Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna
    Also, what about MediaSpoiler? That also gave a database error and I'm not sure it has much use. [Crystalite13](https://meta.miraheze.org/wiki/User:Crystalite13) ([talk](https://meta.miraheze.org/wiki/User_talk:Crystalite13)) 16:21, 9 February 2026 (UTC)
       I fixed that extension a while ago. We already have a spoiler template on dev, so the extension doesn't add much to that. MediaSpoiler is however pretty widely used (enabled on 1200+ wikis), so forcing users to migrate could be a painful process unless we are sure that most wikis simply enable it without using its functionality.
       We thought this is the situation with 3d because the extension was broken for months with no bug reports coming to us, but turned out there are some serious use cases. With the popularity of MediaSpoiler I would assume quite a few wikis use it extensively. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 19:10, 9 February 2026 (UTC)
+   This extension has been removed. [Universal Omega](https://meta.miraheze.org/wiki/User:Universal_Omega) ([talk](https://meta.miraheze.org/wiki/User_talk:Universal_Omega)) 09:44, 12 February 2026 (UTC)
 
 ## Extension:3D
 
@@ -61,6 +64,8 @@ Features provided by this extension can be implemented with JavaScript, such as 
 ### Discussion 3
 
 Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 10:27, 8 February 2026 (UTC)
+
+   We have decided based on the feedback given and the fact this *should* work since it's a WMF extension, we will keep it and investigate the issues with it. We appreciate the feedback. [Universal Omega](https://meta.miraheze.org/wiki/User:Universal_Omega) ([talk](https://meta.miraheze.org/wiki/User_talk:Universal_Omega)) 09:47, 12 February 2026 (UTC)
 
 I was planning to use 3D models in my wiki, but had not yet done so. Seeing 3D being removed is somewhat disappointing. As stated above, I know that it can be re-implemented in JavaScript, but that is quite a large amount of overhead. Are there any alternative extensions for displaying 3D models that could be used instead? [User:9021007xyz](https://meta.miraheze.org/wiki/User:9021007xyz) ([User talk:9021007xyz](https://meta.miraheze.org/wiki/User_talk:9021007xyz)) 03:07, 09 February 2026 (UTC)
 
@@ -99,6 +104,8 @@ Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna
          That sounds good! Thank you @ [Universal Omega](https://meta.miraheze.org/wiki/User:Universal_Omega) and @ [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) for the investigation. I do also like the idea of some intuitive shortcuts on the permissions page as well, and if ProtectSite ends up being incompatible with ManageWiki (either now or in the future), I think that would be a good solution. - [JaneBuzJane](https://meta.miraheze.org/wiki/User:JaneBuzJane) ([talk](https://meta.miraheze.org/wiki/User_talk:JaneBuzJane)) 17:49, 9 February 2026 (UTC)
          Yes, I too would appreciate this approach. Thank you for considering and investigating. [<span style="background:linear-gradient(90deg,#283cbd,#9030b0);-webkit-background-clip:text!important;-webkit-text-fill-color:transparent;">Soukupmi</span>](https://meta.miraheze.org/wiki/User:Soukupmi) ([talk](https://meta.miraheze.org/wiki/User_talk:Soukupmi)) ([✔](https://meta.miraheze.org/wiki/Special:Contributions/Soukupmi)) 19:42, 9 February 2026 (UTC)
    I think this would be nice to make completely obsolete by having permissions presets in managewiki. For example action buttons that pull editing from users and/or * and restore them, and that sort of thing. Though I've just casually suggested a whole new thing to set up and maintain so don't mind me. --**[raidarr](https://meta.miraheze.org/wiki/User:Raidarr)** **(** [💬](https://meta.miraheze.org/wiki/User_talk:Raidarr) **)** 14:14, 10 February 2026 (UTC)
+   I am BC of [Tanukipedia](https://meta.miraheze.org/wiki/mh:tanukipedia:). I have used this feature numerous times to counter vandalism. If ProtectSite were to disappear, I would face 2 problems: First, the cost of responding flexibly to sudden outbreaks of vandalism would increase significantly. Second, I would no longer be able to implement time-limited protections for set periods, such as 1 day or 1 week. --[TANUKI](https://meta.miraheze.org/wiki/User:TANUKI) ([talk](https://meta.miraheze.org/wiki/User_talk:TANUKI)) 03:20, 12 February 2026 (UTC)
+   We have decided based on the feedback given we will keep this extension and investigate the issues with it. [Universal Omega](https://meta.miraheze.org/wiki/User:Universal_Omega) ([talk](https://meta.miraheze.org/wiki/User_talk:Universal_Omega)) 09:46, 12 February 2026 (UTC)
 
 ## Extension:QuizGame
 
@@ -111,6 +118,7 @@ Just like ImageRating, testing revealed multiple issues with this extension. Its
 Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 10:27, 8 February 2026 (UTC)
 
    I've experimented with both [QuizGame](https://meta.miraheze.org/wiki/mw:Extension:QuizGame) and [RandomGameUnit](https://meta.miraheze.org/wiki/mw:Extension:RandomGameUnit) on my home wiki from time to time, but got nowhere with it, so I disabled it. To prevent any headaches from forming in the near future on Miraheze, I think removing these two extensions would be a good idea. — [🧺 Wicker Basket](https://meta.miraheze.org/wiki/User:WickerBasket9) • [📝 Spam me!](https://meta.miraheze.org/wiki/User_talk:WickerBasket9) • [🗄️ Garbage can](https://meta.miraheze.org/wiki/Special:Contributions/WickerBasket9) • [🌎 Home wiki](https://meta.miraheze.org/wiki/mh:mlaatrabbot:My_Life_as_a_Teenage_Rabbot_Wiki) • [📑 Log book](https://meta.miraheze.org/wiki/Special:Log/User:WickerBasket9) 📆 03:53, 9 February 2026 (UTC)
+   This extension has been removed. [Universal Omega](https://meta.miraheze.org/wiki/User:Universal_Omega) ([talk](https://meta.miraheze.org/wiki/User_talk:Universal_Omega)) 09:45, 12 February 2026 (UTC)
 
 ## Extension:RandomGameUnit
 
@@ -121,6 +129,8 @@ Its functionality depends on QuizGame and has little use without it.
 ### Discussion 6
 
 Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 10:27, 8 February 2026 (UTC)
+
+   This extension has been removed. [Universal Omega](https://meta.miraheze.org/wiki/User:Universal_Omega) ([talk](https://meta.miraheze.org/wiki/User_talk:Universal_Omega)) 09:45, 12 February 2026 (UTC)
 
 ## Extension:NumberHeadings
 
@@ -136,6 +146,7 @@ Please respond here. [TheWWRNerdGuy](https://meta.miraheze.org/wiki/User:TheWWRN
       I think its probably simpler to just ditch and make a gadget unless anyone is especially committed to it in extension form. --**[raidarr](https://meta.miraheze.org/wiki/User:Raidarr)** **(** [💬](https://meta.miraheze.org/wiki/User_talk:Raidarr) **)** 14:12, 10 February 2026 (UTC)
    Example CSS implementation: [mh:battlecats:Special:Permalink/370239](https://meta.miraheze.org/wiki/mh:battlecats:Special:Permalink/370239)
    For usage on [https://battlecats.miraheze.org/wiki/User:TheWWRNerdGuy/sandbox2?oldid=370201](https://battlecats.miraheze.org/wiki/User:TheWWRNerdGuy/sandbox2?oldid=370201) [TheWWRNerdGuy](https://meta.miraheze.org/wiki/User:TheWWRNerdGuy) ([talk](https://meta.miraheze.org/wiki/User_talk:TheWWRNerdGuy)) 15:01, 10 February 2026 (UTC)
+   This extension has been removed. [Universal Omega](https://meta.miraheze.org/wiki/User:Universal_Omega) ([talk](https://meta.miraheze.org/wiki/User_talk:Universal_Omega)) 09:45, 12 February 2026 (UTC)
 
 ## Extension:OrphanedTalkPages
 

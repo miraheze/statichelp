@@ -2,6 +2,90 @@
 title: Tech:Server admin log
 ---
 
+## 2026-02-12 
+
+* 23:51 MirahezeLSBot: [universalomega@cloud21] Clear SEL
+* 21:02 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os202: libpq5, nginx, and nginx-common
+* 21:02 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on test151: libpq5, nginx, and nginx-common
+* 21:01 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on rdb191: libpq5
+* 21:01 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy171: libpq5, nginx, and nginx-common
+* 21:01 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject201: libpq5
+* 21:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy161: libpq5, nginx, and nginx-common
+* 21:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject181: libpq5
+* 21:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject191: libpq5
+* 21:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject171: libpq5
+* 20:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject161: libpq5
+* 20:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject151: libpq5
+* 20:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ns2: libpq5
+* 20:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftac171: libpq5
+* 20:58 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os191: libpq5
+* 20:58 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on reports171: libpq5, nginx, and nginx-common
+* 20:58 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask181: libpq5, nginx, and nginx-common
+* 20:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on prometheus151: libpq5
+* 20:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on puppet181: libpq5, nginx, nginx-common, postgresql-client-17, and postgresql-17
+* 20:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask171: libpq5, nginx, and nginx-common
+* 20:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os162: libpq5, nginx, and nginx-common
+* 20:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os201: libpq5
+* 20:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os161: libpq5
+* 20:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on phorge171: libpq5, nginx, and nginx-common
+* 20:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os151: libpq5, nginx, and nginx-common
+* 20:55 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw203: libpq5, nginx, and nginx-common
+* 20:55 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask161: libpq5, nginx, and nginx-common
+* 20:54 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw202: libpq5, nginx, and nginx-common
+* 20:54 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask151: libpq5, nginx, and nginx-common
+* 20:53 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ns1: libpq5
+* 20:53 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw192: libpq5, nginx, and nginx-common
+* 20:53 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw201: libpq5, nginx, and nginx-common
+* 20:52 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw191: libpq5, nginx, and nginx-common
+* 20:52 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw193: libpq5, nginx, and nginx-common
+* 20:52 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on kafka182: libpq5
+* 20:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw182: libpq5, nginx, and nginx-common
+* 20:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw173: libpq5, nginx, and nginx-common
+* 20:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw183: libpq5, nginx, and nginx-common
+* 20:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw181: libpq5, nginx, and nginx-common
+* 20:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw171: libpq5, nginx, and nginx-common
+* 20:49 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw161: libpq5, nginx, and nginx-common
+* 20:49 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw151: libpq5, nginx, and nginx-common
+* 20:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw153: libpq5, nginx, and nginx-common
+* 20:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw152: libpq5, nginx, and nginx-common
+* 20:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw162: libpq5, nginx, and nginx-common
+* 20:47 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw172: libpq5, nginx, and nginx-common
+* 20:47 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw163: libpq5, nginx, and nginx-common
+* 20:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db201: libpq5
+* 20:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db192: libpq5
+* 20:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem191: libpq5
+* 20:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on changeprop202: haproxy and libpq5
+* 20:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem201: libpq5
+* 20:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mon181: libpq5, nginx, and nginx-common
+* 20:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on llm191: libpq5, nginx, and nginx-common
+* 20:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem161: libpq5
+* 20:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem151: libpq5
+* 20:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ldap171: libpq5
+* 20:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on matomo151: libpq5, nginx, and nginx-common
+* 20:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mattermost2: libpq5, nginx, nginx-common, postgresql-client-17, and postgresql-17
+* 20:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud21: connect
+* 20:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud19: libpq5
+* 20:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud18: libpq5
+* 20:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp201: haproxy and libpq5
+* 20:42 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud20: libpq5
+* 20:42 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud17: libpq5
+* 20:42 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud16: libpq5
+* 20:42 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp171: haproxy and libpq5
+* 20:41 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on eventgate182: libpq5
+* 20:41 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on graylog161: libpq5, nginx, and nginx-common
+* 20:41 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp191: haproxy and libpq5
+* 20:41 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud15: libpq5
+* 20:40 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db171: libpq5
+* 20:40 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db181: libpq5
+* 20:40 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db182: libpq5
+* 20:40 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db161: libpq5
+* 20:39 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bast181: libpq5
+* 20:39 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bast161: libpq5
+* 20:39 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db151: libpq5
+* 20:39 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp161: libpq5, nginx, and nginx-common
+* 20:39 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db172: libpq5
+* 20:38 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bots171: libpq5
+
 ## 2026-02-11 
 
 * 19:58 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php purgeParserCache --wiki=comprehensibleinputwiki --age=3600 (END - exit=0)

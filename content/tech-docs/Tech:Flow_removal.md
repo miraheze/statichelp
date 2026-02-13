@@ -19,5 +19,15 @@ This is for the technology team's reference and for any third party interested i
 
 Links to pages in the `Topic` namespace will be invalidated. To fix them, [https://gitlab.wikimedia.org/pppery/flow-topic-links-fix](https://gitlab.wikimedia.org/pppery/flow-topic-links-fix) can be run. It does not require the flow board to be present but does require both Flow and CirrusSearch to be installed, which are not available on some wikis. This *could* be offered for wikis interested in keeping links but will involve more efforts.
 
+## Timeline
+
+There are more than 200 wikis that use Flow. The majority of them have never created any Flow boards, so the extension can be disabled for them without any cleanup required. That leaves 79 wikis with Flow boards that need to be converted to wikitext for archival purposes before removing Flow.
+
+In the table below, "undeploy Flow" means: convert all Flow boards to wikitext, disable Flow, and then remove all pages in Topic NS.
+| Event | Date |
+| --- | --- |
+| Disable Flow for all wikis that have not created any Flow boards | 2026-02-10 |
+| Undeploy Flow on [Public Test Wiki](https://meta.miraheze.org/wiki/testwiki:) | 2026-02-11 |
+
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Flow_removal)**
