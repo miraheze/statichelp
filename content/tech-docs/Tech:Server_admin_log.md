@@ -2,6 +2,83 @@
 title: Tech:Server admin log
 ---
 
+## 2026-02-13 
+
+* 23:39 MirahezeLSBot: [universalomega@test151] finished deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'BlogPage'} to test151 - SUCCESS in 0s
+* 23:39 MirahezeLSBot: [universalomega@test151] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'BlogPage'} to test151
+* 23:39 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject201: pdns-recursor
+* 23:39 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject191: pdns-recursor
+* 23:38 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy161: pdns-recursor
+* 23:38 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy171: pdns-recursor
+* 23:38 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject181: pdns-recursor
+* 23:38 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject151: pdns-recursor
+* 23:37 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject161: pdns-recursor
+* 23:37 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'BlogPage'} to all - SUCCESS in 29s
+* 23:37 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject171: pdns-recursor
+* 23:37 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftac171: pdns-recursor
+* 23:37 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'BlogPage'} to all
+* 23:36 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on rdb191: pdns-recursor
+* 23:36 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os202: pdns-recursor
+* 23:36 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on puppet181: pdns-recursor
+* 23:36 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on reports171: pdns-recursor
+* 23:35 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os191: pdns-recursor
+* 23:35 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os201: pdns-recursor
+* 23:35 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on prometheus151: pdns-recursor
+* 23:34 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os162: pdns-recursor
+* 23:34 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on phorge171: pdns-recursor
+* 23:34 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os161: pdns-recursor
+* 23:33 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os151: pdns-recursor
+* 23:30 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mon181: pdns-recursor
+* 23:30 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem201: pdns-recursor
+* 23:29 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem191: pdns-recursor
+* 23:29 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on llm191: pdns-recursor
+* 23:29 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem151: pdns-recursor
+* 23:29 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on matomo151: pdns-recursor
+* 23:28 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem161: pdns-recursor
+* 23:28 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on kafka182: pdns-recursor
+* 23:28 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mattermost2: pdns-recursor
+* 23:28 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ldap171: pdns-recursor
+* 23:28 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp201: pdns-recursor
+* 23:27 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db201: pdns-recursor
+* 23:27 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db192: pdns-recursor
+* 23:26 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on changeprop202: pdns-recursor
+* 23:26 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on eventgate182: pdns-recursor
+* 23:26 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db181: pdns-recursor
+* 23:25 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp171: pdns-recursor
+* 23:25 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp191: pdns-recursor
+* 23:25 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db182: pdns-recursor
+* 23:24 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on graylog161: pdns-recursor
+* 23:24 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db151: pdns-recursor
+* 23:24 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bast181: pdns-recursor
+* 23:24 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db171: pdns-recursor
+* 23:23 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db172: pdns-recursor
+* 23:23 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp161: pdns-recursor
+* 23:23 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db161: pdns-recursor
+* 23:23 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud21: pdns-recursor
+* 23:22 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bast161: pdns-recursor
+* 23:21 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bots171: pdns-recursor
+* 23:20 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 23:19 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 23:12 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/rebuildall.php --wiki=animatorvsanimationwiki (START)
+* 23:12 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=animatorvsanimationwiki dump.xml --no-updates (END - exit=0)
+* 23:04 MirahezeLSBot: [universalomega@test151] finished deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'BlogPage'} to test151 - SUCCESS in 0s
+* 23:04 MirahezeLSBot: [universalomega@test151] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'BlogPage'} to test151
+* 23:03 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'BlogPage'} to all - SUCCESS in 31s
+* 23:02 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'BlogPage'} to all
+* 22:31 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=animatorvsanimationwiki dump.xml --no-updates (START)
+* 22:01 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 30s
+* 22:01 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 20:31 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 42s
+* 20:30 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 20:18 Universal Omega: restart cgroup on mw*
+* 17:16 Universal Omega: started 1.45 upgrade script on deleted wikis
+* 07:39 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php purgeParserCache --wiki=wikibiginowiki --age=7200 --msleep=100 (END - exit=0)
+* 06:55 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php purgeParserCache --wiki=wikibignowiki --age=7200 --msleep=100 (END - exit=65280)
+* 06:18 @posix_memalign: Undeploy Flow on some more wikis. See P585 for details. 43 wikis remaining.
+* 04:34 MirahezeLSBot: [petramagna@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:ToggleExtension --wiki=differenthistorywiki --name=Flow --disable (END - exit=256)
+* 04:33 @posix_memalign: Undeploy Flow on bgowiki borostwiki braveninewiki cancelledmovieswiki christipediawiki comiccrossroadswiki constitutionwiki creepypastawiki crocwiki depressingdeathswiki
+* 02:54 @posix_memalign: Undeploy Flow on algowikiwiki, amazinggameplaywiki, amazingyoutuberswiki, astonishingscratcherswiki, atrociousgameplaywiki
+
 ## 2026-02-12 
 
 * 23:51 MirahezeLSBot: [universalomega@cloud21] Clear SEL
