@@ -2,6 +2,56 @@
 title: Tech:Server admin log
 ---
 
+## 2026-02-14 
+
+* 22:56 @posix_memalign: Delete broken Flow boards on greatcharacterswiki ("An error has occurred.")
+* 22:24 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 34s
+* 22:23 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 20:31 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 20:31 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:10 RhinosF1: set [https://meta.miraheze.org/wiki/Special:RequestWikiQueue/74797#mw-section-handling](https://meta.miraheze.org/wiki/Special:RequestWikiQueue/74797#mw-section-handling) back to interview
+* 19:05 RhinosF1: deleted and dropped the above on db161
+* 19:02 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwiki --delete --deletewiki robloxvehicleswiki (END - exit=0)
+* 16:36 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'l10n': True, 'extension_list': True, 'versions': ['1.44', '1.45']} to all - SUCCESS in 1237s
+* 16:21 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'l10n': True, 'extension_list': True, 'versions': '1.45'} to test151 - SUCCESS in 327s
+* 16:15 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'l10n': True, 'extension_list': True, 'versions': ['1.44', '1.45']} to all
+* 16:15 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'l10n': True, 'extension_list': True, 'versions': '1.45'} to test151
+* 16:14 MirahezeLSBot: [somerandomdeveloper@puppet181] sudo salt-ssh -E mw.* cmd.run sudo -u www-data rm -rf /srv/mediawiki/{1.44,1.45}/extensions/MintyDocs
+* 16:12 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data rm -rf /srv/mediawiki-staging/1.44/extensions/MintyDocs/ /srv/mediawiki-staging/1.45/extensions/MintyDocs/
+* 16:07 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data rm -rf /srv/mediawiki-staging/1.45/extensions/MintyDocs/
+* 16:06 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 16:05 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 16:05 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 16:05 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 16:01 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ToggleExtension --wiki=loginwiki --name=mintydocs --disable --all-wikis --execute (END - exit=0)
+* 16:00 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ToggleExtension --wiki=loginwikibeta --name=mintydocs --disable --all-wikis --execute (END - exit=0)
+* 09:57 MirahezeLSBot: [universalomega@mwtask161] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/closed.php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:UpgradeWiki --json=/srv/mediawiki/1.45.json (END - exit=0)
+* 09:53 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 09:52 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 08:39 Universal Omega: start ircecho again
+* 08:37 Universal Omega: gradually enable and run puppet on servers in batches
+* 08:20 Universal Omega: stop ircecho and disable puppet everywhere for testing a PR.
+* 05:29 MirahezeLSBot: [universalomega@mwtask151] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/inactive.php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:UpgradeWiki --json=/srv/mediawiki/1.45.json (END - exit=0)
+* 04:55 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 04:55 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 04:40 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=metawiki (END - exit=0)
+* 04:02 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 04:01 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 03:28 Skye: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php resetUserEmail --wiki=metawiki --email-password RevenantShu <user email>
+* 02:48 MirahezeLSBot: [universalomega@mwtask161] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/closed.php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:UpgradeWiki --json=/srv/mediawiki/1.45.json (START)
+* 02:47 MirahezeLSBot: [universalomega@mwtask151] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/inactive.php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:UpgradeWiki --json=/srv/mediawiki/1.45.json (START)
+* 02:43 MirahezeLSBot: [universalomega@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=damnationwiki --json=/srv/mediawiki/1.45.json (END - exit=0)
+* 02:40 MirahezeLSBot: [universalomega@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=thechurchofthestatuewiki --json=/srv/mediawiki/1.45.json (END - exit=0)
+* 02:37 MirahezeLSBot: [universalomega@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=soulframewiki --json=/srv/mediawiki/1.45.json (END - exit=0)
+* 02:22 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 29s
+* 02:21 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 02:12 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/initSiteStats.php --wiki=animatorvsanimationwiki --update (END - exit=0)
+* 02:12 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/rebuildall.php --wiki=animatorvsanimationwiki (END - exit=0)
+* 02:09 MirahezeLSBot: [universalomega@mwtask161] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/closed.php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:UpgradeWiki --json=/srv/mediawiki/1.45.json (END - exit=2)
+* 02:09 MirahezeLSBot: [universalomega@mwtask151] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/inactive.php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:UpgradeWiki --json=/srv/mediawiki/1.45.json (END - exit=2)
+* 01:13 MirahezeLSBot: [universalomega@mwtask161] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/closed.php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:UpgradeWiki --json=/srv/mediawiki/1.45.json (START)
+* 01:12 MirahezeLSBot: [universalomega@mwtask151] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/inactive.php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:UpgradeWiki --json=/srv/mediawiki/1.45.json (START)
+
 ## 2026-02-13 
 
 * 23:39 MirahezeLSBot: [universalomega@test151] finished deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'BlogPage'} to test151 - SUCCESS in 0s
