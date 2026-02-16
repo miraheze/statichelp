@@ -2,6 +2,78 @@
 title: Tech:Server admin log
 ---
 
+## 2026-02-15 
+
+* 23:06 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 29s
+* 23:05 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'ManageWiki'} to all
+* 23:05 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 23:04 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 23:03 MirahezeLSBot: [universalomega@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'ManageWiki'} to test151 - SUCCESS in 0s
+* 23:03 MirahezeLSBot: [universalomega@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'ManageWiki'} to test151
+* 23:02 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True, 'ignore_time': True} to test151 - SUCCESS in 0s
+* 23:02 MirahezeLSBot: [universalomega@test151] starting deploy of {'pull': 'config', 'config': True, 'ignore_time': True} to test151
+* 21:43 RhinosF1: [rhinos@puppet181:~]$ sudo salt-ssh -E "cp.*" cmd.run "varnishadm ban req.http.Host == azurepeak.miraheze.org"
+* 21:41 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 21:40 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 21:40 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 31s
+* 21:40 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 21:39 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'files': '1.45/includes/filerepo/ForeignAPIRepo.php'} to all - SUCCESS in 26s
+* 21:39 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'files': '1.45/includes/filerepo/ForeignAPIRepo.php'} to all
+* 21:38 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 21:38 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 21:17 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'CategoryTests'} to test151 - SUCCESS in 0s
+* 21:17 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'CategoryTests'} to test151
+* 21:13 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'CategoryTests'} to all - SUCCESS in 27s
+* 21:13 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'CategoryTests'} to all
+* 21:11 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.45/extensions/DPLForum'} to all - SUCCESS in 28s
+* 21:10 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.45/extensions/DPLForum'} to all
+* 20:57 @posix_memalign: Disable flow, imagerating, randomgameunit, quizgame, growthexperiments, and numberheadings on test151
+* 20:38 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.45/extensions/CategoryTests'} to all - SUCCESS in 29s
+* 20:37 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.45/extensions/CategoryTests'} to all
+* 17:23 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php updateCollation --wiki=battreeswiki (END - exit=0)
+* 17:14 MirahezeLSBot: [universalomega@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=battreeswiki (END - exit=0)
+* 17:14 MirahezeLSBot: [universalomega@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=battreeswiki (START)
+* 17:13 MirahezeLSBot: [universalomega@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=battreeswiki --json=/srv/mediawiki/1.45.json (END - exit=0)
+* 17:13 MirahezeLSBot: [universalomega@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=battreeswiki --json=/srv/mediawiki/1.45.json (END - exit=256)
+* 17:11 MirahezeLSBot: [universalomega@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=battreeswiki --json=/srv/mediawiki/1.45.json (END - exit=256)
+* 17:11 MirahezeLSBot: [universalomega@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=battreeswiki --json=/srv/mediawiki/1.45.json (END - exit=256)
+* 17:10 MirahezeLSBot: [universalomega@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php sql --wiki=battreeswiki /srv/mediawiki/1.45/sql/mysql/patch-categorylinks-target_id.sql (END - exit=0)
+* 15:55 MirahezeLSBot: [skye@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'DarkMode'} to all - SUCCESS in 29s
+* 15:55 MirahezeLSBot: [skye@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'DarkMode'} to all
+* 15:28 MirahezeLSBot: [universalomega@mwtask151] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/active.php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:UpgradeWiki --json=/srv/mediawiki/1.45.json (END - exit=0)
+* 11:35 @posix_memalign: Purge CloudFlare cache for prefix hellmet.miraheze.org/w/load.php
+* 11:31 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_skins': 'Lakeus'} to all - SUCCESS in 31s
+* 11:31 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_skins': 'Lakeus'} to all
+* 11:30 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'force': True, 'versions': '1.45', 'upgrade_skins': 'Lakeus'} to all - SUCCESS in 0s
+* 11:30 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'force': True, 'versions': '1.45', 'upgrade_skins': 'Lakeus'} to all
+* 11:30 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_skins': 'Lakeus', 'ignore_time': True} to all - SUCCESS in 1s
+* 11:30 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_skins': 'Lakeus', 'ignore_time': True} to all
+* 11:19 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_skins': 'Lakeus', 'ignore_time': True} to all - SUCCESS in 1s
+* 11:19 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_skins': 'Lakeus', 'ignore_time': True} to all
+* 11:18 @posix_memalign: Delete `/srv/mediawiki-staging/1.45/Lakeus` and run `puppet agent -tv` on mwtask181
+* 11:16 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_skins': 'Lakeus'} to all - SUCCESS in 1s
+* 11:16 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_skins': 'Lakeus'} to all
+* 07:51 Universal Omega: upgraded test151 to Debian Trixie
+* 04:49 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 04:49 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 04:48 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': ['CreateWiki', 'ImportDump', 'ManageWiki', 'MirahezeMagic']} to all - SUCCESS in 117s
+* 04:46 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': ['CreateWiki', 'ImportDump', 'ManageWiki', 'MirahezeMagic']} to all
+* 04:41 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 04:41 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 04:09 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 04:08 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 04:07 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php OATHAuth:MoveRecoveryCodesFromTOTP --wiki=metawiki (END - exit=0)
+* 03:52 MirahezeLSBot: [universalomega@mwtask151] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/active.php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:UpgradeWiki --json=/srv/mediawiki/1.45.json (START)
+* 03:51 MirahezeLSBot: [universalomega@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:ChangeMediaWikiVersion --wiki=metawiki --active --mwversion=1.45 (END - exit=0)
+* 03:44 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 03:44 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 03:13 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 03:12 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 03:12 MirahezeLSBot: [universalomega@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 03:12 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 01:46 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php cleanupTitles --wiki=polandballruwiki (END - exit=0)
+* 01:45 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php cleanUpTitles --wiki=polandballruwiki (END - exit=256)
+
 ## 2026-02-14 
 
 * 22:56 @posix_memalign: Delete broken Flow boards on greatcharacterswiki ("An error has occurred.")

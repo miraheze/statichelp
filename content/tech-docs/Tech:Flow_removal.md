@@ -30,7 +30,7 @@ sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php deleteBatch --wiki=
 
 ## Cleanup
 
-Links to pages in the `Topic` namespace will be invalidated. To fix them, [https://gitlab.wikimedia.org/pppery/flow-topic-links-fix](https://gitlab.wikimedia.org/pppery/flow-topic-links-fix) can be run. It does not require the flow board to be present but does require both Flow and CirrusSearch to be installed, which are not available on some wikis. This *could* be offered for wikis interested in keeping links but will involve more efforts.
+Links to pages in the `Topic` namespace will be invalidated. To fix them, [https://gitlab.wikimedia.org/pppery/flow-topic-links-fix](https://gitlab.wikimedia.org/pppery/flow-topic-links-fix) can be run. It does not require the flow board to be present but does require both Flow and CirrusSearch to be installed with regex support, which we do not have.
 
 ## Timeline
 
@@ -42,10 +42,13 @@ In the table below, "undeploy Flow" means: convert all Flow boards to wikitext, 
 | Disable Flow for all wikis that have not created any Flow boards | 2026-02-10 |
 | Undeploy Flow on [Public Test Wiki](https://meta.miraheze.org/wiki/testwiki:) | 2026-02-11 |
 | Undeploy Flow on most wikis. As of writing 19 wikis remain unconverted either due to their size, their visibility (private), or some technical issue with a few pages that prevent them from being exported to wikitext. | 2026-02-13 |
+| Flow undeployed on all wikis. | 2026-02-15 |
 
 ## Aftermath
 
 Due to a mistaken update to the XML export script, all edits in the page history are identified as being made by "Unknown user" on some wikis.
+
+Some pages are missing history due to the import process being interrupted. [User:PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) will be performing some fixes. Please contact him if you see an affected talk page.
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Flow_removal)**
