@@ -12,14 +12,14 @@ This is for the technology team's reference and for any third party interested i
 ```
 sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php ./ConvertFlowToWikitext.php --wiki=wiki
 ```
-* Use [pppery's script](https://gitlab.wikimedia.org/pppery/flow-export-with-history) to convert all Flow boards to wikitext and replace their history with wikitext revisions. Note that the script may require database access for certain edge cases. 
+* Use [a Miraheze fork](https://gitlab.wikimedia.org/lih/flow-export-with-history) of [pppery's script](https://gitlab.wikimedia.org/pppery/flow-export-with-history) to convert all Flow boards to wikitext and replace their history with wikitext revisions. Note that the script may require database access for certain edge cases. 
 ```
 python prep.py wikiname
 python fullConvert.py
 ```
 * Do some [#Cleanup](#cleanup) if needed.
 * Disable the Flow extension.
-* Follow [https://wikitech.wikimedia.org/wiki/Flow](https://wikitech.wikimedia.org/wiki/Flow) to delete orphaned pages in the `Topic` namespace. 
+* Follow [https://wikitech.wikimedia.org/wiki/Flow](https://wikitech.wikimedia.org/wiki/Flow) to delete orphaned pages in the `Topic` namespace. Note that if `jq` is available on the server, it can be used to convert a database query's result directly into a format readable by deleteBatch. 
 ```
 sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php sql --wiki=testwiki --query="SELECT CONCAT('Topic:', page_title) AS page_title FROM page WHERE page_namespace=2600;" --json | jq -r '.[].page_title' > pages.txt
 ```
@@ -42,7 +42,7 @@ In the table below, "undeploy Flow" means: convert all Flow boards to wikitext, 
 | Disable Flow for all wikis that have not created any Flow boards | 2026-02-10 |
 | Undeploy Flow on [Public Test Wiki](https://meta.miraheze.org/wiki/testwiki:) | 2026-02-11 |
 | Undeploy Flow on most wikis. As of writing 19 wikis remain unconverted either due to their size, their visibility (private), or some technical issue with a few pages that prevent them from being exported to wikitext. | 2026-02-13 |
-| Flow undeployed on all wikis. | 2026-02-15 |
+| Flow undeployed on all wikis. Some wikis may have incomplete XML dumps due to the MediaWiki import script crashing on very large files. | 2026-02-15 |
 
 ## Aftermath
 

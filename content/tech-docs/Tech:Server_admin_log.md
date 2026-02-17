@@ -2,6 +2,66 @@
 title: Tech:Server admin log
 ---
 
+## 2026-02-16 
+
+* 22:59 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.45/extensions/SemanticMediaWiki'} to all - SUCCESS in 28s
+* 22:58 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.45/extensions/SemanticMediaWiki'} to all
+* 22:10 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 22:10 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 22:00 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 22:00 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 21:39 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'world': True, 'l10n': True, 'versions': '1.45'} to all - SUCCESS in 618s
+* 21:29 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'world': True, 'l10n': True, 'versions': '1.45'} to all
+* 21:28 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'folders': '1.45/extensions/Bootstrap'} to all - SUCCESS in 27s
+* 21:28 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'folders': '1.45/extensions/Bootstrap'} to all
+* 21:27 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'folders': '1.45/extensions/Bootstrap'} to all - SUCCESS in 26s
+* 21:26 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'folders': '1.45/extensions/Bootstrap'} to all
+* 21:26 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'world': True, 'versions': '1.45'} to all - SUCCESS in 125s
+* 21:24 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'world': True, 'versions': '1.45'} to all
+* 21:16 MirahezeLSBot: [paladox@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 21:16 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'world': True, 'l10n': True, 'versions': '1.45'} to all
+* 21:15 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'world': True, 'versions': '1.45'} to all - SUCCESS in 128s
+* 21:13 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'world': True, 'versions': '1.45'} to all
+* 21:04 @paladox: restart php-fpm on mw*
+* 21:02 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'folders': '1.45'} to all - SUCCESS in 76s
+* 21:01 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'folders': '1.45'} to all
+* 20:59 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'folders': '1.45/extensions/Maps'} to all - SUCCESS in 26s
+* 20:59 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'folders': '1.45/extensions/Maps'} to all
+* 20:58 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'folders': '1.45/vendor'} to all - SUCCESS in 30s
+* 20:58 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'folders': '1.45/vendor'} to all
+* 20:51 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'world': True, 'versions': '1.45'} to all - SUCCESS in 118s
+* 20:49 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'world': True, 'versions': '1.45'} to all
+* 20:48 MirahezeLSBot: [paladox@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 20:48 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'world': True, 'l10n': True, 'versions': '1.45'} to all
+* 20:47 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'world': True, 'versions': '1.45'} to all - SUCCESS in 132s
+* 20:44 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'world': True, 'versions': '1.45'} to all
+* 20:08 RhinosF1: fix the wonderfuck that was the permissions set up on [https://github.com/miraheze/MirahezeRequests/settings/access](https://github.com/miraheze/MirahezeRequests/settings/access) and match it to other extensions
+* 16:47 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'world': True, 'versions': '1.45'} to all - SUCCESS in 133s
+* 16:44 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'world': True, 'versions': '1.45'} to all
+* 16:07 @paladox: run ResetWikiCaches.php on monarquiawiki
+* 16:05 @paladox: disable maps on monarquiawiki to see if it fixes 500
+* 15:53 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'folders': '1.45/extensions/Wikibase'} to all - SUCCESS in 31s
+* 15:53 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'folders': '1.45/extensions/Wikibase'} to all
+* 12:17 MirahezeLSBot: [reception@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 12:17 MirahezeLSBot: [reception@mwtask181] starting deploy of {'l10n': True, 'versions': '1.45'} to all
+* 12:17 MirahezeLSBot: [reception@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 29s
+* 12:16 MirahezeLSBot: [reception@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 12:14 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/rebuildLocalisationCache.php --wiki=loginwiki (END - exit=0)
+* 12:09 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/rebuildLocalisationCache.php --wiki=loginwiki --lang en (END - exit=0)
+* 12:09 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/rebuildLocalisationCache.php --wiki=loginwiki (END - exit=2)
+* 12:05 MirahezeLSBot: [reception@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 12:05 MirahezeLSBot: [reception@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 12:02 MirahezeLSBot: [reception@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 12:02 MirahezeLSBot: [reception@mwtask181] starting deploy of {'l10n': True, 'versions': '1.45'} to all
+* 11:47 MirahezeLSBot: [reception@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 1s
+* 11:47 MirahezeLSBot: [reception@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 11:46 MirahezeLSBot: [reception@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 11:46 MirahezeLSBot: [reception@mwtask181] starting deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 11:46 MirahezeLSBot: [reception@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 11:46 MirahezeLSBot: [reception@mwtask181] starting deploy of {'l10n': True, 'lang': 'en', 'versions': '1.45', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 11:44 MirahezeLSBot: [reception@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 11:43 MirahezeLSBot: [reception@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
 ## 2026-02-15 
 
 * 23:06 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 29s
