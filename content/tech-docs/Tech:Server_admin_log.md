@@ -2,6 +2,39 @@
 title: Tech:Server admin log
 ---
 
+## 2026-02-17 
+
+* 23:18 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'VoteNY'} to all - SUCCESS in 30s
+* 23:17 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'VoteNY'} to all
+* 21:50 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.45/extensions/CommentStreams'} to all - SUCCESS in 27s
+* 21:50 SomeRandomDeveloper: reapply fixed CommentStreams patch
+* 21:50 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.45/extensions/CommentStreams'} to all
+* 21:45 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.45/extensions/CommentStreams'} to all - SUCCESS in 27s
+* 21:45 SomeRandomDeveloper: revert CommentStreams patch due to issues
+* 21:45 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.45/extensions/CommentStreams'} to all
+* 21:29 SomeRandomDeveloper: deploy local patch for T14969
+* 21:27 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.45/extensions/CommentStreams'} to all - SUCCESS in 27s
+* 21:27 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.45/extensions/CommentStreams'} to all
+* 21:06 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'DPLForum'} to all - SUCCESS in 28s
+* 21:06 SomeRandomDeveloper: remove local DPLForum patch for T14963 and upgrade instead
+* 21:06 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'DPLForum'} to all
+* 21:02 SomeRandomDeveloper: deploy local patch for T14971 (via "sudo -u www-data patch -p1 < ~/Maps.patch" since Maps is installed via composer)
+* 21:02 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.45/extensions/Maps'} to all - SUCCESS in 27s
+* 21:01 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.45/extensions/Maps'} to all
+* 20:53 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'world': True, 'versions': '1.45'} to all - SUCCESS in 169s
+* 20:50 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'world': True, 'versions': '1.45'} to all
+* 19:57 RhinosF1: dropped woodwikiwiki on db161/c2 per stewards to make room for a new wiki
+* 19:56 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwiki --delete --deletewiki woodwikiwiki (END - exit=0)
+* 16:47 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=baseplatehistorycentrewiki --new=robloxiumwiki --user=Reception123 (END - exit=0)
+* 16:45 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=evolutionismwiki --new=lifeismwiki --user=Reception123 (END - exit=0)
+* 16:18 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=funorbwiki /home/reception/funorb_pages_full.xml --username-prefix=wikia:funorb (START)
+* 16:16 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=funorbwiki /home/reception/funorb_pages_full.xml --username-prefix=wikia:funorb (END - exit=256)
+* 16:16 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=funorbwiki /home/reception/funorb_pages_full.xml --username-prefix=wikia:funorb (START)
+* 16:15 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=funorbwiki /home/reception/funorb_pages_full.xml --username-prefix=wikia:funorb (END - exit=256)
+* 16:15 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=funorbwiki /home/reception/funorb_pages_full.xml --username-prefix=wikia:funorb (START)
+* 07:48 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 07:48 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
 ## 2026-02-16 
 
 * 22:59 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.45/extensions/SemanticMediaWiki'} to all - SUCCESS in 28s
