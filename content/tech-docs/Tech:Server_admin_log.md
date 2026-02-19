@@ -2,6 +2,74 @@
 title: Tech:Server admin log
 ---
 
+## 2026-02-18 
+
+* 17:13 MirahezeLSBot: [reception@mwtask181] finished deploy of {'pull': 'landing', 'landing': True} to all - SUCCESS in 30s
+* 17:13 MirahezeLSBot: [reception@mwtask181] starting deploy of {'pull': 'landing', 'landing': True} to all
+* 16:17 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname elysiamcwiki --requester DaysantElysiaMC (END - exit=0)
+* 15:30 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 15:29 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 14:56 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'CheckUser'} to all - SUCCESS in 31s
+* 14:55 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'CheckUser'} to all
+* 14:55 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'CheckUser'} to test151 - SUCCESS in 1s
+* 14:55 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'CheckUser'} to test151
+* 13:59 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.45'} to all - SUCCESS in 525s
+* 13:54 MirahezeLSBot: [paladox@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'PageForms'} to test151 - SUCCESS in 1s
+* 13:54 MirahezeLSBot: [paladox@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'PageForms'} to test151
+* 13:54 MirahezeLSBot: [paladox@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'Cargo'} to test151 - SUCCESS in 0s
+* 13:54 MirahezeLSBot: [paladox@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'Cargo'} to test151
+* 13:53 MirahezeLSBot: [paladox@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 13:53 MirahezeLSBot: [paladox@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'MirahezeMagic'} to test151
+* 13:52 MirahezeLSBot: [paladox@test151] finished deploy of {'folders': '1.45/extensions/SemanticMediaWiki'} to test151 - SUCCESS in 0s
+* 13:52 MirahezeLSBot: [paladox@test151] starting deploy of {'folders': '1.45/extensions/SemanticMediaWiki'} to test151
+* 13:52 MirahezeLSBot: [paladox@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'DPLForum'} to test151 - SUCCESS in 0s
+* 13:52 MirahezeLSBot: [paladox@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'DPLForum'} to test151
+* 13:52 MirahezeLSBot: [paladox@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'CommentStreams'} to test151 - SUCCESS in 0s
+* 13:52 MirahezeLSBot: [paladox@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'CommentStreams'} to test151
+* 13:52 MirahezeLSBot: [paladox@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'VoteNY'} to test151 - SUCCESS in 1s
+* 13:51 MirahezeLSBot: [paladox@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'VoteNY'} to test151
+* 13:51 MirahezeLSBot: [paladox@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'HighlightLinksInCategory'} to test151 - SUCCESS in 1s
+* 13:51 MirahezeLSBot: [paladox@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'HighlightLinksInCategory'} to test151
+* 13:50 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': '1.45'} to test151 - SUCCESS in 52s
+* 13:50 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.45'} to all
+* 13:50 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 13:49 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 13:49 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': '1.45'} to test151
+* 13:49 MirahezeLSBot: [paladox@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 13:49 MirahezeLSBot: [paladox@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 13:49 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': '1.45'} to test151 - SUCCESS in 279s
+* 13:44 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': '1.45'} to test151
+* 13:44 MirahezeLSBot: [paladox@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 13:44 MirahezeLSBot: [paladox@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 13:42 MirahezeLSBot: [paladox@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 13:42 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': '1.45'} to test151
+* 13:42 MirahezeLSBot: [paladox@test151] finished deploy of {'folders': '1.45/extensions/Bootstrap,1.45/extensions/Maps,1.45/skins/chameleon,1.45/vendor'} to test151 - SUCCESS in 0s
+* 13:42 MirahezeLSBot: [paladox@test151] starting deploy of {'folders': '1.45/extensions/Bootstrap,1.45/extensions/Maps,1.45/skins/chameleon,1.45/vendor'} to test151
+* 13:40 MirahezeLSBot: [paladox@test151] finished deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_skins': 'Lakeus'} to test151 - SUCCESS in 0s
+* 13:40 MirahezeLSBot: [paladox@test151] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_skins': 'Lakeus'} to test151
+* 13:40 MirahezeLSBot: [paladox@test151] finished deploy of {'world': True, 'versions': '1.45'} to test151 - SUCCESS in 20s
+* 13:40 MirahezeLSBot: [paladox@test151] starting deploy of {'world': True, 'versions': '1.45'} to test151
+* 13:39 MirahezeLSBot: [paladox@test151] finished deploy of {'world': True, 'versions': '1.45'} to test151 - SUCCESS in 22s
+* 13:39 MirahezeLSBot: [paladox@test151] starting deploy of {'world': True, 'versions': '1.45'} to test151
+* 13:28 MirahezeLSBot: [paladox@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 13:27 MirahezeLSBot: [paladox@test151] starting deploy of {'world': True, 'versions': '1.45'} to test151
+* 13:26 MirahezeLSBot: [paladox@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 13:26 MirahezeLSBot: [paladox@test151] starting deploy of {'world': True, 'versions': '1.45'} to test151
+* 12:27 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'RandomImageByCategory'} to all - SUCCESS in 29s
+* 12:27 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'RandomImageByCategory'} to all
+* 05:27 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 05:27 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 05:18 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=allindowiki --new=exastriswiki --user='BlankEclair_(Miraheze)' (END - exit=0)
+* 05:02 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/initSiteStats.php --wiki=spelunkywiki --update (END - exit=0)
+* 05:02 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/rebuildall.php --wiki=spelunkywiki (END - exit=0)
+* 04:54 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/rebuildall.php --wiki=spelunkywiki (START)
+* 04:54 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=spelunkywiki dump.xml --no-updates (END - exit=0)
+* 04:44 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 30s
+* 04:44 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 04:35 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=spelunkywiki dump.xml --no-updates (START)
+* 00:56 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'HighlightLinksInCategory'} to all - SUCCESS in 29s
+* 00:56 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'HighlightLinksInCategory'} to all
+
 ## 2026-02-17 
 
 * 23:18 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'VoteNY'} to all - SUCCESS in 30s
