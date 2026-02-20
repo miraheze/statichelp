@@ -2,7 +2,6 @@
 title: Tech:Flow removal
 ---
 
-`{{ {{Mbox|type=content|text=This page is a work-in-progress. Its content is not yet finalized.}} }}`
 This page documents the procedure for removing [Extension:StructuredDiscussions](https://meta.miraheze.org/wiki/mw:Extension:StructuredDiscussions) (Flow) on Miraheze. Wiki administrators: if you have any questions, please send them to the [talk page](https://meta.miraheze.org/wiki/{{TALKPAGENAME}}) and ping [User:PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna).
 
 ## Process
@@ -43,12 +42,13 @@ In the table below, "undeploy Flow" means: convert all Flow boards to wikitext, 
 | Undeploy Flow on [Public Test Wiki](https://meta.miraheze.org/wiki/testwiki:) | 2026-02-11 |
 | Undeploy Flow on most wikis. As of writing 19 wikis remain unconverted either due to their size, their visibility (private), or some technical issue with a few pages that prevent them from being exported to wikitext. | 2026-02-13 |
 | Flow undeployed on all wikis. Some wikis may have incomplete XML dumps due to the MediaWiki import script crashing on very large files. | 2026-02-15 |
+| Several imports were interrupted for [Japanese Polandball Wiki](https://meta.miraheze.org/wiki/mh:japolandball:). The XML files are inspected and imports are manually completed as required. | 2026-02-19 |
 
 ## Aftermath
 
 Due to a mistaken update to the XML export script, all edits in the page history are identified as being made by "Unknown user" on some wikis.
 
-Some pages are missing history due to the import process being interrupted. [User:PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) will be performing some fixes. Please contact him if you see an affected talk page.
+Some pages are missing history due to the import process being interrupted. [User:PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) has performed fixes. Please contact him if you see an affected talk page.
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Flow_removal)**
