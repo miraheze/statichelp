@@ -2,6 +2,51 @@
 title: Tech:Server admin log
 ---
 
+## 2026-02-20 
+
+* 23:50 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 23:50 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 23:25 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php Cargo:cargoRecreateData --wiki=frackinuniversewiki --table troubleshoot_research_node (END - exit=0)
+* 22:59 SomeRandomDeveloper: remove Lakeus staging folders on test151 and mwtask181 and run puppet
+* 22:47 SomeRandomDeveloper: disable "Review Status" messages in the Coderabbit settings for the github org
+* 22:42 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'upgrade_vendor': True, 'versions': '1.45'} to all - SUCCESS in 68s
+* 22:41 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'upgrade_vendor': True, 'versions': '1.45'} to all
+* 22:29 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'CommentStreams'} to all - SUCCESS in 32s
+* 22:29 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'CommentStreams'} to all
+* 22:24 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'CommentStreams'} to test151 - SUCCESS in 0s
+* 22:24 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'CommentStreams'} to test151
+* 22:24 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'CommentStreams'} to test151 - SUCCESS in 0s
+* 22:24 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'CommentStreams'} to test151
+* 22:17 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bots171: python3-pil
+* 22:17 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject201: python3-pil
+* 22:16 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject151: python3-pil
+* 22:16 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject181: python3-pil
+* 22:16 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftac171: python3-pil
+* 22:16 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject161: python3-pil
+* 22:15 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject191: python3-pil
+* 22:15 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject171: python3-pil
+* 22:15 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy171: python3-pil
+* 22:15 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on test151: python3-pil
+* 22:14 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy161: python3-pil
+* 18:01 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=savagepediawiki /home/reception/savagepediawiki.xml (END - exit=0)
+* 17:58 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=savagepediawiki /home/reception/savagepediawiki.xml (START)
+* 17:58 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=savagepediawiki /home/reception/savagepediawiki.xml (END - exit=2)
+* 17:57 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=savagepediawiki /home/reception/savagepediawiki.xml (START)
+* 17:43 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/deleteBatch.php --wiki=ucroniaswiki /home/reception/gentemzx.txt --u=Miraheze_maintenance_script --r=T14864 (START)
+* 17:43 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CentralAuth:createLocalAccount --wiki=ucroniaswiki Miraheze maintenance script (END - exit=0)
+* 17:42 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CentralAuth:createLocalAccount --wiki=ucroniaswiki Miraheze_maintenance_script (END - exit=0)
+* 17:42 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CentralAuth:createLocalAccount --wiki=ucroniaswiki Miraheze maintenance script (END - exit=0)
+* 17:42 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/deleteBatch.php --wiki=ucroniaswiki /home/reception/gentemzx.txt --u=Miraheze_maintenance_script --r=T14864 (END - exit=256)
+* 17:42 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/deleteBatch.php --wiki=ucroniaswiki /home/reception/gentemzx.txt --u=Miraheze_maintenance_script --r=T14864 (START)
+* 17:41 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/deleteBatch.php --wiki=ucroniaswiki /home/reception/gentemzx.txt --u=Miraheze maintenance script --r=T14864 (END - exit=256)
+* 17:41 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/deleteBatch.php --wiki=ucroniaswiki /home/reception/gentemzx.txt --u=Miraheze maintenance script --r=T14864 (START)
+* 17:37 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=alerawiki --new=letariswiki --user=Reception123 (END - exit=0)
+* 17:03 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 31s
+* 17:02 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 05:32 MirahezeLSBot: [universalomega@bots171] Restart irclogserverbot
+* 05:28 Universal Omega: test
+* 00:07 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=elysiamcwiki (END - exit=0)
+
 ## 2026-02-19 
 
 * 22:03 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: inetutils-telnet and telnet
