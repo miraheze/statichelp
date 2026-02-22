@@ -2,6 +2,43 @@
 title: Tech:Server admin log
 ---
 
+## 2026-02-21 
+
+* 22:25 RhinosF1: reboot bots171, reports of connection issues persisting a service restart
+* 19:10 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 19:10 MirahezeLSBot: [universalomega@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 15:56 MirahezeLSBot: [blankeclair@mwtask171] Finished import for shintowiki (XML: shintowiki-20251218.xml.gz; Images: tmp/shintowiki/) (END - exit=1)
+* 15:56 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=shintowiki --no-updates -- shintowiki-20251218.xml.gz (END - exit=1)
+* 13:25 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwiki --delete --deletewiki flowtestwiki (END - exit=0)
+* 13:02 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwikibeta --delete --deletewiki defaultextwikibeta (END - exit=0)
+* 13:01 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwiki --delete --deletewiki defaultextwikibeta (END - exit=512)
+* 12:49 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 12:49 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 12:46 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 12:45 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 05:10 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php createAndPromote --wiki=loginwiki 'Skye (Miraheze)' --sysop --force (END - exit=0)
+* 04:37 MirahezeLSBot: [universalomega@bots171] Restart ircrcbot-MirahezeRC2
+* 04:25 MirahezeLSBot: [blankeclair@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=hispanowiki --ns 0 --all --delete (END - exit=0)
+* 04:25 MirahezeLSBot: [blankeclair@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=hispanowiki --ns 0 --all --delete (START)
+* 03:01 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=shintowiki --no-updates -- shintowiki-20251218.xml.gz (START)
+* 03:01 MirahezeLSBot: [blankeclair@mwtask171] Starting import for shintowiki (XML: shintowiki-20251218.xml.gz; Images: tmp/shintowiki/) (START)
+* 03:00 MirahezeLSBot: [blankeclair@mwtask181] Finished import for shintowiki (XML: shintowiki-20251218.xml.gz; Images: tmp/shintowiki/) (END - exit=-2)
+* 03:00 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=shintowiki --no-updates -- shintowiki-20251218.xml.gz (END - exit=-2)
+* 02:54 MirahezeLSBot: [blankeclair@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=shintowiki --no-updates -- shintowiki-20251218.xml.gz (START)
+* 02:54 MirahezeLSBot: [blankeclair@mwtask181] Starting import for shintowiki (XML: shintowiki-20251218.xml.gz; Images: tmp/shintowiki/) (START)
+* 02:29 BlankEclair: test151: manually remove 2fa for blankEclair
+* 02:26 MirahezeLSBot: [blankeclair@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php OATHAuth:DisableOATHAuthForUser --wiki=metawikibeta blankEclair (END - exit=256)
+* 02:26 MirahezeLSBot: [blankeclair@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php OATHAuth:disableOATHAuthForUser --wiki=metawikibeta blankEclair (END - exit=65280)
+* 02:03 BlankEclair: badorkbeewiki: [https://issue-tracker.miraheze.org/P586](https://issue-tracker.miraheze.org/P586)
+* 01:13 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 01:12 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 01:05 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'GlobalUserPage'} to all - SUCCESS in 33s
+* 01:04 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'GlobalUserPage'} to all
+* 01:04 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'GlobalUserPage'} to all - SUCCESS in 2s
+* 01:04 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'GlobalUserPage'} to all
+* 00:51 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.45/extensions/GlobalUserPage'} to test151 - SUCCESS in 0s
+* 00:51 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.45/extensions/GlobalUserPage'} to test151
+
 ## 2026-02-20 
 
 * 23:50 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
