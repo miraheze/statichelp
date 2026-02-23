@@ -2,6 +2,40 @@
 title: Tech:Server admin log
 ---
 
+## 2026-02-22 
+
+* 23:59 Universal Omega: upgraded mw173 to Debian Trixie and repool
+* 23:47 Universal Omega: depool mw173 in varnish on cp*
+* 23:46 Universal Omega: upgraded mw172 to Debian Trixie and repool
+* 23:33 Universal Omega: depool mw172 in varnish on cp*
+* 23:28 Universal Omega: upgraded mw171 to Debian Trixie and repool
+* 23:14 Universal Omega: depool mw171 in varnish on cp*
+* 22:46 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'Cargo'} to test151 - SUCCESS in 1s
+* 22:46 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'Cargo'} to test151
+* 22:42 Universal Omega: upgraded mw163 to Debian Trixie and repool
+* 22:24 Universal Omega: depool mw163 in varnish on cp*
+* 22:22 Universal Omega: upgraded mw162 to Debian Trixie and repool
+* 22:05 Universal Omega: depool mw162 in varnish on cp*
+* 21:58 Universal Omega: upgraded mw161 to Debian Trixie and repool
+* 21:44 Universal Omega: depool mw161 in varnish on cp*
+* 21:40 Universal Omega: upgraded mw153 to Debian Trixie and repool
+* 21:23 Universal Omega: depool mw153 in varnish on cp*
+* 21:23 Universal Omega: upgraded mw152 to Debian Trixie and repool
+* 21:07 Universal Omega: depool mw152 in varnish on cp*
+* 20:59 Universal Omega: upgraded mw151 to Debian Trixie and repool
+* 20:36 Universal Omega: depool mw151 in varnish on cp*
+* 20:32 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'DataMaps'} to all - SUCCESS in 25s
+* 20:31 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'DataMaps'} to all
+* 19:03 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 19:03 MirahezeLSBot: [universalomega@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 19:03 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 19:02 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 13:56 MirahezeLSBot: [paladox@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 13:56 MirahezeLSBot: [paladox@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 03:46 Universal Omega: upgraded mwtask181 to Debian Trixie
+* 02:59 Universal Omega: upgraded mwtask161 and mwtask171 to Debian Trixie
+* 00:46 Universal Omega: upgraded mwtask151 to Debian Trixie
+
 ## 2026-02-21 
 
 * 22:25 RhinosF1: reboot bots171, reports of connection issues persisting a service restart
