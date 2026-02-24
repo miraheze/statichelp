@@ -2,6 +2,76 @@
 title: Tech:Server admin log
 ---
 
+## 2026-02-23 
+
+* 23:43 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'CentralAuth'} to all - SUCCESS in 27s
+* 23:43 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'CentralAuth'} to all
+* 23:42 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'CentralAuth'} to test151 - SUCCESS in 1s
+* 23:42 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'CentralAuth'} to test151
+* 23:27 MirahezeLSBot: [blankeclair@mwtask171] runRefreshLinksChunked: [0/1] Handling shintowiki (start id: 18400)
+* 18:46 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 18:45 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 18:13 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'ImageMap'} to all - SUCCESS in 26s
+* 18:12 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'ImageMap'} to all
+* 16:47 MirahezeLSBot: [blankeclair@mwtask171] runRefreshLinksChunked: [0/1] shintowiki exited with 137
+* 11:05 MirahezeLSBot: [blankeclair@mwtask171] runRefreshLinksChunked: [0/1] Handling shintowiki (start id: 3500)
+* 10:49 MirahezeLSBot: [blankeclair@mwtask171] runRefreshLinksChunked: [0/1] shintowiki exited with 137
+* 10:28 @posix_memalign: Assign many more edits on T14418. Won't log all of these due to the verbosity.
+* 10:27 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=xyywiki --from=Wobblebubbee --to=Wobblebubbee7 --import-prefix=fandom:xyy (END - exit=0)
+* 10:27 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=xyywiki --from=RisenDown --to=RisenDown --import-prefix=fandom:xyy (END - exit=0)
+* 10:26 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=xyywiki --from=TNLHK --to=Paddi0326 --import-prefix=fandom:xyy (END - exit=0)
+* 09:47 MirahezeLSBot: [blankeclair@mwtask171] runRefreshLinksChunked: [0/1] Handling shintowiki (start id: 1800)
+* 09:47 MirahezeLSBot: [blankeclair@mwtask171] runRefreshLinksChunked: [0/1] shintowiki exited with 1
+* 09:47 MirahezeLSBot: [blankeclair@mwtask171] runRefreshLinksChunked: [0/1] Handling shintowiki (start id: 1800)
+* 09:46 MirahezeLSBot: [blankeclair@mwtask171] runRefreshLinksChunked: [0/] Done \o/
+* 09:44 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=shintowiki --update (END - exit=0)
+* 09:44 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=shintowiki (END - exit=0)
+* 09:44 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=shinewiki (END - exit=65280)
+* 09:41 MirahezeLSBot: [blankeclair@mwtask171] Finished import for shintowiki (XML: shintowiki-20251218.xml.gz; Images: tmp/shintowiki/) (END - exit=-9)
+* 09:41 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=shintowiki (END - exit=-9)
+* 08:25 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'Cargo'} to all - SUCCESS in 22s
+* 08:25 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'Cargo'} to all
+* 08:24 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'Cargo'} to test151 - SUCCESS in 0s
+* 08:24 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'Cargo'} to test151
+* 06:28 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=shintowiki (START)
+* 06:28 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=shintowiki --sleep=0 '--comment=Importing images from [https://archive.org/details/miraheze-wiki-shintowiki-20251218](https://archive.org/details/miraheze-wiki-shintowiki-20251218) ([T14843](https://meta.miraheze.org/wiki/phorge:T14843))' --search-recursively -- tmp/shintowiki/ (END - exit=0)
+* 06:28 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=shintowiki --sleep=0 '--comment=Importing images from [https://archive.org/details/miraheze-wiki-shintowiki-20251218](https://archive.org/details/miraheze-wiki-shintowiki-20251218) ([T14843](https://meta.miraheze.org/wiki/phorge:T14843))' --search-recursively -- tmp/shintowiki/ (START)
+* 06:28 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=shintowiki --no-updates -- shintowiki-20251218.xml.gz (END - exit=0)
+* 05:11 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 05:11 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 04:37 Universal Omega: upgraded mw203 to Debian Trixie and repool
+* 04:21 Universal Omega: depool mw203 in varnish on cp*
+* 04:19 Universal Omega: upgraded mw202 to Debian Trixie and repool
+* 04:06 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=shintowiki --no-updates -- shintowiki-20251218.xml.gz (START)
+* 04:06 MirahezeLSBot: [blankeclair@mwtask171] Starting import for shintowiki (XML: shintowiki-20251218.xml.gz; Images: tmp/shintowiki/) (START)
+* 04:05 MirahezeLSBot: [blankeclair@mwtask171] Finished import for shintowiki (XML: shintowiki-20251218.xml.gz; Images: tmp/shintowiki/) (END - exit=1)
+* 04:05 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=shintowiki --no-updates -- shintowiki-20251218.xml.gz (END - exit=1)
+* 04:03 Universal Omega: depool mw202 in varnish on cp*
+* 03:30 Universal Omega: upgraded mw201 to Debian Trixie and repool
+* 03:16 Universal Omega: depool mw201 in varnish on cp*
+* 03:12 Universal Omega: upgraded mw193 to Debian Trixie and repool
+* 02:58 Universal Omega: depool mw193 in varnish on cp*
+* 02:55 Universal Omega: upgraded mw192 to Debian Trixie and repool
+* 02:39 Universal Omega: depool mw192 in varnish on cp*
+* 02:38 Universal Omega: upgraded mw191 to Debian Trixie and repool
+* 02:23 Universal Omega: depool mw191 in varnish on cp*
+* 02:18 Universal Omega: upgraded mw183 to Debian Trixie and repool
+* 02:18 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=shintowiki --no-updates -- shintowiki-20251218.xml.gz (START)
+* 02:18 MirahezeLSBot: [blankeclair@mwtask171] Starting import for shintowiki (XML: shintowiki-20251218.xml.gz; Images: tmp/shintowiki/) (START)
+* 02:13 MirahezeLSBot: [blankeclair@mwtask171] Finished import for shintowiki (XML: shintowiki-20251218.xml.gz; Images: tmp/shintowiki/) (END - exit=1)
+* 02:13 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=shintowiki --no-updates -- shintowiki-20251218.xml.gz (END - exit=1)
+* 01:59 Universal Omega: depool mw183 in varnish on cp*
+* 01:58 Universal Omega: upgraded mw182 to Debian Trixie and repool
+* 01:39 Universal Omega: depool mw182 in varnish on cp*
+* 01:38 Universal Omega: upgraded mw181 to Debian Trixie and repool
+* 01:21 Universal Omega: depool mw181 in varnish on cp*
+* 00:53 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 469s
+* 00:45 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 00:45 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 26s
+* 00:45 MirahezeLSBot: [blankeclair@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 00:18 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=shintowiki --no-updates -- shintowiki-20251218.xml.gz (START)
+* 00:18 MirahezeLSBot: [blankeclair@mwtask171] Starting import for shintowiki (XML: shintowiki-20251218.xml.gz; Images: tmp/shintowiki/) (START)
+
 ## 2026-02-22 
 
 * 23:59 Universal Omega: upgraded mw173 to Debian Trixie and repool
