@@ -2,6 +2,61 @@
 title: Tech:Server admin log
 ---
 
+## 2026-02-24 
+
+* 23:39 MirahezeLSBot: [blankeclair@mwtask161] Finished import for funorbwiki (XML: funorb_pages_full.xml; Images: None) (END - exit=0)
+* 23:39 MirahezeLSBot: [blankeclair@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=funorbwiki --update (END - exit=0)
+* 23:39 MirahezeLSBot: [blankeclair@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=funorbwiki --update (START)
+* 23:39 MirahezeLSBot: [blankeclair@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=funorbwiki (END - exit=0)
+* 23:39 MirahezeLSBot: [blankeclair@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=funorbwiki (START)
+* 23:39 MirahezeLSBot: [blankeclair@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=funorbwiki (END - exit=0)
+* 23:23 MirahezeLSBot: [blankeclair@mwtask151] Finished import for badorkbeewiki (XML: None; Images: all_images/) (END - exit=0)
+* 23:23 MirahezeLSBot: [blankeclair@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=badorkbeewiki --update (END - exit=0)
+* 23:23 MirahezeLSBot: [blankeclair@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=badorkbeewiki --update (START)
+* 23:23 MirahezeLSBot: [blankeclair@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=badorkbeewiki --sleep=1 '--comment=Importing images from [https://badorkbee-games.fandom.com](https://badorkbee-games.fandom.com) ([T15000](https://meta.miraheze.org/wiki/phorge:T15000))' -- all_images/ (END - exit=0)
+* 23:19 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=animatorvsanimationwiki (START)
+* 23:19 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=animatorvsanimationwiki --no-updates --username-prefix=fandom:animatorvsanimation -- 'animatorvsanimation_pages_full.xml?dl=1&noscript=1&rlkey=2srmcxqq8utphzlhejttan4wn&st=gxhjxdyr' (END - exit=0)
+* 23:15 MirahezeLSBot: [blankeclair@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=funorbwiki (START)
+* 23:15 MirahezeLSBot: [blankeclair@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=funorbwiki --no-updates --username-prefix=fandom:funorb -- funorb_pages_full.xml (END - exit=0)
+* 22:53 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 22:53 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 22:50 MirahezeLSBot: [petramagna@test151] finished deploy of {'l10n': True, 'extension_list': True, 'versions': '1.45', 'upgrade_extensions': 'TableProgressTracking'} to test151 - SUCCESS in 319s
+* 22:46 MirahezeLSBot: [blankeclair@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=funorbwiki --no-updates --username-prefix=fandom:funorb -- funorb_pages_full.xml (START)
+* 22:46 MirahezeLSBot: [blankeclair@mwtask161] Starting import for funorbwiki (XML: funorb_pages_full.xml; Images: None) (START)
+* 22:45 MirahezeLSBot: [petramagna@test151] starting deploy of {'l10n': True, 'extension_list': True, 'versions': '1.45', 'upgrade_extensions': 'TableProgressTracking'} to test151
+* 22:44 MirahezeLSBot: [blankeclair@mwtask161] Finished import for funorbwiki (XML: funorb_pages_full.xml; Images: None) (END - exit=1)
+* 22:44 MirahezeLSBot: [blankeclair@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=funorbwiki --no-updates --username-prefix=fandom:funorb -- funorb_pages_full.xml (END - exit=1)
+* 22:44 MirahezeLSBot: [blankeclair@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=funorbwiki --no-updates --username-prefix=fandom:funorb -- funorb_pages_full.xml (START)
+* 22:44 MirahezeLSBot: [blankeclair@mwtask161] Starting import for funorbwiki (XML: funorb_pages_full.xml; Images: None) (START)
+* 22:42 MirahezeLSBot: [blankeclair@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=cavewiki --sleep=1 '--comment=Importing images from [https://speleo.miraheze.org](https://speleo.miraheze.org) ([T14886](https://meta.miraheze.org/wiki/phorge:T14886))' -- images/ (START)
+* 22:42 MirahezeLSBot: [blankeclair@mwtask161] Starting import for cavewiki (XML: None; Images: images/) (START)
+* 22:27 MirahezeLSBot: [blankeclair@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=badorkbeewiki --sleep=1 '--comment=Importing images from [https://badorkbee-games.fandom.com](https://badorkbee-games.fandom.com) ([T15000](https://meta.miraheze.org/wiki/phorge:T15000))' -- all_images/ (START)
+* 22:27 MirahezeLSBot: [blankeclair@mwtask151] Starting import for badorkbeewiki (XML: None; Images: all_images/) (START)
+* 22:18 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=animatorvsanimationwiki --no-updates --username-prefix=fandom:animatorvsanimation -- 'animatorvsanimation_pages_full.xml?dl=1&noscript=1&rlkey=2srmcxqq8utphzlhejttan4wn&st=gxhjxdyr' (START)
+* 22:18 MirahezeLSBot: [blankeclair@mwtask171] Starting import for animatorvsanimationwiki (XML: animatorvsanimation_pages_full.xml?dl=1&noscript=1&rlkey=2srmcxqq8utphzlhejttan4wn&st=gxhjxdyr; Images: None) (START)
+* 11:16 MirahezeLSBot: [blankeclair@mwtask171] runRefreshLinksChunked: [0/1] Handling shintowiki (start id: 106965)
+* 11:14 MirahezeLSBot: [blankeclair@mwtask171] runRefreshLinksChunked: [0/1] shintowiki exited with 137
+* 03:02 MirahezeLSBot: [petramagna@test151] finished deploy of {'l10n': True, 'versions': '1.45'} to test151 - SUCCESS in 354s
+* 02:56 MirahezeLSBot: [petramagna@test151] starting deploy of {'l10n': True, 'versions': '1.45'} to test151
+* 02:02 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'DiscussionTools'} to all - SUCCESS in 26s
+* 02:02 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'DiscussionTools'} to all
+* 00:46 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 00:46 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 00:38 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 00:38 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 00:36 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 00:36 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 00:34 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 00:34 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 00:25 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 00:25 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 00:20 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 00:20 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 00:18 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 00:18 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 00:08 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 00:08 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+
 ## 2026-02-23 
 
 * 23:43 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'CentralAuth'} to all - SUCCESS in 27s

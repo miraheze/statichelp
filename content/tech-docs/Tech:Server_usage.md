@@ -9,7 +9,7 @@ Miraheze requires lots of **servers** in order to provide service. With over 400
 Currently, servers at Miraheze are used for:
 
 * [Cache proxy](/tech-docs/techvarnish): [cp161](/tech-docs/techcp161), [cp171](/tech-docs/techcp171), [cp191](/tech-docs/techcp191), [cp201](/tech-docs/techcp201),
-* [Database](/tech-docs/techmariadb): [db151](/tech-docs/techdb151), [db161](/tech-docs/techdb161), [db171](/tech-docs/techdb171), [db172](/tech-docs/techdb172), [db181](/tech-docs/techdb181), [db182](/tech-docs/techdb182)
+* [Database](/tech-docs/techmariadb): [db151](/tech-docs/techdb151), [db161](/tech-docs/techdb161), [db171](/tech-docs/techdb171), [db172](/tech-docs/techdb172), [db181](/tech-docs/techdb181), [db182](/tech-docs/techdb182), db192, db201
 * [DNS](/tech-docs/techdns): [ns1](/tech-docs/techns1), [ns2](/tech-docs/techns2)
 * [Mattermost](/tech-docs/techmattermost): mattermost1
 * [MediaWiki](/tech-docs/techmediawiki_appserver): [mw151](/tech-docs/techmw151), [mw152](/tech-docs/techmw152), mw153, [mw161](/tech-docs/techmw161), [mw162](/tech-docs/techmw162), mw163, [mw171](/tech-docs/techmw171), [mw172](/tech-docs/techmw172), mw173, [mw181](/tech-docs/techmw181), [mw182](/tech-docs/techmw182), mw183, mw191, mw192, mw193, mw201, mw202, mw203, mwtask151, mwtask161, [mwtask171](/tech-docs/techmwtask171), [mwtask181](/tech-docs/techmwtask181)
@@ -29,74 +29,86 @@ Currently, servers at Miraheze are used for:
 
 | server name | Memory (RAM) | CPU | Storage | Host | Location | Debian version | Kernel version |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [bast161](/tech-docs/techbast161) | 1 GB | 1 core (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
-| [bast181](/tech-docs/techbast181) | 1 GB | 1 core (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
-| bots171 | 4 GB | 2 cores (unknown speed) | 20 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| changeprop201 (cloud19) | 10 GB | 8 cores (unknown speed) | 20 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [bast161](/tech-docs/techbast161) | 2 GB | 2 core (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [bast181](/tech-docs/techbast181) | 2 GB | 2 core (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| bots171 | 4 GB | 2 cores (unknown speed) | 20 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| changeprop202 | 10 GB | 8 cores (unknown speed) | 20 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
 | [cloud15](/tech-docs/techcloud15) | 500 GB | 80 cores @ 3.2 GHz | 8 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [cloud16](/tech-docs/techcloud16) | 500 GB | 80 cores @ 3.2 GHz | 8 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [cloud17](/tech-docs/techcloud17) | 500 GB | 80 cores @ 3.2 GHz | 8 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | [cloud18](/tech-docs/techcloud18) | 500 GB | 80 cores @ 3.2 GHz | 8 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | cloud19 | 500 GB | 80 cores @ 3.2 GHz | 8 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
 | cloud20 | 500 GB | 80 cores @ 3.2 GHz | 8 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [db151](/tech-docs/techdb151) | 138 GB | 6 cores (unknown speed) | 1 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [db161](/tech-docs/techdb161) | 138 GB | 6 cores (unknown speed) | 1 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [db171](/tech-docs/techdb171) | 138 GB | 6 cores (unknown speed) | 1 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [db172](/tech-docs/techdb172) | 6 GB | 4 cores (unknown speed) | 32 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [db181](/tech-docs/techdb181) | 138 GB | 6 cores (unknown speed) | 1 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [db182](/tech-docs/techdb182) | 14 GB | 6 cores (unknown speed) | 512 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| eventgate181 | 6 GB | 4 cores (unknown speed) | 20 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [graylog161](/tech-docs/techgraylog161) | 6 GB | 4 cores (unknown speed) | 20 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| kafka181 | 20 GB | 8 cores (unknown speed) | 30 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [ldap171](/tech-docs/techldap171) | 1 GB | 1 core (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [matomo151](/tech-docs/techmatomo151) | 4 GB | 4 cores (unknown speed) | 20 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| mattermost1 | 2 GB | 2 cores (unknown speed) | 40 GB SSD | OVH | Hillsboro, Oregon | Bookworm | |
-| [mem151](/tech-docs/techmem151) | 70 GB | 4 cores (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [mem161](/tech-docs/techmem161) | 70 GB | 4 cores (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| mem201 | 70 GB | 4 cores (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [mon181](/tech-docs/techmon181) | 4 GB | 4 cores (unknown speed) | 20 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [mw151](/tech-docs/techmw151) | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [mw152](/tech-docs/techmw152) | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| mw153 | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [mw161](/tech-docs/techmw161) | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [mw162](/tech-docs/techmw162) | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| mw163 | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [mw171](/tech-docs/techmw171) | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [mw172](/tech-docs/techmw172) | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| mw173 | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [mw181](/tech-docs/techmw181) | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [mw182](/tech-docs/techmw182) | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| mw183 | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| mw191 | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| mw192 | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| mw193 | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| mw201 | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| mw202 | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| mw203 | 15 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| mwtask151 | 16 GB | 12 cores (unknown speed) | 260 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| mwtask161 | 16 GB | 12 cores (unknown speed) | 260 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [mwtask171](/tech-docs/techmwtask171) | 16 GB | 12 cores (unknown speed) | 300 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [mwtask181](/tech-docs/techmwtask181) | 16 GB | 12 cores (unknown speed) | 250 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [ns1](/tech-docs/techns1) (cloud17) | 1 GB | 1 core @ 2 GHz | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [ns2](/tech-docs/techns2) | 2 GB | 1 core (unknown speed) | 20 GB SSD | OVH | London, England | Bookworm | |
-| [os151](/tech-docs/techos151) | 8 GB | 2 cores (unknown speed) | 500 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [os161](/tech-docs/techos161) | 8 GB | 2 cores (unknown speed) | 500 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| os162 | 6 GB | 4 cores (unknown speed) | 500 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [phorge171](/tech-docs/techphorge171) | 2 GB | 4 core (unknown speed) | 80 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [prometheus151](/tech-docs/techprometheus151) | 8 GB | 4 cores (unknown speed) | 150 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [puppet181](/tech-docs/techpuppet181) | 8 GB | 6 cores (unknown speed) | 35 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| rdb151 | 4 GB | 2 cores (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [reports171](/tech-docs/techreports171) | 1 GB | 2 cores (unknown speed) | 20 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [swiftac171](/tech-docs/techswiftac171) | 8 GB | 6 cores (unknown speed) | 100 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [swiftobject151](/tech-docs/techswiftobject151) | 12 GB | 6 cores (unknown speed) | 3 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [swiftobject161](/tech-docs/techswiftobject161) | 12 GB | 6 cores (unknown speed) | 3 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [swiftobject171](/tech-docs/techswiftobject171) | 12 GB | 6 cores (unknown speed) | 3 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [swiftobject181](/tech-docs/techswiftobject181) | 12 GB | 6 cores (unknown speed) | 3 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [swiftobject191](/tech-docs/techswiftobject191) | 12 GB | 6 cores (unknown speed) | 3 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [swiftobject201](/tech-docs/techswiftobject201) | 12 GB | 6 cores (unknown speed) | 3 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [swiftproxy161](/tech-docs/techswiftproxy161) | 4 GB | 8 cores (unknown speed) | 30 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [swiftproxy171](/tech-docs/techswiftproxy171) | 4 GB | 4 cores (unknown speed) | 30 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [test151](/tech-docs/techtest151) | 12 GB | 12 cores (unknown speed) | 100 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| cloud21 | 135 GB | 80 cores @ 3.2 GHz | 8 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [cp161](/tech-docs/techcp161) | 10 GB | 6 cores (unknown speed) | 100 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [cp171](/tech-docs/techcp171) | 32 GB | 8 cores (unknown speed) | 500 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [cp191](/tech-docs/techcp191) | 32 GB | 8 cores (unknown speed) | 500 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [cp201](/tech-docs/techcp201) | 32 GB | 8 cores (unknown speed) | 500 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [db151](/tech-docs/techdb151) | 138 GB | 6 cores (unknown speed) | 1 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [db161](/tech-docs/techdb161) | 138 GB | 6 cores (unknown speed) | 1 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [db171](/tech-docs/techdb171) | 138 GB | 6 cores (unknown speed) | 1 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [db172](/tech-docs/techdb172) | 6 GB | 4 cores (unknown speed) | 32 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [db181](/tech-docs/techdb181) | 138 GB | 6 cores (unknown speed) | 1 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [db182](/tech-docs/techdb182) | 34 GB | 6 cores (unknown speed) | 652 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| db192 | 24 GB | 8 cores (unknown speed) | 284 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| db201 | 30 GB | 6 cores (unknown speed) | 464 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| eventgate182 | 6 GB | 4 cores (unknown speed) | 20 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [graylog161](/tech-docs/techgraylog161) | 6 GB | 4 cores (unknown speed) | 30 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| kafka182 | 20 GB | 8 cores (unknown speed) | 50 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [ldap171](/tech-docs/techldap171) | 1 GB | 1 core (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| llm191 | 34 GB | 6 cores (unknown speed) | 123 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [matomo151](/tech-docs/techmatomo151) | 8 GB | 8 cores (unknown speed) | 30 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| mattermost2 | 8 GB | 4 cores (unknown speed) | 80 GB SSD | OVH | Hillsboro, Oregon | Trixie | |
+| [mem151](/tech-docs/techmem151) | 70 GB | 4 cores (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [mem161](/tech-docs/techmem161) | 70 GB | 4 cores (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| mem191 | 70 GB | 2 cores (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie |
+| mem201 | 70 GB | 4 cores (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [mon181](/tech-docs/techmon181) | 4 GB | 4 cores (unknown speed) | 20 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [mw151](/tech-docs/techmw151) | 30 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [mw152](/tech-docs/techmw152) | 30 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| mw153 | 30 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [mw161](/tech-docs/techmw161) | 30 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [mw162](/tech-docs/techmw162) | 30 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| mw163 | 30 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [mw171](/tech-docs/techmw171) | 30 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [mw172](/tech-docs/techmw172) | 30 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| mw173 | 30 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [mw181](/tech-docs/techmw181) | 30 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [mw182](/tech-docs/techmw182) | 30 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| mw183 | 30 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| mw191 | 30 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| mw192 | 30 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| mw193 | 30 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| mw201 | 30 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| mw202 | 30 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| mw203 | 30 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| mwtask151 | 30 GB | 12 cores (unknown speed) | 260 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| mwtask161 | 30 GB | 12 cores (unknown speed) | 260 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [mwtask171](/tech-docs/techmwtask171) | 30 GB | 12 cores (unknown speed) | 300 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [mwtask181](/tech-docs/techmwtask181) | 30 GB | 12 cores (unknown speed) | 250 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [ns1](/tech-docs/techns1) (cloud17) | 1 GB | 2 core @ 2 GHz | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [ns2](/tech-docs/techns2) | 2 GB | 1 core (unknown speed) | 20 GB SSD | OVH | London, England | Trixie | |
+| [os151](/tech-docs/techos151) | 8 GB | 2 cores (unknown speed) | 500 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [os161](/tech-docs/techos161) | 8 GB | 2 cores (unknown speed) | 500 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| os162 | 8 GB | 4 cores (unknown speed) | 500 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| os191 | 8 GB | 2 cores (unknown speed) | 500 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| os201 | 8 GB | 2 cores (unknown speed) | 500 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| os202 | 8 GB | 4 cores (unknown speed) | 500 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [phorge171](/tech-docs/techphorge171) | 2 GB | 4 core (unknown speed) | 80 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [prometheus151](/tech-docs/techprometheus151) | 12 GB | 4 cores (unknown speed) | 200 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [puppet181](/tech-docs/techpuppet181) | 16 GB | 6 cores (unknown speed) | 35 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| rdb191 | 20 GB | 2 cores (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [reports171](/tech-docs/techreports171) | 1 GB | 2 cores (unknown speed) | 20 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [swiftac171](/tech-docs/techswiftac171) | 8 GB | 6 cores (unknown speed) | 100 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [swiftobject151](/tech-docs/techswiftobject151) | 12 GB | 6 cores (unknown speed) | 3 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [swiftobject161](/tech-docs/techswiftobject161) | 12 GB | 6 cores (unknown speed) | 3 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [swiftobject171](/tech-docs/techswiftobject171) | 12 GB | 6 cores (unknown speed) | 3 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [swiftobject181](/tech-docs/techswiftobject181) | 12 GB | 6 cores (unknown speed) | 3 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [swiftobject191](/tech-docs/techswiftobject191) | 12 GB | 6 cores (unknown speed) | 3 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [swiftobject201](/tech-docs/techswiftobject201) | 12 GB | 6 cores (unknown speed) | 3 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [swiftproxy161](/tech-docs/techswiftproxy161) | 4 GB | 4 cores (unknown speed) | 30 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [swiftproxy171](/tech-docs/techswiftproxy171) | 4 GB | 4 cores (unknown speed) | 30 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [test151](/tech-docs/techtest151) | 12 GB | 12 cores (unknown speed) | 100 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
 
 *Note*: Some information such as specs may be incorrect.
 
@@ -270,6 +282,11 @@ Currently, servers at Miraheze are used for:
 | mw164 | 12 GB, 12 cores (unknown speed), 60 GB U.2 NVMe | |  |  |
 | mw174 | 12 GB, 12 cores (unknown speed), 60 GB U.2 NVMe | |  |  |
 | mw184 | 12 GB, 12 cores (unknown speed), 60 GB U.2 NVMe | |  |  |
+| changeprop201 | 10 GB, 8 cores (unknown speed), 20 GB U.2 NVMe | |  |  |
+| eventgate181 | 6 GB, 4 cores (unknown speed), 20 GB U.2 NVMe | |  |  |
+| kafka181 | 20 GB, 8 cores (unknown speed), 30 GB U.2 NVMe | |  |  |
+| mattermost1 | 2 GB, 2 cores (unknown speed), 40 GB SSD | |  |  |
+| rdb151 | 4 GB, 2 cores (unknown speed), 10 GB U.2 NVMe | |  |  |
 
 ## Categories
 
