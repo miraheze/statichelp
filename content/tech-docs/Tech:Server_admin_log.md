@@ -2,6 +2,39 @@
 title: Tech:Server admin log
 ---
 
+## 2026-02-25 
+
+* 23:59 Skye: [skye@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php resetUserEmail --wiki=metawikibeta --email-password OATest <email>
+* 23:01 BlankEclair: re "<cosmicalpha> Is log bot down?", i highly doubt so
+* 22:14 MirahezeLSBot: [blankeclair@mwtask171] Finished import for cavewiki (XML: speleowiki_xml_0318b9f58d3a63ced2fa.xml.gz; Images: None) (END - exit=0)
+* 22:14 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=cavewiki --update (END - exit=0)
+* 22:14 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=cavewiki --update (START)
+* 22:14 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=cavewiki (END - exit=0)
+* 22:14 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=cavewiki (START)
+* 22:14 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=cavewiki (END - exit=0)
+* 22:00 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=cavewiki (START)
+* 22:00 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=cavewiki --no-updates --username-prefix=mh:speleo -- speleowiki_xml_0318b9f58d3a63ced2fa.xml.gz (END - exit=0)
+* 21:55 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=cavewiki --no-updates --username-prefix=mh:speleo -- speleowiki_xml_0318b9f58d3a63ced2fa.xml.gz (START)
+* 21:55 MirahezeLSBot: [blankeclair@mwtask171] Starting import for cavewiki (XML: speleowiki_xml_0318b9f58d3a63ced2fa.xml.gz; Images: None) (START)
+* 21:48 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 21:48 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 21:26 Universal Omega: reboot swiftproxy *
+* 01:25 SomeRandomDeveloper: move patch for T14297 to the private patch repo
+* 00:40 MirahezeLSBot: [blankeclair@mwtask171] Finished import for animatorvsanimationwiki (XML: animatorvsanimation_pages_full.xml?dl=1&noscript=1&rlkey=2srmcxqq8utphzlhejttan4wn&st=gxhjxdyr; Images: None) (END - exit=0)
+* 00:40 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=animatorvsanimationwiki --update (END - exit=0)
+* 00:40 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=animatorvsanimationwiki --update (START)
+* 00:40 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=animatorvsanimationwiki (END - exit=0)
+* 00:40 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=animatorvsanimationwiki (START)
+* 00:40 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=animatorvsanimationwiki (END - exit=0)
+* 00:39 MirahezeLSBot: [blankeclair@mwtask161] Finished import for cavewiki (XML: None; Images: images/) (END - exit=0)
+* 00:39 MirahezeLSBot: [blankeclair@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=cavewiki --update (END - exit=0)
+* 00:39 MirahezeLSBot: [blankeclair@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=cavewiki --update (START)
+* 00:39 MirahezeLSBot: [blankeclair@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=cavewiki --sleep=1 '--comment=Importing images from [https://speleo.miraheze.org](https://speleo.miraheze.org) ([T14886](https://meta.miraheze.org/wiki/phorge:T14886))' -- images/ (END - exit=0)
+* 00:16 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawiki --setting=wgLocaltimezone --sourcelist=./sourcelist.txt (END - exit=0)
+* 00:13 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=ss14wiki --setting=wgLocaltimezone --sourcelist=./sourcelist.txt (END - exit=65280)
+* 00:12 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 00:11 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
 ## 2026-02-24 
 
 * 23:39 MirahezeLSBot: [blankeclair@mwtask161] Finished import for funorbwiki (XML: funorb_pages_full.xml; Images: None) (END - exit=0)
