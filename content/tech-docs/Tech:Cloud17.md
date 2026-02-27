@@ -5,7 +5,7 @@ title: Tech:Cloud17
 ```
 {{ {{Server
 | location = FiberState Salt Lake City
-| host = cloud17.wikitide.net
+| host = cloud17.fsslc.wtnet
 | usage = Cloud
 | status = running
 | memory = 512GB

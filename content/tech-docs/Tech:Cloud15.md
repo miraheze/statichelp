@@ -5,7 +5,7 @@ title: Tech:Cloud15
 ```
 {{ {{Server
 | location = FiberState Salt Lake City
-| host = cloud15.wikitide.net
+| host = cloud15.fsslc.wtnet
 | usage = Cloud
 | status = running
 | memory = 512GB

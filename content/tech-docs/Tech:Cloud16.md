@@ -5,7 +5,7 @@ title: Tech:Cloud16
 ```
 {{ {{Server
 | location = FiberState Salt Lake City
-| host = cloud16.wikitide.net
+| host = cloud16.fsslc.wtnet
 | usage = Cloud
 | status = running
 | memory = 512GB

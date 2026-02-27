@@ -2,6 +2,83 @@
 title: Tech:Server admin log
 ---
 
+## 2026-02-26 
+
+* 20:50 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 20:50 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 20:48 MirahezeLSBot: [universalomega@cloud21] Clear SEL
+* 20:22 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os202: libnss3
+* 20:21 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os191: libnss3
+* 20:21 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os201: libnss3
+* 20:21 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on puppet181: libnss3
+* 20:21 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask181: libnss3
+* 20:20 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os161: libnss3
+* 20:20 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os162: libnss3
+* 20:20 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os151: libnss3
+* 20:20 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask161: libnss3
+* 20:19 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask171: libnss3
+* 20:19 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw203: libnss3
+* 20:19 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask151: libnss3
+* 20:18 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw202: libnss3
+* 20:18 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw201: libnss3
+* 20:18 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw183: libnss3
+* 20:18 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw193: libnss3
+* 20:18 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw192: libnss3
+* 20:17 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw181: libnss3
+* 20:17 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw173: libnss3
+* 20:17 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw191: libnss3
+* 20:17 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw182: libnss3
+* 20:16 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw171: libnss3
+* 20:16 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw161: libnss3
+* 20:16 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw172: libnss3
+* 20:16 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw152: libnss3
+* 20:15 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw163: libnss3
+* 20:15 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw162: libnss3
+* 20:15 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw153: libnss3
+* 20:15 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw151: libnss3
+* 20:14 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on kafka182: libnss3
+* 20:13 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud19: libnss3
+* 20:13 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud18: libnss3
+* 20:12 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud17: libnss3
+* 20:12 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud20: libnss3
+* 20:12 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud16: libnss3
+* 20:11 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on graylog161: libnss3
+* 20:11 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud15: libnss3
+* 20:10 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud21: libnss3
+* 20:09 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on test151: libnss3
+* 19:50 Universal Omega: change hostnames for cloud* to fsslc.wtnet
+* 06:12 MirahezeLSBot: [blankeclair@mwtask161] Finished import for gunvoltwiki (XML: azurestrikergunvolt_pages_full.xml; Images: None) (END - exit=0)
+* 06:12 MirahezeLSBot: [blankeclair@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=gunvoltwiki --update (END - exit=0)
+* 06:12 MirahezeLSBot: [blankeclair@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=gunvoltwiki --update (START)
+* 06:12 MirahezeLSBot: [blankeclair@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=gunvoltwiki (END - exit=0)
+* 06:12 MirahezeLSBot: [blankeclair@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=gunvoltwiki (START)
+* 06:12 MirahezeLSBot: [blankeclair@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=gunvoltwiki (END - exit=0)
+* 06:00 MirahezeLSBot: [blankeclair@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=gunvoltwiki (START)
+* 06:00 MirahezeLSBot: [blankeclair@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=gunvoltwiki --no-updates --username-prefix=fandom:azurestrikergunvolt -- azurestrikergunvolt_pages_full.xml (END - exit=0)
+* 05:25 MirahezeLSBot: [blankeclair@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=gunvoltwiki --no-updates --username-prefix=fandom:azurestrikergunvolt -- azurestrikergunvolt_pages_full.xml (START)
+* 05:25 MirahezeLSBot: [blankeclair@mwtask161] Starting import for gunvoltwiki (XML: azurestrikergunvolt_pages_full.xml; Images: None) (START)
+* 05:25 MirahezeLSBot: [blankeclair@mwtask161] Finished import for gunvoltwiki (XML: azurestrikergunvolt_pages_full.xml.7z; Images: None) (END - exit=1)
+* 05:25 MirahezeLSBot: [blankeclair@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=gunvoltwiki --no-updates --username-prefix=fandom:azurestrikergunvolt -- azurestrikergunvolt_pages_full.xml.7z (END - exit=1)
+* 05:25 MirahezeLSBot: [blankeclair@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=gunvoltwiki --no-updates --username-prefix=fandom:azurestrikergunvolt -- azurestrikergunvolt_pages_full.xml.7z (START)
+* 05:25 MirahezeLSBot: [blankeclair@mwtask161] Starting import for gunvoltwiki (XML: azurestrikergunvolt_pages_full.xml.7z; Images: None) (START)
+* 03:55 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 03:54 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 03:42 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 03:42 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 03:42 MirahezeLSBot: [universalomega@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 03:42 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 01:12 MirahezeLSBot: [blankeclair@mwtask171] Finished import for kaiyaripediawiki (XML: None; Images: all_images/) (END - exit=0)
+* 01:12 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=kaiyaripediawiki --update (END - exit=0)
+* 01:12 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=kaiyaripediawiki --update (START)
+* 01:12 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=kaiyaripediawiki --sleep=0 '--comment=Importing images from [https://kaiyari.fandom.com](https://kaiyari.fandom.com) ([T15018](https://meta.miraheze.org/wiki/phorge:T15018))' -- all_images/ (END - exit=0)
+* 01:08 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=kaiyaripediawiki --sleep=0 '--comment=Importing images from [https://kaiyari.fandom.com](https://kaiyari.fandom.com) ([T15018](https://meta.miraheze.org/wiki/phorge:T15018))' -- all_images/ (START)
+* 01:08 MirahezeLSBot: [blankeclair@mwtask171] Starting import for kaiyaripediawiki (XML: None; Images: all_images/) (START)
+* 00:16 Skye: [skye@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php changePassword --wiki=metawikibeta --user= OATest --password=<idk why the email didnt reach him so we went this way>
+* 00:10 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'Cargo'} to all - SUCCESS in 519s
+* 00:07 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'Cargo'} to test151 - SUCCESS in 341s
+* 00:01 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'Cargo'} to test151
+* 00:01 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'Cargo'} to all
+
 ## 2026-02-25 
 
 * 23:59 Skye: [skye@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php resetUserEmail --wiki=metawikibeta --email-password OATest <email>

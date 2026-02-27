@@ -5,7 +5,7 @@ title: Tech:Cloud20
 ```
 {{ {{Server
 | location = FiberState Salt Lake City
-| host = cloud20.wikitide.net
+| host = cloud20.fsslc.wtnet
 | usage = Cloud
 | status = running
 | memory = 512GB
