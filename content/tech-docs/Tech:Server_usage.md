@@ -27,6 +27,7 @@ Currently, servers at Miraheze are used for:
 
 ## Table of servers 
 
+ `{{ {{Under construction|comment=Table to be automated via DPL4, you can help by updating/creating the pages of individual servers.}} }}`
 | server name | Memory (RAM) | CPU | Storage | Host | Location | Debian version | Kernel version |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [bast161](/tech-docs/techbast161) | 2 GB | 2 core (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |

@@ -2,6 +2,67 @@
 title: Tech:Server admin log
 ---
 
+## 2026-02-27 
+
+* 22:34 MirahezeLSBot: [skye@mwtask171] Finished import for gunvoltwiki (XML: None; Images: .) (END - exit=0)
+* 22:34 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=gunvoltwiki --update (END - exit=0)
+* 22:34 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=gunvoltwiki --update (START)
+* 22:34 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=gunvoltwiki --sleep=1 '--comment=Importing images from [https://azurestrikergunvolt.fandom.com/wiki/Azure_Striker_Gunvolt_Wiki](https://azurestrikergunvolt.fandom.com/wiki/Azure_Striker_Gunvolt_Wiki) ([T15031](https://meta.miraheze.org/wiki/phorge:T15031))' -- . (END - exit=0)
+* 20:01 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=gunvoltwiki --sleep=1 '--comment=Importing images from [https://azurestrikergunvolt.fandom.com/wiki/Azure_Striker_Gunvolt_Wiki](https://azurestrikergunvolt.fandom.com/wiki/Azure_Striker_Gunvolt_Wiki) ([T15031](https://meta.miraheze.org/wiki/phorge:T15031))' -- . (START)
+* 20:01 MirahezeLSBot: [skye@mwtask171] Starting import for gunvoltwiki (XML: None; Images: .) (START)
+* 19:42 MirahezeLSBot: [skye@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'WikiPoints'} to all - SUCCESS in 24s
+* 19:42 MirahezeLSBot: [skye@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'WikiPoints'} to all
+* 18:40 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'world': True, 'l10n': True, 'extension_list': True, 'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': ['SimpleBlogPage', 'WikiPoints']} to all - SUCCESS in 664s
+* 18:29 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'world': True, 'l10n': True, 'extension_list': True, 'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': ['SimpleBlogPage', 'WikiPoints']} to all
+* 18:10 MirahezeLSBot: [skye@test151] finished deploy of {'world': True, 'versions': '1.45'} to test151 - SUCCESS in 21s
+* 18:10 MirahezeLSBot: [skye@test151] starting deploy of {'world': True, 'versions': '1.45'} to test151
+* 18:04 MirahezeLSBot: [skye@test151] finished deploy of {'world': True, 'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'SimpleBlogPage'} to test151 - SUCCESS in 22s
+* 18:03 MirahezeLSBot: [skye@test151] starting deploy of {'world': True, 'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'SimpleBlogPage'} to test151
+* 18:01 MirahezeLSBot: [skye@test151] finished deploy of {'world': True, 'versions': '1.45', 'upgrade_extensions': 'SimpleBlogPage'} to test151 - SUCCESS in 21s
+* 18:01 MirahezeLSBot: [skye@test151] starting deploy of {'world': True, 'versions': '1.45', 'upgrade_extensions': 'SimpleBlogPage'} to test151
+* 17:32 MirahezeLSBot: [skye@test151] finished deploy of {'pull': 'config', 'config': True, 'l10n': True, 'extension_list': True, 'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'SimpleBlogPage'} to test151 - SUCCESS in 55s
+* 17:31 MirahezeLSBot: [skye@test151] starting deploy of {'pull': 'config', 'config': True, 'l10n': True, 'extension_list': True, 'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'SimpleBlogPage'} to test151
+* 16:55 Reception123: removed 3 usergroups from mw_permissions (luntikfanonwiki)
+* 16:29 MirahezeLSBot: [skye@test151] finished deploy of {'folders': '1.45/extensions/SimpleBlogPage'} to test151 - SUCCESS in 0s
+* 16:29 MirahezeLSBot: [skye@test151] starting deploy of {'folders': '1.45/extensions/SimpleBlogPage'} to test151
+* 15:12 MirahezeLSBot: [skye@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 15:12 MirahezeLSBot: [skye@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 14:55 MirahezeLSBot: [skye@test151] finished deploy of {'pull': 'config', 'config': True, 'l10n': True, 'extension_list': True, 'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': ['SimpleBlogPage', 'WikiPoints']} to test151 - SUCCESS in 358s
+* 14:49 MirahezeLSBot: [skye@test151] starting deploy of {'pull': 'config', 'config': True, 'l10n': True, 'extension_list': True, 'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': ['SimpleBlogPage', 'WikiPoints']} to test151
+* 14:39 MirahezeLSBot: [skye@test151] finished deploy of {'world': True, 'extension_list': True, 'versions': '1.45'} to test151 - SUCCESS in 22s
+* 14:38 MirahezeLSBot: [skye@test151] starting deploy of {'world': True, 'extension_list': True, 'versions': '1.45'} to test151
+* 13:17 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'world': True, 'l10n': True, 'extension_list': True, 'versions': '1.45'} to all - SUCCESS in 733s
+* 13:11 MirahezeLSBot: [skye@test151] finished deploy of {'pull': 'config', 'config': True, 'world': True, 'l10n': True, 'extension_list': True, 'versions': '1.45'} to test151 - SUCCESS in 366s
+* 13:05 MirahezeLSBot: [skye@test151] starting deploy of {'pull': 'config', 'config': True, 'world': True, 'l10n': True, 'extension_list': True, 'versions': '1.45'} to test151
+* 13:05 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'world': True, 'l10n': True, 'extension_list': True, 'versions': '1.45'} to all
+* 13:04 Skye: test151: sudo -u www-data rm -rf /srv/mediawiki-staging/1.45/extensions/MobileTabsPlugin/
+* 13:01 Skye: mwtask181: sudo -u www-data rm -rf /srv/mediawiki-staging/1.45/extensions/MobileTabsPlugin/
+* 12:52 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 12:52 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 12:46 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ToggleExtension --wiki=loginwiki --name=mobiletabsplugin --disable --all-wikis --execute (END - exit=0)
+* 12:44 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 12:44 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 11:44 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 11:44 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 11:12 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 11:12 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 11:03 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'l10n': True, 'extension_list': True, 'versions': '1.45', 'upgrade_extensions': 'TableProgressTracking'} to all - SUCCESS in 587s
+* 10:54 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'l10n': True, 'extension_list': True, 'versions': '1.45', 'upgrade_extensions': 'TableProgressTracking'} to all
+* 09:44 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php namespaceDupes --wiki=zeroerawiki --fix (END - exit=0)
+* 09:10 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php namespaceDupes --wiki=zeroerawiki --fix (END - exit=0)
+* 04:04 MirahezeLSBot: [blankeclair@mwtask171] Finished import for animatorvsanimationwiki (XML: None; Images: images) (END - exit=0)
+* 04:04 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=animatorvsanimationwiki --update (END - exit=0)
+* 04:04 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=animatorvsanimationwiki --update (START)
+* 04:04 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=animatorvsanimationwiki --sleep=1 '--comment=Importing images from [https://animatorvsanimation.fandom.com](https://animatorvsanimation.fandom.com) ([T15023](https://meta.miraheze.org/wiki/phorge:T15023))' -- images (END - exit=0)
+* 02:28 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=compendiumglaguswiki (END - exit=0)
+* 02:28 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=compediumglaguswiki --new=compendiumglaguswiki --user=Skye (END - exit=0)
+* 02:25 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=armlessdetectivewiki (END - exit=0)
+* 02:24 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=armlessdetectiverobloxwiki --new=armlessdetectivewiki --user=Skye (END - exit=0)
+* 02:20 Skye: c4: DROP DATABASE armlessdetectivewiki;
+* 02:18 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwiki --delete --deletewiki armlessdetectivewiki (END - exit=0)
+* 00:35 MirahezeLSBot: [blankeclair@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=animatorvsanimationwiki --sleep=1 '--comment=Importing images from [https://animatorvsanimation.fandom.com](https://animatorvsanimation.fandom.com) ([T15023](https://meta.miraheze.org/wiki/phorge:T15023))' -- images (START)
+* 00:35 MirahezeLSBot: [blankeclair@mwtask171] Starting import for animatorvsanimationwiki (XML: None; Images: images) (START)
+
 ## 2026-02-26 
 
 * 20:50 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s

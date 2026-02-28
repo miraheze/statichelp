@@ -16,6 +16,8 @@ puppet agent --disable="<reason>"
 To then re-enable puppet runs:
 puppet agent --enable
 
+Note that some changes must be ran on puppet181 first, such as those involving [mediawiki-repos](/tech-docs/techmediawiki-repos).
+
 ## Puppet Master 
 
 The puppetmaster is the central server that hosts the private git repo and the public git repo (from GitHub) and compiles the manifests for agents to run.
