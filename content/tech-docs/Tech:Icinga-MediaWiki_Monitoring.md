@@ -44,7 +44,7 @@ This page is used to provide monitoring guidance for MediaWiki-related services 
 
 * *Why does this check exist? What does it monitor?* **This check monitors whether MediaWiki is accessible.**
 * *Is an alert a bad thing?* **Yes, it means MediaWiki may be down, and users may be receiving errors on their end.**
-* *If it's warning/critical, how do we fix it?* **If the issue persists and users are reporting errors such as 502 or 503, then a Phorge task should be created, triaged as "Unbreak Now" until the issue is resolved for users. To attempt to resolve it, restarting PHP-FPM (`sudo service php8.2-fpm restart`) could help under some circumstances. If you have root access, you could also try restarting the relevant server(s). If that still doesn't work, try looking at logs, to determine the cause of the outage. Chances are it will resolve itself after some time if you're unable to. If the outage was user-facing, an incident report should also be filed for it.**
+* *If it's warning/critical, how do we fix it?* **If the issue persists and users are reporting errors such as 502 or 503, then a Phorge task should be created, triaged as "Unbreak Now" until the issue is resolved for users. To attempt to resolve it, restarting PHP-FPM (`sudo service php8.4-fpm restart`) could help under some circumstances. If you have root access, you could also try restarting the relevant server(s). If that still doesn't work, try looking at logs, to determine the cause of the outage. Chances are it will resolve itself after some time if you're unable to. If the outage was user-facing, an incident report should also be filed for it.**
 
 ## WikiTideRenewSSL 
 

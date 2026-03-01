@@ -12,7 +12,7 @@ title: Tech:Ns2
 | memory = 2GB
 | cpu = 1 core
 | ssd = 20GB
-| os = Debian 12
+| os = Debian 13
 | type = KVM
 | kernel = 
 | updated = {{REVISIONDAY}} {{REVISIONMONTHNAME}} {{REVISIONYEAR}}

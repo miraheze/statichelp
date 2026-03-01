@@ -9,10 +9,10 @@ title: Tech:Mwtask171
 | host = mwtask171.wikitide.net
 | usage = MediaWiki
 | status = running
-| memory = 12GB
-| cpu = 16 cores
-| ssd = 250GB U.2 NVMe
-| os = Debian 12
+| memory = 30GB
+| cpu = 12 cores
+| ssd = 300GB U.2 NVMe
+| os = Debian 13
 | type = KVM
 | kernel = 6.1.0-17-amd64
 | cloud = cloud17

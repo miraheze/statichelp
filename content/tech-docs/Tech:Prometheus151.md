@@ -9,7 +9,7 @@ title: Tech:Prometheus151
 | host = prometheus151.fsslc.wtnet
 | usage = Prometheus
 | status = running
-| memory = 12GB
+| memory = 16GB
 | cpu = 4 cores
 | ssd = 195GB U.2 NVMe
 | os = Debian 13

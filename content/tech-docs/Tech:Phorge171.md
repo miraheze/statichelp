@@ -9,10 +9,10 @@ title: Tech:Phorge171
 | host = phorge171.wikitide.net
 | usage = Phorge
 | status = running
-| memory = 1GB
-| cpu = 1 core
-| ssd = 50GB U.2 NVMe
-| os = Debian 12
+| memory = 2GB
+| cpu = 4 cores
+| ssd = 60GB U.2 NVMe
+| os = Debian 13
 | type = KVM
 | kernel =
 | cloud = cloud17

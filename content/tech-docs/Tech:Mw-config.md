@@ -46,6 +46,25 @@ Example PRs:
 * [T14862: Add extended confirmed protection level for mcsosirswiki](https://meta.miraheze.org/wiki/github:miraheze/mw-config/pull/6255) (no default assignment)
 * [T11506: Setup extendedconfirmed protection for mypediawiki](https://meta.miraheze.org/wiki/github:miraheze/mw-config/pull/5437) (assigns right to both "extendedconfirmed" and "sysop" groups by default)
 
+### Set default theme on Vector 2022/Minerva
+
+Edit `$wgDefaultUserOptions` in LocalSettings.php. `day` is light mode, `night` is dark mode, `os` is automatic mode. Appropriate options are `vector-theme` and `minerva-theme`.
+
+Example PRs:
+* [T14922: Setting $wgDefaultUserOptions['vector-theme'] to 'night' for sp2pediawiki](https://meta.miraheze.org/wiki/github:miraheze/mw-config/pull/6316)
+* [T15003: Set 'vector-theme' preference to 'os' on lazerpigeonwiki](https://meta.miraheze.org/wiki/github:miraheze/mw-config/pull/6323)
+* [T14610: Set default minerva theme to night mode for fwtdwiki](https://meta.miraheze.org/wiki/github:miraheze/mw-config/pull/6194) (note: this PR was made before [T14950](https://meta.miraheze.org/wiki/phorge:T14950); the LocalWiki changes are no longer necessary)
+
+### Adding ManageWiki configurations
+
+* Remove current overrides
+* Add to appropriate ManageWiki file
+
+Example PRs:
+* [T13625: Move some PageImages config to ManageWiki](https://meta.miraheze.org/wiki/github:miraheze/mw-config/pull/6216)
+* [T14922: Add wgCommentStreamsSuppressLogsFromRCs to ManageWiki](https://meta.miraheze.org/wiki/github:miraheze/mw-config/pull/6315)
+* [T14950: Add $wgVectorNightMode and $wgMinervaNightMode to ManageWiki](https://meta.miraheze.org/wiki/github:miraheze/mw-config/pull/6309)
+
 ### Removing ManageWiki extensions or configurations
 
 TODO

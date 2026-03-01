@@ -9,8 +9,8 @@ title: Tech:Mem151
 | host = mem151.wikitide.net
 | usage = Memcached
 | status = running
-| memory = 36GB
-| cpu = 2 cores
+| memory = 70GB
+| cpu = 4 cores
 | ssd = 10GB U.2 NVMe
 | os = Debian 13
 | type = KVM

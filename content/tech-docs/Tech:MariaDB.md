@@ -2,7 +2,7 @@
 title: Tech:MariaDB
 ---
 
-MariaDB [^1] is the chosen database software used in production. Currently we run 10.11.x on database servers.
+MariaDB [^1] is the chosen database software used in production. Currently we run 11.8.x on database servers.
 
 ## Configuration 
 

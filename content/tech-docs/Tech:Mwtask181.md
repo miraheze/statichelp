@@ -9,10 +9,10 @@ title: Tech:Mwtask181
 | host = mwtask181.wikitide.net
 | usage = MediaWiki
 | status = running
-| memory = 12GB
+| memory = 30GB
 | cpu = 12 cores
-| ssd = 245GB U.2 NVMe
-| os = Debian 12
+| ssd = 250GB U.2 NVMe
+| os = Debian 13
 | type = KVM
 | kernel = 6.1.0-17-amd64
 | cloud = cloud18

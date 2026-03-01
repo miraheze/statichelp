@@ -9,10 +9,10 @@ title: Tech:Matomo151
 | host = matomo151.wikitide.net
 | usage = Analytics
 | status = running
-| memory = 4GB
-| cpu = 4 cores
-| ssd = 20GB U.2 NVMe
-| os = Debian 12
+| memory = 8GB
+| cpu = 8 cores
+| ssd = 32GB U.2 NVMe
+| os = Debian 13
 | type = KVM
 | kernel =
 | cloud = cloud15

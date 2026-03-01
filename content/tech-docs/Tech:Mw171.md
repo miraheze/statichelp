@@ -9,10 +9,10 @@ title: Tech:Mw171
 | host = mw171.wikitide.net
 | usage = MediaWiki
 | status = running
-| memory = 12GB
+| memory = 30GB
 | cpu = 12 cores
 | ssd = 60GB U.2 NVMe
-| os = Debian 12
+| os = Debian 13
 | type = KVM
 | kernel =
 | cloud = cloud17

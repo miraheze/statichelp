@@ -30,17 +30,17 @@ Currently, servers at Miraheze are used for:
  `{{ {{Under construction|comment=Table to be automated via DPL4, you can help by updating/creating the pages of individual servers.}} }}`
 | server name | Memory (RAM) | CPU | Storage | Host | Location | Debian version | Kernel version |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [bast161](/tech-docs/techbast161) | 2 GB | 2 core (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
-| [bast181](/tech-docs/techbast181) | 2 GB | 2 core (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [bast161](/tech-docs/techbast161) | 2 GB | 2 cores (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [bast181](/tech-docs/techbast181) | 2 GB | 2 cores (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
 | bots171 | 4 GB | 2 cores (unknown speed) | 20 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
 | changeprop202 | 10 GB | 8 cores (unknown speed) | 20 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
-| [cloud15](/tech-docs/techcloud15) | 500 GB | 80 cores @ 3.2 GHz | 8 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [cloud16](/tech-docs/techcloud16) | 500 GB | 80 cores @ 3.2 GHz | 8 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [cloud17](/tech-docs/techcloud17) | 500 GB | 80 cores @ 3.2 GHz | 8 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| [cloud18](/tech-docs/techcloud18) | 500 GB | 80 cores @ 3.2 GHz | 8 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| cloud19 | 500 GB | 80 cores @ 3.2 GHz | 8 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| cloud20 | 500 GB | 80 cores @ 3.2 GHz | 8 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
-| cloud21 | 135 GB | 80 cores @ 3.2 GHz | 8 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [cloud15](/tech-docs/techcloud15) | 500 GB | 40 cores @ 3.2 GHz | 8 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [cloud16](/tech-docs/techcloud16) | 500 GB | 40 cores @ 3.2 GHz | 8 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [cloud17](/tech-docs/techcloud17) | 500 GB | 40 cores @ 3.2 GHz | 8 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [cloud18](/tech-docs/techcloud18) | 500 GB | 40 cores @ 3.2 GHz | 8 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [cloud19](/tech-docs/techcloud19) | 500 GB | 40 cores @ 3.2 GHz | 8 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [cloud20](/tech-docs/techcloud20) | 500 GB | 40 cores @ 3.2 GHz | 8 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Bookworm | |
+| [cloud21](/tech-docs/techcloud21) | 135 GB | 40 cores @ 3.2 GHz | 8 TB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
 | [cp161](/tech-docs/techcp161) | 10 GB | 6 cores (unknown speed) | 100 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
 | [cp171](/tech-docs/techcp171) | 32 GB | 8 cores (unknown speed) | 500 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
 | [cp191](/tech-docs/techcp191) | 32 GB | 8 cores (unknown speed) | 500 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
@@ -87,7 +87,7 @@ Currently, servers at Miraheze are used for:
 | mwtask161 | 30 GB | 12 cores (unknown speed) | 260 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
 | [mwtask171](/tech-docs/techmwtask171) | 30 GB | 12 cores (unknown speed) | 300 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
 | [mwtask181](/tech-docs/techmwtask181) | 30 GB | 12 cores (unknown speed) | 250 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
-| [ns1](/tech-docs/techns1) (cloud17) | 1 GB | 2 core @ 2 GHz | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [ns1](/tech-docs/techns1) (cloud17) | 1 GB | 2 cores @ 2 GHz | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
 | [ns2](/tech-docs/techns2) | 2 GB | 1 core (unknown speed) | 20 GB SSD | OVH | London, England | Trixie | |
 | [os151](/tech-docs/techos151) | 8 GB | 2 cores (unknown speed) | 500 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
 | [os161](/tech-docs/techos161) | 8 GB | 2 cores (unknown speed) | 500 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
@@ -95,8 +95,8 @@ Currently, servers at Miraheze are used for:
 | os191 | 8 GB | 2 cores (unknown speed) | 500 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
 | os201 | 8 GB | 2 cores (unknown speed) | 500 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
 | os202 | 8 GB | 4 cores (unknown speed) | 500 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
-| [phorge171](/tech-docs/techphorge171) | 2 GB | 4 core (unknown speed) | 80 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
-| [prometheus151](/tech-docs/techprometheus151) | 12 GB | 4 cores (unknown speed) | 200 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [phorge171](/tech-docs/techphorge171) | 2 GB | 4 cores (unknown speed) | 80 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
+| [prometheus151](/tech-docs/techprometheus151) | 16 GB | 4 cores (unknown speed) | 200 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
 | [puppet181](/tech-docs/techpuppet181) | 16 GB | 6 cores (unknown speed) | 35 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
 | rdb191 | 20 GB | 2 cores (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
 | [reports171](/tech-docs/techreports171) | 1 GB | 2 cores (unknown speed) | 20 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |

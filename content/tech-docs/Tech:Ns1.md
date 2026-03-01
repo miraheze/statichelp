@@ -11,9 +11,9 @@ title: Tech:Ns1
 | usage = DNS
 | status = running
 | memory = 1GB
-| cpu = 1 core
+| cpu = 2 cores
 | ssd = 10GB U.2 NVMe
-| os = Debian 12
+| os = Debian 13
 | type = KVM
 | kernel =
 | updated = {{REVISIONDAY}} {{REVISIONMONTHNAME}} {{REVISIONYEAR}}

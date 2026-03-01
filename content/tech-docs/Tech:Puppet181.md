@@ -9,10 +9,10 @@ title: Tech:Puppet181
 | host = puppet181.wikitide.net
 | usage = Puppetmaster
 | status = running
-| memory = 8GB
+| memory = 16GB
 | cpu = 6 cores
 | ssd = 35GB U.2 NVMe
-| os = Debian 12
+| os = Debian 13
 | type = KVM
 | kernel =
 | cloud = cloud18

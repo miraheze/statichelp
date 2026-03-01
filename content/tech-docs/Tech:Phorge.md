@@ -15,7 +15,7 @@ Upgrading Phorge is a process which is mostly automated by the software itself a
 * git pull the stable branch for libphutil, arcanist and phorge.
 * Run ./bin/storage upgrade and process through the prompts.
 * Start the phd daemons. (./bin/phd start)
-* Restart the php8.2-fpm service.
+* Restart the php8.4-fpm service.
 
 ## Categories
 

@@ -12,7 +12,7 @@ title: Tech:Mon181
 | memory = 4GB
 | cpu = 4 cores
 | ssd = 20GB U.2 NVMe
-| os = Debian 12
+| os = Debian 13
 | type = KVM
 | kernel =
 | cloud = cloud18
