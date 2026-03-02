@@ -6,7 +6,7 @@ title: Tech:Mwtask171
 {{ {{Server
 | name = mwtask171
 | location = FiberState Salt Lake City
-| host = mwtask171.wikitide.net
+| host = mwtask171.fsslc.wtnet
 | usage = MediaWiki
 | status = running
 | memory = 30GB
@@ -20,7 +20,7 @@ title: Tech:Mwtask171
 }} }}
 ```
 
-**mwtask171** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a secondary [MediaWiki application server](/tech-docs/techmediawiki_appserver) which is responsible for heavy and intensive MediaWiki tasks (e.g. maintenance scripts, imports). It is not web accessible but is publicly exposed.
+**mwtask171** is a FiberState server in Salt Lake City, Utah running Debian Trixie. It is a secondary [MediaWiki application server](/tech-docs/techmediawiki_appserver) which is responsible for heavy and intensive MediaWiki tasks (e.g. maintenance scripts, imports). It is not web accessible but is publicly exposed.
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Mwtask171)**

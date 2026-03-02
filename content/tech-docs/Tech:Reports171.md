@@ -6,7 +6,7 @@ title: Tech:Reports171
 {{ {{Server
 | name = reports171
 | location = FiberState Salt Lake City
-| host = reports171.wikitide.net
+| host = reports171.fsslc.wtnet
 | usage = Reports
 | status = running
 | memory = 1GB
@@ -20,7 +20,7 @@ title: Tech:Reports171
 }} }}
 ```
 
-**reports171** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a server that hosts TSPortal.
+**reports171** is a FiberState server in Salt Lake City, Utah running Debian Trixie. It is a server that hosts TSPortal.
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Reports171)**

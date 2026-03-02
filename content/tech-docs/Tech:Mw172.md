@@ -6,7 +6,7 @@ title: Tech:Mw172
 {{ {{Server
 | name = mw172
 | location = FiberState Salt Lake City
-| host = mw172.wikitide.net
+| host = mw172.fsslc.wtnet
 | usage = MediaWiki
 | status = running
 | memory = 30GB
@@ -20,7 +20,7 @@ title: Tech:Mw172
 }} }}
 ```
 
-**mw172** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a [MediaWiki application server](/tech-docs/techmediawiki_appserver) which serves articles and the API.
+**mw172** is a FiberState server in Salt Lake City, Utah running Debian Trixie. It is a [MediaWiki application server](/tech-docs/techmediawiki_appserver) which serves articles and the API.
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Mw172)**

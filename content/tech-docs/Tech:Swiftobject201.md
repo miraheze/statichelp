@@ -6,13 +6,13 @@ title: Tech:Swiftobject201
 {{ {{Server
 | name = swiftobject201
 | location = FiberState Salt Lake City
-| host = swiftobject201.wikitide.net
+| host = swiftobject201.fsslc.wtnet
 | usage = Swift
 | status = running
 | memory = 12GB
 | cpu = 6 cores
 | ssd = 3TB U.2 NVMe
-| os = Debian 12
+| os = Debian 13
 | type = KVM
 | kernel =
 | cloud = cloud20
@@ -20,7 +20,7 @@ title: Tech:Swiftobject201
 }} }}
 ```
 
-**swiftobject201** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a [Swift](/tech-docs/techswift) object storage server.
+**swiftobject201** is a FiberState server in Salt Lake City, Utah running Debian Trixie. It is a [Swift](/tech-docs/techswift) object storage server.
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Swiftobject201)**

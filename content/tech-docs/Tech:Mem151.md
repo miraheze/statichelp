@@ -6,7 +6,7 @@ title: Tech:Mem151
 {{ {{Server
 | name = mem151
 | location = FiberState Salt Lake City
-| host = mem151.wikitide.net
+| host = mem151.fsslc.wtnet
 | usage = Memcached
 | status = running
 | memory = 70GB

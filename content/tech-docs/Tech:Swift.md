@@ -18,9 +18,10 @@ Swift is a OpenStack run project that offers cloud storage software using a API.
 The main reason for having to do this is if the files are too large to be downloaded with Special:DataDump. Use the following steps:
 
 * Download the files from the wiki, using ` swift download miraheze-examplewiki-local-public -D examplewiki-images`.
-* Zip the files that have been downloaded
+* Tar -gzf the files that have been downloaded
 * Upload the files to a container (for example if manually providing a dump) you can use ` swift upload miraheze-examplewiki-dumps-backup <filename>`.
-* Access the files using `https://example.miraheze.org/wiki/Special:DataDump?action=download&dump=<name of dump>-images`
+* `mwscript DataDump:InsertMissingDumps examplewiki`
+   * Incase of issues: access the files using `https://example.miraheze.org/wiki/Special:DataDump?action=download&dump=<filename>`
 
 ## Statistics 
 

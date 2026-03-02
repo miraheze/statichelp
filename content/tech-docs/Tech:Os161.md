@@ -6,7 +6,7 @@ title: Tech:Os161
 {{ {{Server
 | name = os161
 | location = FiberState Salt Lake City
-| host = os161.wikitide.net
+| host = os161.fsslc.wtnet
 | usage = OpenSearch
 | status = running
 | memory = 8GB
@@ -20,7 +20,7 @@ title: Tech:Os161
 }} }}
 ```
 
-**os161** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a server that hosts OpenSearch.
+**os161** is a FiberState server in Salt Lake City, Utah running Debian Trixie. It is a server that hosts OpenSearch.
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Os161)**

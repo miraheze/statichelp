@@ -6,7 +6,7 @@ title: Tech:Matomo151
 {{ {{Server
 | name = matomo151
 | location = FiberState Salt Lake City
-| host = matomo151.wikitide.net
+| host = matomo151.fsslc.wtnet
 | usage = Analytics
 | status = running
 | memory = 8GB
@@ -20,7 +20,7 @@ title: Tech:Matomo151
 }} }}
 ```
 
-**matomo151** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a server that hosts [Matomo](/tech-docs/techmatomo).
+**matomo151** is a FiberState server in Salt Lake City, Utah running Debian Trixie. It is a server that hosts [Matomo](/tech-docs/techmatomo).
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Matomo151)**

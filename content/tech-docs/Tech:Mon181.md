@@ -6,7 +6,7 @@ title: Tech:Mon181
 {{ {{Server
 | name = mon181
 | location = FiberState Salt Lake City
-| host = mon181.wikitide.net
+| host = mon181.fsslc.wtnet
 | usage = Monitoring
 | status = running
 | memory = 4GB
@@ -20,7 +20,7 @@ title: Tech:Mon181
 }} }}
 ```
 
-**mon181** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a server that hosts [Grafana](/tech-docs/techgrafana), [Icinga](/tech-docs/techicinga) and [IRC](https://meta.miraheze.org/wiki/IRC) bots.
+**mon181** is a FiberState server in Salt Lake City, Utah running Debian Trixie. It is a server that hosts [Grafana](/tech-docs/techgrafana), [Icinga](/tech-docs/techicinga) and [IRC](https://meta.miraheze.org/wiki/IRC) bots.
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Mon181)**

@@ -6,7 +6,7 @@ title: Tech:Os151
 {{ {{Server
 | name = os151
 | location = FiberState Salt Lake City
-| host = os151.wikitide.net
+| host = os151.fsslc.wtnet
 | usage = OpenSearch
 | status = running
 | memory = 8GB
@@ -20,7 +20,7 @@ title: Tech:Os151
 }} }}
 ```
 
-**os151** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a server that hosts OpenSearch.
+**os151** is a FiberState server in Salt Lake City, Utah running Debian Trixie. It is a server that hosts OpenSearch.
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Os151)**

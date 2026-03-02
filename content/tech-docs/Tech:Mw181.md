@@ -6,7 +6,7 @@ title: Tech:Mw181
 {{ {{Server
 | name = mw181
 | location = FiberState Salt Lake City
-| host = mw181.wikitide.net
+| host = mw181.fsslc.wtnet
 | usage = MediaWiki
 | status = running
 | memory = 30GB
@@ -20,7 +20,7 @@ title: Tech:Mw181
 }} }}
 ```
 
-**mw181** is a FiberState server in Salt Lake City, Utah running Debian Bookworm. It is a [MediaWiki application server](/tech-docs/techmediawiki_appserver) which serves articles and the API.
+**mw181** is a FiberState server in Salt Lake City, Utah running Debian Trixie. It is a [MediaWiki application server](/tech-docs/techmediawiki_appserver) which serves articles and the API.
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Mw181)**
