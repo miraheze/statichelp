@@ -2,6 +2,41 @@
 title: Tech:Server admin log
 ---
 
+## 2026-03-02 
+
+* 23:43 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php Bucket:SetupDBPermission --wiki=exttestwikibeta (END - exit=0)
+* 23:40 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 23:40 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 23:38 MirahezeLSBot: [skye@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php Bucket:SetupDBPermission --wiki=skye2wikibeta (END - exit=0)
+* 23:34 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 23:34 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 23:30 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 23:30 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 23:28 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 23:28 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 23:27 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 23:27 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 23:13 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 23:13 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 23:12 MirahezeLSBot: [wwr@test151] finished deploy of {'l10n': True, 'extension_list': True, 'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'Bucket'} to test151 - SUCCESS in 242s
+* 23:08 MirahezeLSBot: [wwr@test151] starting deploy of {'l10n': True, 'extension_list': True, 'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'Bucket'} to test151
+* 22:54 MirahezeLSBot: [wwr@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 22:51 MirahezeLSBot: [wwr@test151] starting deploy of {'l10n': True, 'extension_list': True, 'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'Bucket'} to test151
+* 22:50 MirahezeLSBot: [wwr@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'Bucket'} to test151 - SUCCESS in 0s
+* 22:49 MirahezeLSBot: [wwr@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'Bucket'} to test151
+* 22:47 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 22:46 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 22:40 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php createAndPromote --wiki=metawikibeta TheWWRNerdGuy --interface-admin --bureaucrat --sysop --force (END - exit=0)
+* 22:33 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php createAndPromote --wiki=metawikibeta TheWWRNerdGuy --interface-admin --force (END - exit=0)
+* 20:57 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 33s
+* 20:57 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:12 MirahezeLSBot: [skye@mwtask171] Finished import for pokemoninfinitywiki (XML: None; Images: .) (END - exit=0)
+* 19:12 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=pokemoninfinitywiki --update (END - exit=0)
+* 19:12 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=pokemoninfinitywiki --update (START)
+* 19:12 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=pokemoninfinitywiki --sleep=1 '--comment=Importing images from [https://p-infinity.fandom.com/](https://p-infinity.fandom.com/) ([T15038](https://meta.miraheze.org/wiki/phorge:T15038))' -- . (END - exit=0)
+* 16:07 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=pokemoninfinitywiki --sleep=1 '--comment=Importing images from [https://p-infinity.fandom.com/](https://p-infinity.fandom.com/) ([T15038](https://meta.miraheze.org/wiki/phorge:T15038))' -- . (START)
+* 16:07 MirahezeLSBot: [skye@mwtask171] Starting import for pokemoninfinitywiki (XML: None; Images: .) (START)
+
 ## 2026-03-01 
 
 * 17:41 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=icarlywiki (END - exit=0)
