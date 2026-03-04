@@ -17,14 +17,14 @@ Local patches should be avoided whenever possible in favor of submitting them up
    * Run `git format-patch HEAD^ --stdout > <Patch name>.patch`
 * Upload the patch file to your home directory on test151 for testing or the current canary server of mwdeploy (e.g. mwtask181) for global deployment.
 * Go to the staging folder of the extension/skin.
-* Run `sudo -u www-data git am ~/PatchName.patch`
-* If the previous step gave you an error like "Committer identity unknown", run `sudo -u www-data git config --local user.name "www-data"` and try the previous step again
+* Run `sugit am ~/PatchName.patch`
+* If the previous step gave you an error like "Committer identity unknown", run `sugit config --local user.name "www-data"` and try the previous step again
 * Deploy it using mwdeploy (e.g. `mwdeploy --servers=all --folders=1.45/extensions/ExtensionName`). Security patches should use the `--no-log` option to avoid publicly disclosing the existence of a patch.
 * Add the patch to [T14242](https://meta.miraheze.org/wiki/Phorge:T14242), a tracking task for local patches. This is not necessary for patches applied only to Mirabeta.
 
 ## Removing a local patch
 
-If a local patch is no longer needed, it should be removed so that mwdeploy can handle updates automatically. Assuming that the local patch is the last commit in the extension's repository, patch removal can be done with `git reset --hard HEAD^`.
+If a local patch is no longer needed, it should be removed so that mwdeploy can handle updates automatically. Assuming that the local patch is the last commit in the extension's repository, patch removal can be done with `sugit reset --hard HEAD^`.
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Local_patches)**

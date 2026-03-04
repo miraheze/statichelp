@@ -10,16 +10,16 @@ Maintenance scripts are used for a variety of different things: imports, mainten
 
 A full list of maintenance scripts can be found [here](https://meta.miraheze.org/wiki/mediawikiwiki:Manual:Maintenance_scripts#List_of_maintenance_scripts). Below are the maintenance scripts that are most frequently used on Miraheze. Other frequently used maintenance scripts can be found in the specific guides below.
 
-* **importDump.php** – Allows sysadmins to import XML dumps that are too large for Special:Import on-wiki.
+* **importDump** – Allows sysadmins to import XML dumps that are too large for Special:Import on-wiki.
    * `mwscript importDump examplewiki "'/home/<user>/dump.xml'"`
    * `--username-prefix "'interwiki'"` should be used for interwiki imports for proper attribution.
    * Usually ran with `--no-updates`, after which you will have to run `mwscript rebuildall examplewiki`.
 
-* **initSiteStats.php** – If Special:Statistics isn't updating properly, it's useful to run this.
-   * `mwscript initSiteStats.php examplewiki --update`
+* **initSiteStats** – If Special:Statistics isn't updating properly, it's useful to run this.
+   * `mwscript initSiteStats examplewiki --update`
 
-* **deleteBatch.php** – To delete a large number of pages based on a text file.
-   * `mwscript deleteBatch.php examplewiki --r "'[[phab:Txxx|Requested]]'" /home/<user>/deletebatch.txt`
+* **deleteBatch** – To delete a large number of pages based on a text file.
+   * `mwscript deleteBatch examplewiki --r "'[[phorge:Txxx|Requested]]'" /home/<user>/deletebatch.txt`
 
 * **AssignImportedEdits** – To reassign contributions for imported users to their Miraheze username.
    * ` mwscript MirahezeMagic:AssignImportedEdits examplewiki --import-prefix="prefix" --from=import_username`

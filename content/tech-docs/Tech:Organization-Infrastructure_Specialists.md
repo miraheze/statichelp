@@ -32,7 +32,7 @@ Follow the instructions at [Tech:Graylog](/tech-docs/techgraylog) for most error
 ## Debugging 
 
 * Look at the [error logs](#monitoring-errors).
-* Either use the [WikiTideDebug](https://github.com/miraheze/WikiTideDebug) extension for Chrome or try to send the failing HTTP request to one of the MediaWiki servers with the header `X-WikiTide-Debug: (mw1[5678][1234]|test151|mwtask1[5678]1).wikitide.net` (replace with the desired server), it could be an error that is cached in [Varnish](/tech-docs/techvarnish) or [Cloudflare](/tech-docs/techcloudflare).
+* Either use the [WikiTideDebug](https://github.com/miraheze/WikiTideDebug) extension for Chrome or Firefox or try to send the failing HTTP request to one of the MediaWiki servers with the header `X-WikiTide-Debug: (mw*|mwtask*).fsslc.wtnet` (replace with the desired server), it could be an error that is cached in [Varnish](/tech-docs/techvarnish) or [Cloudflare](/tech-docs/techcloudflare).
    * `X-WikiTide-Debug` also requires an access key sent via `X-WikiTide-Debug-Access-Key`, unless the request is made from a server from our own internal infrastructure (from one of our own IP ranges). If you don't have this access key, please ask another member of the Technology team.
 
 ## See also 

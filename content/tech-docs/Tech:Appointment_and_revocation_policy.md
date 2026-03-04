@@ -44,7 +44,7 @@ This applies to people, who do not have shell access yet. After you have articul
    * Miraheze Username
    * GitHub Username
    * Preferred shell username
-   * A freshly generated 4096 bit RSA or ed25519 keypair, protected with a secure password.
+   * A freshly generated ed25519 keypair, protected with a secure password.
       * Obviously you should only give us the public key, keep the private key <ins>private</ins>.
       * This key should not be used for non-Miraheze servers!
       * If using a FIDO2 key, see [Tech:FIDO2 SSH](/tech-docs/techfido2_ssh).

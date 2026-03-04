@@ -2,6 +2,34 @@
 title: Tech:Server admin log
 ---
 
+## 2026-03-03 
+
+* 15:43 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/extensions/TitleKey/maintenance/rebuildTitleKeys.php --wiki=arcaeawiki (END - exit=0)
+* 15:43 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/extensions/TitleKey/maintenance/rebuildTitleKeys.php --wiki=infalsuswiki (END - exit=0)
+* 12:53 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 12:53 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 12:50 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 12:50 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 10:48 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 10:48 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 10:32 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 10:31 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 10:31 MirahezeLSBot: [wwr@test151] finished deploy of {'l10n': True, 'extension_list': True, 'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'Bucket'} to test151 - SUCCESS in 53s
+* 10:30 MirahezeLSBot: [wwr@test151] starting deploy of {'l10n': True, 'extension_list': True, 'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'Bucket'} to test151
+* 10:30 MirahezeLSBot: [wwr@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 10:30 MirahezeLSBot: [wwr@test151] starting deploy of {'pull': 'config', 'config': True, 'l10n': True, 'extension_list': True, 'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'Bucket'} to test151
+* 01:40 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php Bucket:RefreshAllBuckets --wiki=exttestwikibeta (END - exit=0)
+* 01:07 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php Bucket:SetupDBPermission --wiki=exttestwikibeta (END - exit=0)
+* 00:48 MirahezeLSBot: [skye@test151] finished deploy of {'folders': '1.45/extensions/Bucket'} to test151 - SUCCESS in 0s
+* 00:48 MirahezeLSBot: [skye@test151] starting deploy of {'folders': '1.45/extensions/Bucket'} to test151
+* 00:38 MirahezeLSBot: [skye@test151] finished deploy of {'folders': '1.45/extensions/Bucket'} to test151 - SUCCESS in 0s
+* 00:38 MirahezeLSBot: [skye@test151] starting deploy of {'folders': '1.45/extensions/Bucket'} to test151
+* 00:34 MirahezeLSBot: [skye@test151] finished deploy of {'folders': '1.45/extensions/Bucket'} to test151 - SUCCESS in 0s
+* 00:34 MirahezeLSBot: [skye@test151] starting deploy of {'folders': '1.45/extensions/Bucket'} to test151
+* 00:01 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php Bucket:SetupDBPermission --wiki=exttestwikibeta (END - exit=0)
+* 00:01 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 00:01 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+
 ## 2026-03-02 
 
 * 23:43 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php Bucket:SetupDBPermission --wiki=exttestwikibeta (END - exit=0)
