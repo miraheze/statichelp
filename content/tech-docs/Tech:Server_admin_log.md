@@ -2,6 +2,12 @@
 title: Tech:Server admin log
 ---
 
+## 2026-03-04 
+
+* 21:45 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:GenerateMirahezeSitemap --wiki=superstarracerswiki (END - exit=0)
+* 18:53 @paladox: created a hack in puppet folder on puppet181
+* 06:34 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=zeroerawiki (END - exit=0)
+
 ## 2026-03-03 
 
 * 15:43 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/extensions/TitleKey/maintenance/rebuildTitleKeys.php --wiki=arcaeawiki (END - exit=0)
