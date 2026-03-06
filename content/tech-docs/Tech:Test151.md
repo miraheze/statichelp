@@ -11,8 +11,7 @@ title: Tech:Test151
 | memory = 12GB
 | cpu = 12 cores
 | numa = yes
-| nvme = 100GB
-| nvme type = U.2
+| ssd = 100GB U.2 NVMe
 | os = Debian 13
 | type = KVM
 | kernel =

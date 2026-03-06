@@ -2,6 +2,18 @@
 title: Tech:Server admin log
 ---
 
+## 2026-03-05 
+
+* 22:43 Skye: (excluding cloud21)
+* 22:42 Universal Omega: upgraded cloud* to Proxmox 9/Debian Trixie
+* 22:41 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'force': True} to all - SUCCESS in 18s
+* 20:00 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 15:31 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:PopulateDefaults --wiki=buckettestwikibeta (END - exit=256)
+* 15:30 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:PopulateNamespacesWithDefaults --wiki=buckettestwikibeta (END - exit=0)
+* 13:06 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:PopulateNamespaces --wiki=buckettestwikibeta --force (END - exit=0)
+* 13:05 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:PopulateNamespaces --wiki=buckettestwikibeta (END - exit=256)
+* 00:52 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php shell --wiki=buckettestwikibeta (END - exit=0)
+
 ## 2026-03-04 
 
 * 21:45 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:GenerateMirahezeSitemap --wiki=superstarracerswiki (END - exit=0)

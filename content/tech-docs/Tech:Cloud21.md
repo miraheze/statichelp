@@ -14,17 +14,17 @@ title: Tech:Cloud21
 | cpu threads = 80
 | cpu frequency = 2.0
 | cpu turbo frequency = 3.7
+| cpu = 40 cores
 | numa = yes
-| nvme = 4TB
-| nvme type = U.2
-| os = Debian 13
+| ssd = 4TB U.2 NVMe
+| os = Proxmox 9 (Debian 13)
 | type = bare metal
 | kernel =
 | updated = {{REVISIONDAY}} {{REVISIONMONTHNAME}} {{REVISIONYEAR}}
 }} }}
 ```
 
-**cloud21** is a FiberState bare metal dedicated server in Salt Lake City, Utah running Debian Trixie. It is a [virtualization host server](/tech-docs/techproxmox).
+**cloud21** is a FiberState bare metal dedicated server in Salt Lake City, Utah running Proxmox 9. It is a [virtualization host server](/tech-docs/techproxmox).
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Cloud21)**
