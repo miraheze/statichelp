@@ -56,7 +56,7 @@ Here are the steps you should follow when adding a new puppet agent (server) to 
 * Step 1: Run [https://issue-tracker.miraheze.org/P220](https://issue-tracker.miraheze.org/P220) (you will have to do it a few times as at the apt install step, it forgets the commands to run after). If you cannot just copy-paste, use a URL to download the script:
    * `apt -o "Acquire::http::Proxy=http://10.0.16.127:8080" install -y wget`
    * `export https_proxy="http://10.0.16.127:8080"`
-   * `wget -O openvox.sh https://phorge-static.wikitide.net/file/data/rja55vptdqcpvnwxjbvi/PHID-FILE-2ipk7be2cwz5khq7z6kw/openvox_install_script`
+   * `wget -O openvox.sh https://phorge-static.wikitide.net/file/data/fultfwj7dgwq2v5dpiit/PHID-FILE-jpgk2odk6uqqpcvvykzu/openvox_install_script`
 * Step 2: (On the **puppetserver**) `cd /etc/puppetlabs/puppet/git && git pull`
 * Step 3: (On the **agent**) execute `puppet agent -tv --server puppet181.wikitide.net --waitforcert 60 `
 * **NOTE**: You may need to add `10.0.18.100 puppet181.wikitide.net puppet181` to `/etc/hosts` for the first run. This should be removed afterwards.

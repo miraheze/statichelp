@@ -11,7 +11,8 @@ title: Tech:Mem151
 | status = running
 | memory = 70GB
 | cpu = 4 cores
-| ssd = 10GB U.2 NVMe
+| nvme = 10GB
+| nvme type = U.2
 | os = Debian 13
 | type = KVM
 | kernel =

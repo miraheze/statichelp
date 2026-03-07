@@ -2,6 +2,16 @@
 title: Tech:Server admin log
 ---
 
+## 2026-03-06 
+
+* 22:25 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php Bucket:RefreshAllBuckets --wiki=buckettestwikibeta (END - exit=0)
+* 05:34 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=fischwiki 10300 (END - exit=0)
+* 04:28 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=fischwiki 10300 (START)
+* 04:10 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=fischwiki (END - exit=35072)
+* 02:43 Universal Omega: sudo apt purge -y cpufrequtils on cloud*
+* 02:34 Universal Omega: remove /etc/powerdns/recursor.conf on all servers
+* 00:58 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=fischwiki (START)
+
 ## 2026-03-05 
 
 * 22:43 Skye: (excluding cloud21)

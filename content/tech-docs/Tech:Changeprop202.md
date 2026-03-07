@@ -11,7 +11,8 @@ title: Tech:Changeprop202
 | status = running
 | memory = 10GB
 | cpu = 8 cores
-| ssd = 19GB U.2 NVMe
+| nvme = 19GB
+| nvme type = U.2
 | os = Debian 13
 | type = KVM
 | kernel =

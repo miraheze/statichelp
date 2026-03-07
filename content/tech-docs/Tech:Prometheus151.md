@@ -11,7 +11,8 @@ title: Tech:Prometheus151
 | status = running
 | memory = 16GB
 | cpu = 4 cores
-| ssd = 195GB U.2 NVMe
+| nvme = 195GB
+| nvme type = U.2
 | os = Debian 13
 | type = KVM
 | kernel =

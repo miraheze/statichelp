@@ -11,7 +11,8 @@ title: Tech:Db172
 | status = running
 | memory = 6GiB
 | cpu = 4 cores
-| ssd = 32GiB U.2 NVMe
+| nvme = 32GB
+| nvme type = U.2
 | os = Debian 13
 | type = KVM
 | kernel =

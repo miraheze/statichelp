@@ -4,7 +4,7 @@ title: Tech:Pywikibot
 
 [Pywikibot](https://meta.miraheze.org/wiki/mediawikiwiki:Manual:Pywikibot) is a library and collection of scripts for MediaWiki sites, like the one you're reading this on.
 
-Pywikibot is installed and managed on [bots171](https://meta.miraheze.org/wiki/Tech:Bots171) via [Puppet](/tech-docs/techpuppet) and is configured to use the [User:BeeBot](https://meta.miraheze.org/wiki/User:BeeBot) account. Access to it is therefore currently restricted to Infrastructure Specialists, although this can be reviewed if access to this Pywikibot install is requested by someone who does not currently have it, since it may come in handy to be able to use some of these scripts.
+Pywikibot is installed and managed on [bots171](/tech-docs/techbots171) via [Puppet](/tech-docs/techpuppet) and is configured to use the [User:BeeBot](https://meta.miraheze.org/wiki/User:BeeBot) account. Access to it is therefore currently restricted to Infrastructure Specialists, although this can be reviewed if access to this Pywikibot install is requested by someone who does not currently have it, since it may come in handy to be able to use some of these scripts.
 
 Its crontab and family config can be viewed and edited via the [pywikibot-config Git repository](https://meta.miraheze.org/wiki/github:miraheze/pywikibot-config).
 

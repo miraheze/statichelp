@@ -12,7 +12,8 @@ title: Tech:Db182
 | memory = 34GB
 | cpu = 6 cores
 | numa = yes
-| ssd = 652GB U.2 NVMe
+| nvme = 652GB
+| nvme type = U.2
 | os = Debian 13
 | type = KVM
 | kernel =

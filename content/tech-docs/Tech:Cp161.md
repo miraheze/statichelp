@@ -11,7 +11,8 @@ title: Tech:Cp161
 | status = running
 | memory = 10GB
 | cpu = 6 cores
-| ssd = 100GB U.2 NVMe
+| nvme = 100GB
+| nvme type = U.2
 | os = Debian 13
 | type = KVM
 | kernel =

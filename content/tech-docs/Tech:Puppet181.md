@@ -11,7 +11,8 @@ title: Tech:Puppet181
 | status = running
 | memory = 16GB
 | cpu = 6 cores
-| ssd = 35GB U.2 NVMe
+| nvme = 35GB
+| nvme type = U.2
 | os = Debian 13
 | type = KVM
 | kernel =

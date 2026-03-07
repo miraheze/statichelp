@@ -11,7 +11,8 @@ title: Tech:Swiftobject201
 | status = running
 | memory = 12GB
 | cpu = 6 cores
-| ssd = 3TB U.2 NVMe
+| nvme = 3TB
+| nvme type = U.2
 | os = Debian 13
 | type = KVM
 | kernel =

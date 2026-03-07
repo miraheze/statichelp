@@ -11,7 +11,8 @@ title: Tech:Db171
 | status = running
 | memory = 138GB
 | cpu = 6 cores
-| ssd = 1TB U.2 NVMe
+| nvme = 1TB
+| nvme type = U.2
 | os = Debian 13
 | type = KVM
 | kernel =

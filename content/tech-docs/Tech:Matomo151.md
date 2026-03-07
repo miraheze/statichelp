@@ -11,7 +11,8 @@ title: Tech:Matomo151
 | status = running
 | memory = 8GB
 | cpu = 8 cores
-| ssd = 32GB U.2 NVMe
+| nvme = 32GB
+| nvme type = U.2
 | os = Debian 13
 | type = KVM
 | kernel =

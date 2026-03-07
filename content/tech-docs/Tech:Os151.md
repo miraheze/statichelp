@@ -11,7 +11,8 @@ title: Tech:Os151
 | status = running
 | memory = 8GB
 | cpu = 2 cores
-| ssd = 500GB U.2 NVMe
+| nvme = 500GB
+| nvme type = U.2
 | os = Debian 13
 | type = KVM
 | kernel =

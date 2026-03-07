@@ -11,7 +11,8 @@ title: Tech:Cp191
 | status = running
 | memory = 32GB
 | cpu = 8 cores
-| ssd = 500GB U.2 NVMe
+| nvme = 500GB
+| nvme type = U.2
 | os = Debian 13
 | type = KVM
 | kernel =

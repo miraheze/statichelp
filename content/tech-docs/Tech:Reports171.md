@@ -11,7 +11,8 @@ title: Tech:Reports171
 | status = running
 | memory = 1GB
 | cpu = 2 cores
-| ssd = 20GB U.2 NVMe
+| nvme = 20GB
+| nvme type = U.2
 | os = Debian 13
 | type = KVM
 | kernel =

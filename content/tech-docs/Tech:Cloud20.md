@@ -4,6 +4,7 @@ title: Tech:Cloud20
 
 ```
 {{ {{Server
+| name = cloud20
 | location = FiberState Salt Lake City
 | host = cloud20.fsslc.wtnet
 | usage = Cloud
@@ -16,15 +17,16 @@ title: Tech:Cloud20
 | cpu turbo frequency = 3.7
 | cpu = 40 cores
 | numa = yes
-| ssd = 8TB U.2 NVMe
-| os = Debian 13
+| nvme = 8TB
+| nvme type = U.2
+| os = {{Proxmox9tt}}
 | type = bare metal
 | kernel =
 | updated = {{REVISIONDAY}} {{REVISIONMONTHNAME}} {{REVISIONYEAR}}
 }} }}
 ```
 
-**cloud20** is a FiberState bare metal dedicated server in Salt Lake City, Utah running Debian Trixie. It is a [virtualization host server](/tech-docs/techproxmox).
+**cloud20** is a FiberState bare metal dedicated server in Salt Lake City, Utah running Proxmox 9. It is a [virtualization host server](/tech-docs/techproxmox).
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Cloud20)**

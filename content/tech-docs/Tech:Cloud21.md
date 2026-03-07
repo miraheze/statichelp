@@ -4,6 +4,7 @@ title: Tech:Cloud21
 
 ```
 {{ {{Server
+| name = cloud21
 | location = FiberState Salt Lake City
 | host = cloud21.fsslc.wtnet
 | usage = Cloud
@@ -16,8 +17,9 @@ title: Tech:Cloud21
 | cpu turbo frequency = 3.7
 | cpu = 40 cores
 | numa = yes
-| ssd = 4TB U.2 NVMe
-| os = Proxmox 9 (Debian 13)
+| nvme = 4TB
+| nvme type = U.2
+| os = {{Proxmox9tt}}
 | type = bare metal
 | kernel =
 | updated = {{REVISIONDAY}} {{REVISIONMONTHNAME}} {{REVISIONYEAR}}

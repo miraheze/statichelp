@@ -11,7 +11,8 @@ title: Tech:Ns2
 | status = running
 | memory = 2GB
 | cpu = 1 core
-| ssd = 20GB
+| nvme = 20GB
+| nvme type = U.2
 | os = Debian 13
 | type = KVM
 | kernel = 

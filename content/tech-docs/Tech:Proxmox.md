@@ -8,17 +8,17 @@ title: Tech:Proxmox
 
 1. Install by changing Type Of OS to "Basic".
 
-2. Select 'Debian 12 "Bookworm" - debian12 (Linux)' from the list and proceed to install, make sure to select your ssh key.
+2. Select 'Debian 13 "Trixie" - debian13 (Linux)' from the list and proceed to install, make sure to select your ssh key.
 
 3. When you get to the end, enter the server name and select your ssh key from the dropdown.
 
-4. After the server has come back up, login by doing `ssh debian@cloud[num].wikitide.net -i <key>`.
+4. After the server has come back up, login by doing `ssh debian@cloud[num].fsslc.wtnet -i <key>`.
 
-5. Edit `/etc/hosts` and remove `127.0.1.1` section, then add `<main_ip> cloud[num].wikitide.net cloud[num]`.
+5. Edit `/etc/hosts` and remove `127.0.1.1` section, then add `<main_ip> cloud[num].fsslc.wtnet cloud[num]`.
 
 6. Edit `/etc/cloud/cloud.cfg`, changing `manage_etc_hosts` to false.
 
-7. Run `echo "deb http://download.proxmox.com/debian/pve bookworm pve-no-subscription" > /etc/apt/sources.list.d/pve-install-repo.list`.
+7. Run `echo "deb http://download.proxmox.com/debian/pve trixie pve-no-subscription" > /etc/apt/sources.list.d/pve-install-repo.list`.
 
 8. Run `wget http://download.proxmox.com/debian/proxmox-ve-release-6.x.gpg -O /etc/apt/trusted.gpg.d/proxmox-ve-release-6.x.gpg`.
 
@@ -87,9 +87,9 @@ source /etc/network/interfaces.d/*
 
 15. Run `passwd root` and set the password, make sure it is secure.
 
-16. Run the following "cd /var/lib/vz/template/iso ; wget [https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.4.0-amd64-netinst.iso](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.4.0-amd64-netinst.iso)" (note that this may be removed, in which case bump version like 12.4.0 -> 12.5.0).
+16. Run the following "cd /var/lib/vz/template/iso ; wget [https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-13.4.0-amd64-netinst.iso](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-13.4.0-amd64-netinst.iso)" (note that this may be removed, in which case bump version like 13.4.0 -> 13.5.0).
 
-17. On the main cluster host, press join information and copy the information (`ssh -L 8006:127.0.0.1:8006 <user>@<main_cluster_cloud_host_>.wikitide.net`).
+17. On the main cluster host, press join information and copy the information (`ssh -L 8006:127.0.0.1:8006 <user>@<main_cluster_cloud_host_>.fsslc.wtnet`).
 
 18. Go to [https://localhost:8006](https://localhost:8006).
 
@@ -99,7 +99,7 @@ source /etc/network/interfaces.d/*
 
 21. Where it says "Join information" copy what’s in the text box.
 
-22. Now go onto the other cloud virt (for instance, cloud16) (`ssh -L 8006:127.0.0.1:8006 <user>@<cloud_host_>.wikitide.net`).
+22. Now go onto the other cloud virt (for instance, cloud16) (`ssh -L 8006:127.0.0.1:8006 <user>@<cloud_host_>.fsslc.wtnet`).
 
 23. Go to [https://localhost:8006](https://localhost:8006).
 
@@ -112,7 +112,7 @@ source /etc/network/interfaces.d/*
 ## VPS 
 
 * In the OVH UI: assign a failover IPv4 address and IPv6 address for the new VM. Ensure the MAC address of the network adapter of the new VM matches the vMAC address assigned for the failover IPv4 address in OVH.
-* Run the following `ssh -L 8006:127.0.0.1:8006 <user>@<cloud_host>.wikitide.net`.
+* Run the following `ssh -L 8006:127.0.0.1:8006 <user>@<cloud_host>.fsslc.wtnet`.
 * Go to [https://localhost:8006](https://localhost:8006) (and accept the invalid certificate as the connection will be secure due to SSH) and login using your account and password.
 * Create a VM using the UI:
    * ISO image: local, debian-XX-X.X-amd64-DVD-1.iso
@@ -129,17 +129,17 @@ source /etc/network/interfaces.d/*
 * After install: empty `/etc/network/interfaces`, insert the following in it (don’t forget to change the IPv4/IPv6 addresses) and reload the network configuration (`ifdown ens18` && `ifup ens18`).
 * In `/etc/resolv.conf`:
 ```
-search wikitide.net
+search fsslc.wtnet
 nameserver 8.8.8.8
 ```
 * In `/etc/apt/sources.list`:
 ```
-deb http://ftp.uk.debian.org/debian/ bookworm main
-deb-src http://ftp.uk.debian.org/debian/ bookworm main
-deb http://security.debian.org/debian-security bookworm/updates main
-deb-src http://security.debian.org/debian-security bookworm/updates main
-deb http://ftp.uk.debian.org/debian/ bookworm-updates main
-deb-src http://ftp.uk.debian.org/debian/ bookworm-updates main
+deb http://ftp.uk.debian.org/debian/ trixie main
+deb-src http://ftp.uk.debian.org/debian/ trixie main
+deb http://security.debian.org/debian-security trixie/updates main
+deb-src http://security.debian.org/debian-security trixie/updates main
+deb http://ftp.uk.debian.org/debian/ trixie-updates main
+deb-src http://ftp.uk.debian.org/debian/ trixie-updates main
 ```
 * [Run puppet](/tech-docs/techpuppet#adding-a-new-puppet-agent-server-to-the-puppetserver). Do not log out before your user account is set up by puppet; otherwise you'll have a hard time getting back in.
 ```

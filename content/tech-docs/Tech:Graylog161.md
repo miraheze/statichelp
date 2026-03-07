@@ -11,7 +11,8 @@ title: Tech:Graylog161
 | status = running
 | memory = 6GB
 | cpu = 4 cores
-| ssd = 30GB U.2 NVMe
+| nvme = 30GB
+| nvme type = U.2
 | os = Debian 13
 | type = KVM
 | kernel =

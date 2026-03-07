@@ -11,7 +11,8 @@ title: Tech:Mwtask171
 | status = running
 | memory = 30GB
 | cpu = 12 cores
-| ssd = 300GB U.2 NVMe
+| nvme = 300GB
+| nvme type = U.2
 | os = Debian 13
 | type = KVM
 | kernel = 6.1.0-17-amd64

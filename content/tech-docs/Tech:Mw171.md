@@ -11,7 +11,8 @@ title: Tech:Mw171
 | status = running
 | memory = 30GB
 | cpu = 12 cores
-| ssd = 60GB U.2 NVMe
+| nvme = 60GB
+| nvme type = U.2
 | os = Debian 13
 | type = KVM
 | kernel =

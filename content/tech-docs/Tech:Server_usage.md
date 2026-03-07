@@ -32,9 +32,9 @@ Currently, servers at Miraheze are used for:
 ```
 {{ {{#dpl:
 |category = Running servers
-|include  = {Server}:%TITLE%:memory:cpu:ssd:nvme:location:os:usage:cloud
-|table    = class="wikitable sortable",-,server name,Memory (RAM), CPU, Storage, Storage (NVME), Host/Location, Debian Version, Usage, Cloud
-|tablerow = [[Tech:%%|%%]], %%, %%, %%, %% U.2 NVMe, %%, %%, %%, %%, %%
+|include  = {Server}:name:memory:cpu:nvme:location:os:usage:cloud
+|table    = class="wikitable sortable",-,server name,Memory (RAM), CPU, Storage, Host/Location, Debian Version, Usage, Cloud
+|tablerow = [[Tech:%%|%%]], %%, %%, %% U.2 NVMe, %%, %%, %%, %%, %%
 |namespace = Tech
 |ordermethod = title
 }} }}
@@ -42,7 +42,6 @@ Currently, servers at Miraheze are used for:
 
 | server name | Memory (RAM) | CPU | Storage | Host | Location | Debian version | Kernel version |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| bots171 | 4 GB | 2 cores (unknown speed) | 20 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
 | changeprop202 | 10 GB | 8 cores (unknown speed) | 20 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
 | db192 | 24 GB | 8 cores (unknown speed) | 284 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
 | db201 | 30 GB | 6 cores (unknown speed) | 464 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
@@ -77,7 +76,7 @@ Currently, servers at Miraheze are used for:
 ```
 {{ {{#dpl:
 |category = Decommissioned servers
-|include  = {Server}:%TITLE%:memory:cpu:ssd:hdd:location:os:kernel:usage:cloud
+|include  = {Server}:name:memory:cpu:ssd:hdd:location:os:kernel:usage:cloud
 |table    = class="wikitable sortable",-,server name,Memory (RAM), CPU, SSD, HDD, Host/Location, Debian Version, Kernel Version, Usage, Cloud
 |tablerow = [[Tech:%%|%%]], %%, %%, %%, %%, %%, %%, %%, %%
 |namespace = Tech
