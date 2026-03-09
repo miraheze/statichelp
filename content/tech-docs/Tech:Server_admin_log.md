@@ -2,6 +2,22 @@
 title: Tech:Server admin log
 ---
 
+## 2026-03-08 
+
+* 23:11 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'RenderBlocking'} to all - SUCCESS in 24s
+* 23:10 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'RenderBlocking'} to all
+* 22:01 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=battlenationswiki (START)
+* 22:01 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshlinks --wiki=battlenationswiki (END - exit=256)
+* 22:01 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshlinks --wiki=battlenationswiki (START)
+* 21:17 Universal Omega: added reader roles for pixldev and wwr in Graylog
+* 21:13 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'Bucket'} to all - SUCCESS in 27s
+* 21:13 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'Bucket'} to all
+* 21:12 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'Bucket'} to test151 - SUCCESS in 0s
+* 21:12 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'Bucket'} to test151
+* 21:07 MirahezeLSBot: [somerandomdeveloper@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 21:07 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'Bucket'} to test151
+* 20:35 Universal Omega: created ldap accounts for wwr and pixldev
+
 ## 2026-03-07 
 
 * 22:36 MirahezeLSBot: [blankeclair@mwtask181] finished deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'ConfirmEdit'} to all - SUCCESS in 120s

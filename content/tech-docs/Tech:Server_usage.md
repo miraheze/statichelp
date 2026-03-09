@@ -42,15 +42,12 @@ Currently, servers at Miraheze are used for:
 
 | server name | Memory (RAM) | CPU | Storage | Host | Location | Debian version | Kernel version |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| changeprop202 | 10 GB | 8 cores (unknown speed) | 20 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
 | db192 | 24 GB | 8 cores (unknown speed) | 284 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
 | db201 | 30 GB | 6 cores (unknown speed) | 464 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
 | eventgate182 | 6 GB | 4 cores (unknown speed) | 20 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
 | kafka182 | 20 GB | 8 cores (unknown speed) | 50 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
 | llm191 | 34 GB | 6 cores (unknown speed) | 123 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
 | mattermost2 | 8 GB | 4 cores (unknown speed) | 80 GB SSD | OVH | Hillsboro, Oregon | Trixie | |
-| mem191 | 70 GB | 2 cores (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
-| mem201 | 70 GB | 4 cores (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
 | mw153 | 30 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
 | mw163 | 30 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
 | mw173 | 30 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
