@@ -2,6 +2,74 @@
 title: Tech:Server admin log
 ---
 
+## 2026-03-09 
+
+* 23:14 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw203: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 23:14 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask171: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 23:13 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw182: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 23:13 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw191: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 23:13 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw201: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 23:12 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask181: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 23:12 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask151: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 23:12 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw161: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 23:12 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw181: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 23:11 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw193: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 23:11 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw183: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 23:11 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw202: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 23:10 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw173: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 23:10 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw192: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 23:10 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask161: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 23:09 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw163: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 23:09 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw162: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 23:09 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw171: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 23:09 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw172: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 23:08 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw153: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 23:08 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw152: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 23:08 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw151: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 23:08 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on test151: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 21:58 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 21:58 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 21:54 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True, 'l10n': True, 'extension_list': True, 'versions': '1.45', 'upgrade_extensions': 'Bucket'} to test151 - SUCCESS in 51s
+* 21:53 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True, 'l10n': True, 'extension_list': True, 'versions': '1.45', 'upgrade_extensions': 'Bucket'} to test151
+* 21:53 MirahezeLSBot: [wwr@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 21:53 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True, 'l10n': True, 'extension_list': True, 'versions': '1.45', 'upgrade_extensions': 'Bucket'} to test151
+* 21:50 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 21:50 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 21:40 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 21:40 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 21:38 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 21:37 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 21:37 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 21:37 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 19:12 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=diaryofacitygirlwiki (END - exit=0)
+* 19:11 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=thediaryofmaxinewiki --new=diaryofacitygirlwiki --user=MacFan4000 (END - exit=0)
+* 19:06 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=aerrawiki (END - exit=0)
+* 19:06 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=aerrheawiki --new=aerrawiki --user=MacFan4000 (END - exit=0)
+* 18:59 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 18:58 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 18:52 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=realmzwiki (END - exit=0)
+* 18:50 MacFan4000: rename the cargodb for the same wiki then (db151) DROP DATABASE realmzctionarywikicargo
+* 18:34 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=realmzctionarywiki --new=realmzwiki --user=MacFan4000 (END - exit=0)
+* 18:30 MacFan4000: (db151) DROP DATABASE realmzwiki;
+* 18:29 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwiki --delete --deletewiki realmzwiki (END - exit=0)
+* 18:04 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=sonexemewiki (END - exit=0)
+* 18:03 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=guduwiki --new=sonexemewiki --user=MacFan4000 (END - exit=0)
+* 18:00 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=guruwiki --new=sonexemewiki --user=MacFan4000 (END - exit=256)
+* 17:56 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=yuriwiki (END - exit=0)
+* 17:55 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=himewiki --new=yuriwiki --user=MacFan4000 (END - exit=0)
+* 17:44 Universal Omega: deployed local patch to TSPortal on reports171 and disabled puppet until after 00:00 3/10 UTC for testing PR #62
+* 01:54 MirahezeLSBot: [pixldev@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 01:53 MirahezeLSBot: [pixldev@test151] starting deploy of {'config': True} to test151
+* 01:52 MirahezeLSBot: [pixldev@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 01:52 MirahezeLSBot: [pixldev@test151] starting deploy of {'config': True} to test151
+* 01:41 MirahezeLSBot: [pixldev@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 01:41 MirahezeLSBot: [pixldev@test151] starting deploy of {'config': True} to test151
+* 01:39 MirahezeLSBot: [pixldev@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 01:39 MirahezeLSBot: [pixldev@test151] starting deploy of {'config': True} to test151
+* 01:21 MirahezeLSBot: [pixldev@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 01:21 MirahezeLSBot: [pixldev@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 00:18 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=battlenationswiki (END - exit=0)
+
 ## 2026-03-08 
 
 * 23:11 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'RenderBlocking'} to all - SUCCESS in 24s

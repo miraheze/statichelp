@@ -21,7 +21,7 @@ title: Tech:Changeprop202
 }} }}
 ```
 
-**changeprop202** is a FiberState server in Salt Lake City, Utah running Debian Trixie. It is a server that hosts the [Change Propagation](https://wikitech.wikimedia.org/wiki/Changeprop) service.
+**changeprop202** is a FiberState server in Salt Lake City, Utah running Debian Trixie. It is a server that hosts the [Change Propagation](https://meta.miraheze.org/wiki/w:wikitech:Changeprop) service.
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Changeprop202)**

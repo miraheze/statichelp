@@ -9,7 +9,7 @@ Miraheze requires lots of **servers** in order to provide service. With over 400
 Currently, servers at Miraheze are used for:
 
 * [Cache proxy](/tech-docs/techvarnish): [cp161](/tech-docs/techcp161), [cp171](/tech-docs/techcp171), [cp191](/tech-docs/techcp191), [cp201](/tech-docs/techcp201),
-* [Database](/tech-docs/techmariadb): [db151](/tech-docs/techdb151), [db161](/tech-docs/techdb161), [db171](/tech-docs/techdb171), [db172](/tech-docs/techdb172), [db181](/tech-docs/techdb181), [db182](/tech-docs/techdb182), db192, db201
+* [Database](/tech-docs/techmariadb): [db151](/tech-docs/techdb151), [db161](/tech-docs/techdb161), [db171](/tech-docs/techdb171), [db172](/tech-docs/techdb172), [db181](/tech-docs/techdb181), [db182](/tech-docs/techdb182), [db192](/tech-docs/techdb192), [db201](/tech-docs/techdb201)
 * [DNS](/tech-docs/techdns): [ns1](/tech-docs/techns1), [ns2](/tech-docs/techns2)
 * [Mattermost](/tech-docs/techmattermost): mattermost1
 * [MediaWiki](/tech-docs/techmediawiki_appserver): [mw151](/tech-docs/techmw151), [mw152](/tech-docs/techmw152), mw153, [mw161](/tech-docs/techmw161), [mw162](/tech-docs/techmw162), mw163, [mw171](/tech-docs/techmw171), [mw172](/tech-docs/techmw172), mw173, [mw181](/tech-docs/techmw181), [mw182](/tech-docs/techmw182), mw183, mw191, mw192, mw193, mw201, mw202, mw203, mwtask151, mwtask161, [mwtask171](/tech-docs/techmwtask171), [mwtask181](/tech-docs/techmwtask181)
@@ -42,10 +42,6 @@ Currently, servers at Miraheze are used for:
 
 | server name | Memory (RAM) | CPU | Storage | Host | Location | Debian version | Kernel version |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| db192 | 24 GB | 8 cores (unknown speed) | 284 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
-| db201 | 30 GB | 6 cores (unknown speed) | 464 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
-| eventgate182 | 6 GB | 4 cores (unknown speed) | 20 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
-| kafka182 | 20 GB | 8 cores (unknown speed) | 50 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
 | llm191 | 34 GB | 6 cores (unknown speed) | 123 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
 | mattermost2 | 8 GB | 4 cores (unknown speed) | 80 GB SSD | OVH | Hillsboro, Oregon | Trixie | |
 | mw153 | 30 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
