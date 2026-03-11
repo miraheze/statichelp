@@ -2,6 +2,46 @@
 title: Tech:Server admin log
 ---
 
+## 2026-03-10 
+
+* 23:27 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 23:27 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 23:22 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 23:22 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 21:34 MirahezeLSBot: [pixldev@test151] finished deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'CreateWiki'} to test151 - SUCCESS in 0s
+* 21:34 MirahezeLSBot: [pixldev@test151] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'CreateWiki'} to test151
+* 21:30 MirahezeLSBot: [pixldev@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 21:30 MirahezeLSBot: [pixldev@test151] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'CreateWiki'} to test151
+* 21:28 MirahezeLSBot: [pixldev@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 21:28 MirahezeLSBot: [pixldev@test151] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'CreateWiki'} to test151
+* 21:27 MirahezeLSBot: [pixldev@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 21:27 MirahezeLSBot: [pixldev@test151] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'CreateWiki'} to test151
+* 21:25 MirahezeLSBot: [pixldev@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 21:25 MirahezeLSBot: [pixldev@test151] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'CreateWiki'} to test151
+* 21:19 MirahezeLSBot: [pixldev@test151] finished deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'CreateWiki'} to test151 - SUCCESS in 0s
+* 21:19 MirahezeLSBot: [pixldev@test151] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'CreateWiki'} to test151
+* 20:36 MirahezeLSBot: [pixldev@test151] finished deploy of {'world': True, 'folders': '1.45/extensions/CreateWiki', 'versions': '1.45'} to test151 - SUCCESS in 29s
+* 20:35 MirahezeLSBot: [pixldev@test151] starting deploy of {'world': True, 'folders': '1.45/extensions/CreateWiki', 'versions': '1.45'} to test151
+* 20:22 MirahezeLSBot: [pixldev@test151] finished deploy of {'folders': '1.45/extensions/CreateWiki'} to test151 - SUCCESS in 0s
+* 20:22 MirahezeLSBot: [pixldev@test151] starting deploy of {'folders': '1.45/extensions/CreateWiki'} to test151
+* 20:18 MirahezeLSBot: [pixldev@test151] finished deploy of {'folders': '1.45/extensions/CreateWiki'} to test151 - SUCCESS in 0s
+* 20:18 MirahezeLSBot: [pixldev@test151] starting deploy of {'folders': '1.45/extensions/CreateWiki'} to test151
+* 20:14 MirahezeLSBot: [pixldev@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'CreateWiki'} to test151 - SUCCESS in 1s
+* 20:14 MirahezeLSBot: [pixldev@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'CreateWiki'} to test151
+* 20:09 MirahezeLSBot: [pixldev@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 20:08 MirahezeLSBot: [pixldev@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 20:08 MirahezeLSBot: [pixldev@test151] DEPLOY ABORTED: Canary check failed for meta.mirabeta.org@localhost
+* 20:08 MirahezeLSBot: [pixldev@test151] starting deploy of {'config': True} to test151
+* 20:02 MirahezeLSBot: [pixldev@test151] DEPLOY ABORTED: Canary check failed for meta.mirabeta.org@localhost
+* 20:02 MirahezeLSBot: [pixldev@test151] starting deploy of {'config': True} to test151
+* 16:54 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwikibeta --rename --old=wwrtest2wikibeta --new=wwrtest3wikibeta --user=TheWWRNerdGuy (END - exit=0)
+* 16:24 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=wwrtest2wikibeta (END - exit=0)
+* 16:20 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwikibeta --rename --old=wwrtestwikibeta --new=wwrtest2wikibeta --user=TheWWRNerdGuy (END - exit=0)
+* 16:17 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwikibeta --old=wwrtestwikibeta --new=wwrtest2wikibeta --user=TheWWRNerdGuy (END - exit=0)
+* 16:17 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --old=wwrtestwikibeta --new=wwrtest2wikibeta --user=TheWWRNerdGuy (END - exit=512)
+* 02:21 MirahezeLSBot: [pixldev@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php createAndPromote --wiki=metawikibeta PixDeVl --force --custom-groups assistant-steward (END - exit=0)
+* 02:20 MirahezeLSBot: [pixldev@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php createAndPromote --wiki=metawikibeta PixDeVl --custom-groups assistant-steward (END - exit=256)
+
 ## 2026-03-09 
 
 * 23:14 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw203: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra

@@ -11,7 +11,7 @@ Currently, servers at Miraheze are used for:
 * [Cache proxy](/tech-docs/techvarnish): [cp161](/tech-docs/techcp161), [cp171](/tech-docs/techcp171), [cp191](/tech-docs/techcp191), [cp201](/tech-docs/techcp201),
 * [Database](/tech-docs/techmariadb): [db151](/tech-docs/techdb151), [db161](/tech-docs/techdb161), [db171](/tech-docs/techdb171), [db172](/tech-docs/techdb172), [db181](/tech-docs/techdb181), [db182](/tech-docs/techdb182), [db192](/tech-docs/techdb192), [db201](/tech-docs/techdb201)
 * [DNS](/tech-docs/techdns): [ns1](/tech-docs/techns1), [ns2](/tech-docs/techns2)
-* [Mattermost](/tech-docs/techmattermost): mattermost1
+* [Mattermost](/tech-docs/techmattermost): [mattermost2](/tech-docs/techmattermost2)
 * [MediaWiki](/tech-docs/techmediawiki_appserver): [mw151](/tech-docs/techmw151), [mw152](/tech-docs/techmw152), mw153, [mw161](/tech-docs/techmw161), [mw162](/tech-docs/techmw162), mw163, [mw171](/tech-docs/techmw171), [mw172](/tech-docs/techmw172), mw173, [mw181](/tech-docs/techmw181), [mw182](/tech-docs/techmw182), mw183, mw191, mw192, mw193, mw201, mw202, mw203, mwtask151, mwtask161, [mwtask171](/tech-docs/techmwtask171), [mwtask181](/tech-docs/techmwtask181)
 * [Swift](/tech-docs/techswift): [swiftac171](/tech-docs/techswiftac171), [swiftobject151](/tech-docs/techswiftobject151), [swiftobject161](/tech-docs/techswiftobject161), [swiftobject171](/tech-docs/techswiftobject171), [swiftobject181](/tech-docs/techswiftobject181), [swiftobject191](/tech-docs/techswiftobject191), [swiftobject201](/tech-docs/techswiftobject201), [swiftproxy161](/tech-docs/techswiftproxy161), [swiftproxy171](/tech-docs/techswiftproxy171)
 * Miscellaneous
@@ -42,8 +42,6 @@ Currently, servers at Miraheze are used for:
 
 | server name | Memory (RAM) | CPU | Storage | Host | Location | Debian version | Kernel version |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| llm191 | 34 GB | 6 cores (unknown speed) | 123 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
-| mattermost2 | 8 GB | 4 cores (unknown speed) | 80 GB SSD | OVH | Hillsboro, Oregon | Trixie | |
 | mw153 | 30 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
 | mw163 | 30 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
 | mw173 | 30 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
