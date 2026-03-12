@@ -153,6 +153,7 @@ mwdeploy --versions=1.45 --servers=all --upgrade-vendor
 * errorpages and landing
 * ignore-time explanation
 * --extension-list
+* --branch
 
 ## If a canary check fails 
 

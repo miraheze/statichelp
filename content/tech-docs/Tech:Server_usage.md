@@ -12,7 +12,7 @@ Currently, servers at Miraheze are used for:
 * [Database](/tech-docs/techmariadb): [db151](/tech-docs/techdb151), [db161](/tech-docs/techdb161), [db171](/tech-docs/techdb171), [db172](/tech-docs/techdb172), [db181](/tech-docs/techdb181), [db182](/tech-docs/techdb182), [db192](/tech-docs/techdb192), [db201](/tech-docs/techdb201)
 * [DNS](/tech-docs/techdns): [ns1](/tech-docs/techns1), [ns2](/tech-docs/techns2)
 * [Mattermost](/tech-docs/techmattermost): [mattermost2](/tech-docs/techmattermost2)
-* [MediaWiki](/tech-docs/techmediawiki_appserver): [mw151](/tech-docs/techmw151), [mw152](/tech-docs/techmw152), mw153, [mw161](/tech-docs/techmw161), [mw162](/tech-docs/techmw162), mw163, [mw171](/tech-docs/techmw171), [mw172](/tech-docs/techmw172), mw173, [mw181](/tech-docs/techmw181), [mw182](/tech-docs/techmw182), mw183, mw191, mw192, mw193, mw201, mw202, mw203, mwtask151, mwtask161, [mwtask171](/tech-docs/techmwtask171), [mwtask181](/tech-docs/techmwtask181)
+* [MediaWiki](/tech-docs/techmediawiki_appserver): [mw151](/tech-docs/techmw151), [mw152](/tech-docs/techmw152), [mw153](/tech-docs/techmw153), [mw161](/tech-docs/techmw161), [mw162](/tech-docs/techmw162), [mw163](/tech-docs/techmw163), [mw171](/tech-docs/techmw171), [mw172](/tech-docs/techmw172), [mw173](/tech-docs/techmw173), [mw181](/tech-docs/techmw181), [mw182](/tech-docs/techmw182), [mw183](/tech-docs/techmw183), [mw191](/tech-docs/techmw191), [mw192](/tech-docs/techmw192), [mw193](/tech-docs/techmw193), [mw201](/tech-docs/techmw201), [mw202](/tech-docs/techmw202), [mw203](/tech-docs/techmw203), [mwtask151](/tech-docs/techmwtask151), [mwtask161](/tech-docs/techmwtask161), [mwtask171](/tech-docs/techmwtask171), [mwtask181](/tech-docs/techmwtask181)
 * [Swift](/tech-docs/techswift): [swiftac171](/tech-docs/techswiftac171), [swiftobject151](/tech-docs/techswiftobject151), [swiftobject161](/tech-docs/techswiftobject161), [swiftobject171](/tech-docs/techswiftobject171), [swiftobject181](/tech-docs/techswiftobject181), [swiftobject191](/tech-docs/techswiftobject191), [swiftobject201](/tech-docs/techswiftobject201), [swiftproxy161](/tech-docs/techswiftproxy161), [swiftproxy171](/tech-docs/techswiftproxy171)
 * Miscellaneous
    * [mon181](/tech-docs/techmon181): [Grafana](/tech-docs/techgrafana), [Icinga](/tech-docs/techicinga)
@@ -27,8 +27,6 @@ Currently, servers at Miraheze are used for:
 
 ## Table of servers 
 
- `{{ {{Under construction|comment=Table to be automated via DPL4, you can help by updating/creating the pages of individual servers.}} }}`
-
 ```
 {{ {{#dpl:
 |category = Running servers
@@ -39,26 +37,6 @@ Currently, servers at Miraheze are used for:
 |ordermethod = title
 }} }}
 ```
-
-| server name | Memory (RAM) | CPU | Storage | Host | Location | Debian version | Kernel version |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| mw153 | 30 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
-| mw163 | 30 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
-| mw173 | 30 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
-| mw183 | 30 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
-| mw191 | 30 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
-| mw192 | 30 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
-| mw193 | 30 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
-| mw201 | 30 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
-| mw202 | 30 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
-| mw203 | 30 GB | 12 cores (unknown speed) | 60 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
-| mwtask151 | 30 GB | 12 cores (unknown speed) | 260 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
-| mwtask161 | 30 GB | 12 cores (unknown speed) | 260 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
-| os162 | 8 GB | 4 cores (unknown speed) | 500 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
-| os191 | 8 GB | 2 cores (unknown speed) | 500 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
-| os201 | 8 GB | 2 cores (unknown speed) | 500 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
-| os202 | 8 GB | 4 cores (unknown speed) | 500 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
-| rdb191 | 20 GB | 2 cores (unknown speed) | 10 GB U.2 NVMe | Fiberstate | Salt Lake City, UT | Trixie | |
 
 *Note*: Some information such as specs may be incorrect.
 

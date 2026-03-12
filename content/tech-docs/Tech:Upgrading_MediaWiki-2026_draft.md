@@ -4,32 +4,91 @@ title: Tech:Upgrading MediaWiki/2026 draft
 
 ## Preperations 
 
- `{{ {{note|For production use loginwiki instead of loginwikibeta.}} }}`
+### Create Phorge Tasks 
+
+Two tasks should be created on [Phorge](https://meta.miraheze.org/wiki/Phorge), one to upgrade MediaWiki (example: [T14458](https://meta.miraheze.org/wiki/phorge:T14458)) and another to test extensions (example: [T14459](https://meta.miraheze.org/wiki/phorge:T14459)). Additionally, a paste should be created for exception backtraces found during testing (example: [P562](https://meta.miraheze.org/wiki/phorge:P562)), and sub tasks of the main upgrade task should be created for extensions that should be totally undeployed before the upgrade (example: [T14866](https://meta.miraheze.org/wiki/phorge:T14866)).
+
+### Deploy the New Version 
+
+* Clone the new version by adding to 
+```yaml
+mediawiki::multiversion::versions
+```
+ in [mediawiki_beta.yaml](https://meta.miraheze.org/wiki/github:miraheze/puppet/blob/main/hieradata/role/common/mediawiki_beta.yaml), and later, a few days to a week before the planned launch of the [NextTide](https://meta.miraheze.org/wiki/NextTide) program, to [common.yaml](https://meta.miraheze.org/wiki/github:miraheze/puppet/blob/main/hieradata/common.yaml) for it to be deployed on production.
+* Once Puppet pulls the changes to [puppet181](/tech-docs/techpuppet181), run `sudo puppet agent -tv` on [test151](/tech-docs/techtest151) for beta or [mwtask181](/tech-docs/techmwtask181) for production.
+* Deploy the new version with: `mwdeploy --world --l10n --ignore-time --extension-list --servers=all --versions=<new_version>`.
+
+### Prepare for the Upgrade 
+
+ `{{ {{Note}} }}` Before upgrading production this should be double checked again as well, as some things may have changed since first checking.
+
 * Check if there are any migrations that can be done **before** the upgrade (they must have support for `WRITE_BOTH` migration variables at the minimum).
-* `{{ {{note|No SQL patches can be done before at least new wikis are upgraded (see [[#Upgrading new wikis]] for that), otherwise new wikis will be missing the patches that were already ran on existing wikis.}} }}`
+* `{{ {{Note}} }}` No SQL patches can be done before at least new wikis are upgraded (see [#Upgrading New Wikis](#upgrading-new-wikis) for that), otherwise new wikis will be missing the patches that were already ran on existing wikis. `{{ {{Note|For production use loginwiki instead of loginwikibeta.}} }}`
 * Find new SQL patches that are needed:
 * `mwscript MirahezeMagic:FindSQLPatches loginwikibeta --no-log --from-version=<old_version> --to-version=<new_version>`
-* Find new maintenance scripts that may be needed (typically only those with LoggedUpdateMaintenance are actually needed):
+* Find new maintenance scripts that may be needed (typically only those with **LoggedUpdateMaintenance** are actually needed):
 * `mwscript MirahezeMagic:FindPossibleUpgradeScripts loginwikibeta --no-log --from-version=<old_version> --to-version=<new_version>`
 
-### JSON Schema for UpgradeWiki 
+#### Necessary Config Changes 
+
+* Look for any new or renamed SQL files for new tables for global extensions and add to 
+```php
+wgCreateWikiSQLFiles
+```
+ in [LocalSettings.php](https://meta.miraheze.org/wiki/github:miraheze/mw-config/blob/main/LocalSettings.php). You can add a new array, keyed by the new version to set for only the new version ([example](https://meta.miraheze.org/wiki/github:miraheze/mw-config/commit/366474e) – if one is being renamed rather than adding a new one, remove the **+** and copy the entire current default but with the changes).
+* If a global extension can be removed (IE when Interwiki was merged into core in MediaWiki 1.44), update [GlobalExtensions.php](https://meta.miraheze.org/wiki/github:miraheze/mw-config/blob/main/GlobalExtensions.php), and wrap the extension in a 
+```php
+$wi->version
+```
+ if block ([example](https://meta.miraheze.org/wiki/github:miraheze/mw-config/commit/025e63a)). Also add **versions** in [mediawiki-repos.yaml](https://meta.miraheze.org/wiki/github:miraheze/mediawiki-repos/blob/main/mediawiki-repos.yaml) ([example](https://meta.miraheze.org/wiki/github:miraheze/mediawiki-repos/commit/4244212)).
+* If any settings need changed only for the new version, if in LocalSettings.php, you can use the new version just like any wiki (IE **1.45**) in 
+```php
+$wgConf
+```
+. If outside 
+```php
+$wgConf
+```
+, you can use 
+```php
+$wi->version
+```
+ in if blocks.
+
+#### Community Outreach 
+
+If any extensions are to be removed before the upgrade, this should be communicated via [Tech:Noticeboard](/tech-docs/technoticeboard) and affected wikis should be made aware via the [NotifyWikiUsers](https://meta.miraheze.org/wiki/github:miraheze/MirahezeMagic/blob/main/maintenance/NotifyWikiUsers.php) script in MirahezeMagic. A page for the upgrade (similar to [MediaWiki/1.45](https://meta.miraheze.org/wiki/MediaWiki/1.45)) may be created with user-facing changes and extension removals as well. The schedule, once decided, should also be added to that page.
+
+### Create JSON Schema for UpgradeWiki 
 
 This JSON file defines the upgrade steps for a wiki, including SQL patches and maintenance scripts. All paths are relative to the server root unless absolute paths are given.
- `{{ {{note|Pay attention to what scripts and patches do. If you have a patch that drops something in pre_patches, and a maintenance script that does the migration, that will lead to data loss. In that case the patch should be in post_patches.}} }}`
+ `{{ {{Note|Pay attention to what scripts and patches do. If you have a patch that drops something in pre_patches, and a maintenance script that does the migration, that will lead to data loss. In that case the patch should be in post_patches.}} }}`
+
+#### mwversion 
+
+* Required string of the **new** MediaWiki version.
+* Only used as the upgrade key so that the same upgrade isn't attempted twice on the same wiki.
+* Example: 
+```json
+{ "mwversion": "1.45" }
+```
 
 #### pre_patches 
 
 * Array of SQL files to run **before** maintenance scripts.
 * Each entry can be:
    * A string containing the path to the SQL file.
-   * An object: `{ "file": "/path/to/file.sql" }`
+   * An object: 
+```json
+{ "file": "/path/to/file.sql" }
+```
    * Optional: `if_extension_enabled` (string) — name of an extension; this patch only runs if the extension is enabled.
 * Example:
 ```json
 "pre_patches": [
-    "/patches/001_initial.sql",
-    { "file": "/patches/002_add_columns.sql" },
-    { "file": "/patches/conditional.sql", "if_extension_enabled": "CentralAuth" }
+	"/patches/001_initial.sql",
+	{ "file": "/patches/002_add_columns.sql" },
+	{ "file": "/patches/conditional.sql", "if_extension_enabled": "CentralAuth" }
 ]
 ```
 
@@ -44,15 +103,11 @@ This JSON file defines the upgrade steps for a wiki, including SQL patches and m
 * Example:
 ```json
 "maintenance": [
-    {
-        "class": "Miraheze\\MirahezeMagic\\Maintenance\\ChangeMediaWikiVersion",
-        "options": { "mwversion": "1.45" }
-    },
-    {
-        "class": "MediaWiki\\Extension\\CentralAuth\\Maintenance\\FixRenameUserLocalLogs",
-        "options": { "logwiki": "metawiki", "fix": true },
-        "if_extension_enabled": "CentralAuth"
-    }
+	{
+		"class": "MediaWiki\\Extension\\CentralAuth\\Maintenance\\FixRenameUserLocalLogs",
+		"options": { "logwiki": "metawiki", "fix": true },
+		"if_extension_enabled": "CentralAuth"
+	}
 ]
 ```
 
@@ -63,9 +118,58 @@ This JSON file defines the upgrade steps for a wiki, including SQL patches and m
 * Example:
 ```json
 "post_patches": [
-    "/patches/999_finalize.sql",
-    { "file": "/patches/conditional_post.sql", "if_extension_enabled": "FlaggedRevs" }
+	"/patches/999_finalize.sql",
+	{ "file": "/patches/conditional_post.sql", "if_extension_enabled": "FlaggedRevs" }
 ]
+```
+
+#### Full Example 
+
+```
+{{ {{collapse|
+<syntaxhighlight lang="json">
+{
+	"mwversion": "1.45",
+	"pre_patches": [
+		"/srv/mediawiki/1.45/sql/mysql/patch-existencelinks.sql",
+		"/srv/mediawiki/1.45/sql/mysql/patch-imagelinks-add-il_target_id.sql",
+		{
+			"file": "/srv/mediawiki/1.45/extensions/PageTriage/sql/mysql/patch_ptrp_tags_updated_nullable.sql",
+			"if_extension_enabled": "PageTriage"
+		}
+	],
+	"maintenance": [
+		{
+			"class": "FixWrongPasswordPrefixes"
+		},
+		{
+			"class": "MediaWiki\\Extension\\CentralAuth\\Maintenance\\FixRenameUserLocalLogs",
+			"options": { "logwiki": "metawiki", "fix": true },
+			"if_extension_enabled": "CentralAuth"
+		},
+		{
+			"class": "UpdateCollation",
+			"options": { "only-migrate-normalization": true }
+		},
+		{
+			"class": "MediaWiki\\Extension\\ExampleExtension\\Maintenance\\ExampleScript",
+			"args": [
+				"firstPositionalArg",
+				"secondPositionalArg"
+			]
+		},
+	],
+	"post_patches": [
+		"/srv/mediawiki/1.45/extensions/AbuseFilter/db_patches/mysql/patch-drop-afl_ip.sql",
+		"/srv/mediawiki/1.45/sql/mysql/patch-categorylinks-drop-cl_to-cl_collation.sql",
+		{
+			"file": "/srv/mediawiki/1.45/extensions/FlaggedRevs/sql/add_review_timestamp.sql",
+			"if_extension_enabled": "FlaggedRevs"
+		}
+	]
+}
+</syntaxhighlight>
+|Click to expand a complete example JSON schema.}} }}
 ```
 
 #### Notes 
@@ -76,16 +180,163 @@ This JSON file defines the upgrade steps for a wiki, including SQL patches and m
    * `wikidb` is set for SQL files.
    * `wiki` is set for maintenance scripts unless overridden.
 * Validation rules:
+   * `mwversion` must be a string of the new version.
    * `pre_patches` and `post_patches` must be arrays.
    * `maintenance` must be an array of objects with a non-empty `class`.
    * `options` must be key/value object; `args` must be an array of strings or integers.
    * `if_extension_enabled`, if present, must be a string corresponding to a valid enabled extension.
+   * `{{ {{Note}} }}` Should be provided even if it's a global extension since some wikis, such as `ldapwikiwiki` may not have certain extensions such as CentralAuth enabled.
 
 ## ChangeMediaWikiVersion 
 
-## Upgrading beta 
+ `{{ {{Note}} }}` Due to performance issues this script should **never** be ran in **foreachwikiindblist**. For that reason, this script provides numerous options to run on a batched set of wikis.
 
-## Upgrading new wikis 
+* `--mwversion=<new_version>` is the version to change selected wikis to.
+* `--dry-run` can be used to preview what it would do without actually committing any changes.
+* `--all-wikis` can be used to change the version for all wikis, including deleted wikis.
+* `{{ {{Note}} }}` This typically should not be used on production, as we don't upgrade all wikis at once.
+
+**State options**:
+* `--active` – change the version for only active wikis, which are those not marked as closed, deleted, or inactive.
+* `--closed` – change the version for only closed wikis.
+* `--deleted` – change the version for only deleted wikis.
+* `--inactive` – change the version for only inactive wikis.
+
+**Special options**:
+ `{{ {{Note}} }}` These should rarely be necessary to use.
+
+* <code>--file=</path/to/file></code> – can provide a file with dbnames, one per line, to upgrade.
+* `--regex=<selection regex>` – can provide regex based on dbname to upgrade those wikis. May be helpful if batching in alphabetical order.
+
+## Upgrading Beta 
+
+* Change **beta** in 
+```php
+MEDIAWIKI_VERSIONS
+```
+ in [MirahezeFunctions](https://meta.miraheze.org/wiki/github:miraheze/mw-config/blob/main/initialise/MirahezeFunctions.php) to the new version.
+* Switch the default version in 
+```yaml
+mediawiki::multiversion::versions
+```
+ in [mediawiki_beta.yaml](https://meta.miraheze.org/wiki/github:miraheze/puppet/blob/main/hieradata/role/common/mediawiki_beta.yaml) to the new version. This key only makes systemd timers run using the new version.
+
+**On [test151](/tech-docs/techtest151)**:
+* Run `mwdeploy --config --pull=config --servers=all` to deploy the changes.
+* Run `mwscript MirahezeMagic:ChangeMediaWikiVersion loginwikibeta --mwversion=<new_version> --all-wikis --no-log`.
+* Run `mwscript MirahezeMagic:UpgradeWiki all --json=/path/to/json/file.json --version=<new_version>`.
+* Run `mwscript MirahezeMagic:UpgradeWiki deleted --json=/path/to/json/file.json --version=<new_version>` (to also upgrade any deleted wikis).
+
+## Upgrading Individual Wikis (NextTide) 
+
+ `{{ {{Note}} }}` NextTide may not always be possible if there are some backwards incompatible schema changes between global and local tables.
+
+First, create a paste on Phorge to track wikis that have opt-in to NextTide (example: [P556](https://meta.miraheze.org/wiki/phorge:P556)). Wikis that have opted into previous NextTide programs are **not** automatically opt-in everytime, with the exception of **testwiki** which is always opt-in.
+
+**To upgrade an individual wiki**:
+* Run `mwscript MirahezeMagic:ChangeMediaWikiVersion <wiki> --mwversion=<new_version> --no-log`.
+* Run `mwscript MirahezeMagic:UpgradeWiki <wiki> --json=/path/to/json/file.json --version=<new_version>`.
+* Add the wiki to the NextTide paste.
+
+## Upgrading New Wikis 
+
+ `{{ {{Note}} }}` Once **metawiki** is upgraded, you can switch 
+```php
+wgCreateWikiSQLFiles
+```
+ in [LocalSettings.php](https://meta.miraheze.org/wiki/github:miraheze/mw-config/blob/main/LocalSettings.php) back to using 
+```php
+$IP
+```
+ again.
+
+* Disable new wiki requests, wiki creations, and the AI auto approvals temporarily (this should be communicated to Wiki Reviewers first) ([example commit](https://meta.miraheze.org/wiki/github:miraheze/mw-config/commit/009ea7d)).
+* Run `mwscript MirahezeMagic:PopulateMediaWikiVersion loginwiki --old-version=<old_version> --new-version=<new_version>` and **wait for it to finish**. This script populates the old version in the **mediawiki-version** field for all existing wikis so that they are explicitly on the old version so that new wikis can use the new version (which will now be the default version).
+* `{{ {{Note|PopulateMediaWikiVersion also supports a <code>--dry-run</code> option you could run first.}} }}`
+* Update 
+```php
+wgCreateWikiSQLFiles
+```
+ in [LocalSettings.php](https://meta.miraheze.org/wiki/github:miraheze/mw-config/blob/main/LocalSettings.php) to use the full absolute path rather than 
+```php
+$IP
+```
+ and merge the version key with default. Also, add a new **legacy** option and change **stable** to the new version in 
+```php
+MEDIAWIKI_VERSIONS
+```
+ in [MirahezeFunctions](https://meta.miraheze.org/wiki/github:miraheze/mw-config/blob/main/initialise/MirahezeFunctions.php). – [Example commit](https://meta.miraheze.org/wiki/github:miraheze/mw-config/commit/46c7fa2)
+* Run `mwdeploy --config --pull=config --servers=all` on [mwtask181](/tech-docs/techmwtask181) to deploy the changes.
+* Once existing wikis look fine and are still on the old version properly, reenable wiki requests and wiki creations by reverting the commit in the first step of this section.
+* Run `mwdeploy --config --pull=config --servers=all` on [mwtask181](/tech-docs/techmwtask181) to deploy the changes once again.
+* Communicate to Wiki Reviewers that they may resume and to let the Technology team know of any issues.
+
+## Upgrading in Batches 
+
+ `{{ {{Note}} }}` We upgrade wikis in batches over the course of a few days to a week.
+
+* The first batch is always considered to be [NextTide](https://meta.miraheze.org/wiki/NextTide).
+* If the NextTide program is skipped due to some sort of incompatibility, then this still includes any opt-in wiki and **testwiki**.
+* The second batch would be new wikis (see [#Upgrading New Wikis](#upgrading-new-wikis)).
+* The third batch would be all wikis in [Miraheze projects](https://meta.miraheze.org/wiki/Miraheze_projects) (for upgrading see and follow the same steps in [Upgrading Individual Wikis](#upgrading-individual-wikis-nexttide)).
+* `{{ {{Note}} }}` Some wikis like metawiki may have wiki specific patches such as for global AbuseFilter filter and should be applied at this time. Additionally, once **metawiki** is completed, you can switch 
+```php
+wgCreateWikiSQLFiles
+```
+ in [LocalSettings.php](https://meta.miraheze.org/wiki/github:miraheze/mw-config/blob/main/LocalSettings.php) back to using 
+```php
+$IP
+```
+ again.
+* The fourth, fifth, and sixth batches would be deleted, closed, and inactive wikis respectively.
+* `{{ {{Note}} }}` These should be at least 24 hours after the third batch has been completed, and could all be done around the same time by running them on separate **mwtask** servers simultaneously.
+* The seventh batch would be active wikis.
+* `{{ {{Note}} }}` These should be done at least 24 hours after the sixth batch has been completed.
+* See [#Finalizing Upgrade](#finalizing-upgrade) for the eighth and final batch.
+
+For each batched state you can follow the instructions in [#ChangeMediaWikiVersion](#changemediawikiversion) to change the version for each state and wait for those scripts to finish.
+
+Once that is done, you can use `mwscript MirahezeMagic:UpgradeWiki <active/closed/deleted/inactive> --json=/path/to/json/file.json --version=<new_version>` to begin the upgrades on wikis per state.
+
+Once all wikis are on the new version (or at least **loginwiki**), switch the default version in 
+```yaml
+mediawiki::multiversion::versions
+```
+ in [common.yaml](https://meta.miraheze.org/wiki/github:miraheze/puppet/blob/main/hieradata/common.yaml) to the new version. This key only makes systemd timers run using the new version.
+
+## Finalizing Upgrade 
+
+Some wikis may have been missed during the upgrade. You can check `/srv/mediawiki/cache/legacy-wikis.php` to see if any wikis remain.
+
+**If wikis still remain**:
+* `sudo -u www-data /srv/mediawiki/cache/legacy-wikis.php /srv/mediawiki/cache/upgrade-wikis.php` (to ensure you are not using a list file that may change while the upgrade is still ongoing)
+* `sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/upgrade-wikis.php /srv/mediawiki/<old_version>/maintenance/run.php MirahezeMagic:ChangeMediaWikiVersion --mwversion=<new_version>`
+* `{{ {{Note}} }}` Due to performance issues mentioned above this may cause temporary farm instability and should be monitored very closely.
+* `sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/upgrade-wikis.php /srv/mediawiki/<new_version>/maintenance/run.php MirahezeMagic:UpgradeWiki --json=/path/to/json/file.json`
+
+Once those are done, once again, confirm if any wikis remain in `/srv/mediawiki/cache/legacy-wikis.php`. If not, delete the **upgrade-wikis.php** file now as well.
+
+## Monitoring for Errors 
+
+ `{{ {{Note}} }}` UpgradeWiki logs errors in two places for redundancy.
+
+**You can either**:
+* Search for `mediawiki_channel:UpgradeWiki` on [Graylog](/tech-docs/techgraylog).
+* Check `/var/log/mediawiki/debuglogs/UpgradeWiki-exceptions.log` on **the server that UpgradeWiki is running on**.
+
+If wikis are found in either of those places it is very likely that the upgrade failed, and some, or all, schema and/or maintenance scripts were not ran on the wikis there and should be investigated as soon as possible.
+
+Also during the upgrade process when some wikis begin to be upgraded, you can monitor for certain errors for wikis on the new version by searching for `mediawiki_version:<new_version>` on [Graylog](/tech-docs/techgraylog).
+
+## Cleaning Up Old Version 
+
+* Remove **legacy** from 
+```php
+MEDIAWIKI_VERSIONS
+```
+ in [MirahezeFunctions](https://meta.miraheze.org/wiki/github:miraheze/mw-config/blob/main/initialise/MirahezeFunctions.php).
+
+## Post-Upgrade 
 
 
 ----
