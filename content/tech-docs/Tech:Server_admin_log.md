@@ -2,6 +2,24 @@
 title: Tech:Server admin log
 ---
 
+## 2026-03-12 
+
+* 20:51 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php purgeParserCache --wiki=suppressionwiki --age=14400 (END - exit=0)
+* 19:47 MirahezeLSBot: [universalomega@bots171] sudo apt purge --autoremove dotnet-sdk-6.0
+* 19:24 MirahezeLSBot: [void@kafka182] upgrade package libnetty-java and restart kafka + zookeeper
+* 19:07 MirahezeLSBot: [wwr@test151] Finished import for wwrtest3wikibeta (XML: ./tdutr.xml; Images: ./images) (END - exit=0)
+* 19:07 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=wwrtest3wikibeta --update (END - exit=0)
+* 19:07 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=wwrtest3wikibeta --update (START)
+* 19:07 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=wwrtest3wikibeta (END - exit=0)
+* 19:07 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=wwrtest3wikibeta (START)
+* 19:07 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=wwrtest3wikibeta (END - exit=0)
+* 19:04 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=wwrtest3wikibeta (START)
+* 19:04 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=wwrtest3wikibeta --sleep=0 '--comment=Blowing up db servers with content from [https://tdutr.fandom.com'](https://tdutr.fandom.com') -- ./images (END - exit=0)
+* 19:02 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=wwrtest3wikibeta --sleep=0 '--comment=Blowing up db servers with content from [https://tdutr.fandom.com'](https://tdutr.fandom.com') -- ./images (START)
+* 19:02 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=wwrtest3wikibeta --no-updates --username-prefix=fandom:tdutr -- ./tdutr.xml (END - exit=0)
+* 18:58 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=wwrtest3wikibeta --no-updates --username-prefix=fandom:tdutr -- ./tdutr.xml (START)
+* 18:58 MirahezeLSBot: [wwr@test151] Starting import for wwrtest3wikibeta (XML: ./tdutr.xml; Images: ./images) (START)
+
 ## 2026-03-11 
 
 * 02:55 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 26s

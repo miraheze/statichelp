@@ -21,7 +21,7 @@ title: Tech:Prometheus151
 }} }}
 ```
 
-**prometheus151** is a FiberState server in Salt Lake City, Utah running Debian Trixie. It is a server that hosts Prometheus.
+**prometheus151** is a FiberState server in Salt Lake City, Utah running Debian Trixie. It is a server that hosts [Prometheus](https://prometheus.io).
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Prometheus151)**

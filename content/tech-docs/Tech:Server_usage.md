@@ -53,28 +53,6 @@ Currently, servers at Miraheze are used for:
 }} }}
 ```
 
-| server name | specs | date started | decommissioned date | former cost per month |
-| --- | --- | --- | --- | --- |
-| ~~cp26~~ *decommissioned* | 6 GB, 4 core @ 2.65 GHz, 100 GB SSD | 24 January 2024 | 2 September 2024 | $5.50 |
-| ~~cp27~~ *decommissioned* | 6 GB, 4 core @ 2.65 GHz, 100 GB SSD | 28 January 2024 | 2 September 2024 | $5.50 |
-| ~~cp36 (cloud16)~~ *[renamed](/tech-docs/techcp161)* | 10 GB, 6 cores @ 2.65 GHz, 100 GB U.2 NVMe | | 10 June 2025 |  |
-| ~~cp37 (cloud17)~~ *[renamed](/tech-docs/techcp171)* | 32 GB, 8 cores @ 2.65 GHz, 500 GB U.2 NVMe | | 10 June 2025 |  |
-| ~~cp38 (cloud19)~~ *[renamed](/tech-docs/techcp191)* | 32 GB, 8 cores @ 2.65 GHz, 500 GB U.2 NVMe | | 10 June 2025 |  |
-| ~~cp41~~ *decommissioned* | 6 GB, 4 core @ 2.65 GHz, 100 GB SSD | 24 January 2024 | 2 September 2024 | $7.75 |
-| ~~cp51~~ *decommissioned* | 6 GB, 4 core @ 2.65 GHz, 100 GB SSD | 24 January 2024 | 2 September 2024 | $7.40 |
-| ~~lizardfs6~~ *decommissioned* | 32GB, 8 core @ 3.5GHz, 2 TB HDD | |  |  |
-| changeprop151 | 12 GB, 8 cores (unknown speed), 20 GB U.2 NVMe | |  |  |
-| graphite151 | 4 GB, 4 cores (unknown speed), 30 GB U.2 NVMe | |  |  |
-| mw154 | 12 GB, 12 cores (unknown speed), 60 GB U.2 NVMe | |  |  |
-| mw164 | 12 GB, 12 cores (unknown speed), 60 GB U.2 NVMe | |  |  |
-| mw174 | 12 GB, 12 cores (unknown speed), 60 GB U.2 NVMe | |  |  |
-| mw184 | 12 GB, 12 cores (unknown speed), 60 GB U.2 NVMe | |  |  |
-| changeprop201 | 10 GB, 8 cores (unknown speed), 20 GB U.2 NVMe | |  |  |
-| eventgate181 | 6 GB, 4 cores (unknown speed), 20 GB U.2 NVMe | |  |  |
-| kafka181 | 20 GB, 8 cores (unknown speed), 30 GB U.2 NVMe | |  |  |
-| mattermost1 | 2 GB, 2 cores (unknown speed), 40 GB SSD | |  |  |
-| rdb151 | 4 GB, 2 cores (unknown speed), 10 GB U.2 NVMe | |  |  |
-
 ## Categories
 
 * [Category:Servers](https://meta.miraheze.org/wiki/Category:Servers)

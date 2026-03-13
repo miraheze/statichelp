@@ -6,7 +6,7 @@ title: Tech:Mattermost2
 {{ {{Server
 | name = mattermost2
 | location = OVH Hillsboro
-| host = mattermost2.fsslc.wtnet
+| host = mattermost2.vps.wtnet
 | usage = Mattermost
 | status = running
 | memory = 8GB
