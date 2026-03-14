@@ -2,6 +2,148 @@
 title: Tech:Server admin log
 ---
 
+## 2026-03-14 
+
+* 00:00 MirahezeLSBot: [wwr@test151] Finished import for wwrtest3wikibeta (XML: None; Images: ./images) (END - exit=1)
+* 00:00 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=wwrtest3wikibeta --sleep=0 '--comment=Importing images from [https://dev.miraheze.org](https://dev.miraheze.org) ([T15032](https://meta.miraheze.org/wiki/phorge:T15032))' -- ./images (END - exit=1)
+* 00:00 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=wwrtest3wikibeta --sleep=0 '--comment=Importing images from [https://dev.miraheze.org](https://dev.miraheze.org) ([T15032](https://meta.miraheze.org/wiki/phorge:T15032))' -- ./images (START)
+* 00:00 MirahezeLSBot: [wwr@test151] Starting import for wwrtest3wikibeta (XML: None; Images: ./images) (START)
+
+## 2026-03-13 
+
+* 23:57 MirahezeLSBot: [wwr@test151] Finished import for wwrtest3wikibeta (XML: None; Images: ./tmp/devwiki/) (END - exit=1)
+* 23:57 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=wwrtest3wikibeta --sleep=0 '--comment=Importing images from [https://dev.miraheze.org](https://dev.miraheze.org) ([T15032](https://meta.miraheze.org/wiki/phorge:T15032))' --search-recursively -- ./tmp/devwiki/ (END - exit=1)
+* 23:57 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=wwrtest3wikibeta --sleep=0 '--comment=Importing images from [https://dev.miraheze.org](https://dev.miraheze.org) ([T15032](https://meta.miraheze.org/wiki/phorge:T15032))' --search-recursively -- ./tmp/devwiki/ (START)
+* 23:57 MirahezeLSBot: [wwr@test151] Starting import for wwrtest3wikibeta (XML: None; Images: ./tmp/devwiki/) (START)
+* 23:52 MirahezeLSBot: [wwr@test151] Finished import for wwrtest3wikibeta (XML: ./history.xml; Images: ./tmp/devwiki/) (END - exit=1)
+* 23:52 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=wwrtest3wikibeta --sleep=0 '--comment=Importing images from [https://dev.miraheze.org](https://dev.miraheze.org) ([T15032](https://meta.miraheze.org/wiki/phorge:T15032))' --search-recursively -- ./tmp/devwiki/ (END - exit=1)
+* 23:52 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=wwrtest3wikibeta --sleep=0 '--comment=Importing images from [https://dev.miraheze.org](https://dev.miraheze.org) ([T15032](https://meta.miraheze.org/wiki/phorge:T15032))' --search-recursively -- ./tmp/devwiki/ (START)
+* 23:52 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=wwrtest3wikibeta --no-updates --username-prefix=mh:dev -- ./history.xml (END - exit=0)
+* 23:46 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=wwrtest3wikibeta --no-updates --username-prefix=mh:dev -- ./history.xml (START)
+* 23:46 MirahezeLSBot: [wwr@test151] Starting import for wwrtest3wikibeta (XML: ./history.xml; Images: ./tmp/devwiki/) (START)
+* 22:55 MirahezeLSBot: [void@db171] restart sql-backup service
+* 22:33 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php createAndPromote --wiki=wwrtest3wikibeta TheWWRNerdGuy --bureaucrat --force --sysop --interface-admin (END - exit=0)
+* 22:29 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwikibeta --dbname=wwrtest3wikibeta --requester=TheWWRNerdAlt (END - exit=0)
+* 19:06 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'PageForms'} to test151 - SUCCESS in 315s
+* 19:00 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'PageForms'} to test151
+* 18:59 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'Cargo'} to test151 - SUCCESS in 324s
+* 18:58 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'PageForms'} to all - SUCCESS in 111s
+* 18:56 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'PageForms'} to all
+* 18:56 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'Cargo'} to all - SUCCESS in 159s
+* 18:53 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'Cargo'} to test151
+* 18:53 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'Cargo'} to all
+* 16:03 @paladox: upgrade mariadb-common on mon181
+* 15:57 @paladox: upgrade icinga2 on mon181
+* 15:52 @paladox: upgrade grafana on mon181
+* 02:25 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=stretwikiwiki (END - exit=0)
+* 02:25 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=nazarewiki (END - exit=0)
+* 02:25 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=truevanillawiki (END - exit=0)
+* 02:25 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=redk1ttywiki (END - exit=0)
+* 02:25 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=luckbychancewiki (END - exit=0)
+* 02:25 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=lostcompasswiki (END - exit=0)
+* 02:25 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=lifesprogresswiki (END - exit=0)
+* 02:25 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=hymnrowiki (END - exit=0)
+* 02:25 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=firetimewiki (END - exit=0)
+* 02:25 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=eggnoswiki (END - exit=0)
+* 02:25 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=checkcablewiki (END - exit=0)
+* 02:25 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=bastionsgwiki (END - exit=0)
+* 02:25 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=reactorwiki (END - exit=0)
+* 02:25 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=sithempirewiki (END - exit=0)
+* 02:25 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=prxpvnewiki (END - exit=0)
+* 02:25 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=prisonerlifewiki (END - exit=0)
+* 02:25 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=metawiki (END - exit=0)
+* 02:25 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=maxcapacitywiki (END - exit=0)
+* 02:25 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=lugatwiki (END - exit=0)
+* 02:25 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=forestwiki (END - exit=0)
+* 02:24 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=dysonsphereprogramwiki (END - exit=0)
+* 02:24 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=tucsonemwiki (END - exit=0)
+* 02:24 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=bristolstudenthousingcoopwiki (END - exit=0)
+* 02:24 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=starworldwiki (END - exit=0)
+* 02:24 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=armoredpatrolremasteredwiki (END - exit=0)
+* 02:24 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=loginwiki --dbname=100acgwiki (END - exit=0)
+* 02:15 MirahezeLSBot: [universalomega@bots171] sudo apt purge --autoremove dotnet-sdk-8.0
+* 00:46 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: linux-libc-dev
+* 00:45 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: linux-libc-dev
+* 00:45 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: linux-libc-dev
+* 00:45 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: linux-libc-dev
+* 00:45 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: linux-libc-dev
+* 00:44 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: linux-libc-dev
+* 00:44 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: linux-libc-dev
+* 00:44 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: linux-libc-dev
+* 00:44 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: linux-libc-dev
+* 00:43 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: linux-libc-dev
+* 00:43 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: linux-libc-dev
+* 00:43 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: linux-libc-dev
+* 00:43 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: linux-libc-dev
+* 00:43 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb191: linux-libc-dev
+* 00:42 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: linux-libc-dev
+* 00:42 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: linux-libc-dev
+* 00:42 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: linux-libc-dev
+* 00:40 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: linux-libc-dev
+* 00:40 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: linux-libc-dev
+* 00:40 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: linux-libc-dev
+* 00:40 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: linux-libc-dev
+* 00:40 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: linux-libc-dev
+* 00:39 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: linux-libc-dev
+* 00:39 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: linux-libc-dev
+* 00:39 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: linux-libc-dev
+* 00:39 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: linux-libc-dev
+* 00:38 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: linux-libc-dev
+* 00:38 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: linux-libc-dev
+* 00:38 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: linux-libc-dev
+* 00:38 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: linux-libc-dev
+* 00:38 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: linux-libc-dev
+* 00:37 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: linux-libc-dev
+* 00:36 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: linux-libc-dev
+* 00:36 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: linux-libc-dev
+* 00:36 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: linux-libc-dev
+* 00:35 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: linux-libc-dev
+* 00:35 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: linux-libc-dev
+* 00:35 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: linux-libc-dev
+* 00:35 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: linux-libc-dev
+* 00:34 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: linux-libc-dev
+* 00:34 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: linux-libc-dev
+* 00:34 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: linux-libc-dev
+* 00:34 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: linux-libc-dev
+* 00:34 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: linux-libc-dev
+* 00:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: linux-libc-dev
+* 00:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: linux-libc-dev
+* 00:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: linux-libc-dev
+* 00:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: linux-libc-dev
+* 00:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: linux-libc-dev
+* 00:32 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: linux-libc-dev
+* 00:32 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: linux-libc-dev
+* 00:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: linux-libc-dev
+* 00:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: linux-libc-dev
+* 00:31 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: linux-libc-dev
+* 00:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: linux-libc-dev
+* 00:31 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: linux-libc-dev
+* 00:31 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: linux-libc-dev
+* 00:31 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: libcpupower1, linux-cpupower, and linux-libc-dev
+* 00:30 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: linux-libc-dev
+* 00:30 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: libcpupower1, linux-cpupower, and linux-libc-dev
+* 00:30 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: linux-libc-dev
+* 00:30 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: linux-libc-dev
+* 00:29 MirahezeLSBot: [void@puppet181] Upgraded packages on db201: linux-libc-dev
+* 00:29 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: linux-libc-dev
+* 00:29 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: linux-libc-dev
+* 00:29 MirahezeLSBot: [void@puppet181] Upgraded packages on db192: linux-libc-dev
+* 00:28 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: linux-libc-dev
+* 00:28 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: libcpupower1, linux-cpupower, and linux-libc-dev
+* 00:28 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: libcpupower1, linux-cpupower, and linux-libc-dev
+* 00:28 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: linux-libc-dev
+* 00:28 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: linux-libc-dev
+* 00:27 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: linux-libc-dev
+* 00:27 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: linux-libc-dev
+* 00:27 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: libcpupower1, linux-cpupower, and linux-libc-dev
+* 00:27 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: linux-libc-dev
+* 00:26 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: libcpupower1, linux-cpupower, and linux-libc-dev
+* 00:26 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: libcpupower1, linux-cpupower, and linux-libc-dev
+* 00:26 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: linux-libc-dev
+* 00:26 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: linux-libc-dev
+* 00:26 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: linux-libc-dev
+* 00:25 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: linux-libc-dev
+
 ## 2026-03-12 
 
 * 20:51 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php purgeParserCache --wiki=suppressionwiki --age=14400 (END - exit=0)

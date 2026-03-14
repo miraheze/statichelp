@@ -40,11 +40,7 @@ mwdeploy --world --config --pull=config --l10n --extension-list --servers=all --
 
 ## Globally Disabling Extensions 
 
-If a full removal is not appropriate (e.g., in cases of temporary security concerns), an extension can be *globally disabled* without deleting user configuration by adding it to the 
-```php
-$wi::$disabledExtensions
-```
- array at the end of `LocalSettings.php`.
+If a full removal is not appropriate (e.g., in cases of temporary security concerns), an extension can be *globally disabled* without deleting user configuration by adding it to the `$wi::$disabledExtensions` array at the end of `LocalSettings.php`.
 
 This should follow the format:
 

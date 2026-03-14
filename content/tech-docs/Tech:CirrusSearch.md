@@ -15,11 +15,7 @@ This was first seen in [T13334](https://meta.miraheze.org/wiki/phorge:T13334) wh
 $ curl -X DELETE https://opensearch-mw.wikitide.net/testwiki_{content,general}
 ```
 
-The output should be 
-```json
-{"acknowledged":true}{"acknowledged":true}
-```
-.
+The output should be `{"acknowledged":true}{"acknowledged":true}`.
 
 Afterwards, rebuild the search index from scratch. This would normally incur downtime for searching, but considering that searching is already broken, this doesn't really matter. Instructions ([copied from CirrusSearch README](https://gerrit.wikimedia.org/r/plugins/gitiles/mediawiki/extensions/CirrusSearch/+/1f4719b6b1445888014c03527028f5497a269406/README#162)):
 ```shell

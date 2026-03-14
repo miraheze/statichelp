@@ -10,11 +10,7 @@ Two tasks should be created on [Phorge](https://meta.miraheze.org/wiki/Phorge), 
 
 ### Deploy the New Version 
 
-* Clone the new version by adding to 
-```yaml
-mediawiki::multiversion::versions
-```
- in [mediawiki_beta.yaml](https://meta.miraheze.org/wiki/github:miraheze/puppet/blob/main/hieradata/role/common/mediawiki_beta.yaml), and later, a few days to a week before the planned launch of the [NextTide](https://meta.miraheze.org/wiki/NextTide) program, to [common.yaml](https://meta.miraheze.org/wiki/github:miraheze/puppet/blob/main/hieradata/common.yaml) for it to be deployed on production.
+* Clone the new version by adding to `mediawiki::multiversion::versions` in [mediawiki_beta.yaml](https://meta.miraheze.org/wiki/github:miraheze/puppet/blob/main/hieradata/role/common/mediawiki_beta.yaml), and later, a few days to a week before the planned launch of the [NextTide](https://meta.miraheze.org/wiki/NextTide) program, to [common.yaml](https://meta.miraheze.org/wiki/github:miraheze/puppet/blob/main/hieradata/common.yaml) for it to be deployed on production.
 * Once Puppet pulls the changes to [puppet181](/tech-docs/techpuppet181), run `sudo puppet agent -tv` on [test151](/tech-docs/techtest151) for beta or [mwtask181](/tech-docs/techmwtask181) for production.
 * Deploy the new version with: `mwdeploy --world --l10n --ignore-time --extension-list --servers=all --versions=<new_version>`.
 
@@ -31,39 +27,11 @@ mediawiki::multiversion::versions
 
 #### Necessary Config Changes 
 
-* Look for any new or renamed SQL files for new tables for global extensions and add to 
-```php
-wgCreateWikiSQLFiles
-```
- in [LocalSettings.php](https://meta.miraheze.org/wiki/github:miraheze/mw-config/blob/main/LocalSettings.php). You can add a new array, keyed by the new version to set for only the new version ([example](https://meta.miraheze.org/wiki/github:miraheze/mw-config/commit/366474e) – if one is being renamed rather than adding a new one, remove the **+** and copy the entire current default but with the changes).
-* If a global extension can be removed (IE when Interwiki was merged into core in MediaWiki 1.44), update [GlobalExtensions.php](https://meta.miraheze.org/wiki/github:miraheze/mw-config/blob/main/GlobalExtensions.php), and wrap the extension in a 
-```php
-$wi->version
-```
- if block ([example](https://meta.miraheze.org/wiki/github:miraheze/mw-config/commit/025e63a)). Also add **versions** in [mediawiki-repos.yaml](https://meta.miraheze.org/wiki/github:miraheze/mediawiki-repos/blob/main/mediawiki-repos.yaml) ([example](https://meta.miraheze.org/wiki/github:miraheze/mediawiki-repos/commit/4244212)).
-* If any settings need changed only for the new version, if in LocalSettings.php, you can use the new version just like any wiki (IE **1.45**) in 
-```php
-$wgConf
-```
-. If outside 
-```php
-$wgConf
-```
-, you can use 
-```php
-$wi->version
-```
- in if blocks.
-* Audit any new permissions and determine if they need to be added to 
-```php
-$wgManageWikiPermissionsDisallowedRights
-```
-.
-* Some extensions may have moved from old configuration variables to virtual domains. This should be checked and added to 
-```php
-$wgVirtualDomainsMapping
-```
- where appropriate.
+* Look for any new or renamed SQL files for new tables for global extensions and add to `wgCreateWikiSQLFiles` in [LocalSettings.php](https://meta.miraheze.org/wiki/github:miraheze/mw-config/blob/main/LocalSettings.php). You can add a new array, keyed by the new version to set for only the new version ([example](https://meta.miraheze.org/wiki/github:miraheze/mw-config/commit/366474e) – if one is being renamed rather than adding a new one, remove the **+** and copy the entire current default but with the changes).
+* If a global extension can be removed (IE when Interwiki was merged into core in MediaWiki 1.44), update [GlobalExtensions.php](https://meta.miraheze.org/wiki/github:miraheze/mw-config/blob/main/GlobalExtensions.php), and wrap the extension in a `$wi->version` if block ([example](https://meta.miraheze.org/wiki/github:miraheze/mw-config/commit/025e63a)). Also add **versions** in [mediawiki-repos.yaml](https://meta.miraheze.org/wiki/github:miraheze/mediawiki-repos/blob/main/mediawiki-repos.yaml) ([example](https://meta.miraheze.org/wiki/github:miraheze/mediawiki-repos/commit/4244212)).
+* If any settings need changed only for the new version, if in LocalSettings.php, you can use the new version just like any wiki (IE **1.45**) in `$wgConf`. If outside `$wgConf`, you can use `$wi->version` in if blocks.
+* Audit any new permissions and determine if they need to be added to `$wgManageWikiPermissionsDisallowedRights`.
+* Some extensions may have moved from old configuration variables to virtual domains. This should be checked and added to `$wgVirtualDomainsMapping` where appropriate.
 
 <!-- NOTE: this can be removed in a few releases when all extensions have migrated to virtual domains but as of now this is still ongoing so is mentioned here. -->
 
@@ -80,20 +48,14 @@ This JSON file defines the upgrade steps for a wiki, including SQL patches and m
 
 * Required string of the **new** MediaWiki version.
 * Only used as the upgrade key so that the same upgrade isn't attempted twice on the same wiki.
-* Example: 
-```json
-{ "mwversion": "1.45" }
-```
+* Example: `{ "mwversion": "1.45" }`
 
 #### pre_patches 
 
 * Array of SQL files to run **before** maintenance scripts.
 * Each entry can be:
    * A string containing the path to the SQL file.
-   * An object: 
-```json
-{ "file": "/path/to/file.sql" }
-```
+   * An object: `{ "file": "/path/to/file.sql" }`
    * Optional: `if_extension_enabled` (string) — name of an extension; this patch only runs if the extension is enabled.
 * Example:
 ```json
@@ -222,16 +184,8 @@ This JSON file defines the upgrade steps for a wiki, including SQL patches and m
 
 ## Upgrading Beta 
 
-* Change **beta** in 
-```php
-MEDIAWIKI_VERSIONS
-```
- in [MirahezeFunctions](https://meta.miraheze.org/wiki/github:miraheze/mw-config/blob/main/initialise/MirahezeFunctions.php) to the new version.
-* Switch the default version in 
-```yaml
-mediawiki::multiversion::versions
-```
- in [mediawiki_beta.yaml](https://meta.miraheze.org/wiki/github:miraheze/puppet/blob/main/hieradata/role/common/mediawiki_beta.yaml) to the new version. This key only makes systemd timers run using the new version.
+* Change **beta** in `MEDIAWIKI_VERSIONS` in [MirahezeFunctions](https://meta.miraheze.org/wiki/github:miraheze/mw-config/blob/main/initialise/MirahezeFunctions.php) to the new version.
+* Switch the default version in `mediawiki::multiversion::versions` in [mediawiki_beta.yaml](https://meta.miraheze.org/wiki/github:miraheze/puppet/blob/main/hieradata/role/common/mediawiki_beta.yaml) to the new version. This key only makes systemd timers run using the new version.
 
 **On [test151](/tech-docs/techtest151)**:
 * Run `mwdeploy --config --pull=config --servers=all` to deploy the changes.
@@ -252,32 +206,12 @@ First, create a paste on Phorge to track wikis that have opt-in to NextTide (exa
 
 ## Upgrading New Wikis 
 
- `{{ {{Note}} }}` Once **metawiki** is upgraded, you can switch 
-```php
-wgCreateWikiSQLFiles
-```
- in [LocalSettings.php](https://meta.miraheze.org/wiki/github:miraheze/mw-config/blob/main/LocalSettings.php) back to using 
-```php
-$IP
-```
- again.
+ `{{ {{Note}} }}` Once **metawiki** is upgraded, you can switch `wgCreateWikiSQLFiles` in [LocalSettings.php](https://meta.miraheze.org/wiki/github:miraheze/mw-config/blob/main/LocalSettings.php) back to using `$IP` again.
 
 * Disable new wiki requests, wiki creations, and the AI auto approvals temporarily (this should be communicated to Wiki Reviewers first) ([example commit](https://meta.miraheze.org/wiki/github:miraheze/mw-config/commit/009ea7d)).
 * Run `mwscript MirahezeMagic:PopulateMediaWikiVersion loginwiki --old-version=<old_version> --new-version=<new_version>` and **wait for it to finish**. This script populates the old version in the **mediawiki-version** field for all existing wikis so that they are explicitly on the old version so that new wikis can use the new version (which will now be the default version).
 * `{{ {{Note|PopulateMediaWikiVersion also supports a <code>--dry-run</code> option you could run first.}} }}`
-* Update 
-```php
-wgCreateWikiSQLFiles
-```
- in [LocalSettings.php](https://meta.miraheze.org/wiki/github:miraheze/mw-config/blob/main/LocalSettings.php) to use the full absolute path rather than 
-```php
-$IP
-```
- and merge the version key with default. Also, add a new **legacy** option and change **stable** to the new version in 
-```php
-MEDIAWIKI_VERSIONS
-```
- in [MirahezeFunctions](https://meta.miraheze.org/wiki/github:miraheze/mw-config/blob/main/initialise/MirahezeFunctions.php). – [Example commit](https://meta.miraheze.org/wiki/github:miraheze/mw-config/commit/46c7fa2)
+* Update `wgCreateWikiSQLFiles` in [LocalSettings.php](https://meta.miraheze.org/wiki/github:miraheze/mw-config/blob/main/LocalSettings.php) to use the full absolute path rather than `$IP` and merge the version key with default. Also, add a new **legacy** option and change **stable** to the new version in `MEDIAWIKI_VERSIONS` in [MirahezeFunctions](https://meta.miraheze.org/wiki/github:miraheze/mw-config/blob/main/initialise/MirahezeFunctions.php). – [Example commit](https://meta.miraheze.org/wiki/github:miraheze/mw-config/commit/46c7fa2)
 * Run `mwdeploy --config --pull=config --servers=all` on [mwtask181](/tech-docs/techmwtask181) to deploy the changes.
 * Once existing wikis look fine and are still on the old version properly, reenable wiki requests and wiki creations by reverting the commit in the first step of this section.
 * Run `mwdeploy --config --pull=config --servers=all` on [mwtask181](/tech-docs/techmwtask181) to deploy the changes once again.
@@ -291,15 +225,7 @@ MEDIAWIKI_VERSIONS
 * If the NextTide program is skipped due to some sort of incompatibility, then this still includes any opt-in wiki and **testwiki**.
 * The second batch would be new wikis (see [#Upgrading New Wikis](#upgrading-new-wikis)).
 * The third batch would be all wikis in [Miraheze projects](https://meta.miraheze.org/wiki/Miraheze_projects) (for upgrading see and follow the same steps in [Upgrading Individual Wikis](#upgrading-individual-wikis-nexttide)).
-* `{{ {{Note}} }}` Some wikis like metawiki may have wiki specific patches such as for global AbuseFilter filter and should be applied at this time. Additionally, once **metawiki** is completed, you can switch 
-```php
-wgCreateWikiSQLFiles
-```
- in [LocalSettings.php](https://meta.miraheze.org/wiki/github:miraheze/mw-config/blob/main/LocalSettings.php) back to using 
-```php
-$IP
-```
- again.
+* `{{ {{Note}} }}` Some wikis like metawiki may have wiki specific patches such as for global AbuseFilter filter and should be applied at this time. Additionally, once **metawiki** is completed, you can switch `wgCreateWikiSQLFiles` in [LocalSettings.php](https://meta.miraheze.org/wiki/github:miraheze/mw-config/blob/main/LocalSettings.php) back to using `$IP` again.
 * The fourth, fifth, and sixth batches would be deleted, closed, and inactive wikis respectively.
 * `{{ {{Note}} }}` These should be at least 24 hours after the third batch has been completed, and could all be done around the same time by running them on separate **mwtask** servers simultaneously.
 * The seventh batch would be active wikis.
@@ -310,11 +236,7 @@ For each batched state you can follow the instructions in [#ChangeMediaWikiVersi
 
 Once that is done, you can use `mwscript MirahezeMagic:UpgradeWiki <active/closed/deleted/inactive> --json=/path/to/json/file.json --version=<new_version>` to begin the upgrades on wikis per state.
 
-Once all wikis are on the new version (or at least **loginwiki**), switch the default version in 
-```yaml
-mediawiki::multiversion::versions
-```
- in [common.yaml](https://meta.miraheze.org/wiki/github:miraheze/puppet/blob/main/hieradata/common.yaml) to the new version. This key only makes systemd timers run using the new version.
+Once all wikis are on the new version (or at least **loginwiki**), switch the default version in `mediawiki::multiversion::versions` in [common.yaml](https://meta.miraheze.org/wiki/github:miraheze/puppet/blob/main/hieradata/common.yaml) to the new version. This key only makes systemd timers run using the new version.
 
 ## Finalizing Upgrade 
 
@@ -342,16 +264,8 @@ Also during the upgrade process when some wikis begin to be upgraded, you can mo
 
 ## Cleaning Up Old Version 
 
-* Remove **legacy** from 
-```php
-MEDIAWIKI_VERSIONS
-```
- in [MirahezeFunctions](https://meta.miraheze.org/wiki/github:miraheze/mw-config/blob/main/initialise/MirahezeFunctions.php).
-* Remove the old version from 
-```yaml
-mediawiki::multiversion::versions
-```
- in [mediawiki_beta.yaml](https://meta.miraheze.org/wiki/github:miraheze/puppet/blob/main/hieradata/role/common/mediawiki_beta.yaml) and [common.yaml](https://meta.miraheze.org/wiki/github:miraheze/puppet/blob/main/hieradata/common.yaml) and wait for Puppet to pull it to [puppet181](/tech-docs/techpuppet181).
+* Remove **legacy** from `MEDIAWIKI_VERSIONS` in [MirahezeFunctions](https://meta.miraheze.org/wiki/github:miraheze/mw-config/blob/main/initialise/MirahezeFunctions.php).
+* Remove the old version from `mediawiki::multiversion::versions` in [mediawiki_beta.yaml](https://meta.miraheze.org/wiki/github:miraheze/puppet/blob/main/hieradata/role/common/mediawiki_beta.yaml) and [common.yaml](https://meta.miraheze.org/wiki/github:miraheze/puppet/blob/main/hieradata/common.yaml) and wait for Puppet to pull it to [puppet181](/tech-docs/techpuppet181).
 * Run `cleanup-old-mediawiki <old_version>` on all mw, mwtask, and test servers. This can also be done with [salt-ssh](/tech-docs/techsalt) from [puppet181](/tech-docs/techpuppet181).
 
 ## Post-Upgrade 

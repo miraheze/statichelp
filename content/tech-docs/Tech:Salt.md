@@ -10,27 +10,39 @@ Salt SSH is installed on [puppet181](/tech-docs/techpuppet181).
 
 To run a salt command, ssh into [puppet181](/tech-docs/techpuppet181) and run:
 
+```
 salt-ssh -E '.*' cmd.run 'puppet agent -tv'
+```
 
 To limit the command to certain hosts like mw* do the following:
 
+```
 salt-ssh -E 'mw.*' cmd.run 'puppet agent -tv'
+```
 
 To run it against for example cp* and mw* (including mwtask*) do:
 
+```
 salt-ssh -E 'cp.*|mw.*' cmd.run 'puppet agent -tv'
+```
 
 To depool one of mw* from cp* do the following:
 
+```
 salt-ssh -E "cp.*" cmd.run "sudo varnishadm backend.set_health mw151 sick"
+```
 
 To repool do the following:
 
+```
 salt-ssh -E "cp.*" cmd.run "sudo varnishadm backend.set_health mw151 auto"
+```
 
 To list status of backends do the following:
 
+```
 salt-ssh -E "cp.*" cmd.run "sudo varnishadm backend.list"
+```
 
 ## See also 
 
