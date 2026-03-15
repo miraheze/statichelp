@@ -4,6 +4,64 @@ title: Tech:Server admin log
 
 ## 2026-03-14 
 
+* 18:09 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 18:09 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 14:28 MirahezeLSBot: [pixldev@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 14:28 MirahezeLSBot: [pixldev@test151] starting deploy of {'config': True} to test151
+* 13:46 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 13:46 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 02:57 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 02:57 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 02:39 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 02:39 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 02:38 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 02:38 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 02:25 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 02:25 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 02:24 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 02:24 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 02:07 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 02:07 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 02:06 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 02:06 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 02:04 MirahezeLSBot: [pixldev@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 02:04 MirahezeLSBot: [pixldev@test151] starting deploy of {'config': True} to test151
+* 01:56 MirahezeLSBot: [pixldev@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 01:56 MirahezeLSBot: [pixldev@test151] starting deploy of {'config': True} to test151
+* 01:46 MirahezeLSBot: [pixldev@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 01:46 MirahezeLSBot: [pixldev@test151] starting deploy of {'config': True} to test151
+* 01:35 MirahezeLSBot: [pixldev@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 01:35 MirahezeLSBot: [pixldev@test151] starting deploy of {'config': True} to test151
+* 01:35 MirahezeLSBot: [pixldev@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 01:35 MirahezeLSBot: [pixldev@test151] starting deploy of {'config': True} to test151
+* 01:34 MirahezeLSBot: [pixldev@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 01:34 MirahezeLSBot: [pixldev@test151] starting deploy of {'config': True} to test151
+* 01:30 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MatomoAnalytics:ModifyMatomo --wiki=wwrtest3wikibeta (END - exit=0)
+* 01:24 MirahezeLSBot: [wwr@test151] Finished import for wwrtest3wikibeta (XML: None; Images: ./images/) (END - exit=1)
+* 01:24 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=wwrtest3wikibeta --sleep=0 '--comment=Importing images from [https://dev.miraheze.org](https://dev.miraheze.org) ([T15032](https://meta.miraheze.org/wiki/phorge:T15032))' --search-recursively -- ./images/ (END - exit=1)
+* 01:23 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=wwrtest3wikibeta --sleep=0 '--comment=Importing images from [https://dev.miraheze.org](https://dev.miraheze.org) ([T15032](https://meta.miraheze.org/wiki/phorge:T15032))' --search-recursively -- ./images/ (START)
+* 01:23 MirahezeLSBot: [wwr@test151] Starting import for wwrtest3wikibeta (XML: None; Images: ./images/) (START)
+* 01:23 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=wwrtest3wikibeta --update (END - exit=0)
+* 01:23 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=wwrtest3wikibeta (END - exit=0)
+* 01:16 MirahezeLSBot: [wwr@test151] Finished import for wwrtest3wikibeta (XML: None; Images: ./imports/images/) (END - exit=1)
+* 01:16 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=wwrtest3wikibeta --sleep=0 '--comment=Importing images from [https://dev.miraheze.org](https://dev.miraheze.org) ([T15032](https://meta.miraheze.org/wiki/phorge:T15032))' -- ./imports/images/ (END - exit=1)
+* 01:16 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=wwrtest3wikibeta --sleep=0 '--comment=Importing images from [https://dev.miraheze.org](https://dev.miraheze.org) ([T15032](https://meta.miraheze.org/wiki/phorge:T15032))' -- ./imports/images/ (START)
+* 01:16 MirahezeLSBot: [wwr@test151] Starting import for wwrtest3wikibeta (XML: None; Images: ./imports/images/) (START)
+* 01:09 MirahezeLSBot: [pixldev@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 01:09 MirahezeLSBot: [pixldev@test151] starting deploy of {'config': True} to test151
+* 00:42 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=wwrtest3wikibeta (END - exit=0)
+* 00:41 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=wwrtest3wikibeta (END - exit=0)
+* 00:32 MirahezeLSBot: [wwr@test151] Finished import for wwrtest3wikibeta (XML: None; Images: ./images) (END - exit=1)
+* 00:32 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=wwrtest3wikibeta --sleep=0 '--comment=Importing images from [https://dev.miraheze.org](https://dev.miraheze.org) ([T15032](https://meta.miraheze.org/wiki/phorge:T15032))' -- ./images (END - exit=1)
+* 00:32 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=wwrtest3wikibeta --sleep=0 '--comment=Importing images from [https://dev.miraheze.org](https://dev.miraheze.org) ([T15032](https://meta.miraheze.org/wiki/phorge:T15032))' -- ./images (START)
+* 00:32 MirahezeLSBot: [wwr@test151] Starting import for wwrtest3wikibeta (XML: None; Images: ./images) (START)
+* 00:31 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=wwrtest3wikibeta (END - exit=0)
+* 00:23 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=wwrtest3wikibeta (END - exit=0)
+* 00:04 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=wwrtest3wikibeta (START)
+* 00:01 MirahezeLSBot: [wwr@test151] Finished import for wwrtest3wikibeta (XML: None; Images: ./images) (END - exit=1)
+* 00:01 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=wwrtest3wikibeta --sleep=1 '--comment=Importing images from [https://dev.miraheze.org](https://dev.miraheze.org) ([T15032](https://meta.miraheze.org/wiki/phorge:T15032))' -- ./images (END - exit=1)
+* 00:01 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=wwrtest3wikibeta --sleep=1 '--comment=Importing images from [https://dev.miraheze.org](https://dev.miraheze.org) ([T15032](https://meta.miraheze.org/wiki/phorge:T15032))' -- ./images (START)
+* 00:01 MirahezeLSBot: [wwr@test151] Starting import for wwrtest3wikibeta (XML: None; Images: ./images) (START)
 * 00:00 MirahezeLSBot: [wwr@test151] Finished import for wwrtest3wikibeta (XML: None; Images: ./images) (END - exit=1)
 * 00:00 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=wwrtest3wikibeta --sleep=0 '--comment=Importing images from [https://dev.miraheze.org](https://dev.miraheze.org) ([T15032](https://meta.miraheze.org/wiki/phorge:T15032))' -- ./images (END - exit=1)
 * 00:00 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=wwrtest3wikibeta --sleep=0 '--comment=Importing images from [https://dev.miraheze.org](https://dev.miraheze.org) ([T15032](https://meta.miraheze.org/wiki/phorge:T15032))' -- ./images (START)
