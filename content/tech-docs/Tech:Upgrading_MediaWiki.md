@@ -186,6 +186,7 @@ This JSON file defines the upgrade steps for a wiki, including SQL patches and m
 
 * Change **beta** in `MEDIAWIKI_VERSIONS` in [MirahezeFunctions](https://meta.miraheze.org/wiki/github:miraheze/mw-config/blob/main/initialise/MirahezeFunctions.php) to the new version.
 * Switch the default version in `mediawiki::multiversion::versions` in [mediawiki_beta.yaml](https://meta.miraheze.org/wiki/github:miraheze/puppet/blob/main/hieradata/role/common/mediawiki_beta.yaml) to the new version. This key only makes systemd timers run using the new version.
+* Ensure that the JSON schema for UpgradeWiki is available at some `/path/to/json/file.json`.
 
 **On [test151](/tech-docs/techtest151)**:
 * Run `mwdeploy --config --pull=config --servers=all` to deploy the changes.

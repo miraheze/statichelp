@@ -2,6 +2,11 @@
 title: Tech:Server admin log
 ---
 
+## 2026-03-15 
+
+* 19:25 @paladox: reboot phorge171
+* 17:11 @paladox: upgrade phorge on phorge171
+
 ## 2026-03-14 
 
 * 18:09 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
