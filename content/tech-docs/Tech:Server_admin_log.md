@@ -2,6 +2,19 @@
 title: Tech:Server admin log
 ---
 
+## 2026-03-17 
+
+* 22:27 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawiki --setting=wgLocaltimezone --sourcelist=/tmp/tzvalues.txt (END - exit=0)
+* 22:24 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CentralAuth:fixStuckGlobalRename --wiki=polandcuberuwiki --logwiki=metawiki Wither girl02679 Wither02679 (END - exit=0)
+* 22:21 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawiki --setting=wgLocaltimezone --sourcelist=/tmp/tzvalues.txt (END - exit=0)
+* 22:21 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawiki --setting=wgLocaltimezone --sourcelist=~/tzvalues.txt (END - exit=0)
+* 22:10 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CentralAuth:fixStuckGlobalRename --wiki=zhpolandballwiki --logwiki=metawiki Wither girl02679 Wither02679 (END - exit=0)
+* 22:09 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CentralAuth:fixStuckGlobalRename --wiki=wikiballwiki --logwiki=metawiki Wither girl02679 Wither02679 (END - exit=0)
+* 22:08 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CentralAuth:fixStuckGlobalRename --wiki=vexillumwiki --logwiki=metawiki Wither girl02679 Wither02679 (END - exit=0)
+* 22:07 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CentralAuth:fixStuckGlobalRename --wiki=polandcuberuwiki --logwiki=metawiki Wither girl02679 Wither02679 (END - exit=65280)
+* 01:48 MirahezeLSBot: [void@cloud21] Clear ipmi sel (inlet temperature spike from March 13 to March 14)
+* 01:46 MirahezeLSBot: [void@phorge171] restart ntp service
+
 ## 2026-03-16 
 
 * 00:30 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s

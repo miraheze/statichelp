@@ -30,7 +30,15 @@ If the order somehow goes wrong from what matches in the content table you can t
 DELETE FROM content_models;
 ALTER TABLE content_models AUTO_INCREMENT = 1;
 ```
-After running that make sure you exit shell.php or sql.php (if using) and rerun or it won't know of the AUTO_INCREMENT being reset and IDs will still be wrong.
+After running that make sure you exit shell.php or sql.php (if using) and rerun or it won't know of the AUTO_INCREMENT being reset and IDs will still be wrong. To check this has worked you can use shell.php and run:
+```php
+MediaWiki\MediaWikiServices::getInstance()->getContentModelStore()->getMap();
+```
+
+If the content models `getMap()` is showing differs from those in the `content_models` table, run the following command to reload the table:
+```php
+MediaWiki\MediaWikiServices::getInstance()->getContentModelStore()->reloadMap();
+```
 
 If a `RevisionAccessException` still occurs after fixing the slot_roles and content_models tables, running the following will clear ✨ magical caches ✨:
 ```php
