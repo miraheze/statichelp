@@ -2,6 +2,52 @@
 title: Tech:Server admin log
 ---
 
+## 2026-03-18 
+
+* 16:20 @paladox: upgrade phorge on phorge171
+* 11:08 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php Bucket:RefreshAllBuckets --wiki=buckettestwikibeta (END - exit=0)
+* 02:10 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: nodejs, libnode115, and nodejs-doc
+* 02:10 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: nodejs, libnode115, and nodejs-doc
+* 02:06 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: libgstreamer-plugins-base1.0-0, libgstreamer-gl1.0-0, gstreamer1.0-gl, and gstreamer1.0-plugins-base
+* 02:05 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: libgstreamer-plugins-base1.0-0, libgstreamer-gl1.0-0, gstreamer1.0-gl, and gstreamer1.0-plugins-base
+* 02:05 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: libgstreamer-plugins-base1.0-0, libgstreamer-gl1.0-0, gstreamer1.0-gl, and gstreamer1.0-plugins-base
+* 02:05 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: libgstreamer-plugins-base1.0-0, libgstreamer-gl1.0-0, gstreamer1.0-gl, and gstreamer1.0-plugins-base
+* 02:05 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: libgstreamer-plugins-base1.0-0, libgstreamer-gl1.0-0, gstreamer1.0-gl, and gstreamer1.0-plugins-base
+* 02:04 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: libgstreamer-plugins-base1.0-0, libgstreamer-gl1.0-0, gstreamer1.0-gl, and gstreamer1.0-plugins-base
+* 02:04 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: libgstreamer-plugins-base1.0-0, libgstreamer-gl1.0-0, gstreamer1.0-gl, and gstreamer1.0-plugins-base
+* 02:04 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: libgstreamer-plugins-base1.0-0, libgstreamer-gl1.0-0, gstreamer1.0-gl, and gstreamer1.0-plugins-base
+* 02:04 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: libgstreamer-plugins-base1.0-0, libgstreamer-gl1.0-0, gstreamer1.0-gl, and gstreamer1.0-plugins-base
+* 02:02 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: libgstreamer-plugins-base1.0-0
+* 02:02 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: libgstreamer-plugins-base1.0-0
+* 02:01 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: libgstreamer-plugins-base1.0-0
+* 02:01 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: libgstreamer-plugins-base1.0-0
+* 02:01 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: libgstreamer-plugins-base1.0-0
+* 02:01 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: libgstreamer-plugins-base1.0-0
+* 02:01 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: libgstreamer-plugins-base1.0-0
+* 01:59 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libgstreamer-plugins-base1.0-0, libgstreamer-gl1.0-0, gstreamer1.0-gl, gstreamer1.0-plugins-base, nodejs, libnode115, and nodejs-doc
+* 01:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: libgstreamer-plugins-base1.0-0, libgstreamer-gl1.0-0, gstreamer1.0-gl, gstreamer1.0-plugins-base, nodejs, libnode115, and nodejs-doc
+* 01:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: libgstreamer-plugins-base1.0-0, libgstreamer-gl1.0-0, gstreamer1.0-gl, gstreamer1.0-plugins-base, nodejs, libnode115, and nodejs-doc
+* 01:56 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: libgstreamer-plugins-base1.0-0, libgstreamer-gl1.0-0, gstreamer1.0-gl, gstreamer1.0-plugins-base, nodejs, libnode115, and nodejs-doc
+* 01:56 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: libgstreamer-plugins-base1.0-0, libgstreamer-gl1.0-0, gstreamer1.0-gl, gstreamer1.0-plugins-base, nodejs, libnode115, and nodejs-doc
+* 01:56 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: libgstreamer-plugins-base1.0-0, libgstreamer-gl1.0-0, gstreamer1.0-gl, gstreamer1.0-plugins-base, nodejs, libnode115, and nodejs-doc
+* 01:56 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: libgstreamer-plugins-base1.0-0, libgstreamer-gl1.0-0, gstreamer1.0-gl, gstreamer1.0-plugins-base, nodejs, libnode115, and nodejs-doc
+* 01:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: libgstreamer-plugins-base1.0-0, libgstreamer-gl1.0-0, gstreamer1.0-gl, gstreamer1.0-plugins-base, nodejs, libnode115, and nodejs-doc
+* 01:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: libgstreamer-plugins-base1.0-0, libgstreamer-gl1.0-0, gstreamer1.0-gl, gstreamer1.0-plugins-base, nodejs, libnode115, and nodejs-doc
+* 01:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: libgstreamer-plugins-base1.0-0, libgstreamer-gl1.0-0, gstreamer1.0-gl, gstreamer1.0-plugins-base, nodejs, libnode115, and nodejs-doc
+* 01:54 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: libgstreamer-plugins-base1.0-0, libgstreamer-gl1.0-0, gstreamer1.0-gl, gstreamer1.0-plugins-base, nodejs, libnode115, and nodejs-doc
+* 01:54 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: libgstreamer-plugins-base1.0-0, libgstreamer-gl1.0-0, gstreamer1.0-gl, gstreamer1.0-plugins-base, nodejs, libnode115, and nodejs-doc
+* 01:54 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: libgstreamer-plugins-base1.0-0, libgstreamer-gl1.0-0, gstreamer1.0-gl, gstreamer1.0-plugins-base, nodejs, libnode115, and nodejs-doc
+* 01:53 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: libgstreamer-plugins-base1.0-0, libgstreamer-gl1.0-0, gstreamer1.0-gl, gstreamer1.0-plugins-base, nodejs, libnode115, and nodejs-doc
+* 01:53 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: libgstreamer-plugins-base1.0-0, libgstreamer-gl1.0-0, gstreamer1.0-gl, gstreamer1.0-plugins-base, nodejs, libnode115, and nodejs-doc
+* 01:53 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libgstreamer-plugins-base1.0-0, libgstreamer-gl1.0-0, gstreamer1.0-gl, gstreamer1.0-plugins-base, nodejs, libnode115, and nodejs-doc
+* 01:53 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: libgstreamer-plugins-base1.0-0, libgstreamer-gl1.0-0, gstreamer1.0-gl, gstreamer1.0-plugins-base, nodejs, libnode115, and nodejs-doc
+* 01:52 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: libgstreamer-plugins-base1.0-0, libgstreamer-gl1.0-0, gstreamer1.0-gl, gstreamer1.0-plugins-base, nodejs, libnode115, and nodejs-doc
+* 01:52 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: libgstreamer-plugins-base1.0-0, libgstreamer-gl1.0-0, gstreamer1.0-gl, gstreamer1.0-plugins-base, nodejs, libnode115, and nodejs-doc
+* 01:52 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: libgstreamer-plugins-base1.0-0, libgstreamer-gl1.0-0, gstreamer1.0-gl, gstreamer1.0-plugins-base, nodejs, libnode115, and nodejs-doc
+* 01:51 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: libgstreamer-plugins-base1.0-0, libgstreamer-gl1.0-0, gstreamer1.0-gl, gstreamer1.0-plugins-base, nodejs, libnode115, and nodejs-doc
+* 01:51 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: libgstreamer-plugins-base1.0-0, libgstreamer-gl1.0-0, gstreamer1.0-gl, gstreamer1.0-plugins-base, nodejs, libnode115, and nodejs-doc
+* 01:51 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: libgstreamer-plugins-base1.0-0, libgstreamer-gl1.0-0, gstreamer1.0-gl, gstreamer1.0-plugins-base, nodejs, libnode115, and nodejs-doc
+
 ## 2026-03-17 
 
 * 22:27 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawiki --setting=wgLocaltimezone --sourcelist=/tmp/tzvalues.txt (END - exit=0)
