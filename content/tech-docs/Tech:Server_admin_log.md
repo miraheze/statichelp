@@ -2,6 +2,141 @@
 title: Tech:Server admin log
 ---
 
+## 2026-03-19 
+
+* 22:36 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'ThemeToggle'} to all - SUCCESS in 23s
+* 22:35 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'ThemeToggle'} to all
+* 22:35 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'ThemeToggle'} to all - SUCCESS in 0s
+* 22:35 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'ThemeToggle'} to all
+* 22:35 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'ThemeToggle'} to test151 - SUCCESS in 0s
+* 22:35 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'ThemeToggle'} to test151
+* 22:35 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'ThemeToggle'} to test151 - SUCCESS in 0s
+* 22:35 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'ThemeToggle'} to test151
+* 22:27 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:27 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:27 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:26 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:26 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:26 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:25 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:25 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:25 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:24 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:24 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:24 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:24 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:22 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:22 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:22 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:21 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:21 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:21 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:21 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 21:21 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: libfreetype6
+* 21:21 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: libfreetype6
+* 21:21 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libfreetype-dev and libfreetype6
+* 21:20 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: libfreetype6
+* 21:20 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: libfreetype6
+* 21:20 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: libfreetype6
+* 21:20 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: libfreetype6
+* 21:19 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: libfreetype6
+* 21:19 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: libfreetype6
+* 21:19 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: libfreetype6
+* 21:19 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: libfreetype6
+* 21:18 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: libfreetype6
+* 21:18 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb191: libfreetype6
+* 21:18 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=vanguardswiki (END - exit=0)
+* 21:18 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: libfreetype6
+* 21:17 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: libfreetype6
+* 21:17 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: libfreetype6
+* 21:17 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: libfreetype6
+* 21:17 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: libfreetype6
+* 21:17 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: libfreetype6
+* 21:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: libfreetype-dev and libfreetype6
+* 21:16 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: libfreetype6
+* 21:16 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: libfreetype6
+* 21:16 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: libfreetype6
+* 21:15 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: libfreetype6
+* 21:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: libfreetype-dev and libfreetype6
+* 21:15 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: libfreetype6
+* 21:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: libfreetype-dev and libfreetype6
+* 21:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: libfreetype-dev and libfreetype6
+* 21:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: libfreetype-dev and libfreetype6
+* 21:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libfreetype-dev and libfreetype6
+* 21:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: libfreetype-dev and libfreetype6
+* 21:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: libfreetype-dev and libfreetype6
+* 21:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: libfreetype-dev and libfreetype6
+* 21:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: libfreetype-dev and libfreetype6
+* 21:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: libfreetype-dev and libfreetype6
+* 21:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: libfreetype-dev and libfreetype6
+* 21:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: libfreetype-dev and libfreetype6
+* 21:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: libfreetype-dev and libfreetype6
+* 21:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: libfreetype-dev and libfreetype6
+* 21:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: libfreetype-dev and libfreetype6
+* 21:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: libfreetype-dev and libfreetype6
+* 21:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: libfreetype6
+* 21:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: libfreetype-dev and libfreetype6
+* 21:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: libfreetype-dev and libfreetype6
+* 21:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: libfreetype-dev and libfreetype6
+* 21:10 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=vanguardswiki --startOver (END - exit=0)
+* 21:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: libfreetype-dev and libfreetype6
+* 21:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: libfreetype-dev and libfreetype6
+* 21:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: libfreetype6
+* 21:09 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: libfreetype6
+* 21:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: libfreetype6
+* 21:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: libfreetype6
+* 21:08 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: libfreetype6
+* 21:08 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: libfreetype6
+* 21:08 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: libfreetype6
+* 21:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: libfreetype6
+* 21:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: libfreetype6
+* 21:07 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: libfreetype6
+* 21:07 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: libfreetype6
+* 21:07 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: libfreetype6
+* 21:07 MirahezeLSBot: [void@puppet181] Upgraded packages on db192: libfreetype6
+* 21:06 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: libfreetype6
+* 21:06 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: libfreetype6
+* 21:06 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: libfreetype6
+* 21:06 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: libfreetype6
+* 21:05 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: libfreetype6
+* 21:05 MirahezeLSBot: [void@puppet181] Upgraded packages on db201: libfreetype6
+* 21:05 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: libfreetype6
+* 21:05 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: libfreetype6
+* 21:05 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: libfreetype6
+* 21:04 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: libfreetype6
+* 21:04 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: libfreetype6
+* 21:04 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: libfreetype6
+* 21:04 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: libfreetype6
+* 21:03 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: libfreetype6
+* 21:03 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: libfreetype6
+* 21:03 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: libfreetype6
+* 21:03 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: libfreetype6
+* 21:03 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: libfreetype6
+* 21:02 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: libfreetype6
+* 21:02 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: libfreetype6
+* 21:02 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: libfreetype6
+* 19:46 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 19:45 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 17:25 MirahezeLSBot: [skye@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'PdfHandler'} to all - SUCCESS in 25s
+* 17:25 MirahezeLSBot: [skye@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'PdfHandler'} to all
+* 16:02 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 16:02 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 02:15 MirahezeLSBot: [skye@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'SocialProfile'} to all - SUCCESS in 26s
+* 02:14 MirahezeLSBot: [skye@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'SocialProfile'} to all
+* 01:48 MirahezeLSBot: [skye@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'SocialProfile'} to test151 - SUCCESS in 1s
+* 01:48 MirahezeLSBot: [skye@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'SocialProfile'} to test151
+* 00:05 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 00:05 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 00:05 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 2s
+* 00:04 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 00:01 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 00:01 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 00:00 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 00:00 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+
 ## 2026-03-18 
 
 * 16:20 @paladox: upgrade phorge on phorge171
