@@ -2,6 +2,26 @@
 title: Tech:Server admin log
 ---
 
+## 2026-03-21 
+
+* 23:10 MirahezeLSBot: [blankeclair@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old blinxcateaswiki --new blinxeaswiki --user 'BlankEclair (Miraheze)' (END - exit=0)
+* 23:07 MirahezeLSBot: [blankeclair@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old tsgwiki --new tsgwikiwiki --user 'BlankEclair (Miraheze)' (END - exit=0)
+* 23:03 MirahezeLSBot: [blankeclair@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=waukeepediawiki (END - exit=0)
+* 22:58 MirahezeLSBot: [blankeclair@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=waukeepediawiki (END - exit=0)
+* 22:57 BlankEclair: [blankeclair@mwtask151:~/imports]$ curl -X DELETE [https://opensearch-mw.wikitide.net/walkerpediawiki_{content,general}](https://opensearch-mw.wikitide.net/walkerpediawiki_{content,general})
+* 22:55 BlankEclair: waukeepediawiki: CREATE DATABASE waukeepediawikicargo;
+* 22:42 MirahezeLSBot: [blankeclair@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old walkerpediawiki --new waukeepediawiki --user 'BlankEclair (Miraheze)' (END - exit=0)
+* 22:25 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 22:25 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 22:23 MirahezeLSBot: [petramagna@test151] finished deploy of {'extension_list': True, 'folders': '1.45/extensions/CreateWikiLoadout', 'versions': '1.45'} to test151 - SUCCESS in 0s
+* 22:23 MirahezeLSBot: [petramagna@test151] starting deploy of {'extension_list': True, 'folders': '1.45/extensions/CreateWikiLoadout', 'versions': '1.45'} to test151
+* 13:16 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 13:16 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 13:15 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 13:15 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 09:13 RhinosF1: bounce ircecho
+* 09:11 RhinosF1: bounce logbot & irclogserverbot
+
 ## 2026-03-20 
 
 * 21:09 MirahezeLSBot: [wwr@test151] finished deploy of {'folders': '1.45/extensions/Bucket'} to test151 - SUCCESS in 0s
