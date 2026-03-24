@@ -2,6 +2,22 @@
 title: Tech:Server admin log
 ---
 
+## 2026-03-23 
+
+* 20:57 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: strongswan-starter, libcharon-extauth-plugins, libcharon-extra-plugins, strongswan-pki, strongswan-libcharon, strongswan-charon, libstrongswan, and libstrongswan-standard-plugins
+* 19:19 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php deleteBatch --wiki=wwrtest3wikibeta b.txt --u TheWWRNerdGuy --r Testing deletion (END - exit=0)
+* 19:19 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php deleteBatch --wiki=wwrtest3wikibeta b.txt --u TheWWRNerdGuy --r Testing deletion (START)
+* 19:19 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php deleteBatch --wiki=wwrtest3wikibeta b.txt --u TheWWRNerdGuy --r Testing deletion (END - exit=0)
+* 19:19 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php deleteBatch --wiki=wwrtest3wikibeta b.txt --u TheWWRNerdGuy --r Testing deletion (START)
+* 19:17 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php deleteBatch --wiki=wwrtest3wikibeta b.txt --u TheWWRNerdGuy --r Testing deletion (END - exit=0)
+* 19:17 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php deleteBatch --wiki=wwrtest3wikibeta b.txt --u TheWWRNerdGuy --r Testing deletion (START)
+* 10:30 @posix_memalign: sudo -u www-data foreachwikiindblist /srv/mediawiki/cache/embedvideo.php /srv/mediawiki/1.45/extensions/EmbedVideo/maintenance/BackfillLocalMediaMetadata.php 2>&1 | tee -a logs.txt
+* 10:18 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'EmbedVideo'} to all - SUCCESS in 25s
+* 10:17 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'EmbedVideo'} to all
+* 10:04 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php EmbedVideo:BackfillLocalMediaMetadata --wiki=loadouttest5wikibeta (END - exit=0)
+* 09:59 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'EmbedVideo'} to test151 - SUCCESS in 1s
+* 09:59 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'EmbedVideo'} to test151
+
 ## 2026-03-22 
 
 * 23:12 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.45/extensions/CreateWikiLoadout'} to test151 - SUCCESS in 0s
