@@ -2,6 +2,14 @@
 title: Tech:Server admin log
 ---
 
+## 2026-03-24 
+
+* 23:19 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwikibeta --delete --deletewiki wwrtest5wikibeta (END - exit=0)
+* 06:07 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'TableProgressTracking'} to all - SUCCESS in 24s
+* 06:06 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'TableProgressTracking'} to all
+* 06:03 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'TableProgressTracking'} to test151 - SUCCESS in 0s
+* 06:03 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'TableProgressTracking'} to test151
+
 ## 2026-03-23 
 
 * 20:57 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: strongswan-starter, libcharon-extauth-plugins, libcharon-extra-plugins, strongswan-pki, strongswan-libcharon, strongswan-charon, libstrongswan, and libstrongswan-standard-plugins
