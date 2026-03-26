@@ -2,6 +2,20 @@
 title: Tech:Server admin log
 ---
 
+## 2026-03-25 
+
+* 21:49 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php cleanupTitles --wiki=yotunewiki (END - exit=0)
+* 21:30 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php deleteBatch --wiki=yotunewiki --u=PetraMagna_(Miraheze) --r='Try delete inaccessible page in T15123' pages.txt (END - exit=512)
+* 21:30 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php deleteBatch --wiki=yotunewiki --u=PetraMagna_(Miraheze) --r='Try delete inaccessible page in T15123' pages.txt (START)
+* 21:29 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php deleteBatch --wiki=yotunewiki --u=PetraMagna_(Miraheze) --r=Try delete inaccessible page in T15123 pages.txt (END - exit=512)
+* 21:29 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php deleteBatch --wiki=yotunewiki --u=PetraMagna_(Miraheze) --r=Try delete inaccessible page in T15123 pages.txt (START)
+* 21:12 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 0s
+* 21:12 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 21:06 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=doorswiki --requester=Crystalite13 (END - exit=0)
+* 21:01 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwikibeta --dbname=loadouttest5wikibeta --requester=PetraMagna (END - exit=0)
+* 20:51 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 25s
+* 20:50 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'MirahezeMagic'} to all
+
 ## 2026-03-24 
 
 * 23:19 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwikibeta --delete --deletewiki wwrtest5wikibeta (END - exit=0)
