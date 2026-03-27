@@ -2,6 +2,40 @@
 title: Tech:Server admin log
 ---
 
+## 2026-03-26 
+
+* 23:04 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_skins': 'Monaco'} to all - SUCCESS in 24s
+* 23:03 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_skins': 'Monaco'} to all
+* 23:02 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.45', 'upgrade_skins': 'Monaco'} to test151 - SUCCESS in 0s
+* 23:02 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.45', 'upgrade_skins': 'Monaco'} to test151
+* 22:47 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 22:47 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 22:29 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 22:29 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 21:50 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 21:50 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 21:42 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 21:42 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 21:41 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 21:41 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 21:04 Universal Omega: add bucketuser passwords to private puppet
+* 20:47 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=animatorvsanimationwiki --username-prefix=wikia:animatorvsanimation /home/reception/animatorvsanimation_pages_full.xml (END - exit=0)
+* 19:12 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=animatorvsanimationwiki --username-prefix=wikia:animatorvsanimation /home/reception/animatorvsanimation_pages_full.xml (START)
+* 19:04 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=rbpwiki --new=resetrblxwiki --user=Reception123 (END - exit=0)
+* 19:02 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=lewthumbriawiki --new=montgriswiki --user=Reception123 (END - exit=0)
+* 01:51 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php Bucket:CreateInitialSchemaForBucketIssues --wiki=buckettestwikibeta (END - exit=0)
+* 01:44 MirahezeLSBot: [skye@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'Bucket'} to test151 - SUCCESS in 0s
+* 01:44 MirahezeLSBot: [skye@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'Bucket'} to test151
+* 01:40 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php Bucket:CreateInitialSchemaForBucketIssues --wiki=buckettestwikibeta (END - exit=256)
+* 01:38 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 01:38 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 01:11 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'Bucket'} to all - SUCCESS in 25s
+* 01:11 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'Bucket'} to all
+* 01:08 MirahezeLSBot: [somerandomdeveloper@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 01:08 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'Bucket'} to test151
+* 00:06 MirahezeLSBot: [oa@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'TableProgressTracking'} to all - SUCCESS in 24s
+* 00:06 MirahezeLSBot: [oa@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'TableProgressTracking'} to all
+
 ## 2026-03-25 
 
 * 21:49 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php cleanupTitles --wiki=yotunewiki (END - exit=0)
