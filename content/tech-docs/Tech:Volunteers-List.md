@@ -16,8 +16,9 @@ title: Tech:Volunteers/List
 | [RhinosF1](https://meta.miraheze.org/wiki/User:RhinosF1)<br /> *Infrastructure Specialist* | RhinosF1 | rhinosf1 `{{ {{@}} }}`miraheze.org | Root on all servers | Owner | Yes | Yes | Yes | No | Yes |
 | [Skye](https://meta.miraheze.org/wiki/User:Skye)<br /> *MediaWiki Specialist* | Skye | skye@miraheze.org | MediaWiki servers | MediaWiki Specialists | No | No | Yes | No | No |
 | [SomeRandomDeveloper](https://meta.miraheze.org/wiki/User:SomeRandomDeveloper)<br /> *Infrastructure Specialist* | None | somerandomdeveloper@miraheze.org | Root on all servers | Owner | Yes | Yes | Yes | No | Yes |
-| [Void](https://meta.miraheze.org/wiki/User:Void)<br /> *Infrastructure Specialist* | Voidwalker | void `{{ {{@}} }}`miraheze.org | Root on all servers | Owner | Yes | Yes | Yes | Yes | Yes |
+| [TheWWRNerdGuy](https://meta.miraheze.org/wiki/User:TheWWRNerdGuy)<br /> *MediaWiki Specialist* | None | wwr@miraheze.org | MediaWiki servers | MediaWiki Specialists | No | No | Yes | No | No |
 | [Universal Omega](https://meta.miraheze.org/wiki/User:Universal_Omega)<br /> *Director of Technology* | CosmicAlpha | universalomega `{{ {{@}} }}`miraheze.org | Root on all servers | Owner | Yes | Yes | Yes | Yes | Yes |
+| [Void](https://meta.miraheze.org/wiki/User:Void)<br /> *Infrastructure Specialist* | Voidwalker | void `{{ {{@}} }}`miraheze.org | Root on all servers | Owner | Yes | Yes | Yes | Yes | Yes |
 
 ## Categories
 

@@ -2,6 +2,33 @@
 title: Tech:Server admin log
 ---
 
+## 2026-03-27 
+
+* 22:44 Universal Omega: run bucketuser grants on db181
+* 22:44 Universal Omega: run bucketuser grants on db171
+* 22:43 Universal Omega: run bucketuser grants on db161
+* 22:42 Universal Omega: run bucketuser grants on db151
+* 21:37 MirahezeLSBot: [wwr@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 23s
+* 21:37 MirahezeLSBot: [wwr@mwtask181] starting deploy of {'config': True} to all
+* 21:00 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 21:00 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 20:48 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 20:48 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 20:26 Universal Omega: run bucketuser grants on db172
+* 20:23 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'force': True} to all - SUCCESS in 19s
+* 20:23 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'force': True} to all
+* 20:20 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 20:20 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 20:01 Universal Omega: add ldap groups for wwr
+* 11:38 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 11:38 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 11:37 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 11:37 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 11:36 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 11:36 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 11:35 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 11:35 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+
 ## 2026-03-26 
 
 * 23:04 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_skins': 'Monaco'} to all - SUCCESS in 24s
