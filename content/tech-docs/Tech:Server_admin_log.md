@@ -2,6 +2,156 @@
 title: Tech:Server admin log
 ---
 
+## 2026-03-28 
+
+* 23:25 MirahezeLSBot: [petramagna@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=strinovawiki (END - exit=0)
+* 22:31 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'extension_list': True, 'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'Bucket', 'ignore_time': True} to mwtask151 - SUCCESS in 1s
+* 22:31 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'extension_list': True, 'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'Bucket', 'ignore_time': True} to mwtask151
+* 22:24 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'extension_list': True, 'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'Bucket'} to mwtask151 - SUCCESS in 1s
+* 22:24 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'extension_list': True, 'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'Bucket'} to mwtask151
+* 22:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: libxml-parser-perl
+* 22:09 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libxml-parser-perl
+* 22:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: libxml-parser-perl
+* 22:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: libxml-parser-perl
+* 22:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: libxml-parser-perl
+* 22:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libxml-parser-perl
+* 22:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: libxml-parser-perl
+* 22:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: libxml-parser-perl
+* 22:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: libxml-parser-perl
+* 22:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: libxml-parser-perl
+* 22:06 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: libxml-parser-perl
+* 22:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: libxml-parser-perl
+* 22:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: libxml-parser-perl
+* 22:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: libxml-parser-perl
+* 22:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: libxml-parser-perl
+* 22:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: libxml-parser-perl
+* 22:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: libxml-parser-perl
+* 22:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: libxml-parser-perl
+* 22:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: libxml-parser-perl
+* 22:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: libxml-parser-perl
+* 22:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: libxml-parser-perl
+* 22:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: libxml-parser-perl
+* 22:03 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: libxml-parser-perl
+* 22:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: libxml-parser-perl
+* 22:03 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: libxml-parser-perl
+* 22:03 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: libxml-parser-perl
+* 22:02 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: libxml-parser-perl
+* 22:02 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: libxml-parser-perl
+* 22:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: libxml-parser-perl
+* 22:02 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: libxml-parser-perl
+* 22:02 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: libxml-parser-perl
+* 22:01 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: libxml-parser-perl
+* 17:50 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php cleanupTitles --wiki=battlecatswiki (END - exit=0)
+* 17:49 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php cleanupTitles --wiki=battlecatswiki (END - exit=33280)
+* 17:09 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php purgeParserCache --wiki=bucketwiki (END - exit=256)
+* 17:07 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/Bucket:RefreshAllBuckets.php --wiki=bucketwiki (END - exit=256)
+* 17:06 MirahezeLSBot: [wwr@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'extension_list': True, 'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'Bucket'} to all - SUCCESS in 68s
+* 17:05 MirahezeLSBot: [wwr@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'extension_list': True, 'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'Bucket'} to all
+* 17:04 MirahezeLSBot: [skye@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'Bucket'} to all - SUCCESS in 22s
+* 17:04 MirahezeLSBot: [skye@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'Bucket'} to all
+* 17:00 MirahezeLSBot: [wwr@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'l10n': True, 'extension_list': True, 'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'Bucket'} to all
+* 16:59 MirahezeLSBot: [wwr@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'l10n': True, 'extension_list': True, 'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'Bucket'} to all
+* 16:45 MirahezeLSBot: [wwr@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'l10n': True, 'extension_list': True, 'versions': '1.45'} to all - SUCCESS in 122s
+* 16:43 MirahezeLSBot: [wwr@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'l10n': True, 'extension_list': True, 'versions': '1.45'} to all
+* 16:40 MirahezeLSBot: [wwr@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'l10n': True, 'extension_list': True, 'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'Bucket'} to all
+* 16:39 MirahezeLSBot: [wwr@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 23s
+* 16:38 MirahezeLSBot: [wwr@mwtask181] starting deploy of {'config': True} to all
+* 13:36 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': ['Cargo', 'PageForms']} to all - SUCCESS in 580s
+* 13:32 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': ['Cargo', 'PageForms']} to test151 - SUCCESS in 331s
+* 13:26 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': ['Cargo', 'PageForms']} to test151
+* 13:26 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': ['Cargo', 'PageForms']} to all
+* 12:53 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php dumpBackup --wiki=buckettestwikibeta --full (END - exit=0)
+* 05:10 MirahezeLSBot: [skye@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 22s
+* 05:10 MirahezeLSBot: [skye@mwtask181] starting deploy of {'config': True} to all
+* 04:18 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:18 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:18 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:17 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:17 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:17 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:16 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:16 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:16 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:16 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:15 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:15 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:15 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb191: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:15 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:14 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:14 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:14 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:13 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:13 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:13 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:12 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:12 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:11 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:10 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:05 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:05 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:04 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:03 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:03 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:03 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:03 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:02 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:02 MirahezeLSBot: [void@puppet181] Upgraded packages on db201: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:02 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:02 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:01 MirahezeLSBot: [void@puppet181] Upgraded packages on db192: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:01 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:01 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:01 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:00 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:00 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:00 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: bind9-host, bind9-dnsutils, and bind9-libs
+* 04:00 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: bind9-host, bind9-dnsutils, and bind9-libs
+* 03:59 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: bind9-host, bind9-dnsutils, and bind9-libs
+* 03:59 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: bind9-host, bind9-dnsutils, and bind9-libs
+* 03:59 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: bind9-host, bind9-dnsutils, and bind9-libs
+* 03:59 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: bind9-host, bind9-dnsutils, and bind9-libs
+* 03:59 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: bind9-host, bind9-dnsutils, and bind9-libs
+* 03:58 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: bind9-host, bind9-dnsutils, and bind9-libs
+* 03:58 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: bind9-host, bind9-dnsutils, and bind9-libs
+* 03:58 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: bind9-host, bind9-dnsutils, and bind9-libs
+* 03:58 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: bind9-host, bind9-dnsutils, and bind9-libs
+* 03:57 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: bind9-host, bind9-dnsutils, and bind9-libs
+* 03:06 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/initSiteStats.php --wiki=driveworldwiki --update (END - exit=0)
+* 03:06 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/rebuildall.php --wiki=driveworldwiki (END - exit=0)
+* 02:57 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/rebuildall.php --wiki=driveworldwiki (START)
+* 02:57 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=driveworldwiki dump.xml --no-updates (END - exit=0)
+* 02:40 MirahezeLSBot: [skye@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 23s
+* 02:39 MirahezeLSBot: [skye@mwtask181] starting deploy of {'config': True} to all
+* 02:36 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=driveworldwiki dump.xml --no-updates (START)
+
 ## 2026-03-27 
 
 * 22:44 Universal Omega: run bucketuser grants on db181
