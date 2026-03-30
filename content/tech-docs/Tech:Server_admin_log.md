@@ -2,6 +2,58 @@
 title: Tech:Server admin log
 ---
 
+## 2026-03-29 
+
+* 23:19 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 23:19 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 22:28 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 22:28 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 22:10 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 24s
+* 22:10 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 22:04 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'MirahezeMagic'} to test151 - SUCCESS in 0s
+* 22:03 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'MirahezeMagic'} to test151
+* 22:01 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 22:00 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 21:59 MirahezeLSBot: [petramagna@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 21:59 MirahezeLSBot: [petramagna@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 19:45 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s
+* 19:45 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151
+* 19:45 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 19:44 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 19:27 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: nodejs, libnode115, and nodejs-doc
+* 19:27 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: nodejs, libnode115, and nodejs-doc
+* 19:26 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: nodejs, libnode115, and nodejs-doc
+* 19:26 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: nodejs, libnode115, and nodejs-doc
+* 19:26 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: nodejs, libnode115, and nodejs-doc
+* 19:25 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: nodejs, libnode115, and nodejs-doc
+* 19:25 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: nodejs, libnode115, and nodejs-doc
+* 19:25 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: nodejs, libnode115, and nodejs-doc
+* 19:25 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: nodejs, libnode115, and nodejs-doc
+* 19:24 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: nodejs, libnode115, and nodejs-doc
+* 19:24 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: nodejs, libnode115, and nodejs-doc
+* 19:24 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: nodejs, libnode115, and nodejs-doc
+* 19:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: nodejs, libnode115, and nodejs-doc
+* 19:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: nodejs, libnode115, and nodejs-doc
+* 19:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: nodejs, libnode115, and nodejs-doc
+* 19:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: nodejs, libnode115, and nodejs-doc
+* 19:22 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: nodejs, libnode115, and nodejs-doc
+* 19:22 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: nodejs, libnode115, and nodejs-doc
+* 19:22 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: nodejs, libnode115, and nodejs-doc
+* 19:21 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: nodejs, libnode115, and nodejs-doc
+* 19:21 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: nodejs, libnode115, and nodejs-doc
+* 19:21 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: nodejs, libnode115, and nodejs-doc
+* 19:21 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: nodejs, libnode115, and nodejs-doc
+* 19:20 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: nodejs, libnode115, and nodejs-doc
+* 19:20 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: nodejs, libnode115, and nodejs-doc
+* 11:21 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s
+* 11:21 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151
+* 11:14 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s
+* 11:14 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151
+* 11:12 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 11:12 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 08:04 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=scratchwiki --requester=MC_mrjone (END - exit=0)
+* 07:43 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ModifyGroupPermission --wiki=buckettestwikibeta --group=bureaucrat --addperms=editbucket (END - exit=0)
+
 ## 2026-03-28 
 
 * 23:25 MirahezeLSBot: [petramagna@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=strinovawiki (END - exit=0)
