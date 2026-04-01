@@ -2,6 +2,27 @@
 title: Tech:Server admin log
 ---
 
+## 2026-04-01 
+
+* 00:00 MirahezeLSBot: [www-data@mwtask181] Began automatic backing up
+
+## 2026-03-31 
+
+* 23:42 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'Echo'} to all - SUCCESS in 26s
+* 23:42 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'Echo'} to all
+* 23:42 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'Echo'} to test151 - SUCCESS in 1s
+* 23:42 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'Echo'} to test151
+* 23:32 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'OATHAuth'} to all - SUCCESS in 24s
+* 23:32 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'OATHAuth'} to all
+* 23:32 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'OATHAuth'} to test151 - SUCCESS in 1s
+* 23:32 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'OATHAuth'} to test151
+* 23:06 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data foreachwikiindblist /tmp/bucket.php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/extensions/ManageWiki/maintenance/ResetWikiCaches.php
+* 23:03 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:GenerateExtensionDatabaseList --wiki=metawiki --extension=bucket --directory=/tmp
+* 22:40 SomeRandomDeveloper: trigger binlog purges on db151, db171 and db181 as well
+* 22:40 SomeRandomDeveloper: temporarily set slave_connections_needed_for_purge = 0 on db161 and db192 to trigger binlog purging, then undo to match puppet state
+* 22:40 SomeRandomDeveloper: ran "SET GLOBAL slave_connections_needed_for_purge = 0;" on db172 ([https://jira.mariadb.org/browse/MDEV-38849](https://jira.mariadb.org/browse/MDEV-38849))
+* 22:40 SomeRandomDeveloper: restart logbot on bots171
+
 ## 2026-03-30 
 
 * 16:46 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
