@@ -4,6 +4,53 @@ title: Tech:Server admin log
 
 ## 2026-04-01 
 
+* 22:13 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'ProofreadPage'} to all - SUCCESS in 26s
+* 22:13 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'ProofreadPage'} to all
+* 22:13 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'ProofreadPage'} to test151 - SUCCESS in 1s
+* 22:13 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'ProofreadPage'} to test151
+* 19:25 SomeRandomDeveloper: sudo salt-ssh -E 'mw.*' cmd.run 'puppet agent -tv'
+* 19:18 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'l10n': True, 'versions': '1.45'} to all - SUCCESS in 207s
+* 19:15 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'l10n': True, 'versions': '1.45'} to all
+* 19:15 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'world': True, 'force': True, 'versions': '1.45'} to all - SUCCESS in 117s
+* 19:13 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'world': True, 'force': True, 'versions': '1.45'} to all
+* 19:11 MirahezeLSBot: [somerandomdeveloper@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mw201
+* 19:08 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'upgrade_vendor': True, 'world': True, 'versions': '1.45'} to all
+* 19:06 MirahezeLSBot: [somerandomdeveloper@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mw163
+* 19:04 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'upgrade_vendor': True, 'world': True, 'versions': '1.45'} to all
+* 19:03 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'upgrade_vendor': True, 'world': True, 'versions': '1.45'} to mwtask151 - SUCCESS in 7s
+* 19:03 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'upgrade_vendor': True, 'world': True, 'versions': '1.45'} to mwtask151
+* 18:58 MirahezeLSBot: [somerandomdeveloper@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mw161
+* 18:53 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'upgrade_vendor': True, 'world': True, 'l10n': True, 'versions': '1.45'} to all
+* 18:50 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'upgrade_vendor': True, 'world': True, 'l10n': True, 'versions': '1.45'} to all
+* 15:14 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 15:14 MirahezeLSBot: [paladox@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 15:14 MirahezeLSBot: [paladox@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 15:14 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 14:46 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'world', 'world': True, 'l10n': True, 'versions': '1.45'} to test151 - SUCCESS in 384s
+* 14:40 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'world', 'world': True, 'l10n': True, 'versions': '1.45'} to test151
+* 08:27 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'world', 'upgrade_vendor': True, 'world': True, 'l10n': True, 'versions': '1.45'} to test151 - SUCCESS in 373s
+* 08:21 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'world', 'upgrade_vendor': True, 'world': True, 'l10n': True, 'versions': '1.45'} to test151
+* 08:17 MirahezeLSBot: [somerandomdeveloper@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 08:15 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'world', 'upgrade_vendor': True, 'world': True, 'l10n': True, 'versions': '1.45'} to test151
+* 02:53 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=metawiki --all-wikis (END - exit=0)
+* 02:41 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=strinovawiki (END - exit=0)
+* 02:39 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 02:38 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 02:37 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=exttestwikibeta (END - exit=0)
+* 02:36 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 02:36 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 01:21 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'l10n': True, 'versions': '1.45'} to all - SUCCESS in 531s
+* 01:17 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'l10n': True, 'versions': '1.45'} to test151 - SUCCESS in 346s
+* 01:12 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'l10n': True, 'versions': '1.45'} to all
+* 01:12 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'l10n': True, 'versions': '1.45'} to test151
+* 01:12 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'AbuseFilter'} to all - SUCCESS in 27s
+* 01:11 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'AbuseFilter'} to all
+* 01:11 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'AbuseFilter'} to test151 - SUCCESS in 1s
+* 01:11 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'AbuseFilter'} to test151
+* 00:05 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'Scribunto'} to all - SUCCESS in 24s
+* 00:04 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'Scribunto'} to all
+* 00:04 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'Scribunto'} to test151 - SUCCESS in 1s
+* 00:04 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'Scribunto'} to test151
 * 00:00 MirahezeLSBot: [www-data@mwtask181] Began automatic backing up
 
 ## 2026-03-31 
