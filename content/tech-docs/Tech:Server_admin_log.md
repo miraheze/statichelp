@@ -2,6 +2,21 @@
 title: Tech:Server admin log
 ---
 
+## 2026-04-02 
+
+* 15:26 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importImages.php --wiki=steinworldwiki --summary=Imported from [https://steingame.fandom.com/wiki/Stein.world_Wiki](https://steingame.fandom.com/wiki/Stein.world_Wiki) --search-recursively /home/reception/steinworld/images (END - exit=256)
+* 15:26 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importImages.php --wiki=steinworldwiki --summary=Imported from [https://steingame.fandom.com/wiki/Stein.world_Wiki](https://steingame.fandom.com/wiki/Stein.world_Wiki) --search-recursively /home/reception/steinworld/images (START)
+* 15:25 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importImages.php --wiki=steinworldwiki --summary=Imported from [https://steingame.fandom.com/wiki/Stein.world_Wiki](https://steingame.fandom.com/wiki/Stein.world_Wiki) --search-recursively /home/reception/steinworld (END - exit=256)
+* 15:25 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importImages.php --wiki=steinworldwiki --summary=Imported from [https://steingame.fandom.com/wiki/Stein.world_Wiki](https://steingame.fandom.com/wiki/Stein.world_Wiki) --search-recursively /home/reception/steinworld (START)
+* 15:25 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/ImportImages.php --wiki=steinworldwiki --summary=Imported from [https://steingame.fandom.com/wiki/Stein.world_Wiki](https://steingame.fandom.com/wiki/Stein.world_Wiki) --search-recursively /home/reception/steinworld (END - exit=256)
+* 15:25 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/ImportImages.php --wiki=steinworldwiki --summary=Imported from [https://steingame.fandom.com/wiki/Stein.world_Wiki](https://steingame.fandom.com/wiki/Stein.world_Wiki) --search-recursively /home/reception/steinworld (START)
+* 15:23 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=zhpolandballwiki --new=bolanqiuwiki --user=Reception123 (END - exit=0)
+* 15:14 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=paranormasightfileswiki --new=paranormasightwiki --user=Reception123 (END - exit=256)
+* 15:14 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=howitendspodwiki --new=howitendspodcastwiki --user=Reception123 (END - exit=0)
+* 15:12 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=robloxglitcheswiki --new=robloxglitcheswikiwiki --user=Reception123 (END - exit=0)
+* 15:10 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=astheeyesclosewiki --new=aftertheeyesclosewiki --user=Reception123 (END - exit=0)
+* 12:21 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=scratchwiki (END - exit=0)
+
 ## 2026-04-01 
 
 * 22:13 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'ProofreadPage'} to all - SUCCESS in 26s
