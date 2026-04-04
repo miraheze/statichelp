@@ -2,6 +2,29 @@
 title: Tech:Server admin log
 ---
 
+## 2026-04-03 
+
+* 10:57 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=scratchwiki (END - exit=0)
+* 10:57 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=scratchwiki (START)
+* 06:21 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 24s
+* 06:21 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'ManageWiki'} to all
+* 06:13 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'ManageWiki'} to test151 - SUCCESS in 1s
+* 06:13 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'ManageWiki'} to test151
+* 02:01 Skye: steinworldwiki: UPDATE page SET page_namespace=3000 WHERE page_namespace=2900;
+* 01:29 Skye: SQL: change interactivemap content models to json for steinworldwiki
+* 01:09 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php namespaceDupes --wiki=steinworldwiki --fix (END - exit=0)
+* 00:23 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'CommentStreams'} to all - SUCCESS in 25s
+* 00:22 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'CommentStreams'} to all
+* 00:22 MirahezeLSBot: [somerandomdeveloper@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 00:22 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'CommentStreams'} to all
+* 00:22 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'CommentStreams'} to test151 - SUCCESS in 0s
+* 00:22 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'CommentStreams'} to test151
+* 00:21 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'CommentStreams'} to test151 - SUCCESS in 0s
+* 00:21 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'CommentStreams'} to test151
+* 00:21 SomeRandomDeveloper: sudo salt-ssh -E "cp.*" cmd.run "sudo varnishadm ban req.http.Host == wiki.vanguards.gg"
+* 00:19 MirahezeLSBot: [somerandomdeveloper@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 00:19 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'CommentStreams'} to test151
+
 ## 2026-04-02 
 
 * 15:26 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importImages.php --wiki=steinworldwiki --summary=Imported from [https://steingame.fandom.com/wiki/Stein.world_Wiki](https://steingame.fandom.com/wiki/Stein.world_Wiki) --search-recursively /home/reception/steinworld/images (END - exit=256)
