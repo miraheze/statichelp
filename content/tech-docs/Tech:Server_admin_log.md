@@ -2,6 +2,26 @@
 title: Tech:Server admin log
 ---
 
+## 2026-04-04 
+
+* 22:09 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_skins': 'Cosmos'} to all - SUCCESS in 23s
+* 22:08 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_skins': 'Cosmos'} to all
+* 22:08 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.45', 'upgrade_skins': 'Cosmos'} to test151 - SUCCESS in 1s
+* 22:08 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.45', 'upgrade_skins': 'Cosmos'} to test151
+* 22:04 SomeRandomDeveloper: ran "sudo salt-ssh -E 'mw.*' cmd.run 'puppet agent -tv'" on puppet181 to fix issues after core deployment (T15173)
+* 22:00 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'world', 'world': True, 'versions': '1.45'} to all - SUCCESS in 191s
+* 21:57 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'world', 'world': True, 'versions': '1.45'} to all
+* 21:56 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'world', 'world': True, 'versions': '1.45'} to test151 - SUCCESS in 83s
+* 21:55 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'world', 'world': True, 'versions': '1.45'} to test151
+* 07:38 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 07:38 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 07:37 MirahezeLSBot: [petramagna@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 07:37 MirahezeLSBot: [petramagna@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 06:50 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 06:50 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 06:20 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.45/extensions/Bucket'} to test151 - SUCCESS in 0s
+* 06:20 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.45/extensions/Bucket'} to test151
+
 ## 2026-04-03 
 
 * 10:57 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=scratchwiki (END - exit=0)
