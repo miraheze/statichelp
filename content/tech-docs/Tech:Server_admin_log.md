@@ -2,6 +2,113 @@
 title: Tech:Server admin log
 ---
 
+## 2026-04-05 
+
+* 22:58 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 22:58 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 22:58 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 22:58 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 22:57 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 22:57 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 21:32 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php deleteBatch --wiki=farthestfrontierwiki --r ' [Requested](https://meta.miraheze.org/wiki/phorge:T15073)' /home/somerandomdeveloper/T15073.txt (END - exit=0)
+* 21:31 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php deleteBatch --wiki=farthestfrontierwiki --r ' [Requested](https://meta.miraheze.org/wiki/phorge:T15073)' /home/somerandomdeveloper/T15073.txt (START)
+* 20:37 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 20:37 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 17:08 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.45/extensions/ManageWiki'} to all - SUCCESS in 22s
+* 17:07 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.45/extensions/ManageWiki'} to all
+* 16:19 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.45/extensions/ManageWiki'} to all - SUCCESS in 22s
+* 16:19 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.45/extensions/ManageWiki'} to all
+* 16:15 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawiki --setting=wmgGalleryOptionsMode --sourcelist=./populatesettings (END - exit=0)
+* 16:13 MirahezeLSBot: [wwr@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 22s
+* 16:12 MirahezeLSBot: [wwr@mwtask181] starting deploy of {'config': True} to all
+* 16:06 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on swiftobject201: inetutils-telnet and telnet
+* 16:05 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on swiftproxy161: inetutils-telnet and telnet
+* 16:05 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on swiftobject191: inetutils-telnet and telnet
+* 16:05 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on test151: inetutils-telnet and telnet
+* 16:05 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on swiftobject211: inetutils-telnet and telnet
+* 16:04 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on swiftproxy171: inetutils-telnet and telnet
+* 16:04 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on ns2: inetutils-telnet and telnet
+* 16:04 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on swiftobject181: inetutils-telnet and telnet
+* 16:03 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on swiftobject161: inetutils-telnet and telnet
+* 16:03 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on swiftobject171: inetutils-telnet and telnet
+* 16:03 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on os201: inetutils-telnet and telnet
+* 16:03 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on swiftac171: inetutils-telnet and telnet
+* 16:02 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on swiftobject151: inetutils-telnet and telnet
+* 16:02 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on os202: inetutils-telnet and telnet
+* 16:02 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on rdb191: inetutils-telnet and telnet
+* 16:01 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on os191: inetutils-telnet and telnet
+* 16:01 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mwtask181: inetutils-telnet and telnet
+* 16:01 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on puppet181: inetutils-telnet and telnet
+* 16:01 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on reports171: inetutils-telnet and telnet
+* 16:00 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on os162: inetutils-telnet and telnet
+* 16:00 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on phorge171: inetutils-telnet and telnet
+* 16:00 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on prometheus151: inetutils-telnet and telnet
+* 16:00 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw203: inetutils-telnet and telnet
+* 15:59 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on os151: inetutils-telnet and telnet
+* 15:59 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on os161: inetutils-telnet and telnet
+* 15:59 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on ns1: inetutils-telnet and telnet
+* 15:59 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mwtask171: inetutils-telnet and telnet
+* 15:58 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mwtask151: inetutils-telnet and telnet
+* 15:58 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw202: inetutils-telnet and telnet
+* 15:58 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw201: inetutils-telnet and telnet
+* 15:58 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mwtask161: inetutils-telnet and telnet
+* 15:57 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.45/extensions/ManageWiki'} to all - SUCCESS in 22s
+* 15:57 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw182: inetutils-telnet and telnet
+* 15:57 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.45/extensions/ManageWiki'} to all
+* 15:57 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw183: inetutils-telnet and telnet
+* 15:57 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw192: inetutils-telnet and telnet
+* 15:56 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw193: inetutils-telnet and telnet
+* 15:56 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw181: inetutils-telnet and telnet
+* 15:56 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw191: inetutils-telnet and telnet
+* 15:56 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw161: inetutils-telnet and telnet
+* 15:55 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw173: inetutils-telnet and telnet
+* 15:55 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw171: inetutils-telnet and telnet
+* 15:55 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw172: inetutils-telnet and telnet
+* 15:54 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw153: inetutils-telnet and telnet
+* 15:54 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw163: inetutils-telnet and telnet
+* 15:54 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw162: inetutils-telnet and telnet
+* 15:54 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mem191: inetutils-telnet and telnet
+* 15:53 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mon181: inetutils-telnet and telnet
+* 15:53 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw152: inetutils-telnet and telnet
+* 15:53 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mw151: inetutils-telnet and telnet
+* 15:53 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on llm191: inetutils-telnet and telnet
+* 15:52 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mem201: inetutils-telnet and telnet
+* 15:52 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on kafka182: inetutils-telnet and telnet
+* 15:52 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mem151: inetutils-telnet and telnet
+* 15:52 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mem161: inetutils-telnet and telnet
+* 15:51 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on matomo151: inetutils-telnet and telnet
+* 15:51 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on ldap171: inetutils-telnet and telnet
+* 15:51 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on mattermost2: inetutils-telnet and telnet
+* 15:51 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on cp171: inetutils-telnet and telnet
+* 15:50 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on cp191: inetutils-telnet and telnet
+* 15:50 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on graylog161: inetutils-telnet and telnet
+* 15:50 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on cloud19: inetutils-telnet and telnet
+* 15:50 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on cloud20: inetutils-telnet and telnet
+* 15:49 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on db201: inetutils-telnet and telnet
+* 15:49 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on cloud18: inetutils-telnet and telnet
+* 15:49 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on cloud15: inetutils-telnet and telnet
+* 15:49 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on db181: inetutils-telnet and telnet
+* 15:48 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on cloud16: inetutils-telnet and telnet
+* 15:48 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on eventgate182: inetutils-telnet and telnet
+* 15:48 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on db192: inetutils-telnet and telnet
+* 15:48 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on db182: inetutils-telnet and telnet
+* 15:47 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on bast181: inetutils-telnet and telnet
+* 15:47 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on cp201: inetutils-telnet and telnet
+* 15:47 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on db171: inetutils-telnet and telnet
+* 15:47 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on db172: inetutils-telnet and telnet
+* 15:46 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on cloud17: inetutils-telnet and telnet
+* 15:46 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on db151: inetutils-telnet and telnet
+* 15:46 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on cp161: inetutils-telnet and telnet
+* 15:46 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on bast161: inetutils-telnet and telnet
+* 15:45 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on db161: inetutils-telnet and telnet
+* 15:45 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on changeprop202: inetutils-telnet and telnet
+* 15:45 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on cloud21: inetutils-telnet and telnet
+* 15:44 MirahezeLSBot: [somerandomdeveloper@puppet181] Upgraded packages on bots171: inetutils-telnet, python3-pyasn1, and telnet
+* 15:30 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 15:30 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 15:27 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 15:27 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+
 ## 2026-04-04 
 
 * 22:09 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_skins': 'Cosmos'} to all - SUCCESS in 23s
