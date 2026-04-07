@@ -2,6 +2,57 @@
 title: Tech:Server admin log
 ---
 
+## 2026-04-06 
+
+* 22:48 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'Bucket'} to all - SUCCESS in 25s
+* 22:47 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'Bucket'} to all
+* 22:46 MirahezeLSBot: [petramagna@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 22:46 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'Bucket'} to all
+* 22:46 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'Bucket'} to test151 - SUCCESS in 0s
+* 22:46 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'Bucket'} to test151
+* 21:57 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'extension_list': True, 'versions': '1.45'} to all - SUCCESS in 23s
+* 21:57 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'extension_list': True, 'versions': '1.45'} to all
+* 21:56 MirahezeLSBot: [somerandomdeveloper@puppet181] sudo salt-ssh -E mw.* cmd.run sudo -u www-data rm -rf /srv/mediawiki/1.45/extensions/LinkTitles/
+* 21:55 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data rm -rf /srv/mediawiki-staging/1.45/extensions/LinkTitles/
+* 21:54 SomeRandomDeveloper: ran "sudo -u www-data rm -rf /srv/mediawiki/1.45/extensions/LinkTitles/" and "sudo -u www-data rm -rf /srv/mediawiki-staging/1.45/extensions/LinkTitles/" on test151
+* 21:54 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'extension_list': True, 'versions': '1.45'} to test151 - SUCCESS in 0s
+* 21:54 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'extension_list': True, 'versions': '1.45'} to test151
+* 21:53 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'extension_list': True, 'versions': '1.45'} to test151 - SUCCESS in 0s
+* 21:53 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'extension_list': True, 'versions': '1.45'} to test151
+* 21:48 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 21:47 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 21:47 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 21:47 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 21:45 SomeRandomDeveloper: --setting=wgLinkTitlesParseOnEdit --setting=wgLinkTitlesParseOnRender --setting=wgLinkTitlesPreferShortTitles --setting=wgLinkTitlesSmartMode --setting=wgLinkTitlesSameNamespace --setting=wgLinkTitlesSkipTemplates --setting=wgLinkTitlesSpecialPageReloadAfter --setting=wgLinkTitlesWordStartOnly --setting=wgLinkTitlesWordEndOnly (END - exit=0)
+* 21:45 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=loginwiki --remove --all-wikis --execute --setting=wgLinkTitlesEnableNoTargetMagicWord --setting=wgLinkTitlesFirstOnly --setting=wgLinkTitlesMinimumTitleLength --setting=wgLinkTitlesParseHeadings
+* 21:39 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.45/extensions/ManageWiki'} to all - SUCCESS in 26s
+* 21:38 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.45/extensions/ManageWiki'} to all
+* 21:34 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=loginwikibeta --remove --all-wikis --execute --setting=wgLinkTitlesCheckRedirect --setting=wgLinkTitlesEnableNoTargetMagicWord --setting=wgLinkTitlesFirstOnly --setting=wgLinkTitlesMinimumTitleLength
+* 21:32 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.45/extensions/ManageWiki'} to test151 - SUCCESS in 0s
+* 21:32 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.45/extensions/ManageWiki'} to test151
+* 20:57 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=loginwiki --remove --all-wikis --execute --setting=wgLinkTitlesCheckRedirect (END - exit=0)
+* 20:50 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /home/somerandomdeveloper/linktitles-perms.json /srv/mediawiki/1.45/maintenance/run ManageWiki:ModifyGroupPermission --all --removeperms=linktitles-batch
+* 20:39 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ToggleExtension --wiki=loginwiki --name=linktitles --disable --all-wikis --execute (END - exit=0)
+* 20:38 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ToggleExtension --wiki=loginwikibeta --name=linktitles --disable --all-wikis --execute (END - exit=0)
+* 18:08 @thewwrnerdguy: Move tables from robloxblocktaleswikicargo to blocktaleswikicargo via RENAME TABLE
+* 17:10 RhinosF1: restarting memcache on mem*
+* 15:30 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=blocktaleswiki (END - exit=0)
+* 15:29 MirahezeLSBot: [petramagna@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 15:29 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'Bucket'} to test151
+* 13:37 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=robloxblocktaleswiki --new=blocktaleswiki --user=TheWWRNerdGuy (END - exit=0)
+* 13:25 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwiki --delete --deletewiki blocktaleswiki (END - exit=256)
+* 13:25 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwiki --delete --deletewiki blocktaleswiki (END - exit=33280)
+* 13:22 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwiki --delete --deletewiki blocktaleswiki (END - exit=512)
+* 07:37 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=warlordswiki --sleep=1 --comment='Importing images for [T15177](https://meta.miraheze.org/wiki/phorge:T15177)' ./files (END - exit=0)
+* 07:36 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=warlordswiki --sleep=1 --comment='Importing images for [T15177](https://meta.miraheze.org/wiki/phorge:T15177)' ./files (START)
+* 07:29 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=floppapediawiki --update (END - exit=0)
+* 07:29 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=floppapediawiki (END - exit=0)
+* 07:28 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=floppapediawiki (END - exit=0)
+* 07:28 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=floppapediawiki (END - exit=0)
+* 07:18 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=floppapediawiki (START)
+* 07:17 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=floppapediawiki --no-updates --username-prefix=wikia:floppapedia-revamped -- floppapediarevamped_pages_full.xml (END - exit=0)
+* 06:54 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=floppapediawiki --no-updates --username-prefix=wikia:floppapedia-revamped -- floppapediarevamped_pages_full.xml (START)
+
 ## 2026-04-05 
 
 * 22:58 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
