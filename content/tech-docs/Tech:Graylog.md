@@ -68,6 +68,8 @@ Examples:
 * `application_name:"mediawiki" AND (mediawiki_level:"ERROR" OR mediawiki_level:"WARNING")`
 * View logs for a specific MediaWiki request (e.g. when retrieving the backtrace of a production error):
 * `mediawiki_reqId:"642df1294318d7551fab367e"`
+* Finding errors that occurred on a particular wiki:
+* `mediawiki_wiki:testwiki AND mediawiki_level:ERROR`
 
 ## Access 
 

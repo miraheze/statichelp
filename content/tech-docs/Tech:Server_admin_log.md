@@ -2,6 +2,192 @@
 title: Tech:Server admin log
 ---
 
+## 2026-04-08 
+
+* 22:25 MirahezeLSBot: [petramagna@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=bolanqiuwiki (END - exit=0)
+* 22:12 MirahezeLSBot: [petramagna@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=bolanqiuwiki --startOver (END - exit=0)
+* 19:44 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: libtiff6
+* 19:44 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: libtiff6
+* 19:44 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libtiff-dev, libtiff6, and libtiffxx6
+* 19:43 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: libtiff6
+* 19:43 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: libtiff6
+* 19:43 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: libtiff6
+* 19:43 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: libtiff6
+* 19:42 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: libtiff6
+* 19:42 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: libtiff6
+* 19:42 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: libtiff6
+* 19:42 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: libtiff6
+* 19:41 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: libtiff6
+* 19:41 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb191: libtiff6
+* 19:41 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: libtiff6
+* 19:41 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: libtiff6
+* 19:40 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: libtiff6
+* 19:40 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: libtiff6
+* 19:40 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: libtiff6
+* 19:39 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: libtiff6
+* 19:39 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: libtiff6
+* 19:39 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: libtiff-dev, libtiff6, and libtiffxx6
+* 19:39 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: libtiff6
+* 19:38 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: libtiff6
+* 19:38 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: libtiff6
+* 19:38 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: libtiff-dev, libtiff6, and libtiffxx6
+* 19:38 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: libtiff6
+* 19:38 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: libtiff-dev, libtiff6, and libtiffxx6
+* 19:37 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: libtiff-dev, libtiff6, and libtiffxx6
+* 19:37 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libtiff-dev, libtiff6, and libtiffxx6
+* 19:37 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: libtiff-dev, libtiff6, and libtiffxx6
+* 19:36 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: libtiff-dev, libtiff6, and libtiffxx6
+* 19:36 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: libtiff-dev, libtiff6, and libtiffxx6
+* 19:36 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: libtiff-dev, libtiff6, and libtiffxx6
+* 19:36 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: libtiff-dev, libtiff6, and libtiffxx6
+* 19:35 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: libtiff-dev, libtiff6, and libtiffxx6
+* 19:35 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: libtiff-dev, libtiff6, and libtiffxx6
+* 19:35 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: libtiff-dev, libtiff6, and libtiffxx6
+* 19:34 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: libtiff-dev, libtiff6, and libtiffxx6
+* 19:34 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: libtiff-dev, libtiff6, and libtiffxx6
+* 19:34 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: libtiff-dev, libtiff6, and libtiffxx6
+* 19:34 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: libtiff-dev, libtiff6, and libtiffxx6
+* 19:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: libtiff-dev, libtiff6, and libtiffxx6
+* 19:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: libtiff-dev, libtiff6, and libtiffxx6
+* 19:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: libtiff-dev, libtiff6, and libtiffxx6
+* 19:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: libtiff-dev, libtiff6, and libtiffxx6
+* 19:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: libtiff6
+* 19:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: libtiff6
+* 19:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: libtiff-dev, libtiff6, and libtiffxx6
+* 19:32 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: libtiff6
+* 19:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: libtiff6
+* 19:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: libtiff6
+* 19:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: libtiff6
+* 19:31 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: libtiff6
+* 19:30 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: libtiff6
+* 19:30 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: libtiff6
+* 19:30 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: libtiff6
+* 19:30 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: libtiff6
+* 19:30 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: libtiff6
+* 19:29 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: libtiff6
+* 19:29 MirahezeLSBot: [void@puppet181] Upgraded packages on db201: libtiff6
+* 19:29 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: libtiff6
+* 19:28 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: libtiff6
+* 19:28 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: libtiff6
+* 19:28 MirahezeLSBot: [void@puppet181] Upgraded packages on db192: libtiff6
+* 19:28 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: libtiff6
+* 19:28 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: libtiff6
+* 19:27 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: libtiff6
+* 19:27 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: libtiff6
+* 19:27 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: libtiff6
+* 19:26 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: libtiff6
+* 19:26 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: libtiff6
+* 19:26 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: libtiff6
+* 19:26 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: libtiff6
+* 19:26 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: libtiff6
+* 19:25 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: libtiff6
+* 19:25 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: libtiff6
+* 19:25 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: libtiff6
+* 19:25 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: libtiff6
+* 19:24 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: libtiff6
+* 19:24 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: libtiff6
+* 19:24 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: libtiff6
+* 16:23 MirahezeLSBot: [macfan@test151] finished deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'OATHAuth'} to test151 - SUCCESS in 0s
+* 16:23 MirahezeLSBot: [macfan@test151] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'OATHAuth'} to test151
+* 15:45 MirahezeLSBot: [macfan@test151] finished deploy of {'upgrade_vendor': True, 'versions': '1.45'} to test151 - SUCCESS in 16s
+* 15:45 MirahezeLSBot: [macfan@test151] starting deploy of {'upgrade_vendor': True, 'versions': '1.45'} to test151
+* 12:02 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php Cargo:cargoRecreateData --wiki=afnmwiki --table Materials --replacement (END - exit=0)
+* 12:01 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php Cargo:cargoRecreateData --wiki=afnmwiki --table materials --replacement (END - exit=0)
+* 09:12 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'MatomoAnalytics'} to all - SUCCESS in 23s
+* 09:11 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'MatomoAnalytics'} to all
+* 09:03 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.45/extensions/MatomoAnalytics'} to test151 - SUCCESS in 0s
+* 09:03 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.45/extensions/MatomoAnalytics'} to test151
+* 04:02 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: openssl-provider-legacy, libssl3t64, and openssl
+* 04:01 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: openssl-provider-legacy, libssl3t64, and openssl
+* 04:01 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libssl-dev, openssl-provider-legacy, libssl3t64, and openssl
+* 04:01 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: openssl-provider-legacy, libssl3t64, and openssl
+* 04:00 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: openssl-provider-legacy, libssl3t64, and openssl
+* 04:00 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: openssl-provider-legacy, libssl3t64, and openssl
+* 04:00 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: openssl-provider-legacy, libssl3t64, and openssl
+* 04:00 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: openssl-provider-legacy, libssl3t64, and openssl
+* 03:59 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: openssl-provider-legacy, libssl3t64, and openssl
+* 03:59 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: openssl-provider-legacy, libssl3t64, and openssl
+* 03:59 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: openssl-provider-legacy, libssl3t64, and openssl
+* 03:58 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: openssl-provider-legacy, libssl3t64, and openssl
+* 03:58 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb191: openssl-provider-legacy, libssl3t64, and openssl
+* 03:58 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: openssl-provider-legacy, libssl3t64, and openssl
+* 03:58 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: openssl-provider-legacy, libssl3t64, and openssl
+* 03:57 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: openssl-provider-legacy, libssl3t64, and openssl
+* 03:57 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: openssl-provider-legacy, libssl3t64, and openssl
+* 03:57 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: openssl-provider-legacy, libssl3t64, and openssl
+* 03:56 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: openssl-provider-legacy, libssl3t64, and openssl
+* 03:56 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: openssl-provider-legacy, libssl3t64, and openssl
+* 03:56 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: openssl-provider-legacy, libssl3t64, and openssl
+* 03:55 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: openssl-provider-legacy, libssl3t64, and openssl
+* 03:55 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: openssl-provider-legacy, libssl3t64, and openssl
+* 03:55 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: openssl-provider-legacy, libssl3t64, and openssl
+* 03:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: openssl-provider-legacy, libssl3t64, and openssl
+* 03:54 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: openssl-provider-legacy, libssl3t64, and openssl
+* 03:54 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: openssl-provider-legacy, libssl3t64, and openssl
+* 03:54 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: openssl-provider-legacy, libssl3t64, and openssl
+* 03:53 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: openssl-provider-legacy, libssl3t64, and openssl
+* 03:53 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: openssl-provider-legacy, libssl3t64, and openssl
+* 03:53 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: openssl-provider-legacy, libssl3t64, and openssl
+* 03:53 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: openssl-provider-legacy, libssl3t64, and openssl
+* 03:52 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: openssl-provider-legacy, libssl3t64, and openssl
+* 03:52 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: openssl-provider-legacy, libssl3t64, and openssl
+* 03:52 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: openssl-provider-legacy, libssl3t64, and openssl
+* 03:51 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: openssl-provider-legacy, libssl3t64, and openssl
+* 03:51 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: openssl-provider-legacy, libssl3t64, and openssl
+* 03:51 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: openssl-provider-legacy, libssl3t64, and openssl
+* 03:50 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: openssl-provider-legacy, libssl3t64, and openssl
+* 03:50 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: openssl-provider-legacy, libssl3t64, and openssl
+* 03:50 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: openssl-provider-legacy, libssl3t64, and openssl
+* 03:50 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: openssl-provider-legacy, libssl3t64, and openssl
+* 03:49 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: openssl-provider-legacy, libssl3t64, and openssl
+* 03:49 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: openssl-provider-legacy, libssl3t64, and openssl
+* 03:49 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: openssl-provider-legacy, libssl3t64, and openssl
+* 03:48 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: openssl-provider-legacy, libssl3t64, and openssl
+* 03:48 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: openssl-provider-legacy, libssl3t64, and openssl
+* 03:48 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: openssl-provider-legacy, libssl3t64, and openssl
+* 03:48 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: openssl-provider-legacy, libssl3t64, and openssl
+* 03:47 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: openssl-provider-legacy, libssl3t64, and openssl
+* 03:47 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: openssl-provider-legacy, libssl3t64, and openssl
+* 03:47 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: openssl-provider-legacy, libssl3t64, and openssl
+* 03:47 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: openssl-provider-legacy, libssl3t64, and openssl
+* 03:46 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: openssl-provider-legacy, libssl3t64, and openssl
+* 03:46 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: openssl-provider-legacy, libssl3t64, and openssl
+* 03:46 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: openssl-provider-legacy, libssl3t64, and openssl
+* 03:46 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: openssl-provider-legacy, libssl3t64, and openssl
+* 03:45 MirahezeLSBot: [void@puppet181] Upgraded packages on db201: openssl-provider-legacy, libssl3t64, and openssl
+* 03:45 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: libssl-dev, openssl-provider-legacy, libssl3t64, and openssl
+* 03:45 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: openssl-provider-legacy, libssl3t64, and openssl
+* 03:44 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: openssl-provider-legacy, libssl3t64, and openssl
+* 03:44 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: openssl-provider-legacy, libssl3t64, and openssl
+* 03:44 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: openssl-provider-legacy, libssl3t64, and openssl
+* 03:44 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: openssl-provider-legacy, libssl3t64, and openssl
+* 03:43 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: openssl-provider-legacy, libssl3t64, and openssl
+* 03:43 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: openssl-provider-legacy, libssl3t64, and openssl
+* 03:43 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: openssl-provider-legacy, libssl3t64, and openssl
+* 03:42 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: libssl-dev, openssl-provider-legacy, libssl3t64, and openssl
+* 03:42 MirahezeLSBot: [macfan@test151] finished deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'UrlShortener'} to test151 - SUCCESS in 1s
+* 03:42 MirahezeLSBot: [macfan@test151] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'UrlShortener'} to test151
+* 03:42 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: openssl-provider-legacy, libssl3t64, and openssl
+* 03:42 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: openssl-provider-legacy, libssl3t64, and openssl
+* 03:42 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: openssl-provider-legacy, libssl3t64, and openssl
+* 03:41 MirahezeLSBot: [void@puppet181] Upgraded packages on db192: openssl-provider-legacy, libssl3t64, and openssl
+* 03:41 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: openssl-provider-legacy, libssl3t64, and openssl
+* 03:41 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: openssl-provider-legacy, libssl3t64, and openssl
+* 03:41 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: openssl-provider-legacy, libssl3t64, and openssl
+* 03:40 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: openssl-provider-legacy, libssl3t64, and openssl
+* 03:40 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: openssl-provider-legacy, libssl3t64, and openssl
+* 03:40 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: openssl-provider-legacy, libssl3t64, and openssl
+* 03:40 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: openssl-provider-legacy, libssl3t64, and openssl
+* 03:39 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: openssl-provider-legacy, libssl3t64, and openssl
+* 03:39 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: openssl-provider-legacy, libssl3t64, and openssl
+* 03:33 MirahezeLSBot: [macfan@test151] finished deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'OATHAuth'} to test151 - SUCCESS in 0s
+* 03:33 MirahezeLSBot: [macfan@test151] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'OATHAuth'} to test151
+* 03:16 MirahezeLSBot: [pixldev@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'OAuth'} to test151 - SUCCESS in 1s
+* 03:16 MirahezeLSBot: [pixldev@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'OAuth'} to test151
+* 03:05 MirahezeLSBot: [macfan@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'OATHAuth'} to test151 - SUCCESS in 0s
+* 03:05 MirahezeLSBot: [macfan@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'OATHAuth'} to test151
+* 00:56 MirahezeLSBot: [pixldev@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php createAndPromote --wiki=metawikibeta PixDeVl --force --custom-groups steward (END - exit=0)
+
 ## 2026-04-07 
 
 * 03:46 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
