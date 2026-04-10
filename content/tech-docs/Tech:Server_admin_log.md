@@ -2,6 +2,43 @@
 title: Tech:Server admin log
 ---
 
+## 2026-04-09 
+
+* 21:03 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=holidayswiki (END - exit=0)
+* 19:18 MirahezeLSBot: [petramagna@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=maillewiki (END - exit=0)
+* 19:18 MirahezeLSBot: [petramagna@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=maillewiki (END - exit=0)
+* 19:17 MirahezeLSBot: [petramagna@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=maillewiki (END - exit=0)
+* 19:16 MirahezeLSBot: [petramagna@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=maillewiki (START)
+* 19:14 MirahezeLSBot: [petramagna@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=maillewiki --no-updates --username-prefix=wgg:maille --uploads maille_20260409_rv2.xml (END - exit=0)
+* 19:13 MirahezeLSBot: [petramagna@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=maillewiki --no-updates --username-prefix=wgg:maille --uploads maille_20260409_rv2.xml (START)
+* 19:12 MirahezeLSBot: [petramagna@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=maillewiki --no-updates --username-prefix=wgg:maille --uploads maille_20260409_rv2.xml (END - exit=256)
+* 19:12 MirahezeLSBot: [petramagna@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=maillewiki --no-updates --username-prefix=wgg:maille --uploads maille_20260409_rv2.xml (START)
+* 19:08 MirahezeLSBot: [petramagna@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=maillewiki --no-updates --username-prefix=wgg:maille --uploads maille_20260409_rv2.xml (END - exit=256)
+* 19:08 MirahezeLSBot: [petramagna@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=maillewiki --no-updates --username-prefix=wgg:maille --uploads maille_20260409_rv2.xml (START)
+* 18:32 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=blobwiki (END - exit=0)
+* 18:30 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=blobwiki (END - exit=0)
+* 18:28 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=blobwiki (END - exit=256)
+* 18:25 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=bolanqiuwiki (END - exit=0)
+* 18:04 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'Bucket'} to test151 - SUCCESS in 0s
+* 18:04 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'Bucket'} to test151
+* 18:03 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'Bucket'} to test151
+* 18:03 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=robeatswiki (END - exit=0)
+* 17:18 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'Bucket'} to test151
+* 17:18 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'Bucket'} to test151 - SUCCESS in 0s
+* 17:18 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'Bucket'} to test151
+* 13:52 SomeRandomDeveloper: repool c3 again
+* 13:52 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 23s
+* 13:51 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'config': True} to all
+* 13:45 SomeRandomDeveloper: depool c3 again
+* 13:45 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 20s
+* 13:45 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 13:45 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 24s
+* 13:41 SomeRandomDeveloper: repool c3
+* 13:41 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'config': True} to all
+* 13:37 SomeRandomDeveloper: depool c3
+* 13:37 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 22s
+* 13:37 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'config': True, 'force': True} to all
+
 ## 2026-04-08 
 
 * 22:25 MirahezeLSBot: [petramagna@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=bolanqiuwiki (END - exit=0)
