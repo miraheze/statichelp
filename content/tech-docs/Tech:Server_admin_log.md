@@ -2,6 +2,34 @@
 title: Tech:Server admin log
 ---
 
+## 2026-04-10 
+
+* 23:14 MirahezeLSBot: [pixldev@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 23:14 MirahezeLSBot: [pixldev@test151] starting deploy of {'config': True} to test151
+* 23:11 MirahezeLSBot: [pixldev@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 23:11 MirahezeLSBot: [pixldev@test151] starting deploy of {'config': True} to test151
+* 23:05 MirahezeLSBot: [pixldev@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 23:05 MirahezeLSBot: [pixldev@test151] starting deploy of {'config': True} to test151
+* 23:04 MirahezeLSBot: [pixldev@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 23:04 MirahezeLSBot: [pixldev@test151] starting deploy of {'config': True} to test151
+* 19:17 @paladox: upgraded matomo to 5.8.0
+* 17:15 MirahezeLSBot: [wwr@mwtask171] Finished import for animatorvsanimationwiki (XML: ./history.xml; Images: None) (END - exit=0)
+* 17:15 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=animatorvsanimationwiki --update (END - exit=0)
+* 17:15 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=animatorvsanimationwiki --update (START)
+* 17:15 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=animatorvsanimationwiki (END - exit=0)
+* 17:14 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=animatorvsanimationwiki (START)
+* 17:14 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=animatorvsanimationwiki (END - exit=0)
+* 15:49 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=animatorvsanimationwiki (START)
+* 15:49 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=animatorvsanimationwiki --no-updates --username-prefix=wikia:animatorvsanimation -- ./history.xml (END - exit=0)
+* 15:39 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=animatorvsanimationwiki --no-updates --username-prefix=wikia:animatorvsanimation -- ./history.xml (START)
+* 15:39 MirahezeLSBot: [wwr@mwtask171] Starting import for animatorvsanimationwiki (XML: ./history.xml; Images: None) (START)
+* 03:59 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 03:59 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 03:54 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 03:54 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 03:51 MirahezeLSBot: [petramagna@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 03:51 MirahezeLSBot: [petramagna@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+
 ## 2026-04-09 
 
 * 21:03 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=holidayswiki (END - exit=0)
