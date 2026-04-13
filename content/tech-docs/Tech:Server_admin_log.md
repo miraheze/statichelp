@@ -2,6 +2,31 @@
 title: Tech:Server admin log
 ---
 
+## 2026-04-13 
+
+* 00:00 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s
+* 00:00 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151
+
+## 2026-04-12 
+
+* 23:55 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=fromsoftwikiwiki (END - exit=0)
+* 23:52 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 23:52 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 23:44 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 23:43 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 23:10 SomeRandomDeveloper: sudo salt-ssh -E "cp.*" cmd.run "sudo varnishadm ban req.http.Host == battlecats.miraheze.org"
+* 02:55 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 02:55 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 02:51 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 02:50 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 02:46 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 02:46 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 02:44 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=exttestwikibeta (END - exit=0)
+* 02:42 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'Echo'} to test151 - SUCCESS in 1s
+* 02:42 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'Echo'} to test151
+* 02:39 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 02:39 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+
 ## 2026-04-11 
 
 * 22:25 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-0, and libgdk-pixbuf2.0-bin

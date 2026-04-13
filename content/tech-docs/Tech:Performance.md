@@ -12,7 +12,7 @@ For web scrapers, figure out their access pattern and challenge them.
 
 For wikis with inefficient JS, reach out to them about it.
 
-For popular wikis, examine uncached requests and see if they can be cached by Cloudflare or optimized on-wiki.
+For popular wikis, examine uncached requests and see if they can be cached by Cloudflare or optimized on-wiki. Caching -> Overview can give a sense of which wikis are sending the most uncached requests and how much data these are transferring.
 
 ## Nginx logs
 
