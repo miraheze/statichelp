@@ -4,6 +4,12 @@ title: Tech:Server admin log
 
 ## 2026-04-13 
 
+* 20:52 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwiki --delete --deletewiki paranormasightwiki (END - exit=0)
+* 02:18 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php DataDump:InsertMissingDumps --wiki=italianbrainrotwiki (END - exit=0)
+* 00:34 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s
+* 00:34 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151
+* 00:27 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s
+* 00:27 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151
 * 00:00 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s
 * 00:00 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151
 
