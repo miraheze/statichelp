@@ -11,13 +11,13 @@ To delete or move large batches of pages on a wiki, use the following steps with
 * **Run the appropriate maintenance script** using `mwscript`. Replace the placeholders with actual values:
 
 ```bash
-mwscript deleteBatch wikidbname --u="Miraheze maintenance script" --r="[[phorge:T###|Requested]]" /home/yourshellusername/subdomain.txt
+mwscript deleteBatch wikidbname --u="'<your username> (Miraheze)'" --r="'[[phorge:T###|Requested]]'" deleteBatch.txt
 ```
 
 Or, if moving pages instead of deleting:
 
 ```bash
-mwscript moveBatch wikidbname --u="Miraheze maintenance script" --r="[[phorge:T###|Requested]]" /home/yourshellusername/subdomain.txt
+mwscript moveBatch wikidbname --u="'<your username> (Miraheze)'" --r="'[[phorge:T###|Requested]]'" moveBatch.txt
 ```
 
 *Note:* Use `moveBatch.php` or `deleteBatch.php` as appropriate. You may need to use additional arguments then what is mentioned here.

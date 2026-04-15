@@ -2,6 +2,26 @@
 title: Tech:Server admin log
 ---
 
+## 2026-04-14 
+
+* 20:15 @thewwrnerdguy: Deleted notifications for "TheWWRNerdGuy (Miraheze)" on "prospectingwiki"
+* 19:10 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php deleteBatch --wiki=sgdbmevzuatwiki --u='TheWWRNerdGuy (Miraheze)' --r=' [Requested](https://meta.miraheze.org/wiki/phorge:T15242)' deleteBatch.txt (END - exit=0)
+* 19:08 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php deleteBatch --wiki=sgdbmevzuatwiki --u='TheWWRNerdGuy (Miraheze)' --r=' [Requested](https://meta.miraheze.org/wiki/phorge:T15242)' deleteBatch.txt (START)
+* 19:06 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php deleteBatch --wiki=sgdbmevzuatwiki --u='Miraheze maintenance script' --r=' [Requested](https://meta.miraheze.org/wiki/phorge:T15242)' deleteBatch.txt (END - exit=256)
+* 19:06 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php deleteBatch --wiki=sgdbmevzuatwiki --u='Miraheze maintenance script' --r=' [Requested](https://meta.miraheze.org/wiki/phorge:T15242)' deleteBatch.txt (START)
+* 19:05 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php deleteBatch --wiki=sgdbmevzuatwiki --u=Miraheze maintenance script --r= [Requested](https://meta.miraheze.org/wiki/phorge:T15242) deleteBatch.txt (END - exit=32512)
+* 19:05 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php deleteBatch --wiki=sgdbmevzuatwiki --u=Miraheze maintenance script --r= [Requested](https://meta.miraheze.org/wiki/phorge:T15242) deleteBatch.txt (START)
+* 16:47 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=deepgamingwiki /home/reception/delbackups/deepgamingwiki.xml --report 1 (END - exit=0)
+* 16:22 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=deepgamingwiki /home/reception/delbackups/deepgamingwiki.xml --report 1 (START)
+* 16:22 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=deepgamingwiki /home/reception/deepgamingwiki.xml --report 1 (END - exit=256)
+* 16:22 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=deepgamingwiki /home/reception/deepgamingwiki.xml --report 1 (START)
+* 07:17 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 23s
+* 07:17 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 07:16 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'MirahezeMagic'} to test151 - SUCCESS in 0s
+* 07:16 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'MirahezeMagic'} to test151
+* 07:06 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s
+* 07:06 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151
+
 ## 2026-04-13 
 
 * 20:52 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwiki --delete --deletewiki paranormasightwiki (END - exit=0)
