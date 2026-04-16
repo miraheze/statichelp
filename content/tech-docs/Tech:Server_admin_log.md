@@ -2,6 +2,31 @@
 title: Tech:Server admin log
 ---
 
+## 2026-04-16 
+
+* 00:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: xdg-dbus-proxy
+* 00:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: xdg-dbus-proxy
+* 00:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: xdg-dbus-proxy
+
+## 2026-04-15 
+
+* 23:59 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: xdg-dbus-proxy
+* 23:59 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: xdg-dbus-proxy
+* 23:59 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: xdg-dbus-proxy
+* 23:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: xdg-dbus-proxy
+* 23:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: xdg-dbus-proxy
+* 23:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: xdg-dbus-proxy
+* 23:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: xdg-dbus-proxy
+* 23:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: xdg-dbus-proxy
+* 23:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: xdg-dbus-proxy
+* 23:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: xdg-dbus-proxy
+* 23:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: xdg-dbus-proxy
+* 17:58 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=left4deadwiki --import-prefix=fandom:left4dead --from='R. Kenni' --to='R. Kenni' (END - exit=0)
+* 05:31 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'SecurePoll'} to test151 - SUCCESS in 1s
+* 05:31 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'SecurePoll'} to test151
+* 05:30 MirahezeLSBot: [petramagna@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 05:30 MirahezeLSBot: [petramagna@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+
 ## 2026-04-14 
 
 * 20:15 @thewwrnerdguy: Deleted notifications for "TheWWRNerdGuy (Miraheze)" on "prospectingwiki"
