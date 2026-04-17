@@ -4,6 +4,31 @@ title: Tech:Server admin log
 
 ## 2026-04-16 
 
+* 20:02 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CentralAuth:resetGlobalUserTokens --wiki=metawiki (END - exit=0)
+* 18:41 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 18:40 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 00:51 MirahezeLSBot: [somerandomdeveloper@puppet181] sudo salt-ssh -E mw.* cmd.run 'rm /srv/mediawiki/cache/config-religiononfirewiki.php'
+* 00:44 SomeRandomDeveloper: repool db161
+* 00:44 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 18s
+* 00:44 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 00:42 SomeRandomDeveloper: force-restart db161 through proxmox
+* 00:40 SomeRandomDeveloper: depool c2
+* 00:34 SomeRandomDeveloper: (the actual command was "sudo salt-ssh -E 'mw.*' cmd.run 'rm /srv/mediawiki/cache/religiononfirewiki.php'", logsalmsg ate the quotes)
+* 00:33 MirahezeLSBot: [somerandomdeveloper@puppet181] sudo salt-ssh -E mw.* cmd.run rm /srv/mediawiki/cache/religiononfirewiki.php
+* 00:32 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data rm /srv/mediawiki/cache/religiononfirewiki.php
+* 00:28 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=religiononfirewiki (END - exit=0)
+* 00:26 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawiki --setting=wgLocaltimezone --sourcelist=./T15244.txt (END - exit=0)
+* 00:09 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data rm -rf /srv/mediawiki-staging/1.45/extensions/DataMaps/
+* 00:09 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data rm -rf /srv/mediawiki-staging/1.45/extensions/DataMaps/
+* 00:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: xdg-dbus-proxy
+* 00:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: xdg-dbus-proxy
+* 00:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: xdg-dbus-proxy
+* 00:02 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: xdg-dbus-proxy
+* 00:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: xdg-dbus-proxy
+* 00:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: xdg-dbus-proxy
+* 00:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: xdg-dbus-proxy
+* 00:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: xdg-dbus-proxy
+* 00:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: xdg-dbus-proxy
 * 00:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: xdg-dbus-proxy
 * 00:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: xdg-dbus-proxy
 * 00:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: xdg-dbus-proxy

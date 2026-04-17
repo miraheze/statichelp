@@ -21,5 +21,16 @@ Keep in mind that this check is done over HTTPS and that Cloudflare is verifying
 * Go to the end of the endpoints section, and click "Add Endpoint". Input the server name, public IPv6 address and a weight of 1, **unless** you have a reason to give it a separate weight value.
 * Click save at the bottom of the page and you're done.
 
+## Caching
+
+Cloudflare's cache rules are stackable, from [the documentation](https://developers.cloudflare.com/cache/how-to/cache-rules/order/):
+
+If several matching rules set a value for the same setting, the value in the last matching rule wins.
+For conflicting settings (for example, bypass cache versus eligible for cache), the last matching rule wins.
+
+Therefore, the first rule always says bypass cache for all pages so that nothing is cached unless an explicit rule says otherwise . A rule in the middle (call it M) says bypass cache for logged-in users. Any caching rule that goes above M will only be applied to logged-out users because the cache status of logged-in requests will always be set to no cache once they reach M. Any caching rule that goes below M will be applied to all users. The latter should be used with extreme caution: only requests whose reponse will absolutely not change depending on login status should be cached for everyone.
+
+If a response that depends on user input is accidentally cached, bump `wgAuthenticationTokenVersion` in mw-config by 1 and run `CentralAuth:resetGlobalUserTokens`. This logs everyone out of CentralAuth.
+
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Cloudflare)**
