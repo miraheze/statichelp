@@ -2,6 +2,34 @@
 title: Tech:Server admin log
 ---
 
+## 2026-04-17 
+
+* 22:20 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/initSiteStats.php --wiki=b3313wiki --update (END - exit=0)
+* 22:20 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/rebuildall.php --wiki=b3313wiki (END - exit=0)
+* 22:12 SomeRandomDeveloper: do the same without /wiki
+* 22:05 SomeRandomDeveloper: ran varnishadm "ban req.http.Host == phighting.miraheze.org && req.url ~ '^/wiki/File:'" and  "ban req.http.Host == phighting.wiki && req.url ~ '^/wiki/File:'" on cp*
+* 21:49 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/rebuildall.php --wiki=b3313wiki (START)
+* 21:49 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=b3313wiki dump.xml --no-updates (END - exit=0)
+* 21:32 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=b3313wiki dump.xml --no-updates (START)
+* 06:53 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 06:52 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 05:49 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importImages.php --wiki=sorceryagewiki --summary=Imported from [https://sorcery-age-minecraft-mod.fandom.com/wiki/Sorcery_Age_Wiki](https://sorcery-age-minecraft-mod.fandom.com/wiki/Sorcery_Age_Wiki) --search-recursively /home/reception/sorceryage/images (END - exit=0)
+* 05:48 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importImages.php --wiki=sorceryagewiki --summary=Imported from [https://sorcery-age-minecraft-mod.fandom.com/wiki/Sorcery_Age_Wiki](https://sorcery-age-minecraft-mod.fandom.com/wiki/Sorcery_Age_Wiki) --search-recursively /home/reception/sorceryage/images (START)
+* 05:48 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importImages.php --wiki=sorceryagewiki --summary=Imported from [https://sorcery-age-minecraft-mod.fandom.com/wiki/Sorcery_Age_Wiki](https://sorcery-age-minecraft-mod.fandom.com/wiki/Sorcery_Age_Wiki) --search-recursively /home/reception/sorceryage/images (END - exit=256)
+* 05:48 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importImages.php --wiki=sorceryagewiki --summary=Imported from [https://sorcery-age-minecraft-mod.fandom.com/wiki/Sorcery_Age_Wiki](https://sorcery-age-minecraft-mod.fandom.com/wiki/Sorcery_Age_Wiki) --search-recursively /home/reception/sorceryage/images (START)
+* 05:47 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importImages.php --wiki=sorceryagewiki --summary=Imported from [https://sorcery-age-minecraft-mod.fandom.com/wiki/Sorcery_Age_Wiki](https://sorcery-age-minecraft-mod.fandom.com/wiki/Sorcery_Age_Wiki) --search-recursively /home/reception/sorceryage (END - exit=256)
+* 05:47 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importImages.php --wiki=sorceryagewiki --summary=Imported from [https://sorcery-age-minecraft-mod.fandom.com/wiki/Sorcery_Age_Wiki](https://sorcery-age-minecraft-mod.fandom.com/wiki/Sorcery_Age_Wiki) --search-recursively /home/reception/sorceryage (START)
+* 05:41 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=preservancerobloxwiki --new=perseverancerobloxwiki --user=Reception123 (END - exit=0)
+* 05:38 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=paranormasightfileswiki --new=paranormasightwiki --user=Reception123 (END - exit=0)
+* 05:36 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=mandatewiki --new=krasnyymirwiki --user=Reception123 (END - exit=0)
+* 05:35 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=ifmuniversewiki --new=mizrandeshwiki --user=Reception123 (END - exit=0)
+* 05:33 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=payloadrobloxwiki --new=payloadwiki --user=Reception123 (END - exit=0)
+* 05:09 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:PopulateCrossWikiVoterList --wiki=exttestwikibeta --step=1 --output-dir=/tmp/eligibility --before=20260415000000 (END - exit=0)
+* 04:59 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s
+* 04:59 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151
+* 04:55 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 04:55 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+
 ## 2026-04-16 
 
 * 20:02 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CentralAuth:resetGlobalUserTokens --wiki=metawiki (END - exit=0)
