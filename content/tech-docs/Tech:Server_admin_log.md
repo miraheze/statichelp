@@ -2,6 +2,95 @@
 title: Tech:Server admin log
 ---
 
+## 2026-04-19 
+
+* 23:38 MirahezeLSBot: [pixldev@test151] finished deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s
+* 23:38 MirahezeLSBot: [pixldev@test151] starting deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151
+* 23:26 MirahezeLSBot: [pixldev@test151] finished deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s
+* 23:26 MirahezeLSBot: [pixldev@test151] starting deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151
+* 23:19 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: python3-pil
+* 23:19 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: python3-pil
+* 23:18 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: python3-pil
+* 23:18 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: python3-pil
+* 23:18 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: python3-pil
+* 23:18 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: python3-pil
+* 23:17 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: python3-pil
+* 23:17 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: python3-pil
+* 23:17 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: python3-pil
+* 23:17 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: python3-pil
+* 23:16 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: python3-pil
+* 23:11 MirahezeLSBot: [pixldev@test151] finished deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s
+* 23:11 MirahezeLSBot: [pixldev@test151] starting deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151
+* 23:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: python3-pil
+* 23:02 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: python3-pil
+* 23:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: python3-pil
+* 23:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: python3-pil
+* 23:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: python3-pil
+* 23:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: python3-pil
+* 23:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: python3-pil
+* 23:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: python3-pil
+* 23:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: python3-pil
+* 23:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: python3-pil
+* 22:59 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: python3-pil
+* 22:59 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: python3-pil
+* 22:59 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: python3-pil
+* 22:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: python3-pil
+* 22:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: python3-pil
+* 22:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: python3-pil
+* 22:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: python3-pil
+* 22:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: python3-pil
+* 22:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: python3-pil
+* 22:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: python3-pil
+* 22:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: python3-pil
+* 22:56 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: python3-pil
+* 22:56 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: python3-pil
+* 19:12 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=blueovalwiki (END - exit=0)
+* 19:09 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=blueovalwiki (END - exit=0)
+* 19:06 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=blueovalwiki (END - exit=0)
+* 16:21 MirahezeLSBot: [pixldev@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 16:21 MirahezeLSBot: [pixldev@test151] starting deploy of {'config': True} to test151
+* 16:21 MirahezeLSBot: [pixldev@test151] finished deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s
+* 16:21 MirahezeLSBot: [pixldev@test151] starting deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151
+* 12:48 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=iuuchiharuhiwikiwiki --new=iuchiharuhiwiki --user=Reception123 (END - exit=0)
+* 12:46 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=10playerftfwiki --new=10playerfleewiki --user=Reception123 (END - exit=0)
+* 12:44 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=crossinghistorywiki --new=novobrasilwiki --user=Reception123 (END - exit=0)
+* 12:41 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=castlistwiki --new=wikitheatrewiki --user=Reception123 (END - exit=0)
+* 12:26 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on test151: mupdf-tools and libmupdf25.1
+* 12:14 @paladox: upgrade mattermost to 11.6.0
+* 12:10 @paladox: restart nginx on mattermost
+* 12:07 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mwtask181: mupdf-tools and libmupdf25.1
+* 12:07 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw203: mupdf-tools and libmupdf25.1
+* 12:07 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw193: mupdf-tools and libmupdf25.1
+* 12:06 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw201: mupdf-tools and libmupdf25.1
+* 12:06 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw183: mupdf-tools and libmupdf25.1
+* 12:06 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw182: mupdf-tools and libmupdf25.1
+* 12:05 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw192: mupdf-tools and libmupdf25.1
+* 12:05 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mwtask151: mupdf-tools and libmupdf25.1
+* 12:05 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw181: mupdf-tools and libmupdf25.1
+* 12:05 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw153: mupdf-tools and libmupdf25.1
+* 12:04 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw162: mupdf-tools and libmupdf25.1
+* 12:04 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mwtask171: mupdf-tools and libmupdf25.1
+* 12:04 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw172: mupdf-tools and libmupdf25.1
+* 12:03 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw173: mupdf-tools and libmupdf25.1
+* 12:03 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw163: mupdf-tools and libmupdf25.1
+* 12:03 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw202: mupdf-tools and libmupdf25.1
+* 12:02 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw191: mupdf-tools and libmupdf25.1
+* 12:02 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mwtask161: mupdf-tools and libmupdf25.1
+* 12:01 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw152: mupdf-tools and libmupdf25.1
+* 12:01 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw171: mupdf-tools and libmupdf25.1
+* 12:01 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw161: mupdf-tools and libmupdf25.1
+* 12:00 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw151: mupdf-tools and libmupdf25.1
+* 11:59 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on changeprop202: command, (most, "/var/tmp/.salt-user_1a16fa_salt/salt-call",, salt.scripts, and No
+* 11:58 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud21: command, (most, "/var/tmp/.salt-user_1a16fa_salt/salt-call",, salt.scripts, and No
+* 04:04 MirahezeLSBot: [pixldev@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 04:04 MirahezeLSBot: [pixldev@test151] starting deploy of {'config': True} to test151
+* 03:07 MirahezeLSBot: [pixldev@test151] finished deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s
+* 03:07 MirahezeLSBot: [pixldev@test151] starting deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151
+* 03:04 MirahezeLSBot: [pixldev@test151] DEPLOY ABORTED: Canary check failed for meta.mirabeta.org@localhost
+* 03:04 MirahezeLSBot: [pixldev@test151] starting deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151
+* 03:02 MirahezeLSBot: [pixldev@test151] DEPLOY ABORTED: Canary check failed for meta.mirabeta.org@localhost
+* 03:02 MirahezeLSBot: [pixldev@test151] starting deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151
+
 ## 2026-04-17 
 
 * 22:20 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/initSiteStats.php --wiki=b3313wiki --update (END - exit=0)
