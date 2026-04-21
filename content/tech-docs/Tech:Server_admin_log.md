@@ -2,6 +2,44 @@
 title: Tech:Server admin log
 ---
 
+## 2026-04-20 
+
+* 17:26 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/initSiteStats.php --wiki=realtimefandubwiki --update (END - exit=0)
+* 17:26 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/rebuildall.php --wiki=realtimefandubwiki (END - exit=0)
+* 16:40 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/rebuildall.php --wiki=realtimefandubwiki (START)
+* 16:40 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=realtimefandubwiki dump.xml --no-updates (END - exit=0)
+* 16:28 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=realtimefandubwiki dump.xml --no-updates (START)
+* 16:16 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'OATHAuth'} to all - SUCCESS in 25s
+* 16:16 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'OATHAuth'} to all
+* 16:16 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'OATHAuth'} to test151 - SUCCESS in 1s
+* 16:16 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'OATHAuth'} to test151
+* 15:09 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'NoTitle'} to all - SUCCESS in 26s
+* 15:09 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'NoTitle'} to all
+* 15:09 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'NoTitle'} to test151 - SUCCESS in 1s
+* 15:09 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'NoTitle'} to test151
+* 06:04 PetraMagna: Run `sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:PopulateSecurePollVoterList --wiki=metawiki --all-wikis --step=1 --output-dir=/var/tmp/eligibility --before=20260418000000 --min-contributions=10` on mwtask171
+* 05:59 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 23s
+* 05:59 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 05:40 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s
+* 05:40 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151
+* 01:50 MirahezeLSBot: [pixldev@test151] finished deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s
+* 01:50 MirahezeLSBot: [pixldev@test151] starting deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151
+* 01:47 MirahezeLSBot: [pixldev@test151] finished deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s
+* 01:47 MirahezeLSBot: [pixldev@test151] starting deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151
+* 01:45 MirahezeLSBot: [pixldev@test151] finished deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s
+* 01:45 MirahezeLSBot: [pixldev@test151] starting deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151
+* 01:44 MirahezeLSBot: [pixldev@test151] finished deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s
+* 01:44 MirahezeLSBot: [pixldev@test151] starting deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151
+* 01:43 MirahezeLSBot: [pixldev@test151] finished deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s
+* 01:43 MirahezeLSBot: [pixldev@test151] starting deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151
+* 01:41 MirahezeLSBot: [pixldev@test151] finished deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s
+* 01:41 MirahezeLSBot: [pixldev@test151] starting deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151
+* 01:39 MirahezeLSBot: [pixldev@test151] DEPLOY ABORTED: Canary check failed for meta.mirabeta.org@localhost
+* 01:39 MirahezeLSBot: [pixldev@test151] starting deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151
+* 01:38 MirahezeLSBot: [pixldev@test151] DEPLOY ABORTED: Canary check failed for meta.mirabeta.org@localhost
+* 01:38 MirahezeLSBot: [pixldev@test151] starting deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151
+* 01:38 MirahezeLSBot: [pixldev@test151] starting deploy of {'folders': '1.45/extension/MirahezeMagic'} to test151
+
 ## 2026-04-19 
 
 * 23:38 MirahezeLSBot: [pixldev@test151] finished deploy of {'folders': '1.45/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s
