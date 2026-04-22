@@ -2,6 +2,97 @@
 title: Tech:Server admin log
 ---
 
+## 2026-04-21 
+
+* 22:04 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 22:03 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 22:03 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 22:03 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 22:02 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 22:02 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 22:02 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 22:02 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 22:01 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 22:01 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 22:01 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 22:01 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 22:00 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 22:00 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 22:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:59 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:59 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb191: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:59 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:59 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:58 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:58 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:58 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:57 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:57 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:57 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:56 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:56 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:56 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:55 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:54 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:54 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:54 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:53 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:53 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:53 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:53 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:52 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:52 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:52 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:51 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:51 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:51 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:50 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:50 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:50 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:50 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:49 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:49 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:49 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:48 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:48 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:48 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:48 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:47 MirahezeLSBot: [void@puppet181] Upgraded packages on db201: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:47 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:47 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:47 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:46 MirahezeLSBot: [void@puppet181] Upgraded packages on db192: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:46 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:46 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:46 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:45 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:45 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:45 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:45 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:44 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:44 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:44 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:44 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:44 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:43 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:43 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:43 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:43 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:42 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 21:42 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: libngtcp2-16 and libngtcp2-crypto-gnutls8
+* 15:34 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importImages.php --wiki=realtimefandubwiki --summary=Imported from realtimefandub.fandom.com --search-recursively /home/reception/realtimefandub (END - exit=0)
+* 15:20 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importImages.php --wiki=realtimefandubwiki --summary=Imported from realtimefandub.fandom.com --search-recursively /home/reception/realtimefandub (START)
+* 09:03 PetraMagna: sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:PopulateSecurePollVoterList --wiki=metawiki --step=2 --input-dir=/var/tmp/eligibility --list-name=58/list/need-list --min-contributions=10 --replace
+* 08:58 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'Echo'} to all - SUCCESS in 27s
+* 08:58 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'Echo'} to all
+* 08:57 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'Echo'} to test151 - SUCCESS in 1s
+* 08:57 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'Echo'} to test151
+
 ## 2026-04-20 
 
 * 17:26 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/initSiteStats.php --wiki=realtimefandubwiki --update (END - exit=0)
