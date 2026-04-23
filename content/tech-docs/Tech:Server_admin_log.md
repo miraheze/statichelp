@@ -2,6 +2,20 @@
 title: Tech:Server admin log
 ---
 
+## 2026-04-22 
+
+* 22:08 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php UpdateSpecialPages --wiki=maillewiki (END - exit=0)
+* 18:43 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libcharon-extauth-plugins, strongswan-starter, libcharon-extra-plugins, strongswan-pki, strongswan-libcharon, strongswan-charon, libstrongswan, and libstrongswan-standard-plugins
+* 15:02 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php TitleKey:rebuildTitleKeys --wiki=crazynoisyremixtreewiki (END - exit=0)
+* 15:02 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php TitleKey:RebuildTitleKeys --wiki=crazynoisyremixtreewiki (END - exit=256)
+* 14:46 TheWWRNerdGuy: Also did some content models/slot roles surgery on windows93wiki and fixed matomo and also did fixcontainers
+* 14:41 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=windows93wiki (END - exit=0)
+* 14:38 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=windows93wiki --requester='MC mrjone' (END - exit=0)
+* 14:07 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'Cargo'} to all - SUCCESS in 27s
+* 14:06 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'Cargo'} to all
+* 14:06 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'Cargo'} to test151 - SUCCESS in 1s
+* 14:06 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'Cargo'} to test151
+
 ## 2026-04-21 
 
 * 22:04 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: libngtcp2-16 and libngtcp2-crypto-gnutls8

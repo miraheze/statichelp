@@ -83,5 +83,17 @@ I still have my reservations about VE due to its many quirks, but I think this p
 
 **[Linter](https://meta.miraheze.org/wiki/mw:Extension:Linter)** is a required extension for DiscussionTools, so it will be enabled by default as well if this proposal passes.
 
+## Proposal 12: disable $wgTabberNeueEnableAnimation by default 
+
+An update to the extension close to 2 years ago enabled animations by default for all wikis ([T12350](https://meta.miraheze.org/wiki/phorge:T12350)). The animation is slow and results in prolonged waiting for content to show up. An example of the scrolling animation can be seen on [Public Test Wiki](https://publictestwiki.com/wiki/User:PetraMagna/TabberNeue). In comparison, on [a page with scrolling disabled](https://strinova.org/wiki/User:PetraMagna/TabberNeue), the user experience is much smoother.
+
+I believe following the upstream default was a mistake. Animations consuming an excessive amount of time should be disabled by default.
+
+## Proposal 13: disable $wgPortableInfoboxUseHeadings by default 
+
+This setting causes compatibility issues with other extensions such as TextExtracts (see [GitHub issue](https://github.com/lkucharczyk/mediawiki-PortableInfobox/issues/17)). It will soon be set to false by default ([PR](https://github.com/Universal-Omega/PortableInfobox/pull/185)) due to other reasons such as incompatibility with Parsoid.
+
+I am in favor of applying this change only to new wikis. Old wikis should keep the old setting because it is a breaking change and could mess up their CSS (`h3` becomes `div`). If we want to apply a breaking HTML change, we should do so when we upgrade MediaWiki when users are expecting breaking changes.
+
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Noticeboard/Request_for_feedback:_changes_to_default_MediaWiki_settings)**
