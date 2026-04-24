@@ -2,6 +2,14 @@
 title: Tech:Server admin log
 ---
 
+## 2026-04-23 
+
+* 22:37 MirahezeLSBot: [wwr@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 22:36 MirahezeLSBot: [wwr@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 13:33 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=battlenationswiki (END - exit=0)
+* 12:36 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=battlenationswiki (END - exit=0)
+* 05:29 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:ReplaceTextEligible --wiki=breakmycasewiki (END - exit=0)
+
 ## 2026-04-22 
 
 * 22:08 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php UpdateSpecialPages --wiki=maillewiki (END - exit=0)
