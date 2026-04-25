@@ -2,7 +2,15 @@
 title: Tech:Custom domains
 ---
 
-Domain setup can be completed by anybody with access to the Cloudflare account (ops and ssl-admins). Initially the domain will show a Cloudflare error page if it hasn't been setup yet.
+Custom domain setup needs to be done in 2 places:
+* It must be set on Cloudflare. See the instructions below for details.
+* It must be set on CreateWiki. In `Special:ManageWiki`, the "Domain name" field must be set to the custom domain.
+
+Conversely, when removing a custom domain, both locations must be unset.
+
+## Cloudflare setup
+
+This can be completed by anybody with access to the Cloudflare account (ops and ssl-admins). Initially the domain will show a Cloudflare error page if it hasn't been setup yet.
  `{{ {{Note|This process is automated for the most part, but the below instructions are still useful if things need to be done manually for some reason.}} }}`
 
 ```

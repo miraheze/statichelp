@@ -2,6 +2,10 @@
 title: Tech:Server admin log
 ---
 
+## 2026-04-24 
+
+* 19:35 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:GenerateMirahezeSitemap --wiki=dlsitewiki (END - exit=0)
+
 ## 2026-04-23 
 
 * 22:37 MirahezeLSBot: [wwr@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
