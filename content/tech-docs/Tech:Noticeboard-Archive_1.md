@@ -238,6 +238,13 @@ Previously, global blocks issues by Stewards and Global Administrators did not i
 Users that browse using VPNs and similar proxy services, which are a common target of global blocks, will be affected by this. You'll be unable to login to wikis you haven't logged in to before (wikis that don't show up on your [Special:CentralAuth](https://meta.miraheze.org/wiki/Special:CentralAuth) page).
 
 If you're affected by this, you may be able to contact Stewards and Global Administrators for help. You can reach them on Meta via [Steward requests/Miscellaneous](https://meta.miraheze.org/wiki/Steward_requests/Miscellaneous) or via email at cvt `{{ {{@}} }}`miraheze.org. [Alex (Miraheze)](https://meta.miraheze.org/wiki/User:Alex_(Miraheze)) ([talk](https://meta.miraheze.org/wiki/User_talk:Alex_(Miraheze))) 15:43, 17 July 2024 (UTC)
+## The state of the ReplaceText extension 
+
+Since May 11, Miraheze has [disabled](https://meta.miraheze.org/wiki/github:miraheze/mw-config/commit/eb722ed3e703) `wgCompressRevisions` globally, thanks to our increase in storage in our database servers due to the move to our new data center. Thanks to this, we have also been able to bring back an extension that relied on this setting being disabled, [ReplaceText](https://meta.miraheze.org/wiki/mediawikiwiki:Extension:ReplaceText). Due to how this extension works, it **requires** that revisions not be compressed.
+
+Now, disabling `wgCompressRevisions` doesn't retroactively decompress existing revisions, what it does is that it no longer compresses new revisions. Revisions of pages made before this setting was turned off are still compressed. ReplaceText doesn't work properly when the current revision of a page is a compressed revision. Therefore, wikis made on or before May 11 will very likely have issues with this extension still. Therefore, this extension is currently restricted and to enable it you must request it at [Steward requests/Restricted changes](https://meta.miraheze.org/wiki/Steward_requests/Restricted_changes)
+
+[Stewards](https://meta.miraheze.org/wiki/Stewards) and [Wiki Mechanics](https://meta.miraheze.org/wiki/Wiki_Mechanics), this extension can be enabled on request at [SR/RC](https://meta.miraheze.org/wiki/SR/RC) for wikis created **after** May 11. If a wiki created prior to this date requests this extension, a member of the [Technology Team](/tech-docs/techvolunteers) has to manually verify that *all* of the pages' current revisions are not from before this date before being enabled. [Alex (Miraheze)](https://meta.miraheze.org/wiki/User:Alex_(Miraheze)) ([talk](https://meta.miraheze.org/wiki/User_talk:Alex_(Miraheze))) 18:34, 21 August 2024 (UTC)
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Noticeboard/Archive_1)**
