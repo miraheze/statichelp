@@ -2,6 +2,17 @@
 title: Tech:Server admin log
 ---
 
+## 2026-04-27 
+
+* 08:52 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=stickworldwiki --sleep=1 --comment='Importing images for [T15289](https://meta.miraheze.org/wiki/phorge:T15289)' ./images (END - exit=0)
+* 08:10 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=stickworldwiki --sleep=1 --comment='Importing images for [T15289](https://meta.miraheze.org/wiki/phorge:T15289)' ./images (START)
+* 07:09 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=stickworldwiki (END - exit=0)
+* 07:09 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=stickworldwiki (END - exit=0)
+* 07:09 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=stickworldwiki (END - exit=0)
+* 06:58 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=stickworldwiki (START)
+* 06:41 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=stickworldwiki --no-updates --username-prefix=wikia:the-stickworld-wiki -- thestickworldwiki_pages_full.xml (END - exit=0)
+* 06:34 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=stickworldwiki --no-updates --username-prefix=wikia:the-stickworld-wiki -- thestickworldwiki_pages_full.xml (START)
+
 ## 2026-04-26 
 
 * 07:43 RhinosF1: db171: systemctl reset-failed sql-backup && systemctl restart sql-backup
