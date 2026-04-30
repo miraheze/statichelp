@@ -2,6 +2,16 @@
 title: Tech:Server admin log
 ---
 
+## 2026-04-29 
+
+* 20:04 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'CentralAuth'} to all - SUCCESS in 27s
+* 20:04 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'CentralAuth'} to all
+* 20:03 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'CentralAuth'} to test151 - SUCCESS in 1s
+* 20:02 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'CentralAuth'} to test151
+* 17:51 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=boostvectorexwiki (END - exit=0)
+* 17:50 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=boostvectorexwiki --startOver (END - exit=0)
+* 14:36 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php purgeParserCache --wiki=fischwiki --age=120 (END - exit=0)
+
 ## 2026-04-28 
 
 * 23:05 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'ProtectSite'} to all - SUCCESS in 26s
