@@ -29,6 +29,8 @@ Please discuss below. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagn
       They are available in ManageWiki to enable. [KockaAdmiralac](https://meta.miraheze.org/wiki/User:KockaAdmiralac) ([talk](https://meta.miraheze.org/wiki/User_talk:KockaAdmiralac)) 23:58, 24 April 2026 (UTC)
          Thank you for answering ... That saved me a lot of research time ... --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 00:16, 25 April 2026 (UTC)
  `{{ {{support}} }}` Per above…… [Himvat (GNF)](https://meta.miraheze.org/wiki/User:Himvat_(GNF)) ([talk](https://meta.miraheze.org/wiki/User_talk:Himvat_(GNF))) 08:17, 30 April 2026 (UTC)
+ `{{ {{support}} }}` They are a superior alternative to common.js pages etc. that people would probably use by default. [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
+ `{{ {{Support}} }}` Per above. [Emiliers](https://meta.miraheze.org/wiki/User:Emiliers) ([talk](https://meta.miraheze.org/wiki/User_talk:Emiliers)) 18:38, 1 May 2026 (UTC)
 
 ## Proposal 2: do not enable CologneBlue and Modern for new wikis 
 
@@ -49,6 +51,8 @@ Please discuss below. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagn
  `{{ {{abstain}} }}` Meh, never cared much for either of those two skins, so you can do what you want with them. --[DarkMatterMan4500](https://meta.miraheze.org/wiki/User:DarkMatterMan4500) ([talk](https://meta.miraheze.org/wiki/User_talk:DarkMatterMan4500)) ([contribs](https://meta.miraheze.org/wiki/Special:Contributions/DarkMatterMan4500)) 15:29, 24 April 2026 (UTC)
  `{{ {{Oppose}} }}` (( As someone who may someday want to use a skin ... any skin, I would find it very helpful if it were to remain available ... The idea of opting in is a lot of work especially for the novice ... and the more we cut or reduce options, the harder it is to know what changed ... kind of makes it difficult for me as a user to know how things tied together ... It's extremely hard to open a discussion about something that is removed because I'd have to look elsewhere for words and examples ... <br /> ... I'll be more than happy to revisit my stance if a more interesting point is brought up ... ... ... because I still find things useful even when they stop working ... so that reason won't convince me to remove ... )) --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 00:12, 25 April 2026 (UTC)
  `{{ {{Oppose}} }}` Per above…… [Himvat (GNF)](https://meta.miraheze.org/wiki/User:Himvat_(GNF)) ([talk](https://meta.miraheze.org/wiki/User_talk:Himvat_(GNF))) 08:18, 30 April 2026 (UTC)
+ `{{ {{support}} }}` The default available skins should be sensible defaults, and I do not know that CologneBlue and Modern have kept up. I imagine they would clash with a lot of customized wikis as they exist. The skins should still be available but I don't think they should be default options. [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
+ `{{ {{Support}} }}` These skins aren't used terribly often (we disabled them ourselves after a vote), and leaving unstyled/untouched skins open to be selected simply adds more burden on the admins (in case something is broken on them) without any tangible benefits. If folks want to actually use these skins, they're easy to enable after the fact. [Emiliers](https://meta.miraheze.org/wiki/User:Emiliers) ([talk](https://meta.miraheze.org/wiki/User_talk:Emiliers)) 18:44, 1 May 2026 (UTC)
 
 ## Proposal 3: remove CiteThisPage from default extensions 
 
@@ -72,6 +76,8 @@ Please discuss below. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagn
                 The proposal sounded much like the change is towards improving appearance of a wiki ... It does not matter whether the User can find the extension in ManageWiki ... if creative control begins from the tech end, then a tutorial should accompany the wiki so that users know how to request help ...
          --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 20:49, 25 April 2026 (UTC)
  `{{ {{support}} }}` as this seems to be very academic related, which 99% of wikis here probably don't use it ~ [Elisapoly](https://meta.miraheze.org/wiki/User:Elisapoly) ([talk](https://meta.miraheze.org/wiki/User_talk:Elisapoly)) 17:40, 25 April 2026 (UTC)
+ `{{ {{support}} }}` It's a very Wikipedia-centric feature that I don't think makes sense for most wikis. Most people in my experience just copy the wiki link without building out a full academic citation. It should remain available for the wikis that want it but it doesn't make sense to me to have it on by default. [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
+ `{{ {{Neutral}} }}` I've never used it on our wiki, but I don't want to preclude the possibility of it being really useful for other people, even just passerbys accessing our wiki for the first time. [Emiliers](https://meta.miraheze.org/wiki/User:Emiliers) ([talk](https://meta.miraheze.org/wiki/User_talk:Emiliers)) 21:36, 1 May 2026 (UTC)
 
 ## Proposal 4: remove URL Shortener from default extensions 
 
@@ -100,6 +106,8 @@ Please discuss below. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagn
              This is not the same as if MediaWiki chose to discontinue a feature ... I feel this would still affect the ones who are accustomed to having this extension ...
                 I've come across this scenario enough where 2 products only on the surface look the same ... Unless there is a need for change ... it would be better to keep it uniform ...
          --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 04:38, 25 April 2026 (UTC)
+ `{{ {{Oppose}} }}` URL shorteners can be useful for long pages. This is especially the case in languages where page titles are not written in the Latin alphabet and are often percent-encoded in URLs. These URLs get really long and unwieldy, and the URL shortener helps mitigate that. It's useful enough to be a default feature. [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
+ `{{ {{Oppose|weak}} }}` As mentioned on Discord, we liked and used this option on our wiki until the MediaWiki update somehow moved url shorteners to farm-wide instead of individual wikis, which resulted in breaking all previous short links. While I still think the extension is useful (hence my weak oppose), I do think some settings should be changed to make it more usable, including actually allowing access to logs so we can more easily grab old shortlinks we made. [Emiliers](https://meta.miraheze.org/wiki/User:Emiliers) ([talk](https://meta.miraheze.org/wiki/User_talk:Emiliers)) 21:34, 1 May 2026 (UTC)
 
 ## Proposal 5: add PageImages to default extensions 
 
@@ -118,6 +126,7 @@ Please discuss below. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagn
  `{{ {{support}} }}` This would make a lot more sense to me. --[DarkMatterMan4500](https://meta.miraheze.org/wiki/User:DarkMatterMan4500) ([talk](https://meta.miraheze.org/wiki/User_talk:DarkMatterMan4500)) ([contribs](https://meta.miraheze.org/wiki/Special:Contributions/DarkMatterMan4500)) 15:29, 24 April 2026 (UTC)
  `{{ {{support}} }}` per above as it helps in searching for specific articles ~ [Elisapoly](https://meta.miraheze.org/wiki/User:Elisapoly) ([talk](https://meta.miraheze.org/wiki/User_talk:Elisapoly)) 18:42, 24 April 2026 (UTC)
  `{{ {{Support}} }}` ((I don't use it but I think that a site I'm currently part of does use it ... so I am going to support for that reason ... Also I don't know how the extension works but as long as it's available I will take the time to learn how this extension works ... and hopefully this will help me grow ... )) --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 00:50, 25 April 2026 (UTC)
+ `{{ {{Support}} }}` It's a basic infrastructural feature that enables other useful feature, including search as I understand. [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
 
 ## Proposal 6: add Popups to default extensions 
 
@@ -138,6 +147,8 @@ Please discuss below. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagn
  `{{ {{support}} }}` per above. ~ [Elisapoly](https://meta.miraheze.org/wiki/User:Elisapoly) ([talk](https://meta.miraheze.org/wiki/User_talk:Elisapoly)) 18:42, 24 April 2026 (UTC)
  `{{ {{oppose|weak}} }}` as this is a somewhat intrusive piece of UX relative to other extensions, especially factoring the concern that sometimes it may simply not work, and may prove mixed as a default behavior. It's the kind of thing I would want to be optional to request right in the request form to be enabled outright, but not necessarily make the choice on the spot. But I do not feel very strongly about this. --**[raidarr](https://meta.miraheze.org/wiki/User:Raidarr)** **(** [💬](https://meta.miraheze.org/wiki/User_talk:Raidarr) **)** 00:49, 25 April 2026 (UTC)
  `{{ {{Support}} }}` Hm ... I thought Popups was already available as a default ... I may be confusing Popups with a similar extension ... but I like the idea of making Popups available ... It sounds useful ... --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 00:56, 25 April 2026 (UTC)
+ `{{ {{oppose|weak}} }}` Given the variety in how wikis are set up, popups *as a default* may clash with different customization settings. However the extension is coded well enough in my experience that this usually doesn't happen. I think the cautious thing would be to not make it default. I do not think the potential usefulness justifies the potential issues in making it default. [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
+ `{{ {{Weak oppose}} }}` As mentioned on Discord, we found that popups just simply didn't work on our wiki, so making it default might introduce more issues than not. [Emiliers](https://meta.miraheze.org/wiki/User:Emiliers) ([talk](https://meta.miraheze.org/wiki/User_talk:Emiliers)) 18:49, 1 May 2026 (UTC)
 
 ## Proposal 7: disable wgRestrictDisplayTitle 
 
@@ -158,6 +169,8 @@ Please discuss disabling this option for all wikis that did not change this opti
          This is more of a "don't confuse newer users" thing than a "don't annoy experienced users things". I can see the benefit in turning this off by default however, so while I don't oppose this I do still feel the need to point out that it's a thing for a reason (rather than just a "security feature" which [doesn't actually work](https://meta.miraheze.org/wiki/w:WP:KABOOM)). — [chrs](https://meta.miraheze.org/wiki/User:Chrs) ([talk](https://meta.miraheze.org/wiki/User_talk:Chrs)) 00:07, 24 April 2026 (UTC)
  `{{ {{support}} }}` per above [SomeRandomDeveloper](https://meta.miraheze.org/wiki/User:SomeRandomDeveloper) ([talk](https://meta.miraheze.org/wiki/User_talk:SomeRandomDeveloper)) 12:37, 24 April 2026 (UTC)
  `{{ {{Abstain}} }}` (( Skipping ... I don't think that I understand what this proposal is saying ... )) --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 01:05, 25 April 2026 (UTC)
+ `{{ {{Support}} }}` A tech team member can tell me if I am wrong, but if there is no true security concern with enabling it (that wouldn't exist otherwise), I think it's better to let wikis overwrite the (presented) title directly, rather than come up with some awful hack that probably won't work as well. [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
+ `{{ {{Support}} }}` I remember this being a point of confusion for us initially before we found the setting to disable it. [Emiliers](https://meta.miraheze.org/wiki/User:Emiliers) ([talk](https://meta.miraheze.org/wiki/User_talk:Emiliers)) 21:40, 1 May 2026 (UTC)
 
 ### Discussion 7b 
 
@@ -165,6 +178,7 @@ Please discuss disabling this option only for new wikis. [PetraMagna](https://me
 
  `{{ {{support|weak}} }}` I don't mind this either, except that to change the defaults only for new wikis is a lot more work for the tech team compared with switching all wikis over to a different default. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 05:17, 23 April 2026 (UTC)
  `{{ {{Abstain}} }}` (( Skipping ... I don't think that I understand what this proposal is saying ... )) --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 01:06, 25 April 2026 (UTC)
+ `{{ {{Support}} }}` I think my argument for this is the same as the one above. [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
 
 ## Proposal 8: enable wgNativeImageLazyLoading 
 
@@ -187,6 +201,8 @@ Please discuss enabling this option for all wikis that did not change this optio
  `{{ {{support|weak}} }}` as while on net this is an improvement, this will cause a regression with respect to tabs. — [chrs](https://meta.miraheze.org/wiki/User:Chrs) ([talk](https://meta.miraheze.org/wiki/User_talk:Chrs)) 00:00, 24 April 2026 (UTC)
  `{{ {{support}} }}` per proposal [SomeRandomDeveloper](https://meta.miraheze.org/wiki/User:SomeRandomDeveloper) ([talk](https://meta.miraheze.org/wiki/User_talk:SomeRandomDeveloper)) 12:38, 24 April 2026 (UTC)
  `{{ {{Abstain}} }}` (( Skipping ... Not sure that I really want this or understand the implications ... I kind of feel that it would be better served to educate instead of changing the setting ... It's kind of difficult to express or describe the exact nature of issues such as loading issues unless one is very lucky to say it right the first time and to be understood the first time ... I feel it may be better to just wait for requests for assistance and then offer this as a solution ... rather than to try and reverse explain that all the new behavior is due to a default setting has changed sometime a few years ago when they were not paying attention to that specific page when the change took place ... )) --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 01:19, 25 April 2026 (UTC)
+ `{{ {{support}} }}` Good measure to cut down on bandwidth use. Not everyone has unlimited data. [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
+ `{{ {{Support}} }}` I'd have to see this in action first to see whether or not it'll affect the performance of some of our tabber-heavy pages, but I wouldn't mind this being the default. If needed, it can always be disabled. [Emiliers](https://meta.miraheze.org/wiki/User:Emiliers) ([talk](https://meta.miraheze.org/wiki/User_talk:Emiliers)) 21:45, 1 May 2026 (UTC)
 
 ### Discussion 8b 
 
@@ -194,6 +210,7 @@ Please discuss enabling this option only for new wikis. [PetraMagna](https://met
 
  `{{ {{support|weak}} }}` Same rationale as 7b. This is more work for the tech team compared with 8a. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 05:18, 23 April 2026 (UTC)
  `{{ {{Oppose}} }}` (( I think that most people can't differentiate between the age of a wiki ... They'll just be confused to know why their wiki behaves differently from some other wiki ... I prefer changing settings to all wikis or no wikis ...)) --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 01:22, 25 April 2026 (UTC)
+ `{{ {{support}} }}` I think I support it either way. [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
 
 ## Proposal 9: add InputBox to default extensions 
 
@@ -211,6 +228,8 @@ Please discuss below. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagn
  `{{ {{support}} }}` as this is a useful extension in general and one without downsides to enabling. — [chrs](https://meta.miraheze.org/wiki/User:Chrs) ([talk](https://meta.miraheze.org/wiki/User_talk:Chrs)) 23:58, 23 April 2026 (UTC)
  `{{ {{support}} }}` per above as this is generally good for brand new users ~ [Elisapoly](https://meta.miraheze.org/wiki/User:Elisapoly) ([talk](https://meta.miraheze.org/wiki/User_talk:Elisapoly)) 18:42, 24 April 2026 (UTC)
  `{{ {{Oppose}} }}` (( It feels intrusive ... Even though it may be easy to disable but I think it's much the same as when it was proposed to add a community portal to every wiki by default ... I am okay with it if it is an option that can be selected from within the wiki request to be implemented if the wiki is approved ... but I do not want it as a default ... )) --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 01:29, 25 April 2026 (UTC)
+ `{{ {{support}} }}` I've always found it to be useful as an entry point for page creation. [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
+ `{{ {{Abstain}} }}` Personal preference, but I prefer the Create Page link over an input box, and looking at the docs, the buttons having nonaccessible labels don't inspire much confidence either. But I also don't want to reject an extension I've never even tried out before, especially when it's clear that others find it a useful entry point. [Emiliers](https://meta.miraheze.org/wiki/User:Emiliers) ([talk](https://meta.miraheze.org/wiki/User_talk:Emiliers)) 21:50, 1 May 2026 (UTC)
 
 ## Proposal 10: add VisualEditor to default extensions 
 
@@ -244,6 +263,8 @@ Please discuss below. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagn
  `{{ {{support|strongest}} }}` As I myself coming from Fandom after editing for a few years, I have used Visual Editor for almost a year (as Fandom strongly support using VE back then) before my admins on my wiki encourages me to use Source Editor for more complex coding as well as having more granularity when it comes to wiki editing. Now, while I'm already used to Source Editor, many more who are migrating from Fandom will soon find it a rude awakening that VE here is not a default extension and have to maneuver through ManageWiki. Experience in using VE here is also not the same as Fandom but that's another topic for another day. Is it inconvenience though for veterans? I think not as we just simply click 'Edit Source'. ~ [Elisapoly](https://meta.miraheze.org/wiki/User:Elisapoly) ([talk](https://meta.miraheze.org/wiki/User_talk:Elisapoly)) 18:33, 24 April 2026 (UTC)
  `{{ {{support}} }}` as someone who personally loathes the editor, but notices it is commonly popular, expected, and a minor hurdle to deal with for operators when they want it. Conversely, anyone committed to not having it or notices some conflict or ill behavior with it can pretty easily have their cake too. I'm open to changing if there are similarly popular extensions that people commonly enable on new wikis otherwise that really don't play nicely. --**[raidarr](https://meta.miraheze.org/wiki/User:Raidarr)** **(** [💬](https://meta.miraheze.org/wiki/User_talk:Raidarr) **)** 00:55, 25 April 2026 (UTC)
  `{{ {{Support}} }}` ((I was never able to figure out how to use VE but I'm certain that some will say the same with source editing ... It's really comes down to customization ... A wiki is for most their home away from home ... so I think conflicts and set backs where ManageWiki is concerned is not very important ... If they really want VE and if they have to learn ManageWiki, then they will figure it out as they go along ... but to keep someone from developing their wiki by restricting VE makes no sense since managing and maintaining wikis is hard enough as it is ... I don't feel that ManageWiki is necessary until after there is actual content on the site ... but odds of creating content is slim if the editor has to spend all their time figuring out how to use editing tools ...)) --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 01:43, 25 April 2026 (UTC)
+ `{{ {{support}} }}` If you are a new editor, VisualEditor does *so much* to mitigate the inessential weirdness that comes with editing MediaWiki pages. As best as I can tell, you can only find MediaWiki markup in MediaWiki—not in Google Docs, Microsoft Word, Markdown, LaTeX, anything. It's unique to this particular software. Aside from helping those with less experience, it helps me (as someone who's been editing wikis for over 20 years) be more efficient. I think the concern about extension compatibility is valid – the experience is shallow beyond support for built-in MediaWiki syntax – and wikis have the option to disable it. I think, for most wikis, the usefulness outweighs the drawbacks. [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
+ `{{ {{Weak support}} }}` I hate visual editor and never use it unless I have to write guidelines/docs for the wiki, but I know experienced editors who swear by it. Also, VE is needed for DiscussionTools to work, and that extension has drastically reduced the amount of unsigned comments and made it much easier for new editors to participate in discussions, so overall I think VE is a net positive. And anyone who prefers Source will most likely find it fairly easy to disable Visual in their preferences, as I did. [Emiliers](https://meta.miraheze.org/wiki/User:Emiliers) ([talk](https://meta.miraheze.org/wiki/User_talk:Emiliers)) 18:55, 1 May 2026 (UTC)
 
 ## Proposal 11: add Linter and DiscussionTools to default extensions 
 
@@ -264,6 +285,8 @@ Please discuss below. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagn
  `{{ {{support|strong}} }}` per above [SomeRandomDeveloper](https://meta.miraheze.org/wiki/User:SomeRandomDeveloper) ([talk](https://meta.miraheze.org/wiki/User_talk:SomeRandomDeveloper)) 12:45, 24 April 2026 (UTC)
  `{{ {{support|strongest}} }}` super useful extensions ~ [Elisapoly](https://meta.miraheze.org/wiki/User:Elisapoly) ([talk](https://meta.miraheze.org/wiki/User_talk:Elisapoly)) 18:42, 24 April 2026 (UTC)
  `{{ {{Support}} }}` ((It would make a more consistent experience across wikis ... It may also reduce experimentation with other discussion / comment extensions ...)) --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 01:48, 25 April 2026 (UTC)
+ `{{ {{support}} }}` DiscussionTools is lovely and helps addresses the issue that discussions on MediaWiki don't work like they do anywhere else. [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
+ `{{ {{support|strongest}} }}` Justifies the annoyance of VE and then some. [Emiliers](https://meta.miraheze.org/wiki/User:Emiliers) ([talk](https://meta.miraheze.org/wiki/User_talk:Emiliers)) 18:58, 1 May 2026 (UTC)
 
 ## Proposal 12: disable $wgTabberNeueEnableAnimation by default 
 
@@ -283,6 +306,8 @@ Please discuss disabling this option for all wikis that did not change this opti
  `{{ {{support|strongest}} }}` shouldn't be surprising since I was the one who suggested it but I hate the animation and the motion sickness it gives me. [TheWWRNerdGuy](https://meta.miraheze.org/wiki/User:TheWWRNerdGuy) ([talk](https://meta.miraheze.org/wiki/User_talk:TheWWRNerdGuy)) 20:24, 23 April 2026 (UTC)
  `{{ {{support}} }}` per above, bad upstream default. — [chrs](https://meta.miraheze.org/wiki/User:Chrs) ([talk](https://meta.miraheze.org/wiki/User_talk:Chrs)) 00:22, 24 April 2026 (UTC)
  `{{ {{Abstain}} }}` (( ... Skipping ... don't know how this works ... )) --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 01:50, 25 April 2026 (UTC)
+ `{{ {{support}} }}` The animation slows things down and isn't necessary. [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
+ `{{ {{Abstain}} }}` I personally hate the animation, but I've seen a few editors who find it neat, so I don't want to yuck their yum. If there's a tech reason for wanting to disable this (e.g. performance improvements), then consider this a weak support instead. [Emiliers](https://meta.miraheze.org/wiki/User:Emiliers) ([talk](https://meta.miraheze.org/wiki/User_talk:Emiliers)) 21:53, 1 May 2026 (UTC)
 
 ### Discussion 12b 
 
@@ -291,6 +316,7 @@ Please discuss disabling this option only for new wikis. [PetraMagna](https://me
  `{{ {{support|weak}} }}` Same rationale as 7b. This is more work for the tech team compared with 12a. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 05:25, 23 April 2026 (UTC)
  `{{ {{oppose|weka}} }}` in favor of 12a per `{{ {{no ping|PetraMagna}} }}` and the fact that this discussion originated from a bad change to defaults by upstream. — [chrs](https://meta.miraheze.org/wiki/User:Chrs) ([talk](https://meta.miraheze.org/wiki/User_talk:Chrs)) 00:25, 24 April 2026 (UTC)
  `{{ {{Oppose}} }}` (( ... I really don't like the idea of troubleshooting issues that require knowledge of which wiki generation that a wiki came from ... I prefer apply to all or apply to none ... )) --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 01:53, 25 April 2026 (UTC)
+ `{{ {{support}} }}` The animation slows things down and isn't necessary. [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
 
 ## Proposal 13: disable $wgPortableInfoboxUseHeadings by default 
 
@@ -311,6 +337,8 @@ Please discuss disabling this option for all wikis that did not change this opti
  `{{ {{comment}} }}` I was just informed by [User:Universal Omega](https://meta.miraheze.org/wiki/User:Universal_Omega) that PortableInfobox plans to remove this option soon and will default to using `div` instead of headings. Depending on our update cadence of the extension, this change will reach Miraheze no later than MediaWiki 1.46, which will happen in about 2 to 3 months. Thus, the outcome of this proposal will be less consequential than the others. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 09:06, 24 April 2026 (UTC)
  `{{ {{Abstain}} }}` (( ... Skipping ... going way over my head ... )) --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 01:56, 25 April 2026 (UTC)
  `{{ {{support|strongest}} }}` There is another problem is that TextExtracts treats the `{{ {{code|<h2>}} }}` tag within PortableInfoboxes as “real heading within body text.” Consequently, if an extension calling TextExtracts utilizes the parameters `{{ {{code|&exintro{{=}}true}} }}` or `{{ {{code|&explaintext{{=}}true&exintro{{=}}true}} }}`, the extract will be empty. (such as Popups when `{{ {{code|$wgPopupsTextExtractsIntroOnly {{=}} True}} }}`, WikiSEO when `{{ {{code|$wgWikiSeoEnableAutoDescription {{=}} True}} }}`).<br />Furthermore, broken CSS is relatively easy to spot and fix, while these issues with TextExtracts are much more difficult to find and fix. --[Maitian MaiLin](https://meta.miraheze.org/wiki/User:Maitian_MaiLin) ([talk](https://meta.miraheze.org/wiki/User_talk:Maitian_MaiLin)) 08:00, 30 April 2026 (UTC)
+ `{{ {{Abstain}} }}` [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
+ `{{ {{support}} }}` given the incompatibility with both TextExtracts and Parsoid. It appears that we will need to bite this bullet, and I would strongly concur with the general principle espoused by PetraMagna that the best time to do this sort of thing would be alongside a MediaWiki update. — [chrs](https://meta.miraheze.org/wiki/User:Chrs) ([talk](https://meta.miraheze.org/wiki/User_talk:Chrs)) 03:22, 1 May 2026 (UTC)
 
 ### Discussion 13b 
 
@@ -319,6 +347,7 @@ Please discuss disabling this option only for new wikis. [PetraMagna](https://me
  `{{ {{support}} }}` Although `$wgPortableInfoboxUseHeadings` will likely be removed eventually (due to incompatibilities with Parsoid), it may not happen in the near future, especially since we are uncertain whether Parsoid read view will actually happen on MW 1.47. We should try to not break our wikis if possible, even if it means more work for tech. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 05:34, 23 April 2026 (UTC)
  `{{ {{support}} }}` per proposal - while 13a would make sense, I support the less disruptive way overall. - [JaneBuzJane](https://meta.miraheze.org/wiki/User:JaneBuzJane) ([talk](https://meta.miraheze.org/wiki/User_talk:JaneBuzJane)) 19:44, 23 April 2026 (UTC)
  `{{ {{Oppose}} }}` (( ... I prefer that wiki behavior is consistent regardless of creation date ... )) --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 02:00, 25 April 2026 (UTC)
+ `{{ {{Abstain}} }}` [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
 
 ## Proposal 14: enable $wgVectorResponsive by default 
 
@@ -334,6 +363,8 @@ Please discuss enabling this option for all wikis that did not change this optio
  `{{ {{support}} }}` [KockaAdmiralac](https://meta.miraheze.org/wiki/User:KockaAdmiralac) ([talk](https://meta.miraheze.org/wiki/User_talk:KockaAdmiralac)) 18:20, 23 April 2026 (UTC)
  `{{ {{neutral}} }}` I haven't really done much work with Vector 2022 so I can't tell how out of the way the setting is, but I feel like most of the above settings are for people who don't know what a managewiki is or people who aren't aware a certain thing can be customised. As far as I'm aware, this setting would only be necessary for people who've already configured stuff on ManageWiki since MobileFrontend is a default extension. [TheWWRNerdGuy](https://meta.miraheze.org/wiki/User:TheWWRNerdGuy) ([talk](https://meta.miraheze.org/wiki/User_talk:TheWWRNerdGuy)) 20:35, 23 April 2026 (UTC)
  `{{ {{Abstain}} }}` (( ... Skipping ... I feel there's a lot of potential here that can benefit a lot of users but this is out of my territory ...)) --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 02:11, 25 April 2026 (UTC)
+ `{{ {{support}} }}` In general skins should be responsive. [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
+ `{{ {{Support}} }}` I wasn't even aware this wasn't default behavior. [Emiliers](https://meta.miraheze.org/wiki/User:Emiliers) ([talk](https://meta.miraheze.org/wiki/User_talk:Emiliers)) 19:03, 1 May 2026 (UTC)
 
 ### Discussion 14b 
 
@@ -345,6 +376,7 @@ Please discuss enabling this option only for new wikis. [PetraMagna](https://met
          But if b gets similar levels of support than a I think to be safe we should implement b only. I would interpret supporter of 14a to support 14b as well, but the converse is not true since 14b supporters specifically don't want a change to apply to all wikis. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 00:16, 24 April 2026 (UTC)
  `{{ {{support}} }}` in particular with sway from Jane's input as moderately less intrusive, but feel free to interpret a weak support for 14a if it helps, as a change that leans for the net better. --**[raidarr](https://meta.miraheze.org/wiki/User:Raidarr)** **(** [💬](https://meta.miraheze.org/wiki/User_talk:Raidarr) **)** 00:58, 25 April 2026 (UTC)
  `{{ {{Oppose}} }}` (( I vote to apply to all or no wikis ... )) --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 02:12, 25 April 2026 (UTC)
+ `{{ {{support}} }}` In general skins should be responsive. [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
 
 ## Proposal 15: set $wgArticleCountMethod to 'any' 
 
@@ -363,6 +395,8 @@ Please discuss enabling this option for all wikis that did not change this optio
  `{{ {{support|weak}} }}` To be [brutally honest](https://meta.miraheze.org/wiki/mh:allthetropes:Brutal_Honesty), there's just so much work that needs to be done with this type of thing, so is it really a surprise to anyone at this point? --[DarkMatterMan4500](https://meta.miraheze.org/wiki/User:DarkMatterMan4500) ([talk](https://meta.miraheze.org/wiki/User_talk:DarkMatterMan4500)) ([contribs](https://meta.miraheze.org/wiki/Special:Contributions/DarkMatterMan4500)) 15:38, 24 April 2026 (UTC)
  `{{ {{support}} }}`, I would project that this change at worst would incur a few 'huhs' trickling in for the short term, while curing a large category of 'huh' across the long term. --**[raidarr](https://meta.miraheze.org/wiki/User:Raidarr)** **(** [💬](https://meta.miraheze.org/wiki/User_talk:Raidarr) **)** 01:00, 25 April 2026 (UTC)
  `{{ {{Support}} }}` (( If it is more intuitive, I'll go for it ... )) --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 02:16, 25 April 2026 (UTC)
+ `{{ {{Support}} }}` More intuitive to people. [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
+ `{{ {{Support}} }}` Sounds reasonable. [Emiliers](https://meta.miraheze.org/wiki/User:Emiliers) ([talk](https://meta.miraheze.org/wiki/User_talk:Emiliers)) 21:29, 1 May 2026 (UTC)
 
 ### Discussion 15b 
 
@@ -371,6 +405,7 @@ Please discuss enabling this option only for new wikis. [PetraMagna](https://met
  `{{ {{support}} }}` There might be an interest in avoiding confusion caused by sudden jumps in article counts, which justifies more work for the tech team. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 05:40, 23 April 2026 (UTC)
  `{{ {{support}} }}` If it fits anyway. --[DarkMatterMan4500](https://meta.miraheze.org/wiki/User:DarkMatterMan4500) ([talk](https://meta.miraheze.org/wiki/User_talk:DarkMatterMan4500)) ([contribs](https://meta.miraheze.org/wiki/Special:Contributions/DarkMatterMan4500)) 15:38, 24 April 2026 (UTC)
  `{{ {{oppose}} }}` (( ... Change must apply to all or no wikis ... )) --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 02:17, 25 April 2026 (UTC)
+ `{{ {{Support}} }}` More intuitive to people. [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
 
 ## Proposal 16: set $wgDefaultUserOptions['showrollbackconfirmation'] to 1 
 
@@ -389,6 +424,8 @@ Discuss enabling this option for all users that did not change this option. [Koc
  `{{ {{support|strong}} }}` This honestly should've been a thing a long time ago, so I'll support this. --[DarkMatterMan4500](https://meta.miraheze.org/wiki/User:DarkMatterMan4500) ([talk](https://meta.miraheze.org/wiki/User_talk:DarkMatterMan4500)) ([contribs](https://meta.miraheze.org/wiki/Special:Contributions/DarkMatterMan4500)) 15:38, 24 April 2026 (UTC)
  `{{ {{support|weak}} }}`, if there is interface text pointing out this can be changed in user preference. If not I would recommend injecting some for clarity, and to account for the concern raised by Chrs. --**[raidarr](https://meta.miraheze.org/wiki/User:Raidarr)** **(** [💬](https://meta.miraheze.org/wiki/User_talk:Raidarr) **)** 01:02, 25 April 2026 (UTC)
  `{{ {{Oppose}} }}` ((I think fiddling with this feature at this point is going to create havoc or at least some form of discomfort ... ... ... There should be a way to help enable the confirmation without making it a default ... some people will prefer speed and some may not know how to change back the setting ... )) --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 02:26, 25 April 2026 (UTC)
+ `{{ {{Abstain}} }}` [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
+ `{{ {{Support}} }}` I'll self-report -- I was one of those people who kept accidentally rollbacking and had to be told an option was available to add a confirmation. While I understand the desire for expedience, the time difference between clicking once vs clicking twice is negligible, while saving the rollbacker from massive amounts of potential embarrassment. A worthwhile trade, in my opinion. [Emiliers](https://meta.miraheze.org/wiki/User:Emiliers) ([talk](https://meta.miraheze.org/wiki/User_talk:Emiliers)) 19:09, 1 May 2026 (UTC)
 
 ### Discussion 16b 
 
@@ -396,6 +433,7 @@ Discuss enabling this option only for new users. [KockaAdmiralac](https://meta.m
  `{{ {{weak support}} }}` This is a bit more work and I feel like it would be useful for existing users who did not know about the feature as well. [KockaAdmiralac](https://meta.miraheze.org/wiki/User:KockaAdmiralac) ([talk](https://meta.miraheze.org/wiki/User_talk:KockaAdmiralac)) 17:08, 23 April 2026 (UTC)
  `{{ {{support|partial}} }}` As long as it benefits in the long-run? Well, you have my support. --[DarkMatterMan4500](https://meta.miraheze.org/wiki/User:DarkMatterMan4500) ([talk](https://meta.miraheze.org/wiki/User_talk:DarkMatterMan4500)) ([contribs](https://meta.miraheze.org/wiki/Special:Contributions/DarkMatterMan4500)) 15:38, 24 April 2026 (UTC)
  `{{ {{Oppose}} }}` ((I'm not really sure why this is necessary ... I'm of the opinion that it takes time to get good at using tools ... The confirmation option may be perfect for certain situations but if everyone has a different experience, it will make communication more difficult ... I always assume that what I experience is more or less shared by others but the way these proposals are going, it's like going out of our way to create potential for confusion and misunderstandings ... I would prefer to give the user the option to toggle between the states rather than deciding for the user ...)) --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 02:32, 25 April 2026 (UTC)
+ `{{ {{Abstain}} }}` [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Noticeboard/Request_for_feedback:_changes_to_default_MediaWiki_settings)**
