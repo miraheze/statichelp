@@ -317,6 +317,7 @@ Please discuss disabling this option only for new wikis. [PetraMagna](https://me
  `{{ {{oppose|weka}} }}` in favor of 12a per `{{ {{no ping|PetraMagna}} }}` and the fact that this discussion originated from a bad change to defaults by upstream. — [chrs](https://meta.miraheze.org/wiki/User:Chrs) ([talk](https://meta.miraheze.org/wiki/User_talk:Chrs)) 00:25, 24 April 2026 (UTC)
  `{{ {{Oppose}} }}` (( ... I really don't like the idea of troubleshooting issues that require knowledge of which wiki generation that a wiki came from ... I prefer apply to all or apply to none ... )) --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 01:53, 25 April 2026 (UTC)
  `{{ {{support}} }}` The animation slows things down and isn't necessary. [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
+ `{{ {{Support}} }}` Honestly, thinking about it a bit more, this might be a better option if disabling the animation is preferred, so it doesn't mess with a setting that existing wikis have probably gotten used to (if they haven't taken the opportunity to disable it already). [Emiliers](https://meta.miraheze.org/wiki/User:Emiliers) ([talk](https://meta.miraheze.org/wiki/User_talk:Emiliers)) 04:36, 2 May 2026 (UTC)
 
 ## Proposal 13: disable $wgPortableInfoboxUseHeadings by default 
 
