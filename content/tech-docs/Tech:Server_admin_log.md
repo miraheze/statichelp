@@ -2,6 +2,48 @@
 title: Tech:Server admin log
 ---
 
+## 2026-05-04 
+
+* 23:57 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=unanythingwiki --sleep=1 '--comment=Importing images from [https://unanything.fandom.com/](https://unanything.fandom.com/) ([T15300](https://meta.miraheze.org/wiki/phorge:T15300))' -- . (START)
+* 23:57 MirahezeLSBot: [skye@mwtask171] Starting import for unanythingwiki (XML: None; Images: .) (START)
+* 23:16 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=domainswiki (START)
+* 23:16 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=domainswiki --no-updates --username-prefix=domains -- internetdomains.xml (END - exit=0)
+* 21:17 MirahezeLSBot: [skye@mwtask171] Finished import for unanythingwiki (XML: unanything_pages_full.xml; Images: None) (END - exit=0)
+* 21:17 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=unanythingwiki --update (END - exit=0)
+* 21:17 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=unanythingwiki --update (START)
+* 21:17 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=unanythingwiki (END - exit=0)
+* 21:17 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=unanythingwiki (START)
+* 21:17 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=unanythingwiki (END - exit=0)
+* 21:14 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=circumferencewikiwiki (END - exit=0)
+* 21:13 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=ajustwikiwiki --new=circumferencewikiwiki --user=Skye (END - exit=0)
+* 19:06 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=unanythingwiki (START)
+* 19:06 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=unanythingwiki --no-updates --username-prefix=fandom:unanything -- unanything_pages_full.xml (END - exit=0)
+* 18:45 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=domainswiki --no-updates --username-prefix=domains -- internetdomains.xml (START)
+* 18:45 MirahezeLSBot: [skye@mwtask171] Starting import for domainswiki (XML: internetdomains.xml; Images: None) (START)
+* 18:41 MirahezeLSBot: [skye@mwtask171] Finished import for domainswiki (XML: internetdomains.xml; Images: None) (END - exit=1)
+* 18:41 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=domainswiki --no-updates --username-prefix=domains -- internetdomains.xml (END - exit=1)
+* 18:41 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=domainswiki --no-updates --username-prefix=domains -- internetdomains.xml (START)
+* 18:41 MirahezeLSBot: [skye@mwtask171] Starting import for domainswiki (XML: internetdomains.xml; Images: None) (START)
+* 18:26 MirahezeLSBot: [void@db161] systemctl reset-failed sql-backup && systemctl restart sql-backup
+* 18:14 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=unanythingwiki --no-updates --username-prefix=fandom:unanything -- unanything_pages_full.xml (START)
+* 18:14 MirahezeLSBot: [skye@mwtask171] Starting import for unanythingwiki (XML: unanything_pages_full.xml; Images: None) (START)
+* 18:14 MirahezeLSBot: [skye@mwtask171] Finished import for unanythingwiki (XML: unanything_pages_full.xml; Images: None) (END - exit=-2)
+* 18:14 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=unanythingwiki --no-updates --username-prefix=fandom:unanything -- unanything_pages_full.xml (END - exit=-2)
+* 18:12 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=unanythingwiki --no-updates --username-prefix=fandom:unanything -- unanything_pages_full.xml (START)
+* 18:12 MirahezeLSBot: [skye@mwtask171] Starting import for unanythingwiki (XML: unanything_pages_full.xml; Images: None) (START)
+* 18:10 MirahezeLSBot: [skye@mwtask171] Finished import for unanythingwiki (XML: unanything_pages_full.xml; Images: None) (END - exit=1)
+* 18:10 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=unanythingwiki --no-updates --username-prefix=fandom:unanything -- unanything_pages_full.xml (END - exit=1)
+* 18:10 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=unanythingwiki --no-updates --username-prefix=fandom:unanything -- unanything_pages_full.xml (START)
+* 18:10 MirahezeLSBot: [skye@mwtask171] Starting import for unanythingwiki (XML: unanything_pages_full.xml; Images: None) (START)
+* 17:44 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=saltationismwiki (END - exit=0)
+* 17:42 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=variegatedwiki --new=saltationismwiki --user=Skye (END - exit=0)
+* 17:38 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=nnpwiki (END - exit=0)
+* 17:37 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=naramonuclearplantv2wiki --new=nnpwiki --user=Skye (END - exit=0)
+* 17:34 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=rotwoodvalecnwiki (END - exit=0)
+* 17:33 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=rotwoodvalcnwiki --new=rotwoodvalecnwiki --user=Skye (END - exit=0)
+* 17:31 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=rotwoodvalcnwiki --new=rotwoodvalecn=wiki --user=Skye (END - exit=256)
+* 17:31 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=rotwoodvalcnwiki --newrotwoodvalecn=wiki --user=Skye (END - exit=256)
+
 ## 2026-05-03 
 
 * 22:35 MirahezeLSBot: [void@db161] systemctl reset-failed sql-backup && systemctl restart sql-backup

@@ -345,6 +345,7 @@ Please discuss disabling this option for all wikis that did not change this opti
  `{{ {{support|strongest}} }}` There is another problem is that TextExtracts treats the `{{ {{code|<h2>}} }}` tag within PortableInfoboxes as “real heading within body text.” Consequently, if an extension calling TextExtracts utilizes the parameters `{{ {{code|&exintro{{=}}true}} }}` or `{{ {{code|&explaintext{{=}}true&exintro{{=}}true}} }}`, the extract will be empty. (such as Popups when `{{ {{code|$wgPopupsTextExtractsIntroOnly {{=}} True}} }}`, WikiSEO when `{{ {{code|$wgWikiSeoEnableAutoDescription {{=}} True}} }}`).<br />Furthermore, broken CSS is relatively easy to spot and fix, while these issues with TextExtracts are much more difficult to find and fix. --[Maitian MaiLin](https://meta.miraheze.org/wiki/User:Maitian_MaiLin) ([talk](https://meta.miraheze.org/wiki/User_talk:Maitian_MaiLin)) 08:00, 30 April 2026 (UTC)
  `{{ {{Abstain}} }}` [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
  `{{ {{support}} }}` given the incompatibility with both TextExtracts and Parsoid. It appears that we will need to bite this bullet, and I would strongly concur with the general principle espoused by PetraMagna that the best time to do this sort of thing would be alongside a MediaWiki update. — [chrs](https://meta.miraheze.org/wiki/User:Chrs) ([talk](https://meta.miraheze.org/wiki/User_talk:Chrs)) 03:22, 1 May 2026 (UTC)
+ `{{ {{support|weak}} }}` I mean, I wouldn't mind these types of changes for shit that I rarely (or barely) even use, so yeah. --[DarkMatterMan4500](https://meta.miraheze.org/wiki/User:DarkMatterMan4500) ([talk](https://meta.miraheze.org/wiki/User_talk:DarkMatterMan4500)) ([contribs](https://meta.miraheze.org/wiki/Special:Contributions/DarkMatterMan4500)) 11:33, 4 May 2026 (UTC)
 
 ### Discussion 13b 
 
@@ -364,13 +365,13 @@ When visiting a wiki without [MobileFrontend](https://meta.miraheze.org/wiki/mw:
 ### Discussion 14a 
 
 Please discuss enabling this option for all wikis that did not change this option. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 05:07, 23 April 2026 (UTC)
-
  `{{ {{support}} }}` As proposer. Too many support questions were on this config. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 05:35, 23 April 2026 (UTC)
  `{{ {{support}} }}` [KockaAdmiralac](https://meta.miraheze.org/wiki/User:KockaAdmiralac) ([talk](https://meta.miraheze.org/wiki/User_talk:KockaAdmiralac)) 18:20, 23 April 2026 (UTC)
  `{{ {{neutral}} }}` I haven't really done much work with Vector 2022 so I can't tell how out of the way the setting is, but I feel like most of the above settings are for people who don't know what a managewiki is or people who aren't aware a certain thing can be customised. As far as I'm aware, this setting would only be necessary for people who've already configured stuff on ManageWiki since MobileFrontend is a default extension. [TheWWRNerdGuy](https://meta.miraheze.org/wiki/User:TheWWRNerdGuy) ([talk](https://meta.miraheze.org/wiki/User_talk:TheWWRNerdGuy)) 20:35, 23 April 2026 (UTC)
  `{{ {{Abstain}} }}` (( ... Skipping ... I feel there's a lot of potential here that can benefit a lot of users but this is out of my territory ...)) --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 02:11, 25 April 2026 (UTC)
  `{{ {{support}} }}` In general skins should be responsive. [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
  `{{ {{Support}} }}` I wasn't even aware this wasn't default behavior. [Emiliers](https://meta.miraheze.org/wiki/User:Emiliers) ([talk](https://meta.miraheze.org/wiki/User_talk:Emiliers)) 19:03, 1 May 2026 (UTC)
+ `{{ {{support}} }}` This should've been made an option by default anyways. --[DarkMatterMan4500](https://meta.miraheze.org/wiki/User:DarkMatterMan4500) ([talk](https://meta.miraheze.org/wiki/User_talk:DarkMatterMan4500)) ([contribs](https://meta.miraheze.org/wiki/Special:Contributions/DarkMatterMan4500)) 11:28, 4 May 2026 (UTC)
 
 ### Discussion 14b 
 
