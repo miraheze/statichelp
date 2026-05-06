@@ -2,6 +2,28 @@
 title: Tech:Server admin log
 ---
 
+## 2026-05-05 
+
+* 23:19 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=teletran2wiki --no-updates --username-prefix=tfwiki -- backup.xml (START)
+* 23:18 MirahezeLSBot: [skye@mwtask171] Starting import for teletran2wiki (XML: backup.xml; Images: None) (START)
+* 23:13 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=crygaiawiki --update (END - exit=0)
+* 23:13 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=crygaiawiki (END - exit=0)
+* 22:55 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=crygaiawiki (END - exit=0)
+* 21:30 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=crygaiawiki (START)
+* 20:17 MirahezeLSBot: [skye@mwtask171] Finished import for crygaiawiki (XML: history.xml; Images: ./images) (END - exit=1)
+* 20:17 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=crygaiawiki (END - exit=1)
+* 20:17 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=crygaiawiki (START)
+* 20:17 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=crygaiawiki --sleep=1 '--comment=Importing images from wiki.crygaia.org ([T15337](https://meta.miraheze.org/wiki/phorge:T15337))' -- ./images (END - exit=0)
+* 16:34 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=crygaiawiki --sleep=1 '--comment=Importing images from wiki.crygaia.org ([T15337](https://meta.miraheze.org/wiki/phorge:T15337))' -- ./images (START)
+* 16:34 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=crygaiawiki --no-updates --username-prefix=crygaia -- history.xml (END - exit=0)
+* 15:50 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=crygaiawiki --no-updates --username-prefix=crygaia -- history.xml (START)
+* 15:50 MirahezeLSBot: [skye@mwtask171] Starting import for crygaiawiki (XML: history.xml; Images: ./images) (START)
+* 15:45 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=crygaiawiki --requester=SnerkDevil (END - exit=0)
+* 04:56 MirahezeLSBot: [skye@mwtask171] Finished import for unanythingwiki (XML: None; Images: .) (END - exit=0)
+* 04:56 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=unanythingwiki --update (END - exit=0)
+* 04:56 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=unanythingwiki --update (START)
+* 04:56 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=unanythingwiki --sleep=1 '--comment=Importing images from [https://unanything.fandom.com/](https://unanything.fandom.com/) ([T15300](https://meta.miraheze.org/wiki/phorge:T15300))' -- . (END - exit=0)
+
 ## 2026-05-04 
 
 * 23:57 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=unanythingwiki --sleep=1 '--comment=Importing images from [https://unanything.fandom.com/](https://unanything.fandom.com/) ([T15300](https://meta.miraheze.org/wiki/phorge:T15300))' -- . (START)
