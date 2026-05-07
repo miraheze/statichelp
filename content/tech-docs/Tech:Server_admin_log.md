@@ -2,6 +2,42 @@
 title: Tech:Server admin log
 ---
 
+## 2026-05-06 
+
+* 22:45 MirahezeLSBot: [skye@mwtask171] Finished import for teletran2wiki (XML: backup.xml; Images: None) (END - exit=0)
+* 22:45 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=teletran2wiki --update (END - exit=0)
+* 22:45 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=teletran2wiki --update (START)
+* 22:45 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=teletran2wiki (END - exit=0)
+* 22:45 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=teletran2wiki (START)
+* 22:45 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=teletran2wiki (END - exit=0)
+* 19:19 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=fragmenteddestinywiki (END - exit=0)
+* 19:18 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=shatteredrealitywiki --new=fragmenteddestinywiki --user=Skye (END - exit=0)
+* 18:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: apache2, apache2-bin, apache2-data, and apache2-utils
+* 18:33 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: apache2, apache2-bin, apache2-data, and apache2-utils
+* 18:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: apache2, apache2-bin, apache2-data, and apache2-utils
+* 18:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: apache2, apache2-bin, apache2-data, and apache2-utils
+* 18:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: apache2-bin and apache2-utils
+* 18:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: apache2, apache2-bin, apache2-data, and apache2-utils
+* 18:31 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: apache2, apache2-bin, apache2-data, and apache2-utils
+* 04:06 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=teletran2wiki (START)
+* 04:05 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=teletran2wiki --no-updates --username-prefix=tfwiki -- backup.xml (END - exit=0)
+* 01:12 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'l10n': True, 'extension_list': True, 'versions': '1.45'} to all - SUCCESS in 534s
+* 01:08 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'l10n': True, 'extension_list': True, 'versions': '1.45'} to test151 - SUCCESS in 324s
+* 01:03 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'l10n': True, 'extension_list': True, 'versions': '1.45'} to all
+* 01:03 MirahezeLSBot: [somerandomdeveloper@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 01:03 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'l10n': True, 'extension_list': True, 'versions': '1.45'} to all
+* 01:03 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'l10n': True, 'extension_list': True, 'versions': '1.45'} to test151
+* 01:02 SomeRandomDeveloper: sudo salt-ssh -E 'mw.*' cmd.run 'sudo -u www-data rm -rf /srv/mediawiki/1.45/extensions/CampaignEvents/'
+* 01:01 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data rm -rf /srv/mediawiki-staging/1.45/extensions/CampaignEvents/
+* 01:01 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data rm -rf /srv/mediawiki-staging/1.45/extensions/CampaignEvents/
+* 01:01 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data rm -rf /srv/mediawiki/1.45/extensions/CampaignEvents/
+* 00:54 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 00:53 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 00:53 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 10s
+* 00:53 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 00:52 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 00:51 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+
 ## 2026-05-05 
 
 * 23:19 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=teletran2wiki --no-updates --username-prefix=tfwiki -- backup.xml (START)
