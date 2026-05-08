@@ -2,6 +2,21 @@
 title: Tech:Server admin log
 ---
 
+## 2026-05-07 
+
+* 20:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: libwireshark-data, libwsutil16, libwiretap15, libwireshark18, tshark, and wireshark-common
+* 20:02 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: libwireshark-data, libwsutil16, libwiretap15, libwireshark18, tshark, and wireshark-common
+* 04:30 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 04:30 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 04:17 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 04:17 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 04:16 MirahezeLSBot: [skye@mwtask171] Finished import for domainswiki (XML: internetdomains.xml; Images: None) (END - exit=0)
+* 04:15 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=domainswiki --update (END - exit=0)
+* 04:15 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=domainswiki --update (START)
+* 04:15 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=domainswiki (END - exit=0)
+* 04:15 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=domainswiki (START)
+* 04:15 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=domainswiki (END - exit=0)
+
 ## 2026-05-06 
 
 * 22:45 MirahezeLSBot: [skye@mwtask171] Finished import for teletran2wiki (XML: backup.xml; Images: None) (END - exit=0)
