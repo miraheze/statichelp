@@ -2,6 +2,126 @@
 title: Tech:Server admin log
 ---
 
+## 2026-05-08 
+
+* 23:26 SomeRandomDeveloper: sudo salt-ssh -E 'mw.*' cmd.run 'sudo -u www-data rm -rf /srv/mediawiki/1.45/extensions/ReportIncident/'
+* 22:51 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'world': True, 'l10n': True, 'extension_list': True, 'versions': '1.45'} to all - SUCCESS in 711s
+* 22:39 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'world': True, 'l10n': True, 'extension_list': True, 'versions': '1.45'} to all
+* 22:32 MirahezeLSBot: [skye@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 22:30 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'world': True, 'l10n': True, 'extension_list': True, 'versions': '1.45'} to all
+* 22:23 MirahezeLSBot: [skye@test151] finished deploy of {'pull': 'config', 'config': True, 'world': True, 'l10n': True, 'extension_list': True, 'versions': '1.45'} to test151 - SUCCESS in 348s
+* 22:17 MirahezeLSBot: [skye@test151] starting deploy of {'pull': 'config', 'config': True, 'world': True, 'l10n': True, 'extension_list': True, 'versions': '1.45'} to test151
+* 22:17 Skye: mwtask181/test151: sudo -u www-data rm -rf /srv/mediawiki-staging/{1.45,1.46}/extensions/ReportIncident/
+* 20:50 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 20:50 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 20:50 MirahezeLSBot: [skye@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 20:50 MirahezeLSBot: [skye@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 20:47 MirahezeLSBot: [skye@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 20:47 MirahezeLSBot: [skye@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 20:21 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: linux-libc-dev
+* 20:21 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: linux-libc-dev
+* 20:20 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: linux-libc-dev
+* 20:20 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: linux-libc-dev, php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dev, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 20:19 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: linux-libc-dev
+* 20:19 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: linux-libc-dev
+* 20:18 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: linux-libc-dev
+* 20:18 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: linux-libc-dev
+* 20:18 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: linux-libc-dev
+* 20:18 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: linux-libc-dev
+* 20:17 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: linux-libc-dev
+* 20:17 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: linux-libc-dev
+* 20:17 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: linux-libc-dev
+* 20:16 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: linux-libc-dev
+* 20:16 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb191: linux-libc-dev
+* 20:16 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: linux-libc-dev
+* 20:16 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: linux-libc-dev, php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-curl, php8.4-cli, and php8.4-common
+* 20:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: linux-libc-dev, php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 20:14 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: linux-libc-dev
+* 20:13 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: linux-libc-dev
+* 20:13 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: linux-libc-dev, php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-curl, php8.4-cli, and php8.4-common
+* 20:12 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: linux-libc-dev
+* 20:12 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: linux-libc-dev
+* 20:12 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: linux-libc-dev
+* 20:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: linux-libc-dev, php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 20:10 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: linux-libc-dev
+* 20:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: linux-libc-dev, php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 20:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: linux-libc-dev, php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 20:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: linux-libc-dev, php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 20:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: linux-libc-dev, php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 20:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: linux-libc-dev, php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 20:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: linux-libc-dev, php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 20:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: linux-libc-dev, php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 20:02 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 20:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: linux-libc-dev, php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 20:01 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 20:01 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 20:01 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 20:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: linux-libc-dev, php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:59 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: linux-libc-dev, php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: linux-libc-dev, php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:56 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: linux-libc-dev, php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: linux-libc-dev, php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:54 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: linux-libc-dev, php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:52 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: linux-libc-dev, php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:51 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: linux-libc-dev, php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:50 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: linux-libc-dev, php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:49 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: linux-libc-dev, php8.4-opcache, php8.4-readline, php8.4-cli, libapache2-mod-php8.4, php8.4-xml, php8.4-soap, php8.4-pgsql, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-curl, php8.4-intl, php8.4-common, and php8.4
+* 19:48 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: linux-libc-dev, php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:46 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: linux-libc-dev, php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:45 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: linux-libc-dev, php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:44 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: linux-libc-dev
+* 19:43 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: linux-libc-dev
+* 19:43 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: linux-libc-dev
+* 19:43 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: linux-libc-dev
+* 19:43 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: linux-libc-dev
+* 19:43 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: linux-libc-dev, php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-curl, php8.4-cli, and php8.4-common
+* 19:42 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: linux-libc-dev
+* 19:41 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: linux-libc-dev
+* 19:41 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: linux-libc-dev
+* 19:41 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: linux-libc-dev
+* 19:41 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: linux-libc-dev
+* 19:40 MirahezeLSBot: [void@puppet181] Upgraded packages on db192: linux-libc-dev
+* 19:40 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: linux-libc-dev
+* 19:40 MirahezeLSBot: [void@puppet181] Upgraded packages on db201: linux-libc-dev
+* 19:40 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: linux-libc-dev, libcpupower1, and linux-cpupower
+* 19:39 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: linux-libc-dev, libcpupower1, and linux-cpupower
+* 19:39 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: linux-libc-dev
+* 19:39 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: linux-libc-dev
+* 19:39 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: linux-libc-dev
+* 19:38 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: linux-libc-dev
+* 19:38 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: linux-libc-dev
+* 19:38 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: linux-libc-dev, libcpupower1, and linux-cpupower
+* 19:38 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: linux-libc-dev, libcpupower1, and linux-cpupower
+* 19:37 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: linux-libc-dev, libcpupower1, and linux-cpupower
+* 19:37 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: linux-libc-dev
+* 19:37 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: linux-libc-dev, libcpupower1, and linux-cpupower
+* 19:37 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: linux-libc-dev
+* 19:36 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: linux-libc-dev
+* 19:36 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: linux-libc-dev
+* 19:36 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: linux-libc-dev
+* 19:36 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: linux-libc-dev, libcpupower1, and linux-cpupower
+* 19:36 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: linux-libc-dev
+* 19:35 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: linux-libc-dev
+* 19:35 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: linux-libc-dev
+* 17:05 MirahezeLSBot: [wwr@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 30s
+* 17:04 MirahezeLSBot: [wwr@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 16:59 MirahezeLSBot: [wwr@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 16:59 MirahezeLSBot: [wwr@test151] starting deploy of {'config': True} to test151
+* 16:44 MirahezeLSBot: [wwr@test151] finished deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'PdfHandler'} to test151 - SUCCESS in 0s
+* 16:44 MirahezeLSBot: [wwr@test151] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'PdfHandler'} to test151
+* 16:40 MirahezeLSBot: [wwr@test151] finished deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'PdfHandler'} to test151 - SUCCESS in 0s
+* 16:40 MirahezeLSBot: [wwr@test151] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'PdfHandler'} to test151
+* 16:39 MirahezeLSBot: [wwr@test151] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'PdfHandler'} to test151
+* 16:28 MirahezeLSBot: [wwr@test151] DEPLOY ABORTED: Canary check failed for meta.mirabeta.org@localhost
+* 16:28 MirahezeLSBot: [wwr@test151] starting deploy of {'folders': '1.45/extensions/PdfHandler'} to test151
+* 16:26 MirahezeLSBot: [wwr@test151] DEPLOY ABORTED: Canary check failed for meta.mirabeta.org@localhost
+* 16:26 MirahezeLSBot: [wwr@test151] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'PdfHandler'} to test151
+* 16:24 MirahezeLSBot: [wwr@test151] DEPLOY ABORTED: Canary check failed for meta.mirabeta.org@localhost
+* 16:24 MirahezeLSBot: [wwr@test151] starting deploy of {'folders': '.'} to test151
+* 16:20 MirahezeLSBot: [wwr@test151] starting deploy of {'pull': 'config', 'config': True, 'l10n': True, 'extension_list': True, 'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'PdfHandler'} to test151
+* 14:46 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=arawynnslorehubwiki (END - exit=0)
+* 14:46 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=arawynnslorehubwiki --startOver (END - exit=0)
+
 ## 2026-05-07 
 
 * 20:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: libwireshark-data, libwsutil16, libwiretap15, libwireshark18, tshark, and wireshark-common
