@@ -257,6 +257,7 @@ Please discuss below. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagn
  `{{ {{Oppose}} }}` (( It feels intrusive ... Even though it may be easy to disable but I think it's much the same as when it was proposed to add a community portal to every wiki by default ... I am okay with it if it is an option that can be selected from within the wiki request to be implemented if the wiki is approved ... but I do not want it as a default ... )) --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 01:29, 25 April 2026 (UTC)
  `{{ {{support}} }}` I've always found it to be useful as an entry point for page creation. [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
  `{{ {{Abstain}} }}` Personal preference, but I prefer the Create Page link over an input box, and looking at the docs, the buttons having nonaccessible labels don't inspire much confidence either. But I also don't want to reject an extension I've never even tried out before, especially when it's clear that others find it a useful entry point. [Emiliers](https://meta.miraheze.org/wiki/User:Emiliers) ([talk](https://meta.miraheze.org/wiki/User_talk:Emiliers)) 21:50, 1 May 2026 (UTC)
+ `{{ {{support|partial}} }}` I wouldn't mind this very much. --[DarkMatterMan4500](https://meta.miraheze.org/wiki/User:DarkMatterMan4500) ([talk](https://meta.miraheze.org/wiki/User_talk:DarkMatterMan4500)) ([contribs](https://meta.miraheze.org/wiki/Special:Contributions/DarkMatterMan4500)) 18:32, 9 May 2026 (UTC)
 
 ## Proposal 10: add VisualEditor to default extensions 
 
@@ -471,6 +472,11 @@ Discuss enabling this option for all users that did not change this option. [Koc
  `{{ {{Abstain}} }}` [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
  `{{ {{Support}} }}` I'll self-report -- I was one of those people who kept accidentally rollbacking and had to be told an option was available to add a confirmation. While I understand the desire for expedience, the time difference between clicking once vs clicking twice is negligible, while saving the rollbacker from massive amounts of potential embarrassment. A worthwhile trade, in my opinion. [Emiliers](https://meta.miraheze.org/wiki/User:Emiliers) ([talk](https://meta.miraheze.org/wiki/User_talk:Emiliers)) 19:09, 1 May 2026 (UTC)
  `{{ {{support}} }}` [ark](https://meta.miraheze.org/wiki/User:ark) ([talk](https://meta.miraheze.org/wiki/User_talk:ark)) 07:44, 3 May 2026 (UTC)
+
+
+<!--No template, thanks in advance.-->
+
+Hell no. Defeats the purpose of the rollback. &mdash;[<span style="color:green"><kbd>revi</kbd></span>](https://meta.miraheze.org/wiki/User:Revi) 10:13, 9 May 2026 (UTC)
 
 ### Discussion 16b 
 

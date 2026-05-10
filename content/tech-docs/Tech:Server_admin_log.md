@@ -2,6 +2,57 @@
 title: Tech:Server admin log
 ---
 
+## 2026-05-09 
+
+* 18:50 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: python3-jwt
+* 18:50 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: python3-jwt
+* 18:50 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: python3-jwt
+* 18:50 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: python3-jwt
+* 18:49 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: python3-jwt
+* 18:49 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: python3-jwt
+* 18:49 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: python3-jwt
+* 18:49 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: python3-jwt
+* 18:48 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: python3-jwt
+* 18:48 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: python3-jwt
+* 18:48 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: python3-jwt
+* 18:48 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: python3-jwt
+* 18:46 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: python3-jwt
+* 18:45 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: python3-jwt
+* 18:45 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: python3-jwt
+* 18:45 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: python3-jwt
+* 18:44 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: python3-jwt
+* 18:44 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: python3-jwt
+* 18:44 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: python3-jwt
+* 18:44 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: python3-jwt
+* 18:43 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: python3-jwt
+* 18:43 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: python3-jwt
+* 18:43 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: python3-jwt
+* 18:43 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: python3-jwt
+* 18:42 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: python3-jwt
+* 18:42 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: python3-jwt
+* 18:42 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: python3-jwt
+* 18:41 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: python3-jwt
+* 18:41 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: python3-jwt
+* 18:41 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: python3-jwt
+* 18:41 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: python3-jwt
+* 18:40 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: python3-jwt
+* 18:40 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: python3-jwt
+* 18:40 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: python3-jwt
+* 18:39 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: python3-jwt
+* 18:38 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: python3-jwt
+* 18:38 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: python3-jwt
+* 18:38 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: python3-jwt
+* 18:37 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: python3-jwt
+* 18:36 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: python3-jwt
+* 18:35 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: python3-jwt
+* 18:35 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: python3-jwt
+* 17:36 MirahezeLSBot: [wwr@test151] finished deploy of {'world': True, 'l10n': True, 'extension_list': True, 'versions': '1.46', 'ignore_time': True} to test151 - SUCCESS in 72s
+* 17:35 MirahezeLSBot: [wwr@test151] starting deploy of {'world': True, 'l10n': True, 'extension_list': True, 'versions': '1.46', 'ignore_time': True} to test151
+* 17:35 MirahezeLSBot: [wwr@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 17:35 MirahezeLSBot: [wwr@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 00:11 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawiki --setting=wgCosmosWikiHeaderBackgroundColor --sourcelist=./cosmoslist.txt (END - exit=0)
+* 00:07 MirahezeLSBot: [somerandomdeveloper@puppet181] sudo systemctl restart listdomains_github_push
+
 ## 2026-05-08 
 
 * 23:26 SomeRandomDeveloper: sudo salt-ssh -E 'mw.*' cmd.run 'sudo -u www-data rm -rf /srv/mediawiki/1.45/extensions/ReportIncident/'
