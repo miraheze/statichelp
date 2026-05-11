@@ -2,6 +2,130 @@
 title: Tech:Server admin log
 ---
 
+## 2026-05-10 
+
+* 19:20 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/initSiteStats.php --wiki=itihasawiki --update (END - exit=0)
+* 19:20 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/rebuildall.php --wiki=itihasawiki (END - exit=0)
+* 19:19 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/rebuildall.php --wiki=itihasawiki (START)
+* 19:19 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=itihasawiki dump.xml --no-updates (END - exit=0)
+* 19:15 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=itihasawiki dump.xml --no-updates (START)
+* 16:38 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject201: liblcms2-2 and libpng16-16t64
+* 16:38 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftproxy171: liblcms2-2 and libpng16-16t64
+* 16:38 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftproxy161: liblcms2-2 and libpng16-16t64
+* 16:38 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on test151: liblcms2-2, libpng-tools, libpng-dev, and libpng16-16t64
+* 16:37 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject191: liblcms2-2 and libpng16-16t64
+* 16:37 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject211: liblcms2-2 and libpng16-16t64
+* 16:37 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on ns2: liblcms2-2 and libpng16-16t64
+* 16:36 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject181: liblcms2-2 and libpng16-16t64
+* 16:36 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject161: liblcms2-2 and libpng16-16t64
+* 16:36 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject171: liblcms2-2 and libpng16-16t64
+* 16:36 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftac171: liblcms2-2 and libpng16-16t64
+* 16:35 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on os202: liblcms2-2 and libpng16-16t64
+* 16:35 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject151: liblcms2-2 and libpng16-16t64
+* 16:35 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on os201: liblcms2-2 and libpng16-16t64
+* 16:34 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on rdb191: liblcms2-2 and libpng16-16t64
+* 16:34 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on reports171: liblcms2-2 and libpng16-16t64
+* 16:34 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on puppet181: liblcms2-2 and libpng16-16t64
+* 16:34 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on os162: liblcms2-2 and libpng16-16t64
+* 16:33 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on phorge171: liblcms2-2 and libpng16-16t64
+* 16:33 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on os191: liblcms2-2 and libpng16-16t64
+* 16:33 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on os151: liblcms2-2 and libpng16-16t64
+* 16:33 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on os161: libpng16-16t64
+* 16:32 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mwtask171: liblcms2-2, libpng-tools, libpng-dev, and libpng16-16t64
+* 16:32 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mwtask181: liblcms2-2, libpng-tools, libpng-dev, and libpng16-16t64
+* 16:31 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw202: libpng-tools, libpng-dev, and libpng16-16t64
+* 16:31 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw201: libpng-tools, libpng-dev, and libpng16-16t64
+* 16:30 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw183: libpng-tools, libpng-dev, and libpng16-16t64
+* 16:30 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw181: libpng-tools, libpng-dev, and libpng16-16t64
+* 16:30 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mon181: libpng16-16t64
+* 16:29 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw192: liblcms2-2, libpng-tools, libpng-dev, and libpng16-16t64
+* 16:29 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw162: libpng-tools, libpng-dev, and libpng16-16t64
+* 16:29 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw182: libpng-tools, libpng-dev, and libpng16-16t64
+* 16:28 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw152: libpng-tools, libpng-dev, and libpng16-16t64
+* 16:28 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw191: liblcms2-2, libpng-tools, libpng-dev, and libpng16-16t64
+* 16:28 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw151: liblcms2-2, libpng-tools, libpng-dev, and libpng16-16t64
+* 16:27 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw171: liblcms2-2, libpng-tools, libpng-dev, and libpng16-16t64
+* 16:27 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw163: liblcms2-2, libpng-tools, libpng-dev, and libpng16-16t64
+* 16:27 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw153: liblcms2-2, libpng-tools, libpng-dev, and libpng16-16t64
+* 16:26 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mem191: liblcms2-2 and libpng16-16t64
+* 16:26 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mem201: libpng16-16t64
+* 16:26 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mem151: liblcms2-2 and libpng16-16t64
+* 16:25 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on matomo151: libpng16-16t64
+* 16:25 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on ldap171: libpng16-16t64
+* 16:25 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on kafka182: liblcms2-2 and libpng16-16t64
+* 16:25 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mattermost2: libpng16-16t64
+* 16:24 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on eventgate182: libpng16-16t64
+* 16:24 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db192: libpng16-16t64
+* 16:24 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on graylog161: liblcms2-2 and libpng16-16t64
+* 16:23 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cp191: liblcms2-2 and libpng16-16t64
+* 16:23 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on bast181: libpng16-16t64
+* 16:23 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud17: libpng16-16t64
+* 16:23 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db181: libpng16-16t64
+* 16:22 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db201: liblcms2-2 and libpng16-16t64
+* 16:22 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db182: liblcms2-2 and libpng16-16t64
+* 16:22 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud20: libpng16-16t64
+* 16:22 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud18: libpng16-16t64
+* 16:21 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cp201: libpng16-16t64
+* 16:21 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud19: liblcms2-2 and libpng16-16t64
+* 16:21 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db151: libpng16-16t64
+* 16:21 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud16: libpng16-16t64
+* 16:21 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db172: liblcms2-2 and libpng16-16t64
+* 16:20 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db171: liblcms2-2 and libpng16-16t64
+* 16:20 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on bast161: liblcms2-2 and libpng16-16t64
+* 16:20 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on changeprop202: libpng16-16t64
+* 16:20 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db161: liblcms2-2 and libpng16-16t64
+* 16:19 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on bots171: liblcms2-2 and libpng16-16t64
+* 16:19 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud15: liblcms2-2 and libpng16-16t64
+* 16:19 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud21: liblcms2-2 and libpng16-16t64
+* 16:19 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cp161: liblcms2-2 and libpng16-16t64
+* 16:18 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on ns1: liblcms2-2 and libpng16-16t64
+* 16:18 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on prometheus151: liblcms2-2 and libpng16-16t64
+* 16:18 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw203: liblcms2-2, libpng-tools, libpng-dev, and libpng16-16t64
+* 16:18 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mwtask151: liblcms2-2, libpng-tools, libpng-dev, and libpng16-16t64
+* 16:17 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on os161: liblcms2-2
+* 16:17 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw202: liblcms2-2
+* 16:17 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mwtask161: liblcms2-2, libpng-tools, libpng-dev, and libpng16-16t64
+* 16:17 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw201: liblcms2-2
+* 16:16 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw183: liblcms2-2
+* 16:16 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw193: liblcms2-2, libpng-tools, libpng-dev, and libpng16-16t64
+* 16:16 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw181: liblcms2-2
+* 16:15 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw182: liblcms2-2
+* 16:15 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw173: liblcms2-2, libpng-tools, libpng-dev, and libpng16-16t64
+* 16:14 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw172: liblcms2-2, libpng-tools, libpng-dev, and libpng16-16t64
+* 16:14 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw161: liblcms2-2, libpng-tools, libpng-dev, and libpng16-16t64
+* 16:13 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw162: liblcms2-2
+* 16:13 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mon181: liblcms2-2
+* 16:13 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw152: liblcms2-2
+* 16:12 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on llm191: liblcms2-2 and libpng16-16t64
+* 16:12 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mem201: liblcms2-2
+* 16:12 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mem161: liblcms2-2 and libpng16-16t64
+* 16:11 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on ldap171: liblcms2-2
+* 16:11 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on matomo151: liblcms2-2
+* 16:11 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mattermost2: liblcms2-2
+* 16:11 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db192: liblcms2-2
+* 16:10 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud20: liblcms2-2
+* 16:10 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cp201: liblcms2-2
+* 16:10 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cp171: liblcms2-2 and libpng16-16t64
+* 16:09 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on eventgate182: liblcms2-2
+* 16:09 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db181: liblcms2-2
+* 16:09 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud16: liblcms2-2
+* 16:09 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud18: liblcms2-2
+* 16:08 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db151: liblcms2-2
+* 16:08 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud17: liblcms2-2
+* 16:07 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on bast181: liblcms2-2
+* 16:07 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on changeprop202: liblcms2-2
+* 15:56 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/extensions/CentralAuth/maintenance/fixStuckGlobalRename.php --wiki=steelfightwiki --logwiki=metawiki JustLeafy2k3 JustLeafy (END - exit=0)
+* 15:56 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/extensions/ManageWiki/maintenance/ResetWikiCaches.php --wiki=steelfightwiki (END - exit=0)
+* 15:56 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/extensions/ManageWiki/maintenance/ResetWikiCaches.php --wiki=steelfightwiki (START)
+* 15:56 RhinosF1: UPDATE mw_permissions SET perm_autopromote = NULL WHERE perm_dbname = 'steelfightwiki' AND perm_group = 'blocked';
+* 15:55 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/extensions/ManageWiki/maintenance/resetWikiCaches.php --wiki=steelfightwiki (END - exit=256)
+* 15:55 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/extensions/ManageWiki/maintenance/resetWikiCaches.php --wiki=steelfightwiki (START)
+* 15:48 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/extensions/CentralAuth/maintenance/fixStuckGlobalRename.php --wiki=steelfightwiki --logwiki=metawiki JustLeafy2k3 JustLeafy (END - exit=256)
+* 15:46 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/extensions/CentralAuth/maintenance/createLocalAccount.php --wiki=steelfightwiki NotAracham (END - exit=0)
+* 15:42 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/extensions/CentralAuth/maintenance/attachAccount.php --wiki=metawiki --help --no-log (END - exit=256)
+* 15:39 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/extensions/CentralAuth/maintenance/fixStuckGlobalRename.php --wiki=steelfightwiki --logwiki=metawiki JustLeafy2k3 JustLeafy (END - exit=256)
+* 15:39 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/extensions/CentralAuth/maintenance/fixStuckGlobalRename.php --wiki=steelfightwiki --log=metawiki JustLeafy2k3 JustLeafy (END - exit=256)
+
 ## 2026-05-09 
 
 * 18:50 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: python3-jwt

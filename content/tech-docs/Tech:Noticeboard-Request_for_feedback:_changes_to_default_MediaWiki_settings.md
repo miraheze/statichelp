@@ -60,6 +60,7 @@ Please discuss below. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagn
  `{{ {{support}} }}` The default available skins should be sensible defaults, and I do not know that CologneBlue and Modern have kept up. I imagine they would clash with a lot of customized wikis as they exist. The skins should still be available but I don't think they should be default options. [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
  `{{ {{Support}} }}` These skins aren't used terribly often (we disabled them ourselves after a vote), and leaving unstyled/untouched skins open to be selected simply adds more burden on the admins (in case something is broken on them) without any tangible benefits. If folks want to actually use these skins, they're easy to enable after the fact. [Emiliers](https://meta.miraheze.org/wiki/User:Emiliers) ([talk](https://meta.miraheze.org/wiki/User_talk:Emiliers)) 18:44, 1 May 2026 (UTC)
  `{{ {{support}} }}` [ark](https://meta.miraheze.org/wiki/User:ark) ([talk](https://meta.miraheze.org/wiki/User_talk:ark)) 07:23, 3 May 2026 (UTC)
+ `{{ {{Support}} }}` If it means reducing our servers workload (in a way). As Emiliers said, if the folk wants to use the skin, they can just easily er-enable it ~ [Elisapoly](https://meta.miraheze.org/wiki/User:Elisapoly) ([talk](https://meta.miraheze.org/wiki/User_talk:Elisapoly)) 04:08, 10 May 2026 (UTC)
 
 ## Proposal 3: remove CiteThisPage from default extensions 
 
@@ -294,6 +295,7 @@ Please discuss below. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagn
  `{{ {{support}} }}` If you are a new editor, VisualEditor does *so much* to mitigate the inessential weirdness that comes with editing MediaWiki pages. As best as I can tell, you can only find MediaWiki markup in MediaWiki—not in Google Docs, Microsoft Word, Markdown, LaTeX, anything. It's unique to this particular software. Aside from helping those with less experience, it helps me (as someone who's been editing wikis for over 20 years) be more efficient. I think the concern about extension compatibility is valid – the experience is shallow beyond support for built-in MediaWiki syntax – and wikis have the option to disable it. I think, for most wikis, the usefulness outweighs the drawbacks. [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
  `{{ {{Weak support}} }}` I hate visual editor and never use it unless I have to write guidelines/docs for the wiki, but I know experienced editors who swear by it. Also, VE is needed for DiscussionTools to work, and that extension has drastically reduced the amount of unsigned comments and made it much easier for new editors to participate in discussions, so overall I think VE is a net positive. And anyone who prefers Source will most likely find it fairly easy to disable Visual in their preferences, as I did. [Emiliers](https://meta.miraheze.org/wiki/User:Emiliers) ([talk](https://meta.miraheze.org/wiki/User_talk:Emiliers)) 18:55, 1 May 2026 (UTC)
  `{{ {{support|weak}} }}` [ark](https://meta.miraheze.org/wiki/User:ark) ([talk](https://meta.miraheze.org/wiki/User_talk:ark)) 07:38, 3 May 2026 (UTC)
+    I lean towards a `{{ {{support|weak}} }}` as well on the original argument raised by Petra and River. I share SRD's concerns on the matter, but think that the user interesting in using such parser functions also fall into the group of more experienced users who can figure out how to turn off VE without much trouble. I would like to possibly see a note on the default wiki main page addressing this slightly though, to minimize confusion for new users. As for the existing docs... yeah that's just not gonna be fun for us but I think overall a net positive, if we do it right. --***[<span style="color:#ff00ae">PixDeVl</span>](https://meta.miraheze.org/wiki/User:PixDeVl)* ([T](https://meta.miraheze.org/wiki/User_talk:PixDeVl)&#124;[C](https://meta.miraheze.org/wiki/Special:Contribs/PixDeVl)&#124;[G](https://meta.miraheze.org/wiki/Special:CA/PixDeVl))** 02:15, 10 May 2026 (UTC)
 
 ## Proposal 11: add Linter and DiscussionTools to default extensions 
 
@@ -345,6 +347,7 @@ Please discuss disabling this option for all wikis that did not change this opti
  `{{ {{support}} }}` The animation slows things down and isn't necessary. [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
  `{{ {{Abstain}} }}` I personally hate the animation, but I've seen a few editors who find it neat, so I don't want to yuck their yum. If there's a tech reason for wanting to disable this (e.g. performance improvements), then consider this a weak support instead. [Emiliers](https://meta.miraheze.org/wiki/User:Emiliers) ([talk](https://meta.miraheze.org/wiki/User_talk:Emiliers)) 21:53, 1 May 2026 (UTC)
  `{{ {{support}} }}` [ark](https://meta.miraheze.org/wiki/User:ark) ([talk](https://meta.miraheze.org/wiki/User_talk:ark)) 07:40, 3 May 2026 (UTC)
+ `{{ {{support|weak}} }}` This might entirely be dependent on the users' preferences. Some don't like animation while some find it neat to see animation. I, for one, would support disabling it, albeit weak as I worry that disabling it might prompt questions from users in discord. ~ [Elisapoly](https://meta.miraheze.org/wiki/User:Elisapoly) ([talk](https://meta.miraheze.org/wiki/User_talk:Elisapoly)) 04:20, 10 May 2026 (UTC)
 
 ### Discussion 12b 
 
@@ -355,6 +358,7 @@ Please discuss disabling this option only for new wikis. [PetraMagna](https://me
  `{{ {{Oppose}} }}` (( ... I really don't like the idea of troubleshooting issues that require knowledge of which wiki generation that a wiki came from ... I prefer apply to all or apply to none ... )) --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 01:53, 25 April 2026 (UTC)
  `{{ {{support}} }}` The animation slows things down and isn't necessary. [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
  `{{ {{Support}} }}` Honestly, thinking about it a bit more, this might be a better option if disabling the animation is preferred, so it doesn't mess with a setting that existing wikis have probably gotten used to (if they haven't taken the opportunity to disable it already). [Emiliers](https://meta.miraheze.org/wiki/User:Emiliers) ([talk](https://meta.miraheze.org/wiki/User_talk:Emiliers)) 04:36, 2 May 2026 (UTC)
+ `{{ {{Support}} }}` For new wiki, I support. If they want the animation, they could just easily enable it. ~ [Elisapoly](https://meta.miraheze.org/wiki/User:Elisapoly) ([talk](https://meta.miraheze.org/wiki/User_talk:Elisapoly)) 04:20, 10 May 2026 (UTC)
 
 ## Proposal 13: disable $wgPortableInfoboxUseHeadings by default 
 
@@ -405,6 +409,7 @@ Please discuss enabling this option for all wikis that did not change this optio
  `{{ {{support}} }}` In general skins should be responsive. [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
  `{{ {{Support}} }}` I wasn't even aware this wasn't default behavior. [Emiliers](https://meta.miraheze.org/wiki/User:Emiliers) ([talk](https://meta.miraheze.org/wiki/User_talk:Emiliers)) 19:03, 1 May 2026 (UTC)
  `{{ {{support}} }}` This should've been made an option by default anyways. --[DarkMatterMan4500](https://meta.miraheze.org/wiki/User:DarkMatterMan4500) ([talk](https://meta.miraheze.org/wiki/User_talk:DarkMatterMan4500)) ([contribs](https://meta.miraheze.org/wiki/Special:Contributions/DarkMatterMan4500)) 11:28, 4 May 2026 (UTC)
+ `{{ {{support}} }}` as skins should be responsive per modern design ~ [Elisapoly](https://meta.miraheze.org/wiki/User:Elisapoly) ([talk](https://meta.miraheze.org/wiki/User_talk:Elisapoly)) 04:19, 10 May 2026 (UTC)
 
 ### Discussion 14b 
 
@@ -417,6 +422,7 @@ Please discuss enabling this option only for new wikis. [PetraMagna](https://met
  `{{ {{support}} }}` in particular with sway from Jane's input as moderately less intrusive, but feel free to interpret a weak support for 14a if it helps, as a change that leans for the net better. --**[raidarr](https://meta.miraheze.org/wiki/User:Raidarr)** **(** [💬](https://meta.miraheze.org/wiki/User_talk:Raidarr) **)** 00:58, 25 April 2026 (UTC)
  `{{ {{Oppose}} }}` (( I vote to apply to all or no wikis ... )) --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 02:12, 25 April 2026 (UTC)
  `{{ {{support}} }}` In general skins should be responsive. [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
+ `{{ {{support}} }}` per my comment above ~ [Elisapoly](https://meta.miraheze.org/wiki/User:Elisapoly) ([talk](https://meta.miraheze.org/wiki/User_talk:Elisapoly)) 04:19, 10 May 2026 (UTC)
 
 ## Proposal 15: set $wgArticleCountMethod to 'any' 
 
