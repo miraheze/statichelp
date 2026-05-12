@@ -2,6 +2,31 @@
 title: Tech:Server admin log
 ---
 
+## 2026-05-11 
+
+* 23:58 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=wwrtest3wikibeta --json=UpgradeWikiSchema.json (END - exit=256)
+* 23:55 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=wwrtest3wikibeta --json=UpgradeWikiSchema.json (END - exit=256)
+* 23:53 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=wwrtest3wikibeta --json=UpgradeWikiSchema.json (END - exit=256)
+* 23:25 TheWWRNerdGuy: [wwr@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist ./dblist.php /srv/mediawiki/1.46/maintenance/run.php sql /srv/mediawiki/1.46/extensions/CheckUser/schema/mysql/patch-cusi_case-def.sql
+* 22:44 TheWWRNerdGuy: [wwr@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist ./dblist.php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --json=UpgradeWikiSchema.json
+* 22:30 TheWWRNerdGuy: [wwr@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist ./dblist.php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --json=UpgradeWikiSchema.json
+* 22:24 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:ChangeMediaWikiVersion --wiki=semanticmediawiki1wikibeta --mwversion=1.46 (END - exit=0)
+* 22:24 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:ChangeMediaWikiVersion --wiki=smwtestwikibeta --mwversion=1.46 (END - exit=0)
+* 22:01 MirahezeLSBot: [macfan@test151] finished deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'SemanticMediaWiki'} to test151 - SUCCESS in 0s
+* 22:01 MirahezeLSBot: [macfan@test151] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'SemanticMediaWiki'} to test151
+* 21:41 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php OATHAuth:PopulateUserHandles --wiki=metawikibeta (END - exit=0)
+* 21:41 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=metawikibeta /srv/mediawiki/1.46/extensions/GlobalBlocking/sql/mysql/patch-globalblocks-modify-gb_address-type.sql --wikidb=testglobal (END - exit=0)
+* 21:41 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=metawikibeta /srv/mediawiki/1.46/extensions/GlobalBlocking/sql/mysql/patch-globalblocks-add-gb_block_email.sql --wikidb=testglobal (END - exit=0)
+* 21:40 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=metawikibeta /srv/mediawiki/1.46/extensions/OATHAuth/sql/mysql/patch-add-oathauth_user_handles.sql --wikidb=testglobal (END - exit=0)
+* 21:37 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:ChangeMediaWikiVersion --wiki=loginwikibeta --mwversion=1.46 --file=dblist.txt (END - exit=0)
+* 21:34 MirahezeLSBot: [wwr@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 21:34 MirahezeLSBot: [wwr@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 17:25 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/initSiteStats.php --wiki=b3313wiki --update (END - exit=0)
+* 17:25 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/rebuildall.php --wiki=b3313wiki (END - exit=0)
+* 16:51 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/rebuildall.php --wiki=b3313wiki (START)
+* 16:51 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=b3313wiki dump.xml --no-updates (END - exit=0)
+* 16:50 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=b3313wiki dump.xml --no-updates (START)
+
 ## 2026-05-10 
 
 * 19:20 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/initSiteStats.php --wiki=itihasawiki --update (END - exit=0)
