@@ -2,6 +2,62 @@
 title: Tech:Server admin log
 ---
 
+## 2026-05-12 
+
+* 23:09 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': ['Maps', 'SemanticMediaWiki']} to all - SUCCESS in 55s
+* 23:08 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': ['Maps', 'SemanticMediaWiki']} to all
+* 23:08 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': ['Maps', 'SemanticMediaWiki']} to test151 - SUCCESS in 1s
+* 23:08 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': ['Maps', 'SemanticMediaWiki']} to test151
+* 22:01 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=testwikibeta --json=UpgradeWikiSchema.json (END - exit=0)
+* 22:01 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=t14400test2wikibeta --json=UpgradeWikiSchema.json (END - exit=0)
+* 22:01 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=skye69wikibeta --json=UpgradeWikiSchema.json (END - exit=0)
+* 22:00 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=skye2wikibeta --json=UpgradeWikiSchema.json (END - exit=0)
+* 21:59 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=atestwikibeta --json=UpgradeWikiSchema.json (END - exit=0)
+* 21:59 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=exttestwikibeta --json=UpgradeWikiSchema.json (END - exit=0)
+* 21:51 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php TimedMediaHandler:migrateTranscodeStates --wiki=atestwikibeta (END - exit=0)
+* 21:49 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=atestwikibeta --json=UpgradeWikiSchema.json (END - exit=256)
+* 21:46 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php TimedMediaHandler:MigrateTranscodeStates --wiki=atestwikibeta (END - exit=256)
+* 21:22 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=atestwikibeta --json=UpgradeWikiSchema.json (END - exit=256)
+* 21:17 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 21:17 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 21:16 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 21:16 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 15:26 MirahezeLSBot: [skye@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_skins': 'Medik'} to all - SUCCESS in 36s
+* 15:26 MirahezeLSBot: [skye@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_skins': 'Medik'} to all
+* 15:23 MirahezeLSBot: [skye@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_skins': 'Medik'} to test151 - SUCCESS in 1s
+* 15:23 MirahezeLSBot: [skye@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_skins': 'Medik'} to test151
+* 15:17 MirahezeLSBot: [skye@test151] starting deploy of {'pull': 'config', 'config': True, 'l10n': True, 'extension_list': True, 'force_upgrade': True, 'versions': '1.45', 'upgrade_skins': 'Medik'} to test151
+* 15:16 Skye: [skye@test151] sudo -u www-data rm -rf /srv/mediawiki-staging/1.45/skins/Medik/
+* 15:12 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=b3313wiki --requester=Poxta (END - exit=0)
+* 15:08 MirahezeLSBot: [skye@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 15:08 MirahezeLSBot: [skye@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_skins': 'Medik'} to test151
+* 14:50 MirahezeLSBot: [skye@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'EmbedVideo'} to all - SUCCESS in 27s
+* 14:50 MirahezeLSBot: [skye@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'EmbedVideo'} to all
+* 14:50 MirahezeLSBot: [skye@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'EmbedVideo'} to test151 - SUCCESS in 1s
+* 14:50 MirahezeLSBot: [skye@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'EmbedVideo'} to test151
+* 01:15 MirahezeLSBot: [wwr@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist ./dblist.php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --json=UpgradeWikiSchema.json
+* 01:11 MirahezeLSBot: [wwr@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist ./dblist.php /srv/mediawiki/1.46/maintenance/run.php sql wwr-patch-cusi_case.sql
+* 01:11 MirahezeLSBot: [wwr@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist ./dblist.php /srv/mediawiki/1.46/maintenance/run.php sql wwr-patch-imagelinks.sql
+* 01:08 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=loadouttest13wikibeta --json=UpgradeWikiSchema.json (END - exit=0)
+* 01:06 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=quicktest1wikibeta --json=UpgradeWikiSchema.json (END - exit=0)
+* 01:03 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=exttestadvancedwikibeta --json=UpgradeWikiSchema.json (END - exit=0)
+* 01:00 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=cdwikibeta --json=UpgradeWikiSchema.json (END - exit=0)
+* 00:59 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=cdwikibeta --json=UpgradeWikiSchema.json (END - exit=256)
+* 00:58 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=cdwikibeta --json=UpgradeWikiSchema.json (END - exit=256)
+* 00:54 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=testwikibeta2wikibeta --json=UpgradeWikiSchema.json (END - exit=0)
+* 00:52 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=testwikibeta2wikibeta --json=UpgradeWikiSchema.json (END - exit=256)
+* 00:52 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=testwikibeta2wikibeta --json=UpgradeWikiSchema.json (END - exit=256)
+* 00:51 TheWWRNerdGuy: [wwr@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist ./dblist.php /srv/mediawiki/1.46/maintenance/run.php sql /srv/mediawiki/1.46/extensions/CheckUser/schema/mysql/patch-cusi_user-def.sql
+* 00:50 MirahezeLSBot: [wwr@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist ./dblist.php /srv/mediawiki/1.46/maintenance/run.php sql /srv/mediawiki/1.46/extensions/CheckUser/schema/mysql/patch-cusi_signal-def.sql
+* 00:43 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=testwikibeta2wikibeta --json=UpgradeWikiSchema.json (END - exit=256)
+* 00:39 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=explodemeeewikibeta --json=UpgradeWikiSchema.json (END - exit=0)
+* 00:37 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=explodemeeewikibeta --json=UpgradeWikiSchema.json (END - exit=256)
+* 00:12 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=wwrtest3wikibeta --json=UpgradeWikiSchema.json (END - exit=0)
+* 00:11 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=wwrtest3wikibeta --json=UpgradeWikiSchema.json (END - exit=256)
+* 00:11 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=wwrtest3wikibeta --json=UpgradeWikiSchema.json (END - exit=256)
+* 00:03 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=wwrtest3wikibeta --json=UpgradeWikiSchema.json (END - exit=256)
+* 00:02 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=wwrtest3wikibeta --json=UpgradeWikiSchema.json (END - exit=256)
+
 ## 2026-05-11 
 
 * 23:58 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=wwrtest3wikibeta --json=UpgradeWikiSchema.json (END - exit=256)

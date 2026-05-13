@@ -27,5 +27,9 @@ sudo puppet agent -tv
 ```
 * Upgrade the extension/skin if necessary
 
+## Categories
+
+* [Category:Technology guidelines and guides](https://meta.miraheze.org/wiki/Category:Technology_guidelines_and_guides)
+
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Mediawiki-repos)**
