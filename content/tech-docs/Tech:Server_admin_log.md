@@ -2,6 +2,13 @@
 title: Tech:Server admin log
 ---
 
+## 2026-05-13 
+
+* 23:43 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=lapfoxhalleywiki --sleep=1 '--comment=Importing files from lapfoxtrax.fandom.com ([T15350](https://meta.miraheze.org/wiki/phorge:T15350))' -- . (START)
+* 23:43 MirahezeLSBot: [skye@mwtask171] Starting import for lapfoxhalleywiki (XML: None; Images: .) (START)
+* 23:18 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=kartkingdomwiki --sleep=1 '--comment=Importing images from [https://kart-kingdomkarts.fandom.com/](https://kart-kingdomkarts.fandom.com/) ([T15336](https://meta.miraheze.org/wiki/phorge:T15336))' -- . (START)
+* 23:18 MirahezeLSBot: [skye@mwtask171] Starting import for kartkingdomwiki (XML: None; Images: .) (START)
+
 ## 2026-05-12 
 
 * 23:09 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': ['Maps', 'SemanticMediaWiki']} to all - SUCCESS in 55s
