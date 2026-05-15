@@ -35,10 +35,6 @@ Two tasks should be created on [Phorge](https://meta.miraheze.org/wiki/Phorge), 
 
 <!-- NOTE: this can be removed in a few releases when all extensions have migrated to virtual domains but as of now this is still ongoing so is mentioned here. -->
 
-#### Community Outreach 
-
-If any extensions are to be removed before the upgrade, this should be communicated via [Tech:Noticeboard](/tech-docs/technoticeboard) and affected wikis should be made aware via the [NotifyWikiUsers](https://meta.miraheze.org/wiki/github:miraheze/MirahezeMagic/blob/main/maintenance/NotifyWikiUsers.php) script in MirahezeMagic. A page for the upgrade (similar to [MediaWiki/1.45](https://meta.miraheze.org/wiki/MediaWiki/1.45)) may be created with user-facing changes and extension removals as well. The schedule, once decided, should also be added to that page.
-
 ### Create JSON Schema for UpgradeWiki 
 
 This JSON file defines the upgrade steps for a wiki, including SQL patches and maintenance scripts. All paths are relative to the server root unless absolute paths are given.

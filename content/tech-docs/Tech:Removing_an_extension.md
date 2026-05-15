@@ -4,6 +4,12 @@ title: Tech:Removing an extension
 
 If a decision has been made to remove an extension from Miraheze—for example, because it is unmaintained, incompatible with the current MediaWiki version, or any other valid reason—the following procedure should be followed. Any user may submit a pull request to remove an extension, but only a [Technology team member](/tech-docs/techvolunteers) with appropriate access can merge and deploy the change.
 
+## Gathering community feedback 
+
+If an extension is about to be removed, though the tech team could consider keeping it with enough community support, consider asking for feedback on a subpage of [Tech:Noticeboard](/tech-docs/technoticeboard). Affected wikis should be made aware via the [NotifyWikiUsers](https://meta.miraheze.org/wiki/github:miraheze/MirahezeMagic/blob/main/maintenance/NotifyWikiUsers.php) script in MirahezeMagic. This will also give them some time to migrate to other solutions before the extension is removed.
+
+## Removing an extension 
+
 *The steps below must be followed in order:*
 
 * First, make sure the extension is temporarily restricted so that no new installs can occur during the removal process. To do this, follow the instructions at the [Globally Disabling Extensions](#globally-disabling-extensions) section.

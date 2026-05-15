@@ -2,6 +2,99 @@
 title: Tech:Server admin log
 ---
 
+## 2026-05-14 
+
+* 21:41 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: libnghttp2-14 and libpq5
+* 21:41 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: libnghttp2-14 and libpq5
+* 21:41 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: libnghttp2-14 and libpq5
+* 21:40 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libswscale8, libavdevice61, libavformat61, libavfilter10, libavcodec61, libavutil59, libpostproc58, libswresample5, ffmpeg, libnghttp2-dev, nghttp2-client, libnghttp2-14, and libpq5
+* 21:40 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: libnghttp2-14 and libpq5
+* 21:40 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: libnghttp2-14 and libpq5
+* 21:39 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: libnghttp2-14 and libpq5
+* 21:39 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: libnghttp2-14 and libpq5
+* 21:39 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: libnghttp2-14 and libpq5
+* 21:39 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: libnghttp2-14 and libpq5
+* 21:38 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: libnghttp2-14 and libpq5
+* 21:38 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb191: libnghttp2-14 and libpq5
+* 21:38 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: libnghttp2-14 and libpq5
+* 21:38 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: libnghttp2-14 and libpq5
+* 21:37 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: libnghttp2-14 and libpq5
+* 21:37 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: gsasl-common, libgsasl18, libnghttp2-14, libpq5, postgresql-client-17, and postgresql-17
+* 21:37 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: libnghttp2-14 and libpq5
+* 21:36 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: libswscale8, libavdevice61, libavformat61, libavfilter10, libavcodec61, libavutil59, libpostproc58, libswresample5, ffmpeg, libnghttp2-14, and libpq5
+* 21:36 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: libnghttp2-14 and libpq5
+* 21:36 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: libnghttp2-14 and libpq5
+* 21:36 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: libnghttp2-14 and libpq5
+* 21:35 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: libnghttp2-14 and libpq5
+* 21:35 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: libnghttp2-14 and libpq5
+* 21:35 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: libnghttp2-14 and libpq5
+* 21:35 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: libswscale8, libavdevice61, libavformat61, libavfilter10, libavcodec61, libavutil59, libpostproc58, libswresample5, ffmpeg, libnghttp2-14, and libpq5
+* 21:34 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: libnghttp2-14 and libpq5
+* 21:34 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: libswscale8, libavdevice61, libavformat61, libavfilter10, libavcodec61, libavutil59, libpostproc58, libswresample5, ffmpeg, libnghttp2-14, and libpq5
+* 21:34 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libswscale8, libavdevice61, libavformat61, libavfilter10, libavcodec61, libavutil59, libpostproc58, libswresample5, ffmpeg, libnghttp2-14, and libpq5
+* 21:34 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: libswscale8, libavdevice61, libavformat61, libavfilter10, libavcodec61, libavutil59, libpostproc58, libswresample5, ffmpeg, libnghttp2-14, and libpq5
+* 21:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: libswscale8, libavdevice61, libavformat61, libavfilter10, libavcodec61, libavutil59, libpostproc58, libswresample5, ffmpeg, libnghttp2-14, and libpq5
+* 21:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: libswscale8, libavdevice61, libavformat61, libavfilter10, libavcodec61, libavutil59, libpostproc58, libswresample5, ffmpeg, libnghttp2-14, and libpq5
+* 21:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: libswscale8, libavdevice61, libavformat61, libavfilter10, libavcodec61, libavutil59, libpostproc58, libswresample5, ffmpeg, libnghttp2-14, and libpq5
+* 21:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: libswscale8, libavdevice61, libavformat61, libavfilter10, libavcodec61, libavutil59, libpostproc58, libswresample5, ffmpeg, libnghttp2-14, and libpq5
+* 21:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: libswscale8, libavdevice61, libavformat61, libavfilter10, libavcodec61, libavutil59, libpostproc58, libswresample5, ffmpeg, libnghttp2-14, and libpq5
+* 21:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: libswscale8, libavdevice61, libavformat61, libavfilter10, libavcodec61, libavutil59, libpostproc58, libswresample5, ffmpeg, libnghttp2-14, and libpq5
+* 21:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: libswscale8, libavdevice61, libavformat61, libavfilter10, libavcodec61, libavutil59, libpostproc58, libswresample5, ffmpeg, libnghttp2-14, and libpq5
+* 21:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: libswscale8, libavdevice61, libavformat61, libavfilter10, libavcodec61, libavutil59, libpostproc58, libswresample5, ffmpeg, libnghttp2-14, and libpq5
+* 21:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: libswscale8, libavdevice61, libavformat61, libavfilter10, libavcodec61, libavutil59, libpostproc58, libswresample5, ffmpeg, libnghttp2-14, and libpq5
+* 21:30 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: libswscale8, libavdevice61, libavformat61, libavfilter10, libavcodec61, libavutil59, libpostproc58, libswresample5, ffmpeg, libnghttp2-14, and libpq5
+* 21:30 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: libswscale8, libavdevice61, libavformat61, libavfilter10, libavcodec61, libavutil59, libpostproc58, libswresample5, ffmpeg, libnghttp2-14, and libpq5
+* 21:30 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: libswscale8, libavdevice61, libavformat61, libavfilter10, libavcodec61, libavutil59, libpostproc58, libswresample5, ffmpeg, libnghttp2-14, and libpq5
+* 21:29 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: libswscale8, libavdevice61, libavformat61, libavfilter10, libavcodec61, libavutil59, libpostproc58, libswresample5, ffmpeg, libnghttp2-14, and libpq5
+* 21:29 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: libswscale8, libavdevice61, libavformat61, libavfilter10, libavcodec61, libavutil59, libpostproc58, libswresample5, ffmpeg, libnghttp2-14, and libpq5
+* 21:29 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: libswscale8, libavdevice61, libavformat61, libavfilter10, libavcodec61, libavutil59, libpostproc58, libswresample5, ffmpeg, libnghttp2-14, and libpq5
+* 21:28 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: libnghttp2-14 and libpq5
+* 21:28 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: libswscale8, libavdevice61, libavformat61, libavfilter10, libavcodec61, libavutil59, libpostproc58, libswresample5, ffmpeg, libnghttp2-14, and libpq5
+* 21:28 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: libswscale8, libavdevice61, libavformat61, libavfilter10, libavcodec61, libavutil59, libpostproc58, libswresample5, ffmpeg, libnghttp2-14, and libpq5
+* 21:28 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: libnghttp2-14 and libpq5
+* 21:27 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: libnghttp2-14 and libpq5
+* 21:27 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: libnghttp2-14 and libpq5
+* 21:27 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: libnghttp2-14 and libpq5
+* 21:27 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: libnghttp2-14 and libpq5
+* 21:26 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: libnghttp2-14 and libpq5
+* 21:26 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: libnghttp2-14 and libpq5
+* 21:26 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: libnghttp2-14 and libpq5
+* 21:26 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: libnghttp2-14, libpq5, postgresql-client-17, and postgresql-17
+* 21:25 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: libnghttp2-14 and libpq5
+* 21:25 MirahezeLSBot: [void@puppet181] Upgraded packages on db201: libnghttp2-14 and libpq5
+* 21:25 MirahezeLSBot: [void@puppet181] Upgraded packages on db192: libnghttp2-14 and libpq5
+* 21:25 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: libnghttp2-14 and libpq5
+* 21:24 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: libnghttp2-14 and libpq5
+* 21:24 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: libnghttp2-14 and libpq5
+* 21:24 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: libnghttp2-14 and libpq5
+* 21:24 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: libnghttp2-14 and libpq5
+* 21:23 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: libnghttp2-14 and libpq5
+* 21:23 MirahezeLSBot: [void@cloud21] clear ipmi server event log (inlet temperature going high again)
+* 21:23 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: libnghttp2-14 and libpq5
+* 21:23 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: libnghttp2-14 and libpq5
+* 21:23 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: libnghttp2-14 and libpq5
+* 21:22 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: libnghttp2-14 and libpq5
+* 21:22 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: libnghttp2-14 and libpq5
+* 21:22 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: libnghttp2-14 and libpq5
+* 21:22 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: libnghttp2-14 and libpq5
+* 21:22 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: libnghttp2-14 and libpq5
+* 21:21 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: libnghttp2-14 and libpq5
+* 21:21 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: libnghttp2-14 and libpq5
+* 21:20 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: libnghttp2-14 and libpq5
+* 21:20 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: libnghttp2-14 and libpq5
+* 21:20 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: libnghttp2-14 and libpq5
+* 21:20 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: libnghttp2-14 and libpq5
+* 21:20 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: libnghttp2-14 and libpq5
+* 21:19 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: libnghttp2-14 and libpq5
+* 03:54 MirahezeLSBot: [skye@mwtask171] Finished import for kartkingdomwiki (XML: None; Images: .) (END - exit=0)
+* 03:54 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=kartkingdomwiki --update (END - exit=0)
+* 03:54 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=kartkingdomwiki --update (START)
+* 03:54 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=kartkingdomwiki --sleep=1 '--comment=Importing images from [https://kart-kingdomkarts.fandom.com/](https://kart-kingdomkarts.fandom.com/) ([T15336](https://meta.miraheze.org/wiki/phorge:T15336))' -- . (END - exit=0)
+* 01:05 MirahezeLSBot: [skye@mwtask171] Finished import for lapfoxhalleywiki (XML: None; Images: .) (END - exit=0)
+* 01:05 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=lapfoxhalleywiki --update (END - exit=0)
+* 01:05 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=lapfoxhalleywiki --update (START)
+* 01:05 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=lapfoxhalleywiki --sleep=1 '--comment=Importing files from lapfoxtrax.fandom.com ([T15350](https://meta.miraheze.org/wiki/phorge:T15350))' -- . (END - exit=0)
+
 ## 2026-05-13 
 
 * 23:43 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=lapfoxhalleywiki --sleep=1 '--comment=Importing files from lapfoxtrax.fandom.com ([T15350](https://meta.miraheze.org/wiki/phorge:T15350))' -- . (START)
