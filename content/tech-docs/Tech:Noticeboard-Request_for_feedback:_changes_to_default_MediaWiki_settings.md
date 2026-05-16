@@ -64,28 +64,35 @@ Please discuss below. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagn
 
 ## Proposal 3: remove CiteThisPage from default extensions 
 
-**[CiteThisPage](https://meta.miraheze.org/wiki/mw:Extension:CiteThisPage)** adds an additional link on the sidebar. The link is frequently abused by bots and crawlers, and they clutter the interface. The Purge extension also adds a sidebar button, but the button is useful enough to warrant exclusion from this proposal.
+```
+{{ {{Discussion
+|comment=Closing as {{done|successful}}. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 07:44, 15 May 2026 (UTC)
+|1=
+
+'''[[mw:Extension:CiteThisPage|CiteThisPage]]''' adds an additional link on the sidebar. The link is frequently abused by bots and crawlers, and they clutter the interface. The Purge extension also adds a sidebar button, but the button is useful enough to warrant exclusion from this proposal.
 
 CiteThisPage is rarely used except for the few wikis that serve citable content in an academic context. As such, we should not let this extension take up valuable space on every page of each wiki and instead let wikis that need it opt in.
 
-### Discussion 3 
+=== Discussion 3 ===
+Please discuss below. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 05:07, 23 April 2026 (UTC)
 
-Please discuss below. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 05:07, 23 April 2026 (UTC)
+:{{support}} As proposer. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 05:11, 23 April 2026 (UTC)
+:{{support}} [[User:KockaAdmiralac|KockaAdmiralac]] ([[User talk:KockaAdmiralac|talk]]) 17:11, 23 April 2026 (UTC)
+:{{support}} per proposal. - [[User:JaneBuzJane|JaneBuzJane]] ([[User talk:JaneBuzJane|talk]]) 19:17, 23 April 2026 (UTC)
+:{{support}} per above. [[User:TheWWRNerdGuy|TheWWRNerdGuy]] ([[User talk:TheWWRNerdGuy|talk]]) 19:51, 23 April 2026 (UTC)
+:{{support|weak}} as while the usefulness of the feature outweighs interface clutter in my opinion, if it's enough of a performance problem that bots crawling it causes issues, then it would make sense to limit to wikis with actually citable content. — <span style="font-variant: small-caps">[[User:Chrs|chrs]] ([[User talk:Chrs|talk]])</span> 23:40, 23 April 2026 (UTC)
+:{{support}} I don't think anybody is using this. [[User:SomeRandomDeveloper|SomeRandomDeveloper]] ([[User talk:SomeRandomDeveloper|talk]]) 12:34, 24 April 2026 (UTC)
+:{{support|weak}} I just find it quite bothersome in some aspects. --[[User:DarkMatterMan4500|DarkMatterMan4500]] ([[User talk:DarkMatterMan4500|talk]]) ([[Special:Contributions/DarkMatterMan4500|contribs]]) 15:29, 24 April 2026 (UTC)
+:{{Oppose}} (( ... I kind of feel educating the users on building a better looking site would be a better approach than removing the extension ... because it does sound like a useful extension ... I vote to keep the extension ... )) --- [[User:Imamy|Imamy]] ([[User talk:Imamy|talk]]) 00:33, 25 April 2026 (UTC)
+::This is about not automatically enabling it for new wikis, not removing the extension from Miraheze entirely. Anyone can always enable it from ManageWiki. [[User:TheWWRNerdGuy|TheWWRNerdGuy]] ([[User talk:TheWWRNerdGuy|talk]]) 12:13, 25 April 2026 (UTC)
+::::: The proposal sounded much like the change is towards improving appearance of a wiki ... It does not matter whether the User can find the extension in ManageWiki ... if creative control begins from the tech end, then a tutorial should accompany the wiki so that users know how to request help ... 
+:::--- [[User:Imamy|Imamy]] ([[User talk:Imamy|talk]]) 20:49, 25 April 2026 (UTC)
+:{{support}} as this seems to be very academic related, which 99% of wikis here probably don't use it ~ [[User:Elisapoly|Elisapoly]] ([[User talk:Elisapoly|talk]]) 17:40, 25 April 2026 (UTC)
+:{{support}} It's a very Wikipedia-centric feature that I don't think makes sense for most wikis. Most people in my experience just copy the wiki link without building out a full academic citation. It should remain available for the wikis that want it but it doesn't make sense to me to have it on by default. [[User:Harej|Harej]] ([[User talk:Harej|talk]]) 02:09, 1 May 2026 (UTC)
+:{{Neutral}} I've never used it on our wiki, but I don't want to preclude the possibility of it being really useful for other people, even just passerbys accessing our wiki for the first time. [[User:Emiliers|Emiliers]] ([[User talk:Emiliers|talk]]) 21:36, 1 May 2026 (UTC)
 
- `{{ {{support}} }}` As proposer. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 05:11, 23 April 2026 (UTC)
- `{{ {{support}} }}` [KockaAdmiralac](https://meta.miraheze.org/wiki/User:KockaAdmiralac) ([talk](https://meta.miraheze.org/wiki/User_talk:KockaAdmiralac)) 17:11, 23 April 2026 (UTC)
- `{{ {{support}} }}` per proposal. - [JaneBuzJane](https://meta.miraheze.org/wiki/User:JaneBuzJane) ([talk](https://meta.miraheze.org/wiki/User_talk:JaneBuzJane)) 19:17, 23 April 2026 (UTC)
- `{{ {{support}} }}` per above. [TheWWRNerdGuy](https://meta.miraheze.org/wiki/User:TheWWRNerdGuy) ([talk](https://meta.miraheze.org/wiki/User_talk:TheWWRNerdGuy)) 19:51, 23 April 2026 (UTC)
- `{{ {{support|weak}} }}` as while the usefulness of the feature outweighs interface clutter in my opinion, if it's enough of a performance problem that bots crawling it causes issues, then it would make sense to limit to wikis with actually citable content. — [chrs](https://meta.miraheze.org/wiki/User:Chrs) ([talk](https://meta.miraheze.org/wiki/User_talk:Chrs)) 23:40, 23 April 2026 (UTC)
- `{{ {{support}} }}` I don't think anybody is using this. [SomeRandomDeveloper](https://meta.miraheze.org/wiki/User:SomeRandomDeveloper) ([talk](https://meta.miraheze.org/wiki/User_talk:SomeRandomDeveloper)) 12:34, 24 April 2026 (UTC)
- `{{ {{support|weak}} }}` I just find it quite bothersome in some aspects. --[DarkMatterMan4500](https://meta.miraheze.org/wiki/User:DarkMatterMan4500) ([talk](https://meta.miraheze.org/wiki/User_talk:DarkMatterMan4500)) ([contribs](https://meta.miraheze.org/wiki/Special:Contributions/DarkMatterMan4500)) 15:29, 24 April 2026 (UTC)
- `{{ {{Oppose}} }}` (( ... I kind of feel educating the users on building a better looking site would be a better approach than removing the extension ... because it does sound like a useful extension ... I vote to keep the extension ... )) --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 00:33, 25 April 2026 (UTC)
-      This is about not automatically enabling it for new wikis, not removing the extension from Miraheze entirely. Anyone can always enable it from ManageWiki. [TheWWRNerdGuy](https://meta.miraheze.org/wiki/User:TheWWRNerdGuy) ([talk](https://meta.miraheze.org/wiki/User_talk:TheWWRNerdGuy)) 12:13, 25 April 2026 (UTC)
-                The proposal sounded much like the change is towards improving appearance of a wiki ... It does not matter whether the User can find the extension in ManageWiki ... if creative control begins from the tech end, then a tutorial should accompany the wiki so that users know how to request help ...
-         --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 20:49, 25 April 2026 (UTC)
- `{{ {{support}} }}` as this seems to be very academic related, which 99% of wikis here probably don't use it ~ [Elisapoly](https://meta.miraheze.org/wiki/User:Elisapoly) ([talk](https://meta.miraheze.org/wiki/User_talk:Elisapoly)) 17:40, 25 April 2026 (UTC)
- `{{ {{support}} }}` It's a very Wikipedia-centric feature that I don't think makes sense for most wikis. Most people in my experience just copy the wiki link without building out a full academic citation. It should remain available for the wikis that want it but it doesn't make sense to me to have it on by default. [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
- `{{ {{Neutral}} }}` I've never used it on our wiki, but I don't want to preclude the possibility of it being really useful for other people, even just passerbys accessing our wiki for the first time. [Emiliers](https://meta.miraheze.org/wiki/User:Emiliers) ([talk](https://meta.miraheze.org/wiki/User_talk:Emiliers)) 21:36, 1 May 2026 (UTC)
+}} }}
+```
 
 ## Proposal 4: remove URL Shortener from default extensions 
 
@@ -242,23 +249,30 @@ Please discuss enabling this option only for new wikis. [[User:PetraMagna|PetraM
 
 ## Proposal 9: add InputBox to default extensions 
 
-Many new users don't know how to create a wiki page. To address this, the default main page for new wikis recommend enabling CreatePage or CreatePageUw. This is not necessary if **[InputBox](https://meta.miraheze.org/wiki/mw:Extension:InputBox)** is enabled: we can simply add a page creation input box to the main page. The user enters a page title and is taken to the editing interface to create the corresponding page. This improves the new wiki experience, and if the wiki does not need the functionalities of this extension, InputBox stays out of the way.
+```
+{{ {{Discussion
+|comment=Closing as {{done|successful}}. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 07:46, 15 May 2026 (UTC)
+|1=
 
-Note that InputBox's benefits apply only to the main page of new wikis, though it has many other uses and is [deployed on many other wiki hosts](https://meta.miraheze.org/wiki/mw:Extension:InputBox#See_also).
+Many new users don't know how to create a wiki page. To address this, the default main page for new wikis recommend enabling CreatePage or CreatePageUw. This is not necessary if '''[[mw:Extension:InputBox|InputBox]]''' is enabled: we can simply add a page creation input box to the main page. The user enters a page title and is taken to the editing interface to create the corresponding page. This improves the new wiki experience, and if the wiki does not need the functionalities of this extension, InputBox stays out of the way.
 
-### Discussion 9 
+Note that InputBox's benefits apply only to the main page of new wikis, though it has many other uses and is [[mw:Extension:InputBox#See_also|deployed on many other wiki hosts]].
 
-Please discuss below. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 05:07, 23 April 2026 (UTC)
+=== Discussion 9 ===
+Please discuss below. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 05:07, 23 April 2026 (UTC)
 
- `{{ {{support}} }}` As proposer. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 05:18, 23 April 2026 (UTC)
- `{{ {{Weak support}} }}` I personally believe that users need to figure a few things out on their own ("teach a man to fish" etc.) but I know that MH as a farm does try to enable editors of all types, especially new wikians, and this proposal would support that initiative. I also don't like that this extension explicitly calls out that the [buttons aren't accessible](https://meta.miraheze.org/wiki/mw:Extension:InputBox#General_syntax), yet has made no move to fix it—but that is mostly a personal quibble. - [JaneBuzJane](https://meta.miraheze.org/wiki/User:JaneBuzJane) ([talk](https://meta.miraheze.org/wiki/User_talk:JaneBuzJane)) 19:38, 23 April 2026 (UTC)
- `{{ {{support}} }}` looks like a good way to reduce the "how to make an article" questions we get. [TheWWRNerdGuy](https://meta.miraheze.org/wiki/User:TheWWRNerdGuy) ([talk](https://meta.miraheze.org/wiki/User_talk:TheWWRNerdGuy)) 20:17, 23 April 2026 (UTC)
- `{{ {{support}} }}` as this is a useful extension in general and one without downsides to enabling. — [chrs](https://meta.miraheze.org/wiki/User:Chrs) ([talk](https://meta.miraheze.org/wiki/User_talk:Chrs)) 23:58, 23 April 2026 (UTC)
- `{{ {{support}} }}` per above as this is generally good for brand new users ~ [Elisapoly](https://meta.miraheze.org/wiki/User:Elisapoly) ([talk](https://meta.miraheze.org/wiki/User_talk:Elisapoly)) 18:42, 24 April 2026 (UTC)
- `{{ {{Oppose}} }}` (( It feels intrusive ... Even though it may be easy to disable but I think it's much the same as when it was proposed to add a community portal to every wiki by default ... I am okay with it if it is an option that can be selected from within the wiki request to be implemented if the wiki is approved ... but I do not want it as a default ... )) --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 01:29, 25 April 2026 (UTC)
- `{{ {{support}} }}` I've always found it to be useful as an entry point for page creation. [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
- `{{ {{Abstain}} }}` Personal preference, but I prefer the Create Page link over an input box, and looking at the docs, the buttons having nonaccessible labels don't inspire much confidence either. But I also don't want to reject an extension I've never even tried out before, especially when it's clear that others find it a useful entry point. [Emiliers](https://meta.miraheze.org/wiki/User:Emiliers) ([talk](https://meta.miraheze.org/wiki/User_talk:Emiliers)) 21:50, 1 May 2026 (UTC)
- `{{ {{support|partial}} }}` I wouldn't mind this very much. --[DarkMatterMan4500](https://meta.miraheze.org/wiki/User:DarkMatterMan4500) ([talk](https://meta.miraheze.org/wiki/User_talk:DarkMatterMan4500)) ([contribs](https://meta.miraheze.org/wiki/Special:Contributions/DarkMatterMan4500)) 18:32, 9 May 2026 (UTC)
+:{{support}} As proposer. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 05:18, 23 April 2026 (UTC)
+:{{Weak support}} I personally believe that users need to figure a few things out on their own ("teach a man to fish" etc.) but I know that MH as a farm does try to enable editors of all types, especially new wikians, and this proposal would support that initiative. I also don't like that this extension explicitly calls out that the [[mw:Extension:InputBox#General_syntax|buttons aren't accessible]], yet has made no move to fix it—but that is mostly a personal quibble. - [[User:JaneBuzJane|JaneBuzJane]] ([[User talk:JaneBuzJane|talk]]) 19:38, 23 April 2026 (UTC)
+:{{support}} looks like a good way to reduce the "how to make an article" questions we get. [[User:TheWWRNerdGuy|TheWWRNerdGuy]] ([[User talk:TheWWRNerdGuy|talk]]) 20:17, 23 April 2026 (UTC)
+:{{support}} as this is a useful extension in general and one without downsides to enabling. — <span style="font-variant: small-caps">[[User:Chrs|chrs]] ([[User talk:Chrs|talk]])</span> 23:58, 23 April 2026 (UTC)
+:{{support}} per above as this is generally good for brand new users ~ [[User:Elisapoly|Elisapoly]] ([[User talk:Elisapoly|talk]]) 18:42, 24 April 2026 (UTC)
+:{{Oppose}} (( It feels intrusive ... Even though it may be easy to disable but I think it's much the same as when it was proposed to add a community portal to every wiki by default ... I am okay with it if it is an option that can be selected from within the wiki request to be implemented if the wiki is approved ... but I do not want it as a default ... )) --- [[User:Imamy|Imamy]] ([[User talk:Imamy|talk]]) 01:29, 25 April 2026 (UTC)
+:{{support}} I've always found it to be useful as an entry point for page creation. [[User:Harej|Harej]] ([[User talk:Harej|talk]]) 02:09, 1 May 2026 (UTC)
+:{{Abstain}} Personal preference, but I prefer the Create Page link over an input box, and looking at the docs, the buttons having nonaccessible labels don't inspire much confidence either. But I also don't want to reject an extension I've never even tried out before, especially when it's clear that others find it a useful entry point. [[User:Emiliers|Emiliers]] ([[User talk:Emiliers|talk]]) 21:50, 1 May 2026 (UTC)
+: {{support|partial}} I wouldn't mind this very much. --[[User:DarkMatterMan4500|DarkMatterMan4500]] ([[User talk:DarkMatterMan4500|talk]]) ([[Special:Contributions/DarkMatterMan4500|contribs]]) 18:32, 9 May 2026 (UTC)
+
+}} }}
+```
 
 ## Proposal 10: add VisualEditor to default extensions 
 
