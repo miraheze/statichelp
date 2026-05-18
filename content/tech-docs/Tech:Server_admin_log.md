@@ -2,6 +2,13 @@
 title: Tech:Server admin log
 ---
 
+## 2026-05-17 
+
+* 19:08 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: redis-server and redis-tools
+* 19:08 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb191: redis-server and redis-tools
+* 19:07 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: redis-server and redis-tools
+* 19:07 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: redis-server and redis-tools
+
 ## 2026-05-16 
 
 * 20:00 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: nginx and nginx-common
