@@ -2,6 +2,12 @@
 title: Tech:Server admin log
 ---
 
+## 2026-05-18 
+
+* 23:49 MirahezeLSBot: [void@db172] deleted mariadb full backup from June 2025
+* 17:34 RhinosF1: doing a deploy
+* 01:59 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php Bucket:CreateInitialSchemaForBucketIssues --wiki=sagan4alphawiki (END - exit=0)
+
 ## 2026-05-17 
 
 * 19:08 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: redis-server and redis-tools
