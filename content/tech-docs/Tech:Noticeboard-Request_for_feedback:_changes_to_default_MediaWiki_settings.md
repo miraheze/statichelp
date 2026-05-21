@@ -276,6 +276,7 @@ Please discuss below. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|tal
 
 ## Proposal 10: add VisualEditor to default extensions 
 
+ `{{ {{Discussion top|Closed as {{done|successful}}. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 12:07, 20 May 2026 (UTC)}} }}`
 **[VisualEditor](https://meta.miraheze.org/wiki/mw:Extension:VisualEditor)** is a controversial extension. I did not expect it to receive support knowing that most experienced editors only use the source editor. However, River changed my mind on this topic. A paraphrase of her argument is below:
 
 | + How different defaults affect users |
@@ -311,6 +312,7 @@ Please discuss below. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagn
  `{{ {{support|weak}} }}` [ark](https://meta.miraheze.org/wiki/User:ark) ([talk](https://meta.miraheze.org/wiki/User_talk:ark)) 07:38, 3 May 2026 (UTC)
     I lean towards a `{{ {{support|weak}} }}` as well on the original argument raised by Petra and River. I share SRD's concerns on the matter, but think that the user interesting in using such parser functions also fall into the group of more experienced users who can figure out how to turn off VE without much trouble. I would like to possibly see a note on the default wiki main page addressing this slightly though, to minimize confusion for new users. As for the existing docs... yeah that's just not gonna be fun for us but I think overall a net positive, if we do it right. --***[<span style="color:#ff00ae">PixDeVl</span>](https://meta.miraheze.org/wiki/User:PixDeVl)* ([T](https://meta.miraheze.org/wiki/User_talk:PixDeVl)&#124;[C](https://meta.miraheze.org/wiki/Special:Contribs/PixDeVl)&#124;[G](https://meta.miraheze.org/wiki/Special:CA/PixDeVl))** 02:15, 10 May 2026 (UTC)
  `{{ {{support}} }}` This should've been done right from the start, honestly. --[DarkMatterMan4500](https://meta.miraheze.org/wiki/User:DarkMatterMan4500) ([talk](https://meta.miraheze.org/wiki/User_talk:DarkMatterMan4500)) ([contribs](https://meta.miraheze.org/wiki/Special:Contributions/DarkMatterMan4500)) 17:04, 16 May 2026 (UTC)
+ `{{ {{Discussion bottom}} }}`
 
 ## Proposal 11: add Linter and DiscussionTools to default extensions 
 
