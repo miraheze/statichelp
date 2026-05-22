@@ -429,6 +429,7 @@ Please discuss enabling this option for all wikis that did not change this optio
  `{{ {{Support}} }}` I wasn't even aware this wasn't default behavior. [Emiliers](https://meta.miraheze.org/wiki/User:Emiliers) ([talk](https://meta.miraheze.org/wiki/User_talk:Emiliers)) 19:03, 1 May 2026 (UTC)
  `{{ {{support}} }}` This should've been made an option by default anyways. --[DarkMatterMan4500](https://meta.miraheze.org/wiki/User:DarkMatterMan4500) ([talk](https://meta.miraheze.org/wiki/User_talk:DarkMatterMan4500)) ([contribs](https://meta.miraheze.org/wiki/Special:Contributions/DarkMatterMan4500)) 11:28, 4 May 2026 (UTC)
  `{{ {{support}} }}` as skins should be responsive per modern design ~ [Elisapoly](https://meta.miraheze.org/wiki/User:Elisapoly) ([talk](https://meta.miraheze.org/wiki/User_talk:Elisapoly)) 04:19, 10 May 2026 (UTC)
+ `{{ {{Support}} }}` per PetraMagna. **[<span style="color:black;">O<small>BSIDIAN</small>G<small>UY</small></span>](https://meta.miraheze.org/wiki/User:ObsidianGuy) ([T](https://meta.miraheze.org/wiki/User_talk:ObsidianGuy)| [C](https://meta.miraheze.org/wiki/Special:Contributions/ObsidianGuy)| [G](https://meta.miraheze.org/wiki/Special:CentralAuth/ObsidianGuy))** 23:52, 21 May 2026 (UTC)
 
 ### Discussion 14b 
 
@@ -503,6 +504,7 @@ Discuss enabling this option for all users that did not change this option. [Koc
 <!--No template, thanks in advance.-->
 
 Hell no. Defeats the purpose of the rollback. &mdash;[<span style="color:green"><kbd>revi</kbd></span>](https://meta.miraheze.org/wiki/User:Revi) 10:13, 9 May 2026 (UTC)
+ `{{ {{Support}} }}`. **[<span style="color:black;">O<small>BSIDIAN</small>G<small>UY</small></span>](https://meta.miraheze.org/wiki/User:ObsidianGuy) ([T](https://meta.miraheze.org/wiki/User_talk:ObsidianGuy)| [C](https://meta.miraheze.org/wiki/Special:Contributions/ObsidianGuy)| [G](https://meta.miraheze.org/wiki/Special:CentralAuth/ObsidianGuy))** 23:50, 21 May 2026 (UTC)
 
 ### Discussion 16b 
 

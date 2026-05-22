@@ -2,6 +2,84 @@
 title: Tech:Server admin log
 ---
 
+## 2026-05-21 
+
+* 23:31 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: libnss3
+* 23:30 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: libnss3
+* 22:10 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: libnss3
+* 22:10 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: libnss3
+* 22:09 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: libnss3
+* 22:09 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: libnss3
+* 22:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: libnss3
+* 22:09 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libnss3
+* 22:08 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: libnss3
+* 22:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: libnss3
+* 22:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: libnss3
+* 22:07 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: libnss3
+* 22:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: libnss3
+* 22:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libnss3
+* 22:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: libnss3
+* 22:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: libnss3
+* 22:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: libnss3
+* 22:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: libnss3
+* 22:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: libnss3
+* 22:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: libnss3
+* 22:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: libnss3
+* 22:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: libnss3
+* 22:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: libnss3
+* 22:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: libnss3
+* 22:04 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: libnss3
+* 22:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: libnss3
+* 22:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: libnss3
+* 22:03 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: libnss3
+* 22:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: libnss3
+* 22:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: libnss3
+* 22:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: libnss3
+* 22:02 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: libnss3
+* 22:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: libnss3
+* 22:01 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: libnss3
+* 22:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: libnss3
+* 22:01 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: libnss3
+* 22:01 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: libnss3
+* 22:00 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: libnss3
+* 22:00 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: libnss3
+* 20:14 MirahezeLSBot: [skye@mwtask171] Finished import for b3313wiki (XML: None; Images: files/) (END - exit=0)
+* 20:14 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=b3313wiki --update (END - exit=0)
+* 20:14 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=b3313wiki --update (START)
+* 20:14 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=b3313wiki --sleep=1 '--comment=Importing files from b3313.fandom.com ([T15374](https://meta.miraheze.org/wiki/phorge:T15374))' -- files/ (END - exit=0)
+* 20:00 PetraMagna: Run SQL `update securepoll_properties set pr_value=3 where pr_entity=59 and pr_key='default-score';` on metawiki
+* 19:50 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'folders': '1.45/extensions/SecurePoll'} to all - SUCCESS in 24s
+* 19:50 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'folders': '1.45/extensions/SecurePoll'} to all
+* 19:31 MirahezeLSBot: [skye@mwtask171] Finished import for housingwiki (XML: None; Images: .) (END - exit=0)
+* 19:31 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=housingwiki --update (END - exit=0)
+* 19:31 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=housingwiki --update (START)
+* 19:31 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=housingwiki --sleep=1 '--comment=Importing images from horrific-housing.fandom.com ([T15385](https://meta.miraheze.org/wiki/phorge:T15385))' -- . (END - exit=0)
+* 19:07 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/SecurePoll'} to test151 - SUCCESS in 0s
+* 19:07 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/SecurePoll'} to test151
+* 19:06 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/SecurePoll'} to test151 - SUCCESS in 0s
+* 19:06 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/SecurePoll'} to test151
+* 18:39 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=housingwiki --sleep=1 '--comment=Importing images from horrific-housing.fandom.com ([T15385](https://meta.miraheze.org/wiki/phorge:T15385))' -- . (START)
+* 18:39 MirahezeLSBot: [skye@mwtask171] Starting import for housingwiki (XML: None; Images: .) (START)
+* 18:30 PetraMagna: Executing SQL `delete from securepoll_properties where pr_entity=58 and pr_key='tally-error';` on metawiki
+* 18:30 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=b3313wiki --sleep=1 '--comment=Importing files from b3313.fandom.com ([T15374](https://meta.miraheze.org/wiki/phorge:T15374))' -- files/ (START)
+* 18:30 MirahezeLSBot: [skye@mwtask171] Starting import for b3313wiki (XML: None; Images: files/) (START)
+* 18:28 MirahezeLSBot: [skye@mwtask171] Finished import for b3313wiki (XML: b3313_pages_full.xml; Images: files/) (END - exit=1)
+* 18:28 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=b3313wiki --sleep=1 '--comment=Importing files from b3313.fandom.com ([T15374](https://meta.miraheze.org/wiki/phorge:T15374))' -- files/ (END - exit=1)
+* 18:25 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/SecurePoll'} to test151 - SUCCESS in 0s
+* 18:25 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/SecurePoll'} to test151
+* 18:24 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 18:24 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 18:23 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=b3313wiki --sleep=1 '--comment=Importing files from b3313.fandom.com ([T15374](https://meta.miraheze.org/wiki/phorge:T15374))' -- files/ (START)
+* 18:23 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=b3313wiki --no-updates --username-prefix=fandom:b3313 -- b3313_pages_full.xml (END - exit=0)
+* 18:13 MirahezeLSBot: [skye@mwtask171] Finished import for frojoappswiki (XML: None; Images: .) (END - exit=0)
+* 18:13 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=frojoappswiki --update (END - exit=0)
+* 18:13 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=frojoappswiki --update (START)
+* 18:13 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=frojoappswiki --sleep=1 '--comment=Importing images from frojoapps.fandom.com ([T15355](https://meta.miraheze.org/wiki/phorge:T15355))' -- . (END - exit=0)
+* 17:59 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=b3313wiki --no-updates --username-prefix=fandom:b3313 -- b3313_pages_full.xml (START)
+* 17:59 MirahezeLSBot: [skye@mwtask171] Starting import for b3313wiki (XML: b3313_pages_full.xml; Images: files/) (START)
+* 17:50 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=frojoappswiki --sleep=1 '--comment=Importing images from frojoapps.fandom.com ([T15355](https://meta.miraheze.org/wiki/phorge:T15355))' -- . (START)
+* 17:50 MirahezeLSBot: [skye@mwtask171] Starting import for frojoappswiki (XML: None; Images: .) (START)
+
 ## 2026-05-20 
 
 * 21:41 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: bind9-host, bind9-dnsutils, and bind9-libs
