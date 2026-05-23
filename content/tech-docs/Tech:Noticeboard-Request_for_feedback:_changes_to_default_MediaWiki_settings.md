@@ -505,6 +505,7 @@ Discuss enabling this option for all users that did not change this option. [Koc
 
 Hell no. Defeats the purpose of the rollback. &mdash;[<span style="color:green"><kbd>revi</kbd></span>](https://meta.miraheze.org/wiki/User:Revi) 10:13, 9 May 2026 (UTC)
  `{{ {{Support}} }}`. **[<span style="color:black;">O<small>BSIDIAN</small>G<small>UY</small></span>](https://meta.miraheze.org/wiki/User:ObsidianGuy) ([T](https://meta.miraheze.org/wiki/User_talk:ObsidianGuy)| [C](https://meta.miraheze.org/wiki/Special:Contributions/ObsidianGuy)| [G](https://meta.miraheze.org/wiki/Special:CentralAuth/ObsidianGuy))** 23:50, 21 May 2026 (UTC)
+ `{{ {{oppose|weak}} }}` per above -- **🏕** [<span style="color:#1e42fe">{{annotation|'''小美粉粉'''|Do not ping me! }}</span>](https://meta.miraheze.org/wiki/User:小美粉粉) ([<span style="color:#af4ebc">'''Going Head-to-Head with Me'''</span>](https://meta.miraheze.org/wiki/User_Talk:小美粉粉#top) · [<span style="color:#6efa45">'''See My Contributions'''</span>](https://meta.miraheze.org/wiki/Special:Contributions/小美粉粉) · [<span style="color:#4ab29f">'''See My Global Contributions'''</span>](https://meta.miraheze.org/wiki/Special:CentralAuth/小美粉粉)) 12:47, 22 May 2026 (UTC)
 
 ### Discussion 16b 
 

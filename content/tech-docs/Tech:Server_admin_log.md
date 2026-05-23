@@ -2,6 +2,141 @@
 title: Tech:Server admin log
 ---
 
+## 2026-05-22 
+
+* 23:25 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:25 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:25 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:24 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:24 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:24 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:23 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:23 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:23 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:23 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:22 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:22 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:22 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb191: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:22 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:21 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:21 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:21 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:20 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:20 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:20 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:19 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:19 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:19 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:19 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:18 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:18 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:18 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:18 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:17 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:17 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:17 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:14 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:11 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:10 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:10 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:09 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:09 MirahezeLSBot: [void@puppet181] Upgraded packages on db192: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:09 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: krb5-locales, libgcrypt20, libk5crypto3, libgssapi-krb5-2, libkrb5support0, and libkrb5-3
+* 23:09 MirahezeLSBot: [void@puppet181] Upgraded packages on db201: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:08 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:08 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: krb5-locales, libgcrypt20, libk5crypto3, libgssapi-krb5-2, libkrb5support0, and libkrb5-3
+* 23:08 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:07 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:07 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: krb5-locales, libgcrypt20, libk5crypto3, libgssapi-krb5-2, libkrb5support0, and libkrb5-3
+* 23:07 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: haproxy, krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:07 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:06 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: haproxy, krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:06 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:06 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: krb5-locales, libgcrypt20, libk5crypto3, libgssapi-krb5-2, libkrb5support0, and libkrb5-3
+* 23:05 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:05 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:05 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: haproxy, krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:05 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: haproxy, krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:04 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: krb5-locales, libgcrypt20, libk5crypto3, libgssapi-krb5-2, libkrb5support0, and libkrb5-3
+* 23:04 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:04 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 23:04 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: krb5-locales, libgcrypt20, libk5crypto3, libgssapi-krb5-2, libkrb5support0, and libkrb5-3
+* 23:03 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: krb5-locales, libgcrypt20, libk5crypto3, libgssapi-krb5-2, libkrb5support0, and libkrb5-3
+* 23:03 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, krb5-locales, and libgcrypt20
+* 23:03 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20
+* 22:54 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'PageForms'} to all - SUCCESS in 478s
+* 22:52 MirahezeLSBot: [paladox@test151] finished deploy of {'l10n': True, 'force_upgrade': True, 'versions': ['1.45', '1.46'], 'upgrade_extensions': 'PageForms'} to test151 - SUCCESS in 375s
+* 22:46 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'PageForms'} to all
+* 22:46 MirahezeLSBot: [paladox@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 22:46 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'force_upgrade': True, 'versions': ['1.45', '1.46'], 'upgrade_extensions': 'PageForms'} to test151
+* 22:46 MirahezeLSBot: [paladox@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 22:46 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'force_upgrade': True, 'versions': ['1.45', '1.46'], 'upgrade_extensions': 'PageForms'} to test151
+* 22:46 MirahezeLSBot: [paladox@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 22:45 MirahezeLSBot: [paladox@test151] starting deploy of {'l10n': True, 'force_upgrade': True, 'versions': ['1.45', '1.46'], 'upgrade_extensions': 'PageForms'} to test151
+* 22:44 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'PageForms'} to all
+* 22:42 MirahezeLSBot: [paladox@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 22:42 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'PageForms'} to all
+* 22:34 MirahezeLSBot: [paladox@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 22:34 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'PageForms'} to all
+* 22:33 MirahezeLSBot: [paladox@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 22:33 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'PageForms'} to all
+* 21:39 SomeRandomDeveloper: depool c2
+* 20:55 Reception123: MariaDB [mhglobal]> UPDATE cw_wikis SET wiki_inactive_exempt_reason = 'comp' WHERE wiki_inactive_exempt_reason = 'mtr'; ('mtr' and 'comp' have been merged)
+* 20:54 MirahezeLSBot: [reception@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 20:53 MirahezeLSBot: [reception@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:34 MirahezeLSBot: [reception@mwtask181] finished deploy of {'world': True, 'versions': '1.45'} to all - SUCCESS in 210s
+* 19:33 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=scratchwiki (END - exit=0)
+* 19:30 MirahezeLSBot: [reception@mwtask181] starting deploy of {'world': True, 'versions': '1.45'} to all
+* 19:30 TheWWRNerdGuy: yes I did use quote marks just logsal doesn't like to notice that
+* 19:29 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=scratchwiki --requester=MC mrjone (END - exit=0)
+* 17:14 MirahezeLSBot: [reception@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 17:14 MirahezeLSBot: [reception@mwtask181] starting deploy of {'world': True, 'force': True, 'versions': '1.45'} to all
+* 17:14 MirahezeLSBot: [reception@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 17:14 MirahezeLSBot: [reception@mwtask181] starting deploy of {'world': True, 'versions': '1.45', 'upgrade_extensions': 'CreateWiki'} to all
+* 17:13 MirahezeLSBot: [reception@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 17:13 MirahezeLSBot: [reception@mwtask181] starting deploy of {'world': True, 'force': True, 'versions': '1.45', 'upgrade_extensions': 'CreateWiki'} to all
+* 17:12 MirahezeLSBot: [reception@mwtask181] finished deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 527s
+* 17:03 MirahezeLSBot: [reception@mwtask181] starting deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'CreateWiki'} to all
+* 01:45 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=hyperchargewiki (END - exit=0)
+* 01:44 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=funiraccoongamewiki --new=hyperchargewiki --user=Skye (END - exit=0)
+* 01:41 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=doomsdayhunterswiki (END - exit=0)
+* 01:39 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=raccoinwiki --new=doomsdayhunterswiki --user=Skye (END - exit=0)
+* 01:36 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=uaccfoundationofficialwiki (END - exit=0)
+* 01:33 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=amcfoundationofficialwiki --new=uaccfoundationofficialwiki --user=Skye (END - exit=0)
+* 01:23 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=aswonuwiki (END - exit=0)
+* 01:21 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=negapaintwiki --new=aswonuwiki --user=Skye (END - exit=0)
+* 01:12 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=vyetnapediawiki (END - exit=0)
+* 01:09 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 01:09 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 01:06 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=uncwikiwiki --new=vyetnapediawiki --user=Skye (END - exit=0)
+* 00:59 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=havoreywiki (END - exit=0)
+* 00:57 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=osterholtwiki --new=havoreywiki --user=Skye (END - exit=0)
+* 00:49 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=malwaredlcwiki (END - exit=0)
+* 00:46 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=impostorsyndromewiki --new=malwaredlcwiki --user=Skye (END - exit=0)
+* 00:43 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=conquerorsofthecraftwiki (END - exit=0)
+* 00:04 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=alentiniszerwiki --new=conquerorsofthecraftwiki --user=Skye (END - exit=0)
+
 ## 2026-05-21 
 
 * 23:31 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: libnss3
