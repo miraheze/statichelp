@@ -2,6 +2,113 @@
 title: Tech:Server admin log
 ---
 
+## 2026-05-23 
+
+* 22:50 MirahezeLSBot: [void@ldap171] restart slapd to apply cert update
+* 22:26 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: linux-libc-dev
+* 22:26 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: linux-libc-dev
+* 22:26 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: linux-libc-dev
+* 22:25 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: linux-libc-dev
+* 22:25 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: linux-libc-dev
+* 22:25 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: linux-libc-dev
+* 22:25 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: linux-libc-dev
+* 22:24 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: linux-libc-dev
+* 22:24 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: linux-libc-dev
+* 22:24 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: linux-libc-dev
+* 22:23 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: linux-libc-dev
+* 22:23 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: linux-libc-dev
+* 22:23 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: linux-libc-dev
+* 22:23 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: linux-libc-dev
+* 22:22 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: linux-libc-dev
+* 22:22 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb191: linux-libc-dev
+* 22:22 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: linux-libc-dev
+* 22:21 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: linux-libc-dev
+* 22:21 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: linux-libc-dev
+* 22:21 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: linux-libc-dev
+* 22:21 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: linux-libc-dev
+* 22:20 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: linux-libc-dev
+* 22:20 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: linux-libc-dev
+* 22:20 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: linux-libc-dev
+* 22:20 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: linux-libc-dev
+* 22:19 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: linux-libc-dev
+* 22:19 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: linux-libc-dev
+* 22:19 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: linux-libc-dev
+* 22:18 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: linux-libc-dev
+* 22:18 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: linux-libc-dev
+* 22:18 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: linux-libc-dev
+* 22:18 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: linux-libc-dev
+* 22:17 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: linux-libc-dev
+* 22:17 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: linux-libc-dev
+* 22:17 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: linux-libc-dev
+* 22:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: linux-libc-dev
+* 22:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: linux-libc-dev
+* 22:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: linux-libc-dev
+* 22:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: linux-libc-dev
+* 22:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: linux-libc-dev
+* 22:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: linux-libc-dev
+* 22:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: linux-libc-dev
+* 22:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: linux-libc-dev
+* 22:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: linux-libc-dev
+* 22:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: linux-libc-dev
+* 22:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: linux-libc-dev
+* 22:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: linux-libc-dev
+* 22:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: linux-libc-dev
+* 22:13 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: linux-libc-dev
+* 22:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: linux-libc-dev
+* 22:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: linux-libc-dev
+* 22:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: linux-libc-dev
+* 22:12 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: linux-libc-dev
+* 22:11 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: linux-libc-dev
+* 22:11 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: linux-libc-dev
+* 22:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: linux-libc-dev
+* 22:11 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: linux-libc-dev
+* 22:10 MirahezeLSBot: [void@puppet181] Upgraded packages on db201: linux-libc-dev
+* 22:10 MirahezeLSBot: [void@puppet181] Upgraded packages on db192: linux-libc-dev
+* 22:10 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: linux-libc-dev
+* 22:09 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: linux-libc-dev
+* 22:09 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: linux-libc-dev
+* 22:09 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: linux-libc-dev, libcpupower1, and linux-cpupower
+* 22:09 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: linux-libc-dev
+* 22:08 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: linux-libc-dev, libcpupower1, and linux-cpupower
+* 22:08 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: linux-libc-dev
+* 22:08 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: linux-libc-dev
+* 22:08 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: linux-libc-dev
+* 22:07 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: linux-libc-dev, libcpupower1, and linux-cpupower
+* 22:07 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: linux-libc-dev
+* 22:07 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: linux-libc-dev, libcpupower1, and linux-cpupower
+* 22:06 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: linux-libc-dev, libcpupower1, and linux-cpupower
+* 22:06 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: linux-libc-dev, libcpupower1, and linux-cpupower
+* 22:06 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: linux-libc-dev
+* 22:06 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: linux-libc-dev
+* 22:05 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: linux-libc-dev
+* 22:05 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: linux-libc-dev, libcpupower1, and linux-cpupower
+* 22:05 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: linux-libc-dev
+* 22:05 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: linux-libc-dev
+* 22:05 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: linux-libc-dev
+* 22:04 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: linux-libc-dev
+* 17:19 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:ReplaceTextEligible --wiki=mathpediaenwiki (END - exit=0)
+* 17:18 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:ReplaceTextEligible --wiki=mathpediawiki (END - exit=0)
+* 07:57 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:DeclineStaleWikiRequests --wiki=metawiki --days=5 (END - exit=0)
+* 07:55 MirahezeLSBot: [reception@mwtask181] finished deploy of {'l10n': True, 'lang': 'en', 'versions': '1.45'} to all - SUCCESS in 25s
+* 07:55 MirahezeLSBot: [reception@mwtask181] starting deploy of {'l10n': True, 'lang': 'en', 'versions': '1.45'} to all
+* 07:55 MirahezeLSBot: [reception@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 07:55 MirahezeLSBot: [reception@mwtask181] starting deploy of {'l10n': True, 'lang': 'en', 'versions': '1.45'} to all
+* 07:54 MirahezeLSBot: [reception@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 30s
+* 07:53 MirahezeLSBot: [reception@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'CreateWiki'} to all
+* 03:51 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 03:50 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 03:45 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 03:45 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 03:29 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.45'} to all - SUCCESS in 123s
+* 03:27 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.45'} to all
+* 03:25 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.45'} to test151 - SUCCESS in 3s
+* 03:25 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.45'} to test151
+* 03:23 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.45'} to test151 - SUCCESS in 3s
+* 03:22 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.45'} to test151
+* 03:17 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'world': True, 'versions': '1.45'} to test151 - SUCCESS in 29s
+* 03:17 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'world': True, 'versions': '1.45'} to test151
+* 01:46 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php rebuildrecentchanges --wiki=loadouttest6wikibeta (END - exit=0)
+
 ## 2026-05-22 
 
 * 23:25 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: krb5-locales, libk5crypto3, libgssapi-krb5-2, libkrb5support0, libkrb5-3, and libgcrypt20

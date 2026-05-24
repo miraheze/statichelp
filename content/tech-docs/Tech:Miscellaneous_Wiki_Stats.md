@@ -19,30 +19,32 @@ Other statistics can be found on [this page](https://meta.miraheze.org/wiki/User
 ## Wiki request status per month 
 
 | + |
-| Month | Approved | Declined | Total requests | % approved |
-| --- | --- | --- | --- | --- |
-| May 2026 (*partial)* | *578* | *82* | *787* | - |
-| April 2026 | 1522 | 541 | 2064 | 74% |
-| March 2026 | 1566 | 585 | 2151 | 73% |
-| February 2026 | 1422 | 447 | 1903 | 75% |
-| January 2026 | 1516 | 492 | 2009 | 75% |
-| December 2025 | 1330 | 457 | 1787 | 74% |
-| November 2025 | 1259 | 438 | 1697 | 74% |
-| October 2025 | 1207 | 553 | 1760 | 69% |
-| September 2025 | 1132 | 527 | 1659 | 68% |
-| August 2025 | 1274 | 482 | 1756 | 73% |
-| July 2025 | 1321 | 384 | 1705 | 77% |
-| June 2025 | 1168 | 257 | 1446 | 82% |
-| May 2025 | 1245 | 313 | 1622 | 80% |
-| April 2025 | 1129 | 353 | 1482 | 76% |
-| March 2025 | 1061 | 452 | 1513 | 70% |
-| February 2025 | 965 | 334 | 1299 | 73% |
-| January 2025 | 871 | 299 | 1170 | 74% |
-| December 2024 | 950 | 245 | 1195 | 79% |
-| November 2024 | 809 | 256 | 1065 | 75% |
-| October 2024 | 857 | 301 | 1158 | 74% |
-| September 2024 | 664 | 432 | 1096 | 60% |
+| Month | Approved | Declined | Abandoned | Total requests | % approved |
+| --- | --- | --- | --- | --- | --- |
+| May 2026 (*partial)* | *578* | *82* | | *787* | - |
+| April 2026 | 1522 | 541 | - | 2064 | 74% |
+| March 2026 | 1566 | 585 | - | 2151 | 73% |
+| February 2026 | 1422 | 447 | - | 1903 | 75% |
+| January 2026 | 1516 | 492 | - | 2009 | 75% |
+| December 2025 | 1330 | 457 | - | 1787 | 74% |
+| November 2025 | 1259 | 438 | - | 1697 | 74% |
+| October 2025 | 1207 | 553 | - | 1760 | 69% |
+| September 2025 | 1132 | 527 | - | 1659 | 68% |
+| August 2025 | 1274 | 482 | - | 1756 | 73% |
+| July 2025 | 1321 | 384 | - | 1705 | 77% |
+| June 2025 | 1168 | 257 | - | 1446 | 82% |
+| May 2025 | 1245 | 313 | - | 1622 | 80% |
+| April 2025 | 1129 | 353 | - | 1482 | 76% |
+| March 2025 | 1061 | 452 | - | 1513 | 70% |
+| February 2025 | 965 | 334 | - | 1299 | 73% |
+| January 2025 | 871 | 299 | - | 1170 | 74% |
+| December 2024 | 950 | 245 | - | 1195 | 79% |
+| November 2024 | 809 | 256 | - | 1065 | 75% |
+| October 2024 | 857 | 301 | - | 1158 | 74% |
+| September 2024 | 664 | 432 | - | 1096 | 60% |
 NOTE: The number of approved and declined requests don't match up to the total due to the fact that not all requests made in the relevant month are handled within the same month (i.e. requests made on the 30th and 31st might be handled next month).
+
+NOTE: Starting with **22 May 2026**, a new abandoned status was introduced for users who wish to abandon their request or for requests where there has been no response within 5 days to a wiki reviewer's question.
 
 ## Raw wiki creation data 
 
