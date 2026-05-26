@@ -2,6 +2,39 @@
 title: Tech:Server admin log
 ---
 
+## 2026-05-25 
+
+* 21:43 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=doorswiki --sleep=1 '--comment=Importing images from [https://doors-game.fandom.com/wiki/](https://doors-game.fandom.com/wiki/) ([T15438](https://meta.miraheze.org/wiki/phorge:T15438))' -- . (START)
+* 21:43 MirahezeLSBot: [skye@mwtask171] Starting import for doorswiki (XML: None; Images: .) (START)
+* 20:58 MirahezeLSBot: [skye@test151] finished deploy of {'versions': '1.46', 'upgrade_extensions': 'OATHAuth'} to test151 - SUCCESS in 1s
+* 20:58 MirahezeLSBot: [skye@test151] starting deploy of {'versions': '1.46', 'upgrade_extensions': 'OATHAuth'} to test151
+* 20:46 MirahezeLSBot: [skye@mwtask171] Finished import for doorswiki (XML: None; Images: .) (END - exit=1)
+* 20:46 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=doorswiki --sleep=1 '--comment=Importing images from [https://doors-game.fandom.com/wiki/](https://doors-game.fandom.com/wiki/) ([T15438](https://meta.miraheze.org/wiki/phorge:T15438))' -- . (END - exit=1)
+* 20:46 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=doorswiki --sleep=1 '--comment=Importing images from [https://doors-game.fandom.com/wiki/](https://doors-game.fandom.com/wiki/) ([T15438](https://meta.miraheze.org/wiki/phorge:T15438))' -- . (START)
+* 20:46 MirahezeLSBot: [skye@mwtask171] Starting import for doorswiki (XML: None; Images: .) (START)
+* 19:25 MirahezeLSBot: [skye@test151] finished deploy of {'versions': '1.46', 'upgrade_extensions': 'OATHAuth'} to test151 - SUCCESS in 1s
+* 19:25 MirahezeLSBot: [skye@test151] starting deploy of {'versions': '1.46', 'upgrade_extensions': 'OATHAuth'} to test151
+* 18:55 MirahezeLSBot: [somerandomdeveloper@phorge171] bin/remove destroy F6694907
+* 18:15 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php RebuildRecentchanges --wiki=wwrtest3wikibeta (END - exit=0)
+* 18:14 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php RebuildRecentchanges --wiki=metawikibeta (END - exit=0)
+* 18:14 MirahezeLSBot: [wwr@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php RebuildRecentchanges --wiki=exttestwikibeta (END - exit=0)
+* 18:05 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=xyywiki --import-prefix=fandom:xyy --from='Kernel-chan' --to='Nueiheh tsiang' (END - exit=0)
+* 18:04 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=xyywiki --import-prefix=imported --from='Kernel-chan' --to='Nueiheh tsiang' (END - exit=0)
+* 17:39 MirahezeLSBot: [skye@mwtask171] Finished import for doorswiki (XML: doorsgame_pages_full.xml; Images: None) (END - exit=0)
+* 17:39 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=doorswiki --update (END - exit=0)
+* 17:39 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=doorswiki --update (START)
+* 17:39 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=doorswiki (END - exit=0)
+* 17:39 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=doorswiki (START)
+* 17:39 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=doorswiki (END - exit=0)
+* 17:34 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 17:34 MirahezeLSBot: [paladox@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 17:34 MirahezeLSBot: [paladox@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 17:34 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 16:02 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=doorswiki (START)
+* 16:02 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=doorswiki --no-updates --username-prefix=fandom:doors-game -- doorsgame_pages_full.xml (END - exit=0)
+* 14:09 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=doorswiki --no-updates --username-prefix=fandom:doors-game -- doorsgame_pages_full.xml (START)
+* 14:08 MirahezeLSBot: [skye@mwtask171] Starting import for doorswiki (XML: doorsgame_pages_full.xml; Images: None) (START)
+
 ## 2026-05-24 
 
 * 00:53 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'ThemeToggle'} to test151 - SUCCESS in 1s
