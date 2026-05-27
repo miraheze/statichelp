@@ -2,7 +2,9 @@
 title: Tech:Upgrading MediaWiki
 ---
 
-## Preperations 
+## Preparations 
+
+<!-- I've not pasted the link to the mm thread but you can see it on the Planning channel -->
 
 ### Create Phorge Tasks 
 
@@ -28,17 +30,19 @@ Two tasks should be created on [Phorge](https://meta.miraheze.org/wiki/Phorge), 
 #### Necessary Config Changes 
 
 * Look for any new or renamed SQL files for new tables for global extensions and add to `wgCreateWikiSQLFiles` in [LocalSettings.php](https://meta.miraheze.org/wiki/github:miraheze/mw-config/blob/main/LocalSettings.php). You can add a new array, keyed by the new version to set for only the new version ([example](https://meta.miraheze.org/wiki/github:miraheze/mw-config/commit/366474e) – if one is being renamed rather than adding a new one, remove the **+** and copy the entire current default but with the changes).
-* If a global extension can be removed (IE when Interwiki was merged into core in MediaWiki 1.44), update [GlobalExtensions.php](https://meta.miraheze.org/wiki/github:miraheze/mw-config/blob/main/GlobalExtensions.php), and wrap the extension in a `$wi->version` if block ([example](https://meta.miraheze.org/wiki/github:miraheze/mw-config/commit/025e63a)). Also add **versions** in [mediawiki-repos.yaml](https://meta.miraheze.org/wiki/github:miraheze/mediawiki-repos/blob/main/mediawiki-repos.yaml) ([example](https://meta.miraheze.org/wiki/github:miraheze/mediawiki-repos/commit/4244212)).
-* If any settings need changed only for the new version, if in LocalSettings.php, you can use the new version just like any wiki (IE **1.45**) in `$wgConf`. If outside `$wgConf`, you can use `$wi->version` in if blocks.
+* If a global extension can be removed (e.g. when Interwiki was merged into core in MediaWiki 1.44), update [GlobalExtensions.php](https://meta.miraheze.org/wiki/github:miraheze/mw-config/blob/main/GlobalExtensions.php), and wrap the extension in a `$wi->version` if block ([example](https://meta.miraheze.org/wiki/github:miraheze/mw-config/commit/025e63a)). Also add **versions** in [mediawiki-repos.yaml](https://meta.miraheze.org/wiki/github:miraheze/mediawiki-repos/blob/main/mediawiki-repos.yaml) ([example](https://meta.miraheze.org/wiki/github:miraheze/mediawiki-repos/commit/4244212)).
+* If any settings need changed only for the new version, if in LocalSettings.php, you can use the new version just like any wiki (e.g. **1.45**) in `$wgConf`. If outside `$wgConf`, you can use `$wi->version` in if blocks.
 * Audit any new permissions and determine if they need to be added to `$wgManageWikiPermissionsDisallowedRights`.
 * Some extensions may have moved from old configuration variables to virtual domains. This should be checked and added to `$wgVirtualDomainsMapping` where appropriate.
 
 <!-- NOTE: this can be removed in a few releases when all extensions have migrated to virtual domains but as of now this is still ongoing so is mentioned here. -->
 
-### Create JSON Schema for UpgradeWiki 
+## Create JSON Schema for UpgradeWiki 
 
 This JSON file defines the upgrade steps for a wiki, including SQL patches and maintenance scripts. All paths are relative to the server root unless absolute paths are given.
  `{{ {{Note|Pay attention to what scripts and patches do. If you have a patch that drops something in pre_patches, and a maintenance script that does the migration, that will lead to data loss. In that case the patch should be in post_patches.}} }}`
+
+### Format 
 
 #### mwversion 
 
@@ -94,6 +98,8 @@ This JSON file defines the upgrade steps for a wiki, including SQL patches and m
 ```
 
 #### Full Example 
+
+<!-- [[phorge:T15364|]] contains a full list -->
 
 ```
 {{ {{collapse|
@@ -155,7 +161,51 @@ This JSON file defines the upgrade steps for a wiki, including SQL patches and m
    * `maintenance` must be an array of objects with a non-empty `class`.
    * `options` must be key/value object; `args` must be an array of strings or integers.
    * `if_extension_enabled`, if present, must be a string corresponding to a valid enabled extension.
-   * `{{ {{Note}} }}` Should be provided even if it's a global extension since some wikis, such as `ldapwikiwiki` may not have certain extensions such as CentralAuth enabled.
+   * `{{ {{Note}} }}` Should be provided even if it's a global extension since some wikis, such as `ldapwikiwiki`, may not have certain extensions such as CentralAuth enabled.
+
+### Creating the schema 
+
+See [T15364](https://meta.miraheze.org/wiki/phorge:T15364) for an example schema as well as global scripts/patches. See Mattermost for the threads relating to the 1.46 update.
+
+#### SQL patches 
+
+All patches should be carefully read through and compared to the tables that currently exist on both local wikis and the global database (mhglobal/testglobal). Some general points collected through previous upgrades are:
+
+* If a patch is modifying a global table, it should be ran manually. The rest of these points still apply to global scripts, just without being in the schema.
+* If a global extension is adding a new table, you'll need to read the docs and/or code of the extension to determine if it's meant to be a local or global table.
+* If a patch is adding a new field to the table then it should be in pre_patches.
+   * The order of these patches matters. If patch A adds a field and patch B does something that uses the field from patch A, then patch B must be ran after patch A. Always check the fields from the current table.
+   * If patch B creates an index that uses a field from patch A, then patch B must go after patch A.
+* If a patch is altering a field in a way that could possibly be incompatible with the current field (e.g. changing type, or making the field not null), then it is likely there is a maintenance script that makes the current field compatible. In this case, the field altering patch should be in post_patches.
+* If a patch is dropping a field then it should go in post_patches. Generally fields will be dropped when they're superseded, in which case a field will be added in pre_patches, then a maintenance script will populate that field, then the superseded field will be dropped. Sometimes a field might just be removed with no substitute but there's no harm in putting these drops in post_patches.
+
+#### Maintenance scripts 
+
+FindSQLPatches is unlikely to have any false positives or false negatives. This is not the case with FindPossibleUpgradeScripts.
+
+Read through all the maintenance scripts that FindPossibleUpgradeScripts returned. *Typically* the ones you're looking for will extend LoggedUpdateMaintenance and the rest will just be regular maintenance scripts, but use your own judgement.
+
+UpgradeWiki will rely on PHP class names being accurate, so make sure that you double check all the classes in the schema exist. For example, with 1.46's `"class": "\\MigrateTranscodeStates",` in the schema, go to a wiki (in this case one that's enabled TimedMediaHandler) and run `class_exists( \MigrateTranscodeStates::class )`.
+
+As with SQL patches, maintenance scripts affecting global tables should be run manually rather than being in the UpgradeWiki schema.
+
+#### Finding false negatives 
+
+As stated earlier, while SQL patches are unlikely to come up with false negatives by design, there will likely be some necessary maintenance scripts that are not caught by FindPossibleUpgradeScripts. Typically these will be affecting tables that had SQL patches anyway.
+
+For example, in 1.46, every single one of the pre_patches also had a corresponding maintenance script, except for the patch to the imagelinks table. The imagelinks patch created a new field with `DEFAULT NULL`, and one of the later patches would alter this field to become `NOT NULL`. Therefore, it would be impossible for there to not be a maintenance script. That maintenance script turned out to be `MigrateLinksTable`.
+
+<!-- this probably needs some expansion -->
+
+### Sanity check 
+
+ `{{ {{Note}} }}` **update.php loses data! This check is only to find things you missed; finding nothing in this check does not mean that you found everything.**
+
+A method of checking your work is to check what update.php does.
+
+For core patches, check `getCoreUpdateList` from [MysqlUpdater.php](https://gerrit.wikimedia.org/r/plugins/gitiles/mediawiki/core/+/refs/heads/master/includes/Installer/MysqlUpdater.php). This will give you a sense of both the orders of patches and the maintenance scripts that need to be run. Using the earlier imagelinks example, the field is added, the inherited [migrateImagelinks](https://gerrit.wikimedia.org/r/plugins/gitiles/mediawiki/core/+/6b7c81780425f91d7d79b8c7bdb1d8d9d3c74343/includes/Installer/DatabaseUpdater.php#1553) function is executed, the column altering patch is run, then finally the old field is dropped.
+
+For extension patches, check what implements `LoadExtensionSchemaUpdatesHook`. Typically these will have comments explaining what version each part of `onLoadExtensionSchemaUpdates` exists for.
 
 ## ChangeMediaWikiVersion 
 
