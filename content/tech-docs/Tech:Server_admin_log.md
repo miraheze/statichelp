@@ -2,6 +2,41 @@
 title: Tech:Server admin log
 ---
 
+## 2026-05-27 
+
+* 23:35 Void: ban an IP in cloudflare for odd behavior related to static
+* 22:59 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: libvarnishapi3 and varnish
+* 22:58 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: libunbound8
+* 22:58 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: libunbound8
+* 22:58 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: libvarnishapi3 and varnish
+* 22:58 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: libunbound8
+* 22:57 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: libvarnishapi3 and varnish
+* 22:41 MirahezeLSBot: [void@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 22:41 MirahezeLSBot: [void@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 22:09 MirahezeLSBot: [void@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 22:09 MirahezeLSBot: [void@test151] starting deploy of {'config': True} to test151
+* 22:06 MirahezeLSBot: [void@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 22:06 MirahezeLSBot: [void@test151] starting deploy of {'config': True} to test151
+* 22:04 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=fantendowiki (END - exit=33280)
+* 22:03 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=fantendowiki (START)
+* 21:48 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 21:48 MirahezeLSBot: [skye@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 21:48 MirahezeLSBot: [skye@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 21:47 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 21:13 MirahezeLSBot: [void@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 21:13 MirahezeLSBot: [void@test151] starting deploy of {'config': True} to test151
+* 20:46 MirahezeLSBot: [void@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 20:46 MirahezeLSBot: [void@test151] starting deploy of {'config': True} to test151
+* 19:10 MirahezeLSBot: [void@db171] systemctl reset-failed sql-backup && systemctl restart sql-backup
+* 11:06 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=fantendowiki (START)
+* 11:06 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=fantendowiki --no-updates --username-prefix=fandom:fantendo -- fantendo_pages_full.xml (END - exit=0)
+* 03:06 Skye: [skye@mwtask171] sudo -u www-data foreachwikiindblist /home/skye/maps/maps.php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:NotifyWikiUsers --header='Maps extensions has been disabled' ... --group=bureaucrat --group=sysop
+* 02:48 Skye: test
+* 01:06 MirahezeLSBot: [skye@mwtask171] sudo -u www-data /usr/local/bin/foreachwikiindblist /tmp/maps.php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:GenerateExtensionDatabaseList metawiki --directory=~/maps (END - exit=33280)
+* 01:05 MirahezeLSBot: [skye@mwtask171] sudo -u www-data /usr/local/bin/foreachwikiindblist /tmp/maps.php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:GenerateExtensionDatabaseList metawiki --directory=~/maps (START)
+* 00:04 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 00:03 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
 ## 2026-05-26 
 
 * 23:29 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=b3313wiki (END - exit=0)
