@@ -17,10 +17,6 @@ title: Tech:Noticeboard
 ```
  `{{ {{Navigation Miraheze}} }}`
 
-## MediaWiki 1.43 upgrade 
-
-Miraheze will be upgrading all wikis to MediaWiki 1.43 on Monday, January 27th at 18:00 UTC. This is expected to take approximately one hour and end at 19:00 UTC. During this window there may be intermittent downtime, but edits will be possible. Thank you for your understanding! [MacFan4000](https://meta.miraheze.org/wiki/User:MacFan4000) ([Talk](https://meta.miraheze.org/wiki/User_talk:MacFan4000) [Contribs](https://meta.miraheze.org/wiki/Special:Contributions/MacFan4000)) 22:01, 24 January 2025 (UTC)
-
 ## Server maintenance 
 
 On February 22nd, 2025 from 18:45 until 23:30 UTC we will be performing maintenance on our servers. During this time we expect intermittent outages of all services. We will post updates as needed, and we thank you for your understanding. [MacFan4000](https://meta.miraheze.org/wiki/User:MacFan4000) ([Talk](https://meta.miraheze.org/wiki/User_talk:MacFan4000) [Contribs](https://meta.miraheze.org/wiki/Special:Contributions/MacFan4000)) 02:15, 12 February 2025 (UTC)
