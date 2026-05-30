@@ -57,6 +57,8 @@ MediaWiki Specialist<br />
    We previously relied on the Maps extension to use Leaflet-based interactive maps together with Cargo queries.
    Is there any recommended alternative for interactive mapping after the removal of Maps? [Kijo Sora](https://meta.miraheze.org/wiki/User:Kijo_Sora) ([talk](https://meta.miraheze.org/wiki/User_talk:Kijo_Sora)) 05:06, 27 May 2026 (UTC)
    I think this might be (related to) [issue #898 on ProfessionalWiki/Maps@Github](https://meta.miraheze.org/wiki/github:ProfessionalWiki/Maps/issues/898) (Maps 12.1.2 vs. SMW 7.0.0); correct me otherwise. --[Routhwick](https://meta.miraheze.org/wiki/User:Routhwick) ([talk](https://meta.miraheze.org/wiki/User_talk:Routhwick)) 08:21, 27 May 2026 (UTC)
+      [On the other hand](https://meta.miraheze.org/wiki/github:ProfessionalWiki/Maps/security/advisories/GHSA-4h7g-5542-v3fc)... --[Routhwick](https://meta.miraheze.org/wiki/User:Routhwick) ([talk](https://meta.miraheze.org/wiki/User_talk:Routhwick)) 08:12, 29 May 2026 (UTC)
+         CVSS 8.6. Yes, the extension has to remain offline until that's fixed. --[Robkelk](https://meta.miraheze.org/wiki/User:Robkelk) ([talk](https://meta.miraheze.org/wiki/User_talk:Robkelk)) 12:54, 29 May 2026 (UTC)
    Furthermore, it wasn't functioning fully anymore. [Wazzimagiygg](https://meta.miraheze.org/wiki/User:Wazzimagiygg) ([talk](https://meta.miraheze.org/wiki/User_talk:Wazzimagiygg)) 18:45, 27 May 2026 (UTC)
       If you're talking about the issue where some map tiles don't load, perhaps [phab:T15102](https://meta.miraheze.org/wiki/phab:T15102) might address the matter. --[Robkelk](https://meta.miraheze.org/wiki/User:Robkelk) ([talk](https://meta.miraheze.org/wiki/User_talk:Robkelk)) 18:58, 27 May 2026 (UTC)
 

@@ -2,6 +2,29 @@
 title: Tech:Server admin log
 ---
 
+## 2026-05-29 
+
+* 23:34 MirahezeLSBot: [skye@mwtask171] Finished import for tinyplanetswiki (XML: None; Images: .) (END - exit=0)
+* 23:34 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=tinyplanetswiki --update (END - exit=0)
+* 23:34 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=tinyplanetswiki --update (START)
+* 23:34 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=tinyplanetswiki --sleep=0 '--comment=Importing images from [https://tinyplanets.fandom.com](https://tinyplanets.fandom.com) ([T15451](https://meta.miraheze.org/wiki/phorge:T15451))' -- . (END - exit=0)
+* 23:32 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=tinyplanetswiki --sleep=0 '--comment=Importing images from [https://tinyplanets.fandom.com](https://tinyplanets.fandom.com) ([T15451](https://meta.miraheze.org/wiki/phorge:T15451))' -- . (START)
+* 23:32 MirahezeLSBot: [skye@mwtask171] Starting import for tinyplanetswiki (XML: None; Images: .) (START)
+* 23:17 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=ovalpediawiki (END - exit=0)
+* 23:17 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=ovalhistorywiki --new=ovalpediawiki --user=Skye (END - exit=0)
+* 23:13 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=voxeliawiki (END - exit=0)
+* 23:12 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=volexiawiki --new=voxeliawiki --user=Skye (END - exit=0)
+* 23:10 Skye: DROP DATABASE*
+* 23:09 Skye: c4: DROP voxeliawiki;
+* 22:56 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=volexiawiki --new=voxeliawiki --user=Skye (END - exit=256)
+* 22:55 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=ukgbwiki (END - exit=0)
+* 22:47 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=ukgbdiscordwiki --new=ukgbwiki --user=Skye (END - exit=0)
+* 22:44 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=unofficialvoxeliawiki (END - exit=0)
+* 22:43 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=voxeliawiki --new=unofficialvoxeliawiki --user=Skye (END - exit=0)
+* 21:16 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=scpclassifiedwiki --requester=KenLumni (END - exit=0)
+* 21:13 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=weltenzyklopadiewiki --update (END - exit=0)
+* 21:12 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=weltenzyklopadiewiki (END - exit=0)
+
 ## 2026-05-28 
 
 * 19:49 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: linux-libc-dev
