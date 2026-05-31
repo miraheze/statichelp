@@ -2,6 +2,19 @@
 title: Tech:Server admin log
 ---
 
+## 2026-05-30 
+
+* 00:47 MirahezeLSBot: [skye@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'ThemeToggle'} to test151 - SUCCESS in 1s
+* 00:47 MirahezeLSBot: [skye@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'ThemeToggle'} to test151
+* 00:45 MirahezeLSBot: [skye@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'ThemeToggle'} to all - SUCCESS in 26s
+* 00:45 MirahezeLSBot: [skye@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'ThemeToggle'} to all
+* 00:44 MirahezeLSBot: [skye@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 00:44 MirahezeLSBot: [skye@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'ThemeToggle'} to all
+* 00:43 MirahezeLSBot: [skye@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'ThemeToggle'} to all - SUCCESS in 0s
+* 00:43 MirahezeLSBot: [skye@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'ThemeToggle'} to all
+* 00:43 Skye: mwtask181: sudo -u www-data rm -rf /srv/mediawiki-staging/1.45/extensions/ThemeToggle
+* 00:42 Skye: test151: sudo -u www-data rm -rf /srv/mediawiki-staging/{1.45,1.46}/extensions/ThemeToggle
+
 ## 2026-05-29 
 
 * 23:34 MirahezeLSBot: [skye@mwtask171] Finished import for tinyplanetswiki (XML: None; Images: .) (END - exit=0)
