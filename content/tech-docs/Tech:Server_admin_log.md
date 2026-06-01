@@ -2,6 +2,27 @@
 title: Tech:Server admin log
 ---
 
+## 2026-06-01 
+
+* 00:00 MirahezeLSBot: [www-data@mwtask181] Began automatic backing up
+
+## 2026-05-31 
+
+* 19:12 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=fantendowiki . --comment='Importing images from fantendo.fandom.com ([T15427](https://meta.miraheze.org/wiki/phorge:T15427))' --skip-dupes (START)
+* 19:11 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=fantendowiki . --images-comment='Importing images from fantendo.fandom.com ([T15427](https://meta.miraheze.org/wiki/phorge:T15427))' --skip-dupes (END - exit=256)
+* 19:11 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=fantendowiki . --images-comment='Importing images from fantendo.fandom.com ([T15427](https://meta.miraheze.org/wiki/phorge:T15427))' --skip-dupes (START)
+* 19:10 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=fantendowiki . --source-wiki-url=' [https://fantendo.fandom.com/'](https://fantendo.fandom.com/') (END - exit=256)
+* 19:10 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=fantendowiki . --source-wiki-url=' [https://fantendo.fandom.com/'](https://fantendo.fandom.com/') (START)
+* 09:16 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/GlobalBlocking'} to test151 - SUCCESS in 0s
+* 09:16 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/GlobalBlocking'} to test151
+* 09:14 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/GlobalBlocking'} to test151 - SUCCESS in 0s
+* 09:14 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/GlobalBlocking'} to test151
+* 09:13 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/GlobalBlock'} to test151
+* 06:45 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 21s
+* 06:44 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 06:40 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 06:39 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
 ## 2026-05-30 
 
 * 00:47 MirahezeLSBot: [skye@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'ThemeToggle'} to test151 - SUCCESS in 1s
