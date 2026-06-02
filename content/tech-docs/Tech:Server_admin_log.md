@@ -4,6 +4,41 @@ title: Tech:Server admin log
 
 ## 2026-06-01 
 
+* 21:46 MirahezeLSBot: [void@phorge171] restart phorge_db-backup service
+* 21:44 MirahezeLSBot: [void@db182] [phabricator_calendar]> UPDATE calendar_event SET editPolicy="PHID-PLCY-w6bznnja2gez3vq6ea57" WHERE name="Miraheze Creation Date (or Birthday)"; -- T13002
+* 21:36 MirahezeLSBot: [void@phorge171] ./bin/remove destroy F4051737 -- old unused upload
+* 21:32 MirahezeLSBot: [void@phorge171] ./bin/remove destroy F4059763 -- old unused upload
+* 21:31 MirahezeLSBot: [void@phorge171] ./bin/remove destroy F2122720 -- old unused upload
+* 21:30 MirahezeLSBot: [void@phorge171] ./bin/remove destroy F4059762 -- old unfinished upload
+* 21:29 MirahezeLSBot: [void@phorge171] ./bin/remove destroy F4059761 -- old unfinished upload
+* 21:22 MirahezeLSBot: [void@phorge171] ./bin/remove destroy F1423152 -- old incomplete upload
+* 21:16 MirahezeLSBot: [void@phorge171] ./bin/remove destroy F5468524 -- XML for completed import T14843
+* 20:55 MirahezeLSBot: [void@phorge171] ./bin/remove destroy F6715656 -- 44GB dump, accessible in other ways, probably done being processed too
+* 20:35 MirahezeLSBot: [void@phorge171] ./bin/remove destroy PHID-FILE-k2tylsmhfn6x3kliwqzp -- 65GB dump, not used for anything
+* 20:06 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=reconvergentfateswiki (END - exit=0)
+* 20:05 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=reconvergentfateswiki --startOver (END - exit=0)
+* 20:04 MirahezeLSBot: [wwr@mwtask171] curl -X DELETE [https://opensearch-mw.wikitide.net/reconvergentfateswiki_content](https://opensearch-mw.wikitide.net/reconvergentfateswiki_content) [https://opensearch-mw.wikitide.net/reconvergentfateswiki_general](https://opensearch-mw.wikitide.net/reconvergentfateswiki_general)
+* 20:01 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=reconvergentfateswiki --startOver (END - exit=256)
+* 16:09 RhinosF1: destroyed F6727665
+* 02:18 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: swift-object, swift, and python3-swift
+* 02:18 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: swift-object, swift, and python3-swift
+* 02:17 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: swift-object, swift, and python3-swift
+* 02:17 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: php-symfony-string, php-symfony-console, php-symfony-filesystem, php-symfony-finder, and php-symfony-process
+* 02:16 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: swift-object, swift, and python3-swift
+* 02:15 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: swift-object-expirer, swift-object, swift, and python3-swift
+* 02:15 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: php-symfony-string, php-symfony-console, php-symfony-filesystem, php-symfony-finder, and php-symfony-process
+* 02:15 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: swift-account, swift-container, swift, and python3-swift
+* 02:14 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: swift-proxy, swift, and python3-swift
+* 02:14 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: swift-proxy, swift, and python3-swift
+* 02:13 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: swift-object, swift, and python3-swift
+* 02:13 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: swift-object, swift, and python3-swift
+* 02:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: php-symfony-string, php-symfony-console, php-symfony-filesystem, php-symfony-finder, and php-symfony-process
+* 02:12 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: php-symfony-string, php-symfony-console, php-symfony-filesystem, php-symfony-finder, and php-symfony-process
+* 02:12 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: php-symfony-string, php-symfony-console, php-symfony-filesystem, php-symfony-finder, and php-symfony-process
+* 01:11 MirahezeLSBot: [petramagna@test151] finished deploy of {'files': '1.46/includes/Block/AbstractBlock.php'} to test151 - SUCCESS in 0s
+* 01:11 MirahezeLSBot: [petramagna@test151] starting deploy of {'files': '1.46/includes/Block/AbstractBlock.php'} to test151
+* 01:10 MirahezeLSBot: [petramagna@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 01:10 MirahezeLSBot: [petramagna@test151] starting deploy of {'world': True, 'versions': '1.46'} to test151
 * 00:00 MirahezeLSBot: [www-data@mwtask181] Began automatic backing up
 
 ## 2026-05-31 
