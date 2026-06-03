@@ -2,6 +2,12 @@
 title: Tech:CirrusSearch
 ---
 
+## Benefits 
+
+* Matching different variants of the same word. For example, searching for "communities" will match pages containing the word "community" and vice-versa. Same goes for verbs such as "create" and "created".
+* Case insensitive search suggestions (can also be done with TitleKey).
+* Searching pages with advanced directives such as `intitle`, `insource`, and `incategory`.
+
 ## Troubleshooting 
 
 ### illegal_argument_exception: no mapping found for field [suggest] 
