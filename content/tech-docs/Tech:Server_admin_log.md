@@ -2,6 +2,36 @@
 title: Tech:Server admin log
 ---
 
+## 2026-06-03 
+
+* 23:26 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=evnovawiki --no-updates --username-prefix=fandom:evn -- evn_pages_full.xml (START)
+* 23:26 MirahezeLSBot: [skye@mwtask171] Starting import for evnovawiki (XML: evn_pages_full.xml; Images: images) (START)
+* 22:49 Skye: [skye@mwtask171] evnovawiki: DELETE FROM text;
+* 22:46 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php purgeOldText --wiki=evnovawiki --purge (END - exit=0)
+* 22:43 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=evnovawiki --delete --ns=829 --all (END - exit=0)
+* 22:43 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=evnovawiki --delete --ns=829 --all (START)
+* 22:43 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=evnovawiki --delete --ns=828 --all (END - exit=0)
+* 22:43 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=evnovawiki --delete --ns=828 --all (START)
+* 22:42 Skye: for i in {0..15}; do mwscript nukeNS evnovawiki --delete --ns=${i} --all --y --no-log; done
+* 22:19 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=evnovawiki --delete --ns=0 --ns=1 --ns=2 --ns=3 --ns=4 --ns=5 --ns=6 --ns=7 --ns=8 --ns=9 --ns=10 --ns=11 --ns=12 --ns=13 --ns=14 --ns=15 --all (END - exit=256)
+* 22:19 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=evnovawiki --delete --ns=0 --ns=1 --ns=2 --ns=3 --ns=4 --ns=5 --ns=6 --ns=7 --ns=8 --ns=9 --ns=10 --ns=11 --ns=12 --ns=13 --ns=14 --ns=15 --all (START)
+* 20:15 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php updateSpecialPages --wiki=fantendowiki --only=MediaStatistics (END - exit=0)
+* 20:13 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=fantendowiki . --comment='Importing gifs from fantendo.fandom.com ([T15427](https://meta.miraheze.org/wiki/phorge:T15427))' --skip-dupes (END - exit=0)
+* 20:10 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=fantendowiki . --comment='Importing gifs from fantendo.fandom.com ([T15427](https://meta.miraheze.org/wiki/phorge:T15427))' --skip-dupes (START)
+* 17:45 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=fantendowiki . --comment='Importing images from fantendo.fandom.com ([T15427](https://meta.miraheze.org/wiki/phorge:T15427))' --skip-dupes (END - exit=256)
+* 16:56 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/initSiteStats.php --wiki=evnovawiki --update (END - exit=0)
+* 16:56 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/rebuildall.php --wiki=evnovawiki (END - exit=0)
+* 16:29 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/rebuildall.php --wiki=evnovawiki (START)
+* 16:29 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=evnovawiki dump.xml --no-updates (END - exit=0)
+* 15:59 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=evnovawiki dump.xml --no-updates (START)
+* 03:00 MirahezeLSBot: [skye@mwtask171] Finished import for aniphobiawiki (XML: None; Images: .) (END - exit=0)
+* 03:00 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=aniphobiawiki --update (END - exit=0)
+* 03:00 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=aniphobiawiki --update (START)
+* 03:00 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=aniphobiawiki --sleep=0 '--comment=Importing files from [https://aniphobia.fandom.com/](https://aniphobia.fandom.com/) ([T15474](https://meta.miraheze.org/wiki/phorge:T15474))' -- . (END - exit=0)
+* 03:00 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=aniphobiawiki --sleep=0 '--comment=Importing files from [https://aniphobia.fandom.com/](https://aniphobia.fandom.com/) ([T15474](https://meta.miraheze.org/wiki/phorge:T15474))' -- . (START)
+* 03:00 MirahezeLSBot: [skye@mwtask171] Starting import for aniphobiawiki (XML: None; Images: .) (START)
+* 02:36 MirahezeLSBot: [void@cloud17] reboot phorge171
+
 ## 2026-06-02 
 
 * 22:09 MirahezeLSBot: [skye@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
