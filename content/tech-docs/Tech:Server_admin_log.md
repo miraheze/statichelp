@@ -2,6 +2,30 @@
 title: Tech:Server admin log
 ---
 
+## 2026-06-04 
+
+* 19:13 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=sapphirinedatabasewiki (END - exit=0)
+* 19:10 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=thesapphirinefictionaluniversewiki --new=sapphirinedatabasewiki --user=Skye (END - exit=0)
+* 19:07 Skye: c1: DROP DATABASE systemseveredunofficalwikiwiki;
+* 19:04 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=systemseveredwiki (END - exit=0)
+* 19:03 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=systemseveredunofficalwikiwiki --new=systemseveredwiki --user=Skye (END - exit=0)
+* 17:44 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 51s
+* 17:43 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 17:43 MirahezeLSBot: [skye@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 17:43 MirahezeLSBot: [skye@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 17:43 @paladox: rebooted bots171
+* 17:40 Skye: test
+* 00:57 MirahezeLSBot: [skye@mwtask171] Finished import for evnovawiki (XML: evn_pages_full.xml; Images: images) (END - exit=0)
+* 00:57 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=evnovawiki --update (END - exit=0)
+* 00:56 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=evnovawiki --update (START)
+* 00:56 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=evnovawiki (END - exit=0)
+* 00:56 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=evnovawiki (START)
+* 00:56 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=evnovawiki (END - exit=0)
+* 00:25 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=evnovawiki (START)
+* 00:25 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=evnovawiki --sleep=0 '--comment=Importing files from [https://evn.fandom.com/](https://evn.fandom.com/) ([T15480](https://meta.miraheze.org/wiki/phorge:T15480))' -- images (END - exit=0)
+* 00:02 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=evnovawiki --sleep=0 '--comment=Importing files from [https://evn.fandom.com/](https://evn.fandom.com/) ([T15480](https://meta.miraheze.org/wiki/phorge:T15480))' -- images (START)
+* 00:02 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=evnovawiki --no-updates --username-prefix=fandom:evn -- evn_pages_full.xml (END - exit=0)
+
 ## 2026-06-03 
 
 * 23:26 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=evnovawiki --no-updates --username-prefix=fandom:evn -- evn_pages_full.xml (START)
