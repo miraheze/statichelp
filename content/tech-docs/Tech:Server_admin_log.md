@@ -2,6 +2,58 @@
 title: Tech:Server admin log
 ---
 
+## 2026-06-06 
+
+* 23:46 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: apache2, apache2-bin, apache2-data, and apache2-utils
+* 23:46 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: apache2, apache2-bin, apache2-data, and apache2-utils
+* 23:45 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: apache2, apache2-bin, apache2-data, and apache2-utils
+* 23:44 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: apache2-bin and apache2-utils
+* 23:44 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: apache2, apache2-bin, apache2-data, and apache2-utils
+* 23:43 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: apache2, apache2-bin, apache2-data, and apache2-utils
+* 23:42 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: apache2, apache2-bin, apache2-data, and apache2-utils
+* 21:55 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=fantendowiki (START)
+* 21:54 MirahezeLSBot: [skye@mwtask171] Finished import for fantendowiki (XML: fantendo_pages_full.xml; Images: None) (END - exit=-2)
+* 21:54 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=fantendowiki (END - exit=-2)
+* 21:46 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 21:46 MirahezeLSBot: [skye@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 21:46 MirahezeLSBot: [skye@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 21:46 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 21:46 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 20:49 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=fantendowiki (END - exit=0)
+* 20:42 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=fantendowiki --delete --all --ns=3006 (END - exit=0)
+* 20:37 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=fantendowiki --delete --all --ns=3008 (END - exit=0)
+* 20:36 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=fantendowiki --delete --all --ns=3008 (START)
+* 20:35 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=fantendowiki --delete --all --ns=3016 (END - exit=0)
+* 20:35 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=fantendowiki --delete --all --ns=3016 (START)
+* 20:35 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=fantendowiki --delete --all --ns=3012 (END - exit=0)
+* 20:35 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=fantendowiki --delete --all --ns=3012 (START)
+* 20:34 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=fantendowiki --delete --all --ns=3010 (END - exit=0)
+* 20:34 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=fantendowiki --delete --all --ns=3010 (START)
+* 20:31 MirahezeLSBot: [skye@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php namespaceDupes --wiki=fantendowiki --fix (END - exit=0)
+* 20:26 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=fantendowiki --delete --all --ns=3006 (START)
+* 20:26 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=fantendowiki --delete --all --ns=3004 (END - exit=0)
+* 19:21 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=fantendowiki --delete --all --ns=3004 (START)
+* 19:20 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=fantendowiki --delete --all --ns=3002 (END - exit=0)
+* 19:15 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=fantendowiki --delete --all --ns=3002 (START)
+* 19:15 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=fantendowiki --delete --all --ns=1 (END - exit=0)
+* 18:54 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=fantendowiki --delete --all --ns=1 (START)
+* 18:53 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=fantendowiki --delete --ns=1 --ns=3002 --ns=3004 --ns=3006 --ns=3008 --ns=3010 --ns=3012 --ns=3016 --all (END - exit=256)
+* 18:53 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=fantendowiki --delete --ns=1 --ns=3002 --ns=3004 --ns=3006 --ns=3008 --ns=3010 --ns=3012 --ns=3016 --all (START)
+* 16:46 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/initSiteStats.php --wiki=sneakysasquatchwiki --update (END - exit=0)
+* 16:46 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/rebuildall.php --wiki=sneakysasquatchwiki (END - exit=0)
+* 16:04 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/rebuildall.php --wiki=sneakysasquatchwiki (START)
+* 16:04 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=sneakysasquatchwiki dump.xml --no-updates (END - exit=0)
+* 16:01 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=sneakysasquatchwiki dump.xml --no-updates (START)
+* 12:33 @paladox: apt-get dist-upgrade on puppet181 and reboot
+* 12:29 @paladox: apt-get dist-upgrade on mon181 and reboot
+* 12:12 @paladox: upgrade icinga2 on mon181
+* 12:05 @paladox: upgrade grafana to v13
+* 04:09 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 19s
+* 04:08 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 04:03 Universal Omega: stop and start db161 from host
+* 03:45 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 01:31 TheWWRNerdGuy: `$wgDefaultSkin = "vector-2022"` on fivenightsatfreddyswiki
+
 ## 2026-06-04 
 
 * 19:13 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=sapphirinedatabasewiki (END - exit=0)
