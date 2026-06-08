@@ -2,6 +2,51 @@
 title: Tech:Server admin log
 ---
 
+## 2026-06-07 
+
+* 22:54 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: nginx and nginx-common
+* 22:54 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: nginx and nginx-common
+* 22:17 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: nginx and nginx-common
+* 22:17 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: nginx and nginx-common
+* 22:16 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: nginx and nginx-common
+* 22:16 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: nginx and nginx-common
+* 22:15 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: nginx and nginx-common
+* 22:15 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: nginx and nginx-common
+* 22:14 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: nginx and nginx-common
+* 22:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: nginx and nginx-common
+* 22:14 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: nginx and nginx-common
+* 22:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: nginx and nginx-common
+* 22:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: nginx and nginx-common
+* 22:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: nginx and nginx-common
+* 22:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: nginx and nginx-common
+* 22:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: nginx and nginx-common
+* 22:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: nginx and nginx-common
+* 22:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: nginx and nginx-common
+* 22:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: nginx and nginx-common
+* 22:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: nginx and nginx-common
+* 22:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: nginx and nginx-common
+* 22:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: nginx and nginx-common
+* 22:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: nginx and nginx-common
+* 21:59 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: nginx and nginx-common
+* 21:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: nginx and nginx-common
+* 21:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: nginx and nginx-common
+* 21:54 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: nginx and nginx-common
+* 21:53 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: nginx and nginx-common
+* 21:52 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: nginx and nginx-common
+* 21:51 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: nginx and nginx-common
+* 21:51 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: nginx and nginx-common
+* 21:49 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: nginx and nginx-common
+* 21:48 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: nginx and nginx-common
+* 21:47 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: nginx and nginx-common
+* 21:46 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: nginx and nginx-common
+* 21:46 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: nginx and nginx-common
+* 21:45 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: nginx and nginx-common
+* 15:51 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/initSiteStats.php --wiki=hoggieswiki --update (END - exit=0)
+* 15:51 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/rebuildall.php --wiki=hoggieswiki (END - exit=0)
+* 15:40 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/rebuildall.php --wiki=hoggieswiki (START)
+* 15:40 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=hoggieswiki dump.xml --no-updates (END - exit=0)
+* 15:27 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=hoggieswiki dump.xml --no-updates (START)
+
 ## 2026-06-06 
 
 * 23:46 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: apache2, apache2-bin, apache2-data, and apache2-utils
