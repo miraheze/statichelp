@@ -2,6 +2,13 @@
 title: Tech:Server admin log
 ---
 
+## 2026-06-08 
+
+* 22:49 SomeRandomDeveloper: deployed new patches for T15475
+* 19:41 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: strongswan-starter, libcharon-extauth-plugins, libcharon-extra-plugins, strongswan-pki, strongswan-libcharon, strongswan-charon, libstrongswan, and libstrongswan-standard-plugins
+* 16:41 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=gsgwwiki --update (END - exit=0)
+* 16:40 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=gsgwwiki (END - exit=0)
+
 ## 2026-06-07 
 
 * 22:54 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: nginx and nginx-common
