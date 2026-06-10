@@ -2,6 +2,11 @@
 title: Tech:Server admin log
 ---
 
+## 2026-06-09 
+
+* 23:05 MirahezeLSBot: [somerandomdeveloper@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 23:04 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'world', 'world': True, 'versions': '1.46'} to test151
+
 ## 2026-06-08 
 
 * 22:49 SomeRandomDeveloper: deployed new patches for T15475

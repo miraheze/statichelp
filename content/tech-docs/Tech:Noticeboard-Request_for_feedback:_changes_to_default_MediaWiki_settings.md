@@ -161,25 +161,31 @@ Please discuss below. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|tal
 
 ## Proposal 6: add Popups to default extensions 
 
-**[Popups](https://meta.miraheze.org/wiki/mw:Extension:Popups)**, which depends on PageImages and requires proposal 5 to pass, provides a convenient preview of an article's text and image when the user hovers over a link. This is a standard feature on other hosts, so users would expect preview popups to be the default behavior.
+```
+{{ {{Discussion
+|comment=Closing as {{Not done|not successful}}, as there is no clear consensus and concerns around both the UX and the extension not working nicely with some setups. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 02:10, 9 June 2026 (UTC)
+|1=
+'''[[mw:Extension:Popups|Popups]]''', which depends on PageImages and requires proposal 5 to pass, provides a convenient preview of an article's text and image when the user hovers over a link. This is a standard feature on other hosts, so users would expect preview popups to be the default behavior.
 
 This proposal could be more controversial than the rest because it modifies MediaWiki's default behavior. However, I believe this change is largely in the positive direction.
 
-### Discussion 6 
+=== Discussion 6 ===
+Please discuss below. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 05:07, 23 April 2026 (UTC)
 
-Please discuss below. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 05:07, 23 April 2026 (UTC)
+:{{support|weak}} As proposer. There are many ways TextExtracts will fail to extract anything from a wiki page, leading to an empty preview. This is my main reservation about this extension as it may degrade user experience, hence this weak support. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 05:14, 23 April 2026 (UTC)
+:{{support}} for similar reasons to why I supported https://meta.miraheze.org/wiki/Community_portal/Archive_54#RfF:_Extension:MultimediaViewer_should_be_enabled_by_default. [[User:TheWWRNerdGuy|TheWWRNerdGuy]] ([[User talk:TheWWRNerdGuy|talk]]) 19:54, 23 April 2026 (UTC)
+:{{support}} as this is a massively valuable enhancement to the reader experience. There's a reason Wikipedia uses this. — <span style="font-variant: small-caps">[[User:Chrs|chrs]] ([[User talk:Chrs|talk]])</span> 23:45, 23 April 2026 (UTC)
+:{{Support}} for new wikis only. - [[User:JaneBuzJane|JaneBuzJane]] ([[User talk:JaneBuzJane|talk]]) 03:50, 24 April 2026 (UTC)
+:{{weak support}} not useful in all cases, but I suppose bureaucrats can disable it again if necessary [[User:SomeRandomDeveloper|SomeRandomDeveloper]] ([[User talk:SomeRandomDeveloper|talk]]) 12:37, 24 April 2026 (UTC)
+:{{support|weak}} This should've been done right from the start. --[[User:DarkMatterMan4500|DarkMatterMan4500]] ([[User talk:DarkMatterMan4500|talk]]) ([[Special:Contributions/DarkMatterMan4500|contribs]]) 15:20, 24 April 2026 (UTC)
+:{{support}} per above. ~ [[User:Elisapoly|Elisapoly]] ([[User talk:Elisapoly|talk]]) 18:42, 24 April 2026 (UTC)
+:{{oppose|weak}} as this is a somewhat intrusive piece of UX relative to other extensions, especially factoring the concern that sometimes it may simply not work, and may prove mixed as a default behavior. It's the kind of thing I would want to be optional to request right in the request form to be enabled outright, but not necessarily make the choice on the spot. But I do not feel very strongly about this. --'''[[User:Raidarr|raidarr]]''' '''('''[[User_talk:Raidarr|💬]]''')''' 00:49, 25 April 2026 (UTC)
+:{{Support}} Hm ... I thought Popups was already available as a default ... I may be confusing Popups with a similar extension ... but I like the idea of making Popups available ... It sounds useful ... --- [[User:Imamy|Imamy]] ([[User talk:Imamy|talk]]) 00:56, 25 April 2026 (UTC)
+:{{oppose|weak}} Given the variety in how wikis are set up, popups ''as a default'' may clash with different customization settings. However the extension is coded well enough in my experience that this usually doesn't happen. I think the cautious thing would be to not make it default. I do not think the potential usefulness justifies the potential issues in making it default. [[User:Harej|Harej]] ([[User talk:Harej|talk]]) 02:09, 1 May 2026 (UTC)
+:{{Weak oppose}} As mentioned on Discord, we found that popups just simply didn't work on our wiki, so making it default might introduce more issues than not. [[User:Emiliers|Emiliers]] ([[User talk:Emiliers|talk]]) 18:49, 1 May 2026 (UTC)
 
- `{{ {{support|weak}} }}` As proposer. There are many ways TextExtracts will fail to extract anything from a wiki page, leading to an empty preview. This is my main reservation about this extension as it may degrade user experience, hence this weak support. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 05:14, 23 April 2026 (UTC)
- `{{ {{support}} }}` for similar reasons to why I supported [https://meta.miraheze.org/wiki/Community_portal/Archive_54#RfF:_Extension:MultimediaViewer_should_be_enabled_by_default](https://meta.miraheze.org/wiki/Community_portal/Archive_54#RfF:_Extension:MultimediaViewer_should_be_enabled_by_default). [TheWWRNerdGuy](https://meta.miraheze.org/wiki/User:TheWWRNerdGuy) ([talk](https://meta.miraheze.org/wiki/User_talk:TheWWRNerdGuy)) 19:54, 23 April 2026 (UTC)
- `{{ {{support}} }}` as this is a massively valuable enhancement to the reader experience. There's a reason Wikipedia uses this. — [chrs](https://meta.miraheze.org/wiki/User:Chrs) ([talk](https://meta.miraheze.org/wiki/User_talk:Chrs)) 23:45, 23 April 2026 (UTC)
- `{{ {{Support}} }}` for new wikis only. - [JaneBuzJane](https://meta.miraheze.org/wiki/User:JaneBuzJane) ([talk](https://meta.miraheze.org/wiki/User_talk:JaneBuzJane)) 03:50, 24 April 2026 (UTC)
- `{{ {{weak support}} }}` not useful in all cases, but I suppose bureaucrats can disable it again if necessary [SomeRandomDeveloper](https://meta.miraheze.org/wiki/User:SomeRandomDeveloper) ([talk](https://meta.miraheze.org/wiki/User_talk:SomeRandomDeveloper)) 12:37, 24 April 2026 (UTC)
- `{{ {{support|weak}} }}` This should've been done right from the start. --[DarkMatterMan4500](https://meta.miraheze.org/wiki/User:DarkMatterMan4500) ([talk](https://meta.miraheze.org/wiki/User_talk:DarkMatterMan4500)) ([contribs](https://meta.miraheze.org/wiki/Special:Contributions/DarkMatterMan4500)) 15:20, 24 April 2026 (UTC)
- `{{ {{support}} }}` per above. ~ [Elisapoly](https://meta.miraheze.org/wiki/User:Elisapoly) ([talk](https://meta.miraheze.org/wiki/User_talk:Elisapoly)) 18:42, 24 April 2026 (UTC)
- `{{ {{oppose|weak}} }}` as this is a somewhat intrusive piece of UX relative to other extensions, especially factoring the concern that sometimes it may simply not work, and may prove mixed as a default behavior. It's the kind of thing I would want to be optional to request right in the request form to be enabled outright, but not necessarily make the choice on the spot. But I do not feel very strongly about this. --**[raidarr](https://meta.miraheze.org/wiki/User:Raidarr)** **(** [💬](https://meta.miraheze.org/wiki/User_talk:Raidarr) **)** 00:49, 25 April 2026 (UTC)
- `{{ {{Support}} }}` Hm ... I thought Popups was already available as a default ... I may be confusing Popups with a similar extension ... but I like the idea of making Popups available ... It sounds useful ... --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 00:56, 25 April 2026 (UTC)
- `{{ {{oppose|weak}} }}` Given the variety in how wikis are set up, popups *as a default* may clash with different customization settings. However the extension is coded well enough in my experience that this usually doesn't happen. I think the cautious thing would be to not make it default. I do not think the potential usefulness justifies the potential issues in making it default. [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
- `{{ {{Weak oppose}} }}` As mentioned on Discord, we found that popups just simply didn't work on our wiki, so making it default might introduce more issues than not. [Emiliers](https://meta.miraheze.org/wiki/User:Emiliers) ([talk](https://meta.miraheze.org/wiki/User_talk:Emiliers)) 18:49, 1 May 2026 (UTC)
+}} }}
+```
 
 ## Proposal 7: disable wgRestrictDisplayTitle 
 
@@ -427,36 +433,41 @@ Please discuss disabling this option only for new wikis. [[User:PetraMagna|Petra
 
 ## Proposal 14: enable $wgVectorResponsive by default 
 
-This was a suggestion of [User:KockaAdmiralac](https://meta.miraheze.org/wiki/User:KockaAdmiralac).
+```
+{{ {{Discussion
+|comment=Closing as {{done|successful}} with 14b being the preferred option. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 02:14, 9 June 2026 (UTC)
+|1=
+This was a suggestion of [[User:KockaAdmiralac]].
 
-When visiting a wiki without [MobileFrontend](https://meta.miraheze.org/wiki/mw:Extension:MobileFrontend) on mobile, Vector 2022 will default to the desktop view instead of using its responsive version. Although [the documentation](https://meta.miraheze.org/wiki/mw:Manual:$wgVectorResponsive) says it doesn't do anything, this setting still makes a difference by [marking a skin as responsive](https://github.com/wikimedia/mediawiki-skins-Vector/blob/6debcfe8aa68d2ba01e8a3a127a5bcc79bc4aab3/includes/SkinVector22.php#L81), which allows mobile users to see the responsive view instead of the desktop view.
+When visiting a wiki without [[mw:Extension:MobileFrontend|MobileFrontend]] on mobile, Vector 2022 will default to the desktop view instead of using its responsive version. Although [[mw:Manual:$wgVectorResponsive|the documentation]] says it doesn't do anything, this setting still makes a difference by [https://github.com/wikimedia/mediawiki-skins-Vector/blob/6debcfe8aa68d2ba01e8a3a127a5bcc79bc4aab3/includes/SkinVector22.php#L81 marking a skin as responsive], which allows mobile users to see the responsive view instead of the desktop view.
 
-### Discussion 14a 
+=== Discussion 14a ===
+Please discuss enabling this option for all wikis that did not change this option. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 05:07, 23 April 2026 (UTC)
+:{{support}} As proposer. Too many support questions were on this config. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 05:35, 23 April 2026 (UTC)
+:{{support}} [[User:KockaAdmiralac|KockaAdmiralac]] ([[User talk:KockaAdmiralac|talk]]) 18:20, 23 April 2026 (UTC)
+:{{neutral}} I haven't really done much work with Vector 2022 so I can't tell how out of the way the setting is, but I feel like most of the above settings are for people who don't know what a managewiki is or people who aren't aware a certain thing can be customised. As far as I'm aware, this setting would only be necessary for people who've already configured stuff on ManageWiki since MobileFrontend is a default extension. [[User:TheWWRNerdGuy|TheWWRNerdGuy]] ([[User talk:TheWWRNerdGuy|talk]]) 20:35, 23 April 2026 (UTC)
+:{{Abstain}} (( ... Skipping ... I feel there's a lot of potential here that can benefit a lot of users but this is out of my territory ...)) --- [[User:Imamy|Imamy]] ([[User talk:Imamy|talk]]) 02:11, 25 April 2026 (UTC)
+:{{support}} In general skins should be responsive. [[User:Harej|Harej]] ([[User talk:Harej|talk]]) 02:09, 1 May 2026 (UTC)
+:{{Support}} I wasn't even aware this wasn't default behavior. [[User:Emiliers|Emiliers]] ([[User talk:Emiliers|talk]]) 19:03, 1 May 2026 (UTC)
+:{{support}} This should've been made an option by default anyways. --[[User:DarkMatterMan4500|DarkMatterMan4500]] ([[User talk:DarkMatterMan4500|talk]]) ([[Special:Contributions/DarkMatterMan4500|contribs]]) 11:28, 4 May 2026 (UTC)
+:{{support}} as skins should be responsive per modern design ~ [[User:Elisapoly|Elisapoly]] ([[User talk:Elisapoly|talk]]) 04:19, 10 May 2026 (UTC)
+:{{Support}} per PetraMagna. '''[[User:ObsidianGuy|<span style="color:black;">O<small>BSIDIAN</small>G<small>UY</small></span>]] <small>([[User talk:ObsidianGuy|T]]{{!}}[[Special:Contributions/ObsidianGuy|C]]{{!}}[[Special:CentralAuth/ObsidianGuy|G]])</small>''' 23:52, 21 May 2026 (UTC)
 
-Please discuss enabling this option for all wikis that did not change this option. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 05:07, 23 April 2026 (UTC)
- `{{ {{support}} }}` As proposer. Too many support questions were on this config. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 05:35, 23 April 2026 (UTC)
- `{{ {{support}} }}` [KockaAdmiralac](https://meta.miraheze.org/wiki/User:KockaAdmiralac) ([talk](https://meta.miraheze.org/wiki/User_talk:KockaAdmiralac)) 18:20, 23 April 2026 (UTC)
- `{{ {{neutral}} }}` I haven't really done much work with Vector 2022 so I can't tell how out of the way the setting is, but I feel like most of the above settings are for people who don't know what a managewiki is or people who aren't aware a certain thing can be customised. As far as I'm aware, this setting would only be necessary for people who've already configured stuff on ManageWiki since MobileFrontend is a default extension. [TheWWRNerdGuy](https://meta.miraheze.org/wiki/User:TheWWRNerdGuy) ([talk](https://meta.miraheze.org/wiki/User_talk:TheWWRNerdGuy)) 20:35, 23 April 2026 (UTC)
- `{{ {{Abstain}} }}` (( ... Skipping ... I feel there's a lot of potential here that can benefit a lot of users but this is out of my territory ...)) --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 02:11, 25 April 2026 (UTC)
- `{{ {{support}} }}` In general skins should be responsive. [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
- `{{ {{Support}} }}` I wasn't even aware this wasn't default behavior. [Emiliers](https://meta.miraheze.org/wiki/User:Emiliers) ([talk](https://meta.miraheze.org/wiki/User_talk:Emiliers)) 19:03, 1 May 2026 (UTC)
- `{{ {{support}} }}` This should've been made an option by default anyways. --[DarkMatterMan4500](https://meta.miraheze.org/wiki/User:DarkMatterMan4500) ([talk](https://meta.miraheze.org/wiki/User_talk:DarkMatterMan4500)) ([contribs](https://meta.miraheze.org/wiki/Special:Contributions/DarkMatterMan4500)) 11:28, 4 May 2026 (UTC)
- `{{ {{support}} }}` as skins should be responsive per modern design ~ [Elisapoly](https://meta.miraheze.org/wiki/User:Elisapoly) ([talk](https://meta.miraheze.org/wiki/User_talk:Elisapoly)) 04:19, 10 May 2026 (UTC)
- `{{ {{Support}} }}` per PetraMagna. **[<span style="color:black;">O<small>BSIDIAN</small>G<small>UY</small></span>](https://meta.miraheze.org/wiki/User:ObsidianGuy) ([T](https://meta.miraheze.org/wiki/User_talk:ObsidianGuy)| [C](https://meta.miraheze.org/wiki/Special:Contributions/ObsidianGuy)| [G](https://meta.miraheze.org/wiki/Special:CentralAuth/ObsidianGuy))** 23:52, 21 May 2026 (UTC)
+=== Discussion 14b ===
+Please discuss enabling this option only for new wikis. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 05:07, 23 April 2026 (UTC)
 
-### Discussion 14b 
+:{{support|weak}} Same rationale as 7b. This is more work for the tech team compared with 14a. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 05:37, 23 April 2026 (UTC)
+:{{support|strongest}} Responsive mode was a game changer when considering which skin to support, and why we initially went with Vector-2022, but it could drastically interfere with the CSS of wikis that didn't develop their CSS with it in mind, leading to unexpected breaking changes. - [[User:JaneBuzJane|JaneBuzJane]] ([[User talk:JaneBuzJane|talk]]) 19:47, 23 April 2026 (UTC)
+::I compared some wikis and it does seem like CSS is injected beyond the viewport change. The <code>skin--responsive</code> class changes the behavior of, for example, images with high width. These are in my opinion pretty light changes and I find them to be less intrusive than, for example, MobileFrontend making all images have <code>width: 100% !important</code> on mobile. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 00:10, 24 April 2026 (UTC)
+:::But if b gets similar levels of support than a I think to be safe we should implement b only. I would interpret supporter of 14a to support 14b as well, but the converse is not true since 14b supporters specifically don't want a change to apply to all wikis. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 00:16, 24 April 2026 (UTC)
+:{{support}} in particular with sway from Jane's input as moderately less intrusive, but feel free to interpret a weak support for 14a if it helps, as a change that leans for the net better. --'''[[User:Raidarr|raidarr]]''' '''('''[[User_talk:Raidarr|💬]]''')''' 00:58, 25 April 2026 (UTC)
+:{{Oppose}} (( I vote to apply to all or no wikis ... )) --- [[User:Imamy|Imamy]] ([[User talk:Imamy|talk]]) 02:12, 25 April 2026 (UTC)
+:{{support}} In general skins should be responsive. [[User:Harej|Harej]] ([[User talk:Harej|talk]]) 02:09, 1 May 2026 (UTC)
+:{{support}} per my comment above ~ [[User:Elisapoly|Elisapoly]] ([[User talk:Elisapoly|talk]]) 04:19, 10 May 2026 (UTC)
+:{{support|strongest}} Per comments made by Elisapoly above, along with my additional support of having this enabled by default. --[[User:DarkMatterMan4500|DarkMatterMan4500]] ([[User talk:DarkMatterMan4500|talk]]) ([[Special:Contributions/DarkMatterMan4500|contribs]]) 17:11, 16 May 2026 (UTC)
 
-Please discuss enabling this option only for new wikis. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 05:07, 23 April 2026 (UTC)
-
- `{{ {{support|weak}} }}` Same rationale as 7b. This is more work for the tech team compared with 14a. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 05:37, 23 April 2026 (UTC)
- `{{ {{support|strongest}} }}` Responsive mode was a game changer when considering which skin to support, and why we initially went with Vector-2022, but it could drastically interfere with the CSS of wikis that didn't develop their CSS with it in mind, leading to unexpected breaking changes. - [JaneBuzJane](https://meta.miraheze.org/wiki/User:JaneBuzJane) ([talk](https://meta.miraheze.org/wiki/User_talk:JaneBuzJane)) 19:47, 23 April 2026 (UTC)
-      I compared some wikis and it does seem like CSS is injected beyond the viewport change. The `skin--responsive` class changes the behavior of, for example, images with high width. These are in my opinion pretty light changes and I find them to be less intrusive than, for example, MobileFrontend making all images have `width: 100% !important` on mobile. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 00:10, 24 April 2026 (UTC)
-         But if b gets similar levels of support than a I think to be safe we should implement b only. I would interpret supporter of 14a to support 14b as well, but the converse is not true since 14b supporters specifically don't want a change to apply to all wikis. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 00:16, 24 April 2026 (UTC)
- `{{ {{support}} }}` in particular with sway from Jane's input as moderately less intrusive, but feel free to interpret a weak support for 14a if it helps, as a change that leans for the net better. --**[raidarr](https://meta.miraheze.org/wiki/User:Raidarr)** **(** [💬](https://meta.miraheze.org/wiki/User_talk:Raidarr) **)** 00:58, 25 April 2026 (UTC)
- `{{ {{Oppose}} }}` (( I vote to apply to all or no wikis ... )) --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 02:12, 25 April 2026 (UTC)
- `{{ {{support}} }}` In general skins should be responsive. [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
- `{{ {{support}} }}` per my comment above ~ [Elisapoly](https://meta.miraheze.org/wiki/User:Elisapoly) ([talk](https://meta.miraheze.org/wiki/User_talk:Elisapoly)) 04:19, 10 May 2026 (UTC)
- `{{ {{support|strongest}} }}` Per comments made by Elisapoly above, along with my additional support of having this enabled by default. --[DarkMatterMan4500](https://meta.miraheze.org/wiki/User:DarkMatterMan4500) ([talk](https://meta.miraheze.org/wiki/User_talk:DarkMatterMan4500)) ([contribs](https://meta.miraheze.org/wiki/Special:Contributions/DarkMatterMan4500)) 17:11, 16 May 2026 (UTC)
+}} }}
+```
 
 ## Proposal 15: set $wgArticleCountMethod to 'any' 
 
@@ -494,39 +505,40 @@ Please discuss enabling this option only for new wikis. [[User:PetraMagna|PetraM
 
 ## Proposal 16: set $wgDefaultUserOptions['showrollbackconfirmation'] to 1 
 
-This was a suggestion of [User:KockaAdmiralac](https://meta.miraheze.org/wiki/User:KockaAdmiralac).
+```
+{{ {{Discussion
+|comment=This is {{Not done}} due to lack of consensus. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 02:37, 9 June 2026 (UTC)
+|1=
+This was a suggestion of [[User:KockaAdmiralac]].
 
-Accidental rollbacks have been a common occurrence. A preference to show a confirmation before rollbacking was added [7 years ago](https://meta.miraheze.org/wiki/wikimediaphab:T199537), but given a discussion earlier this month about accidental rollbacks in the Miraheze Discord server, it seems that there's relatively low awareness of this feature. Some Wikimedia wikis, such as the [German Wikipedia,](https://noc.wikimedia.org/wiki.php?wiki=dewiki#wmgShowRollbackConfirmationDefaultUserOptions) already enabled this option by default.
+Accidental rollbacks have been a common occurrence. A preference to show a confirmation before rollbacking was added [[wikimediaphab:T199537|7 years ago]], but given a discussion earlier this month about accidental rollbacks in the Miraheze Discord server, it seems that there's relatively low awareness of this feature. Some Wikimedia wikis, such as the [https://noc.wikimedia.org/wiki.php?wiki=dewiki#wmgShowRollbackConfirmationDefaultUserOptions German Wikipedia,] already enabled this option by default.
 
-### Discussion 16a 
+=== Discussion 16a ===
+Discuss enabling this option for all users that did not change this option. [[User:KockaAdmiralac|KockaAdmiralac]] ([[User talk:KockaAdmiralac|talk]]) 17:08, 23 April 2026 (UTC)
+:{{support}} As proposer. [[User:KockaAdmiralac|KockaAdmiralac]] ([[User talk:KockaAdmiralac|talk]]) 17:08, 23 April 2026 (UTC)
+:{{support}} per proposal. - [[User:JaneBuzJane|JaneBuzJane]] ([[User talk:JaneBuzJane|talk]]) 19:48, 23 April 2026 (UTC)
+:{{support}} as a user preference it can be globally disabled anyway so I have no issue with this. [[User:TheWWRNerdGuy|TheWWRNerdGuy]] ([[User talk:TheWWRNerdGuy|talk]]) 20:48, 23 April 2026 (UTC)
+:{{abstain}} I personally don't find accidentally clicking the rollback button a problem, but I understand this may not be the case for other users, especially on mobile. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 23:43, 23 April 2026 (UTC)
+:{{oppose}} as the whole intent of rollback is to be as expeditious as possible, and we should maintain that default. I know that many people like having a confirmation (enough for MediaWiki to support this as an option), but that doesn't mean that {{tq|low awareness of this feature}} justifies degrading what rollback is intended to accomplish. — <span style="font-variant: small-caps">[[User:Chrs|chrs]] ([[User talk:Chrs|talk]])</span> 00:38, 24 April 2026 (UTC)
+:{{support|strong}} This honestly should've been a thing a long time ago, so I'll support this. --[[User:DarkMatterMan4500|DarkMatterMan4500]] ([[User talk:DarkMatterMan4500|talk]]) ([[Special:Contributions/DarkMatterMan4500|contribs]]) 15:38, 24 April 2026 (UTC)
+:{{support|weak}}, if there is interface text pointing out this can be changed in user preference. If not I would recommend injecting some for clarity, and to account for the concern raised by Chrs. --'''[[User:Raidarr|raidarr]]''' '''('''[[User_talk:Raidarr|💬]]''')''' 01:02, 25 April 2026 (UTC)
+:{{Oppose}} ((I think fiddling with this feature at this point is going to create havoc or at least some form of discomfort ... ... ... There should be a way to help enable the confirmation without making it a default ... some people will prefer speed and some may not know how to change back the setting ... )) --- [[User:Imamy|Imamy]] ([[User talk:Imamy|talk]]) 02:26, 25 April 2026 (UTC)
+:{{Abstain}} [[User:Harej|Harej]] ([[User talk:Harej|talk]]) 02:09, 1 May 2026 (UTC)
+:{{Support}} I'll self-report -- I was one of those people who kept accidentally rollbacking and had to be told an option was available to add a confirmation. While I understand the desire for expedience, the time difference between clicking once vs clicking twice is negligible, while saving the rollbacker from massive amounts of potential embarrassment. A worthwhile trade, in my opinion. [[User:Emiliers|Emiliers]] ([[User talk:Emiliers|talk]]) 19:09, 1 May 2026 (UTC)
+:{{support}} [[User:ark|ark]] ([[User talk:ark|talk]]) 07:44, 3 May 2026 (UTC)
+:<!--No template, thanks in advance.-->Hell no. Defeats the purpose of the rollback. &mdash; [[User:Revi|<span style="color:green"><kbd>revi</kbd></span>]] 10:13, 9 May 2026 (UTC)
+:{{Support}}. '''[[User:ObsidianGuy|<span style="color:black;">O<small>BSIDIAN</small>G<small>UY</small></span>]] <small>([[User talk:ObsidianGuy|T]]{{!}}[[Special:Contributions/ObsidianGuy|C]]{{!}}[[Special:CentralAuth/ObsidianGuy|G]])</small>''' 23:50, 21 May 2026 (UTC)
+: {{oppose|weak}} per above -- <span style="padding:1px 2px;background:#bbd5ff;color:#16499e">'''🏕'''</span> [[User:小美粉粉|<span style="color:#1e42fe">{{annotation|'''小美粉粉'''|Do not ping me! }}</span>]] <small>([[User Talk:小美粉粉#top|<span style="color:#af4ebc">'''Going Head-to-Head with Me'''</span>]] · [[Special:Contributions/小美粉粉|<span style="color:#6efa45">'''See My Contributions'''</span>]] · [[Special:CentralAuth/小美粉粉|<span style="color:#4ab29f">'''See My Global Contributions'''</span>]])</small> 12:47, 22 May 2026 (UTC)
 
-Discuss enabling this option for all users that did not change this option. [KockaAdmiralac](https://meta.miraheze.org/wiki/User:KockaAdmiralac) ([talk](https://meta.miraheze.org/wiki/User_talk:KockaAdmiralac)) 17:08, 23 April 2026 (UTC)
- `{{ {{support}} }}` As proposer. [KockaAdmiralac](https://meta.miraheze.org/wiki/User:KockaAdmiralac) ([talk](https://meta.miraheze.org/wiki/User_talk:KockaAdmiralac)) 17:08, 23 April 2026 (UTC)
- `{{ {{support}} }}` per proposal. - [JaneBuzJane](https://meta.miraheze.org/wiki/User:JaneBuzJane) ([talk](https://meta.miraheze.org/wiki/User_talk:JaneBuzJane)) 19:48, 23 April 2026 (UTC)
- `{{ {{support}} }}` as a user preference it can be globally disabled anyway so I have no issue with this. [TheWWRNerdGuy](https://meta.miraheze.org/wiki/User:TheWWRNerdGuy) ([talk](https://meta.miraheze.org/wiki/User_talk:TheWWRNerdGuy)) 20:48, 23 April 2026 (UTC)
- `{{ {{abstain}} }}` I personally don't find accidentally clicking the rollback button a problem, but I understand this may not be the case for other users, especially on mobile. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 23:43, 23 April 2026 (UTC)
- `{{ {{oppose}} }}` as the whole intent of rollback is to be as expeditious as possible, and we should maintain that default. I know that many people like having a confirmation (enough for MediaWiki to support this as an option), but that doesn't mean that `{{ {{tq|low awareness of this feature}} }}` justifies degrading what rollback is intended to accomplish. — [chrs](https://meta.miraheze.org/wiki/User:Chrs) ([talk](https://meta.miraheze.org/wiki/User_talk:Chrs)) 00:38, 24 April 2026 (UTC)
- `{{ {{support|strong}} }}` This honestly should've been a thing a long time ago, so I'll support this. --[DarkMatterMan4500](https://meta.miraheze.org/wiki/User:DarkMatterMan4500) ([talk](https://meta.miraheze.org/wiki/User_talk:DarkMatterMan4500)) ([contribs](https://meta.miraheze.org/wiki/Special:Contributions/DarkMatterMan4500)) 15:38, 24 April 2026 (UTC)
- `{{ {{support|weak}} }}`, if there is interface text pointing out this can be changed in user preference. If not I would recommend injecting some for clarity, and to account for the concern raised by Chrs. --**[raidarr](https://meta.miraheze.org/wiki/User:Raidarr)** **(** [💬](https://meta.miraheze.org/wiki/User_talk:Raidarr) **)** 01:02, 25 April 2026 (UTC)
- `{{ {{Oppose}} }}` ((I think fiddling with this feature at this point is going to create havoc or at least some form of discomfort ... ... ... There should be a way to help enable the confirmation without making it a default ... some people will prefer speed and some may not know how to change back the setting ... )) --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 02:26, 25 April 2026 (UTC)
- `{{ {{Abstain}} }}` [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
- `{{ {{Support}} }}` I'll self-report -- I was one of those people who kept accidentally rollbacking and had to be told an option was available to add a confirmation. While I understand the desire for expedience, the time difference between clicking once vs clicking twice is negligible, while saving the rollbacker from massive amounts of potential embarrassment. A worthwhile trade, in my opinion. [Emiliers](https://meta.miraheze.org/wiki/User:Emiliers) ([talk](https://meta.miraheze.org/wiki/User_talk:Emiliers)) 19:09, 1 May 2026 (UTC)
- `{{ {{support}} }}` [ark](https://meta.miraheze.org/wiki/User:ark) ([talk](https://meta.miraheze.org/wiki/User_talk:ark)) 07:44, 3 May 2026 (UTC)
+=== Discussion 16b ===
+Discuss enabling this option only for new users. [[User:KockaAdmiralac|KockaAdmiralac]] ([[User talk:KockaAdmiralac|talk]]) 17:08, 23 April 2026 (UTC)
+:{{weak support}} This is a bit more work and I feel like it would be useful for existing users who did not know about the feature as well. [[User:KockaAdmiralac|KockaAdmiralac]] ([[User talk:KockaAdmiralac|talk]]) 17:08, 23 April 2026 (UTC)
+:{{support|partial}} As long as it benefits in the long-run? Well, you have my support. --[[User:DarkMatterMan4500|DarkMatterMan4500]] ([[User talk:DarkMatterMan4500|talk]]) ([[Special:Contributions/DarkMatterMan4500|contribs]]) 15:38, 24 April 2026 (UTC)
+:{{Oppose}} ((I'm not really sure why this is necessary ... I'm of the opinion that it takes time to get good at using tools ... The confirmation option may be perfect for certain situations but if everyone has a different experience, it will make communication more difficult ... I always assume that what I experience is more or less shared by others but the way these proposals are going, it's like going out of our way to create potential for confusion and misunderstandings ... I would prefer to give the user the option to toggle between the states rather than deciding for the user ...)) --- [[User:Imamy|Imamy]] ([[User talk:Imamy|talk]]) 02:32, 25 April 2026 (UTC)
+:{{Abstain}} [[User:Harej|Harej]] ([[User talk:Harej|talk]]) 02:09, 1 May 2026 (UTC)
 
-
-<!--No template, thanks in advance.-->
-
-Hell no. Defeats the purpose of the rollback. &mdash;[<span style="color:green"><kbd>revi</kbd></span>](https://meta.miraheze.org/wiki/User:Revi) 10:13, 9 May 2026 (UTC)
- `{{ {{Support}} }}`. **[<span style="color:black;">O<small>BSIDIAN</small>G<small>UY</small></span>](https://meta.miraheze.org/wiki/User:ObsidianGuy) ([T](https://meta.miraheze.org/wiki/User_talk:ObsidianGuy)| [C](https://meta.miraheze.org/wiki/Special:Contributions/ObsidianGuy)| [G](https://meta.miraheze.org/wiki/Special:CentralAuth/ObsidianGuy))** 23:50, 21 May 2026 (UTC)
- `{{ {{oppose|weak}} }}` per above -- **🏕** [<span style="color:#1e42fe">{{annotation|'''小美粉粉'''|Do not ping me! }}</span>](https://meta.miraheze.org/wiki/User:小美粉粉) ([<span style="color:#af4ebc">'''Going Head-to-Head with Me'''</span>](https://meta.miraheze.org/wiki/User_Talk:小美粉粉#top) · [<span style="color:#6efa45">'''See My Contributions'''</span>](https://meta.miraheze.org/wiki/Special:Contributions/小美粉粉) · [<span style="color:#4ab29f">'''See My Global Contributions'''</span>](https://meta.miraheze.org/wiki/Special:CentralAuth/小美粉粉)) 12:47, 22 May 2026 (UTC)
-
-### Discussion 16b 
-
-Discuss enabling this option only for new users. [KockaAdmiralac](https://meta.miraheze.org/wiki/User:KockaAdmiralac) ([talk](https://meta.miraheze.org/wiki/User_talk:KockaAdmiralac)) 17:08, 23 April 2026 (UTC)
- `{{ {{weak support}} }}` This is a bit more work and I feel like it would be useful for existing users who did not know about the feature as well. [KockaAdmiralac](https://meta.miraheze.org/wiki/User:KockaAdmiralac) ([talk](https://meta.miraheze.org/wiki/User_talk:KockaAdmiralac)) 17:08, 23 April 2026 (UTC)
- `{{ {{support|partial}} }}` As long as it benefits in the long-run? Well, you have my support. --[DarkMatterMan4500](https://meta.miraheze.org/wiki/User:DarkMatterMan4500) ([talk](https://meta.miraheze.org/wiki/User_talk:DarkMatterMan4500)) ([contribs](https://meta.miraheze.org/wiki/Special:Contributions/DarkMatterMan4500)) 15:38, 24 April 2026 (UTC)
- `{{ {{Oppose}} }}` ((I'm not really sure why this is necessary ... I'm of the opinion that it takes time to get good at using tools ... The confirmation option may be perfect for certain situations but if everyone has a different experience, it will make communication more difficult ... I always assume that what I experience is more or less shared by others but the way these proposals are going, it's like going out of our way to create potential for confusion and misunderstandings ... I would prefer to give the user the option to toggle between the states rather than deciding for the user ...)) --- [Imamy](https://meta.miraheze.org/wiki/User:Imamy) ([talk](https://meta.miraheze.org/wiki/User_talk:Imamy)) 02:32, 25 April 2026 (UTC)
- `{{ {{Abstain}} }}` [Harej](https://meta.miraheze.org/wiki/User:Harej) ([talk](https://meta.miraheze.org/wiki/User_talk:Harej)) 02:09, 1 May 2026 (UTC)
+}} }}
+```
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Noticeboard/Request_for_feedback:_changes_to_default_MediaWiki_settings)**
