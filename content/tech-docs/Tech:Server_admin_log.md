@@ -2,6 +2,108 @@
 title: Tech:Server admin log
 ---
 
+## 2026-06-10 
+
+* 21:27 MirahezeLSBot: [macfan@test151] finished deploy of {'pull': 'config', 'config': True, 'world': True, 'l10n': True, 'extension_list': True, 'versions': ['1.45', '1.46']} to test151 - SUCCESS in 470s
+* 21:23 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'world': True, 'l10n': True, 'extension_list': True, 'versions': '1.45'} to all - SUCCESS in 791s
+* 21:19 MirahezeLSBot: [macfan@test151] starting deploy of {'pull': 'config', 'config': True, 'world': True, 'l10n': True, 'extension_list': True, 'versions': ['1.45', '1.46']} to test151
+* 21:16 MirahezeLSBot: [macfan@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 21:10 MirahezeLSBot: [macfan@test151] starting deploy of {'pull': 'config', 'config': True, 'world': True, 'l10n': True, 'extension_list': True, 'versions': ['1.45', '1.46']} to test151
+* 21:10 MirahezeLSBot: [macfan@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'world': True, 'l10n': True, 'extension_list': True, 'versions': '1.45'} to all
+* 21:06 MirahezeLSBot: [macfan@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=loginwikibeta --setting=egChameleonLayoutFile --remove --all-wikis --execute (END - exit=0)
+* 21:06 MirahezeLSBot: [macfan@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=loginwikibeta --setting=egChameleonEnableExternalLinkIcons --remove --all-wikis --execute (END - exit=0)
+* 21:05 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=loginwiki --setting=egChameleonEnableExternalLinkIcons --remove --all-wikis --execute (END - exit=0)
+* 21:00 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=loginwiki --setting=egChameleonLayoutFile --remove --all-wikis --execute (END - exit=0)
+* 20:53 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ToggleExtension --wiki=loginwiki --name=chameleon --disable --all-wikis --execute (END - exit=0)
+* 20:52 MirahezeLSBot: [macfan@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:ToggleExtension --wiki=loginwikibeta --name=chameleon --disable --all-wikis --execute (END - exit=0)
+* 20:52 MirahezeLSBot: [macfan@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:ToggleExtension --wiki=loginwiki --name=chameleon --disable --all-wikis --execute (END - exit=512)
+* 20:04 MirahezeLSBot: [macfan@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 20:04 MirahezeLSBot: [macfan@test151] starting deploy of {'pull': 'world', 'world': True, 'versions': '1.46', 'upgrade_skins': 'chameleon'} to test151
+* 19:59 MirahezeLSBot: [macfan@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 19:59 MirahezeLSBot: [macfan@test151] starting deploy of {'pull': 'world', 'world': True, 'versions': '1.46'} to test151
+* 07:43 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: openssl-provider-legacy, libssl3t64, and openssl
+* 07:43 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: openssl-provider-legacy, libssl3t64, and openssl
+* 07:42 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libssl-dev, openssl-provider-legacy, libssl3t64, poppler-utils, libpoppler-glib8t64, libpoppler147, and openssl
+* 07:42 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: openssl-provider-legacy, libssl3t64, and openssl
+* 07:41 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: openssl-provider-legacy, libssl3t64, and openssl
+* 07:41 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: openssl-provider-legacy, libssl3t64, and openssl
+* 07:41 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: openssl-provider-legacy, libssl3t64, and openssl
+* 07:40 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: openssl-provider-legacy, libssl3t64, and openssl
+* 07:40 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: openssl-provider-legacy, libssl3t64, and openssl
+* 07:39 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: openssl-provider-legacy, libssl3t64, and openssl
+* 07:39 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: openssl-provider-legacy, libssl3t64, and openssl
+* 07:39 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: openssl-provider-legacy, libssl3t64, and openssl
+* 07:39 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: openssl-provider-legacy, libssl3t64, and openssl
+* 07:38 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: openssl-provider-legacy, libssl3t64, and openssl
+* 07:38 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb191: openssl-provider-legacy, libssl3t64, and openssl
+* 07:37 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: openssl-provider-legacy, libssl3t64, and openssl
+* 07:37 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: openssl-provider-legacy, libssl3t64, and openssl
+* 07:37 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: openssl-provider-legacy, libssl3t64, and openssl
+* 07:36 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: openssl-provider-legacy, libssl3t64, and openssl
+* 07:36 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: openssl-provider-legacy, libssl3t64, and openssl
+* 07:36 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: openssl-provider-legacy, libssl3t64, and openssl
+* 07:35 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: openssl-provider-legacy, libssl3t64, and openssl
+* 07:35 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: openssl-provider-legacy, libssl3t64, poppler-utils, libpoppler-glib8t64, libpoppler147, and openssl
+* 07:35 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: openssl-provider-legacy, libssl3t64, poppler-utils, libpoppler-glib8t64, libpoppler147, and openssl
+* 07:34 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: openssl-provider-legacy, libssl3t64, and openssl
+* 07:34 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: openssl-provider-legacy, libssl3t64, and openssl
+* 07:34 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: openssl-provider-legacy, libssl3t64, poppler-utils, libpoppler-glib8t64, libpoppler147, and openssl
+* 07:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: openssl-provider-legacy, libssl3t64, poppler-utils, libpoppler-glib8t64, libpoppler147, and openssl
+* 07:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: openssl-provider-legacy, libssl3t64, poppler-utils, libpoppler-glib8t64, libpoppler147, and openssl
+* 07:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: openssl-provider-legacy, libssl3t64, poppler-utils, libpoppler-glib8t64, libpoppler147, and openssl
+* 07:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: openssl-provider-legacy, libssl3t64, poppler-utils, libpoppler-glib8t64, libpoppler147, and openssl
+* 07:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: openssl-provider-legacy, libssl3t64, poppler-utils, libpoppler-glib8t64, libpoppler147, and openssl
+* 07:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: openssl-provider-legacy, libssl3t64, poppler-utils, libpoppler-glib8t64, libpoppler147, and openssl
+* 07:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: openssl-provider-legacy, libssl3t64, poppler-utils, libpoppler-glib8t64, libpoppler147, and openssl
+* 07:30 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: openssl-provider-legacy, libssl3t64, poppler-utils, libpoppler-glib8t64, libpoppler147, and openssl
+* 07:30 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: openssl-provider-legacy, libssl3t64, poppler-utils, libpoppler-glib8t64, libpoppler147, and openssl
+* 07:29 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: openssl-provider-legacy, libssl3t64, poppler-utils, libpoppler-glib8t64, libpoppler147, and openssl
+* 07:29 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: openssl-provider-legacy, libssl3t64, poppler-utils, libpoppler-glib8t64, libpoppler147, and openssl
+* 07:28 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: openssl-provider-legacy, libssl3t64, poppler-utils, libpoppler-glib8t64, libpoppler147, and openssl
+* 07:28 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: openssl-provider-legacy, libssl3t64, poppler-utils, libpoppler-glib8t64, libpoppler147, and openssl
+* 07:28 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: openssl-provider-legacy, libssl3t64, poppler-utils, libpoppler-glib8t64, libpoppler147, and openssl
+* 07:27 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: openssl-provider-legacy, libssl3t64, poppler-utils, libpoppler-glib8t64, libpoppler147, and openssl
+* 07:27 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: openssl-provider-legacy, libssl3t64, poppler-utils, libpoppler-glib8t64, libpoppler147, and openssl
+* 07:27 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: openssl-provider-legacy, libssl3t64, and openssl
+* 07:26 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: openssl-provider-legacy, libssl3t64, and openssl
+* 07:26 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: openssl-provider-legacy, libssl3t64, poppler-utils, libpoppler-glib8t64, libpoppler147, and openssl
+* 07:26 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: openssl-provider-legacy, libssl3t64, poppler-utils, libpoppler-glib8t64, libpoppler147, and openssl
+* 07:25 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: openssl-provider-legacy, libssl3t64, poppler-utils, libpoppler-glib8t64, libpoppler147, and openssl
+* 07:25 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: openssl-provider-legacy, libssl3t64, and openssl
+* 07:25 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: openssl-provider-legacy, libssl3t64, and openssl
+* 07:24 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: openssl-provider-legacy, libssl3t64, and openssl
+* 07:24 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: openssl-provider-legacy, libssl3t64, and openssl
+* 07:24 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: openssl-provider-legacy, libssl3t64, and openssl
+* 07:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: openssl-provider-legacy, libssl3t64, and openssl
+* 07:23 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: openssl-provider-legacy, libssl3t64, and openssl
+* 07:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: openssl-provider-legacy, libssl3t64, and openssl
+* 07:22 MirahezeLSBot: [void@puppet181] Upgraded packages on db192: openssl-provider-legacy, libssl3t64, and openssl
+* 07:22 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: openssl-provider-legacy, libssl3t64, and openssl
+* 07:22 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: openssl-provider-legacy, libssl3t64, and openssl
+* 07:21 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: libssl-dev, openssl-provider-legacy, libssl3t64, and openssl
+* 07:21 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: openssl-provider-legacy, libssl3t64, and openssl
+* 07:21 MirahezeLSBot: [void@puppet181] Upgraded packages on db201: openssl-provider-legacy, libssl3t64, and openssl
+* 07:20 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: openssl-provider-legacy, libssl3t64, and openssl
+* 07:20 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: openssl-provider-legacy, libssl3t64, and openssl
+* 07:20 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: openssl-provider-legacy, libssl3t64, and openssl
+* 07:19 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: openssl-provider-legacy, libssl3t64, and openssl
+* 07:19 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: openssl-provider-legacy, libssl3t64, and openssl
+* 07:19 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: openssl-provider-legacy, libssl3t64, and openssl
+* 07:18 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: openssl-provider-legacy, libssl3t64, and openssl
+* 07:18 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: openssl-provider-legacy, libssl3t64, and openssl
+* 07:18 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: openssl-provider-legacy, libssl3t64, and openssl
+* 07:17 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: openssl-provider-legacy, libssl3t64, and openssl
+* 07:17 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: openssl-provider-legacy, libssl3t64, and openssl
+* 07:17 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: libssl-dev, openssl-provider-legacy, libssl3t64, and openssl
+* 07:16 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: openssl-provider-legacy, libssl3t64, and openssl
+* 07:16 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: openssl-provider-legacy, libssl3t64, and openssl
+* 07:16 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: openssl-provider-legacy, libssl3t64, and openssl
+* 07:16 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: openssl-provider-legacy, libssl3t64, and openssl
+* 07:15 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: openssl-provider-legacy, libssl3t64, and openssl
+* 07:15 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: openssl-provider-legacy, libssl3t64, and openssl
+* 07:15 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: openssl-provider-legacy, libssl3t64, and openssl
+* 07:13 MirahezeLSBot: [void@db181] restart sql-backup
+
 ## 2026-06-09 
 
 * 23:05 MirahezeLSBot: [somerandomdeveloper@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
