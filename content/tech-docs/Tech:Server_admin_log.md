@@ -2,6 +2,23 @@
 title: Tech:Server admin log
 ---
 
+## 2026-06-13 
+
+* 18:39 MirahezeLSBot: [void@db171] restart sql-backup service
+* 12:58 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:ReplaceTextEligible --wiki=pinmasterwiki (END - exit=0)
+* 12:05 MirahezeLSBot: [wwr@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'CommentStreams'} to all - SUCCESS in 0s
+* 12:05 MirahezeLSBot: [wwr@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'CommentStreams'} to all
+* 08:21 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=fantendowiki (END - exit=256)
+* 01:33 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'CommentStreams'} to all
+* 01:26 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'CommentStreams'} to test151 - SUCCESS in 1s
+* 01:26 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'CommentStreams'} to test151
+* 01:25 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'CommentStreams'} to test151
+* 01:08 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 18s
+* 01:08 SomeRandomDeveloper: repool c2
+* 01:08 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 01:05 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 20s
+* 01:04 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'config': True, 'force': True} to all
+
 ## 2026-06-12 
 
 * 23:34 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libjxl0.11 and librabbitmq4
