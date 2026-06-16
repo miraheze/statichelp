@@ -2,6 +2,30 @@
 title: Tech:Server admin log
 ---
 
+## 2026-06-15 
+
+* 22:14 SomeRandomDeveloper: dropped tcgswiki, teiinfwiki, vvedommelstatewiki, murdermittensrobloxwiki, francoriawiki, eurosfootballwiki, evilspacewiki, andrahistoriaswiki, ahleleleahlelaswikiwiki, margoswiki, nothingknownwiki, aliencodexwiki, starterdexwiki on db161/db171 (some existed on both)
+* 21:59 SomeRandomDeveloper: "DROP DATABASE hadeanheavenwiki;" on db161
+* 21:21 @paladox: [root@matomo151:/srv/matomo]# ./console  core:update
+* 12:05 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'UrlShortener'} to all - SUCCESS in 25s
+* 12:04 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'UrlShortener'} to all
+* 12:03 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'UrlShortener'} to test151 - SUCCESS in 1s
+* 12:02 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'UrlShortener'} to test151
+* 11:52 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 11:52 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 10:11 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 18s
+* 10:11 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 10:11 MirahezeLSBot: [petramagna@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@localhost
+* 10:11 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'config': True} to all
+* 10:04 RhinosF1: sudo qm reset 128 on cloud 16 (reset db161)
+* 09:51 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 19s
+* 08:41 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 08:41 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 07:19 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 07:18 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 07:17 MirahezeLSBot: [petramagna@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 07:17 MirahezeLSBot: [petramagna@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+
 ## 2026-06-14 
 
 * 19:02 SomeRandomDeveloper: manually deployed patch for T15477

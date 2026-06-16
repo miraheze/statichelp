@@ -17,14 +17,6 @@ title: Tech:Noticeboard
 ```
  `{{ {{Navigation Miraheze}} }}`
 
-## Server maintenance 
-
-On February 22nd, 2025 from 18:45 until 23:30 UTC we will be performing maintenance on our servers. During this time we expect intermittent outages of all services. We will post updates as needed, and we thank you for your understanding. [MacFan4000](https://meta.miraheze.org/wiki/User:MacFan4000) ([Talk](https://meta.miraheze.org/wiki/User_talk:MacFan4000) [Contribs](https://meta.miraheze.org/wiki/Special:Contributions/MacFan4000)) 02:15, 12 February 2025 (UTC)
-
-      This planned maintenance has been postponed due to late arriving parts. We will post again when a new date is known. [MacFan4000](https://meta.miraheze.org/wiki/User:MacFan4000) ([Talk](https://meta.miraheze.org/wiki/User_talk:MacFan4000) [Contribs](https://meta.miraheze.org/wiki/Special:Contributions/MacFan4000)) 20:42, 21 February 2025 (UTC)
-
-         The maintenance will now take place on Wednesday February 26th from 18:45 until 23:30 UTC. Once again we expect intermittent outages of all services. [MacFan4000](https://meta.miraheze.org/wiki/User:MacFan4000) ([Talk](https://meta.miraheze.org/wiki/User_talk:MacFan4000) [Contribs](https://meta.miraheze.org/wiki/Special:Contributions/MacFan4000)) 17:58, 22 February 2025 (UTC)
-
 ## Server maintenance (again) 
 
 We will be performing maintenance on our servers again on March 1st, 2025 from 18:45 until 20:45 UTC for hardware upgrades. We expect intermittent outages, so we highly recommend that you save your edits before then. We thank you for your understanding and appreciate your patience. [MacFan4000](https://meta.miraheze.org/wiki/User:MacFan4000) ([Talk](https://meta.miraheze.org/wiki/User_talk:MacFan4000) [Contribs](https://meta.miraheze.org/wiki/Special:Contributions/MacFan4000)) 14:28, 28 February 2025 (UTC)
@@ -68,6 +60,16 @@ I'm having trouble finding a CVE for this vulnerability (although I admit it's b
 
    Not all vulnerabilities end up getting a CVE, and even then it wouldn't be public yet. Unfortunately there is no direct drop-in replacement but you may have some success with [Kartographer](https://meta.miraheze.org/wiki/mw:Extension:Kartographer). We've also determined the need to perform a review of the extension for more issues. We don't have an exact timeline for this, but we aim to minimize its inavailability due to high usage and lack of replacement. [Skye](https://meta.miraheze.org/wiki/User:Skye) ([talk](https://meta.miraheze.org/wiki/User_talk:Skye)) 21:01, 27 May 2026 (UTC)
       Kartographer has its own share of bugs, as documented this month at [phab:T15384](https://meta.miraheze.org/wiki/phab:T15384). --[Routhwick](https://meta.miraheze.org/wiki/User:Routhwick) ([talk](https://meta.miraheze.org/wiki/User_talk:Routhwick)) 21:17, 27 May 2026 (UTC)
+
+## Changes to Miraheze's default MediaWiki configuration 
+
+Following a successful [Request for Feedback](/tech-docs/technoticeboard-request_for_feedback_changes_to_default_mediawiki_settings), the Technology Team is making several changes to Miraheze's default MediaWiki configurations. We believe they are a net positive for most wikis. If they do not work well for your wiki, you can change the setting back on ManageWiki. The configuration changes are as follows:
+* `wgNativeImageLazyLoading` is enabled.
+* `wgRestrictDisplayTitle` is disabled.
+* `wgArticleCountMethod` is changed from `link` to `any`.
+* `wgTabberNeueEnableAnimation` is disabled.
+* `wgVectorResponsive` is set to `true` for all new wikis. Existing wikis are unaffected.
+Please note that if you have changed the setting manually on ManageWiki before, it will not be changed by us. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 11:58, 15 June 2026 (UTC)
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Noticeboard)**
