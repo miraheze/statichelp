@@ -2,6 +2,15 @@
 title: Tech:Server admin log
 ---
 
+## 2026-06-16 
+
+* 23:26 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=fantendowiki --update (END - exit=0)
+* 19:57 @paladox: deploy [https://github.com/miraheze/puppet/pull/4864](https://github.com/miraheze/puppet/pull/4864)
+* 14:09 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 14:09 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 14:09 MirahezeLSBot: [skye@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 14:08 MirahezeLSBot: [skye@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+
 ## 2026-06-15 
 
 * 22:14 SomeRandomDeveloper: dropped tcgswiki, teiinfwiki, vvedommelstatewiki, murdermittensrobloxwiki, francoriawiki, eurosfootballwiki, evilspacewiki, andrahistoriaswiki, ahleleleahlelaswikiwiki, margoswiki, nothingknownwiki, aliencodexwiki, starterdexwiki on db161/db171 (some existed on both)
