@@ -2,6 +2,12 @@
 title: Tech:Server admin log
 ---
 
+## 2026-06-17 
+
+* 01:23 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: gsasl-common and libgsasl18
+* 00:25 SomeRandomDeveloper: sudo salt-ssh -E 'mw.*' cmd.run 'rm /srv/mediawiki/cache/polandcuberuwiki.php'
+* 00:25 SomeRandomDeveloper: sudo salt-ssh -E 'mw.*' cmd.run 'rm /srv/mediawiki/cache/config-polandcuberuwiki.php'
+
 ## 2026-06-16 
 
 * 23:26 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=fantendowiki --update (END - exit=0)
