@@ -2,6 +2,10 @@
 title: Tech:Server admin log
 ---
 
+## 2026-06-20 
+
+* 16:07 @paladox: restart mysql on db182 to pick up config change
+
 ## 2026-06-19 
 
 * 21:18 MirahezeLSBot: [skye@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
