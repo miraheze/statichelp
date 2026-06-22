@@ -2,6 +2,54 @@
 title: Tech:Server admin log
 ---
 
+## 2026-06-22 
+
+* 00:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: linux-libc-dev, libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, libhttp-daemon-perl, libmagickcore-7.q16-10-extra, and python3-pil
+
+## 2026-06-21 
+
+* 23:59 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: linux-libc-dev, libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, libhttp-daemon-perl, libmagickcore-7.q16-10-extra, and python3-pil
+* 23:59 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: linux-libc-dev
+* 23:59 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: linux-libc-dev, libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, libhttp-daemon-perl, libmagickcore-7.q16-10-extra, and python3-pil
+* 23:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: linux-libc-dev, libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, libhttp-daemon-perl, libmagickcore-7.q16-10-extra, and python3-pil
+* 23:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: linux-libc-dev, libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, libhttp-daemon-perl, libmagickcore-7.q16-10-extra, and python3-pil
+* 23:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: linux-libc-dev
+* 23:57 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: linux-libc-dev
+* 23:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: linux-libc-dev
+* 23:57 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: linux-libc-dev
+* 23:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: linux-libc-dev
+* 23:56 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: linux-libc-dev
+* 23:56 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: linux-libc-dev
+* 23:56 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: linux-libc-dev
+* 23:56 MirahezeLSBot: [void@puppet181] Upgraded packages on db201: linux-libc-dev
+* 23:55 MirahezeLSBot: [void@puppet181] Upgraded packages on db192: linux-libc-dev
+* 23:55 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: linux-libc-dev
+* 23:55 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: linux-libc-dev
+* 23:54 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: linux-libc-dev
+* 23:54 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: linux-libc-dev, libcpupower1, libhttp-daemon-perl, and linux-cpupower
+* 23:54 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: linux-libc-dev and libhttp-daemon-perl
+* 23:53 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: linux-libc-dev
+* 23:53 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: linux-libc-dev and libhttp-daemon-perl
+* 23:53 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: linux-libc-dev, squid-common, and squid
+* 23:52 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: linux-libc-dev
+* 23:52 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: linux-libc-dev
+* 23:51 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: linux-libc-dev, libcpupower1, libhttp-daemon-perl, and linux-cpupower
+* 23:51 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: linux-libc-dev
+* 23:51 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: linux-libc-dev
+* 23:51 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: linux-libc-dev, libcpupower1, libhttp-daemon-perl, and linux-cpupower
+* 23:50 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: linux-libc-dev
+* 23:50 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: linux-libc-dev, libcpupower1, libhttp-daemon-perl, and linux-cpupower
+* 23:50 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: linux-libc-dev, libcpupower1, libhttp-daemon-perl, and linux-cpupower
+* 23:49 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: linux-libc-dev and python3-pil
+* 23:49 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: linux-libc-dev, libcpupower1, libhttp-daemon-perl, and linux-cpupower
+* 23:49 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: linux-libc-dev
+* 23:49 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: linux-libc-dev, libcpupower1, libhttp-daemon-perl, and linux-cpupower
+* 23:48 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: linux-libc-dev, squid-common, and squid
+* 12:25 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php createAndPromote --wiki=minecraftminigameswiki MC_mrjone --bureaucrat --sysop --interface-admin --force (END - exit=256)
+* 12:13 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=minecraftminigameswiki (END - exit=0)
+* 12:08 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=minecraftminigameswiki --requester=MC mrjone (END - exit=0)
+* 10:58 TheWWRNerdGuy: MediaWiki\Extension\CentralAuth\User\CentralAuthUser::getInstance( User::newFromName( 'FrivolousCreature' ) )->attach( 'dustbunnywiki', 'admin' );
+
 ## 2026-06-20 
 
 * 16:07 @paladox: restart mysql on db182 to pick up config change

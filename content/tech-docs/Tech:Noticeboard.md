@@ -60,6 +60,7 @@ I'm having trouble finding a CVE for this vulnerability (although I admit it's b
 
    Not all vulnerabilities end up getting a CVE, and even then it wouldn't be public yet. Unfortunately there is no direct drop-in replacement but you may have some success with [Kartographer](https://meta.miraheze.org/wiki/mw:Extension:Kartographer). We've also determined the need to perform a review of the extension for more issues. We don't have an exact timeline for this, but we aim to minimize its inavailability due to high usage and lack of replacement. [Skye](https://meta.miraheze.org/wiki/User:Skye) ([talk](https://meta.miraheze.org/wiki/User_talk:Skye)) 21:01, 27 May 2026 (UTC)
       Kartographer has its own share of bugs, as documented this month at [phab:T15384](https://meta.miraheze.org/wiki/phab:T15384). --[Routhwick](https://meta.miraheze.org/wiki/User:Routhwick) ([talk](https://meta.miraheze.org/wiki/User_talk:Routhwick)) 21:17, 27 May 2026 (UTC)
+         Yeah, that makes sense. [DarkMatterMan4500](https://meta.miraheze.org/wiki/User:DarkMatterMan4500) ([talk](https://meta.miraheze.org/wiki/User_talk:DarkMatterMan4500)) ([contribs](https://meta.miraheze.org/wiki/Special:Contributions/DarkMatterMan4500)) 16:49, 21 June 2026 (UTC)
 
 ## Changes to Miraheze's default MediaWiki configuration 
 
