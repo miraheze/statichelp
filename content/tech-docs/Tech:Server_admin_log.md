@@ -2,8 +2,75 @@
 title: Tech:Server admin log
 ---
 
+## 2026-06-23 
+
+* 00:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: libswscale8, libavfilter10, libavdevice61, libavformat61, libavcodec61, libavutil59, libpostproc58, libswresample5, and ffmpeg
+* 00:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: libswscale8, libavfilter10, libavdevice61, libavformat61, libavcodec61, libavutil59, libpostproc58, libswresample5, and ffmpeg
+
 ## 2026-06-22 
 
+* 23:59 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: libswscale8, libavfilter10, libavdevice61, libavformat61, libavcodec61, libavutil59, libpostproc58, libswresample5, and ffmpeg
+* 23:59 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: libswscale8, libavfilter10, libavdevice61, libavformat61, libavcodec61, libavutil59, libpostproc58, libswresample5, and ffmpeg
+* 23:59 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: libswscale8, libavfilter10, libavdevice61, libavformat61, libavcodec61, libavutil59, libpostproc58, libswresample5, and ffmpeg
+* 23:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: libswscale8, libavfilter10, libavdevice61, libavformat61, libavcodec61, libavutil59, libpostproc58, libswresample5, and ffmpeg
+* 23:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: libswscale8, libavfilter10, libavdevice61, libavformat61, libavcodec61, libavutil59, libpostproc58, libswresample5, and ffmpeg
+* 23:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: libswscale8, libavfilter10, libavdevice61, libavformat61, libavcodec61, libavutil59, libpostproc58, libswresample5, and ffmpeg
+* 23:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libswscale8, libavfilter10, libavdevice61, libavformat61, libavcodec61, libavutil59, libpostproc58, libswresample5, and ffmpeg
+* 23:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: libswscale8, libavfilter10, libavdevice61, libavformat61, libavcodec61, libavutil59, libpostproc58, libswresample5, and ffmpeg
+* 23:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: libswscale8, libavfilter10, libavdevice61, libavformat61, libavcodec61, libavutil59, libpostproc58, libswresample5, and ffmpeg
+* 23:56 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: libswscale8, libavfilter10, libavdevice61, libavformat61, libavcodec61, libavutil59, libpostproc58, libswresample5, and ffmpeg
+* 23:56 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: libswscale8, libavfilter10, libavdevice61, libavformat61, libavcodec61, libavutil59, libpostproc58, libswresample5, and ffmpeg
+* 23:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: libswscale8, libavfilter10, libavdevice61, libavformat61, libavcodec61, libavutil59, libpostproc58, libswresample5, and ffmpeg
+* 23:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: libswscale8, libavfilter10, libavdevice61, libavformat61, libavcodec61, libavutil59, libpostproc58, libswresample5, and ffmpeg
+* 23:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: libswscale8, libavfilter10, libavdevice61, libavformat61, libavcodec61, libavutil59, libpostproc58, libswresample5, and ffmpeg
+* 23:54 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: libswscale8, libavfilter10, libavdevice61, libavformat61, libavcodec61, libavutil59, libpostproc58, libswresample5, and ffmpeg
+* 19:36 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php createAndPromote --wiki=minecraftminigameswiki MC_mrjone --bureaucrat --sysop --interface-admin --force (END - exit=0)
+* 11:43 Reception123: run delbackups (bash ./delbackups.sh /home/reception/tobedeleted22062026.txt /srv/mediawiki/w/maintenance/dumpBackup.php)
+* 11:38 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:DeleteWikis --wiki=loginwiki DRY_RUN (END - exit=0)
+* 00:33 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: linux-libc-dev and python3-pil
+* 00:15 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: linux-libc-dev
+* 00:14 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: linux-libc-dev and python3-pil
+* 00:14 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: linux-libc-dev, libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, libhttp-daemon-perl, libmagickcore-7.q16-10-extra, and python3-pil
+* 00:14 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: linux-libc-dev and python3-pil
+* 00:13 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: linux-libc-dev and python3-pil
+* 00:13 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: linux-libc-dev and python3-pil
+* 00:13 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: linux-libc-dev and python3-pil
+* 00:12 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: linux-libc-dev and python3-pil
+* 00:12 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: linux-libc-dev and python3-pil
+* 00:12 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: linux-libc-dev and python3-pil
+* 00:12 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: linux-libc-dev and python3-pil
+* 00:11 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: linux-libc-dev
+* 00:11 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: linux-libc-dev and python3-pil
+* 00:11 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: linux-libc-dev
+* 00:10 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: linux-libc-dev
+* 00:10 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: linux-libc-dev
+* 00:10 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb191: linux-libc-dev
+* 00:09 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: linux-libc-dev
+* 00:09 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: linux-libc-dev
+* 00:09 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: linux-libc-dev
+* 00:09 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: linux-libc-dev
+* 00:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: linux-libc-dev, libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, libhttp-daemon-perl, libmagickcore-7.q16-10-extra, and python3-pil
+* 00:08 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: linux-libc-dev
+* 00:08 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: linux-libc-dev
+* 00:07 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: linux-libc-dev
+* 00:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: linux-libc-dev, libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, libhttp-daemon-perl, libmagickcore-7.q16-10-extra, and python3-pil
+* 00:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: linux-libc-dev, libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, libhttp-daemon-perl, libmagickcore-7.q16-10-extra, and python3-pil
+* 00:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: linux-libc-dev, libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, libhttp-daemon-perl, libmagickcore-7.q16-10-extra, and python3-pil
+* 00:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: linux-libc-dev, libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, libhttp-daemon-perl, libmagickcore-7.q16-10-extra, and python3-pil
+* 00:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: linux-libc-dev, libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, libhttp-daemon-perl, libmagickcore-7.q16-10-extra, and python3-pil
+* 00:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: linux-libc-dev, libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, libhttp-daemon-perl, libmagickcore-7.q16-10-extra, and python3-pil
+* 00:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: linux-libc-dev, libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, libhttp-daemon-perl, libmagickcore-7.q16-10-extra, and python3-pil
+* 00:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: linux-libc-dev, libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, libhttp-daemon-perl, libmagickcore-7.q16-10-extra, and python3-pil
+* 00:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: linux-libc-dev, libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, libhttp-daemon-perl, libmagickcore-7.q16-10-extra, and python3-pil
+* 00:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: linux-libc-dev, libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, libhttp-daemon-perl, libmagickcore-7.q16-10-extra, and python3-pil
+* 00:03 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: linux-libc-dev
+* 00:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: linux-libc-dev, libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, libhttp-daemon-perl, libmagickcore-7.q16-10-extra, and python3-pil
+* 00:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: linux-libc-dev, libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, libhttp-daemon-perl, libmagickcore-7.q16-10-extra, and python3-pil
+* 00:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: linux-libc-dev
+* 00:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: linux-libc-dev, libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, libhttp-daemon-perl, libmagickcore-7.q16-10-extra, and python3-pil
+* 00:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: linux-libc-dev, libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, libhttp-daemon-perl, libmagickcore-7.q16-10-extra, and python3-pil
+* 00:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: linux-libc-dev, libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, libhttp-daemon-perl, libmagickcore-7.q16-10-extra, and python3-pil
+* 00:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: linux-libc-dev, libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, libhttp-daemon-perl, libmagickcore-7.q16-10-extra, and python3-pil
 * 00:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: linux-libc-dev, libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, libhttp-daemon-perl, libmagickcore-7.q16-10-extra, and python3-pil
 
 ## 2026-06-21 
