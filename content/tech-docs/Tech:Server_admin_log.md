@@ -4,6 +4,119 @@ title: Tech:Server admin log
 
 ## 2026-06-23 
 
+* 23:14 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 23:13 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 23:13 MirahezeLSBot: [skye@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 23:13 MirahezeLSBot: [skye@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 23:13 MirahezeLSBot: [skye@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 23:13 MirahezeLSBot: [skye@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 23:12 MirahezeLSBot: [skye@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 23:12 MirahezeLSBot: [skye@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 23:05 MirahezeLSBot: [skye@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 23:05 MirahezeLSBot: [skye@test151] starting deploy of {'config': True} to test151
+* 20:19 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: python3-urllib3
+* 20:19 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb191: python3-urllib3
+* 20:18 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: python3-urllib3
+* 20:18 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=rivenvisionwiki (END - exit=0)
+* 20:18 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: python3-urllib3
+* 20:18 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: python3-urllib3
+* 20:18 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=funoonvisionwiki --new=rivenvisionwiki --user=TheWWRNerdGuy (END - exit=0)
+* 20:17 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: python3-urllib3
+* 20:17 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: python3-urllib3
+* 20:17 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: python3-urllib3
+* 20:17 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: python3-urllib3
+* 20:16 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: python3-urllib3
+* 20:16 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: python3-urllib3
+* 20:16 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: python3-urllib3
+* 20:15 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: python3-urllib3
+* 20:15 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: python3-urllib3
+* 20:15 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: python3-urllib3
+* 20:15 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: python3-urllib3
+* 20:14 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: python3-urllib3
+* 20:14 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: python3-urllib3
+* 20:14 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: python3-urllib3
+* 20:14 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: python3-urllib3
+* 20:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: python3-urllib3
+* 20:13 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: python3-urllib3
+* 20:13 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: python3-urllib3
+* 20:12 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: python3-urllib3
+* 20:12 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: python3-urllib3
+* 20:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: python3-urllib3
+* 20:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: python3-urllib3
+* 20:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: python3-urllib3
+* 20:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: python3-urllib3
+* 20:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: python3-urllib3
+* 20:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: python3-urllib3
+* 20:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: python3-urllib3
+* 20:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: python3-urllib3
+* 20:09 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: python3-urllib3
+* 20:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: python3-urllib3
+* 20:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: python3-urllib3
+* 20:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: python3-urllib3
+* 20:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: python3-urllib3
+* 20:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: python3-urllib3
+* 20:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: python3-urllib3
+* 20:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: python3-urllib3
+* 20:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: python3-urllib3
+* 20:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: python3-urllib3
+* 20:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: python3-urllib3
+* 20:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: python3-urllib3
+* 20:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: python3-urllib3
+* 20:06 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=vibrancewiki (END - exit=0)
+* 20:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: python3-urllib3
+* 20:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: python3-urllib3
+* 20:05 MirahezeLSBot: [void@puppet181] Upgraded packages on db192: python3-urllib3
+* 20:05 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=thevibrantlandswiki --new=vibrancewiki --user=TheWWRNerdGuy (END - exit=0)
+* 20:05 MirahezeLSBot: [void@puppet181] Upgraded packages on db201: python3-urllib3
+* 20:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: python3-urllib3
+* 20:04 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: python3-urllib3
+* 20:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: python3-urllib3
+* 20:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: python3-urllib3
+* 20:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: python3-urllib3
+* 20:03 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: python3-urllib3
+* 20:03 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: python3-urllib3
+* 20:02 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: python3-urllib3
+* 20:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: python3-urllib3
+* 20:02 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: python3-urllib3
+* 20:02 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: python3-urllib3
+* 20:01 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: python3-urllib3
+* 20:01 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: python3-urllib3
+* 20:01 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: python3-urllib3
+* 20:00 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: python3-urllib3
+* 20:00 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: python3-urllib3
+* 20:00 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: python3-urllib3
+* 20:00 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: python3-urllib3
+* 19:59 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: python3-urllib3
+* 19:59 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=trenchfallwiki (END - exit=0)
+* 19:59 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: python3-urllib3
+* 19:59 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: python3-urllib3
+* 19:59 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: python3-urllib3
+* 19:58 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=trenchfallofficialwiki --new=trenchfallwiki --user=TheWWRNerdGuy (END - exit=0)
+* 19:58 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: python3-urllib3
+* 19:58 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: python3-urllib3
+* 19:58 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: python3-urllib3
+* 19:57 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: python3-urllib3
+* 19:57 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: python3-urllib3
+* 19:57 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: python3-urllib3
+* 19:57 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: python3-urllib3
+* 19:57 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: python3-urllib3
+* 19:56 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: python3-urllib3
+* 19:44 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=dagapyawiki (END - exit=0)
+* 19:43 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=dasopyawiki --new=dagapyawiki --user=TheWWRNerdGuy (END - exit=0)
+* 19:26 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=newworldswiki (END - exit=0)
+* 19:25 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=newnovawiki --new=newworldswiki --user=TheWWRNerdGuy (END - exit=0)
+* 19:19 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=jetpunkwiki (END - exit=0)
+* 19:18 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=jetpunkquizwiki --new=jetpunkwiki --user=TheWWRNerdGuy (END - exit=0)
+* 19:10 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=illwiki (END - exit=0)
+* 19:07 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=ihsawiki --new=illwiki --user=TheWWRNerdGuy (END - exit=0)
+* 02:05 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 02:05 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 00:21 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libswscale8, libavfilter10, libavdevice61, libavformat61, libavcodec61, libavutil59, libpostproc58, libswresample5, and ffmpeg
+* 00:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: libswscale8, libavfilter10, libavdevice61, libavformat61, libavcodec61, libavutil59, libpostproc58, libswresample5, and ffmpeg
+* 00:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: libswscale8, libavfilter10, libavdevice61, libavformat61, libavcodec61, libavutil59, libpostproc58, libswresample5, and ffmpeg
+* 00:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: libswscale8, libavfilter10, libavdevice61, libavformat61, libavcodec61, libavutil59, libpostproc58, libswresample5, and ffmpeg
+* 00:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: libswscale8, libavfilter10, libavdevice61, libavformat61, libavcodec61, libavutil59, libpostproc58, libswresample5, and ffmpeg
+* 00:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: libswscale8, libavfilter10, libavdevice61, libavformat61, libavcodec61, libavutil59, libpostproc58, libswresample5, and ffmpeg
 * 00:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: libswscale8, libavfilter10, libavdevice61, libavformat61, libavcodec61, libavutil59, libpostproc58, libswresample5, and ffmpeg
 * 00:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: libswscale8, libavfilter10, libavdevice61, libavformat61, libavcodec61, libavutil59, libpostproc58, libswresample5, and ffmpeg
 

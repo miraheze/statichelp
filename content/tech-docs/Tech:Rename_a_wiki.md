@@ -28,6 +28,7 @@ Finally, run:
 
 * If there is any configuration on LocalSettings.php change the database name there as well.
 * If the wiki has CirrusSearch installed, make sure to [index it](https://gerrit.wikimedia.org/r/plugins/gitiles/mediawiki/extensions/CirrusSearch/+/45ff6b7ff237bbaaaffd6cf2fcd544aed7bc31a5/README#23)
+* If the wiki has Cargo enabled, make sure to rename the Cargo database too (alongside all the tables). See [https://mariadb.com/docs/server/reference/sql-statements/data-definition/renaming-databases](https://mariadb.com/docs/server/reference/sql-statements/data-definition/renaming-databases).
 
 ## Categories
 
