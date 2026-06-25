@@ -2,6 +2,67 @@
 title: Tech:Server admin log
 ---
 
+## 2026-06-24 
+
+* 19:05 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data rm -rf /srv/mediawiki-staging/1.45/extensions/SimpleBlogPage/
+* 19:04 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'world': True, 'versions': '1.46'} to test151 - SUCCESS in 22s
+* 19:03 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'world': True, 'versions': '1.46'} to test151
+* 19:03 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.46/extensions/SimpleBlogPage'} to test151 - SUCCESS in 0s
+* 19:03 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.46/extensions/SimpleBlogPage'} to test151
+* 19:00 MirahezeLSBot: [somerandomdeveloper@test151] sudo rm -rf /srv/mediawiki-staging/1.45/extensions/SimpleBlogPage/
+* 19:00 MirahezeLSBot: [somerandomdeveloper@test151] sudo rm -rf /srv/mediawiki-staging/1.46/extensions/SimpleBlogPage/
+* 18:49 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.46', 'upgrade_extensions': ['OOJSPlus', 'SimpleBlogPage']} to test151 - SUCCESS in 1s
+* 18:49 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.46', 'upgrade_extensions': ['OOJSPlus', 'SimpleBlogPage']} to test151
+* 18:46 MirahezeLSBot: [somerandomdeveloper@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 18:46 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'world': True, 'versions': '1.46'} to test151
+* 18:45 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.46/extensions'} to test151 - SUCCESS in 8s
+* 18:45 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.46/extensions'} to test151
+* 18:44 MirahezeLSBot: [somerandomdeveloper@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 18:44 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'world': True, 'force': True, 'versions': '1.46'} to test151
+* 18:43 MirahezeLSBot: [somerandomdeveloper@test151] DEPLOY ABORTED: Canary check failed for meta.mirabeta.org@localhost
+* 18:43 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'world': True, 'versions': '1.46'} to test151
+* 18:16 MirahezeLSBot: [reception@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=hyperscandevwiki --new=sunpluscoredevwiki --user=Reception123 (END - exit=0)
+* 18:13 MirahezeLSBot: [reception@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=exterminationorderdawnofrobloxiawiki --new=robloxexterminationorderwiki --user=Reception123 (END - exit=0)
+* 18:09 MirahezeLSBot: [reception@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=kratimawiki --new=psaltictheorywiki --user=Reception123 (END - exit=0)
+* 18:07 MirahezeLSBot: [reception@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=pamiejaigewiki --new=jamiepediawiki --user=Reception123 (END - exit=0)
+* 18:05 MirahezeLSBot: [reception@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=evropaeumswiki --new=evropawiki --user=Reception123 (END - exit=0)
+* 18:00 MirahezeLSBot: [reception@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=averseofstorieswiki --new=thelittlegodswiki --user=Reception123 (END - exit=0)
+* 17:58 MirahezeLSBot: [reception@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=q487294wiki --new=thebinarystellararchivewiki --user=Reception123 (END - exit=0)
+* 17:56 MirahezeLSBot: [reception@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=enforgewiki --new=civworldwiki --user=Reception123 (END - exit=0)
+* 13:19 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 13:19 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 13:18 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 28s
+* 13:18 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'config': True} to all
+* 12:45 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'HideSection'} to all - SUCCESS in 26s
+* 12:44 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'HideSection'} to all
+* 12:43 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'HideSection'} to test151 - SUCCESS in 1s
+* 12:43 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'HideSection'} to test151
+* 09:08 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/WikiDiscover', 'ignore_time': True} to test151 - SUCCESS in 0s
+* 09:08 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/WikiDiscover', 'ignore_time': True} to test151
+* 09:06 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'WikiDiscover', 'ignore_time': True} to test151 - SUCCESS in 1s
+* 09:06 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'WikiDiscover', 'ignore_time': True} to test151
+* 08:52 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'WikiDiscover'} to test151 - SUCCESS in 1s
+* 08:52 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'WikiDiscover'} to test151
+* 05:03 Reception123: started wiki deletions
+* 03:41 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 03:41 MirahezeLSBot: [skye@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 03:41 MirahezeLSBot: [skye@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 03:41 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 00:58 TheWWRNerdGuy: this bit got cut off (and so did the quotes from the --r parameter): `|requested]]`
+* 00:54 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php deleteBatch --wiki=mariowiki batch.txt --r=[[phorge:T15564
+* 00:51 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php deleteBatch --wiki=mariowiki batch.txt --r=[[phorge:T15564
+* 00:41 TheWWRNerdGuy: same thing for all namespaces in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 828, 829]
+* 00:39 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=riskuniversaliswiki --delete --all --ns=4 (END - exit=0)
+* 00:39 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=riskuniversaliswiki --delete --all --ns=4 (START)
+* 00:37 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=riskuniversaliswiki --delete --all --ns=3 (END - exit=0)
+* 00:37 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=riskuniversaliswiki --delete --all --ns=3 (START)
+* 00:37 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=riskuniversaliswiki --delete --all --ns=2 (END - exit=0)
+* 00:36 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=riskuniversaliswiki --delete --all --ns=2 (START)
+* 00:36 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=riskuniversaliswiki --delete --all --ns=1 (END - exit=0)
+* 00:36 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=riskuniversaliswiki --delete --all --ns=1 (START)
+* 00:36 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=riskuniversaliswiki --delete --all --ns=0 (END - exit=0)
+* 00:36 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php nukeNS --wiki=riskuniversaliswiki --delete --all --ns=0 (START)
+
 ## 2026-06-23 
 
 * 23:14 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
