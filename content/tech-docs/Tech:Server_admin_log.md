@@ -2,6 +2,29 @@
 title: Tech:Server admin log
 ---
 
+## 2026-06-26 
+
+* 13:04 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'PageForms'} to all - SUCCESS in 29s
+* 13:04 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'PageForms'} to all
+* 08:46 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 19s
+* 08:45 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 08:45 MirahezeLSBot: [petramagna@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@localhost
+* 08:45 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'config': True} to all
+* 08:37 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 18s
+* 08:37 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 01:28 SomeRandomDeveloper: sudo salt-ssh -E 'mw(153|152|183|193)' cmd.run 'rm /srv/mediawiki/cache/config-metawiki.php'
+* 01:28 SomeRandomDeveloper: sudo salt-ssh -E 'mw(153|152|183|193)' cmd.run 'rm /srv/mediawiki/cache/metawiki.php'
+* 00:37 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /tmp/semanticmediawiki.php /srv/mediawiki/1.45/maintenance/run.php SemanticMediaWiki:setupStore (END - exit=0)
+* 00:22 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /tmp/semanticmediawiki.php /srv/mediawiki/1.45/maintenance/run.php SemanticMediaWiki:setupStore (START)
+* 00:20 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist /tmp/semanticmediawiki.php /srv/mediawiki/1.46/maintenance/run.php SemanticMediaWiki:setupStore (END - exit=0)
+* 00:20 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist /tmp/semanticmediawiki.php /srv/mediawiki/1.46/maintenance/run.php SemanticMediaWiki:setupStore (START)
+* 00:19 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist /tmp/semanticmediawiki.php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:GenerateExtensionDatabaseList metawiki --directory=/tmp (END - exit=256)
+* 00:19 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data /usr/local/bin/foreachwikiindblist /tmp/semanticmediawiki.php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:GenerateExtensionDatabaseList metawiki --directory=/tmp (START)
+* 00:13 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php SemanticMediaWiki:setupStore --wiki=smwtestwikibeta (END - exit=0)
+* 00:12 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'SemanticMediaWiki'} to test151 - SUCCESS in 1s
+* 00:12 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'SemanticMediaWiki'} to test151
+* 00:08 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php SemanticMediaWiki:setupStore --wiki=bluepageswiki (END - exit=0)
+
 ## 2026-06-25 
 
 * 23:37 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'force_upgrade': True, 'versions': '1.46', 'upgrade_extensions': 'Bucket'} to test151 - SUCCESS in 1s
