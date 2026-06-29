@@ -2,6 +2,23 @@
 title: Tech:Server admin log
 ---
 
+## 2026-06-28 
+
+* 19:37 @paladox: upgrade phorge on phorge171
+* 18:02 SomeRandomDeveloper: deployed patch for T15587 on beta
+* 17:26 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/PortableInfobox', 'ignore_time': True} to test151 - SUCCESS in 0s
+* 17:26 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/PortableInfobox', 'ignore_time': True} to test151
+* 17:25 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': '1.46', 'upgrade_extensions': 'PortableInfobox'} to test151 - SUCCESS in 0s
+* 17:25 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': '1.46', 'upgrade_extensions': 'PortableInfobox'} to test151
+* 17:25 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'PortableInfobox'} to test151 - SUCCESS in 1s
+* 17:25 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'PortableInfobox'} to test151
+* 17:14 MirahezeLSBot: [reception@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:DeleteWikis --wiki=loginwiki --delete Reception123 (END - exit=33280)
+* 17:14 MirahezeLSBot: [reception@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:DeleteWikis --wiki=loginwiki --delete Reception123 (END - exit=33280)
+* 14:40 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'CommentStreams'} to all - SUCCESS in 28s
+* 14:40 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'CommentStreams'} to all
+* 14:39 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'CommentStreams'} to test151 - SUCCESS in 1s
+* 14:39 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'CommentStreams'} to test151
+
 ## 2026-06-27 
 
 * 21:26 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: xserver-xorg-core and xserver-common
