@@ -2,6 +2,35 @@
 title: Tech:Server admin log
 ---
 
+## 2026-06-29 
+
+* 20:49 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'force_upgrade': True, 'versions': ['1.45', '1.46'], 'upgrade_extensions': 'Timeline'} to test151 - SUCCESS in 1s
+* 20:49 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'force_upgrade': True, 'versions': ['1.45', '1.46'], 'upgrade_extensions': 'Timeline'} to test151
+* 20:49 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'Timeline'} to test151 - SUCCESS in 1s
+* 20:49 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'Timeline'} to test151
+* 20:48 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'Timeline'} to all - SUCCESS in 29s
+* 20:48 MirahezeLSBot: [somerandomdeveloper@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 20:48 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'Timeline'} to test151
+* 20:48 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'Timeline'} to all
+* 14:55 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'CentralAuth'} to test151 - SUCCESS in 1s
+* 14:55 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'CentralAuth'} to test151
+* 14:55 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'UrlShortener'} to all - SUCCESS in 25s
+* 14:54 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'UrlShortener'} to all
+* 14:54 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'UrlShortener'} to test151 - SUCCESS in 1s
+* 14:54 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'UrlShortener'} to test151
+* 13:35 SomeRandomDeveloper: dropped the patches for T15453 and T15401 on prod and upgraded the extension
+* 11:14 SomeRandomDeveloper: deploy updated patch for T15587 (again)
+* 10:53 SomeRandomDeveloper: deploy updated patch for T15587
+* 10:29 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'AbuseFilter'} to all - SUCCESS in 30s
+* 10:29 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'AbuseFilter'} to all
+* 10:29 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'AbuseFilter'} to test151 - SUCCESS in 6s
+* 10:29 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'AbuseFilter'} to test151
+* 10:18 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'SyntaxHighlight_GeSHi'} to all - SUCCESS in 26s
+* 10:17 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'SyntaxHighlight_GeSHi'} to all
+* 10:17 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'SyntaxHighlight_GeSHi'} to test151 - SUCCESS in 2s
+* 10:17 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'SyntaxHighlight_GeSHi'} to test151
+* 10:04 SomeRandomDeveloper: deploy patch for T15587 to prod
+
 ## 2026-06-28 
 
 * 19:37 @paladox: upgrade phorge on phorge171
