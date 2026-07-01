@@ -2,6 +2,22 @@
 title: Tech:Server admin log
 ---
 
+## 2026-07-01 
+
+* 00:00 MirahezeLSBot: [www-data@mwtask181] Began automatic backing up
+
+## 2026-06-30 
+
+* 21:13 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'Chart'} to all - SUCCESS in 38s
+* 21:12 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'Chart'} to all
+* 21:12 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'Chart'} to test151 - SUCCESS in 1s
+* 21:12 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'Chart'} to test151
+* 19:10 Reception123: DELETED and DROPPED [https://issue-tracker.miraheze.org/P597](https://issue-tracker.miraheze.org/P597)
+* 09:42 MirahezeLSBot: [reception@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:CheckWikiDatabases --wiki=loginwiki --delete (END - exit=256)
+* 06:09 Reception123: begin dropping previously deleted wikis
+* 06:08 MirahezeLSBot: [reception@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/MirahezeMagic:CheckWikiDatabases.php --wiki=loginwiki --delete (END - exit=256)
+* 04:05 MirahezeLSBot: [reception@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:DeleteWikis --wiki=loginwiki --delete Reception123 (END - exit=0)
+
 ## 2026-06-29 
 
 * 20:49 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'force_upgrade': True, 'versions': ['1.45', '1.46'], 'upgrade_extensions': 'Timeline'} to test151 - SUCCESS in 1s
