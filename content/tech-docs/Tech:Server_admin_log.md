@@ -4,6 +4,75 @@ title: Tech:Server admin log
 
 ## 2026-07-01 
 
+* 22:11 MirahezeLSBot: [skye@mwtask171] Finished import for supersciencewiki (XML: zhantimony_pages_full.xml; Images: None) (END - exit=0)
+* 22:11 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=supersciencewiki --update (END - exit=0)
+* 22:11 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=supersciencewiki --update (START)
+* 22:11 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=supersciencewiki (END - exit=0)
+* 22:11 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=supersciencewiki (START)
+* 22:11 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=supersciencewiki (END - exit=0)
+* 21:52 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=supersciencewiki (START)
+* 21:51 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=supersciencewiki --no-updates --username-prefix=fandom:cn.antimony -- zhantimony_pages_full.xml (END - exit=0)
+* 21:15 MirahezeLSBot: [skye@mwtask171] Finished import for hoggieswiki (XML: None; Images: .) (END - exit=0)
+* 21:15 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=hoggieswiki --update (END - exit=0)
+* 21:15 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=hoggieswiki --update (START)
+* 21:15 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=hoggieswiki --sleep=1 '--comment=Importing images from [https://hogwarts-school.net/wiki/index.php/Main_Page](https://hogwarts-school.net/wiki/index.php/Main_Page) [T15500](https://meta.miraheze.org/wiki/phorge:T15500)' --search-recursively -- . (END - exit=0)
+* 21:06 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=supersciencewiki --no-updates --username-prefix=fandom:cn.antimony -- zhantimony_pages_full.xml (START)
+* 21:06 MirahezeLSBot: [skye@mwtask171] Starting import for supersciencewiki (XML: zhantimony_pages_full.xml; Images: None) (START)
+* 20:49 MirahezeLSBot: [skye@mwtask171] Finished import for neavewiki (XML: None; Images: .) (END - exit=0)
+* 20:49 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=neavewiki --update (END - exit=0)
+* 20:49 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=neavewiki --update (START)
+* 20:49 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=neavewiki --sleep=0 '--comment=Importing images from neave-interactive.fandom.com [T15534](https://meta.miraheze.org/wiki/phorge:T15534)' -- . (END - exit=0)
+* 20:49 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=neavewiki --sleep=0 '--comment=Importing images from neave-interactive.fandom.com [T15534](https://meta.miraheze.org/wiki/phorge:T15534)' -- . (START)
+* 20:49 MirahezeLSBot: [skye@mwtask171] Starting import for neavewiki (XML: None; Images: .) (START)
+* 20:44 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=hoggieswiki --sleep=1 '--comment=Importing images from [https://hogwarts-school.net/wiki/index.php/Main_Page](https://hogwarts-school.net/wiki/index.php/Main_Page) [T15500](https://meta.miraheze.org/wiki/phorge:T15500)' --search-recursively -- . (START)
+* 20:44 MirahezeLSBot: [skye@mwtask171] Starting import for hoggieswiki (XML: None; Images: .) (START)
+* 16:09 MirahezeLSBot: [macfan@test151] starting deploy of {'pull': 'world', 'reset_world': True, 'world': True, 'versions': '1.46'} to test151
+* 16:08 MirahezeLSBot: [macfan@test151] starting deploy of {'pull': 'world', 'reset_world': True, 'world': True, 'versions': '1.46'} to test151
+* 16:07 MirahezeLSBot: [macfan@test151] starting deploy of {'pull': 'world', 'reset_world': True, 'world': True, 'versions': '1.46'} to test151
+* 16:05 MirahezeLSBot: [macfan@test151] starting deploy of {'pull': 'world', 'reset_world': True, 'world': True, 'versions': '1.46'} to test151
+* 15:54 MirahezeLSBot: [macfan@test151] finished deploy of {'pull': 'world', 'world': True, 'versions': '1.46'} to test151 - SUCCESS in 24s
+* 15:53 MirahezeLSBot: [macfan@test151] starting deploy of {'pull': 'world', 'world': True, 'versions': '1.46'} to test151
+* 15:52 MirahezeLSBot: [macfan@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 15:52 MirahezeLSBot: [macfan@test151] starting deploy of {'pull': 'world', 'world': True, 'versions': '1.46'} to test151
+* 04:11 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: nginx and nginx-common
+* 04:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: nginx and nginx-common
+* 04:04 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: nginx and nginx-common
+* 04:03 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: nginx and nginx-common
+* 04:03 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: nginx and nginx-common
+* 04:03 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: nginx and nginx-common
+* 04:02 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: nginx and nginx-common
+* 04:02 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: nginx and nginx-common
+* 04:01 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: nginx and nginx-common
+* 04:01 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: nginx and nginx-common
+* 04:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: nginx and nginx-common
+* 04:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: nginx and nginx-common
+* 04:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: nginx and nginx-common
+* 03:59 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: nginx and nginx-common
+* 03:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: nginx and nginx-common
+* 03:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: nginx and nginx-common
+* 03:52 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: nginx and nginx-common
+* 03:49 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: nginx and nginx-common
+* 03:47 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: nginx and nginx-common
+* 03:45 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: nginx and nginx-common
+* 03:43 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: nginx and nginx-common
+* 03:41 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: nginx and nginx-common
+* 03:39 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: nginx and nginx-common
+* 03:36 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: nginx and nginx-common
+* 03:35 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: nginx and nginx-common
+* 03:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: nginx and nginx-common
+* 03:30 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: nginx and nginx-common
+* 03:28 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: nginx and nginx-common
+* 03:27 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: nginx and nginx-common
+* 03:26 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: nginx and nginx-common
+* 03:24 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: nginx and nginx-common
+* 03:22 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: nginx and nginx-common
+* 03:19 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: nginx and nginx-common
+* 03:19 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: nginx and nginx-common
+* 03:18 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: nginx and nginx-common
+* 03:18 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: nginx and nginx-common
+* 03:17 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: nginx and nginx-common
+* 03:12 Void: enable additional filtering for a domain that appears to be getting aggressively scraped
+* 00:13 MirahezeLSBot: [reception@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:CheckWikiDatabases --wiki=loginwiki --delete (END - exit=0)
 * 00:00 MirahezeLSBot: [www-data@mwtask181] Began automatic backing up
 
 ## 2026-06-30 
