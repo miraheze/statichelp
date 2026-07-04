@@ -2,6 +2,18 @@
 title: Tech:Server admin log
 ---
 
+## 2026-07-03 
+
+* 21:13 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 21:13 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 21:09 MirahezeLSBot: [petramagna@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 21:09 MirahezeLSBot: [petramagna@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 10:08 MirahezeLSBot: [reception@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=lexingtonandconcordwiki --new=lncwiki --user=Reception123 (END - exit=0)
+* 10:03 MirahezeLSBot: [reception@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=sonarwiki --new=musicapediawiki --user=Reception123 (END - exit=0)
+* 10:01 MirahezeLSBot: [reception@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=officalcorruptedcrossroadswiki --new=officialcorruptedcrossroadswiki --user=Reception123 (END - exit=0)
+* 09:59 MirahezeLSBot: [reception@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=envidrazwiki --new=indrawiki --user=Reception123 (END - exit=0)
+* 09:56 MirahezeLSBot: [reception@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=envidrazwikiwiki --new=indrawikiwiki --user=Reception123 (END - exit=256)
+
 ## 2026-07-01 
 
 * 22:11 MirahezeLSBot: [skye@mwtask171] Finished import for supersciencewiki (XML: zhantimony_pages_full.xml; Images: None) (END - exit=0)
