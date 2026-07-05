@@ -2,6 +2,53 @@
 title: Tech:Server admin log
 ---
 
+## 2026-07-04 
+
+* 20:39 MirahezeLSBot: [void@mwtask181] restart mediawiki_job_manage-inactive-wikis
+* 20:05 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: php8.4-bcmath, php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dev, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-cli, and php8.4-common
+* 20:04 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-curl, php8.4-cli, and php8.4-common
+* 20:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 20:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: php8.4-bcmath, php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-cli, and php8.4-common
+* 20:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:56 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: php8.4-bcmath, php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-cli, and php8.4-common
+* 19:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:52 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:49 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:48 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:46 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:44 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:41 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:39 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:37 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:36 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: php8.4-opcache, libapache2-mod-php8.4, php8.4-xml, php8.4-soap, php8.4-readline, php8.4-pgsql, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-curl, php8.4-cli, php8.4-common, and php8.4
+* 19:35 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:29 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:27 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:25 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:22 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:20 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:18 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-curl, php8.4-cli, and php8.4-common
+* 19:17 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-curl, php8.4-cli, and php8.4-common
+* 14:33 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 20s
+* 14:33 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 14:33 MirahezeLSBot: [petramagna@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@localhost
+* 14:33 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'config': True} to all
+* 14:30 RhinosF1: sudo qm reset 128 (cloud16 for db161)
+* 11:48 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 19s
+* 11:48 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 09:39 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 09:39 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 09:36 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 09:36 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 09:35 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 09:35 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 09:34 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 09:34 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 09:23 RhinosF1: rm /srv/mediawiki/robots.php on mw� and test�
+
 ## 2026-07-03 
 
 * 21:13 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
