@@ -2,6 +2,111 @@
 title: Tech:Server admin log
 ---
 
+## 2026-07-05 
+
+* 23:44 MirahezeLSBot: [wwr@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 23:43 MirahezeLSBot: [wwr@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 23:43 MirahezeLSBot: [wwr@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 23:43 MirahezeLSBot: [wwr@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 23:24 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: linux-libc-dev
+* 23:24 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: linux-libc-dev
+* 23:23 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: linux-libc-dev
+* 23:23 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: linux-libc-dev
+* 23:23 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: linux-libc-dev
+* 23:22 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: linux-libc-dev
+* 23:22 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: linux-libc-dev
+* 23:22 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: linux-libc-dev
+* 23:21 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: linux-libc-dev
+* 23:21 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: linux-libc-dev
+* 23:21 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: linux-libc-dev
+* 23:21 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: linux-libc-dev
+* 23:20 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: linux-libc-dev
+* 23:20 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb191: linux-libc-dev
+* 23:20 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: linux-libc-dev
+* 23:19 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: linux-libc-dev
+* 23:19 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: linux-libc-dev
+* 23:19 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: linux-libc-dev
+* 23:18 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: linux-libc-dev
+* 23:18 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: linux-libc-dev
+* 23:18 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: linux-libc-dev
+* 23:18 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: linux-libc-dev
+* 23:17 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: linux-libc-dev
+* 23:17 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: linux-libc-dev
+* 23:17 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: linux-libc-dev
+* 23:17 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: linux-libc-dev
+* 23:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: linux-libc-dev
+* 23:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: linux-libc-dev
+* 23:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: linux-libc-dev
+* 23:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: linux-libc-dev
+* 23:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: linux-libc-dev
+* 23:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: linux-libc-dev
+* 23:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: linux-libc-dev
+* 23:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: linux-libc-dev
+* 23:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: linux-libc-dev
+* 23:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: linux-libc-dev
+* 23:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: linux-libc-dev
+* 23:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: linux-libc-dev
+* 23:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: linux-libc-dev
+* 23:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: linux-libc-dev
+* 23:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: linux-libc-dev
+* 23:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: linux-libc-dev
+* 23:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: linux-libc-dev
+* 23:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: linux-libc-dev
+* 23:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: linux-libc-dev
+* 23:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: linux-libc-dev
+* 23:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: linux-libc-dev
+* 23:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: linux-libc-dev
+* 23:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: linux-libc-dev
+* 23:09 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: linux-libc-dev
+* 23:09 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: linux-libc-dev
+* 23:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: linux-libc-dev
+* 23:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: linux-libc-dev
+* 23:08 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: linux-libc-dev
+* 23:08 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: linux-libc-dev
+* 23:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: linux-libc-dev
+* 23:07 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: linux-libc-dev
+* 23:07 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: linux-libc-dev
+* 23:07 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: linux-libc-dev
+* 23:06 MirahezeLSBot: [void@puppet181] Upgraded packages on db192: linux-libc-dev
+* 23:06 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: linux-libc-dev
+* 23:06 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: linux-libc-dev
+* 23:06 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: linux-libc-dev, libcpupower1, and linux-cpupower
+* 23:05 MirahezeLSBot: [void@puppet181] Upgraded packages on db201: linux-libc-dev
+* 23:05 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: linux-libc-dev
+* 23:05 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: linux-libc-dev
+* 23:04 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: linux-libc-dev
+* 23:04 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: linux-libc-dev, libcpupower1, and linux-cpupower
+* 23:04 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: linux-libc-dev, libcpupower1, and linux-cpupower
+* 23:03 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: linux-libc-dev
+* 23:03 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: linux-libc-dev
+* 23:03 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: linux-libc-dev, libcpupower1, and linux-cpupower
+* 23:03 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: linux-libc-dev
+* 23:02 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: linux-libc-dev, libcpupower1, and linux-cpupower
+* 23:02 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: linux-libc-dev
+* 23:02 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: linux-libc-dev
+* 23:02 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: linux-libc-dev
+* 23:01 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: linux-libc-dev, libcpupower1, and linux-cpupower
+* 23:01 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: linux-libc-dev
+* 23:01 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: linux-libc-dev
+* 23:01 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: linux-libc-dev, libcpupower1, and linux-cpupower
+* 22:57 MirahezeLSBot: [skye@mwtask171] Finished import for simounwiki (XML: simoun_pages_full.xml; Images: images) (END - exit=0)
+* 22:57 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=simounwiki --update (END - exit=0)
+* 22:57 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=simounwiki --update (START)
+* 22:57 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=simounwiki (END - exit=0)
+* 22:57 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=simounwiki (START)
+* 22:57 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=simounwiki (END - exit=0)
+* 22:56 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=simounwiki (START)
+* 22:56 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=simounwiki --sleep=0 '--comment=Importing images from simoun.fandom.com [T15496](https://meta.miraheze.org/wiki/phorge:T15496)' -- images (END - exit=0)
+* 22:55 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=simounwiki --sleep=0 '--comment=Importing images from simoun.fandom.com [T15496](https://meta.miraheze.org/wiki/phorge:T15496)' -- images (START)
+* 22:54 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=simounwiki --no-updates --username-prefix=fandom:simoun -- simoun_pages_full.xml (END - exit=0)
+* 22:53 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=simounwiki --no-updates --username-prefix=fandom:simoun -- simoun_pages_full.xml (START)
+* 22:53 MirahezeLSBot: [skye@mwtask171] Starting import for simounwiki (XML: simoun_pages_full.xml; Images: images) (START)
+* 09:41 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=yuminaprojectwiki (END - exit=0)
+* 09:40 Reception123: curl -X DELETE [https://opensearch-mw.wikitide.net/reconvergentfateswiki_content](https://opensearch-mw.wikitide.net/reconvergentfateswiki_content) [https://opensearch-mw.wikitide.net/yuminaprojectwiki_general](https://opensearch-mw.wikitide.net/yuminaprojectwiki_general)
+* 09:39 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=yuminaprojectwiki --startOver (END - exit=0)
+* 05:50 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=yuminaprojectwiki (END - exit=256)
+* 05:48 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=yuminaprojectwiki --startOver (END - exit=256)
+
 ## 2026-07-04 
 
 * 20:39 MirahezeLSBot: [void@mwtask181] restart mediawiki_job_manage-inactive-wikis
