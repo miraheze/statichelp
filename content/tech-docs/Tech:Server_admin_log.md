@@ -2,6 +2,104 @@
 title: Tech:Server admin log
 ---
 
+## 2026-07-07 
+
+* 22:45 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, postfix, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:45 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: postfix
+* 22:44 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: postfix
+* 22:44 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: postfix
+* 22:43 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: postfix
+* 22:43 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: postfix
+* 22:43 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: postfix
+* 22:42 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: postfix
+* 22:42 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: postfix
+* 22:42 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: postfix
+* 22:41 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: postfix
+* 22:41 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: postfix
+* 22:41 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: postfix
+* 22:40 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb191: postfix
+* 22:40 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: postfix
+* 22:39 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, postfix, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:39 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: postfix
+* 22:38 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: postfix
+* 22:38 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: postfix
+* 22:38 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: postfix
+* 22:37 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: postfix
+* 22:37 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: postfix
+* 22:37 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: postfix
+* 22:36 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: postfix
+* 22:36 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, postfix, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:36 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: postfix
+* 22:35 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, postfix, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:34 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, postfix, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, postfix, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, postfix, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, postfix, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:30 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, postfix, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:29 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, postfix, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:27 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, postfix, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:26 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, postfix, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:25 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, postfix, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: postfix
+* 22:23 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: postfix
+* 22:22 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, postfix, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:21 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, postfix, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:20 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, postfix, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:18 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, postfix, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:18 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, postfix, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, postfix, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, postfix, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, postfix, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, postfix, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, postfix, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 22:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: postfix
+* 22:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: postfix
+* 22:07 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: postfix
+* 22:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: postfix
+* 22:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: postfix
+* 22:06 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: postfix
+* 22:06 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: postfix
+* 22:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: postfix
+* 22:05 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: postfix
+* 22:05 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: postfix
+* 22:04 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: postfix
+* 22:04 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: postfix
+* 22:04 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: postfix
+* 22:03 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: postfix
+* 22:03 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: postfix
+* 22:03 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: postfix
+* 22:02 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: postfix
+* 22:02 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: postfix
+* 22:01 MirahezeLSBot: [void@puppet181] Upgraded packages on db192: postfix
+* 22:01 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: postfix
+* 22:01 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: postfix
+* 22:00 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: postfix
+* 22:00 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: postfix
+* 22:00 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: postfix
+* 21:59 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: postfix
+* 21:59 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: postfix
+* 21:59 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: postfix
+* 21:58 MirahezeLSBot: [void@puppet181] Upgraded packages on db201: postfix
+* 21:58 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: postfix
+* 21:58 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: postfix
+* 21:57 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: postfix
+* 21:57 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: postfix
+* 21:57 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: postfix
+* 20:30 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=ddnetwiki (END - exit=0)
+* 20:21 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=ddnetwiki --startOver (END - exit=0)
+* 20:13 MirahezeLSBot: [wwr@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 20:13 MirahezeLSBot: [wwr@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 20:12 MirahezeLSBot: [wwr@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 20:12 MirahezeLSBot: [wwr@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 17:16 MirahezeLSBot: [skye@test151] starting deploy of {'l10n': True, 'versions': ['1.45', '1.46'], 'upgrade_extensions': 'UnlinkedWikibase'} to test151
+* 17:13 MirahezeLSBot: [skye@mwtask181] finished deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'UnlinkedWikibase'} to all - SUCCESS in 604s
+* 17:03 MirahezeLSBot: [skye@mwtask181] starting deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'UnlinkedWikibase'} to all
+* 17:01 MirahezeLSBot: [skye@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 17:01 MirahezeLSBot: [skye@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'UnlinkedWikibase'} to all
+* 17:01 MirahezeLSBot: [skye@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 17:00 MirahezeLSBot: [skye@mwtask181] starting deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'UnlinkedWikibase'} to all
+* 15:44 MacFan4000: sudo -u www-data /usr/local/bin/foreachwikiindblist /tmp/wikipoints.php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:NotifyWikiUsers --header="WikiPoints extension will be removed" --message="The WikiPoints extension will be removed soon due to a lack of maintenance." --group=bureaucrat --group=sysop
+
 ## 2026-07-06 
 
 * 21:41 MirahezeLSBot: [wwr@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 30s
