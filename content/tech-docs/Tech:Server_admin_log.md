@@ -2,6 +2,40 @@
 title: Tech:Server admin log
 ---
 
+## 2026-07-08 
+
+* 21:51 MirahezeLSBot: [universalomega@phorge171] Destroyed a user
+* 18:32 MirahezeLSBot: [void@cloud19] clear ipmi sel
+* 18:32 MirahezeLSBot: [void@cloud20] clear ipmi sel
+* 18:30 MirahezeLSBot: [void@cloud21] clear ipmi sel
+* 12:56 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'l10n': True, 'extension_list': True, 'versions': '1.45'} to all - SUCCESS in 551s
+* 12:53 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'l10n': True, 'extension_list': True, 'versions': ['1.45', '1.46']} to test151 - SUCCESS in 380s
+* 12:47 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'l10n': True, 'extension_list': True, 'versions': '1.45'} to all
+* 12:46 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'l10n': True, 'extension_list': True, 'versions': ['1.45', '1.46']} to test151
+* 12:46 MirahezeLSBot: [somerandomdeveloper@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 12:46 MirahezeLSBot: [somerandomdeveloper@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 12:46 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'world': True, 'l10n': True, 'extension_list': True, 'versions': '1.45'} to all
+* 12:46 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'world': True, 'l10n': True, 'extension_list': True, 'versions': ['1.45', '1.46']} to test151
+* 12:46 MirahezeLSBot: [somerandomdeveloper@puppet181] sudo salt-ssh -E mw.* cmd.run sudo -u www-data rm -rf /srv/mediawiki/1.45/extensions/WikiPoints/
+* 12:45 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data rm -r /srv/mediawiki/1.45/extensions/WikiPoints/ /srv/mediawiki/1.46/extensions/WikiPoints/
+* 12:44 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data rm -rf /srv/mediawiki-staging/1.45/extensions/WikiPoints/
+* 12:43 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data rm -rf /srv/mediawiki-staging/1.46/extensions/WikiPoints/
+* 12:43 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data rm -rf /srv/mediawiki-staging/1.45/extensions/WikiPoints/
+* 12:43 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 12:42 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 12:42 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 12:42 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 12:37 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ToggleExtension --wiki=loginwiki --name=wikipoints --disable --all-wikis --execute (END - exit=0)
+* 12:37 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:ToggleExtension --wiki=loginwikibeta --name=wikipoints --disable --all-wikis --execute (END - exit=0)
+* 12:36 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 12:36 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 12:36 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 12:36 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 02:08 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 18s
+* 02:07 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 02:02 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 21s
+* 02:02 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'config': True, 'force': True} to all
+
 ## 2026-07-07 
 
 * 22:45 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, postfix, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
