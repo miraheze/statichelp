@@ -86,6 +86,11 @@ Or, to remove ALL 301 redirects for meta.miraheze.org:
 varnish> ban obj.status == 301 && req.http.Host == meta.miraheze.org
 ```
 
+Or, to remove all objects cached at 2:35 UTC on June 2, 2026 (all cached objects have a timestamp in [ISO 8601](https://meta.miraheze.org/wiki/w:ISO_8601) format; this header is not served to users):
+```
+varnish> ban obj.http.time ~ "2026-06-02T02:35"
+```
+
 ## Backend health checks 
 
 Varnish uses a Miraheze-configured backend health check (called probes). For Miraheze, it checks (for each appserver) each 5 seconds if [https://meta.miraheze.org/wiki/Miraheze](https://meta.miraheze.org/wiki/Miraheze) loads under 4 seconds. If an appserver fails to serve that page under 4 seconds (or the response does not have HTTP status code 200) for at least 2 out of 5 times, it will be marked as sick, and it will be depooled automatically until it looks healthy again.

@@ -2,6 +2,29 @@
 title: Tech:Server admin log
 ---
 
+## 2026-07-09 
+
+* 23:47 MirahezeLSBot: [void@test151] restart failed mediawiki_job services
+* 23:45 MirahezeLSBot: [void@test151] finished deploy of {'folders': '1.45/extensions'} to test151 - SUCCESS in 4s
+* 23:45 MirahezeLSBot: [void@test151] starting deploy of {'folders': '1.45/extensions'} to test151
+* 23:44 MirahezeLSBot: [void@test151] finished deploy of {'folders': '1.45/extensions/CreateWiki'} to test151 - SUCCESS in 0s
+* 23:44 MirahezeLSBot: [void@test151] starting deploy of {'folders': '1.45/extensions/CreateWiki'} to test151
+* 19:15 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_skins': 'Refreshed'} to all - SUCCESS in 24s
+* 19:15 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_skins': 'Refreshed'} to all
+* 19:15 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_skins': 'Refreshed'} to test151 - SUCCESS in 1s
+* 19:15 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_skins': 'Refreshed'} to test151
+* 11:38 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=casualtiesunknownwiki (END - exit=0)
+* 11:36 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=casualtiesunknownwiki --startOver (END - exit=0)
+* 11:35 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=casualtiesunknownwiki (END - exit=0)
+* 11:34 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=casualtiesunknownwiki --startOver (END - exit=256)
+* 06:27 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 06:26 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 06:25 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 06:25 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 05:17 MirahezeLSBot: [reception@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=moddedminecraftwiki /home/reception/ftb_gamepedia_pages_full.xml --username-prefix=wikia:ftb (START)
+* 05:17 MirahezeLSBot: [reception@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=moddedminecraftwiki /home/reception/ftb_gamepedia_pages_full.xml --username-prefix:wikia:ftb (END - exit=256)
+* 05:17 MirahezeLSBot: [reception@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=moddedminecraftwiki /home/reception/ftb_gamepedia_pages_full.xml --username-prefix:wikia:ftb (START)
+
 ## 2026-07-08 
 
 * 21:51 MirahezeLSBot: [universalomega@phorge171] Destroyed a user
