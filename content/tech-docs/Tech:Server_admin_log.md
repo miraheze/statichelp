@@ -2,6 +2,14 @@
 title: Tech:Server admin log
 ---
 
+## 2026-07-10 
+
+* 19:05 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php createAndPromote --wiki=unionwiki '-k-kei-0' --bureaucrat --sysop --interface-admin --force (END - exit=256)
+* 19:05 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php createAndPromote --wiki=unionwiki -k-kei-0 --bureaucrat --sysop --interface-admin --force (END - exit=256)
+* 07:44 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 07:44 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 03:57 MirahezeLSBot: [void@db181] restart sql-backup service
+
 ## 2026-07-09 
 
 * 23:47 MirahezeLSBot: [void@test151] restart failed mediawiki_job services
