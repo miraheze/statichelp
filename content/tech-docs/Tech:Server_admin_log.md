@@ -2,6 +2,17 @@
 title: Tech:Server admin log
 ---
 
+## 2026-07-11 
+
+* 01:36 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 18s
+* 01:36 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 01:36 MirahezeLSBot: [petramagna@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@localhost
+* 01:36 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'config': True} to all
+* 01:33 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 20s
+* 01:32 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 00:21 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'DataTransfer'} to test151 - SUCCESS in 2s
+* 00:21 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'DataTransfer'} to test151
+
 ## 2026-07-10 
 
 * 19:05 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php createAndPromote --wiki=unionwiki '-k-kei-0' --bureaucrat --sysop --interface-admin --force (END - exit=256)
