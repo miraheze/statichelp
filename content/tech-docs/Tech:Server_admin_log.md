@@ -2,6 +2,14 @@
 title: Tech:Server admin log
 ---
 
+## 2026-07-12 
+
+* 14:25 MirahezeLSBot: [wwr@mwtask171] fixconts --wiki mariowiki
+* 14:24 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=mariowiki (END - exit=0)
+* 14:17 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=mariowiki --requester=Darkrai18 (END - exit=0)
+* 01:18 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 01:18 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
 ## 2026-07-11 
 
 * 01:36 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 18s
