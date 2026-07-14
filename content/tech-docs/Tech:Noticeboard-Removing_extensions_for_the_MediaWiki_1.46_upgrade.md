@@ -1,0 +1,79 @@
+---
+title: Tech:Noticeboard/Removing extensions for the MediaWiki 1.46 upgrade
+---
+
+`{{ {{Mbox|type=content|text=This page is a draft. Its content is not yet finalized.}} }}`
+This page details extensions that the [Technology Team](/tech-docs/techhome) is planning to remove before or during the [MediaWiki 1.46 upgrade](https://meta.miraheze.org/wiki/MediaWiki/1.46).
+
+Wiki administrators and bureaucrats: please check your wiki's `Special:Version` page and `Special:ManageWiki/extensions` to see whether your wiki has any of the extensions below installed. Note that some extensions will have spaces in their names, preventing a full name search from finding the extension.
+
+Each extension is in a different situation. Some are going to be removed for technical reasons and the decision is unlikely to be changed by community input. Others are proposed for removal due to a perceived lack of usefulness combined with other technical considerations. If there is enough community interest in preserving the extension in question, the technology team could attempt to fix the extension instead of removing it.__NEWSECTIONLINK__
+
+--[PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 11:17, 13 July 2026 (UTC)
+
+## Extension:DataTransfer
+
+### Rationale 1
+
+Testing revealed multiple issues with the extension that prevent it from properly functioning.
+
+The technology team also believes that it has limited use since most functionalities are covered by MediaWiki's native import/export features.
+
+### Discussion 1
+
+Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 11:17, 13 July 2026 (UTC)
+
+## Extension:LanguageSelector
+
+### Rationale 2
+
+This is tracked on [T14657](https://meta.miraheze.org/wiki/phab:T14657).
+
+The extension is no longer maintained, uses hooks removed more than 5 years ago, and can "lead people to seeing the page in a random language".
+
+Its functionalities also overlap with [Extension:UniversalLanguageSelector](https://meta.miraheze.org/wiki/mw:Extension:UniversalLanguageSelector).
+
+LanguageSelector's removal is unlikely to be changed, though if there is need for changing the interface language without logging in, the technology team can consider adding additional configurations to UniversalLanguageSelector.
+
+### Discussion 2
+
+Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 11:17, 13 July 2026 (UTC)
+
+## Extension:AutoCreatePage
+
+### Rationale 3
+
+This is tracked on [T15017](https://meta.miraheze.org/wiki/phab:T15017). The extension has unfixable security issues.
+
+### Discussion 3
+
+Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 11:17, 13 July 2026 (UTC)
+
+## Extension:FeaturedFeeds
+
+### Rationale 4
+
+The extension requires changes to mw-config, and a total of 0 wikis is using it this way.
+
+### Discussion 4
+
+Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 11:17, 13 July 2026 (UTC)
+
+## Extension:MagicNoCache
+
+### Rationale 5
+
+Disabling the parser cache is almost never a good idea. If there is a need for frequent parser cache purges, we can consider restricting this extension or installing the [UpdateDaily extension](https://github.com/wiki-gg-oss/mediawiki-extensions-UpdateDaily).
+
+### Discussion 5
+
+Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 11:17, 13 July 2026 (UTC)
+
+## Other extensions under consideration
+
+* CleanChanges: unmaintained.
+* Drafts: [T11970](https://meta.miraheze.org/wiki/phab:T11970), specifically [https://issue-tracker.miraheze.org/T11970#301106](https://issue-tracker.miraheze.org/T11970#301106)
+* GeoGebra: broken extension with 0 complaints
+
+----
+**[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Noticeboard/Removing_extensions_for_the_MediaWiki_1.46_upgrade)**

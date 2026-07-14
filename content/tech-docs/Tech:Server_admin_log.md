@@ -2,6 +2,29 @@
 title: Tech:Server admin log
 ---
 
+## 2026-07-13 
+
+* 23:54 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'world': True, 'versions': '1.45'} to all - SUCCESS in 219s
+* 23:52 MirahezeLSBot: [paladox@test151] finished deploy of {'world': True, 'versions': ['1.45', '1.46']} to test151 - SUCCESS in 55s
+* 23:51 @paladox: upgrade SemanticMediaWiki to tip of master branch as of today on mw� and test�
+* 23:51 MirahezeLSBot: [paladox@test151] starting deploy of {'world': True, 'versions': ['1.45', '1.46']} to test151
+* 23:51 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'world': True, 'versions': '1.45'} to all
+* 22:23 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:ReplaceTextEligible --wiki=wikibitkiwiki (END - exit=0)
+* 06:43 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 18s
+* 06:43 PetraMagna: Adjust Cloudflare rules and repool db161
+* 06:43 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 06:37 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 20s
+* 06:37 PetraMagna: Depooling db161
+* 06:37 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 03:57 MirahezeLSBot: [void@db171] restart sql-backup.service
+* 03:14 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 03:14 MirahezeLSBot: [paladox@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 3s
+* 03:14 MirahezeLSBot: [paladox@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 03:14 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 00:49 MirahezeLSBot: [void@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 00:49 MirahezeLSBot: [void@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 00:44 MirahezeLSBot: [void@cloud21] clear ipmi sel (inlet temperature spike)
+
 ## 2026-07-12 
 
 * 14:25 MirahezeLSBot: [wwr@mwtask171] fixconts --wiki mariowiki
