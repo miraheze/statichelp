@@ -2,6 +2,38 @@
 title: Tech:Server admin log
 ---
 
+## 2026-07-14 
+
+* 23:30 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=otshestwiki (END - exit=0)
+* 23:29 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=tallestandlongevitywiki --new=otshestwiki --user=TheWWRNerdGuy (END - exit=0)
+* 23:12 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=onestepfromedencdwiki --sleep=1 --comment='Importing images for [T15635](https://meta.miraheze.org/wiki/phorge:T15635)' ./images (END - exit=0)
+* 23:00 MirahezeLSBot: [petramagna@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=officialfurbywiki --no-updates --username-prefix=wikia:official-furby -- officialfurby_pages_full.xml (START)
+* 23:00 MirahezeLSBot: [petramagna@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=officialfurbywiki --no-updates --username-prefix=wikia:official-furby -- officialfurby_pages_full.xml (END - exit=256)
+* 23:00 MirahezeLSBot: [petramagna@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=officialfurbywiki --no-updates --username-prefix=wikia:official-furby -- officialfurby_pages_full.xml (START)
+* 22:58 MirahezeLSBot: [petramagna@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=officialfurbywiki --no-updates --username-prefix=wikia:official-furby -- officialfurby_pages_full.xml (END - exit=256)
+* 22:58 MirahezeLSBot: [petramagna@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=officialfurbywiki --no-updates --username-prefix=wikia:official-furby -- officialfurby_pages_full.xml (START)
+* 22:50 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=onestepfromedencdwiki --sleep=1 --comment='Importing images for [T15635](https://meta.miraheze.org/wiki/phorge:T15635)' ./images (START)
+* 21:02 MirahezeLSBot: [void@mw181] restart php8.4-fpm_check_restart.service
+* 19:37 MirahezeLSBot: [somerandomdeveloper@bots171] sudo systemctl restart lrclogserverbot
+* 19:37 MirahezeLSBot: [somerandomdeveloper@mon181] sudo systemctl restart ircecho
+* 19:33 MirahezeLSBot: [somerandomdeveloper@bots171] sudo systemctl restart logbot.service
+* 19:33 MirahezeLSBot: [somerandomdeveloper@bots171] sudo systemctl restart ircrcbot-MirahezeRC
+* 19:33 MirahezeLSBot: [somerandomdeveloper@bots171] sudo systemctl restart ircrcbot-MirahezeRC2
+* 12:07 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=zvhwiki --update (END - exit=0)
+* 12:03 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=zvhwiki (END - exit=0)
+* 12:00 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=zvhwiki (START)
+* 12:00 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=zvhwiki (END - exit=0)
+* 11:59 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=zvhwiki (END - exit=0)
+* 11:56 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=zvhwiki --no-updates --username-prefix=wikia:zombies-vs-humans -- zvh.xml (END - exit=0)
+* 11:49 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=zvhwiki --no-updates --username-prefix=wikia:zombies-vs-humans -- zvh.xml (START)
+* 11:42 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=theleaguenswiki --no-updates --username-prefix=theleaguens -- filename.xml (END - exit=256)
+* 11:42 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=theleaguenswiki --no-updates --username-prefix=theleaguens -- filename.xml (START)
+* 11:24 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 24s
+* 11:24 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'ManageWiki'} to all
+* 11:22 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'ManageWiki'} to test151 - SUCCESS in 1s
+* 11:22 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'ManageWiki'} to test151
+* 03:36 PetraMagna: Ran mwdeploy to apply the newest commit that fixes T15609
+
 ## 2026-07-13 
 
 * 23:54 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'world': True, 'versions': '1.45'} to all - SUCCESS in 219s
