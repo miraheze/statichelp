@@ -69,11 +69,15 @@ Disabling the parser cache is almost never a good idea. If there is a need for f
 
 Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 11:17, 13 July 2026 (UTC)
 
-## Other extensions under consideration
+## Extension:GeoGebra
 
-* CleanChanges: unmaintained.
-* Drafts: [T11970](https://meta.miraheze.org/wiki/phab:T11970), specifically [https://issue-tracker.miraheze.org/T11970#301106](https://issue-tracker.miraheze.org/T11970#301106)
-* GeoGebra: broken extension with 0 complaints
+### Rationale 6
+
+This extension is not functional and does not show anything in our tests. It has been broken since MediaWiki 1.44, and no wiki reported this breakage to us. The original wiki that requested it is already deleted.
+
+### Discussion 6
+
+Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 12:17, 15 July 2026 (UTC)
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Noticeboard/Removing_extensions_for_the_MediaWiki_1.46_upgrade)**

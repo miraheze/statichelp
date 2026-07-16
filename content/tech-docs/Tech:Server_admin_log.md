@@ -2,6 +2,41 @@
 title: Tech:Server admin log
 ---
 
+## 2026-07-15 
+
+* 20:58 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=shminerwiki (END - exit=0)
+* 19:42 RhinosF1: update WAF Rule for [https://discord.com/channels/407504499280707585/1527017105373790440](https://discord.com/channels/407504499280707585/1527017105373790440)
+* 14:53 @paladox: upgrade phorge on phorge171
+* 05:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: libxfont2
+* 05:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: libxfont2
+* 05:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: libxfont2
+* 05:54 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: libxfont2
+* 05:54 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: libxfont2
+* 05:54 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: libxfont2
+* 05:53 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: libxfont2
+* 05:53 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: libxfont2
+* 05:53 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libxfont2
+* 05:52 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: libxfont2
+* 05:52 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: libxfont2
+* 05:52 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: libxfont2
+* 05:51 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: libxfont2
+* 05:51 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: libxfont2
+* 05:51 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: libxfont2
+* 05:50 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: libxfont2
+* 05:50 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libxfont2
+* 05:50 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: libxfont2
+* 05:49 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: libxfont2
+* 05:49 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: libxfont2
+* 05:49 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: libxfont2
+* 05:48 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: libxfont2
+* 05:48 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: libxfont2
+* 05:48 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: libxfont2
+* 04:12 MirahezeLSBot: [petramagna@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=officialfurbywiki (END - exit=0)
+* 03:00 MirahezeLSBot: [petramagna@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=officialfurbywiki (START)
+* 02:59 MirahezeLSBot: [petramagna@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=officialfurbywiki (END - exit=0)
+* 02:59 MirahezeLSBot: [petramagna@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=officialfurbywiki --update (END - exit=0)
+* 00:57 MirahezeLSBot: [petramagna@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=officialfurbywiki --no-updates --username-prefix=wikia:official-furby -- officialfurby_pages_full.xml (END - exit=0)
+
 ## 2026-07-14 
 
 * 23:30 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=otshestwiki (END - exit=0)
