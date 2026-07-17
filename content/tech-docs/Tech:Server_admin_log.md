@@ -2,6 +2,23 @@
 title: Tech:Server admin log
 ---
 
+## 2026-07-16 
+
+* 22:49 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=eladriawikiwiki (END - exit=0)
+* 22:46 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=yamittesianwikiwiki --new=eladriawikiwiki --user=TheWWRNerdGuy (END - exit=0)
+* 22:25 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=candyspopgoeswikiwiki (END - exit=0)
+* 22:25 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=popgoeswiki --new=candyspopgoeswikiwiki --user=TheWWRNerdGuy (END - exit=0)
+* 22:07 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=aetheriapediawiki (END - exit=0)
+* 22:03 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=aetherianwiki --new=aetheriapediawiki --user=TheWWRNerdGuy (END - exit=0)
+* 21:40 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/ConfirmEdit'} to test151 - SUCCESS in 0s
+* 21:40 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/ConfirmEdit'} to test151
+* 21:38 MirahezeLSBot: [petramagna@test151] DEPLOY ABORTED: Canary check failed for meta.mirabeta.org@localhost
+* 21:38 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/ConfirmEdit'} to test151
+* 20:55 MirahezeLSBot: [wwr@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 20:55 MirahezeLSBot: [wwr@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 20:54 MirahezeLSBot: [wwr@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 4s
+* 20:54 MirahezeLSBot: [wwr@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+
 ## 2026-07-15 
 
 * 20:58 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=shminerwiki (END - exit=0)
