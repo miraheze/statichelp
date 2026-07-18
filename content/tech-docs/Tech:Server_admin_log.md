@@ -2,6 +2,12 @@
 title: Tech:Server admin log
 ---
 
+## 2026-07-17 
+
+* 23:36 MirahezeLSBot: [void@swiftproxy161] restart nginx (OOM)
+* 04:26 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/ConfirmEdit'} to test151 - SUCCESS in 0s
+* 04:26 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/ConfirmEdit'} to test151
+
 ## 2026-07-16 
 
 * 22:49 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=eladriawikiwiki (END - exit=0)
