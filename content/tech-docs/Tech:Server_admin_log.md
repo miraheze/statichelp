@@ -2,6 +2,30 @@
 title: Tech:Server admin log
 ---
 
+## 2026-07-18 
+
+* 21:35 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'MsUpload'} to test151 - SUCCESS in 1s
+* 21:35 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'MsUpload'} to test151
+* 20:57 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 20:56 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 18:42 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:GenerateExtensionDatabaseList --wiki=metawikibeta --extension=autocreatepages --directory=/tmp/exts --no-log (END - exit=256)
+* 17:08 @paladox: restart wikitiderenewssl service
+* 03:08 MirahezeLSBot: [void@db161] restart sql-backup.service
+* 02:38 MirahezeLSBot: [paladox@test151] finished deploy of {'world': True, 'l10n': True, 'versions': ['1.45', '1.46']} to test151 - SUCCESS in 155s
+* 02:36 MirahezeLSBot: [paladox@test151] starting deploy of {'world': True, 'l10n': True, 'versions': ['1.45', '1.46']} to test151
+* 02:27 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'world': True, 'l10n': True, 'versions': '1.45'} to all - SUCCESS in 791s
+* 02:18 MirahezeLSBot: [paladox@test151] finished deploy of {'world': True, 'l10n': True, 'versions': ['1.45', '1.46']} to test151 - SUCCESS in 402s
+* 02:14 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'world': True, 'l10n': True, 'versions': '1.45'} to all
+* 02:13 MirahezeLSBot: [paladox@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 02:12 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'world': True, 'l10n': True, 'versions': '1.45'} to all
+* 02:12 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'world': True, 'versions': '1.45'} to all - SUCCESS in 205s
+* 02:11 MirahezeLSBot: [paladox@test151] starting deploy of {'world': True, 'l10n': True, 'versions': ['1.45', '1.46']} to test151
+* 02:11 MirahezeLSBot: [paladox@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 02:10 MirahezeLSBot: [paladox@test151] starting deploy of {'world': True, 'l10n': True, 'versions': ['1.45', '1.46']} to test151
+* 02:09 MirahezeLSBot: [paladox@test151] finished deploy of {'world': True, 'versions': ['1.45', '1.46']} to test151 - SUCCESS in 43s
+* 02:08 MirahezeLSBot: [paladox@test151] starting deploy of {'world': True, 'versions': ['1.45', '1.46']} to test151
+* 02:08 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'world': True, 'versions': '1.45'} to all
+
 ## 2026-07-17 
 
 * 23:36 MirahezeLSBot: [void@swiftproxy161] restart nginx (OOM)

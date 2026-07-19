@@ -8,6 +8,63 @@ If a decision has been made to remove an extension from Miraheze—for example, 
 
 If an extension is about to be removed, though the tech team could consider keeping it with enough community support, consider asking for feedback on a subpage of [Tech:Noticeboard](/tech-docs/technoticeboard). Affected wikis should be made aware via the [NotifyWikiUsers](https://meta.miraheze.org/wiki/github:miraheze/MirahezeMagic/blob/main/maintenance/NotifyWikiUsers.php) script in MirahezeMagic. This will also give them some time to migrate to other solutions before the extension is removed.
 
+The detailed steps of sending notifications is as follows:
+* `sudo -u www-data mkdir /tmp/exts`
+* For each extension, run `sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:GenerateExtensionDatabaseList --wiki=metawiki --extension=embedvideo --directory=/tmp/exts` with the necessary modifications.
+* Save the following PHP script somewhere. 
+```php
+<?php
+/**
+ * Merge multiple PHP array files into a single file
+ * Usage: php dblist_merge.php output.php input1.php input2.php [input3.php ...]
+ */
+
+if ($argc < 3) {
+    echo "Usage: php {$argv[0]} output.php input1.php input2.php [input3.php ...]\n";
+    exit(1);
+}
+
+$outputFile = $argv[1];
+$inputFiles = array_slice($argv, 2);
+
+$mergedData = [];
+
+foreach ($inputFiles as $file) {
+    if (!file_exists($file)) {
+        echo "Warning: File '$file' does not exist, skipping...\n";
+        continue;
+    }
+
+    $data = include $file;
+
+    if (!is_array($data)) {
+        echo "Warning: File '$file' does not return an array, skipping...\n";
+        continue;
+    }
+
+    $mergedData = array_merge_recursive($mergedData, $data);
+}
+
+// Generate output file
+$output = "<?php\n// Automatically generated\nreturn " . var_export($mergedData, true) . ";\n";
+
+file_put_contents($outputFile, $output);
+
+echo "Successfully merged " . count($inputFiles) . " files into '$outputFile'\n";
+```
+* Run the PHP script in the previous step: `php dblist_merge.php output.php /tmp/exts/*.php`
+* Manually remove testwiki from output.php if it exists. PTW doesn't need to be notified.
+* Run the following script:
+```bash
+foreachwikiindblist output.php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:NotifyWikiUsers \
+ --header='Extension removal notice' \
+ --message='The technology team plans to remove one or more extensions currently used by your wiki. Please check the tech noticeboard on Meta to discuss.' \
+ --link='m:Tech:Noticeboard/Removing_extensions_for_the_MediaWiki_1.46_upgrade' \
+ --link-label='Discussion page' \
+ --group=bureaucrat \
+ --group=sysop
+```
+
 ## Removing an extension 
 
 *The steps below must be followed in order:*

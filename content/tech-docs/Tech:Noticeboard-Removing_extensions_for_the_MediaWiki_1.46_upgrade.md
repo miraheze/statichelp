@@ -43,7 +43,9 @@ Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna
 
 ### Rationale 3
 
-This is tracked on [T15017](https://meta.miraheze.org/wiki/phab:T15017). The extension has unfixable security issues.
+This is tracked on [T15017](https://meta.miraheze.org/wiki/phab:T15017). The extension has unfixable security issues, which I will not detail here.
+
+It doesn't have a full replacement, though the page creation process can be made much easier by using [Extension:InputBox](https://meta.miraheze.org/wiki/mw:Extension:InputBox) with a preload template.
 
 ### Discussion 3
 
@@ -53,7 +55,7 @@ Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna
 
 ### Rationale 4
 
-The extension requires changes to mw-config, and a total of 0 wikis is using it this way.
+The extension requires changes to mw-config, and a total of 0 wikis is using it this way despite many wikis enabling it in ManageWiki.
 
 ### Discussion 4
 
@@ -63,7 +65,7 @@ Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna
 
 ### Rationale 5
 
-Disabling the parser cache is almost never a good idea. If there is a need for frequent parser cache purges, we can consider restricting this extension or installing the [UpdateDaily extension](https://github.com/wiki-gg-oss/mediawiki-extensions-UpdateDaily).
+Disabling the parser cache is almost never a good idea and has caused multiple outages on the entire farm in the past. If there is a need for frequent parser cache purges, we can consider restricting this extension or installing the [UpdateDaily extension](https://github.com/wiki-gg-oss/mediawiki-extensions-UpdateDaily).
 
 ### Discussion 5
 
@@ -73,7 +75,7 @@ Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna
 
 ### Rationale 6
 
-This extension is not functional and does not show anything in our tests. It has been broken since MediaWiki 1.44, and no wiki reported this breakage to us. The original wiki that requested it is already deleted.
+This extension is not functional and does not show anything in our tests. It has been broken since MediaWiki 1.44, and no wiki reported this breakage to us. The original wiki that requested it is already deleted. We take this to mean a lack of interest in the extension.
 
 ### Discussion 6
 
