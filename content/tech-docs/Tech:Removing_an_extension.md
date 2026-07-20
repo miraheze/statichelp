@@ -6,11 +6,11 @@ If a decision has been made to remove an extension from Miraheze—for example, 
 
 ## Gathering community feedback 
 
-If an extension is about to be removed, though the tech team could consider keeping it with enough community support, consider asking for feedback on a subpage of [Tech:Noticeboard](/tech-docs/technoticeboard). Affected wikis should be made aware via the [NotifyWikiUsers](https://meta.miraheze.org/wiki/github:miraheze/MirahezeMagic/blob/main/maintenance/NotifyWikiUsers.php) script in MirahezeMagic. This will also give them some time to migrate to other solutions before the extension is removed.
+If an extension is about to be removed due to a perceived lack of community interest, consider asking for feedback on a subpage of [Tech:Noticeboard](/tech-docs/technoticeboard). Affected wikis should be made aware via the [NotifyWikiUsers](https://meta.miraheze.org/wiki/github:miraheze/MirahezeMagic/blob/main/maintenance/NotifyWikiUsers.php) script in MirahezeMagic. This will also give them some time to migrate to other solutions before the extension is removed.
 
 The detailed steps of sending notifications is as follows:
 * `sudo -u www-data mkdir /tmp/exts`
-* For each extension, run `sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:GenerateExtensionDatabaseList --wiki=metawiki --extension=embedvideo --directory=/tmp/exts` with the necessary modifications.
+* For each extension, run `sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:GenerateExtensionDatabaseList --wiki=metawiki --extension=embedvideo --directory=/tmp/exts --exclude-deleted` with the necessary modifications.
 * Save the following PHP script somewhere. 
 ```php
 <?php

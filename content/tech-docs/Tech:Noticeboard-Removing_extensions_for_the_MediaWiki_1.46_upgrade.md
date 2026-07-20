@@ -2,12 +2,11 @@
 title: Tech:Noticeboard/Removing extensions for the MediaWiki 1.46 upgrade
 ---
 
-`{{ {{Mbox|type=content|text=This page is a draft. Its content is not yet finalized.}} }}`
 This page details extensions that the [Technology Team](/tech-docs/techhome) is planning to remove before or during the [MediaWiki 1.46 upgrade](https://meta.miraheze.org/wiki/MediaWiki/1.46).
 
 Wiki administrators and bureaucrats: please check your wiki's `Special:Version` page and `Special:ManageWiki/extensions` to see whether your wiki has any of the extensions below installed. Note that some extensions will have spaces in their names, preventing a full name search from finding the extension.
 
-Each extension is in a different situation. Some are going to be removed for technical reasons and the decision is unlikely to be changed by community input. Others are proposed for removal due to a perceived lack of usefulness combined with other technical considerations. If there is enough community interest in preserving the extension in question, the technology team could attempt to fix the extension instead of removing it.__NEWSECTIONLINK__
+Each extension is in a different situation. Some are going to be removed for technical reasons and the decision is unlikely to be changed by community input. Others are proposed for removal due to a perceived lack of usefulness combined with other technical considerations. If there is enough community interest in preserving the extension in question, the technology team could attempt to fix the extension instead of removing it. Please not that the result of the discussions below is non-binding: extension additions and removals are at the discretion of the technology team.__NEWSECTIONLINK__
 
 --[PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 11:17, 13 July 2026 (UTC)
 
@@ -22,6 +21,10 @@ The technology team also believes that it has limited use since most functionali
 ### Discussion 1
 
 Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 11:17, 13 July 2026 (UTC)
+
+   No concerns this, as there are acceptable alternatives. I'm wondering, though, can you share some stats on the number of wikis on which each extension is enabled (active wikis only; no need for locked, closed, or deleted wikis, I think). [Doug](https://meta.miraheze.org/wiki/User:Doug) ([talk](https://meta.miraheze.org/wiki/User_talk:Doug)) 01:53, 19 July 2026 (UTC)
+      Added in the appendix. The parser function doesn't provide a way to filter by wiki state unfortunately. The [list on the communities wiki](https://meta.miraheze.org/wiki/mh:communities:List_of_extensions_by_popularity) only includes public, non-deleted wikis with the number of active users in mind, which could also be useful. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 14:33, 19 July 2026 (UTC)
+         Ah, okay. Thanks. I'll check out [that page on Communities wiki](https://meta.miraheze.org/wiki/mh:communities:List_of_extensions_by_popularity). To clarify, I was wondering if there was an SQL query that could be run to generate that information. In any case, the information in the Appendix you've provided is helpful enough (number of wikis using it). [Doug](https://meta.miraheze.org/wiki/User:Doug) ([talk](https://meta.miraheze.org/wiki/User_talk:Doug)) 14:54, 19 July 2026 (UTC)
 
 ## Extension:LanguageSelector
 
@@ -50,6 +53,8 @@ It doesn't have a full replacement, though the page creation process can be made
 ### Discussion 3
 
 Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 11:17, 13 July 2026 (UTC)
+
+   No concerns. [Doug](https://meta.miraheze.org/wiki/User:Doug) ([talk](https://meta.miraheze.org/wiki/User_talk:Doug)) 01:55, 19 July 2026 (UTC)
 
 ## Extension:FeaturedFeeds
 
@@ -80,6 +85,38 @@ This extension is not functional and does not show anything in our tests. It has
 ### Discussion 6
 
 Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 12:17, 15 July 2026 (UTC)
+
+## Extension:CleanChanges
+
+### Rationale 7
+
+See [T14270](https://meta.miraheze.org/wiki/phab:T14270) and [T379896](https://meta.miraheze.org/wiki/mediazilla:T379896).
+
+The only useful feature left is the user filter, which doesn't make much sense since one can go to the Special:Contributions page for per-user recent changes.
+
+### Discussion 7
+
+Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 00:34, 19 July 2026 (UTC)
+
+   No issues here. Should be superseded by [Extension:SimpleChanges](https://meta.miraheze.org/wiki/mw:Extension:SimpleChanges). [CostinTea](https://meta.miraheze.org/wiki/User:CostinTea) ([talk](https://meta.miraheze.org/wiki/User_talk:CostinTea)) 23:33, 19 July 2026 (UTC)
+
+## Extension:InterwikiSorting
+
+### Rationale 8
+
+See [T15015](https://meta.miraheze.org/wiki/phab:T15015). The Wikimedia Foundation, which maintains this extension, has undeployed it in [T253764](https://meta.miraheze.org/wiki/mediazilla:T253764).
+
+The extension will likely become unmaintained as its largest user abandon it.
+
+### Discussion 8
+
+Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 00:42, 19 July 2026 (UTC)
+   Personally I think we can keep InterwikiSorting for a few MediaWiki versions, but as MediaWiki evolves, the extension will inevitably break. It is also poorly documented on mediawiki.org and has no instructions on how to use it. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 00:42, 19 July 2026 (UTC)
+
+## Appendix: number of wikis using each extension
+
+Data sourced from ManageWiki/WikiDiscover. All wikis (including inactive and deleted wikis) are included.
+| pattern=<nowiki> | arg1=EXT | datatransfer | languageselector | autocreatepages | featuredfeeds | magicnocache | geogebra | cleanchanges | interwikisorting |
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Noticeboard/Removing_extensions_for_the_MediaWiki_1.46_upgrade)**

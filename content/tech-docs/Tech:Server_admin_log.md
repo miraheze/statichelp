@@ -2,6 +2,126 @@
 title: Tech:Server admin log
 ---
 
+## 2026-07-19 
+
+* 21:33 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 23s
+* 21:32 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 20:47 MirahezeLSBot: [wwr@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 5s
+* 20:46 MirahezeLSBot: [wwr@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 20:46 MirahezeLSBot: [wwr@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 20:46 MirahezeLSBot: [wwr@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 20:11 RhinosF1: re-enable puppet on mw* and cp*; automatic custom domain redirects are deployed, any issues please revert the puppet & ssl PR
+* 20:03 RhinosF1: stopping puppet while listdomains is tested across mw� and cp�
+* 19:57 RhinosF1: running puppet across mw� and cp� to roll out custom domain redirects
+* 19:50 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on test151: libtiff-dev, libtiffxx6, and libtiff6
+* 19:50 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject201: libtiff6
+* 19:50 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftproxy161: libtiff6
+* 19:50 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject191: libtiff6
+* 19:49 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftproxy171: libtiff6
+* 19:49 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject211: libtiff6
+* 19:49 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject181: libtiff6
+* 19:49 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject161: libtiff6
+* 19:48 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject171: libtiff6
+* 19:48 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftac171: libtiff6
+* 19:48 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on ns2: libtiff6
+* 19:47 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on swiftobject151: libtiff6
+* 19:47 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on os151: libtiff6
+* 19:47 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on os202: libtiff6
+* 19:47 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on rdb191: libtiff6
+* 19:46 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on puppet181: libtiff6
+* 19:46 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on os162: libtiff6
+* 19:46 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on os191: libtiff6
+* 19:45 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on reports171: libtiff6
+* 19:45 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on os201: libtiff6
+* 19:45 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on prometheus151: libtiff6
+* 19:45 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on phorge171: libtiff6
+* 19:44 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on os161: libtiff6
+* 19:44 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mwtask181: libtiff-dev, libtiffxx6, and libtiff6
+* 19:44 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mwtask171: libtiff-dev, libtiffxx6, and libtiff6
+* 19:44 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mwtask161: libtiff-dev, libtiffxx6, and libtiff6
+* 19:43 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on ns1: libtiff6
+* 19:43 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw202: libtiff-dev, libtiffxx6, and libtiff6
+* 19:43 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mwtask151: libtiff-dev, libtiffxx6, and libtiff6
+* 19:42 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw203: libtiff-dev, libtiffxx6, and libtiff6
+* 19:42 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw201: libtiff-dev, libtiffxx6, and libtiff6
+* 19:42 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw193: libtiff-dev, libtiffxx6, and libtiff6
+* 19:41 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw192: libtiff-dev, libtiffxx6, and libtiff6
+* 19:41 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw183: libtiff-dev, libtiffxx6, and libtiff6
+* 19:41 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw182: libtiff-dev, libtiffxx6, and libtiff6
+* 19:40 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw163: libtiff-dev, libtiffxx6, and libtiff6
+* 19:40 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw181: libtiff-dev, libtiffxx6, and libtiff6
+* 19:40 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw191: libtiff-dev, libtiffxx6, and libtiff6
+* 19:39 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw173: libtiff-dev, libtiffxx6, and libtiff6
+* 19:39 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw172: libtiff-dev, libtiffxx6, and libtiff6
+* 19:39 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw171: libtiff-dev, libtiffxx6, and libtiff6
+* 19:38 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw151: libtiff-dev, libtiffxx6, and libtiff6
+* 19:38 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw153: libtiff-dev, libtiffxx6, and libtiff6
+* 19:38 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw161: libtiff-dev, libtiffxx6, and libtiff6
+* 19:37 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw162: libtiff-dev, libtiffxx6, and libtiff6
+* 19:37 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mon181: libtiff6
+* 19:37 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mw152: libtiff-dev, libtiffxx6, and libtiff6
+* 19:36 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on llm191: libtiff6
+* 19:36 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mem161: libtiff6
+* 19:36 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on kafka182: libtiff6
+* 19:35 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mem151: libtiff6
+* 19:35 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on matomo151: libtiff6
+* 19:35 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on ldap171: libtiff6
+* 19:34 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mattermost2: libtiff6
+* 19:34 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on graylog161: libtiff6
+* 19:34 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on eventgate182: libtiff6
+* 19:34 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cp171: libtiff6
+* 19:33 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cp201: libtiff6
+* 19:33 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cp191: libtiff6
+* 19:33 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db181: libtiff6
+* 19:33 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db192: libtiff6
+* 19:32 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db201: libtiff6
+* 19:32 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud17: libtiff6
+* 19:32 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud20: libtiff6
+* 19:32 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db182: libtiff6
+* 19:31 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud18: libtiff6
+* 19:31 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud19: libtiff6
+* 19:31 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud16: libtiff6
+* 19:30 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db171: libtiff6
+* 19:30 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on changeprop202: libtiff6
+* 19:30 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on bast181: libtiff6
+* 19:30 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cp161: libtiff6
+* 19:29 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud15: libtiff6
+* 19:29 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db161: libtiff6
+* 19:29 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db151: libtiff6
+* 19:29 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on cloud21: libtiff6
+* 19:29 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on bots171: libtiff6
+* 19:28 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on db172: libtiff6
+* 19:28 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on bast161: libtiff6
+* 19:27 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mem191: libtiff6
+* 19:27 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mem201: libtiff6
+* 13:50 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s
+* 13:50 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/MirahezeMagic'} to test151
+* 08:02 MirahezeLSBot: [void@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 08:01 MirahezeLSBot: [void@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 07:57 MirahezeLSBot: [void@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 8s
+* 07:57 MirahezeLSBot: [void@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 07:56 MirahezeLSBot: [void@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 07:55 MirahezeLSBot: [void@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 05:06 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 18s
+* 05:06 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 04:58 MirahezeLSBot: [universalomega@cloud16] Reboot db161 from host
+* 04:05 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 19s
+* 04:05 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 04:05 PetraMagna: Depool db161
+* 04:05 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s
+* 04:01 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/MirahezeMagic'} to test151
+* 02:33 MirahezeLSBot: [void@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 18s
+* 02:33 MirahezeLSBot: [void@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 02:25 MirahezeLSBot: [void@mwtask181] depool db161 again
+* 02:24 MirahezeLSBot: [void@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 18s
+* 02:19 MirahezeLSBot: [void@test151] finished deploy of {'pull': 'config', 'config': True, 'force': True} to test151 - SUCCESS in 5s
+* 02:19 MirahezeLSBot: [void@test151] starting deploy of {'pull': 'config', 'config': True, 'force': True} to test151
+* 02:12 MirahezeLSBot: [void@mwtask181] repool db161 after recent outage
+* 02:11 MirahezeLSBot: [void@bots171] restart logbot
+* 02:05 orduin:        [void@mwtask181] depool db161 (c2)
+* 02:05 MirahezeLSBot: [void@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mw173
+* 02:01 MirahezeLSBot: [void@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
 ## 2026-07-18 
 
 * 21:35 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'MsUpload'} to test151 - SUCCESS in 1s
