@@ -42,6 +42,8 @@ LanguageSelector's removal is unlikely to be changed, though if there is need fo
 
 Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 11:17, 13 July 2026 (UTC)
 
+   Note: the technology team will disable Language Selector and enable Universal Language Selector for all wikis that still uses Language Selector before removal. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 16:44, 20 July 2026 (UTC)
+
 ## Extension:AutoCreatePage
 
 ### Rationale 3
@@ -55,6 +57,8 @@ It doesn't have a full replacement, though the page creation process can be made
 Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 11:17, 13 July 2026 (UTC)
 
    No concerns. [Doug](https://meta.miraheze.org/wiki/User:Doug) ([talk](https://meta.miraheze.org/wiki/User_talk:Doug)) 01:55, 19 July 2026 (UTC)
+   What alternative we have? This is BASIC for creating new categories on the fly. [Jakeukalane](https://meta.miraheze.org/wiki/User:Jakeukalane) ([talk](https://meta.miraheze.org/wiki/User_talk:Jakeukalane)) 16:48, 20 July 2026 (UTC)
+      [Auto Create Category Pages](https://meta.miraheze.org/wiki/mw:Extension:Auto_Create_Category_Pages). [TheWWRNerdGuy](https://meta.miraheze.org/wiki/User:TheWWRNerdGuy) ([talk](https://meta.miraheze.org/wiki/User_talk:TheWWRNerdGuy)) 17:16, 20 July 2026 (UTC)
 
 ## Extension:FeaturedFeeds
 
