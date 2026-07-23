@@ -9,7 +9,7 @@ title: Tech:Swiftproxy161
 | host = swiftproxy161.fsslc.wtnet
 | usage = Swift
 | status = running
-| memory = 4GB
+| memory = 8GB
 | cpu = 4 cores
 | nvme = 30GB
 | nvme type = U.2
