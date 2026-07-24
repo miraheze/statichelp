@@ -2,6 +2,96 @@
 title: Tech:Server admin log
 ---
 
+## 2026-07-23 
+
+* 23:44 TheWWRNerdGuy: (wiki=metawiki, [https://issue-tracker.miraheze.org/T15718](https://issue-tracker.miraheze.org/T15718))
+* 23:43 TheWWRNerdGuy: DELETE FROM echo_unread_wikis WHERE euw_user = '106692' AND euw_wiki = 'smithwickswiki';
+* 23:43 TheWWRNerdGuy: DELETE FROM echo_unread_wikis WHERE euw_user = '106692' AND euw_wiki = 'knightnwiki';
+* 23:30 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=theimperialdawnwikiwiki (END - exit=0)
+* 23:30 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=theimperialdawnwiki (END - exit=65280)
+* 23:28 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=aruiopcoritenwiki --new=theimperialdawnwikiwiki --user=TheWWRNerdGuy (END - exit=0)
+* 23:21 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=advancedsmpwiki (END - exit=0)
+* 23:20 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=saltserverwiki --new=advancedsmpwiki --user=TheWWRNerdGuy (END - exit=0)
+* 20:20 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: pdns-recursor
+* 20:20 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: pdns-recursor
+* 20:19 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: pdns-recursor
+* 20:19 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: pdns-recursor
+* 20:18 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: pdns-recursor
+* 20:18 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: pdns-recursor
+* 20:17 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: pdns-recursor
+* 20:17 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: pdns-recursor
+* 20:16 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: pdns-recursor
+* 20:16 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: pdns-recursor
+* 20:16 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: pdns-recursor
+* 20:15 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: pdns-recursor
+* 20:15 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb191: pdns-recursor
+* 20:15 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: pdns-recursor
+* 20:14 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: pdns-recursor
+* 20:14 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: pdns-recursor
+* 20:14 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: pdns-recursor
+* 20:13 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: pdns-recursor
+* 20:13 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: pdns-recursor
+* 20:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: pdns-recursor
+* 20:12 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: pdns-recursor
+* 20:12 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: pdns-recursor
+* 20:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: pdns-recursor
+* 20:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: pdns-recursor
+* 20:11 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: pdns-recursor
+* 20:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: pdns-recursor
+* 20:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: pdns-recursor
+* 20:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: pdns-recursor
+* 20:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: pdns-recursor
+* 20:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: pdns-recursor
+* 20:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: pdns-recursor
+* 20:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: pdns-recursor
+* 20:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: pdns-recursor
+* 19:59 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: pdns-recursor
+* 19:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: pdns-recursor
+* 19:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: pdns-recursor
+* 19:53 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: pdns-recursor
+* 19:52 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: pdns-recursor
+* 19:50 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: pdns-recursor
+* 19:48 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: pdns-recursor
+* 19:47 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: pdns-recursor
+* 19:45 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: pdns-recursor
+* 19:43 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: pdns-recursor
+* 19:43 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: pdns-recursor
+* 19:41 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: pdns-recursor
+* 19:38 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: pdns-recursor
+* 19:36 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: pdns-recursor
+* 19:36 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: pdns-recursor
+* 19:36 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: pdns-recursor
+* 19:35 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: pdns-recursor
+* 19:35 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: pdns-recursor
+* 19:35 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: pdns-recursor
+* 19:34 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: pdns-recursor
+* 19:34 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: pdns-recursor
+* 19:34 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: pdns-recursor
+* 19:33 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: pdns-recursor
+* 19:33 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: pdns-recursor
+* 19:32 MirahezeLSBot: [void@puppet181] Upgraded packages on db201: pdns-recursor
+* 19:32 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: pdns-recursor
+* 19:31 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: pdns-recursor
+* 19:31 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: pdns-recursor
+* 19:31 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: pdns-recursor
+* 19:30 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: pdns-recursor
+* 19:30 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: pdns-recursor
+* 19:30 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: pdns-recursor
+* 19:29 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: pdns-recursor
+* 19:29 MirahezeLSBot: [void@puppet181] Upgraded packages on db192: pdns-recursor
+* 19:29 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: pdns-recursor
+* 19:28 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: pdns-recursor
+* 19:28 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: pdns-recursor
+* 19:28 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: pdns-recursor
+* 19:27 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: pdns-recursor
+* 19:27 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: pdns-recursor
+* 19:26 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: pdns-recursor
+* 19:26 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: pdns-recursor
+* 19:26 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: pdns-recursor
+* 19:25 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: pdns-recursor
+* 19:25 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: pdns-recursor
+* 19:24 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: pdns-recursor
+
 ## 2026-07-22 
 
 * 23:08 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: bind9-host, bind9-dnsutils, and bind9-libs
