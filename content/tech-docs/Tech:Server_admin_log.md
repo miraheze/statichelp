@@ -2,6 +2,29 @@
 title: Tech:Server admin log
 ---
 
+## 2026-07-24 
+
+* 23:48 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=lezuswiki (END - exit=0)
+* 23:48 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=thelezusencyclopediawiki --new=lezuswiki --user=TheWWRNerdGuy (END - exit=0)
+* 23:38 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=gloriavictiswiki (END - exit=0)
+* 23:37 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=gloriavictuswiki --new=gloriavictiswiki --user=TheWWRNerdGuy (END - exit=0)
+* 23:30 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=flordolaciorpgsdemesawiki (END - exit=0)
+* 23:25 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=dedportugueswiki --new=flordolaciorpgsdemesawiki --user=TheWWRNerdGuy (END - exit=0)
+* 23:07 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=matutinewiki (END - exit=0)
+* 23:04 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=daggryssamlingwiki --new=matutinewiki --user=TheWWRNerdGuy (END - exit=0)
+* 09:45 PetraMagna: sudo -u www-data foreachwikiindblist output.php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ResetWikiCaches
+* 09:45 PetraMagna: sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:GenerateExtensionDatabaseList --wiki=metawiki --directory=/tmp/exts --exclude-deleted --extension=datamaps
+* 09:05 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/DataMaps'} to test151 - SUCCESS in 0s
+* 09:05 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/DataMaps'} to test151
+* 04:21 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'MatomoAnalytics'} to all - SUCCESS in 24s
+* 04:20 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'MatomoAnalytics'} to all
+* 03:07 MirahezeLSBot: [void@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'l10n': True, 'extension_list': True, 'versions': '1.45', 'upgrade_extensions': 'DataMaps'} to all - SUCCESS in 504s
+* 02:59 MirahezeLSBot: [void@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'l10n': True, 'extension_list': True, 'versions': '1.45', 'upgrade_extensions': 'DataMaps'} to all
+* 02:57 MirahezeLSBot: [void@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 3s
+* 02:57 MirahezeLSBot: [void@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 02:39 MirahezeLSBot: [void@test151] finished deploy of {'l10n': True, 'versions': '1.46', 'upgrade_extensions': 'ExternalData'} to test151 - SUCCESS in 44s
+* 02:38 MirahezeLSBot: [void@test151] starting deploy of {'l10n': True, 'versions': '1.46', 'upgrade_extensions': 'ExternalData'} to test151
+
 ## 2026-07-23 
 
 * 23:44 TheWWRNerdGuy: (wiki=metawiki, [https://issue-tracker.miraheze.org/T15718](https://issue-tracker.miraheze.org/T15718))

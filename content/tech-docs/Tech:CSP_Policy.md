@@ -6,6 +6,8 @@ title: Tech:CSP Policy
 
 This policy lays out the process by which the [Technology team](/tech-docs/techvolunteers) may approve new additions to the Content Security Policy (CSP). Sites added to the CSP may have content on that domain loaded by all Miraheze wikis. CSP approvals are generally the responsibility of MediaWiki Specialists, as a function of MediaWiki security. Though, any step in the approvals process may be handled by an Infrastructure Specialist.
 
+To request an addition to the CSP, fill out [this form](https://issue-tracker.miraheze.org/maniphest/task/edit/form/23/) on [Phorge](https://meta.miraheze.org/wiki/Phorge).
+
 ## Questions 
 
 * Is the site equipped with a privacy policy?
