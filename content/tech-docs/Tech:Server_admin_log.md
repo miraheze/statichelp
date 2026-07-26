@@ -2,6 +2,17 @@
 title: Tech:Server admin log
 ---
 
+## 2026-07-25 
+
+* 23:15 Skye: sudo -u www-data foreachwikiindblist flowtopic.php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:DeleteNamespace --id 2601 --newNamespace 1 --maintainPrefix
+* 22:54 Skye: sudo -u www-data foreachwikiindblist flowtopic.php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:DeleteNamespace --id 2600 --maintainPrefix
+* 21:59 MirahezeLSBot: [skye@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 32s
+* 21:58 MirahezeLSBot: [skye@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'ManageWiki'} to all
+* 21:53 MirahezeLSBot: [skye@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:DeleteNamespace --wiki=skye2wikibeta --id=3001 --maintainPrefix (END - exit=0)
+* 21:52 MirahezeLSBot: [skye@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'ManageWiki'} to test151 - SUCCESS in 1s
+* 21:52 MirahezeLSBot: [skye@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'ManageWiki'} to test151
+* 21:40 MirahezeLSBot: [skye@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:DeleteNamespace --wiki=skye2wikibeta --id=3000 --maintainPrefix (END - exit=0)
+
 ## 2026-07-24 
 
 * 23:48 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=lezuswiki (END - exit=0)
