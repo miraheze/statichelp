@@ -2,6 +2,50 @@
 title: Tech:Server admin log
 ---
 
+## 2026-07-26 
+
+* 23:38 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'MatomoAnalytics'} to all - SUCCESS in 24s
+* 23:37 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'MatomoAnalytics'} to all
+* 23:30 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'MatomoAnalytics'} to all - SUCCESS in 25s
+* 23:29 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'MatomoAnalytics'} to all
+* 23:13 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'SemanticMediaWiki'} to all - SUCCESS in 43s
+* 23:12 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'SemanticMediaWiki'} to all
+* 23:12 SomeRandomDeveloper: (in /srv/mediawiki-staging/1.45)
+* 23:12 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data http_proxy= [http://bastion.fsslc.wtnet:8080](http://bastion.fsslc.wtnet:8080) https_proxy= [http://bastion.fsslc.wtnet:8080](http://bastion.fsslc.wtnet:8080) composer update --no-dev
+* 23:08 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'SemanticMediaWiki'} to test151 - SUCCESS in 0s
+* 23:08 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'SemanticMediaWiki'} to test151
+* 22:55 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'world': True, 'versions': '1.45'} to test151 - SUCCESS in 30s
+* 22:54 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'world': True, 'versions': '1.45'} to test151
+* 22:48 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'SemanticMediaWiki'} to all - SUCCESS in 30s
+* 22:47 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'SemanticMediaWiki'} to all
+* 22:46 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'SemanticMediaWiki'} to test151 - SUCCESS in 1s
+* 22:46 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'SemanticMediaWiki'} to test151
+* 14:03 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 14:03 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 13:41 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=indeciescwiki (END - exit=0)
+* 13:41 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=tsoeowiki --new=indeciescwiki --user=TheWWRNerdGuy (END - exit=0)
+* 13:28 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=jigwikiwiki (END - exit=0)
+* 13:27 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=rigwikiwiki --new=jigwikiwiki --user=TheWWRNerdGuy (END - exit=0)
+* 13:22 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=seproarchiveswiki (END - exit=0)
+* 13:21 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=seroarchiveswiki --new=seproarchiveswiki --user=TheWWRNerdGuy (END - exit=0)
+* 13:18 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=ibrahimelazzielarajiwiki (END - exit=0)
+* 13:17 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=esseyyidelsherifelemiribrahimelazzieljamamzaelarajiwiki --new=ibrahimelazzielarajiwiki --user=TheWWRNerdGuy (END - exit=0)
+* 13:11 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=oblivionproductionswiki (END - exit=0)
+* 13:10 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=oblivonproductionswiki --new=oblivionproductionswiki --user=TheWWRNerdGuy (END - exit=0)
+* 12:52 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=celaronmcwiki --requester=FredTurkworks (END - exit=0)
+* 12:15 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=mathpediaenwiki (END - exit=0)
+* 12:15 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=mathpediaenwiki --startOver (END - exit=0)
+* 12:14 MirahezeLSBot: [wwr@mwtask171] curl -X DELETE [https://opensearch-mw.wikitide.net/mathpediaenwiki_content](https://opensearch-mw.wikitide.net/mathpediaenwiki_content) [https://opensearch-mw.wikitide.net/mathpediaenwiki_general](https://opensearch-mw.wikitide.net/mathpediaenwiki_general)
+* 12:13 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=mathpediaenwiki --startOver (END - exit=256)
+* 11:44 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php purgeParserCache --wiki=citizenwikibeta (END - exit=256)
+* 11:42 MirahezeLSBot: [petramagna@test151] finished deploy of {'l10n': True, 'folders': '1.46/skins/Citizen', 'versions': ['1.45', '1.46']} to test151 - SUCCESS in 121s
+* 11:40 MirahezeLSBot: [petramagna@test151] starting deploy of {'l10n': True, 'folders': '1.46/skins/Citizen', 'versions': ['1.45', '1.46']} to test151
+* 11:37 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/skins/Citizen'} to test151 - SUCCESS in 0s
+* 11:37 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/skins/Citizen'} to test151
+* 11:36 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/skins/Citizen'} to test151 - SUCCESS in 0s
+* 11:36 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/skins/Citizen'} to test151
+* 06:28 MirahezeLSBot: [void@bots171] git config core.fileMode false in /srv/relaybot; fixes puppet running git pull
+
 ## 2026-07-25 
 
 * 23:15 Skye: sudo -u www-data foreachwikiindblist flowtopic.php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:DeleteNamespace --id 2601 --newNamespace 1 --maintainPrefix
