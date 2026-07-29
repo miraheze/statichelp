@@ -2,6 +2,40 @@
 title: Tech:Server admin log
 ---
 
+## 2026-07-28 
+
+* 19:38 MirahezeLSBot: [reception@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 19:38 MirahezeLSBot: [reception@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:37 MirahezeLSBot: [reception@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 24s
+* 19:36 MirahezeLSBot: [reception@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'ManageWiki'} to all
+* 19:36 MirahezeLSBot: [reception@mwtask181] finished deploy of {'l10n': True, 'versions': '1.45'} to all - SUCCESS in 462s
+* 19:34 MirahezeLSBot: [reception@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 19:34 MirahezeLSBot: [reception@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:28 MirahezeLSBot: [reception@mwtask181] starting deploy of {'l10n': True, 'versions': '1.45'} to all
+* 19:28 MirahezeLSBot: [reception@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 23s
+* 19:27 MirahezeLSBot: [reception@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'ManageWiki'} to all
+* 19:27 MirahezeLSBot: [reception@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 30s
+* 19:26 MirahezeLSBot: [reception@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'CreateWiki'} to all
+* 17:58 MirahezeLSBot: [reception@mwtask181] finished deploy of {'world': True, 'versions': '1.45'} to all - SUCCESS in 142s
+* 17:56 MirahezeLSBot: [reception@mwtask181] starting deploy of {'world': True, 'versions': '1.45'} to all
+* 17:38 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/sql.php --wiki=metawiki --wikidb mhglobal /srv/mediawiki-staging/1.45/extensions/CreateWiki/sql/patches/patch-cw_wikis-add-wiki_closed_reason.sql (END - exit=0)
+* 17:32 MirahezeLSBot: [reception@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 0s
+* 17:32 MirahezeLSBot: [reception@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'CreateWiki'} to all
+* 17:31 MirahezeLSBot: [reception@mwtask181] finished deploy of {'world': True, 'versions': '1.45'} to all - SUCCESS in 210s
+* 17:28 MirahezeLSBot: [reception@mwtask181] starting deploy of {'world': True, 'versions': '1.45'} to all
+* 15:41 MirahezeLSBot: [reception@mwtask181] finished deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 86s
+* 15:39 MirahezeLSBot: [reception@mwtask181] starting deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'ManageWiki'} to all
+* 15:39 MirahezeLSBot: [reception@mwtask181] finished deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 276s
+* 15:35 MirahezeLSBot: [reception@mwtask181] starting deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'CreateWiki'} to all
+* 15:26 MirahezeLSBot: [reception@mwtask181] starting deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'ManageWiki'} to all
+* 15:26 MirahezeLSBot: [reception@mwtask181] finished deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 529s
+* 15:17 MirahezeLSBot: [reception@mwtask181] starting deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'CreateWiki'} to all
+* 13:34 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'TableProgressTracking'} to all - SUCCESS in 25s
+* 13:33 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'TableProgressTracking'} to all
+* 13:31 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'TableProgressTracking'} to test151 - SUCCESS in 1s
+* 13:31 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'TableProgressTracking'} to test151
+* 10:43 MirahezeLSBot: [reception@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php /srv/mediawiki/1.46/maintenance/sql.php --wiki=metawikibeta (END - exit=33280)
+
 ## 2026-07-27 
 
 * 21:37 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'WikiSEO'} to all - SUCCESS in 2s
