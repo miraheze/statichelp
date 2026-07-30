@@ -2,6 +2,10 @@
 title: Tech:Server admin log
 ---
 
+## 2026-07-29 
+
+* 10:56 MirahezeLSBot: [petramagna@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php cleanupEmptyCategories --wiki=maillewiki (END - exit=0)
+
 ## 2026-07-28 
 
 * 19:38 MirahezeLSBot: [reception@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s

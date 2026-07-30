@@ -31,6 +31,8 @@ sudo -u www-data php /srv/mediawiki/1.44/maintenance/run.php deleteBatch --wiki=
 
 Links to pages in the `Topic` namespace will be invalidated. To fix them, [https://gitlab.wikimedia.org/pppery/flow-topic-links-fix](https://gitlab.wikimedia.org/pppery/flow-topic-links-fix) can be run. It does not require the flow board to be present but does require both Flow and CirrusSearch to be installed with regex support, which we do not have.
 
+After this, the Topic namespace will be empty, and can be deleted.
+
 ## Timeline
 
 There are more than 200 wikis that use Flow. The majority of them have never created any Flow boards, so the extension can be disabled for them without any cleanup required. That leaves 79 wikis with Flow boards that need to be converted to wikitext for archival purposes before removing Flow.
