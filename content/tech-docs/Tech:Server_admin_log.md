@@ -2,6 +2,175 @@
 title: Tech:Server admin log
 ---
 
+## 2026-07-30 
+
+* 22:55 MirahezeLSBot: [skye@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'PageForms'} to test151 - SUCCESS in 2s
+* 22:55 MirahezeLSBot: [skye@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'PageForms'} to test151
+* 22:54 MirahezeLSBot: [skye@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'PageForms'} to all - SUCCESS in 26s
+* 22:53 MirahezeLSBot: [skye@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'PageForms'} to all
+* 19:31 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: libexpat1
+* 19:31 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: libexpat1
+* 19:30 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libexpat1-dev and libexpat1
+* 19:30 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: libexpat1-dev and libexpat1
+* 19:30 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: libexpat1-dev and libexpat1
+* 19:30 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: libexpat1
+* 19:29 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: libexpat1
+* 19:29 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: libexpat1
+* 19:29 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: libexpat1
+* 19:29 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: libexpat1
+* 19:28 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: libexpat1-dev and libexpat1
+* 19:28 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: libexpat1
+* 19:28 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: libexpat1
+* 19:27 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: libexpat1
+* 19:27 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: libexpat1-dev and libexpat1
+* 19:27 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb191: libexpat1
+* 19:26 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: libexpat1
+* 19:26 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: libexpat1
+* 19:26 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: libexpat1
+* 19:26 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: libexpat1
+* 19:25 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: libexpat1
+* 19:25 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: libexpat1-dev and libexpat1
+* 19:25 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: libexpat1
+* 19:25 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: libexpat1
+* 19:24 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: libexpat1
+* 19:24 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: libexpat1-dev and libexpat1
+* 19:24 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: libexpat1-dev and libexpat1
+* 19:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: libexpat1-dev and libexpat1
+* 19:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: libexpat1-dev and libexpat1
+* 19:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: libexpat1-dev and libexpat1
+* 19:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libexpat1-dev and libexpat1
+* 19:22 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: libexpat1-dev and libexpat1
+* 19:22 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: libexpat1-dev and libexpat1
+* 19:22 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: libexpat1-dev and libexpat1
+* 19:21 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: libexpat1-dev and libexpat1
+* 19:21 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: libexpat1-dev and libexpat1
+* 19:21 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: libexpat1-dev and libexpat1
+* 19:20 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: libexpat1-dev and libexpat1
+* 19:20 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: libexpat1-dev and libexpat1
+* 19:20 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: libexpat1-dev and libexpat1
+* 19:19 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: libexpat1-dev and libexpat1
+* 19:19 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: libexpat1-dev and libexpat1
+* 19:19 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: libexpat1-dev and libexpat1
+* 19:19 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: libexpat1-dev and libexpat1
+* 19:18 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: libexpat1-dev and libexpat1
+* 19:18 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: libexpat1
+* 19:18 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: libexpat1-dev and libexpat1
+* 19:17 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: libexpat1
+* 19:17 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: libexpat1-dev and libexpat1
+* 19:17 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: libexpat1
+* 19:17 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: libexpat1
+* 19:16 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: libexpat1
+* 19:16 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: libexpat1
+* 19:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: libexpat1
+* 19:16 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: libexpat1
+* 19:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: libexpat1
+* 19:15 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: libexpat1
+* 19:15 MirahezeLSBot: [void@puppet181] Upgraded packages on db201: libexpat1
+* 19:15 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: libexpat1
+* 19:14 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: libexpat1
+* 19:14 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: libexpat1
+* 19:14 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: libexpat1
+* 19:14 MirahezeLSBot: [void@puppet181] Upgraded packages on db192: libexpat1
+* 19:13 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: libexpat1
+* 19:13 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: libexpat1
+* 19:13 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: libexpat1
+* 19:12 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: libexpat1
+* 19:12 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: libexpat1
+* 19:12 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: libexpat1
+* 19:12 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: libexpat1
+* 19:11 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: libexpat1
+* 19:11 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: libexpat1
+* 19:11 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: libexpat1
+* 19:11 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: libexpat1
+* 19:10 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: libexpat1
+* 19:10 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: libexpat1
+* 19:10 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: libexpat1
+* 19:10 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: libexpat1
+* 19:10 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: libexpat1
+* 19:09 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: libexpat1
+* 19:09 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: libexpat1-dev and libexpat1
+* 04:35 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, libnss3, and tdb-tools
+* 04:34 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 04:34 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb191: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 04:34 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, libnss3, and tdb-tools
+* 04:33 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 04:32 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 04:32 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 04:31 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 04:31 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 04:31 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 04:30 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 04:30 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 04:29 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 04:29 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 04:27 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 04:26 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, libnss3, and tdb-tools
+* 04:25 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, libnss3, and tdb-tools
+* 04:25 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, libnss3, and tdb-tools
+* 04:24 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, libnss3, and tdb-tools
+* 04:24 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 04:23 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 04:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, libnss3, and tdb-tools
+* 04:22 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, libnss3, and tdb-tools
+* 04:22 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, libnss3, and tdb-tools
+* 04:21 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, libnss3, and tdb-tools
+* 04:20 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, libnss3, and tdb-tools
+* 04:18 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, libnss3, and tdb-tools
+* 04:17 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, libnss3, and tdb-tools
+* 04:16 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 04:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, libnss3, and tdb-tools
+* 04:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, libnss3, and tdb-tools
+* 04:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, libnss3, and tdb-tools
+* 04:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, libnss3, and tdb-tools
+* 04:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, libnss3, and tdb-tools
+* 04:08 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, libnss3, and tdb-tools
+* 04:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, libnss3, and tdb-tools
+* 04:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, libnss3, and tdb-tools
+* 04:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, libnss3, and tdb-tools
+* 04:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, libnss3, and tdb-tools
+* 04:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, libnss3, and tdb-tools
+* 04:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, libnss3, and tdb-tools
+* 04:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, libnss3, and tdb-tools
+* 04:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, libnss3, and tdb-tools
+* 04:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, libnss3, and tdb-tools
+* 04:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, libnss3, and tdb-tools
+* 04:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, libnss3, and tdb-tools
+* 04:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, libnss3, and tdb-tools
+* 04:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 04:00 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 04:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 03:58 MirahezeLSBot: [void@puppet181] Upgraded packages on db192: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 03:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 03:57 MirahezeLSBot: [void@puppet181] Upgraded packages on db201: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 03:56 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 03:56 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 03:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 03:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 03:55 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 03:54 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 03:53 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 03:53 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: libnss3, libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, libldb2, samba-libs, and libwbclient0
+* 03:53 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 03:52 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 03:50 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 03:50 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 03:49 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, libnss3, and tdb-tools
+* 03:49 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 03:48 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: libnss3, libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, libldb2, samba-libs, and libwbclient0
+* 03:48 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 03:47 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 03:47 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: libnss3, libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, libldb2, samba-libs, and libwbclient0
+* 03:45 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: libnss3, libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, libldb2, samba-libs, and libwbclient0
+* 03:45 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: libnss3, libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, libldb2, samba-libs, and libwbclient0
+* 03:45 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 03:44 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 03:44 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: libnss3, libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, libldb2, samba-libs, and libwbclient0
+* 03:44 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 03:43 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 03:43 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: libnss3, libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, libldb2, samba-libs, and libwbclient0
+* 03:42 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+* 03:42 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: libtalloc2, libtevent0t64, libsmbclient0, samba-common, smbclient, libtdb1, python3-samba, samba-common-bin, python3-ldb, libldb2, samba-libs, libwbclient0, python3-tdb, python3-talloc, and tdb-tools
+
 ## 2026-07-29 
 
 * 10:56 MirahezeLSBot: [petramagna@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php cleanupEmptyCategories --wiki=maillewiki (END - exit=0)
