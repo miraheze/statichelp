@@ -47,6 +47,9 @@ MediaWiki Specialist<br />
          CVSS 8.6. Yes, the extension has to remain offline until that's fixed. --[Robkelk](https://meta.miraheze.org/wiki/User:Robkelk) ([talk](https://meta.miraheze.org/wiki/User_talk:Robkelk)) 12:54, 29 May 2026 (UTC)
    Furthermore, it wasn't functioning fully anymore. [Wazzimagiygg](https://meta.miraheze.org/wiki/User:Wazzimagiygg) ([talk](https://meta.miraheze.org/wiki/User_talk:Wazzimagiygg)) 18:45, 27 May 2026 (UTC)
       If you're talking about the issue where some map tiles don't load, perhaps [phab:T15102](https://meta.miraheze.org/wiki/phab:T15102) might address the matter. --[Robkelk](https://meta.miraheze.org/wiki/User:Robkelk) ([talk](https://meta.miraheze.org/wiki/User_talk:Robkelk)) 18:58, 27 May 2026 (UTC)
+   I'd like to kindly ask if there's any news yet regarding this extension? Without maps (GeoJSON), my wiki isn't very useful, and almost every wiki page displays a map in an infobox. [Weltbibliographie](https://meta.miraheze.org/wiki/User:Weltbibliographie) ([talk](https://meta.miraheze.org/wiki/User_talk:Weltbibliographie)) 18:11, 31 July 2026 (UTC)
+      Another vulnerability was found: [https://github.com/ProfessionalWiki/Maps/security/advisories/GHSA-rg4f-xvhj-mw22](https://github.com/ProfessionalWiki/Maps/security/advisories/GHSA-rg4f-xvhj-mw22)
+      Considering this was found using Claude Code, the same tool that the maintainer uses, we have serious doubts that the maintainer has even considered security at all. [TheWWRNerdGuy](https://meta.miraheze.org/wiki/User:TheWWRNerdGuy) ([talk](https://meta.miraheze.org/wiki/User_talk:TheWWRNerdGuy)) 18:14, 31 July 2026 (UTC)
 
 Hoping you can sort out the issue, maps are an important element for my wikis. [Bertie](https://meta.miraheze.org/wiki/User:Bertie) ([talk](https://meta.miraheze.org/wiki/User_talk:Bertie)) 06:18, 27 May 2026 (UTC)
 
