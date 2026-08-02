@@ -4,6 +4,99 @@ title: Tech:Server admin log
 
 ## 2026-08-01 
 
+* 22:42 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=redstonewiki --import-prefix=wikia:redstone --from=Liaoxiangbin (END - exit=0)
+* 19:39 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: libgd3
+* 19:38 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libgd3
+* 19:38 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: libgd3
+* 19:38 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: libgd3
+* 19:37 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: libgd3
+* 19:37 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: libgd3
+* 19:37 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: libgd3
+* 19:36 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: libgd3
+* 19:36 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: libgd3
+* 19:36 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: libgd3
+* 19:36 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: libgd3
+* 19:35 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: libgd3
+* 19:35 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: libgd3
+* 19:35 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: libgd3
+* 19:34 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: libgd3
+* 19:34 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: libgd3
+* 19:34 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: libgd3
+* 19:33 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: libgd3
+* 19:33 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: libgd3
+* 19:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: libgd3
+* 19:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: libgd3
+* 19:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: libgd3
+* 19:32 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: libgd3
+* 19:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libgd3
+* 19:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: libgd3
+* 19:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: libgd3
+* 19:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: libgd3
+* 19:30 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: libgd3
+* 19:30 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: libgd3
+* 19:30 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: libgd3
+* 19:29 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: libgd3
+* 19:29 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: libgd3
+* 19:29 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: libgd3
+* 19:28 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: libgd3
+* 19:28 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: libgd3
+* 19:28 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: libgd3
+* 19:27 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: libgd3
+* 19:27 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: libgd3
+* 19:27 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: libgd3
+* 19:27 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: libgd3
+* 19:26 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: libgd3
+* 19:26 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: libgd3
+* 19:26 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: libgd3
+* 19:25 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: libgd3
+* 19:25 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: libgd3
+* 19:25 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: libgd3
+* 19:25 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: libgd3
+* 19:24 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: libgd3
+* 19:24 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: libgd3
+* 19:24 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: libgd3
+* 19:23 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: libgd3
+* 19:23 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: libgd3
+* 19:23 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: libgd3
+* 19:22 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: libgd3
+* 19:22 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: libgd3
+* 19:22 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: libgd3
+* 19:21 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: libgd3
+* 19:21 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: libgd3
+* 19:21 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: libgd3
+* 19:21 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: libgd3
+* 19:20 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: libgd3
+* 19:20 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: libgd3
+* 19:20 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: libgd3
+* 19:19 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: libgd3
+* 19:19 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: libgd3
+* 19:19 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: libgd3
+* 19:19 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: libgd3
+* 19:18 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: libgd3
+* 19:18 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: libgd3
+* 19:18 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: libgd3
+* 11:20 MirahezeLSBot: [wwr@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 11:20 MirahezeLSBot: [wwr@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 11:20 MirahezeLSBot: [wwr@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 3s
+* 11:19 MirahezeLSBot: [wwr@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 10:13 MirahezeLSBot: [reception@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 10:13 MirahezeLSBot: [reception@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 09:52 MirahezeLSBot: [reception@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1940s
+* 09:20 MirahezeLSBot: [reception@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 08:20 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=kaijumaticwiki --sleep=1 --comment='Importing images from [http://kaiju.wikidot.com/](http://kaiju.wikidot.com/) [T15742](https://meta.miraheze.org/wiki/phorge:T15742)' images2/ (END - exit=0)
+* 07:52 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=kaijumaticwiki --sleep=1 --comment='Importing images from [http://kaiju.wikidot.com/](http://kaiju.wikidot.com/) [T15742](https://meta.miraheze.org/wiki/phorge:T15742)' images2/ (START)
+* 07:31 MirahezeLSBot: [petramagna@mwtask171] Finished import for kaijumaticwiki (XML: dump.xml; Images: ./files) (END - exit=0)
+* 07:31 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=kaijumaticwiki --update (END - exit=0)
+* 07:31 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=kaijumaticwiki --update (START)
+* 07:30 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=kaijumaticwiki (END - exit=0)
+* 07:30 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=kaijumaticwiki (START)
+* 07:30 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=kaijumaticwiki (END - exit=0)
+* 07:20 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=kaijumaticwiki (START)
+* 07:20 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=kaijumaticwiki --sleep=1 '--comment=Importing images from [http://kaiju.wikidot.com](http://kaiju.wikidot.com) ([T15742](https://meta.miraheze.org/wiki/phorge:T15742))' -- ./files (END - exit=0)
+* 06:24 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=kaijumaticwiki --sleep=1 '--comment=Importing images from [http://kaiju.wikidot.com](http://kaiju.wikidot.com) ([T15742](https://meta.miraheze.org/wiki/phorge:T15742))' -- ./files (START)
+* 06:24 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=kaijumaticwiki --no-updates -- dump.xml (END - exit=0)
+* 06:24 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=kaijumaticwiki --no-updates -- dump.xml (START)
+* 06:24 MirahezeLSBot: [petramagna@mwtask171] Starting import for kaijumaticwiki (XML: dump.xml; Images: ./files) (START)
 * 00:00 MirahezeLSBot: [www-data@mwtask181] Began automatic backing up
 
 ## 2026-07-31 
