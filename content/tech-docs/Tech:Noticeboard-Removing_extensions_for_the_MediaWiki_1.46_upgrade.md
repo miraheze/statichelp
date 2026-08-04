@@ -46,6 +46,7 @@ LanguageSelector's removal is unlikely to be changed, though if there is need fo
 Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 11:17, 13 July 2026 (UTC)
 
    Note: the technology team will disable Language Selector and enable Universal Language Selector for all wikis that still uses Language Selector before removal. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 16:44, 20 July 2026 (UTC)
+   Despite the new ULS is current, I still love to switching languages in this traditional way. I hope to keep it as simply enabling it alone wouldn't cause issues to a wiki. [Liaoinmy](https://meta.miraheze.org/wiki/User:Liaoinmy) ([talk](https://meta.miraheze.org/wiki/User_talk:Liaoinmy)) 13:12, 3 August 2026 (UTC)
 
 ## Extension:AutoCreatePage
 
@@ -119,6 +120,7 @@ The extension will likely become unmaintained as its largest user abandon it.
 
 Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 00:42, 19 July 2026 (UTC)
    Personally I think we can keep InterwikiSorting for a few MediaWiki versions, but as MediaWiki evolves, the extension will inevitably break. It is also poorly documented on mediawiki.org and has no instructions on how to use it. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 00:42, 19 July 2026 (UTC)
+      For backward compatibility reasons I hope to retain this extension. It shouldn't be overhauling the MediaWiki software so it would be supported in a long period of time from now I think. [Liaoinmy](https://meta.miraheze.org/wiki/User:Liaoinmy) ([talk](https://meta.miraheze.org/wiki/User_talk:Liaoinmy)) 13:17, 3 August 2026 (UTC)
 
 ## Appendix: number of wikis using each extension
 

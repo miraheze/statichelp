@@ -2,6 +2,20 @@
 title: Tech:Server admin log
 ---
 
+## 2026-08-03 
+
+* 06:00 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php purgeParserCache --wiki=stellasorawiki --age=0 (END - exit=0)
+* 05:00 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'l10n': True, 'folders': '1.45/skins/Citizen', 'versions': '1.45'} to all - SUCCESS in 107s
+* 04:58 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'l10n': True, 'folders': '1.45/skins/Citizen', 'versions': '1.45'} to all
+* 04:54 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'l10n': True, 'versions': '1.45'} to all - SUCCESS in 478s
+* 04:46 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'l10n': True, 'versions': '1.45'} to all
+* 04:44 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_skins': 'Citizen'} to all - SUCCESS in 28s
+* 04:44 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_skins': 'Citizen'} to all
+* 04:38 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_skins': 'Citizen'} to test151 - SUCCESS in 2s
+* 04:37 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_skins': 'Citizen'} to test151
+* 00:55 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/skins/Citizen'} to test151 - SUCCESS in 0s
+* 00:55 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/skins/Citizen'} to test151
+
 ## 2026-08-02 
 
 * 23:24 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php cleanupTitles --wiki=pokefieldswiki (END - exit=0)
