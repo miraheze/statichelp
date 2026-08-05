@@ -2,6 +2,31 @@
 title: Tech:Server admin log
 ---
 
+## 2026-08-04 
+
+* 19:26 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=theleaguenswiki --no-updates --username-prefix=theleaguens --uploads -- filename.xml (END - exit=256)
+* 19:26 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=theleaguenswiki --no-updates --username-prefix=theleaguens --uploads -- filename.xml (START)
+* 19:10 MirahezeLSBot: [void@db161] restart sql-backup.service
+* 18:55 MirahezeLSBot: [wwr@mwtask171] Finished import for doorswiki (XML: ./doorsgame_pages_full.xml; Images: None) (END - exit=1)
+* 18:55 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=doorswiki --no-updates --username-prefix=doorsgame -- ./doorsgame_pages_full.xml (END - exit=1)
+* 18:48 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=doorswiki --no-updates --username-prefix=doorsgame -- ./doorsgame_pages_full.xml (START)
+* 18:48 MirahezeLSBot: [wwr@mwtask171] Starting import for doorswiki (XML: ./doorsgame_pages_full.xml; Images: None) (START)
+* 17:00 MirahezeLSBot: [wwr@mwtask171] Finished import for doorswiki (XML: ./doorsgame_pages_full.xml; Images: None) (END - exit=1)
+* 17:00 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=doorswiki --no-updates --username-prefix=doorsgame -- ./doorsgame_pages_full.xml (END - exit=1)
+* 16:45 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=doorswiki --no-updates --username-prefix=doorsgame -- ./doorsgame_pages_full.xml (START)
+* 16:45 MirahezeLSBot: [wwr@mwtask171] Starting import for doorswiki (XML: ./doorsgame_pages_full.xml; Images: None) (START)
+* 16:45 MirahezeLSBot: [wwr@mwtask171] fixconts --wiki doorswiki
+* 16:41 MirahezeLSBot: [wwr@mwtask171] Finished import for doorswiki (XML: ./doorsgame_pages_full.xml; Images: None) (END - exit=1)
+* 16:41 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=doorswiki --no-updates --username-prefix=doorsgame -- ./doorsgame_pages_full.xml (END - exit=1)
+* 16:38 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=doorswiki --no-updates --username-prefix=doorsgame -- ./doorsgame_pages_full.xml (START)
+* 16:38 MirahezeLSBot: [wwr@mwtask171] Starting import for doorswiki (XML: ./doorsgame_pages_full.xml; Images: None) (START)
+* 16:34 MirahezeLSBot: [wwr@mwtask171] Finished import for doorswiki (XML: ./doorsgame_pages_full.xml; Images: None) (END - exit=1)
+* 16:34 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=doorswiki --no-updates --username-prefix=doorsgame -- ./doorsgame_pages_full.xml (END - exit=1)
+* 16:32 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=doorswiki --no-updates --username-prefix=doorsgame -- ./doorsgame_pages_full.xml (START)
+* 16:32 MirahezeLSBot: [wwr@mwtask171] Starting import for doorswiki (XML: ./doorsgame_pages_full.xml; Images: None) (START)
+* 15:45 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=doorswiki --requester=Aeywoo (END - exit=0)
+* 01:45 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:GenerateMirahezeSitemap --wiki=upgradexwiki (END - exit=0)
+
 ## 2026-08-03 
 
 * 06:00 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php purgeParserCache --wiki=stellasorawiki --age=0 (END - exit=0)
