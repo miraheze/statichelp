@@ -2,6 +2,92 @@
 title: Tech:Server admin log
 ---
 
+## 2026-08-05 
+
+* 23:44 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php namespaceDupes --wiki=pokefieldswiki --add-suffix='_(old)' --fix (END - exit=0)
+* 23:44 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php namespaceDupes --wiki=pokefieldswiki --add-suffix='_(old)' (END - exit=0)
+* 23:43 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php namespaceDupes --wiki=pokefieldswiki --add-suffix=_(old) (END - exit=512)
+* 06:45 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: libaom3
+* 06:35 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: libaom3
+* 06:30 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libaom3
+* 06:29 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: libaom3
+* 06:29 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: libaom3
+* 06:29 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: libaom3
+* 06:28 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: libaom3
+* 06:28 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: libaom3
+* 06:27 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: libaom3
+* 06:27 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: libaom3
+* 06:27 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: libaom3
+* 06:27 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: libaom3
+* 06:26 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: libaom3
+* 06:26 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: libaom3
+* 06:21 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: libaom3
+* 06:21 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: libaom3
+* 06:21 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: libaom3
+* 06:20 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: libaom3
+* 06:20 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: libaom3
+* 06:20 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: libaom3
+* 06:16 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: libaom3
+* 06:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: libaom3
+* 06:15 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: libaom3
+* 06:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: libaom3
+* 06:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: libaom3
+* 06:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: libaom3
+* 06:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libaom3
+* 06:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: libaom3
+* 06:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: libaom3
+* 06:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: libaom3
+* 06:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: libaom3
+* 06:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: libaom3
+* 06:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: libaom3
+* 06:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: libaom3
+* 06:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: libaom3
+* 06:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: libaom3
+* 06:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: libaom3
+* 06:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: libaom3
+* 06:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: libaom3
+* 06:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: libaom3
+* 06:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: libaom3
+* 05:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: libaom3
+* 05:56 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: libaom3
+* 05:56 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: libaom3
+* 05:56 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: libaom3
+* 05:56 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: libaom3
+* 05:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: libaom3
+* 05:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: libaom3
+* 05:55 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: libaom3
+* 05:54 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: libaom3
+* 05:54 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: libaom3
+* 05:53 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: libaom3
+* 05:49 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: libaom3
+* 05:48 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: libaom3
+* 05:48 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: libaom3
+* 05:48 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: libaom3
+* 05:47 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: libaom3
+* 05:43 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: libaom3
+* 05:42 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: libaom3
+* 05:42 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: libaom3
+* 05:42 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: libaom3
+* 05:42 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: libaom3
+* 05:41 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: libaom3
+* 05:37 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: libaom3
+* 05:37 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: libaom3
+* 05:36 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: libaom3
+* 05:36 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: libaom3
+* 05:36 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: libaom3
+* 05:36 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: libaom3
+* 05:35 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: libaom3
+* 05:35 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: libaom3
+* 04:30 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/initSiteStats.php --wiki=eternaljokestowerswiki --update (END - exit=0)
+* 04:30 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/rebuildall.php --wiki=eternaljokestowerswiki (END - exit=0)
+* 02:52 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/rebuildall.php --wiki=eternaljokestowerswiki (START)
+* 02:52 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=eternaljokestowerswiki dump.xml --no-updates --username-prefix=fandom:jtohs-joke-towers.fandom (END - exit=0)
+* 02:47 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=eternaljokestowerswiki dump.xml --no-updates --username-prefix=fandom:jtohs-joke-towers.fandom (START)
+* 02:46 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/rebuildall.php --wiki=eternaljokestowerswiki (END - exit=33280)
+* 02:46 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/rebuildall.php --wiki=eternaljokestowerswiki (START)
+* 02:46 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=eternaljokestowerswiki dump.xml --no-updates --username-prefixfandom:jtohs-joke-towers.fandom (END - exit=256)
+* 02:46 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/importDump.php --wiki=eternaljokestowerswiki dump.xml --no-updates --username-prefixfandom:jtohs-joke-towers.fandom (START)
+
 ## 2026-08-04 
 
 * 19:26 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=theleaguenswiki --no-updates --username-prefix=theleaguens --uploads -- filename.xml (END - exit=256)
