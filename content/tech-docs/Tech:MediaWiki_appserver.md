@@ -30,7 +30,7 @@ A full list of maintenance scripts can be found [here](https://meta.miraheze.org
    * If neither `--to` nor `--from` is given, all users with the given prefix would be assigned to the same username on Miraheze, stripped of the prefix, if the username exists.
    * You should always verify what will be run first by using `--no-run` and verifying the output first.
 
-* **sql.php** - self explanatory, can be accessed using the shortcut `sql examplewiki`.
+* **sql.php** - self explanatory, can be accessed using the shortcut `sql examplewiki`. Access to the `mhglobal` database requires `mwscript sql metawiki --wikidb=mhglobal --no-log`.
 
 * **shell.php** – Evaluation of MediaWiki objects and functions, can be accessed using the shortcut `shell examplewiki`.
 
