@@ -2,6 +2,193 @@
 title: Tech:Server admin log
 ---
 
+## 2026-08-07 
+
+* 23:10 TheWWRNerdGuy: forgot to do `screen` before `mwscript refreshLinks lovenikkiwiki 3000`
+* 23:10 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki 3000 (START)
+* 23:09 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki 3000 (END - exit=33280)
+* 23:09 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki 3000 (START)
+* 23:08 TheWWRNerdGuy: moving execution of refreshlinks to mwtask161
+* 23:08 MirahezeLSBot: [wwr@mwtask171] Finished import for lovenikkiwiki (XML: ./lovenikki673_pages_full.xml; Images: None) (END - exit=-2)
+* 23:08 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=lovenikkiwiki (END - exit=-2)
+* 21:28 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php namespaceDupes --wiki=pokefieldswiki --fix (END - exit=0)
+* 20:15 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=lovenikkiwiki (START)
+* 20:15 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=lovenikkiwiki --no-updates --username-prefix=wikia:lovenikki -- ./lovenikki673_pages_full.xml (END - exit=0)
+* 19:25 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:25 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:25 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:24 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:24 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:21 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:20 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:20 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:19 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:18 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:17 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:17 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:17 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:17 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:16 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:16 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:15 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:13 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:13 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:13 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 19:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 18:59 MirahezeLSBot: [wwr@mwtask161] Finished import for pathoswikiwiki (XML: None; Images: ./files) (END - exit=0)
+* 18:59 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=pathoswikiwiki --update (END - exit=0)
+* 18:59 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=pathoswikiwiki --update (START)
+* 18:59 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=pathoswikiwiki --sleep=1 '--comment=Importing images from [https://sci-pathos-iii.fandom.com](https://sci-pathos-iii.fandom.com) ([T15780](https://meta.miraheze.org/wiki/phorge:T15780))' -- ./files (END - exit=0)
+* 18:59 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 18:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 18:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 18:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 18:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 18:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 18:56 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 18:56 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 18:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 18:53 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 18:53 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 18:53 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 18:52 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 18:52 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 18:52 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 18:51 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 18:51 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 18:51 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 18:50 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 18:50 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 18:50 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 18:50 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 18:45 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 18:43 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 18:43 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 18:42 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 18:42 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 18:42 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 18:41 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 18:41 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 18:41 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 18:08 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=pathoswikiwiki --sleep=1 '--comment=Importing images from [https://sci-pathos-iii.fandom.com](https://sci-pathos-iii.fandom.com) ([T15780](https://meta.miraheze.org/wiki/phorge:T15780))' -- ./files (START)
+* 18:08 MirahezeLSBot: [wwr@mwtask161] Starting import for pathoswikiwiki (XML: None; Images: ./files) (START)
+* 17:42 Reception123: sudo -u www-data http_proxy= [http://bastion.fsslc.wtnet:8080](http://bastion.fsslc.wtnet:8080) https_proxy= [http://bastion.fsslc.wtnet:8080](http://bastion.fsslc.wtnet:8080) composer update --no-dev
+* 16:54 MirahezeLSBot: [wwr@mwtask171] Finished import for dynamixwiki (XML: ./dynamixc4cat_pages_full.xml; Images: None) (END - exit=0)
+* 16:54 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=dynamixwiki --update (END - exit=0)
+* 16:54 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=dynamixwiki --update (START)
+* 16:54 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=dynamixwiki (END - exit=0)
+* 16:54 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=dynamixwiki (START)
+* 16:53 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=dynamixwiki (END - exit=0)
+* 16:40 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=lovenikkiwiki --no-updates --username-prefix=wikia:lovenikki -- ./lovenikki673_pages_full.xml (START)
+* 16:40 MirahezeLSBot: [wwr@mwtask171] Starting import for lovenikkiwiki (XML: ./lovenikki673_pages_full.xml; Images: None) (START)
+* 16:30 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=dynamixwiki (START)
+* 16:30 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=dynamixwiki --no-updates --username-prefix=wikia:dynamixc4cat -- ./dynamixc4cat_pages_full.xml (END - exit=0)
+* 15:57 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=dynamixwiki --no-updates --username-prefix=wikia:dynamixc4cat -- ./dynamixc4cat_pages_full.xml (START)
+* 15:57 MirahezeLSBot: [wwr@mwtask171] Starting import for dynamixwiki (XML: ./dynamixc4cat_pages_full.xml; Images: None) (START)
+* 15:08 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=officialfurbywiki --sleep=1 '--comment=Importing images from [https://official-furby.fandom.com](https://official-furby.fandom.com) ([T15725](https://meta.miraheze.org/wiki/phorge:T15725))' -- ./images (START)
+* 15:08 MirahezeLSBot: [wwr@mwtask171] Starting import for officialfurbywiki (XML: None; Images: ./images) (START)
+* 05:59 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: jq and libjq1
+* 05:59 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: jq and libjq1
+* 05:59 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: jq and libjq1
+* 05:58 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: jq and libjq1
+* 05:58 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: jq and libjq1
+* 05:58 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: jq and libjq1
+* 05:58 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: jq and libjq1
+* 05:57 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: jq and libjq1
+* 05:57 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: jq and libjq1
+* 05:57 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: jq and libjq1
+* 05:56 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: jq and libjq1
+* 05:56 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: jq and libjq1
+* 05:55 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb191: jq and libjq1
+* 05:55 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: jq and libjq1
+* 05:55 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: jq and libjq1
+* 05:54 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: jq and libjq1
+* 05:54 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: jq and libjq1
+* 05:54 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: jq and libjq1
+* 05:54 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: jq and libjq1
+* 05:53 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: jq and libjq1
+* 05:53 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: jq and libjq1
+* 05:53 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: jq and libjq1
+* 05:52 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: jq and libjq1
+* 05:52 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: jq and libjq1
+* 05:52 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: jq and libjq1
+* 05:52 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: jq and libjq1
+* 05:51 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: jq and libjq1
+* 05:51 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: jq and libjq1
+* 05:51 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: jq and libjq1
+* 05:50 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: jq and libjq1
+* 05:49 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: jq and libjq1
+* 05:49 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: jq and libjq1
+* 05:49 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: jq and libjq1
+* 05:48 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: jq and libjq1
+* 05:47 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: jq and libjq1
+* 05:47 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: jq and libjq1
+* 05:46 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: jq and libjq1
+* 05:46 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: jq and libjq1
+* 05:46 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: jq and libjq1
+* 05:45 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: jq and libjq1
+* 05:45 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: jq and libjq1
+* 05:45 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: jq and libjq1
+* 05:44 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: jq and libjq1
+* 05:44 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: jq and libjq1
+* 05:44 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: jq and libjq1
+* 05:44 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: jq and libjq1
+* 05:43 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: jq and libjq1
+* 05:43 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: jq and libjq1
+* 05:42 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: jq and libjq1
+* 05:42 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: jq and libjq1
+* 05:42 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: jq and libjq1
+* 05:41 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: jq and libjq1
+* 05:41 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: jq and libjq1
+* 05:41 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: jq and libjq1
+* 05:40 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: jq and libjq1
+* 05:40 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: jq and libjq1
+* 05:40 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: jq and libjq1
+* 05:39 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: jq and libjq1
+* 05:39 MirahezeLSBot: [void@puppet181] Upgraded packages on db192: jq and libjq1
+* 05:39 MirahezeLSBot: [void@puppet181] Upgraded packages on db201: jq and libjq1
+* 05:38 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: jq and libjq1
+* 05:38 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: jq and libjq1
+* 05:38 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: jq and libjq1
+* 05:37 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: jq and libjq1
+* 05:37 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: jq and libjq1
+* 05:37 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: jq and libjq1
+* 05:37 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: jq and libjq1
+* 05:36 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: jq and libjq1
+* 05:36 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: jq and libjq1
+* 05:36 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: jq and libjq1
+* 05:35 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: jq and libjq1
+* 05:35 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: jq and libjq1
+* 05:35 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: jq and libjq1
+* 05:35 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: jq and libjq1
+* 05:34 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: jq and libjq1
+* 05:34 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: jq and libjq1
+* 05:34 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: jq and libjq1
+* 05:34 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: jq and libjq1
+* 05:33 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: jq and libjq1
+* 05:33 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: jq and libjq1
+* 05:33 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: jq and libjq1
+* 00:06 MirahezeLSBot: [wwr@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 00:06 MirahezeLSBot: [wwr@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
 ## 2026-08-06 
 
 * 20:33 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: linux-libc-dev and libde265-0
