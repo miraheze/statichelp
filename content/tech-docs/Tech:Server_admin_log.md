@@ -2,6 +2,169 @@
 title: Tech:Server admin log
 ---
 
+## 2026-08-09 
+
+* 00:00 MirahezeLSBot: [void@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'Tilesheets'} to all
+
+## 2026-08-08 
+
+* 23:57 MirahezeLSBot: [void@test151] finished deploy of {'force_upgrade': True, 'versions': ['1.45', '1.46'], 'upgrade_extensions': 'Tilesheets'} to test151 - SUCCESS in 1s
+* 23:57 MirahezeLSBot: [void@test151] starting deploy of {'force_upgrade': True, 'versions': ['1.45', '1.46'], 'upgrade_extensions': 'Tilesheets'} to test151
+* 23:51 MirahezeLSBot: [void@test151] finished deploy of {'force': True, 'versions': ['1.45', '1.46'], 'upgrade_extensions': 'Tilesheets'} to test151 - SUCCESS in 1s
+* 23:51 MirahezeLSBot: [void@test151] starting deploy of {'force': True, 'versions': ['1.45', '1.46'], 'upgrade_extensions': 'Tilesheets'} to test151
+* 23:51 MirahezeLSBot: [void@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'Tilesheets'} to test151 - SUCCESS in 1s
+* 23:51 MirahezeLSBot: [void@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'Tilesheets'} to test151
+* 23:19 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: pdns-recursor
+* 23:19 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: pdns-recursor
+* 23:18 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: pdns-recursor
+* 23:18 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: pdns-recursor
+* 23:18 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: pdns-recursor
+* 23:17 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: pdns-recursor
+* 23:17 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: pdns-recursor
+* 23:17 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: pdns-recursor
+* 23:16 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: pdns-recursor
+* 23:16 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: pdns-recursor
+* 23:16 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: pdns-recursor
+* 23:13 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb191: pdns-recursor
+* 23:13 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: pdns-recursor
+* 23:13 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: pdns-recursor
+* 23:12 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: pdns-recursor
+* 23:12 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: pdns-recursor
+* 23:10 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: pdns-recursor
+* 23:10 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: pdns-recursor
+* 23:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: pdns-recursor
+* 23:09 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: pdns-recursor
+* 23:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: pdns-recursor
+* 23:08 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: pdns-recursor
+* 23:07 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: pdns-recursor
+* 23:07 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: pdns-recursor
+* 23:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: pdns-recursor
+* 23:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: pdns-recursor
+* 23:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: pdns-recursor
+* 23:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: pdns-recursor
+* 23:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: pdns-recursor
+* 23:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: pdns-recursor
+* 22:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: pdns-recursor
+* 22:56 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: pdns-recursor
+* 22:53 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: pdns-recursor
+* 22:49 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: pdns-recursor
+* 22:46 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: pdns-recursor
+* 22:45 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: pdns-recursor
+* 22:43 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: pdns-recursor
+* 22:41 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: pdns-recursor
+* 22:40 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: pdns-recursor
+* 22:40 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: pdns-recursor
+* 22:38 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: pdns-recursor
+* 22:35 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: pdns-recursor
+* 22:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: pdns-recursor
+* 22:30 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: pdns-recursor
+* 22:30 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: pdns-recursor
+* 22:27 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: pdns-recursor
+* 22:25 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: pdns-recursor
+* 22:25 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: pdns-recursor
+* 22:24 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: pdns-recursor
+* 22:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: pdns-recursor
+* 22:21 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: pdns-recursor
+* 22:20 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: pdns-recursor
+* 22:20 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: pdns-recursor
+* 22:20 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: pdns-recursor
+* 22:20 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: pdns-recursor
+* 22:18 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: pdns-recursor
+* 22:18 MirahezeLSBot: [void@puppet181] Upgraded packages on db192: pdns-recursor
+* 22:18 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: pdns-recursor
+* 22:17 MirahezeLSBot: [void@puppet181] Upgraded packages on db201: pdns-recursor
+* 22:17 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: pdns-recursor
+* 22:17 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: pdns-recursor
+* 22:16 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: pdns-recursor
+* 22:16 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: pdns-recursor
+* 22:15 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: pdns-recursor
+* 22:14 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: pdns-recursor
+* 22:14 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: pdns-recursor
+* 22:14 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: pdns-recursor
+* 22:13 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: pdns-recursor
+* 22:13 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: pdns-recursor
+* 22:13 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: pdns-recursor
+* 22:13 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: pdns-recursor
+* 22:12 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: pdns-recursor
+* 22:12 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: pdns-recursor
+* 22:12 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: pdns-recursor
+* 22:11 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: pdns-recursor
+* 22:11 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: pdns-recursor
+* 22:11 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: pdns-recursor
+* 22:11 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: pdns-recursor
+* 22:10 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: pdns-recursor
+* 21:07 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 25000 -- 20000 (END - exit=0)
+* 20:31 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 20:31 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 20:26 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 20:26 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 20:18 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True, 'force': True} to test151 - SUCCESS in 0s
+* 20:18 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True, 'force': True} to test151
+* 20:17 MirahezeLSBot: [petramagna@test151] DEPLOY ABORTED: Canary check failed for meta.mirabeta.org@localhost
+* 20:17 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 20:14 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 20:14 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 20:09 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 30000 -- 25000 (END - exit=0)
+* 19:10 MirahezeLSBot: [reception@mwtask181] finished deploy of {'l10n': True, 'lang': 'en', 'versions': '1.45', 'upgrade_extensions': 'WikiDiscover'} to all - SUCCESS in 55s
+* 19:09 MirahezeLSBot: [reception@mwtask181] starting deploy of {'l10n': True, 'lang': 'en', 'versions': '1.45', 'upgrade_extensions': 'WikiDiscover'} to all
+* 19:07 MirahezeLSBot: [reception@mwtask181] starting deploy of {'l10n': True, 'lang': 'en', 'versions': '1.45', 'upgrade_extensions': 'WikiDiscover'} to all
+* 18:52 MirahezeLSBot: [reception@mwtask181] finished deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'WikiDiscover'} to all - SUCCESS in 571s
+* 18:42 MirahezeLSBot: [reception@mwtask181] starting deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'WikiDiscover'} to all
+* 17:53 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php purgeList --wiki=doorswiki --all-namespaces --delay=1 (END - exit=0)
+* 17:40 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php purgeList --wiki=doorswiki --all-namespaces --delay=1 (START)
+* 17:39 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php purgeList --wiki=doorswiki --db-touch --all-namespaces --delay=1 (END - exit=256)
+* 17:39 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php purgeList --wiki=doorswiki --db-touch --all-namespaces --delay=1 (START)
+* 17:35 RhinosF1: bounce memcache everywhere
+* 13:49 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 30000 -- 25000 (START)
+* 13:42 MirahezeLSBot: [wwr@mwtask171] Finished import for teflpediawiki (XML: ./teflpedia-full.xml; Images: ./images) (END - exit=0)
+* 13:42 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=teflpediawiki --update (END - exit=0)
+* 13:42 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=teflpediawiki --update (START)
+* 13:42 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=teflpediawiki (END - exit=0)
+* 13:42 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=teflpediawiki (START)
+* 13:42 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=teflpediawiki (END - exit=0)
+* 12:26 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 25000 -- 20000 (START)
+* 10:33 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=teflpediawiki (START)
+* 10:33 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=teflpediawiki --sleep=0 '--comment=Importing images from [https://teflpedia.com/](https://teflpedia.com/) ([T15768](https://meta.miraheze.org/wiki/phorge:T15768))' --search-recursively -- ./images (END - exit=0)
+* 10:28 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=teflpediawiki --sleep=0 '--comment=Importing images from [https://teflpedia.com/](https://teflpedia.com/) ([T15768](https://meta.miraheze.org/wiki/phorge:T15768))' --search-recursively -- ./images (START)
+* 10:28 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=teflpediawiki --no-updates --username-prefix=teflpedia -- ./teflpedia-full.xml (END - exit=0)
+* 10:03 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 20000 -- 15000 (START)
+* 09:47 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 15000 -- 10000 (START)
+* 09:47 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 8000 -- 7000 (END - exit=0)
+* 09:35 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 9000 -- 8000 (END - exit=0)
+* 09:34 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=teflpediawiki --no-updates --username-prefix=teflpedia -- ./teflpedia-full.xml (START)
+* 09:34 MirahezeLSBot: [wwr@mwtask171] Starting import for teflpediawiki (XML: ./teflpedia-full.xml; Images: ./images) (START)
+* 09:27 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 10000 -- 9000 (END - exit=0)
+* 09:22 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 10000 -- 9000 (START)
+* 09:22 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 9000 -- 8000 (START)
+* 09:22 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 8000 -- 7000 (START)
+* 01:53 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 01:53 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 01:53 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 01:53 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 01:41 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 556s
+* 01:36 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'l10n': True, 'versions': ['1.45', '1.46'], 'upgrade_extensions': 'MirahezeMagic'} to test151 - SUCCESS in 347s
+* 01:32 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 01:30 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'l10n': True, 'versions': ['1.45', '1.46'], 'upgrade_extensions': 'MirahezeMagic'} to test151
+* 01:28 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 01:27 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 01:26 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 01:26 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 01:26 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 5s
+* 01:26 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 01:17 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'l10n': True, 'versions': '1.46'} to test151 - SUCCESS in 41s
+* 01:16 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'l10n': True, 'versions': '1.46'} to test151
+* 01:16 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.46/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s
+* 01:16 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.46/extensions/MirahezeMagic'} to test151
+* 00:52 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 7000 -- 6000 (END - exit=0)
+* 00:31 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 6000 -- 5000 (END - exit=0)
+* 00:27 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 7000 -- 6000 (START)
+* 00:20 MirahezeLSBot: [wwr@mwtask171] Finished import for officialfurbywiki (XML: None; Images: ./images) (END - exit=0)
+* 00:20 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=officialfurbywiki --update (END - exit=0)
+* 00:20 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=officialfurbywiki --update (START)
+* 00:20 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=officialfurbywiki --sleep=1 '--comment=Importing images from [https://official-furby.fandom.com](https://official-furby.fandom.com) ([T15725](https://meta.miraheze.org/wiki/phorge:T15725))' -- ./images (END - exit=0)
+* 00:13 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 6000 -- 5000 (START)
+* 00:12 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki 3000 (END - exit=33280)
+
 ## 2026-08-07 
 
 * 23:10 TheWWRNerdGuy: forgot to do `screen` before `mwscript refreshLinks lovenikkiwiki 3000`
