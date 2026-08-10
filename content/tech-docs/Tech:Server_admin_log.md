@@ -4,6 +4,119 @@ title: Tech:Server admin log
 
 ## 2026-08-09 
 
+* 23:00 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 80000 -- 75000 (START)
+* 23:00 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.46/extensions/CreateWiki'} to test151 - SUCCESS in 0s
+* 23:00 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.46/extensions/CreateWiki'} to test151
+* 22:58 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.46/extensions/CreateWiki'} to test151 - SUCCESS in 0s
+* 22:58 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.46/extensions/CreateWiki'} to test151
+* 22:58 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 70000 -- 65000 (END - exit=0)
+* 22:52 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.46/extensions/CreateWiki'} to test151 - SUCCESS in 0s
+* 22:52 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.46/extensions/CreateWiki'} to test151
+* 22:51 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.46/extensions/CreateWiki'} to test151 - SUCCESS in 0s
+* 22:51 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.46/extensions/CreateWiki'} to test151
+* 22:46 MirahezeLSBot: [void@db192] restart sql-weekly-mhglobal-backup.service
+* 22:44 MirahezeLSBot: [void@puppet181] restart nginx on swiftproxy161 and swiftproxy171
+* 22:39 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 75000 -- 73000 (START)
+* 22:39 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 75000 -- 71700 (END - exit=33280)
+* 22:33 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'apply_patches': '1.45'} to mwtask181 - SUCCESS in 8s
+* 22:32 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'apply_patches': '1.45'} to mwtask181
+* 22:27 MirahezeLSBot: [somerandomdeveloper@test151] enabled puppet
+* 22:14 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'Bucket'} to test151 - SUCCESS in 0s
+* 22:14 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'Bucket'} to test151
+* 22:14 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'Bucket'} to test151 - SUCCESS in 0s
+* 22:14 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'Bucket'} to test151
+* 22:12 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.45', 'apply_patches': '1.45'} to test151 - SUCCESS in 4s
+* 22:11 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.45', 'apply_patches': '1.45'} to test151
+* 21:44 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 75000 -- 71700 (START)
+* 21:44 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 75000 -- 70000 (END - exit=33280)
+* 21:39 MirahezeLSBot: [somerandomdeveloper@test151] Disabling puppet for testing
+* 21:39 MirahezeLSBot: [somerandomdeveloper@test151] enabled puppet
+* 21:36 MirahezeLSBot: [wwr@mwtask151] Finished import for assassinscreedwiki (XML: zhassassinscreed_pages_full.xml; Images: None) (END - exit=0)
+* 21:36 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=assassinscreedwiki --update (END - exit=0)
+* 21:35 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=assassinscreedwiki --update (START)
+* 21:35 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=assassinscreedwiki (END - exit=0)
+* 21:35 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=assassinscreedwiki (START)
+* 21:35 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=assassinscreedwiki (END - exit=0)
+* 21:25 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'apply_patches': 'extensions/Bucket'} to test151
+* 21:18 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {} to test151 - SUCCESS in 0s
+* 21:18 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {} to test151
+* 21:13 MirahezeLSBot: [somerandomdeveloper@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 21:13 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'reset_world': True, 'versions': '1.45'} to test151
+* 21:11 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {} to test151 - SUCCESS in 0s
+* 21:11 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {} to test151
+* 21:10 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {} to test151 - SUCCESS in 0s
+* 21:10 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {} to test151
+* 21:10 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {} to test151 - SUCCESS in 0s
+* 21:10 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {} to test151
+* 21:00 MirahezeLSBot: [somerandomdeveloper@test151] Disabling puppet for mwdeploy
+* 20:51 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php SemanticMediaWiki:setupStore --wiki=farthestfrontierwiki --delete (END - exit=0)
+* 20:47 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php SemanticMediaWiki:setupStore --wiki=morerandomstuffwikibeta --delete (END - exit=0)
+* 20:47 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php SemanticMediaWiki:setupStore --wiki=morerandomstuffwikibeta --delete (END - exit=65280)
+* 20:06 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 75000 -- 70000 (START)
+* 20:06 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 65000 -- 60000 (END - exit=0)
+* 20:01 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 40000 -- 39500 (END - exit=0)
+* 19:51 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 40000 -- 39500 (START)
+* 19:50 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 40000 -- 35000 (END - exit=33280)
+* 19:32 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 70000 -- 65000 (START)
+* 19:24 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 45000 -- 40000 (END - exit=0)
+* 17:46 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 35000 -- 30000 (END - exit=0)
+* 16:00 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 65000 -- 60000 (START)
+* 15:02 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=doorswiki --sleep=1 '--comment=Importing images from [https://doors-game.fandom.com](https://doors-game.fandom.com) ([T15797](https://meta.miraheze.org/wiki/phorge:T15797))' -- ./images (START)
+* 15:02 MirahezeLSBot: [wwr@mwtask161] Starting import for doorswiki (XML: None; Images: ./images) (START)
+* 14:17 MirahezeLSBot: [wwr@mwtask161] Finished import for doorswiki (XML: ./doorsgame_pages_full.xml; Images: None) (END - exit=0)
+* 14:17 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=doorswiki --update (END - exit=0)
+* 14:17 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=doorswiki --update (START)
+* 14:17 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=doorswiki (END - exit=0)
+* 14:17 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=doorswiki (START)
+* 14:16 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=doorswiki (END - exit=0)
+* 13:37 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=doorswiki (START)
+* 13:37 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=doorswiki --no-updates --username-prefix=doorsgame -- ./doorsgame_pages_full.xml (END - exit=0)
+* 13:21 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 60000 -- 55000 (END - exit=0)
+* 12:30 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 55000 -- 50000 (END - exit=0)
+* 12:22 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 60000 -- 55000 (START)
+* 11:52 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=doorswiki --no-updates --username-prefix=doorsgame -- ./doorsgame_pages_full.xml (START)
+* 11:52 MirahezeLSBot: [wwr@mwtask161] Starting import for doorswiki (XML: ./doorsgame_pages_full.xml; Images: None) (START)
+* 11:37 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 55000 -- 50000 (START)
+* 11:17 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 50000 -- 45000 (END - exit=0)
+* 10:34 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=assassinscreedwiki (START)
+* 10:34 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=assassinscreedwiki --no-updates --username-prefix=wikia:assassinscreed:zh -- zhassassinscreed_pages_full.xml (END - exit=0)
+* 10:16 MirahezeLSBot: [wwr@mwtask161] Finished import for dynamixwiki (XML: None; Images: ./images) (END - exit=0)
+* 10:16 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=dynamixwiki --update (END - exit=0)
+* 10:16 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=dynamixwiki --update (START)
+* 10:16 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=dynamixwiki --sleep=1 '--comment=Importing images from [https://dynamixc4cat.fandom.com](https://dynamixc4cat.fandom.com) ([T15787](https://meta.miraheze.org/wiki/phorge:T15787))' -- ./images (END - exit=0)
+* 10:09 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:ReplaceTextEligible --wiki=doorscnfansfanonhubwiki (END - exit=0)
+* 10:08 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:ReplaceTextEligible --wiki=theaxolotlsunwiki (END - exit=0)
+* 09:59 MirahezeLSBot: [reception@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 09:58 MirahezeLSBot: [reception@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 09:57 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 45000 -- 40000 (START)
+* 09:57 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 50000 -- 45000 (START)
+* 08:41 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=dynamixwiki --sleep=1 '--comment=Importing images from [https://dynamixc4cat.fandom.com](https://dynamixc4cat.fandom.com) ([T15787](https://meta.miraheze.org/wiki/phorge:T15787))' -- ./images (START)
+* 08:41 MirahezeLSBot: [wwr@mwtask161] Starting import for dynamixwiki (XML: None; Images: ./images) (START)
+* 08:38 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=assassinscreedwiki --no-updates --username-prefix=wikia:assassinscreed:zh -- zhassassinscreed_pages_full.xml (START)
+* 08:37 MirahezeLSBot: [wwr@mwtask151] Starting import for assassinscreedwiki (XML: zhassassinscreed_pages_full.xml; Images: None) (START)
+* 08:36 MirahezeLSBot: [wwr@mwtask151] Finished import for assassinscreedwiki (XML: ./zhassassinscreed_pages_full.xml; Images: None) (END - exit=-2)
+* 08:36 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=assassinscreedwiki --no-updates --username-prefix=wikia:assassinscreedwiki -- ./zhassassinscreed_pages_full.xml (END - exit=-2)
+* 08:35 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=assassinscreedwiki --no-updates --username-prefix=wikia:assassinscreedwiki -- ./zhassassinscreed_pages_full.xml (START)
+* 08:35 MirahezeLSBot: [wwr@mwtask151] Starting import for assassinscreedwiki (XML: ./zhassassinscreed_pages_full.xml; Images: None) (START)
+* 08:23 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php namespaceDupes --wiki=dynamixwiki --fix (END - exit=0)
+* 08:10 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 40000 -- 35000 (START)
+* 08:10 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 35000 -- 30000 (START)
+* 02:16 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'l10n': True, 'versions': '1.45'} to all - SUCCESS in 203s
+* 02:12 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'l10n': True, 'versions': '1.45'} to all
+* 02:12 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'UnlinkedWikibase'} to all - SUCCESS in 24s
+* 02:12 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'UnlinkedWikibase'} to all
+* 02:11 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'ArticleRatings'} to all - SUCCESS in 25s
+* 02:11 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'ArticleRatings'} to all
+* 01:58 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 15000 -- 10000 (END - exit=33280)
+* 01:57 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 15000 -- 14400 (END - exit=0)
+* 01:56 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 20000 -- 15000 (END - exit=33280)
+* 01:53 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 20000 -- 19500 (END - exit=0)
+* 01:45 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 15000 -- 14400 (START)
+* 01:41 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php refreshLinks --wiki=lovenikkiwiki --e 20000 -- 19500 (START)
+* 01:27 MirahezeLSBot: [somerandomdeveloper@test151] enabled puppet
+* 01:20 SomeRandomDeveloper: ran --reset-world for 1.45 on test151 while testing an mwdeploy patch
+* 00:58 MirahezeLSBot: [somerandomdeveloper@test151] Disabling puppet for SRD
+* 00:00 MirahezeLSBot: [void@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'Tilesheets'} to all - SUCCESS in 24s
 * 00:00 MirahezeLSBot: [void@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'Tilesheets'} to all
 
 ## 2026-08-08 

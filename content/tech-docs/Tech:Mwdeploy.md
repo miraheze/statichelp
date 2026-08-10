@@ -41,8 +41,8 @@ Use the following shell commands to check out and deploy a pull request made to 
 Replace *[PR NUMBER]* with the number of the PR you want to check out and *[BRANCH]* with the branch the PR commits are on (not the target branch!).
 ```
 cd /srv/mediawiki-staging/config
-sudo -u www-data git fetch origin pull/[PR NUMBER]/head:[BRANCH]
-sudo -u www-data git checkout [BRANCH]
+sugit fetch origin pull/[PR NUMBER]/head:[BRANCH]
+sugit checkout [BRANCH]
 cd ~
 mwdeploy --config --servers=all
 ```
