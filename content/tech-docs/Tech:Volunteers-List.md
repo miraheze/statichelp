@@ -2,7 +2,6 @@
 title: Tech:Volunteers/List
 ---
 
-
 | Name & Role | Libera Chat nickname <br /> on [IRC](https://meta.miraheze.org/wiki/Special:MyLanguage/IRC) | E-mail | Shell | GitHub | Phorge (admin) | Service Providers | Cloudflare | Domain Registrar | Grafana (admin) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Agent Isai](https://meta.miraheze.org/wiki/User:Agent_Isai)<br /> *Infrastructure Specialist* | Agent | agent `{{ {{@}} }}`miraheze.org | Root on all servers | Owner | Yes | Yes | Yes | No | Yes |

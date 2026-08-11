@@ -22,7 +22,7 @@ The team includes volunteers in technical and less-technical roles, including pr
 ! Cloudflare
 ! Domain Registrar
 ! Grafana (Admin)
-|- `{{ {{Tech:{{BASEPAGENAME}}/List}} }}`
+|- `{{ {{Tech:Volunteers/List}} }}`
 
 ### Chart
 
