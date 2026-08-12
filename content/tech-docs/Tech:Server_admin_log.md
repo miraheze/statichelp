@@ -2,6 +2,64 @@
 title: Tech:Server admin log
 ---
 
+## 2026-08-11 
+
+* 23:49 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'PdfHandler'} to test151 - SUCCESS in 1s
+* 23:49 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'PdfHandler'} to test151
+* 23:37 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.46', 'apply_patches': '1.46'} to test151 - SUCCESS in 4s
+* 23:37 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.46', 'apply_patches': '1.46'} to test151
+* 23:33 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'l10n': True, 'versions': '1.45'} to all - SUCCESS in 512s
+* 23:24 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'l10n': True, 'versions': '1.45'} to all
+* 23:19 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'CentralAuth'} to all - SUCCESS in 25s
+* 23:19 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'CentralAuth'} to all
+* 23:19 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'CentralAuth'} to all - SUCCESS in 0s
+* 23:19 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'CentralAuth'} to all
+* 23:18 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'CentralAuth'} to mwtask181 - SUCCESS in 1s
+* 23:18 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'CentralAuth'} to mwtask181
+* 23:14 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'world': True, 'versions': '1.45'} to all - SUCCESS in 228s
+* 23:10 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'world': True, 'versions': '1.45'} to all
+* 23:05 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.45/extensions/CreateWiki'} to all - SUCCESS in 33s
+* 23:05 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.45/extensions/CreateWiki'} to all
+* 23:04 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.45/extensions/CreateWiki'} to mwtask181 - SUCCESS in 0s
+* 23:04 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'folders': '1.45/extensions/CreateWiki'} to mwtask181
+* 23:01 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'apply_patches': 'extensions/CreateWiki'} to mwtask181 - SUCCESS in 1s
+* 23:01 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'apply_patches': 'extensions/CreateWiki'} to mwtask181
+* 23:01 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'apply_patches': '1.45/CreateWiki'} to mwtask181
+* 23:01 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'apply_patches': 'CreateWiki'} to mwtask181
+* 23:00 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': ['ImportDump', 'RequestCustomDomain']} to all - SUCCESS in 51s
+* 22:59 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': ['ImportDump', 'RequestCustomDomain']} to all
+* 22:54 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': ['CreateWiki', 'ImportDump', 'RequestCustomDomain']} to all
+* 22:53 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:ToggleExtension --wiki=loginwikibeta --name=maps --disable --all-wikis --execute (END - exit=0)
+* 22:52 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data rm /srv/mediawiki/cache/config-morerandomstuffwikibeta.php /srv/mediawiki/cache/morerandomstuffwikibeta.php
+* 22:50 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': ['CreateWiki', 'ImportDump', 'RequestCustomDomain']} to test151 - SUCCESS in 5s
+* 22:50 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': ['CreateWiki', 'ImportDump', 'RequestCustomDomain']} to test151
+* 22:36 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=pixeldexwiki (END - exit=0)
+* 22:35 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=pixeldexwiki --startOver (END - exit=0)
+* 22:35 MirahezeLSBot: [wwr@mwtask161] curl -X DELETE [https://opensearch-mw.wikitide.net/pixeldexwiki_content](https://opensearch-mw.wikitide.net/pixeldexwiki_content) [https://opensearch-mw.wikitide.net/pixeldexwiki_general](https://opensearch-mw.wikitide.net/pixeldexwiki_general)
+* 22:34 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=pixeldexwiki --startOver (END - exit=256)
+* 22:32 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=pixeldexwiki --startOver (END - exit=256)
+* 22:31 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=pixeldexwiki --startOver (END - exit=256)
+* 21:53 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php reassignEdits --wiki=teflpediawiki Roger Rogerhc (END - exit=0)
+* 21:43 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=teflpediawiki --from=Roger --to=Rogerhc --no-run --import-prefix=teflpedia (END - exit=256)
+* 21:41 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=teflpediawiki --from=Roger --to=Rogerhc --no-run (END - exit=256)
+* 19:52 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/cleanupTitles.php --wiki=nebularuswiki (END - exit=0)
+* 19:49 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php /srv/mediawiki/1.45/maintenance/namespaceDupes.php --wiki=nebularuswiki --fix (END - exit=0)
+* 19:26 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=wikiinthedarkwiki --new=undersunandskywiki --user=Reception123 (END - exit=0)
+* 19:24 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=tnawiki --new=nebularuswiki --user=Reception123 (END - exit=0)
+* 19:22 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=benakasemmemii1enwiki --new=benakii1enwiki --user=Reception123 (END - exit=0)
+* 19:20 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=wonderlanddreamspherewiki --new=wonderlandwiki --user=Reception123 (END - exit=256)
+* 19:20 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=pmssmpwiki --new=eepversewiki --user=Reception123 (END - exit=0)
+* 19:18 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=zjtransportwiki --new=hztranswiki --user=Reception123 (END - exit=0)
+* 19:17 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=wastelandssmpwiki --new=wormholesmpwiki --user=Reception123 (END - exit=0)
+* 19:15 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=risiblewiki --new=urismodswiki --user=Reception123 (END - exit=0)
+* 19:14 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=vigilmorilaadwiki --new=owlc0dawiki --user=Reception123 (END - exit=0)
+* 19:12 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=kingdomofantarcticawiki --new=kingdomofhawaiiwiki --user=Reception123 (END - exit=0)
+* 09:36 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=lovenikkiwiki --sleep=1 '--comment=Importing images from [https://lovenikki.fandom.com](https://lovenikki.fandom.com) ([T15733](https://meta.miraheze.org/wiki/phorge:T15733))' -- './wiki images for upload' (START)
+* 09:36 MirahezeLSBot: [wwr@mwtask171] Starting import for lovenikkiwiki (XML: None; Images: ./wiki images for upload) (START)
+* 00:54 MirahezeLSBot: [wwr@mwtask171] mwimport lovenikkiwiki --images="./wiki images for upload" --username-prefix=wikia:lovenikki --images-comment="Importing images from [https://lovenikki.fandom.com](https://lovenikki.fandom.com) ([T15733](https://meta.miraheze.org/wiki/phorge:T15733))"
+* 00:54 MirahezeLSBot: [wwr@mwtask171] Finished import for lovenikkiwiki (XML: None; Images: ./wiki images for upload) (END - exit=-2)
+* 00:54 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=lovenikkiwiki --sleep=1 '--comment=Importing images from [https://lovenikki.fandom.com](https://lovenikki.fandom.com) ([T15733](https://meta.miraheze.org/wiki/phorge:T15733))' -- './wiki images for upload' (END - exit=-2)
+
 ## 2026-08-10 
 
 * 21:59 SomeRandomDeveloper: MediaWiki\Extension\CentralAuth\User\CentralAuthUser::getInstance( User::newFromName( 'MJL' ) )->attach( 'kaiserreichwiki', 'admin' );

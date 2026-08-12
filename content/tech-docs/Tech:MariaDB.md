@@ -17,10 +17,13 @@ In 2021, we tried using replication for database backups: see [T5877](https://me
 mariabackup allows you to create a point-in-time dump of the database cluster. In this case, data is streamed to another server (destination) and extracted in `/home/dbcopy/backup-db6-10april`. The destination directory must exist and be writable before the command is executed!
 
 In this example, we're going to clone db12 (c3) to dbbackup1. dbbackup1 is a server running multiple instances of MariaDB (multi-instance setup). First, it is mandatory to raise the soft limit for open files:
-`[at the source] ulimit -Sn 1000000 `
+
+```bash
+[at the source] ulimit -Sn 1000000 
+```
 
 Then you can start the mariabackup process:
-```
+```bash
 [at the destination] mkdir /home/dbcopy/backup-db12-10january2020
 [at the destination] chown -R mysql:mysql /home/dbcopy/backup-db12-10january2020
 [at the destination] chmod 0750 /home/dbcopy/backup-db12-10january2020
@@ -28,19 +31,19 @@ Then you can start the mariabackup process:
 ```
 
 An alternative (might be faster in some situations):
-```
+```bash
 [at the source] mariabackup --open-files-limit=150000 --parallel=2 --backup --slave-info --safe-slave-backup --stream=xbstream | pigz -p 2 | ssh -i /home/dbcopy/.ssh/id_ed25519 dbcopy@dbbackup1.wikitide.net "pigz -dc -p 2 | mbstream -x --parallel=2 --directory=/home/dbcopy/backup-db12-10january2020/"
 ```
 (the directory at the destination **must** be created before, please specify the correct date as well)
 
 At the destination, the backup must be *prepared*, since the data is not consistent yet. You can do this using mariabackup:
-```
+```bash
 [again, raise the soft open files limit] ulimit -Sn 1000000
 mariabackup --prepare --open-files-limit=900000 --target-dir=/home/dbcopy/backup-db12-10january2020 --use-memory=2G
 ```
 
 Finally, copy the directory to the appropriate location in /srv:
-```
+```bash
 systemctl stop mariadb@c3
 rm -rf /srv/mariadb.c3
 mv /home/dbcopy/backup-db12-10january2020 /srv/mariadb.c3

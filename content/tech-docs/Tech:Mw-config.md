@@ -40,11 +40,8 @@ Permissions are set in LocalSettings.php.
 
 * Create the restriction level by adding it to `$wgRestrictionLevels`.
 * Add the user right for editing the restriction level to `$wgAvailableRights`.
-* (Optional) Also add some default assignments to `$wgManageWikiPermissionsAdditionalRights`. Since Bureaucrats can assign the rights using ManageWiki this is not essential.
 
-Example PRs:
-* [T14862: Add extended confirmed protection level for mcsosirswiki](https://meta.miraheze.org/wiki/github:miraheze/mw-config/pull/6255) (no default assignment)
-* [T11506: Setup extendedconfirmed protection for mypediawiki](https://meta.miraheze.org/wiki/github:miraheze/mw-config/pull/5437) (assigns right to both "extendedconfirmed" and "sysop" groups by default)
+Example PR: [T15308: Add protection level for nomifactoryceuwiki](https://meta.miraheze.org/wiki/github:miraheze/mw-config/pull/6393)
 
 ### Set default theme on Vector 2022/Minerva
 
