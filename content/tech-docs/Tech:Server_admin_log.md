@@ -2,6 +2,129 @@
 title: Tech:Server admin log
 ---
 
+## 2026-08-12 
+
+* 23:14 Void: restart ircecho on mon181 approx 2 hours ago (forgot to log)
+* 23:05 MirahezeLSBot: [void@mwtask181] finished deploy of {'folders': '1.45/extensions/Bucket'} to all - SUCCESS in 25s
+* 23:05 MirahezeLSBot: [void@mwtask181] starting deploy of {'folders': '1.45/extensions/Bucket'} to all
+* 23:04 MirahezeLSBot: [void@mwtask181] starting deploy of {'folders': 'extensions/Bucket'} to all
+* 23:04 MirahezeLSBot: [void@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'Bucket'} to mwtask181 - SUCCESS in 1s
+* 23:04 MirahezeLSBot: [void@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'Bucket'} to mwtask181
+* 23:04 MirahezeLSBot: [void@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 23:04 MirahezeLSBot: [void@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'Bucket'} to mwtask181
+* 23:03 MirahezeLSBot: [void@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 23:03 MirahezeLSBot: [void@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'Bucket'} to mwtask181
+* 22:58 MirahezeLSBot: [void@test151] finished deploy of {'versions': '1.46', 'apply_patches': 'extensions/Bucket'} to test151 - SUCCESS in 0s
+* 22:58 MirahezeLSBot: [void@test151] starting deploy of {'versions': '1.46', 'apply_patches': 'extensions/Bucket'} to test151
+* 22:56 MirahezeLSBot: [void@test151] finished deploy of {'versions': '1.45', 'apply_patches': 'extensions/Bucket'} to test151 - SUCCESS in 0s
+* 22:56 MirahezeLSBot: [void@test151] starting deploy of {'versions': '1.45', 'apply_patches': 'extensions/Bucket'} to test151
+* 22:51 MirahezeLSBot: [void@test151] finished deploy of {'versions': '1.45', 'apply_patches': 'extensions/Bucket'} to test151 - SUCCESS in 0s
+* 22:51 MirahezeLSBot: [void@test151] starting deploy of {'versions': '1.45', 'apply_patches': 'extensions/Bucket'} to test151
+* 22:49 MirahezeLSBot: [void@test151] starting deploy of {'versions': '1.45', 'apply_patches': 'extensions/Bucket'} to test151
+* 22:38 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb191: postfix
+* 22:38 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: postfix
+* 22:38 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: postfix
+* 22:37 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: postfix
+* 22:36 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: postfix
+* 22:36 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: postfix
+* 22:36 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: postfix and xdg-dbus-proxy
+* 22:35 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: postfix
+* 22:35 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: postfix
+* 22:35 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: postfix
+* 22:34 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: postfix
+* 22:34 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: postfix
+* 22:34 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: postfix
+* 22:33 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: postfix
+* 22:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: postfix and xdg-dbus-proxy
+* 22:32 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: postfix
+* 22:32 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: postfix
+* 22:31 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: postfix
+* 22:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: postfix and xdg-dbus-proxy
+* 22:30 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: postfix and xdg-dbus-proxy
+* 22:29 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: postfix and xdg-dbus-proxy
+* 22:27 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: postfix and xdg-dbus-proxy
+* 22:26 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: postfix and xdg-dbus-proxy
+* 22:25 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: postfix and xdg-dbus-proxy
+* 22:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: postfix and xdg-dbus-proxy
+* 22:19 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: postfix and xdg-dbus-proxy
+* 22:18 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: postfix and xdg-dbus-proxy
+* 22:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: postfix and xdg-dbus-proxy
+* 22:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: postfix and xdg-dbus-proxy
+* 22:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: postfix and xdg-dbus-proxy
+* 22:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: postfix and xdg-dbus-proxy
+* 22:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: postfix and xdg-dbus-proxy
+* 21:59 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: postfix and xdg-dbus-proxy
+* 21:56 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: postfix and xdg-dbus-proxy
+* 21:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: postfix
+* 21:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: postfix and xdg-dbus-proxy
+* 21:51 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: postfix and xdg-dbus-proxy
+* 21:48 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: postfix and xdg-dbus-proxy
+* 21:47 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: postfix and xdg-dbus-proxy
+* 21:45 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: postfix and xdg-dbus-proxy
+* 21:43 MirahezeLSBot: [void@puppet181] Upgraded packages on db192: postfix
+* 21:42 MirahezeLSBot: [void@puppet181] Upgraded packages on db201: postfix
+* 21:42 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: postfix
+* 21:42 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: postfix
+* 21:41 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: postfix
+* 21:41 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: postfix
+* 21:41 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: postfix
+* 21:40 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: postfix
+* 21:40 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: postfix
+* 21:40 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: postfix
+* 21:40 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: postfix
+* 21:39 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: postfix
+* 21:39 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: postfix
+* 21:39 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: postfix
+* 21:38 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: postfix
+* 21:38 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: postfix
+* 21:38 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: postfix
+* 21:37 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: postfix
+* 21:37 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: postfix
+* 21:36 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: postfix
+* 21:36 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: postfix
+* 21:36 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: postfix
+* 21:35 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: postfix
+* 21:33 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: postfix
+* 21:33 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: postfix
+* 21:33 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: postfix
+* 21:33 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: postfix
+* 21:32 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: postfix
+* 21:32 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: postfix
+* 21:31 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: postfix
+* 21:31 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: postfix
+* 21:31 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: postfix
+* 21:30 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: postfix, openjdk-21-jdk, openjdk-21-jdk-headless, openjdk-21-jre, and openjdk-21-jre-headless
+* 21:27 RhinosF1: restart ircecho on mon181 (was up; should have checked irc before I looked at the task)
+* 21:26 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: postfix, openjdk-21-jdk, openjdk-21-jdk-headless, openjdk-21-jre, and openjdk-21-jre-headless
+* 21:23 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: postfix, openjdk-21-jdk, openjdk-21-jdk-headless, openjdk-21-jre, and openjdk-21-jre-headless
+* 21:22 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: postfix, openjdk-21-jdk, openjdk-21-jdk-headless, openjdk-21-jre, and openjdk-21-jre-headless
+* 21:21 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: postfix, openjdk-21-jdk, openjdk-21-jdk-headless, openjdk-21-jre, and openjdk-21-jre-headless
+* 21:21 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: postfix, openjdk-21-jdk, openjdk-21-jdk-headless, openjdk-21-jre, and openjdk-21-jre-headless
+* 21:20 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: postfix, openjdk-21-jdk, openjdk-21-jdk-headless, openjdk-21-jre, and openjdk-21-jre-headless
+* 21:18 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: postfix, openjdk-21-jre, and openjdk-21-jre-headless
+* 21:05 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: postfix, openjdk-21-jdk, openjdk-21-jdk-headless, openjdk-21-jre, and openjdk-21-jre-headless
+* 17:39 MirahezeLSBot: [pixldev@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 17:39 MirahezeLSBot: [pixldev@test151] starting deploy of {'config': True} to test151
+* 17:26 MirahezeLSBot: [pixldev@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 17:26 MirahezeLSBot: [pixldev@test151] starting deploy of {'config': True} to test151
+* 11:27 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=teflpediawiki (END - exit=0)
+* 10:38 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=lovenikkiwiki --sleep=1 '--comment=Importing images from [https://lovenikki.fandom.com](https://lovenikki.fandom.com) ([T15733](https://meta.miraheze.org/wiki/phorge:T15733))' -- './wiki images for upload' (START)
+* 10:38 MirahezeLSBot: [wwr@mwtask171] Starting import for lovenikkiwiki (XML: None; Images: ./wiki images for upload) (START)
+* 09:27 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 09:27 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 09:25 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/ManageWiki'} to test151 - SUCCESS in 0s
+* 09:25 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/ManageWiki'} to test151
+* 07:37 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 07:37 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 07:35 MirahezeLSBot: [petramagna@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 07:35 MirahezeLSBot: [petramagna@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 07:19 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:GenerateMirahezeSitemap --wiki=commonswikibeta (END - exit=0)
+* 07:18 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:GenerateMirahezeSitemap --wiki=exttestwikibeta (END - exit=0)
+* 07:16 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 07:16 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 00:32 MirahezeLSBot: [wwr@mwtask171] Finished import for lovenikkiwiki (XML: None; Images: ./wiki images for upload) (END - exit=-2)
+* 00:32 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=lovenikkiwiki --sleep=1 '--comment=Importing images from [https://lovenikki.fandom.com](https://lovenikki.fandom.com) ([T15733](https://meta.miraheze.org/wiki/phorge:T15733))' -- './wiki images for upload' (END - exit=-2)
+
 ## 2026-08-11 
 
 * 23:49 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'PdfHandler'} to test151 - SUCCESS in 1s
