@@ -2,6 +2,70 @@
 title: Tech:Server admin log
 ---
 
+## 2026-08-13 
+
+* 21:30 MirahezeLSBot: [wwr@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 21:30 MirahezeLSBot: [wwr@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 21:27 MirahezeLSBot: [wwr@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 31s
+* 21:27 MirahezeLSBot: [wwr@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 21:14 MirahezeLSBot: [wwr@mwtask171] Finished import for rmsinternalstaffwiki (XML: ./pleaseDontUseMegaOrIExplodesYou.xml; Images: None) (END - exit=0)
+* 21:14 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=rmsinternalstaffwiki --update (END - exit=0)
+* 21:14 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=rmsinternalstaffwiki --update (START)
+* 21:14 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=rmsinternalstaffwiki (END - exit=0)
+* 21:14 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=rmsinternalstaffwiki (START)
+* 21:14 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=rmsinternalstaffwiki (END - exit=0)
+* 21:14 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=rmsinternalstaffwiki (START)
+* 21:14 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=rmsinternalstaffwiki --no-updates --username-prefix=imported -- ./pleaseDontUseMegaOrIExplodesYou.xml (END - exit=0)
+* 21:14 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=rmsinternalstaffwiki --no-updates --username-prefix=imported -- ./pleaseDontUseMegaOrIExplodesYou.xml (START)
+* 21:14 MirahezeLSBot: [wwr@mwtask171] Starting import for rmsinternalstaffwiki (XML: ./pleaseDontUseMegaOrIExplodesYou.xml; Images: None) (START)
+* 20:34 MirahezeLSBot: [wwr@mwtask171] Finished import for lovenikkiwiki (XML: None; Images: ./wiki images for upload) (END - exit=0)
+* 20:34 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=lovenikkiwiki --update (END - exit=0)
+* 20:34 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=lovenikkiwiki --update (START)
+* 20:34 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=lovenikkiwiki --sleep=1 '--comment=Importing images from [https://lovenikki.fandom.com](https://lovenikki.fandom.com) ([T15733](https://meta.miraheze.org/wiki/phorge:T15733))' -- './wiki images for upload' (END - exit=0)
+* 19:30 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: libaprutil1-ldap, libaprutil1-dbd-sqlite3, and libaprutil1t64
+* 19:29 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: libaprutil1-ldap, libaprutil1-dbd-sqlite3, and libaprutil1t64
+* 19:29 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: libaprutil1-ldap, libaprutil1-dbd-sqlite3, and libaprutil1t64
+* 19:29 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libaprutil1-ldap, libaprutil1-dbd-sqlite3, and libaprutil1t64
+* 19:28 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: libaprutil1-ldap, libaprutil1-dbd-sqlite3, and libaprutil1t64
+* 19:28 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libaprutil1-ldap, libaprutil1-dbd-sqlite3, and libaprutil1t64
+* 19:28 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: libaprutil1-ldap, libaprutil1-dbd-sqlite3, and libaprutil1t64
+* 19:28 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: libaprutil1t64
+* 19:23 MacFan4000: (uncyclopediawiki) UPDATE echo_notification SET notification_read_timestamp="20260813190000" WHERE notification_read_timestamp IS NULL AND notification_user=654;
+* 19:20 MacFan4000: (metawiki) DELETE FROM echo_unread_wikis WHERE euw_user=106692;
+* 18:53 MacFan4000: (smithwickswiki) UPDATE echo_notification SET notification_read_timestamp="20260813180000" WHERE notification_read_timestamp IS NULL AND notification_user=48;
+* 18:51 MacFan4000: (knightnwiki) UPDATE echo_notification SET notification_read_timestamp="20260813180000" WHERE notification_read_timestamp IS NULL AND notification_user=11;
+* 17:25 MirahezeLSBot: [pixldev@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=metawikibeta --table (END - exit=256)
+* 17:25 MirahezeLSBot: [pixldev@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=metawikibeta (END - exit=33280)
+* 17:21 MirahezeLSBot: [pixldev@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=metawikibeta (END - exit=33280)
+* 10:55 TheWWRNerdGuy: briefly ran image import with `--sleep=0` to get the proper import moving
+* 10:53 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=lovenikkiwiki --sleep=1 '--comment=Importing images from [https://lovenikki.fandom.com](https://lovenikki.fandom.com) ([T15733](https://meta.miraheze.org/wiki/phorge:T15733))' -- './wiki images for upload' (START)
+* 10:53 MirahezeLSBot: [wwr@mwtask171] Starting import for lovenikkiwiki (XML: None; Images: ./wiki images for upload) (START)
+* 10:48 MirahezeLSBot: [wwr@mwtask171] Finished import for lovenikkiwiki (XML: None; Images: ./wiki images for upload) (END - exit=-2)
+* 10:48 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=lovenikkiwiki --sleep=1 '--comment=Importing images from [https://lovenikki.fandom.com](https://lovenikki.fandom.com) ([T15733](https://meta.miraheze.org/wiki/phorge:T15733))' -- './wiki images for upload' (END - exit=-2)
+* 10:46 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=lovenikkiwiki --sleep=1 '--comment=Importing images from [https://lovenikki.fandom.com](https://lovenikki.fandom.com) ([T15733](https://meta.miraheze.org/wiki/phorge:T15733))' -- './wiki images for upload' (START)
+* 10:46 MirahezeLSBot: [wwr@mwtask171] Starting import for lovenikkiwiki (XML: None; Images: ./wiki images for upload) (START)
+* 10:46 MirahezeLSBot: [wwr@mwtask171] Finished import for lovenikkiwiki (XML: None; Images: ./wiki images for upload) (END - exit=-2)
+* 10:46 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=lovenikkiwiki --sleep=1 '--comment=Importing images from [https://lovenikki.fandom.com](https://lovenikki.fandom.com) ([T15733](https://meta.miraheze.org/wiki/phorge:T15733))' -- './wiki images for upload' (END - exit=-2)
+* 10:08 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=lovenikkiwiki --sleep=1 '--comment=Importing images from [https://lovenikki.fandom.com](https://lovenikki.fandom.com) ([T15733](https://meta.miraheze.org/wiki/phorge:T15733))' -- './wiki images for upload' (START)
+* 10:08 MirahezeLSBot: [wwr@mwtask171] Starting import for lovenikkiwiki (XML: None; Images: ./wiki images for upload) (START)
+* 03:16 MirahezeLSBot: [void@graylog161] restart nginx
+* 03:09 MirahezeLSBot: [void@db171] restart sql-backup.service
+* 03:02 MirahezeLSBot: [wwr@mwtask171] Finished import for lovenikkiwiki (XML: None; Images: ./wiki images for upload) (END - exit=-2)
+* 03:02 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=lovenikkiwiki --sleep=1 '--comment=Importing images from [https://lovenikki.fandom.com](https://lovenikki.fandom.com) ([T15733](https://meta.miraheze.org/wiki/phorge:T15733))' -- './wiki images for upload' (END - exit=-2)
+* 01:34 MirahezeLSBot: [wwr@mwtask161] Finished import for rmsinternalstaffwiki (XML: ./rms2.xml; Images: None) (END - exit=0)
+* 01:34 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=rmsinternalstaffwiki --update (END - exit=0)
+* 01:34 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=rmsinternalstaffwiki --update (START)
+* 01:34 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=rmsinternalstaffwiki (END - exit=0)
+* 01:34 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=rmsinternalstaffwiki (START)
+* 01:34 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=rmsinternalstaffwiki (END - exit=0)
+* 01:34 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=rmsinternalstaffwiki (START)
+* 01:34 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=rmsinternalstaffwiki --no-updates --username-prefix=imported -- ./rms2.xml (END - exit=0)
+* 01:34 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=rmsinternalstaffwiki --no-updates --username-prefix=imported -- ./rms2.xml (START)
+* 01:33 MirahezeLSBot: [wwr@mwtask161] Starting import for rmsinternalstaffwiki (XML: ./rms2.xml; Images: None) (START)
+* 01:02 TheWWRNerdGuy: [wwr@mwtask161] create `nebularuswikicargo`, remove `tnawiki` and `tnawikicargo` (
+* 00:21 MirahezeLSBot: [wwr@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 00:21 MirahezeLSBot: [wwr@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
 ## 2026-08-12 
 
 * 23:14 Void: restart ircecho on mon181 approx 2 hours ago (forgot to log)

@@ -8,6 +8,9 @@ While quite a rare occurrence, it sometimes happens that a user is left with glo
 * Run `SELECT gu_id FROM globaluser WHERE gu_name = '[USERNAME]';`
 * Select the `metawiki` database
 * Run `DELETE FROM echo_unread_wikis WHERE euw_user = '[RESULT FROM PREVIOUS QUERY]' AND euw_wiki = '[desired wiki]';`
+* Select the local wiki database
+* Run `SELECT user_id FROM user WHERE user_name = [USERNAME]';`
+* Run <code>UPDATE echo_notification SET notification_read_timestamp="[SOME TIMESTAMP PRIOR TO NOW]" WHERE notification_read_timestamp IS NULL AND notification_user=[RESULT FROM PREVIOUS QUERY];
 
 ## Categories
 
