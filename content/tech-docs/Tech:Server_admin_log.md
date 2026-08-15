@@ -2,6 +2,200 @@
 title: Tech:Server admin log
 ---
 
+## 2026-08-14 
+
+* 23:27 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 23:26 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 23:26 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: bsdutils, eject, bsdextrautils, uuid-runtime, util-linux-extra, libblkid-dev, libmount-dev, uuid-dev, libuuid1, libfdisk1, fdisk, libblkid1, libmount1, libsmartcols1, mount, liblastlog2-2, util-linux, login, unzip, util-linux-locales, and zip
+* 23:25 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 23:25 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 23:24 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 23:24 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 23:24 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 23:23 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-dev, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 23:23 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 23:22 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: bsdutils, eject, bsdextrautils, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, and zip
+* 23:22 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-dev, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 23:21 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 23:21 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 23:20 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-dev, uuid-runtime, login, unzip, and zip
+* 23:20 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-dev, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 23:19 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb191: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 23:19 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 23:19 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-dev, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 23:18 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-dev, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 23:18 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 23:17 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 23:17 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-dev, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 23:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: bsdutils, eject, bsdextrautils, uuid-runtime, util-linux-extra, libblkid-dev, libmount-dev, uuid-dev, libuuid1, libfdisk1, fdisk, libblkid1, libmount1, libsmartcols1, mount, liblastlog2-2, util-linux, login, unzip, util-linux-locales, and zip
+* 23:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: bsdutils, eject, bsdextrautils, uuid-runtime, util-linux-extra, libblkid-dev, libmount-dev, uuid-dev, libuuid1, libfdisk1, fdisk, libblkid1, libmount1, libsmartcols1, mount, liblastlog2-2, util-linux, login, unzip, util-linux-locales, and zip
+* 23:08 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 23:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: bsdutils, eject, bsdextrautils, uuid-runtime, util-linux-extra, libblkid-dev, libmount-dev, uuid-dev, libuuid1, libfdisk1, fdisk, libblkid1, libmount1, libsmartcols1, mount, liblastlog2-2, util-linux, login, unzip, util-linux-locales, and zip
+* 23:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: bsdutils, eject, bsdextrautils, uuid-runtime, util-linux-extra, libblkid-dev, libmount-dev, uuid-dev, libuuid1, libfdisk1, fdisk, libblkid1, libmount1, libsmartcols1, mount, liblastlog2-2, util-linux, login, unzip, util-linux-locales, and zip
+* 23:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: bsdutils, eject, bsdextrautils, uuid-runtime, util-linux-extra, libblkid-dev, libmount-dev, uuid-dev, libuuid1, libfdisk1, fdisk, libblkid1, libmount1, libsmartcols1, mount, liblastlog2-2, util-linux, login, unzip, util-linux-locales, and zip
+* 23:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: bsdutils, eject, bsdextrautils, uuid-runtime, util-linux-extra, libblkid-dev, libmount-dev, uuid-dev, libuuid1, libfdisk1, fdisk, libblkid1, libmount1, libsmartcols1, mount, liblastlog2-2, util-linux, login, unzip, util-linux-locales, and zip
+* 23:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: bsdutils, eject, bsdextrautils, uuid-runtime, util-linux-extra, libblkid-dev, libmount-dev, uuid-dev, libuuid1, libfdisk1, fdisk, libblkid1, libmount1, libsmartcols1, mount, liblastlog2-2, util-linux, login, unzip, util-linux-locales, and zip
+* 22:54 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: bsdutils, eject, bsdextrautils, uuid-runtime, util-linux-extra, libblkid-dev, libmount-dev, uuid-dev, libuuid1, libfdisk1, fdisk, libblkid1, libmount1, libsmartcols1, mount, liblastlog2-2, util-linux, login, unzip, util-linux-locales, and zip
+* 22:39 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: bsdutils, eject, bsdextrautils, uuid-runtime, util-linux-extra, libblkid-dev, libmount-dev, uuid-dev, libuuid1, libfdisk1, fdisk, libblkid1, libmount1, libsmartcols1, mount, liblastlog2-2, util-linux, login, unzip, util-linux-locales, and zip
+* 22:35 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 223s
+* 22:32 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 22:32 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 22:31 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 22:31 MirahezeLSBot: [somerandomdeveloper@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 22:31 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 22:30 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: bsdutils, eject, bsdextrautils, uuid-runtime, util-linux-extra, libblkid-dev, libmount-dev, uuid-dev, libuuid1, libfdisk1, fdisk, libblkid1, libmount1, libsmartcols1, mount, liblastlog2-2, util-linux, login, unzip, util-linux-locales, and zip
+* 22:27 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: bsdutils, eject, bsdextrautils, uuid-runtime, util-linux-extra, libblkid-dev, libmount-dev, uuid-dev, libuuid1, libfdisk1, fdisk, libblkid1, libmount1, libsmartcols1, mount, liblastlog2-2, util-linux, login, unzip, util-linux-locales, and zip
+* 22:19 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: bsdutils, eject, bsdextrautils, uuid-runtime, util-linux-extra, libblkid-dev, libmount-dev, uuid-dev, libuuid1, libfdisk1, fdisk, libblkid1, libmount1, libsmartcols1, mount, liblastlog2-2, util-linux, login, unzip, util-linux-locales, and zip
+* 22:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: bsdutils, eject, bsdextrautils, uuid-runtime, util-linux-extra, libblkid-dev, libmount-dev, uuid-dev, libuuid1, libfdisk1, fdisk, libblkid1, libmount1, libsmartcols1, mount, liblastlog2-2, util-linux, login, unzip, util-linux-locales, and zip
+* 21:59 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: bsdutils, eject, bsdextrautils, uuid-runtime, util-linux-extra, libblkid-dev, libmount-dev, uuid-dev, libuuid1, libfdisk1, fdisk, libblkid1, libmount1, libsmartcols1, mount, liblastlog2-2, util-linux, login, unzip, util-linux-locales, and zip
+* 21:52 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 21:52 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: bsdutils, eject, bsdextrautils, uuid-runtime, util-linux-extra, libblkid-dev, libmount-dev, uuid-dev, libuuid1, libfdisk1, fdisk, libblkid1, libmount1, libsmartcols1, mount, liblastlog2-2, util-linux, login, unzip, util-linux-locales, and zip
+* 21:40 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: bsdutils, eject, bsdextrautils, uuid-runtime, util-linux-extra, libblkid-dev, libmount-dev, uuid-dev, libuuid1, libfdisk1, fdisk, libblkid1, libmount1, libsmartcols1, mount, liblastlog2-2, util-linux, login, unzip, util-linux-locales, and zip
+* 21:36 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: bsdutils, eject, bsdextrautils, uuid-runtime, util-linux-extra, libblkid-dev, libmount-dev, uuid-dev, libuuid1, libfdisk1, fdisk, libblkid1, libmount1, libsmartcols1, mount, liblastlog2-2, util-linux, login, unzip, util-linux-locales, and zip
+* 21:34 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: bsdutils, eject, bsdextrautils, uuid-runtime, util-linux-extra, libblkid-dev, libmount-dev, uuid-dev, libuuid1, libfdisk1, fdisk, libblkid1, libmount1, libsmartcols1, mount, liblastlog2-2, util-linux, login, unzip, util-linux-locales, and zip
+* 21:22 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'l10n': True, 'versions': '1.45'} to all - SUCCESS in 579s
+* 21:20 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: bsdutils, eject, bsdextrautils, uuid-runtime, util-linux-extra, libblkid-dev, libmount-dev, uuid-dev, libuuid1, libfdisk1, fdisk, libblkid1, libmount1, libsmartcols1, mount, liblastlog2-2, util-linux, login, unzip, util-linux-locales, and zip
+* 21:13 SomeRandomDeveloper: deployed patch for T430596
+* 21:13 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'l10n': True, 'versions': '1.45'} to all
+* 21:12 MirahezeLSBot: [somerandomdeveloper@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 21:12 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'l10n': True, 'versions': ['1.45', '1.46']} to test151
+* 21:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: bsdutils, eject, bsdextrautils, uuid-runtime, util-linux-extra, libblkid-dev, libmount-dev, uuid-dev, libuuid1, libfdisk1, fdisk, libblkid1, libmount1, libsmartcols1, mount, liblastlog2-2, util-linux, login, unzip, util-linux-locales, and zip
+* 21:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 21:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 21:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: bsdutils, eject, bsdextrautils, uuid-runtime, util-linux-extra, libblkid-dev, libmount-dev, uuid-dev, libuuid1, libfdisk1, fdisk, libblkid1, libmount1, libsmartcols1, mount, liblastlog2-2, util-linux, login, unzip, util-linux-locales, and zip
+* 20:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: bsdutils, eject, bsdextrautils, uuid-runtime, util-linux-extra, libblkid-dev, libmount-dev, uuid-dev, libuuid1, libfdisk1, fdisk, libblkid1, libmount1, libsmartcols1, mount, liblastlog2-2, util-linux, login, unzip, util-linux-locales, and zip
+* 20:47 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 20:47 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 20:46 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 20:46 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 20:45 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 20:45 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: bsdutils, eject, bsdextrautils, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, and zip
+* 20:44 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 20:44 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 20:43 MirahezeLSBot: [void@puppet181] Upgraded packages on db192: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 20:43 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, and zip
+* 20:42 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, python3-httplib2, unzip, and zip
+* 20:42 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, python3-httplib2, unzip, and zip
+* 20:42 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: bsdutils, eject, bsdextrautils, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, and zip
+* 20:41 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 20:41 MirahezeLSBot: [void@puppet181] Upgraded packages on db201: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 20:40 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 20:40 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, python3-httplib2, unzip, and zip
+* 20:39 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 20:39 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-dev, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 20:38 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 20:38 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 20:38 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 20:37 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 20:37 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, python3-httplib2, unzip, and zip
+* 20:36 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, python3-httplib2, unzip, and zip
+* 20:36 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 20:36 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 20:35 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 20:35 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 20:34 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, python3-httplib2, unzip, and zip
+* 20:34 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
+* 20:33 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, and zip
+* 03:30 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: libpq5
+* 03:30 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: libpq5
+* 03:30 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libpq5
+* 03:29 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: libpq5
+* 03:29 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: libpq5
+* 03:29 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: libpq5
+* 03:29 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: libpq5
+* 03:28 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: libpq5
+* 03:28 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: libpq5
+* 03:28 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: libpq5
+* 03:27 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: libpq5
+* 03:27 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: libpq5
+* 03:27 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: libpq5
+* 03:27 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: libpq5
+* 03:26 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: libpq5, postgresql-client-17, and postgresql-17
+* 03:26 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: libpq5
+* 03:26 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: libpq5
+* 03:25 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb191: libpq5
+* 03:25 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: libpq5
+* 03:25 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: libpq5
+* 03:25 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: libpq5
+* 03:24 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: libpq5
+* 03:24 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: libpq5
+* 03:24 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: libpq5
+* 03:24 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: libpq5
+* 03:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: libpq5
+* 03:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: libpq5
+* 03:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: libpq5
+* 03:22 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libpq5
+* 03:22 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: libpq5
+* 03:22 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: libpq5
+* 03:22 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: libpq5
+* 03:21 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: libpq5
+* 03:21 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: libpq5
+* 03:21 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: libpq5
+* 03:20 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: libpq5
+* 03:20 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: libpq5
+* 03:20 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: libpq5
+* 03:19 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: libpq5
+* 03:19 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: libpq5
+* 03:19 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: libpq5
+* 03:19 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: libpq5
+* 03:18 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: libpq5
+* 03:18 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: libpq5
+* 03:18 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: libpq5
+* 03:17 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: libpq5
+* 03:17 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: libpq5
+* 03:17 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: libpq5
+* 03:17 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: libpq5
+* 03:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: libpq5
+* 03:16 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: libpq5
+* 03:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: libpq5
+* 03:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: libpq5, postgresql-client-17, and postgresql-17
+* 03:15 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: libpq5
+* 03:15 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: libpq5
+* 03:15 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: libpq5
+* 03:15 MirahezeLSBot: [void@puppet181] Upgraded packages on db201: libpq5
+* 03:14 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: libpq5
+* 03:14 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: libpq5
+* 03:14 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: libpq5
+* 03:14 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: libpq5
+* 03:13 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: libpq5
+* 03:13 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: libpq5
+* 03:13 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: libpq5
+* 03:13 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: libpq5
+* 03:12 MirahezeLSBot: [void@puppet181] Upgraded packages on db192: libpq5
+* 03:12 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: libpq5
+* 03:12 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: libpq5
+* 03:12 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: libpq5
+* 03:11 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: libpq5
+* 03:11 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: libpq5
+* 03:11 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: libpq5
+* 03:11 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: libpq5
+* 03:10 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: libpq5
+* 03:10 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: libpq5
+* 03:10 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: libpq5
+* 03:10 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: libpq5
+* 03:09 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: libpq5
+* 03:09 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: libpq5
+* 03:09 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: libpq5
+* 03:09 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: libpq5
+* 01:03 SomeRandomDeveloper: dropped patches for T15209 on beta (1.45) + prod
+* 01:03 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'world': True, 'versions': '1.45'} to all - SUCCESS in 206s
+* 01:00 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'world': True, 'versions': '1.45'} to all
+* 00:59 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': '1.45', 'apply_patches': '1.45'} to all - SUCCESS in 7s
+* 00:59 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'versions': '1.45', 'apply_patches': '1.45'} to all
+* 00:58 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': '1.45', 'apply_patches': '1.45'} to test151 - SUCCESS in 3s
+* 00:58 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': '1.45', 'apply_patches': '1.45'} to test151
+* 00:51 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=maillewiki --import-prefix=wgg:maille --from=Bmazz220 (END - exit=0)
+* 00:50 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=maillewiki --import-prefix=Wgg:maille --from=Bmazz220 (END - exit=0)
+* 00:50 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=maillewiki --import-prefix=Wgg:maille --from='Dany Martineau' --to=Dany_Martineau (END - exit=0)
+* 00:50 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=maillewiki --import-prefix=wgg:maille --from='Dany Martineau' --to=Dany_Martineau (END - exit=0)
+* 00:49 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=maillewiki --import-prefix=wgg:maille --from='Carnivorous Potato' --to=Dany_Martineau (END - exit=0)
+* 00:49 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=maillewiki --import-prefix=Wgg:maille --from='Carnivorous Potato' --to=Dany_Martineau (END - exit=0)
+* 00:49 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=maillewiki --import-prefix=Wgg:maille --from=Carnivorous_Potato --to=Dany_Martineau (END - exit=256)
+* 00:48 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=maillewiki --import-prefix=Wgg:maille --from=Carnivorous Potato --to=Dany_Martineau (END - exit=256)
+* 00:48 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=maillewiki --import-prefix=Wgg:maille --from=ZoLo --to=ZoLo_Chainmaille (END - exit=0)
+* 00:48 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=maillewiki --import-prefix=wgg:maille --from=ZoLo --to=ZoLo_Chainmaille (END - exit=0)
+* 00:47 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=maillewiki --import-prefix=wgg:maille --from=ZoLo --to=ZoLo_Chainmaille --no-run (END - exit=0)
+
 ## 2026-08-13 
 
 * 21:30 MirahezeLSBot: [wwr@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
