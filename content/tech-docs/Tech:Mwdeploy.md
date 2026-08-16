@@ -49,6 +49,12 @@ mwdeploy --config --servers=all
 
 A `--pr` parameter that simplifies this process was suggested in [T13932](https://meta.miraheze.org/wiki/phorge:T13932).
 
+If you frequently deploy PRs from your own fork, you can add your fork as a remote. For example, to add a remote named petra pointing toward [User:PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna)'s fork of mw-config, use the following:
+```
+sugit remote add petra https://github.com/lihaohong6/mw-config
+sugit fetch petra [remote-branch-name]:[local-branch-name]
+```
+
 ## Deploying MediaWiki 
 
 You can use any mix of the 3 `--world --config and --l10n` parameters.

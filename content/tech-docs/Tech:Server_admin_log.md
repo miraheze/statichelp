@@ -2,6 +2,29 @@
 title: Tech:Server admin log
 ---
 
+## 2026-08-15 
+
+* 16:38 MirahezeLSBot: [wwr@mwtask171] Finished import for danballwiki (XML: danball_pages_full.xml; Images: None) (END - exit=0)
+* 16:38 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=danballwiki --update (END - exit=0)
+* 16:38 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=danballwiki --update (START)
+* 16:38 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=danballwiki (END - exit=0)
+* 16:38 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=danballwiki (START)
+* 16:38 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=danballwiki (END - exit=0)
+* 16:04 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=danballwiki (START)
+* 16:04 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=danballwiki --no-updates --username-prefix=wikia:danball -- danball_pages_full.xml (END - exit=0)
+* 15:12 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=danballwiki --no-updates --username-prefix=wikia:danball -- danball_pages_full.xml (START)
+* 15:12 MirahezeLSBot: [wwr@mwtask171] Starting import for danballwiki (XML: danball_pages_full.xml; Images: None) (START)
+* 09:13 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 09:13 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 09:12 MirahezeLSBot: [petramagna@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 09:12 MirahezeLSBot: [petramagna@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 08:53 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'versions': '1.45', 'upgrade_extensions': 'WikiSEO'} to all - SUCCESS in 49s
+* 08:52 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'versions': '1.45', 'upgrade_extensions': 'WikiSEO'} to all
+* 08:47 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 08:47 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 08:32 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'WikiSEO'} to test151 - SUCCESS in 1s
+* 08:32 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'WikiSEO'} to test151
+
 ## 2026-08-14 
 
 * 23:27 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: bsdutils, eject, bsdextrautils, util-linux-extra, liblastlog2-2, libblkid1, libmount1, libsmartcols1, mount, fdisk, libuuid1, util-linux, libfdisk1, uuid-runtime, login, unzip, util-linux-locales, and zip
