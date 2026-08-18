@@ -15,13 +15,15 @@ Swift is a OpenStack run project that offers cloud storage software using a API.
 
 ## Transferring files (swift upload and swift download) 
 
-The main reason for having to do this is if the files are too large to be downloaded with Special:DataDump. Use the following steps:
+The main reason for having to do this is if the files are too large to be downloaded with Special:DataDump. In that case, use the following steps:
 
 * Download the files from the wiki, using ` swift download miraheze-examplewiki-local-public -D examplewiki-images`.
 * Tar -gzf the files that have been downloaded
 * Upload the files to a container (for example if manually providing a dump) you can use ` swift upload miraheze-examplewiki-dumps-backup <filename>`.
 * `mwscript DataDump:InsertMissingDumps examplewiki`
    * Incase of issues: access the files using `https://example.miraheze.org/wiki/Special:DataDump?action=download&dump=<filename>`
+
+Another case this might be necessary is during a [Wiki reset](/tech-docs/techwiki_reset). That page has its own instructions.
 
 ## Statistics 
 

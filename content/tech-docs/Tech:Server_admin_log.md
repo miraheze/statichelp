@@ -2,6 +2,56 @@
 title: Tech:Server admin log
 ---
 
+## 2026-08-17 
+
+* 15:56 RhinosF1: restart phd and resume puppet
+* 15:49 RhinosF1: !log sudo -u www-data ./bin/repository update (rSSL|R11|rDNS|R6|rPUPC|R14)
+* 15:45 MirahezeLSBot: [rhinos@phorge171] sudo rm -rf /srv/phorge/repos/*
+* 15:40 RhinosF1: stop phd again
+* 15:36 RhinosF1: phorge RW and phd starting but incident still in progress
+* 13:06 RhinosF1: Phorge to read only and stop phd; puppet is disabled on Phorge
+* 12:50 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 24s
+* 12:50 MirahezeLSBot: [rhinos@mwtask181] starting deploy of {'config': True} to all
+* 12:48 @paladox: reboot mwtask161
+* 03:32 MirahezeLSBot: [void@phorge171] destroy all diffusion repos (contributing to site breakage)
+* 02:28 MirahezeLSBot: [void@phorge171] bin/phd restart
+* 02:08 MirahezeLSBot: [void@mwtask181] repool db161
+* 02:06 MirahezeLSBot: [void@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 24s
+* 02:06 MirahezeLSBot: [void@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 02:05 MirahezeLSBot: [void@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@localhost
+* 02:05 MirahezeLSBot: [void@mwtask181] starting deploy of {'config': True} to all
+* 01:52 MirahezeLSBot: [void@mwtask181] depool c2 (db161) outage
+* 01:52 MirahezeLSBot: [void@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 26s
+
+## 2026-08-16 
+
+* 22:51 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=ddawikiwiki (END - exit=0)
+* 22:50 MirahezeLSBot: [wwr@mwtask171] swift delete miraheze-dungeondefendersawakenedofficialwikiwiki-local-thumb
+* 22:50 MirahezeLSBot: [wwr@mwtask171] swift delete miraheze-dungeondefendersawakenedofficialwikiwiki-local-public
+* 22:03 MirahezeLSBot: [wwr@mwtask171] swift delete miraheze-dungeondefendersawakenedofficialwikiwiki-local-public (failed)
+* 22:02 MirahezeLSBot: [wwr@mwtask171] swift delete miraheze-dungeondefendersawakenedofficialwikiwiki-local-deleted
+* 20:27 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=dungeondefendersawakenedofficialwikiwiki --new=ddawikiwiki --user=TheWWRNerdGuy (END - exit=0)
+* 15:41 MirahezeLSBot: [wwr@mwtask171] Finished import for danballwiki (XML: None; Images: ./images) (END - exit=0)
+* 15:41 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=danballwiki --update (END - exit=0)
+* 15:41 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=danballwiki --update (START)
+* 15:41 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=danballwiki --sleep=1 '--comment=Importing images from [https://danball.fandom.com](https://danball.fandom.com) ([T15843](https://meta.miraheze.org/wiki/phorge:T15843))' -- ./images (END - exit=0)
+* 13:52 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=danballwiki --sleep=1 '--comment=Importing images from [https://danball.fandom.com](https://danball.fandom.com) ([T15843](https://meta.miraheze.org/wiki/phorge:T15843))' -- ./images (START)
+* 13:52 MirahezeLSBot: [wwr@mwtask171] Starting import for danballwiki (XML: None; Images: ./images) (START)
+* 12:53 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/ConfirmEdit'} to test151 - SUCCESS in 0s
+* 12:53 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/ConfirmEdit'} to test151
+* 11:45 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php Bucket:CreateInitialSchemaForBucketIssues --wiki=shminerwiki (END - exit=0)
+* 04:41 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php updateSpecialPages --wiki=teflpediawiki (END - exit=0)
+* 01:27 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to mwtask171 - SUCCESS in 1s
+* 01:27 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to mwtask171
+* 01:26 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'force': True} to mwtask161 - SUCCESS in 1s
+* 01:26 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'force': True} to mwtask161
+* 01:21 MirahezeLSBot: [somerandomdeveloper@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mwtask161
+* 01:20 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 01:18 MirahezeLSBot: [somerandomdeveloper@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mwtask161
+* 01:18 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 01:17 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 2s
+* 01:17 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+
 ## 2026-08-15 
 
 * 16:38 MirahezeLSBot: [wwr@mwtask171] Finished import for danballwiki (XML: danball_pages_full.xml; Images: None) (END - exit=0)

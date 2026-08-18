@@ -29,6 +29,12 @@ Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna
       Thanks for the feedback. I didn't expect wikis to be in need of this use case. Since we do have a wiki that need a DataTransfer feature not available in other extensions, tech can decide in the end whether the effort to fix this extension is worth it.
       Alternatively, you can convert the CSV file into an XML dump and use Special:Import. The XML dump does require a bit more effort to produce, though. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 17:30, 22 July 2026 (UTC)
 
+    Data transferring is very important. In the Bestiary of the Hypogriph, one of our projects is we save information about worldbuiding that gets scrubbed and destroyed by webpages lacking in maintenance. I myself lost a forum with around 40 thousand messages. Exporting and importing in as many formats as possible is a big plus and very necessary.
+   It also bears mention this is the largest extension that "would be disabled", with over 700 wikis using it, double the next candidate.
+   Native wiki importing/exporting is clunky and often fails with larger files.--[NimoStar](https://meta.miraheze.org/wiki/User:NimoStar) ([talk](https://meta.miraheze.org/wiki/User_talk:NimoStar)) 07:29, 17 August 2026 (UTC)
+      We have [Special:DataDump](https://meta.miraheze.org/wiki/Special:DataDump) available on all wikis, which provides the best way to perform full-wiki backups. There is no reason to use a special extension instead of what works for every MediaWiki installation unless you really want some of its features such as CSV handling.
+      Over 700 wikis have enabled it in ManageWiki, but few are actually using it judging from the lack of response in the past month. We've had extensions that have been completely broken for over a year, and we received no bug reports from the hundreds of wikis that are supposedly using it. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 09:53, 17 August 2026 (UTC)
+
 ## Extension:LanguageSelector
 
 ### Rationale 2
@@ -123,6 +129,9 @@ Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna
    Personally I think we can keep InterwikiSorting for a few MediaWiki versions, but as MediaWiki evolves, the extension will inevitably break. It is also poorly documented on mediawiki.org and has no instructions on how to use it. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 00:42, 19 July 2026 (UTC)
       For backward compatibility reasons I hope to retain this extension. It shouldn't be overhauling the MediaWiki software so it would be supported in a long period of time from now I think. [Liaoinmy](https://meta.miraheze.org/wiki/User:Liaoinmy) ([talk](https://meta.miraheze.org/wiki/User_talk:Liaoinmy)) 13:17, 3 August 2026 (UTC)
          We could keep it then. We may need to add a note on ManageWiki which says the extension might be broken. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 05:12, 7 August 2026 (UTC)
+
+    "Will likely become unmaintained" is speculation, and there is no reported new issues as far as this says. No reason to abandon it. Its also useful. Our project has three connected wikis for example.--[NimoStar](https://meta.miraheze.org/wiki/User:NimoStar) ([talk](https://meta.miraheze.org/wiki/User_talk:NimoStar)) 07:31, 17 August 2026 (UTC)
+      To be precise, the extension can already be considered unmaintained. For the past 2 years the only human commits are the ones to ensure it works against the latest MediaWiki version. Now that the WMF drops it from production no one from the WMF/WMDE will have fixing it as their job. It's not impossible that someone will step up to maintain this extension, but at its current state the extension has no maintainer. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 09:49, 17 August 2026 (UTC)
 
 ## Appendix: number of wikis using each extension
 

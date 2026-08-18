@@ -17,9 +17,16 @@ One should be careful renaming a wiki (database/domain) as it involves many step
 If anything shows in the above, for each of them:
 * `diff --color <(swift list miraheze-<new_wiki_db>-<zone>) <(swift list miraheze-<old_wiki_db>-<zone>)`
    * <zone> example: `local-public`
+If files need to be moved:
+```
+swift download miraheze-<old_wiki_db>-<zone> -D failed
+cd failed
+swift upload miraheze-<new_wiki_db>-<zone> *
+```
+
 If only empty directories or everything looks fine there (files returned by that are now only present on old container, not on the new wiki container), you can remove the old containers with:
 * `swift delete miraheze-<old_wiki_db>-<zone>`
-* `sudo -u www-data rm -rf /tmp/miraheze-<old_wiki_db>-<zone>`
+* `suwd rm -rf /tmp/miraheze-<old_wiki_db>-<zone>`
 
 Finally, run:
 * `mwscript CreateWiki:SetContainersAccess <new_wiki_db>`
