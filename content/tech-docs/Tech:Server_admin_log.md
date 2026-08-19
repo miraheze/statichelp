@@ -2,6 +2,128 @@
 title: Tech:Server admin log
 ---
 
+## 2026-08-18 
+
+* 23:45 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=wonderlandwiki (END - exit=0)
+* 23:41 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=wonderlanddreamspherewiki --new=wonderlandwiki --user=TheWWRNerdGuy (END - exit=0)
+* 23:26 TheWWRNerdGuy: drop database wonderlandwiki; (on c4, before the attempted rename)
+* 23:23 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=wonderlanddreamspherewiki --new=wonderlandwiki --user=TheWWRNerdGuy (END - exit=256)
+* 23:05 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwiki --delete --deletewiki wonderlandwiki (END - exit=0)
+* 23:00 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=soulriftwiki (END - exit=0)
+* 23:00 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=soulboundwiki --new=soulriftwiki --user=TheWWRNerdGuy (END - exit=0)
+* 22:56 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=ordopediawiki (END - exit=0)
+* 22:56 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=uaworldneworderwiki --new=ordopediawiki --user=TheWWRNerdGuy (END - exit=0)
+* 22:53 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=battlecatsmoddingwiki (END - exit=0)
+* 22:50 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=battlecatsmoddingwikiwiki --new=battlecatsmoddingwiki --user=TheWWRNerdGuy (END - exit=0)
+* 22:46 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=ageofseaswiki (END - exit=0)
+* 22:46 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=johnsolprojectwiki --new=ageofseaswiki --user=TheWWRNerdGuy (END - exit=0)
+* 19:44 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php updateSpecialPages --wiki=lovenikkiwiki (END - exit=0)
+* 14:31 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php cleanupTitles --wiki=battlecatsmoddingwikiwiki (END - exit=0)
+* 13:32 @paladox: upgrade phorge on phorge171
+* 07:47 RhinosF1: bounce nginx on os*
+* 07:43 RhinosF1: bounce opensearch on os*
+* 03:18 MirahezeLSBot: [void@db161] restart sql-backup.service
+* 03:17 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: libexpat1
+* 03:13 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: libexpat1-dev and libexpat1
+* 03:13 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: libexpat1
+* 03:13 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: libexpat1-dev and libexpat1
+* 03:12 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libexpat1-dev and libexpat1
+* 03:12 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: libexpat1
+* 03:12 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: libexpat1
+* 03:12 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: libexpat1
+* 03:11 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: libexpat1
+* 03:11 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: libexpat1
+* 03:11 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: libexpat1
+* 03:10 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: libexpat1-dev and libexpat1
+* 03:10 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: libexpat1
+* 03:10 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb191: libexpat1
+* 03:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: libexpat1-dev and libexpat1
+* 03:09 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: libexpat1-dev and libexpat1
+* 03:09 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: libexpat1
+* 03:09 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: libexpat1
+* 03:08 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: libexpat1
+* 03:08 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: libexpat1
+* 03:08 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: libexpat1
+* 03:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: libexpat1-dev and libexpat1
+* 03:07 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: libexpat1
+* 03:07 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: libexpat1
+* 03:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: libexpat1-dev and libexpat1
+* 03:07 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: libexpat1
+* 03:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: libexpat1-dev and libexpat1
+* 03:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: libexpat1-dev and libexpat1
+* 03:06 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: libexpat1
+* 03:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libexpat1-dev and libexpat1
+* 03:05 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: libexpat1
+* 03:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: libexpat1-dev and libexpat1
+* 03:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: libexpat1-dev and libexpat1
+* 03:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: libexpat1-dev and libexpat1
+* 03:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: libexpat1-dev and libexpat1
+* 03:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: libexpat1-dev and libexpat1
+* 03:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: libexpat1-dev and libexpat1
+* 03:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: libexpat1-dev and libexpat1
+* 03:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: libexpat1-dev and libexpat1
+* 03:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: libexpat1-dev and libexpat1
+* 03:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: libexpat1-dev and libexpat1
+* 03:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: libexpat1
+* 03:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: libexpat1-dev and libexpat1
+* 03:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: libexpat1-dev and libexpat1
+* 03:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: libexpat1-dev and libexpat1
+* 03:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: libexpat1-dev and libexpat1
+* 03:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: libexpat1-dev and libexpat1
+* 03:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: libexpat1
+* 02:59 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: libexpat1-dev and libexpat1
+* 02:59 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: libexpat1
+* 02:59 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: libexpat1-dev and libexpat1
+* 02:59 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: libexpat1
+* 02:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: libexpat1
+* 02:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: libexpat1
+* 02:58 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: libexpat1
+* 02:58 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: libexpat1
+* 02:57 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: libexpat1
+* 02:57 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: libexpat1
+* 02:57 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: libexpat1
+* 02:57 MirahezeLSBot: [void@puppet181] Upgraded packages on db192: libexpat1
+* 02:56 MirahezeLSBot: [void@puppet181] Upgraded packages on db201: libexpat1
+* 02:56 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: libexpat1
+* 02:56 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: libexpat1
+* 02:56 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: libexpat1
+* 02:55 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: libexpat1
+* 02:55 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: libexpat1
+* 02:55 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: libexpat1
+* 02:55 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: libexpat1
+* 02:54 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: libexpat1
+* 02:54 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: libexpat1
+* 02:54 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: libexpat1
+* 02:54 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: libexpat1
+* 02:53 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: libexpat1
+* 02:53 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: libexpat1
+* 02:53 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: libexpat1
+* 02:52 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: libexpat1
+* 02:52 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: libexpat1
+* 02:52 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: libexpat1
+* 02:52 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: libexpat1
+* 02:51 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: libexpat1
+* 02:51 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: libexpat1-dev and libexpat1
+* 02:51 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: libexpat1
+* 02:18 MirahezeLSBot: [pixldev@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php /srv/mediawiki/1.46/maintenance/sql.php --wiki=metawikibeta --wikidb=testglobal (END - exit=33280)
+* 02:09 MirahezeLSBot: [pixldev@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=metawikibeta SELECT * FROM mw_settings; --wikidb=testglobal (END - exit=32512)
+* 01:37 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'extension_list': True, 'versions': ['1.45', '1.46']} to test151 - SUCCESS in 1s
+* 01:37 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'extension_list': True, 'versions': ['1.45', '1.46']} to test151
+* 01:36 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'l10n': True, 'versions': ['1.45', '1.46']} to test151 - SUCCESS in 368s
+* 01:30 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'l10n': True, 'versions': ['1.45', '1.46']} to test151
+* 01:30 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'force_upgrade': True, 'versions': ['1.45', '1.46'], 'upgrade_extensions': 'Report'} to test151 - SUCCESS in 1s
+* 01:30 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'force_upgrade': True, 'versions': ['1.45', '1.46'], 'upgrade_extensions': 'Report'} to test151
+* 01:30 MirahezeLSBot: [somerandomdeveloper@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 01:30 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'l10n': True, 'versions': ['1.45', '1.46']} to test151
+* 01:28 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data rm /srv/mediawiki-staging/1.45/extensions/Report/ -rf
+* 01:28 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data rm /srv/mediawiki-staging/1.46/extensions/Report/ -rf
+* 01:28 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data rm /srv/mediawiki-staging/1.45/extensions/Report/ -rf
+* 01:22 MirahezeLSBot: [somerandomdeveloper@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 01:22 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'l10n': True, 'versions': ['1.45', '1.46']} to test151
+* 01:21 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'world': True, 'versions': ['1.45', '1.46']} to test151 - SUCCESS in 124s
+* 01:19 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'l10n': True, 'versions': ['1.45', '1.46']} to test151
+* 00:30 SomeRandomDeveloper: dropped T430596 patch and deployed a new security patch
+
 ## 2026-08-17 
 
 * 15:56 RhinosF1: restart phd and resume puppet
