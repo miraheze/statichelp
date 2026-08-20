@@ -2,6 +2,87 @@
 title: Tech:Server admin log
 ---
 
+## 2026-08-19 
+
+* 23:23 MirahezeLSBot: [petramagna@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=kagaminoserieswiki (END - exit=0)
+* 23:23 MirahezeLSBot: [petramagna@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=kagaminoserieswiki --startOver (END - exit=0)
+* 23:23 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=lfcwiki (END - exit=0)
+* 23:18 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=lfcwiki --startOver (END - exit=0)
+* 23:18 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=lfcwiki (END - exit=0)
+* 23:17 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=lfcwiki --startOver (END - exit=256)
+* 22:47 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 22s
+* 22:46 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 22:46 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 22:46 MirahezeLSBot: [universalomega@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 22:44 MirahezeLSBot: [universalomega@mwtask181] UPDATE user_groups SET ug_group="wiki-mechanic" WHERE ug_group="wiki-mechanics"; on metawiki
+* 22:44 MirahezeLSBot: [universalomega@mwtask181] UPDATE user_groups SET ug_group=wiki-mechanic WHERE ug_group=wiki-mechanics
+* 22:43 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 23s
+* 22:43 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 22:42 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 22:42 MirahezeLSBot: [universalomega@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 22:39 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 22:39 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 22:38 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 22:38 MirahezeLSBot: [universalomega@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 11:23 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 18s
+* 11:23 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 11:21 @paladox: restart mariadb on db161
+* 11:21 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 20s
+* 11:20 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 10:11 MirahezeLSBot: [petramagna@test151] finished deploy of {'l10n': True, 'folders': '1.46/extensions/ManageWiki', 'versions': '1.46'} to test151 - SUCCESS in 13s
+* 10:11 MirahezeLSBot: [petramagna@test151] starting deploy of {'l10n': True, 'folders': '1.46/extensions/ManageWiki', 'versions': '1.46'} to test151
+* 10:08 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 10:08 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 10:07 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/ManageWiki'} to test151 - SUCCESS in 0s
+* 10:07 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/ManageWiki'} to test151
+* 03:55 MirahezeLSBot: [void@db161] restart sql-backup.service
+* 03:01 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 03:01 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 03:00 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 03:00 MirahezeLSBot: [universalomega@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 02:59 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 02:59 MirahezeLSBot: [universalomega@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 02:47 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: librabbitmq4 and libsrt1.5-gnutls
+* 02:26 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: swift-object, swift, and python3-swift
+* 02:26 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: swift-object, swift, and python3-swift
+* 02:25 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: librabbitmq4 and libsrt1.5-gnutls
+* 02:25 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: swift-object, swift, and python3-swift
+* 02:25 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: librabbitmq4 and libsrt1.5-gnutls
+* 02:25 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: swift-object, swift, and python3-swift
+* 02:25 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: librabbitmq4 and libsrt1.5-gnutls
+* 02:24 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: swift-object-expirer, swift-object, swift, and python3-swift
+* 02:24 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: librabbitmq4 and libsrt1.5-gnutls
+* 02:24 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: librabbitmq4 and libsrt1.5-gnutls
+* 02:24 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: swift-account, swift-container, swift, and python3-swift
+* 02:24 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: librabbitmq4 and libsrt1.5-gnutls
+* 02:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: librabbitmq4 and libsrt1.5-gnutls
+* 02:23 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: swift-proxy, swift, and python3-swift
+* 02:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: librabbitmq4 and libsrt1.5-gnutls
+* 02:23 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: swift-proxy, swift, and python3-swift
+* 02:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: librabbitmq4 and libsrt1.5-gnutls
+* 02:23 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: swift-object, swift, and python3-swift
+* 02:22 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: librabbitmq4 and libsrt1.5-gnutls
+* 02:22 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: swift-object, swift, and python3-swift
+* 02:22 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: librabbitmq4 and libsrt1.5-gnutls
+* 02:22 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: librabbitmq4 and libsrt1.5-gnutls
+* 02:22 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: librabbitmq4 and libsrt1.5-gnutls
+* 02:21 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: librabbitmq4 and libsrt1.5-gnutls
+* 02:21 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: librabbitmq4 and libsrt1.5-gnutls
+* 02:21 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: librabbitmq4
+* 02:21 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: librabbitmq4 and libsrt1.5-gnutls
+* 02:21 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: librabbitmq4
+* 02:20 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: librabbitmq4 and libsrt1.5-gnutls
+* 02:20 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: librabbitmq4
+* 02:20 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: librabbitmq4 and libsrt1.5-gnutls
+* 02:20 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: librabbitmq4
+* 02:20 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: librabbitmq4
+* 02:20 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: librabbitmq4 and libsrt1.5-gnutls
+* 02:20 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: librabbitmq4
+* 02:19 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: librabbitmq4 and libsrt1.5-gnutls
+* 02:19 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: librabbitmq4
+* 02:19 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: librabbitmq4 and libsrt1.5-gnutls
+* 02:19 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: librabbitmq4 and libsrt1.5-gnutls
+
 ## 2026-08-18 
 
 * 23:45 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=wonderlandwiki (END - exit=0)
