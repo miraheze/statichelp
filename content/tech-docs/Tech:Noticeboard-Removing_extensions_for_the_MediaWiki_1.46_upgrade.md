@@ -55,6 +55,7 @@ Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna
    Despite the new ULS is current, I still love to switching languages in this traditional way. I hope to keep it as simply enabling it alone wouldn't cause issues to a wiki. [Liaoinmy](https://meta.miraheze.org/wiki/User:Liaoinmy) ([talk](https://meta.miraheze.org/wiki/User_talk:Liaoinmy)) 13:12, 3 August 2026 (UTC)
       The extension does cause issues unfortunately. It is known to "lead people to seeing the page in a random language" and we have seen several wikis complain in the past. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 05:12, 7 August 2026 (UTC)
     What does Wikimedia use, LanguageSelector or UniversalLanguageSelector, currently? [Doug](https://meta.miraheze.org/wiki/User:Doug) ([talk](https://meta.miraheze.org/wiki/User_talk:Doug)) 22:32, 19 August 2026 (UTC)
+      WMF wikis use UniversalLanguageSelector. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 10:09, 20 August 2026 (UTC)
 
 ## Extension:AutoCreatePage
 

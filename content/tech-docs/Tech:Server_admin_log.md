@@ -2,6 +2,19 @@
 title: Tech:Server admin log
 ---
 
+## 2026-08-20 
+
+* 22:14 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:ReplaceTextEligible --wiki=battlecatsmoddingwiki (END - exit=0)
+* 12:00 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 12:00 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 11:58 MirahezeLSBot: [petramagna@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 2s
+* 11:57 MirahezeLSBot: [petramagna@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 11:10 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=metawikibeta --dbname=cdwikibeta (END - exit=0)
+* 11:09 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RemoveCustomDomain --wiki=cdwikibeta (END - exit=65280)
+* 10:17 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CentralAuth:resetGlobalUserTokens --wiki=metawiki --minid=476442 --maxid=476442 (END - exit=33280)
+* 03:18 MirahezeLSBot: [void@db151] restart sql-backup.service
+* 00:20 SomeRandomDeveloper: deployed multiple security patches
+
 ## 2026-08-19 
 
 * 23:23 MirahezeLSBot: [petramagna@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=kagaminoserieswiki (END - exit=0)
