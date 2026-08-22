@@ -2,6 +2,50 @@
 title: Tech:Server admin log
 ---
 
+## 2026-08-21 
+
+* 22:37 MirahezeLSBot: [wwr@mwtask161] Finished import for shadowkeepwiki (XML: None; Images: ./images/) (END - exit=0)
+* 22:37 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=shadowkeepwiki --update (END - exit=0)
+* 22:37 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=shadowkeepwiki --update (START)
+* 22:37 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=shadowkeepwiki --sleep=1 '--comment=Importing images from [https://shreloaded.net](https://shreloaded.net) ([T15861](https://meta.miraheze.org/wiki/phorge:T15861))' --search-recursively -- ./images/ (END - exit=0)
+* 20:22 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=shadowkeepwiki --sleep=1 '--comment=Importing images from [https://shreloaded.net](https://shreloaded.net) ([T15861](https://meta.miraheze.org/wiki/phorge:T15861))' --search-recursively -- ./images/ (START)
+* 20:22 MirahezeLSBot: [wwr@mwtask161] Starting import for shadowkeepwiki (XML: None; Images: ./images/) (START)
+* 20:21 MirahezeLSBot: [wwr@mwtask161] Finished import for shadowkeepwiki (XML: None; Images: ./images/) (END - exit=-2)
+* 20:21 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=shadowkeepwiki --sleep=1 '--comment=Importing images from [https://shreloaded.net](https://shreloaded.net) ([T15861](https://meta.miraheze.org/wiki/phorge:T15861))' --search-recursively -- ./images/ (END - exit=-2)
+* 20:21 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=shadowkeepwiki --sleep=1 '--comment=Importing images from [https://shreloaded.net](https://shreloaded.net) ([T15861](https://meta.miraheze.org/wiki/phorge:T15861))' --search-recursively -- ./images/ (START)
+* 20:21 MirahezeLSBot: [wwr@mwtask161] Starting import for shadowkeepwiki (XML: None; Images: ./images/) (START)
+* 19:36 MirahezeLSBot: [wwr@mwtask161] Finished import for shadowkeepwiki (XML: ./shadowkeep.xml; Images: None) (END - exit=0)
+* 19:35 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=shadowkeepwiki --update (END - exit=0)
+* 19:35 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=shadowkeepwiki --update (START)
+* 19:35 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=shadowkeepwiki (END - exit=0)
+* 19:35 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=shadowkeepwiki (START)
+* 19:35 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=shadowkeepwiki (END - exit=0)
+* 16:33 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=battlecatsmoddingwiki (END - exit=0)
+* 16:33 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=battlecatsmoddingwiki --startOver (END - exit=0)
+* 16:33 MirahezeLSBot: [wwr@mwtask171] curl -X DELETE [https://opensearch-mw.wikitide.net/battlecatsmoddingwiki_content](https://opensearch-mw.wikitide.net/battlecatsmoddingwiki_content) [https://opensearch-mw.wikitide.net/battlecatsmoddingwiki_general](https://opensearch-mw.wikitide.net/battlecatsmoddingwiki_general)
+* 16:32 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=battlecatsmoddingwiki --startOver (END - exit=256)
+* 16:07 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=shadowkeepwiki (START)
+* 16:07 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=shadowkeepwiki --no-updates --username-prefix=shreloaded -- ./shadowkeep.xml (END - exit=0)
+* 14:43 MirahezeLSBot: [wwr@mwtask171] Finished import for zombiestorieswiki (XML: None; Images: ./images/) (END - exit=0)
+* 14:43 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=zombiestorieswiki --update (END - exit=0)
+* 14:43 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=zombiestorieswiki --update (START)
+* 14:43 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=zombiestorieswiki --sleep=1 '--comment=Importing images from [https://zombiestories.fandom.com](https://zombiestories.fandom.com) ([T15854](https://meta.miraheze.org/wiki/phorge:T15854))' -- ./images/ (END - exit=0)
+* 13:57 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=zombiestorieswiki --sleep=1 '--comment=Importing images from [https://zombiestories.fandom.com](https://zombiestories.fandom.com) ([T15854](https://meta.miraheze.org/wiki/phorge:T15854))' -- ./images/ (START)
+* 13:57 MirahezeLSBot: [wwr@mwtask171] Starting import for zombiestorieswiki (XML: None; Images: ./images/) (START)
+* 13:45 MirahezeLSBot: [wwr@mwtask171] Finished import for kamenriderwiki (XML: ./kamenrider_pages_full.xml; Images: None) (END - exit=1)
+* 13:45 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=kamenriderwiki --no-updates --username-prefix=wikia:kamenrider -- ./kamenrider_pages_full.xml (END - exit=1)
+* 13:45 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=kamenriderwiki --no-updates --username-prefix=wikia:kamenrider -- ./kamenrider_pages_full.xml (START)
+* 13:45 MirahezeLSBot: [wwr@mwtask171] Starting import for kamenriderwiki (XML: ./kamenrider_pages_full.xml; Images: None) (START)
+* 13:41 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=shadowkeepwiki --no-updates --username-prefix=shreloaded -- ./shadowkeep.xml (START)
+* 13:41 MirahezeLSBot: [wwr@mwtask161] Starting import for shadowkeepwiki (XML: ./shadowkeep.xml; Images: None) (START)
+* 13:36 MirahezeLSBot: [wwr@mwtask171] fixconts --wiki dimensionalcoalescencewiki
+* 13:32 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=dimensionalcoalescencewiki --requester=ROBoOCtBNY (END - exit=0)
+* 13:31 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=dimensionalcoalescence --requester=ROBoOCtBNY (END - exit=256)
+* 02:56 Universal Omega: start ircecho on mon181
+* 02:55 Universal Omega: re-enable and run puppet on all servers
+* 01:21 Universal Omega: stop ircecho on mon181
+* 01:20 Universal Omega: disable puppet on all servers
+
 ## 2026-08-20 
 
 * 22:14 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:ReplaceTextEligible --wiki=battlecatsmoddingwiki (END - exit=0)
