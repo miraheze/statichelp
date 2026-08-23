@@ -2,6 +2,163 @@
 title: Tech:Server admin log
 ---
 
+## 2026-08-22 
+
+* 23:07 MirahezeLSBot: [wwr@test151] finished deploy of {'world': True, 'versions': '1.45'} to test151 - SUCCESS in 26s
+* 23:07 MirahezeLSBot: [wwr@test151] starting deploy of {'world': True, 'versions': '1.45'} to test151
+* 23:06 MirahezeLSBot: [wwr@test151] finished deploy of {'world': True, 'versions': '1.46'} to test151 - SUCCESS in 27s
+* 23:06 MirahezeLSBot: [wwr@test151] starting deploy of {'world': True, 'versions': '1.46'} to test151
+* 21:59 MirahezeLSBot: [wwr@mwtask171] Finished import for grimdawnwiki (XML: ./grimdawn.xml; Images: None) (END - exit=0)
+* 21:59 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=grimdawnwiki --update (END - exit=0)
+* 21:59 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=grimdawnwiki --update (START)
+* 21:58 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=grimdawnwiki (END - exit=0)
+* 21:58 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=grimdawnwiki (START)
+* 21:58 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=grimdawnwiki (END - exit=0)
+* 21:06 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=grimdawnwiki (START)
+* 21:06 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=grimdawnwiki --no-updates --username-prefix=wikia:grimdawn -- ./grimdawn.xml (END - exit=0)
+* 20:31 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=grimdawnwiki --no-updates --username-prefix=wikia:grimdawn -- ./grimdawn.xml (START)
+* 20:31 MirahezeLSBot: [wwr@mwtask171] Starting import for grimdawnwiki (XML: ./grimdawn.xml; Images: None) (START)
+* 20:23 MirahezeLSBot: [universalomega@speedscope211] sudo systemctl start ntpsec
+* 20:23 MirahezeLSBot: [universalomega@speedscope211] sudo ntpd -gq
+* 20:23 MirahezeLSBot: [universalomega@speedscope211] sudo systemctl stop ntpsec
+* 20:19 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject201: libnet-dns-perl
+* 20:19 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject181: libnet-dns-perl
+* 20:19 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject191: libnet-dns-perl
+* 20:19 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy161: libnet-dns-perl
+* 20:18 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject211: libnet-dns-perl
+* 20:18 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy171: libnet-dns-perl
+* 20:18 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on test151: libnet-dns-perl
+* 20:17 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject161: libnet-dns-perl
+* 20:17 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ns2: libnet-dns-perl
+* 20:17 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject171: libnet-dns-perl
+* 20:17 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftac171: libnet-dns-perl
+* 20:16 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject151: libnet-dns-perl
+* 20:16 Universal Omega: added speedscope211 to puppet
+* 20:16 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on rdb191: libnet-dns-perl
+* 20:16 MirahezeLSBot: [universalomega@speedscope211] test
+* 20:16 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os202: libnet-dns-perl
+* 20:15 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on puppet181: libnet-dns-perl
+* 20:15 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os201: libnet-dns-perl
+* 20:15 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on reports171: libnet-dns-perl
+* 20:14 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask171: libnet-dns-perl
+* 20:14 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os162: libnet-dns-perl
+* 20:14 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os191: libnet-dns-perl
+* 20:13 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on prometheus151: libnet-dns-perl
+* 20:13 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on phorge171: libnet-dns-perl
+* 20:13 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ns1: libnet-dns-perl
+* 20:13 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os161: libnet-dns-perl
+* 20:12 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask181: libnet-dns-perl
+* 20:12 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os151: libnet-dns-perl
+* 20:12 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw203: libnet-dns-perl
+* 20:11 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw201: libnet-dns-perl
+* 20:11 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw202: libnet-dns-perl
+* 20:11 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask151: libnet-dns-perl
+* 20:10 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask161: libnet-dns-perl
+* 20:10 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw193: libnet-dns-perl
+* 20:10 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw182: libnet-dns-perl
+* 20:09 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw183: libnet-dns-perl
+* 20:09 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw192: libnet-dns-perl
+* 20:09 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw173: libnet-dns-perl
+* 20:08 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw191: libnet-dns-perl
+* 20:08 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw172: libnet-dns-perl
+* 20:08 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw181: libnet-dns-perl
+* 20:07 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw163: libnet-dns-perl
+* 20:07 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw171: libnet-dns-perl
+* 20:07 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw161: libnet-dns-perl
+* 20:07 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw153: libnet-dns-perl
+* 20:06 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem191: libnet-dns-perl
+* 20:06 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw162: libnet-dns-perl
+* 20:06 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw152: libnet-dns-perl
+* 20:05 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mon181: libnet-dns-perl
+* 20:05 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw151: libnet-dns-perl
+* 20:05 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on llm191: libnet-dns-perl
+* 20:04 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem201: libnet-dns-perl
+* 20:04 MirahezeLSBot: [wwr@mwtask171] Finished import for shadowkeepwiki (XML: None; Images: ./images/) (END - exit=0)
+* 20:04 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=shadowkeepwiki --update (END - exit=0)
+* 20:04 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=shadowkeepwiki --update (START)
+* 20:04 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=shadowkeepwiki --sleep=1 '--comment=Importing images from [https://shreloaded.net](https://shreloaded.net) ([T15861](https://meta.miraheze.org/wiki/phorge:T15861))' --search-recursively -- ./images/ (END - exit=0)
+* 20:04 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem151: libnet-dns-perl
+* 20:04 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem161: libnet-dns-perl
+* 20:04 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on matomo151: libnet-dns-perl
+* 20:03 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ldap171: libnet-dns-perl
+* 20:03 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on kafka182: libnet-dns-perl
+* 20:03 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mattermost2: libnet-dns-perl
+* 20:03 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on graylog161: libnet-dns-perl
+* 20:02 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db181: libnet-dns-perl
+* 20:02 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp171: libnet-dns-perl
+* 20:02 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db201: libnet-dns-perl
+* 20:01 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db192: libnet-dns-perl
+* 20:01 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp191: libnet-dns-perl
+* 20:01 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on eventgate182: libnet-dns-perl
+* 20:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp201: libnet-dns-perl
+* 20:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db182: libnet-dns-perl
+* 20:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud18: libnet-dns-perl
+* 20:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db172: libnet-dns-perl
+* 19:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp161: libnet-dns-perl
+* 19:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud20: libnet-dns-perl
+* 19:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud17: libnet-dns-perl
+* 19:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud19: libnet-dns-perl
+* 19:58 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bast181: libnet-dns-perl
+* 19:58 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud16: libnet-dns-perl
+* 19:58 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud15: libnet-dns-perl
+* 19:58 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on changeprop202: libnet-dns-perl
+* 19:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db171: libnet-dns-perl
+* 19:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db161: libnet-dns-perl
+* 19:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db151: libnet-dns-perl
+* 19:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bots171: libnet-dns-perl
+* 19:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud21: libnet-dns-perl
+* 19:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bast161: libnet-dns-perl
+* 19:26 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=redstonewiki --update (END - exit=0)
+* 19:20 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=kfffwiki (END - exit=0)
+* 19:19 MirahezeLSBot: [wwr@mwtask161] (I forgot to log this before updating the search index config) curl -X DELETE [https://opensearch-mw.wikitide.net/kfffwiki_content](https://opensearch-mw.wikitide.net/kfffwiki_content) [https://opensearch-mw.wikitide.net/kfffwiki_general](https://opensearch-mw.wikitide.net/kfffwiki_general)
+* 19:18 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=kfffwiki --startOver (END - exit=0)
+* 19:17 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=kfffwiki --startOver (END - exit=256)
+* 19:16 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=kfffwiki --startOver (END - exit=256)
+* 19:16 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:ReplaceTextEligible --wiki=liberatedbackroomswiki (END - exit=0)
+* 19:16 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=kfffwiki --startOver (END - exit=256)
+* 19:06 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:ReplaceTextEligible --wiki=liberatedbackroomswiki (END - exit=0)
+* 18:08 MirahezeLSBot: [wwr@mwtask161] Finished import for dishonoredwiki (XML: ./zhdishonored_pages_full.xml; Images: None) (END - exit=0)
+* 18:07 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=dishonoredwiki --update (END - exit=0)
+* 18:07 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=dishonoredwiki --update (START)
+* 18:07 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=dishonoredwiki (END - exit=0)
+* 18:07 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=dishonoredwiki (START)
+* 18:07 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=dishonoredwiki (END - exit=0)
+* 17:48 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=dishonoredwiki (START)
+* 17:48 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=dishonoredwiki --no-updates --username-prefix=wikia:dishonored:zh -- ./zhdishonored_pages_full.xml (END - exit=0)
+* 16:56 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=dishonoredwiki --no-updates --username-prefix=wikia:dishonored:zh -- ./zhdishonored_pages_full.xml (START)
+* 16:56 MirahezeLSBot: [wwr@mwtask161] Starting import for dishonoredwiki (XML: ./zhdishonored_pages_full.xml; Images: None) (START)
+* 14:34 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=shadowkeepwiki --sleep=1 '--comment=Importing images from [https://shreloaded.net](https://shreloaded.net) ([T15861](https://meta.miraheze.org/wiki/phorge:T15861))' --search-recursively -- ./images/ (START)
+* 14:34 MirahezeLSBot: [wwr@mwtask171] Starting import for shadowkeepwiki (XML: None; Images: ./images/) (START)
+* 14:34 MirahezeLSBot: [wwr@mwtask171] Finished import for shadowkeepwiki (XML: None; Images: ./images/) (END - exit=-2)
+* 14:34 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=shadowkeepwiki --sleep=1 '--comment=Importing images from [https://shreloaded.net](https://shreloaded.net) ([T15861](https://meta.miraheze.org/wiki/phorge:T15861))' --search-recursively -- ./images/ (END - exit=-2)
+* 13:49 MirahezeLSBot: [wwr@mwtask161] Finished import for reinfectedrobloxwiki (XML: None; Images: ./images/) (END - exit=0)
+* 13:48 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=reinfectedrobloxwiki --update (END - exit=0)
+* 13:48 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=reinfectedrobloxwiki --update (START)
+* 13:48 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=reinfectedrobloxwiki --sleep=1 '--comment=Importing images from localhost ([T15884](https://meta.miraheze.org/wiki/phorge:T15884))' --search-recursively -- ./images/ (END - exit=0)
+* 13:22 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=shadowkeepwiki --sleep=1 '--comment=Importing images from [https://shreloaded.net](https://shreloaded.net) ([T15861](https://meta.miraheze.org/wiki/phorge:T15861))' --search-recursively -- ./images/ (START)
+* 13:22 MirahezeLSBot: [wwr@mwtask171] Starting import for shadowkeepwiki (XML: None; Images: ./images/) (START)
+* 13:22 MirahezeLSBot: [wwr@mwtask171] Finished import for shadowkeepwiki (XML: None; Images: ./images/) (END - exit=-2)
+* 13:22 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=shadowkeepwiki --sleep=1 '--comment=Importing images from [https://shreloaded.net](https://shreloaded.net) ([T15861](https://meta.miraheze.org/wiki/phorge:T15861))' --search-recursively -- ./images/ (END - exit=-2)
+* 13:21 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=reinfectedrobloxwiki --sleep=1 '--comment=Importing images from localhost ([T15884](https://meta.miraheze.org/wiki/phorge:T15884))' --search-recursively -- ./images/ (START)
+* 13:21 MirahezeLSBot: [wwr@mwtask161] Starting import for reinfectedrobloxwiki (XML: None; Images: ./images/) (START)
+* 12:46 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=shadowkeepwiki --sleep=1 '--comment=Importing images from [https://shreloaded.net](https://shreloaded.net) ([T15861](https://meta.miraheze.org/wiki/phorge:T15861))' --search-recursively -- ./images/ (START)
+* 12:46 MirahezeLSBot: [wwr@mwtask171] Starting import for shadowkeepwiki (XML: None; Images: ./images/) (START)
+* 02:36 MirahezeLSBot: [void@db151] restart sql-backup.service
+* 02:35 MirahezeLSBot: [void@db161] restart sql-backup.service
+* 02:35 MirahezeLSBot: [void@puppet181] restart graylog on graylog161 (jre update)
+* 02:35 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: openjdk-21-jdk, openjdk-21-jdk-headless, openjdk-21-jre, and openjdk-21-jre-headless
+* 01:42 MirahezeLSBot: [void@puppet181] restart kafka on kafka182 (jre update)
+* 01:41 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: openjdk-21-jre and openjdk-21-jre-headless
+* 01:35 MirahezeLSBot: [void@puppet181] restart opensearch on os* (jre update)
+* 01:34 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: openjdk-21-jdk, openjdk-21-jdk-headless, openjdk-21-jre, and openjdk-21-jre-headless
+* 01:34 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: openjdk-21-jdk, openjdk-21-jdk-headless, openjdk-21-jre, and openjdk-21-jre-headless
+* 01:34 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: openjdk-21-jdk, openjdk-21-jdk-headless, openjdk-21-jre, and openjdk-21-jre-headless
+* 01:33 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: openjdk-21-jdk, openjdk-21-jdk-headless, openjdk-21-jre, and openjdk-21-jre-headless
+* 01:33 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: openjdk-21-jdk, openjdk-21-jdk-headless, openjdk-21-jre, and openjdk-21-jre-headless
+* 01:33 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: openjdk-21-jdk, openjdk-21-jdk-headless, openjdk-21-jre, and openjdk-21-jre-headless
+* 01:31 MirahezeLSBot: [void@puppet181] restart puppetdb and puppetserver (jre update)
+* 01:29 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: openjdk-21-jdk, openjdk-21-jdk-headless, openjdk-21-jre, and openjdk-21-jre-headless
+
 ## 2026-08-21 
 
 * 22:37 MirahezeLSBot: [wwr@mwtask161] Finished import for shadowkeepwiki (XML: None; Images: ./images/) (END - exit=0)
