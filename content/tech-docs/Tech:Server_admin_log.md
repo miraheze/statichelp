@@ -2,6 +2,33 @@
 title: Tech:Server admin log
 ---
 
+## 2026-08-23 
+
+* 23:17 Universal Omega: start ircecho on mon181
+* 23:15 Universal Omega: enable and run puppet on all servers
+* 21:32 Universal Omega: stop ircecho on mon181
+* 21:32 Universal Omega: disable puppet on all servers
+* 20:21 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'l10n': True, 'versions': ['1.45', '1.46']} to test151 - SUCCESS in 396s
+* 20:20 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 20:20 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 20:20 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 20:20 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 20:14 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'l10n': True, 'versions': ['1.45', '1.46']} to test151
+* 20:14 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 20:13 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 20:13 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.45/extensions/Speedscope,1.46/extensions/Speedscope'} to test151 - SUCCESS in 0s
+* 20:13 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.45/extensions/Speedscope,1.46/extensions/Speedscope'} to test151
+* 20:13 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'folders': '1.45/extensions/Speedscope,1.46/extensions/Speedscope'} to test151
+* 20:12 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 20:12 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 20:01 SomeRandomDeveloper: cloned < [https://github.com/weirdgloop/mediawiki-extensions-Speedscope.git](https://github.com/weirdgloop/mediawiki-extensions-Speedscope.git)> into mediawiki-staging/1.45/extensions/Speedscope on test151
+* 19:37 Universal Omega: added speedscope.wikitide.net to cloudflare
+* 18:54 SomeRandomDeveloper: reenable puppet on puppet181
+* 18:47 SomeRandomDeveloper: deploying speedscope changes to cp*
+* 17:17 SomeRandomDeveloper: disabled puppet on puppet181
+* 17:14 SomeRandomDeveloper: disabled puppet on cp*
+* 17:13 SomeRandomDeveloper: added speedscope::log_token to private puppet on puppet181
+
 ## 2026-08-22 
 
 * 23:07 MirahezeLSBot: [wwr@test151] finished deploy of {'world': True, 'versions': '1.45'} to test151 - SUCCESS in 26s
