@@ -30,9 +30,19 @@ If this is not a VM on cloud infrastructure, please notify Infrastructure using 
 
 Ferm is a frontend for iptables. If this service fails, it should not mean there are no more firewall rules but no changes can be applied until it is fixed. We firstly need to check all firewall rules are present in iptables, restart the service and debug why it failed. This could be either sometimes DNS records will fail or a configuration file created might have incorrect syntax.
 
-## NTP 
+## Chrony 
 
-An NTP time offset which immediately corrects itself is not a major concern as long as it does not repeat consistently. If this is the case, or the deviation grows more and more, the clock should be manually reset (or automatically through NTP) to the correct time, UTC.
+Chrony is our NTP daemon and keeps the server's clock synchronized. The check compares chronyd's offset against thresholds of 50ms (warning) and 100ms (critical), and its stratum against 5 (warning) and 10 (critical); it also fails critical if chronyd cannot reach a working time source at all.
+
+A time offset or stratum alert which clears itself on the next check is not a major concern, as chrony is continuously correcting small drift on its own and stratum can shift briefly as chrony reselects sources. If it fires repeatedly, or the offset keeps growing, first check that chronyd is running and can reach its configured servers:
+
+```bash
+systemctl status chronyd
+chronyc tracking
+chronyc sources -v
+```
+
+*Reference ID: 00000000* in *chronyc tracking* means chrony has no working source at all; check network access to the configured NTP servers and any firewall rules in front of them. A high stratum usually means the upstream sources are themselves further from a reference clock than expected; check *chronyc sources -v* to see which source chrony picked and how many hops away it is. Otherwise, a large or growing offset usually resolves itself once chrony has had time to slew the clock; if it doesn't, chrony can step the clock back in line with a manual restart of chronyd.
 
 ## PowerDNS Recursor 
 
