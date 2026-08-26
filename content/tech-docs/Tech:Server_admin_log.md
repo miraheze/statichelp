@@ -2,6 +2,67 @@
 title: Tech:Server admin log
 ---
 
+## 2026-08-25 
+
+* 23:26 Universal Omega: disabled puppet on mw*, will remain disabled for a few hours, testing new AI on beta. Do not re-enable puppet without first reverting local changes on puppet181.
+* 23:14 MirahezeLSBot: [universalomega@test151] finished deploy of {'force_upgrade': True, 'versions': '1.46', 'upgrade_extensions': 'CreateWiki'} to test151 - SUCCESS in 8s
+* 23:13 MirahezeLSBot: [universalomega@test151] starting deploy of {'force_upgrade': True, 'versions': '1.46', 'upgrade_extensions': 'CreateWiki'} to test151
+* 22:18 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 22:18 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 22:18 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 22:18 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 21:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject201: linux-libc-dev, openssl-provider-legacy, libssl3t64, and openssl
+* 21:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject181: linux-libc-dev, openssl-provider-legacy, libssl3t64, and openssl
+* 21:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on test151: linux-libc-dev, openssl-provider-legacy, libssl-dev, libssl3t64, and openssl
+* 21:42 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject191: linux-libc-dev, openssl-provider-legacy, libssl3t64, and openssl
+* 21:42 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy171: linux-libc-dev, openssl-provider-legacy, libssl3t64, and openssl
+* 21:42 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject211: linux-libc-dev, openssl-provider-legacy, libssl3t64, and openssl
+* 21:41 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy161: linux-libc-dev, openssl-provider-legacy, libssl3t64, and openssl
+* 21:41 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os201: linux-libc-dev, openssl-provider-legacy, libssl3t64, and openssl
+* 21:41 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject171: linux-libc-dev, openssl-provider-legacy, libssl3t64, and openssl
+* 21:40 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject161: linux-libc-dev, openssl-provider-legacy, libssl3t64, and openssl
+* 21:40 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os191: linux-libc-dev, openssl-provider-legacy, libssl3t64, and openssl
+* 21:40 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os202: linux-libc-dev, openssl-provider-legacy, libssl3t64, and openssl
+* 21:39 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ns2: linux-libc-dev, openssl-provider-legacy, libssl3t64, and openssl
+* 21:39 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject151: linux-libc-dev, openssl-provider-legacy, libssl3t64, and openssl
+* 21:39 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on rdb191: linux-libc-dev, openssl-provider-legacy, libssl3t64, and openssl
+* 21:38 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os151: linux-libc-dev, openssl-provider-legacy, libssl3t64, and openssl
+* 21:38 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftac171: linux-libc-dev, openssl-provider-legacy, libssl3t64, and openssl
+* 21:38 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os162: linux-libc-dev, openssl-provider-legacy, libssl3t64, and openssl
+* 21:37 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on puppet181: openssl-provider-legacy, libssl3t64, linux-libc-dev, and openssl
+* 21:37 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on prometheus151: linux-libc-dev, openssl-provider-legacy, libssl3t64, and openssl
+* 21:37 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on reports171: linux-libc-dev, openssl-provider-legacy, libssl3t64, and openssl
+* 21:36 SomeRandomDeveloper: restarted irclogserverbot.service and logbot.service on bots171
+* 21:36 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on speedscope211: openssl-provider-legacy, libssl3t64, linux-libc-dev, and openssl
+* 21:36 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on phorge171: linux-libc-dev, openssl-provider-legacy, libssl3t64, and openssl
+* 21:36 SomeRandomDeveloper: test
+* 21:11 Universal Omega: removed public IPv6 address from test151
+* 17:45 Universal Omega: repool mw151, mw181, and mw193 in varnish on cp*
+* 17:38 Universal Omega: reboot mw151, mw181, and mw193
+* 17:38 Universal Omega: downtime mw151, mw181, and mw193 in icinga
+* 17:35 Universal Omega: depool mw151, mw181, and mw193 in varnish on cp*
+* 14:51 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 30s
+* 14:51 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 14:50 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to mwtask181 - SUCCESS in 1s
+* 14:49 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to mwtask181
+* 14:33 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 14:33 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 14:28 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True, 'force': True} to test151 - SUCCESS in 0s
+* 14:28 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True, 'force': True} to test151
+* 14:26 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True, 'force': True} to test151 - SUCCESS in 0s
+* 14:26 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True, 'force': True} to test151
+* 14:26 MirahezeLSBot: [somerandomdeveloper@test151] DEPLOY ABORTED: Canary check failed for meta.mirabeta.org@localhost
+* 14:25 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 14:25 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 14:25 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 01:31 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:ReplaceTextEligible --wiki=battlenationswiki (END - exit=33280)
+* 01:01 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'l10n': True, 'extension_list': True, 'versions': '1.45'} to all - SUCCESS in 516s
+* 00:52 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'l10n': True, 'extension_list': True, 'versions': '1.45'} to all
+* 00:46 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'Speedscope'} to all - SUCCESS in 63s
+* 00:45 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'Speedscope'} to all
+* 00:26 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/ConfirmEdit'} to test151 - SUCCESS in 0s
+* 00:26 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/ConfirmEdit'} to test151
+
 ## 2026-08-24 
 
 * 06:43 Universal Omega: start ircecho on mon181
