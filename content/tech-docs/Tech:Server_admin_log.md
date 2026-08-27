@@ -2,6 +2,29 @@
 title: Tech:Server admin log
 ---
 
+## 2026-08-26 
+
+* 22:31 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 22:30 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 22:30 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 22:30 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 20:13 Universal Omega: re-enable and run puppet on cloud*
+* 20:08 Universal Omega: disabled puppet on cloud*
+* 17:06 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 117s
+* 17:04 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'CreateWiki'} to all
+* 17:04 MirahezeLSBot: [universalomega@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 17:04 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'CreateWiki'} to all
+* 17:03 MirahezeLSBot: [universalomega@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 17:03 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'CreateWiki'} to all
+* 17:01 Universal Omega: re-enabled and ran puppet on mw*
+* 16:10 MirahezeLSBot: [universalomega@test151] finished deploy of {'force_upgrade': True, 'versions': ['1.45', '1.46'], 'upgrade_extensions': 'CreateWiki'} to test151 - SUCCESS in 18s
+* 16:10 MirahezeLSBot: [universalomega@test151] starting deploy of {'force_upgrade': True, 'versions': ['1.45', '1.46'], 'upgrade_extensions': 'CreateWiki'} to test151
+* 16:09 MirahezeLSBot: [universalomega@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 16:09 MirahezeLSBot: [universalomega@test151] starting deploy of {'force_upgrade': True, 'versions': ['1.45', '1.46'], 'upgrade_extensions': 'CreateWiki'} to test151
+* 16:09 MirahezeLSBot: [universalomega@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 16:09 MirahezeLSBot: [universalomega@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'CreateWiki'} to test151
+* 14:02 RhinosF1: bounce ircrcbot-MirahezeRC*
+
 ## 2026-08-25 
 
 * 23:26 Universal Omega: disabled puppet on mw*, will remain disabled for a few hours, testing new AI on beta. Do not re-enable puppet without first reverting local changes on puppet181.
