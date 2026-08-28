@@ -20,10 +20,10 @@ Every hour at :00, the service will take all profiles from the last hour and agg
 
 ## Links 
 
-* [https://speedscope.weirdgloop.org/](https://speedscope.weirdgloop.org/) - serves the [Speedscope UI](https://github.com/jlfwong/speedscope/), which can be used to view any compatible profile.
-* [https://speedscope.weirdgloop.org/view/PROFILE-ID](https://speedscope.weirdgloop.org/view/PROFILE-ID) - view a specific profile
-* [https://speedscope.weirdgloop.org/view/aggregation/latest/hourly](https://speedscope.weirdgloop.org/view/aggregation/latest/hourly) - view the latest hourly aggregation
-* [https://speedscope.weirdgloop.org/view/aggregation/latest/daily](https://speedscope.weirdgloop.org/view/aggregation/latest/daily) - view the latest daily aggregation
+* [https://speedscope.wikitide.net/](https://speedscope.wikitide.net/) - serves the [Speedscope UI](https://github.com/jlfwong/speedscope/), which can be used to view any compatible profile.
+* [https://speedscope.wikitide.net/view/PROFILE-ID](https://speedscope.wikitide.net/view/PROFILE-ID) - view a specific profile
+* [https://speedscope.wikitide.net/view/aggregation/latest/hourly](https://speedscope.wikitide.net/view/aggregation/latest/hourly) - view the latest hourly aggregation
+* [https://speedscope.wikitide.net/view/aggregation/latest/daily](https://speedscope.wikitide.net/view/aggregation/latest/daily) - view the latest daily aggregation
 * [https://speedscope.wikitide.net/aggregations](https://speedscope.wikitide.net/aggregations) - returns a JSON array with all currently available aggregations
 
 ## Categories
