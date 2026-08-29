@@ -2,6 +2,43 @@
 title: Tech:Server admin log
 ---
 
+## 2026-08-28 
+
+* 18:48 MirahezeLSBot: [universalomega@speedscope211] Speedscope fixed
+* 18:15 MirahezeLSBot: [universalomega@speedscope211] Speedscope is down, I am working on a fix.
+* 10:48 MirahezeLSBot: [petramagna@test151] finished deploy of {'l10n': True, 'extension_list': True, 'folders': '1.46/extensions/CreateWikiLoadout', 'versions': '1.46'} to test151 - SUCCESS in 53s
+* 10:47 MirahezeLSBot: [petramagna@test151] starting deploy of {'l10n': True, 'extension_list': True, 'folders': '1.46/extensions/CreateWikiLoadout', 'versions': '1.46'} to test151
+* 10:43 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/CreateWikiLoadout'} to test151 - SUCCESS in 0s
+* 10:43 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/CreateWikiLoadout'} to test151
+* 10:13 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CreateWikiLoadout:ImportLoadoutXmlDump --wiki=loadout6wikibeta --xml=/home/petramagna/loadout.xml (END - exit=0)
+* 10:11 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CreateWikiLoadot:ImportLoadoutXmlDump --wiki=loadout6wikibeta --xml=/home/petramagna/loadout.xml (END - exit=256)
+* 10:00 Reception123: imported manual DP exemption expiry dates into cw_wikis
+* 09:58 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/CreateWikiLoadout'} to test151 - SUCCESS in 0s
+* 09:58 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/CreateWikiLoadout'} to test151
+* 09:53 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importDump --wiki=loadout1wikibeta /home/petramagna/loadout.xml --no-updates (END - exit=0)
+* 09:53 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importDump --wiki=loadout1wikibeta /home/petramagna/loadout.xml --no-updates (START)
+* 08:59 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/CreateWikiLoadout'} to test151 - SUCCESS in 0s
+* 08:59 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/CreateWikiLoadout'} to test151
+* 08:50 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php updateSpecialPages --wiki=teflpediawiki (END - exit=0)
+* 07:57 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/CreateWikiLoadout'} to test151 - SUCCESS in 0s
+* 07:57 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/CreateWikiLoadout'} to test151
+* 07:49 MirahezeLSBot: [reception@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 07:48 MirahezeLSBot: [reception@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 07:12 MirahezeLSBot: [reception@mwtask181] finished deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 314s
+* 07:11 MirahezeLSBot: [reception@mwtask181] finished deploy of {'l10n': True, 'versions': '1.45'} to all - SUCCESS in 478s
+* 07:07 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 07:07 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 07:06 MirahezeLSBot: [reception@mwtask181] starting deploy of {'l10n': True, 'versions': '1.45', 'upgrade_extensions': 'ManageWiki'} to all
+* 07:03 MirahezeLSBot: [reception@mwtask181] starting deploy of {'l10n': True, 'versions': '1.45'} to all
+* 07:02 MirahezeLSBot: [reception@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 70s
+* 07:00 MirahezeLSBot: [reception@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.45', 'upgrade_extensions': 'CreateWiki'} to all
+* 07:00 MirahezeLSBot: [reception@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 0s
+* 07:00 MirahezeLSBot: [reception@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'CreateWiki'} to all
+* 06:56 MirahezeLSBot: [reception@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_extensions': 'CreateWiki'} to all
+* 06:55 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/CreateWikiLoadout'} to test151 - SUCCESS in 0s
+* 06:55 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/CreateWikiLoadout'} to test151
+* 06:54 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/CreateWikiLoadout'} to test151
+
 ## 2026-08-27 
 
 * 20:13 Universal Omega: restart mariadb on db161
