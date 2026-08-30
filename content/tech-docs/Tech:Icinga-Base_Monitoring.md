@@ -26,9 +26,26 @@ If additional disk space is required, please file a [server resource request](ht
 
 If this is not a VM on cloud infrastructure, please notify Infrastructure using a generic Phorge task, so decisions can be made regarding how to resolve the alert.
 
-## Ferm 
+## Nftables 
 
-Ferm is a frontend for iptables. If this service fails, it should not mean there are no more firewall rules but no changes can be applied until it is fixed. We firstly need to check all firewall rules are present in iptables, restart the service and debug why it failed. This could be either sometimes DNS records will fail or a configuration file created might have incorrect syntax.
+Nftables is our firewall, responsible for all packet filtering on the server. If the service fails to reload, the ruleset already loaded in the kernel stays active, meaning a failed reload does not remove existing rules, it just means no further firewall changes will take effect until the service is fixed.
+
+Check the service status and the reason for the failure first:
+```bash
+sudo service nftables status
+sudo journalctl -u nftables -n 50
+```
+
+Most failures are a syntax error in one of the rule fragments under /etc/nftables/. The journal output will point at the specific file and line number. Before reloading again, it's worth confirming the full ruleset actually compiles:
+```bash
+sudo nft -c -f /etc/nftables/main.nft
+```
+
+Once the underlying fragment is fixed (usually by the next Puppet run), restart the service and confirm the ruleset loaded correctly:
+```bash
+sudo service nftables restart
+sudo nft list ruleset
+```
 
 ## Chrony 
 

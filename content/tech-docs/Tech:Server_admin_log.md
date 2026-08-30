@@ -2,6 +2,113 @@
 title: Tech:Server admin log
 ---
 
+## 2026-08-29 
+
+* 21:54 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 21:54 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 21:52 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 21:52 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 21:47 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 21:47 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 21:46 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=youyangzazuwiki (END - exit=0)
+* 21:46 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 21:46 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 21:46 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=youyangzazuwiki --startOver (END - exit=0)
+* 21:45 MirahezeLSBot: [wwr@mwtask171] curl -X DELETE [https://opensearch-mw.wikitide.net/youyangzazuwiki_content](https://opensearch-mw.wikitide.net/youyangzazuwiki_content) [https://opensearch-mw.wikitide.net/youyangzazuwiki_general](https://opensearch-mw.wikitide.net/youyangzazuwiki_general)
+* 21:44 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=youyangzazuwiki --startOver (END - exit=256)
+* 21:22 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on test151: linux-libc-dev
+* 21:22 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy161: linux-libc-dev
+* 21:22 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy171: linux-libc-dev
+* 21:22 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject181: linux-libc-dev
+* 21:21 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject201: linux-libc-dev
+* 21:21 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject191: linux-libc-dev
+* 21:21 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftac171: linux-libc-dev
+* 21:20 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject161: linux-libc-dev
+* 21:20 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject171: linux-libc-dev
+* 21:20 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject151: linux-libc-dev
+* 21:19 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject211: linux-libc-dev
+* 21:19 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ns2: linux-libc-dev
+* 21:19 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os202: linux-libc-dev
+* 21:18 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os191: linux-libc-dev
+* 21:18 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on rdb191: linux-libc-dev
+* 21:18 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on reports171: linux-libc-dev
+* 21:18 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on puppet181: linux-libc-dev
+* 21:17 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on prometheus151: linux-libc-dev
+* 21:17 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on speedscope211: linux-libc-dev
+* 21:17 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os201: linux-libc-dev
+* 21:16 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os151: linux-libc-dev
+* 21:16 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on phorge171: linux-libc-dev
+* 21:16 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os162: linux-libc-dev
+* 21:16 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os161: linux-libc-dev
+* 21:15 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw201: linux-libc-dev
+* 21:15 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask181: linux-libc-dev
+* 21:15 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw202: linux-libc-dev
+* 21:14 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw203: linux-libc-dev
+* 21:14 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask151: linux-libc-dev
+* 21:14 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw191: linux-libc-dev
+* 21:13 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask171: linux-libc-dev
+* 21:13 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask161: linux-libc-dev
+* 21:13 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on kafka182: linux-libc-dev
+* 21:12 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ns1: linux-libc-dev
+* 21:12 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw192: linux-libc-dev
+* 21:12 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw193: linux-libc-dev
+* 21:12 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw163: linux-libc-dev
+* 21:11 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem191: linux-libc-dev
+* 21:11 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw183: linux-libc-dev
+* 21:11 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw171: linux-libc-dev
+* 21:10 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw162: linux-libc-dev
+* 21:10 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw182: linux-libc-dev
+* 21:10 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw153: linux-libc-dev
+* 21:09 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw151: linux-libc-dev
+* 21:09 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw161: linux-libc-dev
+* 21:09 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw181: linux-libc-dev
+* 21:08 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw173: linux-libc-dev
+* 21:08 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on llm191: linux-libc-dev
+* 21:08 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw152: linux-libc-dev
+* 21:07 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw172: linux-libc-dev
+* 21:07 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on matomo151: linux-libc-dev
+* 21:07 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem201: linux-libc-dev
+* 21:07 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db201: linux-libc-dev
+* 21:06 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mon181: linux-libc-dev
+* 21:06 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem161: linux-libc-dev
+* 21:06 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem151: linux-libc-dev
+* 21:05 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db192: linux-libc-dev
+* 21:05 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on changeprop202: linux-libc-dev
+* 21:05 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ldap171: linux-libc-dev
+* 21:04 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mattermost2: linux-libc-dev
+* 21:04 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on graylog161: linux-libc-dev
+* 21:04 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud19: linux-libc-dev, libcpupower1, and linux-cpupower
+* 21:04 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud18: linux-libc-dev, libcpupower1, and linux-cpupower
+* 21:03 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db181: linux-libc-dev
+* 21:03 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp201: linux-libc-dev
+* 21:03 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud20: linux-libc-dev, libcpupower1, and linux-cpupower
+* 21:02 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on eventgate182: linux-libc-dev
+* 21:02 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bast181: linux-libc-dev
+* 21:02 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db161: linux-libc-dev
+* 21:02 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db182: linux-libc-dev
+* 21:01 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud17: linux-libc-dev, libcpupower1, and linux-cpupower
+* 21:01 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp191: linux-libc-dev
+* 21:01 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp171: linux-libc-dev
+* 21:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud16: linux-libc-dev, libcpupower1, and linux-cpupower
+* 21:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud15: linux-libc-dev, libcpupower1, and linux-cpupower
+* 21:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud21: linux-libc-dev, libcpupower1, and linux-cpupower
+* 21:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db151: linux-libc-dev
+* 20:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bast161: linux-libc-dev
+* 20:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db172: linux-libc-dev
+* 20:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db171: linux-libc-dev
+* 20:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp161: linux-libc-dev
+* 20:58 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bots171: linux-libc-dev
+* 20:07 Universal Omega: sudo apt autoremove -y on all servers to cleanup ferm dependencies no longer needed
+* 20:07 Universal Omega: switched from iptables to nftables in proxmox on cloud*
+* 19:50 MirahezeLSBot: [universalomega@cloud18] restart pve-cluster
+* 19:47 MirahezeLSBot: [void@cloud15] restart pve-cluster.service (does not affect running vms)
+* 18:14 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 18:14 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 18:06 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 18:06 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 00:50 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php updateSpecialPages --wiki=battlecatswiki (END - exit=0)
+* 00:28 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php updateSpecialPages --wiki=battlecatswiki (END - exit=0)
+
 ## 2026-08-28 
 
 * 18:48 MirahezeLSBot: [universalomega@speedscope211] Speedscope fixed
