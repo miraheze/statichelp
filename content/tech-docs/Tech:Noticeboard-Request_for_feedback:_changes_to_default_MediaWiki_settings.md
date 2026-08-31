@@ -1,5 +1,5 @@
 ---
-title: Tech:Noticeboard/Request for feedback: changes to default MediaWiki settings
+title: "Tech:Noticeboard/Request for feedback: changes to default MediaWiki settings"
 ---
 
 __NEWSECTIONLINK__I am proposing several changes to Miraheze's default MediaWiki configuration. This page will gather community feedback for the Technology Team's consideration. Proposals that are well-received by both the community and the Tech Team will be actioned.
