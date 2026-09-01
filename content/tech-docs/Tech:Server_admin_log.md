@@ -2,6 +2,53 @@
 title: Tech:Server admin log
 ---
 
+## 2026-09-01 
+
+* 00:00 MirahezeLSBot: [www-data@mwtask181] Began automatic backing up
+
+## 2026-08-31 
+
+* 21:23 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:ReplaceTextEligible --wiki=animalswiki (END - exit=0)
+* 19:27 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'config': True} to all - SUCCESS in 28s
+* 19:27 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'config': True} to all
+* 19:21 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to mwtask181 - SUCCESS in 1s
+* 19:21 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to mwtask181
+* 19:21 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 19:21 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 19:17 MirahezeLSBot: [somerandomdeveloper@test151] sudo rm /srv/mediawiki/cache/databases.php
+* 19:17 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 19:17 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 19:06 MirahezeLSBot: [somerandomdeveloper@test151] sudo rm /srv/mediawiki/cache/databases.php
+* 19:06 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 19:06 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'config': True} to test151
+* 17:24 MirahezeLSBot: [universalomega@puppet181] Enable and run puppet on all servers
+* 17:23 MirahezeLSBot: [universalomega@mon181] Start ircecho
+* 17:07 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php namespaceDupes --wiki=doorswiki --fix --add-prefix '_(old)' (END - exit=0)
+* 17:07 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php namespaceDupes --wiki=doorswiki --fix --add-prefix _(old) (END - exit=512)
+* 17:06 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php namespaceDupes --wiki=doorswiki --fix (END - exit=0)
+* 16:40 MirahezeLSBot: [universalomega@puppet181] Disable puppet on all servers
+* 16:40 MirahezeLSBot: [universalomega@mon181] Stop ircecho
+* 09:19 MirahezeLSBot: [petramagna@test151] finished deploy of {'l10n': True, 'extension_list': True, 'folders': '1.46/extensions/CreateWiki', 'versions': '1.46'} to test151 - SUCCESS in 21s
+* 09:19 MirahezeLSBot: [petramagna@test151] starting deploy of {'l10n': True, 'extension_list': True, 'folders': '1.46/extensions/CreateWiki', 'versions': '1.46'} to test151
+* 09:17 MirahezeLSBot: [petramagna@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 09:17 MirahezeLSBot: [petramagna@test151] starting deploy of {'l10n': True, 'extension_list': True, 'folders': '1.46/extensions/CreateWiki', 'versions': '1.46'} to test151
+* 09:17 MirahezeLSBot: [petramagna@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 09:17 MirahezeLSBot: [petramagna@test151] starting deploy of {'l10n': True, 'folders': '1.46/extensions/CreateWiki', 'versions': '1.46'} to test151
+* 09:17 MirahezeLSBot: [petramagna@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 09:17 MirahezeLSBot: [petramagna@test151] starting deploy of {'l10n': True, 'folders': '1.46/extensions/CreateWiki', 'versions': '1.46'} to test151
+* 05:51 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 05:51 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 05:37 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 05:37 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 03:59 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=bzsywiki (END - exit=0)
+* 03:58 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=binzhouexperimentalschoolwikiwiki --new=bzsywiki --user=MacFan4000 (END - exit=0)
+* 03:50 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=fcmlabwiki (END - exit=0)
+* 03:49 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=fcmgroupwiki --new=fcmlabwiki --user=MacFan4000 (END - exit=0)
+* 03:30 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=bizarreversewikiwiki (END - exit=0)
+* 03:28 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=bizarrecreatureswikiwiki --new=bizarreversewikiwiki --user=MacFan4000 (END - exit=0)
+* 01:21 MirahezeLSBot: [universalomega@puppet181] Add new ns2 to puppet
+* 01:02 MirahezeLSBot: [universalomega@puppet181] Remove old ns2 from puppet
+
 ## 2026-08-30 
 
 * 22:13 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
