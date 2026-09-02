@@ -4,6 +4,14 @@ title: Tech:Server admin log
 
 ## 2026-09-01 
 
+* 19:04 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': '1.46', 'upgrade_extensions': 'ConfirmEdit'} to test151 - SUCCESS in 9s
+* 19:04 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': '1.46', 'upgrade_extensions': 'ConfirmEdit'} to test151
+* 19:03 MirahezeLSBot: [petramagna@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 19:03 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': '1.46', 'upgrade_extensions': 'ConfirmEdit'} to test151
+* 16:40 TheWWRNerdGuy: regular jiggery-pokery with wiki resets for entrenchedrobloxwiki
+* 16:38 MirahezeLSBot: [wwr@mwtask171] fixconts --wiki entrenchedrobloxwiki
+* 16:35 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=entrenchedrobloxwiki --requester='Okepesia' (END - exit=0)
+* 13:35 @paladox: install awscli on test151
 * 00:00 MirahezeLSBot: [www-data@mwtask181] Began automatic backing up
 
 ## 2026-08-31 
