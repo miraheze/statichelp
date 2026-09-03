@@ -2,6 +2,64 @@
 title: Tech:Server admin log
 ---
 
+## 2026-09-02 
+
+* 22:30 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=doorswiki (END - exit=0)
+* 22:28 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=doorswiki --from=69Anormal69 --to=Anormal1 --import-prefix=doorsgame (END - exit=0)
+* 22:26 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php reassignEdits --wiki=doorswiki 69Anormal69 Anormal1 (END - exit=0)
+* 20:48 Universal Omega: drop dpl_clview on all databases it still existed (around 20 databases across all db servers)
+* 18:50 MirahezeLSBot: [wwr@mwtask161] Finished import for ggbondwiki (XML: None; Images: images/) (END - exit=0)
+* 18:50 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=ggbondwiki --update (END - exit=0)
+* 18:50 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=ggbondwiki --update (START)
+* 18:50 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=ggbondwiki --sleep=1 '--comment=Importing images from [https://gg-bond.fandom.com/ru](https://gg-bond.fandom.com/ru) ([T15918](https://meta.miraheze.org/wiki/phorge:T15918))' -- images/ (END - exit=0)
+* 17:16 MirahezeLSBot: [wwr@mwtask171] Finished import for tprrwiki (XML: theremasteredroleplay_pages_full.xml; Images: None) (END - exit=0)
+* 17:16 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=tprrwiki --update (END - exit=0)
+* 17:16 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=tprrwiki --update (START)
+* 17:16 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=tprrwiki (END - exit=0)
+* 17:16 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=tprrwiki (START)
+* 17:16 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=tprrwiki (END - exit=0)
+* 15:59 MirahezeLSBot: [wwr@mwtask181] Finished import for politicssimwiki (XML: t.xml; Images: None) (END - exit=0)
+* 15:59 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=politicssimwiki --update (END - exit=0)
+* 15:59 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=politicssimwiki --update (START)
+* 15:59 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=politicssimwiki (END - exit=0)
+* 15:58 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=politicssimwiki (START)
+* 15:58 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=politicssimwiki (END - exit=0)
+* 15:53 MirahezeLSBot: [petramagna@mwtask181] Dropped compat patches for Citizen in T15192
+* 15:53 MirahezeLSBot: [petramagna@mwtask181] --help
+* 15:50 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': '1.45', 'upgrade_skins': 'Citizen'} to all - SUCCESS in 77s
+* 15:49 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'versions': '1.45', 'upgrade_skins': 'Citizen'} to all
+* 15:47 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_skins': 'Citizen'} to test151 - SUCCESS in 16s
+* 15:47 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_skins': 'Citizen'} to test151
+* 15:47 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=tprrwiki (START)
+* 15:47 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=tprrwiki --no-updates --username-prefix=wikia:theremasteredroleplay -- theremasteredroleplay_pages_full.xml (END - exit=0)
+* 15:47 MirahezeLSBot: [petramagna@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 15:47 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_skins': 'Citizen'} to test151
+* 13:43 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=politicssimwiki (START)
+* 13:43 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=politicssimwiki --no-updates --username-prefix=mh:wakefieldmars -- t.xml (END - exit=0)
+* 13:34 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=ggbondwiki --sleep=1 '--comment=Importing images from [https://gg-bond.fandom.com/ru](https://gg-bond.fandom.com/ru) ([T15918](https://meta.miraheze.org/wiki/phorge:T15918))' -- images/ (START)
+* 13:34 MirahezeLSBot: [wwr@mwtask161] Starting import for ggbondwiki (XML: None; Images: images/) (START)
+* 13:29 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=politicssimwiki --no-updates --username-prefix=mh:wakefieldmars -- t.xml (START)
+* 13:29 MirahezeLSBot: [wwr@mwtask181] Starting import for politicssimwiki (XML: t.xml; Images: None) (START)
+* 13:23 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=kamenriderwiki --no-updates --username-prefix=wikia:kamenrider -- kamenrider_pages_full.xml (START)
+* 13:22 MirahezeLSBot: [wwr@mwtask151] Starting import for kamenriderwiki (XML: kamenrider_pages_full.xml; Images: None) (START)
+* 13:21 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php updateSpecialPages --wiki=fantendowiki (END - exit=0)
+* 13:19 MirahezeLSBot: [wwr@mwtask161] Finished import for fantendowiki (XML: None; Images: images/) (END - exit=0)
+* 13:19 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=fantendowiki --update (END - exit=0)
+* 13:19 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=fantendowiki --update (START)
+* 13:18 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=fantendowiki --sleep=0 '--comment=Importing images from [https://fantendo.fandom.com](https://fantendo.fandom.com) ([T15949](https://meta.miraheze.org/wiki/phorge:T15949))' -- images/ (END - exit=0)
+* 13:16 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=fantendowiki --sleep=0 '--comment=Importing images from [https://fantendo.fandom.com](https://fantendo.fandom.com) ([T15949](https://meta.miraheze.org/wiki/phorge:T15949))' -- images/ (START)
+* 13:16 MirahezeLSBot: [wwr@mwtask161] Starting import for fantendowiki (XML: None; Images: images/) (START)
+* 13:15 MirahezeLSBot: [wwr@mwtask161] Finished import for fantendowiki (XML: None; Images: images/) (END - exit=-2)
+* 13:15 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=fantendowiki --sleep=1 '--comment=Importing images from [https://fantendo.fandom.com](https://fantendo.fandom.com) ([T15949](https://meta.miraheze.org/wiki/phorge:T15949))' -- images/ (END - exit=-2)
+* 13:15 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=fantendowiki --sleep=1 '--comment=Importing images from [https://fantendo.fandom.com](https://fantendo.fandom.com) ([T15949](https://meta.miraheze.org/wiki/phorge:T15949))' -- images/ (START)
+* 13:15 MirahezeLSBot: [wwr@mwtask161] Starting import for fantendowiki (XML: None; Images: images/) (START)
+* 13:03 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=tprrwiki --no-updates --username-prefix=wikia:theremasteredroleplay -- theremasteredroleplay_pages_full.xml (START)
+* 13:03 MirahezeLSBot: [wwr@mwtask171] Starting import for tprrwiki (XML: theremasteredroleplay_pages_full.xml; Images: None) (START)
+* 12:02 MirahezeLSBot: [paladox@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 12:02 MirahezeLSBot: [paladox@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 12:02 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 12:01 MirahezeLSBot: [paladox@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
 ## 2026-09-01 
 
 * 19:04 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': '1.46', 'upgrade_extensions': 'ConfirmEdit'} to test151 - SUCCESS in 9s

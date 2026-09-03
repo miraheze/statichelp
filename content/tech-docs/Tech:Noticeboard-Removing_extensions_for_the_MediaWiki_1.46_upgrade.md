@@ -102,6 +102,7 @@ Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna
       If timing is important, the main page can be purged manually. Alternatively, UpdateDaily should cover this use case as well, though it'll be off by at most 24 hours.
       In general, disabling the parser cache so that it doesn't need to be purged once seems wasteful. There could be thousands of page views each triggering a separate parse, even though only 2 parses are needed (once during page save and once after the designated time has passed). [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 03:52, 26 August 2026 (UTC)
          That works. [RandomUser123789](https://meta.miraheze.org/wiki/User:RandomUser123789) ([talk](https://meta.miraheze.org/wiki/User_talk:RandomUser123789)) 05:04, 26 August 2026 (UTC)
+   I use MagicNoCache on the Unbound Wiki's Main Page, as it has a table that gets updated daily to show different information each day. That being said, the proposed UpdateDaily extension would work fine for my purposes. [RubyRaven](https://meta.miraheze.org/wiki/User:RubyRaven) ([talk](https://meta.miraheze.org/wiki/User_talk:RubyRaven)) 03:19, 2 September 2026 (UTC)
 
 ## Extension:GeoGebra
 
