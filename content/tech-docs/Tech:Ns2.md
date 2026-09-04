@@ -10,7 +10,7 @@ title: Tech:Ns2
 | usage = DNS
 | status = running
 | memory = 4GB
-| cpu = 2 core
+| cpu = 2 cores
 | nvme = 42GB
 | nvme type = U.2
 | os = Debian 13

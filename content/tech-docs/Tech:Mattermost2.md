@@ -10,7 +10,7 @@ title: Tech:Mattermost2
 | usage = Mattermost
 | status = running
 | memory = 8GB
-| cpu = 4 core
+| cpu = 4 cores
 | nvme = 80GB
 | nvme type = U.2
 | os = Debian 13

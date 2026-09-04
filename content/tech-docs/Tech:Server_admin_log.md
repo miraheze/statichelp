@@ -2,6 +2,17 @@
 title: Tech:Server admin log
 ---
 
+## 2026-09-03 
+
+* 18:15 MirahezeLSBot: [wwr@mwtask151] Finished import for kamenriderwiki (XML: kamenrider_pages_full.xml; Images: None) (END - exit=0)
+* 18:15 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=kamenriderwiki --update (END - exit=0)
+* 18:14 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=kamenriderwiki --update (START)
+* 18:14 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=kamenriderwiki (END - exit=0)
+* 18:14 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=kamenriderwiki (START)
+* 18:14 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=kamenriderwiki (END - exit=0)
+* 02:38 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=kamenriderwiki (START)
+* 02:38 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=kamenriderwiki --no-updates --username-prefix=wikia:kamenrider -- kamenrider_pages_full.xml (END - exit=0)
+
 ## 2026-09-02 
 
 * 22:30 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=doorswiki (END - exit=0)

@@ -10,7 +10,7 @@ title: Tech:Llm191
 | usage = CreateWiki AI
 | status = running
 | memory = 34GB
-| cpu = 6 core
+| cpu = 6 cores
 | nvme = 123GB
 | nvme type = U.2
 | os = Debian 13
