@@ -2,6 +2,23 @@
 title: Tech:Server admin log
 ---
 
+## 2026-09-04 
+
+* 23:32 @paladox: [root@matomo151:/srv/matomo]# ./console core:purge-broken-archive-data 2026-01 2026-09
+* 23:29 @paladox: reboot matomo151
+* 21:11 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=eupharoswiki (END - exit=0)
+* 21:10 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=grandanchorwiki --new=eupharoswiki --user=MacFan4000 (END - exit=0)
+* 21:00 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=longnightdawningwiki (END - exit=0)
+* 20:57 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=orderbeyondrdfwiki --new=longnightdawningwiki --user=MacFan4000 (END - exit=0)
+* 16:09 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=wixosswiki (END - exit=0)
+* 15:57 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=xyywiki (END - exit=0)
+* 13:04 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=ggbondwiki (END - exit=0)
+* 13:04 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=ggbondwiki --from=AsterFiba123 --to=AsterFiba --import-prefix=wikia:gg-bond (END - exit=0)
+* 13:04 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=ggbondwiki --from=Catugoddo048 --to=Ctgd --import-prefix=wikia:gg-bond (END - exit=0)
+* 13:03 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=ggbondwiki --from=Bondreik --to=Rudenko042 --import-prefix=wikia:gg-bond (END - exit=0)
+* 08:23 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:GenerateMirahezeSitemap --wiki=strinovawiki (END - exit=0)
+* 08:23 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=strinovawiki (END - exit=0)
+
 ## 2026-09-03 
 
 * 18:15 MirahezeLSBot: [wwr@mwtask151] Finished import for kamenriderwiki (XML: kamenrider_pages_full.xml; Images: None) (END - exit=0)
