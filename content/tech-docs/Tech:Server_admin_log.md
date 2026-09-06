@@ -2,6 +2,22 @@
 title: Tech:Server admin log
 ---
 
+## 2026-09-05 
+
+* 21:53 @paladox: restart haproxy on cp191
+* 21:51 @paladox: restart varnish on cp191
+* 12:17 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=doorswiki (END - exit=0)
+* 12:16 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=doorswiki --from=Noobyguy775 --to=Noobyguy775 --import-prefix=doorsgame (END - exit=0)
+* 12:12 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 19s
+* 12:12 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 12:02 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 20s
+* 02:18 SomeRandomDeveloper: upgraded EmbedVideo for T15975
+* 00:30 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 18s
+* 00:30 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 00:30 MirahezeLSBot: [petramagna@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@localhost
+* 00:29 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'config': True} to all
+* 00:24 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 20s
+
 ## 2026-09-04 
 
 * 23:32 @paladox: [root@matomo151:/srv/matomo]# ./console core:purge-broken-archive-data 2026-01 2026-09
