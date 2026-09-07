@@ -2,6 +2,97 @@
 title: Tech:Server admin log
 ---
 
+## 2026-09-06 
+
+* 21:24 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: libde265-0
+* 21:24 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: libde265-0
+* 21:24 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: libde265-0
+* 21:23 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: libde265-0
+* 21:23 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libde265-0
+* 21:23 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: libde265-0
+* 21:22 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: libde265-0
+* 21:22 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: libde265-0
+* 21:22 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: libde265-0
+* 21:21 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: libde265-0
+* 21:21 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: libde265-0
+* 21:21 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: libde265-0
+* 21:21 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: libde265-0
+* 21:20 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: libde265-0
+* 21:20 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: libde265-0
+* 21:19 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: libde265-0
+* 21:19 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: libde265-0
+* 21:19 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: libde265-0
+* 21:19 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: libde265-0
+* 21:18 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: libde265-0
+* 21:18 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: libde265-0
+* 21:18 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: libde265-0
+* 21:17 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: libde265-0
+* 21:17 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: libde265-0
+* 21:17 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libde265-0
+* 21:17 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: libde265-0
+* 21:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: libde265-0
+* 21:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: libde265-0
+* 21:15 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: libde265-0
+* 21:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: libde265-0
+* 21:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: libde265-0
+* 21:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: libde265-0
+* 21:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: libde265-0
+* 21:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: libde265-0
+* 21:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: libde265-0
+* 21:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: libde265-0
+* 21:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: libde265-0
+* 21:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: libde265-0
+* 21:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: libde265-0
+* 21:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: libde265-0
+* 21:12 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php Bucket:CreateInitialSchemaForBucketIssues --wiki=stellasorawiki (END - exit=0)
+* 21:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: libde265-0
+* 21:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: libde265-0
+* 21:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: libde265-0
+* 21:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: libde265-0
+* 21:11 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: libde265-0
+* 21:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: libde265-0
+* 21:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: libde265-0
+* 21:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: libde265-0
+* 21:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: libde265-0
+* 21:09 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo211: libde265-0
+* 21:09 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: libde265-0
+* 21:09 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: libde265-0
+* 21:08 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: libde265-0
+* 21:07 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: libde265-0
+* 21:07 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: libde265-0
+* 21:07 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: libde265-0
+* 21:07 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: libde265-0
+* 21:06 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: libde265-0
+* 21:06 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: libde265-0
+* 21:06 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: libde265-0
+* 21:05 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: libde265-0
+* 21:05 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: libde265-0
+* 21:05 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: libde265-0
+* 21:05 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: libde265-0
+* 21:04 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: libde265-0
+* 21:04 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: libde265-0
+* 21:04 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: libde265-0
+* 21:03 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: libde265-0
+* 21:03 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: libde265-0
+* 21:03 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: libde265-0
+* 21:03 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: libde265-0
+* 20:28 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=aiwiki (END - exit=0)
+* 20:20 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=aiwiki --startOver (END - exit=0)
+* 20:20 MirahezeLSBot: [wwr@mwtask171] curl -X DELETE [https://opensearch-mw.wikitide.net/aiwiki_content](https://opensearch-mw.wikitide.net/aiwiki_content) [https://opensearch-mw.wikitide.net/aiwiki_general](https://opensearch-mw.wikitide.net/aiwiki_general)
+* 20:14 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php updateSpecialPages --wiki=findthebrickswiki (END - exit=0)
+* 19:44 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CreateWiki:StoreLoadoutXmlDump --wiki=metawikibeta --loadout=default --file=/home/petramagna/loadout.xml (END - exit=0)
+* 19:39 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CreateWiki:StoreLoadoutXmlDump --wiki=metawikibeta --loadout=default --file=/home/petramagna/loadout.xml (END - exit=256)
+* 19:39 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/CreateWiki'} to test151 - SUCCESS in 0s
+* 19:39 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/CreateWiki'} to test151
+* 19:38 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 19:38 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 17:58 MirahezeLSBot: [universalomega@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:ToggleExtension --wiki=metawikibeta --name=mobiletabsplugin --disable --all-wikis --execute (END - exit=0)
+* 17:58 MirahezeLSBot: [universalomega@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:ToggleExtension --wiki=metawikibeta --name=growthexpiriments --disable --all-wikis --execute (END - exit=0)
+* 17:58 MirahezeLSBot: [universalomega@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:ToggleExtension --wiki=metawikibeta --name=growthexpiriments --disable --all-wikis (END - exit=512)
+* 04:40 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 19s
+* 04:39 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 04:38 Universal Omega: reboot db161 from cloud16 host
+
 ## 2026-09-05 
 
 * 21:53 @paladox: restart haproxy on cp191
