@@ -2,6 +2,85 @@
 title: Tech:Server admin log
 ---
 
+## 2026-09-07 
+
+* 21:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: libjbig2dec0
+* 21:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: libjbig2dec0
+* 21:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: libjbig2dec0
+* 21:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: libjbig2dec0
+* 21:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: libjbig2dec0
+* 21:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: libjbig2dec0
+* 21:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: libjbig2dec0
+* 21:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: libjbig2dec0
+* 21:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: libjbig2dec0
+* 21:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: libjbig2dec0
+* 21:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: libjbig2dec0
+* 21:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: libjbig2dec0
+* 21:01 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: strongswan-starter, libcharon-extauth-plugins, libcharon-extra-plugins, strongswan-pki, strongswan-libcharon, strongswan-charon, libstrongswan, libstrongswan-standard-plugins, and libjbig2dec0
+* 21:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: libjbig2dec0
+* 21:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: libjbig2dec0
+* 21:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: libjbig2dec0
+* 20:59 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: libjbig2dec0
+* 20:59 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libjbig2dec0
+* 20:59 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: libjbig2dec0
+* 20:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: libjbig2dec0
+* 20:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: libjbig2dec0
+* 20:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: libjbig2dec0
+* 20:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: libjbig2dec0
+* 16:00 MirahezeLSBot: [wwr@mwtask151] Finished import for kardswiki (XML: None; Images: images/) (END - exit=0)
+* 16:00 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=kardswiki --update (END - exit=0)
+* 16:00 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=kardswiki --update (START)
+* 16:00 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=kardswiki --sleep=1 '--comment=Importing images from [https://kards.fandom.com/zh](https://kards.fandom.com/zh) ([T15984](https://meta.miraheze.org/wiki/phorge:T15984))' -- images/ (END - exit=0)
+* 15:59 MirahezeLSBot: [wwr@mwtask161] Finished import for ptbrdoorswiki (XML: ptbrdoorsgame_pages_full.xml; Images: None) (END - exit=0)
+* 15:59 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=ptbrdoorswiki --update (END - exit=0)
+* 15:59 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=ptbrdoorswiki --update (START)
+* 15:59 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=ptbrdoorswiki (END - exit=0)
+* 15:59 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=ptbrdoorswiki (START)
+* 15:59 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=ptbrdoorswiki (END - exit=0)
+* 15:39 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=ptbrdoorswiki (START)
+* 15:39 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=ptbrdoorswiki --no-updates --username-prefix=wikia:doors-game:pt-br -- ptbrdoorsgame_pages_full.xml (END - exit=0)
+* 15:14 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=ptbrdoorswiki --no-updates --username-prefix=wikia:doors-game:pt-br -- ptbrdoorsgame_pages_full.xml (START)
+* 15:14 MirahezeLSBot: [wwr@mwtask161] Starting import for ptbrdoorswiki (XML: ptbrdoorsgame_pages_full.xml; Images: None) (START)
+* 15:08 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=kardswiki --sleep=1 '--comment=Importing images from [https://kards.fandom.com/zh](https://kards.fandom.com/zh) ([T15984](https://meta.miraheze.org/wiki/phorge:T15984))' -- images/ (START)
+* 15:08 MirahezeLSBot: [wwr@mwtask151] Starting import for kardswiki (XML: None; Images: images/) (START)
+* 13:45 MirahezeLSBot: [wwr@mwtask161] Finished import for webosportswiki (XML: None; Images: images/) (END - exit=0)
+* 13:45 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=webosportswiki --update (END - exit=0)
+* 13:45 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=webosportswiki --update (START)
+* 13:45 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=webosportswiki --sleep=1 '--comment=Importing images from [https://github.com](https://github.com) ([T15983](https://meta.miraheze.org/wiki/phorge:T15983))' --search-recursively -- images/ (END - exit=0)
+* 13:42 MirahezeLSBot: [wwr@mwtask151] Finished import for entrenchedrobloxwiki (XML: None; Images: images/) (END - exit=0)
+* 13:42 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=entrenchedrobloxwiki --update (END - exit=0)
+* 13:42 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=entrenchedrobloxwiki --update (START)
+* 13:42 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=entrenchedrobloxwiki --sleep=1 '--comment=Importing images from [https://entrenched-roblox.fandom.com](https://entrenched-roblox.fandom.com) ([T15923](https://meta.miraheze.org/wiki/phorge:T15923))' -- images/ (END - exit=0)
+* 13:18 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=webosportswiki --sleep=1 '--comment=Importing images from [https://github.com](https://github.com) ([T15983](https://meta.miraheze.org/wiki/phorge:T15983))' --search-recursively -- images/ (START)
+* 13:18 MirahezeLSBot: [wwr@mwtask161] Starting import for webosportswiki (XML: None; Images: images/) (START)
+* 13:12 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=entrenchedrobloxwiki --sleep=1 '--comment=Importing images from [https://entrenched-roblox.fandom.com](https://entrenched-roblox.fandom.com) ([T15923](https://meta.miraheze.org/wiki/phorge:T15923))' -- images/ (START)
+* 13:12 MirahezeLSBot: [wwr@mwtask151] Starting import for entrenchedrobloxwiki (XML: None; Images: images/) (START)
+* 13:08 MirahezeLSBot: [wwr@mwtask151] Finished import for kikuappswiki (XML: None; Images: images/) (END - exit=0)
+* 13:08 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=kikuappswiki --update (END - exit=0)
+* 13:08 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=kikuappswiki --update (START)
+* 13:08 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=kikuappswiki --sleep=0 '--comment=Importing images from [https://kikuapps.fandom.com](https://kikuapps.fandom.com) ([T15902](https://meta.miraheze.org/wiki/phorge:T15902))' -- images/ (END - exit=0)
+* 13:07 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=kikuappswiki --sleep=0 '--comment=Importing images from [https://kikuapps.fandom.com](https://kikuapps.fandom.com) ([T15902](https://meta.miraheze.org/wiki/phorge:T15902))' -- images/ (START)
+* 13:07 MirahezeLSBot: [wwr@mwtask151] Starting import for kikuappswiki (XML: None; Images: images/) (START)
+* 13:05 MirahezeLSBot: [wwr@mwtask151] Finished import for kikuappswiki (XML: None; Images: images/) (END - exit=-2)
+* 13:05 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=kikuappswiki --sleep=0 '--comment=Importing images from [https://kikuapps.fandom.com](https://kikuapps.fandom.com) ([T15902](https://meta.miraheze.org/wiki/phorge:T15902))' -- images/ (END - exit=-2)
+* 13:05 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=kikuappswiki --sleep=0 '--comment=Importing images from [https://kikuapps.fandom.com](https://kikuapps.fandom.com) ([T15902](https://meta.miraheze.org/wiki/phorge:T15902))' -- images/ (START)
+* 13:05 MirahezeLSBot: [wwr@mwtask151] Starting import for kikuappswiki (XML: None; Images: images/) (START)
+* 12:20 MirahezeLSBot: [skye@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 12:20 MirahezeLSBot: [skye@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 12:20 MirahezeLSBot: [skye@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 12:20 MirahezeLSBot: [skye@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 11:38 MirahezeLSBot: [skye@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=left4deadwiki --from=JezMM --import-prefix=fandom:left4dead (END - exit=0)
+* 08:12 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 08:12 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 08:11 MirahezeLSBot: [petramagna@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 4s
+* 08:11 MirahezeLSBot: [petramagna@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 02:26 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/CreateWiki'} to test151 - SUCCESS in 0s
+* 02:26 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/CreateWiki'} to test151
+* 02:26 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'ManageWiki'} to test151 - SUCCESS in 11s
+* 02:25 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'ManageWiki'} to test151
+* 02:25 MirahezeLSBot: [petramagna@test151] DEPLOY ABORTED: Canary check failed for meta.mirabeta.org@localhost
+* 02:25 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/CreateWiki'} to test151
+
 ## 2026-09-06 
 
 * 21:24 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: libde265-0
