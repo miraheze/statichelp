@@ -11,7 +11,7 @@ title: Tech:Phorge171
 | status = running
 | memory = 2GB
 | cpu = 4 cores
-| nvme = 60GB
+| nvme = 80GB
 | nvme type = U.2
 | os = Debian 13
 | type = KVM

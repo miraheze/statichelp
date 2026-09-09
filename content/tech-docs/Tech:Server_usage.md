@@ -20,7 +20,7 @@ Currently, servers at Miraheze are used for:
    * [mem151](/tech-docs/techmem151), [mem161](/tech-docs/techmem161), [mem191](/tech-docs/techmem191), [mem201](/tech-docs/techmem201): [Memcached](/tech-docs/techmemcached)
    * [graylog161](/tech-docs/techgraylog161): [Graylog](/tech-docs/techgraylog)
    * [ldap171](/tech-docs/techldap171): [Ldap](/tech-docs/techldap)
-   * [matomo151](/tech-docs/techmatomo151): [Matomo](/tech-docs/techmatomo)
+   * [matomo151](/tech-docs/techmatomo151), [matomo211](/tech-docs/techmatomo211): [Matomo](/tech-docs/techmatomo)
    * [prometheus151](/tech-docs/techprometheus151): Prometheus
 * [Puppet](/tech-docs/techpuppet): [puppet181](/tech-docs/techpuppet181)
 * Testing MediaWiki: [test151](/tech-docs/techtest151)

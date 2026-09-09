@@ -10,7 +10,7 @@ title: Tech:Speedscope211
 | usage = Hosting the [[Tech:Speedscope{{!}}speedscope service]]
 | status = running
 | memory = 4GB
-| cpu = 2 cores
+| cpu = 4 cores
 | nvme = 15GB
 | nvme type = U.2
 | os = Debian 13

@@ -10,7 +10,7 @@ title: Tech:Db192
 | usage = Database
 | status = running
 | memory = 24GB
-| cpu = 8 cores
+| cpu = 6 cores
 | numa = yes
 | nvme = 284GB
 | nvme type = U.2

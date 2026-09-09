@@ -20,7 +20,7 @@ title: Tech:Ns2
 }} }}
 ```
 
-**ns2** is an OVHcloud server in Warrenton Virginia running Debian Trixie. It is a server that hosts [DNS](/tech-docs/techdns).
+**ns2** is an OVHcloud server in Warrenton, Virginia running Debian Trixie. It is a server that hosts [DNS](/tech-docs/techdns).
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Ns2)**
