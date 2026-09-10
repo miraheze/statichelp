@@ -2,6 +2,33 @@
 title: Tech:Server admin log
 ---
 
+## 2026-09-09 
+
+* 19:06 MirahezeLSBot: [petramagna@test151] finished deploy of {'l10n': True, 'folders': '1.46/extensions/MirahezeMagic', 'versions': '1.46'} to test151 - SUCCESS in 48s
+* 19:05 MirahezeLSBot: [petramagna@test151] starting deploy of {'l10n': True, 'folders': '1.46/extensions/MirahezeMagic', 'versions': '1.46'} to test151
+* 19:04 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s
+* 19:04 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/MirahezeMagic'} to test151
+* 18:50 MirahezeLSBot: [petramagna@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 18:50 MirahezeLSBot: [petramagna@test151] starting deploy of {'l10n': True, 'folders': '1.46/skins/UTVector', 'versions': '1.46'} to test151
+* 18:50 MirahezeLSBot: [petramagna@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 18:50 MirahezeLSBot: [petramagna@test151] starting deploy of {'l10n': True, 'folders': '1.46/skins/UTVector', 'versions': '1.46'} to test151
+* 18:42 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/skins/UTVector'} to test151 - SUCCESS in 0s
+* 18:42 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/skins/UTVector'} to test151
+* 18:36 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 18:36 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 13:46 RhinosF1: cloud16: sudo qm reset 151 (mw163)
+* 08:49 MirahezeLSBot: [petramagna@test151] finished deploy of {'l10n': True, 'folders': '1.46/extensions/ManageWiki', 'versions': '1.46'} to test151 - SUCCESS in 27s
+* 08:48 MirahezeLSBot: [petramagna@test151] starting deploy of {'l10n': True, 'folders': '1.46/extensions/ManageWiki', 'versions': '1.46'} to test151
+* 08:47 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 08:47 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 08:45 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/ManageWiki'} to test151 - SUCCESS in 0s
+* 08:45 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/ManageWiki'} to test151
+* 08:45 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/CreateWiki'} to test151 - SUCCESS in 0s
+* 08:45 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/CreateWiki'} to test151
+* 08:44 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'CreateWiki'} to test151
+* 08:34 MirahezeLSBot: [petramagna@test151] DEPLOY ABORTED: Canary check failed for meta.mirabeta.org@localhost
+* 08:34 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/ManageWiki'} to test151
+
 ## 2026-09-08 
 
 * 23:17 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: libgstreamer-plugins-base1.0-0, libgstreamer-gl1.0-0, gstreamer1.0-gl, and gstreamer1.0-plugins-base
