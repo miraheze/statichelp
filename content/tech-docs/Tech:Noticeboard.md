@@ -17,10 +17,6 @@ title: Tech:Noticeboard
 ```
  `{{ {{Navigation Miraheze}} }}`
 
-## Extension removals for the MediaWiki 1.45 update 
-
-The technology team is planning to remove several extensions as a part of the upgrade to MediaWiki 1.45. See [the discussion page](https://meta.miraheze.org/wiki/Tech%3ANoticeboard/Removing_extensions_for_the_MediaWiki_1.45_upgrade) for details. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 02:46, 9 February 2026 (UTC)
-
 ## New request for feedback on changes to Miraheze's default MediaWiki configuration 
 
 Please go to [Tech:Noticeboard/Request for feedback: changes to default MediaWiki settings](/tech-docs/technoticeboard-request_for_feedback_changes_to_default_mediawiki_settings) to view the proposals and voice your opinions. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 00:47, 24 April 2026 (UTC)
@@ -74,6 +70,14 @@ Please note that if you have changed the setting manually on ManageWiki before, 
 As the [MediaWiki 1.46](https://meta.miraheze.org/wiki/MediaWiki/1.46) update draws near, the technology team is planning to remove several MediaWiki extensions due to both technical issues and perceived lack of usefulness/community interest.
 
 The list of extensions is on [Tech:Noticeboard/Removing extensions for the MediaWiki 1.46 upgrade](/tech-docs/technoticeboard-removing_extensions_for_the_mediawiki_1.46_upgrade). If your wiki is affected and you want to keep a particular extension, please join the discussion and explain why the extension is important to your wiki. Administrators and bureaucrats on affected wikis will also receive a Echo notification shortly. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 01:22, 19 July 2026 (UTC)
+
+## New Request for Feedback: RequestWiki redesign 
+
+Please provide your comments on [Request for Feedback: RequestWiki redesign](https://meta.miraheze.org/wiki//Request_for_Feedback:_RequestWiki_redesign) if you have any opinions there.
+
+Thank you,
+
+[Universal Omega (Miraheze)](https://meta.miraheze.org/wiki/User:Universal_Omega_(Miraheze)) ([talk](https://meta.miraheze.org/wiki/User_talk:Universal_Omega_(Miraheze))) 20:09, 12 September 2026 (UTC)
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Noticeboard)**

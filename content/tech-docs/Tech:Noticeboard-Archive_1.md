@@ -260,6 +260,9 @@ On February 22nd, 2025 from 18:45 until 23:30 UTC we will be performing maintena
 We will be performing maintenance on our servers again on March 1st, 2025 from 18:45 until 20:45 UTC for hardware upgrades. We expect intermittent outages, so we highly recommend that you save your edits before then. We thank you for your understanding and appreciate your patience. [MacFan4000](https://meta.miraheze.org/wiki/User:MacFan4000) ([Talk](https://meta.miraheze.org/wiki/User_talk:MacFan4000) [Contribs](https://meta.miraheze.org/wiki/Special:Contributions/MacFan4000)) 14:28, 28 February 2025 (UTC)
 
    The maintenance has been postponed to Wednesday March 5th from 18:45 until 20:45 UTC. [MacFan4000](https://meta.miraheze.org/wiki/User:MacFan4000) ([Talk](https://meta.miraheze.org/wiki/User_talk:MacFan4000) [Contribs](https://meta.miraheze.org/wiki/Special:Contributions/MacFan4000)) 17:53, 1 March 2025 (UTC)
+## Extension removals for the MediaWiki 1.45 update 
+
+The technology team is planning to remove several extensions as a part of the upgrade to MediaWiki 1.45. See [the discussion page](https://meta.miraheze.org/wiki/Tech%3ANoticeboard/Removing_extensions_for_the_MediaWiki_1.45_upgrade) for details. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 02:46, 9 February 2026 (UTC)
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Noticeboard/Archive_1)**

@@ -9,6 +9,7 @@ To delete or move large batches of pages on a wiki, use the following steps with
 * **Login** to [mwtask181](/tech-docs/techmwtask181) (the active maintenance server).
 * **Upload a text file** (e.g. `subdomain.txt`) to your shell account. This file should list the pages to be deleted or moved — **including namespaces**, if applicable.
 * **Run the appropriate maintenance script** using `mwscript`. Replace the placeholders with actual values:
+ `{{ {{Note}} }}` You may want to use [nukeNS.php](https://meta.miraheze.org/wiki/mw:Manual:nukeNS.php) rather than deleteBatch.
 
 ```bash
 mwscript deleteBatch wikidbname --u="'<your username> (Miraheze)'" --r="'[[phorge:T###|Requested]]'" deleteBatch.txt

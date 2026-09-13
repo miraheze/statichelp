@@ -2,6 +2,60 @@
 title: Tech:Server admin log
 ---
 
+## 2026-09-12 
+
+* 22:15 MirahezeLSBot: [wwr@mwtask171] Delete unread notifications for myself
+* 18:13 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=pronounpalacewiki (END - exit=0)
+* 18:11 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=pronounpalacewiki --startOver (END - exit=0)
+* 18:11 MirahezeLSBot: [wwr@mwtask171] curl -X DELETE [https://opensearch-mw.wikitide.net/pronounpalacewiki_content](https://opensearch-mw.wikitide.net/pronounpalacewiki_content) [https://opensearch-mw.wikitide.net/pronounpalacewiki_general](https://opensearch-mw.wikitide.net/pronounpalacewiki_general)
+* 15:23 MirahezeLSBot: [wwr@mwtask171] Finished import for fisewiki (XML: None; Images: images) (END - exit=0)
+* 15:23 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=fisewiki --update (END - exit=0)
+* 15:23 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=fisewiki --update (START)
+* 15:23 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=fisewiki --sleep=1 '--comment=Importing images from Psych 221 ([T15991](https://meta.miraheze.org/wiki/phorge:T15991))' --search-recursively -- images (END - exit=0)
+* 13:57 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=fisewiki --sleep=1 '--comment=Importing images from Psych 221 ([T15991](https://meta.miraheze.org/wiki/phorge:T15991))' --search-recursively -- images (START)
+* 13:57 MirahezeLSBot: [wwr@mwtask171] Starting import for fisewiki (XML: None; Images: images) (START)
+* 13:52 MirahezeLSBot: [wwr@mwtask171] Finished import for fisewiki (XML: t.xml; Images: None) (END - exit=0)
+* 13:52 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=fisewiki --update (END - exit=0)
+* 13:52 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=fisewiki --update (START)
+* 13:52 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=fisewiki (END - exit=0)
+* 13:52 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=fisewiki (START)
+* 13:52 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=fisewiki (END - exit=0)
+* 13:43 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php rebuildall --wiki=fisewiki (START)
+* 13:43 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=fisewiki --no-updates --username-prefix=imported -- t.xml (END - exit=0)
+* 13:16 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importDump --wiki=fisewiki --no-updates --username-prefix=imported -- t.xml (START)
+* 13:16 MirahezeLSBot: [wwr@mwtask171] Starting import for fisewiki (XML: t.xml; Images: None) (START)
+
+## 2026-09-11 
+
+* 20:46 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=stellasorawiki (END - exit=0)
+* 20:18 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=metawiki (END - exit=0)
+* 19:51 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 19:51 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 04:02 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 04:01 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 03:38 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/CookieWarning'} to test151 - SUCCESS in 0s
+* 03:38 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/CookieWarning'} to test151
+* 03:38 MirahezeLSBot: [petramagna@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 03:38 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': '1.46', 'upgrade_extensions': 'CookieWarning'} to test151
+* 03:11 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 03:11 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 01:53 Universal Omega: changed OpenAI API key in private puppet
+
+## 2026-09-10 
+
+* 19:38 MirahezeLSBot: [petramagna@test151] DEPLOY ABORTED: Canary check failed for meta.mirabeta.org@localhost
+* 19:38 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/ManageWiki'} to test151
+* 19:38 MirahezeLSBot: [petramagna@test151] DEPLOY ABORTED: Canary check failed for meta.mirabeta.org@localhost
+* 19:38 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/ManageWiki'} to test151
+* 19:36 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 19:36 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 19:26 MirahezeLSBot: [petramagna@test151] finished deploy of {'l10n': True, 'folders': '1.46/extensions/ManageWiki', 'versions': '1.46'} to test151 - SUCCESS in 45s
+* 19:26 MirahezeLSBot: [petramagna@test151] starting deploy of {'l10n': True, 'folders': '1.46/extensions/ManageWiki', 'versions': '1.46'} to test151
+* 19:25 MirahezeLSBot: [petramagna@test151] DEPLOY ABORTED: Canary check failed for meta.mirabeta.org@localhost
+* 19:25 MirahezeLSBot: [petramagna@test151] starting deploy of {'l10n': True, 'folders': '1.46/extensions/ManageWiki', 'versions': '1.46'} to test151
+* 17:25 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'SemanticScribunto'} to test151 - SUCCESS in 22s
+* 17:25 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'SemanticScribunto'} to test151
+
 ## 2026-09-09 
 
 * 19:06 MirahezeLSBot: [petramagna@test151] finished deploy of {'l10n': True, 'folders': '1.46/extensions/MirahezeMagic', 'versions': '1.46'} to test151 - SUCCESS in 48s
