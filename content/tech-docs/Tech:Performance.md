@@ -53,7 +53,10 @@ This exports the per-minute request time data to a CSV file, which can then be u
 
 ## Speedscope
 
-This is waiting on [T15183](https://meta.miraheze.org/wiki/phorge:T15183).
+Besides generating parser flamegraphs for individual wiki pages, you can also visit
+* Daily performance aggregations: [https://speedscope.wikitide.net/aggregation/latest/daily](https://speedscope.wikitide.net/aggregation/latest/daily)
+* Hourly performance aggregations: [https://speedscope.wikitide.net/aggregation/latest/hourly](https://speedscope.wikitide.net/aggregation/latest/hourly)
+They help identify extensions that are consuming the most CPU time on the whole farm.
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Performance)**

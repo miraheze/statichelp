@@ -247,8 +247,7 @@ For extension patches, check what implements `LoadExtensionSchemaUpdatesHook`. T
 First, create a paste on Phorge to track wikis that have opt-in to NextTide (example: [P556](https://meta.miraheze.org/wiki/phorge:P556)). Wikis that have opted into previous NextTide programs are **not** automatically opt-in everytime, with the exception of **testwiki** which is always opt-in.
 
 **To upgrade an individual wiki**:
-* Run `mwscript MirahezeMagic:ChangeMediaWikiVersion <wiki> --mwversion=<new_version> --no-log`.
-* Run `mwscript MirahezeMagic:UpgradeWiki <wiki> --json=/path/to/json/file.json --version=<new_version>`.
+* Run `mwscript MirahezeMagic:UpgradeWiki <wiki> --json=/path/to/json/file.json --version=<new_version> --change-version`.
 * Add the wiki to the NextTide paste.
 
 ## Upgrading New Wikis 

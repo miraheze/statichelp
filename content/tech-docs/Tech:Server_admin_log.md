@@ -2,6 +2,40 @@
 title: Tech:Server admin log
 ---
 
+## 2026-09-13 
+
+* 20:04 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 30s
+* 20:03 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:57 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 19:57 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 19:46 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php sql --wiki=metawiki /srv/mediawiki/1.46/extensions/OATHAuth/sql/mysql/patch-add-oathauth_user_handles.sql --wikidb=mhglobal (END - exit=0)
+* 19:44 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ToggleExtension --wiki=loginwiki --name=languageselector --disable --all-wikis --execute (END - exit=0)
+* 19:40 Universal Omega: upgraded initial wikis in NextTide to 1.46
+* 19:32 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data foreachwikiindblist /tmp/exts/languageselector.php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ToggleExtension --name=universallanguageselector
+* 19:29 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 135s
+* 19:27 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'MirahezeMagic'} to all
+* 19:20 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'l10n': True, 'versions': ['1.45', '1.46'], 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 665s
+* 19:09 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'l10n': True, 'versions': ['1.45', '1.46'], 'upgrade_extensions': 'ManageWiki'} to all
+* 19:01 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 19:01 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:00 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 72s
+* 18:59 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'ManageWiki'} to all
+* 18:55 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php sql --wiki=metawiki /srv/mediawiki/1.46/extensions/GlobalBlocking/sql/mysql/patch-globalblocks-add-gb_block_email.sql --wikidb=mhglobal (END - exit=0)
+* 18:52 MirahezeLSBot: [petramagna@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 2s
+* 18:52 MirahezeLSBot: [petramagna@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 18:52 MirahezeLSBot: [petramagna@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 18:52 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': '1.46', 'upgrade_extensions': 'ManageWiki'} to test151
+* 18:09 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 18:09 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 17:57 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 133s
+* 17:55 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'MirahezeMagic'} to all
+* 17:43 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'world': True, 'l10n': True, 'extension_list': True, 'versions': '1.46', 'ignore_time': True} to all - SUCCESS in 702s
+* 17:31 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'world': True, 'l10n': True, 'extension_list': True, 'versions': '1.46', 'ignore_time': True} to all
+* 17:21 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'world': True, 'l10n': True, 'extension_list': True, 'versions': '1.46', 'ignore_time': True} to all - SUCCESS in 501s
+* 17:13 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'world': True, 'l10n': True, 'extension_list': True, 'versions': '1.46', 'ignore_time': True} to all
+* 13:48 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=tprrwiki --sleep=1 '--comment=Importing images from [https://theremasteredroleplay.fandom.com](https://theremasteredroleplay.fandom.com) ([T15988](https://meta.miraheze.org/wiki/phorge:T15988))' -- images (START)
+* 13:48 MirahezeLSBot: [wwr@mwtask171] Starting import for tprrwiki (XML: None; Images: images) (START)
+
 ## 2026-09-12 
 
 * 22:15 MirahezeLSBot: [wwr@mwtask171] Delete unread notifications for myself
