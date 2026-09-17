@@ -35,59 +35,66 @@ Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna
       We have [Special:DataDump](https://meta.miraheze.org/wiki/Special:DataDump) available on all wikis, which provides the best way to perform full-wiki backups. There is no reason to use a special extension instead of what works for every MediaWiki installation unless you really want some of its features such as CSV handling.
       Over 700 wikis have enabled it in ManageWiki, but few are actually using it judging from the lack of response in the past month. We've had extensions that have been completely broken for over a year, and we received no bug reports from the hundreds of wikis that are supposedly using it. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 09:53, 17 August 2026 (UTC)
    Will add that per [Special:Diff/558532](https://meta.miraheze.org/wiki/Special:Diff/558532) and [Special:Diff/561357](https://meta.miraheze.org/wiki/Special:Diff/561357) it does seem like there are still uses for CSV importing vs having to learn pywikibot or something. But also considering its history and maintainer the extension still seems like a liability. [TheWWRNerdGuy](https://meta.miraheze.org/wiki/User:TheWWRNerdGuy) ([talk](https://meta.miraheze.org/wiki/User_talk:TheWWRNerdGuy)) 20:27, 5 September 2026 (UTC)
+   This extension was used on the Songs of Chaos wiki to import a number of pre-existing information databases that previously existed as spreadsheets. Pywikibot would also have worked for this of course, but I feel the direct CSV import helped get the wiki off the ground faster.
+   That said, if there are significant maintainability issues then I do not oppose dropping this extension. [Starshell](https://meta.miraheze.org/wiki/User:Starshell) ([talk](https://meta.miraheze.org/wiki/User_talk:Starshell)) 00:58, 16 September 2026 (UTC)
 
-## Extension:LanguageSelector
-
-### Rationale 2
-
-This is tracked on [T14657](https://meta.miraheze.org/wiki/phab:T14657).
+```
+{{ {{Archived|1=
+==[[mw:Extension:LanguageSelector|Extension:LanguageSelector]]==
+===Rationale 2===
+This is tracked on [[phab:T14657|T14657]].
 
 The extension is no longer maintained, uses hooks removed more than 5 years ago, and can "lead people to seeing the page in a random language".
 
-Its functionalities also overlap with [Extension:UniversalLanguageSelector](https://meta.miraheze.org/wiki/mw:Extension:UniversalLanguageSelector).
+Its functionalities also overlap with [[mw:Extension:UniversalLanguageSelector|Extension:UniversalLanguageSelector]].
 
 LanguageSelector's removal is unlikely to be changed, though if there is need for changing the interface language without logging in, the technology team can consider adding additional configurations to UniversalLanguageSelector.
 
-### Discussion 2
+===Discussion 2===
+Please respond here. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 11:17, 13 July 2026 (UTC)
 
-Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 11:17, 13 July 2026 (UTC)
+:Note: the technology team will disable Language Selector and enable Universal Language Selector for all wikis that still uses Language Selector before removal. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 16:44, 20 July 2026 (UTC)
+:Despite the new ULS is current, I still love to switching languages in this traditional way. I hope to keep it as simply enabling it alone wouldn't cause issues to a wiki. [[User:Liaoinmy|Liaoinmy]] ([[User talk:Liaoinmy|talk]]) 13:12, 3 August 2026 (UTC)
+::The extension does cause issues unfortunately. It is known to "lead people to seeing the page in a random language" and we have seen several wikis complain in the past. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 05:12, 7 August 2026 (UTC)
+: What does Wikimedia use, LanguageSelector or UniversalLanguageSelector, currently? [[User:Doug|Doug]] ([[User talk:Doug|talk]]) 22:32, 19 August 2026 (UTC)
+::WMF wikis use UniversalLanguageSelector. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 10:09, 20 August 2026 (UTC)
+}} }}
+```
 
-   Note: the technology team will disable Language Selector and enable Universal Language Selector for all wikis that still uses Language Selector before removal. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 16:44, 20 July 2026 (UTC)
-   Despite the new ULS is current, I still love to switching languages in this traditional way. I hope to keep it as simply enabling it alone wouldn't cause issues to a wiki. [Liaoinmy](https://meta.miraheze.org/wiki/User:Liaoinmy) ([talk](https://meta.miraheze.org/wiki/User_talk:Liaoinmy)) 13:12, 3 August 2026 (UTC)
-      The extension does cause issues unfortunately. It is known to "lead people to seeing the page in a random language" and we have seen several wikis complain in the past. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 05:12, 7 August 2026 (UTC)
-    What does Wikimedia use, LanguageSelector or UniversalLanguageSelector, currently? [Doug](https://meta.miraheze.org/wiki/User:Doug) ([talk](https://meta.miraheze.org/wiki/User_talk:Doug)) 22:32, 19 August 2026 (UTC)
-      WMF wikis use UniversalLanguageSelector. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 10:09, 20 August 2026 (UTC)
+```
+{{ {{Archived|1=
+==[[mw:Extension:AutoCreatePage|Extension:AutoCreatePage]]==
 
-## Extension:AutoCreatePage
+===Rationale 3===
+This is tracked on [[phab:T15017|T15017]]. The extension has unfixable security issues, which I will not detail here.
 
-### Rationale 3
+It doesn't have a full replacement, though the page creation process can be made much easier by using [[mw:Extension:InputBox|Extension:InputBox]] with a preload template.
 
-This is tracked on [T15017](https://meta.miraheze.org/wiki/phab:T15017). The extension has unfixable security issues, which I will not detail here.
+===Discussion 3===
+Please respond here. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 11:17, 13 July 2026 (UTC)
 
-It doesn't have a full replacement, though the page creation process can be made much easier by using [Extension:InputBox](https://meta.miraheze.org/wiki/mw:Extension:InputBox) with a preload template.
+:No concerns. [[User:Doug|Doug]] ([[User talk:Doug|talk]]) 01:55, 19 July 2026 (UTC)
+:What alternative we have? This is BASIC for creating new categories on the fly. [[User:Jakeukalane|Jakeukalane]] ([[User talk:Jakeukalane|talk]]) 16:48, 20 July 2026 (UTC)
+::[[mw:Extension:Auto Create Category Pages|Auto Create Category Pages]]. [[User:TheWWRNerdGuy|TheWWRNerdGuy]] ([[User talk:TheWWRNerdGuy|talk]]) 17:16, 20 July 2026 (UTC)
+:As I myself stated on the Tracker minutes ago, my wiki still uses ACP--[https://constantnoble.miraheze.org/wiki/From_the_Author:20260730?oldid=50098 for FTA ("From the Author") shortcuts by date], and [https://constantnoble.miraheze.org/wiki/Portal:VIMU_Vault/Acetate_Audit/2026/08?oldid=50200 new track arrivals for my anthro novel's side project by month]. [[User:Routhwick|Routhwick]] ([[User talk:Routhwick|talk]]) 00:10, 19 August 2026 (UTC)
+::For cases like this it should be possible to use a similar approach to https://battlecats.miraheze.org/wiki/User:SweetDonut0/WikiTheme.js, where a JS script can automatically make the appropriate edits as long as you're on the wiki and logged in. [[User:TheWWRNerdGuy|TheWWRNerdGuy]] ([[User talk:TheWWRNerdGuy|talk]]) 22:24, 19 August 2026 (UTC)
+:::I did this a while ago but forgot to place it publicly: https://wwrtest3.mirabeta.org/wiki/User:TheWWRNerdGuy?oldid=24142, which combined with https://wwrtest3.mirabeta.org/wiki/MediaWiki:Common.js?oldid=24137 can recreate the same functionality but with javascript.
+:::If you're really security-minded you could add in more conditions to the <code>getNewPageNameAndContent</code> function. [[User:TheWWRNerdGuy|TheWWRNerdGuy]] ([[User talk:TheWWRNerdGuy|talk]]) 17:05, 10 September 2026 (UTC)
+}} }}
+```
 
-### Discussion 3
+```
+{{ {{Archived|1=
+==[[mw:Extension:FeaturedFeeds|Extension:FeaturedFeeds]]==
 
-Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 11:17, 13 July 2026 (UTC)
-
-   No concerns. [Doug](https://meta.miraheze.org/wiki/User:Doug) ([talk](https://meta.miraheze.org/wiki/User_talk:Doug)) 01:55, 19 July 2026 (UTC)
-   What alternative we have? This is BASIC for creating new categories on the fly. [Jakeukalane](https://meta.miraheze.org/wiki/User:Jakeukalane) ([talk](https://meta.miraheze.org/wiki/User_talk:Jakeukalane)) 16:48, 20 July 2026 (UTC)
-      [Auto Create Category Pages](https://meta.miraheze.org/wiki/mw:Extension:Auto_Create_Category_Pages). [TheWWRNerdGuy](https://meta.miraheze.org/wiki/User:TheWWRNerdGuy) ([talk](https://meta.miraheze.org/wiki/User_talk:TheWWRNerdGuy)) 17:16, 20 July 2026 (UTC)
-   As I myself stated on the Tracker minutes ago, my wiki still uses ACP--[for FTA ("From the Author") shortcuts by date](https://constantnoble.miraheze.org/wiki/From_the_Author:20260730?oldid=50098), and [new track arrivals for my anthro novel's side project by month](https://constantnoble.miraheze.org/wiki/Portal:VIMU_Vault/Acetate_Audit/2026/08?oldid=50200). [Routhwick](https://meta.miraheze.org/wiki/User:Routhwick) ([talk](https://meta.miraheze.org/wiki/User_talk:Routhwick)) 00:10, 19 August 2026 (UTC)
-      For cases like this it should be possible to use a similar approach to [https://battlecats.miraheze.org/wiki/User:SweetDonut0/WikiTheme.js](https://battlecats.miraheze.org/wiki/User:SweetDonut0/WikiTheme.js), where a JS script can automatically make the appropriate edits as long as you're on the wiki and logged in. [TheWWRNerdGuy](https://meta.miraheze.org/wiki/User:TheWWRNerdGuy) ([talk](https://meta.miraheze.org/wiki/User_talk:TheWWRNerdGuy)) 22:24, 19 August 2026 (UTC)
-         I did this a while ago but forgot to place it publicly: [https://wwrtest3.mirabeta.org/wiki/User:TheWWRNerdGuy?oldid=24142](https://wwrtest3.mirabeta.org/wiki/User:TheWWRNerdGuy?oldid=24142), which combined with [https://wwrtest3.mirabeta.org/wiki/MediaWiki:Common.js?oldid=24137](https://wwrtest3.mirabeta.org/wiki/MediaWiki:Common.js?oldid=24137) can recreate the same functionality but with javascript.
-         If you're really security-minded you could add in more conditions to the `getNewPageNameAndContent` function. [TheWWRNerdGuy](https://meta.miraheze.org/wiki/User:TheWWRNerdGuy) ([talk](https://meta.miraheze.org/wiki/User_talk:TheWWRNerdGuy)) 17:05, 10 September 2026 (UTC)
-
-## Extension:FeaturedFeeds
-
-### Rationale 4
-
+===Rationale 4===
 The extension requires changes to mw-config, and a total of 0 wikis is using it this way despite many wikis enabling it in ManageWiki.
 
-### Discussion 4
-
-Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 11:17, 13 July 2026 (UTC)
-    SGTM then. Speedy removal as an unused extension with zero use. [Doug](https://meta.miraheze.org/wiki/User:Doug) ([talk](https://meta.miraheze.org/wiki/User_talk:Doug)) 22:31, 19 August 2026 (UTC)
+===Discussion 4===
+Please respond here. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 11:17, 13 July 2026 (UTC)
+: SGTM then. Speedy removal as an unused extension with zero use. [[User:Doug|Doug]] ([[User talk:Doug|talk]]) 22:31, 19 August 2026 (UTC)
+}} }}
+```
 
 ## Extension:MagicNoCache
 
@@ -106,50 +113,58 @@ Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna
       In general, disabling the parser cache so that it doesn't need to be purged once seems wasteful. There could be thousands of page views each triggering a separate parse, even though only 2 parses are needed (once during page save and once after the designated time has passed). [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 03:52, 26 August 2026 (UTC)
          That works. [RandomUser123789](https://meta.miraheze.org/wiki/User:RandomUser123789) ([talk](https://meta.miraheze.org/wiki/User_talk:RandomUser123789)) 05:04, 26 August 2026 (UTC)
    I use MagicNoCache on the Unbound Wiki's Main Page, as it has a table that gets updated daily to show different information each day. That being said, the proposed UpdateDaily extension would work fine for my purposes. [RubyRaven](https://meta.miraheze.org/wiki/User:RubyRaven) ([talk](https://meta.miraheze.org/wiki/User_talk:RubyRaven)) 03:19, 2 September 2026 (UTC)
+   Just to note, we thank everyone for the responses about the legitimate usages of this extension here, and we have taken that into consideration. We have decided we will remove MagicNoCache, however we have another extension in the works which will offer a replacement for this without fully disabling cache, it will allow reducing the cache time, eliminating our performance concerns with this extension. We should be able to offer this by the time we fully remove MagicNoCache. [Universal Omega (Miraheze)](https://meta.miraheze.org/wiki/User:Universal_Omega_(Miraheze)) ([talk](https://meta.miraheze.org/wiki/User_talk:Universal_Omega_(Miraheze))) 05:02, 15 September 2026 (UTC)
 
-## Extension:GeoGebra
+```
+{{ {{Archived|1=
+==[[mw:Extension:GeoGebra|Extension:GeoGebra]]==
 
-### Rationale 6
-
+===Rationale 6===
 This extension is not functional and does not show anything in our tests. It has been broken since MediaWiki 1.44, and no wiki reported this breakage to us. The original wiki that requested it is already deleted. We take this to mean a lack of interest in the extension.
 
-### Discussion 6
+===Discussion 6===
+Please respond here. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 12:17, 15 July 2026 (UTC)
+}} }}
+```
 
-Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 12:17, 15 July 2026 (UTC)
+```
+{{ {{Archived|1=
+==[[mw:Extension:CleanChanges|Extension:CleanChanges]]==
 
-## Extension:CleanChanges
-
-### Rationale 7
-
-See [T14270](https://meta.miraheze.org/wiki/phab:T14270) and [T379896](https://meta.miraheze.org/wiki/mediazilla:T379896).
+===Rationale 7===
+See [[phab:T14270|T14270]] and [[mediazilla:T379896|T379896]].
 
 The only useful feature left is the user filter, which doesn't make much sense since one can go to the Special:Contributions page for per-user recent changes.
 
-### Discussion 7
+===Discussion 7===
+Please respond here. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 00:34, 19 July 2026 (UTC)
 
-Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 00:34, 19 July 2026 (UTC)
+:No issues here. Should be superseded by [[mw:Extension:SimpleChanges|Extension:SimpleChanges]]. [[User:CostinTea|CostinTea]] ([[User talk:CostinTea|talk]]) 23:33, 19 July 2026 (UTC)
+: Per above, no issues here. [[User:Doug|Doug]] ([[User talk:Doug|talk]]) 22:26, 19 August 2026 (UTC)
+}} }}
+```
 
-   No issues here. Should be superseded by [Extension:SimpleChanges](https://meta.miraheze.org/wiki/mw:Extension:SimpleChanges). [CostinTea](https://meta.miraheze.org/wiki/User:CostinTea) ([talk](https://meta.miraheze.org/wiki/User_talk:CostinTea)) 23:33, 19 July 2026 (UTC)
-    Per above, no issues here. [Doug](https://meta.miraheze.org/wiki/User:Doug) ([talk](https://meta.miraheze.org/wiki/User_talk:Doug)) 22:26, 19 August 2026 (UTC)
+```
+{{ {{Archived|1=
+==[[mw:Extension:InterwikiSorting|Extension:InterwikiSorting]]==
 
-## Extension:InterwikiSorting
-
-### Rationale 8
-
-See [T15015](https://meta.miraheze.org/wiki/phab:T15015). The Wikimedia Foundation, which maintains this extension, has undeployed it in [T253764](https://meta.miraheze.org/wiki/mediazilla:T253764).
+===Rationale 8===
+See [[phab:T15015|T15015]]. The Wikimedia Foundation, which maintains this extension, has undeployed it in [[mediazilla:T253764|T253764]].
 
 The extension will likely become unmaintained as its largest user abandon it.
 
-### Discussion 8
+===Discussion 8===
+Please respond here. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 00:42, 19 July 2026 (UTC)
+:Personally I think we can keep InterwikiSorting for a few MediaWiki versions, but as MediaWiki evolves, the extension will inevitably break. It is also poorly documented on mediawiki.org and has no instructions on how to use it. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 00:42, 19 July 2026 (UTC)
+::For backward compatibility reasons I hope to retain this extension. It shouldn't be overhauling the MediaWiki software so it would be supported in a long period of time from now I think. [[User:Liaoinmy|Liaoinmy]] ([[User talk:Liaoinmy|talk]]) 13:17, 3 August 2026 (UTC)
+:::We could keep it then. We may need to add a note on ManageWiki which says the extension might be broken. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 05:12, 7 August 2026 (UTC)
+:::: I'm assuming this is beyond the level of sorting done by the [[mw:Extension:InterwikiDispatcher|InterwikiDispatcher]] extension. if ''so'', I am indifferent to this, but generally agree, if you're able to keep it for the foreseeable future as an unmaintained extension with absolutely zero guarantees, then that's ideal. I would definitely recommend adding a note that as it is unmaintained and largely undocumented, it is subject to removal on short notice. [[User:Doug|Doug]] ([[User talk:Doug|talk]]) 22:29, 19 August 2026 (UTC)
 
-Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 00:42, 19 July 2026 (UTC)
-   Personally I think we can keep InterwikiSorting for a few MediaWiki versions, but as MediaWiki evolves, the extension will inevitably break. It is also poorly documented on mediawiki.org and has no instructions on how to use it. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 00:42, 19 July 2026 (UTC)
-      For backward compatibility reasons I hope to retain this extension. It shouldn't be overhauling the MediaWiki software so it would be supported in a long period of time from now I think. [Liaoinmy](https://meta.miraheze.org/wiki/User:Liaoinmy) ([talk](https://meta.miraheze.org/wiki/User_talk:Liaoinmy)) 13:17, 3 August 2026 (UTC)
-         We could keep it then. We may need to add a note on ManageWiki which says the extension might be broken. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 05:12, 7 August 2026 (UTC)
-             I'm assuming this is beyond the level of sorting done by the [InterwikiDispatcher](https://meta.miraheze.org/wiki/mw:Extension:InterwikiDispatcher) extension. if *so*, I am indifferent to this, but generally agree, if you're able to keep it for the foreseeable future as an unmaintained extension with absolutely zero guarantees, then that's ideal. I would definitely recommend adding a note that as it is unmaintained and largely undocumented, it is subject to removal on short notice. [Doug](https://meta.miraheze.org/wiki/User:Doug) ([talk](https://meta.miraheze.org/wiki/User_talk:Doug)) 22:29, 19 August 2026 (UTC)
-
-    "Will likely become unmaintained" is speculation, and there is no reported new issues as far as this says. No reason to abandon it. Its also useful. Our project has three connected wikis for example.--[NimoStar](https://meta.miraheze.org/wiki/User:NimoStar) ([talk](https://meta.miraheze.org/wiki/User_talk:NimoStar)) 07:31, 17 August 2026 (UTC)
-      To be precise, the extension can already be considered unmaintained. For the past 2 years the only human commits are the ones to ensure it works against the latest MediaWiki version. Now that the WMF drops it from production no one from the WMF/WMDE will have fixing it as their job. It's not impossible that someone will step up to maintain this extension, but at its current state the extension has no maintainer. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 09:49, 17 August 2026 (UTC)
+: "Will likely become unmaintained" is speculation, and there is no reported new issues as far as this says. No reason to abandon it. Its also useful. Our project has three connected wikis for example.--[[User:NimoStar|NimoStar]] ([[User talk:NimoStar|talk]]) 07:31, 17 August 2026 (UTC)
+::To be precise, the extension can already be considered unmaintained. For the past 2 years the only human commits are the ones to ensure it works against the latest MediaWiki version. Now that the WMF drops it from production no one from the WMF/WMDE will have fixing it as their job. It's not impossible that someone will step up to maintain this extension, but at its current state the extension has no maintainer. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 09:49, 17 August 2026 (UTC)
+:As an update, we have decided we will keep InterwikiSorting unless something forces us to remove it. [[User:Universal Omega (Miraheze)|Universal Omega (Miraheze)]] ([[User talk:Universal Omega (Miraheze)|talk]]) 05:11, 15 September 2026 (UTC)
+}} }}
+```
 
 ## Appendix: number of wikis using each extension
 

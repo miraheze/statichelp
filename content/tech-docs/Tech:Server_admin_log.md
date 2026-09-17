@@ -2,6 +2,160 @@
 title: Tech:Server admin log
 ---
 
+## 2026-09-16 
+
+* 22:34 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': ['1.45', '1.46']} to all - SUCCESS in 548s
+* 22:31 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 22:31 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 22:25 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'l10n': True, 'versions': ['1.45', '1.46']} to all
+* 22:25 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'extension_list': True, 'versions': ['1.45', '1.46']} to all - SUCCESS in 53s
+* 22:24 MirahezeLSBot: [universalomega@test151] finished deploy of {'extension_list': True, 'versions': ['1.45', '1.46']} to test151 - SUCCESS in 2s
+* 22:24 MirahezeLSBot: [universalomega@test151] starting deploy of {'extension_list': True, 'versions': ['1.45', '1.46']} to test151
+* 22:24 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'extension_list': True, 'versions': ['1.45', '1.46']} to all
+* 22:24 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 22:24 MirahezeLSBot: [universalomega@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 22:16 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 22:15 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 22:09 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 22:07 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawiki --setting=wgAutoCreatePageNamespaces --all-wikis --remove --execute (END - exit=0)
+* 22:01 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ToggleExtension --wiki=metawiki --name=autocreatepages --all-wikis --disable --execute (END - exit=0)
+* 22:01 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 107s
+* 21:59 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 21:34 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': ['1.45', '1.46']} to all - SUCCESS in 628s
+* 21:24 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'l10n': True, 'versions': ['1.45', '1.46']} to all
+* 21:23 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'extension_list': True, 'versions': ['1.45', '1.46']} to all - SUCCESS in 56s
+* 21:22 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'extension_list': True, 'versions': ['1.45', '1.46']} to all
+* 21:14 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 21:14 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 21:10 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 21:10 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 21:10 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawiki --setting=wmgMirahezeFeaturedFeedsInUserLanguage --all-wikis --remove --execute (END - exit=0)
+* 21:05 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawiki --setting=wgDisplayFeedsInSidebar --all-wikis --remove --execute (END - exit=0)
+* 20:57 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ToggleExtension --wiki=metawiki --name=featuredfeeds --all-wikis --disable --execute (END - exit=0)
+* 20:57 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 30s
+* 20:56 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 20:53 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 20:53 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 20:48 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ToggleExtension --wiki=metawiki --name=geogebra --all-wikis --disable --execute (END - exit=0)
+* 20:47 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 20:47 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 20:32 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'PortableInfobox'} to all - SUCCESS in 135s
+* 20:30 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'PortableInfobox'} to all
+* 20:30 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 20:29 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:59 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:53 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 62s
+* 19:52 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:47 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 19:47 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 19:42 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ToggleExtension --wiki=metawiki --name=cleanchanges --all-wikis --disable --execute (END - exit=0)
+* 19:41 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'force': True} to all - SUCCESS in 21s
+* 19:41 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'force': True} to all
+* 19:38 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ToggleExtension --wiki=metawiki --name=externaldata --all-wikis --disable --execute (END - exit=0)
+* 19:38 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ToggleExtension --wiki=metawiki --name=externaldata --all-wikis --disable (END - exit=512)
+* 18:44 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'force': True} to all - SUCCESS in 18s
+* 18:42 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 17:00 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php UnlinkedWikibase:UpdateEntities --wiki=tkuwiki (END - exit=0)
+* 15:23 MirahezeLSBot: [petramagna@test151] starting deploy of {'upgrade_world': True, 'versions': '1.46', 'upgrade_extensions': 'all', 'upgrade_skins': 'all'} to test151
+* 14:34 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php updateSpecialPages --wiki=exttestwikibeta (END - exit=0)
+* 10:28 SomeRandomDeveloper: the actual command was "sudo salt-ssh -E 'mw.*' cmd.run 'sudo -u www-data rm -rf /srv/mediawiki/1.45/extensions/LanguageSelector/ /srv/mediawiki/1.46/extensions/LanguageSelector'"
+* 10:28 MirahezeLSBot: [somerandomdeveloper@puppet181] sudo salt-ssh -E mw.* cmd.run sudo -u www-data rm -rf /srv/mediawiki/1.45/extensions/LanguageSelector/ /srv/mediawiki/1.46/extensions/LanguageSelector
+* 06:18 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 06:18 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 05:23 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=maillewiki (END - exit=0)
+* 05:19 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=maillewiki --startOver (END - exit=0)
+* 04:48 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'l10n': True, 'extension_list': True, 'versions': ['1.45', '1.46']} to all - SUCCESS in 639s
+* 04:37 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'l10n': True, 'extension_list': True, 'versions': ['1.45', '1.46']} to all
+* 04:37 MirahezeLSBot: [petramagna@mwtask181] rm -rf /srv/mediawiki-staging/1.45/extensions/LanguageSelector /srv/mediawiki-staging/1.46/extensions/LanguageSelector
+* 04:23 MirahezeLSBot: [petramagna@test151] finished deploy of {'l10n': True, 'extension_list': True, 'versions': ['1.45', '1.46']} to test151 - SUCCESS in 382s
+* 04:16 MirahezeLSBot: [petramagna@test151] starting deploy of {'l10n': True, 'extension_list': True, 'versions': ['1.45', '1.46']} to test151
+* 04:15 MirahezeLSBot: [petramagna@test151] rm -rf /srv/mediawiki-staging/1.45/extensions/LanguageSelector /srv/mediawiki-staging/1.46/extensions/LanguageSelector
+* 04:12 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:ToggleExtension --wiki=loginwikibeta --name=languageselector --disable --all-wikis --execute (END - exit=0)
+* 04:12 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:ToggleExtension --wiki=loginwiki --name=languageselector --disable --all-wikis --execute (END - exit=512)
+* 04:11 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 04:11 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 04:10 MirahezeLSBot: [petramagna@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 04:10 MirahezeLSBot: [petramagna@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 01:45 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 01:45 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 00:15 MirahezeLSBot: [somerandomdeveloper@speedscope211] enabled puppet
+* 00:00 MirahezeLSBot: [somerandomdeveloper@speedscope211] Disabling puppet for testing
+
+## 2026-09-15 
+
+* 23:07 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 32s
+* 23:06 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 23:05 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 23:05 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 23:04 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 5s
+* 23:04 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 23:01 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'force_upgrade': True, 'versions': ['1.45', '1.46'], 'upgrade_extensions': 'ThemeToggle'} to all - SUCCESS in 134s
+* 22:58 MirahezeLSBot: [somerandomdeveloper@mwtask181] starting deploy of {'force_upgrade': True, 'versions': ['1.45', '1.46'], 'upgrade_extensions': 'ThemeToggle'} to all
+* 22:58 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'force_upgrade': True, 'versions': ['1.45', '1.46'], 'upgrade_extensions': 'ThemeToggle'} to test151 - SUCCESS in 20s
+* 22:57 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'force_upgrade': True, 'versions': ['1.45', '1.46'], 'upgrade_extensions': 'ThemeToggle'} to test151
+* 22:52 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'force_upgrade': True, 'versions': ['1.45', '1.46'], 'upgrade_extensions': 'ThemeToggle'} to test151
+* 22:52 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'ThemeToggle'} to test151 - SUCCESS in 1s
+* 22:52 MirahezeLSBot: [somerandomdeveloper@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'ThemeToggle'} to test151
+* 22:52 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data rm /srv/mediawiki-staging/1.45/extensions/ThemeToggle /srv/mediawiki-staging/1.46/extensions/ThemeToggle -rf
+* 22:49 MirahezeLSBot: [somerandomdeveloper@test151] sudo -u www-data rm /srv/mediawiki-staging/1.45/extensions/ThemeToggle /srv/mediawiki-staging/1.46/extensions/ThemeToggle -rf
+* 19:50 SomeRandomDeveloper: deployed security patch for T16030
+* 17:27 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 17:26 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 12:53 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 12:53 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 08:09 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 08:09 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 07:12 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 07:12 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 04:46 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 04:45 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 04:45 MirahezeLSBot: [petramagna@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 2s
+* 04:45 MirahezeLSBot: [petramagna@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 01:25 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 01:24 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 01:24 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 5s
+* 01:24 MirahezeLSBot: [universalomega@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+
+## 2026-09-14 
+
+* 23:31 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=bluearchivezhwiki --json=MW146Schema.json --change-version (END - exit=0)
+* 22:18 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=kholozemwiki (END - exit=0)
+* 22:10 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=kholozemwiki --startOver (END - exit=0)
+* 22:09 MirahezeLSBot: [wwr@mwtask171] curl -X DELETE [https://opensearch-mw.wikitide.net/kholozemwiki_content](https://opensearch-mw.wikitide.net/kholozemwiki_content) [https://opensearch-mw.wikitide.net/kholozemwiki_general](https://opensearch-mw.wikitide.net/kholozemwiki_general)
+* 21:14 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_skins': 'Cosmos'} to all - SUCCESS in 70s
+* 21:13 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_skins': 'Cosmos'} to all
+* 19:51 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=shminerwiki --json=MW146Schema.json --change-version (END - exit=0)
+* 19:40 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=dappervolkwiki --json=MW146Schema.json --change-version (END - exit=0)
+* 19:39 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=metawiki --all-wikis (END - exit=0)
+* 19:22 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'extension_list': True, 'versions': ['1.45', '1.46']} to all - SUCCESS in 53s
+* 19:21 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'extension_list': True, 'versions': ['1.45', '1.46']} to all
+* 19:20 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'versions': ['1.45', '1.46'], 'upgrade_extensions': 'PortableInfobox'} to all - SUCCESS in 98s
+* 19:19 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'versions': ['1.45', '1.46'], 'upgrade_extensions': 'PortableInfobox'} to all
+* 19:10 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=wingspanwiki --json=MW146Schema.json --change-version (END - exit=0)
+* 17:45 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=strinovawiki --json=MW146Schema.json --change-version (END - exit=0)
+* 12:39 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=wickedrestoredofficialwiki (END - exit=0)
+* 12:39 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=manifestationrevivalofficialwiki --new=wickedrestoredofficialwiki --user='Jenny on Wiki' (END - exit=0)
+* 12:35 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=ofpvwiki (END - exit=0)
+* 12:35 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=ofvpwiki --new=ofpvwiki --user='Jenny on Wiki' (END - exit=0)
+* 12:31 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=laminaxcompanybuswiki (END - exit=0)
+* 12:31 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=lcbwiki --new=laminaxcompanybuswiki --user='Jenny on Wiki' (END - exit=0)
+* 12:27 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=towerbattleswiki (END - exit=0)
+* 12:27 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=towerbattleswikiwiki --new=towerbattleswiki --user='Jenny on Wiki' (END - exit=0)
+* 12:20 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=eternalnighmaresfanwikiwiki --new=sonicexeeternalnightmarefanwikiwiki --user='Jenny on Wiki' (END - exit=256)
+* 10:57 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php updateSpecialPages --wiki=tprrwiki (END - exit=0)
+* 10:15 MirahezeLSBot: [wwr@mwtask171] Finished import for tprrwiki (XML: None; Images: images) (END - exit=0)
+* 10:15 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=tprrwiki --update (END - exit=0)
+* 10:15 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initSiteStats --wiki=tprrwiki --update (START)
+* 10:15 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=tprrwiki --sleep=1 '--comment=Importing images from [https://theremasteredroleplay.fandom.com](https://theremasteredroleplay.fandom.com) ([T15988](https://meta.miraheze.org/wiki/phorge:T15988))' -- images (END - exit=0)
+* 08:19 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=tprrwiki --sleep=1 '--comment=Importing images from [https://theremasteredroleplay.fandom.com](https://theremasteredroleplay.fandom.com) ([T15988](https://meta.miraheze.org/wiki/phorge:T15988))' -- images (START)
+* 08:19 MirahezeLSBot: [wwr@mwtask171] Starting import for tprrwiki (XML: None; Images: images) (START)
+* 00:03 MirahezeLSBot: [wwr@mwtask171] Finished import for tprrwiki (XML: None; Images: images) (END - exit=-2)
+* 00:03 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=tprrwiki --sleep=0 '--comment=Importing images from [https://theremasteredroleplay.fandom.com](https://theremasteredroleplay.fandom.com) ([T15988](https://meta.miraheze.org/wiki/phorge:T15988))' -- images (END - exit=-2)
+* 00:03 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=tprrwiki --sleep=0 '--comment=Importing images from [https://theremasteredroleplay.fandom.com](https://theremasteredroleplay.fandom.com) ([T15988](https://meta.miraheze.org/wiki/phorge:T15988))' -- images (START)
+* 00:03 MirahezeLSBot: [wwr@mwtask171] Starting import for tprrwiki (XML: None; Images: images) (START)
+* 00:02 MirahezeLSBot: [wwr@mwtask171] Finished import for tprrwiki (XML: None; Images: images) (END - exit=-2)
+* 00:02 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php importImages --wiki=tprrwiki --sleep=1 '--comment=Importing images from [https://theremasteredroleplay.fandom.com](https://theremasteredroleplay.fandom.com) ([T15988](https://meta.miraheze.org/wiki/phorge:T15988))' -- images (END - exit=-2)
+
 ## 2026-09-13 
 
 * 20:04 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 30s

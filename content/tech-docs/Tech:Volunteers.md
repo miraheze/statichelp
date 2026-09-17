@@ -8,21 +8,9 @@ title: Tech:Volunteers
 
 The team includes volunteers in technical and less-technical roles, including project management and community liaising. You can contact the team at tech `{{ {{@}} }}`miraheze.org.
 
-<div style="width: 100%; overflow: auto;>
-{| class="wikitable center"
-|-
-! class="unsortable"| [ `{{ {{fullurl:Tech:Volunteers/List|action=edit}} }}` +/-]
-! Name & Role
-! Libera Chat nickname <br /> on [IRC](https://meta.miraheze.org/wiki/Special:MyLanguage/IRC)
-! E-mail
-! Shell
-! GitHub
-! Phorge (admin)
-! Service Providers
-! Cloudflare
-! Domain Registrar
-! Grafana (Admin)
-|- `{{ {{Tech:Volunteers/List}} }}`
+## Members
+
+ `{{ {{:Tech:Volunteers/List}} }}`
 
 ### Chart
 

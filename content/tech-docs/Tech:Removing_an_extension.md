@@ -80,6 +80,7 @@ mwscript ManageWiki:ToggleExtension loginwiki --name=<extension> --disable --all
 ```bash
 mwscript ManageWiki:PopulateWikiSettings loginwiki --setting=<setting> --remove --all-wikis --execute
 ```
+* Perform the last 2 steps for test151 as well.
 * Delete any related configuration from the following files:
   * `ManageWikiExtensions.php`
   * `LocalWiki.php`
@@ -100,6 +101,10 @@ sudo -u www-data rm -rf /srv/mediawiki-staging/*/{repo_path}
 ```bash
 mwdeploy --world --config --pull=config --l10n --extension-list --servers=all --versions=all
 ```
+
+## Additional tasks 
+
+It is not required but recommended to remove the extension from [mw:Module:Used_by/data.json](https://meta.miraheze.org/wiki/mw:Module:Used_by/data.json) so that it no longer shows up as being deployed on Miraheze.
 
 ## Globally Disabling Extensions 
 
