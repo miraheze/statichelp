@@ -7,7 +7,7 @@ title: Tech:Volunteers/List
 | [Agent Isai](https://meta.miraheze.org/wiki/User:Agent_Isai)<br /> *Infrastructure Specialist* | Agent | agent `{{ {{@}} }}`miraheze.org | Root on all servers | Owner | Yes | Yes | Yes | No | Yes |
 | [BlankEclair](https://meta.miraheze.org/wiki/User:BlankEclair)<br /> *MediaWiki Specialist* | BlankEclair | blankeclair `{{ {{@}} }}`miraheze.org | MediaWiki servers | MediaWiki Specialists | No | No | Yes | No | No |
 | [Harej](https://meta.miraheze.org/wiki/User:Harej)<br /> *Project Manager* | None | harej `{{ {{@}} }}`miraheze.org | No | No | No | Yes | No | Yes | No |
-| [Jenny on Wiki](https://meta.miraheze.org/wiki/User:Jenny_on_Wiki)<br /> *MediaWiki Specialist* | None | wwr@miraheze.org | MediaWiki servers | MediaWiki Specialists | No | No | Yes | No | No |
+| [Jenny on Wiki](https://meta.miraheze.org/wiki/User:Jenny_on_Wiki)<br /> *MediaWiki Specialist* | None | jenny@miraheze.org | MediaWiki servers | MediaWiki Specialists | No | No | Yes | No | No |
 | [MacFan4000](https://meta.miraheze.org/wiki/User:MacFan4000)<br /> *MediaWiki Specialist* | MacFan4000 | macfan `{{ {{@}} }}`miraheze.org | MediaWiki servers, puppet181, ns1 and ns2 | MediaWiki Specialists; ssl-admins; dns-admins | No | No | Yes | No | No |
 | [Original Authority](https://meta.miraheze.org/wiki/User:Original_Authority)<br /> *MediaWiki Specialist* | None | oa `{{ {{@}} }}`miraheze.org | MediaWiki servers, puppet181 | MediaWiki Specialists; ssl-admins | No | No | Yes | No | No |
 | [Paladox](https://meta.miraheze.org/wiki/User:Paladox)<br /> *Infrastructure Specialist* | paladox | paladox `{{ {{@}} }}`miraheze.org | Root on all servers | Owner | Yes | Yes | Yes | No | Yes |

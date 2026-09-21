@@ -10,33 +10,37 @@ Each extension is in a different situation. Some are going to be removed for tec
 
 --[PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 11:17, 13 July 2026 (UTC)
 
-## Extension:DataTransfer
+__TOC__
 
-### Rationale 1
-
+```
+{{ {{Archived|1=
+==[[mw:Extension:Data Transfer|Extension:DataTransfer]]==
+===Rationale 1===
 Testing revealed multiple issues with the extension that prevent it from properly functioning.
 
 The technology team also believes that it has limited use since most functionalities are covered by MediaWiki's native import/export features.
 
-### Discussion 1
+===Discussion 1===
 
-Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 11:17, 13 July 2026 (UTC)
+Please respond here. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 11:17, 13 July 2026 (UTC)
 
-   No concerns this, as there are acceptable alternatives. I'm wondering, though, can you share some stats on the number of wikis on which each extension is enabled (active wikis only; no need for locked, closed, or deleted wikis, I think). [Doug](https://meta.miraheze.org/wiki/User:Doug) ([talk](https://meta.miraheze.org/wiki/User_talk:Doug)) 01:53, 19 July 2026 (UTC)
-      Added in the appendix. The parser function doesn't provide a way to filter by wiki state unfortunately. The [list on the communities wiki](https://meta.miraheze.org/wiki/mh:communities:List_of_extensions_by_popularity) only includes public, non-deleted wikis with the number of active users in mind, which could also be useful. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 14:33, 19 July 2026 (UTC)
-         Ah, okay. Thanks. I'll check out [that page on Communities wiki](https://meta.miraheze.org/wiki/mh:communities:List_of_extensions_by_popularity). To clarify, I was wondering if there was an SQL query that could be run to generate that information. In any case, the information in the Appendix you've provided is helpful enough (number of wikis using it). [Doug](https://meta.miraheze.org/wiki/User:Doug) ([talk](https://meta.miraheze.org/wiki/User_talk:Doug)) 14:54, 19 July 2026 (UTC)
-   Enabled it little more than a couple of years ago on my [creative-venture wiki](https://meta.miraheze.org/wiki/mh:ConstantNoble), just for the sake of the track listings on my forthcoming anthro novel's [side project](https://meta.miraheze.org/wiki/mh:ConstantNoble:Portal:VIMU_Vault); about the only extension I know of that supports CSV imports (via Special:ImportCSV). --[Routhwick](https://meta.miraheze.org/wiki/User:Routhwick) ([talk](https://meta.miraheze.org/wiki/User_talk:Routhwick)) 14:12, 22 July 2026 (UTC)
-      Thanks for the feedback. I didn't expect wikis to be in need of this use case. Since we do have a wiki that need a DataTransfer feature not available in other extensions, tech can decide in the end whether the effort to fix this extension is worth it.
-      Alternatively, you can convert the CSV file into an XML dump and use Special:Import. The XML dump does require a bit more effort to produce, though. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 17:30, 22 July 2026 (UTC)
+:No concerns this, as there are acceptable alternatives. I'm wondering, though, can you share some stats on the number of wikis on which each extension is enabled (active wikis only; no need for locked, closed, or deleted wikis, I think). [[User:Doug|Doug]] ([[User talk:Doug|talk]]) 01:53, 19 July 2026 (UTC)
+::Added in the appendix. The parser function doesn't provide a way to filter by wiki state unfortunately. The [[mh:communities:List of extensions by popularity|list on the communities wiki]] only includes public, non-deleted wikis with the number of active users in mind, which could also be useful. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 14:33, 19 July 2026 (UTC)
+:::Ah, okay. Thanks. I'll check out [[mh:communities:List of extensions by popularity|that page on Communities wiki]]. To clarify, I was wondering if there was an SQL query that could be run to generate that information. In any case, the information in the Appendix you've provided is helpful enough (number of wikis using it). [[User:Doug|Doug]] ([[User talk:Doug|talk]]) 14:54, 19 July 2026 (UTC)
+:Enabled it little more than a couple of years ago on my [[mh:ConstantNoble|creative-venture wiki]], just for the sake of the track listings on my forthcoming anthro novel's [[mh:ConstantNoble:Portal:VIMU Vault|side project]]; about the only extension I know of that supports CSV imports (via Special:ImportCSV). --[[User:Routhwick|Routhwick]] ([[User talk:Routhwick|talk]]) 14:12, 22 July 2026 (UTC)
+::Thanks for the feedback. I didn't expect wikis to be in need of this use case. Since we do have a wiki that need a DataTransfer feature not available in other extensions, tech can decide in the end whether the effort to fix this extension is worth it.
+::Alternatively, you can convert the CSV file into an XML dump and use Special:Import. The XML dump does require a bit more effort to produce, though. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 17:30, 22 July 2026 (UTC)
 
-    Data transferring is very important. In the Bestiary of the Hypogriph, one of our projects is we save information about worldbuiding that gets scrubbed and destroyed by webpages lacking in maintenance. I myself lost a forum with around 40 thousand messages. Exporting and importing in as many formats as possible is a big plus and very necessary.
-   It also bears mention this is the largest extension that "would be disabled", with over 700 wikis using it, double the next candidate.
-   Native wiki importing/exporting is clunky and often fails with larger files.--[NimoStar](https://meta.miraheze.org/wiki/User:NimoStar) ([talk](https://meta.miraheze.org/wiki/User_talk:NimoStar)) 07:29, 17 August 2026 (UTC)
-      We have [Special:DataDump](https://meta.miraheze.org/wiki/Special:DataDump) available on all wikis, which provides the best way to perform full-wiki backups. There is no reason to use a special extension instead of what works for every MediaWiki installation unless you really want some of its features such as CSV handling.
-      Over 700 wikis have enabled it in ManageWiki, but few are actually using it judging from the lack of response in the past month. We've had extensions that have been completely broken for over a year, and we received no bug reports from the hundreds of wikis that are supposedly using it. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 09:53, 17 August 2026 (UTC)
-   Will add that per [Special:Diff/558532](https://meta.miraheze.org/wiki/Special:Diff/558532) and [Special:Diff/561357](https://meta.miraheze.org/wiki/Special:Diff/561357) it does seem like there are still uses for CSV importing vs having to learn pywikibot or something. But also considering its history and maintainer the extension still seems like a liability. [TheWWRNerdGuy](https://meta.miraheze.org/wiki/User:TheWWRNerdGuy) ([talk](https://meta.miraheze.org/wiki/User_talk:TheWWRNerdGuy)) 20:27, 5 September 2026 (UTC)
-   This extension was used on the Songs of Chaos wiki to import a number of pre-existing information databases that previously existed as spreadsheets. Pywikibot would also have worked for this of course, but I feel the direct CSV import helped get the wiki off the ground faster.
-   That said, if there are significant maintainability issues then I do not oppose dropping this extension. [Starshell](https://meta.miraheze.org/wiki/User:Starshell) ([talk](https://meta.miraheze.org/wiki/User_talk:Starshell)) 00:58, 16 September 2026 (UTC)
+: Data transferring is very important. In the Bestiary of the Hypogriph, one of our projects is we save information about worldbuiding that gets scrubbed and destroyed by webpages lacking in maintenance. I myself lost a forum with around 40 thousand messages. Exporting and importing in as many formats as possible is a big plus and very necessary. 
+:It also bears mention this is the largest extension that "would be disabled", with over 700 wikis using it, double the next candidate.
+:Native wiki importing/exporting is clunky and often fails with larger files.--[[User:NimoStar|NimoStar]] ([[User talk:NimoStar|talk]]) 07:29, 17 August 2026 (UTC)
+::We have [[Special:DataDump]] available on all wikis, which provides the best way to perform full-wiki backups. There is no reason to use a special extension instead of what works for every MediaWiki installation unless you really want some of its features such as CSV handling.
+::Over 700 wikis have enabled it in ManageWiki, but few are actually using it judging from the lack of response in the past month. We've had extensions that have been completely broken for over a year, and we received no bug reports from the hundreds of wikis that are supposedly using it. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 09:53, 17 August 2026 (UTC)
+:Will add that per [[Special:Diff/558532]] and [[Special:Diff/561357]] it does seem like there are still uses for CSV importing vs having to learn pywikibot or something. But also considering its history and maintainer the extension still seems like a liability. [[User:TheWWRNerdGuy|TheWWRNerdGuy]] ([[User talk:TheWWRNerdGuy|talk]]) 20:27, 5 September 2026 (UTC)
+:This extension was used on the Songs of Chaos wiki to import a number of pre-existing information databases that previously existed as spreadsheets. Pywikibot would also have worked for this of course, but I feel the direct CSV import helped get the wiki off the ground faster.
+:That said, if there are significant maintainability issues then I do not oppose dropping this extension. [[User:Starshell|Starshell]] ([[User talk:Starshell|talk]]) 00:58, 16 September 2026 (UTC)
+}} }}
+```
 
 ```
 {{ {{Archived|1=

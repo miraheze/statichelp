@@ -92,6 +92,7 @@ Perhaps it would be worth considering more flexible ability to bounce between sc
    I agree, that something easier than WikiDiscover would be very ideal though perhaps very difficult to implement.
    As for merging Wiki options and additional information, I would like to make that clear: those were never really meant to be two separate steps in the end result. Additional information is by default all fields with no defined section. They are added via hooks in MirahezeMagic and thus we can't set a section until the initial version is deployed and so at current they are split. Though your other point about it being useful if we added more things like loadouts got me thinking perhaps it is useful to keep seperate since things like Template loadouts, as well as perhaps default skin and other things are coming soon to it.
    As for your idea about making it easier to return to a previous step, that is really not a bad idea and I will see what I can do about that. [Universal Omega (Miraheze)](https://meta.miraheze.org/wiki/User:Universal_Omega_(Miraheze)) ([talk](https://meta.miraheze.org/wiki/User_talk:Universal_Omega_(Miraheze))) 16:04, 13 September 2026 (UTC)
+   I like the new design, it doesn't overwhelm users with options unlike the current redesign. [ForbiddenBuild](https://meta.miraheze.org/wiki/User:ForbiddenBuild) ([talk](https://meta.miraheze.org/wiki/User_talk:ForbiddenBuild)) 18:27, 19 September 2026 (UTC)
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Noticeboard/Request_for_Feedback:_RequestWiki_redesign)**

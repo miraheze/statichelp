@@ -55,6 +55,8 @@ I'm having trouble finding a CVE for this vulnerability (although I admit it's b
       Kartographer has its own share of bugs, as documented this month at [phab:T15384](https://meta.miraheze.org/wiki/phab:T15384). --[Routhwick](https://meta.miraheze.org/wiki/User:Routhwick) ([talk](https://meta.miraheze.org/wiki/User_talk:Routhwick)) 21:17, 27 May 2026 (UTC)
          Yeah, that makes sense. [DarkMatterMan4500](https://meta.miraheze.org/wiki/User:DarkMatterMan4500) ([talk](https://meta.miraheze.org/wiki/User_talk:DarkMatterMan4500)) ([contribs](https://meta.miraheze.org/wiki/Special:Contributions/DarkMatterMan4500)) 16:49, 21 June 2026 (UTC)
 
+It's been a month and a half since the last update on this. Could we get a status update, please, even if it's "no change since the end of July"? -- [Robkelk](https://meta.miraheze.org/wiki/User:Robkelk) ([talk](https://meta.miraheze.org/wiki/User_talk:Robkelk)) 00:25, 20 September 2026 (UTC)
+
 ## Changes to Miraheze's default MediaWiki configuration 
 
 Following a successful [Request for Feedback](/tech-docs/technoticeboard-request_for_feedback_changes_to_default_mediawiki_settings), the Technology Team is making several changes to Miraheze's default MediaWiki configurations. We believe they are a net positive for most wikis. If they do not work well for your wiki, you can change the setting back on ManageWiki. The configuration changes are as follows:

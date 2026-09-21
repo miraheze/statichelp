@@ -2,6 +2,222 @@
 title: Tech:Server admin log
 ---
 
+## 2026-09-20 
+
+* 14:36 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 14:36 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 01:00 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: libunbound8
+* 01:00 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: libunbound8
+* 00:59 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: libunbound8
+* 00:59 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: libunbound8
+* 00:59 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: libunbound8
+* 00:58 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: libunbound8
+* 00:58 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: libunbound8
+
+## 2026-09-19 
+
+* 17:24 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 30s
+* 17:23 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 17:21 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 05:34 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 05:34 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 05:16 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 30s
+* 05:16 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
+## 2026-09-17 
+
+* 23:49 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:49 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:48 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:48 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:48 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:47 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:47 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:46 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:46 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:46 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:45 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:45 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:45 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb191: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:44 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:44 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:44 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:43 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:43 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:43 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:42 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:42 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:42 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:41 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:41 MirahezeLSBot: [void@puppet181] Upgraded packages on speedscope211: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:41 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:41 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:40 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:40 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:39 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:39 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:39 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:38 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:38 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:38 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:37 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:37 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:36 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:36 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:36 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:35 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:35 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:35 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:34 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:34 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:32 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:30 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:30 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:30 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:29 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo211: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:29 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:29 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:29 MirahezeLSBot: [void@puppet181] Upgraded packages on db192: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:28 MirahezeLSBot: [void@puppet181] Upgraded packages on db201: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:28 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:28 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:27 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:27 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:27 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:26 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:26 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:26 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:25 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:25 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:25 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:24 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:24 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:24 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:23 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:23 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:23 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:23 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:22 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:22 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:22 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: bind9-host, bind9-dnsutils, and bind9-libs
+* 23:21 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: bind9-host, bind9-dnsutils, and bind9-libs
+* 21:38 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=longlivetheblackparadewiki (END - exit=0)
+* 21:37 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=longlivetheblackparadewiki --startOver (END - exit=0)
+* 16:36 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ModifyGroupPermission --wiki=metawiki --removeperms=datatransferimport --all-groups --all-wikis --execute (END - exit=0)
+* 16:15 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': ['1.45', '1.46']} to all - SUCCESS in 684s
+* 16:11 MirahezeLSBot: [universalomega@test151] finished deploy of {'l10n': True, 'versions': ['1.45', '1.46']} to test151 - SUCCESS in 420s
+* 16:04 MirahezeLSBot: [universalomega@test151] starting deploy of {'l10n': True, 'versions': ['1.45', '1.46']} to test151
+* 16:04 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'l10n': True, 'versions': ['1.45', '1.46']} to all
+* 16:02 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': ['1.45', '1.46']} to all - SUCCESS in 710s
+* 16:01 MirahezeLSBot: [universalomega@test151] finished deploy of {'l10n': True, 'versions': ['1.45', '1.46']} to test151 - SUCCESS in 401s
+* 15:54 MirahezeLSBot: [universalomega@test151] starting deploy of {'l10n': True, 'versions': ['1.45', '1.46']} to test151
+* 15:54 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 15:54 MirahezeLSBot: [universalomega@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 15:53 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 15:53 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 15:50 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'l10n': True, 'versions': ['1.45', '1.46']} to all
+* 15:49 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'extension_list': True, 'versions': ['1.45', '1.46']} to all - SUCCESS in 56s
+* 15:48 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'extension_list': True, 'versions': ['1.45', '1.46']} to all
+* 15:48 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'extension_list': True, 'versions': ['1.45', '1.46']} to all
+* 15:48 MirahezeLSBot: [universalomega@test151] finished deploy of {'extension_list': True, 'versions': ['1.45', '1.46']} to test151 - SUCCESS in 2s
+* 15:48 MirahezeLSBot: [universalomega@test151] starting deploy of {'extension_list': True, 'versions': ['1.45', '1.46']} to test151
+* 15:47 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 15:47 MirahezeLSBot: [universalomega@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 15:45 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 15:44 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 15:29 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ModifyGroupPermission --wiki=metawiki --removeperms=datatransferimport --all-groups --all-wikis (END - exit=512)
+* 15:28 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:ToggleExtension --wiki=metawiki --name=datatransfer --all-wikis --disable --execute (END - exit=0)
+* 15:26 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 131s
+* 15:23 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'ManageWiki'} to all
+* 15:22 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 15:21 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 14:53 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=battlecatsmoddingwiki (END - exit=0)
+* 14:53 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=battlecatsmoddingwiki --startOver (END - exit=0)
+* 14:52 MirahezeLSBot: [wwr@mwtask171] curl -X DELETE [https://opensearch-mw.wikitide.net/battlecatsmoddingwiki_{content,general}](https://opensearch-mw.wikitide.net/battlecatsmoddingwiki_{content,general})
+* 14:50 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=minawiki (END - exit=0)
+* 14:45 MirahezeLSBot: [wwr@mwtask171] {content,general} (testing)
+* 14:41 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=minawiki --startOver (END - exit=0)
+* 14:40 MirahezeLSBot: [wwr@mwtask171] curl -X DELETE [https://opensearch-mw.wikitide.net/minawiki_{content,general}](https://opensearch-mw.wikitide.net/minawiki_{content,general})
+* 05:36 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'l10n': True, 'extension_list': True, 'versions': '1.46'} to all - SUCCESS in 70s
+* 05:35 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'l10n': True, 'extension_list': True, 'versions': '1.46'} to all
+* 05:35 MirahezeLSBot: [petramagna@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 05:35 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'l10n': True, 'versions': '1.46'} to all
+* 05:32 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'world', 'world': True, 'versions': '1.46'} to all - SUCCESS in 144s
+* 05:30 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'pull': 'world', 'world': True, 'versions': '1.46'} to all
+* 05:29 MirahezeLSBot: [petramagna@test151] finished deploy of {'pull': 'world', 'world': True, 'versions': '1.46'} to test151 - SUCCESS in 21s
+* 05:28 MirahezeLSBot: [petramagna@test151] starting deploy of {'pull': 'world', 'world': True, 'versions': '1.46'} to test151
+* 05:20 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'world': True, 'l10n': True, 'versions': '1.46'} to all - SUCCESS in 300s
+* 05:15 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'world': True, 'l10n': True, 'versions': '1.46'} to all
+* 05:14 MirahezeLSBot: [petramagna@test151] finished deploy of {'l10n': True, 'extension_list': True, 'versions': '1.46'} to test151 - SUCCESS in 12s
+* 05:14 MirahezeLSBot: [petramagna@test151] starting deploy of {'l10n': True, 'extension_list': True, 'versions': '1.46'} to test151
+* 05:13 MirahezeLSBot: [petramagna@test151] finished deploy of {'world': True, 'versions': '1.46'} to test151 - SUCCESS in 20s
+* 05:13 MirahezeLSBot: [petramagna@test151] starting deploy of {'world': True, 'versions': '1.46'} to test151
+* 03:53 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy161: nginx and nginx-common
+* 03:52 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on test151: xserver-xorg-core, xserver-common, libevent-dev, libevent-pthreads-2.1-7t64, libevent-openssl-2.1-7t64, libevent-extra-2.1-7t64, libevent-core-2.1-7t64, libevent-2.1-7t64, nginx, nginx-common, and xvfb
+* 03:52 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy171: libevent-2.1-7t64, nginx, and nginx-common
+* 03:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os162: nginx and nginx-common
+* 03:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on puppet181: nginx and nginx-common
+* 03:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on rdb191: libevent-dev, libevent-pthreads-2.1-7t64, libevent-openssl-2.1-7t64, libevent-extra-2.1-7t64, libevent-core-2.1-7t64, and libevent-2.1-7t64
+* 03:49 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os202: nginx and nginx-common
+* 03:49 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on speedscope211: nginx and nginx-common
+* 03:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on reports171: nginx and nginx-common
+* 03:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os151: nginx and nginx-common
+* 03:47 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask181: xserver-xorg-core, xserver-common, nginx, nginx-common, and xvfb
+* 03:47 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on phorge171: nginx and nginx-common
+* 03:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask171: xserver-xorg-core, xserver-common, nginx, nginx-common, and xvfb
+* 03:46 MirahezeLSBot: [petramagna@test151] finished deploy of {'l10n': True, 'versions': '1.46'} to test151 - SUCCESS in 48s
+* 03:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask161: xserver-xorg-core, xserver-common, nginx, nginx-common, and xvfb
+* 03:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw203: xserver-xorg-core, xserver-common, nginx, nginx-common, and xvfb
+* 03:45 MirahezeLSBot: [petramagna@test151] starting deploy of {'l10n': True, 'versions': '1.46'} to test151
+* 03:44 MirahezeLSBot: [petramagna@test151] finished deploy of {'world': True, 'versions': '1.46'} to test151 - SUCCESS in 20s
+* 03:44 MirahezeLSBot: [petramagna@test151] starting deploy of {'world': True, 'versions': '1.46'} to test151
+* 03:44 MirahezeLSBot: [petramagna@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 03:43 MirahezeLSBot: [petramagna@test151] starting deploy of {'world': True, 'versions': '1.46'} to test151
+* 03:37 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw202: xserver-xorg-core, xserver-common, nginx, nginx-common, and xvfb
+* 03:35 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask151: xserver-xorg-core, xserver-common, nginx, nginx-common, and xvfb
+* 03:34 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw201: xserver-xorg-core, xserver-common, nginx, nginx-common, and xvfb
+* 03:24 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw193: xserver-xorg-core, xserver-common, nginx, nginx-common, and xvfb
+* 03:23 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw182: xserver-xorg-core, xserver-common, nginx, nginx-common, and xvfb
+* 03:22 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw192: xserver-xorg-core, xserver-common, nginx, nginx-common, and xvfb
+* 03:16 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem191: libevent-2.1-7t64
+* 03:16 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw183: xserver-xorg-core, xserver-common, nginx, nginx-common, and xvfb
+* 03:11 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw191: xserver-xorg-core, xserver-common, nginx, nginx-common, and xvfb
+* 03:04 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw173: xserver-xorg-core, xserver-common, nginx, nginx-common, and xvfb
+* 02:55 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw181: xserver-xorg-core, xserver-common, nginx, nginx-common, and xvfb
+* 02:54 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw162: xserver-xorg-core, xserver-common, nginx, nginx-common, and xvfb
+* 02:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw163: xserver-xorg-core, xserver-common, nginx, nginx-common, and xvfb
+* 02:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem201: libevent-2.1-7t64
+* 02:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw172: xserver-xorg-core, xserver-common, nginx, nginx-common, and xvfb
+* 02:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw153: xserver-xorg-core, xserver-common, nginx, nginx-common, and xvfb
+* 02:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw161: xserver-xorg-core, xserver-common, nginx, nginx-common, and xvfb
+* 02:36 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw152: xserver-xorg-core, xserver-common, nginx, nginx-common, and xvfb
+* 02:30 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw151: xserver-xorg-core, xserver-common, nginx, nginx-common, and xvfb
+* 02:29 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mon181: nginx and nginx-common
+* 02:28 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw171: xserver-xorg-core, xserver-common, nginx, nginx-common, and xvfb
+* 02:27 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem161: libevent-2.1-7t64
+* 02:27 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem151: libevent-2.1-7t64
+* 02:27 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on llm191: xserver-xorg-core, xserver-common, nginx, and nginx-common
+* 02:26 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on matomo211: nginx and nginx-common
+* 02:26 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on matomo151: nginx and nginx-common
+* 02:25 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mattermost2: nginx and nginx-common
+* 02:24 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud20: libevent-2.1-7t64 and libevent-core-2.1-7t64
+* 02:24 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud19: libevent-2.1-7t64 and libevent-core-2.1-7t64
+* 02:23 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on graylog161: nginx and nginx-common
+* 02:23 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp161: nginx and nginx-common
+* 02:22 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud17: libevent-2.1-7t64 and libevent-core-2.1-7t64
+* 02:21 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud16: libevent-2.1-7t64 and libevent-core-2.1-7t64
+* 02:21 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud21: libevent-2.1-7t64 and libevent-core-2.1-7t64
+* 02:20 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud18: libevent-2.1-7t64 and libevent-core-2.1-7t64
+* 02:20 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud15: libevent-2.1-7t64 and libevent-core-2.1-7t64
+
 ## 2026-09-16 
 
 * 22:34 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': ['1.45', '1.46']} to all - SUCCESS in 548s

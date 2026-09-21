@@ -33,5 +33,21 @@ This problem was twice recorded to have happened ever since CirrusSearch was ena
 * [T13277#266442](https://meta.miraheze.org/wiki/phorge:T13277#266442)
 * [https://wm-bot.wmcloud.org/logs/%23miraheze/20250728.txt#:~:text=%5B23:46:01%5D,now%20fixed](https://wm-bot.wmcloud.org/logs/%23miraheze/20250728.txt#:~:text=%5B23:46:01%5D,now%20fixed)
 
+Here's a python script to give the appropriate commands:
+```python3
+#!/usr/bin/python3
+import subprocess, sys
+
+wiki = sys.argv[1]
+
+command = []
+command.append("curl -X DELETE https://opensearch-mw.wikitide.net/%s_{content,general}" % wiki)
+command.append("logsalmsg curl -X DELETE https://opensearch-mw.wikitide.net/%s_{content,general}" % wiki)
+command.append(f"mwscript CirrusSearch:UpdateSearchIndexConfig {wiki} --startOver")
+command.append(f"mwscript CirrusSearch:ForceSearchIndex {wiki}")
+
+print('\n'.join(command))
+```
+
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:CirrusSearch)**
