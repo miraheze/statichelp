@@ -2,6 +2,41 @@
 title: Tech:Server admin log
 ---
 
+## 2026-09-21 
+
+* 18:38 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'l10n': True, 'versions': ['1.45', '1.46'], 'upgrade_skins': 'Citizen'} to all - SUCCESS in 777s
+* 18:25 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'l10n': True, 'versions': ['1.45', '1.46'], 'upgrade_skins': 'Citizen'} to all
+* 18:24 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_skins': 'Citizen'} to test151 - SUCCESS in 19s
+* 18:23 MirahezeLSBot: [petramagna@test151] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_skins': 'Citizen'} to test151
+* 17:29 MirahezeLSBot: [petramagna@test151] finished deploy of {'l10n': True, 'folders': '1.46/skins/Citizen', 'versions': '1.46'} to test151 - SUCCESS in 24s
+* 17:28 MirahezeLSBot: [petramagna@test151] starting deploy of {'l10n': True, 'folders': '1.46/skins/Citizen', 'versions': '1.46'} to test151
+* 17:28 MirahezeLSBot: [petramagna@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 17:28 MirahezeLSBot: [petramagna@test151] starting deploy of {'l10n': True, 'folders': '1.46/skins/Citizen', 'versions': ['1.45', '1.46']} to test151
+* 17:20 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/skins/Citizen'} to test151 - SUCCESS in 0s
+* 17:20 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/skins/Citizen'} to test151
+* 16:49 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawiki --setting=wgCitizenSearchGateway --setting=wgCitizenSearchDescriptionSource --setting=wgCitizenMaxSearchResults --setting=wgCitizenEnableCommandPalette --remove --all-wikis --execute (END - exit=0)
+* 16:40 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 32s
+* 16:39 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 16:36 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 16:36 MirahezeLSBot: [petramagna@test151] starting deploy of {'config': True} to test151
+* 12:27 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=tprrwiki (END - exit=0)
+* 11:49 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=tprrwiki --startOver (END - exit=0)
+* 11:49 MirahezeLSBot: [wwr@mwtask171] curl -X DELETE [https://opensearch-mw.wikitide.net/tprrwiki_content](https://opensearch-mw.wikitide.net/tprrwiki_content) [https://opensearch-mw.wikitide.net/tprrwiki_general](https://opensearch-mw.wikitide.net/tprrwiki_general)
+* 11:30 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=tprrwiki --startOver (END - exit=256)
+* 11:29 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=tprrwiki --startOver (END - exit=256)
+* 11:29 MirahezeLSBot: [wwr@mwtask171] curl -X DELETE [https://opensearch-mw.wikitide.net/tprrwiki_content](https://opensearch-mw.wikitide.net/tprrwiki_content) [https://opensearch-mw.wikitide.net/tprrwiki_general](https://opensearch-mw.wikitide.net/tprrwiki_general)
+* 11:29 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=tprrwiki --startOver (END - exit=256)
+* 11:25 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=tprrwiki --startOver (END - exit=256)
+* 11:25 MirahezeLSBot: [wwr@mwtask171] curl -X DELETE [https://opensearch-mw.wikitide.net/tprrwiki_content](https://opensearch-mw.wikitide.net/tprrwiki_content) [https://opensearch-mw.wikitide.net/tprrwiki_general](https://opensearch-mw.wikitide.net/tprrwiki_general)
+* 11:24 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=calvinandhobbeswiki (END - exit=0)
+* 11:22 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=calvinandhobbeswiki --startOver (END - exit=0)
+* 11:21 MirahezeLSBot: [wwr@mwtask171] curl -X DELETE [https://opensearch-mw.wikitide.net/calvinandhobbeswiki_content](https://opensearch-mw.wikitide.net/calvinandhobbeswiki_content) [https://opensearch-mw.wikitide.net/calvinandhobbeswiki_general](https://opensearch-mw.wikitide.net/calvinandhobbeswiki_general)
+* 05:56 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=calvinandhobbeswiki (END - exit=256)
+* 05:55 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=calvinandhobbeswiki --startOver (END - exit=256)
+* 05:54 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=calvinandhobbeswiki --startOver (END - exit=256)
+* 04:23 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php initEditCount --wiki=lovenikkiwiki (END - exit=0)
+* 04:23 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=lovenikkiwiki --from=DuchessDream --to=DuchessDream --import-prefix=wikia:lovenikki (END - exit=0)
+
 ## 2026-09-20 
 
 * 14:36 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
