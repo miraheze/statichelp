@@ -2,6 +2,111 @@
 title: Tech:Server admin log
 ---
 
+## 2026-09-22 
+
+* 23:48 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=simswiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=0)
+* 23:20 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=creaturawiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=0)
+* 23:09 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=allthetropeswiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=0)
+* 23:02 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=poohsadventureswiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=0)
+* 22:52 Universal Omega: DELETE FROM imagelinks WHERE il_from = 24639 AND il_target_id = 3255 AND il_to = *
+**on webkinzguidewiki**
+
+* 22:50 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=webkinzguidewiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-drop-il_to.sql (END - exit=0)
+* 22:50 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=webkinzguidewiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=0)
+* 22:41 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=webkinzguidewiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=256)
+* 22:27 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=projectsekaiwiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=0)
+* 21:57 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=deathbattlewiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-drop-il_to.sql (END - exit=0)
+* 21:56 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=deathbattlewiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=0)
+* 21:55 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=deathbattlewiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=256)
+* 21:54 Universal Omega: DELETE FROM imagelinks WHERE il_to =* AND ((il_from = 869042 AND il_target_id = 47829) OR (il_from = 854155 AND il_target_id = 24941)); on deathbattlewiki
+* 21:51 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=deathbattlewiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=256)
+* 21:11 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=lovenikkiwiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=0)
+* 20:50 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=spongebobfanonwiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=0)
+* 20:48 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:ReplaceTextEligible --wiki=samandmaxwiki (END - exit=0)
+* 20:40 MirahezeLSBot: [wwr@mwtask171] MediaWiki\Extension\CentralAuth\User\CentralAuthUser::getInstance( User::newFromName( 'Waffledogefern' ) )->attach( 'theleaguenswiki', 'admin' );
+* 20:31 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=mockelectionswiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=0)
+* 20:08 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=nmsgalactichubwiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=0)
+* 19:52 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=fantendowiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=0)
+* 19:10 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=communitieswiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=0)
+* 19:09 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=fairwickewiki (END - exit=0)
+* 19:09 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=fairiwickewiki --new=fairwickewiki --user='Jenny on Wiki' (END - exit=0)
+* 19:05 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CreateWiki:SetContainersAccess --wiki=euthepriceofpowerwiki (END - exit=0)
+* 19:05 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=euthepriceofpowewiki --new=euthepriceofpowerwiki --user='Jenny on Wiki' (END - exit=0)
+* 19:02 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=persianesotericawiki (END - exit=0)
+* 19:02 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=persianesotericwiki --new=persianesotericawiki --user='Jenny on Wiki' (END - exit=0)
+* 18:59 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=noobdicwikiwiki (END - exit=0)
+* 18:59 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=tmlocwikiwiki --new=noobdicwikiwiki --user='Jenny on Wiki' (END - exit=0)
+* 18:55 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=projectvesselwiki (END - exit=0)
+* 18:54 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=senexworldwiki --new=projectvesselwiki --user='Jenny on Wiki' (END - exit=0)
+* 18:51 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=thecoreplexwiki (END - exit=0)
+* 18:50 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=coreplexwiki --new=thecoreplexwiki --user='Jenny on Wiki' (END - exit=0)
+* 18:47 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=eltropicowiki (END - exit=0)
+* 18:47 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=detweedekamerwiki --new=eltropicowiki --user='Jenny on Wiki' (END - exit=0)
+* 18:43 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=eisernervorhangwikiwiki (END - exit=0)
+* 18:43 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=derkaltekriegwiki --new=eisernervorhangwikiwiki --user='Jenny on Wiki' (END - exit=0)
+* 18:40 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=derkaltekriegwikiwiki --new=eisernervorhangwikiwiki --user='Jenny on Wiki' (END - exit=256)
+* 18:37 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=dfwiki (END - exit=0)
+* 18:36 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=3dfwiki --new=dfwiki --user='Jenny on Wiki' (END - exit=0)
+* 18:31 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CreateWiki:SetContainersAccess --wiki=gwemkwikiwiki (END - exit=0)
+* 18:31 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=fracturedrobloxwiki --new=gwemkwikiwiki --user='Jenny on Wiki' (END - exit=0)
+* 18:19 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=avidwiki /srv/mediawiki/1.46/extensions/CheckUser/schema/mysql/patch-cusi_case-drop-sic_created_timestamp-indexes.sql (END - exit=0)
+* 18:19 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=avidwiki /srv/mediawiki/1.46/extensions/CheckUser/schema/mysql/patch-cu_private_event-drop-cupe_private.sql (END - exit=0)
+* 18:18 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=avidwiki /srv/mediawiki/1.46/extensions/CheckUser/schema/mysql/patch-cu_private_event-drop-cupe_ip.sql (END - exit=0)
+* 18:18 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=avidwiki /srv/mediawiki/1.46/extensions/CheckUser/schema/mysql/patch-cu_private_event-drop-cupe_agent.sql (END - exit=0)
+* 18:17 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=avidwiki /srv/mediawiki/1.46/extensions/CheckUser/schema/mysql/patch-cu_log_event-drop-cule_ip.sql (END - exit=0)
+* 18:17 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=avidwiki /srv/mediawiki/1.46/extensions/CheckUser/schema/mysql/patch-cu_log_event-drop-cule_agent.sql (END - exit=0)
+* 18:16 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=avidwiki /srv/mediawiki/1.46/extensions/CheckUser/schema/mysql/patch-cu_changes-drop-cuc_ip.sql (END - exit=0)
+* 18:16 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=avidwiki /srv/mediawiki/1.46/extensions/CheckUser/schema/mysql/patch-cu_changes-drop-cuc_agent.sql (END - exit=0)
+* 18:15 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=avidwiki /srv/mediawiki/1.46/extensions/CheckUser/schema/mysql/patch-cusi_case-modify-sic_url_identifier.sql (END - exit=0)
+* 18:15 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=avidwiki /srv/mediawiki/1.46/extensions/CheckUser/schema/mysql/patch-cusi_case-modify-sic_updated_timestamp-remove_default.sql (END - exit=0)
+* 18:14 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=avidwiki /srv/mediawiki/1.46/sql/mysql/patch-revision-drop-rev_sha1.sql (END - exit=0)
+* 18:14 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=avidwiki /srv/mediawiki/1.46/sql/mysql/patch-recentchanges-drop-rc_type.sql (END - exit=0)
+* 18:14 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=avidwiki /srv/mediawiki/1.46/sql/mysql/patch-objectcache-drop-modtoken.sql (END - exit=0)
+* 18:12 Universal Omega: ALTER TABLE imagelinks ADD PRIMARY KEY (il_from, il_target_id); on avidwiki
+* 18:12 Universal Omega: DELETE FROM imagelinks WHERE il_to = '' AND ((il_from = 168700 AND il_target_id = 166391) OR (il_from = 242591 AND il_target_id = 166439)); on avidwiki
+* 18:06 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=avidwiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=256)
+* 12:24 MirahezeLSBot: [wwr@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 12:23 MirahezeLSBot: [wwr@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 06:49 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'upgrade_vendor': True, 'versions': '1.46'} to all - SUCCESS in 50s
+* 06:48 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'upgrade_vendor': True, 'versions': '1.46'} to all
+* 06:44 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.46', 'upgrade_extensions': 'Speedscope'} to all
+* 06:43 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.46', 'upgrade_extensions': ['SimpleTooltip', 'Speedscope']} to all
+* 06:43 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.46', 'upgrade_extensions': ['SimpleTooltip', 'Speedscope', 'Wikibase']} to all
+* 06:43 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.46', 'upgrade_extensions': ['CommentStreams', 'SimpleTooltip', 'Speedscope', 'Wikibase']} to all
+* 06:43 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.46', 'upgrade_extensions': ['CommentStreams', 'PageForms', 'SimpleTooltip', 'Speedscope', 'Wikibase']} to all
+* 06:42 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.46', 'upgrade_extensions': ['CentralAuth', 'CommentStreams', 'PageForms', 'SimpleTooltip', 'Speedscope', 'Wikibase']} to all
+* 06:42 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.46', 'upgrade_extensions': ['Cargo', 'CentralAuth', 'CommentStreams', 'PageForms', 'SimpleTooltip', 'Speedscope', 'Wikibase']} to all
+* 06:41 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.46', 'upgrade_extensions': ['Bucket', 'Tilesheets']} to all - SUCCESS in 89s
+* 06:39 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.46', 'upgrade_extensions': ['Bucket', 'Tilesheets']} to all
+* 06:36 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.46', 'upgrade_extensions': ['CreateWiki', 'ImportDump', 'RequestCustomDomain']} to all - SUCCESS in 136s
+* 06:33 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.46', 'upgrade_extensions': ['CreateWiki', 'ImportDump', 'RequestCustomDomain']} to all
+* 06:33 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force_upgrade': True, 'versions': ['1.45', '1.46'], 'upgrade_extensions': 'RequestCustomDomain'} to all
+* 06:32 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force_upgrade': True, 'versions': ['1.45', '1.46'], 'upgrade_extensions': ['ImportDump', 'RequestCustomDomain']} to all
+* 06:32 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force_upgrade': True, 'versions': ['1.45', '1.46'], 'upgrade_extensions': ['CreateWiki', 'ImportDump', 'RequestCustomDomain']} to all
+* 06:32 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': ['CreateWiki', 'ImportDump', 'RequestCustomDomain']} to all
+* 05:18 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=doorswiki --json=MW146Schema.json --change-version (END - exit=0)
+* 05:14 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=arsenalwiki --json=MW146Schema.json --change-version (END - exit=0)
+* 03:05 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 03:04 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 00:59 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=wikicreatorswiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=0)
+* 00:59 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=stewardswiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=0)
+* 00:58 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=cvtwiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=0)
+* 00:57 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=commonswiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=0)
+* 00:56 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=devwiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=0)
+* 00:54 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=loginwiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=0)
+* 00:49 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 00:49 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 00:45 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=metawiki --json=/srv/mediawiki/1.46.json (END - exit=0)
+* 00:35 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'force': True} to all - SUCCESS in 20s
+* 00:34 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'force': True} to all
+* 00:34 MirahezeLSBot: [universalomega@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mw183
+* 00:33 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 00:31 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 00:31 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 00:27 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php MirahezeMagic:PopulateMediaWikiVersion --wiki=loginwiki --old-version=1.45 --new-version=1.46 (END - exit=0)
+* 00:21 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 00:21 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
 ## 2026-09-21 
 
 * 18:38 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'l10n': True, 'versions': ['1.45', '1.46'], 'upgrade_skins': 'Citizen'} to all - SUCCESS in 777s
