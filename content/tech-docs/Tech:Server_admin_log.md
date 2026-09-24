@@ -2,6 +2,25 @@
 title: Tech:Server admin log
 ---
 
+## 2026-09-23 
+
+* 02:37 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=battlecatswiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-drop-il_to.sql (END - exit=0)
+* 02:37 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=battlecatswiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=0)
+* 02:37 Universal Omega: DELETE FROM imagelinks WHERE il_from = 224206 AND il_target_id = 29658 AND il_to = *
+**on battlecatswiki**
+
+* 02:34 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=battlecatswiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=256)
+* 02:21 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=falcomwiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=0)
+* 02:14 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=sidemwiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=0)
+* 02:07 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=bluearchivewiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=0)
+* 01:53 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=nonciclopediawiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=0)
+* 01:40 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=minecraftjapanwiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=0)
+* 01:31 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=1d6chanwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-drop-il_to.sql (END - exit=0)
+* 01:30 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=1d6chanwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=0)
+* 01:30 Universal Omega: DELETE FROM imagelinks WHERE il_from = 89329 AND il_target_id = 81163 AND il_to =*; on 1d6chanwiki
+* 01:26 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=1d6chanwiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=256)
+* 01:19 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=mentalblockwiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=0)
+
 ## 2026-09-22 
 
 * 23:48 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=simswiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=0)
