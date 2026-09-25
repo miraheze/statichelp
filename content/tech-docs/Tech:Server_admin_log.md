@@ -2,6 +2,62 @@
 title: Tech:Server admin log
 ---
 
+## 2026-09-24 
+
+* 23:40 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 19s
+* 23:40 PetraMagna: Repooling db161
+* 23:39 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 23:35 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 20s
+* 23:34 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 23:33 PetraMagna: Depool db161
+* 19:48 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': '1.46'} to all - SUCCESS in 43s
+* 19:47 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'l10n': True, 'versions': '1.46'} to all
+* 17:33 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 17:32 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 17:32 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 17:32 MirahezeLSBot: [universalomega@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+* 17:31 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': '1.46'} to all - SUCCESS in 45s
+* 17:30 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'l10n': True, 'versions': '1.46'} to all
+* 17:28 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'l10n': True, 'versions': '1.46'} to all
+* 17:28 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'extension_list': True, 'versions': ['1.45', '1.46']} to all - SUCCESS in 56s
+* 17:27 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'extension_list': True, 'versions': ['1.45', '1.46']} to all
+* 17:26 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'extension_list': True, 'versions': ['1.45', '1.46']} to all
+* 17:26 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.46', 'upgrade_extensions': 'ScheduledCacheExpiry'} to all - SUCCESS in 66s
+* 17:25 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.46', 'upgrade_extensions': 'ScheduledCacheExpiry'} to all
+* 17:24 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force_upgrade': True, 'versions': '1.46', 'upgrade_extensions': 'ScheduledCacheExpiry'} to all
+* 13:52 MirahezeLSBot: [wwr@mwtask171] MediaWiki\Extension\CentralAuth\User\CentralAuthUser::getInstance( User::newFromName( 'TruncateVirus99' ) )->attach( 'theleaguenswiki', 'admin' );
+* 04:24 MirahezeLSBot: [universalomega@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 04:24 MirahezeLSBot: [universalomega@test151] starting deploy of {'config': True} to test151
+* 04:23 MirahezeLSBot: [universalomega@test151] finished deploy of {'l10n': True, 'versions': '1.46'} to test151 - SUCCESS in 56s
+* 04:22 MirahezeLSBot: [universalomega@test151] starting deploy of {'l10n': True, 'versions': '1.46'} to test151
+* 04:21 MirahezeLSBot: [universalomega@test151] finished deploy of {'extension_list': True, 'versions': ['1.45', '1.46']} to test151 - SUCCESS in 2s
+* 04:21 MirahezeLSBot: [universalomega@test151] starting deploy of {'extension_list': True, 'versions': ['1.45', '1.46']} to test151
+* 04:20 MirahezeLSBot: [universalomega@test151] finished deploy of {'force_upgrade': True, 'versions': '1.46', 'upgrade_extensions': 'ScheduledCacheExpiry'} to test151 - SUCCESS in 9s
+* 04:20 MirahezeLSBot: [universalomega@test151] starting deploy of {'force_upgrade': True, 'versions': '1.46', 'upgrade_extensions': 'ScheduledCacheExpiry'} to test151
+* 01:59 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: xdg-dbus-proxy
+* 01:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: xdg-dbus-proxy
+* 01:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: xdg-dbus-proxy
+* 01:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: xdg-dbus-proxy
+* 01:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: xdg-dbus-proxy
+* 01:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: xdg-dbus-proxy
+* 01:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: xdg-dbus-proxy
+* 01:56 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: xdg-dbus-proxy
+* 01:56 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: xdg-dbus-proxy
+* 01:56 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: xdg-dbus-proxy
+* 01:56 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: xdg-dbus-proxy
+* 01:56 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: xdg-dbus-proxy
+* 01:56 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: xdg-dbus-proxy
+* 01:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: xdg-dbus-proxy
+* 01:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: xdg-dbus-proxy
+* 01:54 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: xdg-dbus-proxy
+* 01:53 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: xdg-dbus-proxy
+* 01:52 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: xdg-dbus-proxy
+* 01:52 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: xdg-dbus-proxy
+* 01:52 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: xdg-dbus-proxy
+* 01:51 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: xdg-dbus-proxy
+* 01:51 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: xdg-dbus-proxy
+* 01:51 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: xdg-dbus-proxy
+
 ## 2026-09-23 
 
 * 02:37 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=battlecatswiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-drop-il_to.sql (END - exit=0)

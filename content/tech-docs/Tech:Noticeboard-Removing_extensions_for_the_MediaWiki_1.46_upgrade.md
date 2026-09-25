@@ -100,24 +100,27 @@ Please respond here. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk
 }} }}
 ```
 
-## Extension:MagicNoCache
+```
+{{ {{Archived|1=
+==[[mw:Extension:MagicNoCache|Extension:MagicNoCache]]==
 
-### Rationale 5
+===Rationale 5===
+Disabling the parser cache is almost never a good idea and has caused multiple outages on the entire farm in the past. If there is a need for frequent parser cache purges, we can consider restricting this extension or installing the [https://github.com/wiki-gg-oss/mediawiki-extensions-UpdateDaily UpdateDaily extension].
 
-Disabling the parser cache is almost never a good idea and has caused multiple outages on the entire farm in the past. If there is a need for frequent parser cache purges, we can consider restricting this extension or installing the [UpdateDaily extension](https://github.com/wiki-gg-oss/mediawiki-extensions-UpdateDaily).
-
-### Discussion 5
-
-Please respond here. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 11:17, 13 July 2026 (UTC)
-    Do we have any idea which wikis are using it and in what ways (i.e., on specific types of pages)? [Doug](https://meta.miraheze.org/wiki/User:Doug) ([talk](https://meta.miraheze.org/wiki/User_talk:Doug)) 22:30, 19 August 2026 (UTC)
-      [mh:battlecats:Battle Cats Wiki](https://meta.miraheze.org/wiki/mh:battlecats:Battle_Cats_Wiki) has a "Daily Units" section at the bottom of the page, which we would want to update daily. We don't actually need UpdateDaily because the existing magic words on the page set the cache expiry to 1 hour anyway, but it tends to be that many wiki main pages use MagicNoCache to reduce the parser cache expiry for purposes like that (because that's unfortunately the only way to reliably shorten the cache time). [TheWWRNerdGuy](https://meta.miraheze.org/wiki/User:TheWWRNerdGuy) ([talk](https://meta.miraheze.org/wiki/User_talk:TheWWRNerdGuy)) 22:37, 19 August 2026 (UTC)
-   I use MagicNoCache on the Winnipeg Transit Wiki's homepage because once every few months I make announcements that vary depending on the day and time with the #time parser function (for example in the [wikitext of this revision](https://winnipegtransit.miraheze.org/wiki/Template:Main_Page?action=edit&oldid=6919)).
-   Typically, the difference is just grammar tense, but very occasionally I use words l(ike today, tonight, etc.) which can be misunderstood if the announcements appear after they're meant to. As a result, I want to keep MagicNoCache so those words aren't misleading. [RandomUser123789](https://meta.miraheze.org/wiki/User:RandomUser123789) ([talk](https://meta.miraheze.org/wiki/User_talk:RandomUser123789)) 00:28, 26 August 2026 (UTC)
-      If timing is important, the main page can be purged manually. Alternatively, UpdateDaily should cover this use case as well, though it'll be off by at most 24 hours.
-      In general, disabling the parser cache so that it doesn't need to be purged once seems wasteful. There could be thousands of page views each triggering a separate parse, even though only 2 parses are needed (once during page save and once after the designated time has passed). [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 03:52, 26 August 2026 (UTC)
-         That works. [RandomUser123789](https://meta.miraheze.org/wiki/User:RandomUser123789) ([talk](https://meta.miraheze.org/wiki/User_talk:RandomUser123789)) 05:04, 26 August 2026 (UTC)
-   I use MagicNoCache on the Unbound Wiki's Main Page, as it has a table that gets updated daily to show different information each day. That being said, the proposed UpdateDaily extension would work fine for my purposes. [RubyRaven](https://meta.miraheze.org/wiki/User:RubyRaven) ([talk](https://meta.miraheze.org/wiki/User_talk:RubyRaven)) 03:19, 2 September 2026 (UTC)
-   Just to note, we thank everyone for the responses about the legitimate usages of this extension here, and we have taken that into consideration. We have decided we will remove MagicNoCache, however we have another extension in the works which will offer a replacement for this without fully disabling cache, it will allow reducing the cache time, eliminating our performance concerns with this extension. We should be able to offer this by the time we fully remove MagicNoCache. [Universal Omega (Miraheze)](https://meta.miraheze.org/wiki/User:Universal_Omega_(Miraheze)) ([talk](https://meta.miraheze.org/wiki/User_talk:Universal_Omega_(Miraheze))) 05:02, 15 September 2026 (UTC)
+===Discussion 5===
+Please respond here. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 11:17, 13 July 2026 (UTC)
+: Do we have any idea which wikis are using it and in what ways (i.e., on specific types of pages)? [[User:Doug|Doug]] ([[User talk:Doug|talk]]) 22:30, 19 August 2026 (UTC)
+::[[mh:battlecats:Battle Cats Wiki]] has a "Daily Units" section at the bottom of the page, which we would want to update daily. We don't actually need UpdateDaily because the existing magic words on the page set the cache expiry to 1 hour anyway, but it tends to be that many wiki main pages use MagicNoCache to reduce the parser cache expiry for purposes like that (because that's unfortunately the only way to reliably shorten the cache time). [[User:TheWWRNerdGuy|TheWWRNerdGuy]] ([[User talk:TheWWRNerdGuy|talk]]) 22:37, 19 August 2026 (UTC)
+:I use MagicNoCache on the Winnipeg Transit Wiki's homepage because once every few months I make announcements that vary depending on the day and time with the #time parser function (for example in the [https://winnipegtransit.miraheze.org/wiki/Template:Main_Page?action=edit&oldid=6919 wikitext of this revision]).
+:Typically, the difference is just grammar tense, but very occasionally I use words l(ike today, tonight, etc.) which can be misunderstood if the announcements appear after they're meant to. As a result, I want to keep MagicNoCache so those words aren't misleading. [[User:RandomUser123789|RandomUser123789]] ([[User talk:RandomUser123789|talk]]) 00:28, 26 August 2026 (UTC)
+::If timing is important, the main page can be purged manually. Alternatively, UpdateDaily should cover this use case as well, though it'll be off by at most 24 hours.
+::In general, disabling the parser cache so that it doesn't need to be purged once seems wasteful. There could be thousands of page views each triggering a separate parse, even though only 2 parses are needed (once during page save and once after the designated time has passed). [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|talk]]) 03:52, 26 August 2026 (UTC)
+:::That works. [[User:RandomUser123789|RandomUser123789]] ([[User talk:RandomUser123789|talk]]) 05:04, 26 August 2026 (UTC)
+:I use MagicNoCache on the Unbound Wiki's Main Page, as it has a table that gets updated daily to show different information each day. That being said, the proposed UpdateDaily extension would work fine for my purposes.  [[User:RubyRaven|RubyRaven]] ([[User talk:RubyRaven|talk]]) 03:19, 2 September 2026 (UTC)
+:Just to note, we thank everyone for the responses about the legitimate usages of this extension here, and we have taken that into consideration. We have decided we will remove MagicNoCache, however we have another extension in the works which will offer a replacement for this without fully disabling cache, it will allow reducing the cache time, eliminating our performance concerns with this extension. We should be able to offer this by the time we fully remove MagicNoCache. [[User:Universal Omega (Miraheze)|Universal Omega (Miraheze)]] ([[User talk:Universal Omega (Miraheze)|talk]]) 05:02, 15 September 2026 (UTC)
+::Our replacement for MagicNoCache is [[mw:Extension:ScheduledCacheExpiry|ScheduledCacheExpiry]]. This extension is now available on 1.46 wikis. Once all wikis are on 1.46, we will remove MagicNoCache. You can then enable the new extension and switch to it. [[User:Universal Omega (Miraheze)|Universal Omega (Miraheze)]] ([[User talk:Universal Omega (Miraheze)|talk]]) 17:35, 24 September 2026 (UTC)
+}} }}
+```
 
 ```
 {{ {{Archived|1=
