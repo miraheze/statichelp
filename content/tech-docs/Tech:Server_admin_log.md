@@ -2,6 +2,160 @@
 title: Tech:Server admin log
 ---
 
+## 2026-09-25 
+
+* 21:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask181: ghostscript, libgs10, libgs10-common, and libgs-common
+* 21:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw183: ghostscript, libgs10, libgs10-common, and libgs-common
+* 21:49 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw202: ghostscript, libgs10, libgs10-common, and libgs-common
+* 21:49 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw203: ghostscript, libgs10, libgs10-common, and libgs-common
+* 21:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw193: ghostscript, libgs10, libgs10-common, and libgs-common
+* 21:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw192: ghostscript, libgs10, libgs10-common, and libgs-common
+* 21:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw162: ghostscript, libgs10, libgs10-common, and libgs-common
+* 21:47 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw201: ghostscript, libgs10, libgs10-common, and libgs-common
+* 21:47 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw181: ghostscript, libgs10, libgs10-common, and libgs-common
+* 21:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on test151: ghostscript, libgs10, libgs10-common, and libgs-common
+* 21:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask171: ghostscript, libgs10, libgs10-common, and libgs-common
+* 21:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw173: ghostscript, libgs10, libgs10-common, and libgs-common
+* 21:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw182: ghostscript, libgs10, libgs10-common, and libgs-common
+* 21:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw172: ghostscript, libgs10, libgs10-common, and libgs-common
+* 21:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask161: ghostscript, libgs10, libgs10-common, and libgs-common
+* 21:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask151: ghostscript, libgs10, libgs10-common, and libgs-common
+* 21:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw191: ghostscript, libgs10, libgs10-common, and libgs-common
+* 21:44 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=jawikibeta (END - exit=256)
+* 21:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw163: ghostscript, libgs10, libgs10-common, and libgs-common
+* 21:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw151: ghostscript, libgs10, libgs10-common, and libgs-common
+* 21:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw161: ghostscript, libgs10, libgs10-common, and libgs-common
+* 21:42 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw153: ghostscript, libgs10, libgs10-common, and libgs-common
+* 21:42 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw152: ghostscript, libgs10, libgs10-common, and libgs-common
+* 21:42 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw171: ghostscript, libgs10, libgs10-common, and libgs-common
+* 20:47 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on test151: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dev, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, php8.4-cli, and php8.4-common
+* 20:47 MirahezeLSBot: [void@mwtask181] repool db161
+* 20:46 MirahezeLSBot: [void@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'force': True} to all - SUCCESS in 21s
+* 20:46 MirahezeLSBot: [void@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'force': True} to all
+* 20:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on reports171: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-curl, php8.4-cli, and php8.4-common
+* 20:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask181: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, php8.4-cli, and php8.4-common
+* 20:40 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask151: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 20:39 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask171: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, php8.4-cli, and php8.4-common
+* 20:37 MirahezeLSBot: [void@mwtask181] depool db161 again
+* 20:37 MirahezeLSBot: [void@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 19s
+* 20:37 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask161: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 20:37 MirahezeLSBot: [void@mwtask181] starting deploy of {'config': True, 'force': True} to all
+* 20:36 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw201: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 20:31 MirahezeLSBot: [void@mwtask181] repool db161
+* 20:30 MirahezeLSBot: [void@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'force': True} to all - SUCCESS in 20s
+* 20:29 MirahezeLSBot: [void@mwtask181] starting deploy of {'pull': 'config', 'config': True, 'force': True} to all
+* 20:29 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw193: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 20:28 Universal Omega: reboot db161 from host
+* 20:27 MirahezeLSBot: [void@mwtask181] depool db161
+* 20:27 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on speedscope211: command, [Errno, handling, (most, "<string>",, lines>..., "<string>",, "<string>",, and [Errno
+* 20:27 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw191: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 20:27 MirahezeLSBot: [void@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 114s
+* 20:22 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw182: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 20:20 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw183: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 20:17 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw192: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 20:12 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw172: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 20:09 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw181: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 20:07 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw173: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 20:02 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw152: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw171: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:55 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw163: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:54 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw162: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mon181: php8.4-opcache, libapache2-mod-php8.4, php8.4-xml, php8.4-soap, php8.4-readline, php8.4-pgsql, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-curl, php8.4-cli, php8.4-common, and php8.4
+* 19:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw161: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw153: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:41 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw151: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:39 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on matomo211: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-curl, php8.4-cli, and php8.4-common
+* 19:38 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on matomo151: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-curl, php8.4-cli, and php8.4-common
+* 19:25 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject191: jq and libjq1
+* 19:24 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject201: jq and libjq1
+* 19:24 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject181: jq and libjq1
+* 19:24 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on test151: jq and libjq1
+* 19:23 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject211: jq and libjq1
+* 19:23 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy171: jq and libjq1
+* 19:23 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy161: jq and libjq1
+* 19:22 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject171: jq and libjq1
+* 19:22 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os191: jq and libjq1
+* 19:22 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os201: jq and libjq1
+* 19:21 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject161: jq and libjq1
+* 19:21 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftac171: jq and libjq1
+* 19:21 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os161: jq and libjq1
+* 19:20 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os151: jq and libjq1
+* 19:20 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on puppet181: jq and libjq1
+* 19:20 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os202: jq and libjq1
+* 19:19 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on rdb191: jq and libjq1
+* 19:19 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject151: jq and libjq1
+* 19:19 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os162: jq and libjq1
+* 19:18 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on reports171: jq and libjq1
+* 19:18 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask181: jq and libjq1
+* 19:18 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on speedscope211: command, [Errno, handling, (most, "<string>",, lines>..., "<string>",, "<string>",, and [Errno
+* 19:18 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on phorge171: jq, libjq1, php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-curl, php8.4-cli, and php8.4-common
+* 19:17 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on prometheus151: jq and libjq1
+* 19:16 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw203: jq, libjq1, php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:11 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw202: jq, libjq1, php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 19:08 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ns2: jq and libjq1
+* 19:08 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask161: jq and libjq1
+* 19:08 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask171: jq and libjq1
+* 19:07 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask151: jq and libjq1
+* 19:07 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ns1: jq and libjq1
+* 19:07 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw201: jq and libjq1
+* 19:06 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw193: jq and libjq1
+* 19:06 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw192: jq and libjq1
+* 19:05 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem191: jq and libjq1
+* 19:05 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw183: jq and libjq1
+* 19:05 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw191: jq and libjq1
+* 19:04 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw182: jq and libjq1
+* 19:04 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw181: jq and libjq1
+* 19:04 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw172: jq and libjq1
+* 19:03 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ldap171: jq and libjq1
+* 19:03 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw162: jq and libjq1
+* 19:02 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw173: jq and libjq1
+* 19:02 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw163: jq and libjq1
+* 19:02 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw171: jq and libjq1
+* 19:01 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw153: jq and libjq1
+* 19:01 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw161: jq and libjq1
+* 19:01 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on llm191: jq and libjq1
+* 19:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw152: jq and libjq1
+* 19:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem201: jq and libjq1
+* 19:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mon181: jq and libjq1
+* 18:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw151: jq and libjq1
+* 18:59 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.46', 'upgrade_extensions': 'RandomSelection'} to all - SUCCESS in 72s
+* 18:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem151: jq and libjq1
+* 18:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem161: jq and libjq1
+* 18:58 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on matomo211: jq and libjq1
+* 18:58 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on kafka182: jq and libjq1
+* 18:58 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.46', 'upgrade_extensions': 'RandomSelection'} to all
+* 18:58 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on matomo151: jq and libjq1
+* 18:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mattermost2: jq and libjq1
+* 18:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db181: jq and libjq1
+* 18:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on eventgate182: jq and libjq1
+* 18:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db201: jq and libjq1
+* 18:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on graylog161: jq and libjq1
+* 18:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bast181: jq and libjq1
+* 18:55 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db171: jq and libjq1
+* 18:55 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db192: jq and libjq1
+* 18:55 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db161: jq and libjq1
+* 18:54 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db182: jq and libjq1
+* 18:54 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud17: jq and libjq1
+* 18:54 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud18: jq and libjq1
+* 18:53 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud20: jq and libjq1
+* 18:53 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on changeprop202: jq and libjq1
+* 18:53 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud19: jq and libjq1
+* 18:52 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp171: jq and libjq1
+* 18:52 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db172: jq and libjq1
+* 18:52 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud16: jq and libjq1
+* 18:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp161: jq and libjq1
+* 18:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud21: jq and libjq1
+* 18:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp201: jq and libjq1
+* 18:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bots171: jq and libjq1
+* 18:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud15: jq and libjq1
+* 18:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp191: jq and libjq1
+* 18:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bast161: jq and libjq1
+* 18:10 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': '1.46', 'upgrade_extensions': 'SubpageFun'} to all - SUCCESS in 68s
+* 18:09 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': '1.46', 'upgrade_extensions': 'SubpageFun'} to all
+* 15:22 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CreateWiki:ManageInactiveWikis --wiki=loginwiki (END - exit=0)
+* 07:52 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 07:51 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+
 ## 2026-09-24 
 
 * 23:40 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 19s
