@@ -2,6 +2,94 @@
 title: Tech:Server admin log
 ---
 
+## 2026-09-26 
+
+* 23:21 Universal Omega: reboot swiftproxy*
+* 23:10 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on test151: nodejs, libnode115, and nodejs-doc
+* 23:09 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject191: swift-object, swift, and python3-swift
+* 23:08 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject181: swift-object, swift, and python3-swift
+* 23:08 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject201: swift-object, swift, and python3-swift
+* 23:07 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy161: swift-proxy, swift, and python3-swift
+* 23:07 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy171: swift-proxy, swift, and python3-swift
+* 23:07 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject171: swift-object, swift, and python3-swift
+* 23:06 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject161: swift-object-expirer, swift-object, swift, and python3-swift
+* 23:06 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftac171: swift-account, swift-container, swift, and python3-swift
+* 23:05 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject211: swift-object, swift, and python3-swift
+* 23:05 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject151: swift-object, swift, and python3-swift
+* 23:03 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw193: nodejs, libnode115, and nodejs-doc
+* 23:02 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw202: nodejs, libnode115, and nodejs-doc
+* 23:02 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw203: nodejs, libnode115, and nodejs-doc
+* 23:01 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw192: nodejs, libnode115, and nodejs-doc
+* 23:01 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask181: nodejs, libnode115, and nodejs-doc
+* 23:01 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask151: nodejs, libnode115, and nodejs-doc
+* 23:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on speedscope211: command, [Errno, handling, (most, "<string>",, lines>..., "<string>",, "<string>",, and [Errno
+* 23:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask171: nodejs, libnode115, and nodejs-doc
+* 23:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw201: nodejs, libnode115, and nodejs-doc
+* 22:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask161: nodejs, libnode115, and nodejs-doc
+* 22:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw183: nodejs, libnode115, and nodejs-doc
+* 22:58 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw191: nodejs, libnode115, and nodejs-doc
+* 22:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw182: nodejs, libnode115, and nodejs-doc
+* 22:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw181: nodejs, libnode115, and nodejs-doc
+* 22:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw173: nodejs, libnode115, and nodejs-doc
+* 22:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw172: nodejs, libnode115, and nodejs-doc
+* 22:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw163: nodejs, libnode115, and nodejs-doc
+* 22:55 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw162: nodejs, libnode115, and nodejs-doc
+* 22:55 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw153: nodejs, libnode115, and nodejs-doc
+* 22:55 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw151: nodejs, libnode115, and nodejs-doc
+* 22:54 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw152: nodejs, libnode115, and nodejs-doc
+* 22:54 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw171: nodejs, libnode115, and nodejs-doc
+* 22:53 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw161: nodejs, libnode115, and nodejs-doc
+* 22:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on changeprop202: nodejs, libnode115, and nodejs-doc
+* 22:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on eventgate182: nodejs, libnode115, and nodejs-doc
+* 22:42 MirahezeLSBot: [universalomega@test151] finished deploy of {'l10n': True, 'versions': '1.46'} to test151 - SUCCESS in 13s
+* 22:42 MirahezeLSBot: [universalomega@test151] starting deploy of {'l10n': True, 'versions': '1.46'} to test151
+* 22:41 MirahezeLSBot: [universalomega@test151] cleanup-old-mediawiki 1.45
+* 22:40 MirahezeLSBot: [universalomega@test151] finished deploy of {'force_upgrade': True, 'versions': '1.46', 'upgrade_extensions': 'CreateWiki'} to test151 - SUCCESS in 9s
+* 22:40 MirahezeLSBot: [universalomega@test151] starting deploy of {'force_upgrade': True, 'versions': '1.46', 'upgrade_extensions': 'CreateWiki'} to test151
+* 22:34 MirahezeLSBot: [universalomega@test151] finished deploy of {'extension_list': True, 'force': True, 'versions': '1.46'} to test151 - SUCCESS in 0s
+* 22:34 MirahezeLSBot: [universalomega@test151] starting deploy of {'extension_list': True, 'force': True, 'versions': '1.46'} to test151
+* 22:34 MirahezeLSBot: [universalomega@test151] finished deploy of {'l10n': True, 'force': True, 'versions': '1.46'} to test151 - SUCCESS in 33s
+* 22:33 MirahezeLSBot: [universalomega@test151] starting deploy of {'l10n': True, 'force': True, 'versions': '1.46'} to test151
+* 22:33 MirahezeLSBot: [universalomega@test151] finished deploy of {'world': True, 'force': True, 'versions': '1.46'} to test151 - SUCCESS in 33s
+* 22:32 MirahezeLSBot: [universalomega@test151] starting deploy of {'world': True, 'force': True, 'versions': '1.46'} to test151
+* 22:32 MirahezeLSBot: [universalomega@test151] DEPLOY ABORTED: Canary check failed for meta.mirabeta.org@localhost
+* 22:32 MirahezeLSBot: [universalomega@test151] starting deploy of {'world': True, 'versions': '1.46'} to test151
+* 21:30 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/DiscussionTools,1.46/extensions/ConfirmEdit'} to test151 - SUCCESS in 0s
+* 21:30 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/DiscussionTools,1.46/extensions/ConfirmEdit'} to test151
+* 21:30 MirahezeLSBot: [petramagna@test151] DEPLOY ABORTED: Canary check failed for meta.mirabeta.org@localhost
+* 21:30 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/DiscussionTools,1.46/extensions/ConfirmEdit'} to test151
+* 20:42 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/DiscussionTools,1.46/extensions/ConfirmEdit'} to test151 - SUCCESS in 0s
+* 20:41 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/DiscussionTools,1.46/extensions/ConfirmEdit'} to test151
+* 20:41 MirahezeLSBot: [petramagna@test151] DEPLOY ABORTED: Canary check failed for meta.mirabeta.org@localhost
+* 20:41 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/DiscussionTools,1.46/extensions/ConfirmEdit'} to test151
+* 19:04 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force': True, 'versions': ['1.45', '1.46'], 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 118s
+* 19:02 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force': True, 'versions': ['1.45', '1.46'], 'upgrade_extensions': 'MirahezeMagic'} to all
+* 18:51 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/deleted.php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --json=/srv/mediawiki/1.46.json --force (START)
+* 18:50 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/deleted.php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --json=/srv/mediawiki/1.46.json (END - exit=33280)
+* 18:50 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/deleted.php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --json=/srv/mediawiki/1.46.json (START)
+* 18:49 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:ChangeMediaWikiVersion --wiki=metawiki --deleted --mwversion=1.46 (END - exit=0)
+* 18:34 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force': True, 'versions': ['1.45', '1.46'], 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 112s
+* 18:32 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force': True, 'versions': ['1.45', '1.46'], 'upgrade_extensions': 'MirahezeMagic'} to all
+* 18:31 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:ChangeMediaWikiVersion --wiki=metawiki --deleted --mwversion=1.46 (END - exit=33280)
+* 18:31 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:ChangeMediaWikiVersion --wiki=metawiki --deleted --mwversion=1.46 (END - exit=33280)
+* 18:29 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:ChangeMediaWikiVersion --wiki=metawiki --deleted --mwversion=1.46 (END - exit=33280)
+* 17:45 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 30s
+* 17:45 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 17:45 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force': True, 'force_upgrade': True, 'versions': '1.46', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 55s
+* 17:44 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force': True, 'force_upgrade': True, 'versions': '1.46', 'upgrade_extensions': 'ManageWiki'} to all
+* 17:43 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force': True, 'versions': '1.46', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 0s
+* 17:43 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'force': True, 'versions': '1.46', 'upgrade_extensions': 'ManageWiki'} to all
+* 17:43 MirahezeLSBot: [universalomega@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mw192
+* 17:40 MirahezeLSBot: [universalomega@mwtask181] starting deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'ManageWiki'} to all
+* 17:22 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CentralAuth:createLocalAccount --wiki=aispwiki KyoriAsh (END - exit=0)
+* 10:46 MirahezeLSBot: [petramagna@test151] finished deploy of {'world': True, 'versions': '1.46'} to test151 - SUCCESS in 29s
+* 10:45 MirahezeLSBot: [petramagna@test151] starting deploy of {'world': True, 'versions': '1.46'} to test151
+* 04:48 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawiki --setting wgCitizenShowPageTools --sourcelist wikis.json (END - exit=0)
+* 04:48 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 04:47 MirahezeLSBot: [petramagna@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
+* 04:42 MirahezeLSBot: [petramagna@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 04:41 MirahezeLSBot: [petramagna@test151] starting deploy of {'pull': 'config', 'config': True} to test151
+
 ## 2026-09-25 
 
 * 21:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask181: ghostscript, libgs10, libgs10-common, and libgs-common
