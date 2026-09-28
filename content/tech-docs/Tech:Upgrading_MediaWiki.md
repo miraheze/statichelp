@@ -12,6 +12,7 @@ Two tasks should be created on [Phorge](https://meta.miraheze.org/wiki/Phorge), 
 
 ### Deploy the New Version 
 
+* Audit [mediawiki-repos.yaml](https://github.com/miraheze/mediawiki-repos/blob/main/mediawiki-repos.yaml). For extensions that are pinned to a fixed branch or fixed commit, determine whether they should be unpinned.
 * Clone the new version by adding to `mediawiki::multiversion::versions` in [mediawiki_beta.yaml](https://meta.miraheze.org/wiki/github:miraheze/puppet/blob/main/hieradata/role/common/mediawiki_beta.yaml), and later, a few days to a week before the planned launch of the [NextTide](https://meta.miraheze.org/wiki/NextTide) program, to [common.yaml](https://meta.miraheze.org/wiki/github:miraheze/puppet/blob/main/hieradata/common.yaml) for it to be deployed on production.
 * Once Puppet pulls the changes to [puppet181](/tech-docs/techpuppet181), run `sudo puppet agent -tv` on [test151](/tech-docs/techtest151) for beta or [mwtask181](/tech-docs/techmwtask181) for production.
 * Deploy the new version with: `mwdeploy --world --l10n --ignore-time --extension-list --servers=all --versions=<new_version>`.

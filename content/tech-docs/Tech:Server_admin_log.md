@@ -2,6 +2,32 @@
 title: Tech:Server admin log
 ---
 
+## 2026-09-27 
+
+* 22:21 SomeRandomDeveloper: ran "VACUUM;" on speedscope211 for the sqlite DB
+* 22:20 SomeRandomDeveloper: ran "DELETE FROM AggregatedProfile WHERE type = 'HOURLY';" on speedscope211 for the sqlite DB
+* 22:14 MirahezeLSBot: [somerandomdeveloper@speedscope211] sudo docker image prune -a
+* 21:53 MirahezeLSBot: [universalomega@test151] finished deploy of {'force': True, 'versions': 'all', 'upgrade_extensions': ['ConfirmEdit', 'DiscussionTools']} to test151 - SUCCESS in 9s
+* 21:52 MirahezeLSBot: [universalomega@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 21:41 MirahezeLSBot: [petramagna@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 21:41 MirahezeLSBot: [petramagna@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 21:39 MirahezeLSBot: [petramagna@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 21:39 MirahezeLSBot: [petramagna@test151] == deploy of {'versions': '1.46', 'upgrade_extensions': ['ConfirmEdit', 'DiscussionTools']} to test151
+* 20:58 MirahezeLSBot: [universalomega@mwtask171] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/upgrade-wikis.php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --json=/srv/mediawiki/1.46.json (START)
+* 20:57 MirahezeLSBot: [universalomega@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:ChangeMediaWikiVersion --wiki=metawiki --closed --mwversion=1.46 (END - exit=0)
+* 20:47 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/upgrade-wikis.php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --json=/srv/mediawiki/1.46.json (START)
+* 20:47 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': ['1.45', '1.46'], 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 127s
+* 20:17 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=samandmaxwiki (END - exit=0)
+* 19:59 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/DiscussionTools,1.46/extensions/ConfirmEdit'} to test151 - SUCCESS in 0s
+* 19:59 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/DiscussionTools,1.46/extensions/ConfirmEdit'} to test151
+* 19:59 MirahezeLSBot: [petramagna@test151] DEPLOY ABORTED: Canary check failed for meta.mirabeta.org@localhost
+* 19:59 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/DiscussionTools,1.46/extensions/ConfirmEdit'} to test151
+* 19:58 MirahezeLSBot: [petramagna@test151] DEPLOY ABORTED: Canary check failed for meta.mirabeta.org@localhost
+* 19:58 MirahezeLSBot: [petramagna@test151] starting deploy of {'folders': '1.46/extensions/DiscussionTools,1.46/extensions/ConfirmEdit'} to test151
+* 19:47 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.45/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=samandmaxwiki --startOver (END - exit=0)
+* 19:47 MirahezeLSBot: [wwr@mwtask171] curl -X DELETE [https://opensearch-mw.wikitide.net/samandmaxwiki_content](https://opensearch-mw.wikitide.net/samandmaxwiki_content) [https://opensearch-mw.wikitide.net/samandmaxwiki_general](https://opensearch-mw.wikitide.net/samandmaxwiki_general)
+* 01:49 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/deleted.php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --json=/srv/mediawiki/1.46.json --force (END - exit=0)
+
 ## 2026-09-26 
 
 * 23:21 Universal Omega: reboot swiftproxy*
