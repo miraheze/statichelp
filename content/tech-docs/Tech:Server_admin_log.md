@@ -2,6 +2,92 @@
 title: Tech:Server admin log
 ---
 
+## 2026-09-28 
+
+* 19:40 MirahezeLSBot: [universalomega@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawiki --setting=wgVectorNightMode --all-wikis --remove --execute (END - exit=0)
+* 19:35 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 19:35 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 18:43 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 18:43 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 18:38 Universal Omega: DELETE FROM imagelinks WHERE il_to = *AND ((il_from = 35732 AND il_target_id = 45994) OR (il_from = 35736 AND il_target_id = 46503) OR (il_from = 35733 AND il_target_id = 58507)); on pinmasterwiki
+* 18:37 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=pinmasterwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-drop-il_to.sql (END - exit=0)
+* 18:37 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=pinmasterwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=0)
+* 18:19 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 18:19 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 18:05 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 18:05 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 17:59 MirahezeLSBot: [universalomega@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:ToggleExtension --wiki=metawiki --name=magicnocache --all-wikis --disable --execute (END - exit=0)
+* 17:54 MirahezeLSBot: [universalomega@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=lustrumwiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=0)
+* 17:09 Universal Omega: DELETE FROM imagelinks WHERE il_to =* AND ((il_from = 31340 AND il_target_id = 19669) OR (il_from = 56136 AND il_target_id = 19707) OR (il_from = 52229 AND il_target_id = 19766)); on lgbtawiki
+* 17:09 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=lgbtawiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-drop-il_to.sql (END - exit=0)
+* 17:08 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=lgbtawiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=0)
+* 16:36 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=philosophyballwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-drop-il_to.sql (END - exit=0)
+* 16:36 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=philosophyballwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=0)
+* 16:35 Jenny on Wiki: DELETE FROM imagelinks WHERE il_to = *AND ((il_from = 14196 AND il_target_id = 19001)); on philosophyballwiki
+* 16:31 Universal Omega: DELETE FROM imagelinks WHERE il_from = 3652 AND il_target_id = 3898 AND il_to =*; on coverletindexwiki
+* 16:30 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=coverletindexwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-drop-il_to.sql (END - exit=0)
+* 16:30 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=coverletindexwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=0)
+* 16:29 Universal Omega: DELETE FROM imagelinks WHERE il_from = 7149 AND il_target_id = 49665 AND il_to = *
+**on dreamfictionwiki**
+
+* 16:29 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=dreamfictionwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-drop-il_to.sql (END - exit=0)
+* 16:28 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=dreamfictionwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=0)
+* 16:00 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=fohsarchivewiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-drop-il_to.sql (END - exit=0)
+* 16:00 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=fohsarchivewiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=0)
+* 15:00 MirahezeLSBot: [universalomega@mwtask171] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/upgrade-wikis.php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --json=/srv/mediawiki/1.46.json (END - exit=0)
+* 13:56 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=mashuptourneyswiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-drop-il_to.sql (END - exit=0)
+* 13:55 Jenny on Wiki: DELETE FROM imagelinks WHERE il_to =* AND ((il_from = 27302 AND il_target_id = 11414) or (il_from = 39958 AND il_target_id = 21731)); on mashuptourneyswiki
+* 13:48 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=mashuptourneyswiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=256)
+* 13:46 Jenny on Wiki:  DELETE FROM imagelinks WHERE il_to = *AND ((il_from = 27302 AND il_target_id = 11414)); on mashuptourneyswiki
+* 12:56 Universal Omega: DELETE FROM imagelinks WHERE il_to =* AND ((il_from = 61294 AND il_target_id = 43101) OR (il_from = 61829 AND il_target_id = 54222) OR (il_from = 61095 AND il_target_id = 54256)); on japolandballwiki
+* 12:56 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=japolandballwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-drop-il_to.sql (END - exit=0)
+* 12:55 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=japolandballwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=0)
+* 11:30 Universal Omega: DELETE FROM imagelinks WHERE il_to = *AND ((il_from = 55511 AND il_target_id = 36407) OR (il_from = 65212 AND il_target_id = 36828)); on mgqwiki
+* 11:30 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=mgqwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-drop-il_to.sql (END - exit=0)
+* 11:29 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=mgqwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=0)
+* 11:29 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=mgqwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=256)
+* 10:01 Universal Omega: DELETE FROM imagelinks WHERE il_to =* AND ((il_from = 27295 AND il_target_id = 18442) OR (il_from = 27387 AND il_target_id = 23304) OR (il_from = 27771 AND il_target_id = 23304) OR (il_from = 29582 AND il_target_id = 18201)); on projectmoonwiki
+* 10:00 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=projectmoonwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-drop-il_to.sql (END - exit=0)
+* 10:00 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=projectmoonwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=0)
+* 09:59 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=projectmoonwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=256)
+* 09:59 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=projectmoonwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=256)
+* 09:58 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=projectmoonwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=256)
+* 09:12 Universal Omega: DELETE FROM imagelinks WHERE il_to = *AND ((il_from = 51563 AND il_target_id = 37950) OR (il_from = 52944 AND il_target_id = 46880) OR (il_from = 60574 AND il_target_id = 42027) OR (il_from = 60658 AND il_target_id = 4782) OR (il_from = 62017 AND il_target_id = 35636) OR (il_from = 66958 AND il_target_id = 42026)); on japolandballfanonwiki
+* 09:11 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=japolandballfanonwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-drop-il_to.sql (END - exit=0)
+* 09:11 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=japolandballfanonwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=0)
+* 09:09 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=japolandballfanonwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=256)
+* 09:09 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=japolandballfanonwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=256)
+* 09:08 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=japolandballfanonwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=256)
+* 09:08 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=japolandballfanonwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=256)
+* 09:07 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=japolandballfanonwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=256)
+* 08:54 Universal Omega: DELETE FROM imagelinks WHERE il_from = 25907 AND il_target_id = 21430 AND il_to =*; on fischwiki
+* 08:54 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=fischwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-drop-il_to.sql (END - exit=0)
+* 08:53 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=fischwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=0)
+* 08:05 Universal Omega: DELETE FROM imagelinks WHERE il_to = *AND ((il_from = 1242 AND il_target_id = 10541) OR (il_from = 2222 AND il_target_id = 7404)); on sekaijuwiki
+* 08:05 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=sekaijuwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-drop-il_to.sql (END - exit=0)
+* 08:05 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=sekaijuwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=0)
+* 08:04 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=sekaijuwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=256)
+* 07:58 Universal Omega: DELETE FROM imagelinks WHERE il_from = 32295 AND il_target_id = 5086 AND il_to =*; on skibiditoiletwiki
+* 07:58 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=skibiditoiletwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-drop-il_to.sql (END - exit=0)
+* 07:57 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=skibiditoiletwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=0)
+* 07:43 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=theaxolotlsunwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-drop-il_to.sql (END - exit=0)
+* 07:43 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=theaxolotlsunwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=0)
+* 07:42 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=theaxolotlsunwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=256)
+* 07:41 Universal Omega: DELETE FROM imagelinks WHERE il_from = 4058 AND il_target_id = 3568 AND il_to = *
+**on theaxolotlsunwiki**
+
+* 07:20 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 07:20 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 06:47 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php OATHAuth:PopulateUserHandles --wiki=metawiki (END - exit=0)
+* 06:47 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=metawiki /srv/mediawiki/1.46/extensions/GlobalBlocking/sql/mysql/patch-globalblocks-modify-gb_address-type.sql --wikidb=mhglobal (END - exit=0)
+* 06:45 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/upgrade-wikis.php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --json=/srv/mediawiki/1.46.json (START)
+* 06:45 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:ChangeMediaWikiVersion --wiki=metawiki --active --mwversion=1.46 (END - exit=0)
+* 05:25 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/upgrade-wikis.php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --json=/srv/mediawiki/1.46.json (END - exit=0)
+* 01:45 MirahezeLSBot: [universalomega@test151] finished deploy of {'force': True, 'versions': 'all', 'upgrade_extensions': ['ConfirmEdit', 'DiscussionTools']} to test151 - SUCCESS in 1s (T12345)
+* 01:45 MirahezeLSBot: [universalomega@test151] Starting deploy of {'force': True, 'versions': 'all', 'upgrade_extensions': ['ConfirmEdit', 'DiscussionTools']} to test151 (T12345)
+* 01:45 MirahezeLSBot: [universalomega@test151] finished deploy of {'force': True, 'versions': 'all', 'upgrade_extensions': ['ConfirmEdit', 'DiscussionTools']} to test151 - SUCCESS in 1s
+* 01:44 MirahezeLSBot: [universalomega@test151] Starting deploy of {'force': True, 'versions': 'all', 'upgrade_extensions': ['ConfirmEdit', 'DiscussionTools']} to test151
+
 ## 2026-09-27 
 
 * 22:21 SomeRandomDeveloper: ran "VACUUM;" on speedscope211 for the sqlite DB
@@ -330,9 +416,7 @@ title: Tech:Server admin log
 
 * 02:37 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=battlecatswiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-drop-il_to.sql (END - exit=0)
 * 02:37 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=battlecatswiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=0)
-* 02:37 Universal Omega: DELETE FROM imagelinks WHERE il_from = 224206 AND il_target_id = 29658 AND il_to = *
-**on battlecatswiki**
-
+* 02:37 Universal Omega: DELETE FROM imagelinks WHERE il_from = 224206 AND il_target_id = 29658 AND il_to =*; on battlecatswiki
 * 02:34 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=battlecatswiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=256)
 * 02:21 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=falcomwiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=0)
 * 02:14 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=sidemwiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=0)
@@ -341,7 +425,9 @@ title: Tech:Server admin log
 * 01:40 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=minecraftjapanwiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=0)
 * 01:31 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=1d6chanwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-drop-il_to.sql (END - exit=0)
 * 01:30 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=1d6chanwiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=0)
-* 01:30 Universal Omega: DELETE FROM imagelinks WHERE il_from = 89329 AND il_target_id = 81163 AND il_to =*; on 1d6chanwiki
+* 01:30 Universal Omega: DELETE FROM imagelinks WHERE il_from = 89329 AND il_target_id = 81163 AND il_to = *
+**on 1d6chanwiki**
+
 * 01:26 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=1d6chanwiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=256)
 * 01:19 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=mentalblockwiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=0)
 
@@ -351,9 +437,7 @@ title: Tech:Server admin log
 * 23:20 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=creaturawiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=0)
 * 23:09 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=allthetropeswiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=0)
 * 23:02 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=poohsadventureswiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=0)
-* 22:52 Universal Omega: DELETE FROM imagelinks WHERE il_from = 24639 AND il_target_id = 3255 AND il_to = *
-**on webkinzguidewiki**
-
+* 22:52 Universal Omega: DELETE FROM imagelinks WHERE il_from = 24639 AND il_target_id = 3255 AND il_to =*; on webkinzguidewiki
 * 22:50 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=webkinzguidewiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-drop-il_to.sql (END - exit=0)
 * 22:50 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=webkinzguidewiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=0)
 * 22:41 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=webkinzguidewiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=256)
@@ -361,7 +445,7 @@ title: Tech:Server admin log
 * 21:57 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=deathbattlewiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-drop-il_to.sql (END - exit=0)
 * 21:56 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=deathbattlewiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=0)
 * 21:55 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=deathbattlewiki /srv/mediawiki/1.46/sql/mysql/patch-imagelinks-pk.sql (END - exit=256)
-* 21:54 Universal Omega: DELETE FROM imagelinks WHERE il_to =* AND ((il_from = 869042 AND il_target_id = 47829) OR (il_from = 854155 AND il_target_id = 24941)); on deathbattlewiki
+* 21:54 Universal Omega: DELETE FROM imagelinks WHERE il_to = *AND ((il_from = 869042 AND il_target_id = 47829) OR (il_from = 854155 AND il_target_id = 24941)); on deathbattlewiki
 * 21:51 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=deathbattlewiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=256)
 * 21:11 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=lovenikkiwiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=0)
 * 20:50 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=spongebobfanonwiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=0)
@@ -406,7 +490,7 @@ title: Tech:Server admin log
 * 18:14 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=avidwiki /srv/mediawiki/1.46/sql/mysql/patch-recentchanges-drop-rc_type.sql (END - exit=0)
 * 18:14 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=avidwiki /srv/mediawiki/1.46/sql/mysql/patch-objectcache-drop-modtoken.sql (END - exit=0)
 * 18:12 Universal Omega: ALTER TABLE imagelinks ADD PRIMARY KEY (il_from, il_target_id); on avidwiki
-* 18:12 Universal Omega: DELETE FROM imagelinks WHERE il_to = '' AND ((il_from = 168700 AND il_target_id = 166391) OR (il_from = 242591 AND il_target_id = 166439)); on avidwiki
+* 18:12 Universal Omega: DELETE FROM imagelinks WHERE il_to =* AND ((il_from = 168700 AND il_target_id = 166391) OR (il_from = 242591 AND il_target_id = 166439)); on avidwiki
 * 18:06 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=avidwiki --json=/srv/mediawiki/1.46.json --change-version (END - exit=256)
 * 12:24 MirahezeLSBot: [wwr@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
 * 12:23 MirahezeLSBot: [wwr@mwtask181] starting deploy of {'pull': 'config', 'config': True} to all
