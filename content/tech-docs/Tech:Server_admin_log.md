@@ -2,6 +2,102 @@
 title: Tech:Server admin log
 ---
 
+## 2026-09-29 
+
+* 22:44 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'force': True, 'versions': 'all', 'upgrade_extensions': ['ConfirmEdit', 'DiscussionTools'], 'debug': True} to all - SUCCESS in 83s
+* 22:42 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'force': True, 'versions': 'all', 'upgrade_extensions': ['ConfirmEdit', 'DiscussionTools'], 'debug': True} to all
+* 22:34 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': 'all', 'upgrade_extensions': ['ConfirmEdit', 'DiscussionTools'], 'debug': True} to test151 - SUCCESS in 10s
+* 22:34 MirahezeLSBot: [petramagna@test151] Starting deploy of {'versions': 'all', 'upgrade_extensions': ['ConfirmEdit', 'DiscussionTools'], 'debug': True} to test151
+* 22:33 MirahezeLSBot: [petramagna@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 22:33 MirahezeLSBot: [petramagna@test151] Starting deploy of {'versions': 'all', 'upgrade_extensions': ['ConfirmEdit', 'DiscussionTools'], 'debug': True} to test151
+* 22:29 MirahezeLSBot: [petramagna@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mw152
+* 22:29 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': ['ConfirmEdit', 'DiscussionTools'], 'debug': True} to all
+* 22:04 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'upgrade_vendor': True, 'versions': 'all', 'upgrade_extensions': 'SemanticMediaWiki', 'debug': True} to all - SUCCESS in 101s
+* 22:02 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'upgrade_vendor': True, 'versions': 'all', 'upgrade_extensions': 'SemanticMediaWiki', 'debug': True} to all
+* 21:59 MirahezeLSBot: [petramagna@test151] finished deploy of {'upgrade_vendor': True, 'versions': 'all', 'upgrade_extensions': 'SemanticMediaWiki', 'debug': True} to test151 - SUCCESS in 19s
+* 21:59 MirahezeLSBot: [petramagna@test151] Starting deploy of {'upgrade_vendor': True, 'versions': 'all', 'upgrade_extensions': 'SemanticMediaWiki', 'debug': True} to test151
+* 19:59 MirahezeLSBot: [universalomega@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=testwikibeta --all-wikis (END - exit=0; time=3s) (T12345)
+* 19:59 MirahezeLSBot: [universalomega@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=testwikibeta --all-wikis (START) (T12345)
+* 19:47 MirahezeLSBot: [universalomega@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=testwikibeta --all-wikis (END - exit=0; time=3s) (T12345)
+* 19:47 MirahezeLSBot: [universalomega@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=testwikibeta --all-wikis (START) (T12345)
+* 19:47 MirahezeLSBot: [universalomega@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=testwikibeta (END - exit=0) (T12345)
+* 19:46 MirahezeLSBot: [universalomega@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=testwikibeta (END - exit=0)
+* 19:35 MirahezeLSBot: [wwr@mwtask181] Finished import for restorywiki (XML: None; Images: ./images) (END - exit=0)
+* 19:35 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=restorywiki --update (END - exit=0)
+* 19:35 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=restorywiki --update (START)
+* 19:35 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=restorywiki --sleep=0 '--comment=Importing images from [https://restory.wiki](https://restory.wiki) ([T16106](https://meta.miraheze.org/wiki/phorge:T16106))' --search-recursively -- ./images (END - exit=0)
+* 19:30 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=restorywiki --sleep=0 '--comment=Importing images from [https://restory.wiki](https://restory.wiki) ([T16106](https://meta.miraheze.org/wiki/phorge:T16106))' --search-recursively -- ./images (START)
+* 19:30 MirahezeLSBot: [wwr@mwtask181] Starting import for restorywiki (XML: None; Images: ./images) (START)
+* 18:51 MirahezeLSBot: [wwr@mwtask181] Finished import for restorywiki (XML: history.xml; Images: None) (END - exit=0)
+* 18:51 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=restorywiki --update (END - exit=0)
+* 18:51 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=restorywiki --update (START)
+* 18:51 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initEditCount --wiki=restorywiki (END - exit=0)
+* 18:51 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initEditCount --wiki=restorywiki (START)
+* 18:51 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php rebuildall --wiki=restorywiki (END - exit=0)
+* 18:47 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php rebuildall --wiki=restorywiki (START)
+* 18:47 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importDump --wiki=restorywiki --no-updates --username-prefix=oldrestory -- history.xml (END - exit=0)
+* 18:43 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importDump --wiki=restorywiki --no-updates --username-prefix=oldrestory -- history.xml (START)
+* 18:42 MirahezeLSBot: [wwr@mwtask181] Starting import for restorywiki (XML: history.xml; Images: None) (START)
+* 16:40 Universal Omega: cleanup-old-mediawiki 1.45 on all mw and mwtask servers
+* 15:46 MirahezeLSBot: [wwr@mwtask181] Finished import for moapyrwiki (XML: t.xml; Images: None) (END - exit=0)
+* 15:46 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=moapyrwiki --update (END - exit=0)
+* 15:46 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=moapyrwiki --update (START)
+* 15:46 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initEditCount --wiki=moapyrwiki (END - exit=0)
+* 15:46 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initEditCount --wiki=moapyrwiki (START)
+* 15:46 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php rebuildall --wiki=moapyrwiki (END - exit=0)
+* 15:12 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php updateSpecialPages --wiki=lobotomycorporationwiki (END - exit=0)
+* 15:04 MirahezeLSBot: [wwr@mwtask171] Finished import for lobotomycorporationwiki (XML: None; Images: ./lobotomycorporation.miraheze.org-images/) (END - exit=0)
+* 15:04 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=lobotomycorporationwiki --update (END - exit=0)
+* 15:04 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=lobotomycorporationwiki --update (START)
+* 15:04 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=lobotomycorporationwiki --sleep=1 '--comment=Importing images from [https://lobotomycorp.fandom.com/zh](https://lobotomycorp.fandom.com/zh) ([T16072](https://meta.miraheze.org/wiki/phorge:T16072))' -- ./lobotomycorporation.miraheze.org-images/ (END - exit=0)
+* 14:40 MirahezeLSBot: [wwr@mwtask161] Finished import for paranaturalwiki (XML: None; Images: ./im) (END - exit=0)
+* 14:40 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=paranaturalwiki --update (END - exit=0)
+* 14:40 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=paranaturalwiki --update (START)
+* 14:40 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=paranaturalwiki --sleep=1 '--comment=Importing images from [https://paranatural.fandom.com](https://paranatural.fandom.com) ([T16024](https://meta.miraheze.org/wiki/phorge:T16024))' -- ./im (END - exit=0)
+* 14:39 MirahezeLSBot: [wwr@mwtask151] Finished import for webosinternalswiki (XML: None; Images: ./images) (END - exit=0)
+* 14:39 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=webosinternalswiki --update (END - exit=0)
+* 14:39 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=webosinternalswiki --update (START)
+* 14:39 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=webosinternalswiki --sleep=1 '--comment=Importing images from [https://webos-internals.org](https://webos-internals.org) ([T16054](https://meta.miraheze.org/wiki/phorge:T16054))' --search-recursively -- ./images (END - exit=0)
+* 14:37 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php rebuildall --wiki=moapyrwiki (START)
+* 14:37 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importDump --wiki=moapyrwiki --no-updates --username-prefix=wikia:moapyr -- t.xml (END - exit=0)
+* 14:15 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=lobotomycorporationwiki --sleep=1 '--comment=Importing images from [https://lobotomycorp.fandom.com/zh](https://lobotomycorp.fandom.com/zh) ([T16072](https://meta.miraheze.org/wiki/phorge:T16072))' -- ./lobotomycorporation.miraheze.org-images/ (START)
+* 14:15 MirahezeLSBot: [wwr@mwtask171] Starting import for lobotomycorporationwiki (XML: None; Images: ./lobotomycorporation.miraheze.org-images/) (START)
+* 14:14 MirahezeLSBot: [wwr@mwtask171] Finished import for warhammerhomebrewwiki (XML: warhammerhomebrew_pages_full.xml; Images: None) (END - exit=0)
+* 14:14 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=warhammerhomebrewwiki --update (END - exit=0)
+* 14:14 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=warhammerhomebrewwiki --update (START)
+* 14:14 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initEditCount --wiki=warhammerhomebrewwiki (END - exit=0)
+* 14:14 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initEditCount --wiki=warhammerhomebrewwiki (START)
+* 14:14 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php rebuildall --wiki=warhammerhomebrewwiki (END - exit=0)
+* 14:08 MirahezeLSBot: [wwr@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importDump --wiki=moapyrwiki --no-updates --username-prefix=wikia:moapyr -- t.xml (START)
+* 14:08 MirahezeLSBot: [wwr@mwtask181] Starting import for moapyrwiki (XML: t.xml; Images: None) (START)
+* 14:03 MirahezeLSBot: [wwr@mwtask151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=webosinternalswiki --sleep=1 '--comment=Importing images from [https://webos-internals.org](https://webos-internals.org) ([T16054](https://meta.miraheze.org/wiki/phorge:T16054))' --search-recursively -- ./images (START)
+* 14:03 MirahezeLSBot: [wwr@mwtask151] Starting import for webosinternalswiki (XML: None; Images: ./images) (START)
+* 13:57 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=paranaturalwiki --sleep=1 '--comment=Importing images from [https://paranatural.fandom.com](https://paranatural.fandom.com) ([T16024](https://meta.miraheze.org/wiki/phorge:T16024))' -- ./im (START)
+* 13:57 MirahezeLSBot: [wwr@mwtask161] Starting import for paranaturalwiki (XML: None; Images: ./im) (START)
+* 13:57 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php rebuildall --wiki=warhammerhomebrewwiki (START)
+* 13:57 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importDump --wiki=warhammerhomebrewwiki --no-updates --username-prefix=wikia:warhammer-homebrew -- warhammerhomebrew_pages_full.xml (END - exit=0)
+* 13:53 MirahezeLSBot: [wwr@mwtask161] Finished import for shaftroomswiki (XML: None; Images: .) (END - exit=0)
+* 13:53 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=shaftroomswiki --update (END - exit=0)
+* 13:53 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=shaftroomswiki --update (START)
+* 13:53 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=shaftroomswiki --sleep=0 '--comment=Importing images from [https://shaftrooms.fandom.com/zh](https://shaftrooms.fandom.com/zh) ([T16042](https://meta.miraheze.org/wiki/phorge:T16042))' -- . (END - exit=0)
+* 13:50 MirahezeLSBot: [wwr@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=shaftroomswiki --sleep=0 '--comment=Importing images from [https://shaftrooms.fandom.com/zh](https://shaftrooms.fandom.com/zh) ([T16042](https://meta.miraheze.org/wiki/phorge:T16042))' -- . (START)
+* 13:50 MirahezeLSBot: [wwr@mwtask161] Starting import for shaftroomswiki (XML: None; Images: .) (START)
+* 13:41 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importDump --wiki=warhammerhomebrewwiki --no-updates --username-prefix=wikia:warhammer-homebrew -- warhammerhomebrew_pages_full.xml (START)
+* 13:41 MirahezeLSBot: [wwr@mwtask171] Starting import for warhammerhomebrewwiki (XML: warhammerhomebrew_pages_full.xml; Images: None) (START)
+* 13:03 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=sorastropeswiki --startOver (END - exit=256)
+* 13:02 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=sorastropeswiki --startOver (END - exit=256)
+* 13:02 MirahezeLSBot: [wwr@mwtask171] curl -X DELETE [https://opensearch-mw.wikitide.net/sorastropeswiki_content](https://opensearch-mw.wikitide.net/sorastropeswiki_content) [https://opensearch-mw.wikitide.net/sorastropeswiki_general](https://opensearch-mw.wikitide.net/sorastropeswiki_general)
+* 08:16 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': ['ConfirmEdit', 'DiscussionTools'], 'debug': True} to all
+* 08:07 MirahezeLSBot: [petramagna@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mw151
+* 08:07 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': ['ConfirmEdit', 'DiscussionTools'], 'debug': True} to all
+* 08:06 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': 'all', 'upgrade_extensions': ['ConfirmEdit', 'DiscussionTools'], 'debug': True} to test151 - SUCCESS in 9s
+* 08:06 MirahezeLSBot: [petramagna@test151] Starting deploy of {'versions': 'all', 'upgrade_extensions': ['ConfirmEdit', 'DiscussionTools'], 'debug': True} to test151
+* 08:05 MirahezeLSBot: [petramagna@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 08:05 MirahezeLSBot: [petramagna@test151] Starting deploy of {'versions': 'all', 'upgrade_extensions': ['ConfirmEdit', 'DiscussionTools'], 'debug': True} to test151
+* 05:45 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/upgrade-wikis.php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --json=/srv/mediawiki/1.46.json (END - exit=0)
+* 03:03 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_skins': 'Cosmos'} to all - SUCCESS in 64s
+* 03:02 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_skins': 'Cosmos'} to all
+
 ## 2026-09-28 
 
 * 19:40 MirahezeLSBot: [universalomega@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawiki --setting=wgVectorNightMode --all-wikis --remove --execute (END - exit=0)
