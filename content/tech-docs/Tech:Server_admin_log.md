@@ -2,6 +2,130 @@
 title: Tech:Server admin log
 ---
 
+## 2026-10-01 
+
+* 00:00 MirahezeLSBot: [www-data@mwtask181] Began automatic backing up
+
+## 2026-09-30 
+
+* 22:17 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=angelabassettwiki (END - exit=0)
+* 22:16 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=angelabassettwiki --startOver (END - exit=0)
+* 22:15 MirahezeLSBot: [wwr@mwtask171] curl -X DELETE [https://opensearch-mw.wikitide.net/angelabassettwiki_content](https://opensearch-mw.wikitide.net/angelabassettwiki_content) [https://opensearch-mw.wikitide.net/angelabassettwiki_general](https://opensearch-mw.wikitide.net/angelabassettwiki_general)
+* 22:13 MirahezeLSBot: [wwr@mwtask171] hotelmirawiki db jiggery-pokery as per usual
+* 22:09 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=hotelmirawiki --requester=Orbitron (END - exit=0) (T16223)
+* 20:22 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=vocaloidlyricswiki --startOver (END - exit=0) (T16224)
+* 20:09 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=sorastropeswiki (END - exit=0) (T16210)
+* 20:06 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=sorastropeswiki --startOver (END - exit=0) (T16210)
+* 20:05 MirahezeLSBot: [petramagna@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=sorastropeswiki --startOver (END - exit=1) (T16210)
+* 20:04 MirahezeLSBot: [petramagna@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=sorastropeswiki --startOver (END - exit=1) (T16210)
+* 20:02 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'CirrusSearch', 'debug': True} to all - SUCCESS in 44s (T16210)
+* 20:02 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'CirrusSearch', 'debug': True} to all (T16210)
+* 19:56 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': 'all', 'upgrade_extensions': 'CirrusSearch', 'debug': True} to test151 - SUCCESS in 9s (T16210)
+* 19:56 MirahezeLSBot: [petramagna@test151] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'CirrusSearch', 'debug': True} to test151 (T16210)
+* 09:40 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s (T15351)
+* 09:40 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all (T15351)
+* 08:03 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php updateCollation --wiki=xyywiki (END - exit=0) (T16057)
+* 08:01 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s (T16057)
+* 08:01 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all (T16057)
+* 08:01 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 07:55 MirahezeLSBot: [petramagna@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 07:55 MirahezeLSBot: [petramagna@test151] Starting deploy of {'pull': 'config', 'config': True} to test151
+* 07:36 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True, 'force': True} to test151 - SUCCESS in 0s
+* 07:36 MirahezeLSBot: [petramagna@test151] Starting deploy of {'config': True, 'force': True} to test151
+* 07:36 MirahezeLSBot: [petramagna@test151] DEPLOY ABORTED: Canary check failed for meta.mirabeta.org@localhost
+* 07:36 MirahezeLSBot: [petramagna@test151] Starting deploy of {'config': True} to test151
+* 07:35 MirahezeLSBot: [petramagna@test151] DEPLOY ABORTED: Canary check failed for meta.mirabeta.org@localhost (T16057)
+* 07:35 MirahezeLSBot: [petramagna@test151] Starting deploy of {'pull': 'config', 'config': True} to test151 (T16057)
+* 07:35 MirahezeLSBot: [petramagna@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 2s
+* 07:35 MirahezeLSBot: [petramagna@test151] Starting deploy of {'pull': 'config', 'config': True} to test151
+* 07:32 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php updateCollation --wiki=xyywiki (END - exit=0) (T16057)
+* 02:39 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: linux-libc-dev, libpcre2-8-0, rsync, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 02:38 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: linux-libc-dev, libpcre2-8-0, rsync, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 02:38 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: linux-libc-dev, libpcre2-8-0, rsync, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 02:37 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: linux-libc-dev, libpcre2-8-0, rsync, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 02:37 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: linux-libc-dev, libpcre2-8-0, rsync, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 02:37 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: linux-libc-dev, libpcre2-dev, libpcre2-16-0, libpcre2-32-0, libpcre2-posix3, libpcre2-8-0, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, libheif-plugin-libde265, and rsync
+* 02:36 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: linux-libc-dev, libpcre2-8-0, and rsync
+* 02:36 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: linux-libc-dev, libpcre2-8-0, rsync, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 02:36 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: linux-libc-dev, libpcre2-8-0, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 02:35 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: linux-libc-dev, libpcre2-8-0, rsync, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 02:35 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: linux-libc-dev, libpcre2-8-0, rsync, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 02:34 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb191: linux-libc-dev and libpcre2-8-0
+* 02:34 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: linux-libc-dev, libpcre2-8-0, rsync, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 02:34 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: linux-libc-dev, libpcre2-8-0, rsync, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 02:33 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: linux-libc-dev, libpcre2-8-0, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 02:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: linux-libc-dev, libpcre2-dev, libpcre2-16-0, libpcre2-32-0, libpcre2-posix3, libpcre2-8-0, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, libheif-plugin-libde265, and rsync
+* 02:33 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: linux-libc-dev, libpcre2-8-0, rsync, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 02:32 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: linux-libc-dev, libpcre2-8-0, rsync, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 02:32 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: linux-libc-dev, libpcre2-8-0, rsync, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, libheif-plugin-libde265, and libpcre2-posix3
+* 02:31 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: linux-libc-dev, libpcre2-8-0, rsync, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, libheif-plugin-libde265, and libpcre2-posix3
+* 02:31 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: linux-libc-dev, libpcre2-8-0, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 02:31 MirahezeLSBot: [void@puppet181] Upgraded packages on speedscope211: linux-libc-dev, libpcre2-8-0, jq, and libjq1
+* 02:30 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: linux-libc-dev, libpcre2-8-0, rsync, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 02:30 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: linux-libc-dev, libpcre2-8-0, rsync, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 02:30 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: linux-libc-dev, libpcre2-dev, libpcre2-16-0, libpcre2-32-0, libpcre2-posix3, libpcre2-8-0, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, libheif-plugin-libde265, and rsync
+* 02:29 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: linux-libc-dev and libpcre2-8-0
+* 02:29 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: linux-libc-dev, libpcre2-dev, libpcre2-16-0, libpcre2-32-0, libpcre2-posix3, libpcre2-8-0, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, libheif-plugin-libde265, and rsync
+* 02:29 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: linux-libc-dev, libpcre2-dev, libpcre2-16-0, libpcre2-32-0, libpcre2-posix3, libpcre2-8-0, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, libheif-plugin-libde265, and rsync
+* 02:28 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: linux-libc-dev, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, libheif-plugin-libde265, libpcre2-16-0, libpcre2-32-0, libpcre2-posix3, libpcre2-dev, libpcre2-8-0, and rsync
+* 02:26 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: linux-libc-dev, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, libheif-plugin-libde265, libpcre2-16-0, libpcre2-32-0, libpcre2-posix3, libpcre2-dev, libpcre2-8-0, and rsync
+* 02:21 MirahezeLSBot: [universalomega@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=testwikibeta (END - exit=0) (T14689)
+* 02:16 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: linux-libc-dev and libpcre2-8-0
+* 02:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: linux-libc-dev, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, libheif-plugin-libde265, libpcre2-16-0, libpcre2-32-0, libpcre2-posix3, libpcre2-dev, libpcre2-8-0, and rsync
+* 02:11 MirahezeLSBot: [universalomega@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=testwikibeta (END - exit=0) (T14689)
+* 02:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: linux-libc-dev, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, libheif-plugin-libde265, libpcre2-16-0, libpcre2-32-0, libpcre2-posix3, libpcre2-dev, libpcre2-8-0, and rsync
+* 02:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: linux-libc-dev, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, libheif-plugin-libde265, libpcre2-16-0, libpcre2-32-0, libpcre2-posix3, libpcre2-dev, libpcre2-8-0, and rsync
+* 01:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: linux-libc-dev, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, libheif-plugin-libde265, libpcre2-16-0, libpcre2-32-0, libpcre2-posix3, libpcre2-dev, libpcre2-8-0, and rsync
+* 01:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: linux-libc-dev, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, libheif-plugin-libde265, libpcre2-16-0, libpcre2-32-0, libpcre2-posix3, libpcre2-dev, libpcre2-8-0, and rsync
+* 01:46 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: linux-libc-dev, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, libheif-plugin-libde265, libpcre2-16-0, libpcre2-32-0, libpcre2-posix3, libpcre2-dev, libpcre2-8-0, and rsync
+* 01:41 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: linux-libc-dev, libpcre2-8-0, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 01:41 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: linux-libc-dev, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, libheif-plugin-libde265, libpcre2-16-0, libpcre2-32-0, libpcre2-posix3, libpcre2-dev, libpcre2-8-0, and rsync
+* 01:39 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: linux-libc-dev, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, libheif-plugin-libde265, libpcre2-16-0, libpcre2-32-0, libpcre2-posix3, libpcre2-dev, libpcre2-8-0, and rsync
+* 01:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: linux-libc-dev, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, libheif-plugin-libde265, libpcre2-16-0, libpcre2-32-0, libpcre2-posix3, libpcre2-dev, libpcre2-8-0, and rsync
+* 01:28 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: linux-libc-dev, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, libheif-plugin-libde265, libpcre2-16-0, libpcre2-32-0, libpcre2-posix3, libpcre2-dev, libpcre2-8-0, and rsync
+* 01:27 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: linux-libc-dev, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, libheif-plugin-libde265, libpcre2-16-0, libpcre2-32-0, libpcre2-posix3, libpcre2-dev, libpcre2-8-0, and rsync
+* 01:23 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: linux-libc-dev, libpcre2-8-0, rsync, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 01:22 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: linux-libc-dev, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, libheif-plugin-libde265, libpcre2-16-0, libpcre2-32-0, libpcre2-posix3, libpcre2-dev, libpcre2-8-0, and rsync
+* 01:21 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: linux-libc-dev, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, libheif-plugin-libde265, libpcre2-16-0, libpcre2-32-0, libpcre2-posix3, libpcre2-dev, libpcre2-8-0, and rsync
+* 01:20 Universal Omega: test
+* 01:19 Universal Omega: test
+* 01:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: linux-libc-dev, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, libheif-plugin-libde265, libpcre2-16-0, libpcre2-32-0, libpcre2-posix3, libpcre2-dev, libpcre2-8-0, and rsync
+* 01:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: linux-libc-dev, libpcre2-8-0, rsync, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, libheif-plugin-libde265, and libpcre2-posix3
+* 01:12 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: linux-libc-dev, libpcre2-8-0, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 01:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: linux-libc-dev, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, libheif-plugin-libde265, libpcre2-16-0, libpcre2-32-0, libpcre2-posix3, libpcre2-dev, libpcre2-8-0, and rsync
+* 01:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: linux-libc-dev, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, libheif-plugin-libde265, libpcre2-16-0, libpcre2-32-0, libpcre2-posix3, libpcre2-dev, libpcre2-8-0, and rsync
+* 00:59 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: linux-libc-dev and libpcre2-8-0
+* 00:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: linux-libc-dev, libpcre2-8-0, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 00:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: linux-libc-dev, libpcre2-8-0, rsync, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 00:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: linux-libc-dev, libpcre2-8-0, rsync, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 00:57 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo211: linux-libc-dev, libpcre2-8-0, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 00:57 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: linux-libc-dev, libpcre2-8-0, rsync, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 00:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: linux-libc-dev and libpcre2-8-0
+* 00:56 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: linux-libc-dev and libpcre2-8-0
+* 00:56 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: linux-libc-dev, libpcre2-8-0, libpcre2-posix3, rsync, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 00:56 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: linux-libc-dev, libpcre2-8-0, libpcre2-posix3, rsync, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 00:55 MirahezeLSBot: [void@puppet181] Upgraded packages on db192: linux-libc-dev, libpcre2-8-0, libpcre2-posix3, and rsync
+* 00:55 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: linux-libc-dev, libpcre2-8-0, libpcre2-posix3, rsync, libcpupower1, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, libheif-plugin-libde265, libpcre2-16-0, and linux-cpupower
+* 00:54 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: linux-libc-dev, libpcre2-8-0, rsync, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 00:54 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: linux-libc-dev, libpcre2-8-0, rsync, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 00:53 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: linux-libc-dev, libpcre2-8-0, libpcre2-posix3, rsync, libcpupower1, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, libheif-plugin-libde265, libpcre2-16-0, and linux-cpupower
+* 00:53 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: linux-libc-dev, libpcre2-8-0, libpcre2-posix3, rsync, libcpupower1, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, libheif-plugin-libde265, libpcre2-16-0, and linux-cpupower
+* 00:53 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: linux-libc-dev and libpcre2-8-0
+* 00:52 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: linux-libc-dev, libpcre2-8-0, libpcre2-posix3, rsync, libcpupower1, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, libheif-plugin-libde265, libpcre2-16-0, and linux-cpupower
+* 00:52 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: linux-libc-dev, libpcre2-8-0, libpcre2-posix3, rsync, libcpupower1, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, libheif-plugin-libde265, libpcre2-16-0, and linux-cpupower
+* 00:51 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: linux-libc-dev, libpcre2-8-0, rsync, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 00:51 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: linux-libc-dev, libpcre2-8-0, libpcre2-posix3, rsync, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 00:51 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: linux-libc-dev, libpcre2-8-0, libpcre2-posix3, rsync, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 00:50 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: linux-libc-dev, libpcre2-8-0, libpcre2-posix3, rsync, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 00:50 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: linux-libc-dev, libpcre2-8-0, libpcre2-posix3, rsync, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 00:50 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: linux-libc-dev, libpcre2-8-0, rsync, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 00:49 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: linux-libc-dev, libpcre2-8-0, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 00:49 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: linux-libc-dev, libpcre2-8-0, rsync, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 00:49 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: linux-libc-dev, libpcre2-8-0, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+* 00:48 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: linux-libc-dev, libpcre2-8-0, libpcre2-posix3, rsync, libcpupower1, libpcre2-16-0, and linux-cpupower
+* 00:48 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: linux-libc-dev, libpcre2-8-0, libpcre2-posix3, rsync, libcpupower1, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, libheif-plugin-libde265, libpcre2-16-0, and linux-cpupower
+* 00:48 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: linux-libc-dev, libpcre2-8-0, rsync, libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+
 ## 2026-09-29 
 
 * 22:44 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'force': True, 'versions': 'all', 'upgrade_extensions': ['ConfirmEdit', 'DiscussionTools'], 'debug': True} to all - SUCCESS in 83s
