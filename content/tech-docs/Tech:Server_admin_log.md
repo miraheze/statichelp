@@ -4,6 +4,40 @@ title: Tech:Server admin log
 
 ## 2026-10-01 
 
+* 21:41 MirahezeLSBot: [jenny@mwtask171] mascotswiki: MediaWiki\Extension\CentralAuth\User\CentralAuthUser::getInstance( User::newFromName( 'OMGShay 92' ) )->attach( 'mascotswiki', 'admin' );
+* 20:57 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_skins': 'Cosmos'} to all - SUCCESS in 37s (T15197)
+* 20:57 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_skins': 'Cosmos'} to all (T15197)
+* 20:37 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_skins': 'Cosmos'} to all - SUCCESS in 39s (T16212)
+* 20:36 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_skins': 'Cosmos'} to all (T16212)
+* 19:16 Universal Omega: testing
+* 19:15 Universal Omega: test
+* 19:15 Universal Omega: test
+* 19:00 Universal Omega: test
+* 19:00 Universal Omega: test
+* 18:35 Universal Omega: updated mwclient on bots171
+* 18:34 Universal Omega: test
+* 18:19 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=moviestarplanetwiki (END - exit=0) (T16229)
+* 18:17 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=moviestarplanetwiki --startOver (END - exit=0) (T16229)
+* 18:17 MirahezeLSBot: [jenny@mwtask171] curl -X DELETE [https://opensearch-mw.wikitide.net/moviestarplanetwiki_content](https://opensearch-mw.wikitide.net/moviestarplanetwiki_content) [https://opensearch-mw.wikitide.net/moviestarplanetwiki_general](https://opensearch-mw.wikitide.net/moviestarplanetwiki_general)
+* 18:10 Universal Omega: rename shell for jenny on all mw, mwtask, test, and bast servers
+* 13:38 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=kodiakwiki (END - exit=0)
+* 13:30 MirahezeLSBot: [wwr@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=kodiakwiki --startOver (END - exit=0)
+* 13:30 MirahezeLSBot: [wwr@mwtask171] curl -X DELETE [https://opensearch-mw.wikitide.net/kodiakwiki_content](https://opensearch-mw.wikitide.net/kodiakwiki_content) [https://opensearch-mw.wikitide.net/kodiakwiki_general](https://opensearch-mw.wikitide.net/kodiakwiki_general)
+* 06:43 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s (T15351)
+* 06:43 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all (T15351)
+* 06:37 MirahezeLSBot: [petramagna@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 06:37 MirahezeLSBot: [petramagna@test151] Starting deploy of {'pull': 'config', 'config': True} to test151
+* 06:12 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'folders': '1.46/extensions/VisualEditor', 'debug': True} to all - SUCCESS in 28s (T16228)
+* 06:11 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'folders': '1.46/extensions/VisualEditor', 'debug': True} to all (T16228)
+* 06:10 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'VisualEditor', 'debug': True} to all - SUCCESS in 3s (T16228)
+* 06:10 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'VisualEditor', 'debug': True} to all (T16228)
+* 06:00 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/VisualEditor'} to test151 - SUCCESS in 0s (T16228)
+* 06:00 MirahezeLSBot: [petramagna@test151] Starting deploy of {'folders': '1.46/extensions/VisualEditor'} to test151 (T16228)
+* 05:04 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'TabberNeue'} to all - SUCCESS in 41s (T16227)
+* 05:03 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'TabberNeue'} to all (T16227)
+* 05:02 MirahezeLSBot: [universalomega@test151] finished deploy of {'versions': 'all', 'upgrade_extensions': 'TabberNeue'} to test151 - SUCCESS in 10s
+* 05:02 MirahezeLSBot: [universalomega@test151] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'TabberNeue'} to test151
+* 00:28 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=vocaloidlyricswiki (END - exit=0) (T16224)
 * 00:00 MirahezeLSBot: [www-data@mwtask181] Began automatic backing up
 
 ## 2026-09-30 

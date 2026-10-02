@@ -36,15 +36,18 @@ This problem was twice recorded to have happened ever since CirrusSearch was ena
 Here's a python script to give the appropriate commands:
 ```python3
 #!/usr/bin/python3
-import subprocess, sys
+import sys
 
 wiki = sys.argv[1]
+task = ''
+if sys.argv.__len__() > 2:
+    task = '--task=' + sys.argv[2]
 
 command = []
 command.append("curl -X DELETE https://opensearch-mw.wikitide.net/%s_{content,general}" % wiki)
 command.append("logsalmsg curl -X DELETE https://opensearch-mw.wikitide.net/%s_{content,general}" % wiki)
-command.append(f"mwscript CirrusSearch:UpdateSearchIndexConfig {wiki} --startOver")
-command.append(f"mwscript CirrusSearch:ForceSearchIndex {wiki}")
+command.append(f"mwscript CirrusSearch:UpdateSearchIndexConfig {wiki} --startOver {task}")
+command.append(f"mwscript CirrusSearch:ForceSearchIndex {wiki} {task}")
 
 print('\n'.join(command))
 ```
