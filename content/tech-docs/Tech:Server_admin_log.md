@@ -2,6 +2,37 @@
 title: Tech:Server admin log
 ---
 
+## 2026-10-02 
+
+* 21:38 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 21:38 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 21:38 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 21:38 MirahezeLSBot: [universalomega@test151] Starting deploy of {'pull': 'config', 'config': True} to test151
+* 21:35 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 21:34 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 21:34 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 21:34 MirahezeLSBot: [universalomega@test151] Starting deploy of {'pull': 'config', 'config': True} to test151
+* 07:55 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'VisualEditor', 'debug': True} to all - SUCCESS in 40s (T16228)
+* 07:54 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'VisualEditor', 'debug': True} to all (T16228)
+* 07:54 MirahezeLSBot: [petramagna@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output. (T16228)
+* 07:54 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'VisualEditor', 'debug': True} to all (T16228)
+* 07:53 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': 'all', 'upgrade_extensions': 'VisualEditor', 'debug': True} to test151 - SUCCESS in 10s (T16228)
+* 07:53 MirahezeLSBot: [petramagna@test151] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'VisualEditor', 'debug': True} to test151 (T16228)
+* 05:49 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'l10n': True, 'versions': 'all', 'upgrade_skins': 'Citizen', 'debug': True} to all - SUCCESS in 129s (T16236)
+* 05:47 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'l10n': True, 'versions': 'all', 'upgrade_skins': 'Citizen', 'debug': True} to all (T16236)
+* 02:48 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/skins/Citizen', 'debug': True} to test151 - SUCCESS in 0s (T16236)
+* 02:48 MirahezeLSBot: [petramagna@test151] Starting deploy of {'folders': '1.46/skins/Citizen', 'debug': True} to test151 (T16236)
+* 02:08 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'PdfHandler', 'debug': True} to all - SUCCESS in 55s (T15662)
+* 02:07 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'PdfHandler', 'debug': True} to all (T15662)
+* 02:07 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'PdfHandler', 'debug': True} to all - SUCCESS in 1s (T15662)
+* 02:07 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'PdfHandler', 'debug': True} to all (T15662)
+* 01:58 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/PdfHandler', 'debug': True} to test151 - SUCCESS in 0s (T15662)
+* 01:58 MirahezeLSBot: [petramagna@test151] Starting deploy of {'folders': '1.46/extensions/PdfHandler', 'debug': True} to test151 (T15662)
+* 01:58 MirahezeLSBot: [petramagna@test151] finished deploy of {'force': True, 'versions': 'all', 'upgrade_extensions': 'PdfHandler', 'debug': True} to test151 - SUCCESS in 0s (T15662)
+* 01:58 MirahezeLSBot: [petramagna@test151] Starting deploy of {'force': True, 'versions': 'all', 'upgrade_extensions': 'PdfHandler', 'debug': True} to test151 (T15662)
+* 01:58 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': 'all', 'upgrade_extensions': 'PdfHandler', 'debug': True} to test151 - SUCCESS in 0s (T15662)
+* 01:58 MirahezeLSBot: [petramagna@test151] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'PdfHandler', 'debug': True} to test151 (T15662)
+
 ## 2026-10-01 
 
 * 21:41 MirahezeLSBot: [jenny@mwtask171] mascotswiki: MediaWiki\Extension\CentralAuth\User\CentralAuthUser::getInstance( User::newFromName( 'OMGShay 92' ) )->attach( 'mascotswiki', 'admin' );
