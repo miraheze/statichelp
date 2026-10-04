@@ -2,6 +2,130 @@
 title: Tech:Server admin log
 ---
 
+## 2026-10-03 
+
+* 23:53 MirahezeLSBot: [void@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'force': True} to all - SUCCESS in 20s
+* 23:53 MirahezeLSBot: [void@mwtask181] Starting deploy of {'pull': 'config', 'config': True, 'force': True} to all
+* 23:52 MirahezeLSBot: [void@db161] restart mariadb
+* 22:11 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_skins': 'Cosmos'} to all - SUCCESS in 45s (T15360)
+* 22:10 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_skins': 'Cosmos'} to all (T15360)
+* 22:10 MirahezeLSBot: [universalomega@test151] finished deploy of {'versions': 'all', 'upgrade_skins': 'Cosmos'} to test151 - SUCCESS in 9s (T15360)
+* 22:09 MirahezeLSBot: [universalomega@test151] Starting deploy of {'versions': 'all', 'upgrade_skins': 'Cosmos'} to test151 (T15360)
+* 22:09 MirahezeLSBot: [universalomega@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output. (T15360)
+* 22:09 MirahezeLSBot: [universalomega@test151] Starting deploy of {'versions': 'all', 'upgrade_skins': 'Cosmos'} to test151 (T15360)
+* 21:32 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 21:32 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 21:31 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 21:31 MirahezeLSBot: [universalomega@test151] Starting deploy of {'pull': 'config', 'config': True} to test151
+* 20:56 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: openssl-provider-legacy, libssl3t64, openssl, and libpng16-16t64
+* 20:56 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'upgrade_world': True, 'force': True, 'versions': 'all', 'batch': True, 'debug': True} to ['mw201', 'mw202', 'mw203'] - SUCCESS in 61s
+* 20:56 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: openssl-provider-legacy, libssl3t64, openssl, and libpng16-16t64
+* 20:55 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: openssl-provider-legacy, libssl-dev, libssl3t64, libpng-dev, libpng-tools, libpng16-16t64, redis-server, redis-tools, and openssl
+* 20:55 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: openssl-provider-legacy, libssl3t64, libpng16-16t64, and openssl
+* 20:55 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'upgrade_world': True, 'force': True, 'versions': 'all', 'batch': True, 'debug': True} to ['mw201', 'mw202', 'mw203']
+* 20:54 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: openssl-provider-legacy, libssl3t64, openssl, and libpng16-16t64
+* 20:54 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'upgrade_world': True, 'force': True, 'versions': 'all', 'batch': True, 'debug': True} to ['mw181', 'mw182', 'mw183', 'mw191', 'mw192', 'mw193'] - SUCCESS in 98s
+* 20:54 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: openssl-provider-legacy, libssl3t64, openssl, and libpng16-16t64
+* 20:54 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: openssl-provider-legacy, libssl3t64, openssl, and libpng16-16t64
+* 20:53 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: openssl-provider-legacy, libssl3t64, libpng16-16t64, and openssl
+* 20:53 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: openssl-provider-legacy, libssl3t64, openssl, and libpng16-16t64
+* 20:53 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: openssl-provider-legacy, libssl3t64, openssl, and libpng16-16t64
+* 20:53 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'upgrade_world': True, 'force': True, 'versions': 'all', 'batch': True, 'debug': True} to ['mw181', 'mw182', 'mw183', 'mw191', 'mw192', 'mw193']
+* 20:52 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: openssl-provider-legacy, libssl3t64, libpng16-16t64, and openssl
+* 20:52 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: openssl-provider-legacy, libssl3t64, libpng16-16t64, and openssl
+* 20:51 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: openssl-provider-legacy, libssl3t64, libpng16-16t64, and openssl
+* 20:51 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'upgrade_world': True, 'force': True, 'versions': 'all', 'batch': True, 'debug': True} to ['mw161', 'mw162', 'mw163', 'mw171', 'mw172', 'mw173'] - SUCCESS in 88s
+* 20:51 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: openssl-provider-legacy, libssl3t64, libpng16-16t64, and openssl
+* 20:51 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: openssl-provider-legacy, libssl3t64, libpng16-16t64, and openssl
+* 20:50 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: openssl-provider-legacy, libssl3t64, libpng16-16t64, and openssl
+* 20:50 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb191: openssl-provider-legacy, libssl3t64, redis-server, redis-tools, openssl, and libpng16-16t64
+* 20:50 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'upgrade_world': True, 'force': True, 'versions': 'all', 'batch': True, 'debug': True} to ['mw161', 'mw162', 'mw163', 'mw171', 'mw172', 'mw173']
+* 20:50 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: openssl-provider-legacy, libssl3t64, openssl, and libpng16-16t64
+* 20:49 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: openssl-provider-legacy, libssl3t64, libpng16-16t64, and openssl
+* 20:49 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: openssl-provider-legacy, libssl3t64, libpng16-16t64, and openssl
+* 20:49 MirahezeLSBot: [void@puppet181] Upgraded packages on speedscope211: openssl-provider-legacy, libssl3t64, libpng16-16t64, and openssl
+* 20:48 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'upgrade_world': True, 'force': True, 'versions': 'all', 'batch': True, 'debug': True} to ['mw151', 'mw152', 'mw153'] - SUCCESS in 38s
+* 20:48 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: openssl-provider-legacy, libssl3t64, libpng-dev, libpng-tools, libpng16-16t64, and openssl
+* 20:48 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: openssl-provider-legacy, libssl3t64, libpng16-16t64, and openssl
+* 20:48 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'upgrade_world': True, 'force': True, 'versions': 'all', 'batch': True, 'debug': True} to ['mw151', 'mw152', 'mw153']
+* 20:48 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: openssl-provider-legacy, libssl3t64, libpng16-16t64, and openssl
+* 20:48 MirahezeLSBot: [universalomega@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mw153
+* 20:48 MirahezeLSBot: [universalomega@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mw152
+* 20:47 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: openssl-provider-legacy, libssl3t64, libpng16-16t64, and openssl
+* 20:47 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: openssl-provider-legacy, libssl3t64, libpng-dev, libpng-tools, libpng16-16t64, and openssl
+* 20:47 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: openssl-provider-legacy, libssl3t64, openssl, and libpng16-16t64
+* 20:46 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'upgrade_world': True, 'versions': 'all', 'batch': True, 'debug': True} to ['mw151', 'mw152', 'mw153']
+* 20:46 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: openssl-provider-legacy, libssl3t64, libpng-dev, libpng-tools, libpng16-16t64, and openssl
+* 20:46 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: openssl-provider-legacy, libssl3t64, libpng-dev, libpng-tools, libpng16-16t64, and openssl
+* 20:45 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: openssl-provider-legacy, libssl3t64, libpng-dev, libpng-tools, libpng16-16t64, and openssl
+* 20:45 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'upgrade_world': True, 'versions': 'all', 'batch': True, 'debug': True} to ['mwtask161', 'mwtask171'] - SUCCESS in 58s
+* 20:45 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: openssl-provider-legacy, libssl3t64, libpng-dev, libpng-tools, libpng16-16t64, and openssl
+* 20:45 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: openssl-provider-legacy, libssl3t64, libpng-dev, libpng-tools, libpng16-16t64, and openssl
+* 20:44 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'upgrade_world': True, 'versions': 'all', 'batch': True, 'debug': True} to ['mwtask161', 'mwtask171']
+* 20:44 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: openssl-provider-legacy, libssl3t64, libpng-dev, libpng-tools, libpng16-16t64, and openssl
+* 20:44 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: openssl-provider-legacy, libssl3t64, libpng-dev, libpng-tools, libpng16-16t64, and openssl
+* 20:43 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: openssl-provider-legacy, libssl3t64, libpng-dev, libpng-tools, libpng16-16t64, and openssl
+* 20:43 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: openssl-provider-legacy, libssl3t64, libpng-dev, libpng-tools, libpng16-16t64, and openssl
+* 20:42 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: openssl-provider-legacy, libssl3t64, libpng-dev, libpng-tools, libpng16-16t64, and openssl
+* 20:42 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: openssl-provider-legacy, libssl3t64, libpng-dev, libpng-tools, libpng16-16t64, and openssl
+* 20:42 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'upgrade_world': True, 'versions': 'all', 'batch': True, 'debug': True} to mwtask151 - SUCCESS in 27s
+* 20:42 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: openssl-provider-legacy, libssl3t64, libpng16-16t64, and openssl
+* 20:41 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'upgrade_world': True, 'versions': 'all', 'batch': True, 'debug': True} to mwtask151
+* 20:41 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: openssl-provider-legacy, libssl3t64, libpng-dev, libpng-tools, libpng16-16t64, and openssl
+* 20:41 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: openssl-provider-legacy, libssl3t64, libpng-dev, libpng-tools, libpng16-16t64, and openssl
+* 20:40 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: openssl-provider-legacy, libssl3t64, libpng-dev, libpng-tools, libpng16-16t64, and openssl
+* 20:40 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: openssl-provider-legacy, libssl3t64, libpng-dev, libpng-tools, libpng16-16t64, and openssl
+* 20:40 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'upgrade_world': True, 'versions': 'all', 'batch': True, 'debug': True} to mwtask181 - SUCCESS in 187s
+* 20:39 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: openssl-provider-legacy, libssl3t64, libpng-dev, libpng-tools, libpng16-16t64, and openssl
+* 20:39 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: openssl-provider-legacy, libssl3t64, libpng-dev, libpng-tools, libpng16-16t64, and openssl
+* 20:39 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: openssl-provider-legacy, libssl3t64, libpng-dev, libpng-tools, libpng16-16t64, and openssl
+* 20:38 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: openssl-provider-legacy, libssl3t64, libpng-dev, libpng-tools, libpng16-16t64, and openssl
+* 20:38 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: openssl-provider-legacy, libssl3t64, libpng16-16t64, and openssl
+* 20:37 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: openssl-provider-legacy, libssl3t64, redis-server, redis-tools, libpng16-16t64, and openssl
+* 20:37 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: openssl-provider-legacy, libssl3t64, openssl, and libpng16-16t64
+* 20:37 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: openssl-provider-legacy, libssl3t64, libpng-dev, libpng-tools, libpng16-16t64, and openssl
+* 20:36 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'upgrade_world': True, 'versions': 'all', 'batch': True, 'debug': True} to mwtask181
+* 20:36 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: openssl-provider-legacy, libssl3t64, libpng16-16t64, and openssl
+* 20:36 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: openssl-provider-legacy, libssl3t64, libpng16-16t64, and openssl
+* 20:36 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: openssl-provider-legacy, libssl3t64, redis-server, redis-tools, libpng16-16t64, and openssl
+* 20:35 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo211: openssl-provider-legacy, libssl3t64, libpng16-16t64, and openssl
+* 20:35 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: openssl-provider-legacy, libssl3t64, libpng16-16t64, and openssl
+* 20:35 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: openssl-provider-legacy, libssl3t64, openssl, and libpng16-16t64
+* 20:34 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: openssl-provider-legacy, libssl3t64, openssl, and libpng16-16t64
+* 20:34 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: openssl-provider-legacy, libssl3t64, libpng16-16t64, and openssl
+* 20:34 MirahezeLSBot: [void@puppet181] Upgraded packages on db192: openssl-provider-legacy, libssl3t64, openssl, and libpng16-16t64
+* 20:33 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: openssl-provider-legacy, libssl-dev, libssl3t64, openssl, and libpng16-16t64
+* 20:33 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: openssl-provider-legacy, libssl3t64, openssl, and libpng16-16t64
+* 20:33 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: openssl-provider-legacy, libssl3t64, openssl, and libpng16-16t64
+* 20:32 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: openssl-provider-legacy, libssl3t64, libpng16-16t64, and openssl
+* 20:32 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: openssl-provider-legacy, libssl3t64, libpng16-16t64, and openssl
+* 20:32 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: openssl-provider-legacy, libssl3t64, openssl, and libpng16-16t64
+* 20:31 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: openssl-provider-legacy, libssl3t64, openssl, and libpng16-16t64
+* 20:31 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: openssl-provider-legacy, libssl-dev, libssl3t64, redis-server, redis-tools, openssl, and libpng16-16t64
+* 20:30 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: openssl-provider-legacy, libssl3t64, libpng16-16t64, and openssl
+* 20:30 MirahezeLSBot: [void@puppet181] Upgraded packages on db201: openssl-provider-legacy, libssl3t64, openssl, and libpng16-16t64
+* 20:30 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: openssl-provider-legacy, libssl3t64, openssl, and libpng16-16t64
+* 20:29 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: openssl-provider-legacy, libssl3t64, openssl, and libpng16-16t64
+* 20:29 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: openssl-provider-legacy, libssl3t64, openssl, and libpng16-16t64
+* 20:29 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: openssl-provider-legacy, libssl3t64, libpng16-16t64, and openssl
+* 20:28 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: openssl-provider-legacy, libssl3t64, libpng16-16t64, and openssl
+* 20:28 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: openssl-provider-legacy, libssl3t64, libpng16-16t64, and openssl
+* 20:28 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: openssl-provider-legacy, libssl3t64, libpng16-16t64, and openssl
+* 20:27 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: openssl-provider-legacy, libssl3t64, openssl, and libpng16-16t64
+* 20:27 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: openssl-provider-legacy, libssl3t64, libpng16-16t64, and openssl
+* 20:27 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: openssl-provider-legacy, libssl3t64, libpng16-16t64, and openssl
+* 20:26 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: openssl-provider-legacy, libssl3t64, openssl, and libpng16-16t64
+* 20:26 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: openssl-provider-legacy, libssl3t64, openssl, and libpng16-16t64
+* 20:26 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: openssl-provider-legacy, libssl3t64, libpng16-16t64, and openssl
+* 19:58 MirahezeLSBot: [universalomega@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 19:56 MirahezeLSBot: [universalomega@test151] Starting deploy of {'upgrade_world': True, 'versions': 'all', 'batch': True, 'debug': True} to test151
+* 19:56 MirahezeLSBot: [universalomega@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 19:55 MirahezeLSBot: [universalomega@test151] Starting deploy of {'upgrade_world': True, 'versions': 'all', 'batch': True, 'debug': True} to test151
+* 19:55 MirahezeLSBot: [universalomega@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 19:55 MirahezeLSBot: [universalomega@test151] Starting deploy of {'upgrade_world': True, 'versions': 'all', 'batch': True, 'debug': True} to test151
+* 19:53 MirahezeLSBot: [universalomega@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 19:52 MirahezeLSBot: [universalomega@test151] Starting deploy of {'upgrade_world': True, 'versions': 'all', 'batch': True, 'debug': True} to test151
+
 ## 2026-10-02 
 
 * 21:38 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
