@@ -2,6 +2,32 @@
 title: Tech:Server admin log
 ---
 
+## 2026-10-04 
+
+* 23:11 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CreateWiki:SetContainersAccess --wiki=projectpolariswiki (END - exit=0) (T16086)
+* 23:09 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=venuswiki --new=projectpolariswiki --user=MacFan4000 (END - exit=0) (T16086)
+* 22:51 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CreateWiki:SetContainersAccess --wiki=bdocompendiumwiki (END - exit=0) (T16104)
+* 22:49 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=bdocodexwiki --new=bdocompendiumwiki --user=MacFan4000 (END - exit=0) (T16104)
+* 22:33 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CreateWiki:SetContainersAccess --wiki=virnpwiki (END - exit=0) (T16115)
+* 22:30 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=survivalanddevelopmentrpwiki --new=virnpwiki --user=MacFan4000 (END - exit=0) (T16115)
+* 21:57 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CreateWiki:SetContainersAccess --wiki=bulgwannimwiki (END - exit=0) (T16235)
+* 21:54 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=darknessexplorationrecordswiki --new=bulgwannimwiki --user=MacFan4000 (END - exit=0) (T16235)
+* 21:50 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CreateWiki:SetContainersAccess --wiki=pillarchasebetawiki (END - exit=0) (T16082)
+* 21:43 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=pillarchaserecodewiki --new=pillarchasebetawiki --user=MacFan4000 (END - exit=0) (T16222)
+* 21:15 RhinosF1: blown up F1712115 per T&S request
+* 19:14 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 36s (T16217)
+* 19:13 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all (T16217)
+* 19:13 MirahezeLSBot: [petramagna@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s (T16217)
+* 19:13 MirahezeLSBot: [petramagna@test151] Starting deploy of {'pull': 'config', 'config': True} to test151 (T16217)
+* 16:53 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CreateWiki:SetContainersAccess --wiki=mmdbwiki (END - exit=0) (T16082)
+* 16:51 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=fractapleswiki --new=mmdbwiki --user=MacFan4000 (END - exit=0) (T16082)
+* 16:45 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CreateWiki:SetContainersAccess --wiki=convergenceudbwiki (END - exit=0) (T16080)
+* 16:43 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=nexusacmewiki --new=convergenceudbwiki --user=MacFan4000 (END - exit=0) (T16080)
+* 16:36 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CreateWiki:SetContainersAccess --wiki=petpigeonsocietywiki (END - exit=0) (T16234)
+* 16:33 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=modernpetpigeonsocietywiki --new=petpigeonsocietywiki --user=MacFan4000 (END - exit=0) (T16234)
+* 16:22 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CreateWiki:SetContainersAccess --wiki=thewoodswikiwiki (END - exit=0) (T16242)
+* 16:20 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=embracewiki --new=thewoodswikiwiki --user=MacFan4000 (END - exit=0) (T16242)
+
 ## 2026-10-03 
 
 * 23:53 MirahezeLSBot: [void@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'force': True} to all - SUCCESS in 20s
