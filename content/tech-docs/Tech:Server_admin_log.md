@@ -2,6 +2,27 @@
 title: Tech:Server admin log
 ---
 
+## 2026-10-05 
+
+* 23:36 @paladox: matomo151: ./console core:delete-logs-data --dates=2025-12-01,2026-04-30
+* 23:34 @paladox: aborted
+* 23:32 @paladox: matomo151: ./console core:invalidate-report-data --dates=2025-12-01,2026-04-30 --sites=all --periods=all
+* 22:42 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:ReplaceTextEligible --wiki=tprrwiki (END - exit=0)
+* 22:38 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:ReplaceTextEligible --wiki=wikiacheawiki (END - exit=0)
+* 21:54 @paladox: purging everything in matomo_archive_numeric* up until 6 months ago (april)
+* 21:51 @paladox: purging everything in matomo_archive_blob* up until 6 months ago (april)
+* 21:39 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php updateSpecialPages --wiki=battlecatswiki (END - exit=0)
+* 21:30 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php updateSpecialPages --wiki=battlecatswiki (END - exit=0)
+* 20:35 SomeRandomDeveloper: upgraded CentralNotice on beta and prod for T16259
+* 20:10 SomeRandomDeveloper: upgraded BetaFeatures on beta and prod for security fix
+* 06:21 MirahezeLSBot: [universalomega@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=cosmoswikibeta /srv/mediawiki-staging/1.46/skins/CosmosBeta/sql/mysql/tables-generated.sql (END - exit=0)
+* 00:55 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CreateWiki:SetContainersAccess --wiki=zoincaillawiki (END - exit=0) (T16079)
+* 00:54 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=zoincalliawiki --new=zoincaillawiki --user=MacFan4000 (END - exit=0) (T16079)
+* 00:49 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CreateWiki:SetContainersAccess --wiki=nkvwiki (END - exit=0) (T16092)
+* 00:47 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=nvkwiki --new=nkvwiki --user=MacFan4000 (END - exit=0) (T16092)
+* 00:30 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CreateWiki:SetContainersAccess --wiki=infinityeggwiki (END - exit=0) (T16084)
+* 00:28 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=chrysaliscomicwiki --new=infinityeggwiki --user=MacFan4000 (END - exit=0) (T16084)
+
 ## 2026-10-04 
 
 * 23:11 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CreateWiki:SetContainersAccess --wiki=projectpolariswiki (END - exit=0) (T16086)
