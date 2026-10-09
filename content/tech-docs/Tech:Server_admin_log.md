@@ -2,6 +2,92 @@
 title: Tech:Server admin log
 ---
 
+## 2026-10-08 
+
+* 05:19 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: liblzma5 and xz-utils
+* 05:18 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: liblzma5 and xz-utils
+* 05:18 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: liblzma5 and xz-utils
+* 05:18 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: liblzma-dev, liblzma5, and xz-utils
+* 05:17 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: liblzma5 and xz-utils
+* 05:17 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: liblzma5 and xz-utils
+* 05:17 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: liblzma5 and xz-utils
+* 05:16 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: liblzma5 and xz-utils
+* 05:16 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: liblzma5 and xz-utils
+* 05:16 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: liblzma5 and xz-utils
+* 05:15 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: liblzma5 and xz-utils
+* 05:15 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: liblzma5 and xz-utils
+* 05:15 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: liblzma5 and xz-utils
+* 05:14 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: liblzma5 and xz-utils
+* 05:14 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: liblzma5 and xz-utils
+* 05:14 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb191: liblzma5 and xz-utils
+* 05:13 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: liblzma5 and xz-utils
+* 05:13 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: liblzma5 and xz-utils
+* 05:13 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: liblzma5 and xz-utils
+* 05:12 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: liblzma5 and xz-utils
+* 05:12 MirahezeLSBot: [void@puppet181] Upgraded packages on speedscope211: liblzma5 and xz-utils
+* 05:12 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: liblzma5 and xz-utils
+* 05:11 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: liblzma5 and xz-utils
+* 05:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: liblzma-dev, liblzma5, and xz-utils
+* 05:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: liblzma-dev, liblzma5, and xz-utils
+* 05:10 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: liblzma5 and xz-utils
+* 05:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: liblzma-dev, liblzma5, and xz-utils
+* 05:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: liblzma-dev, liblzma5, and xz-utils
+* 05:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: liblzma-dev, liblzma5, and xz-utils
+* 05:09 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: liblzma5 and xz-utils
+* 05:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: liblzma-dev, liblzma5, and xz-utils
+* 05:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: liblzma-dev, liblzma5, and xz-utils
+* 05:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: liblzma-dev, liblzma5, and xz-utils
+* 05:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: liblzma-dev, liblzma5, and xz-utils
+* 05:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: liblzma-dev, liblzma5, and xz-utils
+* 05:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: liblzma-dev, liblzma5, and xz-utils
+* 05:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: liblzma-dev, liblzma5, and xz-utils
+* 05:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: liblzma-dev, liblzma5, and xz-utils
+* 05:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: liblzma-dev, liblzma5, and xz-utils
+* 05:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: liblzma-dev, liblzma5, and xz-utils
+* 05:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: liblzma5 and xz-utils
+* 05:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: liblzma-dev, liblzma5, and xz-utils
+* 05:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: liblzma-dev, liblzma5, and xz-utils
+* 05:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: liblzma-dev, liblzma5, and xz-utils
+* 05:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: liblzma-dev, liblzma5, and xz-utils
+* 05:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: liblzma-dev, liblzma5, and xz-utils
+* 05:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: liblzma5, xz-utils, libwireshark-data, libwsutil16, libwiretap15, libwireshark18, tshark, and wireshark-common
+* 05:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: liblzma-dev, liblzma5, and xz-utils
+* 05:02 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: liblzma5 and xz-utils
+* 05:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: liblzma-dev, liblzma5, and xz-utils
+* 05:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: liblzma5 and xz-utils
+* 05:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: liblzma5 and xz-utils
+* 05:00 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: liblzma5 and xz-utils
+* 05:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: liblzma5 and xz-utils
+* 04:59 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: liblzma5 and xz-utils
+* 04:59 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo211: liblzma5 and xz-utils
+* 04:59 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: liblzma5 and xz-utils
+* 04:59 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: liblzma5 and xz-utils
+* 04:58 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: liblzma5 and xz-utils
+* 04:58 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: liblzma5, xz-utils, libwireshark-data, libwsutil16, libwiretap15, libwireshark18, tshark, and wireshark-common
+* 04:58 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: liblzma5 and xz-utils
+* 04:57 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: liblzma5 and xz-utils
+* 04:57 MirahezeLSBot: [void@puppet181] Upgraded packages on db201: liblzma5 and xz-utils
+* 04:56 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: liblzma5 and xz-utils
+* 04:56 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: liblzma5 and xz-utils
+* 04:56 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: liblzma5 and xz-utils
+* 04:55 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: liblzma5 and xz-utils
+* 04:55 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: liblzma5 and xz-utils
+* 04:55 MirahezeLSBot: [void@puppet181] Upgraded packages on db192: liblzma5 and xz-utils
+* 04:54 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: liblzma5 and xz-utils
+* 04:54 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: liblzma5 and xz-utils
+* 04:54 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: liblzma5 and xz-utils
+* 04:53 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: liblzma5 and xz-utils
+* 04:53 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: liblzma5 and xz-utils
+* 04:53 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: liblzma5 and xz-utils
+* 04:52 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: liblzma5 and xz-utils
+* 04:52 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: liblzma5 and xz-utils
+* 04:52 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: liblzma5 and xz-utils
+* 04:51 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: liblzma5 and xz-utils
+* 04:51 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: liblzma5 and xz-utils
+* 04:51 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: liblzma5 and xz-utils
+* 04:51 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: liblzma5 and xz-utils
+* 04:50 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: liblzma5 and xz-utils
+
 ## 2026-10-06 
 
 * 23:28 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 21s
