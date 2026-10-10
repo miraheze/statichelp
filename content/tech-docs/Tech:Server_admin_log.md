@@ -2,6 +2,12 @@
 title: Tech:Server admin log
 ---
 
+## 2026-10-09 
+
+* 12:21 @paladox: increase speedscope211 disk by 10gib
+* 08:52 @paladox: rebooted cp161
+* 08:49 @paladox: reboot phorge171
+
 ## 2026-10-08 
 
 * 05:19 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: liblzma5 and xz-utils
