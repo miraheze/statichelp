@@ -2,6 +2,32 @@
 title: Tech:Server admin log
 ---
 
+## 2026-10-10 
+
+* 12:44 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ApprovedRevs'} to all - SUCCESS in 44s (T15842)
+* 12:43 MirahezeLSBot: [somerandomdeveloper@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ApprovedRevs'} to all (T15842)
+* 12:42 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ApprovedRevs'} to test151 - SUCCESS in 10s
+* 12:42 MirahezeLSBot: [somerandomdeveloper@test151] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ApprovedRevs'} to test151
+* 07:52 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'AbuseFilter', 'debug': True} to all - SUCCESS in 44s (T16279)
+* 07:51 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'AbuseFilter', 'debug': True} to all (T16279)
+* 03:14 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'AbuseFilter', 'debug': True} to all - SUCCESS in 41s (T16279)
+* 03:14 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'AbuseFilter', 'debug': True} to all (T16279)
+* 02:31 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/AbuseFilter'} to test151 - SUCCESS in 0s (T440763)
+* 02:31 MirahezeLSBot: [petramagna@test151] Starting deploy of {'folders': '1.46/extensions/AbuseFilter'} to test151 (T440763)
+* 02:22 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php UpdateSpecialPages --wiki=metawiki --only=DisambiguationPageLinks (END - exit=0) (T15842)
+* 02:21 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php UpdateSpecialPages --wiki=teflpediawiki --only=DisambiguationPageLinks (END - exit=0) (T15842)
+* 02:21 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': 'all', 'apply_patches': 'extensions/ApprovedRevs'} to all - SUCCESS in 25s (T15842)
+* 02:21 MirahezeLSBot: [somerandomdeveloper@mwtask181] Starting deploy of {'versions': 'all', 'apply_patches': 'extensions/ApprovedRevs'} to all (T15842)
+* 02:20 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': 'all', 'apply_patches': 'extensions/ApprovedRevs'} to test151 - SUCCESS in 0s
+* 02:20 MirahezeLSBot: [somerandomdeveloper@test151] Starting deploy of {'versions': 'all', 'apply_patches': 'extensions/ApprovedRevs'} to test151
+* 02:20 MirahezeLSBot: [somerandomdeveloper@test151] Starting deploy of {'versions': 'all', 'apply_patches': 'ApprovedRevs'} to test151
+* 02:01 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php UpdateSpecialPages --wiki=teflpediawiki --only=DisambiguationPageLinks (END - exit=0) (T15842)
+* 01:43 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s (T16272)
+* 01:43 MirahezeLSBot: [somerandomdeveloper@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all (T16272)
+* 01:42 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 01:42 MirahezeLSBot: [somerandomdeveloper@test151] Starting deploy of {'pull': 'config', 'config': True} to test151
+* 00:19 SomeRandomDeveloper: ran "DELETE FROM AggregatedProfile WHERE type = 'HOURLY';" and "VACUUM;" on speedscope211
+
 ## 2026-10-09 
 
 * 12:21 @paladox: increase speedscope211 disk by 10gib

@@ -4,25 +4,42 @@ title: Tech:Temporary accounts
 
 `{{ {{Mbox|text=This page is a draft and does '''not''' reflect Miraheze's current technical setup.}} }}`
 
-[Temporary account](https://meta.miraheze.org/wiki/mw:Help:Temporary_accounts) is a new feature in MediaWiki that improves upon IP editing. After enabling temporary accounts, new anonymous edits will automatically result in the creation of a temporary account without revealing the editor's IP. It preserves the privacy of anons without requiring account creation to edit.
+[Temporary account](https://meta.miraheze.org/wiki/mw:Help:Temporary_accounts) is a new feature in MediaWiki that improves upon IP editing. After enabling temporary accounts, new anonymous edits will automatically result in the creation of a temporary account without revealing the editor's IP. It preserves the privacy of anons without requiring account creation to edit. See [the help page on mediawiki.org](https://meta.miraheze.org/wiki/mw:Help:Temporary_accounts) for more information.
 
-See [the help page on mediawiki.org](https://meta.miraheze.org/wiki/mw:Help:Temporary_accounts) for more information.
+Temporary accounts are currently not supported on Mirhaeze. The remaining page documents a testing procedure once temporary accounts are enabled experimentally.
 
 ## Enabling temporary accounts 
 
 ### Prerequisites 
 
-The request must be made by a bureaucrat of the local wiki, with the understanding that many extensions may be incompatible with temporary accounts and might cause problems on the wiki in question. See [T15186](https://meta.miraheze.org/wiki/phab:T15186) for the current progress of extension testing on temporary accounts.
+The request must be made by a bureaucrat of the local wiki, with the understanding that many extensions may be incompatible with temporary accounts and might cause problems on the wiki in question. See [T15186](https://meta.miraheze.org/wiki/phab:T15186) for the current progress of extension testing. Temporary accounts may also be disabled without notice if the Technology Team or [Counter Vandalism Team](https://meta.miraheze.org/wiki/Counter_Vandalism_Team) decide that technical or vandalism problems warrant a pause in this experiment.
 
 The wiki should ideally:
 * Have a decent amount of editing activity from new users so that there will be attempts at creating temporary accounts. For example, if IP editing is enabled, the wiki should have at least a few IP edits per month.
 * Have at least 2 users who are actively patrolling changes on the wiki. The [Counter Vandalism Team](https://meta.miraheze.org/wiki/Counter_Vandalism_Team) is interested in knowing whether temporary accounts present difficulties when combating vandalism.
 
-### Request enabling temporary accounts
+### Request enabling temporary accounts 
 
 Please send a request on [SR/RC](https://meta.miraheze.org/wiki/SR/RC) with the following text attached:
 ```
-I am aware that temporary accounts may be incompatible with extensions on my wiki and may cause the wiki to malfunction. I accept the risk and am still willing to enable temporary accounts.
+I have read [[Tech:Temporary accounts]]. I am aware that temporary accounts may be incompatible with extensions on my wiki and may cause the wiki to malfunction. I accept the risk and am still willing to enable temporary accounts.
+```
+
+A steward or member of the technology team will assess the request.
+
+**Stewards and tech team members**: when enabling temporary accounts, both `$wmgTemporaryAccountsKnown` and `$wmgEnableTemporaryAccounts` must be enabled.
+
+## Disabling temporary accounts 
+
+Bureaucrats who no longer wish to use temporary accounts can do one of the following.
+* If you no longer wish to allow anonymous users to edit the wiki, disable IP-editing in Special:ManageWiki/permissions (see [Help:How to manage who can edit my wiki](https://meta.miraheze.org/wiki/Help:How_to_manage_who_can_edit_my_wiki) for how). Temporary accounts still exist, but they will lose editing access and will no longer be created.
+* If you want to revert to showing the IP address of anonymous editors, submit a request on [SR/RC](https://meta.miraheze.org/wiki/SR/RC) to disable temporary accounts.
+
+```
+{{ {{Mbox
+|type=content
+|text='''Stewards and tech team members''': when disabling temporary accounts, only disable <code>$wmgEnableTemporaryAccounts</code>. Do NOT disable <code>$wmgTemporaryAccountsKnown</code>.
+}} }}
 ```
 
 ## Testing extensions 
@@ -32,9 +49,9 @@ An extension that was written before temporary accounts existed may break, or it
 ### Before you start 
 
 * Use a private or incognito window so you are fully logged out. To start again as a new visitor, close the private window and open a new one.
-* Make sure logged-out users are actually allowed to use the feature you are testing. Many extensions by default only let logged-in users perform an action in question, such as commenting or voting.
+* Make sure logged-out users are actually allowed to use the feature(s) you are testing. Many extensions by default only let logged-in users perform an action in question, such as commenting or voting.
 * You will know you have a temporary account when your username starts with `~` followed by some numbers.
-* If the wiki refuses to create a temporary account because too many were created recently, wait for a while or try from a different network.
+* If the wiki refuses to create a temporary account because too many were created recently, wait for a while or try from a different network. To prevent abuse, Miraheze may impose heavy limits on the rate of account creation, so it could take a while before another temporary account can be created from the same IP.
 
 ### What to test 
 
