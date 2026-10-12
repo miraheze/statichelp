@@ -2,11 +2,9 @@
 title: Tech:Temporary accounts
 ---
 
-`{{ {{Mbox|text=This page is a draft and does '''not''' reflect Miraheze's current technical setup.}} }}`
-
 [Temporary account](https://meta.miraheze.org/wiki/mw:Help:Temporary_accounts) is a new feature in MediaWiki that improves upon IP editing. After enabling temporary accounts, new anonymous edits will automatically result in the creation of a temporary account without revealing the editor's IP. It preserves the privacy of anons without requiring account creation to edit. See [the help page on mediawiki.org](https://meta.miraheze.org/wiki/mw:Help:Temporary_accounts) for more information.
 
-Temporary accounts are currently not supported on Mirhaeze. The remaining page documents a testing procedure once temporary accounts are enabled experimentally.
+Temporary accounts are enabled on a per-wiki basis on Mirhaeze.
 
 ## Enabling temporary accounts 
 
@@ -15,8 +13,10 @@ Temporary accounts are currently not supported on Mirhaeze. The remaining page d
 The request must be made by a bureaucrat of the local wiki, with the understanding that many extensions may be incompatible with temporary accounts and might cause problems on the wiki in question. See [T15186](https://meta.miraheze.org/wiki/phab:T15186) for the current progress of extension testing. Temporary accounts may also be disabled without notice if the Technology Team or [Counter Vandalism Team](https://meta.miraheze.org/wiki/Counter_Vandalism_Team) decide that technical or vandalism problems warrant a pause in this experiment.
 
 The wiki should ideally:
-* Have a decent amount of editing activity from new users so that there will be attempts at creating temporary accounts. For example, if IP editing is enabled, the wiki should have at least a few IP edits per month.
-* Have at least 2 users who are actively patrolling changes on the wiki. The [Counter Vandalism Team](https://meta.miraheze.org/wiki/Counter_Vandalism_Team) is interested in knowing whether temporary accounts present difficulties when combating vandalism.
+* Satisfy one of the following:
+   * Have a decent amount of editing activity from new users so that there will be attempts at creating temporary accounts. For example, if IP editing is enabled, the wiki should have at least a few IP edits per month.
+   * Be willing to assist the Technology Team in testing extension compatibility with temporary accounts.
+* Have at least one user who is actively patrolling changes on the wiki. The [Counter Vandalism Team](https://meta.miraheze.org/wiki/Counter_Vandalism_Team) is interested in knowing whether temporary accounts present difficulties when combating vandalism.
 
 ### Request enabling temporary accounts 
 

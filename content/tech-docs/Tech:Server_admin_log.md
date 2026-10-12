@@ -2,6 +2,53 @@
 title: Tech:Server admin log
 ---
 
+## 2026-10-12 
+
+* 00:00 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'UserProfileV2'} to all - SUCCESS in 38s (T16290)
+
+## 2026-10-11 
+
+* 23:59 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'UserProfileV2'} to all (T16290)
+* 23:58 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': 'all', 'upgrade_extensions': 'UserProfileV2'} to test151 - SUCCESS in 9s (T16290)
+* 23:58 MirahezeLSBot: [petramagna@test151] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'UserProfileV2'} to test151 (T16290)
+* 22:01 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'CookieWarning'} to all - SUCCESS in 40s (T16290)
+* 22:01 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'CookieWarning'} to all (T16290)
+* 21:55 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': 'all', 'upgrade_extensions': 'CookieWarning'} to test151 - SUCCESS in 10s (T16290)
+* 21:55 MirahezeLSBot: [petramagna@test151] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'CookieWarning'} to test151 (T16290)
+* 20:56 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s (T16002)
+* 20:56 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all (T16002)
+* 20:29 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True, 'debug': True} to test151 - SUCCESS in 0s (T16002)
+* 20:29 MirahezeLSBot: [petramagna@test151] Starting deploy of {'config': True, 'debug': True} to test151 (T16002)
+* 15:22 MirahezeLSBot: [jenny@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 15:22 MirahezeLSBot: [jenny@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 15:20 MirahezeLSBot: [jenny@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 11s
+* 15:20 MirahezeLSBot: [jenny@test151] Starting deploy of {'pull': 'config', 'config': True} to test151
+* 08:06 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s (T16002)
+* 08:06 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all (T16002)
+* 06:55 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True, 'debug': True} to test151 - SUCCESS in 0s (T16002)
+* 06:55 MirahezeLSBot: [petramagna@test151] Starting deploy of {'config': True, 'debug': True} to test151 (T16002)
+* 05:26 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'l10n': True, 'versions': 'all', 'upgrade_extensions': ['ManageWiki', 'MirahezeMagic'], 'debug': True} to all - SUCCESS in 88s (T15205)
+* 05:25 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'l10n': True, 'versions': 'all', 'upgrade_extensions': ['ManageWiki', 'MirahezeMagic'], 'debug': True} to all (T15205)
+* 03:14 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/MirahezeMagic', 'debug': True} to test151 - SUCCESS in 0s
+* 03:14 MirahezeLSBot: [petramagna@test151] Starting deploy of {'folders': '1.46/extensions/MirahezeMagic', 'debug': True} to test151
+* 03:06 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True, 'debug': True} to test151 - SUCCESS in 0s
+* 03:06 MirahezeLSBot: [petramagna@test151] Starting deploy of {'config': True, 'debug': True} to test151
+* 03:02 MirahezeLSBot: [petramagna@test151] finished deploy of {'l10n': True, 'versions': 'all', 'upgrade_extensions': ['ManageWiki', 'MirahezeMagic']} to test151 - SUCCESS in 64s
+* 03:01 MirahezeLSBot: [petramagna@test151] Starting deploy of {'l10n': True, 'versions': 'all', 'upgrade_extensions': ['ManageWiki', 'MirahezeMagic']} to test151
+* 01:54 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/ManageWiki', 'debug': True} to test151 - SUCCESS in 0s
+* 01:54 MirahezeLSBot: [petramagna@test151] Starting deploy of {'folders': '1.46/extensions/ManageWiki', 'debug': True} to test151
+* 01:43 MirahezeLSBot: [petramagna@test151] Starting deploy of {'folders': '1.46/extensions/ManageWiki', 'debug': True} to test151
+* 01:42 MirahezeLSBot: [petramagna@test151] Starting deploy of {'folders': '1.46/extensions/ManageWiki', 'debug': True} to test151
+* 01:25 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True, 'debug': True} to test151 - SUCCESS in 0s
+* 01:25 MirahezeLSBot: [petramagna@test151] Starting deploy of {'config': True, 'debug': True} to test151
+* 01:18 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True, 'debug': True} to test151 - SUCCESS in 0s
+* 01:18 MirahezeLSBot: [petramagna@test151] Starting deploy of {'config': True, 'debug': True} to test151
+* 01:16 SomeRandomDeveloper: ran "DELETE FROM AggregatedProfile WHERE type = 'HOURLY' AND id < 1055;" on speedscope211 (T16286)
+* 01:13 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s (T16286)
+* 01:13 MirahezeLSBot: [somerandomdeveloper@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all (T16286)
+* 01:13 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 01:13 MirahezeLSBot: [somerandomdeveloper@test151] Starting deploy of {'pull': 'config', 'config': True} to test151
+
 ## 2026-10-10 
 
 * 12:44 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ApprovedRevs'} to all - SUCCESS in 44s (T15842)
