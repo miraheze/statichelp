@@ -4,6 +4,62 @@ title: Tech:Server admin log
 
 ## 2026-10-12 
 
+* 15:31 MirahezeLSBot: [jenny@mwtask171] Finished import for demidieuxwiki (XML: a.xml; Images: None) (END - exit=0)
+* 15:30 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=demidieuxwiki --update (END - exit=0)
+* 15:30 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=demidieuxwiki --update (START)
+* 15:30 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initEditCount --wiki=demidieuxwiki (END - exit=0)
+* 15:30 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initEditCount --wiki=demidieuxwiki (START)
+* 15:30 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php rebuildall --wiki=demidieuxwiki (END - exit=0)
+* 15:04 MirahezeLSBot: [jenny@mwtask151] Finished import for evilliouswiki (XML: None; Images: images/) (END - exit=0)
+* 15:04 MirahezeLSBot: [jenny@mwtask151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=evilliouswiki --update (END - exit=0)
+* 15:04 MirahezeLSBot: [jenny@mwtask151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=evilliouswiki --update (START)
+* 15:04 MirahezeLSBot: [jenny@mwtask151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=evilliouswiki --sleep=1 '--comment=Importing images from [https://theevilliouschronicles.fandom.com/zh](https://theevilliouschronicles.fandom.com/zh) ([T16282](https://meta.miraheze.org/wiki/phorge:T16282))' -- images/ (END - exit=0)
+* 15:03 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=wikivadewiki --requester=Sssmmilles (END - exit=0) (T16273)
+* 14:55 MirahezeLSBot: [jenny@mwtask171] wiki reset extra steps
+* 14:51 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=animeoriginswikiwiki --requester=NeeKi (END - exit=0) (T16093)
+* 14:45 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php rebuildall --wiki=demidieuxwiki (START)
+* 14:45 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importDump --wiki=demidieuxwiki --no-updates --username-prefix=wikia:demidieux -- a.xml (END - exit=0)
+* 14:37 MirahezeLSBot: [jenny@mwtask151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=evilliouswiki --sleep=1 '--comment=Importing images from [https://theevilliouschronicles.fandom.com/zh](https://theevilliouschronicles.fandom.com/zh) ([T16282](https://meta.miraheze.org/wiki/phorge:T16282))' -- images/ (START)
+* 14:37 MirahezeLSBot: [jenny@mwtask151] Starting import for evilliouswiki (XML: None; Images: images/) (START)
+* 14:22 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importDump --wiki=fliplinestudioswiki --no-updates --username-prefix=wikia:fliplinestudios -- t.xml (START)
+* 14:22 MirahezeLSBot: [jenny@mwtask181] Starting import for fliplinestudioswiki (XML: t.xml; Images: None) (START)
+* 14:14 MirahezeLSBot: [jenny@mwtask161] Finished import for blastermasterwiki (XML: None; Images: images) (END - exit=0)
+* 14:14 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=blastermasterwiki --update (END - exit=0)
+* 14:14 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=blastermasterwiki --update (START)
+* 14:14 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=blastermasterwiki --sleep=0 '--comment=Importing images from [https://blastermaster.fandom.com](https://blastermaster.fandom.com) ([T16252](https://meta.miraheze.org/wiki/phorge:T16252))' -- images (END - exit=0)
+* 14:12 MirahezeLSBot: [jenny@mwtask151] Finished import for dayofduskwiki (XML: None; Images: ./images) (END - exit=0)
+* 14:12 MirahezeLSBot: [jenny@mwtask151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=dayofduskwiki --update (END - exit=0)
+* 14:12 MirahezeLSBot: [jenny@mwtask151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=dayofduskwiki --update (START)
+* 14:12 MirahezeLSBot: [jenny@mwtask151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=dayofduskwiki --sleep=0 '--comment=Importing images from [https://day-of-dusk-rbx.fandom.com](https://day-of-dusk-rbx.fandom.com) ([T16233](https://meta.miraheze.org/wiki/phorge:T16233))' -- ./images (END - exit=0)
+* 14:11 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=blastermasterwiki --sleep=0 '--comment=Importing images from [https://blastermaster.fandom.com](https://blastermaster.fandom.com) ([T16252](https://meta.miraheze.org/wiki/phorge:T16252))' -- images (START)
+* 14:11 MirahezeLSBot: [jenny@mwtask161] Starting import for blastermasterwiki (XML: None; Images: images) (START)
+* 14:07 MirahezeLSBot: [jenny@mwtask151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=dayofduskwiki --sleep=0 '--comment=Importing images from [https://day-of-dusk-rbx.fandom.com](https://day-of-dusk-rbx.fandom.com) ([T16233](https://meta.miraheze.org/wiki/phorge:T16233))' -- ./images (START)
+* 14:07 MirahezeLSBot: [jenny@mwtask151] Starting import for dayofduskwiki (XML: None; Images: ./images) (START)
+* 14:02 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importDump --wiki=demidieuxwiki --no-updates --username-prefix=wikia:demidieux -- a.xml (START)
+* 14:02 MirahezeLSBot: [jenny@mwtask171] Starting import for demidieuxwiki (XML: a.xml; Images: None) (START)
+* 00:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: ghostscript, libgs10, libgs10-common, libgs-common, libvips42t64, and libvips-tools
+* 00:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: ghostscript, libgs10, libgs10-common, libgs-common, libvips42t64, and libvips-tools
+* 00:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: ghostscript, libgs10, libgs10-common, libgs-common, libvips42t64, and libvips-tools
+* 00:32 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: ghostscript, libgs10, libgs10-common, libgs-common, libvips42t64, and libvips-tools
+* 00:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: ghostscript, libgs10, libgs10-common, libgs-common, libvips42t64, and libvips-tools
+* 00:31 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: ghostscript, libgs10, libgs10-common, libgs-common, libvips42t64, and libvips-tools
+* 00:30 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: ghostscript, libgs10, libgs10-common, libgs-common, libvips42t64, and libvips-tools
+* 00:30 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: ghostscript, libgs10, libgs10-common, libgs-common, libvips42t64, and libvips-tools
+* 00:30 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: ghostscript, libgs10, libgs10-common, libgs-common, libvips42t64, and libvips-tools
+* 00:29 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: ghostscript, libgs10, libgs10-common, libgs-common, libvips42t64, and libvips-tools
+* 00:29 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: ghostscript, libgs10, libgs10-common, libgs-common, libvips42t64, and libvips-tools
+* 00:28 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: ghostscript, libgs10, libgs10-common, libgs-common, libvips42t64, and libvips-tools
+* 00:28 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: ghostscript, libgs10, libgs10-common, libgs-common, libvips42t64, and libvips-tools
+* 00:28 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: ghostscript, libgs10, libgs10-common, libgs-common, libvips42t64, and libvips-tools
+* 00:27 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: ghostscript, libgs10, libgs10-common, libgs-common, libvips42t64, and libvips-tools
+* 00:27 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: ghostscript, libgs10, libgs10-common, libgs-common, libvips42t64, and libvips-tools
+* 00:27 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: ghostscript, libgs10, libgs10-common, libgs-common, libvips42t64, and libvips-tools
+* 00:26 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: ghostscript, libgs10, libgs10-common, libgs-common, libvips42t64, and libvips-tools
+* 00:26 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: ghostscript, libgs10, libgs10-common, libgs-common, libvips42t64, and libvips-tools
+* 00:26 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: ghostscript, libgs10, libgs10-common, libgs-common, libvips42t64, and libvips-tools
+* 00:25 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: ghostscript, libgs10, libgs10-common, libgs-common, libvips42t64, and libvips-tools
+* 00:25 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: ghostscript, libgs10, libgs10-common, libgs-common, libvips42t64, and libvips-tools
+* 00:24 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: ghostscript, libgs10, libgs10-common, libgs-common, libvips42t64, and libvips-tools
 * 00:00 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'UserProfileV2'} to all - SUCCESS in 38s (T16290)
 
 ## 2026-10-11 

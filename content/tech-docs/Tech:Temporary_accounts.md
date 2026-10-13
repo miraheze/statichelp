@@ -4,13 +4,13 @@ title: Tech:Temporary accounts
 
 [Temporary account](https://meta.miraheze.org/wiki/mw:Help:Temporary_accounts) is a new feature in MediaWiki that improves upon IP editing. After enabling temporary accounts, new anonymous edits will automatically result in the creation of a temporary account without revealing the editor's IP. It preserves the privacy of anons without requiring account creation to edit. See [the help page on mediawiki.org](https://meta.miraheze.org/wiki/mw:Help:Temporary_accounts) for more information.
 
-Temporary accounts are enabled on a per-wiki basis on Mirhaeze.
+Temporary accounts are enabled on a per-wiki basis on Miraheze.
 
 ## Enabling temporary accounts 
 
 ### Prerequisites 
 
-The request must be made by a bureaucrat of the local wiki, with the understanding that many extensions may be incompatible with temporary accounts and might cause problems on the wiki in question. See [T15186](https://meta.miraheze.org/wiki/phab:T15186) for the current progress of extension testing. Temporary accounts may also be disabled without notice if the Technology Team or [Counter Vandalism Team](https://meta.miraheze.org/wiki/Counter_Vandalism_Team) decide that technical or vandalism problems warrant a pause in this experiment.
+The request must be made by a bureaucrat of the local wiki, with the understanding that many extensions may be incompatible with temporary accounts and might cause problems on the wiki in question. See [T15186](https://meta.miraheze.org/wiki/phab:T15186) for the current progress of extension testing and a [script for checking extension compatibility](https://meta.miraheze.org/wiki/User:PetraMagna/temp_account_js). Temporary accounts may also be disabled without notice if the Technology Team or [Counter Vandalism Team](https://meta.miraheze.org/wiki/Counter_Vandalism_Team) decide that technical or vandalism problems warrant a pause in this experiment.
 
 The wiki should ideally:
 * Satisfy one of the following:
