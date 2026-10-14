@@ -2,6 +2,146 @@
 title: Tech:Server admin log
 ---
 
+## 2026-10-13 
+
+* 23:27 MirahezeLSBot: [jenny@mwtask181] Finished import for fliplinestudioswiki (XML: None; Images: images) (END - exit=-2)
+* 23:27 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (END - exit=-2)
+* 18:12 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:ModifyGroupPermissions --wiki=metawiki --all-wikis --all-groups --removeperms=abusefilter-access-protected-vars,abusefilter-protected-vars-log --execute (END - exit=0; time=2200s)
+* 17:56 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=animalswiki (END - exit=0) (T16298)
+* 17:49 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=animalswiki --startOver (END - exit=0) (T16298)
+* 17:49 MirahezeLSBot: [jenny@mwtask171] curl -X DELETE [https://opensearch-mw.wikitide.net/animalswiki_content](https://opensearch-mw.wikitide.net/animalswiki_content) [https://opensearch-mw.wikitide.net/animalswiki_general](https://opensearch-mw.wikitide.net/animalswiki_general)
+* 17:35 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:ModifyGroupPermissions --wiki=metawiki --all-wikis --all-groups --removeperms=abusefilter-access-protected-vars,abusefilter-protected-vars-log --execute (START)
+* 17:08 MirahezeLSBot: [jenny@mwtask161] Finished import for wikivadewiki (XML: None; Images: ./images/) (END - exit=0)
+* 17:08 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=wikivadewiki --update (END - exit=0)
+* 17:08 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=wikivadewiki --update (START)
+* 17:08 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=wikivadewiki --sleep=1 '--comment=Importing images from [https://evade.fandom.com](https://evade.fandom.com) ([T16273](https://meta.miraheze.org/wiki/phorge:T16273))' -- ./images/ (END - exit=0)
+* 16:07 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (START)
+* 16:07 MirahezeLSBot: [jenny@mwtask181] Starting import for fliplinestudioswiki (XML: None; Images: images) (START)
+* 15:55 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=wikivadewiki --sleep=1 '--comment=Importing images from [https://evade.fandom.com](https://evade.fandom.com) ([T16273](https://meta.miraheze.org/wiki/phorge:T16273))' -- ./images/ (START)
+* 15:55 MirahezeLSBot: [jenny@mwtask161] Starting import for wikivadewiki (XML: None; Images: ./images/) (START)
+* 15:07 MirahezeLSBot: [jenny@mwtask181] Finished import for fliplinestudioswiki (XML: t.xml; Images: None) (END - exit=0)
+* 15:07 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=fliplinestudioswiki --update (END - exit=0)
+* 15:07 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=fliplinestudioswiki --update (START)
+* 15:07 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initEditCount --wiki=fliplinestudioswiki (END - exit=0)
+* 15:07 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initEditCount --wiki=fliplinestudioswiki (START)
+* 15:07 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php rebuildall --wiki=fliplinestudioswiki (END - exit=0)
+* 15:04 MirahezeLSBot: [jenny@mwtask161] Finished import for wikivadewiki (XML: evadenextbot_pages_full.xml; Images: None) (END - exit=0)
+* 15:04 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=wikivadewiki --update (END - exit=0)
+* 15:04 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=wikivadewiki --update (START)
+* 15:04 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initEditCount --wiki=wikivadewiki (END - exit=0)
+* 15:04 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initEditCount --wiki=wikivadewiki (START)
+* 15:04 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php rebuildall --wiki=wikivadewiki (END - exit=0)
+* 13:42 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php rebuildall --wiki=wikivadewiki (START)
+* 13:42 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importDump --wiki=wikivadewiki --no-updates --username-prefix=wikia:evade -- evadenextbot_pages_full.xml (END - exit=0)
+* 13:04 MirahezeLSBot: [jenny@mwtask171] Finished import for fantendohispanawiki (XML: esnewfantendo_pages_full.xml; Images: None) (END - exit=0)
+* 13:04 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=fantendohispanawiki --update (END - exit=0)
+* 13:04 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=fantendohispanawiki --update (START)
+* 13:04 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initEditCount --wiki=fantendohispanawiki (END - exit=0)
+* 13:04 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initEditCount --wiki=fantendohispanawiki (START)
+* 13:04 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php rebuildall --wiki=fantendohispanawiki (END - exit=0)
+* 12:36 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importDump --wiki=wikivadewiki --no-updates --username-prefix=wikia:evade -- evadenextbot_pages_full.xml (START)
+* 12:36 MirahezeLSBot: [jenny@mwtask161] Starting import for wikivadewiki (XML: evadenextbot_pages_full.xml; Images: None) (START)
+* 11:44 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php rebuildall --wiki=fantendohispanawiki (START)
+* 11:44 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importDump --wiki=fantendohispanawiki --no-updates --username-prefix=wikia:fantendo:es -- esnewfantendo_pages_full.xml (END - exit=0)
+* 10:56 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initEditCount --wiki=socionicswikiwiki (END - exit=0) (T16297)
+* 10:55 MirahezeLSBot: [jenny@mwtask161] Finished import for socionicswikiwiki (XML: None; Images: .) (END - exit=0)
+* 10:54 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=socionicswikiwiki --update (END - exit=0)
+* 10:54 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=socionicswikiwiki --update (START)
+* 10:54 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=socionicswikiwiki --sleep=0 '--comment=Importing images from [https://zanoza.socioland.ru](https://zanoza.socioland.ru) ([T16297](https://meta.miraheze.org/wiki/phorge:T16297))' --search-recursively -- . (END - exit=0)
+* 10:53 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=socionicswikiwiki --sleep=0 '--comment=Importing images from [https://zanoza.socioland.ru](https://zanoza.socioland.ru) ([T16297](https://meta.miraheze.org/wiki/phorge:T16297))' --search-recursively -- . (START)
+* 10:53 MirahezeLSBot: [jenny@mwtask161] Starting import for socionicswikiwiki (XML: None; Images: .) (START)
+* 10:53 MirahezeLSBot: [jenny@mwtask161] Finished import for socionicswikiwiki (XML: None; Images: .) (END - exit=1)
+* 10:53 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=socionicswikiwiki --sleep=0 '--comment=Importing images from [https://zanoza.socioland.ru](https://zanoza.socioland.ru) ([T16297](https://meta.miraheze.org/wiki/phorge:T16297))' -- . (END - exit=1)
+* 10:53 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=socionicswikiwiki --sleep=0 '--comment=Importing images from [https://zanoza.socioland.ru](https://zanoza.socioland.ru) ([T16297](https://meta.miraheze.org/wiki/phorge:T16297))' -- . (START)
+* 10:53 MirahezeLSBot: [jenny@mwtask161] Starting import for socionicswikiwiki (XML: None; Images: .) (START)
+* 10:38 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importDump --wiki=fantendohispanawiki --no-updates --username-prefix=wikia:fantendo:es -- esnewfantendo_pages_full.xml (START)
+* 10:38 MirahezeLSBot: [jenny@mwtask171] Starting import for fantendohispanawiki (XML: esnewfantendo_pages_full.xml; Images: None) (START)
+* 02:32 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: librsvg2-common and librsvg2-2
+* 02:32 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: librsvg2-common and librsvg2-2
+* 02:32 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: librsvg2-dev, librsvg2-common, librsvg2-2, gir1.2-rsvg-2.0, and librsvg2-bin
+* 02:31 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: librsvg2-common and librsvg2-2
+* 02:31 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: librsvg2-common and librsvg2-2
+* 02:31 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: librsvg2-common and librsvg2-2
+* 02:30 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: librsvg2-common and librsvg2-2
+* 02:30 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: librsvg2-common and librsvg2-2
+* 02:30 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: librsvg2-common and librsvg2-2
+* 02:29 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: librsvg2-common and librsvg2-2
+* 02:29 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: librsvg2-common and librsvg2-2
+* 02:29 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: librsvg2-common and librsvg2-2
+* 02:28 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: librsvg2-common and librsvg2-2
+* 02:28 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb191: librsvg2-common and librsvg2-2
+* 02:28 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: librsvg2-common and librsvg2-2
+* 02:27 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: librsvg2-common and librsvg2-2
+* 02:27 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: librsvg2-common and librsvg2-2
+* 02:27 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: librsvg2-common and librsvg2-2
+* 02:26 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: librsvg2-common and librsvg2-2
+* 02:26 MirahezeLSBot: [void@puppet181] Upgraded packages on speedscope211: librsvg2-common and librsvg2-2
+* 02:26 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: librsvg2-dev, librsvg2-common, librsvg2-2, gir1.2-rsvg-2.0, and librsvg2-bin
+* 02:25 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: librsvg2-common and librsvg2-2
+* 02:25 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: librsvg2-common and librsvg2-2
+* 02:25 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: librsvg2-common and librsvg2-2
+* 02:25 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: librsvg2-dev, librsvg2-common, librsvg2-2, gir1.2-rsvg-2.0, and librsvg2-bin
+* 02:24 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: librsvg2-dev, librsvg2-common, librsvg2-2, gir1.2-rsvg-2.0, and librsvg2-bin
+* 02:24 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: librsvg2-common and librsvg2-2
+* 02:23 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: librsvg2-common and librsvg2-2
+* 02:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: librsvg2-dev, librsvg2-common, librsvg2-2, gir1.2-rsvg-2.0, and librsvg2-bin
+* 02:23 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: librsvg2-dev, librsvg2-common, librsvg2-2, gir1.2-rsvg-2.0, and librsvg2-bin
+* 02:22 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: librsvg2-dev, librsvg2-common, librsvg2-2, gir1.2-rsvg-2.0, and librsvg2-bin
+* 02:22 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: librsvg2-dev, librsvg2-common, librsvg2-2, gir1.2-rsvg-2.0, and librsvg2-bin
+* 02:22 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: librsvg2-dev, librsvg2-common, librsvg2-2, gir1.2-rsvg-2.0, and librsvg2-bin
+* 02:21 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: librsvg2-dev, librsvg2-common, librsvg2-2, gir1.2-rsvg-2.0, and librsvg2-bin
+* 02:21 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: librsvg2-dev, librsvg2-common, librsvg2-2, gir1.2-rsvg-2.0, and librsvg2-bin
+* 02:21 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: librsvg2-dev, librsvg2-common, librsvg2-2, gir1.2-rsvg-2.0, and librsvg2-bin
+* 02:20 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: librsvg2-dev, librsvg2-common, librsvg2-2, gir1.2-rsvg-2.0, and librsvg2-bin
+* 02:20 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: librsvg2-dev, librsvg2-common, librsvg2-2, gir1.2-rsvg-2.0, and librsvg2-bin
+* 02:19 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: librsvg2-dev, librsvg2-common, librsvg2-2, gir1.2-rsvg-2.0, and librsvg2-bin
+* 02:19 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: librsvg2-dev, librsvg2-common, librsvg2-2, gir1.2-rsvg-2.0, and librsvg2-bin
+* 02:19 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: librsvg2-common and librsvg2-2
+* 02:18 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: librsvg2-dev, librsvg2-common, librsvg2-2, gir1.2-rsvg-2.0, and librsvg2-bin
+* 02:18 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: librsvg2-dev, librsvg2-common, librsvg2-2, gir1.2-rsvg-2.0, and librsvg2-bin
+* 02:18 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: librsvg2-dev, librsvg2-common, librsvg2-2, gir1.2-rsvg-2.0, and librsvg2-bin
+* 02:17 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: librsvg2-dev, librsvg2-common, librsvg2-2, gir1.2-rsvg-2.0, and librsvg2-bin
+* 02:17 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: librsvg2-dev, librsvg2-common, librsvg2-2, gir1.2-rsvg-2.0, and librsvg2-bin
+* 02:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: librsvg2-dev, librsvg2-common, librsvg2-2, gir1.2-rsvg-2.0, and librsvg2-bin
+* 02:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: librsvg2-common and librsvg2-2
+* 02:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: librsvg2-common and librsvg2-2
+* 02:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: librsvg2-dev, librsvg2-common, librsvg2-2, gir1.2-rsvg-2.0, and librsvg2-bin
+* 02:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: librsvg2-common and librsvg2-2
+* 02:15 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: librsvg2-common and librsvg2-2
+* 02:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: librsvg2-common and librsvg2-2
+* 02:14 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: librsvg2-common and librsvg2-2
+* 02:14 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: librsvg2-common and librsvg2-2
+* 02:14 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: librsvg2-common and librsvg2-2
+* 02:13 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo211: librsvg2-common and librsvg2-2
+* 02:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: librsvg2-common and librsvg2-2
+* 02:13 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: librsvg2-common and librsvg2-2
+* 02:13 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: librsvg2-common and librsvg2-2
+* 02:12 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: librsvg2-common and librsvg2-2
+* 02:12 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: librsvg2-common and librsvg2-2
+* 02:12 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: librsvg2-common and librsvg2-2
+* 02:11 MirahezeLSBot: [void@puppet181] Upgraded packages on db201: librsvg2-common and librsvg2-2
+* 02:11 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: librsvg2-common and librsvg2-2
+* 02:11 MirahezeLSBot: [void@puppet181] Upgraded packages on db192: librsvg2-common and librsvg2-2
+* 02:10 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: librsvg2-common and librsvg2-2
+* 02:10 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: librsvg2-common and librsvg2-2
+* 02:10 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: librsvg2-common and librsvg2-2
+* 02:09 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: librsvg2-common and librsvg2-2
+* 02:09 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: librsvg2-common and librsvg2-2
+* 02:09 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: librsvg2-common and librsvg2-2
+* 02:08 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: librsvg2-common and librsvg2-2
+* 02:08 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: librsvg2-common and librsvg2-2
+* 02:08 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: librsvg2-common and librsvg2-2
+* 02:08 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: librsvg2-common and librsvg2-2
+* 02:07 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: librsvg2-common and librsvg2-2
+* 02:07 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: librsvg2-common and librsvg2-2
+* 02:07 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: librsvg2-common and librsvg2-2
+* 02:07 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: librsvg2-common and librsvg2-2
+* 02:06 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: librsvg2-common and librsvg2-2
+* 02:06 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: librsvg2-common and librsvg2-2
+* 02:06 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: librsvg2-common and librsvg2-2
+* 02:02 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php rebuildall --wiki=fliplinestudioswiki (START)
+* 02:02 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importDump --wiki=fliplinestudioswiki --no-updates --username-prefix=wikia:fliplinestudios -- t.xml (END - exit=0)
+
 ## 2026-10-12 
 
 * 15:31 MirahezeLSBot: [jenny@mwtask171] Finished import for demidieuxwiki (XML: a.xml; Images: None) (END - exit=0)
