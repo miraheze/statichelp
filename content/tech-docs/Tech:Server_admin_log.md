@@ -2,6 +2,138 @@
 title: Tech:Server admin log
 ---
 
+## 2026-10-15 
+
+* 22:25 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (START)
+* 22:24 MirahezeLSBot: [jenny@mwtask181] Starting import for fliplinestudioswiki (XML: None; Images: images) (START)
+* 22:23 MirahezeLSBot: [jenny@mwtask181] Finished import for fliplinestudioswiki (XML: None; Images: images) (END - exit=-2)
+* 22:23 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (END - exit=-2)
+* 22:21 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (START)
+* 22:21 MirahezeLSBot: [jenny@mwtask181] Starting import for fliplinestudioswiki (XML: None; Images: images) (START)
+* 22:14 MirahezeLSBot: [jenny@mwtask181] Finished import for fliplinestudioswiki (XML: None; Images: images) (END - exit=-2)
+* 22:14 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (END - exit=-2)
+* 22:07 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (START)
+* 22:07 MirahezeLSBot: [jenny@mwtask181] Starting import for fliplinestudioswiki (XML: None; Images: images) (START)
+* 22:06 MirahezeLSBot: [jenny@mwtask181] Finished import for fliplinestudioswiki (XML: None; Images: images) (END - exit=-2)
+* 22:06 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=0 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (END - exit=-2)
+* 22:04 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=0 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (START)
+* 22:04 MirahezeLSBot: [jenny@mwtask181] Starting import for fliplinestudioswiki (XML: None; Images: images) (START)
+* 21:41 MirahezeLSBot: [jenny@mwtask181] Finished import for fliplinestudioswiki (XML: None; Images: images) (END - exit=-2)
+* 21:41 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (END - exit=-2)
+* 21:40 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (START)
+* 21:40 MirahezeLSBot: [jenny@mwtask181] Starting import for fliplinestudioswiki (XML: None; Images: images) (START)
+* 21:40 MirahezeLSBot: [jenny@mwtask181] Finished import for fliplinestudioswiki (XML: None; Images: images) (END - exit=-2)
+* 21:40 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (END - exit=-2)
+* 21:37 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (START)
+* 21:37 MirahezeLSBot: [jenny@mwtask181] Starting import for fliplinestudioswiki (XML: None; Images: images) (START)
+* 21:37 MirahezeLSBot: [jenny@mwtask181] Finished import for fliplinestudioswiki (XML: None; Images: images) (END - exit=-2)
+* 21:37 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=0 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (END - exit=-2)
+* 21:34 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=0 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (START)
+* 21:34 MirahezeLSBot: [jenny@mwtask181] Starting import for fliplinestudioswiki (XML: None; Images: images) (START)
+* 21:34 MirahezeLSBot: [jenny@mwtask181] Finished import for fliplinestudioswiki (XML: None; Images: images) (END - exit=-2)
+* 21:34 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (END - exit=-2)
+* 21:33 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (START)
+* 21:33 MirahezeLSBot: [jenny@mwtask181] Starting import for fliplinestudioswiki (XML: None; Images: images) (START)
+* 21:33 MirahezeLSBot: [jenny@mwtask181] Finished import for fliplinestudioswiki (XML: None; Images: images) (END - exit=-2)
+* 21:33 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (END - exit=-2)
+* 21:32 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (START)
+* 21:32 MirahezeLSBot: [jenny@mwtask181] Starting import for fliplinestudioswiki (XML: None; Images: images) (START)
+* 21:31 MirahezeLSBot: [jenny@mwtask181] Finished import for fliplinestudioswiki (XML: None; Images: images) (END - exit=-2)
+* 21:31 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (END - exit=-2)
+* 21:29 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (START)
+* 21:29 MirahezeLSBot: [jenny@mwtask181] Starting import for fliplinestudioswiki (XML: None; Images: images) (START)
+* 21:26 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:25 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:25 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:25 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: curl, libcurl4t64, libcurl3t64-gnutls, and libjxl0.11
+* 21:24 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:24 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:23 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:23 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:23 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:22 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:22 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:22 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb191: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:21 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:21 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:21 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:20 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:20 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:20 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:19 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:19 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:19 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: curl, libcurl4t64, libcurl3t64-gnutls, and libjxl0.11
+* 21:18 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:18 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:18 MirahezeLSBot: [void@puppet181] Upgraded packages on speedscope211: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:17 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: curl, libcurl4t64, libcurl3t64-gnutls, and libjxl0.11
+* 21:17 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:17 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: curl, libcurl4t64, libcurl3t64-gnutls, and libjxl0.11
+* 21:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: curl, libcurl4t64, libcurl3t64-gnutls, and libjxl0.11
+* 21:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: curl, libcurl4t64, libcurl3t64-gnutls, and libjxl0.11
+* 21:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: curl, libcurl4t64, libcurl3t64-gnutls, and libjxl0.11
+* 21:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: curl, libcurl4t64, libcurl3t64-gnutls, and libjxl0.11
+* 21:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: curl, libcurl4t64, libcurl3t64-gnutls, and libjxl0.11
+* 21:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: curl, libcurl4t64, libcurl3t64-gnutls, and libjxl0.11
+* 21:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: curl, libcurl4t64, libcurl3t64-gnutls, and libjxl0.11
+* 21:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: curl, libcurl4t64, libcurl3t64-gnutls, and libjxl0.11
+* 21:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: curl, libcurl4t64, libcurl3t64-gnutls, and libjxl0.11
+* 21:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: curl, libcurl4t64, libcurl3t64-gnutls, and libjxl0.11
+* 21:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: curl, libcurl4t64, libcurl3t64-gnutls, and libjxl0.11
+* 21:12 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: curl, libcurl4t64, libcurl3t64-gnutls, and libjxl0.11
+* 21:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: curl, libcurl4t64, libcurl3t64-gnutls, and libjxl0.11
+* 21:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: curl, libcurl4t64, libcurl3t64-gnutls, and libjxl0.11
+* 21:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: curl, libcurl4t64, libcurl3t64-gnutls, and libjxl0.11
+* 21:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: curl, libcurl4t64, libcurl3t64-gnutls, and libjxl0.11
+* 21:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: curl, libcurl4t64, libcurl3t64-gnutls, and libjxl0.11
+* 21:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: curl, libcurl4t64, libcurl3t64-gnutls, and libjxl0.11
+* 21:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: curl, libcurl4t64, libcurl3t64-gnutls, and libjxl0.11
+* 21:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:08 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:07 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo211: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:06 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:06 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:06 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:05 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:05 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:04 MirahezeLSBot: [void@puppet181] Upgraded packages on db201: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:04 MirahezeLSBot: [void@puppet181] Upgraded packages on db192: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:04 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:03 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:03 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:03 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:02 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:02 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:02 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:01 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:01 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:01 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:00 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:00 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:00 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: curl, libcurl4t64, and libcurl3t64-gnutls
+* 21:00 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: curl, libcurl4t64, and libcurl3t64-gnutls
+* 20:59 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: curl, libcurl4t64, and libcurl3t64-gnutls
+* 20:59 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: curl, libcurl4t64, and libcurl3t64-gnutls
+* 20:59 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: curl, libcurl4t64, and libcurl3t64-gnutls
+* 20:58 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: curl, libcurl4t64, and libcurl3t64-gnutls
+* 20:58 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: curl, libcurl4t64, and libcurl3t64-gnutls
+* 20:58 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: curl, libcurl4t64, and libcurl3t64-gnutls
+* 20:41 MirahezeLSBot: [jenny@mwtask181] Finished import for fliplinestudioswiki (XML: None; Images: images) (END - exit=-2)
+* 20:41 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (END - exit=-2)
+* 14:52 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (START)
+* 14:52 MirahezeLSBot: [jenny@mwtask181] Starting import for fliplinestudioswiki (XML: None; Images: images) (START)
+* 14:50 MirahezeLSBot: [jenny@mwtask181] Finished import for fliplinestudioswiki (XML: None; Images: images) (END - exit=-2)
+* 14:50 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (END - exit=-2)
+* 14:50 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (START)
+* 14:50 MirahezeLSBot: [jenny@mwtask181] Starting import for fliplinestudioswiki (XML: None; Images: images) (START)
+
 ## 2026-10-14 
 
 * 20:39 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 42s

@@ -25,6 +25,8 @@ Please discuss enabling this option for all wikis that did not change this optio
 
 Please discuss enabling this option only for new wikis. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 00:31, 14 October 2026 (UTC)
 
+   One thing that might perhaps be of note for the proposal of "enable for all wikis" is that syntax highlighting isn't always good. I have made some accessibility changes in my common.css to make the colors have more contrast. If other editors have made tweaks like this, it could be jarring to suddenly see a big change like this (even if the fix is just clicking the button, they may not know HOW to do that, or they could get lost down the Editing Preferences toolbar rabbit hole). I know we're not voting yet but I feel like this is a strong point for enabling it only for new wikis. [JaneBuzJane](https://meta.miraheze.org/wiki/User:JaneBuzJane) ([talk](https://meta.miraheze.org/wiki/User_talk:JaneBuzJane)) 02:14, 15 October 2026 (UTC)
+
 ## Proposal 2: enable edit recovery by default 
 
 **[Edit Recovery](https://meta.miraheze.org/wiki/mw:Help:Edit_Recovery)** saves unsaved changes in the source editor to the browser's local storage, so that work is not lost when the browser crashes, the tab is closed by accident, or the session expires. Next time the user opens the editor for that page, they are offered to restore their changes.
@@ -36,6 +38,7 @@ Please discuss enabling this option only for new wikis. [PetraMagna](https://met
 Please discuss below. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 00:31, 14 October 2026 (UTC)
 
  `{{ {{Support}} }}` [Maitian MaiLin](https://meta.miraheze.org/wiki/User:Maitian_MaiLin) ([talk](https://meta.miraheze.org/wiki/User_talk:Maitian_MaiLin)) 11:19, 14 October 2026 (UTC)
+   Kind of a random question, but does this work for anon editors? I'm assuming not, since the toggle is in Special:Preferences. I'm just curious. [JaneBuzJane](https://meta.miraheze.org/wiki/User:JaneBuzJane) ([talk](https://meta.miraheze.org/wiki/User_talk:JaneBuzJane)) 02:09, 15 October 2026 (UTC)
 
 This is a really imporatant and useful feature. I'm really sick of losing my edits for Internet lags and CAPTCHAs while contributing on Fandom. We can't count on everyone to pay enough attention to their [Special:Preferences](https://meta.miraheze.org/wiki/Special:Preferences), which is a really long page.--[AABb1221](https://meta.miraheze.org/wiki/User:AABb1221) ([talk](https://meta.miraheze.org/wiki/User_talk:AABb1221)) 04:19, 14 October 2026 (UTC)
 
@@ -60,6 +63,7 @@ Not enabling MobileFrontend and MinervaNeue for new wikis. [PetraMagna](https://
 Implement proposal 3a, and then automatically enabling MobileFrontend and MinervaNeue when a new wiki switches to a skin that is not responsive. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 00:31, 14 October 2026 (UTC)
 
    Sounds unnecessarily complicated, and this requires sorting out which skins are responsive and which are not. — [<span style="color:#DDAACC">Honoka55</span>](https://meta.miraheze.org/wiki/User:Honoka55)｜ [<span style="color:#CCAA88">talk</span>](https://meta.miraheze.org/wiki/User_talk:Honoka55) 11:31, 14 October 2026 (UTC)
+   I would propose removing 3b as an option - it would be difficult to keep track of which skins are responsive and which are not, but moreover, it could cause a lot of confusion for editors who enable a skin and then see a different one on mobile than they selected. - [JaneBuzJane](https://meta.miraheze.org/wiki/User:JaneBuzJane) ([talk](https://meta.miraheze.org/wiki/User_talk:JaneBuzJane)) 02:07, 15 October 2026 (UTC)
 
 ## Proposal 4: add TemplateData to default extensions 
 
