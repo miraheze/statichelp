@@ -2,9 +2,8 @@
 title: "Tech:Noticeboard/Request for feedback: changes to default MediaWiki settings (2)"
 ---
 
-`{{ {{Mbox|text=This page is a draft. Please feel free to edit or give feedback, but do not start voting yet.}} }}`
-
 This is a follow-up to [Tech:Noticeboard/Request for feedback: changes to default MediaWiki settings](/tech-docs/technoticeboard-request_for_feedback_changes_to_default_mediawiki_settings). I am proposing several more changes to Miraheze's default MediaWiki configuration, and members of the community are welcome to propose additional changes as well. This page will gather community feedback for the Technology Team's consideration. Proposals that are well-received by both the community and the Tech Team will be actioned. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 00:31, 14 October 2026 (UTC)
+    The draft is finalized and voting can start. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 06:24, 16 October 2026 (UTC)
 __NEWSECTIONLINK__
 ## Proposal 1: enable syntax highlighting by default 
 
@@ -20,12 +19,18 @@ Please discuss enabling this option for all wikis that did not change this optio
 
  `{{ {{Support}} }}` [Maitian MaiLin](https://meta.miraheze.org/wiki/User:Maitian_MaiLin) ([talk](https://meta.miraheze.org/wiki/User_talk:Maitian_MaiLin)) 11:18, 14 October 2026 (UTC)
       Just so you know, this RfF is still in drafting so votes don't count yet. - [<span style="color:#a25ac9">Sakurababochka</span>](https://meta.miraheze.org/wiki/User:Sakurababochka) ([<span style="color:#75c9af">talk</span>](https://meta.miraheze.org/wiki/Usertalk:Sakurababochka)) 11:23, 14 October 2026 (UTC)
+         Since the proposal has not changed since this vote is cast, I suppose we can keep it as is. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 06:25, 16 October 2026 (UTC)
+ `{{ {{support}} }}` as proposer. CM6 still has some minor issues such as [mediazilla:T441381](https://meta.miraheze.org/wiki/mediazilla:T441381) but I think the experience has gotten good enough that we can enable it for new users. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 06:26, 16 October 2026 (UTC)
+ `{{ {{oppose}} }}` per JaneBuzJane's comments on 1b and my general opposition to making farm-wide settings changes which aren't necessary security/tech/T&S changes. As the default is disabled, plenty of wikis which are happy with it disabled would be included in the list of wikis which have not changed this setting. - [<span style="color:#a25ac9">Sakurababochka</span>](https://meta.miraheze.org/wiki/User:Sakurababochka) ([<span style="color:#75c9af">talk</span>](https://meta.miraheze.org/wiki/Usertalk:Sakurababochka)) 08:18, 16 October 2026 (UTC)
+ `{{ {{support}} }}` - syntax highlighting makes it *so* much easier to read wikitext, and I believe newer users would see quite a benefit from it. [Rexogamer](https://meta.miraheze.org/wiki/User:Rexogamer) ([talk](https://meta.miraheze.org/wiki/User_talk:Rexogamer)) 16:56, 16 October 2026 (UTC)
 
 ### Discussion 1b 
 
 Please discuss enabling this option only for new wikis. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 00:31, 14 October 2026 (UTC)
 
    One thing that might perhaps be of note for the proposal of "enable for all wikis" is that syntax highlighting isn't always good. I have made some accessibility changes in my common.css to make the colors have more contrast. If other editors have made tweaks like this, it could be jarring to suddenly see a big change like this (even if the fix is just clicking the button, they may not know HOW to do that, or they could get lost down the Editing Preferences toolbar rabbit hole). I know we're not voting yet but I feel like this is a strong point for enabling it only for new wikis. [JaneBuzJane](https://meta.miraheze.org/wiki/User:JaneBuzJane) ([talk](https://meta.miraheze.org/wiki/User_talk:JaneBuzJane)) 02:14, 15 October 2026 (UTC)
+      Yeah custom CSS would indeed cause issues. Another source of problems is wikis that have customized the colors based on CodeMirror 5 but not 6. The old styling will be broken on the new CodeMirror. But since we are a few weeks past the MW 1.46 upgrade I assume most wikis have done the minimal CSS fix. This will be less of an issue with time. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 06:31, 16 October 2026 (UTC)
+ `{{ {{abstain}} }}` per above comments on this proposal. - [<span style="color:#a25ac9">Sakurababochka</span>](https://meta.miraheze.org/wiki/User:Sakurababochka) ([<span style="color:#75c9af">talk</span>](https://meta.miraheze.org/wiki/Usertalk:Sakurababochka)) 08:18, 16 October 2026 (UTC)
 
 ## Proposal 2: enable edit recovery by default 
 
@@ -39,8 +44,11 @@ Please discuss below. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagn
 
  `{{ {{Support}} }}` [Maitian MaiLin](https://meta.miraheze.org/wiki/User:Maitian_MaiLin) ([talk](https://meta.miraheze.org/wiki/User_talk:Maitian_MaiLin)) 11:19, 14 October 2026 (UTC)
    Kind of a random question, but does this work for anon editors? I'm assuming not, since the toggle is in Special:Preferences. I'm just curious. [JaneBuzJane](https://meta.miraheze.org/wiki/User:JaneBuzJane) ([talk](https://meta.miraheze.org/wiki/User_talk:JaneBuzJane)) 02:09, 15 October 2026 (UTC)
-
-This is a really imporatant and useful feature. I'm really sick of losing my edits for Internet lags and CAPTCHAs while contributing on Fandom. We can't count on everyone to pay enough attention to their [Special:Preferences](https://meta.miraheze.org/wiki/Special:Preferences), which is a really long page.--[AABb1221](https://meta.miraheze.org/wiki/User:AABb1221) ([talk](https://meta.miraheze.org/wiki/User_talk:AABb1221)) 04:19, 14 October 2026 (UTC)
+      Per documentation on mw.org [wgDefaultUserOptions](https://meta.miraheze.org/wiki/mw:Manual:$wgDefaultUserOptions) "will override the default user preferences for anonymous visitors and users who have not customized their preferences". So my guess would be it does work for anons. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 06:35, 16 October 2026 (UTC)
+   This is a really imporatant and useful feature. I'm really sick of losing my edits for Internet lags and CAPTCHAs while contributing on Fandom. We can't count on everyone to pay enough attention to their [Special:Preferences](https://meta.miraheze.org/wiki/Special:Preferences), which is a really long page.--[AABb1221](https://meta.miraheze.org/wiki/User:AABb1221) ([talk](https://meta.miraheze.org/wiki/User_talk:AABb1221)) 04:19, 14 October 2026 (UTC)
+ `{{ {{Support}} }}` as proposer. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 06:35, 16 October 2026 (UTC)
+ `{{ {{support}} }}` on the grounds of having lost more edits than I can count to page reloads. - [<span style="color:#a25ac9">Sakurababochka</span>](https://meta.miraheze.org/wiki/User:Sakurababochka) ([<span style="color:#75c9af">talk</span>](https://meta.miraheze.org/wiki/Usertalk:Sakurababochka)) 08:18, 16 October 2026 (UTC)
+ `{{ {{support|strongest}} }}` [Jenny on Wiki](https://meta.miraheze.org/wiki/User:Jenny_on_Wiki) ([talk](https://meta.miraheze.org/wiki/User_talk:Jenny_on_Wiki)) 14:16, 16 October 2026 (UTC)
 
 ## Proposal 3: do not enable MobileFrontend and MinervaNeue for new wikis 
 
@@ -50,20 +58,24 @@ With MobileFrontend enabled, mobile visitors see Minerva instead of the wiki's d
 
 This discrepancy is a major source of confusion. Disabling MF and Minerva for new wikis gives mobile visitors the similar experience as desktop visitors, and wikis that prefer Minerva can still opt in. Existing wikis are not affected and can continue to use Minerva if they so desire.
 
-If a wiki changes its default skin to one that is not responsive, such as Vector legacy, MobileFrontend and MinervaNeue could be enabled automatically. I am not sure whether this is worth the added complexity, and some wikis might intentionally not use MobileFrontend alongside Vector legacy. This addition goes into proposal 3b.
+~~If a wiki changes its default skin to one that is not responsive, such as Vector legacy, MobileFrontend and MinervaNeue could be enabled automatically. I am not sure whether this is worth the added complexity, and some wikis might intentionally not use MobileFrontend alongside Vector legacy. This addition goes into proposal 3b.~~ This proposal was drafted as 3b but has been withdrawn due to multiple concerns.
 
 ### Discussion 3a 
 
 Not enabling MobileFrontend and MinervaNeue for new wikis. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 00:31, 14 October 2026 (UTC)
 
    Minerva also ignores any custom sidebar the wiki has, which can potentially make mobile navigation much more fiddly. This isn't (as far as I know) made readily apparent anywhere, and I've seen it cause confusion more than once. - [<span style="color:#a25ac9">Sakurababochka</span>](https://meta.miraheze.org/wiki/User:Sakurababochka) ([<span style="color:#75c9af">talk</span>](https://meta.miraheze.org/wiki/Usertalk:Sakurababochka)) 09:25, 14 October 2026 (UTC)
-
+ `{{ {{support}} }}` as proposer. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 06:35, 16 October 2026 (UTC)
+      I should note that we plan to add a help message in ManageWiki for $wgDefaultSkin telling users of Vector legacy to enable MobileFrontend and Minerna if this proposal passes. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 06:36, 16 October 2026 (UTC)
+ `{{ {{support}} }}` per my comments on this proposal from the drafting period. - [<span style="color:#a25ac9">Sakurababochka</span>](https://meta.miraheze.org/wiki/User:Sakurababochka) ([<span style="color:#75c9af">talk</span>](https://meta.miraheze.org/wiki/Usertalk:Sakurababochka)) 08:18, 16 October 2026 (UTC)
+ `{{ {{support}} }}` - assuming `{{ {{code|$wgVectorResponsive}} }}` is(/will be) on by default. [Rexogamer](https://meta.miraheze.org/wiki/User:Rexogamer) ([talk](https://meta.miraheze.org/wiki/User_talk:Rexogamer)) 17:24, 16 October 2026 (UTC) `{{ {{Collapse top|title=Withdrawn proposal}} }}`
 ### Discussion 3b 
 
 Implement proposal 3a, and then automatically enabling MobileFrontend and MinervaNeue when a new wiki switches to a skin that is not responsive. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 00:31, 14 October 2026 (UTC)
 
    Sounds unnecessarily complicated, and this requires sorting out which skins are responsive and which are not. — [<span style="color:#DDAACC">Honoka55</span>](https://meta.miraheze.org/wiki/User:Honoka55)｜ [<span style="color:#CCAA88">talk</span>](https://meta.miraheze.org/wiki/User_talk:Honoka55) 11:31, 14 October 2026 (UTC)
    I would propose removing 3b as an option - it would be difficult to keep track of which skins are responsive and which are not, but moreover, it could cause a lot of confusion for editors who enable a skin and then see a different one on mobile than they selected. - [JaneBuzJane](https://meta.miraheze.org/wiki/User:JaneBuzJane) ([talk](https://meta.miraheze.org/wiki/User_talk:JaneBuzJane)) 02:07, 15 October 2026 (UTC)
+   Thanks for the feedback. I will withdraw this proposal. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 06:20, 16 October 2026 (UTC) `{{ {{Collapse bottom}} }}`
 
 ## Proposal 4: add TemplateData to default extensions 
 
@@ -76,6 +88,10 @@ TemplateData is also required by [TemplateWizard](https://meta.miraheze.org/wiki
 Please discuss below. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 00:31, 14 October 2026 (UTC)
 
    Surprised this isn't already the case. If VisualEditor is now enabled by default, editing templates would be really hard without TemplateData. [KockaAdmiralac](https://meta.miraheze.org/wiki/User:KockaAdmiralac) ([talk](https://meta.miraheze.org/wiki/User_talk:KockaAdmiralac)) 22:40, 14 October 2026 (UTC)
+      I believe you were the person who mentioned TemplateData last time, but it was too late for new proposals, so TemplateData waited until this RfF. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 06:37, 16 October 2026 (UTC)
+ `{{ {{support}} }}` as proposer. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 06:37, 16 October 2026 (UTC)
+ `{{ {{Abstain}} }}`, since I am not familiar with the extension and it would be remiss of me to vote as though I was. - [<span style="color:#a25ac9">Sakurababochka</span>](https://meta.miraheze.org/wiki/User:Sakurababochka) ([<span style="color:#75c9af">talk</span>](https://meta.miraheze.org/wiki/Usertalk:Sakurababochka)) 08:18, 16 October 2026 (UTC)
+ `{{ {{support}} }}` - ...it isn't already? [Rexogamer](https://meta.miraheze.org/wiki/User:Rexogamer) ([talk](https://meta.miraheze.org/wiki/User_talk:Rexogamer)) 17:15, 16 October 2026 (UTC)
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Noticeboard/Request_for_feedback:_changes_to_default_MediaWiki_settings_(2))**

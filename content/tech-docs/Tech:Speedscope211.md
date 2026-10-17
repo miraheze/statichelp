@@ -11,7 +11,7 @@ title: Tech:Speedscope211
 | status = running
 | memory = 4GB
 | cpu = 4 cores
-| nvme = 15GB
+| nvme = 25GB
 | nvme type = U.2
 | os = Debian 13
 | type = KVM

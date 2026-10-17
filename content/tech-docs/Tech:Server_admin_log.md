@@ -2,6 +2,43 @@
 title: Tech:Server admin log
 ---
 
+## 2026-10-16 
+
+* 23:18 MirahezeLSBot: [petramagna@test151] finished deploy of {'l10n': True, 'folders': '1.46/extensions/MirahezeMagic', 'versions': '1.46', 'debug': True} to test151 - SUCCESS in 16s
+* 23:18 MirahezeLSBot: [petramagna@test151] Starting deploy of {'l10n': True, 'folders': '1.46/extensions/MirahezeMagic', 'versions': '1.46', 'debug': True} to test151
+* 23:17 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/MirahezeMagic', 'debug': True} to test151 - SUCCESS in 0s (T15875)
+* 23:17 MirahezeLSBot: [petramagna@test151] Starting deploy of {'folders': '1.46/extensions/MirahezeMagic', 'debug': True} to test151 (T15875)
+* 22:29 @paladox: increase phorg171 disk by 19gib (20gb)
+* 21:55 @paladox: dropped phabricator_ on db182
+* 20:49 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 31s
+* 20:49 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 06:11 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'l10n': True, 'versions': 'all', 'upgrade_extensions': 'MirahezeMagic', 'debug': True} to all - SUCCESS in 65s (T15875)
+* 06:10 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'l10n': True, 'versions': 'all', 'upgrade_extensions': 'MirahezeMagic', 'debug': True} to all (T15875)
+* 06:05 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': '1.46', 'upgrade_extensions': 'MirahezeMagic'} to test151 - SUCCESS in 10s (T15875)
+* 06:05 MirahezeLSBot: [petramagna@test151] Starting deploy of {'versions': '1.46', 'upgrade_extensions': 'MirahezeMagic'} to test151 (T15875)
+* 05:54 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s (T15205)
+* 05:54 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all (T15205)
+* 05:53 MirahezeLSBot: [petramagna@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 05:53 MirahezeLSBot: [petramagna@test151] Starting deploy of {'pull': 'config', 'config': True} to test151
+* 05:36 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 40s (T15205)
+* 05:35 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to all (T15205)
+* 05:25 MirahezeLSBot: [petramagna@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawiki --setting=wgMirahezeMagicCSPEnabledServices --sourcelist=/tmp/t15205-csp.txt --json (END - exit=0) (T15205)
+* 05:18 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s (T15205)
+* 05:17 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all (T15205)
+* 05:14 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 42s (T16315)
+* 05:13 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ManageWiki'} to all (T16315)
+* 05:10 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/MirahezeMagic', 'debug': True} to test151 - SUCCESS in 0s
+* 05:10 MirahezeLSBot: [petramagna@test151] Starting deploy of {'folders': '1.46/extensions/MirahezeMagic', 'debug': True} to test151
+* 05:06 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawikibeta --setting=wgMirahezeMagicCSPEnabledServices --sourcelist=/tmp/t15205-csp.txt --json (END - exit=0) (T15205)
+* 04:57 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/ManageWiki', 'debug': True} to test151 - SUCCESS in 0s (T16315)
+* 04:57 MirahezeLSBot: [petramagna@test151] Starting deploy of {'folders': '1.46/extensions/ManageWiki', 'debug': True} to test151 (T16315)
+* 03:50 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': '1.46', 'upgrade_extensions': 'MirahezeMagic'} to test151 - SUCCESS in 10s (T15205)
+* 03:50 MirahezeLSBot: [petramagna@test151] Starting deploy of {'versions': '1.46', 'upgrade_extensions': 'MirahezeMagic'} to test151 (T15205)
+* 03:49 MirahezeLSBot: [petramagna@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s (T15205)
+* 03:49 MirahezeLSBot: [petramagna@test151] Starting deploy of {'pull': 'config', 'config': True} to test151 (T15205)
+* 00:33 MirahezeLSBot: [jenny@mwtask181] Finished import for fliplinestudioswiki (XML: None; Images: images) (END - exit=-2)
+* 00:33 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (END - exit=-2)
+
 ## 2026-10-15 
 
 * 22:25 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (START)
