@@ -2,6 +2,97 @@
 title: Tech:Server admin log
 ---
 
+## 2026-10-17 
+
+* 22:13 MirahezeLSBot: [void@mwtask181] restart mediawiki_job_generate-sitemap-index.service
+* 22:07 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: linux-libc-dev and libexpat1
+* 22:07 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: linux-libc-dev, libexpat1-dev, and libexpat1
+* 22:06 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: linux-libc-dev and libexpat1
+* 22:06 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: linux-libc-dev, apache2, apache2-bin, apache2-data, apache2-utils, libexpat1-dev, and libexpat1
+* 22:06 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: linux-libc-dev and libexpat1
+* 22:05 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: linux-libc-dev, libexpat1-dev, and libexpat1
+* 22:05 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: linux-libc-dev and libexpat1
+* 22:05 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: linux-libc-dev and libexpat1
+* 22:04 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: linux-libc-dev and libexpat1
+* 22:04 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: linux-libc-dev and libexpat1
+* 22:04 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: linux-libc-dev, libexpat1-dev, and libexpat1
+* 22:03 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: linux-libc-dev and libexpat1
+* 22:03 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: linux-libc-dev and libexpat1
+* 22:03 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb191: linux-libc-dev and libexpat1
+* 22:02 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: linux-libc-dev, libexpat1-dev, and libexpat1
+* 22:02 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: linux-libc-dev and libexpat1
+* 22:02 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: linux-libc-dev and libexpat1
+* 22:01 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: linux-libc-dev and libexpat1
+* 22:01 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: linux-libc-dev, apache2, apache2-bin, apache2-data, apache2-utils, and libexpat1
+* 22:01 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: linux-libc-dev and libexpat1
+* 22:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: linux-libc-dev, apache2, apache2-bin, apache2-data, apache2-utils, libexpat1-dev, and libexpat1
+* 22:00 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: linux-libc-dev and libexpat1
+* 21:59 MirahezeLSBot: [void@puppet181] Upgraded packages on speedscope211: linux-libc-dev and libexpat1
+* 21:59 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: linux-libc-dev, apache2, apache2-bin, apache2-data, apache2-utils, libexpat1-dev, and libexpat1
+* 21:59 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: linux-libc-dev and libexpat1
+* 21:58 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: linux-libc-dev and libexpat1
+* 21:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: linux-libc-dev, libexpat1-dev, and libexpat1
+* 21:58 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: linux-libc-dev, apache2, apache2-bin, apache2-data, apache2-utils, libexpat1-dev, and libexpat1
+* 21:57 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: linux-libc-dev and libexpat1
+* 21:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: linux-libc-dev, libexpat1-dev, and libexpat1
+* 21:57 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: linux-libc-dev, apache2, apache2-bin, apache2-data, apache2-utils, libexpat1-dev, and libexpat1
+* 21:56 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: linux-libc-dev, libexpat1-dev, and libexpat1
+* 21:56 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: linux-libc-dev, libexpat1-dev, and libexpat1
+* 21:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: linux-libc-dev, libexpat1-dev, and libexpat1
+* 21:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: linux-libc-dev, libexpat1-dev, and libexpat1
+* 21:55 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: linux-libc-dev, libexpat1-dev, and libexpat1
+* 21:54 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: linux-libc-dev, libexpat1-dev, and libexpat1
+* 21:54 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: linux-libc-dev, libexpat1-dev, and libexpat1
+* 21:53 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: linux-libc-dev, libexpat1-dev, and libexpat1
+* 21:53 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: linux-libc-dev, libexpat1-dev, and libexpat1
+* 21:53 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: linux-libc-dev, libexpat1-dev, and libexpat1
+* 21:52 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: linux-libc-dev, libexpat1-dev, and libexpat1
+* 21:52 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: linux-libc-dev and libexpat1
+* 21:52 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: linux-libc-dev, libexpat1-dev, and libexpat1
+* 21:51 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: linux-libc-dev, libexpat1-dev, and libexpat1
+* 21:51 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: linux-libc-dev, libexpat1-dev, and libexpat1
+* 21:51 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: linux-libc-dev, libexpat1-dev, and libexpat1
+* 21:50 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: linux-libc-dev, libexpat1, apache2-bin, and apache2-utils
+* 21:50 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: linux-libc-dev and libexpat1
+* 21:50 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: linux-libc-dev, libexpat1-dev, and libexpat1
+* 21:49 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: linux-libc-dev, libexpat1-dev, and libexpat1
+* 21:49 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: linux-libc-dev and libexpat1
+* 21:49 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: linux-libc-dev and libexpat1
+* 21:48 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: linux-libc-dev and libexpat1
+* 21:48 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: linux-libc-dev and libexpat1
+* 21:48 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: linux-libc-dev and libexpat1
+* 21:47 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: linux-libc-dev and libexpat1
+* 21:47 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo211: linux-libc-dev and libexpat1
+* 21:47 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: linux-libc-dev and libexpat1
+* 21:47 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: linux-libc-dev, libexpat1, cifs-utils, libcpupower1, and linux-cpupower
+* 21:46 MirahezeLSBot: [void@puppet181] Upgraded packages on db201: linux-libc-dev and libexpat1
+* 21:46 MirahezeLSBot: [void@puppet181] Upgraded packages on db192: linux-libc-dev and libexpat1
+* 21:46 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: linux-libc-dev and libexpat1
+* 21:45 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: linux-libc-dev and libexpat1
+* 21:45 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: linux-libc-dev and libexpat1
+* 21:44 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: linux-libc-dev and libexpat1
+* 21:44 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: linux-libc-dev and libexpat1
+* 21:44 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: linux-libc-dev and libexpat1
+* 21:44 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: linux-libc-dev, libexpat1, cifs-utils, libcpupower1, and linux-cpupower
+* 21:43 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: linux-libc-dev, libexpat1, cifs-utils, libcpupower1, and linux-cpupower
+* 21:43 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: linux-libc-dev and libexpat1
+* 21:43 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: linux-libc-dev, libexpat1, cifs-utils, libcpupower1, and linux-cpupower
+* 21:42 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: linux-libc-dev, libexpat1-dev, and libexpat1
+* 21:42 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: linux-libc-dev and libexpat1
+* 21:42 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: linux-libc-dev and libexpat1
+* 21:41 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: linux-libc-dev and libexpat1
+* 21:41 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: linux-libc-dev and libexpat1
+* 21:41 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: linux-libc-dev and libexpat1
+* 21:40 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: linux-libc-dev and libexpat1
+* 21:40 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: linux-libc-dev, libexpat1, cifs-utils, libcpupower1, and linux-cpupower
+* 21:40 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: linux-libc-dev, libexpat1, cifs-utils, libcpupower1, and linux-cpupower
+* 21:39 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: linux-libc-dev and libexpat1
+* 21:39 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: linux-libc-dev, libexpat1, cifs-utils, libcpupower1, and linux-cpupower
+* 16:10 @paladox: migrated reports db to db193
+* 13:06 @paladox: copying icinga db to db193
+* 08:19 MirahezeLSBot: [petramagna@test151] finished deploy of {'l10n': True, 'folders': '1.46/extensions/MirahezeMagic', 'versions': 'all', 'debug': True} to test151 - SUCCESS in 32s
+* 08:18 MirahezeLSBot: [petramagna@test151] Starting deploy of {'l10n': True, 'folders': '1.46/extensions/MirahezeMagic', 'versions': 'all', 'debug': True} to test151
+
 ## 2026-10-16 
 
 * 23:18 MirahezeLSBot: [petramagna@test151] finished deploy of {'l10n': True, 'folders': '1.46/extensions/MirahezeMagic', 'versions': '1.46', 'debug': True} to test151 - SUCCESS in 16s
