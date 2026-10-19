@@ -2,6 +2,37 @@
 title: Tech:Server admin log
 ---
 
+## 2026-10-18 
+
+* 22:26 MirahezeLSBot: [universalomega@puppet181] Upgraded openvox-agent package to v9 on all servers
+* 22:02 MirahezeLSBot: [universalomega@puppet181] Upgraded openvox packages to v9
+* 20:38 MirahezeLSBot: [jenny@mwtask181] Finished import for fliplinestudioswiki (XML: None; Images: images) (END - exit=-2)
+* 20:38 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (END - exit=-2)
+* 20:17 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (START)
+* 20:17 MirahezeLSBot: [jenny@mwtask181] Starting import for fliplinestudioswiki (XML: None; Images: images) (START)
+* 20:16 MirahezeLSBot: [jenny@mwtask181] Finished import for fliplinestudioswiki (XML: None; Images: images) (END - exit=-2)
+* 20:16 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (END - exit=-2)
+* 20:16 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (START)
+* 20:16 MirahezeLSBot: [jenny@mwtask181] Starting import for fliplinestudioswiki (XML: None; Images: images) (START)
+* 19:51 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True, 'debug': True} to test151 - SUCCESS in 0s (T16341)
+* 19:51 MirahezeLSBot: [petramagna@test151] Starting deploy of {'config': True, 'debug': True} to test151 (T16341)
+* 19:44 MirahezeLSBot: [jenny@mwtask171] drop database hwrwiki; on c2
+* 19:40 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CreateWiki:DeleteWiki --wiki=loginwiki --delete --deletewiki hwrwiki (END - exit=0)
+* 15:21 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (START)
+* 15:21 MirahezeLSBot: [jenny@mwtask181] Starting import for fliplinestudioswiki (XML: None; Images: images) (START)
+* 15:21 MirahezeLSBot: [jenny@mwtask181] Finished import for fliplinestudioswiki (XML: None; Images: images) (END - exit=-2)
+* 15:21 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (END - exit=-2)
+* 15:21 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (START)
+* 15:21 MirahezeLSBot: [jenny@mwtask181] Starting import for fliplinestudioswiki (XML: None; Images: images) (START)
+* 08:51 RhinosF1: clear impi sel on cloud16, no new errros for 3 weeks
+* 08:47 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'force': True} to all - SUCCESS in 21s
+* 08:47 RhinosF1: repool c2
+* 08:47 MirahezeLSBot: [rhinos@mwtask181] Starting deploy of {'pull': 'config', 'config': True, 'force': True} to all
+* 08:42 RhinosF1: depooled c2 && sudo qm reset 128 (db161) on cloud16
+* 08:40 RhinosF1: depool c2
+* 08:40 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'force': True} to all - SUCCESS in 21s
+* 08:39 MirahezeLSBot: [rhinos@mwtask181] Starting deploy of {'pull': 'config', 'config': True, 'force': True} to all
+
 ## 2026-10-17 
 
 * 22:13 MirahezeLSBot: [void@mwtask181] restart mediawiki_job_generate-sitemap-index.service

@@ -81,5 +81,9 @@ Thank you,
 
 [Universal Omega (Miraheze)](https://meta.miraheze.org/wiki/User:Universal_Omega_(Miraheze)) ([talk](https://meta.miraheze.org/wiki/User_talk:Universal_Omega_(Miraheze))) 20:09, 12 September 2026 (UTC)
 
+## New Request for feedback on changes to default MediaWiki settings 
+
+A discussion is on-going about several proposed changes to Miraheze's default MediaWiki settings at [Tech:Noticeboard/Request for feedback: changes to default MediaWiki settings (2)](/tech-docs/technoticeboard-request_for_feedback_changes_to_default_mediawiki_settings_(2)). Please cast your vote or express your thoughts about these changes. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 02:04, 18 October 2026 (UTC)
+
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Noticeboard)**
