@@ -2,6 +2,72 @@
 title: Tech:Server admin log
 ---
 
+## 2026-10-19 
+
+* 23:11 MirahezeLSBot: [jenny@mwtask181] Finished import for fliplinestudioswiki (XML: None; Images: images) (END - exit=-2)
+* 23:11 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (END - exit=-2)
+* 22:34 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp171: haproxy
+* 22:34 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp201: haproxy
+* 22:33 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp191: haproxy
+* 22:33 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on changeprop202: haproxy
+* 22:32 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud18: cifs-utils
+* 22:32 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud17: cifs-utils
+* 22:31 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud19: cifs-utils
+* 22:31 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud20: cifs-utils
+* 22:31 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud15: cifs-utils
+* 22:31 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud16: cifs-utils
+* 22:30 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud21: cifs-utils
+* 22:25 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (START)
+* 22:25 MirahezeLSBot: [jenny@mwtask181] Starting import for fliplinestudioswiki (XML: None; Images: images) (START)
+* 22:22 MirahezeLSBot: [jenny@mwtask181] Finished import for fliplinestudioswiki (XML: None; Images: images) (END - exit=-2)
+* 22:22 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (END - exit=-2)
+* 22:18 MirahezeLSBot: [jenny@mwtask171] Wiki reset jiggery-pokery for hwrwiki, also with sudo MediaWiki\MediaWikiServices::getInstance()->getRevisionStore()->getSlotRowsForBatch( [ 1 ] );
+* 22:17 MirahezeLSBot: [jenny@mwtask171] fixconts --wiki hwrwiki
+* 20:40 Universal Omega: fixed networking issues on db193 and matomo211 by changing /24 to /8 in /etc/network/interfaces
+* 17:33 RhinosF1: bounce slapd on ldap*
+* 17:30 RhinosF1: bounce nginx on swiftproxy and mattermost
+* 17:09 MirahezeLSBot: [jenny@mwtask171] Finished import for harrypotterzhwiki (XML: None; Images: images) (END - exit=-2)
+* 17:09 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=harrypotterzhwiki --sleep=1 '--comment=Importing images from [https://harrypotter.fandom.com/zh](https://harrypotter.fandom.com/zh) ([T16314](https://meta.miraheze.org/wiki/phorge:T16314))' -- images (END - exit=-2)
+* 17:08 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=harrypotterzhwiki --sleep=1 '--comment=Importing images from [https://harrypotter.fandom.com/zh](https://harrypotter.fandom.com/zh) ([T16314](https://meta.miraheze.org/wiki/phorge:T16314))' -- images (START)
+* 17:08 MirahezeLSBot: [jenny@mwtask171] Starting import for harrypotterzhwiki (XML: None; Images: images) (START)
+* 17:06 MirahezeLSBot: [jenny@mwtask171] Finished import for harrypotterzhwiki (XML: None; Images: images) (END - exit=-2)
+* 17:06 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=harrypotterzhwiki --sleep=1 '--comment=Importing images from [https://harrypotter.fandom.com/zh](https://harrypotter.fandom.com/zh) ([T16314](https://meta.miraheze.org/wiki/phorge:T16314))' -- images (END - exit=-2)
+* 17:06 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=harrypotterzhwiki --sleep=1 '--comment=Importing images from [https://harrypotter.fandom.com/zh](https://harrypotter.fandom.com/zh) ([T16314](https://meta.miraheze.org/wiki/phorge:T16314))' -- images (START)
+* 17:06 MirahezeLSBot: [jenny@mwtask171] Starting import for harrypotterzhwiki (XML: None; Images: images) (START)
+* 17:05 MirahezeLSBot: [jenny@mwtask171] Finished import for harrypotterzhwiki (XML: None; Images: images) (END - exit=-2)
+* 17:05 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=harrypotterzhwiki --sleep=1 '--comment=Importing images from [https://harrypotter.fandom.com/zh](https://harrypotter.fandom.com/zh) ([T16314](https://meta.miraheze.org/wiki/phorge:T16314))' -- images (END - exit=-2)
+* 17:05 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=harrypotterzhwiki --sleep=1 '--comment=Importing images from [https://harrypotter.fandom.com/zh](https://harrypotter.fandom.com/zh) ([T16314](https://meta.miraheze.org/wiki/phorge:T16314))' -- images (START)
+* 17:05 MirahezeLSBot: [jenny@mwtask171] Starting import for harrypotterzhwiki (XML: None; Images: images) (START)
+* 17:04 MirahezeLSBot: [jenny@mwtask171] Finished import for harrypotterzhwiki (XML: None; Images: images/) (END - exit=-2)
+* 17:04 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=harrypotterzhwiki --sleep=1 '--comment=Importing images from [https://harrypotter.fandom.com/zh](https://harrypotter.fandom.com/zh) ([T16314](https://meta.miraheze.org/wiki/phorge:T16314))' -- images/ (END - exit=-2)
+* 17:04 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=harrypotterzhwiki --sleep=1 '--comment=Importing images from [https://harrypotter.fandom.com/zh](https://harrypotter.fandom.com/zh) ([T16314](https://meta.miraheze.org/wiki/phorge:T16314))' -- images/ (START)
+* 17:04 MirahezeLSBot: [jenny@mwtask171] Starting import for harrypotterzhwiki (XML: None; Images: images/) (START)
+* 16:50 MirahezeLSBot: [jenny@mwtask171] Finished import for harrypotterzhwiki (XML: t.xml; Images: None) (END - exit=0)
+* 16:50 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=harrypotterzhwiki --update (END - exit=0)
+* 16:50 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=harrypotterzhwiki --update (START)
+* 16:50 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initEditCount --wiki=harrypotterzhwiki (END - exit=0)
+* 16:50 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initEditCount --wiki=harrypotterzhwiki (START)
+* 16:50 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php rebuildall --wiki=harrypotterzhwiki (END - exit=0)
+* 16:34 @paladox: installed nethogs on mon181 and puppet181
+* 15:10 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php rebuildall --wiki=harrypotterzhwiki (START)
+* 15:10 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importDump --wiki=harrypotterzhwiki --no-updates --username-prefix=wikia:harrypotter:zh -- t.xml (END - exit=0)
+* 14:42 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importDump --wiki=harrypotterzhwiki --no-updates --username-prefix=wikia:harrypotter:zh -- t.xml (START)
+* 14:42 MirahezeLSBot: [jenny@mwtask171] Starting import for harrypotterzhwiki (XML: t.xml; Images: None) (START)
+* 14:34 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=aunsroomwiki (END - exit=0)
+* 14:15 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (START)
+* 14:15 MirahezeLSBot: [jenny@mwtask181] Starting import for fliplinestudioswiki (XML: None; Images: images) (START)
+* 14:09 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=aunsroomwiki --startOver (END - exit=0)
+* 14:09 MirahezeLSBot: [jenny@mwtask171] curl -X DELETE [https://opensearch-mw.wikitide.net/aunsroomwiki_content](https://opensearch-mw.wikitide.net/aunsroomwiki_content) [https://opensearch-mw.wikitide.net/aunsroomwiki_general](https://opensearch-mw.wikitide.net/aunsroomwiki_general)
+* 10:56 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=kamikoiwiki (END - exit=0) (T16345)
+* 10:55 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=kamikoiwiki --startOver (END - exit=0) (T16345)
+* 10:55 MirahezeLSBot: [jenny@mwtask171] curl -X DELETE [https://opensearch-mw.wikitide.net/kamikoiwiki_content](https://opensearch-mw.wikitide.net/kamikoiwiki_content) [https://opensearch-mw.wikitide.net/kamikoiwiki_general](https://opensearch-mw.wikitide.net/kamikoiwiki_general)
+* 06:51 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 06:51 MirahezeLSBot: [universalomega@test151] Starting deploy of {'pull': 'config', 'config': True} to test151
+* 06:46 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 06:46 MirahezeLSBot: [universalomega@test151] Starting deploy of {'pull': 'config', 'config': True} to test151
+* 06:34 MirahezeLSBot: [universalomega@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=exttestwikibeta --json=/srv/mediawiki/1.47.json --change-version (END - exit=0; time=1s)
+* 06:34 MirahezeLSBot: [universalomega@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=exttestwikibeta --json=/srv/mediawiki/1.47.json --change-version (START)
+
 ## 2026-10-18 
 
 * 22:26 MirahezeLSBot: [universalomega@puppet181] Upgraded openvox-agent package to v9 on all servers

@@ -54,6 +54,7 @@ Please discuss below. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagn
  `{{ {{support|strongest}} }}` [Jenny on Wiki](https://meta.miraheze.org/wiki/User:Jenny_on_Wiki) ([talk](https://meta.miraheze.org/wiki/User_talk:Jenny_on_Wiki)) 14:16, 16 October 2026 (UTC)
  `{{ {{support}} }}` per proposal. - [JaneBuzJane](https://meta.miraheze.org/wiki/User:JaneBuzJane) ([talk](https://meta.miraheze.org/wiki/User_talk:JaneBuzJane)) 13:49, 18 October 2026 (UTC)
  `{{ {{Support|partial}} }}` - ‎ I hardly use edit recovery, only once. But maybe, just in case. It would be helpful. [Unfunktion](https://meta.miraheze.org/wiki/User:Unfunktion) ([talk](https://meta.miraheze.org/wiki/User_talk:Unfunktion)) 16:12, 18 October 2026 (UTC)
+ `{{ {{Support}} }}`.--[<span style="color:#00C0FF;">铁桶</span>](https://meta.miraheze.org/wiki/User:铁桶) ([Talk](https://meta.miraheze.org/wiki/User_Talk:铁桶)) 15:04, 19 October 2026 (UTC)
 
 ## Proposal 3: do not enable MobileFrontend and MinervaNeue for new wikis 
 
@@ -76,7 +77,9 @@ Not enabling MobileFrontend and MinervaNeue for new wikis. [PetraMagna](https://
  `{{ {{support}} }}` - assuming `{{ {{code|$wgVectorResponsive}} }}` is(/will be) on by default. [Rexogamer](https://meta.miraheze.org/wiki/User:Rexogamer) ([talk](https://meta.miraheze.org/wiki/User_talk:Rexogamer)) 17:24, 16 October 2026 (UTC)
       Yep. It is the default on new wikis created on Miraheze. Older wikis retain the old default (disabled) per our [previous RfF](/tech-docs/technoticeboard-request_for_feedback_changes_to_default_mediawiki_settings). [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 08:51, 17 October 2026 (UTC)
  `{{ {{support|strongest}} }}` Support per proposal. In my experience they cause more problems than they solve. - [JaneBuzJane](https://meta.miraheze.org/wiki/User:JaneBuzJane) ([talk](https://meta.miraheze.org/wiki/User_talk:JaneBuzJane)) 13:51, 18 October 2026 (UTC)
- `{{ {{Support|strong}} }}` - I feel these kinda make navigating wikis difficult, especially for navboxes. [Unfunktion](https://meta.miraheze.org/wiki/User:Unfunktion) ([talk](https://meta.miraheze.org/wiki/User_talk:Unfunktion)) 16:17, 18 October 2026 (UTC) `{{ {{Collapse top|title=Withdrawn proposal}} }}`
+ `{{ {{Support|strong}} }}` - I feel these kinda make navigating wikis difficult, especially for navboxes. [Unfunktion](https://meta.miraheze.org/wiki/User:Unfunktion) ([talk](https://meta.miraheze.org/wiki/User_talk:Unfunktion)) 16:17, 18 October 2026 (UTC)
+ `{{ {{Note}} }}` MobileFrontend is compatible with other skins (Vector, Timeless, Monobook, Citizen), so that could potentially be an option. [MacFan4000](https://meta.miraheze.org/wiki/User:MacFan4000) ([Talk](https://meta.miraheze.org/wiki/User_talk:MacFan4000) [Contribs](https://meta.miraheze.org/wiki/Special:Contributions/MacFan4000)) 16:32, 19 October 2026 (UTC) `{{ {{Collapse top|title=Withdrawn proposal}} }}`
+
 ### Discussion 3b 
 
 Implement proposal 3a, and then automatically enabling MobileFrontend and MinervaNeue when a new wiki switches to a skin that is not responsive. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 00:31, 14 October 2026 (UTC)
@@ -102,6 +105,7 @@ Please discuss below. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagn
  `{{ {{support}} }}` - ...it isn't already? [Rexogamer](https://meta.miraheze.org/wiki/User:Rexogamer) ([talk](https://meta.miraheze.org/wiki/User_talk:Rexogamer)) 17:15, 16 October 2026 (UTC)
  `{{ {{support}} }}` per proposal. - [JaneBuzJane](https://meta.miraheze.org/wiki/User:JaneBuzJane) ([talk](https://meta.miraheze.org/wiki/User_talk:JaneBuzJane)) 13:51, 18 October 2026 (UTC)
  `{{ {{Support}} }}` - I believe it can be helpful. [Unfunktion](https://meta.miraheze.org/wiki/User:Unfunktion) ([talk](https://meta.miraheze.org/wiki/User_talk:Unfunktion)) 16:21, 18 October 2026 (UTC)
+ `{{ {{Support}} }}`.--[<span style="color:#00C0FF;">铁桶</span>](https://meta.miraheze.org/wiki/User:铁桶) ([Talk](https://meta.miraheze.org/wiki/User_Talk:铁桶)) 15:04, 19 October 2026 (UTC)
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Noticeboard/Request_for_feedback:_changes_to_default_MediaWiki_settings_(2))**

@@ -17,12 +17,6 @@ title: Tech:Noticeboard
 ```
  `{{ {{Navigation Miraheze}} }}`
 
-## New request for feedback on changes to Miraheze's default MediaWiki configuration 
-
-Please go to [Tech:Noticeboard/Request for feedback: changes to default MediaWiki settings](/tech-docs/technoticeboard-request_for_feedback_changes_to_default_mediawiki_settings) to view the proposals and voice your opinions. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 00:47, 24 April 2026 (UTC)
-
-   You got it. [DarkMatterMan4500](https://meta.miraheze.org/wiki/User:DarkMatterMan4500) ([talk](https://meta.miraheze.org/wiki/User_talk:DarkMatterMan4500)) ([contribs](https://meta.miraheze.org/wiki/Special:Contributions/DarkMatterMan4500)) 17:02, 16 May 2026 (UTC)
-
 ## Maps has been globally disabled 
 
 Hello,
