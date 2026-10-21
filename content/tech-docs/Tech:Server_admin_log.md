@@ -2,6 +2,144 @@
 title: Tech:Server admin log
 ---
 
+## 2026-10-20 
+
+* 22:27 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=kardswiki --from=CpatainPenguin --to=Cpatainpenguin --import-prefix=wikia:kards (END - exit=0) (T16308)
+* 22:27 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=kardswiki --from=TigerZhang1004 --to=TigerZhang --import-prefix=wikia:kards (END - exit=0) (T16308)
+* 22:23 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=newthreekingdomswiki --from=JPokan --to=JPokan --import-prefix=rarondo9 (END - exit=0) (T16309)
+* 22:22 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=newthreekingdomswiki --from=Pengshuaiming --to=danielsb --import-prefix=mh:new-three-kingdoms (END - exit=0) (T16309)
+* 22:22 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=newthreekingdomswiki --from=pinggai2024 --to=pinggai2024 --import-prefix=mh:new-three-kingdoms (END - exit=1) (T16309)
+* 22:22 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=newthreekingdomswiki --from=AiCocoa '--to=所罗萌' --import-prefix=mh:new-three-kingdoms (END - exit=0) (T16309)
+* 22:22 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=newthreekingdomswiki --from=JPokan --to=JPokan --import-prefix=mh:new-three-kingdoms (END - exit=1) (T16309)
+* 22:18 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=newthreekingdomswiki --from=TigerZhang1004 --to=TigerZhang --import-prefix=mh:new-three-kingdoms (END - exit=0) (T16309)
+* 22:18 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:ReassignImportedEdits --wiki=newthreekingdomswiki --from=TigerZhang1004 --to=TigerZhang --import-prefix=mh:new-three-kingdoms (END - exit=1) (T16309)
+* 21:58 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: ca-certificates
+* 21:57 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: ca-certificates
+* 21:57 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: ca-certificates
+* 21:56 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: ca-certificates
+* 21:56 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: ca-certificates
+* 21:56 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: ca-certificates
+* 21:55 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: ca-certificates
+* 21:55 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: ca-certificates
+* 21:54 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: ca-certificates
+* 21:54 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: ca-certificates
+* 21:54 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb191: ca-certificates
+* 21:53 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: ca-certificates
+* 21:53 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: ca-certificates
+* 21:52 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: ca-certificates
+* 21:52 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: ca-certificates
+* 21:51 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: ca-certificates
+* 21:51 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: ca-certificates
+* 21:51 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: ca-certificates
+* 21:50 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: ca-certificates
+* 21:50 MirahezeLSBot: [void@puppet181] Upgraded packages on speedscope211: ca-certificates
+* 21:49 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: ca-certificates
+* 21:49 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: ca-certificates
+* 21:48 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: ca-certificates
+* 21:48 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: ca-certificates
+* 21:48 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: ca-certificates
+* 21:47 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: ca-certificates
+* 21:47 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: ca-certificates
+* 21:46 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: ca-certificates
+* 21:46 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: ca-certificates
+* 21:46 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: ca-certificates
+* 21:45 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: ca-certificates
+* 21:45 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: ca-certificates
+* 21:44 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: ca-certificates
+* 21:44 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: ca-certificates
+* 21:43 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: ca-certificates
+* 21:43 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: ca-certificates
+* 21:42 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: ca-certificates
+* 21:42 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: ca-certificates
+* 21:41 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: ca-certificates
+* 21:41 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: ca-certificates
+* 21:41 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: ca-certificates
+* 21:40 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: ca-certificates
+* 21:40 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: ca-certificates
+* 21:39 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: ca-certificates
+* 21:39 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: ca-certificates
+* 21:38 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: ca-certificates
+* 21:38 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: ca-certificates
+* 21:38 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: ca-certificates
+* 21:37 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: ca-certificates
+* 21:37 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: ca-certificates
+* 21:36 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: ca-certificates
+* 21:36 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: ca-certificates
+* 21:36 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: ca-certificates
+* 21:35 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: ca-certificates
+* 21:35 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: ca-certificates
+* 21:34 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: ca-certificates
+* 21:34 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo211: ca-certificates
+* 21:34 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: ca-certificates
+* 21:33 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: ca-certificates
+* 21:33 MirahezeLSBot: [void@puppet181] Upgraded packages on db192: ca-certificates
+* 21:32 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: ca-certificates
+* 21:32 MirahezeLSBot: [void@puppet181] Upgraded packages on db201: ca-certificates
+* 21:32 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: ca-certificates
+* 21:31 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: ca-certificates
+* 21:31 MirahezeLSBot: [void@puppet181] Upgraded packages on db193: ca-certificates
+* 21:30 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: ca-certificates
+* 21:30 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: ca-certificates
+* 21:30 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: ca-certificates
+* 21:29 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: ca-certificates
+* 21:29 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: ca-certificates
+* 21:28 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: ca-certificates
+* 21:28 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: ca-certificates
+* 21:28 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: ca-certificates
+* 21:27 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: ca-certificates
+* 21:27 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: ca-certificates
+* 21:27 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: ca-certificates
+* 21:26 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: ca-certificates
+* 21:26 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: ca-certificates
+* 21:25 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: ca-certificates
+* 21:25 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: ca-certificates
+* 21:25 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: ca-certificates
+* 21:24 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: ca-certificates
+* 21:24 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: ca-certificates
+* 21:24 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: ca-certificates
+* 18:25 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CreateWiki:SetContainersAccess --wiki=anotherlogisticsagencywiki (END - exit=0) (T16255)
+* 18:24 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=antherlogisticsagencywiki --new=anotherlogisticsagencywiki --user=MacFan4000 (END - exit=0) (T16255)
+* 18:10 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CreateWiki:SetContainersAccess --wiki=supernovawiki (END - exit=0) (T16307)
+* 17:47 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=nexuswiki --new=supernovawiki --user=MacFan4000 (END - exit=0) (T16307)
+* 17:25 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CreateWiki:SetContainersAccess --wiki=cultivationworldwiki (END - exit=0) (T16278)
+* 17:23 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=infinitecultivationworldwiki --new=cultivationworldwiki --user=MacFan4000 (END - exit=0) (T16278)
+* 17:16 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CreateWiki:SetContainersAccess --wiki=karman14wiki (END - exit=0) (T16300)
+* 17:15 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=klovnstation14wiki --new=karman14wiki --user=MacFan4000 (END - exit=0) (T16300)
+* 17:00 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CreateWiki:SetContainersAccess --wiki=doorshardcorereignitedwiki (END - exit=0) (T16329)
+* 16:58 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=doorshardcorereignitedofficialwiki --new=doorshardcorereignitedwiki --user=MacFan4000 (END - exit=0) (T16329)
+* 16:54 MirahezeLSBot: [jenny@mwtask181] Finished import for harrypotterzhwiki (XML: None; Images: images) (END - exit=-2)
+* 16:54 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=harrypotterzhwiki --sleep=1 '--comment=Importing images from [https://harrypotter.fandom.com/zh](https://harrypotter.fandom.com/zh) ([T16314](https://meta.miraheze.org/wiki/phorge:T16314))' --search-recursively -- images (END - exit=-2)
+* 16:54 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=harrypotterzhwiki --sleep=1 '--comment=Importing images from [https://harrypotter.fandom.com/zh](https://harrypotter.fandom.com/zh) ([T16314](https://meta.miraheze.org/wiki/phorge:T16314))' --search-recursively -- images (START)
+* 16:54 MirahezeLSBot: [jenny@mwtask181] Starting import for harrypotterzhwiki (XML: None; Images: images) (START)
+* 16:54 MirahezeLSBot: [jenny@mwtask181] Finished import for harrypotterzhwiki (XML: None; Images: images) (END - exit=-2)
+* 16:54 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=harrypotterzhwiki --sleep=1 '--comment=Importing images from [https://harrypotter.fandom.com/zh](https://harrypotter.fandom.com/zh) ([T16314](https://meta.miraheze.org/wiki/phorge:T16314))' -- images (END - exit=-2)
+* 16:54 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=harrypotterzhwiki --sleep=1 '--comment=Importing images from [https://harrypotter.fandom.com/zh](https://harrypotter.fandom.com/zh) ([T16314](https://meta.miraheze.org/wiki/phorge:T16314))' -- images (START)
+* 16:54 MirahezeLSBot: [jenny@mwtask181] Starting import for harrypotterzhwiki (XML: None; Images: images) (START)
+* 16:52 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CreateWiki:SetContainersAccess --wiki=creaturecombat2wiki (END - exit=0) (T16330)
+* 16:49 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=robloxmaulwiki --new=creaturecombat2wiki --user=MacFan4000 (END - exit=0) (T16330)
+* 16:44 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CreateWiki:SetContainersAccess --wiki=hydralexwiki (END - exit=0) (T16334)
+* 16:43 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=skyebrowswiki --new=hydralexwiki --user=MacFan4000 (END - exit=0) (T16334)
+* 16:39 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php updateSpecialPages --wiki=fliplinestudioswiki (END - exit=0)
+* 16:34 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CreateWiki:SetContainersAccess --wiki=goodrngdlewiki (END - exit=0) (T16343)
+* 16:31 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=goodrngidlewiki --new=goodrngdlewiki --user=MacFan4000 (END - exit=0) (T16343)
+* 16:22 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CreateWiki:SetContainersAccess --wiki=aacontainmentwiki (END - exit=0) (T16346)
+* 16:20 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=anomalyalldatasavewiki --new=aacontainmentwiki --user=MacFan4000 (END - exit=0) (T16346)
+* 16:05 MirahezeLSBot: [jenny@mwtask181] Finished import for fliplinestudioswiki (XML: None; Images: images) (END - exit=0)
+* 16:05 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=fliplinestudioswiki --update (END - exit=0)
+* 16:05 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=fliplinestudioswiki --update (START)
+* 16:05 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (END - exit=0)
+* 16:01 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CreateWiki:SetContainersAccess --wiki=logicwiki (END - exit=0) (T16349)
+* 16:00 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=logicswiki --new=logicwiki --user=MacFan4000 (END - exit=0) (T16349)
+* 12:21 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=pjmfanonwiki (END - exit=0)
+* 12:11 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=pjmfanonwiki --startOver (END - exit=0)
+* 12:11 MirahezeLSBot: [jenny@mwtask171] curl -X DELETE [https://opensearch-mw.wikitide.net/pjmfanonwiki_content](https://opensearch-mw.wikitide.net/pjmfanonwiki_content) [https://opensearch-mw.wikitide.net/pjmfanonwiki_general](https://opensearch-mw.wikitide.net/pjmfanonwiki_general)
+* 12:02 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fliplinestudioswiki --sleep=1 '--comment=Importing images from [https://fliplinestudios.fandom.com](https://fliplinestudios.fandom.com) ([T16254](https://meta.miraheze.org/wiki/phorge:T16254))' -- images (START)
+* 12:02 MirahezeLSBot: [jenny@mwtask181] Starting import for fliplinestudioswiki (XML: None; Images: images) (START)
+* 00:31 Universal Omega: upgraded os151 to OpenSearch 3
+* 00:29 Universal Omega: upgraded os201 to OpenSearch 3
+* 00:25 Universal Omega: upgraded os191 to OpenSearch 3
+* 00:08 Universal Omega: upgraded os161 to OpenSearch 3
+
 ## 2026-10-19 
 
 * 23:11 MirahezeLSBot: [jenny@mwtask181] Finished import for fliplinestudioswiki (XML: None; Images: images) (END - exit=-2)
