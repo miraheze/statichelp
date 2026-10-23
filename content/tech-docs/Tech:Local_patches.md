@@ -15,12 +15,13 @@ Local patches should be avoided whenever possible in favor of submitting them up
 * Create a patch file. An example workflow is shown below, though other methods exist as well.
    * Make sure the last commit in your local repo is what you want to deploy
    * Run `git format-patch HEAD^ --stdout > <Patch name>.patch`
-* Upload the patch file to your home directory on test151 for testing or the current canary server of mwdeploy (e.g. mwtask181) for global deployment.
+* Upload the patch file to your home directory on test151 for testing.
 * Go to the staging folder of the extension/skin.
 * Run `sugit am ~/PatchName.patch`
 * If the previous step gave you an error like "Committer identity unknown", run `sugit config --local user.name "www-data"` and try the previous step again
 * Deploy it using mwdeploy (e.g. `mwdeploy --servers=all --folders=1.45/extensions/ExtensionName`). Security patches should use the `--no-log` option to avoid publicly disclosing the existence of a patch.
-* Add the patch to [T14242](https://meta.miraheze.org/wiki/Phorge:T14242), a tracking task for local patches. This is not necessary for patches applied only to Mirabeta.
+* Once the patch is confirmed to be working on test151, add the patch to [https://github.com/miraheze/mediawiki-repos](https://github.com/miraheze/mediawiki-repos). Security patches should go into the private patch repository. Once added, puppet will automatically sync the patch on both test151 and mwtask181.
+* Once the patch is on mwtask181, run the usual mwdeploy upgrade extension workflow.
 
 ## Removing a local patch
 

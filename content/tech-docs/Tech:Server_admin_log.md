@@ -2,6 +2,35 @@
 title: Tech:Server admin log
 ---
 
+## 2026-10-22 
+
+* 20:03 MirahezeLSBot: [universalomega@cp171] sudo rm /var/log/haproxy.log (T16375)
+* 20:02 MirahezeLSBot: [universalomega@cp191] sudo rm /var/log/haproxy.log (T16376)
+* 18:44 Universal Omega: upgraded matomo to 5.14.2 on matomo151 and matomo211
+* 18:32 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'upgrade_world': True, 'versions': 'all', 'batch': True, 'debug': True} to ['mw191', 'mw192', 'mw193', 'mw201', 'mw202', 'mw203'] - SUCCESS in 114s
+* 18:31 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'upgrade_world': True, 'versions': 'all', 'batch': True, 'debug': True} to ['mw191', 'mw192', 'mw193', 'mw201', 'mw202', 'mw203']
+* 18:30 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'upgrade_world': True, 'versions': 'all', 'batch': True, 'debug': True} to ['mw171', 'mw172', 'mw173', 'mw181', 'mw182', 'mw183'] - SUCCESS in 101s
+* 18:28 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'upgrade_world': True, 'versions': 'all', 'batch': True, 'debug': True} to ['mw171', 'mw172', 'mw173', 'mw181', 'mw182', 'mw183']
+* 18:28 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'upgrade_world': True, 'versions': 'all', 'batch': True, 'debug': True} to ['mw151', 'mw152', 'mw153', 'mw161', 'mw162', 'mw163'] - SUCCESS in 96s
+* 18:26 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'upgrade_world': True, 'versions': 'all', 'batch': True, 'debug': True} to ['mw151', 'mw152', 'mw153', 'mw161', 'mw162', 'mw163']
+* 18:25 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'upgrade_world': True, 'versions': 'all', 'batch': True, 'debug': True} to ['mwtask151', 'mwtask161', 'mwtask171'] - SUCCESS in 56s
+* 18:24 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'upgrade_world': True, 'versions': 'all', 'batch': True, 'debug': True} to ['mwtask151', 'mwtask161', 'mwtask171']
+* 18:24 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'upgrade_world': True, 'force': True, 'versions': 'all', 'batch': True, 'debug': True} to mwtask181 - SUCCESS in 147s
+* 18:21 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'upgrade_world': True, 'force': True, 'versions': 'all', 'batch': True, 'debug': True} to mwtask181
+* 18:19 MirahezeLSBot: [universalomega@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 18:17 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'upgrade_world': True, 'versions': 'all', 'batch': True, 'debug': True} to mwtask181
+* 18:07 MirahezeLSBot: [universalomega@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 18:06 MirahezeLSBot: [universalomega@test151] Starting deploy of {'upgrade_world': True, 'versions': '1.46', 'batch': True, 'debug': True} to test151
+* 18:04 MirahezeLSBot: [universalomega@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 18:03 MirahezeLSBot: [universalomega@test151] Starting deploy of {'upgrade_world': True, 'versions': '1.46', 'batch': True, 'debug': True} to test151
+* 17:56 MirahezeLSBot: [universalomega@test151] Starting deploy of {'upgrade_world': True, 'versions': '1.46', 'batch': True, 'debug': True} to test151
+* 17:54 MirahezeLSBot: [universalomega@test151] Starting deploy of {'upgrade_world': True, 'versions': '1.46', 'batch': True, 'debug': True} to test151
+* 15:43 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=newthreekingdomswiki --from=Pinggai2024 --to=Pinggai2024 --import-prefix=mh:new-three-kingdoms (END - exit=0) (T16309)
+* 15:43 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=newthreekingdomswiki --from=Pinggai2024 --to=Pinggai2024 --import-prefix=mh:new-three-kingdoms (END - exit=130)
+* 15:28 MirahezeLSBot: [jenny@mwtask171] > MediaWiki\Extension\CentralAuth\User\CentralAuthUser::getInstance( User::newFromName( 'ScarlexSapphire' ) )->attach( 'forrehabilitationwiki', 'admin' );
+* 15:06 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php namespaceDupes --wiki=dynamixwiki (END - exit=0) (T15787)
+* 02:13 MirahezeLSBot: [universalomega@phorge171] Upgrade phorge and arcanist
+
 ## 2026-10-21 
 
 * 21:34 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: bind9-dnsutils, bind9-host, and bind9-libs
