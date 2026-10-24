@@ -2,6 +2,137 @@
 title: Tech:Server admin log
 ---
 
+## 2026-10-23 
+
+* 22:04 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud16: libbrotli1
+* 22:01 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy171: libbrotli1
+* 22:01 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject201: libbrotli1
+* 22:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on test151: libbrotli-dev, libbrotli1, and python3-brotli
+* 22:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject181: libbrotli1
+* 22:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy161: libbrotli1
+* 21:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject191: libbrotli1
+* 21:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject171: libbrotli1
+* 21:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject161: libbrotli1
+* 21:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject211: libbrotli1
+* 21:58 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftac171: libbrotli1
+* 21:58 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject151: libbrotli1
+* 21:58 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on rdb191: libbrotli1
+* 21:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on reports171: libbrotli1
+* 21:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os202: libbrotli1
+* 21:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os201: libbrotli1
+* 21:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on speedscope211: libbrotli1
+* 21:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os162: libbrotli1
+* 21:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on prometheus151: libbrotli1
+* 21:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on phorge171: libbrotli1
+* 21:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os191: libbrotli1
+* 21:55 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os161: libbrotli1
+* 21:55 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os151: libbrotli1
+* 21:55 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ns1: libbrotli1
+* 21:55 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask181: libbrotli-dev, libbrotli1, and python3-brotli
+* 21:54 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask171: libbrotli-dev, libbrotli1, and python3-brotli
+* 21:54 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ns2: libbrotli1
+* 21:54 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw203: libbrotli-dev, libbrotli1, and python3-brotli
+* 21:53 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask151: libbrotli-dev, libbrotli1, and python3-brotli
+* 21:53 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw201: libbrotli-dev, libbrotli1, and python3-brotli
+* 21:53 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw193: libbrotli-dev, libbrotli1, and python3-brotli
+* 21:53 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask161: libbrotli-dev, libbrotli1, and python3-brotli
+* 21:52 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw202: libbrotli-dev, libbrotli1, and python3-brotli
+* 21:52 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw192: libbrotli-dev, libbrotli1, and python3-brotli
+* 21:52 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw183: libbrotli-dev, libbrotli1, and python3-brotli
+* 21:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw191: libbrotli-dev, libbrotli1, and python3-brotli
+* 21:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw182: libbrotli-dev, libbrotli1, and python3-brotli
+* 21:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw181: libbrotli-dev, libbrotli1, and python3-brotli
+* 21:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw171: libbrotli-dev, libbrotli1, and python3-brotli
+* 21:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem191: libbrotli1
+* 21:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw163: libbrotli-dev, libbrotli1, and python3-brotli
+* 21:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw173: libbrotli-dev, libbrotli1, and python3-brotli
+* 21:49 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw172: libbrotli-dev, libbrotli1, and python3-brotli
+* 21:49 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw162: libbrotli-dev, libbrotli1, and python3-brotli
+* 21:49 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw161: libbrotli-dev, libbrotli1, and python3-brotli
+* 21:49 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem201: libbrotli1
+* 21:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw153: libbrotli-dev, libbrotli1, and python3-brotli
+* 21:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw152: libbrotli-dev, libbrotli1, and python3-brotli
+* 21:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw151: libbrotli-dev, libbrotli1, and python3-brotli
+* 21:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on graylog161: libbrotli1
+* 21:47 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mon181: libbrotli1
+* 21:47 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem161: libbrotli1
+* 21:47 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem151: libbrotli1
+* 21:47 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on llm191: libbrotli1
+* 21:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ldap171: libbrotli1
+* 21:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on matomo151: libbrotli1
+* 21:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on matomo211: libbrotli1
+* 21:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on kafka182: libbrotli1
+* 21:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mattermost2: libbrotli1
+* 21:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp171: libbrotli1
+* 21:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp191: libbrotli1
+* 21:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db192: libbrotli1
+* 21:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp201: libbrotli1
+* 21:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db201: libbrotli1
+* 21:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db181: libbrotli1
+* 21:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud20: libbrotli1
+* 21:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db182: libbrotli1
+* 21:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud17: libbrotli1
+* 21:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db161: libbrotli1
+* 21:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db171: libbrotli1
+* 21:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud18: libbrotli1
+* 21:42 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bots171: libbrotli1
+* 21:42 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on eventgate182: libbrotli1
+* 21:42 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db151: libbrotli1
+* 21:42 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud19: libbrotli1
+* 21:41 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db193: libbrotli1
+* 21:41 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bast181: libbrotli1
+* 21:41 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp161: libbrotli1
+* 21:41 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud21: libbrotli1
+* 21:41 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bast161: libbrotli1
+* 21:40 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db172: libbrotli1
+* 21:40 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on changeprop202: libbrotli1
+* 21:40 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud15: libbrotli1
+* 20:53 Universal Omega: removed nginx from cp161
+* 20:52 Universal Omega: updated fail2ban config in private puppet to work for haproxy rather than nginx
+* 18:10 MirahezeLSBot: [jenny@mwtask171] mwimport noobsincombatwiki --images=images/ --images-comment="Importing images from [https://noobsincombat.fandom.com](https://noobsincombat.fandom.com) ([T16372](https://meta.miraheze.org/wiki/phorge:T16372))" --images-sleep=0 (T16372)
+* 18:10 MirahezeLSBot: [jenny@mwtask171] Finished import for noobsincombatwiki (XML: None; Images: images/) (END - exit=0)
+* 18:10 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=noobsincombatwiki --update (END - exit=0)
+* 18:10 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=noobsincombatwiki --update (START)
+* 18:10 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=noobsincombatwiki --sleep=0 '--comment=Importing images from [https://noobsincombat.fandom.com](https://noobsincombat.fandom.com) ([T16372](https://meta.miraheze.org/wiki/phorge:T16372))' -- images/ (END - exit=0)
+* 18:05 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=noobsincombatwiki --sleep=0 '--comment=Importing images from [https://noobsincombat.fandom.com](https://noobsincombat.fandom.com) ([T16372](https://meta.miraheze.org/wiki/phorge:T16372))' -- images/ (START)
+* 18:05 MirahezeLSBot: [jenny@mwtask171] Starting import for noobsincombatwiki (XML: None; Images: images/) (START)
+* 18:04 MirahezeLSBot: [jenny@mwtask171] Finished import for noobsincombatwiki (XML: None; Images: images/) (END - exit=-2)
+* 18:04 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=noobsincombatwiki --sleep=0 '--comment=Importing images from [https://noobsincombat.fandom.com](https://noobsincombat.fandom.com) ([T16372](https://meta.miraheze.org/wiki/phorge:T16372))' -- images/ (END - exit=-2)
+* 16:57 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=noobsincombatwiki --sleep=0 '--comment=Importing images from [https://noobsincombat.fandom.com](https://noobsincombat.fandom.com) ([T16372](https://meta.miraheze.org/wiki/phorge:T16372))' -- images/ (START)
+* 16:56 MirahezeLSBot: [jenny@mwtask171] Starting import for noobsincombatwiki (XML: None; Images: images/) (START)
+* 16:54 MirahezeLSBot: [jenny@mwtask171] mwimport noobsincombatwiki --images=images/ --images-comment="Importing images from [https://noobsincombat.fandom.com](https://noobsincombat.fandom.com) ([T16372](https://meta.miraheze.org/wiki/phorge:T16372))" (T16372)
+* 16:29 MirahezeLSBot: [jenny@mwtask171] Finished import for noobsincombatwiki (XML: None; Images: images/) (END - exit=1)
+* 16:29 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=noobsincombatwiki --sleep=1 '--comment=Importing images from [https://noobsincombat.fandom.com](https://noobsincombat.fandom.com) ([T16372](https://meta.miraheze.org/wiki/phorge:T16372))' -- images/ (END - exit=1)
+* 14:10 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php Bucket:RefreshAllBuckets --wiki=pinnipediawiki (END - exit=0)
+* 13:29 @paladox: salt-ssh -E 'cloud.*' cmd.run "apt-get update ; apt-get install libunbound8 openvox-agent tzdata -y"
+* 13:25 RhinosF1: [rhinos@phorge171:/srv/phorge/phorge/bin]$ sudo -u www-data ./repository update R14
+* 13:25 RhinosF1: [rhinos@phorge171:/srv/phorge/phorge/bin]$ sudo -u www-data ./repository update rPUPC
+* 13:24 RhinosF1: [rhinos@phorge171:/srv/phorge/phorge/bin]$ sudo -u www-data ./repository update rDNS
+* 13:22 RhinosF1: [rhinos@phorge171:~]$ sudo chown -R www-data:www-data /srv/phorge/repos
+* 12:13 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=noobsincombatwiki --sleep=1 '--comment=Importing images from [https://noobsincombat.fandom.com](https://noobsincombat.fandom.com) ([T16372](https://meta.miraheze.org/wiki/phorge:T16372))' -- images/ (START)
+* 12:13 MirahezeLSBot: [jenny@mwtask171] Starting import for noobsincombatwiki (XML: None; Images: images/) (START)
+* 12:10 MirahezeLSBot: [jenny@mwtask161] mwimport iunawiki --images=images/ --images-comment="Importing images from [https://wiki.northhaven.de/](https://wiki.northhaven.de/) ([T16370](https://meta.miraheze.org/wiki/phorge:T16370))" --search-recursively (T16370)
+* 12:10 MirahezeLSBot: [jenny@mwtask161] Finished import for iunawiki (XML: None; Images: images/) (END - exit=0)
+* 12:10 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=iunawiki --update (END - exit=0)
+* 12:10 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=iunawiki --update (START)
+* 12:09 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=iunawiki --sleep=0 '--comment=Importing images from [https://wiki.northhaven.de/](https://wiki.northhaven.de/) ([T16370](https://meta.miraheze.org/wiki/phorge:T16370))' --search-recursively -- images/ (END - exit=0)
+* 12:05 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=iunawiki --sleep=0 '--comment=Importing images from [https://wiki.northhaven.de/](https://wiki.northhaven.de/) ([T16370](https://meta.miraheze.org/wiki/phorge:T16370))' --search-recursively -- images/ (START)
+* 12:05 MirahezeLSBot: [jenny@mwtask161] Starting import for iunawiki (XML: None; Images: images/) (START)
+* 11:59 MirahezeLSBot: [jenny@mwtask171] mwimport noobsincombatwiki --xml=history.xml --username-prefix=wikia:noobsincombat (T16372)
+* 11:57 MirahezeLSBot: [jenny@mwtask171] Finished import for noobsincombatwiki (XML: history.xml; Images: None) (END - exit=0)
+* 11:56 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=noobsincombatwiki --update (END - exit=0)
+* 11:56 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=noobsincombatwiki --update (START)
+* 11:56 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initEditCount --wiki=noobsincombatwiki (END - exit=0)
+* 11:56 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initEditCount --wiki=noobsincombatwiki (START)
+* 11:56 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php rebuildall --wiki=noobsincombatwiki (END - exit=0)
+* 10:37 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php rebuildall --wiki=noobsincombatwiki (START)
+* 10:37 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importDump --wiki=noobsincombatwiki --no-updates --username-prefix=wikia:noobsincombat -- history.xml (END - exit=0)
+* 09:37 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importDump --wiki=noobsincombatwiki --no-updates --username-prefix=wikia:noobsincombat -- history.xml (START)
+* 09:37 MirahezeLSBot: [jenny@mwtask171] Starting import for noobsincombatwiki (XML: history.xml; Images: None) (START)
+* 04:48 Universal Omega: reboot swiftproxy*
+* 04:20 Universal Omega: add cp161 to load balancer pool on Cloudflare
+* 03:55 Universal Omega: increase resources on cp161 to match cp171 and reboot
+
 ## 2026-10-22 
 
 * 20:03 MirahezeLSBot: [universalomega@cp171] sudo rm /var/log/haproxy.log (T16375)
