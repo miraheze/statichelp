@@ -2,6 +2,96 @@
 title: Tech:Server admin log
 ---
 
+## 2026-10-24 
+
+* 23:57 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:ModifyGroupPermissions --wiki=metawiki --all-wikis --group=sysop --addperms=ipinfo,ipinfo-view-basic --execute (END - exit=0; time=413s)
+* 23:50 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:ModifyGroupPermissions --wiki=metawiki --all-wikis --group=sysop --addperms=ipinfo,ipinfo-view-basic --execute (START)
+* 23:50 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:ModifyGroupPermissions --wiki=metawikibeta --all-wikis --group=sysop --addperms=ipinfo,ipinfo-view-basic --execute (END - exit=0; time=1s)
+* 23:50 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:ModifyGroupPermissions --wiki=metawikibeta --all-wikis --group=sysop --addperms=ipinfo,ipinfo-view-basic --execute (START)
+* 23:45 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 40s (T16341)
+* 23:44 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all (T16341)
+* 23:42 MirahezeLSBot: [petramagna@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s (T16383)
+* 23:42 MirahezeLSBot: [petramagna@test151] Starting deploy of {'pull': 'config', 'config': True} to test151 (T16383)
+* 23:33 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True, 'debug': True} to test151 - SUCCESS in 0s (T16341)
+* 23:33 MirahezeLSBot: [petramagna@test151] Starting deploy of {'config': True, 'debug': True} to test151 (T16341)
+* 13:48 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=kardswiki '--from=慕柏' '--to=Munich Berlin' --import-prefix=wikia:kards (END - exit=0) (T16308)
+* 10:50 MirahezeLSBot: [jenny@mwtask171] MediaWiki\MediaWikiServices::getInstance()->getContentModelStore()->acquireId( 'Scribunto' ); + repeat for all missing default content models (T16384)
+* 10:43 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php createAndPromote --wiki=urislorepediawiki 'Jenny (Miraheze)' --sysop --force (END - exit=0) (T16384)
+* 10:26 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=realmzwiki (END - exit=0) (T16386)
+* 10:24 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=realmzwiki --startOver (END - exit=0) (T16386)
+* 10:24 MirahezeLSBot: [jenny@mwtask171] curl -X DELETE [https://opensearch-mw.wikitide.net/realmzwiki_{content,general}](https://opensearch-mw.wikitide.net/realmzwiki_{content,general}) (T16386)
+* 04:28 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject201: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:27 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy161: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:27 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject191: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:27 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject181: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:26 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on test151: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:26 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy171: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:26 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject171: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:26 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject161: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:25 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os201: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:25 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject151: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:25 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftac171: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:25 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os202: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:24 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os191: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:24 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os151: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:23 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os162: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:23 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on reports171: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:23 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on puppet181: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:22 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on phorge171: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:22 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os161: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:22 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on prometheus151: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:22 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask171: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:21 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask181: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:21 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask161: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:20 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw203: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:20 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask151: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:20 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw193: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:20 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw201: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:19 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw202: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:19 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw192: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:19 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw151: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:19 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw183: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:18 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw191: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:18 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw181: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:18 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw182: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:17 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw163: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:17 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw162: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:17 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw172: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:17 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw171: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:16 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem191: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:16 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw153: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:16 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw173: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:16 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw161: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:15 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem201: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:15 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mon181: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:15 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on graylog161: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:15 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw152: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:14 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem151: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:14 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem161: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:14 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on llm191: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:13 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on matomo151: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:13 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on matomo211: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:13 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp201: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:12 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp171: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:12 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp161: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:12 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db181: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:11 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud16: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:11 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db182: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:11 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db161: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:10 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud20: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:10 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud19: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:10 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db171: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:10 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bast181: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:09 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud18: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:09 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db172: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:09 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db151: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:09 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bots171: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:08 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud15: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:08 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud17: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:08 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp191: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:08 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bast161: libheif-plugin-x265, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif1, and libheif-plugin-libde265
+* 04:06 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ldap171: libheif-plugin-x265, libheif-plugin-dav1d, libheif-plugin-aomenc, libheif1, and libheif-plugin-libde265
+
 ## 2026-10-23 
 
 * 22:04 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud16: libbrotli1

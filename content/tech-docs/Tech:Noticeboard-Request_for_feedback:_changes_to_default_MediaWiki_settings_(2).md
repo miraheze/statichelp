@@ -25,6 +25,8 @@ Please discuss enabling this option for all wikis that did not change this optio
       I think most wikis keep the status quo because they are not aware of the existence of this setting. I sampled a few wikis on other hosts (wiki.gg, Fandom, and WeirdGloop), and all of them present the syntax highlighter to logged-out users in the wikitext editor. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 08:49, 17 October 2026 (UTC)
  `{{ {{support}} }}` - syntax highlighting makes it *so* much easier to read wikitext, and I believe newer users would see quite a benefit from it. [Rexogamer](https://meta.miraheze.org/wiki/User:Rexogamer) ([talk](https://meta.miraheze.org/wiki/User_talk:Rexogamer)) 16:56, 16 October 2026 (UTC)
  `{{ {{Abstain}} }}` - Even though it is useful, particularly for newbies, I have been accustomed to editing wikitext without using syntax. So I would leave it as abstain. [Unfunktion](https://meta.miraheze.org/wiki/User:Unfunktion) ([talk](https://meta.miraheze.org/wiki/User_talk:Unfunktion)) 16:11, 18 October 2026 (UTC)
+ `{{ {{s}} }}` This is useful.--[AABb1221](https://meta.miraheze.org/wiki/User:AABb1221) ([talk](https://meta.miraheze.org/wiki/User_talk:AABb1221)) 11:30, 24 October 2026 (UTC)
+ `{{ {{support}} }}` makes sense as a default [Jenny on Wiki](https://meta.miraheze.org/wiki/User:Jenny_on_Wiki) ([talk](https://meta.miraheze.org/wiki/User_talk:Jenny_on_Wiki)) 15:15, 24 October 2026 (UTC)
 
 ### Discussion 1b 
 
@@ -55,6 +57,7 @@ Please discuss below. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagn
  `{{ {{support}} }}` per proposal. - [JaneBuzJane](https://meta.miraheze.org/wiki/User:JaneBuzJane) ([talk](https://meta.miraheze.org/wiki/User_talk:JaneBuzJane)) 13:49, 18 October 2026 (UTC)
  `{{ {{Support|partial}} }}` - ‎ I hardly use edit recovery, only once. But maybe, just in case. It would be helpful. [Unfunktion](https://meta.miraheze.org/wiki/User:Unfunktion) ([talk](https://meta.miraheze.org/wiki/User_talk:Unfunktion)) 16:12, 18 October 2026 (UTC)
  `{{ {{Support}} }}`.--[<span style="color:#00C0FF;">铁桶</span>](https://meta.miraheze.org/wiki/User:铁桶) ([Talk](https://meta.miraheze.org/wiki/User_Talk:铁桶)) 15:04, 19 October 2026 (UTC)
+ `{{ {{s}} }}` per rationale above.--[AABb1221](https://meta.miraheze.org/wiki/User:AABb1221) ([talk](https://meta.miraheze.org/wiki/User_talk:AABb1221)) 11:31, 24 October 2026 (UTC)
 
 ## Proposal 3: do not enable MobileFrontend and MinervaNeue for new wikis 
 
@@ -78,7 +81,8 @@ Not enabling MobileFrontend and MinervaNeue for new wikis. [PetraMagna](https://
       Yep. It is the default on new wikis created on Miraheze. Older wikis retain the old default (disabled) per our [previous RfF](/tech-docs/technoticeboard-request_for_feedback_changes_to_default_mediawiki_settings). [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 08:51, 17 October 2026 (UTC)
  `{{ {{support|strongest}} }}` Support per proposal. In my experience they cause more problems than they solve. - [JaneBuzJane](https://meta.miraheze.org/wiki/User:JaneBuzJane) ([talk](https://meta.miraheze.org/wiki/User_talk:JaneBuzJane)) 13:51, 18 October 2026 (UTC)
  `{{ {{Support|strong}} }}` - I feel these kinda make navigating wikis difficult, especially for navboxes. [Unfunktion](https://meta.miraheze.org/wiki/User:Unfunktion) ([talk](https://meta.miraheze.org/wiki/User_talk:Unfunktion)) 16:17, 18 October 2026 (UTC)
- `{{ {{Note}} }}` MobileFrontend is compatible with other skins (Vector, Timeless, Monobook, Citizen), so that could potentially be an option. [MacFan4000](https://meta.miraheze.org/wiki/User:MacFan4000) ([Talk](https://meta.miraheze.org/wiki/User_talk:MacFan4000) [Contribs](https://meta.miraheze.org/wiki/Special:Contributions/MacFan4000)) 16:32, 19 October 2026 (UTC) `{{ {{Collapse top|title=Withdrawn proposal}} }}`
+ `{{ {{Note}} }}` MobileFrontend is compatible with other skins (Vector, Timeless, Monobook, Citizen), so that could potentially be an option. [MacFan4000](https://meta.miraheze.org/wiki/User:MacFan4000) ([Talk](https://meta.miraheze.org/wiki/User_talk:MacFan4000) [Contribs](https://meta.miraheze.org/wiki/Special:Contributions/MacFan4000)) 16:32, 19 October 2026 (UTC)
+ `{{ {{support}} }}` [Jenny on Wiki](https://meta.miraheze.org/wiki/User:Jenny_on_Wiki) ([talk](https://meta.miraheze.org/wiki/User_talk:Jenny_on_Wiki)) 15:16, 24 October 2026 (UTC) `{{ {{Collapse top|title=Withdrawn proposal}} }}`
 
 ### Discussion 3b 
 
@@ -106,6 +110,7 @@ Please discuss below. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagn
  `{{ {{support}} }}` per proposal. - [JaneBuzJane](https://meta.miraheze.org/wiki/User:JaneBuzJane) ([talk](https://meta.miraheze.org/wiki/User_talk:JaneBuzJane)) 13:51, 18 October 2026 (UTC)
  `{{ {{Support}} }}` - I believe it can be helpful. [Unfunktion](https://meta.miraheze.org/wiki/User:Unfunktion) ([talk](https://meta.miraheze.org/wiki/User_talk:Unfunktion)) 16:21, 18 October 2026 (UTC)
  `{{ {{Support}} }}`.--[<span style="color:#00C0FF;">铁桶</span>](https://meta.miraheze.org/wiki/User:铁桶) ([Talk](https://meta.miraheze.org/wiki/User_Talk:铁桶)) 15:04, 19 October 2026 (UTC)
+ `{{ {{support}} }}` [Jenny on Wiki](https://meta.miraheze.org/wiki/User:Jenny_on_Wiki) ([talk](https://meta.miraheze.org/wiki/User_talk:Jenny_on_Wiki)) 15:16, 24 October 2026 (UTC)
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Noticeboard/Request_for_feedback:_changes_to_default_MediaWiki_settings_(2))**

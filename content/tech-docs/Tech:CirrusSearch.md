@@ -40,12 +40,14 @@ import sys
 
 wiki = sys.argv[1]
 task = ''
+task_paren = ''
 if sys.argv.__len__() > 2:
     task = '--task=' + sys.argv[2]
+    task_paren = f'({sys.argv[2]})'
 
 command = []
 command.append("curl -X DELETE https://opensearch-mw.wikitide.net/%s_{content,general}" % wiki)
-command.append("logsalmsg curl -X DELETE https://opensearch-mw.wikitide.net/%s_{content,general}" % wiki)
+command.append(("logsalmsg curl -X DELETE https://opensearch-mw.wikitide.net/%s_{content,general}" % wiki) + ' ' + repr(task_paren))
 command.append(f"mwscript CirrusSearch:UpdateSearchIndexConfig {wiki} --startOver {task}")
 command.append(f"mwscript CirrusSearch:ForceSearchIndex {wiki} {task}")
 
