@@ -2,6 +2,33 @@
 title: Tech:Server admin log
 ---
 
+## 2026-10-25 
+
+* 23:45 @paladox: switched swift to use private network
+* 23:27 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 32s
+* 23:27 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 23:27 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 23:26 MirahezeLSBot: [universalomega@test151] Starting deploy of {'pull': 'config', 'config': True} to test151
+* 23:26 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 51s
+* 23:25 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 23:13 MirahezeLSBot: [universalomega@test151] finished deploy of {'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to test151 - SUCCESS in 18s
+* 23:13 MirahezeLSBot: [universalomega@test151] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to test151
+* 19:53 MirahezeLSBot: [void@cloud16] reboot swiftproxy* (stalled)
+* 19:42 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: libvarnishapi3 and varnish
+* 19:41 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: libvarnishapi3 and varnish
+* 19:41 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: libvarnishapi3 and varnish
+* 10:25 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=shovelpediawiki (END - exit=0) (T16391)
+* 10:24 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=shovelpediawiki --startOver (END - exit=0) (T16391)
+* 10:24 MirahezeLSBot: [jenny@mwtask171] curl -X DELETE [https://opensearch-mw.wikitide.net/shovelpediawiki_content](https://opensearch-mw.wikitide.net/shovelpediawiki_content) [https://opensearch-mw.wikitide.net/shovelpediawiki_general](https://opensearch-mw.wikitide.net/shovelpediawiki_general) (T16391)
+* 10:23 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=shovelpediawiki (END - exit=1) (T16391)
+* 10:23 MirahezeLSBot: [jenny@mwtask171] curl -X DELETE [https://opensearch-mw.wikitide.net/shovelpedia_content](https://opensearch-mw.wikitide.net/shovelpedia_content) [https://opensearch-mw.wikitide.net/shovelpedia_general](https://opensearch-mw.wikitide.net/shovelpedia_general) (T16391)
+* 08:43 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'l10n': True, 'extension_list': True, 'force_upgrade': True, 'versions': 'all', 'upgrade_extensions': 'Mustache'} to all - SUCCESS in 195s
+* 08:40 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'pull': 'config', 'config': True, 'l10n': True, 'extension_list': True, 'force_upgrade': True, 'versions': 'all', 'upgrade_extensions': 'Mustache'} to all
+* 08:25 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 41s
+* 08:24 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 05:50 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True, 'l10n': True, 'extension_list': True, 'force_upgrade': True, 'versions': 'all', 'upgrade_extensions': 'Mustache'} to test151 - SUCCESS in 129s
+* 05:48 MirahezeLSBot: [petramagna@test151] Starting deploy of {'config': True, 'l10n': True, 'extension_list': True, 'force_upgrade': True, 'versions': 'all', 'upgrade_extensions': 'Mustache'} to test151
+
 ## 2026-10-24 
 
 * 23:57 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:ModifyGroupPermissions --wiki=metawiki --all-wikis --group=sysop --addperms=ipinfo,ipinfo-view-basic --execute (END - exit=0; time=413s)
