@@ -2,6 +2,31 @@
 title: Tech:Server admin log
 ---
 
+## 2026-10-26 
+
+* 22:02 Universal Omega: repool cp161 in Cloudflare
+* 21:44 Universal Omega: depool cp161 in Cloudflare
+* 19:44 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=kongarchivedwiki (END - exit=0)
+* 19:43 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=kongarchivedwiki --startOver (END - exit=0)
+* 19:42 RhinosF1: and _content too
+* 19:42 MirahezeLSBot: [rhinos@mwtask181] curl -X DELETE [https://opensearch-mw.wikitide.net/kongarchivedwiki_content](https://opensearch-mw.wikitide.net/kongarchivedwiki_content) [https://opensearch-mw.wikitide.net/kongarchivedwiki_general](https://opensearch-mw.wikitide.net/kongarchivedwiki_general)
+* 19:40 MirahezeLSBot: [rhinos@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=kongarchivedwiki --startOver (END - exit=1)
+* 18:55 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 31s
+* 18:55 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 18:54 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 18:54 MirahezeLSBot: [universalomega@test151] Starting deploy of {'pull': 'config', 'config': True} to test151
+* 17:41 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php updateCollation --wiki=takagi3wiki (END - exit=0) (T16326)
+* 17:41 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php updateCollation --wiki=bolanqiuwiki (END - exit=0) (T16326)
+* 17:39 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php updateCollation --wiki=cpopwiki (END - exit=0) (T16385)
+* 17:37 MirahezeLSBot: [jenny@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 17:36 MirahezeLSBot: [jenny@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 04:05 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 37s
+* 04:05 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 03:43 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 40s
+* 03:42 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 03:39 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 46s
+* 03:39 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to all
+
 ## 2026-10-25 
 
 * 23:45 @paladox: switched swift to use private network
