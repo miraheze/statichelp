@@ -2,6 +2,49 @@
 title: Tech:Server admin log
 ---
 
+## 2026-10-27 
+
+* 23:07 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 23s
+* 23:06 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'config': True, 'force': True} to all
+* 23:05 Universal Omega: stop and start db161 from host
+* 23:03 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 20s
+* 23:02 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'config': True, 'force': True} to all
+* 23:01 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 22s
+* 23:01 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'config': True, 'force': True} to all
+* 21:15 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': 'all', 'ignore_time': True} to all - SUCCESS in 135s
+* 21:13 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'l10n': True, 'versions': 'all', 'ignore_time': True} to all
+* 21:05 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': 'all', 'ignore_time': True} to all - SUCCESS in 65s
+* 21:04 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'l10n': True, 'versions': 'all', 'ignore_time': True} to all
+* 20:53 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 30s
+* 20:53 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 20:53 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 20:53 MirahezeLSBot: [universalomega@test151] Starting deploy of {'pull': 'config', 'config': True} to test151
+* 11:53 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 21s
+* 11:53 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'config': True, 'force': True} to all
+* 11:49 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 22s
+* 06:16 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 06:16 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 05:15 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': 'all', 'ignore_time': True} to ['mw211', 'mw212', 'mw213'] - SUCCESS in 6s
+* 05:15 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'l10n': True, 'versions': 'all', 'ignore_time': True} to ['mw211', 'mw212', 'mw213']
+* 05:13 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': 'all'} to ['mw211', 'mw212', 'mw213'] - SUCCESS in 10s
+* 05:13 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'l10n': True, 'versions': 'all'} to ['mw211', 'mw212', 'mw213']
+* 05:08 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to ['mw211', 'mw212', 'mw213'] - SUCCESS in 3s
+* 05:08 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to ['mw211', 'mw212', 'mw213']
+* 05:07 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'world': True, 'force': True, 'versions': 'all'} to ['mw211', 'mw212', 'mw213'] - SUCCESS in 10s
+* 05:07 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'world': True, 'force': True, 'versions': 'all'} to ['mw211', 'mw212', 'mw213']
+* 05:06 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'world': True, 'versions': 'all'} to ['mw211', 'mw212', 'mw213']
+* 05:06 MirahezeLSBot: [universalomega@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mw211
+* 05:06 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to ['mw211', 'mw212', 'mw213']
+* 05:06 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'force': True} to ['mw211', 'mw212', 'mw213'] - SUCCESS in 2s
+* 05:05 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'pull': 'config', 'config': True, 'force': True} to ['mw211', 'mw212', 'mw213']
+* 05:05 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to ['mw211', 'mw212', 'mw213']
+* 04:46 MirahezeLSBot: [universalomega@mwtask181] finished new install of {'versions': '1.46', 'new_install': True} to ['mw212', 'mw213'] - SUCCESS in 18s
+* 04:46 MirahezeLSBot: [universalomega@mwtask181] Starting new install of {'versions': '1.46', 'new_install': True} to ['mw212', 'mw213']
+* 04:13 MirahezeLSBot: [universalomega@mwtask181] finished new install of {'versions': '1.46', 'new_install': True} to mw211 - SUCCESS in 31s
+* 04:13 MirahezeLSBot: [universalomega@mwtask181] Starting new install of {'versions': '1.46', 'new_install': True} to mw211
+* 04:08 Universal Omega: rebuild mcrouter for trixie
+* 02:11 Universal Omega: create VMs for mw211, mw212, and mw213
+
 ## 2026-10-26 
 
 * 22:02 Universal Omega: repool cp161 in Cloudflare
