@@ -2,6 +2,56 @@
 title: Tech:Server admin log
 ---
 
+## 2026-10-29 
+
+* 21:28 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 21:28 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 19:17 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, libmagickcore-7.q16-10-extra, and python3-git
+* 19:17 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, libmagickcore-7.q16-10-extra, and python3-git
+* 19:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 19:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 19:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 19:16 MirahezeLSBot: [void@puppet181] Upgraded packages on mw211: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 19:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 19:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mw212: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 19:15 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 19:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 19:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 19:14 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 19:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 19:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 19:13 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 19:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mw213: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 19:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 19:12 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 19:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 19:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 19:11 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 19:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 19:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 19:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 19:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 19:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: libimage-magick-perl, imagemagick-7-common, libmagickcore-7.q16-10, libimage-magick-q16-perl, libmagickwand-7.q16-10, imagemagick-7.q16, imagemagick, and libmagickcore-7.q16-10-extra
+* 17:56 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=warhammerhomebrewwiki '--comment=Imported images from [https://warhammer-homebrew.fandom.com/wiki/Warhammer_Homebrew_Wiki'](https://warhammer-homebrew.fandom.com/wiki/Warhammer_Homebrew_Wiki') --search-recursively /home/reception/warhammer (END - exit=0; time=1066s)
+* 17:38 MirahezeLSBot: [reception@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=warhammerhomebrewwiki '--comment=Imported images from [https://warhammer-homebrew.fandom.com/wiki/Warhammer_Homebrew_Wiki'](https://warhammer-homebrew.fandom.com/wiki/Warhammer_Homebrew_Wiki') --search-recursively /home/reception/warhammer (START)
+* 09:48 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 65s (T15875)
+* 09:47 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to all (T15875)
+* 09:45 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.46/extensions/MirahezeMagic', 'debug': True} to test151 - SUCCESS in 0s (T15875)
+* 09:45 MirahezeLSBot: [petramagna@test151] Starting deploy of {'folders': '1.46/extensions/MirahezeMagic', 'debug': True} to test151 (T15875)
+* 09:22 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'l10n': True, 'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 77s (T15875)
+* 09:21 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'l10n': True, 'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to all (T15875)
+* 09:16 MirahezeLSBot: [petramagna@test151] finished deploy of {'l10n': True, 'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to test151 - SUCCESS in 46s (T15875)
+* 09:15 MirahezeLSBot: [petramagna@test151] Starting deploy of {'l10n': True, 'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to test151 (T15875)
+* 02:45 MirahezeLSBot: [universalomega@mattermost2] Test
+* 01:22 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'PageForms'} to all - SUCCESS in 49s (T15578)
+* 01:21 MirahezeLSBot: [somerandomdeveloper@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'PageForms'} to all (T15578)
+* 01:21 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': 'all', 'upgrade_extensions': 'PageForms'} to test151 - SUCCESS in 21s (T15578)
+* 01:20 MirahezeLSBot: [somerandomdeveloper@test151] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'PageForms'} to test151 (T15578)
+* 00:09 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 23s
+* 00:09 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'config': True, 'force': True} to all
+* 00:07 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'config': True, 'force': True} to all - SUCCESS in 36s
+* 00:06 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'config': True, 'force': True} to all
+
 ## 2026-10-28 
 
 * 02:35 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: openjdk-21-jdk, openjdk-21-jdk-headless, openjdk-21-jre, and openjdk-21-jre-headless
