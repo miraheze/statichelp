@@ -2,7 +2,6 @@
 title: Tech:Temporary accounts
 ---
 
-`{{ {{Mbox|text=Temporary accounts are currently not granted to new wikis pending further evaluation from both the [[Technology Team]] and [[Trust and Safety]].}} }}`
 [Temporary account](https://meta.miraheze.org/wiki/mw:Help:Temporary_accounts) is a new feature in MediaWiki that improves upon IP editing. After enabling temporary accounts, new anonymous edits will automatically result in the creation of a temporary account without revealing the editor's IP. It preserves the privacy of anons without requiring account creation to edit. See [the help page on mediawiki.org](https://meta.miraheze.org/wiki/mw:Help:Temporary_accounts) for more information.
 
 Temporary accounts are enabled on a per-wiki basis on Miraheze.
