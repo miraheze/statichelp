@@ -4,6 +4,106 @@ title: Tech:Server admin log
 
 ## 2026-11-01 
 
+* 20:56 MirahezeLSBot: [void@puppet181] Upgraded packages on speedscope211: vim, vim-common, vim-tiny, and vim-runtime
+* 20:56 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: vim, vim-common, vim-tiny, and vim-runtime
+* 20:55 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: vim, vim-common, vim-tiny, and vim-runtime
+* 20:55 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb191: vim, vim-common, vim-tiny, and vim-runtime
+* 20:55 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: vim, vim-common, vim-tiny, and vim-runtime
+* 20:54 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: vim, vim-common, vim-tiny, and vim-runtime
+* 20:54 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: vim, vim-common, vim-tiny, and vim-runtime
+* 20:54 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: vim, vim-common, vim-tiny, and vim-runtime
+* 20:54 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: vim, vim-common, vim-tiny, and vim-runtime
+* 20:53 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: vim, vim-common, vim-tiny, and vim-runtime
+* 20:53 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: vim, vim-common, vim-tiny, and vim-runtime
+* 20:53 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: vim, vim-common, vim-tiny, and vim-runtime
+* 20:52 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: vim, vim-common, vim-tiny, and vim-runtime
+* 20:52 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: vim, vim-common, vim-tiny, and vim-runtime
+* 20:52 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: vim, vim-common, vim-tiny, and vim-runtime
+* 20:51 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: vim, vim-common, vim-tiny, and vim-runtime
+* 20:51 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: vim, vim-common, vim-tiny, vim-runtime, and xxd
+* 20:51 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: vim, vim-common, vim-tiny, and vim-runtime
+* 20:50 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: vim, vim-common, vim-tiny, and vim-runtime
+* 20:50 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: vim, vim-common, vim-tiny, and vim-runtime
+* 20:50 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: vim, vim-common, vim-tiny, and vim-runtime
+* 20:50 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: vim, vim-common, vim-tiny, and vim-runtime
+* 20:49 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: vim, vim-common, vim-tiny, and vim-runtime
+* 20:49 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: vim, vim-common, vim-tiny, and vim-runtime
+* 20:49 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: vim, vim-common, vim-tiny, and vim-runtime
+* 20:48 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: vim, vim-common, vim-tiny, and vim-runtime
+* 20:48 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: vim, vim-common, vim-tiny, and vim-runtime
+* 20:48 MirahezeLSBot: [void@puppet181] Upgraded packages on mw213: vim, vim-common, vim-tiny, and vim-runtime
+* 20:47 MirahezeLSBot: [void@puppet181] Upgraded packages on mw211: vim, vim-common, vim-tiny, and vim-runtime
+* 20:47 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: vim, vim-common, vim-tiny, and vim-runtime
+* 20:47 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: vim, vim-common, vim-tiny, and vim-runtime
+* 20:47 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: vim, vim-common, vim-tiny, and vim-runtime
+* 20:46 MirahezeLSBot: [void@puppet181] Upgraded packages on mw212: vim, vim-common, vim-tiny, and vim-runtime
+* 20:46 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: vim, vim-common, vim-tiny, and vim-runtime
+* 20:46 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: vim, vim-common, vim-tiny, and vim-runtime
+* 20:45 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: vim, vim-common, vim-tiny, and vim-runtime
+* 20:45 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: vim, vim-common, vim-tiny, and vim-runtime
+* 20:45 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: vim, vim-common, vim-tiny, and vim-runtime
+* 20:44 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: vim, vim-common, vim-tiny, and vim-runtime
+* 20:44 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: vim, vim-common, vim-tiny, and vim-runtime
+* 20:44 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: vim, vim-common, vim-tiny, and vim-runtime
+* 20:44 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo211: vim, vim-common, vim-tiny, and vim-runtime
+* 20:43 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: vim, vim-common, vim-tiny, and vim-runtime
+* 20:43 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: vim, vim-common, vim-tiny, and vim-runtime
+* 20:43 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: vim, vim-common, vim-tiny, and vim-runtime
+* 20:42 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: vim, vim-common, vim-tiny, and vim-runtime
+* 20:42 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: vim, vim-common, vim-tiny, and vim-runtime
+* 20:42 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: vim, vim-common, vim-tiny, and vim-runtime
+* 20:41 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: vim, vim-common, vim-tiny, and vim-runtime
+* 20:41 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: vim, vim-common, vim-tiny, and vim-runtime
+* 20:41 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: vim, vim-common, vim-tiny, and vim-runtime
+* 20:41 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: vim, vim-common, vim-tiny, and vim-runtime
+* 20:40 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: vim, vim-common, vim-tiny, and vim-runtime
+* 20:40 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: vim, vim-common, vim-tiny, and vim-runtime
+* 20:40 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: vim, vim-common, vim-tiny, and vim-runtime
+* 20:39 MirahezeLSBot: [void@puppet181] Upgraded packages on db192: vim, vim-common, vim-tiny, and vim-runtime
+* 20:39 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: vim, vim-common, vim-tiny, and vim-runtime
+* 20:39 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: vim, vim-common, vim-tiny, and vim-runtime
+* 20:38 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: vim, vim-common, vim-tiny, and vim-runtime
+* 20:38 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: vim, vim-common, vim-tiny, and vim-runtime
+* 20:38 MirahezeLSBot: [void@puppet181] Upgraded packages on db201: vim, vim-common, vim-tiny, and vim-runtime
+* 20:37 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: vim, vim-common, vim-tiny, and vim-runtime
+* 20:37 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: vim, vim-common, vim-tiny, and vim-runtime
+* 20:37 MirahezeLSBot: [void@puppet181] Upgraded packages on db193: vim, vim-common, vim-tiny, and vim-runtime
+* 20:37 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: vim, vim-common, vim-tiny, and vim-runtime
+* 20:36 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: vim, vim-common, vim-tiny, and vim-runtime
+* 20:36 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: vim, vim-common, vim-tiny, and vim-runtime
+* 20:36 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: vim, vim-common, vim-tiny, and vim-runtime
+* 20:35 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: vim, vim-common, vim-tiny, and vim-runtime
+* 20:35 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: vim, vim-common, vim-tiny, and vim-runtime
+* 20:35 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: vim, vim-common, vim-tiny, and vim-runtime
+* 20:34 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: vim, vim-common, vim-tiny, and vim-runtime
+* 20:34 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: vim, vim-common, vim-tiny, and vim-runtime
+* 20:34 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: vim, vim-common, vim-tiny, and vim-runtime
+* 20:33 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: vim, vim-common, vim-tiny, and vim-runtime
+* 20:33 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: vim, vim-common, vim-tiny, and vim-runtime
+* 20:33 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: vim, vim-common, vim-tiny, and vim-runtime
+* 20:33 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: vim, vim-common, vim-tiny, and vim-runtime
+* 20:32 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: vim, vim-common, vim-tiny, and vim-runtime
+* 20:32 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: vim, vim-common, vim-tiny, and vim-runtime
+* 20:32 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: vim, vim-common, vim-tiny, and vim-runtime
+* 20:31 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: vim, vim-common, vim-tiny, and vim-runtime
+* 20:31 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: vim, vim-common, vim-tiny, and vim-runtime
+* 20:31 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: vim, vim-common, vim-tiny, and vim-runtime
+* 20:31 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: vim, vim-common, vim-tiny, and vim-runtime
+* 20:30 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: vim, vim-common, vim-tiny, and vim-runtime
+* 20:30 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: vim, vim-common, vim-tiny, and vim-runtime
+* 18:21 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php createAndPromote --wiki=dragonagewiki 'Jenny (Miraheze)' --custom-groups=confirmed --force (END - exit=0)
+* 10:09 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'force': True, 'debug': True} to all - SUCCESS in 22s (T16427)
+* 10:09 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'pull': 'config', 'config': True, 'force': True, 'debug': True} to all (T16427)
+* 09:50 MirahezeLSBot: [petramagna@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mw151
+* 09:50 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'config': True, 'debug': True} to all
+* 09:47 MirahezeLSBot: [petramagna@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mw151 (T16427)
+* 09:47 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'config': True, 'debug': True} to all (T16427)
+* 09:23 MirahezeLSBot: [petramagna@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mw151 (T16427)
+* 09:23 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'pull': 'config', 'config': True, 'debug': True} to all (T16427)
+* 09:21 MirahezeLSBot: [petramagna@test151] finished deploy of {'pull': 'config', 'config': True, 'debug': True} to test151 - SUCCESS in 1s (T16010)
+* 09:21 MirahezeLSBot: [petramagna@test151] Starting deploy of {'pull': 'config', 'config': True, 'debug': True} to test151 (T16010)
+* 09:00 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True, 'debug': True} to test151 - SUCCESS in 0s (T16427)
+* 08:59 MirahezeLSBot: [petramagna@test151] Starting deploy of {'config': True, 'debug': True} to test151 (T16427)
 * 00:00 MirahezeLSBot: [www-data@mwtask181] Began automatic backing up
 
 ## 2026-10-31 

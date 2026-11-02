@@ -27,6 +27,7 @@ Please discuss enabling this option for all wikis that did not change this optio
  `{{ {{Abstain}} }}` - Even though it is useful, particularly for newbies, I have been accustomed to editing wikitext without using syntax. So I would leave it as abstain. [Unfunktion](https://meta.miraheze.org/wiki/User:Unfunktion) ([talk](https://meta.miraheze.org/wiki/User_talk:Unfunktion)) 16:11, 18 October 2026 (UTC)
  `{{ {{s}} }}` This is useful.--[AABb1221](https://meta.miraheze.org/wiki/User:AABb1221) ([talk](https://meta.miraheze.org/wiki/User_talk:AABb1221)) 11:30, 24 October 2026 (UTC)
  `{{ {{support}} }}` makes sense as a default [Jenny on Wiki](https://meta.miraheze.org/wiki/User:Jenny_on_Wiki) ([talk](https://meta.miraheze.org/wiki/User_talk:Jenny_on_Wiki)) 15:15, 24 October 2026 (UTC)
+ `{{ {{support}} }}` need to make editors' eyes less strain looking at mono colour when editing ~ [Elisapoly](https://meta.miraheze.org/wiki/User:Elisapoly) ([talk](https://meta.miraheze.org/wiki/User_talk:Elisapoly)) 12:42, 1 November 2026 (UTC)
 
 ### Discussion 1b 
 
