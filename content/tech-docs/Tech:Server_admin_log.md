@@ -2,6 +2,18 @@
 title: Tech:Server admin log
 ---
 
+## 2026-11-03 
+
+* 01:53 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=demidieuxwiki --sleep=1 '--comment=Importing images for [T16221](https://meta.miraheze.org/wiki/phorge:T16221)' ./images_mismatch/ (END - exit=0; time=2683s) (T16221)
+* 01:08 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=demidieuxwiki --sleep=1 '--comment=Importing images for [T16221](https://meta.miraheze.org/wiki/phorge:T16221)' ./images_mismatch/ (START) (T16221)
+* 01:01 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=demidieuxwiki --sleep=1 '--comment=Importing images for [T16221](https://meta.miraheze.org/wiki/phorge:T16221)' ./images (END - exit=0; time=1065s) (T16221)
+* 00:44 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=demidieuxwiki --sleep=1 '--comment=Importing images for [T16221](https://meta.miraheze.org/wiki/phorge:T16221)' ./images (START) (T16221)
+* 00:43 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php createAndPromote --wiki=demidieuxwiki 'Maintenance script' --custom-groups=automoderated --force (END - exit=0) (T16221)
+* 00:34 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=demidieuxwiki --sleep=1 '--comment=Importing images for [T16221](https://meta.miraheze.org/wiki/phorge:T16221)' ./images (END - exit=1; time=1s)
+* 00:34 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=demidieuxwiki --sleep=1 '--comment=Importing images for [T16221](https://meta.miraheze.org/wiki/phorge:T16221)' ./images (START)
+* 00:33 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=demidieuxwiki --sleep=1 '--comment=Importing images for [T16221](https://meta.miraheze.org/wiki/phorge:T16221)' ./images (END - exit=1; time=1s)
+* 00:33 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=demidieuxwiki --sleep=1 '--comment=Importing images for [T16221](https://meta.miraheze.org/wiki/phorge:T16221)' ./images (START)
+
 ## 2026-11-02 
 
 * 19:38 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject211: linux-libc-dev

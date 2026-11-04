@@ -13,7 +13,87 @@ If your wiki is on the list, the technology team will soon disable Cargo on the 
 
 If you have any concerns, please respond in the [#Discussion](#discussion) section.
 
-(list is TBD)
+Only public wikis are included. Private wikis are excluded from the list to not reveal any information about them.
+
+| Wiki | State | Visibility |
+| --- | --- | --- |
+| [Wiki Dddddddddddd](https://meta.miraheze.org/wiki/mh:1134819) | active | Public |
+| [Appalling TikToks Wiki](https://meta.miraheze.org/wiki/mh:abysmaltiktokvideos) | closed | Public |
+| [City of Smoke and Ash](https://meta.miraheze.org/wiki/mh:acosaa) | active | Public |
+| [Aether Gazer Wiki](https://meta.miraheze.org/wiki/mh:aethergazer) | active | Public |
+| [antiX Linux fan](https://meta.miraheze.org/wiki/mh:antixlinuxfan) | active | Public |
+| [The Backrooms Wiki](https://meta.miraheze.org/wiki/mh:backrooms) | active | Public |
+| [Blockland - Wiki](https://meta.miraheze.org/wiki/mh:blockland) | inactive | Public |
+| [Borost](https://meta.miraheze.org/wiki/mh:borost) | active | Public |
+| [Custom Gameshows Wiki](https://meta.miraheze.org/wiki/mh:cg) | active | Public |
+| [Comfy Camp Archives](https://meta.miraheze.org/wiki/mh:comfycamp) | active | Public |
+| [CSLE](https://meta.miraheze.org/wiki/mh:csle) | inactive | Public |
+| [C.Syde&#39;s Wiki](https://meta.miraheze.org/wiki/mh:csydes) | active | Public |
+| [ct777-wiki](https://meta.miraheze.org/wiki/mh:ct777) | active | Public |
+| [Deep Adaptation - Adaption radicale](https://meta.miraheze.org/wiki/mh:deepadaptation) | closed | Public |
+| [Degrees of Lewdity Wiki](https://meta.miraheze.org/wiki/mh:degreesoflewdity) | active | Public |
+| [DOORS中文创意维基](https://meta.miraheze.org/wiki/mh:doorscnfansfanonhub) | active | Public |
+| [Echoes of Vision](https://meta.miraheze.org/wiki/mh:echoesofvision) | active | Public |
+| [Empire d&#39;Arsois](https://meta.miraheze.org/wiki/mh:empiredarsois) | active | Public |
+| [Guia Galáctico](https://meta.miraheze.org/wiki/mh:esporo) | active | Public |
+| [Evosystem Wiki](https://meta.miraheze.org/wiki/mh:evosystem) | active | Public |
+| [Fiction and Fictional Settings Wiki](https://meta.miraheze.org/wiki/mh:fictionandfictionalsettingswiki) | active | Public |
+| [GHGWIKI](https://meta.miraheze.org/wiki/mh:gamebaikeshuwiki) | active | Public |
+| [Gapia Wiki](https://meta.miraheze.org/wiki/mh:gapia) | active | Public |
+| [HammerBro101 Wiki](https://meta.miraheze.org/wiki/mh:hammerbro101) | active | Public |
+| [Heart of Crown](https://meta.miraheze.org/wiki/mh:heartofcrown) | closed | Public |
+| [Nyüjapapedia](https://meta.miraheze.org/wiki/mh:hismajestytheemperor) | active | Public |
+| [The Hively Beeble](https://meta.miraheze.org/wiki/mh:hivesociety) | inactive | Public |
+| [موسوعة فهرس القرآن الكريم](https://meta.miraheze.org/wiki/mh:islamiclibrary) | inactive | Public |
+| [ポーランドボールwiki](https://meta.miraheze.org/wiki/mh:japolandball) | active | Public |
+| [The Lands Of Liberos Project ](https://meta.miraheze.org/wiki/mh:landofliberos) | closed | Public |
+| [Wiki Lớp Học Mật Ngữ](https://meta.miraheze.org/wiki/mh:lhmn) | active | Public |
+| [LifeWiki](https://meta.miraheze.org/wiki/mh:life) | active | Public |
+| [Lim Zhi Hao](https://meta.miraheze.org/wiki/mh:limzhihaowinston) | active | Public |
+| [LUPW Wiki](https://meta.miraheze.org/wiki/mh:lupw) | active | Public |
+| [Lust Doll Plus Wiki](https://meta.miraheze.org/wiki/mh:lustdollplus) | active | Public |
+| [Mandaepedia](https://meta.miraheze.org/wiki/mh:mandaepedia) | active | Public |
+| [Marathon Wiki](https://meta.miraheze.org/wiki/mh:marathon) | closed | Public |
+| [Red&#39;s Worlds](https://meta.miraheze.org/wiki/mh:maraxia) | active | Public |
+| [Minecraft Parkour Wiki](https://meta.miraheze.org/wiki/mh:mcpk) | active | Public |
+| [Melayu Archipelago Wiki](https://meta.miraheze.org/wiki/mh:melayu) | active | Public |
+| [Merc Storia English Wiki](https://meta.miraheze.org/wiki/mh:mercstoria) | active | Public |
+| [Migdal ConLang Wiki](https://meta.miraheze.org/wiki/mh:migdal) | active | Public |
+| [Neon Jungle Living Community Wiki](https://meta.miraheze.org/wiki/mh:neonjunglelc) | active | Public |
+| [OC堆放间](https://meta.miraheze.org/wiki/mh:nknkoc) | active | Public |
+| [Noctilucent: Before Dawn Wiki](https://meta.miraheze.org/wiki/mh:noctilucent) | active | Public |
+| [Nontortion](https://meta.miraheze.org/wiki/mh:nontortion) | active | Public |
+| [NU: carnival Wiki](https://meta.miraheze.org/wiki/mh:nucarnival) | active | Public |
+| [ParentRatings](https://meta.miraheze.org/wiki/mh:parentratings) | inactive | Public |
+| [Партопедия](https://meta.miraheze.org/wiki/mh:partopedia) | inactive | Public |
+| [Philosophy Model](https://meta.miraheze.org/wiki/mh:philosophymodel) | active | Public |
+| [Physikexperimente](https://meta.miraheze.org/wiki/mh:physikexperimente) | inactive | Public |
+| [Project JoJo 2 Wiki](https://meta.miraheze.org/wiki/mh:pjj2) | active | Public |
+| [Psychopragmatics](https://meta.miraheze.org/wiki/mh:pmatic) | inactive | Public |
+| [The Stardust Archives](https://meta.miraheze.org/wiki/mh:projectstardustwiki) | active | Public |
+| [ZWB Wiki](https://meta.miraheze.org/wiki/mh:pvzz2) | inactive | Public |
+| [QueerSport](https://meta.miraheze.org/wiki/mh:queersport) | active | Public |
+| [Rift Fishing](https://meta.miraheze.org/wiki/mh:riftfishing) | closed | Public |
+| [Saimoe Wiki](https://meta.miraheze.org/wiki/mh:saimoe) | active | Public |
+| [SkySaga Wiki](https://meta.miraheze.org/wiki/mh:skysaga) | active | Public |
+| [Wiki_Some-Ideas_Quel Avenir](https://meta.miraheze.org/wiki/mh:somesideaswikiquelavenir) | inactive | Public |
+| [Encyclopedia SpongeBobia](https://meta.miraheze.org/wiki/mh:spongebob) | active | Public |
+| [Stella Sora Wiki](https://meta.miraheze.org/wiki/mh:stellasora) | active | Public |
+| [Tampvan Wiki ](https://meta.miraheze.org/wiki/mh:tampvan) | active | Public |
+| [Template Wiki](https://meta.miraheze.org/wiki/mh:templatewikiarchive) | active | Public |
+| [Империя Скотта](https://meta.miraheze.org/wiki/mh:testopedia) | closed | Public |
+| [DoveArchives](https://meta.miraheze.org/wiki/mh:thesohnlandwiki) | active | Public |
+| [塔诺王国wiki站](https://meta.miraheze.org/wiki/mh:tnwgwiki) | active | Public |
+| [东宁要览·东宁wiki](https://meta.miraheze.org/wiki/mh:tounae) | active | Public |
+| [Трансформеры вики](https://meta.miraheze.org/wiki/mh:transformers) | active | Public |
+| [Ucronías](https://meta.miraheze.org/wiki/mh:ucronias) | active | Public |
+| [UpInTheSky Wiki](https://meta.miraheze.org/wiki/mh:upinthesky) | active | Public |
+| [UtaMacross Wiki](https://meta.miraheze.org/wiki/mh:utamacross) | active | Public |
+| [Vietnamese EnderBot](https://meta.miraheze.org/wiki/mh:vnenderbot) | active | Public |
+| [Waste Of Space Wiki](https://meta.miraheze.org/wiki/mh:wasteofspace) | active | Public |
+| [Союз вики](https://meta.miraheze.org/wiki/mh:wikiball) | active | Public |
+| [WikiTacticalVoting](https://meta.miraheze.org/wiki/mh:wikitacticalvoting) | active | Public |
+| [NSMBU Modding Wiki](https://meta.miraheze.org/wiki/mh:zenith) | active | Public |
 
 ## Discussion 
 
