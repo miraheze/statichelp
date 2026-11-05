@@ -28,6 +28,7 @@ Please discuss enabling this option for all wikis that did not change this optio
  `{{ {{s}} }}` This is useful.--[AABb1221](https://meta.miraheze.org/wiki/User:AABb1221) ([talk](https://meta.miraheze.org/wiki/User_talk:AABb1221)) 11:30, 24 October 2026 (UTC)
  `{{ {{support}} }}` makes sense as a default [Jenny on Wiki](https://meta.miraheze.org/wiki/User:Jenny_on_Wiki) ([talk](https://meta.miraheze.org/wiki/User_talk:Jenny_on_Wiki)) 15:15, 24 October 2026 (UTC)
  `{{ {{support}} }}` need to make editors' eyes less strain looking at mono colour when editing ~ [Elisapoly](https://meta.miraheze.org/wiki/User:Elisapoly) ([talk](https://meta.miraheze.org/wiki/User_talk:Elisapoly)) 12:42, 1 November 2026 (UTC)
+ `{{ {{Support}} }}` A very useful feature - [Amanda Uranium-Explosion](https://meta.miraheze.org/wiki/User:Amanda_Uranium-Explosion) ([💬](https://meta.miraheze.org/wiki/User_talk:Amanda_Uranium-Explosion)) 19:54, 4 November 2026 (UTC)
 
 ### Discussion 1b 
 
