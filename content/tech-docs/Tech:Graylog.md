@@ -89,15 +89,17 @@ Then configure:
 * **Address:** *127.0.0.1*
 * **Port:** *8089*
 * **Protocol:** *SOCKS5*
+* **Enable:** *Proxy DNS when using SOCKS5*
 * **Save**
 
 Next:
 
-* *Go to* **Proxy Rules > Add rule**
+* *Go to* **Smart Proxy > Add rule** under **Smart Profiles**
 * **Rule type:** *Search Domain and SubDomain*
 * **Domain:** *logging.wikitide.net*
-* **Apply Proxy:** *WikiTide Proxy*
-* **Save** and click **Save** again at the bottom (make sure you click it in **both** places)
+* **Action:** *Apply Proxy*
+* **Proxy Server:** *WikiTide Proxy*
+* **Save** and click **Save Changes** again at the bottom (make sure you click it in **both** places)
 
 See this [video](https://imgur.com/a/yca7doi) for a quick walkthrough.
 

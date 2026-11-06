@@ -12,6 +12,8 @@ The `--servers` argument must currently be included. You should just append ever
 
 All errors and warnings will log failure messages to [SAL](/tech-docs/techserver_admin_log). A deployment will abort if the commands to copy data from staging to the canary server.
 
+The `--task` argument will also log the `mwdeploy` run in the referenced Phorge task. For example, `--task=T15578` created [phorge:T15578#327783](https://meta.miraheze.org/wiki/phorge:T15578#327783).
+
 You can add `--no-log`, which will direct output to your terminal rather than `logsalmsg`. It's recommended to use this when deploying security patches/upgrades.
 
 ## Upgrading extensions and skins 

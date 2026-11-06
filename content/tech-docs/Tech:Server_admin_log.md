@@ -2,6 +2,18 @@
 title: Tech:Server admin log
 ---
 
+## 2026-11-05 
+
+* 23:17 Universal Omega: change certificate in puppetdb to point to puppet181.fsslc.wtnet (rather than puppet181.wikitide.net)
+* 16:58 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initEditCount --wiki=vocaloidlyricswiki (END - exit=0) (T16454)
+* 08:47 MirahezeLSBot: [elisapoly@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 08:47 MirahezeLSBot: [elisapoly@test151] Starting deploy of {'config': True} to test151
+* 08:32 MirahezeLSBot: [elisapoly@test151] finished deploy of {'versions': 'all', 'upgrade_extensions': 'SocialProfile'} to test151 - SUCCESS in 15s
+* 08:31 MirahezeLSBot: [elisapoly@test151] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'SocialProfile'} to test151
+* 03:07 Universal Omega: removed public IPs from mw161, mw162, and mw163
+* 00:08 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php OATHAuth:PopulateUserHandles --wiki=ldapwikiwiki (END - exit=0)
+* 00:08 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=ldapwikiwiki /srv/mediawiki/1.46/extensions/OATHAuth/sql/mysql/patch-add-oathauth_user_handles.sql (END - exit=0)
+
 ## 2026-11-04 
 
 * 23:18 Universal Omega: removed public IPs from mw151, mw152, and mw153
