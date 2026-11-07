@@ -2,6 +2,69 @@
 title: Tech:Server admin log
 ---
 
+## 2026-11-06 
+
+* 23:34 Universal Omega: removed public IP from prometheus151
+* 23:27 Universal Omega: removed public IPs from phorge171 and reports171
+* 23:22 Universal Omega: removed public IP from matomo151
+* 20:40 MirahezeLSBot: [jenny@mwtask151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fantendohispanawiki '--comment=Importing images from [https://fantendo.fandom.com/es](https://fantendo.fandom.com/es) ([T16422](https://meta.miraheze.org/wiki/phorge:T16422))' --from=BlueBaby.png --sleep=1 -- . (START)
+* 20:39 MirahezeLSBot: [jenny@mwtask151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fantendohispanawiki '--comment=Importing images from [https://fantendo.fandom.com/es](https://fantendo.fandom.com/es) ([T16422](https://meta.miraheze.org/wiki/phorge:T16422))' --from=BlueBaby.png --sleep=1 -- images/ (END - exit=1; time=1s)
+* 20:39 MirahezeLSBot: [jenny@mwtask151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fantendohispanawiki '--comment=Importing images from [https://fantendo.fandom.com/es](https://fantendo.fandom.com/es) ([T16422](https://meta.miraheze.org/wiki/phorge:T16422))' --from=BlueBaby.png --sleep=1 -- images/ (START)
+* 20:38 MirahezeLSBot: [jenny@mwtask151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fantendohispanawiki '--comment=Importing images from [https://fantendo.fandom.com/es](https://fantendo.fandom.com/es) ([T16422](https://meta.miraheze.org/wiki/phorge:T16422))' --from=4650a39b3c44ba58a180466a6435027cd94b99bdr1-760-760v2_uhq.jpg -- images/ (END - exit=130; time=467s)
+* 20:31 MirahezeLSBot: [jenny@mwtask151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fantendohispanawiki '--comment=Importing images from [https://fantendo.fandom.com/es](https://fantendo.fandom.com/es) ([T16422](https://meta.miraheze.org/wiki/phorge:T16422))' --from=4650a39b3c44ba58a180466a6435027cd94b99bdr1-760-760v2_uhq.jpg -- images/ (START)
+* 20:16 MirahezeLSBot: [jenny@mwtask151] Finished import for fantendohispanawiki (XML: None; Images: images/) (END - exit=-2)
+* 20:16 MirahezeLSBot: [jenny@mwtask151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fantendohispanawiki --sleep=1 '--comment=Importing images from [https://fantendo.fandom.com/es](https://fantendo.fandom.com/es) ([T16422](https://meta.miraheze.org/wiki/phorge:T16422))' -- images/ (END - exit=-2)
+* 19:15 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 39s
+* 19:15 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 18:55 Universal Omega: removed public IPs from mwtask151, mwtask161, mwtask171, and mwtask181
+* 18:47 Universal Omega: removed public IPs from mw201, mw202, and mw203
+* 18:44 Universal Omega: removed public IPs from mw191, mw192, and mw193
+* 15:43 MirahezeLSBot: [jenny@mwtask161] mwimport pillarchasewiki --xml=pc2_pages_full.xml --username-prefix=wikia:pillarchase (T16413)
+* 15:33 MirahezeLSBot: [jenny@mwtask161] Finished import for pillarchasewiki (XML: pc2_pages_full.xml; Images: None) (END - exit=0)
+* 15:33 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=pillarchasewiki --update (END - exit=0)
+* 15:33 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=pillarchasewiki --update (START)
+* 15:33 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initEditCount --wiki=pillarchasewiki (END - exit=0)
+* 15:33 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initEditCount --wiki=pillarchasewiki (START)
+* 15:33 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php rebuildall --wiki=pillarchasewiki (END - exit=0)
+* 15:27 MirahezeLSBot: [jenny@mwtask181] mwimport fearmythoswiki --images=images/ --images-comment="Importing images from [https://thefearmythos.fandom.com](https://thefearmythos.fandom.com) ([T16421](https://meta.miraheze.org/wiki/phorge:T16421))" (T16421)
+* 15:17 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php rebuildall --wiki=pillarchasewiki (START)
+* 15:17 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importDump --wiki=pillarchasewiki --no-updates --username-prefix=wikia:pillarchase -- pc2_pages_full.xml (END - exit=0)
+* 14:35 MirahezeLSBot: [jenny@mwtask181] Finished import for fearmythoswiki (XML: None; Images: images/) (END - exit=0)
+* 14:35 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=fearmythoswiki --update (END - exit=0)
+* 14:35 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=fearmythoswiki --update (START)
+* 14:35 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fearmythoswiki --sleep=1 '--comment=Importing images from [https://thefearmythos.fandom.com](https://thefearmythos.fandom.com) ([T16421](https://meta.miraheze.org/wiki/phorge:T16421))' -- images/ (END - exit=0)
+* 14:23 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importDump --wiki=pillarchasewiki --no-updates --username-prefix=wikia:pillarchase -- pc2_pages_full.xml (START)
+* 14:23 MirahezeLSBot: [jenny@mwtask161] Starting import for pillarchasewiki (XML: pc2_pages_full.xml; Images: None) (START)
+* 14:22 MirahezeLSBot: [jenny@mwtask161] usual wiki reset stuff (T16413)
+* 14:18 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=pillarchasewiki --requester=Smallamm (END - exit=0) (T16413)
+* 14:07 MirahezeLSBot: [jenny@mwtask171] mwimport bullyfanonwiki --xml=hist.xml --username-prefix=wikia:bullyfanon (T16444)
+* 14:02 MirahezeLSBot: [jenny@mwtask171] Finished import for bullyfanonwiki (XML: hist.xml; Images: None) (END - exit=0)
+* 14:02 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=bullyfanonwiki --update (END - exit=0)
+* 14:02 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=bullyfanonwiki --update (START)
+* 14:02 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initEditCount --wiki=bullyfanonwiki (END - exit=0)
+* 14:02 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initEditCount --wiki=bullyfanonwiki (START)
+* 14:02 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php rebuildall --wiki=bullyfanonwiki (END - exit=0)
+* 13:52 MirahezeLSBot: [jenny@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fearmythoswiki --sleep=1 '--comment=Importing images from [https://thefearmythos.fandom.com](https://thefearmythos.fandom.com) ([T16421](https://meta.miraheze.org/wiki/phorge:T16421))' -- images/ (START)
+* 13:52 MirahezeLSBot: [jenny@mwtask181] Starting import for fearmythoswiki (XML: None; Images: images/) (START)
+* 13:44 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=fantendowiki --update (END - exit=0) (T15922)
+* 13:42 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fantendowiki --overwrite '--comment=Importing images from [https://fantendo.fandom.com](https://fantendo.fandom.com) ([T15922](https://meta.miraheze.org/wiki/phorge:T15922))' -- GIFs (END - exit=0; time=1224s) (T15922)
+* 13:36 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php rebuildall --wiki=bullyfanonwiki (START)
+* 13:36 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importDump --wiki=bullyfanonwiki --no-updates --username-prefix=wikia:bullyfanon -- hist.xml (END - exit=0)
+* 13:28 MirahezeLSBot: [jenny@mwtask151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fantendohispanawiki --sleep=1 '--comment=Importing images from [https://fantendo.fandom.com/es](https://fantendo.fandom.com/es) ([T16422](https://meta.miraheze.org/wiki/phorge:T16422))' -- images/ (START)
+* 13:28 MirahezeLSBot: [jenny@mwtask151] Starting import for fantendohispanawiki (XML: None; Images: images/) (START)
+* 13:22 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fantendowiki --overwrite '--comment=Importing images from [https://fantendo.fandom.com](https://fantendo.fandom.com) ([T15922](https://meta.miraheze.org/wiki/phorge:T15922))' -- GIFs (START) (T15922)
+* 13:20 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fantendowiki ./GIFS/ --overwrite '--comment=Importing images from [https://fantendo.fandom.com](https://fantendo.fandom.com) ([T15922](https://meta.miraheze.org/wiki/phorge:T15922))' (END - exit=1; time=1s) (T15922)
+* 13:20 MirahezeLSBot: [jenny@mwtask161] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fantendowiki ./GIFS/ --overwrite '--comment=Importing images from [https://fantendo.fandom.com](https://fantendo.fandom.com) ([T15922](https://meta.miraheze.org/wiki/phorge:T15922))' (START) (T15922)
+* 13:11 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importDump --wiki=bullyfanonwiki --no-updates --username-prefix=wikia:bullyfanon -- hist.xml (START)
+* 13:11 MirahezeLSBot: [jenny@mwtask171] Starting import for bullyfanonwiki (XML: hist.xml; Images: None) (START)
+* 12:47 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'debug': True} to all - SUCCESS in 27s (T16417)
+* 12:47 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'pull': 'config', 'config': True, 'debug': True} to all (T16417)
+* 01:24 Universal Omega: removed public IPs from mw181, mw182, and mw183
+* 01:18 Universal Omega: removed public IPs from mw171, mw172, and mw173
+* 00:35 Universal Omega: removed public IP from bots171
+* 00:34 Universal Omega: removed public IP from puppet181
+* 00:31 Universal Omega: removed public IP from mon181
+
 ## 2026-11-05 
 
 * 23:17 Universal Omega: change certificate in puppetdb to point to puppet181.fsslc.wtnet (rather than puppet181.wikitide.net)

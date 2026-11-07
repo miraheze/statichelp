@@ -58,14 +58,14 @@ Here are the steps you should follow when adding a new puppet agent (server) to 
    * `export https_proxy="http://10.0.16.127:8080"`
    * `wget -O openvox.sh https://phorge-static.wikitide.net/file/data/xp56xxi5hnb3bin4m4ni/PHID-FILE-p7uosj7s6eicjkmsamg6/openvox_install_script`
 * Step 2: (On the **puppetserver**) `cd /etc/puppetlabs/puppet/git && git pull`
-* Step 3: (On the **agent**) execute `puppet agent -tv --server puppet181.wikitide.net --waitforcert
+* Step 3: (On the **agent**) execute `puppet agent -tv --server puppet181.fsslc.wtnet --waitforcert
 60 --http_proxy_host 10.0.16.127 --http_proxy_port 8080`
 * Step 4: (On the **puppetserver**) Check `puppetserver ca list`, and make sure that the fingerprints match
 * Step 5: (On the **puppetserver**) <ins>After you have made sure that the fingerprints match</ins>, execute:
 * `puppetserver ca sign --certname [servername].[dcname].wtnet`
-* Step 6: (On the **agent**) execute `puppet agent -tv --server puppet181.wikitide.net`
+* Step 6: (On the **agent**) execute `puppet agent -tv --server puppet181.fsslc.wtnet`
     `{{ {{note}} }}` The agent will automatically detect the signed certificate and proceed from there.
-* Step 7: (On the **agent**) verify that `puppet agent -tv` works without `--server puppet181.wikitide.net`.
+* Step 7: (On the **agent**) verify that `puppet agent -tv` works without `--server puppet181.fsslc.wtnet`.
 
 ## Removing puppet agent (server) on the Puppetserver 
 

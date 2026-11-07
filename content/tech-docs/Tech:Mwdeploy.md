@@ -8,6 +8,12 @@ The current canary server is mwtask181; test151 is managed separately by the sam
 
 The `--servers` argument must currently be included. You should just append every command with `--servers=all` to deploy to all servers. Doing that on test151 will only deploy it locally on test151. You can include a comma separated list if you wish to deploy to specific servers.
 
+## How it works 
+
+On test151, mwdeploy copies files in `/srv/mediawiki-staging` into `/srv/mediawiki`. This way, you can make the changes to extensions/skins/config as you need in the staging directory without affecting the server. Once you are ready, run mwdeploy to copy your changes to the corresponding directory in `/srv/mediawiki`, where the new files are served to incoming web traffic. Note that staging gets reset by puppet once every 30 minutes, so the following sequence of events is possible: you change the content in staging -> deploy -> staging gets reset by puppet -> staging has old content while the server is running your updated version. Someone else might come in and deploy their own changes upon the old content, which means your changes will be reset.
+
+On mwtask181, mwdeploy copies the specified files in `/srv/mediawiki-staging` into all mw* and mwtask* servers. This is convenient because otherwise you will need to update the skin/extension/config on every single server, whereas with mwdeploy you only need a single command.
+
 ## Logging 
 
 All errors and warnings will log failure messages to [SAL](/tech-docs/techserver_admin_log). A deployment will abort if the commands to copy data from staging to the canary server.

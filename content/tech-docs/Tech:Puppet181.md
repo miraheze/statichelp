@@ -6,7 +6,7 @@ title: Tech:Puppet181
 {{ {{Server
 | name = puppet181
 | location = FiberState Salt Lake City
-| host = puppet181.wikitide.net
+| host = puppet181.fsslc.wtnet
 | usage = Puppetmaster
 | status = running
 | memory = 16GB

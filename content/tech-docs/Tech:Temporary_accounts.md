@@ -10,7 +10,9 @@ Temporary accounts are enabled on a per-wiki basis on Miraheze.
 
 ### Prerequisites 
 
-The request must be made by a bureaucrat of the local wiki, with the understanding that many extensions may be incompatible with temporary accounts and might cause problems on the wiki in question. See [T15186](https://meta.miraheze.org/wiki/phab:T15186) for the current progress of extension testing and a [script for checking extension compatibility](https://meta.miraheze.org/wiki/User:PetraMagna/temp_account_js). Temporary accounts may also be disabled without notice if the Technology Team or [Counter Vandalism Team](https://meta.miraheze.org/wiki/Counter_Vandalism_Team) decide that technical or vandalism problems warrant a pause in this experiment.
+The request must be made by a bureaucrat of the local wiki, with the understanding that many extensions may be incompatible with temporary accounts and might cause problems on the wiki in question. These problems mainly affect temporary accounts and are unlikely to break other wiki functionality.
+
+See [T15186](https://meta.miraheze.org/wiki/phab:T15186) for the current progress of extension testing and a [script for checking extension compatibility](https://meta.miraheze.org/wiki/User:PetraMagna/temp_account_js). Temporary accounts may also be disabled without notice if the Technology Team or [Counter Vandalism Team](https://meta.miraheze.org/wiki/Counter_Vandalism_Team) decide that technical or vandalism problems warrant a pause in this experiment.
 
 The wiki should ideally:
 * Satisfy one of the following:
@@ -48,6 +50,7 @@ An extension that was written before temporary accounts existed may break, or it
 
 ### Before you start 
 
+* Be aware that by default administrator on a wiki can see the country that an IP belongs to, which is intended for fighting vandalism. If you prefer to not let others know your country, do not test temporary accounts. If you are the sole bureaucrat on a wiki, you can remove the `ipinfo-view-basic` and `ipinfo` rights from administrators.
 * Use a private or incognito window so you are fully logged out. To start again as a new visitor, close the private window and open a new one.
 * Make sure logged-out users are actually allowed to use the feature(s) you are testing. Many extensions by default only let logged-in users perform an action in question, such as commenting or voting.
 * You will know you have a temporary account when your username starts with `~` followed by some numbers.
