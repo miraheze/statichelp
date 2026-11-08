@@ -37,13 +37,15 @@ Multiple extensions can also be upgraded at the same time by separating the name
 
 ## Deploying config changes 
 
-To pull and deploy the changes:
+To pull the latest changes from GitHub and deploy the changes:
 * `mwdeploy --config --pull=config --servers=all`
 
 To deploy local changes (equivalent to using **--folders=config**):
 * `mwdeploy --config --servers=all`
 
-### Deploying an mw-config PR on beta 
+## Deploying extension or config PRs on beta 
+
+### For mw-config 
 
 Use the following shell commands to check out and deploy a pull request made to mw-config (e.g. for testing a change on beta).
 Replace *[PR NUMBER]* with the number of the PR you want to check out and *[BRANCH]* with the branch the PR commits are on (not the target branch!).
@@ -61,6 +63,21 @@ If you frequently deploy PRs from your own fork, you can add your fork as a remo
 ```
 sugit remote add petra https://github.com/lihaohong6/mw-config
 sugit fetch petra [remote-branch-name]:[local-branch-name]
+```
+
+### For extensions and skins 
+
+The procedure is similar with mw-config, except that:
+* You need to go to `/srv/mediawiki-staging/[VERSION]/extensions/[EXTENSION NAME]`
+* Run the same `sugit fetch origin pull/[PR NUMBER]/head:[BRANCH]` and `sugit checkout [BRANCH]` lines
+* Run `mwdeploy --folders=[VERSION]/extensions/[EXTENSION NAME]`
+
+For example,
+```shell
+cd /srv/mediawiki-staging/1.46/extensions/MirahezeMagic
+sugit fetch origin pull/678/head:pr678
+sugit switch pr678
+mwdeploy --folders=1.46/extensions/MirahezeMagic --servers=test151
 ```
 
 ## Deploying MediaWiki 

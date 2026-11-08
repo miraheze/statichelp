@@ -2,6 +2,136 @@
 title: Tech:Server admin log
 ---
 
+## 2026-11-07 
+
+* 23:58 Universal Omega: enabled QEMU guest agent on rdb191 to fix networking issues
+* 23:57 MirahezeLSBot: [universalomega@cloud19] Fix redis: sudo qm guest exec 149 service networking restart
+* 23:56 MirahezeLSBot: [universalomega@cloud19] Fix redis: sudo qm guest exec 149 -- sed -i 's#10.0.19.149/24#10.0.19.149#' /etc/network/interfaces
+* 23:41 Universal Omega: removed public IPs from os151, os161, os191, and os201
+* 21:15 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CentralAuth:fixStuckGlobalRename --wiki=japolandballwiki '与野よの' '塚野の民' --logwiki=metawiki (END - exit=0)
+* 21:15 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CentralAuth:fixStuckGlobalRename --wiki=japolandballwiki '--oldname=与野よの' '--newname=塚野の民' --logwiki=metawiki (END - exit=1)
+* 21:14 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php extensions/CentralAuth/fixStuckGlobalRename --wiki=japolandballwiki '--oldname=与野よの' '--newname=塚野の民' --logwiki=metawiki (END - exit=1)
+* 21:14 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=metawiki --all-wikis (END - exit=0; time=921s) (T14461)
+* 20:59 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=metawiki --all-wikis (START) (T14461)
+* 20:57 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 37s (T14461)
+* 20:57 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ManageWiki'} to all (T14461)
+* 20:53 Universal Omega: removed public IP from graylog161
+* 20:51 Universal Omega: removed public IP from ldap171
+* 20:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject211: zlib1g, libruby3.3, and ruby3.3
+* 20:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy161: zlib1g-dev, zlib1g, libruby3.3, and ruby3.3
+* 20:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject201: zlib1g, libruby3.3, and ruby3.3
+* 20:47 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject181: zlib1g, libruby3.3, and ruby3.3
+* 20:47 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on test151: zlib1g-dev, zlib1g, libruby3.3, and ruby3.3
+* 20:47 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject191: zlib1g, libruby3.3, and ruby3.3
+* 20:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy171: zlib1g-dev, zlib1g, libruby3.3, and ruby3.3
+* 20:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject171: zlib1g, libruby3.3, and ruby3.3
+* 20:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject161: zlib1g, libruby3.3, and ruby3.3
+* 20:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftac171: zlib1g-dev, zlib1g, libruby3.3, and ruby3.3
+* 20:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject151: zlib1g, libruby3.3, and ruby3.3
+* 20:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on speedscope211: zlib1g, libruby3.3, and ruby3.3
+* 20:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os201: zlib1g, libruby3.3, and ruby3.3
+* 20:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os162: zlib1g, libruby3.3, and ruby3.3
+* 20:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on rdb191: zlib1g, libruby3.3, and ruby3.3
+* 20:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os191: zlib1g, libruby3.3, and ruby3.3
+* 20:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on phorge171: zlib1g, libruby3.3, and ruby3.3
+* 20:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os151: zlib1g, libruby3.3, and ruby3.3
+* 20:42 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on puppet181: zlib1g-dev, zlib1g, libruby3.3, and ruby3.3
+* 20:42 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os202: zlib1g, libruby3.3, and ruby3.3
+* 20:42 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on prometheus151: zlib1g, libruby3.3, and ruby3.3
+* 20:42 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on reports171: zlib1g, libruby3.3, and ruby3.3
+* 20:41 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os161: zlib1g, libruby3.3, and ruby3.3
+* 20:41 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask181: zlib1g-dev, zlib1g, libruby3.3, and ruby3.3
+* 20:41 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ns2: zlib1g, libruby3.3, and ruby3.3
+* 20:41 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask171: zlib1g-dev, zlib1g, libruby3.3, and ruby3.3
+* 20:40 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask161: zlib1g-dev, zlib1g, libruby3.3, and ruby3.3
+* 20:40 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ns1: zlib1g, libruby3.3, and ruby3.3
+* 20:40 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask151: zlib1g-dev, zlib1g, libruby3.3, and ruby3.3
+* 20:39 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw211: zlib1g-dev, zlib1g, libruby3.3, and ruby3.3
+* 20:39 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw213: zlib1g-dev, zlib1g, libruby3.3, and ruby3.3
+* 20:39 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw203: zlib1g-dev, zlib1g, libruby3.3, and ruby3.3
+* 20:39 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw212: zlib1g-dev, zlib1g, libruby3.3, and ruby3.3
+* 20:38 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw201: zlib1g-dev, zlib1g, libruby3.3, and ruby3.3
+* 20:38 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw202: zlib1g-dev, zlib1g, libruby3.3, and ruby3.3
+* 20:38 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw193: zlib1g-dev, zlib1g, libruby3.3, and ruby3.3
+* 20:37 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw192: zlib1g-dev, zlib1g, libruby3.3, and ruby3.3
+* 20:37 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw181: zlib1g-dev, zlib1g, libruby3.3, and ruby3.3
+* 20:37 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem191: zlib1g, libruby3.3, and ruby3.3
+* 20:36 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw183: zlib1g-dev, zlib1g, libruby3.3, and ruby3.3
+* 20:36 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw182: zlib1g-dev, zlib1g, libruby3.3, and ruby3.3
+* 20:36 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw191: zlib1g-dev, zlib1g, libruby3.3, and ruby3.3
+* 20:36 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw162: zlib1g-dev, zlib1g, libruby3.3, and ruby3.3
+* 20:35 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw163: zlib1g-dev, zlib1g, libruby3.3, and ruby3.3
+* 20:35 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw161: zlib1g-dev, zlib1g, libruby3.3, and ruby3.3
+* 20:35 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mon181: zlib1g, libruby3.3, and ruby3.3
+* 20:34 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw172: zlib1g-dev, zlib1g, libruby3.3, and ruby3.3
+* 20:34 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem161: zlib1g, libruby3.3, and ruby3.3
+* 20:34 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw171: zlib1g-dev, zlib1g, libruby3.3, and ruby3.3
+* 20:34 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw152: zlib1g-dev, zlib1g, libruby3.3, and ruby3.3
+* 20:33 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw173: zlib1g-dev, zlib1g, libruby3.3, and ruby3.3
+* 20:33 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw153: zlib1g-dev, zlib1g, libruby3.3, and ruby3.3
+* 20:33 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem201: zlib1g, libruby3.3, and ruby3.3
+* 20:32 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on matomo211: zlib1g, libruby3.3, and ruby3.3
+* 20:32 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw151: zlib1g-dev, zlib1g, libruby3.3, and ruby3.3
+* 20:32 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on kafka182: zlib1g, libruby3.3, and ruby3.3
+* 20:32 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on llm191: zlib1g-dev, zlib1g, libruby3.3, and ruby3.3
+* 20:31 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem151: zlib1g, libruby3.3, and ruby3.3
+* 20:31 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on matomo151: zlib1g, libruby3.3, and ruby3.3
+* 20:31 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on graylog161: zlib1g, libruby3.3, and ruby3.3
+* 20:30 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ldap171: zlib1g, libruby3.3, and ruby3.3
+* 20:30 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mattermost2: zlib1g, libruby3.3, and ruby3.3
+* 20:30 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db201: zlib1g, libruby3.3, and ruby3.3
+* 20:30 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bast181: zlib1g, libruby3.3, and ruby3.3
+* 20:29 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on eventgate182: zlib1g, libruby3.3, and ruby3.3
+* 20:29 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud21: zlib1g, libruby3.3, and ruby3.3
+* 20:29 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db193: zlib1g, libruby3.3, and ruby3.3
+* 20:28 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db171: zlib1g, libruby3.3, and ruby3.3
+* 20:28 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db192: zlib1g, libruby3.3, and ruby3.3
+* 20:28 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db182: zlib1g, libruby3.3, and ruby3.3
+* 20:28 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud20: zlib1g, libruby3.3, and ruby3.3
+* 20:27 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db181: zlib1g, libruby3.3, and ruby3.3
+* 20:27 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db161: zlib1g, libruby3.3, and ruby3.3
+* 20:27 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud18: zlib1g, libruby3.3, and ruby3.3
+* 20:27 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on changeprop202: zlib1g, libruby3.3, and ruby3.3
+* 20:26 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud17: zlib1g, libruby3.3, and ruby3.3
+* 20:26 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud16: zlib1g, libruby3.3, and ruby3.3
+* 20:26 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db172: zlib1g, libruby3.3, and ruby3.3
+* 20:26 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp201: zlib1g, libruby3.3, and ruby3.3
+* 20:25 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db151: zlib1g, libruby3.3, and ruby3.3
+* 20:25 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud19: zlib1g, libruby3.3, and ruby3.3
+* 20:25 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp191: zlib1g, libruby3.3, and ruby3.3
+* 20:25 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp161: zlib1g, libruby3.3, and ruby3.3
+* 20:24 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud15: zlib1g, libruby3.3, and ruby3.3
+* 20:24 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bots171: zlib1g-dev, zlib1g, libruby3.3, and ruby3.3
+* 20:24 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp171: zlib1g, libruby3.3, and ruby3.3
+* 20:24 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bast161: zlib1g, libruby3.3, and ruby3.3
+* 15:33 MirahezeLSBot: [petramagna@test151] Run `ALTER TABLE mw_namespaces MODIFY COLUMN ns_namespace_name VARCHAR(128) NOT NULL;` on testglobal
+* 15:05 MirahezeLSBot: [elisapoly@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=ruwikibeta (END - exit=0)
+* 15:05 MirahezeLSBot: [elisapoly@test151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:ResetWikiCaches --wiki=ruwikibeta (END - exit=1)
+* 14:52 MirahezeLSBot: [elisapoly@test151] finished deploy of {'config': True, 'folders': '1.46/extensions/ManageWiki'} to test151 - SUCCESS in 0s
+* 14:51 MirahezeLSBot: [elisapoly@test151] Starting deploy of {'config': True, 'folders': '1.46/extensions/ManageWiki'} to test151
+* 14:50 MirahezeLSBot: [elisapoly@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 14:50 MirahezeLSBot: [elisapoly@test151] Starting deploy of {'config': True} to test151
+* 14:30 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True, 'versions': []} to test151 - SUCCESS in 0s
+* 14:30 MirahezeLSBot: [petramagna@test151] Starting deploy of {'config': True, 'versions': []} to test151
+* 14:09 MirahezeLSBot: [elisapoly@test151] Starting deploy of {'config': True, 'folders': 'ManageWiki'} to test151
+* 14:02 MirahezeLSBot: [petramagna@test151] finished deploy of {'pull': 'config', 'config': True, 'versions': [], 'debug': True} to test151 - SUCCESS in 1s
+* 14:02 MirahezeLSBot: [petramagna@test151] Starting deploy of {'pull': 'config', 'config': True, 'versions': [], 'debug': True} to test151
+* 13:56 MirahezeLSBot: [elisapoly@test151] DEPLOY ABORTED: Canary check failed for meta.mirabeta.org@localhost
+* 13:56 MirahezeLSBot: [elisapoly@test151] Starting deploy of {'config': True} to test151
+* 11:07 MirahezeLSBot: [jenny@mwtask151] mwimport fantendohispanawiki --images=images/ --images-comment=Importing images from [https://fantendo.fandom.com/es](https://fantendo.fandom.com/es) ([T16422](https://meta.miraheze.org/wiki/phorge:T16422)) (T16422)
+* 11:03 MirahezeLSBot: [jenny@mwtask151] Finished import for fantendohispanawiki (XML: None; Images: images/) (END - exit=0)
+* 11:03 MirahezeLSBot: [jenny@mwtask151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=fantendohispanawiki --update (END - exit=0)
+* 11:03 MirahezeLSBot: [jenny@mwtask151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=fantendohispanawiki --update (START)
+* 11:03 MirahezeLSBot: [jenny@mwtask151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fantendohispanawiki --sleep=0 '--comment=Importing images from [https://fantendo.fandom.com/es](https://fantendo.fandom.com/es) ([T16422](https://meta.miraheze.org/wiki/phorge:T16422))' -- images/ (END - exit=0)
+* 11:03 MirahezeLSBot: [jenny@mwtask151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fantendohispanawiki --sleep=0 '--comment=Importing images from [https://fantendo.fandom.com/es](https://fantendo.fandom.com/es) ([T16422](https://meta.miraheze.org/wiki/phorge:T16422))' -- images/ (START)
+* 11:02 MirahezeLSBot: [jenny@mwtask151] Starting import for fantendohispanawiki (XML: None; Images: images/) (START)
+* 10:58 MirahezeLSBot: [jenny@mwtask151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fantendohispanawiki '--comment=Importing images from [https://fantendo.fandom.com/es](https://fantendo.fandom.com/es) ([T16422](https://meta.miraheze.org/wiki/phorge:T16422))' --from=Goku_Artwork_2.png -- . (END - exit=0; time=240s)
+* 10:54 MirahezeLSBot: [jenny@mwtask151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fantendohispanawiki '--comment=Importing images from [https://fantendo.fandom.com/es](https://fantendo.fandom.com/es) ([T16422](https://meta.miraheze.org/wiki/phorge:T16422))' --from=Goku_Artwork_2.png -- . (START)
+* 10:54 MirahezeLSBot: [jenny@mwtask151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fantendohispanawiki '--comment=Importing images from [https://fantendo.fandom.com/es](https://fantendo.fandom.com/es) ([T16422](https://meta.miraheze.org/wiki/phorge:T16422))' --from=Goku_Artwork_2.png -- . (END - exit=1; time=1s)
+* 10:54 MirahezeLSBot: [jenny@mwtask151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fantendohispanawiki '--comment=Importing images from [https://fantendo.fandom.com/es](https://fantendo.fandom.com/es) ([T16422](https://meta.miraheze.org/wiki/phorge:T16422))' --from=Goku_Artwork_2.png -- . (START)
+* 01:51 MirahezeLSBot: [jenny@mwtask151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php importImages --wiki=fantendohispanawiki '--comment=Importing images from [https://fantendo.fandom.com/es](https://fantendo.fandom.com/es) ([T16422](https://meta.miraheze.org/wiki/phorge:T16422))' --from=BlueBaby.png --sleep=1 -- . (END - exit=130; time=18689s)
+* 01:31 Universal Omega: removed public IP from os162
+
 ## 2026-11-06 
 
 * 23:34 Universal Omega: removed public IP from prometheus151
