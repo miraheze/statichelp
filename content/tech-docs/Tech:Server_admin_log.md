@@ -2,6 +2,184 @@
 title: Tech:Server admin log
 ---
 
+## 2026-11-08 
+
+* 23:58 MirahezeLSBot: [oa@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s (T16407)
+* 23:58 MirahezeLSBot: [oa@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all (T16407)
+* 23:03 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=sekaijuwiki (END - exit=0)
+* 22:51 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=sekaijuwiki --startOver (END - exit=0)
+* 22:51 MirahezeLSBot: [jenny@mwtask171] curl -X DELETE [https://opensearch-mw.wikitide.net/sekaijuwiki_content](https://opensearch-mw.wikitide.net/sekaijuwiki_content) [https://opensearch-mw.wikitide.net/sekaijuwiki_general](https://opensearch-mw.wikitide.net/sekaijuwiki_general)
+* 22:22 Universal Omega: removed public IPs from swiftobject151, swiftobject161, swiftobject171, swiftobject181, swiftobject191, swiftobject201, and swiftobject211
+* 22:09 Universal Omega: removed public IPs from swiftproxy161 and swiftproxy171
+* 22:02 Universal Omega: removed public IP from swiftac171
+* 21:55 Universal Omega: removed public IPs from mem151, mem161, mem191, and mem201
+* 21:44 Universal Omega: removed public IPs from db151, db161, db171, db172, db181, and db182
+* 21:19 Universal Omega: removed public IP from eventgate182
+* 21:10 Universal Omega: removed public IP from llm191
+* 21:05 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw153: linux-libc-dev
+* 21:05 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db201: linux-libc-dev
+* 21:05 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db182: linux-libc-dev
+* 21:04 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on kafka182: linux-libc-dev
+* 21:04 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bots171: linux-libc-dev
+* 21:04 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp191: linux-libc-dev
+* 21:03 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud19: libcpupower1, linux-cpupower, and linux-libc-dev
+* 21:02 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud21: libcpupower1, linux-cpupower, and linux-libc-dev
+* 21:02 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud15: libcpupower1, linux-cpupower, and linux-libc-dev
+* 21:01 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on speedscope211: linux-libc-dev
+* 21:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy171: linux-libc-dev
+* 21:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftac171: linux-libc-dev
+* 20:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject201: linux-libc-dev
+* 20:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject181: linux-libc-dev
+* 20:58 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject191: linux-libc-dev
+* 20:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on phorge171: linux-libc-dev
+* 20:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on rdb191: linux-libc-dev
+* 20:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os201: linux-libc-dev
+* 20:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask171: linux-libc-dev
+* 20:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on prometheus151: linux-libc-dev
+* 20:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask161: linux-libc-dev
+* 20:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os151: linux-libc-dev
+* 20:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ns1: linux-libc-dev
+* 20:55 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask151: linux-libc-dev
+* 20:55 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw213: linux-libc-dev
+* 20:55 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw212: linux-libc-dev
+* 20:55 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw211: linux-libc-dev
+* 20:55 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw203: linux-libc-dev
+* 20:54 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw183: linux-libc-dev
+* 20:54 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw201: linux-libc-dev
+* 20:54 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw181: linux-libc-dev
+* 20:54 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw191: linux-libc-dev
+* 20:53 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw202: linux-libc-dev
+* 20:53 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw193: linux-libc-dev
+* 20:53 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw182: linux-libc-dev
+* 20:52 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw171: linux-libc-dev
+* 20:52 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw172: linux-libc-dev
+* 20:52 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw173: linux-libc-dev
+* 20:52 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw162: linux-libc-dev
+* 20:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem201: linux-libc-dev
+* 20:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on matomo211: linux-libc-dev
+* 20:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on llm191: linux-libc-dev
+* 20:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw163: linux-libc-dev
+* 20:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem161: linux-libc-dev
+* 20:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem151: linux-libc-dev
+* 20:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw161: linux-libc-dev
+* 20:49 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw151: linux-libc-dev
+* 20:49 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw152: linux-libc-dev
+* 20:49 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db192: linux-libc-dev
+* 20:49 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mon181: linux-libc-dev
+* 20:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db161: linux-libc-dev
+* 20:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db181: linux-libc-dev
+* 20:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on graylog161: linux-libc-dev
+* 20:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db171: linux-libc-dev
+* 20:47 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db193: linux-libc-dev
+* 20:47 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ldap171: linux-libc-dev
+* 20:47 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on changeprop202: linux-libc-dev
+* 20:47 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db151: linux-libc-dev
+* 20:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on matomo151: linux-libc-dev
+* 20:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mattermost2: linux-libc-dev
+* 20:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp171: linux-libc-dev
+* 20:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud17: libcpupower1, linux-cpupower, and linux-libc-dev
+* 20:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp201: linux-libc-dev
+* 20:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp161: linux-libc-dev
+* 20:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bast181: linux-libc-dev
+* 20:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on eventgate182: linux-libc-dev
+* 20:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud18: libcpupower1, linux-cpupower, and linux-libc-dev
+* 20:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud20: libcpupower1, linux-cpupower, and linux-libc-dev
+* 20:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud16: libcpupower1, linux-cpupower, and linux-libc-dev
+* 20:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db172: linux-libc-dev
+* 20:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bast161: linux-libc-dev
+* 20:39 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject211: vim, vim-common, vim-tiny, vim-runtime, and linux-libc-dev
+* 20:39 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject191: vim, vim-common, vim-tiny, and vim-runtime
+* 20:39 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject201: vim, vim-common, vim-tiny, and vim-runtime
+* 20:38 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject181: vim, vim-common, vim-tiny, and vim-runtime
+* 20:38 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on test151: vim, vim-common, vim-tiny, vim-runtime, and linux-libc-dev
+* 20:37 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy161: vim, vim-common, vim-tiny, vim-runtime, and linux-libc-dev
+* 20:37 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject161: vim, vim-common, vim-tiny, vim-runtime, and linux-libc-dev
+* 20:37 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy171: vim, vim-common, vim-tiny, and vim-runtime
+* 20:36 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject171: vim, vim-common, vim-tiny, vim-runtime, and linux-libc-dev
+* 20:36 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftac171: vim, vim-common, vim-tiny, and vim-runtime
+* 20:36 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on speedscope211: vim, vim-common, vim-tiny, and vim-runtime
+* 20:35 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject151: vim, vim-common, vim-tiny, vim-runtime, and linux-libc-dev
+* 20:35 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os191: vim, vim-common, vim-tiny, vim-runtime, and linux-libc-dev
+* 20:35 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os201: vim, vim-common, vim-tiny, and vim-runtime
+* 20:35 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os202: vim, vim-common, vim-tiny, vim-runtime, and linux-libc-dev
+* 20:34 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os162: vim, vim-common, vim-tiny, vim-runtime, and linux-libc-dev
+* 20:34 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on rdb191: vim, vim-common, vim-tiny, and vim-runtime
+* 20:34 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on puppet181: vim, vim-common, vim-tiny, vim-runtime, linux-libc-dev, and xxd
+* 20:33 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on prometheus151: vim, vim-common, vim-tiny, and vim-runtime
+* 20:33 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os151: vim, vim-common, vim-tiny, and vim-runtime
+* 20:33 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on reports171: vim, vim-common, vim-tiny, vim-runtime, and linux-libc-dev
+* 20:33 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os161: vim, vim-common, vim-tiny, vim-runtime, and linux-libc-dev
+* 20:32 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask181: vim, vim-common, vim-tiny, vim-runtime, and linux-libc-dev
+* 20:32 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on phorge171: vim, vim-common, vim-tiny, and vim-runtime
+* 20:32 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask161: vim, vim-common, vim-tiny, and vim-runtime
+* 20:31 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ns1: vim, vim-common, vim-tiny, and vim-runtime
+* 20:31 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw213: vim, vim-common, vim-tiny, and vim-runtime
+* 20:31 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask171: vim, vim-common, vim-tiny, and vim-runtime
+* 20:31 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ns2: vim, vim-common, vim-tiny, vim-runtime, and linux-libc-dev
+* 20:30 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw211: vim, vim-common, vim-tiny, and vim-runtime
+* 20:30 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask151: vim, vim-common, vim-tiny, and vim-runtime
+* 20:30 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw212: vim, vim-common, vim-tiny, and vim-runtime
+* 20:30 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw203: vim, vim-common, vim-tiny, and vim-runtime
+* 20:29 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw202: vim, vim-common, vim-tiny, and vim-runtime
+* 20:29 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw201: vim, vim-common, vim-tiny, and vim-runtime
+* 20:29 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw193: vim, vim-common, vim-tiny, and vim-runtime
+* 20:28 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw192: vim, vim-common, vim-tiny, vim-runtime, and linux-libc-dev
+* 20:28 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw191: vim, vim-common, vim-tiny, and vim-runtime
+* 20:28 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem191: vim, vim-common, vim-tiny, vim-runtime, and linux-libc-dev
+* 20:27 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw183: vim, vim-common, vim-tiny, and vim-runtime
+* 20:27 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw181: vim, vim-common, vim-tiny, and vim-runtime
+* 20:27 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw173: vim, vim-common, vim-tiny, and vim-runtime
+* 20:26 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw182: vim, vim-common, vim-tiny, and vim-runtime
+* 20:26 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw162: vim, vim-common, vim-tiny, and vim-runtime
+* 20:26 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw161: vim, vim-common, vim-tiny, and vim-runtime
+* 20:26 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw172: vim, vim-common, vim-tiny, and vim-runtime
+* 20:25 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw163: vim, vim-common, vim-tiny, and vim-runtime
+* 20:25 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw151: vim, vim-common, vim-tiny, and vim-runtime
+* 20:25 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw153: vim, vim-common, vim-tiny, and vim-runtime
+* 20:25 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem201: vim, vim-common, vim-tiny, and vim-runtime
+* 20:24 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on matomo211: vim, vim-common, vim-tiny, and vim-runtime
+* 20:24 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw171: vim, vim-common, vim-tiny, and vim-runtime
+* 20:24 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mon181: vim, vim-common, vim-tiny, and vim-runtime
+* 20:23 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw152: vim, vim-common, vim-tiny, and vim-runtime
+* 20:23 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on llm191: vim, vim-common, vim-tiny, and vim-runtime
+* 20:23 MirahezeLSBot: [reception@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 20:23 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on kafka182: vim, vim-common, vim-tiny, and vim-runtime
+* 20:22 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem161: vim, vim-common, vim-tiny, and vim-runtime
+* 20:22 MirahezeLSBot: [reception@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 20:22 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem151: vim, vim-common, vim-tiny, and vim-runtime
+* 20:22 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on matomo151: vim, vim-common, vim-tiny, and vim-runtime
+* 20:22 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ldap171: vim, vim-common, vim-tiny, and vim-runtime
+* 20:21 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on graylog161: vim, vim-common, vim-tiny, and vim-runtime
+* 20:21 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mattermost2: vim, vim-common, vim-tiny, and vim-runtime
+* 20:21 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on eventgate182: vim, vim-common, vim-tiny, and vim-runtime
+* 20:21 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bast181: vim, vim-common, vim-tiny, and vim-runtime
+* 20:20 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db193: vim, vim-common, vim-tiny, and vim-runtime
+* 20:20 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud16: vim, vim-common, vim-tiny, and vim-runtime
+* 20:20 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db192: vim, vim-common, vim-tiny, and vim-runtime
+* 20:19 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db181: vim, vim-common, vim-tiny, and vim-runtime
+* 20:19 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud17: vim, vim-common, vim-tiny, and vim-runtime
+* 20:19 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud21: vim, vim-common, vim-tiny, and vim-runtime
+* 20:19 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db171: vim, vim-common, vim-tiny, and vim-runtime
+* 20:18 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db161: vim, vim-common, vim-tiny, and vim-runtime
+* 20:18 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud20: vim, vim-common, vim-tiny, and vim-runtime
+* 20:18 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on changeprop202: vim, vim-common, vim-tiny, and vim-runtime
+* 20:18 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud18: vim, vim-common, vim-tiny, and vim-runtime
+* 20:17 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db182: vim, vim-common, vim-tiny, and vim-runtime
+* 20:17 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db201: vim, vim-common, vim-tiny, and vim-runtime
+* 20:17 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud19: vim, vim-common, vim-tiny, and vim-runtime
+* 20:16 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db151: vim, vim-common, vim-tiny, and vim-runtime
+* 20:16 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp201: vim, vim-common, vim-tiny, and vim-runtime
+* 20:16 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud15: vim, vim-common, vim-tiny, and vim-runtime
+* 20:16 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db172: vim, vim-common, vim-tiny, and vim-runtime
+* 20:16 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bots171: vim, vim-common, vim-tiny, and vim-runtime
+* 20:15 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp161: vim, vim-common, vim-tiny, and vim-runtime
+* 20:15 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp191: vim, vim-common, vim-tiny, and vim-runtime
+* 20:15 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp171: vim, vim-common, vim-tiny, and vim-runtime
+* 20:15 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bast161: vim, vim-common, vim-tiny, and vim-runtime
+* 01:41 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php nukeNS --wiki=pillarchasewiki --ns 6 --all --delete (END - exit=0; time=73s) (T16469)
+* 01:40 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php nukeNS --wiki=pillarchasewiki --ns 6 --all --delete (START) (T16469)
+* 00:02 Universal Omega: disabled QEMU guest agent on rdb191 again
+
 ## 2026-11-07 
 
 * 23:58 Universal Omega: enabled QEMU guest agent on rdb191 to fix networking issues
