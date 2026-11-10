@@ -21,7 +21,8 @@ Other statistics can be found on [this page](https://meta.miraheze.org/wiki/User
 | + |
 | Month | Approved | Declined | Abandoned | Total requests | % approved |
 | --- | --- | --- | --- | --- | --- |
-| October 2026 | |  |  |  |  |
+| November 2026 | |  |  |  |  |
+| October 2026 | 1703 | 391 | 410 | 2506 | 68% |
 | September 2026 | 1715 | 310 | 377 | 2403 | 71% |
 | August 2026 | 1914 | 347 | 380 | 2698 | 71% |
 | July 2026 | 1728 | 255 | 348 | 2388 | 72% |
