@@ -75,6 +75,8 @@ Examples:
 
 The Graylog interface is not directly accessible without a [SOCKS5 proxy](https://meta.miraheze.org/wiki/w:SOCKS#SOCKS5), similar to [Proxmox](/tech-docs/techproxmox). To access Graylog, follow the setup instructions for SmartProxy on your browser, and then configure either OpenSSH or PuTTY to serve as the proxy.
 
+After you are able to access the login interface on [https://logging.wikitide.net](https://logging.wikitide.net), use your LDAP credentials to log in.
+
 ### SmartProxy Setup 
 
 Install SmartProxy:
