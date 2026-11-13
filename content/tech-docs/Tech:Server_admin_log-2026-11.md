@@ -4,6 +4,93 @@ title: Tech:Server admin log/2026-11
 
 `{{ {{Server admin log/nav}} }}`
 
+## 2026-11-12 
+
+* 20:55 MirahezeLSBot: [rhinos@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 20:55 MirahezeLSBot: [rhinos@test151] Starting deploy of {'world': True, 'versions': '1.47', 'apply_patches': '01-T444647.patch'} to test151
+* 20:52 MirahezeLSBot: [rhinos@test151] finished deploy of {'world': True, 'versions': '1.47'} to test151 - SUCCESS in 23s
+* 20:52 MirahezeLSBot: [rhinos@test151] Starting deploy of {'world': True, 'versions': '1.47'} to test151
+* 19:16 RhinosF1: bounced apache2 everywhere it's running
+* 19:13 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on test151: apache2, apache2-bin, apache2-data, and apache2-utils
+* 19:11 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on prometheus151: apache2, apache2-bin, apache2-data, and apache2-utils
+* 19:10 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mwtask181: apache2, apache2-bin, apache2-data, and apache2-utils
+* 19:09 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mwtask171: apache2, apache2-bin, apache2-data, and apache2-utils
+* 19:08 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mwtask161: apache2, apache2-bin, apache2-data, and apache2-utils
+* 19:07 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mwtask151: apache2, apache2-bin, apache2-data, and apache2-utils
+* 19:04 MirahezeLSBot: [rhinos@puppet181] Upgraded packages on mon181: apache2-bin and apache2-utils
+* 17:11 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CreateWiki:SetContainersAccess --wiki=repaircafewiki (END - exit=0) (T16451)
+* 17:10 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=repaircafeedesheimwiki --new=repaircafewiki --user=MacFan4000 (END - exit=0) (T16451)
+* 17:05 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CreateWiki:SetContainersAccess --wiki=altawiki (END - exit=0) (T16489)
+* 17:05 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --rename --old=fictionalmyempirewiki --new=altawiki --user=MacFan4000 (END - exit=0) (T16489)
+* 10:56 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'EditCountNeue', 'debug': True} to all - SUCCESS in 1s (T16493)
+* 10:56 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'EditCountNeue', 'debug': True} to all (T16493)
+* 10:55 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': 'all', 'upgrade_extensions': 'EditCountNeue', 'debug': True} to test151 - SUCCESS in 1s (T16493)
+* 10:55 MirahezeLSBot: [petramagna@test151] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'EditCountNeue', 'debug': True} to test151 (T16493)
+* 08:32 MirahezeLSBot: [petramagna@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=newfurbywiki --json=/srv/mediawiki/1.47.json --change-version (END - exit=1; time=1s)
+* 08:32 MirahezeLSBot: [petramagna@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=newfurbywiki --json=/srv/mediawiki/1.47.json --change-version (START)
+* 08:23 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': '1.47', 'upgrade_extensions': ['ConfirmEdit', 'DiscussionTools']} to all - SUCCESS in 48s (T16502)
+* 08:22 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'versions': '1.47', 'upgrade_extensions': ['ConfirmEdit', 'DiscussionTools']} to all (T16502)
+* 08:03 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'config': True, 'force': True, 'debug': True} to all - SUCCESS in 20s
+* 08:03 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'config': True, 'force': True, 'debug': True} to all
+* 08:00 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'config': True, 'force': True, 'debug': True} to all - SUCCESS in 24s
+* 07:59 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'config': True, 'force': True, 'debug': True} to all
+* 05:44 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.47/extensions/DiscussionTools', 'debug': True} to test151 - SUCCESS in 0s (T16502)
+* 05:44 MirahezeLSBot: [petramagna@test151] Starting deploy of {'folders': '1.47/extensions/DiscussionTools', 'debug': True} to test151 (T16502)
+* 05:43 MirahezeLSBot: [petramagna@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output. (T16502)
+* 05:43 MirahezeLSBot: [petramagna@test151] Starting deploy of {'force_upgrade': True, 'versions': '1.47', 'upgrade_extensions': 'DiscussionTools', 'debug': True} to test151 (T16502)
+* 05:09 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php OATHAuth:UpdateKeysToLatestVersion --wiki=ldapwikiwiki (END - exit=0)
+* 05:09 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=ldapwikiwiki --json=/srv/mediawiki/1.47.json --change-version (END - exit=0; time=3s)
+* 05:09 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=ldapwikiwiki --json=/srv/mediawiki/1.47.json --change-version (START)
+* 05:08 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=strinovawiki --json=/srv/mediawiki/1.47.json --change-version (END - exit=0; time=4s)
+* 05:08 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=strinovawiki --json=/srv/mediawiki/1.47.json --change-version (START)
+* 05:08 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=randomwikistuffwiki --json=/srv/mediawiki/1.47.json --change-version (END - exit=0; time=3s)
+* 05:08 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=randomwikistuffwiki --json=/srv/mediawiki/1.47.json --change-version (START)
+* 05:07 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=testwiki --json=/srv/mediawiki/1.47.json --change-version (END - exit=0; time=4s)
+* 05:07 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=testwiki --json=/srv/mediawiki/1.47.json --change-version (START)
+* 03:56 MirahezeLSBot: [waki285@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 03:56 MirahezeLSBot: [waki285@test151] Starting deploy of {'config': True} to test151
+* 03:55 MirahezeLSBot: [waki285@test151] finished deploy of {'force_upgrade': True, 'versions': '1.47', 'upgrade_extensions': 'MirahezeRequests'} to test151 - SUCCESS in 7s
+* 03:55 MirahezeLSBot: [waki285@test151] Starting deploy of {'force_upgrade': True, 'versions': '1.47', 'upgrade_extensions': 'MirahezeRequests'} to test151
+* 03:55 MirahezeLSBot: [waki285@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 03:55 MirahezeLSBot: [waki285@test151] Starting deploy of {'force_upgrade': True, 'versions': '1.47', 'upgrade_extensions': 'MirahezeRequests'} to test151
+* 03:54 MirahezeLSBot: [waki285@test151] finished deploy of {'force_upgrade': True, 'versions': '1.47', 'upgrade_extensions': 'MirahezeRequests'} to test151 - SUCCESS in 7s
+* 03:54 MirahezeLSBot: [waki285@test151] Starting deploy of {'force_upgrade': True, 'versions': '1.47', 'upgrade_extensions': 'MirahezeRequests'} to test151
+* 03:53 MirahezeLSBot: [waki285@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 03:53 MirahezeLSBot: [waki285@test151] Starting deploy of {'config': True} to test151
+* 02:46 MirahezeLSBot: [waki285@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 02:46 MirahezeLSBot: [waki285@test151] Starting deploy of {'config': True} to test151
+* 01:22 MirahezeLSBot: [waki285@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php sql --wiki=metawikibeta '--query=UPDATE account_requests SET request_status= **mailfailed**, request_completed_timestamp=NULL WHERE request_id=1 AND request_status= **complete**;' (END - exit=0)
+* 01:21 MirahezeLSBot: [waki285@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php sql --wiki=metawikibeta '--query=ALTER TABLE account_requests MODIFY COLUMN request_status ENUM(**complete**,**declined**,**pending**,**starting**,**unconfirmed**,**mailfailed**,**sending**) NOT NULL;' (END - exit=0)
+* 01:21 MirahezeLSBot: [waki285@test151] finished deploy of {'config': True, 'l10n': True, 'versions': '1.47'} to test151 - SUCCESS in 23s
+* 01:20 MirahezeLSBot: [waki285@test151] Starting deploy of {'config': True, 'l10n': True, 'versions': '1.47'} to test151
+* 01:19 MirahezeLSBot: [waki285@test151] finished deploy of {'force_upgrade': True, 'versions': '1.47', 'upgrade_extensions': 'MirahezeRequests'} to test151 - SUCCESS in 13s
+* 01:19 MirahezeLSBot: [waki285@test151] Starting deploy of {'force_upgrade': True, 'versions': '1.47', 'upgrade_extensions': 'MirahezeRequests'} to test151
+* 00:46 MirahezeLSBot: [waki285@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=metawikibeta (END - exit=0)
+* 00:45 MirahezeLSBot: [waki285@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 00:45 MirahezeLSBot: [waki285@test151] Starting deploy of {'config': True} to test151
+* 00:41 MirahezeLSBot: [waki285@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 00:41 MirahezeLSBot: [waki285@test151] Starting deploy of {'config': True} to test151
+* 00:35 MirahezeLSBot: [waki285@test151] finished deploy of {'config': True, 'l10n': True, 'versions': '1.47'} to test151 - SUCCESS in 13s
+* 00:35 MirahezeLSBot: [waki285@test151] Starting deploy of {'config': True, 'l10n': True, 'versions': '1.47'} to test151
+* 00:33 MirahezeLSBot: [waki285@test151] finished deploy of {'force_upgrade': True, 'versions': '1.47', 'upgrade_extensions': 'MirahezeRequests'} to test151 - SUCCESS in 8s
+* 00:33 MirahezeLSBot: [waki285@test151] Starting deploy of {'force_upgrade': True, 'versions': '1.47', 'upgrade_extensions': 'MirahezeRequests'} to test151
+* 00:31 MirahezeLSBot: [waki285@test151] finished deploy of {'config': True, 'l10n': True, 'extension_list': True, 'versions': '1.47'} to test151 - SUCCESS in 53s
+* 00:31 MirahezeLSBot: [waki285@test151] Starting deploy of {'config': True, 'l10n': True, 'extension_list': True, 'versions': '1.47'} to test151
+* 00:25 MirahezeLSBot: [waki285@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php sql --wiki=metawikibeta /srv/mediawiki/1.47/extensions/MirahezeRequests/sql/mysql/tables-generated.sql (END - exit=0)
+* 00:25 MirahezeLSBot: [waki285@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php sql --wiki=metawikibeta '--query=DROP TABLE account_requests' (END - exit=0)
+* 00:24 MirahezeLSBot: [waki285@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php sql --wiki=metawikibeta '--query=SELECT * FROM account_requests' (END - exit=0)
+* 00:23 MirahezeLSBot: [waki285@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php sql --wiki=metawikibeta '--query=SELECT request_id, request_status, request_username, request_timestamp FROM account_requests' (END - exit=0)
+* 00:22 MirahezeLSBot: [waki285@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php sql --wiki=metawikibeta '--query=SHOW CREATE TABLE account_requests;' (END - exit=0)
+* 00:22 MirahezeLSBot: [waki285@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php sql --wiki=metawikibeta '--query=SHOW CREATE TABLE account_requests\G' (END - exit=1)
+* 00:20 MirahezeLSBot: [waki285@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php sql --wiki=metawikibeta /srv/mediawiki/1.47/extensions/MirahezeRequests/sql/mysql/tables-generated.sql (END - exit=1)
+* 00:20 MirahezeLSBot: [waki285@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php sql --wiki=metawikibeta --file=/srv/mediawiki/1.47/extensions/MirahezeRequests/sql/mysql/tables-generated.sql (END - exit=1)
+* 00:19 MirahezeLSBot: [waki285@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 00:19 MirahezeLSBot: [waki285@test151] Starting deploy of {'config': True} to test151
+* 00:17 MirahezeLSBot: [waki285@test151] finished deploy of {'force_upgrade': True, 'versions': '1.47', 'upgrade_extensions': 'MirahezeRequests'} to test151 - SUCCESS in 8s
+* 00:16 MirahezeLSBot: [waki285@test151] Starting deploy of {'force_upgrade': True, 'versions': '1.47', 'upgrade_extensions': 'MirahezeRequests'} to test151
+* 00:16 MirahezeLSBot: [waki285@test151] finished deploy of {'versions': '1.47', 'upgrade_extensions': 'MirahezeRequests'} to test151 - SUCCESS in 0s
+* 00:16 MirahezeLSBot: [waki285@test151] Starting deploy of {'versions': '1.47', 'upgrade_extensions': 'MirahezeRequests'} to test151
+
 ## 2026-11-11 
 
 * 21:03 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'l10n': True, 'versions': 'all'} to all - SUCCESS in 138s
