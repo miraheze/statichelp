@@ -4,6 +4,235 @@ title: Tech:Server admin log/2026-11
 
 `{{ {{Server admin log/nav}} }}`
 
+## 2026-11-13 
+
+* 21:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject181: linux-libc-dev
+* 21:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject191: linux-libc-dev
+* 21:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject201: linux-libc-dev
+* 21:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject211: linux-libc-dev
+* 21:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy161: linux-libc-dev
+* 21:55 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on test151: linux-libc-dev
+* 21:55 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject171: linux-libc-dev
+* 21:55 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy171: linux-libc-dev
+* 21:55 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject161: linux-libc-dev
+* 21:54 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftac171: linux-libc-dev
+* 21:54 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject151: linux-libc-dev
+* 21:54 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on speedscope211: linux-libc-dev
+* 21:54 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os162: linux-libc-dev
+* 21:54 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os202: linux-libc-dev
+* 21:53 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on rdb191: linux-libc-dev
+* 21:53 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os191: linux-libc-dev
+* 21:53 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os201: linux-libc-dev
+* 21:53 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on puppet181: linux-libc-dev
+* 21:52 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os161: linux-libc-dev
+* 21:52 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on prometheus151: linux-libc-dev
+* 21:52 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on reports171: linux-libc-dev
+* 21:52 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask181: linux-libc-dev
+* 21:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os151: linux-libc-dev
+* 21:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on phorge171: linux-libc-dev
+* 21:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask161: linux-libc-dev
+* 21:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask171: linux-libc-dev
+* 21:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw203: linux-libc-dev
+* 21:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw213: linux-libc-dev
+* 21:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw211: linux-libc-dev
+* 21:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask151: linux-libc-dev
+* 21:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ns2: linux-libc-dev
+* 21:49 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ns1: linux-libc-dev
+* 21:49 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw212: linux-libc-dev
+* 21:49 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw202: linux-libc-dev
+* 21:49 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw201: linux-libc-dev
+* 21:49 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw193: linux-libc-dev
+* 21:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw192: linux-libc-dev
+* 21:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw181: linux-libc-dev
+* 21:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw183: linux-libc-dev
+* 21:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem191: linux-libc-dev
+* 21:47 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw191: linux-libc-dev
+* 21:47 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw182: linux-libc-dev
+* 21:47 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw163: linux-libc-dev
+* 21:47 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw171: linux-libc-dev
+* 21:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw172: linux-libc-dev
+* 21:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw173: linux-libc-dev
+* 21:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw161: linux-libc-dev
+* 21:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw153: linux-libc-dev
+* 21:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw162: linux-libc-dev
+* 21:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw152: linux-libc-dev
+* 21:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on llm191: linux-libc-dev
+* 21:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mon181: linux-libc-dev
+* 21:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw151: linux-libc-dev
+* 21:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem201: linux-libc-dev
+* 21:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on matomo211: linux-libc-dev
+* 21:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem151: linux-libc-dev
+* 21:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem161: linux-libc-dev
+* 21:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on graylog161: linux-libc-dev
+* 21:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on kafka182: linux-libc-dev
+* 21:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ldap171: linux-libc-dev
+* 21:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on matomo151: linux-libc-dev
+* 21:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mattermost2: linux-libc-dev
+* 21:42 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on eventgate182: linux-libc-dev
+* 21:42 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db201: linux-libc-dev
+* 21:42 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db171: linux-libc-dev
+* 21:42 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud17: libcpupower1, linux-cpupower, and linux-libc-dev
+* 21:41 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on changeprop202: linux-libc-dev
+* 21:41 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud20: libcpupower1, linux-cpupower, and linux-libc-dev
+* 21:41 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud21: libcpupower1, linux-cpupower, and linux-libc-dev
+* 21:41 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db182: linux-libc-dev
+* 21:41 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud16: libcpupower1, linux-cpupower, and linux-libc-dev
+* 21:40 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db181: linux-libc-dev
+* 21:40 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db193: linux-libc-dev
+* 21:40 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db192: linux-libc-dev
+* 21:40 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud19: libcpupower1, linux-cpupower, and linux-libc-dev
+* 21:39 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db161: linux-libc-dev
+* 21:39 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud18: libcpupower1, linux-cpupower, and linux-libc-dev
+* 21:39 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db151: linux-libc-dev
+* 21:39 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp201: linux-libc-dev
+* 21:38 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bast181: linux-libc-dev
+* 21:38 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bast161: linux-libc-dev
+* 21:38 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud15: libcpupower1, linux-cpupower, and linux-libc-dev
+* 21:38 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp191: linux-libc-dev
+* 21:38 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db172: linux-libc-dev
+* 21:37 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp161: linux-libc-dev
+* 21:37 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bots171: linux-libc-dev
+* 21:37 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp171: linux-libc-dev
+* 14:21 MirahezeLSBot: [waki285@test151] finished deploy of {'config': True, 'l10n': True, 'force_upgrade': True, 'versions': '1.47', 'upgrade_extensions': 'MirahezeMagic'} to test151 - SUCCESS in 55s
+* 14:20 MirahezeLSBot: [waki285@test151] Starting deploy of {'config': True, 'l10n': True, 'force_upgrade': True, 'versions': '1.47', 'upgrade_extensions': 'MirahezeMagic'} to test151
+* 12:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on test151: libc-ares-dev and libcares2
+* 12:54 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask181: libcares2
+* 12:53 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask171: libcares2
+* 12:53 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw213: libcares2
+* 12:53 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask161: libcares2
+* 12:53 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw211: libcares2
+* 12:52 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw212: libcares2
+* 12:52 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw202: libcares2
+* 12:52 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw203: libcares2
+* 12:52 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask151: libcares2
+* 12:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw201: libcares2
+* 12:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw193: libcares2
+* 12:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw192: libcares2
+* 12:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw191: libcares2
+* 12:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw182: libcares2
+* 12:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw183: libcares2
+* 12:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw181: libcares2
+* 12:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw172: libcares2
+* 12:49 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw162: libcares2
+* 12:49 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw173: libcares2
+* 12:49 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw163: libcares2
+* 12:49 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw171: libcares2
+* 12:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mon181: libcares2
+* 12:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw152: libcares2
+* 12:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw161: libcares2
+* 12:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw153: libcares2
+* 12:47 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw151: libcares2
+* 12:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on eventgate182: libcares2
+* 12:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db182: libcares2
+* 12:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud20: libcares2
+* 12:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud21: libcares2
+* 12:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud17: libcares2
+* 12:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud19: libcares2
+* 12:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud18: libcares2
+* 12:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on changeprop202: libcares2
+* 12:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud15: libcares2
+* 12:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud16: libcares2
+* 10:36 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject211: libpq5
+* 10:36 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject201: libpq5
+* 10:36 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject181: libpq5
+* 10:35 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on test151: libpq5
+* 10:35 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy161: libpq5
+* 10:35 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy171: libpq5
+* 10:35 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject191: libpq5
+* 10:34 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject161: libpq5
+* 10:34 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject171: libpq5
+* 10:34 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftac171: libpq5
+* 10:34 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject151: libpq5
+* 10:34 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on speedscope211: libpq5
+* 10:33 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os202: libpq5
+* 10:33 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os201: libpq5
+* 10:33 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os162: libpq5
+* 10:33 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on reports171: libpq5
+* 10:32 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on rdb191: libpq5
+* 10:32 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os191: libpq5
+* 10:32 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on puppet181: libpq5, postgresql-client-17, and postgresql-17
+* 10:32 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on prometheus151: libpq5
+* 10:31 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os151: libpq5
+* 10:31 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os161: libpq5
+* 10:31 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask181: libpq5
+* 10:31 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on phorge171: libpq5
+* 10:30 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw211: libpq5
+* 10:30 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask171: libpq5
+* 10:30 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask161: libpq5
+* 10:30 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw212: libpq5
+* 10:30 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ns2: libpq5
+* 10:29 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw213: libpq5
+* 10:29 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw203: libpq5
+* 10:29 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask151: libpq5
+* 10:29 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ns1: libpq5
+* 10:29 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw201: libpq5
+* 10:28 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw202: libpq5
+* 10:28 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw193: libpq5
+* 10:28 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw192: libpq5
+* 10:28 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw181: libpq5
+* 10:27 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw183: libpq5
+* 10:27 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw191: libpq5
+* 10:27 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ldap171: libpq5
+* 10:27 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem191: libpq5
+* 10:26 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw182: libpq5
+* 10:26 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw173: libpq5
+* 10:26 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw171: libpq5
+* 10:26 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw172: libpq5
+* 10:26 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw153: libpq5
+* 10:25 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw163: libpq5
+* 10:25 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw162: libpq5
+* 10:25 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw161: libpq5
+* 10:25 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on matomo211: libpq5
+* 10:24 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem201: libpq5
+* 10:24 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw152: libpq5
+* 10:24 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on llm191: libpq5
+* 10:24 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mon181: libpq5
+* 10:24 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem161: libpq5
+* 10:23 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw151: libpq5
+* 10:23 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on graylog161: libpq5
+* 10:23 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem151: libpq5
+* 10:23 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on kafka182: libpq5
+* 10:23 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on matomo151: libpq5
+* 10:22 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mattermost2: libpq5, postgresql-client-17, and postgresql-17
+* 10:22 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db192: libpq5
+* 10:22 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bast181: libpq5
+* 10:22 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud19: libpq5
+* 10:21 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db181: libpq5
+* 10:21 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db171: libpq5
+* 10:21 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud16: libpq5
+* 10:21 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db182: libpq5
+* 10:21 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db193: libpq5
+* 10:20 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on eventgate182: libpq5
+* 10:20 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db201: libpq5
+* 10:20 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on changeprop202: libpq5
+* 10:20 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud17: libpq5
+* 10:19 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db151: libpq5
+* 10:19 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db161: libpq5
+* 10:19 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud20: libpq5
+* 10:19 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp191: libpq5
+* 10:19 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud21: libpq5
+* 10:18 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db172: libpq5
+* 10:18 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud18: libpq5
+* 10:18 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp201: libpq5
+* 10:18 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp161: libpq5
+* 10:18 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp171: libpq5
+* 10:17 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bots171: libpq5
+* 10:17 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud15: libpq5
+* 10:17 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bast161: libpq5
+* 08:45 MirahezeLSBot: [waki285@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php /srv/mediawiki/1.47/extensions/ManageWiki/maintenance/ResetWikiCaches.php --wiki=metawikibeta (END - exit=0)
+* 08:45 MirahezeLSBot: [waki285@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 08:45 MirahezeLSBot: [waki285@test151] Starting deploy of {'config': True} to test151
+* 06:47 MirahezeLSBot: [waki285@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php /srv/mediawiki/1.47/extensions/ManageWiki/maintenance/ResetWikiCaches.php --wiki=metawikibeta (END - exit=0)
+* 06:47 MirahezeLSBot: [waki285@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 06:47 MirahezeLSBot: [waki285@test151] Starting deploy of {'config': True} to test151
+* 06:44 MirahezeLSBot: [waki285@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php /srv/mediawiki/1.47/extensions/ManageWiki/maintenance/ResetWikiCaches.php --wiki=metawikibeta (END - exit=0)
+* 06:39 MirahezeLSBot: [waki285@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 06:39 MirahezeLSBot: [waki285@test151] Starting deploy of {'config': True} to test151
+* 05:27 MirahezeLSBot: [waki285@test151] finished deploy of {'config': True, 'force_upgrade': True, 'versions': '1.47', 'upgrade_extensions': 'MirahezeRequests'} to test151 - SUCCESS in 8s
+* 05:27 MirahezeLSBot: [waki285@test151] Starting deploy of {'config': True, 'force_upgrade': True, 'versions': '1.47', 'upgrade_extensions': 'MirahezeRequests'} to test151
+* 05:27 MirahezeLSBot: [waki285@test151] finished deploy of {'config': True, 'versions': '1.47', 'upgrade_extensions': 'MirahezeRequests'} to test151 - SUCCESS in 0s
+* 05:27 MirahezeLSBot: [waki285@test151] Starting deploy of {'config': True, 'versions': '1.47', 'upgrade_extensions': 'MirahezeRequests'} to test151
+
 ## 2026-11-12 
 
 * 20:55 MirahezeLSBot: [rhinos@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
