@@ -4,6 +4,134 @@ title: Tech:Server admin log/2026-11
 
 `{{ {{Server admin log/nav}} }}`
 
+## 2026-11-15 
+
+* 00:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on prometheus151: pdns-recursor
+* 00:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on reports171: pdns-recursor
+
+## 2026-11-14 
+
+* 23:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask161: pdns-recursor
+* 23:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw213: pdns-recursor
+* 23:59 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw211: pdns-recursor
+* 23:58 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw212: pdns-recursor
+* 23:58 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask151: pdns-recursor
+* 23:58 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw203: pdns-recursor
+* 23:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw201: pdns-recursor
+* 23:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw202: pdns-recursor
+* 23:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw193: pdns-recursor
+* 23:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw192: pdns-recursor
+* 23:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw191: pdns-recursor
+* 23:56 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw181: pdns-recursor
+* 23:55 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw183: pdns-recursor
+* 23:55 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw163: pdns-recursor
+* 23:55 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw162: pdns-recursor
+* 23:54 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw153: pdns-recursor
+* 23:54 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw161: pdns-recursor
+* 23:54 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw182: pdns-recursor
+* 23:53 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw152: pdns-recursor
+* 23:53 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw173: pdns-recursor
+* 23:53 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mon181: pdns-recursor
+* 23:52 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw171: pdns-recursor
+* 23:52 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem191: pdns-recursor
+* 23:52 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on matomo211: pdns-recursor
+* 23:52 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw172: pdns-recursor
+* 23:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem201: pdns-recursor
+* 23:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem161: pdns-recursor
+* 23:51 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on llm191: pdns-recursor
+* 23:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw151: pdns-recursor
+* 23:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on graylog161: pdns-recursor
+* 23:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mem151: pdns-recursor
+* 23:50 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on matomo151: pdns-recursor
+* 23:49 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on kafka182: pdns-recursor
+* 23:49 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on ldap171: pdns-recursor
+* 23:49 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mattermost2: pdns-recursor
+* 23:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db192: pdns-recursor
+* 23:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud21: pdns-recursor
+* 23:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on eventgate182: pdns-recursor
+* 23:48 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db182: pdns-recursor
+* 23:47 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud19: pdns-recursor
+* 23:47 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db201: pdns-recursor
+* 23:47 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud16: pdns-recursor
+* 23:47 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db181: pdns-recursor
+* 23:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db161: pdns-recursor
+* 23:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db171: pdns-recursor
+* 23:46 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on changeprop202: pdns-recursor
+* 23:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud20: pdns-recursor
+* 23:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db193: pdns-recursor
+* 23:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp191: pdns-recursor
+* 23:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp201: pdns-recursor
+* 23:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp161: pdns-recursor
+* 23:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db151: pdns-recursor
+* 23:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud18: pdns-recursor
+* 23:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud15: pdns-recursor
+* 23:43 SomeRandomDeveloper: sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php /home/somerandomdeveloper/RecalculateGlobalEditCountForUsers.php --wiki=metawiki /home/somerandomdeveloper/T16308-users.txt
+* 23:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cloud17: pdns-recursor
+* 23:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on db172: pdns-recursor
+* 23:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp171: pdns-recursor
+* 23:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bots171: pdns-recursor
+* 23:42 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bast181: pdns-recursor
+* 23:41 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php /srv/mediawiki/1.46//home/maintenance/somerandomdeveloper/RecalculateGlobalEditCountForUsers.php --wiki=metawiki /home/somerandomdeveloper/T16309-users.txt (END - exit=1) (T16309)
+* 23:41 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on bast161: pdns-recursor
+* 23:32 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php updateCollation --wiki=ff14rpwiki (END - exit=0)
+* 23:32 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s (T16513)
+* 23:31 MirahezeLSBot: [somerandomdeveloper@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all (T16513)
+* 23:28 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php rebuildtextindex --wiki=poohsadventureswiki (END - exit=0; time=1011s)
+* 23:17 MirahezeLSBot: [somerandomdeveloper@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initEditCount --wiki=newthreekingdomswiki (END - exit=0) (T16309)
+* 23:12 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php rebuildtextindex --wiki=poohsadventureswiki (START)
+* 23:09 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=newthreekingdomswiki --import-prefix=rarondo9 --from=JPokan --to=JPokan (END - exit=0) (T16309)
+* 23:07 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=newthreekingdomswiki --import-prefix=mh:new-three-kingdoms --from=Pengshuangming --to=Danielsb (END - exit=1) (T16309)
+* 23:05 RhinosF1: ALTER TABLE poohsadventureswiki.cu_changes ENGINE=InnoDB; ALTER TABLE poohsadventureswiki.cu_useragent_clienthints_map ENGINE=InnoDB; ALTER TABLE poohsadventureswiki.searchindex ENGINE=InnoDB;
+* 23:03 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=newthreekingdomswiki (END - exit=0) (T16491)
+* 22:56 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=newthreekingdomswiki --startOver (END - exit=0) (T16491)
+* 22:56 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=newthreekingdomswiki --startOver (END - exit=1) (T16491)
+* 22:55 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=adofaiwiki (END - exit=0) (T16518)
+* 22:53 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=adofaiwiki --startOver (END - exit=0) (T16518)
+* 22:47 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=tigerzhangwiki (END - exit=0) (T16490)
+* 22:44 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=tigerzhangwiki --startOver (END - exit=0) (T16490)
+* 22:31 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s (T16243)
+* 22:31 MirahezeLSBot: [somerandomdeveloper@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all (T16243)
+* 22:06 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php deleteBatch --wiki=fohsarchivewiki --r ' [Requested](https://meta.miraheze.org/wiki/phorge:T16398)' /home/somerandomdeveloper/deletepages-T16398.txt (END - exit=0; time=14s) (T16398)
+* 22:06 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php deleteBatch --wiki=fohsarchivewiki --r ' [Requested](https://meta.miraheze.org/wiki/phorge:T16398)' /home/somerandomdeveloper/deletepages-T16398.txt (START) (T16398)
+* 21:59 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=tnocnwiki --update (END - exit=0) (T16445)
+* 21:54 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initEditCount --wiki=kardswiki (END - exit=0) (T16308)
+* 21:46 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php TitleKey:rebuildTitleKeys --wiki=thefireriseswikiwiki (END - exit=0) (T16506)
+* 21:46 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php TitleKey:RebuildTitleKeys --wiki=thefireriseswikiwiki (END - exit=1) (T16506)
+* 21:38 SomeRandomDeveloper: purged [https://miraheze.org/img/favicon.ico](https://miraheze.org/img/favicon.ico) in Cloudflare
+* 21:38 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'landing', 'landing': True} to all - SUCCESS in 28s
+* 21:37 MirahezeLSBot: [somerandomdeveloper@mwtask181] Starting deploy of {'pull': 'landing', 'landing': True} to all
+* 21:31 SomeRandomDeveloper: purged [https://static.wikitide.net/favicon.ico](https://static.wikitide.net/favicon.ico) in Cloudflare
+* 21:30 SomeRandomDeveloper: replace favicon.ico in swift "root" container with [https://github.com/miraheze/puppet/blob/61c3be0de2823f9ae22cd1f57ced7b1f6cbb4b6b/modules/mediawiki/files/favicons/default.ico](https://github.com/miraheze/puppet/blob/61c3be0de2823f9ae22cd1f57ced7b1f6cbb4b6b/modules/mediawiki/files/favicons/default.ico) (T16488)
+* 13:54 MirahezeLSBot: [waki285@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 13:54 MirahezeLSBot: [waki285@test151] Starting deploy of {'config': True} to test151
+* 13:12 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=dragdownwiki (END - exit=0) (T16514)
+* 12:40 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php rebuildtextindex --wiki=poohsadventureswiki (END - exit=1; time=1s) (T16515)
+* 12:40 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php rebuildtextindex --wiki=poohsadventureswiki (START) (T16515)
+* 12:36 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=poohsadventureswiki --startOver (END - exit=1) (T16515)
+* 12:36 MirahezeLSBot: [jenny@mwtask171] curl -X DELETE [https://opensearch-mw.wikitide.net/poohsadventureswiki_content](https://opensearch-mw.wikitide.net/poohsadventureswiki_content) [https://opensearch-mw.wikitide.net/poohsadventureswiki_general](https://opensearch-mw.wikitide.net/poohsadventureswiki_general) (T16515)
+* 12:34 MirahezeLSBot: [jenny@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=dragdownwiki --startOver (END - exit=0) (T16514)
+* 12:34 MirahezeLSBot: [jenny@mwtask171] curl -X DELETE [https://opensearch-mw.wikitide.net/dragdownwiki_content](https://opensearch-mw.wikitide.net/dragdownwiki_content) [https://opensearch-mw.wikitide.net/dragdownwiki_general](https://opensearch-mw.wikitide.net/dragdownwiki_general) (T16514)
+* 10:56 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True, 'debug': True} to test151 - SUCCESS in 0s (T16456)
+* 10:56 MirahezeLSBot: [petramagna@test151] Starting deploy of {'config': True, 'debug': True} to test151 (T16456)
+* 10:54 MirahezeLSBot: [petramagna@test151] finished deploy of {'l10n': True, 'folders': '1.47/extensions/MirahezeMagic', 'versions': '1.47', 'debug': True} to test151 - SUCCESS in 11s (T16456)
+* 10:54 MirahezeLSBot: [petramagna@test151] Starting deploy of {'l10n': True, 'folders': '1.47/extensions/MirahezeMagic', 'versions': '1.47', 'debug': True} to test151 (T16456)
+* 10:54 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.47/extensions/MirahezeMagic', 'debug': True} to test151 - SUCCESS in 0s (T16456)
+* 10:54 MirahezeLSBot: [petramagna@test151] Starting deploy of {'folders': '1.47/extensions/MirahezeMagic', 'debug': True} to test151 (T16456)
+* 08:42 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'world': True, 'versions': '1.47'} to all - SUCCESS in 178s (T16038)
+* 08:39 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'world': True, 'versions': '1.47'} to all (T16038)
+* 02:59 MirahezeLSBot: [waki285@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 02:59 MirahezeLSBot: [waki285@test151] Starting deploy of {'config': True} to test151
+* 02:44 MirahezeLSBot: [waki285@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 02:44 MirahezeLSBot: [waki285@test151] Starting deploy of {'config': True} to test151
+* 02:28 MirahezeLSBot: [waki285@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 02:28 MirahezeLSBot: [waki285@test151] Starting deploy of {'config': True} to test151
+* 01:08 MirahezeLSBot: [waki285@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 01:08 MirahezeLSBot: [waki285@test151] Starting deploy of {'config': True} to test151
+* 00:38 MirahezeLSBot: [waki285@test151] finished deploy of {'l10n': True, 'force_upgrade': True, 'versions': '1.47', 'upgrade_extensions': 'UserProfileV2'} to test151 - SUCCESS in 23s
+* 00:37 MirahezeLSBot: [waki285@test151] Starting deploy of {'l10n': True, 'force_upgrade': True, 'versions': '1.47', 'upgrade_extensions': 'UserProfileV2'} to test151
+* 00:26 MirahezeLSBot: [waki285@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 00:26 MirahezeLSBot: [waki285@test151] Starting deploy of {'l10n': True, 'force_upgrade': True, 'versions': '1.46', 'upgrade_extensions': 'UserProfileV2'} to test151
+
 ## 2026-11-13 
 
 * 21:57 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject181: linux-libc-dev

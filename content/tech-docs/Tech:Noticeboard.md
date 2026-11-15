@@ -51,6 +51,9 @@ I'm having trouble finding a CVE for this vulnerability (although I admit it's b
 
 It's been a month and a half since the last update on this. Could we get a status update, please, even if it's "no change since the end of July"? -- [Robkelk](https://meta.miraheze.org/wiki/User:Robkelk) ([talk](https://meta.miraheze.org/wiki/User_talk:Robkelk)) 00:25, 20 September 2026 (UTC)
 
+   After nearly half a year without maps in my map-based wiki, so I’d like to ask again if there’s any news and whether the extension might be available again soon. Now that it’s winter, I’d like to work on my wiki full steam ahead and get it online in a few months, but unfortunately that’s not possible with broken links instead of maps showing regional outlines. Thanks for any updates! [Weltbibliographie](https://meta.miraheze.org/wiki/User:Weltbibliographie) ([talk](https://meta.miraheze.org/wiki/User_talk:Weltbibliographie)) 10:32, 14 November 2026 (UTC)
+      There are no updates [RhinosF1 (Miraheze)](https://meta.miraheze.org/wiki/User:RhinosF1_(Miraheze)) ([talk](https://meta.miraheze.org/wiki/User_talk:RhinosF1_(Miraheze))) 10:38, 14 November 2026 (UTC)
+
 ## Changes to Miraheze's default MediaWiki configuration 
 
 Following a successful [Request for Feedback](/tech-docs/technoticeboard-request_for_feedback_changes_to_default_mediawiki_settings), the Technology Team is making several changes to Miraheze's default MediaWiki configurations. We believe they are a net positive for most wikis. If they do not work well for your wiki, you can change the setting back on ManageWiki. The configuration changes are as follows:
