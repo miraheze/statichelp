@@ -7,13 +7,11 @@ title: Tech:Festive Deployment Policy
 
 This policy outlines the restrictions and guidelines for deployments on the Miraheze platform during the festive period to ensure stability and minimize risks.
 
-## 2. Definitions 
+## 2. Timing 
 
-The festive period each year will include two key phases:
+The dates will be decided each year with an aim to be at least 2 weeks and cover the major travel weekends.
 
-* **Restricted Deployment Window (RDW):** This phase starts on the Friday closest to Christmas Day, but at least 5 working days before Christmas, and ends after the New Year. During this period, deployments are highly restricted.
-
-The specific dates for each year are provided in the appendix.
+Previous dates and the confirmed dates are in the appendix.
 
 ## 3. Lead-up 
 
@@ -55,37 +53,9 @@ For any queries regarding this policy, please contact the tech team.
 * **RDW Start:** 23:59 Friday, 19th December 2025 UTC
 * **Freeze End:** 08:01 Monday, 5th January 2026 UTC
 
-* **2026:**
-* **RDW Start:** 23:59 Friday, 11th December 2026 UTC
+* **2026: (Confirmed)**
+* **RDW Start:** 23:59 Friday, 18th December 2026 UTC
 * **Freeze End:** 08:01 Monday, 4th January 2027 UTC
-
-* **2027:**
-* **RDW Start:** Friday, 10th December 2027
-* **Freeze End:** Monday, 3rd January 2028
-
-* **2028:**
-* **RDW Start:** Friday, 8th December 2028
-* **Freeze End:** Monday, 8th January 2029
-
-* **2029:**
-* **RDW Start:** Friday, 14th December 2029
-* **Freeze End:** Monday, 7th January 2030
-
-* **2030:**
-* **RDW Start:** Friday, 13th December 2030
-* **Freeze End:** Monday, 6th January 2031
-
-* **2031:**
-* **RDW Start:** Friday, 12th December 2031
-* **Freeze End:** Monday, 5th January 2032
-
-* **2032:**
-* **RDW Start:** Friday, 10th December 2032
-* **Freeze End:** Monday, 3rd January 2033
-
-* **2033:**
-* **RDW Start:** Friday, 9th December 2033
-* **Freeze End:** Monday, 8th January 2034
 
 ## Categories
 

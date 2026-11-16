@@ -6,6 +6,141 @@ title: Tech:Server admin log/2026-11
 
 ## 2026-11-15 
 
+* 23:53 Universal Omega: sudo mongosh --eval 'db.adminCommand({ setFeatureCompatibilityVersion: "8.3", confirm: true })' on graylog161
+* 23:13 Universal Omega: sudo mongosh --eval 'db.adminCommand({ setFeatureCompatibilityVersion: "8.0", confirm: true })' on graylog161
+* 22:42 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=doorswiki /srv/mediawiki/1.46/extensions/GlobalUsage/sql/mysql/tables-generated.sql (END - exit=0)
+* 22:33 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 22:32 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 20:22 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 20:22 MirahezeLSBot: [rhinos@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 20:15 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 20:15 MirahezeLSBot: [macfan@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 19:19 MirahezeLSBot: [macfan@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 19:19 MirahezeLSBot: [macfan@test151] Starting deploy of {'pull': 'config', 'config': True} to test151
+* 19:05 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 19:05 MirahezeLSBot: [macfan@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 18:58 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 18:58 MirahezeLSBot: [macfan@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 18:56 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 18:55 MirahezeLSBot: [rhinos@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 18:51 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pr': 6503, 'pr_repo': 'config'} to test151 - SUCCESS in 0s
+* 18:51 MirahezeLSBot: [somerandomdeveloper@test151] Starting deploy of {'pr': 6503, 'pr_repo': 'config'} to test151
+* 18:50 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 18:50 MirahezeLSBot: [somerandomdeveloper@test151] Starting deploy of {'config': True} to test151
+* 18:49 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 18:49 MirahezeLSBot: [somerandomdeveloper@test151] Starting deploy of {'config': True} to test151
+* 18:47 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'pr': 6503, 'pr_repo': 'config'} to test151 - SUCCESS in 1s
+* 18:47 MirahezeLSBot: [somerandomdeveloper@test151] Starting deploy of {'pr': 6503, 'pr_repo': 'config'} to test151
+* 18:39 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 18:39 MirahezeLSBot: [somerandomdeveloper@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 18:23 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s (T16528)
+* 18:22 MirahezeLSBot: [somerandomdeveloper@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all (T16528)
+* 18:09 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s (T16249)
+* 18:08 MirahezeLSBot: [somerandomdeveloper@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all (T16249)
+* 18:00 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:ClearUserRealNames --wiki=vocaloidlyricswiki (END - exit=0) (T16475)
+* 17:59 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:ClearUserRealNames --wiki=vocaloidlyricswiki --dry-run (END - exit=0)
+* 17:44 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.46/extensions/MirahezeMagic,1.47/extensions/MirahezeMagic'} to all - SUCCESS in 28s
+* 17:43 MirahezeLSBot: [somerandomdeveloper@mwtask181] Starting deploy of {'folders': '1.46/extensions/MirahezeMagic,1.47/extensions/MirahezeMagic'} to all
+* 17:42 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.46/extensions/MirahezeMagic,1.47/extensions/MirahezeMagic'} to all - SUCCESS in 31s
+* 17:41 MirahezeLSBot: [somerandomdeveloper@mwtask181] Starting deploy of {'folders': '1.46/extensions/MirahezeMagic,1.47/extensions/MirahezeMagic'} to all
+* 17:41 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'folders': '1.46/extensions/MirahezeMagic,1.47/extensions/MirahezeMagic'} to mwtask181 - SUCCESS in 0s
+* 17:41 MirahezeLSBot: [somerandomdeveloper@mwtask181] Starting deploy of {'folders': '1.46/extensions/MirahezeMagic,1.47/extensions/MirahezeMagic'} to mwtask181
+* 17:35 MirahezeLSBot: [somerandomdeveloper@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mw173
+* 17:34 MirahezeLSBot: [somerandomdeveloper@mwtask181] Starting deploy of {'force_upgrade': True, 'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 17:33 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'l10n': True, 'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 116s
+* 17:31 MirahezeLSBot: [somerandomdeveloper@mwtask181] Starting deploy of {'l10n': True, 'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 17:28 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'l10n': True, 'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to mwtask181 - SUCCESS in 121s
+* 17:26 MirahezeLSBot: [somerandomdeveloper@mwtask181] Starting deploy of {'l10n': True, 'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to mwtask181
+* 17:24 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'l10n': True, 'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to test151 - SUCCESS in 41s
+* 17:23 MirahezeLSBot: [somerandomdeveloper@test151] Starting deploy of {'l10n': True, 'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to test151
+* 17:13 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'l10n': True, 'versions': '1.47'} to test151 - SUCCESS in 21s
+* 17:13 MirahezeLSBot: [somerandomdeveloper@test151] Starting deploy of {'l10n': True, 'versions': '1.47'} to test151
+* 17:13 MirahezeLSBot: [somerandomdeveloper@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 17:13 MirahezeLSBot: [somerandomdeveloper@test151] Starting deploy of {'l10n': True, 'versions': '1.46'} to test151
+* 17:12 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'force': True, 'folders': '1.47/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s
+* 17:12 MirahezeLSBot: [somerandomdeveloper@test151] Starting deploy of {'force': True, 'folders': '1.47/extensions/MirahezeMagic'} to test151
+* 17:12 MirahezeLSBot: [somerandomdeveloper@test151] DEPLOY ABORTED: Canary check failed for meta.mirabeta.org@localhost
+* 17:12 MirahezeLSBot: [somerandomdeveloper@test151] Starting deploy of {'folders': '1.47/extensions/MirahezeMagic'} to test151
+* 16:46 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'folders': '1.47/extensions/MirahezeMagic'} to test151 - SUCCESS in 0s
+* 16:46 MirahezeLSBot: [somerandomdeveloper@test151] Starting deploy of {'folders': '1.47/extensions/MirahezeMagic'} to test151
+* 16:43 MirahezeLSBot: [somerandomdeveloper@test151] Starting deploy of {'pr': 653, 'pr_repo': 'extensions/MirahezeMagic'} to test151
+* 16:42 MirahezeLSBot: [somerandomdeveloper@test151] Starting deploy of {'pr': 653, 'pr_repo': 'extensions/MirahezeMagic', 'folders': '1.47/extensions/MirahezeMagic'} to test151
+* 16:41 MirahezeLSBot: [somerandomdeveloper@test151] Starting deploy of {'pr': 653, 'pr_repo': '1.47/extensions/MirahezeMagic', 'folders': '1.47/extensions/MirahezeMagic'} to test151
+* 16:41 MirahezeLSBot: [somerandomdeveloper@test151] Starting deploy of {'pr': 653, 'pr_repo': 'extensions/MirahezeMagic', 'folders': '1.47/extensions/MirahezeMagic'} to test151
+* 16:40 MirahezeLSBot: [somerandomdeveloper@test151] Starting deploy of {'pr': 653, 'pr_repo': 'MirahezeMagic', 'folders': '1.47/MirahezeMagic'} to test151
+* 16:20 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawiki --setting=wgUnlinkedWikibaseStatementsParserFunc --remove --all-wikis --execute (END - exit=0; time=273s) (T15624)
+* 16:16 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawiki --setting=wgUnlinkedWikibaseStatementsParserFunc --remove --all-wikis --execute (START) (T15624)
+* 16:11 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawiki --setting=wgUnlinkedWikibaseImitationMode --sourcelist=/tmp/ulwb-true.txt (END - exit=0) (T15624)
+* 16:09 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'debug': True} to all - SUCCESS in 27s (T15624)
+* 16:09 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'pull': 'config', 'config': True, 'debug': True} to all (T15624)
+* 16:07 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawikibeta --setting=wgUnlinkedWikibaseStatementsParserFunc --remove --all-wikis --execute (END - exit=0; time=1s) (T15624)
+* 16:07 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawikibeta --setting=wgUnlinkedWikibaseStatementsParserFunc --remove --all-wikis --execute (START) (T15624)
+* 16:05 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawikibeta -- --setting=wgUnlinkedWikibaseImitationMode --sourcelist=/tmp/ulwb-true.txt (END - exit=1) (T15624)
+* 16:05 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php ManageWiki:PopulateWikiSettings --wiki=metawikibeta --setting=wgUnlinkedWikibaseImitationMode --sourcelist=/tmp/ulwb-true.txt --task=T15624 (END - exit=1)
+* 16:04 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s (T15624)
+* 16:04 MirahezeLSBot: [petramagna@test151] Starting deploy of {'config': True} to test151 (T15624)
+* 15:08 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php updateSpecialPages --wiki=exttestwikibeta (END - exit=0)
+* 15:08 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.47/extensions/ThemeToggle', 'debug': True} to test151 - SUCCESS in 0s
+* 15:08 MirahezeLSBot: [petramagna@test151] Starting deploy of {'folders': '1.47/extensions/ThemeToggle', 'debug': True} to test151
+* 14:29 MirahezeLSBot: [petramagna@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=defaultexttestwikibeta --reindexAndRemoveOk --indexIdentifier now (END - exit=0)
+* 14:25 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True, 'debug': True} to test151 - SUCCESS in 0s
+* 14:25 MirahezeLSBot: [petramagna@test151] Starting deploy of {'config': True, 'debug': True} to test151
+* 14:04 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=xyywiki --from 2026-11-15T13:52:45Z (END - exit=0) (T16527)
+* 14:04 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:ForceSearchIndex --wiki=xyywiki --deletes --from 2026-11-15T13:52:45Z (END - exit=0) (T16527)
+* 14:00 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=xyywiki --reindexAndRemoveOk --indexIdentifier now (END - exit=0) (T16527)
+* 13:56 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 13:56 MirahezeLSBot: [rhinos@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 13:55 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 25s
+* 13:54 MirahezeLSBot: [rhinos@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 13:54 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CirrusSearch:UpdateSearchIndexConfig --wiki=xyywiki --reindexAndRemoveOk --indexIdentifier now (END - exit=130) (T16527)
+* 13:51 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 24s
+* 13:50 MirahezeLSBot: [rhinos@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 13:50 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'debug': True} to all - SUCCESS in 25s (T16527)
+* 13:50 MirahezeLSBot: [rhinos@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 13:50 MirahezeLSBot: [rhinos@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 13:50 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'pull': 'config', 'config': True, 'debug': True} to all (T16527)
+* 13:49 MirahezeLSBot: [petramagna@test151] finished deploy of {'pull': 'config', 'config': True, 'debug': True} to test151 - SUCCESS in 1s
+* 13:49 MirahezeLSBot: [petramagna@test151] Starting deploy of {'pull': 'config', 'config': True, 'debug': True} to test151
+* 11:57 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 11:57 MirahezeLSBot: [rhinos@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 09:16 MirahezeLSBot: [rhinos@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 09:15 MirahezeLSBot: [rhinos@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 05:38 MirahezeLSBot: [waki285@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php updateSpecialPages --wiki=exttestwikibeta --only=ThemeUsage (END - exit=0)
+* 05:36 MirahezeLSBot: [waki285@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php updateSpecialPages --wiki=exttestwikibeta --only=ThemeUsage (END - exit=0)
+* 05:32 MirahezeLSBot: [waki285@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php updateSpecialPages --wiki=exttestwikibeta --only=ThemeUsage (END - exit=0)
+* 05:31 MirahezeLSBot: [waki285@test151] finished deploy of {'force_upgrade': True, 'versions': '1.47', 'upgrade_extensions': 'ThemeToggle'} to test151 - SUCCESS in 8s
+* 05:31 MirahezeLSBot: [waki285@test151] Starting deploy of {'force_upgrade': True, 'versions': '1.47', 'upgrade_extensions': 'ThemeToggle'} to test151
+* 02:11 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'debug': True} to all - SUCCESS in 27s (T16507)
+* 02:10 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'pull': 'config', 'config': True, 'debug': True} to all (T16507)
+* 01:55 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True, 'debug': True} to test151 - SUCCESS in 0s (T16507)
+* 01:55 MirahezeLSBot: [petramagna@test151] Starting deploy of {'config': True, 'debug': True} to test151 (T16507)
+* 00:14 SomeRandomDeveloper: Miraheze\MatomoAnalytics\MatomoAnalytics::getSiteID("mystiasizakayawiki", true); (T16357)
+* 00:12 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=mystiasizakayawiki --requester=Cypo (END - exit=0) (T16357)
+* 00:07 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject201: pdns-recursor
+* 00:07 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject211: pdns-recursor
+* 00:06 SomeRandomDeveloper: ran Miraheze\MatomoAnalytics\MatomoAnalytics::getSiteID("republicofteapotswiki", true); (T16344)
+* 00:06 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject181: pdns-recursor
+* 00:06 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy171: pdns-recursor
+* 00:06 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on test151: pdns-recursor
+* 00:05 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject191: pdns-recursor
+* 00:05 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftproxy161: pdns-recursor
+* 00:05 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject171: pdns-recursor
+* 00:04 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject161: pdns-recursor
+* 00:04 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftac171: pdns-recursor
+* 00:04 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on speedscope211: pdns-recursor
+* 00:04 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on swiftobject151: pdns-recursor
+* 00:03 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os162: pdns-recursor
+* 00:03 MirahezeLSBot: [somerandomdeveloper@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=republicofteapotswiki --requester=Deathhunter (END - exit=0) (T16344)
+* 00:03 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os151: pdns-recursor
+* 00:03 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os191: pdns-recursor
+* 00:03 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os202: pdns-recursor
+* 00:02 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os201: pdns-recursor
+* 00:02 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on rdb191: pdns-recursor
+* 00:02 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on phorge171: pdns-recursor
+* 00:01 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask171: pdns-recursor
+* 00:01 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask181: pdns-recursor
+* 00:01 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on os161: pdns-recursor
+* 00:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on puppet181: pdns-recursor
 * 00:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on prometheus151: pdns-recursor
 * 00:00 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on reports171: pdns-recursor
 

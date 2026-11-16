@@ -53,6 +53,8 @@ It's been a month and a half since the last update on this. Could we get a statu
 
    After nearly half a year without maps in my map-based wiki, so I’d like to ask again if there’s any news and whether the extension might be available again soon. Now that it’s winter, I’d like to work on my wiki full steam ahead and get it online in a few months, but unfortunately that’s not possible with broken links instead of maps showing regional outlines. Thanks for any updates! [Weltbibliographie](https://meta.miraheze.org/wiki/User:Weltbibliographie) ([talk](https://meta.miraheze.org/wiki/User_talk:Weltbibliographie)) 10:32, 14 November 2026 (UTC)
       There are no updates [RhinosF1 (Miraheze)](https://meta.miraheze.org/wiki/User:RhinosF1_(Miraheze)) ([talk](https://meta.miraheze.org/wiki/User_talk:RhinosF1_(Miraheze))) 10:38, 14 November 2026 (UTC)
+      the closest thing to an update is [phorge:T15794#330174](https://meta.miraheze.org/wiki/phorge:T15794#330174). [Jenny on Wiki](https://meta.miraheze.org/wiki/User:Jenny_on_Wiki) ([talk](https://meta.miraheze.org/wiki/User_talk:Jenny_on_Wiki)) 12:12, 15 November 2026 (UTC)
+         After reading T15794 and then reading T15738 which was linked from that ticket, The comment "If we ever re-enable the extension" made by PetraMagna in T15738 in early August makes me worry. Are we *ever* going to get Maps back? If we're not going to get Maps back, please provide the migration strategy to a replacement extension. -- [Robkelk](https://meta.miraheze.org/wiki/User:Robkelk) ([talk](https://meta.miraheze.org/wiki/User_talk:Robkelk)) 14:10, 15 November 2026 (UTC)
 
 ## Changes to Miraheze's default MediaWiki configuration 
 
