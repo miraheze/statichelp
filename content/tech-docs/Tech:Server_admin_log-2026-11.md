@@ -4,6 +4,42 @@ title: Tech:Server admin log/2026-11
 
 `{{ {{Server admin log/nav}} }}`
 
+## 2026-11-16 
+
+* 23:14 MirahezeLSBot: [universalomega@db192] MariaDB [metawiki]> UPDATE cw_requests SET cw_status = 'inreview' WHERE cw_id = 95384;
+* 23:11 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 23:10 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 23:10 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 23:10 MirahezeLSBot: [universalomega@test151] Starting deploy of {'pull': 'config', 'config': True} to test151
+* 20:12 MirahezeLSBot: [universalomega@db192] MariaDB [metawiki]> UPDATE cw_requests SET cw_status = 'inreview' WHERE cw_id = 95910;
+* 14:50 MirahezeLSBot: [waki285@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php MirahezeMagic:ArchiveMissingSlotRevisions --wiki=wakiwikibeta --page Abc (END - exit=0)
+* 14:49 MirahezeLSBot: [waki285@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php MirahezeMagic:ArchiveMissingSlotRevisions --wiki=wakiwikibeta --page Abc --dry-run (END - exit=0)
+* 14:41 MirahezeLSBot: [waki285@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php MirahezeMagic:ArchiveMissingSlotRevisions --wiki=metawikibeta --page Central_Wiki:Sandbox (END - exit=0)
+* 14:41 MirahezeLSBot: [waki285@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php MirahezeMagic:ArchiveMissingSlotRevisions --wiki=metawikibeta --page Central_Wiki:Sandbox --dry-run (END - exit=0)
+* 14:40 MirahezeLSBot: [waki285@test151] finished deploy of {'force_upgrade': True, 'versions': '1.47', 'upgrade_extensions': 'MirahezeMagic'} to test151 - SUCCESS in 9s
+* 14:40 MirahezeLSBot: [waki285@test151] Starting deploy of {'force_upgrade': True, 'versions': '1.47', 'upgrade_extensions': 'MirahezeMagic'} to test151
+* 14:40 MirahezeLSBot: [waki285@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php MirahezeMagic:ArchiveMissingSlotRevisions --wiki=metawikibeta --page Central_Wiki:Sandbox --dry-run (END - exit=1)
+* 07:20 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s (T16508)
+* 07:20 MirahezeLSBot: [petramagna@test151] Starting deploy of {'config': True} to test151 (T16508)
+* 06:48 MirahezeLSBot: [petramagna@mwtask171] Upgrade ThemeToggle to resolve [mediazilla:T444962](https://meta.miraheze.org/wiki/mediazilla:T444962) and test update special pages on a wiki
+* 06:47 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php UpdateSpecialPages --wiki=pizzatowerwiki (END - exit=0)
+* 06:46 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ThemeToggle', 'debug': True} to all - SUCCESS in 81s
+* 06:45 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ThemeToggle', 'debug': True} to all
+* 06:32 MirahezeLSBot: [petramagna@test151] finished deploy of {'pr': 6646, 'pr_repo': 'config', 'config': True} to test151 - SUCCESS in 1s (T16508)
+* 06:32 MirahezeLSBot: [petramagna@test151] Starting deploy of {'pr': 6646, 'pr_repo': 'config', 'config': True} to test151 (T16508)
+* 00:59 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CentralAuth:fixStuckGlobalRename --wiki=ekimerowiki 'チチン' 1ppmppmppm --logwiki=metawiki (END - exit=0)
+* 00:56 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CentralAuth:fixStuckGlobalRename --wiki=2b2twiki 'Thine Cyber Cat' 'And I Watched The Water Unfold' --logwiki=metawiki (END - exit=0)
+* 00:54 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CentralAuth:fixStuckGlobalRename --wiki=biastwiki 'R3TR0-X-Subspace MLG' '✬ Through-The-Astral-Isles ✬' --logwiki=metawiki (END - exit=0)
+* 00:52 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CentralAuth:fixStuckGlobalRename --wiki=transmasculinewiki 'Fern 2332' 'Avery 2332' --logwiki=metawiki (END - exit=0)
+* 00:51 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CentralAuth:fixStuckGlobalRename --wiki=alterhumanwiki 'Fern 2332' 'Avery 2332' --logwiki=metawiki (END - exit=1)
+* 00:49 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CentralAuth:fixStuckGlobalRename --wiki=babawritewikiwiki Extreme 'Archangel gaby' --logwiki=metawiki (END - exit=0)
+* 00:49 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CentralAuth:fixStuckGlobalRename --wiki=babawritewikiwiki Extreme 'Archangel gaby' --logwiki=metawiki (END - exit=1)
+* 00:41 MirahezeLSBot: [paladox@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 00:41 MirahezeLSBot: [paladox@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 00:41 MirahezeLSBot: [paladox@test151] Starting deploy of {'pull': 'config', 'config': True} to test151
+* 00:40 MirahezeLSBot: [paladox@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 00:36 MirahezeLSBot: [rhinos@db161] RhinosF1: done (exit code 0)
+
 ## 2026-11-15 
 
 * 23:53 Universal Omega: sudo mongosh --eval 'db.adminCommand({ setFeatureCompatibilityVersion: "8.3", confirm: true })' on graylog161
