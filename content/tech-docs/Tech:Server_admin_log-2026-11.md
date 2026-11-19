@@ -4,6 +4,78 @@ title: Tech:Server admin log/2026-11
 
 `{{ {{Server admin log/nav}} }}`
 
+## 2026-11-18 
+
+* 23:39 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': 'all'} to all - SUCCESS in 82s
+* 23:38 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'l10n': True, 'versions': 'all'} to all
+* 23:38 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 79s
+* 23:36 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 23:36 MirahezeLSBot: [universalomega@test151] finished deploy of {'l10n': True, 'versions': '1.47'} to test151 - SUCCESS in 11s
+* 23:36 MirahezeLSBot: [universalomega@test151] Starting deploy of {'l10n': True, 'versions': '1.47'} to test151
+* 23:36 MirahezeLSBot: [universalomega@test151] finished deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151 - SUCCESS in 8s
+* 23:36 MirahezeLSBot: [universalomega@test151] Starting deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151
+* 22:29 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 81s
+* 22:28 MirahezeLSBot: [universalomega@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 22:28 MirahezeLSBot: [universalomega@test151] Starting deploy of {'versions': '1.47', 'upgrade_extensions': 'MirahezeMagic', 'debug': True} to test151
+* 22:28 MirahezeLSBot: [universalomega@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 22:28 MirahezeLSBot: [universalomega@test151] Starting deploy of {'versions': '1.47', 'upgrade_extensions': 'MirahezeMagic'} to test151
+* 22:28 MirahezeLSBot: [universalomega@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 22:27 MirahezeLSBot: [universalomega@test151] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to test151
+* 22:27 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 22:16 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 22:16 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 22:15 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': 'all'} to all - SUCCESS in 86s
+* 22:15 MirahezeLSBot: [universalomega@test151] finished deploy of {'l10n': True, 'versions': '1.47'} to test151 - SUCCESS in 13s
+* 22:14 MirahezeLSBot: [universalomega@test151] Starting deploy of {'l10n': True, 'versions': '1.47'} to test151
+* 22:14 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'l10n': True, 'versions': 'all'} to all
+* 22:14 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 89s
+* 22:12 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 22:09 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 22:09 MirahezeLSBot: [universalomega@test151] Starting deploy of {'pull': 'config', 'config': True} to test151
+* 22:09 MirahezeLSBot: [universalomega@test151] finished deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151 - SUCCESS in 10s
+* 22:09 MirahezeLSBot: [universalomega@test151] Starting deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151
+* 19:42 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:ArchiveMissingSlotRevisions --wiki=metawiki --page Miraheze_Meta (END - exit=0)
+* 19:42 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:ArchiveMissingSlotRevisions --wiki=metawiki --page Miraheze_Meta --dry-run (END - exit=0)
+* 19:41 MirahezeLSBot: [macfan@mwtask181] finished deploy of {'versions': '1.46', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 38s (T16535)
+* 19:41 MirahezeLSBot: [macfan@mwtask181] Starting deploy of {'versions': '1.46', 'upgrade_extensions': 'MirahezeMagic'} to all (T16535)
+* 05:17 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': 'all'} to all - SUCCESS in 85s
+* 05:16 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'l10n': True, 'versions': 'all'} to all
+* 05:16 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 79s
+* 05:14 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 05:14 MirahezeLSBot: [universalomega@test151] finished deploy of {'l10n': True, 'versions': '1.47'} to test151 - SUCCESS in 11s
+* 05:14 MirahezeLSBot: [universalomega@test151] Starting deploy of {'l10n': True, 'versions': '1.47'} to test151
+* 05:14 MirahezeLSBot: [universalomega@test151] finished deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151 - SUCCESS in 9s
+* 05:14 MirahezeLSBot: [universalomega@test151] Starting deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151
+* 04:24 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'l10n': True, 'versions': 'all'} to all
+* 04:23 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 82s
+* 04:21 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 04:21 MirahezeLSBot: [universalomega@test151] finished deploy of {'l10n': True, 'versions': '1.47'} to test151 - SUCCESS in 11s
+* 04:21 MirahezeLSBot: [universalomega@test151] Starting deploy of {'l10n': True, 'versions': '1.47'} to test151
+* 04:20 MirahezeLSBot: [universalomega@test151] finished deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151 - SUCCESS in 8s
+* 04:20 MirahezeLSBot: [universalomega@test151] Starting deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151
+* 03:21 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': 'all'} to all - SUCCESS in 87s
+* 03:20 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'l10n': True, 'versions': 'all'} to all
+* 03:19 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 86s
+* 03:18 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 03:18 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 89s
+* 03:16 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 03:15 MirahezeLSBot: [universalomega@test151] finished deploy of {'l10n': True, 'versions': '1.47'} to test151 - SUCCESS in 11s
+* 03:14 MirahezeLSBot: [universalomega@test151] Starting deploy of {'l10n': True, 'versions': '1.47'} to test151
+* 03:14 MirahezeLSBot: [universalomega@test151] finished deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151 - SUCCESS in 11s
+* 03:14 MirahezeLSBot: [universalomega@test151] Starting deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151
+* 02:29 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 81s
+* 02:28 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 02:27 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 02:27 MirahezeLSBot: [universalomega@test151] Starting deploy of {'pull': 'config', 'config': True} to test151
+* 02:26 MirahezeLSBot: [universalomega@test151] finished deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151 - SUCCESS in 9s
+* 02:26 MirahezeLSBot: [universalomega@test151] Starting deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151
+* 02:25 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 02:24 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 01:24 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 29s
+* 01:24 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 01:24 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 1s
+* 01:24 MirahezeLSBot: [universalomega@test151] Starting deploy of {'pull': 'config', 'config': True} to test151
+
 ## 2026-11-17 
 
 * 23:49 MirahezeLSBot: [waki285@test151] finished deploy of {'pr': 6642, 'pr_repo': 'config', 'config': True} to test151 - SUCCESS in 0s
