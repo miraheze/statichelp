@@ -4,6 +4,93 @@ title: Tech:Server admin log/2026-11
 
 `{{ {{Server admin log/nav}} }}`
 
+## 2026-11-19 
+
+* 16:38 @paladox: restart nginx everywhere
+* 14:56 @paladox: restarted nginx / php everywhere that used it
+* 14:56 MirahezeLSBot: [paladox@puppet181] Upgraded packages on test151: nginx, nginx-common, php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-cli, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-dev, php8.4-dba, php8.4-curl, php8.4-bz2, php8.4-bcmath, and php8.4-common
+* 14:56 @paladox: upgrade php / nginx everywhere that used it
+* 14:54 MirahezeLSBot: [paladox@puppet181] Upgraded packages on reports171: nginx, nginx-common, php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-curl, php8.4-cli, and php8.4-common
+* 14:53 MirahezeLSBot: [paladox@puppet181] Upgraded packages on speedscope211: nginx and nginx-common
+* 14:52 MirahezeLSBot: [paladox@puppet181] Upgraded packages on puppet181: nginx and nginx-common
+* 14:52 MirahezeLSBot: [paladox@puppet181] Upgraded packages on os162: nginx and nginx-common
+* 14:51 MirahezeLSBot: [paladox@puppet181] Upgraded packages on os202: nginx and nginx-common
+* 14:50 MirahezeLSBot: [paladox@puppet181] Upgraded packages on phorge171: nginx, nginx-common, php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-curl, php8.4-cli, and php8.4-common
+* 14:49 MirahezeLSBot: [paladox@puppet181] Upgraded packages on os151: nginx and nginx-common
+* 14:44 MirahezeLSBot: [paladox@puppet181] Upgraded packages on mon181: php8.4-xml, php8.4-soap, php8.4-readline, php8.4-pgsql, php8.4-opcache, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-curl, libapache2-mod-php8.4, php8.4-cli, php8.4-common, and php8.4
+* 14:42 MirahezeLSBot: [paladox@puppet181] Upgraded packages on matomo211: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-curl, php8.4-cli, and php8.4-common
+* 14:41 MirahezeLSBot: [paladox@puppet181] Upgraded packages on matomo151: php8.4-zip, php8.4-xml, php8.4-readline, php8.4-opcache, php8.4-phpdbg, php8.4-mysql, php8.4-mbstring, php8.4-ldap, php8.4-intl, php8.4-gmp, php8.4-gd, php8.4-fpm, php8.4-curl, php8.4-cli, and php8.4-common
+* 13:02 @paladox: restart puppetdb and puppetserver on puppet181
+* 13:01 @paladox: restart kafka on kafka182
+* 12:59 @paladox: restart graylog-server on graylog161
+* 12:59 @paladox: restart opensearch on os*
+* 09:47 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.47/extensions/GlobalBlocking'} to test151 - SUCCESS in 0s (T15461)
+* 09:47 MirahezeLSBot: [petramagna@test151] Starting deploy of {'folders': '1.47/extensions/GlobalBlocking'} to test151 (T15461)
+* 09:37 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.47/extensions/GlobalBlocking'} to test151 - SUCCESS in 0s (T15461)
+* 09:37 MirahezeLSBot: [petramagna@test151] Starting deploy of {'folders': '1.47/extensions/GlobalBlocking'} to test151 (T15461)
+* 09:34 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.47/extensions/GlobalBlocking'} to test151 - SUCCESS in 0s (T15461)
+* 09:34 MirahezeLSBot: [petramagna@test151] Starting deploy of {'folders': '1.47/extensions/GlobalBlocking'} to test151 (T15461)
+* 09:18 MirahezeLSBot: [petramagna@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output. (T16430)
+* 09:18 MirahezeLSBot: [petramagna@test151] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to test151 (T16430)
+* 09:18 MirahezeLSBot: [petramagna@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s (T16430)
+* 09:18 MirahezeLSBot: [petramagna@test151] Starting deploy of {'config': True} to test151 (T16430)
+* 05:45 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 72s
+* 05:44 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 05:38 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php RequestCustomDomain:MigrateLogParams --wiki=metawiki --batch-size=5000 (END - exit=0)
+* 05:37 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'RequestCustomDomain'} to all - SUCCESS in 73s
+* 05:36 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'RequestCustomDomain'} to all
+* 05:35 MirahezeLSBot: [universalomega@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php RequestCustomDomain:MigrateLogParams --wiki=metawikibeta (END - exit=0)
+* 05:34 MirahezeLSBot: [universalomega@test151] finished deploy of {'versions': '1.47', 'upgrade_extensions': 'RequestCustomDomain'} to test151 - SUCCESS in 8s
+* 05:34 MirahezeLSBot: [universalomega@test151] Starting deploy of {'versions': '1.47', 'upgrade_extensions': 'RequestCustomDomain'} to test151
+* 04:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask181: libvisio-0.1-1
+* 04:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw183: libvisio-0.1-1
+* 04:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask161: libvisio-0.1-1
+* 04:45 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw163: libvisio-0.1-1
+* 04:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw171: libvisio-0.1-1
+* 04:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw212: libvisio-0.1-1
+* 04:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw211: libvisio-0.1-1
+* 04:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw152: libvisio-0.1-1
+* 04:44 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw202: libvisio-0.1-1
+* 04:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw173: libvisio-0.1-1
+* 04:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw193: libvisio-0.1-1
+* 04:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw192: libvisio-0.1-1
+* 04:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask151: libvisio-0.1-1
+* 04:43 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw161: libvisio-0.1-1
+* 04:42 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw181: libvisio-0.1-1
+* 04:42 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw203: libvisio-0.1-1
+* 04:42 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mwtask171: libvisio-0.1-1
+* 04:42 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw162: libvisio-0.1-1
+* 04:41 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw153: libvisio-0.1-1
+* 04:41 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw201: libvisio-0.1-1
+* 04:41 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw213: libvisio-0.1-1
+* 04:41 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw172: libvisio-0.1-1
+* 04:41 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw182: libvisio-0.1-1
+* 04:40 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw151: libvisio-0.1-1
+* 04:40 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on mw191: libvisio-0.1-1
+* 04:40 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on test151: libvisio-0.1-1
+* 04:39 Universal Omega: restart haproxy on cp* and changeprop202
+* 04:39 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on changeprop202: haproxy
+* 04:36 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp191: haproxy
+* 04:35 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp201: haproxy
+* 04:35 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp161: haproxy
+* 04:33 MirahezeLSBot: [universalomega@puppet181] Upgraded packages on cp171: haproxy
+* 03:00 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CreateWiki:MigrateLogParams --wiki=metawiki --batch-size=5000 (END - exit=0)
+* 02:47 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'CreateWiki'} to all - SUCCESS in 75s
+* 02:45 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'CreateWiki'} to all
+* 02:43 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ManageWiki'} to all - SUCCESS in 75s (T15061)
+* 02:41 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ManageWiki'} to all (T15061)
+* 02:30 MirahezeLSBot: [petramagna@test151] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ManageWiki'} to test151 - SUCCESS in 17s (T15061)
+* 02:30 MirahezeLSBot: [petramagna@test151] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ManageWiki'} to test151 (T15061)
+* 02:19 MirahezeLSBot: [universalomega@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php CreateWiki:MigrateLogParams --wiki=metawikibeta (END - exit=0)
+* 01:14 SomeRandomDeveloper: Miraheze\MatomoAnalytics\MatomoAnalytics::getSiteID("argobdpwiki", true);
+* 01:01 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ImportDump:MigrateLogParams --wiki=metawiki (END - exit=0)
+* 00:52 SomeRandomDeveloper: deployed private patches added in fc4c47c to beta + prod
+* 00:37 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 77s
+* 00:35 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 00:34 MirahezeLSBot: [universalomega@test151] finished deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151 - SUCCESS in 8s
+* 00:34 MirahezeLSBot: [universalomega@test151] Starting deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151
+* 00:18 MirahezeLSBot: [universalomega@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php ImportDump:MigrateLogParams --wiki=metawikibeta (END - exit=0)
+
 ## 2026-11-18 
 
 * 23:39 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': 'all'} to all - SUCCESS in 82s
