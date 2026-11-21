@@ -4,6 +4,68 @@ title: Tech:Server admin log/2026-11
 
 `{{ {{Server admin log/nav}} }}`
 
+## 2026-11-20 
+
+* 23:54 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': 'all'} to all - SUCCESS in 82s
+* 23:53 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'l10n': True, 'versions': 'all'} to all
+* 23:53 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 77s
+* 23:52 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 23:51 MirahezeLSBot: [universalomega@test151] finished deploy of {'l10n': True, 'versions': '1.47'} to test151 - SUCCESS in 11s
+* 23:51 MirahezeLSBot: [universalomega@test151] Starting deploy of {'l10n': True, 'versions': '1.47'} to test151
+* 23:50 MirahezeLSBot: [universalomega@test151] finished deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151 - SUCCESS in 8s
+* 23:50 MirahezeLSBot: [universalomega@test151] Starting deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151
+* 22:53 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 79s
+* 22:52 MirahezeLSBot: [universalomega@test151] finished deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151 - SUCCESS in 8s
+* 22:52 MirahezeLSBot: [universalomega@test151] Starting deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151
+* 22:52 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 21:42 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': 'all'} to all - SUCCESS in 82s
+* 21:41 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'l10n': True, 'versions': 'all'} to all
+* 21:41 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 78s
+* 21:40 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 21:40 MirahezeLSBot: [universalomega@test151] finished deploy of {'l10n': True, 'versions': '1.47'} to test151 - SUCCESS in 11s
+* 21:39 MirahezeLSBot: [universalomega@test151] Starting deploy of {'l10n': True, 'versions': '1.47'} to test151
+* 21:39 MirahezeLSBot: [universalomega@test151] finished deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151 - SUCCESS in 8s
+* 21:39 MirahezeLSBot: [universalomega@test151] Starting deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151
+* 08:31 Reception123: set wiki_locked = 1 on all deleted wikis that have been deleted for reasons other than inactivity or requested by a crat
+* 06:09 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ImportDump:MigrateEchoTypes --wiki=metawiki (END - exit=0)
+* 06:09 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': 'all'} to all - SUCCESS in 85s
+* 06:08 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'l10n': True, 'versions': 'all'} to all
+* 06:08 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 79s
+* 06:06 MirahezeLSBot: [universalomega@test151] finished deploy of {'l10n': True, 'versions': '1.47'} to test151 - SUCCESS in 12s
+* 06:06 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 06:06 MirahezeLSBot: [universalomega@test151] Starting deploy of {'l10n': True, 'versions': '1.47'} to test151
+* 06:06 MirahezeLSBot: [universalomega@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php ImportDump:MigrateEchoTypes --wiki=metawikibeta (END - exit=0)
+* 06:06 MirahezeLSBot: [universalomega@test151] finished deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151 - SUCCESS in 8s
+* 06:05 MirahezeLSBot: [universalomega@test151] Starting deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151
+* 02:13 Universal Omega: UPDATE recentchanges SET rc_log_type = 'requestimportprivate' WHERE rc_source = 'mw.log' AND rc_log_type = 'importdumpprivate'; on metawiki
+* 02:13 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': 'all'} to all - SUCCESS in 84s
+* 02:13 Universal Omega: UPDATE recentchanges SET rc_log_type = 'requestimport' WHERE rc_source = 'mw.log' AND rc_log_type = 'importdump'; on metawiki
+* 02:13 Universal Omega: UPDATE logging SET log_type = 'requestimportprivate' WHERE log_type = 'importdumpprivate'; on metawiki
+* 02:12 Universal Omega: UPDATE logging SET log_type = 'requestimport' WHERE log_type = 'importdump'; on metawiki
+* 02:12 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'l10n': True, 'versions': 'all'} to all
+* 02:10 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ImportDump:MigrateLogTypes --wiki=metawiki (END - exit=130)
+* 02:09 MirahezeLSBot: [universalomega@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ImportDump:MigrateLogTypes --wiki=metawiki --batch-size=5000 (END - exit=130)
+* 02:03 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 80s
+* 02:02 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 02:01 MirahezeLSBot: [universalomega@test151] finished deploy of {'l10n': True, 'versions': '1.47'} to test151 - SUCCESS in 12s
+* 02:01 MirahezeLSBot: [universalomega@test151] Starting deploy of {'l10n': True, 'versions': '1.47'} to test151
+* 02:01 MirahezeLSBot: [universalomega@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php ImportDump:MigrateLogTypes --wiki=metawikibeta (END - exit=0)
+* 02:00 MirahezeLSBot: [universalomega@test151] finished deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151 - SUCCESS in 9s
+* 02:00 MirahezeLSBot: [universalomega@test151] Starting deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151
+* 01:34 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': 'all'} to all - SUCCESS in 234s
+* 01:30 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'l10n': True, 'versions': 'all'} to all
+* 01:30 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 82s
+* 01:29 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 01:27 MirahezeLSBot: [universalomega@test151] finished deploy of {'l10n': True, 'versions': '1.47'} to test151 - SUCCESS in 21s
+* 01:27 MirahezeLSBot: [universalomega@test151] Starting deploy of {'l10n': True, 'versions': '1.47'} to test151
+* 01:26 MirahezeLSBot: [universalomega@test151] finished deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151 - SUCCESS in 9s
+* 01:26 MirahezeLSBot: [universalomega@test151] Starting deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151
+* 00:51 MirahezeLSBot: [macfan@mw153] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=zhsoulframewiki (END - exit=0)
+* 00:44 MirahezeLSBot: [macfan@mw151] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=zhsoulframewiki (END - exit=0)
+* 00:33 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=zhsoulframewiki (END - exit=0)
+* 00:32 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=zhsoulframewiki (END - exit=0)
+* 00:28 MirahezeLSBot: [macfan@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=zhsoulframewiki (END - exit=0)
+
 ## 2026-11-19 
 
 * 16:38 @paladox: restart nginx everywhere

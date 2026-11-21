@@ -6,13 +6,13 @@ title: Tech:Home
  `{{ {{Tech navigation|main|header=Technology team|description=Welcome to the hub for all of Miraheze's Technology team, the people behind Miraheze's servers! Learn more about us and what we do on Miraheze Meta.|keywords=miraheze tech, miraheze sysadmins, miraheze system administrators}} }}`
 
 ### Inside Technology:
+* September 2026: Miraheze upgraded to MediaWiki 1.46!
+* February 2026: Miraheze upgraded to MediaWiki 1.45!
 * September 2025: Miraheze upgraded to MediaWiki 1.44!
 * March 2025: Miraheze is deprecating its authoritative DNS nameservers
 * January 2025: Miraheze upgraded to MediaWiki 1.43!
 * July 2024: Miraheze upgraded to MediaWiki 1.42!
 * April 2024: Miraheze began using CloudFlare to ward off DDoS attacks!
-* February 2024: Miraheze upgraded to MediaWiki 1.41!
-* January 2024: Miraheze improved its technical infrastructure!
 ### What is the Technology team?
 Who do you think runs the show behind the scenes in the server room? The Technology team (whose members may also be known as **system administrators**, and were formerly known as Site Reliability Engineers) does! We're a group of people who all work together to ensure Miraheze runs smoothly and that our users are satisfied. Just like everyone else, we're unpaid volunteers who love our users and always put them first!
 
