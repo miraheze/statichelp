@@ -4,6 +4,140 @@ title: Tech:Server admin log/2026-11
 
 `{{ {{Server admin log/nav}} }}`
 
+## 2026-11-21 
+
+* 21:31 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 32s
+* 21:30 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 21:30 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 21:30 MirahezeLSBot: [universalomega@test151] Starting deploy of {'pull': 'config', 'config': True} to test151
+* 21:29 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 90s
+* 21:28 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 21:27 MirahezeLSBot: [universalomega@test151] finished deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151 - SUCCESS in 8s
+* 21:27 MirahezeLSBot: [universalomega@test151] Starting deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151
+* 21:26 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 21:26 MirahezeLSBot: [universalomega@test151] Starting deploy of {'pull': 'config', 'config': True} to test151
+* 21:26 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 30s
+* 21:25 MirahezeLSBot: [universalomega@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 21:25 MirahezeLSBot: [universalomega@test151] Starting deploy of {'pull': 'config', 'config': True} to test151
+* 21:25 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 20:13 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force': True, 'force_upgrade': True, 'versions': 'all', 'upgrade_extensions': ['CreateWiki', 'ManageWiki']} to all - SUCCESS in 70s
+* 20:12 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'force': True, 'force_upgrade': True, 'versions': 'all', 'upgrade_extensions': ['CreateWiki', 'ManageWiki']} to all
+* 20:10 MirahezeLSBot: [universalomega@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mw153
+* 20:09 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': ['CreateWiki', 'ManageWiki']} to all
+* 20:08 MirahezeLSBot: [universalomega@test151] finished deploy of {'force_upgrade': True, 'versions': '1.47', 'upgrade_extensions': ['CreateWiki', 'ManageWiki']} to test151 - SUCCESS in 9s
+* 20:08 MirahezeLSBot: [universalomega@test151] Starting deploy of {'force_upgrade': True, 'versions': '1.47', 'upgrade_extensions': ['CreateWiki', 'ManageWiki']} to test151
+* 20:06 MirahezeLSBot: [universalomega@test151] finished deploy of {'force_upgrade': True, 'versions': '1.47', 'upgrade_extensions': ['CreateWiki', 'ManageWiki']} to test151 - SUCCESS in 9s
+* 20:06 MirahezeLSBot: [universalomega@test151] Starting deploy of {'force_upgrade': True, 'versions': '1.47', 'upgrade_extensions': ['CreateWiki', 'ManageWiki']} to test151
+* 20:06 MirahezeLSBot: [universalomega@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 20:06 MirahezeLSBot: [universalomega@test151] Starting deploy of {'versions': '1.47', 'upgrade_extensions': ['CreateWiki', 'ManageWiki']} to test151
+* 17:50 MirahezeLSBot: [waki285@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwikibeta --old=wakirenametestwikibeta --new=wakirenametestingwikibeta --user=Maintenance_script --rename (END - exit=1)
+* 17:50 MirahezeLSBot: [waki285@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwikibeta --old=wakirenametestwikibeta --new=wakirenametestingwikibeta --user=Maintenance_script (END - exit=0)
+* 17:49 MirahezeLSBot: [waki285@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwikibeta --old=wakirenametestwikibeta --new=wakirenametestingwikibeta --user=Maintenance_script (END - exit=0)
+* 17:49 MirahezeLSBot: [waki285@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwikibeta --rename --old=wakirenametestwikibeta --new=wakirenametestingwikibeta --user=Maintenance_script (END - exit=130)
+* 17:40 MirahezeLSBot: [waki285@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=assandorwiki --update --active (END - exit=0) (T16578)
+* 16:37 MirahezeLSBot: [waki285@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:ReplaceTextEligible --wiki=dficfwiki (END - exit=0)
+* 16:32 MirahezeLSBot: [waki285@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:ReplaceTextEligible --wiki=talesfromthetwinsunswiki (END - exit=0)
+* 16:27 MirahezeLSBot: [waki285@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:ReplaceTextEligible --wiki=themidnightwiki (END - exit=0)
+* 16:23 MirahezeLSBot: [waki285@mwtask171] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:ReplaceTextEligible --wiki=pm606themiserableattemptwiki (END - exit=0)
+* 13:10 MirahezeLSBot: [waki285@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=exttestwikibeta (END - exit=0)
+* 13:09 MirahezeLSBot: [waki285@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=exttestwikibeta (END - exit=0)
+* 13:09 MirahezeLSBot: [waki285@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 13:09 MirahezeLSBot: [waki285@test151] Starting deploy of {'config': True} to test151
+* 13:08 MirahezeLSBot: [waki285@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=exttestwikibeta (END - exit=0)
+* 13:08 MirahezeLSBot: [waki285@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 13:08 MirahezeLSBot: [waki285@test151] Starting deploy of {'config': True} to test151
+* 09:56 MirahezeLSBot: [waki285@mwtask181] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php initSiteStats --wiki=testwiki (END - exit=0)
+* 09:28 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 30s
+* 09:28 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 09:28 MirahezeLSBot: [universalomega@test151] Starting deploy of {'pull': 'config', 'config': True} to test151
+* 09:28 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 08:06 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 81s
+* 08:04 MirahezeLSBot: [universalomega@test151] finished deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151 - SUCCESS in 8s
+* 08:04 MirahezeLSBot: [universalomega@test151] Starting deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151
+* 08:04 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 07:57 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 84s
+* 07:56 MirahezeLSBot: [universalomega@test151] finished deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151 - SUCCESS in 9s
+* 07:56 MirahezeLSBot: [universalomega@test151] Starting deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151
+* 07:56 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 07:54 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': 'all'} to all - SUCCESS in 87s
+* 07:53 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'l10n': True, 'versions': 'all'} to all
+* 07:52 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 89s
+* 07:51 MirahezeLSBot: [universalomega@test151] finished deploy of {'l10n': True, 'versions': '1.47'} to test151 - SUCCESS in 11s
+* 07:51 MirahezeLSBot: [universalomega@test151] Starting deploy of {'l10n': True, 'versions': '1.47'} to test151
+* 07:51 MirahezeLSBot: [universalomega@test151] finished deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151 - SUCCESS in 8s
+* 07:51 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 07:51 MirahezeLSBot: [universalomega@test151] Starting deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151
+* 06:57 MirahezeLSBot: [petramagna@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=100bangaiwiki --json=./1.47.json --change-version (END - exit=1; time=1s)
+* 06:57 MirahezeLSBot: [petramagna@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=100bangaiwiki --json=./1.47.json --change-version (START)
+* 06:53 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'folders': '1.47/includes,1.47/tests'} to all - SUCCESS in 33s (T16543)
+* 06:52 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'folders': '1.47/includes,1.47/tests'} to all (T16543)
+* 06:49 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 84s
+* 06:48 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 06:46 MirahezeLSBot: [universalomega@test151] finished deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151 - SUCCESS in 8s
+* 06:46 MirahezeLSBot: [universalomega@test151] Starting deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151
+* 06:35 MirahezeLSBot: [petramagna@test151] finished deploy of {'folders': '1.47/includes,1.47/tests'} to test151 - SUCCESS in 0s
+* 06:35 MirahezeLSBot: [petramagna@test151] Starting deploy of {'folders': '1.47/includes,1.47/tests'} to test151
+* 06:34 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': 'all'} to all - SUCCESS in 84s
+* 06:33 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'l10n': True, 'versions': 'all'} to all
+* 06:30 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 78s
+* 06:30 MirahezeLSBot: [petramagna@test151] finished deploy of {'world': True, 'versions': '1.47'} to test151 - SUCCESS in 18s
+* 06:30 MirahezeLSBot: [petramagna@test151] Starting deploy of {'world': True, 'versions': '1.47'} to test151
+* 06:29 MirahezeLSBot: [universalomega@test151] finished deploy of {'l10n': True, 'versions': '1.47'} to test151 - SUCCESS in 44s
+* 06:29 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 06:28 MirahezeLSBot: [universalomega@test151] Starting deploy of {'l10n': True, 'versions': '1.47'} to test151
+* 06:28 MirahezeLSBot: [universalomega@test151] finished deploy of {'l10n': True, 'versions': '1.47'} to test151 - SUCCESS in 11s
+* 06:28 MirahezeLSBot: [universalomega@test151] Starting deploy of {'l10n': True, 'versions': '1.47'} to test151
+* 06:28 MirahezeLSBot: [universalomega@test151] finished deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151 - SUCCESS in 7s
+* 06:27 MirahezeLSBot: [universalomega@test151] Starting deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151
+* 06:09 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 1s (T16430)
+* 06:09 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to all (T16430)
+* 05:23 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': 'all'} to all - SUCCESS in 104s
+* 05:21 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'l10n': True, 'versions': 'all'} to all
+* 05:21 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': ['ImportDump', 'MirahezeMagic']} to all - SUCCESS in 88s
+* 05:21 MirahezeLSBot: [universalomega@test151] finished deploy of {'l10n': True, 'versions': '1.47'} to test151 - SUCCESS in 11s
+* 05:21 MirahezeLSBot: [universalomega@test151] Starting deploy of {'l10n': True, 'versions': '1.47'} to test151
+* 05:20 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': ['ImportDump', 'MirahezeMagic']} to all
+* 05:19 MirahezeLSBot: [universalomega@test151] finished deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151 - SUCCESS in 9s
+* 05:19 MirahezeLSBot: [universalomega@test151] Starting deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151
+* 05:19 MirahezeLSBot: [universalomega@test151] finished deploy of {'versions': '1.47', 'upgrade_extensions': 'MirahezeMagic'} to test151 - SUCCESS in 8s
+* 05:19 MirahezeLSBot: [universalomega@test151] Starting deploy of {'versions': '1.47', 'upgrade_extensions': 'MirahezeMagic'} to test151
+* 04:52 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 83s
+* 04:51 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 04:38 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 78s
+* 04:37 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 04:31 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': 'all'} to all - SUCCESS in 219s
+* 04:27 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'l10n': True, 'versions': 'all'} to all
+* 04:26 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': 'all'} to all - SUCCESS in 92s
+* 04:25 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'l10n': True, 'versions': 'all'} to all
+* 04:24 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 89s
+* 04:24 Universal Omega: ALTER TABLE import_requests ADD COLUMN request_requirements BLOB DEFAULT NULL AFTER request_history; on metawiki and metawikibeta
+* 04:23 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 04:21 MirahezeLSBot: [universalomega@test151] finished deploy of {'l10n': True, 'versions': '1.47'} to test151 - SUCCESS in 40s
+* 04:20 MirahezeLSBot: [universalomega@test151] Starting deploy of {'l10n': True, 'versions': '1.47'} to test151
+* 04:18 MirahezeLSBot: [universalomega@test151] finished deploy of {'force_upgrade': True, 'versions': '1.47', 'upgrade_extensions': 'MirahezeMagic', 'debug': True} to test151 - SUCCESS in 9s
+* 04:18 MirahezeLSBot: [universalomega@test151] Starting deploy of {'force_upgrade': True, 'versions': '1.47', 'upgrade_extensions': 'MirahezeMagic', 'debug': True} to test151
+* 04:17 MirahezeLSBot: [universalomega@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 04:17 MirahezeLSBot: [universalomega@test151] Starting deploy of {'versions': '1.47', 'upgrade_extensions': 'MirahezeMagic', 'debug': True} to test151
+* 04:17 MirahezeLSBot: [universalomega@test151] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 04:17 MirahezeLSBot: [universalomega@test151] Starting deploy of {'versions': '1.47', 'upgrade_extensions': 'MirahezeMagic'} to test151
+* 04:17 MirahezeLSBot: [universalomega@test151] finished deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151 - SUCCESS in 8s
+* 04:16 MirahezeLSBot: [universalomega@test151] Starting deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151
+* 03:51 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 03:51 MirahezeLSBot: [universalomega@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s
+* 03:51 MirahezeLSBot: [universalomega@test151] Starting deploy of {'pull': 'config', 'config': True} to test151
+* 03:51 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 01:24 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': 'all'} to all - SUCCESS in 186s
+* 01:21 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'l10n': True, 'versions': 'all'} to all
+* 01:20 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force_upgrade': True, 'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 124s
+* 01:18 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'force_upgrade': True, 'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 00:59 SomeRandomDeveloper: running "sudo salt-ssh -E 'mw.*' cmd.run 'puppet agent -tv'" on puppet181 for T16573
+* 00:56 SomeRandomDeveloper: upgraded beta and prod to 1.46.3 / latest 1.47.0 RC commit (see T16572)
+* 00:23 Universal Omega: CREATE TABLE import_request_handlers (request_id BIGINT UNSIGNED NOT NULL, request_handler_actor BIGINT UNSIGNED NOT NULL, PRIMARY KEY (request_id, request_handler_actor)); on metawiki and metawikibeta
+* 00:21 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 86s
+* 00:20 MirahezeLSBot: [universalomega@test151] finished deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151 - SUCCESS in 56s
+* 00:20 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 00:19 MirahezeLSBot: [universalomega@test151] Starting deploy of {'versions': '1.47', 'upgrade_extensions': 'ImportDump'} to test151
+
 ## 2026-11-20 
 
 * 23:54 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': 'all'} to all - SUCCESS in 82s

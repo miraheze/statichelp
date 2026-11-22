@@ -18,6 +18,7 @@ title: Tech:Volunteers/List
 | [SomeRandomDeveloper](https://meta.miraheze.org/wiki/User:SomeRandomDeveloper)<br /> *Infrastructure Specialist* | None | somerandomdeveloper@miraheze.org | Root on all servers | Owner | Yes | Yes | Yes | No | Yes |
 | [Universal Omega](https://meta.miraheze.org/wiki/User:Universal_Omega)<br /> *Director of Technology* | CosmicAlpha | universalomega `{{ {{@}} }}`miraheze.org | Root on all servers | Owner | Yes | Yes | Yes | Yes | Yes |
 | [Void](https://meta.miraheze.org/wiki/User:Void)<br /> *Infrastructure Specialist* | Voidwalker | void `{{ {{@}} }}`miraheze.org | Root on all servers | Owner | Yes | Yes | Yes | Yes | Yes |
+| [Waki285](https://meta.miraheze.org/wiki/User:Waki285)<br /> *MediaWiki Specialist* | None | waki285@miraheze.org | MediaWiki servers | MediaWiki Specialists | No | No | Yes | No | No |
 
 ## Categories
 
