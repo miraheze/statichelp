@@ -56,16 +56,6 @@ It's been a month and a half since the last update on this. Could we get a statu
       the closest thing to an update is [phorge:T15794#330174](https://meta.miraheze.org/wiki/phorge:T15794#330174). [Jenny on Wiki](https://meta.miraheze.org/wiki/User:Jenny_on_Wiki) ([talk](https://meta.miraheze.org/wiki/User_talk:Jenny_on_Wiki)) 12:12, 15 November 2026 (UTC)
          After reading T15794 and then reading T15738 which was linked from that ticket, The comment "If we ever re-enable the extension" made by PetraMagna in T15738 in early August makes me worry. Are we *ever* going to get Maps back? If we're not going to get Maps back, please provide the migration strategy to a replacement extension. -- [Robkelk](https://meta.miraheze.org/wiki/User:Robkelk) ([talk](https://meta.miraheze.org/wiki/User_talk:Robkelk)) 14:10, 15 November 2026 (UTC)
 
-## Changes to Miraheze's default MediaWiki configuration 
-
-Following a successful [Request for Feedback](/tech-docs/technoticeboard-request_for_feedback_changes_to_default_mediawiki_settings), the Technology Team is making several changes to Miraheze's default MediaWiki configurations. We believe they are a net positive for most wikis. If they do not work well for your wiki, you can change the setting back on ManageWiki. The configuration changes are as follows:
-* `wgNativeImageLazyLoading` is enabled.
-* `wgRestrictDisplayTitle` is disabled.
-* `wgArticleCountMethod` is changed from `link` to `any`.
-* `wgTabberNeueEnableAnimation` is disabled.
-* `wgVectorResponsive` is set to `true` for all new wikis. Existing wikis are unaffected.
-Please note that if you have changed the setting manually on ManageWiki before, it will not be changed by us. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 11:58, 15 June 2026 (UTC)
-
 ## Extension removal for the MediaWiki 1.46 update 
 
 As the [MediaWiki 1.46](https://meta.miraheze.org/wiki/MediaWiki/1.46) update draws near, the technology team is planning to remove several MediaWiki extensions due to both technical issues and perceived lack of usefulness/community interest.
@@ -83,6 +73,10 @@ Thank you,
 ## New Request for feedback on changes to default MediaWiki settings 
 
 A discussion is on-going about several proposed changes to Miraheze's default MediaWiki settings at [Tech:Noticeboard/Request for feedback: changes to default MediaWiki settings (2)](/tech-docs/technoticeboard-request_for_feedback_changes_to_default_mediawiki_settings_(2)). Please cast your vote or express your thoughts about these changes. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 02:04, 18 October 2026 (UTC)
+
+## Recent breaking change to ManageWiki extension 
+
+It looks like the [ManageWiki](https://meta.miraheze.org/wiki/mw:Extension:ManageWiki) extension underwent some significant upgrades. While laudable, it seems the changes caused some unnecessary breaking effects, deleting non-standard user groups. On [<code>librarymakerswiki</code>](https://meta.miraheze.org/wiki/mh:librarymakers), I [created](https://meta.miraheze.org/wiki/mh:librarymakers:Special:Redirect/logid/1787) a `gatekeeper` user group, which now no longer exists. In another case, on [<code>hypotheticalweatherwiki</code>](https://meta.miraheze.org/wiki/mh:hypotheticalweather), [Drew Indigo (nee Hypercane)](https://meta.miraheze.org/wiki/User:Drew_Indigo) had to re-add `rollbacker` to me despite never removing it. I believe these are related and wanted to send a note that this change had breaking effects, so you can highlight this for the Technology Team in terms of potential training gaps (i.e., missed script run, etc.). [Doug](https://meta.miraheze.org/wiki/User:Doug) ([talk](https://meta.miraheze.org/wiki/User_talk:Doug)) 19:46, 22 November 2026 (UTC)
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Noticeboard)**

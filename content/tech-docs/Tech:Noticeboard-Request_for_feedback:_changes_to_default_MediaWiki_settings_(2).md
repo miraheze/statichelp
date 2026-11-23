@@ -31,6 +31,7 @@ Please discuss enabling this option for all wikis that did not change this optio
  `{{ {{Support}} }}` A very useful feature - [Amanda Uranium-Explosion](https://meta.miraheze.org/wiki/User:Amanda_Uranium-Explosion) ([💬](https://meta.miraheze.org/wiki/User_talk:Amanda_Uranium-Explosion)) 19:54, 4 November 2026 (UTC)
  `{{ {{Support}} }}` It's really nice to edit without looking at just a white screen with black text, plus the syntax highligting comes in handy to see what is what and whom is whom. — [🧺 Wicker basket](https://meta.miraheze.org/wiki/User:WickerBasket9) · [📝 Talk](https://meta.miraheze.org/wiki/User_talk:WickerBasket9) · [🗄️ Edits](https://meta.miraheze.org/wiki/Special:Contributions/WickerBasket9) · [📑 Logs](https://meta.miraheze.org/wiki/Special:Log/User:WickerBasket9) · [✅ Verify](https://meta.miraheze.org/wiki/Special:CentralAuth/WickerBasket9) 📆 16:11, 6 November 2026 (UTC)
  `{{ {{Support|strong}} }}` - little reason not to, self explanatory. --[90gq29](https://meta.miraheze.org/wiki/User:90gq29) ([talk](https://meta.miraheze.org/wiki/User_talk:90gq29)) 08:17, 10 November 2026 (UTC)
+ `{{ {{oppose|weak}} }}` per [Unfunktion](https://meta.miraheze.org/wiki/User:Unfunktion)'s comments. The *need* isn't significant enough to make this default. [Doug](https://meta.miraheze.org/wiki/User:Doug) ([talk](https://meta.miraheze.org/wiki/User_talk:Doug)) 19:51, 22 November 2026 (UTC)
 
 ### Discussion 1b 
 
@@ -132,6 +133,14 @@ Please discuss below. [[User:PetraMagna|PetraMagna]] ([[User talk:PetraMagna|tal
 :{{support}} [[User:Jenny on Wiki|Jenny on Wiki]] ([[User talk:Jenny on Wiki|talk]]) 15:16, 24 October 2026 (UTC)
 }} }}
 ```
+
+## Proposal 5: Change default setting for $wgVisualEditorEnableWikitext for VisualEditor extension 
+
+This is a long overdue minor default setting configuration change, and it would *only* apply on wikis that have the [VisualEditor](https://meta.miraheze.org/wiki/mw:Extension:VisualEditor) extension enabled. It does **not** propose to make VisualEditor a global extension (i.e., that is mandatory enabled on all wikis).
+
+The proposal is simple and it is to set `$wgVisualEditorEnableWikitext` to **true** (enabled) on wikis that have it enabled or, when they wish to enable it, to set it to true. The enabling bureaucrat, or equivalent, would still be able to unset the setting.
+
+**Rationale:** Causes significant problems for users who have VisualEditor enabled by default and who use the VisualEditor source editor by default (also called the "2010 wikitext editor") in their [Special:Preferences](https://meta.miraheze.org/wiki/Special:Preferences) or [Special:GlobalPreferences](https://meta.miraheze.org/wiki/Special:GlobalPreferences), forcing them back to CodeEditor or having to disable that editor locally in their preferences. [Doug](https://meta.miraheze.org/wiki/User:Doug) ([talk](https://meta.miraheze.org/wiki/User_talk:Doug)) 19:59, 22 November 2026 (UTC)
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Noticeboard/Request_for_feedback:_changes_to_default_MediaWiki_settings_(2))**

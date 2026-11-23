@@ -268,6 +268,15 @@ The technology team is planning to remove several extensions as a part of the up
 Please go to [Tech:Noticeboard/Request for feedback: changes to default MediaWiki settings](/tech-docs/technoticeboard-request_for_feedback_changes_to_default_mediawiki_settings) to view the proposals and voice your opinions. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 00:47, 24 April 2026 (UTC)
 
    You got it. [DarkMatterMan4500](https://meta.miraheze.org/wiki/User:DarkMatterMan4500) ([talk](https://meta.miraheze.org/wiki/User_talk:DarkMatterMan4500)) ([contribs](https://meta.miraheze.org/wiki/Special:Contributions/DarkMatterMan4500)) 17:02, 16 May 2026 (UTC)
+## Changes to Miraheze's default MediaWiki configuration 
+
+Following a successful [Request for Feedback](/tech-docs/technoticeboard-request_for_feedback_changes_to_default_mediawiki_settings), the Technology Team is making several changes to Miraheze's default MediaWiki configurations. We believe they are a net positive for most wikis. If they do not work well for your wiki, you can change the setting back on ManageWiki. The configuration changes are as follows:
+* `wgNativeImageLazyLoading` is enabled.
+* `wgRestrictDisplayTitle` is disabled.
+* `wgArticleCountMethod` is changed from `link` to `any`.
+* `wgTabberNeueEnableAnimation` is disabled.
+* `wgVectorResponsive` is set to `true` for all new wikis. Existing wikis are unaffected.
+Please note that if you have changed the setting manually on ManageWiki before, it will not be changed by us. [PetraMagna](https://meta.miraheze.org/wiki/User:PetraMagna) ([talk](https://meta.miraheze.org/wiki/User_talk:PetraMagna)) 11:58, 15 June 2026 (UTC)
 
 ----
 **[Go to Source &rarr;](https://meta.miraheze.org/wiki/Tech:Noticeboard/Archive_1)**
