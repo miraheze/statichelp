@@ -4,6 +4,119 @@ title: Tech:Server admin log/2026-11
 
 `{{ {{Server admin log/nav}} }}`
 
+## 2026-11-25 
+
+* 00:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: libzstd1 and zstd
+* 00:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: libzstd-dev, libzstd1, and zstd
+* 00:00 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo211: libzstd1 and zstd
+* 00:00 MirahezeLSBot: [void@puppet181] Upgraded packages on kafka182: libzstd1 and zstd
+
+## 2026-11-24 
+
+* 23:59 MirahezeLSBot: [void@puppet181] Upgraded packages on mem151: libzstd1 and zstd
+* 23:59 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo151: libzstd1 and zstd
+* 23:59 MirahezeLSBot: [void@puppet181] Upgraded packages on ldap171: libzstd1 and zstd
+* 23:59 MirahezeLSBot: [void@puppet181] Upgraded packages on mattermost2: libzstd1 and zstd
+* 23:58 MirahezeLSBot: [void@puppet181] Upgraded packages on cp171: libzstd1 and zstd
+* 23:58 MirahezeLSBot: [void@puppet181] Upgraded packages on db181: libzstd1 and zstd
+* 23:58 MirahezeLSBot: [void@puppet181] Upgraded packages on bast181: libzstd1 and zstd
+* 23:57 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud19: libzstd1 and zstd
+* 23:57 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud21: libzstd1 and zstd
+* 23:57 MirahezeLSBot: [void@puppet181] Upgraded packages on db171: libzstd1 and zstd
+* 23:57 MirahezeLSBot: [void@puppet181] Upgraded packages on cp191: libzstd1 and zstd
+* 23:56 MirahezeLSBot: [void@puppet181] Upgraded packages on db192: libzstd1 and zstd
+* 23:56 MirahezeLSBot: [void@puppet181] Upgraded packages on db151: libzstd1 and zstd
+* 23:56 MirahezeLSBot: [void@puppet181] Upgraded packages on cp201: libzstd1 and zstd
+* 23:55 MirahezeLSBot: [void@puppet181] Upgraded packages on eventgate182: libzstd1 and zstd
+* 23:55 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud17: libzstd1 and zstd
+* 23:55 MirahezeLSBot: [void@puppet181] Upgraded packages on db161: libzstd1 and zstd
+* 23:55 MirahezeLSBot: [void@puppet181] Upgraded packages on changeprop202: libzstd1 and zstd
+* 23:54 MirahezeLSBot: [void@puppet181] Upgraded packages on db201: libzstd1 and zstd
+* 23:54 MirahezeLSBot: [void@puppet181] Upgraded packages on cp161: libzstd1 and zstd
+* 23:54 MirahezeLSBot: [void@puppet181] Upgraded packages on db182: libzstd1 and zstd
+* 23:54 MirahezeLSBot: [void@puppet181] Upgraded packages on db193: libzstd1 and zstd
+* 23:53 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud20: libzstd1 and zstd
+* 23:53 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud18: libzstd1 and zstd
+* 23:53 MirahezeLSBot: [void@puppet181] Upgraded packages on db172: libzstd1 and zstd
+* 23:53 MirahezeLSBot: [void@puppet181] Upgraded packages on bots171: libzstd1 and zstd
+* 23:52 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud15: libzstd1 and zstd
+* 23:52 MirahezeLSBot: [void@puppet181] Upgraded packages on cloud16: libzstd1 and zstd
+* 23:52 MirahezeLSBot: [void@puppet181] Upgraded packages on bast161: libzstd1 and zstd
+* 16:41 @paladox: increase os162 and os202 ram to 10gb
+* 13:42 @paladox: increased db182 disk by 150gb (140gib)
+* 13:34 RhinosF1: reset 103 on cloud18 (db182)
+* 11:58 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': '1.47', 'upgrade_extensions': 'SpamBlacklist'} to all - SUCCESS in 41s (T16610)
+* 11:57 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'versions': '1.47', 'upgrade_extensions': 'SpamBlacklist'} to all (T16610)
+* 10:57 RhinosF1: optimising matomo database
+* 10:51 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'folders': '1.47/skins/Mirage'} to all - SUCCESS in 27s (T16610)
+* 10:51 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'folders': '1.47/skins/Mirage'} to all (T16610)
+* 10:18 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'versions': '1.47', 'upgrade_extensions': ['Comments', 'GlobalWatchlist', 'MobileFrontend', 'Phonos', 'Video', 'WikiForum']} to all - SUCCESS in 47s (T16610)
+* 10:17 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'versions': '1.47', 'upgrade_extensions': ['Comments', 'GlobalWatchlist', 'MobileFrontend', 'Phonos', 'Video', 'WikiForum']} to all (T16610)
+* 10:15 MirahezeLSBot: [petramagna@mwtask171] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php ManageWiki:ToggleExtension --wiki=bluearchivezhwiki --name=speciallycursed --disable (END - exit=255)
+* 09:54 MirahezeLSBot: [waki285@mwtask181] finished deploy of {'folders': '1.47,cache/1.47/gitinfo,cache/1.47/l10n'} to ['mw183', 'mw191', 'mw192', 'mw193', 'mw201', 'mw202', 'mw203', 'mw211', 'mw212', 'mw213', 'mwtask151', 'mwtask161', 'mwtask171'] - SUCCESS in 47s
+* 09:53 MirahezeLSBot: [waki285@mwtask181] Starting deploy of {'folders': '1.47,cache/1.47/gitinfo,cache/1.47/l10n'} to ['mw183', 'mw191', 'mw192', 'mw193', 'mw201', 'mw202', 'mw203', 'mw211', 'mw212', 'mw213', 'mwtask151', 'mwtask161', 'mwtask171']
+* 09:53 MirahezeLSBot: [waki285@mwtask181] finished deploy of {'force': True, 'folders': '1.47,cache/1.47/gitinfo,cache/1.47/l10n'} to ['mw183', 'mw191', 'mw192', 'mw193', 'mw201', 'mw202', 'mw203', 'mw211', 'mw212', 'mw213', 'mwtask151', 'mwtask161', 'mwtask171'] - SUCCESS in 140s
+* 09:51 MirahezeLSBot: [waki285@mwtask181] Starting deploy of {'force': True, 'folders': '1.47,cache/1.47/gitinfo,cache/1.47/l10n'} to ['mw183', 'mw191', 'mw192', 'mw193', 'mw201', 'mw202', 'mw203', 'mw211', 'mw212', 'mw213', 'mwtask151', 'mwtask161', 'mwtask171']
+* 09:50 MirahezeLSBot: [waki285@mwtask181] finished deploy of {'folders': '1.47,cache/1.47/gitinfo,cache/1.47/l10n'} to mw182 - SUCCESS in 12s
+* 09:50 MirahezeLSBot: [waki285@mwtask181] Starting deploy of {'folders': '1.47,cache/1.47/gitinfo,cache/1.47/l10n'} to mw182
+* 09:50 MirahezeLSBot: [waki285@mwtask181] finished deploy of {'folders': '1.47,cache/1.47/gitinfo,cache/1.47/l10n'} to mw181 - SUCCESS in 3s
+* 09:50 MirahezeLSBot: [waki285@mwtask181] Starting deploy of {'folders': '1.47,cache/1.47/gitinfo,cache/1.47/l10n'} to mw181
+* 09:50 MirahezeLSBot: [waki285@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mw181
+* 09:49 MirahezeLSBot: [waki285@mwtask181] Starting deploy of {'folders': '1.47,cache/1.47/gitinfo,cache/1.47/l10n'} to mw181
+* 09:49 MirahezeLSBot: [waki285@mwtask181] finished deploy of {'folders': '1.47,cache/1.47/gitinfo,cache/1.47/l10n'} to mw173 - SUCCESS in 11s
+* 09:49 MirahezeLSBot: [waki285@mwtask181] Starting deploy of {'folders': '1.47,cache/1.47/gitinfo,cache/1.47/l10n'} to mw173
+* 09:49 MirahezeLSBot: [waki285@mwtask181] finished deploy of {'folders': '1.47,cache/1.47/gitinfo,cache/1.47/l10n'} to mw172 - SUCCESS in 11s
+* 09:49 MirahezeLSBot: [waki285@mwtask181] Starting deploy of {'folders': '1.47,cache/1.47/gitinfo,cache/1.47/l10n'} to mw172
+* 09:49 MirahezeLSBot: [waki285@mwtask181] finished deploy of {'folders': '1.47,cache/1.47/gitinfo,cache/1.47/l10n'} to mw171 - SUCCESS in 11s
+* 09:49 MirahezeLSBot: [waki285@mwtask181] Starting deploy of {'folders': '1.47,cache/1.47/gitinfo,cache/1.47/l10n'} to mw171
+* 09:48 MirahezeLSBot: [waki285@mwtask181] Starting deploy of {'folders': '1.47,cache/1.47/gitinfo,cache/1.47/l10n'} to mw163
+* 09:48 MirahezeLSBot: [waki285@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mw163
+* 09:47 MirahezeLSBot: [waki285@mwtask181] Starting deploy of {'folders': '1.47,cache/1.47/gitinfo,cache/1.47/l10n'} to mw163
+* 09:47 MirahezeLSBot: [waki285@mwtask181] finished deploy of {'folders': '1.47,cache/1.47/gitinfo,cache/1.47/l10n'} to mw162 - SUCCESS in 4s
+* 09:47 MirahezeLSBot: [waki285@mwtask181] Starting deploy of {'folders': '1.47,cache/1.47/gitinfo,cache/1.47/l10n'} to mw162
+* 09:43 MirahezeLSBot: [waki285@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mw162
+* 09:42 MirahezeLSBot: [waki285@mwtask181] Starting deploy of {'world': True, 'l10n': True, 'versions': '1.47', 'apply_patches': '1.47'} to all
+* 09:42 MirahezeLSBot: [waki285@mwtask181] finished deploy of {'folders': '1.47,cache/1.47/gitinfo,cache/1.47/l10n'} to mw161 - SUCCESS in 3s
+* 09:42 MirahezeLSBot: [waki285@mwtask181] Starting deploy of {'folders': '1.47,cache/1.47/gitinfo,cache/1.47/l10n'} to mw161
+* 09:35 MirahezeLSBot: [waki285@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@mw161
+* 09:33 MirahezeLSBot: [waki285@mwtask181] Starting deploy of {'world': True, 'l10n': True, 'versions': '1.47', 'apply_patches': '1.47'} to all
+* 09:33 MirahezeLSBot: [waki285@mwtask181] finished deploy of {'force': True, 'force_upgrade': True, 'versions': '1.47', 'upgrade_extensions': 'Linter'} to mwtask181 - SUCCESS in 11s
+* 09:33 MirahezeLSBot: [waki285@mwtask181] Starting deploy of {'force': True, 'force_upgrade': True, 'versions': '1.47', 'upgrade_extensions': 'Linter'} to mwtask181
+* 09:31 MirahezeLSBot: [waki285@mwtask181] DEPLOY ABORTED: Canary check failed for publictestwiki.com@localhost
+* 09:30 MirahezeLSBot: [waki285@mwtask181] Starting deploy of {'pull': 'world', 'world': True, 'l10n': True, 'versions': '1.47', 'apply_patches': '1.47'} to all
+* 09:27 MirahezeLSBot: [waki285@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 09:26 MirahezeLSBot: [waki285@mwtask181] Starting deploy of {'pull': 'world', 'world': True, 'l10n': True, 'versions': '1.47'} to all
+* 09:08 MirahezeLSBot: [waki285@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initSiteStats --wiki=hassentsygwiki --update --active (END - exit=0) (T16609)
+* 09:04 MirahezeLSBot: [waki285@mwtask181] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=xyywiki --json=/home/waki285/1.47.json --force (END - exit=0; time=1s)
+* 09:04 MirahezeLSBot: [waki285@mwtask181] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=xyywiki --json=/home/waki285/1.47.json --force (START)
+* 09:01 MirahezeLSBot: [waki285@mwtask181] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=xyywiki --json=/home/waki285/1.47.json --change-version (END - exit=0; time=2s)
+* 09:00 MirahezeLSBot: [waki285@mwtask181] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=xyywiki --json=/home/waki285/1.47.json --change-version (START)
+* 08:58 MirahezeLSBot: [waki285@mwtask171] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=xyywiki --json=/home/waki285/1.47.json --change-version (END - exit=1; time=3s)
+* 08:58 MirahezeLSBot: [waki285@mwtask171] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=xyywiki --json=/home/waki285/1.47.json --change-version (START)
+* 08:54 MirahezeLSBot: [waki285@mwtask171] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=xyywiki --json=/srv/mediawiki/1.47.json --change-version (END - exit=1; time=1s)
+* 08:54 MirahezeLSBot: [waki285@mwtask171] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=xyywiki --json=/srv/mediawiki/1.47.json --change-version (START)
+* 06:01 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 28s
+* 06:01 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 05:43 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 87s
+* 05:42 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 05:05 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': 'all', 'ignore_time': True} to all - SUCCESS in 237s
+* 05:01 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'l10n': True, 'versions': 'all', 'ignore_time': True} to all
+* 05:01 MirahezeLSBot: [universalomega@mwtask181] DEPLOY ABORTED: Non-Zero Exit Code in prep, see output.
+* 05:01 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'l10n': True, 'versions': 'all'} to all
+* 05:00 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 89s
+* 04:59 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 04:26 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 88s
+* 04:24 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 03:29 MirahezeLSBot: [void@mwtask181] restart mediawiki_job_update-statistics
+* 02:46 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 81s
+* 02:45 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 02:11 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 87s
+* 02:09 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 02:02 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 26s
+* 02:02 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 01:59 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 27s
+* 01:58 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+
 ## 2026-11-23 
 
 * 23:45 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': 'all'} to all - SUCCESS in 84s

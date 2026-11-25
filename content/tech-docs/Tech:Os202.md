@@ -9,7 +9,7 @@ title: Tech:Os202
 | host = os202.fsslc.wtnet
 | usage = OpenSearch
 | status = running
-| memory = 8GB
+| memory = 10GB
 | cpu = 4 cores
 | nvme = 500GB
 | nvme type = U.2

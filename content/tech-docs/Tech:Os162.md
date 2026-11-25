@@ -9,7 +9,7 @@ title: Tech:Os162
 | host = os162.fsslc.wtnet
 | usage = OpenSearch
 | status = running
-| memory = 8GB
+| memory = 10GB
 | cpu = 4 cores
 | nvme = 500GB
 | nvme type = U.2
