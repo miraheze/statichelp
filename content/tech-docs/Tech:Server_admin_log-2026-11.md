@@ -6,6 +6,79 @@ title: Tech:Server admin log/2026-11
 
 ## 2026-11-25 
 
+* 23:55 MirahezeLSBot: [waki285@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=b3313wiki --import-prefix=fandom:b3313 --from=Tenukie --to=TheShekinah (END - exit=0) (T15426)
+* 23:55 MirahezeLSBot: [waki285@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=b3313wiki --import-prefix=fandom:b3313 --from=Tenukie --to=TheShekinah --no-run (END - exit=0) (T15426)
+* 23:54 MirahezeLSBot: [waki285@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CentralAuth:createLocalAccount --wiki=b3313wiki TheShekinah (END - exit=0) (T15426)
+* 19:54 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 97s
+* 19:52 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 18:13 MirahezeLSBot: [somerandomdeveloper@mwtask181] finished deploy of {'versions': 'all', 'upgrade_skins': 'BlueSky'} to all - SUCCESS in 85s (T16509)
+* 18:11 MirahezeLSBot: [somerandomdeveloper@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_skins': 'BlueSky'} to all (T16509)
+* 18:10 MirahezeLSBot: [somerandomdeveloper@test151] finished deploy of {'versions': 'all', 'upgrade_skins': 'BlueSky'} to test151 - SUCCESS in 19s (T16509)
+* 18:10 MirahezeLSBot: [somerandomdeveloper@test151] Starting deploy of {'versions': 'all', 'upgrade_skins': 'BlueSky'} to test151 (T16509)
+* 11:00 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': 'all'} to all - SUCCESS in 90s
+* 10:58 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'l10n': True, 'versions': 'all'} to all
+* 10:58 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 89s
+* 10:56 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 06:16 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 76s
+* 06:15 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 05:52 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 83s
+* 05:51 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 00:39 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 85s
+* 00:38 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 00:15 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject211: libzstd1 and zstd
+* 00:15 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy171: libzstd1 and zstd
+* 00:15 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftproxy161: libzstd1 and zstd
+* 00:15 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject171: libzstd1 and zstd
+* 00:14 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject201: libzstd1 and zstd
+* 00:14 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject181: libzstd1 and zstd
+* 00:14 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject191: libzstd1 and zstd
+* 00:13 MirahezeLSBot: [void@puppet181] Upgraded packages on test151: libzstd-dev, libzstd1, and zstd
+* 00:13 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject161: libzstd1 and zstd
+* 00:13 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftac171: libzstd1 and zstd
+* 00:13 MirahezeLSBot: [void@puppet181] Upgraded packages on speedscope211: libzstd1 and zstd
+* 00:12 MirahezeLSBot: [void@puppet181] Upgraded packages on swiftobject151: libzstd1 and zstd
+* 00:12 MirahezeLSBot: [void@puppet181] Upgraded packages on os191: libzstd1 and zstd
+* 00:12 MirahezeLSBot: [void@puppet181] Upgraded packages on os162: libzstd1 and zstd
+* 00:12 MirahezeLSBot: [void@puppet181] Upgraded packages on os201: libzstd1 and zstd
+* 00:11 MirahezeLSBot: [void@puppet181] Upgraded packages on rdb191: libzstd1 and zstd
+* 00:11 MirahezeLSBot: [void@puppet181] Upgraded packages on os202: libzstd1 and zstd
+* 00:11 MirahezeLSBot: [void@puppet181] Upgraded packages on reports171: libzstd1 and zstd
+* 00:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mw211: libzstd-dev, libzstd1, and zstd
+* 00:10 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask181: libzstd-dev, libzstd1, and zstd
+* 00:10 MirahezeLSBot: [void@puppet181] Upgraded packages on prometheus151: libzstd1 and zstd
+* 00:10 MirahezeLSBot: [void@puppet181] Upgraded packages on os151: libzstd1 and zstd
+* 00:09 MirahezeLSBot: [void@puppet181] Upgraded packages on puppet181: libzstd1 and zstd
+* 00:09 MirahezeLSBot: [void@puppet181] Upgraded packages on os161: libzstd1 and zstd
+* 00:09 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask171: libzstd-dev, libzstd1, and zstd
+* 00:08 MirahezeLSBot: [void@puppet181] Upgraded packages on phorge171: libzstd1 and zstd
+* 00:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask151: libzstd-dev, libzstd1, and zstd
+* 00:08 MirahezeLSBot: [void@puppet181] Upgraded packages on mwtask161: libzstd-dev, libzstd1, and zstd
+* 00:08 MirahezeLSBot: [void@puppet181] Upgraded packages on ns1: libzstd1 and zstd
+* 00:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mw213: libzstd-dev, libzstd1, and zstd
+* 00:07 MirahezeLSBot: [void@puppet181] Upgraded packages on ns2: libzstd1 and zstd
+* 00:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mw212: libzstd-dev, libzstd1, and zstd
+* 00:07 MirahezeLSBot: [void@puppet181] Upgraded packages on mw203: libzstd-dev, libzstd1, and zstd
+* 00:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mw202: libzstd-dev, libzstd1, and zstd
+* 00:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mw201: libzstd-dev, libzstd1, and zstd
+* 00:06 MirahezeLSBot: [void@puppet181] Upgraded packages on mw193: libzstd-dev, libzstd1, and zstd
+* 00:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mw192: libzstd-dev, libzstd1, and zstd
+* 00:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mw183: libzstd-dev, libzstd1, and zstd
+* 00:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mw191: libzstd-dev, libzstd1, and zstd
+* 00:05 MirahezeLSBot: [void@puppet181] Upgraded packages on mem191: libzstd1 and zstd
+* 00:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw181: libzstd-dev, libzstd1, and zstd
+* 00:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw182: libzstd-dev, libzstd1, and zstd
+* 00:04 MirahezeLSBot: [void@puppet181] Upgraded packages on mw163: libzstd-dev, libzstd1, and zstd
+* 00:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw173: libzstd-dev, libzstd1, and zstd
+* 00:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw162: libzstd-dev, libzstd1, and zstd
+* 00:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw172: libzstd-dev, libzstd1, and zstd
+* 00:03 MirahezeLSBot: [void@puppet181] Upgraded packages on mw171: libzstd-dev, libzstd1, and zstd
+* 00:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mw153: libzstd-dev, libzstd1, and zstd
+* 00:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mw161: libzstd-dev, libzstd1, and zstd
+* 00:02 MirahezeLSBot: [void@puppet181] Upgraded packages on mw152: libzstd-dev, libzstd1, and zstd
+* 00:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mem161: libzstd1 and zstd
+* 00:01 MirahezeLSBot: [void@puppet181] Upgraded packages on graylog161: libzstd1 and zstd
+* 00:01 MirahezeLSBot: [void@puppet181] Upgraded packages on llm191: libzstd1 and zstd
+* 00:01 MirahezeLSBot: [void@puppet181] Upgraded packages on mon181: libzstd1 and zstd
 * 00:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mem201: libzstd1 and zstd
 * 00:00 MirahezeLSBot: [void@puppet181] Upgraded packages on mw151: libzstd-dev, libzstd1, and zstd
 * 00:00 MirahezeLSBot: [void@puppet181] Upgraded packages on matomo211: libzstd1 and zstd
