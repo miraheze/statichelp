@@ -22,8 +22,9 @@ In case of any doubts regarding a command or configuration change, MediaWiki Spe
 ## Maintenance scripts 
 
 * They should typically only be run on an mwtask server.
-* Always run them as www-data (prefix command with `sudo -u www-data`).
+* Always run them as www-data (prefix command with `suwd`).
 * Always `!log` maintenance script runs in #miraheze-tech-ops (unless you were running puppet or were using sql.php, and did **not** execute any queries that changed the database (e.g. SELECT/DESCRIBE queries)
+   * Except for matters that must be kept private (such as the deployment of private patches for vulnerabilities).
    * You can optionally use the [mwscript](/tech-docs/techmediawiki_appserver#mwscript) wrapper to automatically log these.
 * If you need to run a script on all wikis, use the *foreachwikiindblist* wrapper:
 * `sudo -u www-data /usr/local/bin/foreachwikiindblist /srv/mediawiki/cache/databases.php /srv/mediawiki/<version>/maintenance/yourscript.php --put-your-parameters --here`
@@ -61,7 +62,7 @@ Follow the instructions at [Tech:Graylog](/tech-docs/techgraylog).
 ## Debugging 
 
 * Look at the [error logs](#monitoring-errors).
-* Either use the [WikiTideDebug](https://github.com/miraheze/WikiTideDebug) extension for Chrome or try to send the failing HTTP request to one of the MediaWiki servers with the header `X-WikiTide-Debug: (mw1[5678][1234]|test151|mwtask1[5678]1).wikitide.net` (replace with the desired server), it could be an error that is cached in [Varnish](/tech-docs/techvarnish) or [Cloudflare](/tech-docs/techcloudflare).
+* Either use the [WikiTideDebug](/tech-docs/techwikitidedebug) extension for Chrome or try to send the failing HTTP request to one of the MediaWiki servers with the header `X-WikiTide-Debug: (mw1[5678][1234]|test151|mwtask1[5678]1).wikitide.net` (replace with the desired server), it could be an error that is cached in [Varnish](/tech-docs/techvarnish) or [Cloudflare](/tech-docs/techcloudflare).
    * `X-WikiTide-Debug` also requires an access key sent via `X-WikiTide-Debug-Access-Key`, unless the request is made from a server from our own internal infrastructure (from one of our own IP ranges). If you don't have this access key, please ask another member of the Technology team.
 * You can also use the [MediaWikiDebugJS](https://github.com/miraheze/MediaWikiDebugJS) extension for Chrome to debug MediaWiki response times, or what backend MediaWiki and/or cache proxy servers you are connecting to.
 

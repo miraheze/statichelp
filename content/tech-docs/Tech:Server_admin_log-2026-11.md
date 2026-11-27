@@ -4,6 +4,71 @@ title: Tech:Server admin log/2026-11
 
 `{{ {{Server admin log/nav}} }}`
 
+## 2026-11-26 
+
+* 23:12 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': 'all'} to all - SUCCESS in 80s
+* 23:11 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'l10n': True, 'versions': 'all'} to all
+* 23:11 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 81s
+* 23:09 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 23:08 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 82s
+* 23:06 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 23:02 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': 'all'} to all - SUCCESS in 116s
+* 23:00 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'l10n': True, 'versions': 'all'} to all
+* 22:59 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': ['ImportDump', 'MirahezeMagic']} to all - SUCCESS in 89s
+* 22:58 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': ['ImportDump', 'MirahezeMagic']} to all
+* 11:57 MirahezeLSBot: [waki285@mwtask181] finished deploy of {'l10n': True, 'force_upgrade': True, 'versions': '1.46', 'upgrade_extensions': 'MirahezeMagic'} to all - SUCCESS in 58s
+* 11:56 MirahezeLSBot: [waki285@mwtask181] Starting deploy of {'l10n': True, 'force_upgrade': True, 'versions': '1.46', 'upgrade_extensions': 'MirahezeMagic'} to all
+* 10:47 MirahezeLSBot: [waki285@mwtask181] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php CentralAuth:RecalculateGlobalEditCountForUsers --wiki=testwiki (END - exit=0) (T16308)
+* 10:47 MirahezeLSBot: [waki285@mwtask181] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php /srv/mediawiki/1.47/extensions/CentralAuth/maintenance/RecalculateGlobalEditCountForUsers.php --wiki=testwiki (END - exit=0) (T16308)
+* 10:46 Waki285: Recounted local edit counts for all users on kardswiki using current and deleted revisions; corrected 18 accounts (T16308)
+* 07:25 MirahezeLSBot: [waki285@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=metawikibeta (END - exit=0)
+* 07:24 MirahezeLSBot: [waki285@test151] finished deploy of {'config': True, 'l10n': True, 'force_upgrade': True, 'versions': '1.47', 'upgrade_extensions': 'MirahezeRequests'} to test151 - SUCCESS in 15s
+* 07:23 MirahezeLSBot: [waki285@test151] Starting deploy of {'config': True, 'l10n': True, 'force_upgrade': True, 'versions': '1.47', 'upgrade_extensions': 'MirahezeRequests'} to test151
+* 07:20 MirahezeLSBot: [waki285@mwtask181] finished deploy of {'l10n': True, 'force_upgrade': True, 'versions': '1.46', 'upgrade_extensions': 'MirahezeRequests'} to all - SUCCESS in 57s
+* 07:19 MirahezeLSBot: [waki285@mwtask181] Starting deploy of {'l10n': True, 'force_upgrade': True, 'versions': '1.46', 'upgrade_extensions': 'MirahezeRequests'} to all
+* 07:12 MirahezeLSBot: [reception@mwtask181] finished deploy of {'l10n': True, 'versions': '1.46'} to all - SUCCESS in 44s
+* 07:11 MirahezeLSBot: [reception@mwtask181] Starting deploy of {'l10n': True, 'versions': '1.46'} to all
+* 07:07 MirahezeLSBot: [waki285@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=metawiki (END - exit=0) (T14935)
+* 07:06 MirahezeLSBot: [waki285@mwtask181] finished deploy of {'config': True, 'force_upgrade': True, 'versions': '1.46', 'upgrade_extensions': 'MirahezeRequests'} to all - SUCCESS in 68s
+* 07:05 MirahezeLSBot: [waki285@mwtask181] Starting deploy of {'config': True, 'force_upgrade': True, 'versions': '1.46', 'upgrade_extensions': 'MirahezeRequests'} to all
+* 07:04 MirahezeLSBot: [waki285@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php sql --wiki=metawiki /srv/mediawiki/1.46/extensions/MirahezeRequests/sql/mysql/tables-generated.sql (END - exit=0) (T14935)
+* 06:52 Waki285: Ran MirahezeMagic:ArchiveMissingSlotRevisions on affected existing 147 pages on metawiki to archive revisions with no slots (T14005)
+* 06:47 MirahezeLSBot: [reception@mwtask181] finished deploy of {'pull': 'config', 'config': True} to all - SUCCESS in 31s
+* 06:47 MirahezeLSBot: [reception@mwtask181] Starting deploy of {'pull': 'config', 'config': True} to all
+* 06:18 MirahezeLSBot: [waki285@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:ArchiveMissingSlotRevisions --wiki=metawiki --page Template:Mbox (END - exit=0)
+* 06:16 MirahezeLSBot: [waki285@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:ArchiveMissingSlotRevisions --wiki=metawiki --page Template:Mbox --dry-run (END - exit=0)
+* 02:34 Waki285: Reassigned 37 current and 9 deleted imported revisions on dfgwikiwiki from seven matching local accounts to reuterwikimit-prefixed actors (T16603)
+* 02:33 MirahezeLSBot: [waki285@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=dfgwikiwiki --import-prefix=reuterwikimit --from=Highwind --to=MartinR (END - exit=0) (T16603)
+* 02:27 MirahezeLSBot: [waki285@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=dfgwikiwiki --import-prefix=reuterwikimit --from=Highwind --to=MartinR --no-run (END - exit=0) (T16603)
+* 02:20 Waki285: Updated the imported ARTIFICER actor on maillewiki to link to its wiki.gg Support account (T15801)
+* 02:17 MirahezeLSBot: [petramagna@test151] finished deploy of {'pr': 6668, 'pr_repo': 'config', 'config': True} to test151 - SUCCESS in 0s (T16424)
+* 02:17 MirahezeLSBot: [petramagna@test151] Starting deploy of {'pr': 6668, 'pr_repo': 'config', 'config': True} to test151 (T16424)
+* 02:15 MirahezeLSBot: [waki285@mwtask181] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php /srv/mediawiki/1.47/extensions/CentralAuth/maintenance/RecalculateGlobalEditCountForUsers.php --wiki=testwiki (END - exit=0) (T16308)
+* 02:10 MirahezeLSBot: [petramagna@mwtask181] finished deploy of {'pull': 'config', 'config': True, 'debug': True} to all - SUCCESS in 28s (T16090)
+* 02:10 MirahezeLSBot: [petramagna@mwtask181] Starting deploy of {'pull': 'config', 'config': True, 'debug': True} to all (T16090)
+* 02:09 MirahezeLSBot: [petramagna@test151] finished deploy of {'pull': 'config', 'config': True} to test151 - SUCCESS in 0s (T16090)
+* 02:09 MirahezeLSBot: [petramagna@test151] Starting deploy of {'pull': 'config', 'config': True} to test151 (T16090)
+* 02:02 Waki285: Corrected local edit counts for three users on kardswiki to include deleted revisions (T16308)
+* 01:59 MirahezeLSBot: [waki285@mwtask181] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=northiawiki --json=/home/waki285/1.47.json --change-version (END - exit=0; time=3s)
+* 01:59 MirahezeLSBot: [waki285@mwtask181] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=northiawiki --json=/home/waki285/1.47.json --change-version (START)
+* 01:55 MirahezeLSBot: [waki285@mwtask181] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=vocaloidlyricswiki --json=/home/waki285/1.47.json --change-version (END - exit=0; time=3s)
+* 01:55 MirahezeLSBot: [waki285@mwtask181] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php MirahezeMagic:UpgradeWiki --wiki=vocaloidlyricswiki --json=/home/waki285/1.47.json --change-version (START)
+* 01:52 MirahezeLSBot: [waki285@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.47', 'upgrade_skins': 'Medik'} to all - SUCCESS in 39s
+* 01:51 MirahezeLSBot: [waki285@mwtask181] Starting deploy of {'force_upgrade': True, 'versions': '1.47', 'upgrade_skins': 'Medik'} to all
+* 01:51 MirahezeLSBot: [waki285@mwtask181] finished deploy of {'force_upgrade': True, 'versions': '1.46', 'upgrade_skins': 'Medik'} to all - SUCCESS in 40s
+* 01:50 MirahezeLSBot: [waki285@mwtask181] Starting deploy of {'force_upgrade': True, 'versions': '1.46', 'upgrade_skins': 'Medik'} to all
+* 01:47 MirahezeLSBot: [waki285@test151] finished deploy of {'force_upgrade': True, 'versions': '1.47', 'upgrade_skins': 'Medik'} to test151 - SUCCESS in 9s
+* 01:47 MirahezeLSBot: [waki285@test151] Starting deploy of {'force_upgrade': True, 'versions': '1.47', 'upgrade_skins': 'Medik'} to test151
+* 01:46 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'force': True, 'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 76s
+* 01:45 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'force': True, 'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+* 01:44 MirahezeLSBot: [waki285@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php recountCategories --wiki=vocaloidlyricswiki --mode=all --skip-cleanup --throttle=100 (END - exit=0) (T16454)
+* 01:36 Waki285: Consolidated the imported Fandyllic and The Earwig attributions on xyywiki, moving three revisions and updating two actor names (T14418)
+* 01:32 Waki285: Normalized 104 imported actor names on xyywiki and verified 350 live revisions under the updated names via the API (T14418)
+* 01:20 Waki285: Reassigned 2,280 live revisions and 341 archived revisions across 73 imported actor mappings on xyywiki (T14418)
+* 01:09 Waki285: Reattributed one archived revision on xyywiki from w\©dev>8nml to fandom:dev>8nml (T14418)
+* 01:01 Waki285: Reassigned 155 current uploads and 12 historical file versions from imported wiki.gg actors to the requested local accounts on maillewiki, and verified the attribution via the API (T15801)
+* 00:06 MirahezeLSBot: [waki285@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php initEditCount --wiki=b3313wiki --background (END - exit=0) (T15426)
+
 ## 2026-11-25 
 
 * 23:55 MirahezeLSBot: [waki285@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:AssignImportedEdits --wiki=b3313wiki --import-prefix=fandom:b3313 --from=Tenukie --to=TheShekinah (END - exit=0) (T15426)
