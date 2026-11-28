@@ -4,6 +4,29 @@ title: Tech:Server admin log/2026-11
 
 `{{ {{Server admin log/nav}} }}`
 
+## 2026-11-27 
+
+* 06:17 MirahezeLSBot: [waki285@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php CreateWiki:SetContainersAccess --wiki=astrohaulerzwiki (END - exit=0) (T16615)
+* 06:09 MirahezeLSBot: [waki285@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --old=astrohaulerswiki --new=astrohaulerzwiki --user=Waki285 --rename (END - exit=0) (T16615)
+* 06:07 MirahezeLSBot: [waki285@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:RenameDatabase --wiki=loginwiki --old=astrohaulerswiki --new=astrohaulerzwiki --user=Waki285 (END - exit=0) (T16615)
+* 06:02 MirahezeLSBot: [waki285@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php MirahezeMagic:ResetWiki --wiki=loginwiki --dbname=robloxstorygamewiki --requester=Greenzilla (END - exit=0) (T16563)
+* 05:44 MirahezeLSBot: [waki285@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php fixDoubleRedirects --wiki=teflpediawiki (END - exit=0) (T16634)
+* 05:43 MirahezeLSBot: [waki285@mwtask181] sudo -u www-data php /srv/mediawiki/1.46/maintenance/run.php fixDoubleRedirects --wiki=teflpediawiki --dry-run (END - exit=0) (T16634)
+* 05:32 Waki285: Linked the existing Redirect fixer actor to local user ID 109 on teflpediawiki (T15796)
+* 05:24 MirahezeLSBot: [waki285@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=metawikibeta (END - exit=0)
+* 05:24 MirahezeLSBot: [waki285@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 05:24 MirahezeLSBot: [waki285@test151] Starting deploy of {'config': True} to test151
+* 05:21 MirahezeLSBot: [waki285@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 05:21 MirahezeLSBot: [waki285@test151] Starting deploy of {'config': True} to test151
+* 05:20 MirahezeLSBot: [waki285@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=metawikibeta (END - exit=0)
+* 05:20 MirahezeLSBot: [waki285@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 05:20 MirahezeLSBot: [waki285@test151] Starting deploy of {'config': True} to test151
+* 05:16 MirahezeLSBot: [waki285@test151] sudo -u www-data php /srv/mediawiki/1.47/maintenance/run.php ManageWiki:ResetWikiCaches --wiki=metawikibeta (END - exit=0)
+* 05:16 MirahezeLSBot: [waki285@test151] finished deploy of {'config': True} to test151 - SUCCESS in 0s
+* 05:16 MirahezeLSBot: [waki285@test151] Starting deploy of {'config': True} to test151
+* 01:40 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all - SUCCESS in 86s
+* 01:39 MirahezeLSBot: [universalomega@mwtask181] Starting deploy of {'versions': 'all', 'upgrade_extensions': 'ImportDump'} to all
+
 ## 2026-11-26 
 
 * 23:12 MirahezeLSBot: [universalomega@mwtask181] finished deploy of {'l10n': True, 'versions': 'all'} to all - SUCCESS in 80s

@@ -11,9 +11,8 @@ One should be careful renaming a wiki (database/domain) as it involves many step
 
 ### Swift 
 
-**Double check Swift**:
-* `. /etc/swift-env.sh`
-* `swift list --prefix miraheze-<old_wiki_db>`
+**Double check Swift**: `suwd bash -c '. /etc/swift-env.sh && swift list --prefix miraheze-<oldwikidb>'`
+
 If anything shows in the above, for each of them:
 * `diff --color <(swift list miraheze-<new_wiki_db>-<zone>) <(swift list miraheze-<old_wiki_db>-<zone>)`
    * <zone> example: `local-public`
